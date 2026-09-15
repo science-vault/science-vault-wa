@@ -1,10 +1,74 @@
 const RESOURCES = [
-  {title:"Collision Theory Revision",year:"Year 10",subject:"Chemistry",type:"Revision",desc:"Sample revision resource covering collision theory and reaction rates.",file:"#"},
-  {title:"Rates of Reaction Worksheet",year:"Year 10",subject:"Chemistry",type:"Worksheet",desc:"Sample worksheet for factors affecting reaction rate.",file:"#"},
-  {title:"Simple Machines Practical",year:"Year 7",subject:"General Science",type:"Practical",desc:"Sample investigation exploring simple machines.",file:"#"},
-  {title:"Circulatory System Revision",year:"Year 8",subject:"Biology",type:"Revision",desc:"Sample revision material on the human circulatory system.",file:"#"},
-  {title:"Motion and Forces Practice",year:"Year 11",subject:"Physics",type:"Worksheet",desc:"Sample senior Physics practice questions.",file:"#"},
-  {title:"Human Biology Practice Test",year:"Year 12",subject:"Human Biology",type:"Test",desc:"Sample test entry ready to be replaced with your own file.",file:"#"},
-  {title:"Scientific Investigation Skills",year:"Year 11",subject:"Science in Practice",type:"Worksheet",desc:"Sample scientific inquiry and investigation skills resource.",file:"#"},
-  {title:"Cells and Body Systems",year:"Year 9",subject:"Biology",type:"Revision",desc:"Sample lower-school Biology revision resource.",file:"#"}
+  {
+    "title": "Collision Theory Revision",
+    "year": "Year 10",
+    "course": "Chemistry",
+    "topic": "Reaction Rates",
+    "type": "Revision",
+    "description": "Sample revision entry. Replace this with a resource you own or have permission to share.",
+    "file": "#"
+  },
+  {
+    "title": "Rates of Reaction Worksheet",
+    "year": "Year 10",
+    "course": "Chemistry",
+    "topic": "Reaction Rates",
+    "type": "Worksheet",
+    "description": "Sample worksheet entry for reaction rates.",
+    "file": "#"
+  },
+  {
+    "title": "Simple Machines Practical",
+    "year": "Year 7",
+    "course": "Year 7 Science",
+    "topic": "Physical Sciences",
+    "type": "Practical",
+    "description": "Sample practical investigation entry.",
+    "file": "#"
+  },
+  {
+    "title": "Circulatory System Revision",
+    "year": "Year 8",
+    "course": "Year 8 Science",
+    "topic": "Biological Sciences",
+    "type": "Revision",
+    "description": "Sample revision entry for body systems.",
+    "file": "#"
+  },
+  {
+    "title": "Motion and Forces Practice",
+    "year": "Year 11",
+    "course": "Physics",
+    "topic": "Motion",
+    "type": "Worksheet",
+    "description": "Sample senior Physics practice resource.",
+    "file": "#"
+  },
+  {
+    "title": "Human Biology Practice Test",
+    "year": "Year 12",
+    "course": "Human Biology",
+    "topic": "Human Biology",
+    "type": "Test",
+    "description": "Sample assessment entry ready to be replaced with your own resource.",
+    "file": "#"
+  },
+  {
+    "title": "Scientific Investigation Skills",
+    "year": "Year 11",
+    "course": "Science in Practice",
+    "topic": "Science Inquiry",
+    "type": "Worksheet",
+    "description": "Sample scientific investigation skills resource.",
+    "file": "#"
+  },
+  {
+    "title": "Cells and Body Systems",
+    "year": "Year 9",
+    "course": "Year 9 Science",
+    "topic": "Biological Sciences",
+    "type": "Revision",
+    "description": "Sample lower-school Biology revision resource.",
+    "file": "#"
+  }
 ];
