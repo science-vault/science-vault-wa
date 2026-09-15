@@ -1,19 +1,19 @@
-# Science Vault WA — Version 2
+# Science Vault WA — Version 3
 
-Replace the files in your existing `science-vault-wa` GitHub repository with these files.
+Version 3 adds the complete ATAR Science navigation structure for the five courses requested:
+Physics, Chemistry, Human Biology, Biology and Psychology.
 
-## What's new
-- Dedicated Year 7, 8, 9 and 10 pages
-- Dedicated WACE Physics, Chemistry, Human Biology and Science in Practice pages
-- Year 11 / Year 12 filtering on WACE pages
-- Search and resource-type filtering
-- Cleaner footer and navigation
-- Central `resources.js` file for adding resources
+Each course contains:
+- Year 11 (Units 1 and 2)
+- Year 12 (Units 3 and 4)
+- topic cards
+- detailed subtopic labels
+- existing searchable resource library
 
-## Adding a file
-1. Upload the resource into the `resources` folder on GitHub.
-2. Edit `resources.js`.
-3. Add/copy a resource entry and set `file` to e.g. `resources/my-file.pdf`.
-4. Commit changes.
+The hierarchy is designed around the current 2026 SCSA course structure. Subtopic labels are concise navigation categories rather than reproductions of syllabus text.
 
-Only publicly distribute resources you created or have permission to share.
+Upload these files over the existing files in your GitHub repository and commit the changes.
+
+
+## Version 4 change
+All displayed ATAR topic cards now include clickable subtopics. Clicking a subtopic automatically searches that course's resource library for the selected subtopic. This gives the site the intended Course → Year → Unit → Topic → Subtopic → Resource workflow.
