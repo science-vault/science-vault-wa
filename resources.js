@@ -1,21 +1,20 @@
-window.SCIENCE_VAULT_RESOURCES = [
+window.SCIENCE_VAULT_RESOURCES=[
   {
     "id": "waves-1-waves-overview-pptx",
     "title": "1. WAVES overview",
     "year": "Year 11",
     "course": "Physics",
     "strand": "",
-    "unit": "Year 11 – Unit 2: Waves, nuclear and electrical physics",
+    "unit": "Unit 2 – Waves, nuclear and electrical physics",
     "topic": "Waves",
     "subtopic": "Wave properties, wave equation and wave graphs",
-    "confidence": "Medium",
     "school": "",
     "type": "PowerPoint",
     "format": "PPTX",
     "answers": false,
-    "file": "resources/Waves/1. WAVES _overview.pptx",
+    "file": "resources/Year 11 Physics/Unit 2 - Waves/1. WAVES _overview.pptx",
     "preview": "",
-    "description": "PowerPoint for Wave properties, wave equation and wave graphs."
+    "description": "PowerPoint resource for Wave properties, wave equation and wave graphs."
   },
   {
     "id": "waves-2-waves-reflectionrefrdiffetc-pptx",
@@ -23,17 +22,16 @@ window.SCIENCE_VAULT_RESOURCES = [
     "year": "Year 11",
     "course": "Physics",
     "strand": "",
-    "unit": "Year 11 – Unit 2: Waves, nuclear and electrical physics",
+    "unit": "Unit 2 – Waves, nuclear and electrical physics",
     "topic": "Waves",
     "subtopic": "Reflection, refraction, diffraction and seismic waves",
-    "confidence": "Review",
     "school": "",
     "type": "PowerPoint",
     "format": "PPTX",
     "answers": false,
-    "file": "resources/Waves/2. WAVES_ReflectionRefrDiffetc.pptx",
+    "file": "resources/Year 11 Physics/Unit 2 - Waves/2. WAVES_ReflectionRefrDiffetc.pptx",
     "preview": "",
-    "description": "PowerPoint for Reflection, refraction, diffraction and seismic waves."
+    "description": "PowerPoint resource for Reflection, refraction, diffraction and seismic waves."
   },
   {
     "id": "waves-3-superposition-interferenceresonance-pptx",
@@ -41,17 +39,16 @@ window.SCIENCE_VAULT_RESOURCES = [
     "year": "Year 11",
     "course": "Physics",
     "strand": "",
-    "unit": "Year 11 – Unit 2: Waves, nuclear and electrical physics",
+    "unit": "Unit 2 – Waves, nuclear and electrical physics",
     "topic": "Waves",
     "subtopic": "Superposition, interference, resonance and standing waves",
-    "confidence": "High",
     "school": "",
     "type": "PowerPoint",
     "format": "PPTX",
     "answers": false,
-    "file": "resources/Waves/3. Superposition InterferenceResonance.pptx",
+    "file": "resources/Year 11 Physics/Unit 2 - Waves/3. Superposition InterferenceResonance.pptx",
     "preview": "",
-    "description": "PowerPoint for Superposition, interference, resonance and standing waves."
+    "description": "PowerPoint resource for Superposition, interference, resonance and standing waves."
   },
   {
     "id": "waves-waves-in-pipe-summary-docx",
@@ -59,17 +56,16 @@ window.SCIENCE_VAULT_RESOURCES = [
     "year": "Year 11",
     "course": "Physics",
     "strand": "",
-    "unit": "Year 11 – Unit 2: Waves, nuclear and electrical physics",
+    "unit": "Unit 2 – Waves, nuclear and electrical physics",
     "topic": "Waves",
     "subtopic": "Standing waves in open and closed pipes",
-    "confidence": "Review",
     "school": "",
     "type": "Notes",
     "format": "DOCX",
     "answers": false,
-    "file": "resources/Waves/Waves in pipe summary.docx",
+    "file": "resources/Year 11 Physics/Unit 2 - Waves/Waves in pipe summary.docx",
     "preview": "",
-    "description": "Notes for Standing waves in open and closed pipes."
+    "description": "Notes resource for Standing waves in open and closed pipes."
   },
   {
     "id": "waves-waves-worksheet-1-docx",
@@ -77,17 +73,16 @@ window.SCIENCE_VAULT_RESOURCES = [
     "year": "Year 11",
     "course": "Physics",
     "strand": "",
-    "unit": "Year 11 – Unit 2: Waves, nuclear and electrical physics",
+    "unit": "Unit 2 – Waves, nuclear and electrical physics",
     "topic": "Waves",
     "subtopic": "Wave properties, wave equation and standing waves",
-    "confidence": "High",
     "school": "",
     "type": "Worksheet",
     "format": "DOCX",
     "answers": false,
-    "file": "resources/Waves/Waves Worksheet 1.docx",
+    "file": "resources/Year 11 Physics/Unit 2 - Waves/Waves Worksheet 1.docx",
     "preview": "",
-    "description": "Worksheet for Wave properties, wave equation and standing waves."
+    "description": "Worksheet resource for Wave properties, wave equation and standing waves."
   },
   {
     "id": "waves-y11-waves-student-review-sheet-pdf",
@@ -95,16 +90,15 @@ window.SCIENCE_VAULT_RESOURCES = [
     "year": "Year 11",
     "course": "Physics",
     "strand": "",
-    "unit": "Year 11 – Unit 2: Waves, nuclear and electrical physics",
+    "unit": "Unit 2 – Waves, nuclear and electrical physics",
     "topic": "Waves",
     "subtopic": "Waves revision",
-    "confidence": "Review",
     "school": "",
     "type": "Revision",
     "format": "PDF",
     "answers": false,
-    "file": "resources/Waves/Y11 Waves student review sheet.pdf",
-    "preview": "resources/Waves/Y11 Waves student review sheet.pdf",
-    "description": "Revision for Waves revision."
+    "file": "resources/Year 11 Physics/Unit 2 - Waves/Y11 Waves student review sheet.pdf",
+    "preview": "resources/Year 11 Physics/Unit 2 - Waves/Y11 Waves student review sheet.pdf",
+    "description": "Revision resource for Waves revision."
   }
 ];

@@ -1,0 +1,301 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Science Vault WA Smart Resource Manager</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#f5f7fb;color:#162033}header{background:#10213f;color:#fff;padding:24px 30px}header h1{margin:0 0 6px}
+main{max-width:1600px;margin:20px auto;padding:0 18px 40px}.panel{background:white;border:1px solid #dce2ea;border-radius:13px;padding:18px;margin-bottom:16px}
+button,.pick{border:0;border-radius:8px;padding:10px 14px;font-weight:700;cursor:pointer;margin:3px}.primary,.pick{background:#2457d6;color:white}.secondary{background:#e8eefc;color:#173d9b}
+input[type=file]{display:none}.hidden{display:none}.muted{color:#657083;font-size:13px}.toolbar{display:flex;gap:7px;align-items:center;flex-wrap:wrap;margin:10px 0}
+.toolbar select,.toolbar input,td select,td input{padding:7px;border:1px solid #ccd4df;border-radius:6px;background:white}#search{min-width:260px}
+.tablewrap{overflow:auto;max-height:62vh;border:1px solid #dce2ea;border-radius:9px}table{border-collapse:collapse;width:max-content;min-width:100%;font-size:12px}th{position:sticky;top:0;background:#eef2f8;z-index:2}th,td{padding:6px;border-bottom:1px solid #e3e7ed;text-align:left}td select{max-width:220px;min-width:135px}td input.title{width:230px}.selected{background:#edf4ff}.badge{display:inline-block;background:#edf2fa;padding:4px 8px;border-radius:999px;font-weight:bold}.bulk{background:#f3f6fb;padding:12px;border-radius:9px;margin:10px 0}
+</style><script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.4.168/pdf.min.mjs" type="module"></script>
+</head><body>
+<header><h1>Science Vault WA — Smart Resource Manager</h1><div>Automatic guessing + curriculum dropdowns + bulk editing • all processing stays in your browser</div></header>
+<main>
+<section class="panel"><h2>1. Select your resource folder</h2>
+<label class="pick" for="folder">Choose Resource Folder</label><input id="folder" type="file" webkitdirectory multiple><label class="badge"><input id="contentAware" type="checkbox" checked> Analyse file contents</label><span id="analysisStatus" class="badge">Ready</span>
+<span id="status">No folder selected.</span><p class="muted">Select a whole subject/year folder. The manager does not upload, rename, move or delete your original files.</p></section>
+
+<section id="work" class="panel hidden"><h2>2. Review and correct</h2>
+<div class="toolbar"><button class="secondary" id="all">Select visible</button><button class="secondary" id="none">Clear selection</button>
+<input id="search" placeholder="Search resources">
+<select id="fCourse"><option value="">All years/courses</option></select>
+<select id="fUnit"><option value="">All strands/units</option></select>
+<select id="fTopic"><option value="">All topics</option></select>
+<select id="fSub"><option value="">All subtopics</option></select>
+<input id="fSchoolSearch" placeholder="Search school name"><select id="fSchool"><option value="">All schools</option></select>
+<select id="fType"><option value="">All resource types</option></select>
+<select id="fFormat"><option value="">All formats</option></select>
+<select id="fAnswers"><option value="">Answers: All</option><option value="yes">With answers/key</option><option value="no">Without answers/key</option></select>
+<button class="secondary" id="resetFilters">Reset filters</button>
+<span class="badge"><span id="n">0</span> matching</span><span id="perfNote" class="badge"></span><span class="badge"><span id="seln">0</span> selected</span></div>
+<div class="bulk"><span class="badge">Bulk: choose Year/Course → Strand/Unit → Topic → Subtopic</span><b>Apply to selected:</b>
+<select id="bCourse"><option value="">Year / Course…</option></select>
+<select id="bUnit"><option value="">Strand / Unit…</option></select>
+<select id="bTopic"><option value="">Topic…</option></select>
+<select id="bSub"><option value="">Subtopic…</option></select>
+<select id="bSchool"><option value="">School…</option></select>
+<select id="bType"><option value="">Resource type…</option><option>PowerPoint</option><option>Worksheet</option><option>Notes</option><option>Revision</option><option>Practical</option><option>Test</option><option>Exam</option><option>Other</option></select>
+<button class="primary" id="apply">Apply</button></div>
+<div class="tablewrap"><table><thead><tr><th>Select</th><th>Title</th><th>Year / Course</th><th>Strand / Unit</th><th>Topic</th><th>Subtopic</th><th>Confidence</th><th>School</th><th>Type</th><th>Format</th><th>Answers</th><th>File</th></tr></thead><tbody id="rows"></tbody></table></div></section>
+
+<section id="export" class="panel hidden"><h2>3. Export</h2><button class="primary" id="csv">Download Catalogue CSV</button><button class="primary" id="js">Download resources.js</button>
+<p class="muted">You only need to correct classifications that are wrong. Use Select + Apply to selected to categorise many files at once.</p></section>
+</main><script>
+
+const TAX={
+"Year 7 Science":{
+ "Biological sciences":{"Classification":["Diversity of life","Classification hierarchy","Characteristics used for classification","Dichotomous keys","Developing classification keys"],"Ecosystems and feeding relationships":["Food chains","Food webs","Producers, consumers and decomposers","Energy flow in ecosystems","Human impacts"]},
+ "Chemical sciences":{"States of matter and particles":["Solids, liquids and gases","Particle arrangement and motion","Changes of state","Adding and removing energy","Particle model"],"Mixtures and separation":["Pure substances and mixtures","Solutions","Physical properties","Sieving","Magnetic separation","Decantation","Filtration","Evaporation","Crystallisation","Chromatography","Distillation"]},
+ "Earth and space sciences":{"Space and the Solar System":["Planets","Stars","Moons","Asteroids and meteoroids","Comets","Constellations","Galaxies","Features of planets"],"Earth, Sun and Moon phenomena":["Lunar phases","Eclipses","Seasons","Tides"]},
+ "Physical sciences":{"Forces and motion":["Balanced and unbalanced forces","Friction","Gravitational force","Magnetic force","Electrostatic force","Force measured in newtons"],"Simple machines":["Mechanical advantage","Levers","Inclined planes","Wheels and axles","Force advantage","Distance advantage","Speed advantage"]},
+ "Science inquiry":{"Science inquiry skills":["Questioning and predicting","Planning and conducting","Processing, modelling and analysing","Evaluating","Communicating","Collaborating and applying"]}
+},
+"Year 8 Science":{
+ "Biological sciences":{"Cells":["Basic unit of life","Microscope","Animal and plant cells","Cell membrane","Cytoplasm","Nucleus","Mitochondria","Cell wall","Chloroplasts","Vacuoles","Organelle functions"],"Plant and animal systems":["Specialised cells, tissues and organs","Gas exchange","Transport systems","Reproductive systems","Flowering plant systems","Vertebrate systems"]},
+ "Chemical sciences":{"Atoms, elements and compounds":["Atoms","Protons, neutrons and electrons","Elements and compounds","Chemical symbols","Chemical formulae","Models"],"Metals, non-metals and chemical change":["Physical properties","Classifying elements","Physical and chemical change","New substances"]},
+ "Earth and space sciences":{"Plate tectonics":["Plate tectonic theory","Divergent boundaries","Convergent boundaries","Transform boundaries","Earthquakes","Volcanoes","Mountain building"],"Rocks, minerals and resources":["Mineral properties","Rock cycle","Igneous rocks","Sedimentary rocks","Metamorphic rocks","Uses and resources"]},
+ "Physical sciences":{"Energy":["Kinetic energy","Potential energy","Energy transfer","Energy transformation"],"Heat transfer":["Conduction","Convection","Radiation","Reflection and absorption"],"Electricity":["Electric circuits","Circuit types","Energy transfer and transformations","Electrical safety"]},
+ "Science inquiry":{"Science inquiry skills":["Questioning and predicting","Planning and conducting","Processing, modelling and analysing","Evaluating","Communicating","Collaborating and applying"]}
+},
+"Year 9 Science":{
+ "Biological sciences":{"Adaptations and responses":["Structural adaptations","Behavioural adaptations","Physiological adaptations","Endotherms and ectotherms","Temperature responses","Tropisms"],"Populations and ecosystems":["Abiotic and biotic factors","Population size","Species diversity","Sampling","Ecological monitoring","Human impacts"]},
+ "Chemical sciences":{"Atomic structure and periodic table":["Atomic number and mass number","Protons, neutrons and electrons","Isotopes","Periodic table organisation","Groups and properties"],"Bonding and compounds":["Electron arrangement","Ionic bonding","Covalent bonding","Ions","Formulae and models"],"Chemical reactions":["Reaction patterns","Precipitation","Acid-base reactions","Acid and metal","Acid and carbonate","Word equations","Balanced equations"]},
+ "Earth and space sciences":{"Global systems":["Biosphere","Lithosphere","Hydrosphere","Atmosphere","Water cycle","Carbon cycle"],"Climate change":["Global climate patterns","Evidence for climate change","Earth system interactions"]},
+ "Physical sciences":{"Sound":["Longitudinal waves","Vibrations","Media","Speed of sound","Reflection"],"Light":["Electromagnetic waves","Photons","Wave and particle properties","Reflection","Mirrors","Refraction","Lenses"]},
+ "Science inquiry":{"Science inquiry skills":["Questioning and predicting","Planning and conducting","Processing, modelling and analysing","Evaluating","Communicating and applying"]}
+},
+"Year 10 Science":{
+ "Biological sciences":{"DNA, genes and cell division":["Chromosomes","Genes","DNA","Mitosis","Meiosis","Chromosome number"],"Inheritance":["Monohybrid inheritance","Genotype and phenotype","Autosomal dominant and recessive","Sex-linked recessive","Pedigrees","Punnett squares"],"Evolution":["Variation","Natural selection","Adaptations","Speciation","Biodiversity"]},
+ "Chemical sciences":{"Rates of reaction":["Reaction rate","Collision theory","Temperature","Concentration","Surface area","Factors affecting reaction rate"],"Chemical reactions and conservation of mass":["Atom rearrangement","New substances","Word equations","Balanced equations","Conservation of mass"]},
+ "Earth and space sciences":{"Universe and stellar evolution":["Big Bang","Galaxies","Planetary systems","Star formation","Life cycle of stars","Effect of stellar mass"],"Space exploration":["Evidence for universe formation","Earth and universe evolution","Space technologies and applications"]},
+ "Physical sciences":{"Motion":["Time and distance","Displacement","Speed","Velocity","Acceleration","Scalar and vector quantities","Vector diagrams"],"Newton's laws":["Newton's first law","Newton's second law","Newton's third law","Force, mass and acceleration","Predicting motion"],"Energy conservation and efficiency":["Conservation of energy","Energy inputs and outputs","Energy transfer and transformation","Efficiency"]},
+ "Science inquiry":{"Science inquiry skills":["Questioning and predicting","Planning and conducting","Processing, modelling and analysing","Evaluating","Communicating and applying"]}
+},
+"Physics":{
+ "Year 11 – Unit 1: Motion, forces and energy":{"Motion":["Position, distance and displacement","Speed and velocity","Acceleration","Motion graphs","Equations of motion"],"Forces and momentum":["Newton's laws","Free-body diagrams","Momentum and impulse","Conservation of momentum","Collisions"],"Work and mechanical energy":["Work","Kinetic energy","Gravitational potential energy","Power","Conservation of energy"],"Thermal physics":["Particle model","Temperature and internal energy","Specific heat capacity","Phase change","Energy transfer"]},
+ "Year 11 – Unit 2: Waves, nuclear and electrical physics":{"Waves":["Wave quantities","Transverse and longitudinal waves","Reflection and refraction","Superposition and interference","Sound"],"Nuclear physics":["Atomic nucleus","Radioactive decay","Half-life","Nuclear reactions","Mass-energy"],"Electricity":["Charge and current","Potential difference","Resistance and Ohm's law","Series and parallel circuits","Electrical power and energy","Circuit analysis"]},
+ "Year 12 – Unit 3: Gravity and relativity":{"Gravity and relativity":["Static equilibrium and centre of mass","Circular motion","Gravitation and gravitational fields","Satellite motion","Special relativity","General relativity"]},
+ "Year 12 – Unit 4: Electromagnetism and modern physics":{"Electromagnetism and modern physics":["Electric and magnetic fields","Electromagnetic induction","Electromagnetic applications","Quantum physics","Atomic physics","Modern physics"]}
+},
+"Chemistry":{
+ "Year 11 – Unit 1: Chemical fundamentals":{"Atoms and elements":["Atomic structure","Isotopes","Relative atomic mass","Mass spectrometry","Electron configurations","Periodic trends"],"Bonding and structure":["Ionic bonding","Covalent bonding","Metallic bonding","Lewis structures","Molecular shapes and polarity","Material properties"],"Chemical reactions":["Formulae and equations","Reaction types","Precipitation","Acid reactions","Redox foundations"],"Quantitative chemistry":["Mole","Molar mass","Stoichiometry","Limiting reagents","Percentage yield","Empirical and molecular formulae"]},
+ "Year 11 – Unit 2: Molecular interactions and reactions":{"Molecular interactions":["Intermolecular forces","Properties and structure"],"Solutions":["Solubility","Concentration","Solution calculations"],"Energy changes":["Exothermic and endothermic reactions","Enthalpy"],"Reaction behaviour":["Collision theory","Reaction rates","Factors affecting rate","Reversible reactions","Equilibrium foundations"]},
+ "Year 12 – Unit 3: Equilibrium, acids and bases, and redox reactions":{"Equilibrium":["Reversible reactions","Dynamic equilibrium","Equilibrium constant","Reaction quotient","Le Chatelier's principle","Industrial systems"],"Acids and bases":["Bronsted-Lowry theory","Conjugate pairs","Strong and weak acids and bases","pH and pOH","Ka","Buffers"],"Volumetric analysis":["Standard solutions","Titrations","Titration calculations","Indicators and equivalence"],"Redox":["Oxidation numbers","Half-equations","Balancing redox equations","Oxidising and reducing agents"],"Electrochemistry":["Galvanic cells","Standard electrode potentials","Cell potential","Electrolytic cells","Electrolysis"]},
+ "Year 12 – Unit 4: Organic chemistry and chemical synthesis":{"Organic structure":["Hydrocarbons","Functional groups","Nomenclature","Isomers","Physical properties"],"Organic reactions":["Alkanes and alkenes","Alcohols","Carboxylic acids","Esters","Amines and amides","Reaction types"],"Polymers":["Addition polymers","Condensation polymers"],"Chemical synthesis":["Synthetic pathways","Yield and atom economy","Green chemistry","Industrial synthesis"],"Chemical analysis":["Spectroscopy","Structural identification","Chemical tests","Analytical evidence"]}
+},
+"Human Biology":{
+ "Year 11 – Unit 1: The functioning human body":{"Body systems":["Cells and tissues","Digestive system","Respiratory system","Circulatory system","Urinary system","Musculoskeletal system"]},
+ "Year 11 – Unit 2: Reproduction and inheritance":{"Reproduction and inheritance":["Human reproduction","Pregnancy and development","DNA and chromosomes","Inheritance","Reproductive technologies"]},
+ "Year 12 – Unit 3: Homeostasis and disease":{"Homeostasis and disease":["Nervous system","Endocrine system","Homeostasis","Pathogens and disease","Immunity"]},
+ "Year 12 – Unit 4: Human variation and evolution":{"Human variation and evolution":["Human genetic variation","Population genetics","Evidence for evolution","Hominin evolution","Human populations"]}
+},
+"Biology":{
+ "Year 11 – Unit 1: Ecosystems and biodiversity":{"Ecosystems and biodiversity":["Ecosystem structure","Energy and matter","Population ecology","Biodiversity","Ecosystem change","Fieldwork"]},
+ "Year 11 – Unit 2: From single cells to multicellular organisms":{"Cells and organisms":["Cell structure","Cell membranes","Cell metabolism","Multicellular organisation","Transport systems"]},
+ "Year 12 – Unit 3: Continuity of species":{"Continuity of species":["DNA and gene expression","Cell division","Inheritance","Gene technologies","Population genetics and evolution"]},
+ "Year 12 – Unit 4: Surviving in a changing environment":{"Surviving in a changing environment":["Homeostasis","Pathogens","Plant and animal defences","Immune responses","Epidemiology","Environmental change"]}
+},
+"Psychology":{
+ "Year 11 – Unit 1: Biological and lifespan psychology":{"Biological and lifespan psychology":["Introduction to psychology","Biological psychology","Lifespan development","Science inquiry"]},
+ "Year 11 – Unit 2: Attitudes, stereotypes and social influence":{"Social psychology":["Attitudes","Social cognition","Prejudice and discrimination","Social influence","Science inquiry"]},
+ "Year 12 – Unit 3: Memory and learning":{"Memory and learning":["Sensation, perception and attention","Memory","Forgetting","Classical conditioning","Operant conditioning","Social learning","Science inquiry"]},
+ "Year 12 – Unit 4: Psychology of motivation, wellbeing and health":{"Motivation, wellbeing and health":["Motivation","Wellbeing","Stress","Sleep","Health psychology","Science inquiry"]}
+}};
+
+const WA_SCHOOLS=["Al-Ameen College", "Albany Secondary Education Support Centre", "Albany Senior High School", "Alkimos Baptist College", "Alkimos College", "All Saints' College", "Alta-1 College", "Alta-1 Kimberley College", "Applecross Senior High School", "Aquinas College", "Aranmore Catholic College", "Armadale Education Support Centre", "Armadale Senior High School", "Ashdale Secondary College", "Atlantis Beach Baptist College", "Atwell College", "Austin Cove Baptist College", "Australian Christian College - Darling Downs", "Australian Christian College - Southlands", "Australian Islamic College Forrestdale", "Australian Islamic College Henley Brook", "Australian Islamic College Kewdale", "Australind Senior High School", "Aveley Secondary College", "Avonvale Education Support Centre", "Balcatta Senior High School", "Baldivis Secondary College", "Balga Senior High School", "Ballajura Community College", "Bayulu Remote Community School", "Belmont City College", "Belridge Secondary College", "Belridge Secondary Education Support Centre", "Bethel Christian School", "Beverley District High School", "Bob Hawke College", "Boddington District High School", "Bold Park Community School", "Boyup Brook District High School", "Bridgetown High School", "Brookton District High School", "Broome Senior High School", "Bruce Rock District High School", "Bullsbrook College", "Bunbury Baptist College", "Bunbury Catholic College", "Bunbury Senior High School", "Busselton Senior High School", "Butler College", "Byford Secondary College", "Canning College", "Canning Vale College", "Cannington Community College", "Cape Naturaliste College", "Carine Senior High School", "Carmel Adventist College", "Carmel School", "Carnarvon Community College", "CBC Fremantle", "Cecil Andrews College", "Central Midlands Senior High School", "Champion Bay Senior High School", "Christ Church Grammar School", "Christian Aboriginal Parent-Directed School", "Churchlands Senior High School", "Clontarf Aboriginal College", "Coastal Lakes College", "Cocos Islands District High School", "Collie Senior High School", "Comet Bay College", "Community School of Auress", "Como Secondary College", "Coodanup College", "Corpus Christi College", "Corrigin District High School", "Court Grammar School", "Cunderdin District High School", "Dalwallinu District High School", "Dalyellup College", "Darling Range Sports College", "Denmark Senior High School", "Derby District High School", "Dianella Secondary College", "Dianella Secondary College Education Support Centre", "Divine Mercy College", "Dongara District High School", "Donnybrook District High School", "Duncraig Senior High School", "Eastern Hills Senior High School", "Eaton Community College", "Ellenbrook Christian College", "Ellenbrook Secondary College", "Emmanuel Catholic College", "Esperance Anglican Community School", "Esperance Senior High School", "Exmouth District High School", "Fitzroy Valley District High School", "Foundation Christian College", "Frederick Irwin Anglican School", "Fremantle College", "Geraldton Christian College", "Geraldton Senior High School", "Gilmore College", "Gingin District High School", "Goldfields Baptist College", "Governor Stirling Senior High School", "Great Southern Grammar", "Greenwood College", "Guildford Grammar School", "Halls Creek District High School", "Halls Head College", "Hampton Senior High School", "Harrisdale Senior High School", "Harvey Senior High School", "Hedland Senior High School", "Helena College", "Holy Cross College", "Hope Christian College", "Iona Presentation College", "Irene McCormack Catholic College", "John Calvin Christian College", "John Curtin College of the Arts", "John Forrest Secondary College", "John Paul College", "John Septimus Roe Anglican Community School", "John Tonkin College", "Joseph Banks Secondary College", "Kalamunda Senior High School", "Kalbarri District High School", "Kalgoorlie-Boulder Community High School", "Karratha Senior High School", "Katanning Senior High School", "Kellerberrin District High School", "Kelmscott Senior High School", "Kent Street Senior High School", "Kingsway Christian College", "Kinross College", "Kojonup District High School", "Kolbe Catholic College", "Kulin District High School", "Kununurra District High School", "La Salle College", "Lake Grace District High School", "Lakeland Senior High School", "Lancelin District High School", "Leeming Senior High School", "Lesmurdie Senior High School", "Living Waters Lutheran College", "Lumen Christi College", "Lynwood Senior High School", "Mandurah Baptist College", "Mandurah Catholic College", "Mandurah Senior College", "Manea Senior College", "Manjimup Senior High School", "Margaret River Senior High School", "Marian Catholic College", "Mazenod College", "Melville Senior High School", "Mercedes College", "Merredin College", "Methodist Ladies' College", "Mindarie Senior College", "Moora College", "Morawa District High School", "Morley Senior High School", "Mount Barker Community College", "Mount Lawley Senior High School", "Mukinbudin District High School", "Mullewa District High School", "Mundaring Christian College", "Nagle Catholic College", "Narrogin Senior High School", "Newman Senior High School", "Newton Moore Education Support Centre", "Newton Moore Senior High School", "Nollamara Christian Academy", "Norbert College", "North Albany Senior High School", "Northam Senior High School", "Northshore Christian Grammar School", "Ocean Reef Senior High School", "Our Lady of Mercy College", "Peter Carnley Anglican Community School", "Pinjarra Senior High School", "Prendiville Catholic College", "Quairading District High School", "Quinns Baptist College", "Ravensthorpe District High School", "Rehoboth Christian College", "Rockingham Senior High School", "Rossmoyne Senior High School", "Sacred Heart College", "Safety Bay Senior High School", "School of Isolated and Distance Education", "Scotch College", "Serpentine Jarrahdale Grammar School", "Sevenoaks Senior College", "Shenton College", "South Coast Baptist College", "Southern Hills Christian College", "Southern River College", "St Andrew's Catholic College", "St Brigid's College", "St George's Anglican Grammar School", "St Hilda's Anglican School for Girls", "St James' Anglican School", "St Joseph's College Albany", "St Luke's College", "St Mark's Anglican Community School", "St Mary's Anglican Girls' School", "St Mary's College Broome", "St Norbert College", "St Stephen's School", "Strelley Community School", "Swan Christian College", "Swan View Senior High School", "The King's College", "The Montessori School Kingsley", "The University of Western Australia - Albany Centre School Program", "Thornlie Senior High School", "Tom Price Senior High School", "Tranby College", "TSH (Teach, Speak, Hear)", "Ursula Frayne Catholic College", "Wanneroo Secondary College", "Warwick Senior High School", "Wesley College", "Western Australian College of Agriculture - Cunderdin", "Western Australian College of Agriculture - Denmark", "Western Australian College of Agriculture - Harvey", "Western Australian College of Agriculture - Morawa", "Western Australian College of Agriculture - Narrogin", "Willetton Senior High School", "Wongan Hills District High School", "Woodvale Secondary College", "Wyalkatchem District High School", "Yanchep Secondary College", "Yandeyarra Remote Community School", "Yiramalay/Wesley Studio School", "York District High School", "Other / school not listed"];
+const CONTENT_RULES=[{"course": "Year 12 Chemistry", "unit": "Unit 3 – Equilibrium, acids and bases, and redox reactions", "topic": "Equilibrium", "sub": "Le Châtelier's principle", "terms": ["le chatelier", "equilibrium constant", "reaction quotient", "dynamic equilibrium", "kc", "equilibrium position"]}, {"course": "Year 12 Chemistry", "unit": "Unit 3 – Equilibrium, acids and bases, and redox reactions", "topic": "Acids and bases", "sub": "pH and acid-base equilibria", "terms": ["bronsted", "conjugate acid", "conjugate base", "ka", "pka", "buffer", "ph", "poh", "strong acid", "weak acid"]}, {"course": "Year 12 Chemistry", "unit": "Unit 3 – Equilibrium, acids and bases, and redox reactions", "topic": "Volumetric analysis", "sub": "Titration", "terms": ["titration", "titre", "aliquot", "equivalence point", "standard solution", "primary standard", "indicator"]}, {"course": "Year 12 Chemistry", "unit": "Unit 3 – Equilibrium, acids and bases, and redox reactions", "topic": "Electrochemistry", "sub": "Electrolysis", "terms": ["electrolysis", "electrolytic", "downs cell", "faraday", "molten electrolyte", "electroplating"]}, {"course": "Year 12 Chemistry", "unit": "Unit 3 – Equilibrium, acids and bases, and redox reactions", "topic": "Redox", "sub": "Galvanic cells", "terms": ["galvanic", "voltaic", "standard electrode potential", "cell potential", "salt bridge", "anode", "cathode", "half cell"]}, {"course": "Year 12 Chemistry", "unit": "Unit 4 – Organic chemistry and chemical synthesis", "topic": "Organic reactions", "sub": "Esters and esterification", "terms": ["esterification", "ester", "carboxylic acid", "alcohol", "condensation reaction"]}, {"course": "Year 12 Chemistry", "unit": "Unit 4 – Organic chemistry and chemical synthesis", "topic": "Organic structure", "sub": "Functional groups and nomenclature", "terms": ["functional group", "homologous series", "nomenclature", "structural isomer", "alkane", "alkene", "alcohol", "amine", "amide"]}, {"course": "Year 12 Chemistry", "unit": "Unit 4 – Organic chemistry and chemical synthesis", "topic": "Polymers", "sub": "Addition and condensation polymers", "terms": ["polymer", "monomer", "addition polymer", "condensation polymer", "polyester", "polyamide"]}, {"course": "Year 11 Chemistry", "unit": "Unit 1 – Chemical fundamentals: structure, properties and reactions", "topic": "Quantitative chemistry", "sub": "Stoichiometry", "terms": ["stoichiometry", "mole", "molar mass", "limiting reagent", "empirical formula", "molecular formula", "percentage yield"]}, {"course": "Year 11 Chemistry", "unit": "Unit 1 – Chemical fundamentals: structure, properties and reactions", "topic": "Bonding and structure", "sub": "Chemical bonding", "terms": ["ionic bonding", "covalent bonding", "metallic bonding", "lewis structure", "electron dot", "electronegativity", "molecular shape"]}, {"course": "Year 11 Chemistry", "unit": "Unit 2 – Molecular interactions and reactions", "topic": "Intermolecular forces", "sub": "Intermolecular forces", "terms": ["intermolecular", "hydrogen bonding", "dipole dipole", "dispersion forces", "boiling point", "polarity"]}, {"course": "Year 11 Chemistry", "unit": "Unit 2 – Molecular interactions and reactions", "topic": "Reaction behaviour", "sub": "Rates of reaction", "terms": ["collision theory", "reaction rate", "activation energy", "catalyst", "surface area", "concentration"]}, {"course": "Year 11 Physics", "unit": "Unit 1 – Motion, forces and energy", "topic": "Motion", "sub": "Linear motion", "terms": ["displacement", "velocity", "acceleration", "kinematic", "motion graph", "distance time", "velocity time"]}, {"course": "Year 11 Physics", "unit": "Unit 1 – Motion, forces and energy", "topic": "Forces and momentum", "sub": "Newton's laws", "terms": ["newton's law", "newtons law", "free body diagram", "resultant force", "momentum", "impulse"]}, {"course": "Year 11 Physics", "unit": "Unit 1 – Motion, forces and energy", "topic": "Work and mechanical energy", "sub": "Work, energy and power", "terms": ["kinetic energy", "gravitational potential", "work done", "mechanical energy", "power"]}, {"course": "Year 11 Physics", "unit": "Unit 2 – Waves, nuclear and electrical physics", "topic": "Waves", "sub": "Wave behaviour", "terms": ["wavelength", "frequency", "wave speed", "superposition", "interference", "standing wave", "sound wave"]}, {"course": "Year 11 Physics", "unit": "Unit 2 – Waves, nuclear and electrical physics", "topic": "Nuclear physics", "sub": "Radioactivity and nuclear reactions", "terms": ["radioactive", "half life", "alpha decay", "beta decay", "gamma", "nuclear reaction", "binding energy"]}, {"course": "Year 11 Physics", "unit": "Unit 2 – Waves, nuclear and electrical physics", "topic": "Electricity", "sub": "Electrical circuits", "terms": ["ohm", "resistance", "potential difference", "electric current", "series circuit", "parallel circuit", "kirchhoff"]}, {"course": "Year 12 Physics", "unit": "Unit 3 – Gravity and relativity", "topic": "Circular motion", "sub": "Circular motion", "terms": ["centripetal", "circular motion", "angular velocity", "banked"]}, {"course": "Year 12 Physics", "unit": "Unit 3 – Gravity and relativity", "topic": "Gravitation and gravitational fields", "sub": "Gravitation", "terms": ["gravitational field", "newton universal gravitation", "orbital", "satellite", "kepler"]}, {"course": "Year 12 Physics", "unit": "Unit 3 – Gravity and relativity", "topic": "Special relativity", "sub": "Special relativity", "terms": ["special relativity", "time dilation", "length contraction", "lorentz", "relativistic"]}, {"course": "Year 12 Physics", "unit": "Unit 3 – Gravity and relativity", "topic": "General relativity", "sub": "General relativity", "terms": ["general relativity", "spacetime", "gravitational time dilation", "equivalence principle"]}, {"course": "Year 12 Physics", "unit": "Unit 4 – Electromagnetism and modern physics", "topic": "Electromagnetism", "sub": "Electromagnetic induction", "terms": ["electromagnetic induction", "faraday's law", "lenz", "magnetic flux", "transformer", "induced emf"]}, {"course": "Year 12 Physics", "unit": "Unit 4 – Electromagnetism and modern physics", "topic": "Modern physics", "sub": "Quantum and atomic physics", "terms": ["photoelectric", "photon", "de broglie", "quantum", "atomic spectra", "energy level"]}, {"course": "Year 12 Human Biology", "unit": "Unit 3 – Homeostasis and disease", "topic": "Homeostasis", "sub": "Homeostatic control", "terms": ["homeostasis", "negative feedback", "thermoregulation", "osmoregulation", "blood glucose"]}, {"course": "Year 12 Human Biology", "unit": "Unit 3 – Homeostasis and disease", "topic": "Nervous system", "sub": "Nervous coordination", "terms": ["neuron", "synapse", "action potential", "central nervous", "peripheral nervous", "reflex"]}, {"course": "Year 12 Human Biology", "unit": "Unit 3 – Homeostasis and disease", "topic": "Endocrine system", "sub": "Hormonal coordination", "terms": ["endocrine", "hormone", "pituitary", "thyroid", "insulin", "glucagon"]}, {"course": "Year 12 Human Biology", "unit": "Unit 3 – Homeostasis and disease", "topic": "Pathogens and disease", "sub": "Immunity", "terms": ["pathogen", "antibody", "antigen", "immune response", "vaccination", "lymphocyte"]}, {"course": "Year 12 Human Biology", "unit": "Unit 4 – Human variation and evolution", "topic": "Human evolution", "sub": "Hominin evolution", "terms": ["hominin", "hominid", "bipedal", "australopithecus", "homo erectus", "human evolution"]}, {"course": "Year 11 Human Biology", "unit": "Unit 1 – The functioning human body", "topic": "Body systems", "sub": "Circulatory system", "terms": ["circulatory", "heart", "blood vessel", "artery", "vein", "capillary"]}, {"course": "Year 11 Human Biology", "unit": "Unit 1 – The functioning human body", "topic": "Body systems", "sub": "Respiratory system", "terms": ["respiratory", "alveoli", "gas exchange", "ventilation", "lung"]}, {"course": "Year 11 Human Biology", "unit": "Unit 2 – Reproduction and inheritance", "topic": "Inheritance", "sub": "Genetics and inheritance", "terms": ["pedigree", "punnett", "genotype", "phenotype", "inheritance", "chromosome", "allele"]}, {"course": "Year 11 Human Biology", "unit": "Unit 2 – Reproduction and inheritance", "topic": "Reproduction", "sub": "Human reproduction", "terms": ["menstrual cycle", "spermatogenesis", "oogenesis", "fertilisation", "pregnancy", "placenta"]}, {"course": "Year 11 Biology", "unit": "Unit 1 – Ecosystems and biodiversity", "topic": "Ecosystems", "sub": "Ecosystem structure and function", "terms": ["ecosystem", "biotic", "abiotic", "food web", "trophic", "population ecology", "biodiversity"]}, {"course": "Year 11 Biology", "unit": "Unit 2 – From single cells to multicellular organisms", "topic": "Cells", "sub": "Cell structure and function", "terms": ["cell membrane", "organelle", "mitochondria", "ribosome", "cell structure"]}, {"course": "Year 11 Biology", "unit": "Unit 2 – From single cells to multicellular organisms", "topic": "Transport systems", "sub": "Transport in organisms", "terms": ["xylem", "phloem", "transpiration", "transport system", "exchange surface"]}, {"course": "Year 12 Biology", "unit": "Unit 3 – Continuity of species", "topic": "DNA and gene expression", "sub": "DNA and protein synthesis", "terms": ["dna replication", "transcription", "translation", "gene expression", "protein synthesis", "codon"]}, {"course": "Year 12 Biology", "unit": "Unit 3 – Continuity of species", "topic": "Gene technologies", "sub": "Biotechnology", "terms": ["pcr", "gel electrophoresis", "dna profiling", "recombinant dna", "crispr", "gene technology"]}, {"course": "Year 12 Biology", "unit": "Unit 4 – Surviving in a changing environment", "topic": "Disease", "sub": "Pathogens and epidemiology", "terms": ["epidemiology", "pathogen", "transmission", "disease outbreak", "immune response"]}, {"course": "Year 11 Psychology", "unit": "Unit 1 – Biological and lifespan psychology", "topic": "Biological psychology", "sub": "Biological bases of behaviour", "terms": ["neuron", "neurotransmitter", "brain structure", "nervous system", "biological psychology"]}, {"course": "Year 11 Psychology", "unit": "Unit 1 – Biological and lifespan psychology", "topic": "Lifespan development", "sub": "Development across the lifespan", "terms": ["lifespan", "developmental stage", "attachment", "cognitive development", "social development"]}, {"course": "Year 11 Psychology", "unit": "Unit 2 – Attitudes, stereotypes and social influence", "topic": "Social influence", "sub": "Conformity and obedience", "terms": ["conformity", "obedience", "social influence", "group pressure"]}, {"course": "Year 11 Psychology", "unit": "Unit 2 – Attitudes, stereotypes and social influence", "topic": "Attitudes and stereotypes", "sub": "Attitudes and stereotypes", "terms": ["attitude", "stereotype", "prejudice", "discrimination"]}, {"course": "Year 12 Psychology", "unit": "Unit 3 – Memory and learning", "topic": "Memory", "sub": "Models and processes of memory", "terms": ["working memory", "long term memory", "short term memory", "encoding", "retrieval", "forgetting"]}, {"course": "Year 12 Psychology", "unit": "Unit 3 – Memory and learning", "topic": "Learning", "sub": "Conditioning and learning", "terms": ["classical conditioning", "operant conditioning", "reinforcement", "punishment", "social learning"]}, {"course": "Year 12 Psychology", "unit": "Unit 4 – Psychology of motivation, wellbeing and health", "topic": "Motivation", "sub": "Motivation", "terms": ["motivation", "intrinsic", "extrinsic", "goal setting"]}, {"course": "Year 12 Psychology", "unit": "Unit 4 – Psychology of motivation, wellbeing and health", "topic": "Wellbeing and health", "sub": "Stress, sleep and wellbeing", "terms": ["wellbeing", "stress", "coping", "sleep", "health psychology"]}];
+const SUP={pdf:"PDF",docx:"DOCX",doc:"DOC",pptx:"PPTX",ppt:"PPT",xlsx:"XLSX",xls:"XLS",png:"PNG",jpg:"JPG",jpeg:"JPG",txt:"TXT",md:"MD",zip:"ZIP"};
+let R=[];
+const $=x=>document.getElementById(x), esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const clean=s=>s.replace(/[_-]+/g," ").replace(/\s+/g," ").trim();
+function guessCourse(t){for(const c of Object.keys(TAX)){if(c.includes("Year ")&&t.match(new RegExp(c.replace(" Science","").replace("Year ","(year|yr|y)\\s*"),"i")))return c;}
+if(/human biology|human bio|hbio/i.test(t))return"Human Biology";if(/psychology|psych/i.test(t))return"Psychology";if(/chemistry|chem/i.test(t))return"Chemistry";if(/physics/i.test(t))return"Physics";if(/biology/i.test(t))return"Biology";return""}
+function guessType(t,e){if(/pptx?|powerpoint|slides/i.test(e+" "+t))return"PowerPoint";if(/exam/i.test(t))return"Exam";if(/test|quiz|assessment/i.test(t))return"Test";if(/prac|experiment|investigation|lab/i.test(t))return"Practical";if(/revision|review|study|i can/i.test(t))return"Revision";if(/notes|summary/i.test(t))return"Notes";if(/worksheet|questions|activity|booklet/i.test(t))return"Worksheet";return"Other"}
+function bestTax(t,c){let unit="",topic="",sub="",score=0;if(!TAX[c])return{unit,topic,sub};for(const [u,ts] of Object.entries(TAX[c]))for(const [tp,ss] of Object.entries(ts)){for(const s of [u,tp,...ss]){let q=s.toLowerCase().replace(/[’']/g,"");if(q.length>3&&t.includes(q)&&q.length>score){score=q.length;unit=u;topic=tp;sub=ss.includes(s)?s:""}}}return{unit,topic,sub}}
+function opts(arr,v,blank="—"){return `<option value="">${blank}</option>`+arr.map(x=>`<option ${x===v?"selected":""}>${esc(x)}</option>`).join("")}
+function sync(){document.querySelectorAll("[data-i]").forEach(e=>{let r=R[+e.dataset.i],k=e.dataset.k;if(k==="selected"||k==="answers")r[k]=e.checked;else r[k]=e.value})}
+function row(i,r){let units=Object.keys(TAX[r.course]||{}),topics=Object.keys((TAX[r.course]||{})[r.unit]||{}),subs=((TAX[r.course]||{})[r.unit]||{})[r.topic]||[];
+return `<tr class="${r.selected?"selected":""}"><td><input type=checkbox data-i=${i} data-k=selected ${r.selected?"checked":""}></td>
+<td><input class=title data-i=${i} data-k=title value="${esc(r.title)}"></td>
+<td><select data-i=${i} data-k=course>${opts(Object.keys(TAX),r.course)}</select></td>
+<td><select data-i=${i} data-k=unit>${opts(units,r.unit)}</select></td>
+<td><select data-i=${i} data-k=topic>${opts(topics,r.topic)}</select></td>
+<td><select data-i=${i} data-k=subtopic>${opts(subs,r.subtopic)}</select></td>
+<td><span class="badge">${esc(r.confidence||"Review")}</span></td><td><select class="school-select" data-i="${i}" data-k="school" data-current="${esc(r.school||"")}"><option value="${esc(r.school||"")}">${esc(r.school||"— School —")}</option></select></td><td><select data-i=${i} data-k=type>${opts(["PowerPoint","Worksheet","Notes","Revision","Practical","Test","Exam","Other"],r.type)}</select></td>
+<td>${r.format}</td><td><input type=checkbox data-i=${i} data-k=answers ${r.answers?"checked":""}></td><td>${esc(r.rel)}</td></tr>`}
+function filterOK(r){
+let q=$("search").value.toLowerCase();
+if(q&&!Object.values(r).join(" ").toLowerCase().includes(q))return false;
+if($("fCourse").value&&r.course!==$("fCourse").value)return false;
+if($("fUnit").value&&r.unit!==$("fUnit").value)return false;
+if($("fTopic").value&&r.topic!==$("fTopic").value)return false;
+if($("fSub").value&&r.subtopic!==$("fSub").value)return false;
+if($("fSchool").value&&r.school!==$("fSchool").value)return false;if($("fSchoolSearch").value&&!r.school.toLowerCase().includes($("fSchoolSearch").value.toLowerCase()))return false;
+if($("fType").value&&r.type!==$("fType").value)return false;
+if($("fFormat").value&&r.format!==$("fFormat").value)return false;
+if($("fAnswers").value==="yes"&&!r.answers)return false;
+if($("fAnswers").value==="no"&&r.answers)return false;
+return true}
+function refreshFilters(){
+function fill(id,vals,label){let el=$(id),v=el.value;el.innerHTML=`<option value="">${label}</option>`+[...new Set(vals.filter(Boolean))].sort().map(x=>`<option ${x===v?"selected":""}>${esc(x)}</option>`).join("")}
+fill("fCourse",R.map(r=>r.course),"All years/courses");fill("fUnit",R.map(r=>r.unit),"All strands/units");fill("fTopic",R.map(r=>r.topic),"All topics");fill("fSub",R.map(r=>r.subtopic),"All subtopics");fill("fSchool",WA_SCHOOLS,"All schools");fill("fType",R.map(r=>r.type),"All resource types");fill("fFormat",R.map(r=>r.format),"All formats")}
+function render(){let html="",n=0,shown=0;R.forEach((r,i)=>{if(!filterOK(r))return;n++;if(shown<500){html+=row(i,r);shown++;}});$("rows").innerHTML=html;$("n").textContent=n;$("seln").textContent=R.filter(x=>x.selected).length; let note=$("perfNote"); if(note) note.textContent=n>500?`Showing first 500 of ${n} matching resources. Add a filter to narrow the table.`:""}
+function cascade(i,k){sync();let r=R[i];if(k==="course"){r.unit="";r.topic="";r.subtopic=""}if(k==="unit"){r.topic="";r.subtopic=""}if(k==="topic")r.subtopic="";render()}
+$("rows").addEventListener("change",e=>{if(!e.target.dataset.i)return;let i=+e.target.dataset.i,k=e.target.dataset.k;if(["course","unit","topic"].includes(k))cascade(i,k);else{sync();render()}});
+
+$("rows").addEventListener("change",e=>{
+  let el=e.target, i=Number(el.dataset.i), k=el.dataset.k;
+  if(!Number.isInteger(i)||!k||!R[i]) return;
+  if(el.type==="checkbox") R[i][k]=el.checked; else R[i][k]=el.value;
+  $("seln").textContent=R.filter(x=>x.selected).length;
+});
+$("rows").addEventListener("input",e=>{
+  let el=e.target, i=Number(el.dataset.i), k=el.dataset.k;
+  if(Number.isInteger(i)&&k&&R[i]&&el.tagName==="INPUT"&&el.type!=="checkbox") R[i][k]=el.value;
+});
+
+
+function setOptions(id, values, label){
+  const el=$(id);
+  if(!el) return;
+  const previous=el.value;
+  el.innerHTML=`<option value="">${label}</option>`+
+    [...new Set((values||[]).filter(Boolean))].map(x=>`<option value="${esc(x)}">${esc(x)}</option>`).join("");
+  if([...el.options].some(o=>o.value===previous)) el.value=previous;
+}
+function bulkUnits(){
+  const c=$("bCourse").value;
+  setOptions("bUnit", c && TAX[c] ? Object.keys(TAX[c]) : [], "Strand / Unit…");
+  setOptions("bTopic", [], "Topic…");
+  setOptions("bSub", [], "Subtopic…");
+}
+function bulkTopics(){
+  const c=$("bCourse").value, u=$("bUnit").value;
+  const obj=(c&&u&&TAX[c]&&TAX[c][u]) ? TAX[c][u] : {};
+  setOptions("bTopic", Object.keys(obj||{}), "Topic…");
+  setOptions("bSub", [], "Subtopic…");
+}
+function bulkSubs(){
+  const c=$("bCourse").value, u=$("bUnit").value, t=$("bTopic").value;
+  let vals=[];
+  if(c&&u&&t&&TAX[c]&&TAX[c][u]){
+    const v=TAX[c][u][t];
+    vals=Array.isArray(v)?v:(v&&typeof v==="object"?Object.keys(v):[]);
+  }
+  setOptions("bSub", vals, "Subtopic…");
+}
+$("bCourse").addEventListener("change", bulkUnits);
+$("bUnit").addEventListener("change", bulkTopics);
+$("bTopic").addEventListener("change", bulkSubs);
+
+
+function loadSchoolOptions(el){
+  if(!el || el.dataset.loaded==="1") return;
+  const current=el.dataset.current||"";
+  el.innerHTML=`<option value="">— School —</option>`+
+    WA_SCHOOLS.map(x=>`<option value="${esc(x)}"${x===current?" selected":""}>${esc(x)}</option>`).join("");
+  el.dataset.loaded="1";
+}
+$("rows").addEventListener("focusin",e=>{
+  if(e.target.classList.contains("school-select")) loadSchoolOptions(e.target);
+});
+$("rows").addEventListener("mousedown",e=>{
+  if(e.target.classList.contains("school-select")) loadSchoolOptions(e.target);
+});
+
+
+async function extractText(file){
+  const ext=(file.name.split(".").pop()||"").toLowerCase();
+  try{
+    if(["txt","md","csv"].includes(ext)) return (await file.text()).slice(0,60000);
+    if(["docx","pptx","xlsx"].includes(ext) && window.JSZip){
+      const zip=await JSZip.loadAsync(await file.arrayBuffer());
+      let names=[];
+      if(ext==="docx") names=Object.keys(zip.files).filter(n=>/^word\/(document|header|footer).*\.xml$/.test(n));
+      if(ext==="pptx") names=Object.keys(zip.files).filter(n=>/^ppt\/slides\/slide\d+\.xml$/.test(n)).slice(0,25);
+      if(ext==="xlsx") names=Object.keys(zip.files).filter(n=>/^xl\/(sharedStrings|worksheets\/sheet\d+)\.xml$/.test(n)).slice(0,12);
+      let out="";
+      for(const n of names){
+        if(out.length>60000) break;
+        const x=await zip.file(n).async("text");
+        out+=" "+x.replace(/<[^>]+>/g," ").replace(/&amp;/g,"&").replace(/&lt;/g,"<").replace(/&gt;/g,">");
+      }
+      return out.slice(0,60000);
+    }
+    if(ext==="pdf" && window.pdfjsLib){
+      const pdf=await pdfjsLib.getDocument({data:new Uint8Array(await file.arrayBuffer())}).promise;
+      let out="", lim=Math.min(pdf.numPages,12);
+      for(let i=1;i<=lim;i++){
+        const pg=await pdf.getPage(i), tc=await pg.getTextContent();
+        out+=" "+tc.items.map(x=>x.str).join(" ");
+        if(out.length>60000) break;
+      }
+      return out.slice(0,60000);
+    }
+  }catch(e){ console.warn("Content extraction failed",file.name,e); }
+  return "";
+}
+function classifyContent(path,text){
+  const base=(path+" "+text).toLowerCase().replace(/\s+/g," ");
+  let best=null, second=0;
+  for(const r of CONTENT_RULES){
+    let score=0, hits=0;
+    for(const term of r.terms){
+      const t=term.toLowerCase();
+      if(base.includes(t)){hits++;score+= t.includes(" ")?5:3;}
+      if(path.toLowerCase().includes(t)) score+=5;
+    }
+    // explicit year/course hints
+    if(path.toLowerCase().includes("year 12") && r.course.includes("Year 12")) score+=3;
+    if(path.toLowerCase().includes("year 11") && r.course.includes("Year 11")) score+=3;
+    const subj=r.course.replace(/^Year \d+ /,"").toLowerCase();
+    if(path.toLowerCase().includes(subj)) score+=4;
+    if(!best||score>best.score){second=best?best.score:0;best={...r,score,hits};}
+    else if(score>second) second=score;
+  }
+  if(!best||best.score<5) return null;
+  best.confidence=(best.score>=15 && best.score-second>=4)?"High":(best.score>=9?"Medium":"Review");
+  return best;
+}
+function guessAssessmentFromContent(name,text){
+ const s=(name+" "+text).toLowerCase();
+ if(/marking key|answer key|solutions|suggested answers/.test(s)) return {answers:true};
+ return {};
+}
+async function analyseFiles(files){
+  const status=$("analysisStatus");
+  for(let i=0;i<files.length;i++){
+    const f=files[i], r=R[i];
+    if(!r) continue;
+    status.textContent=`Analysing ${i+1}/${files.length}`;
+    let text="";
+    if($("contentAware").checked) text=await extractText(f);
+    const c=classifyContent(f.webkitRelativePath||f.name,text);
+    if(c){
+      r.course=c.course;r.unit=c.unit;r.topic=c.topic;r.subtopic=c.sub;r.confidence=c.confidence;
+    }else r.confidence="Review";
+    Object.assign(r,guessAssessmentFromContent(f.name,text));
+    if(i%10===0) await new Promise(res=>setTimeout(res,0));
+  }
+  status.textContent="Analysis complete";
+  refreshFilters();render();
+}
+
+$("folder").onchange=e=>{R=[];for(const f of e.target.files){let rel=f.webkitRelativePath||f.name,e2=(f.name.split(".").pop()||"").toLowerCase();if(!SUP[e2])continue;let t=clean(rel).toLowerCase().replace(/[’']/g,""),c=guessCourse(t),g=bestTax(t,c);
+R.push({selected:false,id:rel.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,""),title:clean(f.name.replace(/\.[^.]+$/,"")),course:c,unit:g.unit,topic:g.topic,subtopic:g.sub,school:"",type:guessType(t,e2),format:SUP[e2],answers:/answer|marking key|marking guide|solution|teacher copy/i.test(t),rel,file:"resources/"+rel,preview:["pdf","png","jpg","jpeg","txt","md"].includes(e2)?"resources/"+rel:""})}$("status").textContent=`Scanned ${R.length} supported resources.`;$("work").classList.remove("hidden");$("export").classList.remove("hidden");refreshFilters();render(); analyseFiles([...e.target.files])};
+$("search").oninput=render;
+["fCourse","fUnit","fTopic","fSub","fSchool","fType","fFormat","fAnswers"].forEach(id=>$(id).onchange=render); $("fSchoolSearch").oninput=render;
+$("resetFilters").onclick=()=>{["search","fCourse","fUnit","fTopic","fSub","fSchool","fSchoolSearch","fType","fFormat","fAnswers"].forEach(id=>$(id).value="");render()};
+$("all").onclick=()=>{sync();R.forEach(r=>{if(filterOK(r))r.selected=true});render()};
+$("none").onclick=()=>{sync();R.forEach(r=>r.selected=false);render()};
+$("bCourse").innerHTML=opts(Object.keys(TAX),"","Year / Course…");$("bSchool").innerHTML=opts(WA_SCHOOLS,"","School…");
+function fillBulk(){let c=$("bCourse").value,u=$("bUnit").value,t=$("bTopic").value;$("bUnit").innerHTML=opts(Object.keys(TAX[c]||{}),u,"Strand / Unit…");u=$("bUnit").value;$("bTopic").innerHTML=opts(Object.keys((TAX[c]||{})[u]||{}),t,"Topic…");t=$("bTopic").value;$("bSub").innerHTML=opts((((TAX[c]||{})[u]||{})[t]||[]),"","Subtopic…")}
+$("bCourse").onchange=()=>{$("bUnit").value="";fillBulk()};$("bUnit").onchange=fillBulk;$("bTopic").onchange=fillBulk;
+$("apply").onclick=()=>{sync();let c=$("bCourse").value,u=$("bUnit").value,t=$("bTopic").value,s=$("bSub").value,sch=$("bSchool").value,ty=$("bType").value;R.filter(r=>r.selected).forEach(r=>{if(c)r.course=c;if(u)r.unit=u;if(t)r.topic=t;if(s)r.subtopic=s;if(sch)r.school=sch;if(ty)r.type=ty});render()};
+function dl(n,text,type){let b=new Blob([text],{type}),a=document.createElement("a");a.href=URL.createObjectURL(b);a.download=n;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),500)}
+function csvcell(x){x=String(x??"");return /[",\n]/.test(x)?`"${x.replace(/"/g,'""')}"`:x}
+function data(){sync();return R.map(r=>({id:r.id,title:r.title,year:r.course.match(/^Year \d+/)?.[0]||(/Year (11|12)/.exec(r.unit)?.[0]||""),course:r.course,strand:r.course.includes("Science")?r.unit:"",unit:r.course.includes("Science")?"":r.unit,topic:r.topic,subtopic:r.subtopic,confidence:r.confidence,school:r.school,type:r.type,format:r.format,answers:r.answers,file:r.file,preview:r.preview,description:""}))}
+$("csv").onclick=()=>{sync();let d=data(),f=["id","title","year","course","strand","unit","topic","subtopic","confidence","school","type","format","answers","file","preview","description"];dl("resource-catalogue.csv","\ufeff"+[f.join(","),...d.map(r=>f.map(k=>csvcell(r[k])).join(","))].join("\r\n"),"text/csv")};
+$("js").onclick=()=>dl("resources.js","window.SCIENCE_VAULT_RESOURCES = "+JSON.stringify(data(),null,2)+";\n","text/javascript");
+</script></body></html>
