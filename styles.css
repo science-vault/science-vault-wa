@@ -5,3 +5,5 @@
 .subtopic:hover{background:#dcebea;color:#11695f}
 .subtopic.selected{background:#132238;color:#fff}
 .topic-box{scroll-margin-top:100px}
+
+.strand{margin:30px 0 46px}.strand-title{display:flex;align-items:center;gap:12px;margin-bottom:16px}.strand-title h2{margin:0;font-size:28px}.strand-badge{font-size:12px;font-weight:900;letter-spacing:.08em;background:#132238;color:#fff;border-radius:8px;padding:7px 9px}.inquiry-section{background:#eef3f6;border-radius:22px;padding:28px;margin-top:46px}

@@ -17,3 +17,16 @@ Upload these files over the existing files in your GitHub repository and commit 
 
 ## Version 4 change
 All displayed ATAR topic cards now include clickable subtopics. Clicking a subtopic automatically searches that course's resource library for the selected subtopic. This gives the site the intended Course → Year → Unit → Topic → Subtopic → Resource workflow.
+
+
+## Version 5 — Years 7–10
+Year 7, Year 8, Year 9 and Year 10 have now been split according to the Western Australian Curriculum: Science for implementation in 2026.
+
+Each year includes:
+- Biological sciences
+- Chemical sciences
+- Earth and space sciences
+- Physical sciences
+- Science inquiry
+- topic and subtopic navigation
+- clickable subtopics linked to the resource search
