@@ -76,3 +76,28 @@ Year 11 ATAR and Year 12 ATAR:
 - Psychology → Semester 1 / Semester 2
 
 The ATAR subject pages retain their own subject-specific exam sections.
+
+## Version 10 — Preview before download
+Resource cards now support separate Preview and Download actions.
+
+Browser preview:
+- PDF: opens inside an on-site preview window
+- Images: opens inside an on-site preview window
+- TXT/MD: browser preview
+- DOCX/PPTX/XLSX: original file remains downloadable; for dependable free browser preview, add a PDF preview copy alongside the editable original
+
+The preview modal includes a Download button and can be closed with the X, background click, or Escape key.
+
+## Version 11 — Resource Library
+Added a central resource-management architecture.
+
+New:
+- library.html — search all resources across the whole site
+- resources.js — single central catalogue
+- filters for Worksheets, Notes, Revision, Practicals, Tests, Exams and PowerPoints
+- topic/subtopic search
+- Preview and Download buttons
+- Answers / Marking Key badge
+- resource breadcrumb/path
+- improved homepage links to Resource Vault and Exam Vault
+- HOW-TO-ADD-RESOURCES.md
