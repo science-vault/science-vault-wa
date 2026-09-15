@@ -1,0 +1,129 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Science Vault WA Smart Resource Manager</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#f5f7fb;color:#162033}header{background:#10213f;color:#fff;padding:24px 30px}header h1{margin:0 0 6px}
+main{max-width:1600px;margin:20px auto;padding:0 18px 40px}.panel{background:white;border:1px solid #dce2ea;border-radius:13px;padding:18px;margin-bottom:16px}
+button,.pick{border:0;border-radius:8px;padding:10px 14px;font-weight:700;cursor:pointer;margin:3px}.primary,.pick{background:#2457d6;color:white}.secondary{background:#e8eefc;color:#173d9b}
+input[type=file]{display:none}.hidden{display:none}.muted{color:#657083;font-size:13px}.toolbar{display:flex;gap:7px;align-items:center;flex-wrap:wrap;margin:10px 0}
+.toolbar select,.toolbar input,td select,td input{padding:7px;border:1px solid #ccd4df;border-radius:6px;background:white}#search{min-width:260px}
+.tablewrap{overflow:auto;max-height:62vh;border:1px solid #dce2ea;border-radius:9px}table{border-collapse:collapse;width:max-content;min-width:100%;font-size:12px}th{position:sticky;top:0;background:#eef2f8;z-index:2}th,td{padding:6px;border-bottom:1px solid #e3e7ed;text-align:left}td select{max-width:220px;min-width:135px}td input.title{width:230px}.selected{background:#edf4ff}.badge{display:inline-block;background:#edf2fa;padding:4px 8px;border-radius:999px;font-weight:bold}.bulk{background:#f3f6fb;padding:12px;border-radius:9px;margin:10px 0}
+</style></head><body>
+<header><h1>Science Vault WA — Smart Resource Manager</h1><div>Automatic guessing + curriculum dropdowns + bulk editing • all processing stays in your browser</div></header>
+<main>
+<section class="panel"><h2>1. Select your resource folder</h2>
+<label class="pick" for="folder">Choose Resource Folder</label><input id="folder" type="file" webkitdirectory multiple>
+<span id="status">No folder selected.</span><p class="muted">Select a whole subject/year folder. The manager does not upload, rename, move or delete your original files.</p></section>
+
+<section id="work" class="panel hidden"><h2>2. Review and correct</h2>
+<div class="toolbar"><button class="secondary" id="all">Select visible</button><button class="secondary" id="none">Clear selection</button>
+<input id="search" placeholder="Search resources"><span class="badge"><span id="n">0</span> visible</span><span class="badge"><span id="seln">0</span> selected</span></div>
+<div class="bulk"><b>Apply to selected:</b>
+<select id="bCourse"><option value="">Year / Course…</option></select>
+<select id="bUnit"><option value="">Strand / Unit…</option></select>
+<select id="bTopic"><option value="">Topic…</option></select>
+<select id="bSub"><option value="">Subtopic…</option></select>
+<select id="bType"><option value="">Resource type…</option><option>PowerPoint</option><option>Worksheet</option><option>Notes</option><option>Revision</option><option>Practical</option><option>Test</option><option>Exam</option><option>Other</option></select>
+<button class="primary" id="apply">Apply</button></div>
+<div class="tablewrap"><table><thead><tr><th>Select</th><th>Title</th><th>Year / Course</th><th>Strand / Unit</th><th>Topic</th><th>Subtopic</th><th>Type</th><th>Format</th><th>Answers</th><th>File</th></tr></thead><tbody id="rows"></tbody></table></div></section>
+
+<section id="export" class="panel hidden"><h2>3. Export</h2><button class="primary" id="csv">Download Catalogue CSV</button><button class="primary" id="js">Download resources.js</button>
+<p class="muted">You only need to correct classifications that are wrong. Use Select + Apply to selected to categorise many files at once.</p></section>
+</main><script>
+
+const TAX={
+"Year 7 Science":{
+ "Biological sciences":{"Classification":["Diversity of life","Classification hierarchy","Characteristics used for classification","Dichotomous keys","Developing classification keys"],"Ecosystems and feeding relationships":["Food chains","Food webs","Producers, consumers and decomposers","Energy flow in ecosystems","Human impacts"]},
+ "Chemical sciences":{"States of matter and particles":["Solids, liquids and gases","Particle arrangement and motion","Changes of state","Adding and removing energy","Particle model"],"Mixtures and separation":["Pure substances and mixtures","Solutions","Physical properties","Sieving","Magnetic separation","Decantation","Filtration","Evaporation","Crystallisation","Chromatography","Distillation"]},
+ "Earth and space sciences":{"Space and the Solar System":["Planets","Stars","Moons","Asteroids and meteoroids","Comets","Constellations","Galaxies","Features of planets"],"Earth, Sun and Moon phenomena":["Lunar phases","Eclipses","Seasons","Tides"]},
+ "Physical sciences":{"Forces and motion":["Balanced and unbalanced forces","Friction","Gravitational force","Magnetic force","Electrostatic force","Force measured in newtons"],"Simple machines":["Mechanical advantage","Levers","Inclined planes","Wheels and axles","Force advantage","Distance advantage","Speed advantage"]},
+ "Science inquiry":{"Science inquiry skills":["Questioning and predicting","Planning and conducting","Processing, modelling and analysing","Evaluating","Communicating","Collaborating and applying"]}
+},
+"Year 8 Science":{
+ "Biological sciences":{"Cells":["Basic unit of life","Microscope","Animal and plant cells","Cell membrane","Cytoplasm","Nucleus","Mitochondria","Cell wall","Chloroplasts","Vacuoles","Organelle functions"],"Plant and animal systems":["Specialised cells, tissues and organs","Gas exchange","Transport systems","Reproductive systems","Flowering plant systems","Vertebrate systems"]},
+ "Chemical sciences":{"Atoms, elements and compounds":["Atoms","Protons, neutrons and electrons","Elements and compounds","Chemical symbols","Chemical formulae","Models"],"Metals, non-metals and chemical change":["Physical properties","Classifying elements","Physical and chemical change","New substances"]},
+ "Earth and space sciences":{"Plate tectonics":["Plate tectonic theory","Divergent boundaries","Convergent boundaries","Transform boundaries","Earthquakes","Volcanoes","Mountain building"],"Rocks, minerals and resources":["Mineral properties","Rock cycle","Igneous rocks","Sedimentary rocks","Metamorphic rocks","Uses and resources"]},
+ "Physical sciences":{"Energy":["Kinetic energy","Potential energy","Energy transfer","Energy transformation"],"Heat transfer":["Conduction","Convection","Radiation","Reflection and absorption"],"Electricity":["Electric circuits","Circuit types","Energy transfer and transformations","Electrical safety"]},
+ "Science inquiry":{"Science inquiry skills":["Questioning and predicting","Planning and conducting","Processing, modelling and analysing","Evaluating","Communicating","Collaborating and applying"]}
+},
+"Year 9 Science":{
+ "Biological sciences":{"Adaptations and responses":["Structural adaptations","Behavioural adaptations","Physiological adaptations","Endotherms and ectotherms","Temperature responses","Tropisms"],"Populations and ecosystems":["Abiotic and biotic factors","Population size","Species diversity","Sampling","Ecological monitoring","Human impacts"]},
+ "Chemical sciences":{"Atomic structure and periodic table":["Atomic number and mass number","Protons, neutrons and electrons","Isotopes","Periodic table organisation","Groups and properties"],"Bonding and compounds":["Electron arrangement","Ionic bonding","Covalent bonding","Ions","Formulae and models"],"Chemical reactions":["Reaction patterns","Precipitation","Acid-base reactions","Acid and metal","Acid and carbonate","Word equations","Balanced equations"]},
+ "Earth and space sciences":{"Global systems":["Biosphere","Lithosphere","Hydrosphere","Atmosphere","Water cycle","Carbon cycle"],"Climate change":["Global climate patterns","Evidence for climate change","Earth system interactions"]},
+ "Physical sciences":{"Sound":["Longitudinal waves","Vibrations","Media","Speed of sound","Reflection"],"Light":["Electromagnetic waves","Photons","Wave and particle properties","Reflection","Mirrors","Refraction","Lenses"]},
+ "Science inquiry":{"Science inquiry skills":["Questioning and predicting","Planning and conducting","Processing, modelling and analysing","Evaluating","Communicating and applying"]}
+},
+"Year 10 Science":{
+ "Biological sciences":{"DNA, genes and cell division":["Chromosomes","Genes","DNA","Mitosis","Meiosis","Chromosome number"],"Inheritance":["Monohybrid inheritance","Genotype and phenotype","Autosomal dominant and recessive","Sex-linked recessive","Pedigrees","Punnett squares"],"Evolution":["Variation","Natural selection","Adaptations","Speciation","Biodiversity"]},
+ "Chemical sciences":{"Rates of reaction":["Reaction rate","Collision theory","Temperature","Concentration","Surface area","Factors affecting reaction rate"],"Chemical reactions and conservation of mass":["Atom rearrangement","New substances","Word equations","Balanced equations","Conservation of mass"]},
+ "Earth and space sciences":{"Universe and stellar evolution":["Big Bang","Galaxies","Planetary systems","Star formation","Life cycle of stars","Effect of stellar mass"],"Space exploration":["Evidence for universe formation","Earth and universe evolution","Space technologies and applications"]},
+ "Physical sciences":{"Motion":["Time and distance","Displacement","Speed","Velocity","Acceleration","Scalar and vector quantities","Vector diagrams"],"Newton's laws":["Newton's first law","Newton's second law","Newton's third law","Force, mass and acceleration","Predicting motion"],"Energy conservation and efficiency":["Conservation of energy","Energy inputs and outputs","Energy transfer and transformation","Efficiency"]},
+ "Science inquiry":{"Science inquiry skills":["Questioning and predicting","Planning and conducting","Processing, modelling and analysing","Evaluating","Communicating and applying"]}
+},
+"Physics":{
+ "Year 11 – Unit 1: Motion, forces and energy":{"Motion":["Position, distance and displacement","Speed and velocity","Acceleration","Motion graphs","Equations of motion"],"Forces and momentum":["Newton's laws","Free-body diagrams","Momentum and impulse","Conservation of momentum","Collisions"],"Work and mechanical energy":["Work","Kinetic energy","Gravitational potential energy","Power","Conservation of energy"],"Thermal physics":["Particle model","Temperature and internal energy","Specific heat capacity","Phase change","Energy transfer"]},
+ "Year 11 – Unit 2: Waves, nuclear and electrical physics":{"Waves":["Wave quantities","Transverse and longitudinal waves","Reflection and refraction","Superposition and interference","Sound"],"Nuclear physics":["Atomic nucleus","Radioactive decay","Half-life","Nuclear reactions","Mass-energy"],"Electricity":["Charge and current","Potential difference","Resistance and Ohm's law","Series and parallel circuits","Electrical power and energy","Circuit analysis"]},
+ "Year 12 – Unit 3: Gravity and relativity":{"Gravity and relativity":["Static equilibrium and centre of mass","Circular motion","Gravitation and gravitational fields","Satellite motion","Special relativity","General relativity"]},
+ "Year 12 – Unit 4: Electromagnetism and modern physics":{"Electromagnetism and modern physics":["Electric and magnetic fields","Electromagnetic induction","Electromagnetic applications","Quantum physics","Atomic physics","Modern physics"]}
+},
+"Chemistry":{
+ "Year 11 – Unit 1: Chemical fundamentals":{"Atoms and elements":["Atomic structure","Isotopes","Relative atomic mass","Mass spectrometry","Electron configurations","Periodic trends"],"Bonding and structure":["Ionic bonding","Covalent bonding","Metallic bonding","Lewis structures","Molecular shapes and polarity","Material properties"],"Chemical reactions":["Formulae and equations","Reaction types","Precipitation","Acid reactions","Redox foundations"],"Quantitative chemistry":["Mole","Molar mass","Stoichiometry","Limiting reagents","Percentage yield","Empirical and molecular formulae"]},
+ "Year 11 – Unit 2: Molecular interactions and reactions":{"Molecular interactions":["Intermolecular forces","Properties and structure"],"Solutions":["Solubility","Concentration","Solution calculations"],"Energy changes":["Exothermic and endothermic reactions","Enthalpy"],"Reaction behaviour":["Collision theory","Reaction rates","Factors affecting rate","Reversible reactions","Equilibrium foundations"]},
+ "Year 12 – Unit 3: Equilibrium, acids and bases, and redox reactions":{"Equilibrium":["Reversible reactions","Dynamic equilibrium","Equilibrium constant","Reaction quotient","Le Chatelier's principle","Industrial systems"],"Acids and bases":["Bronsted-Lowry theory","Conjugate pairs","Strong and weak acids and bases","pH and pOH","Ka","Buffers"],"Volumetric analysis":["Standard solutions","Titrations","Titration calculations","Indicators and equivalence"],"Redox":["Oxidation numbers","Half-equations","Balancing redox equations","Oxidising and reducing agents"],"Electrochemistry":["Galvanic cells","Standard electrode potentials","Cell potential","Electrolytic cells","Electrolysis"]},
+ "Year 12 – Unit 4: Organic chemistry and chemical synthesis":{"Organic structure":["Hydrocarbons","Functional groups","Nomenclature","Isomers","Physical properties"],"Organic reactions":["Alkanes and alkenes","Alcohols","Carboxylic acids","Esters","Amines and amides","Reaction types"],"Polymers":["Addition polymers","Condensation polymers"],"Chemical synthesis":["Synthetic pathways","Yield and atom economy","Green chemistry","Industrial synthesis"],"Chemical analysis":["Spectroscopy","Structural identification","Chemical tests","Analytical evidence"]}
+},
+"Human Biology":{
+ "Year 11 – Unit 1: The functioning human body":{"Body systems":["Cells and tissues","Digestive system","Respiratory system","Circulatory system","Urinary system","Musculoskeletal system"]},
+ "Year 11 – Unit 2: Reproduction and inheritance":{"Reproduction and inheritance":["Human reproduction","Pregnancy and development","DNA and chromosomes","Inheritance","Reproductive technologies"]},
+ "Year 12 – Unit 3: Homeostasis and disease":{"Homeostasis and disease":["Nervous system","Endocrine system","Homeostasis","Pathogens and disease","Immunity"]},
+ "Year 12 – Unit 4: Human variation and evolution":{"Human variation and evolution":["Human genetic variation","Population genetics","Evidence for evolution","Hominin evolution","Human populations"]}
+},
+"Biology":{
+ "Year 11 – Unit 1: Ecosystems and biodiversity":{"Ecosystems and biodiversity":["Ecosystem structure","Energy and matter","Population ecology","Biodiversity","Ecosystem change","Fieldwork"]},
+ "Year 11 – Unit 2: From single cells to multicellular organisms":{"Cells and organisms":["Cell structure","Cell membranes","Cell metabolism","Multicellular organisation","Transport systems"]},
+ "Year 12 – Unit 3: Continuity of species":{"Continuity of species":["DNA and gene expression","Cell division","Inheritance","Gene technologies","Population genetics and evolution"]},
+ "Year 12 – Unit 4: Surviving in a changing environment":{"Surviving in a changing environment":["Homeostasis","Pathogens","Plant and animal defences","Immune responses","Epidemiology","Environmental change"]}
+},
+"Psychology":{
+ "Year 11 – Unit 1: Biological and lifespan psychology":{"Biological and lifespan psychology":["Introduction to psychology","Biological psychology","Lifespan development","Science inquiry"]},
+ "Year 11 – Unit 2: Attitudes, stereotypes and social influence":{"Social psychology":["Attitudes","Social cognition","Prejudice and discrimination","Social influence","Science inquiry"]},
+ "Year 12 – Unit 3: Memory and learning":{"Memory and learning":["Sensation, perception and attention","Memory","Forgetting","Classical conditioning","Operant conditioning","Social learning","Science inquiry"]},
+ "Year 12 – Unit 4: Psychology of motivation, wellbeing and health":{"Motivation, wellbeing and health":["Motivation","Wellbeing","Stress","Sleep","Health psychology","Science inquiry"]}
+}};
+
+const SUP={pdf:"PDF",docx:"DOCX",doc:"DOC",pptx:"PPTX",ppt:"PPT",xlsx:"XLSX",xls:"XLS",png:"PNG",jpg:"JPG",jpeg:"JPG",txt:"TXT",md:"MD",zip:"ZIP"};
+let R=[];
+const $=x=>document.getElementById(x), esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const clean=s=>s.replace(/[_-]+/g," ").replace(/\s+/g," ").trim();
+function guessCourse(t){for(const c of Object.keys(TAX)){if(c.includes("Year ")&&t.match(new RegExp(c.replace(" Science","").replace("Year ","(year|yr|y)\\s*"),"i")))return c;}
+if(/human biology|human bio|hbio/i.test(t))return"Human Biology";if(/psychology|psych/i.test(t))return"Psychology";if(/chemistry|chem/i.test(t))return"Chemistry";if(/physics/i.test(t))return"Physics";if(/biology/i.test(t))return"Biology";return""}
+function guessType(t,e){if(/pptx?|powerpoint|slides/i.test(e+" "+t))return"PowerPoint";if(/exam/i.test(t))return"Exam";if(/test|quiz|assessment/i.test(t))return"Test";if(/prac|experiment|investigation|lab/i.test(t))return"Practical";if(/revision|review|study|i can/i.test(t))return"Revision";if(/notes|summary/i.test(t))return"Notes";if(/worksheet|questions|activity|booklet/i.test(t))return"Worksheet";return"Other"}
+function bestTax(t,c){let unit="",topic="",sub="",score=0;if(!TAX[c])return{unit,topic,sub};for(const [u,ts] of Object.entries(TAX[c]))for(const [tp,ss] of Object.entries(ts)){for(const s of [u,tp,...ss]){let q=s.toLowerCase().replace(/[’']/g,"");if(q.length>3&&t.includes(q)&&q.length>score){score=q.length;unit=u;topic=tp;sub=ss.includes(s)?s:""}}}return{unit,topic,sub}}
+function opts(arr,v,blank="—"){return `<option value="">${blank}</option>`+arr.map(x=>`<option ${x===v?"selected":""}>${esc(x)}</option>`).join("")}
+function sync(){document.querySelectorAll("[data-i]").forEach(e=>{let r=R[+e.dataset.i],k=e.dataset.k;if(k==="selected"||k==="answers")r[k]=e.checked;else r[k]=e.value})}
+function row(i,r){let units=Object.keys(TAX[r.course]||{}),topics=Object.keys((TAX[r.course]||{})[r.unit]||{}),subs=((TAX[r.course]||{})[r.unit]||{})[r.topic]||[];
+return `<tr class="${r.selected?"selected":""}"><td><input type=checkbox data-i=${i} data-k=selected ${r.selected?"checked":""}></td>
+<td><input class=title data-i=${i} data-k=title value="${esc(r.title)}"></td>
+<td><select data-i=${i} data-k=course>${opts(Object.keys(TAX),r.course)}</select></td>
+<td><select data-i=${i} data-k=unit>${opts(units,r.unit)}</select></td>
+<td><select data-i=${i} data-k=topic>${opts(topics,r.topic)}</select></td>
+<td><select data-i=${i} data-k=subtopic>${opts(subs,r.subtopic)}</select></td>
+<td><select data-i=${i} data-k=type>${opts(["PowerPoint","Worksheet","Notes","Revision","Practical","Test","Exam","Other"],r.type)}</select></td>
+<td>${r.format}</td><td><input type=checkbox data-i=${i} data-k=answers ${r.answers?"checked":""}></td><td>${esc(r.rel)}</td></tr>`}
+function render(){let q=$("search").value.toLowerCase(),html="",n=0;R.forEach((r,i)=>{if(q&&!Object.values(r).join(" ").toLowerCase().includes(q))return;n++;html+=row(i,r)});$("rows").innerHTML=html;$("n").textContent=n;$("seln").textContent=R.filter(x=>x.selected).length}
+function cascade(i,k){sync();let r=R[i];if(k==="course"){r.unit="";r.topic="";r.subtopic=""}if(k==="unit"){r.topic="";r.subtopic=""}if(k==="topic")r.subtopic="";render()}
+$("rows").addEventListener("change",e=>{if(!e.target.dataset.i)return;let i=+e.target.dataset.i,k=e.target.dataset.k;if(["course","unit","topic"].includes(k))cascade(i,k);else{sync();render()}});
+$("folder").onchange=e=>{R=[];for(const f of e.target.files){let rel=f.webkitRelativePath||f.name,e2=(f.name.split(".").pop()||"").toLowerCase();if(!SUP[e2])continue;let t=clean(rel).toLowerCase().replace(/[’']/g,""),c=guessCourse(t),g=bestTax(t,c);
+R.push({selected:false,id:rel.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,""),title:clean(f.name.replace(/\.[^.]+$/,"")),course:c,unit:g.unit,topic:g.topic,subtopic:g.sub,type:guessType(t,e2),format:SUP[e2],answers:/answer|marking key|marking guide|solution|teacher copy/i.test(t),rel,file:"resources/"+rel,preview:["pdf","png","jpg","jpeg","txt","md"].includes(e2)?"resources/"+rel:""})}$("status").textContent=`Scanned ${R.length} supported resources.`;$("work").classList.remove("hidden");$("export").classList.remove("hidden");render()};
+$("search").oninput=()=>{sync();render()};
+$("all").onclick=()=>{sync();let q=$("search").value.toLowerCase();R.forEach(r=>{if(!q||Object.values(r).join(" ").toLowerCase().includes(q))r.selected=true});render()};
+$("none").onclick=()=>{sync();R.forEach(r=>r.selected=false);render()};
+$("bCourse").innerHTML=opts(Object.keys(TAX),"","Year / Course…");
+function fillBulk(){let c=$("bCourse").value,u=$("bUnit").value,t=$("bTopic").value;$("bUnit").innerHTML=opts(Object.keys(TAX[c]||{}),u,"Strand / Unit…");u=$("bUnit").value;$("bTopic").innerHTML=opts(Object.keys((TAX[c]||{})[u]||{}),t,"Topic…");t=$("bTopic").value;$("bSub").innerHTML=opts((((TAX[c]||{})[u]||{})[t]||[]),"","Subtopic…")}
+$("bCourse").onchange=()=>{$("bUnit").value="";fillBulk()};$("bUnit").onchange=fillBulk;$("bTopic").onchange=fillBulk;
+$("apply").onclick=()=>{sync();let c=$("bCourse").value,u=$("bUnit").value,t=$("bTopic").value,s=$("bSub").value,ty=$("bType").value;R.filter(r=>r.selected).forEach(r=>{if(c)r.course=c;if(u)r.unit=u;if(t)r.topic=t;if(s)r.subtopic=s;if(ty)r.type=ty});render()};
+function dl(n,text,type){let b=new Blob([text],{type}),a=document.createElement("a");a.href=URL.createObjectURL(b);a.download=n;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),500)}
+function csvcell(x){x=String(x??"");return /[",\n]/.test(x)?`"${x.replace(/"/g,'""')}"`:x}
+function data(){sync();return R.map(r=>({id:r.id,title:r.title,year:r.course.match(/^Year \d+/)?.[0]||(/Year (11|12)/.exec(r.unit)?.[0]||""),course:r.course,strand:r.course.includes("Science")?r.unit:"",unit:r.course.includes("Science")?"":r.unit,topic:r.topic,subtopic:r.subtopic,type:r.type,format:r.format,answers:r.answers,file:r.file,preview:r.preview,description:""}))}
+$("csv").onclick=()=>{let d=data(),f=["id","title","year","course","strand","unit","topic","subtopic","type","format","answers","file","preview","description"];dl("resource-catalogue.csv","\ufeff"+[f.join(","),...d.map(r=>f.map(k=>csvcell(r[k])).join(","))].join("\r\n"),"text/csv")};
+$("js").onclick=()=>dl("resources.js","window.SCIENCE_VAULT_RESOURCES = "+JSON.stringify(data(),null,2)+";\n","text/javascript");
+</script></body></html>

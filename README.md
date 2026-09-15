@@ -101,3 +101,19 @@ New:
 - resource breadcrumb/path
 - improved homepage links to Resource Vault and Exam Vault
 - HOW-TO-ADD-RESOURCES.md
+
+## Version 12 — Bulk Resource Manager
+Added `resource-manager/` with a local Python scanner designed for large collections.
+
+Workflow:
+1. Scan a local folder tree.
+2. Generate resource-catalogue.csv.
+3. Review/correct classifications in Excel.
+4. Build resources.js.
+5. Copy resources.js into Science Vault WA.
+
+The scanner never moves, renames, uploads or deletes the source collection.
+
+
+## Version 13
+Windows Resource Manager no longer requires Python. Use `resource-manager/1-SCAN-RESOURCES.bat` and then `2-BUILD-WEBSITE-CATALOGUE.bat`.

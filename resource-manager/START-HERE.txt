@@ -1,0 +1,13 @@
+SCIENCE VAULT WA — VERSION 15 SMART RESOURCE MANAGER
+
+1. Extract this ZIP.
+2. Double-click OPEN-RESOURCE-MANAGER.html.
+3. Click Choose Resource Folder.
+4. Select a resource folder.
+5. The manager automatically guesses classifications.
+6. Correct individual resources using dropdowns.
+7. To classify many at once: tick/select them, choose Year/Course, Strand/Unit,
+   Topic, Subtopic and/or Type under 'Apply to selected', then click Apply.
+8. Export Catalogue CSV or resources.js.
+
+No Python or PowerShell is required. Your files stay on your computer.

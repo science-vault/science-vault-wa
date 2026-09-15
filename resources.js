@@ -1,4 +1,4 @@
-window.SCIENCE_VAULT_RESOURCES=[
+window.SCIENCE_VAULT_RESOURCES = [
   {
     "id": "waves-1-waves-overview-pptx",
     "title": "1. WAVES overview",
