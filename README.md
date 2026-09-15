@@ -30,3 +30,49 @@ Each year includes:
 - Science inquiry
 - topic and subtopic navigation
 - clickable subtopics linked to the resource search
+
+## Version 6 — ATAR exam sections
+Each ATAR course now has a dedicated Exams section:
+- Year 11 Semester 1 Exams
+- Year 11 Semester 2 Exams
+- Year 12 Semester 1 Exams
+- Year 12 Semester 2 Exams
+
+Exam cards link into the searchable resource library, and Exam has been added as a resource type.
+
+## Version 7 — Exams for every year
+Exam sections now exist across Years 7–12.
+
+Years 7–10:
+- Semester 1 Exams
+- Semester 2 Exams
+
+ATAR Years 11–12:
+- Year 11 Semester 1 Exams
+- Year 11 Semester 2 Exams
+- Year 12 Semester 1 Exams
+- Year 12 Semester 2 Exams
+
+## Version 8 — corrected Years 7–10 exams
+Corrected the lower-school exam structure:
+- Year 7: one Year 7 Science Exam section
+- Year 8: one Year 8 Science Exam section
+- Year 9: one Year 9 Science Exam section
+- Year 10: one Year 10 Science Exam section
+
+Year 11 and Year 12 ATAR courses retain Semester 1 and Semester 2 exam sections.
+
+## Version 9 — subject-based senior exams
+Added exams.html as a central Exam Vault.
+
+Years 7–10:
+- one Science exam collection for each year
+
+Year 11 ATAR and Year 12 ATAR:
+- Physics → Semester 1 / Semester 2
+- Chemistry → Semester 1 / Semester 2
+- Human Biology → Semester 1 / Semester 2
+- Biology → Semester 1 / Semester 2
+- Psychology → Semester 1 / Semester 2
+
+The ATAR subject pages retain their own subject-specific exam sections.

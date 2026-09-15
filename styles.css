@@ -7,3 +7,15 @@
 .topic-box{scroll-margin-top:100px}
 
 .strand{margin:30px 0 46px}.strand-title{display:flex;align-items:center;gap:12px;margin-bottom:16px}.strand-title h2{margin:0;font-size:28px}.strand-badge{font-size:12px;font-weight:900;letter-spacing:.08em;background:#132238;color:#fff;border-radius:8px;padding:7px 9px}.inquiry-section{background:#eef3f6;border-radius:22px;padding:28px;margin-top:46px}
+
+.exam-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.exam-card{background:#fff;border:1px solid #e0e6ed;border-radius:18px;padding:24px;text-align:left;cursor:pointer;transition:.2s}.exam-card:hover{transform:translateY(-3px);box-shadow:0 12px 30px #1b2a3b12}.exam-card span{font-size:11px;font-weight:900;letter-spacing:.12em;color:#158b7b}.exam-card h3{font-size:21px;margin:10px 0 8px}.exam-card p{color:#718094;line-height:1.5}.exam-card b{color:#158b7b}@media(max-width:560px){.exam-grid{grid-template-columns:1fr}}
+
+.single-exam{grid-template-columns:minmax(280px,560px)}
+
+.exam-card{text-decoration:none;color:inherit;display:block}
+.exam-year-block{margin-top:38px;padding:28px;border:1px solid #e0e6ed;border-radius:22px;background:#fff}
+.subject-exam-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-top:20px}
+.subject-exam-card{text-decoration:none;color:inherit;border:1px solid #e0e6ed;border-radius:16px;padding:20px;background:#f8fafb;transition:.2s}
+.subject-exam-card:hover{transform:translateY(-2px);box-shadow:0 10px 24px #1b2a3b10}
+.subject-exam-card h3{margin:0 0 8px}.subject-exam-card p{color:#718094}.subject-exam-card b{color:#158b7b}
+@media(max-width:900px){.subject-exam-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:520px){.subject-exam-grid{grid-template-columns:1fr}}
