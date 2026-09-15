@@ -12,7 +12,7 @@ window.SCIENCE_VAULT_RESOURCES = [
     "type": "PowerPoint",
     "format": "PPTX",
     "answers": false,
-    "file": "resources/Year 11 Physics/Unit 2 - Waves/1. WAVES _overview.pptx",
+    "file": "resources/y11-physics-waves-overview.pptx",
     "preview": "",
     "description": "PowerPoint resource for Wave properties, wave equation and wave graphs."
   },
@@ -29,7 +29,7 @@ window.SCIENCE_VAULT_RESOURCES = [
     "type": "PowerPoint",
     "format": "PPTX",
     "answers": false,
-    "file": "resources/Year 11 Physics/Unit 2 - Waves/2. WAVES_ReflectionRefrDiffetc.pptx",
+    "file": "resources/y11-physics-reflection-refraction-diffraction.pptx",
     "preview": "",
     "description": "PowerPoint resource for Reflection, refraction, diffraction and seismic waves."
   },
@@ -46,7 +46,7 @@ window.SCIENCE_VAULT_RESOURCES = [
     "type": "PowerPoint",
     "format": "PPTX",
     "answers": false,
-    "file": "resources/Year 11 Physics/Unit 2 - Waves/3. Superposition InterferenceResonance.pptx",
+    "file": "resources/y11-physics-superposition-interference-resonance.pptx",
     "preview": "",
     "description": "PowerPoint resource for Superposition, interference, resonance and standing waves."
   },
@@ -63,7 +63,7 @@ window.SCIENCE_VAULT_RESOURCES = [
     "type": "Notes",
     "format": "DOCX",
     "answers": false,
-    "file": "resources/Year 11 Physics/Unit 2 - Waves/Waves in pipe summary.docx",
+    "file": "resources/y11-physics-waves-in-pipes-summary.docx",
     "preview": "",
     "description": "Notes resource for Standing waves in open and closed pipes."
   },
@@ -80,7 +80,7 @@ window.SCIENCE_VAULT_RESOURCES = [
     "type": "Worksheet",
     "format": "DOCX",
     "answers": false,
-    "file": "resources/Year 11 Physics/Unit 2 - Waves/Waves Worksheet 1.docx",
+    "file": "resources/y11-physics-waves-worksheet-1.docx",
     "preview": "",
     "description": "Worksheet resource for Wave properties, wave equation and standing waves."
   },
@@ -97,8 +97,8 @@ window.SCIENCE_VAULT_RESOURCES = [
     "type": "Revision",
     "format": "PDF",
     "answers": false,
-    "file": "resources/Year 11 Physics/Unit 2 - Waves/Y11 Waves student review sheet.pdf",
-    "preview": "resources/Year 11 Physics/Unit 2 - Waves/Y11 Waves student review sheet.pdf",
+    "file": "resources/y11-physics-waves-review-sheet.pdf",
+    "preview": "resources/y11-physics-waves-review-sheet.pdf",
     "description": "Revision resource for Waves revision."
   }
 ];

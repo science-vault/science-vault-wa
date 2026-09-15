@@ -1,0 +1,22 @@
+VERSION 25 — RESOURCE LINK FIX
+
+WHY THIS FIXES IT
+1. The Resource Library now contains the catalogue directly inside library.html.
+   It no longer depends on GitHub successfully serving a separate resources.js file.
+2. The six files are in ONE simple /resources folder.
+3. Filenames contain no spaces or special punctuation, reducing GitHub Pages URL issues.
+4. resources.js is still included for the other course pages.
+
+UPLOAD ALL CONTENTS OF THIS FOLDER TO THE ROOT OF YOUR GITHUB REPOSITORY.
+Replace matching files.
+
+IMPORTANT: upload the /resources folder and confirm GitHub shows these six files:
+- y11-physics-waves-overview.pptx
+- y11-physics-reflection-refraction-diffraction.pptx
+- y11-physics-superposition-interference-resonance.pptx
+- y11-physics-waves-in-pipes-summary.docx
+- y11-physics-waves-worksheet-1.docx
+- y11-physics-waves-review-sheet.pdf
+
+After GitHub Pages rebuilds, open:
+https://science-vault.github.io/science-vault-wa/library.html

@@ -12,7 +12,111 @@
 </div></section>
 <section id="resources" style="margin-top:60px"><div class="section-heading"><div><span class="eyebrow">RESOURCE LIBRARY</span><h2>Physics resources</h2></div><p id="resultCount"></p></div><div class="searchbox" style="box-shadow:none;border:1px solid #dde4eb;margin:0 0 20px;max-width:none"><span>⌕</span><input id="searchInput" type="search" placeholder="Search Physics resources..."></div><div class="filters"><button class="active" data-filter="All">All</button><button data-filter="Worksheet">Worksheets</button><button data-filter="Revision">Revision</button><button data-filter="Practical">Practicals</button><button data-filter="Test">Tests</button><button data-filter="Exam">Exams</button></div><div id="resourceGrid" class="resource-grid"></div><div id="emptyState" class="empty hidden">No resources have been added here yet.</div></section></main>
 <footer><strong>Science Vault WA © 2026</strong><span>Free Science Resources for WA Students</span></footer>
-<script src="resources.js"></script><script src="script.js"></script><script>document.querySelectorAll("[data-showyear]").forEach(b=>b.addEventListener("click",()=>{document.querySelectorAll("[data-showyear]").forEach(x=>x.classList.toggle("active",x===b));document.querySelectorAll("[data-yearcontent]").forEach(x=>x.style.display=x.dataset.yearcontent===b.dataset.showyear?"block":"none");}));</script><script>
+<script>window.SCIENCE_VAULT_RESOURCES = [
+  {
+    "id": "waves-1-waves-overview-pptx",
+    "title": "1. WAVES overview",
+    "year": "Year 11",
+    "course": "Physics",
+    "strand": "",
+    "unit": "Unit 2 – Waves, nuclear and electrical physics",
+    "topic": "Waves",
+    "subtopic": "Wave properties, wave equation and wave graphs",
+    "school": "",
+    "type": "PowerPoint",
+    "format": "PPTX",
+    "answers": false,
+    "file": "resources/y11-physics-waves-overview.pptx",
+    "preview": "",
+    "description": "PowerPoint resource for Wave properties, wave equation and wave graphs."
+  },
+  {
+    "id": "waves-2-waves-reflectionrefrdiffetc-pptx",
+    "title": "2. WAVES ReflectionRefrDiffetc",
+    "year": "Year 11",
+    "course": "Physics",
+    "strand": "",
+    "unit": "Unit 2 – Waves, nuclear and electrical physics",
+    "topic": "Waves",
+    "subtopic": "Reflection, refraction, diffraction and seismic waves",
+    "school": "",
+    "type": "PowerPoint",
+    "format": "PPTX",
+    "answers": false,
+    "file": "resources/y11-physics-reflection-refraction-diffraction.pptx",
+    "preview": "",
+    "description": "PowerPoint resource for Reflection, refraction, diffraction and seismic waves."
+  },
+  {
+    "id": "waves-3-superposition-interferenceresonance-pptx",
+    "title": "3. Superposition InterferenceResonance",
+    "year": "Year 11",
+    "course": "Physics",
+    "strand": "",
+    "unit": "Unit 2 – Waves, nuclear and electrical physics",
+    "topic": "Waves",
+    "subtopic": "Superposition, interference, resonance and standing waves",
+    "school": "",
+    "type": "PowerPoint",
+    "format": "PPTX",
+    "answers": false,
+    "file": "resources/y11-physics-superposition-interference-resonance.pptx",
+    "preview": "",
+    "description": "PowerPoint resource for Superposition, interference, resonance and standing waves."
+  },
+  {
+    "id": "waves-waves-in-pipe-summary-docx",
+    "title": "Waves in pipe summary",
+    "year": "Year 11",
+    "course": "Physics",
+    "strand": "",
+    "unit": "Unit 2 – Waves, nuclear and electrical physics",
+    "topic": "Waves",
+    "subtopic": "Standing waves in open and closed pipes",
+    "school": "",
+    "type": "Notes",
+    "format": "DOCX",
+    "answers": false,
+    "file": "resources/y11-physics-waves-in-pipes-summary.docx",
+    "preview": "",
+    "description": "Notes resource for Standing waves in open and closed pipes."
+  },
+  {
+    "id": "waves-waves-worksheet-1-docx",
+    "title": "Waves Worksheet 1",
+    "year": "Year 11",
+    "course": "Physics",
+    "strand": "",
+    "unit": "Unit 2 – Waves, nuclear and electrical physics",
+    "topic": "Waves",
+    "subtopic": "Wave properties, wave equation and standing waves",
+    "school": "",
+    "type": "Worksheet",
+    "format": "DOCX",
+    "answers": false,
+    "file": "resources/y11-physics-waves-worksheet-1.docx",
+    "preview": "",
+    "description": "Worksheet resource for Wave properties, wave equation and standing waves."
+  },
+  {
+    "id": "waves-y11-waves-student-review-sheet-pdf",
+    "title": "Y11 Waves student review sheet",
+    "year": "Year 11",
+    "course": "Physics",
+    "strand": "",
+    "unit": "Unit 2 – Waves, nuclear and electrical physics",
+    "topic": "Waves",
+    "subtopic": "Waves revision",
+    "school": "",
+    "type": "Revision",
+    "format": "PDF",
+    "answers": false,
+    "file": "resources/y11-physics-waves-review-sheet.pdf",
+    "preview": "resources/y11-physics-waves-review-sheet.pdf",
+    "description": "Revision resource for Waves revision."
+  }
+];
+</script><script src="script.js"></script><script>document.querySelectorAll("[data-showyear]").forEach(b=>b.addEventListener("click",()=>{document.querySelectorAll("[data-showyear]").forEach(x=>x.classList.toggle("active",x===b));document.querySelectorAll("[data-yearcontent]").forEach(x=>x.style.display=x.dataset.yearcontent===b.dataset.showyear?"block":"none");}));</script><script>
 document.querySelectorAll("[data-subtopic]").forEach(b=>b.addEventListener("click",()=>{
   document.querySelectorAll("[data-subtopic]").forEach(x=>x.classList.remove("selected"));
   b.classList.add("selected");
