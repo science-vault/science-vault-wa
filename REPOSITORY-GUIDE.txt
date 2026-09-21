@@ -1,0 +1,18 @@
+SCIENCE VAULT WA — COMPLETE GITHUB REPOSITORY
+
+Upload the CONTENTS of this extracted folder to the ROOT of science-vault-wa.
+
+Website files:
+index.html, styles.css, script.js, resources.js, library.html, exams.html,
+year7.html, year8.html, year9.html, year10.html, physics.html, chemistry.html,
+human-biology.html, biology.html, psychology.html, OPEN-RESOURCE-MANAGER.html.
+
+Content:
+resources/ = teaching resources
+exams/ = exam resources
+
+Keep index.html at repository root.
+Put resources into the prepared folders.
+Do not create Topic/Subtopic folders; the catalogue/database will do that later.
+The .keep files preserve empty folders in GitHub.
+resources.js is intentionally empty until we build the catalogue from your uploaded files.
