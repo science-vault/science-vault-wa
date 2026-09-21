@@ -1,5 +1,5 @@
 const R=window.SCIENCE_VAULT_RESOURCES||[], Q=window.SCIENCE_VAULT_QUESTIONS||[], $=id=>document.getElementById(id), uniq=a=>[...new Set(a)].sort();
-let liveQuestions=[...Q];
+let liveQuestions=[...Q]; let candidates=[];
 function ext(path){return (path.split(".").pop()||"").toLowerCase()}
 function cleanText(s){return (s||"").replace(/\r/g,"").replace(/[ \t]+/g," ").replace(/\n{3,}/g,"\n\n").trim()}
 function markFrom(s){let m=s.match(/\[(\d{1,2})\s*(?:marks?)?\]/i)||s.match(/\((\d{1,2})\s*marks?\)/i)||s.match(/(?:^|\s)(\d{1,2})\s*marks?\b/i);return m?Number(m[1]):null}
@@ -23,7 +23,7 @@ async function loadAssessmentQuestions(){
  const status=$("extractStatus");if(status)status.textContent="Reading uploaded assessment files and detecting individual questions…";const pool=eligible().filter(r=>["docx","pdf"].includes(ext(r.file))).slice(0,80);let added=[];
  for(const r of pool){try{const qs=ext(r.file)==="docx"?await extractDocx(r):await extractPdf(r);added.push(...qs)}catch(e){}}
  const seen=new Set(liveQuestions.map(x=>x.source+"|"+x.text));for(const q of added){const k=q.source+"|"+q.text;if(!seen.has(k)){seen.add(k);liveQuestions.push(q)}}
- if(status)status.textContent=added.length?added.length+" questions detected from "+pool.length+" assessment files.":"0 questions detected from "+pool.length+" matching DOCX/PDF files. These files may use tables/text boxes or legacy DOC format; those need server-side indexing.";return added.length
+ candidates=added;if(status)status.textContent=added.length?added.length+" candidate questions detected. They must be reviewed before entering the checked bank.":"0 usable candidate questions detected.";return added.length
 }
 function answerFile(r){return !!r.answers||/answer|solution|marking key|mark key|answers|solutions/i.test(r.title||"")}
 function assessment(r){return r.year==="Year 7"&&(/\/Tests\//i.test(r.file||"")||/test|exam|quiz|assessment|validation/i.test([r.type,r.title,r.description].join(" ")))}
@@ -42,3 +42,10 @@ function questionPool(){const s=$("strand").value,t=$("topic").value;return live
 function drawQuestions(list){let total=0;$("paperTitle").textContent=$("title").value||"Science Test";if(!list.length){$("questions").innerHTML='<div class="notice"><strong>No individual questions indexed yet for this selection.</strong><br>The assessment files are available in Assessment files mode while questions are extracted and checked.</div>';$("totalMarks").textContent="0 indexed questions";return}$("questions").innerHTML=list.map((x,i)=>{total+=Number(x.marks)||0;const opts=x.options?.length?'<ol type="A">'+x.options.map(o=>'<li>'+o+'</li>').join("")+'</ol>':'';return '<div class="question"><div class="question-head"><strong>'+(i+1)+'. '+x.text+'</strong><span class="marks">'+(x.marks?'['+x.marks+' mark'+(x.marks==1?'':'s')+']':'')+'</span></div>'+opts+'<div class="source">'+[x.strand,x.topic,x.school].filter(Boolean).join(" › ")+'</div>'+(x.source?'<div class="actions"><a class="maker-btn secondary" href="'+encodeURI(x.source)+'" target="_blank">Source assessment</a></div>':'')+'</div>'}).join("");$("totalMarks").textContent="Total: "+total+" marks"}
 async function generate(){const n=Math.max(1,Math.min(50,+$("count").value||10));if($("bankMode")?.value==="indexed"){await loadAssessmentQuestions();let pool=[...questionPool()].sort(()=>Math.random()-.5),target=+$("targetMarks").value||0,out=[];if(target){let sum=0;for(const x of pool){if(sum>=target)break;out.push(x);sum+=Number(x.marks)||0}}else out=pool.slice(0,n);current=[];drawQuestions(out)}else{const pool=eligible();current=[...pool].sort(()=>Math.random()-.5).slice(0,n);draw()}}
 $("strand").onchange=updateTopics;$("topic").onchange=updateSources;$("source").onchange=()=>{};$("sourceSearch").oninput=()=>{};$("generate").onclick=generate;$("shuffle").onclick=generate;$("toggleAnswers").style.display="none";fill();draw();
+function reviewCandidates(){
+ const p=$("reviewPanel");p.style.display="block";
+ if(!candidates.length){p.innerHTML='<div class="notice"><strong>No candidates loaded.</strong><br>Select a strand/topic or assessment search, then click Build assessment once to scan matching assessments.</div>';return}
+ p.innerHTML='<h3>Question-bank review</h3><p>Only approve questions that are complete and correctly extracted.</p>'+candidates.slice(0,50).map((q,i)=>'<div class="question"><label class="check"><input type="checkbox" class="approveQ" data-i="'+i+'"> <strong>Approve</strong></label><div>'+q.text+'</div><div class="source">'+[q.title,q.school,q.topic].filter(Boolean).join(" › ")+'</div></div>').join("")+'<div class="actions"><button class="maker-btn primary" id="useApproved">Use approved questions this session</button></div>';
+ $("useApproved").onclick=()=>{const approved=[...document.querySelectorAll(".approveQ:checked")].map(x=>candidates[+x.dataset.i]);const seen=new Set(liveQuestions.map(x=>x.source+"|"+x.text));approved.forEach(q=>{const k=q.source+"|"+q.text;if(!seen.has(k)){seen.add(k);liveQuestions.push(q)}});p.innerHTML='<div class="notice"><strong>'+approved.length+' questions approved for this session.</strong><br>They can now be used by the Checked question bank mode.</div>'}
+}
+$("reviewBank").onclick=reviewCandidates;
