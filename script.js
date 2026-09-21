@@ -3,7 +3,20 @@ const ALL_RESOURCES = window.SCIENCE_VAULT_RESOURCES || [];
 let activeType = "All";
 
 function norm(v){ return String(v||"").toLowerCase(); }
-function searchable(r){ return [r.title,r.year,r.course,r.strand,r.unit,r.topic,r.subtopic,r.type,r.format,r.description].map(norm).join(" "); }
+function searchable(r){ return [r.title,r.year,r.course,r.strand,r.unit,r.topic,r.subtopic,r.type,r.format,r.description,...(r.keywords||[])].map(norm).join(" "); }
+function termsForQuery(q){
+  const map={
+    "diversity of life":["diversity of life","classification","kingdoms","animal classification","adaptations"],
+    "classification hierarchy: kingdom to species":["classification hierarchy","kingdom to species","kingdoms","scientific naming","animal classification"],
+    "characteristics used for classification":["characteristics used for classification","characteristics and classification of living things","classification"],
+    "dichotomous keys":["dichotomous keys","classification keys","branched keys","tabular keys"],
+    "developing classification keys":["developing classification keys","classification keys","branched keys","tabular keys"],
+    "producers, consumers and decomposers":["producers consumers and decomposers","producer","consumer","decomposer","food chains","food webs"],
+    "energy flow in ecosystems":["energy flow in ecosystems","food chains","food webs","feeding relationships"],
+    "impacts of human activity on feeding relationships":["impacts of human activity on feeding relationships","human impacts","human activity","ecosystem impacts"]
+  };
+  return map[norm(q)]||[norm(q)];
+}
 function courseForPage(){
   return document.body.dataset.course || "";
 }
@@ -18,7 +31,7 @@ function filteredResources(){
     const courseOK = !pageCourse || r.course===pageCourse;
     const yearOK = !pageYear || r.year===pageYear;
     const typeOK = activeType==="All" || r.type===activeType;
-    const qOK = !q || searchable(r).includes(q);
+    const qOK = !q || termsForQuery(q).some(term=>searchable(r).includes(term));
     return courseOK && yearOK && typeOK && qOK;
   });
 }
