@@ -4,7 +4,7 @@ let activeType = "All";
 let activeTopic = "";
 let activeSubtopic = "";
 
-function norm(v){ return String(v||"").toLowerCase(); }
+function norm(v){ return String(v||"").toLowerCase().replace(/[’‘]/g,"'").replace(/[^a-z0-9]+/g," ").trim(); }
 function searchable(r){ return [r.title,r.year,r.course,r.strand,r.unit,r.topic,r.subtopic,r.type,r.format,r.description,...(r.keywords||[])].map(norm).join(" "); }
 function termsForQuery(q){
   const map={
@@ -17,7 +17,7 @@ function termsForQuery(q){
     "energy flow in ecosystems":["energy flow in ecosystems","food chains","food webs","feeding relationships"],
     "impacts of human activity on feeding relationships":["impacts of human activity on feeding relationships","human impacts","human activity","ecosystem impacts"]
   };
-  return map[norm(q)]||[norm(q)];
+  const nq=norm(q); return map[nq]||nq.split(/\s+/).filter(Boolean);
 }
 function courseForPage(){
   return document.body.dataset.course || "";
@@ -32,10 +32,10 @@ function filteredResources(){
     const pageYear = yearForPage();
     const courseOK = !pageCourse || r.course===pageCourse;
     const yearOK = !pageYear || r.year===pageYear;
-    const typeOK = activeType==="All" || norm(r.type)===norm(activeType) || norm(r.type)===norm(activeType+"s");
+    const typeAliases={worksheet:["worksheet","worksheets"],powerpoint:["powerpoint","powerpoints"],practical:["practical","practicals"],test:["test","tests"],exam:["exam","exams"],note:["note","notes"],revision:["revision"],"other resources":["other resources"]}; const wanted=typeAliases[norm(activeType)]||typeAliases[norm(activeType).replace(/s$/,"")]||[norm(activeType)]; const typeOK=activeType==="All"||wanted.includes(norm(r.type));
     const topicOK = !activeTopic || norm(r.topic)===norm(activeTopic);
     const subtopicOK = !activeSubtopic || termsForQuery(activeSubtopic).some(term=>searchable(r).includes(term));
-    const qOK = !q || termsForQuery(q).some(term=>searchable(r).includes(term));
+    const qTerms=termsForQuery(q); const qOK = !q || qTerms.every(term=>searchable(r).includes(term));
     return courseOK && yearOK && typeOK && topicOK && subtopicOK && qOK;
   });
 }
