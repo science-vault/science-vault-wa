@@ -40,6 +40,20 @@ function filteredResources(){
   });
 }
 function badge(text){ return text ? `<span class="meta-badge">${text}</span>` : ""; }
+function resourceDetails(r){
+  const parts=[];
+  const slides=r.slides??r.slideCount??r.slide_count;
+  const pages=r.pages??r.pageCount??r.page_count;
+  const size=r.sizeLabel??r.fileSizeLabel??r.file_size_label??r.size??r.fileSize??r.file_size;
+  if(slides) parts.push(slides+" slide"+(Number(slides)===1?"":"s"));
+  else if(pages) parts.push(pages+" page"+(Number(pages)===1?"":"s"));
+  if(size){
+    let s=size;
+    if(typeof s==="number"){s=s>=1048576?(s/1048576).toFixed(1)+" MB":s>=1024?(s/1024).toFixed(0)+" KB":s+" B";}
+    parts.push(s);
+  }
+  return parts.join(" • ");
+}
 function render(){
   const grid=document.getElementById("resourceGrid");
   if(!grid)return;
@@ -55,7 +69,7 @@ function render(){
         <span class="resource-year">${r.year||""}</span>
       </div>
       <h3>${r.title}</h3>
-      <p>${r.description||""}</p>
+      <p>${r.description||""}${resourceDetails(r)?` <strong class="resource-details">${resourceDetails(r)}</strong>`:""}</p>
       <div class="resource-path">${[r.course,r.unit,r.topic,r.subtopic].filter(Boolean).join(" › ")}</div>
       <div class="resource-actions">
         ${r.file?`<button class="preview-btn" data-preview="${r.file}" data-title="${r.title}">Preview</button>`:""}
