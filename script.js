@@ -58,7 +58,7 @@ function render(){
       <p>${r.description||""}</p>
       <div class="resource-path">${[r.course,r.unit,r.topic,r.subtopic].filter(Boolean).join(" › ")}</div>
       <div class="resource-actions">
-        ${r.preview?`<button class="preview-btn" data-preview="${r.preview}" data-title="${r.title}">Preview</button>`:""}
+        ${r.file?`<button class="preview-btn" data-preview="${r.file}" data-title="${r.title}">Preview</button>`:""}
         ${r.file?`<a class="download-btn" href="${r.file}" download>Download</a>`:""}
       </div>
     </article>`).join("");
@@ -113,13 +113,19 @@ function ensureModal(){
 }
 function openPreview(url,name){
   ensureModal();
+  const safeUrl=encodeURI(url);
   modal.querySelector("#previewTitle").textContent=name||"Preview";
-  modal.querySelector("#previewDownload").href=url;
+  modal.querySelector("#previewDownload").href=safeUrl;
   const body=modal.querySelector("#previewBody");
   const ext=(url.split("?")[0].split(".").pop()||"").toLowerCase();
-  if(ext==="pdf"||ext==="txt"||ext==="md") body.innerHTML=`<iframe src="${url}" title="Resource preview"></iframe>`;
-  else if(["png","jpg","jpeg","gif","webp","svg"].includes(ext)) body.innerHTML=`<div class="image-preview"><img src="${url}" alt=""></div>`;
-  else body.innerHTML=`<div class="preview-message"><h3>Preview not available for this file type</h3><p>Download the original resource to open it on your device.</p></div>`;
+  if(ext==="pdf"||ext==="txt"||ext==="md") body.innerHTML=`<iframe src="${safeUrl}" title="Resource preview"></iframe>`;
+  else if(["png","jpg","jpeg","gif","webp","svg"].includes(ext)) body.innerHTML=`<div class="image-preview"><img src="${safeUrl}" alt=""></div>`;
+  else if(["doc","docx","ppt","pptx","xls","xlsx"].includes(ext)){
+    const absolute=new URL(safeUrl,window.location.href).href;
+    const office="https://view.officeapps.live.com/op/embed.aspx?src="+encodeURIComponent(absolute);
+    body.innerHTML=`<iframe src="${office}" title="Office document preview" style="width:100%;height:75vh;border:0"></iframe>`;
+  } else if(["mp4","webm"].includes(ext)) body.innerHTML=`<video controls style="max-width:100%;max-height:75vh"><source src="${safeUrl}"></video>`;
+  else body.innerHTML=`<div class="preview-message"><h3>Preview not available for this file type</h3><p>You can still download the original resource.</p></div>`;
   modal.classList.remove("hidden"); document.body.style.overflow="hidden";
 }
 function closePreview(){ if(modal){modal.classList.add("hidden");modal.querySelector("#previewBody").innerHTML="";document.body.style.overflow="";}}
@@ -145,7 +151,7 @@ document.addEventListener("DOMContentLoaded",()=>{setupFilters();setupSubtopics(
    $("libraryCount").textContent=`${rows.length} resource${rows.length===1?"":"s"}`;
    $("libraryEmpty").classList.toggle("hidden",rows.length>0);
    $("libraryGrid").innerHTML=rows.map(r=>{
-     const file=encodeURI(r.file), preview=r.preview?`<button class="preview-btn" data-preview="${encodeURI(r.preview)}" data-download="${file}" data-title="${esc(r.title)}">Preview</button>`:"";
+     const file=encodeURI(r.file), preview=r.file?`<button class="preview-btn" data-preview="${file}" data-download="${file}" data-title="${esc(r.title)}">Preview</button>`:"";
      return `<article class="resource-card"><div class="resource-top"><span class="resource-type">${esc(r.type)}</span><span class="resource-format">${esc(r.format)}</span>${r.answers?'<span class="answer-badge">Answers</span>':''}</div><h3>${esc(r.title)}</h3><p>${esc(r.description||"")}</p><small>${esc(r.year)} · ${esc(r.course)} · ${esc(r.unit)} · ${esc(r.topic)} · ${esc(r.subtopic)}</small><div class="resource-actions">${preview}<a class="download-btn" href="${file}" download>Download</a></div></article>`;
    }).join("");
  }
