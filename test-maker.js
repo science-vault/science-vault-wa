@@ -4,7 +4,9 @@ function ext(path){return (path.split(".").pop()||"").toLowerCase()}
 function cleanText(s){return (s||"").replace(/\r/g,"").replace(/[ \t]+/g," ").replace(/\n{3,}/g,"\n\n").trim()}
 function markFrom(s){let m=s.match(/\[(\d{1,2})\s*(?:marks?)?\]/i)||s.match(/\((\d{1,2})\s*marks?\)/i)||s.match(/(?:^|\s)(\d{1,2})\s*marks?\b/i);return m?Number(m[1]):null}
 function splitQuestions(text,r){
- const lines=cleanText(text).split("\n").map(x=>x.trim()).filter(Boolean), out=[]; let cur=null;
+ let raw=cleanText(text);
+raw=raw.replace(/\s+(?=(?:Question\s*)?\d{1,2}(?:\s*[\(\.]?[a-z]\)?)?[\.\)\:\-]\s+)/gi,"\n");
+const lines=raw.split("\n").map(x=>x.trim()).filter(Boolean), out=[]; let cur=null;
  const qre=/^(?:question\s*)?(\d{1,2})[\.\)\:\-]\s+(.+)/i;
  for(const line of lines){const m=line.match(qre);if(m){if(cur&&cur.text.length>8)out.push(cur);cur={id:"auto-"+m[1]+(m[2]||"")+"-"+btoa(unescape(encodeURIComponent(r.file))).slice(0,12),title:r.title,text:m[3],year:r.year,strand:r.strand,topic:r.topic,subtopic:r.subtopic,marks:markFrom(line),type:"short",options:[],answer:"",source:r.file,answerSource:"",school:schoolOf(r),number:m[1]+(m[2]?"("+m[2]+")":"")}}else if(cur&&line.length<500){if(/^\(?[A-Da-d]\)[\.\s]|^[A-Da-d][\.\)]\s/.test(line)){cur.type="mc";cur.options.push(line.replace(/^\(?[A-Da-d]\)?[\.\)]?\s*/,""))}else cur.text+=" "+line;if(!cur.marks)cur.marks=markFrom(line)}}
  if(cur&&cur.text.length>8)out.push(cur);
@@ -18,10 +20,10 @@ async function extractPdf(r){
  if(!window.pdfjsLib)return[];const pdf=await pdfjsLib.getDocument(encodeURI(r.file)).promise;let text="";for(let i=1;i<=pdf.numPages;i++){const p=await pdf.getPage(i),tc=await p.getTextContent();text+=tc.items.map(x=>x.str).join(" ")+"\n"}return splitQuestions(text,r)
 }
 async function loadAssessmentQuestions(){
- const status=$("extractStatus");if(status)status.textContent="Reading uploaded assessments…";const pool=eligible().filter(r=>["docx","pdf"].includes(ext(r.file))).slice(0,40);let added=[];
+ const status=$("extractStatus");if(status)status.textContent="Reading uploaded assessment files and detecting individual questions…";const pool=eligible().filter(r=>["docx","pdf"].includes(ext(r.file))).slice(0,80);let added=[];
  for(const r of pool){try{const qs=ext(r.file)==="docx"?await extractDocx(r):await extractPdf(r);added.push(...qs)}catch(e){}}
  const seen=new Set(liveQuestions.map(x=>x.source+"|"+x.text));for(const q of added){const k=q.source+"|"+q.text;if(!seen.has(k)){seen.add(k);liveQuestions.push(q)}}
- if(status)status.textContent=added.length?added.length+" questions detected from "+pool.length+" assessment files.":"No questions could be read from the first "+pool.length+" matching files. Try narrowing the strand/topic or use Assessment files mode.";return added.length
+ if(status)status.textContent=added.length?added.length+" questions detected from "+pool.length+" assessment files.":"0 questions detected from "+pool.length+" matching DOCX/PDF files. These files may use tables/text boxes or legacy DOC format; those need server-side indexing.";return added.length
 }
 function answerFile(r){return !!r.answers||/answer|solution|marking key|mark key|answers|solutions/i.test(r.title||"")}
 function assessment(r){return r.year==="Year 7"&&(/\/Tests\//i.test(r.file||"")||/test|exam|quiz|assessment|validation/i.test([r.type,r.title,r.description].join(" ")))}
