@@ -14,7 +14,16 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": false,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/1 Characteristics of Living Things.pptx",
     "preview": "",
-    "description": "PowerPoints resource for Characteristics and classification of living things."
+    "description": "PowerPoints resource for Characteristics and classification of living things.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "classification",
+      "diversity of life",
+      "living things",
+      "characteristics used for classification"
+    ]
   },
   {
     "id": "y7-bio-002",
@@ -31,7 +40,16 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": true,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/1 Characteristics of Living Things_answers.docx",
     "preview": "",
-    "description": "Worksheets resource for Characteristics and classification of living things."
+    "description": "Worksheets resource for Characteristics and classification of living things.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "classification",
+      "diversity of life",
+      "living things",
+      "characteristics used for classification"
+    ]
   },
   {
     "id": "y7-bio-003",
@@ -48,7 +66,20 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": false,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/10 BEAN COUNTER v2.docx",
     "preview": "",
-    "description": "Worksheets resource for Adaptations and survival."
+    "description": "Worksheets resource for Adaptations and survival.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "classification",
+      "diversity of life",
+      "living things",
+      "characteristics used for classification",
+      "adaptations",
+      "adaptations and survival",
+      "survival",
+      "camouflage"
+    ]
   },
   {
     "id": "y7-bio-004",
@@ -65,7 +96,20 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": false,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/10 BEAN COUNTER.docx",
     "preview": "",
-    "description": "Worksheets resource for Adaptations and survival."
+    "description": "Worksheets resource for Adaptations and survival.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "classification",
+      "diversity of life",
+      "living things",
+      "characteristics used for classification",
+      "adaptations",
+      "adaptations and survival",
+      "survival",
+      "camouflage"
+    ]
   },
   {
     "id": "y7-bio-005",
@@ -82,7 +126,20 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": false,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/10 MATCHSTICK CAMOUFLAGE.docx",
     "preview": "",
-    "description": "Other Resources resource for Adaptations and survival."
+    "description": "Other Resources resource for Adaptations and survival.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "classification",
+      "diversity of life",
+      "living things",
+      "characteristics used for classification",
+      "adaptations",
+      "adaptations and survival",
+      "survival",
+      "camouflage"
+    ]
   },
   {
     "id": "y7-bio-006",
@@ -99,7 +156,20 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": false,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/11 Types of Adaptations Activity (pages 4-16).pdf",
     "preview": "resources/Year 7/Biological Sciences/PowerPoints/11 Types of Adaptations Activity (pages 4-16).pdf",
-    "description": "Worksheets resource for Adaptations and survival."
+    "description": "Worksheets resource for Adaptations and survival.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "classification",
+      "diversity of life",
+      "living things",
+      "characteristics used for classification",
+      "adaptations",
+      "adaptations and survival",
+      "survival",
+      "camouflage"
+    ]
   },
   {
     "id": "y7-bio-007",
@@ -116,7 +186,20 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": false,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/11 Types of Adaptations Activity Worksheet Option 1.docx",
     "preview": "",
-    "description": "Worksheets resource for Adaptations and survival."
+    "description": "Worksheets resource for Adaptations and survival.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "classification",
+      "diversity of life",
+      "living things",
+      "characteristics used for classification",
+      "adaptations",
+      "adaptations and survival",
+      "survival",
+      "camouflage"
+    ]
   },
   {
     "id": "y7-bio-008",
@@ -133,7 +216,20 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": false,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/11 Types of Adaptations Activity Worksheet Option 2.docx",
     "preview": "",
-    "description": "Worksheets resource for Adaptations and survival."
+    "description": "Worksheets resource for Adaptations and survival.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "classification",
+      "diversity of life",
+      "living things",
+      "characteristics used for classification",
+      "adaptations",
+      "adaptations and survival",
+      "survival",
+      "camouflage"
+    ]
   },
   {
     "id": "y7-bio-009",
@@ -150,7 +246,21 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": false,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/12 Classification Keys.pptx",
     "preview": "",
-    "description": "PowerPoints resource for Classification keys."
+    "description": "PowerPoints resource for Classification keys.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "classification",
+      "diversity of life",
+      "living things",
+      "characteristics used for classification",
+      "classification keys",
+      "dichotomous keys",
+      "branched keys",
+      "tabular keys",
+      "developing classification keys"
+    ]
   },
   {
     "id": "y7-bio-010",
@@ -167,7 +277,21 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": false,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/12 Planet Pamishan.docx",
     "preview": "",
-    "description": "Worksheets resource for Classification keys."
+    "description": "Worksheets resource for Classification keys.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "classification",
+      "diversity of life",
+      "living things",
+      "characteristics used for classification",
+      "classification keys",
+      "dichotomous keys",
+      "branched keys",
+      "tabular keys",
+      "developing classification keys"
+    ]
   },
   {
     "id": "y7-bio-011",
@@ -184,7 +308,21 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": true,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/12 Planet Pamishan_answers.docx",
     "preview": "",
-    "description": "Worksheets resource for Classification keys."
+    "description": "Worksheets resource for Classification keys.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "classification",
+      "diversity of life",
+      "living things",
+      "characteristics used for classification",
+      "classification keys",
+      "dichotomous keys",
+      "branched keys",
+      "tabular keys",
+      "developing classification keys"
+    ]
   },
   {
     "id": "y7-bio-012",
@@ -201,7 +339,21 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": false,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/13 Drawing Branched Keys.pptx",
     "preview": "",
-    "description": "PowerPoints resource for Classification keys."
+    "description": "PowerPoints resource for Classification keys.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "classification",
+      "diversity of life",
+      "living things",
+      "characteristics used for classification",
+      "classification keys",
+      "dichotomous keys",
+      "branched keys",
+      "tabular keys",
+      "developing classification keys"
+    ]
   },
   {
     "id": "y7-bio-013",
@@ -218,7 +370,21 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": false,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/14 Drawing Tabular Keys.pptx",
     "preview": "",
-    "description": "PowerPoints resource for Classification keys."
+    "description": "PowerPoints resource for Classification keys.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "classification",
+      "diversity of life",
+      "living things",
+      "characteristics used for classification",
+      "classification keys",
+      "dichotomous keys",
+      "branched keys",
+      "tabular keys",
+      "developing classification keys"
+    ]
   },
   {
     "id": "y7-bio-014",
@@ -235,7 +401,21 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": false,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/15 Drawing Branched and Tabular Keys Practice.pptx",
     "preview": "",
-    "description": "Practicals resource for Classification keys."
+    "description": "Practicals resource for Classification keys.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "classification",
+      "diversity of life",
+      "living things",
+      "characteristics used for classification",
+      "classification keys",
+      "dichotomous keys",
+      "branched keys",
+      "tabular keys",
+      "developing classification keys"
+    ]
   },
   {
     "id": "y7-bio-015",
@@ -252,7 +432,16 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": false,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/16 Classification of Living Things.pptx",
     "preview": "",
-    "description": "PowerPoints resource for Characteristics and classification of living things."
+    "description": "PowerPoints resource for Characteristics and classification of living things.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "classification",
+      "diversity of life",
+      "living things",
+      "characteristics used for classification"
+    ]
   },
   {
     "id": "y7-bio-016",
@@ -269,7 +458,22 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": false,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/16 Scientific Naming - Connect version.docx",
     "preview": "",
-    "description": "Worksheets resource for Scientific naming."
+    "description": "Worksheets resource for Scientific naming.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "classification",
+      "diversity of life",
+      "living things",
+      "characteristics used for classification",
+      "scientific naming",
+      "binomial nomenclature",
+      "genus",
+      "species",
+      "classification hierarchy",
+      "kingdom to species"
+    ]
   },
   {
     "id": "y7-bio-017",
@@ -286,7 +490,22 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": true,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/16 Scientific Naming - answers.docx",
     "preview": "",
-    "description": "Worksheets resource for Scientific naming."
+    "description": "Worksheets resource for Scientific naming.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "classification",
+      "diversity of life",
+      "living things",
+      "characteristics used for classification",
+      "scientific naming",
+      "binomial nomenclature",
+      "genus",
+      "species",
+      "classification hierarchy",
+      "kingdom to species"
+    ]
   },
   {
     "id": "y7-bio-018",
@@ -303,7 +522,22 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": false,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/16 Scientific Naming - printable version.docx",
     "preview": "",
-    "description": "Worksheets resource for Scientific naming."
+    "description": "Worksheets resource for Scientific naming.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "classification",
+      "diversity of life",
+      "living things",
+      "characteristics used for classification",
+      "scientific naming",
+      "binomial nomenclature",
+      "genus",
+      "species",
+      "classification hierarchy",
+      "kingdom to species"
+    ]
   },
   {
     "id": "y7-bio-019",
@@ -320,7 +554,19 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": false,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/17 Kingdoms.pptx",
     "preview": "",
-    "description": "PowerPoints resource for Kingdoms."
+    "description": "PowerPoints resource for Kingdoms.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "classification",
+      "diversity of life",
+      "living things",
+      "characteristics used for classification",
+      "kingdoms",
+      "classification hierarchy",
+      "kingdom to species"
+    ]
   },
   {
     "id": "y7-bio-020",
@@ -337,7 +583,19 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": false,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/17 Understanding Kingdoms (2).docx",
     "preview": "",
-    "description": "Other Resources resource for Kingdoms."
+    "description": "Other Resources resource for Kingdoms.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "classification",
+      "diversity of life",
+      "living things",
+      "characteristics used for classification",
+      "kingdoms",
+      "classification hierarchy",
+      "kingdom to species"
+    ]
   },
   {
     "id": "y7-bio-021",
@@ -354,7 +612,19 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": false,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/17 Understanding Kingdoms.docx",
     "preview": "",
-    "description": "Other Resources resource for Kingdoms."
+    "description": "Other Resources resource for Kingdoms.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "classification",
+      "diversity of life",
+      "living things",
+      "characteristics used for classification",
+      "kingdoms",
+      "classification hierarchy",
+      "kingdom to species"
+    ]
   },
   {
     "id": "y7-bio-022",
@@ -371,7 +641,19 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": true,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/17 Understanding Kingdoms_answers.docx",
     "preview": "",
-    "description": "Worksheets resource for Kingdoms."
+    "description": "Worksheets resource for Kingdoms.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "classification",
+      "diversity of life",
+      "living things",
+      "characteristics used for classification",
+      "kingdoms",
+      "classification hierarchy",
+      "kingdom to species"
+    ]
   },
   {
     "id": "y7-bio-023",
@@ -388,7 +670,23 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": true,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/18 Vertebrate & Arthropod Graphic Organiser Filled.docx",
     "preview": "",
-    "description": "Worksheets resource for Animal classification."
+    "description": "Worksheets resource for Animal classification.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "classification",
+      "diversity of life",
+      "living things",
+      "characteristics used for classification",
+      "animal classification",
+      "vertebrates",
+      "invertebrates",
+      "arthropods",
+      "phyla",
+      "classification hierarchy",
+      "kingdom to species"
+    ]
   },
   {
     "id": "y7-bio-024",
@@ -405,7 +703,23 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": false,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/18 Vertebrate & Arthropod Graphic Organiser.docx",
     "preview": "",
-    "description": "Worksheets resource for Animal classification."
+    "description": "Worksheets resource for Animal classification.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "classification",
+      "diversity of life",
+      "living things",
+      "characteristics used for classification",
+      "animal classification",
+      "vertebrates",
+      "invertebrates",
+      "arthropods",
+      "phyla",
+      "classification hierarchy",
+      "kingdom to species"
+    ]
   },
   {
     "id": "y7-bio-025",
@@ -422,7 +736,23 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": false,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/18 Vertebrate & Arthropod Graphic Organiser_LowLit.docx",
     "preview": "",
-    "description": "Worksheets resource for Animal classification."
+    "description": "Worksheets resource for Animal classification.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "classification",
+      "diversity of life",
+      "living things",
+      "characteristics used for classification",
+      "animal classification",
+      "vertebrates",
+      "invertebrates",
+      "arthropods",
+      "phyla",
+      "classification hierarchy",
+      "kingdom to species"
+    ]
   },
   {
     "id": "y7-bio-026",
@@ -439,7 +769,23 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": false,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/18 Vertebrates.pptx",
     "preview": "",
-    "description": "PowerPoints resource for Animal classification."
+    "description": "PowerPoints resource for Animal classification.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "classification",
+      "diversity of life",
+      "living things",
+      "characteristics used for classification",
+      "animal classification",
+      "vertebrates",
+      "invertebrates",
+      "arthropods",
+      "phyla",
+      "classification hierarchy",
+      "kingdom to species"
+    ]
   },
   {
     "id": "y7-bio-027",
@@ -456,7 +802,23 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": false,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/19 Arthropods.pptx",
     "preview": "",
-    "description": "PowerPoints resource for Animal classification."
+    "description": "PowerPoints resource for Animal classification.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "classification",
+      "diversity of life",
+      "living things",
+      "characteristics used for classification",
+      "animal classification",
+      "vertebrates",
+      "invertebrates",
+      "arthropods",
+      "phyla",
+      "classification hierarchy",
+      "kingdom to species"
+    ]
   },
   {
     "id": "y7-bio-028",
@@ -473,7 +835,19 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": false,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/2 Food Chains.pptx",
     "preview": "",
-    "description": "PowerPoints resource for Food chains."
+    "description": "PowerPoints resource for Food chains.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "food chains",
+      "producer",
+      "consumer",
+      "decomposer",
+      "producers consumers and decomposers",
+      "energy flow in ecosystems",
+      "feeding relationships"
+    ]
   },
   {
     "id": "y7-bio-029",
@@ -490,7 +864,23 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": false,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/20 Other Phyla Graphic Organiser.docx",
     "preview": "",
-    "description": "Worksheets resource for Animal classification."
+    "description": "Worksheets resource for Animal classification.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "classification",
+      "diversity of life",
+      "living things",
+      "characteristics used for classification",
+      "animal classification",
+      "vertebrates",
+      "invertebrates",
+      "arthropods",
+      "phyla",
+      "classification hierarchy",
+      "kingdom to species"
+    ]
   },
   {
     "id": "y7-bio-030",
@@ -507,7 +897,23 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": false,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/20 Other Phyla.pptx",
     "preview": "",
-    "description": "PowerPoints resource for Animal classification."
+    "description": "PowerPoints resource for Animal classification.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "classification",
+      "diversity of life",
+      "living things",
+      "characteristics used for classification",
+      "animal classification",
+      "vertebrates",
+      "invertebrates",
+      "arthropods",
+      "phyla",
+      "classification hierarchy",
+      "kingdom to species"
+    ]
   },
   {
     "id": "y7-bio-031",
@@ -524,7 +930,23 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": false,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/21 Identifying Other Phyla specimens.docx",
     "preview": "",
-    "description": "Worksheets resource for Animal classification."
+    "description": "Worksheets resource for Animal classification.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "classification",
+      "diversity of life",
+      "living things",
+      "characteristics used for classification",
+      "animal classification",
+      "vertebrates",
+      "invertebrates",
+      "arthropods",
+      "phyla",
+      "classification hierarchy",
+      "kingdom to species"
+    ]
   },
   {
     "id": "y7-bio-032",
@@ -541,7 +963,23 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": false,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/21 Identifying Phylum and Class specimens.docx",
     "preview": "",
-    "description": "Worksheets resource for Animal classification."
+    "description": "Worksheets resource for Animal classification.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "classification",
+      "diversity of life",
+      "living things",
+      "characteristics used for classification",
+      "animal classification",
+      "vertebrates",
+      "invertebrates",
+      "arthropods",
+      "phyla",
+      "classification hierarchy",
+      "kingdom to species"
+    ]
   },
   {
     "id": "y7-bio-033",
@@ -558,7 +996,16 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": false,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/22 All Graphic Organisers.docx",
     "preview": "",
-    "description": "Worksheets resource for Classification."
+    "description": "Worksheets resource for Classification.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "classification",
+      "diversity of life",
+      "living things",
+      "characteristics used for classification"
+    ]
   },
   {
     "id": "y7-bio-034",
@@ -575,7 +1022,18 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": true,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/22 Classification Test Revision ANSWERS.docx",
     "preview": "",
-    "description": "Revision resource for Characteristics and classification of living things."
+    "description": "Revision resource for Characteristics and classification of living things.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "classification",
+      "diversity of life",
+      "living things",
+      "characteristics used for classification",
+      "revision",
+      "test revision"
+    ]
   },
   {
     "id": "y7-bio-035",
@@ -592,7 +1050,18 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": false,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/22 Classification Test Revision.docx",
     "preview": "",
-    "description": "Revision resource for Characteristics and classification of living things."
+    "description": "Revision resource for Characteristics and classification of living things.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "classification",
+      "diversity of life",
+      "living things",
+      "characteristics used for classification",
+      "revision",
+      "test revision"
+    ]
   },
   {
     "id": "y7-bio-036",
@@ -609,7 +1078,19 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": false,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/3 Food Chains Questions (Connect Version).docx",
     "preview": "",
-    "description": "Worksheets resource for Food chains."
+    "description": "Worksheets resource for Food chains.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "food chains",
+      "producer",
+      "consumer",
+      "decomposer",
+      "producers consumers and decomposers",
+      "energy flow in ecosystems",
+      "feeding relationships"
+    ]
   },
   {
     "id": "y7-bio-037",
@@ -626,7 +1107,19 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": false,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/3 Food Chains Questions (Printout Version).docx",
     "preview": "",
-    "description": "Worksheets resource for Food chains."
+    "description": "Worksheets resource for Food chains.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "food chains",
+      "producer",
+      "consumer",
+      "decomposer",
+      "producers consumers and decomposers",
+      "energy flow in ecosystems",
+      "feeding relationships"
+    ]
   },
   {
     "id": "y7-bio-038",
@@ -643,7 +1136,19 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": false,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/3 Food chain display pyramid blank.pdf",
     "preview": "resources/Year 7/Biological Sciences/PowerPoints/3 Food chain display pyramid blank.pdf",
-    "description": "Other Resources resource for Food chains."
+    "description": "Other Resources resource for Food chains.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "food chains",
+      "producer",
+      "consumer",
+      "decomposer",
+      "producers consumers and decomposers",
+      "energy flow in ecosystems",
+      "feeding relationships"
+    ]
   },
   {
     "id": "y7-bio-039",
@@ -660,7 +1165,19 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": false,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/3 Food chain display pyramid.pdf",
     "preview": "resources/Year 7/Biological Sciences/PowerPoints/3 Food chain display pyramid.pdf",
-    "description": "Other Resources resource for Food chains."
+    "description": "Other Resources resource for Food chains.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "food chains",
+      "producer",
+      "consumer",
+      "decomposer",
+      "producers consumers and decomposers",
+      "energy flow in ecosystems",
+      "feeding relationships"
+    ]
   },
   {
     "id": "y7-bio-040",
@@ -677,7 +1194,19 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": false,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/4 Food Webs.pptx",
     "preview": "",
-    "description": "PowerPoints resource for Food webs."
+    "description": "PowerPoints resource for Food webs.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "food webs",
+      "producer",
+      "consumer",
+      "decomposer",
+      "producers consumers and decomposers",
+      "energy flow in ecosystems",
+      "feeding relationships"
+    ]
   },
   {
     "id": "y7-bio-041",
@@ -694,7 +1223,19 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": false,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/5 Drawing Food Webs.docx",
     "preview": "",
-    "description": "Other Resources resource for Food webs."
+    "description": "Other Resources resource for Food webs.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "food webs",
+      "producer",
+      "consumer",
+      "decomposer",
+      "producers consumers and decomposers",
+      "energy flow in ecosystems",
+      "feeding relationships"
+    ]
   },
   {
     "id": "y7-bio-042",
@@ -711,7 +1252,19 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": false,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/5 Wooly Web Activity.pdf",
     "preview": "resources/Year 7/Biological Sciences/PowerPoints/5 Wooly Web Activity.pdf",
-    "description": "Worksheets resource for Food webs."
+    "description": "Worksheets resource for Food webs.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "food webs",
+      "producer",
+      "consumer",
+      "decomposer",
+      "producers consumers and decomposers",
+      "energy flow in ecosystems",
+      "feeding relationships"
+    ]
   },
   {
     "id": "y7-bio-043",
@@ -728,7 +1281,19 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": true,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/6 Construct a Giant Food Web ANSWERS.pdf",
     "preview": "resources/Year 7/Biological Sciences/PowerPoints/6 Construct a Giant Food Web ANSWERS.pdf",
-    "description": "Worksheets resource for Food webs."
+    "description": "Worksheets resource for Food webs.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "food webs",
+      "producer",
+      "consumer",
+      "decomposer",
+      "producers consumers and decomposers",
+      "energy flow in ecosystems",
+      "feeding relationships"
+    ]
   },
   {
     "id": "y7-bio-044",
@@ -745,7 +1310,19 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": false,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/6 Construct a Giant Food Web.docx",
     "preview": "",
-    "description": "Worksheets resource for Food webs."
+    "description": "Worksheets resource for Food webs.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "food webs",
+      "producer",
+      "consumer",
+      "decomposer",
+      "producers consumers and decomposers",
+      "energy flow in ecosystems",
+      "feeding relationships"
+    ]
   },
   {
     "id": "y7-bio-045",
@@ -762,7 +1339,18 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": false,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/7 Growing Plants Investigation.pptx",
     "preview": "",
-    "description": "Practicals resource for Producers and plant growth."
+    "description": "Practicals resource for Producers and plant growth.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "producers",
+      "plant growth",
+      "producer",
+      "producers consumers and decomposers",
+      "energy flow in ecosystems",
+      "feeding relationships"
+    ]
   },
   {
     "id": "y7-bio-046",
@@ -779,7 +1367,17 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": false,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/8 Impacts Info Sheet.docx",
     "preview": "",
-    "description": "Other Resources resource for Human impacts on ecosystems."
+    "description": "Other Resources resource for Human impacts on ecosystems.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "human impacts",
+      "human activity",
+      "impacts of human activity on feeding relationships",
+      "ecosystem impacts",
+      "feeding relationships"
+    ]
   },
   {
     "id": "y7-bio-047",
@@ -796,7 +1394,17 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": false,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/8 Impacts Posters.pptx",
     "preview": "",
-    "description": "PowerPoints resource for Human impacts on ecosystems."
+    "description": "PowerPoints resource for Human impacts on ecosystems.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "human impacts",
+      "human activity",
+      "impacts of human activity on feeding relationships",
+      "ecosystem impacts",
+      "feeding relationships"
+    ]
   },
   {
     "id": "y7-bio-048",
@@ -813,6 +1421,19 @@ window.SCIENCE_VAULT_RESOURCES = [
     "answers": false,
     "file": "resources/Year 7/Biological Sciences/PowerPoints/9 Adaptations.pptx",
     "preview": "",
-    "description": "PowerPoints resource for Adaptations and survival."
+    "description": "PowerPoints resource for Adaptations and survival.",
+    "keywords": [
+      "year 7",
+      "science",
+      "biological sciences",
+      "classification",
+      "diversity of life",
+      "living things",
+      "characteristics used for classification",
+      "adaptations",
+      "adaptations and survival",
+      "survival",
+      "camouflage"
+    ]
   }
 ];
