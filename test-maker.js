@@ -2,12 +2,13 @@ const R=window.SCIENCE_VAULT_RESOURCES||[], Q=window.SCIENCE_VAULT_QUESTIONS||[]
 let liveQuestions=[...Q];
 function ext(path){return (path.split(".").pop()||"").toLowerCase()}
 function cleanText(s){return (s||"").replace(/\r/g,"").replace(/[ \t]+/g," ").replace(/\n{3,}/g,"\n\n").trim()}
+function markFrom(s){let m=s.match(/\[(\d{1,2})\s*(?:marks?)?\]/i)||s.match(/\((\d{1,2})\s*marks?\)/i)||s.match(/(?:^|\s)(\d{1,2})\s*marks?\b/i);return m?Number(m[1]):null}
 function splitQuestions(text,r){
  const lines=cleanText(text).split("\n").map(x=>x.trim()).filter(Boolean), out=[]; let cur=null;
  const qre=/^(?:question\s*)?(\d{1,2})[\.\)\:\-]\s+(.+)/i;
- for(const line of lines){const m=line.match(qre);if(m){if(cur&&cur.text.length>8)out.push(cur);cur={id:"auto-"+out.length+"-"+btoa(unescape(encodeURIComponent(r.file))).slice(0,12),title:r.title,text:m[2],year:r.year,strand:r.strand,topic:r.topic,subtopic:r.subtopic,marks:null,type:"short",options:[],answer:"",source:r.file,answerSource:"",school:schoolOf(r)}}else if(cur&&line.length<500)cur.text+=" "+line}
+ for(const line of lines){const m=line.match(qre);if(m){if(cur&&cur.text.length>8)out.push(cur);cur={id:"auto-"+m[1]+(m[2]||"")+"-"+btoa(unescape(encodeURIComponent(r.file))).slice(0,12),title:r.title,text:m[3],year:r.year,strand:r.strand,topic:r.topic,subtopic:r.subtopic,marks:markFrom(line),type:"short",options:[],answer:"",source:r.file,answerSource:"",school:schoolOf(r),number:m[1]+(m[2]?"("+m[2]+")":"")}}else if(cur&&line.length<500){if(/^\(?[A-Da-d]\)[\.\s]|^[A-Da-d][\.\)]\s/.test(line)){cur.type="mc";cur.options.push(line.replace(/^\(?[A-Da-d]\)?[\.\)]?\s*/,""))}else cur.text+=" "+line;if(!cur.marks)cur.marks=markFrom(line)}}
  if(cur&&cur.text.length>8)out.push(cur);
- return out.filter(x=>x.text.length<1200)
+ return out.filter(x=>x.text.length>8&&x.text.length<1200&&!/name:|date:|total marks|instructions/i.test(x.text))
 }
 async function extractDocx(r){
  const res=await fetch(encodeURI(r.file));if(!res.ok)throw Error("fetch");const ab=await res.arrayBuffer();const zip=await JSZip.loadAsync(ab);const xml=await zip.file("word/document.xml")?.async("text");if(!xml)return[];
