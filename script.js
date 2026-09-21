@@ -1,6 +1,8 @@
 
 const ALL_RESOURCES = window.SCIENCE_VAULT_RESOURCES || [];
 let activeType = "All";
+let activeTopic = "";
+let activeSubtopic = "";
 
 function norm(v){ return String(v||"").toLowerCase(); }
 function searchable(r){ return [r.title,r.year,r.course,r.strand,r.unit,r.topic,r.subtopic,r.type,r.format,r.description,...(r.keywords||[])].map(norm).join(" "); }
@@ -30,9 +32,11 @@ function filteredResources(){
     const pageYear = yearForPage();
     const courseOK = !pageCourse || r.course===pageCourse;
     const yearOK = !pageYear || r.year===pageYear;
-    const typeOK = activeType==="All" || r.type===activeType;
+    const typeOK = activeType==="All" || norm(r.type)===norm(activeType) || norm(r.type)===norm(activeType+"s");
+    const topicOK = !activeTopic || norm(r.topic)===norm(activeTopic);
+    const subtopicOK = !activeSubtopic || termsForQuery(activeSubtopic).some(term=>searchable(r).includes(term));
     const qOK = !q || termsForQuery(q).some(term=>searchable(r).includes(term));
-    return courseOK && yearOK && typeOK && qOK;
+    return courseOK && yearOK && typeOK && topicOK && subtopicOK && qOK;
   });
 }
 function badge(text){ return text ? `<span class="meta-badge">${text}</span>` : ""; }
@@ -71,11 +75,22 @@ function setupFilters(){
   document.getElementById("searchInput")?.addEventListener("input",render);
 }
 function setupSubtopics(){
-  document.querySelectorAll("[data-subtopic]").forEach(b=>b.addEventListener("click",()=>{
-    document.querySelectorAll("[data-subtopic]").forEach(x=>x.classList.remove("selected"));
+  document.querySelectorAll("[data-topic]").forEach(b=>b.addEventListener("click",()=>{
+    activeTopic=b.dataset.topic||"";
+    activeSubtopic="";
+    document.querySelectorAll("[data-topic],[data-subtopic]").forEach(x=>x.classList.remove("selected"));
     b.classList.add("selected");
-    const q=document.getElementById("searchInput");
-    if(q){q.value=b.dataset.subtopic;render();}
+    const q=document.getElementById("searchInput"); if(q)q.value="";
+    render();
+    document.getElementById("resources")?.scrollIntoView({behavior:"smooth"});
+  }));
+  document.querySelectorAll("[data-subtopic]").forEach(b=>b.addEventListener("click",()=>{
+    activeTopic="";
+    activeSubtopic=b.dataset.subtopic||"";
+    document.querySelectorAll("[data-topic],[data-subtopic]").forEach(x=>x.classList.remove("selected"));
+    b.classList.add("selected");
+    const q=document.getElementById("searchInput"); if(q)q.value="";
+    render();
     document.getElementById("resources")?.scrollIntoView({behavior:"smooth"});
   }));
 }
