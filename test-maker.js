@@ -1,4 +1,27 @@
 const R=window.SCIENCE_VAULT_RESOURCES||[], Q=window.SCIENCE_VAULT_QUESTIONS||[], $=id=>document.getElementById(id), uniq=a=>[...new Set(a)].sort();
+let liveQuestions=[...Q];
+function ext(path){return (path.split(".").pop()||"").toLowerCase()}
+function cleanText(s){return (s||"").replace(/\r/g,"").replace(/[ \t]+/g," ").replace(/\n{3,}/g,"\n\n").trim()}
+function splitQuestions(text,r){
+ const lines=cleanText(text).split("\n").map(x=>x.trim()).filter(Boolean), out=[]; let cur=null;
+ const qre=/^(?:question\s*)?(\d{1,2})[\.\)\:\-]\s+(.+)/i;
+ for(const line of lines){const m=line.match(qre);if(m){if(cur&&cur.text.length>8)out.push(cur);cur={id:"auto-"+out.length+"-"+btoa(unescape(encodeURIComponent(r.file))).slice(0,12),title:r.title,text:m[2],year:r.year,strand:r.strand,topic:r.topic,subtopic:r.subtopic,marks:null,type:"short",options:[],answer:"",source:r.file,answerSource:"",school:schoolOf(r)}}else if(cur&&line.length<500)cur.text+=" "+line}
+ if(cur&&cur.text.length>8)out.push(cur);
+ return out.filter(x=>x.text.length<1200)
+}
+async function extractDocx(r){
+ const res=await fetch(encodeURI(r.file));if(!res.ok)throw Error("fetch");const ab=await res.arrayBuffer();const zip=await JSZip.loadAsync(ab);const xml=await zip.file("word/document.xml")?.async("text");if(!xml)return[];
+ const doc=new DOMParser().parseFromString(xml,"application/xml");const paras=[...doc.getElementsByTagNameNS("*","p")].map(p=>[...p.getElementsByTagNameNS("*","t")].map(t=>t.textContent).join("")).join("\n");return splitQuestions(paras,r)
+}
+async function extractPdf(r){
+ if(!window.pdfjsLib)return[];const pdf=await pdfjsLib.getDocument(encodeURI(r.file)).promise;let text="";for(let i=1;i<=pdf.numPages;i++){const p=await pdf.getPage(i),tc=await p.getTextContent();text+=tc.items.map(x=>x.str).join(" ")+"\n"}return splitQuestions(text,r)
+}
+async function loadAssessmentQuestions(){
+ const status=$("extractStatus");if(status)status.textContent="Reading uploaded assessments…";const pool=eligible().filter(r=>["docx","pdf"].includes(ext(r.file))).slice(0,20);let added=[];
+ for(const r of pool){try{const qs=ext(r.file)==="docx"?await extractDocx(r):await extractPdf(r);added.push(...qs)}catch(e){}}
+ const seen=new Set(liveQuestions.map(x=>x.source+"|"+x.text));for(const q of added){const k=q.source+"|"+q.text;if(!seen.has(k)){seen.add(k);liveQuestions.push(q)}}
+ if(status)status.textContent=added.length+" questions detected from "+pool.length+" assessment files. Review source wording before use.";return added.length
+}
 function answerFile(r){return !!r.answers||/answer|solution|marking key|mark key|answers|solutions/i.test(r.title||"")}
 function assessment(r){return r.year==="Year 7"&&(/\/Tests\//i.test(r.file||"")||/test|exam|quiz|assessment|validation/i.test([r.type,r.title,r.description].join(" ")))}
 const ALL=R.filter(assessment), A=ALL.filter(r=>!answerFile(r)), KEYS=ALL.filter(answerFile);
@@ -12,7 +35,7 @@ let current=[];
 function eligible(){const s=$("strand").value,t=$("topic").value,src=$("source").value,q=norm($("sourceSearch").value);return A.filter(r=>(s==="All"||r.strand===s)&&(t==="All"||r.topic===t)&&(src==="All"||schoolOf(r)===src)&&(!q||norm([r.title,r.topic,r.subtopic,schoolOf(r)].join(" ")).includes(q)))}
 function draw(){ $("paperTitle").textContent=$("title").value||"Science Test"; if(!current.length){$("questions").innerHTML='<div class="notice"><strong>No matching uploaded assessments.</strong><br>Change the strand, topic, school or search words.</div>';$("totalMarks").textContent=A.length+" assessment sources indexed";return}
 $("questions").innerHTML=current.map((r,i)=>{const key=relatedKey(r);return '<div class="question"><div class="question-head"><strong>'+(i+1)+'. '+r.title+'</strong></div><div class="source">'+[r.strand,r.topic,r.subtopic,schoolOf(r)].filter(Boolean).join(" › ")+'</div><div class="actions"><button class="maker-btn secondary preview-source" data-file="'+encodeURI(r.file)+'">Preview assessment</button><a class="maker-btn secondary" href="'+encodeURI(r.file)+'" download>Download source</a>'+(key?'<a class="maker-btn secondary" href="'+encodeURI(key.file)+'" target="_blank">Answer / marking key</a>':'')+'</div></div>'}).join("");$("totalMarks").textContent=current.length+" assessment source"+(current.length===1?"":"s");document.querySelectorAll(".preview-source").forEach(b=>b.onclick=()=>window.open(b.dataset.file,"_blank"))}
-function questionPool(){const s=$("strand").value,t=$("topic").value,q=norm($("sourceSearch").value);return Q.filter(x=>x.year==="Year 7"&&(s==="All"||x.strand===s)&&(t==="All"||x.topic===t)&&(!q||norm([x.text,x.title,x.topic,x.subtopic,x.school].join(" ")).includes(q)))}
+function questionPool(){const s=$("strand").value,t=$("topic").value,q=norm($("sourceSearch").value);return liveQuestions.filter(x=>x.year==="Year 7"&&(s==="All"||x.strand===s)&&(t==="All"||x.topic===t)&&(!q||norm([x.text,x.title,x.topic,x.subtopic,x.school].join(" ")).includes(q)))}
 function drawQuestions(list){let total=0;$("paperTitle").textContent=$("title").value||"Science Test";if(!list.length){$("questions").innerHTML='<div class="notice"><strong>No individual questions indexed yet for this selection.</strong><br>The assessment files are available in Assessment files mode while questions are extracted and checked.</div>';$("totalMarks").textContent="0 indexed questions";return}$("questions").innerHTML=list.map((x,i)=>{total+=Number(x.marks)||0;const opts=x.options?.length?'<ol type="A">'+x.options.map(o=>'<li>'+o+'</li>').join("")+'</ol>':'';return '<div class="question"><div class="question-head"><strong>'+(i+1)+'. '+x.text+'</strong><span class="marks">['+(x.marks||"?")+' mark'+(x.marks==1?"":"s")+']</span></div>'+opts+'<div class="source">'+[x.strand,x.topic,x.school].filter(Boolean).join(" › ")+'</div>'+(x.source?'<div class="actions"><a class="maker-btn secondary" href="'+encodeURI(x.source)+'" target="_blank">Source assessment</a></div>':'')+'</div>'}).join("");$("totalMarks").textContent="Total: "+total+" marks"}
-function generate(){const n=Math.max(1,Math.min(50,+$("count").value||10));if($("bankMode")?.value==="indexed"){let pool=[...questionPool()].sort(()=>Math.random()-.5),target=+$("targetMarks").value||0,out=[];if(target){let sum=0;for(const x of pool){if(sum>=target)break;out.push(x);sum+=Number(x.marks)||0}}else out=pool.slice(0,n);current=[];drawQuestions(out)}else{const pool=eligible();current=[...pool].sort(()=>Math.random()-.5).slice(0,n);draw()}}
+async function generate(){const n=Math.max(1,Math.min(50,+$("count").value||10));if($("bankMode")?.value==="indexed"){if(!questionPool().length)await loadAssessmentQuestions();let pool=[...questionPool()].sort(()=>Math.random()-.5),target=+$("targetMarks").value||0,out=[];if(target){let sum=0;for(const x of pool){if(sum>=target)break;out.push(x);sum+=Number(x.marks)||0}}else out=pool.slice(0,n);current=[];drawQuestions(out)}else{const pool=eligible();current=[...pool].sort(()=>Math.random()-.5).slice(0,n);draw()}}
 $("strand").onchange=updateTopics;$("topic").onchange=updateSources;$("source").onchange=()=>{};$("sourceSearch").oninput=()=>{};$("generate").onclick=generate;$("shuffle").onclick=generate;$("toggleAnswers").style.display="none";fill();draw();
