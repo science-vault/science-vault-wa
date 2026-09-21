@@ -7,14 +7,19 @@ function searchable(r){ return [r.title,r.year,r.course,r.strand,r.unit,r.topic,
 function courseForPage(){
   return document.body.dataset.course || "";
 }
+function yearForPage(){
+  return document.body.dataset.year || "";
+}
 function filteredResources(){
   const q = norm(document.getElementById("searchInput")?.value);
   const pageCourse = courseForPage();
   return ALL_RESOURCES.filter(r=>{
+    const pageYear = yearForPage();
     const courseOK = !pageCourse || r.course===pageCourse;
+    const yearOK = !pageYear || r.year===pageYear;
     const typeOK = activeType==="All" || r.type===activeType;
     const qOK = !q || searchable(r).includes(q);
-    return courseOK && typeOK && qOK;
+    return courseOK && yearOK && typeOK && qOK;
   });
 }
 function badge(text){ return text ? `<span class="meta-badge">${text}</span>` : ""; }
