@@ -144,7 +144,7 @@ function openPreview(url,name){
 }
 function closePreview(){ if(modal){modal.classList.add("hidden");modal.querySelector("#previewBody").innerHTML="";document.body.style.overflow="";}}
 function bindPreviewButtons(){ document.querySelectorAll("[data-preview]").forEach(b=>b.onclick=()=>openPreview(b.dataset.preview,b.dataset.title)); }
-document.addEventListener("DOMContentLoaded",()=>{setupFilters();setupSubtopics();setupExamSearch();render();});
+document.addEventListener("DOMContentLoaded",()=>{setupFilters();setupSubtopics();setupExamSearch();render();fetchMissingFileSizes();});
 
 (function(){
  const R=window.SCIENCE_VAULT_RESOURCES||[], $=id=>document.getElementById(id);
@@ -173,3 +173,18 @@ document.addEventListener("DOMContentLoaded",()=>{setupFilters();setupSubtopics(
  keys.forEach(k=>$(k+"Filter").addEventListener("change",draw));
  draw();
 })();
+
+async function fetchMissingFileSizes(){
+  const targets=ALL_RESOURCES.filter(r=>r.file&&!resourceDetails(r)).slice(0,120);
+  if(!targets.length)return;
+  let changed=false;
+  await Promise.all(targets.map(async r=>{
+    try{
+      const u=new URL(encodeURI(r.file),location.href);
+      const res=await fetch(u,{method:"HEAD"});
+      const n=Number(res.headers.get("content-length"));
+      if(n>0){r.fileSize=n;changed=true;}
+    }catch(e){}
+  }));
+  if(changed)render();
+}
