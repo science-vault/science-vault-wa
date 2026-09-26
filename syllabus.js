@@ -1,0 +1,53 @@
+const R=window.SCIENCE_VAULT_RESOURCES||[];
+const CURRICULUM={
+"Year 7":[
+["Biological sciences","Classification and diversity of life","Classification helps organise living things from kingdom to species; classification tools such as dichotomous keys are used to classify organisms.",["classification","dichotomous","kingdom","species","diversity of life"]],
+["Biological sciences","Food chains, food webs and human impacts","Food chains and food webs represent energy flow in ecosystems and can be used to predict possible impacts of human activity.",["food chain","food web","ecosystem","producer","consumer","decomposer","energy flow","human impact"]],
+["Chemical sciences","Particle model and states of matter","The particle model is used to describe solids, liquids and gases and changes associated with adding or removing energy.",["states of matter","particle","solid","liquid","gas","change of state","energy"]],
+["Chemical sciences","Mixtures and separation","Mixtures contain substances that can be separated using differences in physical properties and appropriate separation techniques.",["mixture","separation","filtration","distillation","chromatography","evaporation","decantation","sieving","magnetic separation","solution"]],
+["Earth and space sciences","Space and the Solar System","Objects in space include planets, stars, moons, asteroids, meteoroids, comets, constellations and galaxies; planets have different features.",["solar system","planet","star","moon","asteroid","meteoroid","comet","constellation","galaxy"]],
+["Earth and space sciences","Earth, Sun and Moon phenomena","Relative positions and motions of Earth, the Sun and Moon explain observable phenomena including lunar phases, eclipses, seasons and tides.",["lunar","eclipse","season","tide","earth sun moon"]],
+["Physical sciences","Forces and motion","Forces can change motion; balanced and unbalanced forces and contact and non-contact forces can be investigated and measured.",["force","motion","balanced","unbalanced","friction","gravity","gravitational","magnetic","electrostatic","newton"]],
+["Physical sciences","Simple machines","Simple machines change the size, direction or distance over which forces act and can provide mechanical advantage.",["simple machine","mechanical advantage","lever","inclined plane","wheel and axle","force advantage","distance advantage","speed advantage"]],
+["Science inquiry","Science inquiry skills","Questioning, predicting, planning, conducting, processing, analysing, evaluating and communicating are used in scientific investigations.",["science inquiry","investigation","variables","risk","graph","table","error","conclusion","prediction"]]
+],
+"Year 8":[
+["Biological sciences","Cells and specialised structures","Cells are the basic units of living things; plant and animal cells contain structures and organelles with specialised functions.",["cell","organelle","microscope","cell membrane","cytoplasm","nucleus","mitochondria","chloroplast","vacuole"]],
+["Biological sciences","Plant and vertebrate systems","Flowering plant and vertebrate systems carry out specialised functions including gas exchange, transport and reproduction.",["body system","plant system","gas exchange","transport","reproduction","vertebrate"]],
+["Chemical sciences","Elements, compounds and mixtures","Matter can be classified and represented using particle models, elements, compounds and mixtures.",["element","compound","mixture","atom","particle"]],
+["Chemical sciences","Chemical and physical change","Physical and chemical changes can be distinguished using observations and evidence.",["chemical change","physical change","reaction","evidence"]],
+["Earth and space sciences","Rocks and geological processes","Rocks and geological processes can be explained through cycles and changes in Earth materials.",["rock","rock cycle","igneous","sedimentary","metamorphic","geology"]],
+["Physical sciences","Energy","Energy appears in different forms and can be transferred and transformed in systems.",["energy","kinetic","potential","transfer","transformation","heat"]],
+["Science inquiry","Science inquiry skills","Plan, conduct, process, analyse, evaluate and communicate reproducible scientific investigations.",["science inquiry","investigation","variables","graph","data","error","conclusion"]]
+],
+"Year 9":[
+["Biological sciences","Adaptations","Plants and animals have structural, behavioural and physiological adaptations that enable survival in their environments.",["adaptation","structural","behavioural","physiological","survival"]],
+["Biological sciences","Responses to environmental change","Organisms respond to environmental change; endotherms, ectotherms and plant tropisms illustrate different responses.",["response","endotherm","ectotherm","tropism","stimulus"]],
+["Chemical sciences","Atomic structure and reactions","Atomic structure and rearrangement of matter underpin chemical reactions and observable changes.",["atom","atomic","reaction","chemical equation","conservation"]],
+["Earth and space sciences","Earth systems","Interactions within and between Earth systems explain geological and environmental phenomena.",["earth system","geosphere","atmosphere","hydrosphere","carbon cycle"]],
+["Physical sciences","Electricity and energy transfer","Electrical systems transfer energy and can be investigated using current, voltage, resistance and circuit models.",["electricity","circuit","current","voltage","resistance","ohm"]],
+["Science inquiry","Science inquiry skills","Design and evaluate investigations, analyse patterns and uncertainty, and communicate evidence-based conclusions.",["science inquiry","investigation","uncertainty","data","evidence","evaluation"]]
+],
+"Year 10":[
+["Biological sciences","DNA, chromosomes, mitosis and meiosis","Cell division produces cells with chromosome numbers suited to their roles; chromosomes contain genes composed of DNA.",["dna","chromosome","gene","mitosis","meiosis","cell division"]],
+["Biological sciences","Patterns of inheritance","Monohybrid inheritance, including autosomal dominant/recessive and sex-linked recessive inheritance, can be predicted using pedigrees and Punnett squares.",["inheritance","punnett","pedigree","dominant","recessive","sex linked"]],
+["Chemical sciences","Chemical reactions","Reaction types, rates and energy changes are investigated using particle and collision ideas.",["reaction","rate","collision","activation energy","precipitation","acid","base"]],
+["Earth and space sciences","Universe and stellar processes","Evidence and models are used to explain stars, galaxies and the evolution of the universe.",["universe","star","stellar","galaxy","big bang","life cycle of stars"]],
+["Physical sciences","Motion and energy","Motion can be described quantitatively and explained through forces, energy and system interactions.",["motion","velocity","acceleration","force","energy"]],
+["Science inquiry","Science inquiry skills","Plan and evaluate investigations, process quantitative data and justify conclusions using scientific evidence.",["science inquiry","investigation","validity","reliability","precision","data","conclusion"]]
+]};
+const ATAR=[
+["Physics","Year 11–12 ATAR Physics","Browse resources by year, unit and syllabus topic.",["physics"]],
+["Chemistry","Year 11–12 ATAR Chemistry","Browse resources by year, unit and syllabus topic.",["chemistry"]],
+["Human Biology","Year 11–12 ATAR Human Biology","Browse resources by year, unit and syllabus topic.",["human biology"]],
+["Biology","Year 11–12 ATAR Biology","Browse resources by year, unit and syllabus topic.",["biology"]],
+["Psychology","Year 11–12 ATAR Psychology","Browse resources by year, unit and syllabus topic.",["psychology"]]
+];
+let active="Year 7";
+const norm=s=>String(s||"").toLowerCase();
+const hay=r=>norm([r.title,r.year,r.course,r.strand,r.unit,r.topic,r.subtopic,r.description,...(r.keywords||[])].join(" "));
+function matches(r,keys){const h=hay(r);return keys.some(k=>h.includes(norm(k)))}
+function card(r){return `<article class="syllabus-resource"><div><b>${r.title}</b><small>${[r.type,r.format,r.topic,r.subtopic].filter(Boolean).join(" • ")}</small></div><div class="resource-actions">${r.file?`<a class="download-btn" href="${encodeURI(r.file)}" download>Download</a>`:""}</div></article>`}
+function render(){const host=document.getElementById("syllabusContent"),q=norm(document.getElementById("syllabusSearch").value);if(active==="ATAR"){host.innerHTML='<div class="syllabus-list">'+ATAR.map(x=>{let rows=R.filter(r=>norm(r.course)===norm(x[0])&&(!q||hay(r).includes(q)));return `<section class="dotpoint-card"><div class="dotpoint-head"><span class="strand-badge">ATAR</span><div><h2>${x[1]}</h2><p>${x[2]}</p></div><span class="dot-count">${rows.length} resources</span></div><div class="dot-resources">${rows.slice(0,60).map(card).join("")||'<p class="empty-dot">No matching resources currently indexed.</p>'}</div></section>`}).join('')+'</div>';return}
+const points=CURRICULUM[active]||[];host.innerHTML='<div class="syllabus-list">'+points.map(x=>{let rows=R.filter(r=>r.year===active&&matches(r,x[3])&&(!q||(norm(x[0]+" "+x[1]+" "+x[2]).includes(q)||hay(r).includes(q))));return `<section class="dotpoint-card"><div class="dotpoint-head"><span class="strand-badge">${x[0]}</span><div><h2>${x[1]}</h2><p>${x[2]}</p></div><span class="dot-count">${rows.length} resources</span></div><div class="dot-resources">${rows.slice(0,60).map(card).join("")||'<p class="empty-dot">No matching resources currently indexed.</p>'}</div></section>`}).join('')+'</div>'}
+document.querySelectorAll('[data-syl-year]').forEach(b=>b.onclick=()=>{active=b.dataset.sylYear;document.querySelectorAll('[data-syl-year]').forEach(x=>x.classList.toggle('active',x===b));render()});document.getElementById('syllabusSearch').addEventListener('input',render);render();
