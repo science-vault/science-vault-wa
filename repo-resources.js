@@ -11,7 +11,7 @@
     if(folders.some(x=>x.includes('worksheet'))||/worksheet|activity sheet/i.test(n))return 'Worksheets';
     if(folders.some(x=>x.includes('practical'))||/practical|experiment|investigation|dissection/i.test(n))return 'Practicals';
     if(folders.some(x=>x.includes('revision'))||/revision|review/i.test(n))return 'Revision';
-    if(folders.some(x=>x.includes('test'))||/test|assessment|quiz/i.test(n))return 'Tests';
+    if(folders.some(x=>x.includes('test')||x.includes('assessment'))||/test|assessment|quiz|exam/i.test(n))return 'Assessments';
     if(folders.some(x=>x.includes('note'))||/notes?|summary/i.test(n))return 'Notes';
     return 'Other Resources';
   };
