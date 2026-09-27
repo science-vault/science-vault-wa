@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - 'resources/**'
+      - 'exams/**'
       - '.github/workflows/build-resource-manifest.yml'
   workflow_dispatch:
 permissions:
@@ -18,32 +19,39 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Build manifest
+      - name: Build manifests
         run: |
           python - <<'PY'
           import os,json
           exts={'.ppt','.pptx','.doc','.docx','.pdf','.xls','.xlsx','.csv'}
-          rows=[]
-          for root,dirs,files in os.walk('resources'):
-              for f in files:
-                  p=os.path.join(root,f).replace('\\','/')
-                  if os.path.splitext(f)[1].lower() in exts:
-                      rows.append({'path':p,'size':os.path.getsize(p)})
-          rows.sort(key=lambda x:x['path'].lower())
+          def scan(folder):
+              rows=[]
+              if not os.path.isdir(folder): return rows
+              for root,dirs,files in os.walk(folder):
+                  for f in files:
+                      p=os.path.join(root,f).replace('\\','/')
+                      if os.path.splitext(f)[1].lower() in exts:
+                          rows.append({'path':p,'size':os.path.getsize(p)})
+              rows.sort(key=lambda x:x['path'].lower())
+              return rows
+          resources=scan('resources')
+          exams=scan('exams')
           with open('resource-manifest.json','w',encoding='utf-8') as h:
-              json.dump(rows,h,ensure_ascii=False,separators=(',',':'))
-          print('Indexed',len(rows),'resources')
+              json.dump(resources,h,ensure_ascii=False,separators=(',',':'))
+          with open('exam-manifest.json','w',encoding='utf-8') as h:
+              json.dump(exams,h,ensure_ascii=False,separators=(',',':'))
+          print('Indexed',len(resources),'resources and',len(exams),'exam files')
           PY
-      - name: Commit manifest safely
+      - name: Commit manifests safely
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git add resource-manifest.json
+          git add resource-manifest.json exam-manifest.json
           if git diff --cached --quiet; then
-            echo 'Manifest already current'
+            echo 'Manifests already current'
             exit 0
           fi
-          git commit -m 'Update resource manifest'
+          git commit -m 'Update resource and exam manifests'
           for attempt in 1 2 3; do
             if git push origin HEAD:main; then
               exit 0
