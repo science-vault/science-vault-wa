@@ -1,0 +1,49 @@
+name: Deploy lightweight Pages site
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'resources/**'
+      - 'exams/**'
+  workflow_run:
+    workflows: ['Build resource manifest']
+    types: [completed]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  deploy:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout latest main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - name: Build lightweight site artifact
+        run: |
+          mkdir -p _site
+          find . -maxdepth 1 -type f \
+            ! -name '.gitignore' \
+            -exec cp {} _site/ \;
+          echo 'Website artifact contents:'
+          du -sh _site
+          find _site -maxdepth 1 -type f -printf '%f\n' | sort
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload lightweight Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
