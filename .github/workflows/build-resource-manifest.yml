@@ -5,6 +5,7 @@ on:
     paths:
       - 'resources/**'
       - 'exams/**'
+      - 'textbooks/**'
       - '.github/workflows/build-resource-manifest.yml'
   workflow_dispatch:
 permissions:
@@ -18,44 +19,80 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0
-      - name: Build manifests
+          fetch-depth: 2
+      - name: Update manifests incrementally
         run: |
           python - <<'PY'
-          import os,json
-          exts={'.ppt','.pptx','.doc','.docx','.pdf','.xls','.xlsx','.csv'}
-          def scan(folder):
-              rows=[]
-              if not os.path.isdir(folder): return rows
-              for root,dirs,files in os.walk(folder):
+          import os,json,subprocess
+          manifests={
+            'resources':('resource-manifest.json',{'.ppt','.pptx','.doc','.docx','.pdf','.xls','.xlsx','.csv'}),
+            'exams':('exam-manifest.json',{'.ppt','.pptx','.doc','.docx','.pdf','.xls','.xlsx','.csv'}),
+            'textbooks':('textbook-manifest.json',{'.pdf','.jpg','.jpeg','.png','.webp'})
+          }
+          def load(name):
+              try:
+                  with open(name,encoding='utf-8') as f:return json.load(f)
+              except (FileNotFoundError,json.JSONDecodeError):return []
+          def full_scan(folder,exts):
+              out=[]
+              if not os.path.isdir(folder):return out
+              for root,_,files in os.walk(folder):
                   for f in files:
                       p=os.path.join(root,f).replace('\\','/')
                       if os.path.splitext(f)[1].lower() in exts:
-                          rows.append({'path':p,'size':os.path.getsize(p)})
+                          out.append({'path':p,'size':os.path.getsize(p)})
+              return out
+          # Manual runs rebuild once; normal pushes update only changed paths.
+          manual=os.environ.get('GITHUB_EVENT_NAME')=='workflow_dispatch'
+          if manual:
+              changed=[]
+          else:
+              try:
+                  changed=subprocess.check_output(['git','diff','--name-status','HEAD^','HEAD'],text=True).splitlines()
+              except Exception:
+                  manual=True;changed=[]
+          for folder,(manifest,exts) in manifests.items():
+              if manual or not os.path.exists(manifest):
+                  rows=full_scan(folder,exts)
+                  mode='full'
+              else:
+                  existing={x['path']:x for x in load(manifest)}
+                  touched=0
+                  for line in changed:
+                      parts=line.split('\t')
+                      status=parts[0]
+                      paths=parts[1:]
+                      # Rename has old and new path: remove old, then process new.
+                      if status.startswith('R') and len(paths)>=2:
+                          old,new=paths[0],paths[1]
+                          if old.startswith(folder+'/'): existing.pop(old,None);touched+=1
+                          paths=[new]
+                      for p in paths:
+                          if not p.startswith(folder+'/'):continue
+                          touched+=1
+                          existing.pop(p,None)
+                          if os.path.isfile(p) and os.path.splitext(p)[1].lower() in exts:
+                              existing[p]={'path':p,'size':os.path.getsize(p)}
+                  rows=list(existing.values());mode=f'incremental ({touched} changed paths)'
               rows.sort(key=lambda x:x['path'].lower())
-              return rows
-          resources=scan('resources')
-          exams=scan('exams')
-          with open('resource-manifest.json','w',encoding='utf-8') as h:
-              json.dump(resources,h,ensure_ascii=False,separators=(',',':'))
-          with open('exam-manifest.json','w',encoding='utf-8') as h:
-              json.dump(exams,h,ensure_ascii=False,separators=(',',':'))
-          print('Indexed',len(resources),'resources and',len(exams),'exam files')
+              with open(manifest,'w',encoding='utf-8') as h:
+                  json.dump(rows,h,ensure_ascii=False,separators=(',',':'))
+              print(manifest,mode,len(rows),'indexed files')
           PY
+        env:
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
       - name: Commit manifests safely
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git add resource-manifest.json exam-manifest.json
+          git add resource-manifest.json exam-manifest.json textbook-manifest.json
           if git diff --cached --quiet; then
             echo 'Manifests already current'
             exit 0
           fi
-          git commit -m 'Update resource and exam manifests'
+          git commit -m 'Update manifests incrementally'
           for attempt in 1 2 3; do
-            if git push origin HEAD:main; then
-              exit 0
-            fi
+            if git push origin HEAD:main; then exit 0; fi
             echo "Push raced with another update; retry $attempt"
             git fetch origin main
             git rebase origin/main
