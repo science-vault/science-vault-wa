@@ -23,7 +23,7 @@ jobs:
       - name: Update manifests incrementally
         run: |
           python - <<'PY'
-          import os,json,subprocess
+          import os,json,re,subprocess
           manifests={
             'resources':('resource-manifest.json',{'.ppt','.pptx','.doc','.docx','.pdf','.xls','.xlsx','.csv'}),
             'exams':('exam-manifest.json',{'.ppt','.pptx','.doc','.docx','.pdf','.xls','.xlsx','.csv'}),
@@ -39,45 +39,86 @@ jobs:
               for root,_,files in os.walk(folder):
                   for f in files:
                       p=os.path.join(root,f).replace('\\','/')
-                      if os.path.splitext(f)[1].lower() in exts:
-                          out.append({'path':p,'size':os.path.getsize(p)})
+                      if os.path.splitext(f)[1].lower() in exts: out.append({'path':p,'size':os.path.getsize(p)})
               return out
-          # Manual runs rebuild once; normal pushes update only changed paths.
           manual=os.environ.get('GITHUB_EVENT_NAME')=='workflow_dispatch'
-          if manual:
-              changed=[]
+          if manual: changed=[]
           else:
-              try:
-                  changed=subprocess.check_output(['git','diff','--name-status','HEAD^','HEAD'],text=True).splitlines()
-              except Exception:
-                  manual=True;changed=[]
+              try: changed=subprocess.check_output(['git','diff','--name-status','HEAD^','HEAD'],text=True).splitlines()
+              except Exception: manual=True;changed=[]
           for folder,(manifest,exts) in manifests.items():
-              if manual or not os.path.exists(manifest):
-                  rows=full_scan(folder,exts)
-                  mode='full'
+              if manual or not os.path.exists(manifest): rows=full_scan(folder,exts);mode='full'
               else:
-                  existing={x['path']:x for x in load(manifest)}
-                  touched=0
+                  existing={x['path']:x for x in load(manifest)};touched=0
                   for line in changed:
-                      parts=line.split('\t')
-                      status=parts[0]
-                      paths=parts[1:]
-                      # Rename has old and new path: remove old, then process new.
+                      parts=line.split('\t');status=parts[0];paths=parts[1:]
                       if status.startswith('R') and len(paths)>=2:
                           old,new=paths[0],paths[1]
-                          if old.startswith(folder+'/'): existing.pop(old,None);touched+=1
+                          if old.startswith(folder+'/'):existing.pop(old,None);touched+=1
                           paths=[new]
                       for p in paths:
                           if not p.startswith(folder+'/'):continue
-                          touched+=1
-                          existing.pop(p,None)
-                          if os.path.isfile(p) and os.path.splitext(p)[1].lower() in exts:
-                              existing[p]={'path':p,'size':os.path.getsize(p)}
+                          touched+=1;existing.pop(p,None)
+                          if os.path.isfile(p) and os.path.splitext(p)[1].lower() in exts:existing[p]={'path':p,'size':os.path.getsize(p)}
                   rows=list(existing.values());mode=f'incremental ({touched} changed paths)'
               rows.sort(key=lambda x:x['path'].lower())
-              with open(manifest,'w',encoding='utf-8') as h:
-                  json.dump(rows,h,ensure_ascii=False,separators=(',',':'))
+              with open(manifest,'w',encoding='utf-8') as h:json.dump(rows,h,ensure_ascii=False,separators=(',',':'))
               print(manifest,mode,len(rows),'indexed files')
+          # Build a small explicit Assessment Vault index from the resource manifest.
+          # This removes browser-side guessing and does not rescan file contents.
+          def assessment(path):
+              name=path.rsplit('/',1)[-1]
+              return bool(re.search(r'(^|/)assessments?(/|$)',path,re.I) or re.search(r'assessment|test|quiz|task|investigation|assignment|validation|summative|marking key|marking guide|solution|answer',name,re.I))
+          def lower_subject(parts,yi,path):
+              aliases={'maths':'Mathematics','mathematics':'Mathematics','science':'Science','hass':'HASS','humanities':'HASS','english':'English','digital technologies':'Digital Technologies','health and physical education':'Health and Physical Education','hpe':'Health and Physical Education'}
+              for p in parts[yi+1:]:
+                  k=p.strip().lower()
+                  if k in aliases:return aliases[k]
+              s=path.lower()
+              if re.search(r'/science/|biological sciences|chemical sciences|earth and space sciences|physical sciences|investigating science|science inquiry',s):return 'Science'
+              if re.search(r'/hass/|/geography/|/history/|civics|citizenship|economics',s):return 'HASS'
+              if re.search(r'/maths?/|/mathematics/',s):return 'Mathematics'
+              if '/english/' in s:return 'English'
+              if re.search(r'health and physical|/hpe/',s):return 'Health and Physical Education'
+              if 'digital technolog' in s:return 'Digital Technologies'
+              return 'Other / Unclassified'
+          def topic(subject,path):
+              s=path.lower()
+              rules={
+               'Science':[('Biological Sciences',r'biolog|cell|ecosystem|organism|classification|food web'),('Chemical Sciences',r'chemical|chemistry|mixture|substance|reaction|particle'),('Earth and Space Sciences',r'earth|space|rock|solar|season|geolog'),('Physical Sciences',r'physical science|force|motion|energy|wave|light|sound'),('Science Inquiry',r'inquiry|investigating science|investigation|science skill')],
+               'HASS':[('Geography',r'geograph'),('History',r'history|ancient|medieval'),('Civics and Citizenship',r'civic|citizen|government|democracy|law'),('Economics and Business',r'economic|business|consumer|market')],
+               'Mathematics':[('Number and algebra',r'number|algebra|fraction|decimal|percent|ratio|integer'),('Measurement and geometry',r'measurement|geometry|angle|shape|area|volume|length'),('Probability and statistics',r'probability|statistics|data|chance')],
+               'English':[('Language',r'language|grammar|spelling|vocab'),('Literature',r'literature|novel|poetry|film|text study'),('Literacy',r'literacy|reading|writing|comprehension|persuasive|narrative|oral')],
+               'Health and Physical Education':[('Personal, social and community health',r'health|wellbeing|puberty|safety|nutrition|relationship|consent'),('Movement and physical activity',r'movement|sport|fitness|physical activity|game|tactic')]
+              }
+              for label,rx in rules.get(subject,[]):
+                  if re.search(rx,s):return label
+              return 'General / Mixed Topic'
+          def school(parts):
+              for p in parts:
+                  if re.search(r'school|college|academy|grammar|senior high|secondary|catholic|anglican|christian|community',p,re.I):return p
+              return 'Unspecified school'
+          out=[]
+          for r in load('resource-manifest.json'):
+              path=r.get('path','')
+              if not assessment(path):continue
+              parts=path.split('/');year='';yi=-1
+              for i,p in enumerate(parts):
+                  m=re.fullmatch(r'(?:year\s*)?(7|8|9|10|11|12)',p,re.I)
+                  if m:year='Year '+m.group(1);yi=i;break
+              if not year:continue
+              n=int(year.split()[-1])
+              if n<=10:
+                  subject=lower_subject(parts,yi,path);pathway='Years 7–10';unit=''
+              else:
+                  pathway='ATAR' if any(p.upper()=='ATAR' for p in parts) else ('GENERAL' if any(p.lower()=='general' for p in parts) else 'Senior')
+                  pi=next((i for i,p in enumerate(parts) if p.upper()=='ATAR' or p.lower()=='general'),-1)
+                  subject=parts[pi+1] if pi>=0 and pi+1<len(parts) else (parts[yi-1] if yi>0 else 'Other / Unclassified')
+                  unit=next((p for p in parts if re.fullmatch(r'unit\s*[1-4]',p,re.I)),'')
+              out.append({'path':path,'size':r.get('size',0),'year':year,'pathway':pathway,'subject':subject,'topic':topic(subject,path),'unit':unit,'school':school(parts)})
+          out.sort(key=lambda x:(x['year'],x['subject'],x['topic'],x['school'],x['path'].lower()))
+          with open('assessment-manifest.json','w',encoding='utf-8') as h:json.dump(out,h,ensure_ascii=False,separators=(',',':'))
+          print('assessment-manifest.json',len(out),'indexed assessments')
           PY
         env:
           GITHUB_EVENT_NAME: ${{ github.event_name }}
@@ -85,16 +126,11 @@ jobs:
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git add resource-manifest.json exam-manifest.json textbook-manifest.json
-          if git diff --cached --quiet; then
-            echo 'Manifests already current'
-            exit 0
-          fi
+          git add resource-manifest.json exam-manifest.json textbook-manifest.json assessment-manifest.json
+          if git diff --cached --quiet; then echo 'Manifests already current';exit 0;fi
           git commit -m 'Update manifests incrementally'
           for attempt in 1 2 3; do
-            if git push origin HEAD:main; then exit 0; fi
-            echo "Push raced with another update; retry $attempt"
-            git fetch origin main
-            git rebase origin/main
+            if git push origin HEAD:main; then exit 0;fi
+            git fetch origin main;git rebase origin/main
           done
           git push origin HEAD:main
