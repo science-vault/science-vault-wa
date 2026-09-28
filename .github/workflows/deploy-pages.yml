@@ -5,6 +5,7 @@ on:
     paths-ignore:
       - 'resources/**'
       - 'exams/**'
+      - 'textbooks/**'
   workflow_run:
     workflows: ['Build resource manifest']
     types: [completed]
