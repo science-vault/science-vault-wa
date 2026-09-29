@@ -23,70 +23,50 @@ jobs:
       - name: Build folder-driven manifests
         run: |
           python - <<'PY'
-          import os,json,re
+          import os,json,re,subprocess,datetime
           EXTS={'.ppt','.pptx','.doc','.docx','.pdf','.xls','.xlsx','.csv'}
+          JUNK=re.compile(r'(^|/)(\.DS_Store|Thumbs\.db|desktop\.ini|~\$[^/]+|\.~lock\.[^/]+|__MACOSX)(/|$)',re.I)
+          def modified(p):
+              try:
+                  ts=subprocess.check_output(['git','log','-1','--format=%cI','--',p],text=True).strip()
+                  return ts or ''
+              except Exception:return ''
           def scan(root,exts=EXTS):
               out=[]
               if not os.path.isdir(root): return out
-              for d,_,files in os.walk(root):
+              for d,dirs,files in os.walk(root):
+                  dirs[:]=[x for x in dirs if x not in {'.git','__MACOSX'}]
                   for f in files:
                       p=os.path.join(d,f).replace('\\','/')
+                      if JUNK.search(p):continue
                       if os.path.splitext(f)[1].lower() in exts:
-                          out.append({'path':p,'size':os.path.getsize(p)})
+                          out.append({'path':p,'size':os.path.getsize(p),'modified':modified(p)})
               return sorted(out,key=lambda x:x['path'].lower())
           def save(name,data):
               with open(name,'w',encoding='utf-8') as h: json.dump(data,h,ensure_ascii=False,separators=(',',':'))
-          save('resource-manifest.json',scan('resources'))
+          resources=scan('resources');save('resource-manifest.json',resources)
           save('exam-manifest.json',scan('exams'))
           save('textbook-manifest.json',scan('textbooks',{'.pdf','.jpg','.jpeg','.png','.webp'}))
-
-          # Assessment Vault is now STRICTLY folder-driven.
-          # Lower school authority:
-          # resources/Assessments/Lowerschool/Year N/SUBJECT/...
-          # Senior authority:
-          # resources/Assessments/COURSE/... with Year 11/Year 12 somewhere below.
-          base='resources/Assessments'
-          all_assess=scan(base)
-          out=[]
-          lower_alias={'maths':'Mathematics','mathematics':'Mathematics','science':'Science','english':'English','hass':'HASS','digital technologies':'Digital Technologies','health and physical education':'Health and Physical Education','hpe':'Health and Physical Education'}
+          base='resources/Assessments';all_assess=[r for r in resources if r['path'].startswith(base+'/')];out=[]
+          lower_alias={'maths':'Mathematics','mathematics':'Mathematics','science':'Science','english':'English','hass':'HASS','digital technologies':'Digital Technologies','digital technology':'Digital Technologies','health and physical education':'Health and Physical Education','hpe':'Health and Physical Education'}
+          school_rx=re.compile(r'school|college|academy|grammar|senior high|secondary|catholic|anglican|christian|community|southern river|kennedy|narrogin|rossmoyne|aranmore',re.I)
           for r in all_assess:
               p=r['path'];parts=p.split('/')
-              if len(parts)<4: continue
-              # LOWER SCHOOL: exact folder positions are authoritative.
+              if len(parts)<4:continue
               if len(parts)>=6 and parts[2].lower()=='lowerschool' and re.fullmatch(r'Year\s*(7|8|9|10)',parts[3],re.I):
-                  y=int(re.search(r'(7|8|9|10)',parts[3]).group(1))
-                  raw_subject=parts[4].strip()
-                  subject=lower_alias.get(raw_subject.lower(),raw_subject)
-                  school='Unspecified source'
-                  # Optional source/school folder directly under subject is preserved if present.
-                  if len(parts)>=7:
-                      candidate=parts[5]
-                      if re.search(r'school|college|academy|grammar|senior high|secondary|catholic|anglican|christian|community|southern river|kennedy|narrogin|rossmoyne|aranmore',candidate,re.I): school=candidate
-                  out.append({'path':p,'size':r['size'],'year':f'Year {y}','pathway':'Years 7–10','subject':subject,'topic':'All Assessments','unit':'','school':school})
-                  continue
-              # SENIOR: top-level folder name is the course. Do not guess from filename.
-              if parts[2].lower()=='lowerschool': continue
-              course_folder=parts[2].strip()
-              ym=None
+                  y=int(re.search(r'(7|8|9|10)',parts[3]).group(1));raw=parts[4].strip();subject=lower_alias.get(raw.lower(),raw);school='Unspecified source'
+                  if len(parts)>=7 and school_rx.search(parts[5]):school=parts[5]
+                  out.append({**r,'year':f'Year {y}','pathway':'Years 7–10','subject':subject,'topic':'All Assessments','unit':'','school':school});continue
+              if parts[2].lower()=='lowerschool':continue
+              course=parts[2].strip();ym=None
               for part in parts[3:-1]:
-                  m=re.fullmatch(r'Year\s*(11|12)|(?:11|12)',part,re.I)
-                  if m:
-                      ym=int(re.search(r'(11|12)',part).group(1));break
-              if ym is None: continue
-              pathway='GENERAL' if re.search(r'\bGeneral\b',course_folder,re.I) else ('ATAR' if re.search(r'\bATAR\b',course_folder,re.I) else 'ATAR')
-              subject=re.sub(r'\s+(ATAR|General)\s*$','',course_folder,flags=re.I).strip()
-              unit=next((x for x in parts[3:-1] if re.fullmatch(r'Unit\s*[1-4]',x,re.I)),'')
-              school='Unspecified source'
-              for x in parts[3:-1]:
-                  if re.search(r'school|college|academy|grammar|senior high|secondary|catholic|anglican|christian|community|southern river|kennedy|narrogin|rossmoyne|aranmore',x,re.I): school=x;break
-              out.append({'path':p,'size':r['size'],'year':f'Year {ym}','pathway':pathway,'subject':subject,'topic':'All Assessments','unit':unit,'school':school})
-          out.sort(key=lambda x:(int(x['year'].split()[-1]),x['subject'].lower(),x['school'].lower(),x['path'].lower()))
-          save('assessment-manifest.json',out)
-          for y in range(7,13):
-              yr=[x for x in out if x['year']==f'Year {y}']
-              save(f'assessment-year{y}.json',yr)
-              from collections import Counter
-              print(f'Year {y}: {len(yr)} files',dict(Counter(x['subject'] for x in yr)))
+                  if re.fullmatch(r'Year\s*(11|12)|(?:11|12)',part,re.I):ym=int(re.search(r'(11|12)',part).group(1));break
+              if ym is None:continue
+              pathway='GENERAL' if re.search(r'\bGeneral\b',course,re.I) else 'ATAR';subject=re.sub(r'\s+(ATAR|General)\s*$','',course,flags=re.I).strip();unit=next((x for x in parts[3:-1] if re.fullmatch(r'Unit\s*[1-4]',x,re.I)),'');school=next((x for x in parts[3:-1] if school_rx.search(x)),'Unspecified source')
+              out.append({**r,'year':f'Year {ym}','pathway':pathway,'subject':subject,'topic':'All Assessments','unit':unit,'school':school})
+          out.sort(key=lambda x:(int(x['year'].split()[-1]),x['subject'].lower(),x['path'].lower()));save('assessment-manifest.json',out)
+          for y in range(7,13):save(f'assessment-year{y}.json',[x for x in out if x['year']==f'Year {y}'])
+          print('Assessment files:',len(out))
           PY
       - name: Commit manifests safely
         run: |
@@ -94,10 +74,9 @@ jobs:
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git add resource-manifest.json exam-manifest.json textbook-manifest.json assessment-manifest.json assessment-year7.json assessment-year8.json assessment-year9.json assessment-year10.json assessment-year11.json assessment-year12.json
           if git diff --cached --quiet; then echo 'Manifests already current'; exit 0; fi
-          git commit -m 'Rebuild folder-driven manifests'
+          git commit -m 'Rebuild folder-driven manifests with metadata'
           for attempt in 1 2 3; do
             if git push origin HEAD:main; then exit 0; fi
-            git fetch origin main
-            git rebase origin/main
+            git fetch origin main;git rebase origin/main
           done
           git push origin HEAD:main
