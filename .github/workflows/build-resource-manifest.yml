@@ -46,7 +46,10 @@ jobs:
               with open(name,'w',encoding='utf-8') as h: json.dump(data,h,ensure_ascii=False,separators=(',',':'))
           resources=scan('resources');save('resource-manifest.json',resources)
           save('exam-manifest.json',scan('exams'))
-          save('textbook-manifest.json',scan('textbooks',{'.pdf','.jpg','.jpeg','.png','.webp'}))
+          textbook_exts={'.pdf','.jpg','.jpeg','.png','.webp'}
+          textbooks=scan('resources/Textbooks',textbook_exts)+scan('textbooks',textbook_exts)
+          textbooks=sorted({x['path']:x for x in textbooks}.values(),key=lambda x:x['path'].lower())
+          save('textbook-manifest.json',textbooks)
           base='resources/Assessments';all_assess=[r for r in resources if r['path'].startswith(base+'/')];out=[]
           lower_alias={'maths':'Mathematics','mathematics':'Mathematics','science':'Science','english':'English','hass':'HASS','digital technologies':'Digital Technologies','digital technology':'Digital Technologies','health and physical education':'Health and Physical Education','hpe':'Health and Physical Education'}
           school_rx=re.compile(r'school|college|academy|grammar|senior high|secondary|catholic|anglican|christian|community|southern river|kennedy|narrogin|rossmoyne|aranmore',re.I)
@@ -66,7 +69,7 @@ jobs:
               out.append({**r,'year':f'Year {ym}','pathway':pathway,'subject':subject,'topic':'All Assessments','unit':unit,'school':school})
           out.sort(key=lambda x:(int(x['year'].split()[-1]),x['subject'].lower(),x['path'].lower()));save('assessment-manifest.json',out)
           for y in range(7,13):save(f'assessment-year{y}.json',[x for x in out if x['year']==f'Year {y}'])
-          print('Assessment files:',len(out))
+          print('Assessment files:',len(out),'Textbooks:',len([x for x in textbooks if x['path'].lower().endswith('.pdf')]))
           PY
       - name: Commit manifests safely
         run: |
