@@ -24,11 +24,7 @@ jobs:
         run: |
           python - <<'PY'
           import os,json,re,subprocess,collections
-          manifests={
-            'resources':('resource-manifest.json',{'.ppt','.pptx','.doc','.docx','.pdf','.xls','.xlsx','.csv'}),
-            'exams':('exam-manifest.json',{'.ppt','.pptx','.doc','.docx','.pdf','.xls','.xlsx','.csv'}),
-            'textbooks':('textbook-manifest.json',{'.pdf','.jpg','.jpeg','.png','.webp'})
-          }
+          manifests={'resources':('resource-manifest.json',{'.ppt','.pptx','.doc','.docx','.pdf','.xls','.xlsx','.csv'}),'exams':('exam-manifest.json',{'.ppt','.pptx','.doc','.docx','.pdf','.xls','.xlsx','.csv'}),'textbooks':('textbook-manifest.json',{'.pdf','.jpg','.jpeg','.png','.webp'})}
           def load(name):
               try:
                   with open(name,encoding='utf-8') as f:return json.load(f)
@@ -41,90 +37,67 @@ jobs:
                       p=os.path.join(root,f).replace('\\','/')
                       if os.path.splitext(f)[1].lower() in exts:out.append({'path':p,'size':os.path.getsize(p)})
               return out
-          manual=os.environ.get('GITHUB_EVENT_NAME')=='workflow_dispatch'
-          if manual:changed=[]
-          else:
+          manual=os.environ.get('GITHUB_EVENT_NAME')=='workflow_dispatch';changed=[]
+          if not manual:
               try:changed=subprocess.check_output(['git','diff','--name-status','HEAD^','HEAD'],text=True).splitlines()
-              except Exception:manual=True;changed=[]
+              except Exception:manual=True
           for folder,(manifest,exts) in manifests.items():
-              if manual or not os.path.exists(manifest):rows=full_scan(folder,exts);mode='full'
+              if manual or not os.path.exists(manifest):rows=full_scan(folder,exts)
               else:
-                  existing={x['path']:x for x in load(manifest)};touched=0
+                  existing={x['path']:x for x in load(manifest)}
                   for line in changed:
                       parts=line.split('\t');status=parts[0];paths=parts[1:]
                       if status.startswith('R') and len(paths)>=2:
                           old,new=paths[0],paths[1]
-                          if old.startswith(folder+'/'):existing.pop(old,None);touched+=1
+                          if old.startswith(folder+'/'):existing.pop(old,None)
                           paths=[new]
                       for p in paths:
                           if not p.startswith(folder+'/'):continue
-                          touched+=1;existing.pop(p,None)
+                          existing.pop(p,None)
                           if os.path.isfile(p) and os.path.splitext(p)[1].lower() in exts:existing[p]={'path':p,'size':os.path.getsize(p)}
-                  rows=list(existing.values());mode=f'incremental ({touched} changed paths)'
+                  rows=list(existing.values())
               rows.sort(key=lambda x:x['path'].lower())
               with open(manifest,'w',encoding='utf-8') as h:json.dump(rows,h,ensure_ascii=False,separators=(',',':'))
-              print(manifest,mode,len(rows),'indexed files')
-
           resources=load('resource-manifest.json')
           strong_rx=re.compile(r'(^|[ _\-.])(assessment|test|quiz|task|investigation|assignment|validation|summative|portfolio)([ _\-.]|$)|marking[ _-]*(key|guide)|answer[ _-]*key',re.I)
           folder_rx=re.compile(r'(^|/)(assessment|assessments|assessment tasks|assessment resources|tests|testing)(/|$)',re.I)
           def strong_assessment(path):return bool(folder_rx.search(path) or strong_rx.search(path.rsplit('/',1)[-1]))
-
-          # Detect assessment-heavy collections. If a school/course folder is predominantly
-          # assessment material, include the whole collection so neutral filenames are not lost.
           buckets=collections.defaultdict(list)
           for r in resources:
-              p=r.get('path','');parts=p.split('/')
-              year_i=next((i for i,x in enumerate(parts) if re.fullmatch(r'(?:year\s*)?(7|8|9|10|11|12)',x,re.I)),None)
-              if year_i is None:continue
-              # Bucket by the first folder after year for lower school, and first school/source
-              # folder after year for senior courses. This keeps uploaded collections together.
-              tail=parts[year_i+1:-1]
-              key='/'.join(parts[:year_i+1]+(tail[:1] if tail else []))
-              buckets[key].append(p)
-          assessment_roots=set()
+              p=r.get('path','');parts=p.split('/');yi=next((i for i,x in enumerate(parts) if re.fullmatch(r'(?:year\s*)?(7|8|9|10|11|12)',x,re.I)),None)
+              if yi is None:continue
+              tail=parts[yi+1:-1];key='/'.join(parts[:yi+1]+(tail[:1] if tail else []));buckets[key].append(p)
+          roots=set()
           for key,paths in buckets.items():
               hits=sum(strong_assessment(p) for p in paths)
-              if hits>=3 and hits/max(1,len(paths))>=0.35:assessment_roots.add(key)
-          def assessment(path):
-              if strong_assessment(path):return True
-              return any(path.startswith(root+'/') for root in assessment_roots)
-
+              if hits>=3 and hits/max(1,len(paths))>=.35:roots.add(key)
+          def assessment(path):return strong_assessment(path) or any(path.startswith(root+'/') for root in roots)
+          aliases={'maths':'Mathematics','math':'Mathematics','mathematics':'Mathematics','science':'Science','hass':'HASS','humanities':'HASS','humanities and social sciences':'HASS','english':'English','digital technologies':'Digital Technologies','digital technology':'Digital Technologies','health and physical education':'Health and Physical Education','health & physical education':'Health and Physical Education','hpe':'Health and Physical Education'}
+          strand_to_subject={'biological sciences':'Science','chemical sciences':'Science','earth and space sciences':'Science','earth & space sciences':'Science','physical sciences':'Science','science inquiry':'Science','investigating science':'Science','geography':'HASS','history':'HASS','civics and citizenship':'HASS','economics and business':'HASS'}
           def lower_subject(parts,yi,path):
-              aliases={'maths':'Mathematics','mathematics':'Mathematics','science':'Science','hass':'HASS','humanities':'HASS','english':'English','digital technologies':'Digital Technologies','health and physical education':'Health and Physical Education','hpe':'Health and Physical Education'}
-              for p in parts[yi+1:]:
+              # Use every folder in the path, including folders BEFORE Year 7/8/9/10.
+              # Many uploaded collections are Subject/Year rather than Year/Subject.
+              for p in parts[1:-1]:
                   k=p.strip().lower()
                   if k in aliases:return aliases[k]
-              s=path.lower()
-              if re.search(r'/science/|biological sciences|chemical sciences|earth and space sciences|physical sciences|investigating science|science inquiry',s):return 'Science'
-              if re.search(r'/hass/|/geography/|/history/|civics|citizenship|economics',s):return 'HASS'
+              for p in parts[1:-1]:
+                  k=p.strip().lower()
+                  if k in strand_to_subject:return strand_to_subject[k]
+              s='/'+path.lower().strip('/')+'/'
+              if re.search(r'/science/|/biological sciences/|/chemical sciences/|/earth (and|&) space sciences/|/physical sciences/|/science inquiry/|/investigating science/',s):return 'Science'
+              if re.search(r'/hass/|/humanities/|/geography/|/history/|/civics( and citizenship)?/|/economics( and business)?/',s):return 'HASS'
               if re.search(r'/maths?/|/mathematics/',s):return 'Mathematics'
               if '/english/' in s:return 'English'
-              if re.search(r'health and physical|/hpe/',s):return 'Health and Physical Education'
-              if 'digital technolog' in s:return 'Digital Technologies'
+              if re.search(r'/health and physical education/|/health & physical education/|/hpe/',s):return 'Health and Physical Education'
+              if re.search(r'/digital technolog(y|ies)/',s):return 'Digital Technologies'
               return 'Other / Unclassified'
-          def topic(subject,path):
-              s=path.lower();rules={
-               'Science':[('Biological Sciences',r'biolog|cell|ecosystem|organism|classification|food web'),('Chemical Sciences',r'chemical|chemistry|mixture|substance|reaction|particle'),('Earth and Space Sciences',r'earth|space|rock|solar|season|geolog'),('Physical Sciences',r'physical science|force|motion|energy|wave|light|sound'),('Science Inquiry',r'inquiry|investigating science|investigation|science skill')],
-               'HASS':[('Geography',r'geograph'),('History',r'history|ancient|medieval'),('Civics and Citizenship',r'civic|citizen|government|democracy|law'),('Economics and Business',r'economic|business|consumer|market')],
-               'Mathematics':[('Number and algebra',r'number|algebra|fraction|decimal|percent|ratio|integer'),('Measurement and geometry',r'measurement|geometry|angle|shape|area|volume|length'),('Probability and statistics',r'probability|statistics|data|chance')],
-               'English':[('Language',r'language|grammar|spelling|vocab'),('Literature',r'literature|novel|poetry|film|text study'),('Literacy',r'literacy|reading|writing|comprehension|persuasive|narrative|oral')],
-               'Health and Physical Education':[('Personal, social and community health',r'health|wellbeing|puberty|safety|nutrition|relationship|consent'),('Movement and physical activity',r'movement|sport|fitness|physical activity|game|tactic')]}
-              for label,rx in rules.get(subject,[]):
-                  if re.search(rx,s):return label
-              return 'General / Mixed Topic'
-          generic={'resources','atar','general','lowerschool','powerpoints','worksheets','notes','practicals','revision','tests','assessments','other resources','lesson resources','important documents','by syllabus point'}
+          def topic(subject,path):return 'All '+subject+' Assessments' if subject!='Other / Unclassified' else 'General Assessments'
+          generic={'resources','atar','general','lowerschool','powerpoints','worksheets','notes','practicals','revision','tests','assessments','other resources','lesson resources','important documents','by syllabus point','science','maths','mathematics','english','hass','humanities','digital technologies','health and physical education'}
           def school(parts,yi):
-              # Prefer a source/school folder close to the year. Names such as Kennedy,
-              # Narrogin, Rossmoyne and Aranmore are valid even without School/College suffixes.
               for p in parts[yi+1:-1]:
                   q=p.strip();low=q.lower()
                   if low in generic or re.fullmatch(r'unit\s*[1-4]',q,re.I) or re.fullmatch(r'term\s*\w+',q,re.I):continue
                   if re.search(r'school|college|academy|grammar|senior high|secondary|catholic|anglican|christian|community',q,re.I):return q
-              # For senior paths, the folder immediately after the year is commonly the school/source.
-              if yi+1<len(parts)-1:
-                  q=parts[yi+1].strip()
-                  if q.lower() not in generic and not re.fullmatch(r'unit\s*[1-4]',q,re.I):return q
               return 'Unspecified school'
           out=[]
           for r in resources:
@@ -136,17 +109,19 @@ jobs:
                   if m:year='Year '+m.group(1);yi=i;break
               if not year:continue
               n=int(year.split()[-1])
-              if n<=10:
-                  subject=lower_subject(parts,yi,path);pathway='Years 7–10';unit=''
+              if n<=10:subject=lower_subject(parts,yi,path);pathway='Years 7–10';unit=''
               else:
                   pathway='ATAR' if any(p.upper()=='ATAR' for p in parts) else ('GENERAL' if any(p.lower()=='general' for p in parts) else 'Senior')
                   pi=next((i for i,p in enumerate(parts) if p.upper()=='ATAR' or p.lower()=='general'),-1)
                   subject=parts[pi+1] if pi>=0 and pi+1<len(parts) else (parts[yi-1] if yi>0 else 'Other / Unclassified')
                   unit=next((p for p in parts if re.fullmatch(r'unit\s*[1-4]',p,re.I)),'')
               out.append({'path':path,'size':r.get('size',0),'year':year,'pathway':pathway,'subject':subject,'topic':topic(subject,path),'unit':unit,'school':school(parts,yi)})
-          out.sort(key=lambda x:(x['year'],x['subject'],x['topic'],x['school'],x['path'].lower()))
+          out.sort(key=lambda x:(x['year'],x['subject'],x['school'],x['path'].lower()))
           with open('assessment-manifest.json','w',encoding='utf-8') as h:json.dump(out,h,ensure_ascii=False,separators=(',',':'))
-          print('assessment-manifest.json',len(out),'indexed assessments from',len(assessment_roots),'assessment-heavy collections')
+          print('assessment-manifest.json',len(out),'indexed assessments')
+          print('Lower school subject counts:')
+          counts=collections.Counter((x['year'],x['subject']) for x in out if x['year'] in {'Year 7','Year 8','Year 9','Year 10'})
+          for k,v in sorted(counts.items()):print(k,v)
           PY
         env:
           GITHUB_EVENT_NAME: ${{ github.event_name }}
