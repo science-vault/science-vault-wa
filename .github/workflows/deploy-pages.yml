@@ -36,6 +36,17 @@ jobs:
           find . -maxdepth 1 -type f \
             ! -name '.gitignore' \
             -exec cp {} _site/ \;
+
+          # The vault pages load these catalogues directly in the browser.
+          # Fail the deployment instead of publishing an empty vault if either
+          # catalogue is missing or invalid.
+          test -s _site/powerpoint-manifest.json
+          test -s _site/resource-manifest.json
+          python -m json.tool _site/powerpoint-manifest.json >/dev/null
+          python -m json.tool _site/resource-manifest.json >/dev/null
+
+          echo 'Vault catalogue sizes:'
+          wc -c _site/powerpoint-manifest.json _site/resource-manifest.json
           echo 'Website artifact contents:'
           du -sh _site
           find _site -maxdepth 1 -type f -printf '%f\n' | sort
