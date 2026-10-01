@@ -23,33 +23,29 @@ jobs:
       - name: Build folder-driven manifests
         run: |
           python - <<'PY'
-          import os,json,re,subprocess,datetime
-          EXTS={'.ppt','.pptx','.doc','.docx','.pdf','.xls','.xlsx','.csv'}
+          import os,json,re,subprocess
+          EXTS={'.ppt','.pptx','.doc','.docx','.pdf','.xls','.xlsx','.csv','.mp4','.mov','.m4v','.webm'}
           JUNK=re.compile(r'(^|/)(\.DS_Store|Thumbs\.db|desktop\.ini|~\$[^/]+|\.~lock\.[^/]+|__MACOSX)(/|$)',re.I)
           def modified(p):
-              try:
-                  ts=subprocess.check_output(['git','log','-1','--format=%cI','--',p],text=True).strip()
-                  return ts or ''
+              try:return subprocess.check_output(['git','log','-1','--format=%cI','--',p],text=True).strip()
               except Exception:return ''
           def scan(root,exts=EXTS):
               out=[]
-              if not os.path.isdir(root): return out
+              if not os.path.isdir(root):return out
               for d,dirs,files in os.walk(root):
                   dirs[:]=[x for x in dirs if x not in {'.git','__MACOSX'}]
                   for f in files:
                       p=os.path.join(d,f).replace('\\','/')
                       if JUNK.search(p):continue
-                      if os.path.splitext(f)[1].lower() in exts:
-                          out.append({'path':p,'size':os.path.getsize(p),'modified':modified(p)})
+                      if os.path.splitext(f)[1].lower() in exts:out.append({'path':p,'size':os.path.getsize(p),'modified':modified(p)})
               return sorted(out,key=lambda x:x['path'].lower())
           def save(name,data):
-              with open(name,'w',encoding='utf-8') as h: json.dump(data,h,ensure_ascii=False,separators=(',',':'))
+              with open(name,'w',encoding='utf-8') as h:json.dump(data,h,ensure_ascii=False,separators=(',',':'))
           resources=scan('resources');save('resource-manifest.json',resources)
           save('exam-manifest.json',scan('exams'))
           textbook_exts={'.pdf','.jpg','.jpeg','.png','.webp'}
           textbooks=scan('resources/Textbooks',textbook_exts)+scan('textbooks',textbook_exts)
-          textbooks=sorted({x['path']:x for x in textbooks}.values(),key=lambda x:x['path'].lower())
-          save('textbook-manifest.json',textbooks)
+          textbooks=sorted({x['path']:x for x in textbooks}.values(),key=lambda x:x['path'].lower());save('textbook-manifest.json',textbooks)
           base='resources/Assessments';all_assess=[r for r in resources if r['path'].startswith(base+'/')];out=[]
           lower_alias={'maths':'Mathematics','mathematics':'Mathematics','science':'Science','english':'English','hass':'HASS','digital technologies':'Digital Technologies','digital technology':'Digital Technologies','health and physical education':'Health and Physical Education','hpe':'Health and Physical Education'}
           school_rx=re.compile(r'school|college|academy|grammar|senior high|secondary|catholic|anglican|christian|community|southern river|kennedy|narrogin|rossmoyne|aranmore',re.I)
@@ -69,7 +65,7 @@ jobs:
               out.append({**r,'year':f'Year {ym}','pathway':pathway,'subject':subject,'topic':'All Assessments','unit':unit,'school':school})
           out.sort(key=lambda x:(int(x['year'].split()[-1]),x['subject'].lower(),x['path'].lower()));save('assessment-manifest.json',out)
           for y in range(7,13):save(f'assessment-year{y}.json',[x for x in out if x['year']==f'Year {y}'])
-          print('Assessment files:',len(out),'Textbooks:',len([x for x in textbooks if x['path'].lower().endswith('.pdf')]))
+          print('Resources:',len(resources),'Assessments:',len(out),'Textbooks:',len(textbooks))
           PY
       - name: Commit manifests safely
         run: |
