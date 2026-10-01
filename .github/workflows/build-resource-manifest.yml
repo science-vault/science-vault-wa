@@ -25,7 +25,7 @@ jobs:
         run: |
           python - <<'PY'
           import os,json,re,subprocess
-          EXTS={'.ppt','.pptx','.doc','.docx','.pdf','.xls','.xlsx','.csv','.mp4','.mov','.m4v','.webm'}
+          EXTS={'.ppt','.pptx','.doc','.docx','.pdf','.xls','.xlsx','.csv','.mp4','.mov','.m4v','.webm','.ogv'}
           JUNK=re.compile(r'(^|/)(\.DS_Store|Thumbs\.db|desktop\.ini|~\$[^/]+|\.~lock\.[^/]+|__MACOSX)(/|$)',re.I)
           def modified(p):
               try:return subprocess.check_output(['git','log','-1','--format=%cI','--',p],text=True).strip()
@@ -46,7 +46,8 @@ jobs:
           if not resources: raise SystemExit('ERROR: resources directory exists but resource scan returned zero files')
           save('resource-manifest.json',resources)
           powerpoints=[r for r in resources if os.path.splitext(r['path'])[1].lower() in {'.ppt','.pptx'}]
-          save('powerpoint-manifest.json',powerpoints)
+          videos=[r for r in resources if os.path.splitext(r['path'])[1].lower() in {'.mp4','.mov','.m4v','.webm','.ogv'}]
+          save('powerpoint-manifest.json',powerpoints);save('video-manifest.json',videos)
           save('exam-manifest.json',scan('exams'))
           textbook_exts={'.pdf','.jpg','.jpeg','.png','.webp'}
           textbooks=scan('resources/Textbooks',textbook_exts)+scan('textbooks',textbook_exts)
@@ -70,29 +71,29 @@ jobs:
               out.append({**r,'year':f'Year {ym}','pathway':pathway,'subject':subject,'topic':'All Assessments','unit':unit,'school':school})
           out.sort(key=lambda x:(int(x['year'].split()[-1]),x['subject'].lower(),x['path'].lower()));save('assessment-manifest.json',out)
           for y in range(7,13):save(f'assessment-year{y}.json',[x for x in out if x['year']==f'Year {y}'])
-          print('Resources:',len(resources),'PowerPoints:',len(powerpoints),'Assessments:',len(out),'Textbooks:',len(textbooks))
+          print('Resources:',len(resources),'PowerPoints:',len(powerpoints),'Videos:',len(videos),'Assessments:',len(out),'Textbooks:',len(textbooks))
           PY
       - name: Validate manifests
         run: |
           test -s resource-manifest.json
           test -s powerpoint-manifest.json
+          test -s video-manifest.json
           python -m json.tool resource-manifest.json >/dev/null
           python -m json.tool powerpoint-manifest.json >/dev/null
+          python -m json.tool video-manifest.json >/dev/null
           python - <<'PY'
           import json
-          r=json.load(open('resource-manifest.json',encoding='utf-8'))
-          p=json.load(open('powerpoint-manifest.json',encoding='utf-8'))
-          assert len(r)>0, 'resource-manifest.json is empty'
-          assert len(p)>0, 'powerpoint-manifest.json is empty'
-          print('Validated',len(r),'resources and',len(p),'PowerPoints')
+          r=json.load(open('resource-manifest.json',encoding='utf-8'));p=json.load(open('powerpoint-manifest.json',encoding='utf-8'));v=json.load(open('video-manifest.json',encoding='utf-8'))
+          assert len(r)>0;assert len(p)>0
+          print('Validated',len(r),'resources,',len(p),'PowerPoints and',len(v),'videos')
           PY
       - name: Commit manifests safely
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git add resource-manifest.json powerpoint-manifest.json exam-manifest.json textbook-manifest.json assessment-manifest.json assessment-year7.json assessment-year8.json assessment-year9.json assessment-year10.json assessment-year11.json assessment-year12.json
+          git add resource-manifest.json powerpoint-manifest.json video-manifest.json exam-manifest.json textbook-manifest.json assessment-manifest.json assessment-year7.json assessment-year8.json assessment-year9.json assessment-year10.json assessment-year11.json assessment-year12.json
           if git diff --cached --quiet; then echo 'Manifests already current'; exit 0; fi
-          git commit -m 'Rebuild folder-driven manifests with metadata'
+          git commit -m 'Rebuild lightweight vault manifests'
           for attempt in 1 2 3; do
             if git push origin HEAD:main; then exit 0; fi
             git fetch origin main;git rebase origin/main
