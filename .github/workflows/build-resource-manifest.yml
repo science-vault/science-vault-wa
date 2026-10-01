@@ -19,7 +19,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          ref: main
+          fetch-depth: 0
       - name: Build folder-driven manifests
         run: |
           python - <<'PY'
@@ -41,9 +42,9 @@ jobs:
               return sorted(out,key=lambda x:x['path'].lower())
           def save(name,data):
               with open(name,'w',encoding='utf-8') as h:json.dump(data,h,ensure_ascii=False,separators=(',',':'))
-          resources=scan('resources');save('resource-manifest.json',resources)
-          # Small dedicated catalogue used by the PowerPoint Vault. It avoids asking
-          # each visitor's browser to download GitHub's enormous recursive tree.
+          resources=scan('resources')
+          if not resources: raise SystemExit('ERROR: resources directory exists but resource scan returned zero files')
+          save('resource-manifest.json',resources)
           powerpoints=[r for r in resources if os.path.splitext(r['path'])[1].lower() in {'.ppt','.pptx'}]
           save('powerpoint-manifest.json',powerpoints)
           save('exam-manifest.json',scan('exams'))
@@ -70,6 +71,20 @@ jobs:
           out.sort(key=lambda x:(int(x['year'].split()[-1]),x['subject'].lower(),x['path'].lower()));save('assessment-manifest.json',out)
           for y in range(7,13):save(f'assessment-year{y}.json',[x for x in out if x['year']==f'Year {y}'])
           print('Resources:',len(resources),'PowerPoints:',len(powerpoints),'Assessments:',len(out),'Textbooks:',len(textbooks))
+          PY
+      - name: Validate manifests
+        run: |
+          test -s resource-manifest.json
+          test -s powerpoint-manifest.json
+          python -m json.tool resource-manifest.json >/dev/null
+          python -m json.tool powerpoint-manifest.json >/dev/null
+          python - <<'PY'
+          import json
+          r=json.load(open('resource-manifest.json',encoding='utf-8'))
+          p=json.load(open('powerpoint-manifest.json',encoding='utf-8'))
+          assert len(r)>0, 'resource-manifest.json is empty'
+          assert len(p)>0, 'powerpoint-manifest.json is empty'
+          print('Validated',len(r),'resources and',len(p),'PowerPoints')
           PY
       - name: Commit manifests safely
         run: |
