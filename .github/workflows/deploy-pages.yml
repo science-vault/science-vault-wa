@@ -1,7 +1,14 @@
-name: Deploy Pages site
+name: Deploy lightweight Pages site
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - 'resources/**'
+      - 'exams/**'
+      - 'textbooks/**'
+  workflow_run:
+    workflows: ['Build resource manifest']
+    types: [completed]
   workflow_dispatch:
 permissions:
   contents: read
@@ -12,6 +19,7 @@ concurrency:
   cancel-in-progress: true
 jobs:
   deploy:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -22,21 +30,18 @@ jobs:
         with:
           ref: main
           fetch-depth: 1
-      - name: Build Pages site artifact
+      - name: Build lightweight site artifact
         run: |
           mkdir -p _site
           find . -maxdepth 1 -type f \
             ! -name '.gitignore' \
             -exec cp {} _site/ \;
-          if [ -d resources ]; then cp -R resources _site/resources; fi
-          if [ -d exams ]; then cp -R exams _site/exams; fi
-          if [ -d textbooks ]; then cp -R textbooks _site/textbooks; fi
           echo 'Website artifact contents:'
           du -sh _site
-          find _site -maxdepth 2 -type f | head -100
+          find _site -maxdepth 1 -type f -printf '%f\n' | sort
       - name: Configure Pages
         uses: actions/configure-pages@v5
-      - name: Upload Pages artifact
+      - name: Upload lightweight Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
           path: _site
