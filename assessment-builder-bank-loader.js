@@ -7,7 +7,7 @@
     if(pending.has(src)) return pending.get(src);
     const p = new Promise((resolve,reject)=>{
       const s=document.createElement('script');
-      s.src=src+(src.includes('?')?'&':'?')+'v=2026.10';
+      s.src=src+(src.includes('?')?'&':'?')+'v=2026.11';
       s.async=false;
       s.onload=()=>{loaded.add(src);pending.delete(src);resolve(src)};
       s.onerror=()=>{pending.delete(src);reject(new Error('Could not load question bank file: '+src))};
@@ -28,7 +28,7 @@
       return (window.AssessmentQuestionBank||[]).filter(q=>String(q.year)===String(year)&&(q.subject==='science'||!q.subject));
     }
     if(subjectId==='mathematics'){
-      await scriptsSequentially(['assessment-question-bank-mathematics.js','assessment-question-bank-mathematics-expansion-1.js']);
+      await scriptsSequentially(['assessment-question-bank-mathematics.js','assessment-question-bank-mathematics-expansion-1.js','assessment-question-bank-mathematics-expansion-2.js']);
       return (window.AssessmentQuestionBank||[]).filter(q=>String(q.year)===String(year)&&q.subject==='mathematics'&&q.type!=='Multiple choice');
     }
     const cfg=window.AssessmentBuilderConfig||{};
