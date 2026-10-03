@@ -17,8 +17,15 @@ window.AssessmentBuilderSubjects = [
 ];
 
 window.AssessmentBuilderConfig = {
-  version: '2026.1',
+  version: '2026.2',
   bankRoot: 'assessment-builder/question-banks',
   imageRoot: 'assessment-builder/images',
   legacyScienceLoader: 'assessment-question-bank.js'
 };
+
+// Load export formatting after the page's legacy builder functions have been defined.
+window.addEventListener('DOMContentLoaded', function(){
+  const s=document.createElement('script');
+  s.src='assessment-builder/js/export-format.js?v=2026.2';
+  document.body.appendChild(s);
+});
