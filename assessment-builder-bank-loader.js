@@ -7,7 +7,7 @@
     if(pending.has(src)) return pending.get(src);
     const p = new Promise((resolve,reject)=>{
       const s=document.createElement('script');
-      s.src=src+(src.includes('?')?'&':'?')+'v=2026.15';
+      s.src=src+(src.includes('?')?'&':'?')+'v=2026.16';
       s.async=false;
       s.onload=()=>{loaded.add(src);pending.delete(src);resolve(src)};
       s.onerror=()=>{pending.delete(src);reject(new Error('Could not load question bank file: '+src))};
@@ -38,3 +38,61 @@
   }
   window.AssessmentBankLoader={load,loaded};
 })();
+
+// Science-specific hierarchy enhancement: Strand -> Topic.
+// Added here so older builder markup remains compatible.
+window.addEventListener('DOMContentLoaded',()=>{
+  const subject=document.getElementById('subject'), topic=document.getElementById('topic');
+  if(!subject||!topic)return;
+  const topicField=topic.closest('.field');
+  const strandField=document.createElement('div');
+  strandField.className='field';
+  strandField.id='scienceStrandField';
+  strandField.innerHTML='<label>Science strand</label><select id="strand"><option value="all">All strands</option></select>';
+  topicField.parentNode.insertBefore(strandField,topicField);
+  const strand=document.getElementById('strand');
+  function science(){return subject.value==='science'}
+  function normaliseLegacy(q){
+    if(!q.strand && ['Biological Sciences','Chemical Sciences','Earth and Space Sciences','Physical Sciences'].includes(q.topic)) q.strand=q.topic;
+    return q;
+  }
+  function refresh(){
+    strandField.style.display=science()?'':'none';
+    if(!science())return;
+    (window.activeBank||[]).forEach(normaliseLegacy);
+    const strands=[...new Set((window.activeBank||[]).map(q=>q.strand).filter(Boolean))].sort();
+    const old=strand.value;
+    strand.innerHTML='<option value="all">All strands</option>'+strands.map(x=>`<option value="${x}">${x}</option>`).join('');
+    if(strands.includes(old))strand.value=old;
+    refreshTopics();
+  }
+  function refreshTopics(){
+    if(!science())return;
+    const sv=strand.value;
+    const qs=(window.activeBank||[]).filter(q=>sv==='all'||q.strand===sv);
+    const actual=[...new Set(qs.filter(q=>q.strand&&q.topic&&q.topic!==q.strand).map(q=>q.topic))].sort();
+    topic.innerHTML='<option value="all">All topics</option>'+actual.map(x=>`<option value="${x}">${x}</option>`).join('');
+    if(typeof window.renderBank==='function')window.renderBank();
+  }
+  const oldTopics=window.topics;
+  window.topics=function(){if(science()){refresh();}else oldTopics();};
+  const oldBuild=window.build;
+  window.build=function(){
+    if(!science())return oldBuild();
+    const sv=strand.value,t=topic.value,d=document.getElementById('difficulty').value;
+    const original=window.activeBank;
+    window.activeBank=original.filter(q=>(sv==='all'||q.strand===sv)&&(t==='all'||q.topic===t));
+    try{return oldBuild();}finally{window.activeBank=original;}
+  };
+  const oldRenderBank=window.renderBank;
+  window.renderBank=function(){
+    if(!science())return oldRenderBank();
+    const sv=strand.value,original=window.activeBank;
+    window.activeBank=original.filter(q=>sv==='all'||q.strand===sv);
+    try{return oldRenderBank();}finally{window.activeBank=original;}
+  };
+  strand.addEventListener('change',refreshTopics);
+  subject.addEventListener('change',()=>setTimeout(refresh,0));
+  document.getElementById('year')?.addEventListener('change',()=>setTimeout(refresh,250));
+  setTimeout(refresh,250);
+});
