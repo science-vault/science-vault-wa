@@ -1,5 +1,4 @@
 // Central Assessment Builder registry.
-// Banks are lazy-loaded. Add a bank path only when that subject/year bank exists.
 window.AssessmentBuilderSubjects = [
   { id:'science', label:'Science', years:{
     '7':{label:'Year 7', legacy:true},
@@ -17,32 +16,43 @@ window.AssessmentBuilderSubjects = [
 ];
 
 window.AssessmentBuilderConfig = {
-  version: '2026.3',
+  version: '2026.4',
   bankRoot: 'assessment-builder/question-banks',
   imageRoot: 'assessment-builder/images',
   legacyScienceLoader: 'assessment-question-bank.js'
 };
 
-// Initialise the subject/year selector after all page scripts have loaded.
-// This also repairs cached/deployed pages where the subject select is blank.
+// assessment-builder.html defines its functions after this file is parsed.
+// Queue initialisation so populateSubjects() exists before it is called.
+setTimeout(function initialiseAssessmentBuilder(){
+  try {
+    if (typeof populateSubjects === 'function') {
+      populateSubjects();
+    } else {
+      const subject=document.getElementById('subject');
+      const year=document.getElementById('year');
+      if(subject){
+        subject.innerHTML=window.AssessmentBuilderSubjects.map(function(s){return '<option value="'+s.id+'">'+s.label+'</option>';}).join('');
+        subject.value='science';
+      }
+      if(year){
+        year.innerHTML='<option value="7">Year 7</option><option value="8">Year 8</option><option value="9">Year 9</option><option value="10">Year 10</option>';
+        year.disabled=false;
+      }
+      const build=document.getElementById('build');
+      if(build) build.disabled=false;
+    }
+  } catch(e) {
+    console.error('Assessment Builder initialisation failed',e);
+  }
+},0);
+
 window.addEventListener('load', function(){
+  // Second pass in case another script or cached page reset the controls.
   const subject=document.getElementById('subject');
-  const year=document.getElementById('year');
-  if(subject && (!subject.options.length || !subject.value)){
-    subject.innerHTML=window.AssessmentBuilderSubjects.map(function(s){
-      return '<option value="'+s.id+'">'+s.label+'</option>';
-    }).join('');
-    subject.value='science';
-  }
-  if(subject && subject.value==='science' && year && (!year.options.length || year.disabled)){
-    year.innerHTML=['7','8','9','10'].map(function(y){return '<option value="'+y+'">Year '+y+'</option>';}).join('');
-    year.disabled=false;
-    const build=document.getElementById('build'); if(build) build.disabled=false;
-  }
-  // Re-run the page's normal population/loading logic where available.
-  if(typeof populateYears==='function') populateYears();
+  if(subject && !subject.value && typeof populateSubjects==='function') populateSubjects();
 
   const s=document.createElement('script');
-  s.src='assessment-builder/js/export-format.js?v=2026.3';
+  s.src='assessment-builder/js/export-format.js?v=2026.4';
   document.body.appendChild(s);
 });
