@@ -1,100 +1,114 @@
-// Lower School Mathematics Years 7-10 authentic assessment bank.
-// Original questions modelled on WA school assessment conventions and aligned to SCSA 2026 strands.
+// Lower School Mathematics Years 7-10 written-response assessment bank.
+// Original questions aligned to the WA/SCSA 2026 Mathematics strands and designed in school-test style.
 (function(){
 const S='mathematics',Q=[];
 const add=(y,id,t,sub,type,d,m,q,ans,e={})=>Q.push({id,subject:S,year:y,topic:t,subtopic:sub,type,difficulty:d,marks:m,question:q,answer:ans,...e});
-const mc=(y,id,t,sub,q,opts,c,d='Easy')=>add(y,id,t,sub,'Multiple choice',d,1,q,`${'ABCD'[c]}. ${opts[c]} [1]`,{options:opts});
 const sa=(y,id,t,sub,q,ans,m=3,d='Medium',e={})=>add(y,id,t,sub,'Short answer',d,m,q,ans,{response:'working',...e});
-const ex=(y,id,t,sub,q,ans,m=6,e={})=>add(y,id,t,sub,'Extended response','Hard',m,q,ans,{responseLines:10,...e});
+const ms=(y,id,t,sub,q,ans,m=8,d='Medium',e={})=>add(y,id,t,sub,'Multi-step',d,m,q,ans,{response:'working',...e});
+const ex=(y,id,t,sub,q,ans,m=8,e={})=>add(y,id,t,sub,'Extended response','Hard',m,q,ans,{responseLines:12,...e});
 const N='Number and algebra',G='Measurement and geometry',P='Probability and statistics';
+const grid=(pts=[],lines=[])=>{let s='<svg viewBox="0 0 420 300" role="img" aria-label="coordinate grid" xmlns="http://www.w3.org/2000/svg"><rect width="420" height="300" fill="white" stroke="#243746"/><g stroke="#dce3e8" stroke-width="1">';for(let x=30;x<=390;x+=30)s+=`<line x1="${x}" y1="20" x2="${x}" y2="280"/>`;for(let y=30;y<=270;y+=30)s+=`<line x1="20" y1="${y}" x2="400" y2="${y}"/>`;s+='</g><g stroke="#263746" stroke-width="2"><line x1="20" y1="150" x2="400" y2="150"/><line x1="210" y1="20" x2="210" y2="280"/></g>';lines.forEach(l=>s+=`<line x1="${210+l[0]*30}" y1="${150-l[1]*30}" x2="${210+l[2]*30}" y2="${150-l[3]*30}" stroke="#263746" stroke-width="3"/>`);pts.forEach(p=>s+=`<circle cx="${210+p[0]*30}" cy="${150-p[1]*30}" r="5" fill="#111"/><text x="${218+p[0]*30}" y="${142-p[1]*30}" font-size="14">${p[2]||''}</text>`);return s+'</svg>'};
+const triangle=(a,b,c)=>`<svg viewBox="0 0 420 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="triangle diagram"><rect width="420" height="260" fill="white"/><path d="M65 215 L355 215 L245 45 Z" fill="#f8fafb" stroke="#263746" stroke-width="3"/><text x="190" y="242" font-size="17">${a}</text><text x="118" y="125" font-size="17">${b}</text><text x="305" y="125" font-size="17">${c}</text></svg>`;
+const prism=(l,w,h)=>`<svg viewBox="0 0 440 290" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="rectangular prism"><rect width="440" height="290" fill="white"/><g fill="#f8fafb" stroke="#263746" stroke-width="3"><path d="M80 95 L300 95 L365 50 L145 50 Z"/><path d="M300 95 L365 50 L365 205 L300 245 Z"/><path d="M80 95 L300 95 L300 245 L80 245 Z"/></g><text x="170" y="272" font-size="17">${l}</text><text x="337" y="235" font-size="17">${h}</text><text x="320" y="72" font-size="17">${w}</text></svg>`;
+const bars=(labels,vals)=>{const max=Math.max(...vals);let s='<svg viewBox="0 0 460 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="column graph"><rect width="460" height="300" fill="white"/><line x1="55" y1="245" x2="430" y2="245" stroke="#263746" stroke-width="2"/><line x1="55" y1="25" x2="55" y2="245" stroke="#263746" stroke-width="2"/>';vals.forEach((v,i)=>{const h=180*v/max,x=85+i*80;s+=`<rect x="${x}" y="${245-h}" width="45" height="${h}" fill="#d9e4ea" stroke="#263746" stroke-width="2"/><text x="${x+14}" y="${235-h}" font-size="14">${v}</text><text x="${x}" y="268" font-size="14">${labels[i]}</text>`});return s+'</svg>'};
 
-// YEAR 7
-mc(7,'m7a01',N,'Understanding number','Which number is greatest?',['-12','-3','0','-1'],2);
-mc(7,'m7a02',N,'Fractions, decimals and percentages','Which is equivalent to 3/5?',['0.35','0.5','0.6','0.8'],2);
-mc(7,'m7a03',N,'Calculating with number','Evaluate 48 ÷ 6 × 3.',['8','18','24','144'],2);
-mc(7,'m7a04',N,'Algebraic techniques','If x = 4, find 3x + 5.',['12','17','20','27'],1);
-mc(7,'m7a05',N,'Financial mathematics','A $60 shirt is reduced by 20%. What is the discount?',['$12','$20','$40','$48'],0);
-sa(7,'m7b01',N,'Integers','A lift starts on level 3, travels down 7 floors and then up 2 floors. On which level does it finish? Show your integer calculation.','3 - 7 + 2 = -2. Level -2. [3]',3);
-sa(7,'m7b02',N,'Fractions','Calculate 2/3 + 1/6. Give your answer in simplest form.','4/6 + 1/6 = 5/6. [3]',3);
-sa(7,'m7b03',N,'Ratios','Orange drink is mixed using 1 part concentrate to 4 parts water. How much water is required for 750 mL of concentrate?','750 × 4 = 3000 mL = 3 L. [3]',3);
-sa(7,'m7b04',N,'Patterns and relationships','The sequence is 5, 9, 13, 17, ... State the next two terms and describe the rule.','21, 25 [2]; add 4 each time [1].',3);
-mc(7,'m7c01',G,'Angles','Two angles on a straight line are 68° and x°. Find x.',['22°','68°','112°','292°'],2);
-mc(7,'m7c02',G,'Area','What is the area of a parallelogram with base 9 cm and perpendicular height 4 cm?',['13 cm²','18 cm²','26 cm²','36 cm²'],3);
-sa(7,'m7c03',G,'Perimeter and area','A rectangular garden is 12 m long and 7 m wide. Calculate its perimeter and area.','Perimeter = 2(12+7)=38 m [2]; area=12×7=84 m² [2].',4);
-sa(7,'m7c04',G,'Scale','On a map, 1 cm represents 5 km. Two towns are 7.4 cm apart on the map. Calculate the actual distance.','7.4×5=37 km. [3]',3);
-sa(7,'m7c05',G,'Coordinates','Plotting is not required: state the quadrant containing each point A(-3,4), B(5,-2), C(-1,-6).','A: II [1]; B: IV [1]; C: III [1].',3);
-mc(7,'m7d01',P,'Probability','A fair six-sided die is rolled. What is the probability of rolling a number greater than 4?',['1/6','1/3','1/2','2/3'],1);
-sa(7,'m7d02',P,'Data displays','The scores are 6, 8, 8, 9, 11, 12. Find the median and range.','Median=(8+9)/2=8.5 [2]; range=12-6=6 [1].',3);
-sa(7,'m7d03',P,'Experimental probability','A spinner lands on blue 18 times in 50 spins. Calculate the experimental probability of blue as a fraction and decimal.','18/50=9/25 [2]; 0.36 [1].',3);
-ex(7,'m7e01',N,'Modelling with number','A school camp costs $185 per student. A family has already paid a $50 deposit and saves $15 each week. How many complete weeks are needed to save the remaining amount? Show all working and check your answer.','Remaining $135 [2]; 135÷15=9 weeks [2]; check 50+9×15=185 [2].',6);
-ex(7,'m7e02',G,'Modelling with measurement','A classroom floor is 8.4 m by 6.5 m. Carpet costs $32 per square metre. Calculate the floor area and total carpet cost.','Area=54.6 m² [3]; cost=54.6×32=$1747.20 [3].',6);
-ex(7,'m7e03',P,'Statistical investigation','A student wants to find the favourite sport of Year 7 students. Explain why asking only members of the school basketball team would be biased. Describe a better sampling method and a suitable graph for the results.','Bias explained [2]; representative/random or stratified Year 7 sample [2]; appropriate categorical display such as bar/column graph [1]; justification [1].',6);
+// YEAR 7 — Number and algebra
+sa(7,'m7-n01',N,'Understanding number','Order these numbers from smallest to largest: -8, 3, -2, 0, 6.','-8, -2, 0, 3, 6. [2]',2,'Easy');
+sa(7,'m7-n02',N,'Calculating with number','Evaluate 48 ÷ 6 × 3 + 5. Show the order of operations.','48÷6=8; 8×3=24; 24+5=29. [3]',3);
+sa(7,'m7-n03',N,'Fractions, decimals and percentages','Write 7/20 as a decimal and percentage.','0.35 [1]; 35% [1].',2,'Easy');
+sa(7,'m7-n04',N,'Fractions','Calculate 5/6 - 1/4. Give the answer in simplest form.','10/12-3/12=7/12. [3]',3);
+sa(7,'m7-n05',N,'Ratios','A cordial mixture uses concentrate and water in the ratio 1:4. How much water is required for 650 mL of concentrate?','650×4=2600 mL=2.6 L. [3]',3);
+sa(7,'m7-n06',N,'Algebraic techniques','If a=5 and b=-2, calculate 3a+2b.','15-4=11. [2]',2);
+sa(7,'m7-n07',N,'Patterns and relationships','The sequence is 7, 12, 17, 22, ... Write the next three terms and describe the rule.','27,32,37 [2]; add 5 [1].',3);
+sa(7,'m7-n08',N,'Financial mathematics','A $75 jacket is reduced by 20%. Calculate the discount and sale price.','$15 discount [2]; $60 sale price [1].',3);
+ms(7,'m7-nm01',N,'Modelling with number','A school camp costs $245. A student has paid a $65 deposit and saves $18 each week. (a) Calculate the amount still owing. (b) Determine how many complete weeks are needed to save the remaining amount. (c) State how much money the student will have saved in total after that many weeks. (d) Explain whether there will be any money left over after paying the camp fee.','(a) $180 [2]; (b) 10 weeks [2]; (c) $245 total available including deposit? Weekly savings=180, total=245 [2]; (d) no leftover [2].',8);
+ms(7,'m7-nm02',N,'Fractions and percentages','A class has 30 students. 2/5 walk to school, 30% travel by bus and the remainder travel by car. (a) Find the number who walk. (b) Find the number who travel by bus. (c) Find the number who travel by car. (d) What fraction of the class travels by car?','(a)12 [2]; (b)9 [2]; (c)9 [2]; (d)9/30=3/10 [2].',8);
+ex(7,'m7-ne01',N,'Modelling with number','A canteen sells fruit cups for $4.50 and sandwiches for $6.80. A teacher has $70 to buy 6 fruit cups and as many sandwiches as possible. Determine the maximum number of sandwiches that can be bought and the change. Show a clear mathematical argument.','Fruit cups cost $27 [2]; $43 remains [1]; 6 sandwiches cost $40.80 [2]; maximum 6 [1]; change $2.20 [2].',8);
+
+// YEAR 7 — Measurement and geometry
+sa(7,'m7-g01',G,'Angles','Two adjacent angles on a straight line are 68° and x°. Calculate x.','x=180-68=112°. [2]',2,'Easy');
+sa(7,'m7-g02',G,'Perimeter and area','A rectangle is 12 m long and 7 m wide. Calculate its perimeter and area.','P=38 m [2]; A=84 m² [2].',4);
+sa(7,'m7-g03',G,'Area','Calculate the area of a triangle with base 13 cm and perpendicular height 8 cm.','A=1/2×13×8=52 cm². [3]',3);
+sa(7,'m7-g04',G,'Scale','A map scale is 1 cm : 5 km. Two towns are 7.4 cm apart on the map. Calculate the actual distance.','37 km. [3]',3);
+sa(7,'m7-g05',G,'Coordinates','The diagram shows points A and B. State the coordinates of both points.', 'A(-3,2), B(4,-2). [4]',4,'Medium',{diagram:grid([[-3,2,'A'],[4,-2,'B']])});
+ms(7,'m7-gm01',G,'Two-dimensional space and structures','The triangle shown has a base of 14 cm and perpendicular height of 9 cm. (a) Calculate its area. (b) A second triangle has the same area and a base of 21 cm. Calculate its perpendicular height. (c) Explain why changing the base does not necessarily change the area if the height also changes.','(a)63 cm² [3]; (b)6 cm [3]; (c) valid relationship explanation [2].',8,'Medium',{diagram:triangle('14 cm','9 cm','')});
+ms(7,'m7-gm02',G,'Modelling with measurement','A rectangular garden measures 14 m by 9 m. A 1 m wide path is built inside the garden around all four edges. (a) Calculate the total garden area. (b) Find the dimensions of the grass area. (c) Calculate the grass area. (d) Calculate the area occupied by the path.','(a)126 m² [2]; (b)12 m×7 m [2]; (c)84 m² [2]; (d)42 m² [2].',8);
+ex(7,'m7-ge01',G,'Modelling with measurement','A classroom floor measures 8.4 m by 6.5 m. Carpet is sold in whole square metres and costs $32 per square metre. Determine the minimum whole number of square metres that must be purchased and the total cost. Explain why rounding down is inappropriate.','Area=54.6 m² [2]; buy 55 m² [2]; cost=$1760 [2]; must cover entire floor, so cannot round down [2].',8);
+
+// YEAR 7 — Probability and statistics
+sa(7,'m7-p01',P,'Probability','A fair six-sided die is rolled. Calculate the probability of rolling a number greater than 4.','2/6=1/3. [2]',2,'Easy');
+sa(7,'m7-p02',P,'Statistics','For 6, 8, 8, 9, 11, 12, calculate the median and range.','Median=8.5 [2]; range=6 [1].',3);
+sa(7,'m7-p03',P,'Experimental probability','A spinner lands on blue 18 times in 50 spins. Calculate the experimental probability as a fraction and decimal.','18/50=9/25 [2]; 0.36 [1].',3);
+sa(7,'m7-p04',P,'Data displays','Use the graph to identify the most common category and calculate the difference between the highest and lowest frequencies.','Most common B [1]; difference 18-6=12 [2].',3,'Medium',{diagram:bars(['A','B','C','D'],[10,18,6,14])});
+ms(7,'m7-pm01',P,'Statistics','The scores are 4, 7, 8, 8, 9, 10, 10, 10, 14. (a) Find the mode. (b) Find the median. (c) Find the range. (d) A score of 30 is added. Explain which of these statistics changes and why.','(a)10 [1]; (b)9 [2]; (c)10 [1]; (d) range changes substantially; median may change depending ordered set; mode remains 10 [4].',8);
+ms(7,'m7-pm02',P,'Statistical investigation','A student wants to survey Year 7 students about homework time. (a) Explain why surveying only students in an extension class may be biased. (b) Describe a better sampling method. (c) Write one unbiased survey question. (d) Name an appropriate display for the results and justify it.','Bias [2]; representative/random or stratified method [2]; unbiased question [2]; suitable display and reason [2].',8);
+ex(7,'m7-pe01',P,'Modelling with probability and statistics','A game uses a bag containing 5 red, 3 blue and 2 green counters. A player wins if red is drawn. Analyse whether the game is fair if winning and losing prizes have equal value. Propose one change that would make winning and losing equally likely.','P(win)=5/10=1/2 [2]; P(lose)=5/10=1/2 [2]; therefore fair [2]; valid alternative configuration preserving 1/2 probability [2].',8);
 
 // YEAR 8
-mc(8,'m8a01',N,'Index notation','Simplify 2³ × 2².',['2⁵','4⁵','2⁶','4⁶'],0);
-mc(8,'m8a02',N,'Percentages','Increase $240 by 15%.',['$255','$264','$276','$360'],2);
-mc(8,'m8a03',N,'Algebraic techniques','Simplify 5x + 3 - 2x + 7.',['3x + 10','7x + 10','3x + 4','7x + 4'],0);
-mc(8,'m8a04',N,'Linear equations','Solve 3x + 5 = 20.',['3','5','8','15'],1);
-mc(8,'m8a05',N,'Rates','A car travels 180 km in 3 hours at constant speed. Its average speed is',['60 km/h','90 km/h','177 km/h','540 km/h'],0);
-sa(8,'m8b01',N,'Fractions and percentages','A class has 32 students. 3/8 of the class travel to school by bus. How many students travel by bus?','32×3/8=12 students. [3]',3);
-sa(8,'m8b02',N,'Linear equations','Solve 4x - 7 = 21 and verify your solution by substitution.','4x=28, x=7 [2]; check 4(7)-7=21 [1].',3);
-sa(8,'m8b03',N,'Financial mathematics','A phone originally costs $680 and is discounted by 12%. Calculate the sale price.','$680×0.12=$81.60 discount [2]; sale price=$598.40 [2].',4);
-sa(8,'m8b04',N,'Linear relationships','A taxi fare is modelled by C = 5 + 2.4d, where d is distance in km. Calculate the fare for 8 km.','C=5+2.4(8)=5+19.2=$24.20. [3]',3);
-mc(8,'m8c01',G,'Pythagoras','A right triangle has shorter sides 6 cm and 8 cm. Its hypotenuse is',['10 cm','12 cm','14 cm','100 cm'],0);
-mc(8,'m8c02',G,'Area','Find the area of a trapezium with parallel sides 6 cm and 10 cm and height 5 cm.',['25 cm²','40 cm²','50 cm²','80 cm²'],1);
-sa(8,'m8c03',G,'Pythagoras','A ladder reaches 12 m up a wall. Its base is 5 m from the wall. Calculate the ladder length.','c²=12²+5²=169 [2]; c=13 m [2].',4);
-sa(8,'m8c04',G,'Volume','Calculate the volume of a rectangular prism 8 cm × 5 cm × 3.5 cm.','V=8×5×3.5=140 cm³. [3]',3);
-sa(8,'m8c05',G,'Transformations','Point P(2,-3) is reflected in the y-axis. Give the coordinates of its image and describe what changes.','P′(-2,-3) [2]; x-coordinate changes sign while y remains unchanged [1].',3);
-mc(8,'m8d01',P,'Probability','Two fair coins are tossed. What is P(two heads)?',['1/2','1/3','1/4','3/4'],2);
-sa(8,'m8d02',P,'Statistics','For 4, 7, 7, 8, 9, 13, calculate the mean and range.','Mean=48/6=8 [2]; range=13-4=9 [1].',3);
-sa(8,'m8d03',P,'Sampling','Explain one advantage of a random sample compared with a convenience sample.','Random sampling reduces selection bias and is more likely to represent the population. [2]',2);
-ex(8,'m8e01',N,'Modelling with algebra','A gym charges a $25 joining fee plus $12 per week. Write a rule for total cost C after w weeks. Calculate the cost after 10 weeks and determine how many weeks can be purchased for $205.','C=25+12w [2]; C(10)=$145 [2]; 25+12w=205, w=15 [2].',6);
-ex(8,'m8e02',G,'Modelling with measurement','A rectangular water tank is 1.5 m long, 0.8 m wide and 0.6 m high. Calculate its volume in cubic metres and litres.','V=1.5×0.8×0.6=0.72 m³ [3]; 0.72×1000=720 L [3].',6);
-ex(8,'m8e03',P,'Data interpretation','Two classes have the same mean test score of 68%. Class A has a range of 18 and Class B a range of 42. Explain what this tells you about the two distributions and why the mean alone is insufficient.','Same centre/mean [1]; B has greater spread/variation [2]; A is more consistent [1]; mean alone does not describe spread [2].',6);
+['n','g','p'].forEach(()=>{});
+sa(8,'m8-n01',N,'Index notation','Simplify 2³ × 2⁵ and write the answer as a power of 2.','2⁸. [2]',2,'Easy');
+sa(8,'m8-n02',N,'Percentages','Increase $240 by 15%.','$276. [3]',3);
+sa(8,'m8-n03',N,'Algebraic techniques','Simplify 5x+3-2x+7.','3x+10. [3]',3);
+sa(8,'m8-n04',N,'Linear equations','Solve 4x-7=21 and verify by substitution.','x=7 [2]; check 28-7=21 [1].',3);
+sa(8,'m8-n05',N,'Rates','A car travels 252 km in 3.5 h. Calculate its average speed.','72 km/h. [3]',3);
+ms(8,'m8-nm01',N,'Financial mathematics','A phone costs $680. It is discounted by 12%, then a $25 delivery fee is added. (a) Calculate the discount. (b) Find the discounted price. (c) Find the final amount paid. (d) Calculate the final amount as a percentage of the original listed price.','$81.60 [2]; $598.40 [2]; $623.40 [2]; 91.68% approx [2].',8);
+ms(8,'m8-nm02',N,'Linear relationships','A taxi fare is C=5+2.4d. (a) Identify the fixed charge. (b) Identify the cost per kilometre. (c) Find C when d=8. (d) A fare is $41. Determine the distance travelled.','$5 [1]; $2.40/km [1]; $24.20 [2]; 5+2.4d=41, d=15 km [4].',8);
+ex(8,'m8-ne01',N,'Modelling with algebra','Gym A charges $25 joining fee plus $12 per week. Gym B charges no joining fee but $15 per week. Develop a rule for each cost, determine when the costs are equal and recommend the cheaper option for a 20-week membership.','$25+12w; $15w [2]; equal at 25/3≈8.33 weeks [2]; at 20 weeks A=$265, B=$300 [2]; A cheaper with justification [2].',8);
+sa(8,'m8-g01',G,'Pythagoras','A right triangle has perpendicular sides 6 cm and 8 cm. Calculate the hypotenuse.','10 cm. [3]',3);
+sa(8,'m8-g02',G,'Area','Calculate the area of a trapezium with parallel sides 6 cm and 10 cm and height 5 cm.','40 cm². [3]',3);
+sa(8,'m8-g03',G,'Volume','Calculate the volume of a rectangular prism 8 cm by 5 cm by 3.5 cm.','140 cm³. [3]',3);
+sa(8,'m8-g04',G,'Transformations','Point P(2,-3) is reflected in the y-axis. Give the image coordinates and describe the coordinate change.','(-2,-3) [2]; x changes sign, y unchanged [1].',3);
+ms(8,'m8-gm01',G,'Pythagoras','A ladder is placed 5 m from a wall and reaches 12 m up the wall. (a) Sketch and label a right triangle for the situation. (b) Calculate the ladder length. (c) The ladder is moved so its base is 8 m from the wall without changing its length. Calculate the new vertical height.','Sketch [2]; 13 m [2]; h²=169-64=105, h≈10.25 m [4].',8,'Medium',{diagram:triangle('5 m','12 m','ladder')});
+ms(8,'m8-gm02',G,'Three-dimensional space and structures','A rectangular tank is shown. (a) Calculate its volume in m³. (b) Convert the volume to litres. (c) If it is 75% full, calculate the amount of water in litres.','0.72 m³ [3]; 720 L [2]; 540 L [3].',8,'Medium',{diagram:prism('1.5 m','0.8 m','0.6 m')});
+ex(8,'m8-ge01',G,'Modelling with measurement','A room is 6.8 m by 4.5 m. Square tiles are sold in boxes covering 1.2 m². Determine the minimum number of boxes needed. If each box costs $38, calculate the total tile cost and explain your rounding decision.','Area=30.6 m² [2]; 25.5 boxes so 26 [2]; $988 [2]; round up to ensure sufficient tiles [2].',8);
+sa(8,'m8-p01',P,'Probability','Two fair coins are tossed. List the sample space and calculate P(two heads).','HH,HT,TH,TT [2]; 1/4 [1].',3);
+sa(8,'m8-p02',P,'Statistics','For 4,7,7,8,9,13 calculate the mean and range.','Mean=8 [2]; range=9 [1].',3);
+sa(8,'m8-p03',P,'Sampling','Explain one advantage of a random sample over a convenience sample.','Reduces selection bias and is more likely representative. [2]',2);
+ms(8,'m8-pm01',P,'Statistics','Class A scores: 52,58,63,67,70,74,76. Class B scores: 40,61,66,67,68,72,86. (a) Find each median. (b) Find each range. (c) Compare the centre and spread. (d) Which class is more consistent? Justify.','Medians both 67 [2]; ranges A=24, B=46 [2]; same median but B greater spread [2]; A more consistent [2].',8);
+ex(8,'m8-pe01',P,'Modelling with probability and statistics','A student claims a spinner is unfair after 40 spins produce 17 red outcomes when theoretical P(red)=1/2. Evaluate the claim using experimental probability and explain why more trials would improve the investigation.','Experimental 17/40=0.425 [2]; differs from 0.5 [1]; difference alone insufficient evidence [2]; more trials generally stabilise relative frequency [3].',8);
 
 // YEAR 9
-mc(9,'m9a01',N,'Index laws','Simplify a⁷ ÷ a³.',['a²','a³','a⁴','a¹⁰'],2);
-mc(9,'m9a02',N,'Algebraic expansion','Expand 3(x + 4).',['3x + 4','3x + 7','3x + 12','x + 12'],2);
-mc(9,'m9a03',N,'Linear equations','Solve 5x - 8 = 2x + 13.',['5','7','9','21'],1);
-mc(9,'m9a04',N,'Financial mathematics','$1500 earns simple interest at 4% p.a. for 3 years. The interest is',['$60','$120','$180','$1680'],2);
-mc(9,'m9a05',N,'Linear relationships','The gradient between (2,3) and (6,11) is',['1/2','2','4','8'],1);
-sa(9,'m9b01',N,'Algebraic techniques','Expand and simplify 4(2x - 3) - (x + 5).','8x-12-x-5=7x-17. [3]',3);
-sa(9,'m9b02',N,'Linear equations','Solve 3(2x - 1)=21.','6x-3=21; 6x=24; x=4. [3]',3);
-sa(9,'m9b03',N,'Coordinate geometry','Find the gradient of the line through (-2,5) and (4,-7).','m=(-7-5)/(4-(-2))=-12/6=-2. [3]',3);
-sa(9,'m9b04',N,'Financial mathematics','Calculate the simple interest and final balance on $2400 invested at 3.5% p.a. for 4 years.','I=2400×0.035×4=$336 [3]; balance=$2736 [1].',4);
-mc(9,'m9c01',G,'Pythagoras','A right triangle has hypotenuse 17 cm and one shorter side 8 cm. The other side is',['9 cm','15 cm','19 cm','225 cm'],1);
-mc(9,'m9c02',G,'Coordinate geometry','The midpoint of (2,5) and (8,11) is',['(3,3)','(5,8)','(6,16)','(10,16)'],1);
-sa(9,'m9c03',G,'Pythagoras','A rectangular screen is 48 cm wide and 36 cm high. Calculate its diagonal length.','d²=48²+36²=3600 [2]; d=60 cm [2].',4);
-sa(9,'m9c04',G,'Surface area','A closed rectangular prism measures 10 cm × 6 cm × 4 cm. Calculate its total surface area.','SA=2(10×6+10×4+6×4)=2(124)=248 cm². [4]',4);
-sa(9,'m9c05',G,'Coordinate geometry','Find the midpoint of A(-5,7) and B(9,-3).','((−5+9)/2,(7−3)/2)=(2,2). [3]',3);
-mc(9,'m9d01',P,'Probability','If P(A)=0.35, then P(not A)=',['0.35','0.50','0.65','1.35'],2);
-sa(9,'m9d02',P,'Two-way tables','In a group of 80 students, 46 play a sport, 32 play an instrument and 18 do both. How many do neither?','Sport or instrument=46+32-18=60 [2]; neither=80-60=20 [2].',4);
-sa(9,'m9d03',P,'Statistics','A data set has Q1=12, median=18 and Q3=27. Calculate the interquartile range and explain what it represents.','IQR=27-12=15 [2]; spread of middle 50% of data [2].',4);
-ex(9,'m9e01',N,'Modelling with linear relationships','Plan A costs $20 per month plus $0.10 per text. Plan B costs $35 per month with unlimited texts. Write a cost rule for each plan, determine when the plans cost the same, and state which is cheaper for 200 texts.','A=20+0.10t [1]; B=35 [1]; 20+0.10t=35 gives t=150 [2]; at 200 texts A=$40, B=$35 so B cheaper [2].',6);
-ex(9,'m9e02',G,'Modelling with geometry','A 5 m ladder rests against a vertical wall with its base 1.4 m from the wall. Calculate how high it reaches. Then determine whether it reaches a window sill 4.8 m above the ground.','h²=25-1.96=23.04 [2]; h=4.8 m [2]; it reaches exactly the sill [2].',6);
-ex(9,'m9e03',P,'Statistical reasoning','A website claims “9 out of 10 students prefer our app” after surveying 20 students who already subscribe to the app. Evaluate the claim and propose a more reliable investigation.','Biased sampling frame [2]; small/non-representative sample [1]; random/stratified sample from relevant student population [2]; larger sample/neutral question [1].',6);
+sa(9,'m9-n01',N,'Index laws','Simplify a⁷÷a³.','a⁴. [2]',2,'Easy');
+sa(9,'m9-n02',N,'Algebraic techniques','Expand and simplify 4(2x-3)-(x+5).','7x-17. [3]',3);
+sa(9,'m9-n03',N,'Linear equations','Solve 5x-8=2x+13.','x=7. [3]',3);
+sa(9,'m9-n04',N,'Financial mathematics','Calculate simple interest on $2400 at 3.5% p.a. for 4 years and find the final balance.','$336 interest [3]; $2736 balance [1].',4);
+sa(9,'m9-n05',N,'Linear relationships','Find the gradient of the line through (-2,5) and (4,-7).','-2. [3]',3);
+ms(9,'m9-nm01',N,'Linear relationships','Plan A costs $20 per month plus $0.10 per text. Plan B costs $35 per month. (a) Write a rule for each plan. (b) Find the cost of each for 100 texts. (c) Determine the number of texts at which costs are equal. (d) State which plan is cheaper for 200 texts.','A=20+0.1t, B=35 [2]; $30 and $35 [2]; t=150 [2]; B cheaper at 200 [2].',8);
+ms(9,'m9-nm02',N,'Algebraic modelling','A rectangle has length (x+4) cm and width (x-1) cm. (a) Write an expression for its perimeter. (b) Expand an expression for its area. (c) Find perimeter and area when x=6.','P=4x+6 [2]; A=x²+3x-4 [2]; P=30 cm [2]; A=50 cm² [2].',8);
+ex(9,'m9-ne01',N,'Modelling with number and algebra','Two mobile plans have costs A=18+0.12d and B=30+0.06d, where d is data use in GB-equivalent units. Determine the break-even usage and analyse which plan is better below and above this value.','18+.12d=30+.06d; .06d=12; d=200 [4]; A cheaper below 200 [2]; B cheaper above 200 [2].',8);
+sa(9,'m9-g01',G,'Pythagoras','A rectangular screen is 48 cm wide and 36 cm high. Calculate its diagonal.','60 cm. [4]',4);
+sa(9,'m9-g02',G,'Surface area','A closed rectangular prism is 10 cm by 6 cm by 4 cm. Calculate total surface area.','248 cm². [4]',4);
+sa(9,'m9-g03',G,'Coordinate geometry','Find the midpoint of A(-5,7) and B(9,-3).','(2,2). [3]',3);
+ms(9,'m9-gm01',G,'Coordinate geometry','The grid shows A(-4,-1) and B(4,5). (a) Calculate the midpoint of AB. (b) Calculate the gradient of AB. (c) Write the equation of the line through A and B in the form y=mx+c.','Midpoint (0,2) [2]; gradient 6/8=3/4 [2]; y=0.75x+2 [4].',8,'Medium',{diagram:grid([[-4,-1,'A'],[4,5,'B']],[[-4,-1,4,5]])});
+ms(9,'m9-gm02',G,'Modelling with geometry','A 5 m ladder has its base 1.4 m from a vertical wall. (a) Calculate the vertical height reached. (b) Determine whether it reaches a sill 4.8 m high. (c) Explain the result to an appropriate level of accuracy.','h²=25-1.96=23.04 [2]; h=4.8 m [2]; reaches exactly in idealised model [2]; accuracy/context explanation [2].',8);
+ex(9,'m9-ge01',G,'Modelling with measurement and geometry','A cylindrical-style storage design is replaced by a rectangular prism 2.4 m long, 1.8 m wide and 1.5 m high. Calculate its capacity in litres and determine how many 20 L containers could be completely filled from a full tank.','V=6.48 m³ [3]; 6480 L [2]; 324 containers [2]; units/reasoning [1].',8,'Hard',{diagram:prism('2.4 m','1.8 m','1.5 m')});
+sa(9,'m9-p01',P,'Probability','If P(A)=0.35, calculate P(not A).','0.65. [2]',2,'Easy');
+sa(9,'m9-p02',P,'Statistics','A data set has Q1=12, median=18 and Q3=27. Calculate the IQR and state what it represents.','15 [2]; spread of middle 50% [2].',4);
+sa(9,'m9-p03',P,'Two-way data','In 80 students, 46 play sport, 32 play an instrument and 18 do both. How many do neither?','46+32-18=60; 80-60=20. [4]',4);
+ms(9,'m9-pm01',P,'Statistical reasoning','A website surveys 20 existing subscribers and reports that 18 recommend its service. (a) Calculate the sample proportion. (b) Identify a source of bias. (c) Explain why the claim may not represent all students. (d) Propose a stronger sampling design.','90% [1]; subscriber selection bias [2]; non-representative/small sample explanation [2]; random/stratified broader sample [3].',8);
+ex(9,'m9-pe01',P,'Modelling with probability and statistics','Two classes have equal means but different IQRs and ranges. Explain how a teacher should compare their performance without relying on the mean alone. Include discussion of centre, spread and possible outliers.','Centre/mean [2]; IQR/spread [2]; range/outliers [2]; justified comparative conclusion [2].',8);
 
 // YEAR 10
-mc(10,'m10a01',N,'Algebraic factorisation','Factorise x² + 7x + 12.',['(x+2)(x+6)','(x+3)(x+4)','(x-3)(x-4)','(x+1)(x+12)'],1);
-mc(10,'m10a02',N,'Quadratic equations','Solve x² - 9 = 0.',['x=3 only','x=-3 only','x=±3','x=9'],2);
-mc(10,'m10a03',N,'Indices','Simplify (x³)⁴.',['x⁷','x¹²','4x³','x⁸¹'],1);
-mc(10,'m10a04',N,'Linear equations','Solve 2x + 5 > 17.',['x>6','x<6','x>11','x<11'],0);
-mc(10,'m10a05',N,'Financial mathematics','$5000 increases by 6% in one year. Its new value is',['$5006','$5030','$5300','$8000'],2);
-sa(10,'m10b01',N,'Quadratic expressions','Expand and simplify (x+5)(x-2).','x²-2x+5x-10=x²+3x-10. [3]',3);
-sa(10,'m10b02',N,'Quadratic equations','Solve x² + x - 12 = 0 by factorisation.','(x+4)(x-3)=0 [2]; x=-4 or x=3 [2].',4);
-sa(10,'m10b03',N,'Simultaneous equations','Solve x+y=11 and x-y=3.','Add equations: 2x=14, x=7 [2]; y=4 [2].',4);
-sa(10,'m10b04',N,'Financial mathematics','An investment of $3200 grows by 5% per year. Calculate its value after 2 years.','3200×1.05²=$3528. [4]',4);
-mc(10,'m10c01',G,'Trigonometry','In a right triangle, relative to angle θ, sin θ equals',['adjacent/hypotenuse','opposite/hypotenuse','opposite/adjacent','hypotenuse/opposite'],1);
-mc(10,'m10c02',G,'Circle measurement','The circumference of a circle of radius 5 cm is',['5π cm','10π cm','25π cm','50π cm'],1);
-sa(10,'m10c03',G,'Trigonometry','A right triangle has hypotenuse 12 cm and an angle of 35°. Calculate the side opposite the 35° angle to one decimal place.','opposite=12 sin35°≈6.9 cm. Method [2], answer [2].',4);
-sa(10,'m10c04',G,'Trigonometry','From a point 30 m from the base of a building, the angle of elevation to the roof is 42°. Calculate the building height to one decimal place, ignoring eye height.','h=30 tan42°≈27.0 m. [4]',4);
-sa(10,'m10c05',G,'Circle measurement','Calculate the area of a circle with diameter 14 cm. Give an exact answer in terms of π and an approximate decimal answer.','r=7 [1]; A=49π cm² [2]; ≈153.9 cm² [1].',4);
-mc(10,'m10d01',P,'Probability','Events A and B are independent with P(A)=0.4 and P(B)=0.5. P(A and B)=',['0.2','0.4','0.5','0.9'],0);
-sa(10,'m10d02',P,'Statistics','A data set has mean 72 and standard deviation 4. Another has mean 72 and standard deviation 11. Compare the distributions.','Same mean/centre [1]; second has much greater spread/variability [2]; first is more consistent [1].',4);
-sa(10,'m10d03',P,'Probability','A bag contains 5 red and 3 blue counters. Two counters are selected without replacement. Calculate P(red then blue).','5/8 × 3/7 =15/56. [4]',4);
-ex(10,'m10e01',N,'Modelling with quadratics','The height of a ball is modelled by h=-5t²+20t+1, where h is metres and t is seconds. Calculate its height at t=2, determine when it reaches maximum height using the axis of symmetry, and find that maximum height.','h(2)=21 m [2]; t=-b/(2a)=-20/(-10)=2 s [2]; maximum=21 m [2].',6);
-ex(10,'m10e02',G,'Modelling with trigonometry','A surveyor stands 45 m from a tower. The angle of elevation to the top is 38°. The surveyor’s eye height is 1.6 m. Calculate the tower height to one decimal place.','Height above eye=45 tan38°≈35.2 m [3]; add 1.6 m ≈36.8 m [2]; units/rounding [1].',6);
-ex(10,'m10e03',P,'Statistical investigation','Two websites report different average house prices for the same suburb. Explain at least three reasons their figures could differ and identify information you would need before deciding which statistic is more useful.','Relevant points: different time periods, samples, property types, mean vs median, outliers, sample size, inclusion criteria [up to 4]; identifies needed metadata and justifies comparison [2].',6);
+sa(10,'m10-n01',N,'Algebraic factorisation','Factorise x²+7x+12.','(x+3)(x+4). [3]',3);
+sa(10,'m10-n02',N,'Quadratic equations','Solve x²-9=0.','x=3 or x=-3. [3]',3);
+sa(10,'m10-n03',N,'Simultaneous equations','Solve y=2x+1 and y=-x+7.','2x+1=-x+7; x=2; y=5. [4]',4);
+sa(10,'m10-n04',N,'Exponential growth','An amount of $2000 increases by 5% per year. Calculate its value after 3 years.','$2000(1.05)^3=$2315.25. [4]',4);
+sa(10,'m10-n05',N,'Non-linear relationships','For y=x²-4x+3, calculate y when x=5.','25-20+3=8. [2]',2);
+ms(10,'m10-nm01',N,'Quadratic modelling','A rectangle has width x metres and length (x+5) metres. Its area is 84 m². (a) Form a quadratic equation. (b) Factorise it. (c) Solve for x. (d) State the rectangle dimensions.','x(x+5)=84; x²+5x-84=0 [2]; (x+12)(x-7)=0 [2]; x=7 (reject -12) [2]; 7 m×12 m [2].',8);
+ms(10,'m10-nm02',N,'Simultaneous equations','At a school event, adult tickets cost $12 and student tickets $7. A total of 180 tickets raises $1560. (a) Define variables. (b) Form two simultaneous equations. (c) Solve them. (d) Check the revenue.','a+s=180,12a+7s=1560 [3]; a=60,s=120 [3]; check 720+840=1560 [2].',8);
+ex(10,'m10-ne01',N,'Modelling with number and algebra','A small business compares two delivery contracts: A costs $450 fixed plus $3.20 per delivery; B costs $250 fixed plus $4.00 per delivery. Determine the break-even number of deliveries and explain which contract is cheaper on either side of that point.','$450+3.2d=250+4d; 200=.8d; d=250 [4]; B cheaper below 250 [2]; A cheaper above 250 [2].',8);
+sa(10,'m10-g01',G,'Trigonometry','In a right triangle, the side opposite θ is 7 cm and adjacent is 10 cm. Calculate θ to the nearest degree.','tanθ=0.7; θ≈35°. [4]',4);
+sa(10,'m10-g02',G,'Distance','Calculate the distance between (1,2) and (7,10).','sqrt(36+64)=10. [4]',4);
+sa(10,'m10-g03',G,'Surface area','Calculate the total surface area of a closed rectangular prism 12 cm by 7 cm by 5 cm.','2(84+60+35)=358 cm². [4]',4);
+ms(10,'m10-gm01',G,'Trigonometry','A surveyor stands 35 m from the base of a building. The angle of elevation to the roof is 41°. The instrument is 1.6 m above ground. (a) Draw and label the right triangle. (b) Calculate the vertical rise from the instrument to the roof. (c) Determine the building height. (d) State the answer to a sensible accuracy.','Diagram [2]; rise=35tan41°≈30.43 m [3]; height≈32.03 m [2]; about 32.0 m [1].',8,'Medium',{diagram:triangle('35 m','','41°')});
+ms(10,'m10-gm02',G,'Coordinate geometry','The grid shows A(-3,-2) and B(5,4). (a) Find the midpoint. (b) Find the gradient. (c) Find the distance AB. (d) Write the equation of AB.','Midpoint (1,1) [2]; gradient 6/8=3/4 [2]; distance 10 [2]; y=.75x+.25 [2].',8,'Medium',{diagram:grid([[-3,-2,'A'],[5,4,'B']],[[-3,-2,5,4]])});
+ex(10,'m10-ge01',G,'Modelling with measurement and geometry','A rectangular tank has internal dimensions 2.8 m by 1.6 m by 1.4 m. It is filled to 85% capacity. Calculate the water volume in litres and determine the mass of the water assuming 1 L has mass 1 kg.','Full=6.272 m³ [2]; 85%=5.3312 m³ [2]; 5331.2 L [2]; 5331.2 kg [2].',8,'Hard',{diagram:prism('2.8 m','1.6 m','1.4 m')});
+sa(10,'m10-p01',P,'Statistics','A data set has Q1=24 and Q3=41. Calculate the IQR.','17. [2]',2,'Easy');
+sa(10,'m10-p02',P,'Probability','If P(A)=0.62 and P(B)=0.48 and P(A and B)=0.30, calculate P(A or B).','0.62+0.48-0.30=0.80. [3]',3);
+sa(10,'m10-p03',P,'Data interpretation','The graph shows four groups. Calculate the mean frequency represented by the bars.','(12+18+10+20)/4=15. [3]',3,'Medium',{diagram:bars(['A','B','C','D'],[12,18,10,20])});
+ms(10,'m10-pm01',P,'Statistics','Data set A has median 52, Q1=44, Q3=61, min=30 and max=75. Data set B has median 55, Q1=51, Q3=60, min=42 and max=70. (a) Find each IQR. (b) Find each range. (c) Compare centre. (d) Compare spread and state which is more consistent.','IQR A=17,B=9 [2]; ranges A=45,B=28 [2]; B median slightly higher [2]; B less spread/more consistent [2].',8);
+ms(10,'m10-pm02',P,'Probability','A medical-style screening simulation has P(positive)=0.12, P(condition)=0.08 and P(positive and condition)=0.07. (a) Calculate P(positive or condition). (b) Calculate P(condition given positive). (c) Interpret the conditional probability in context.','0.12+0.08-0.07=0.13 [3]; 0.07/0.12≈0.583 [3]; about 58.3% of positive results have condition in model [2].',8);
+ex(10,'m10-pe01',P,'Modelling with probability and statistics','Two data sets have similar means but one contains an extreme outlier. Explain how mean, median, range and IQR may respond to the outlier and recommend which measures should be reported for a robust comparison.','Mean sensitive [2]; median resistant [1]; range very sensitive [2]; IQR resistant [1]; recommend median/IQR with justification [2].',8);
 
-window.AssessmentQuestionBank=(window.AssessmentQuestionBank||[]).concat(Q);
+window.AssessmentQuestionBank=(window.AssessmentQuestionBank||[]).filter(q=>q.subject!=='mathematics').concat(Q);
 })();
