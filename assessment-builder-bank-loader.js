@@ -6,7 +6,10 @@
     if(loaded.has(src)) return Promise.resolve(src);
     if(pending.has(src)) return pending.get(src);
     const p = new Promise((resolve,reject)=>{
-      const s=document.createElement('script');s.src=src;s.async=false;
+      const s=document.createElement('script');
+      // Cache-bust modular question banks so newly committed banks appear immediately.
+      s.src=src+(src.includes('?')?'&':'?')+'v=2026.8';
+      s.async=false;
       s.onload=()=>{loaded.add(src);pending.delete(src);resolve(src)};
       s.onerror=()=>{pending.delete(src);reject(new Error('Could not load question bank file: '+src))};
       document.head.appendChild(s);
@@ -21,11 +24,18 @@
     if(!s) throw new Error('Unknown subject: '+subjectId);
     const y=s.years&&s.years[String(year)];
     if(!y) throw new Error('No question bank is available yet for '+s.label+' Year '+year+'.');
-    if(y.legacy){await scriptsSequentially(legacyScienceFiles);const bank=window.AssessmentQuestionBank||[];return bank.filter(q=>String(q.year)===String(year));}
+    if(y.legacy){
+      await scriptsSequentially(legacyScienceFiles);
+      const bank=window.AssessmentQuestionBank||[];
+      return bank.filter(q=>String(q.year)===String(year)&&(q.subject==='science'||!q.subject));
+    }
     const src=y.src||`${cfg.bankRoot}/${subjectId}/year${year}.js`;
     await script(src);
     if(subjectId==='mathematics') await script(`${cfg.bankRoot}/mathematics/years7-10-expansion.js`);
-    return (window.AssessmentQuestionBank||[]).filter(q=>String(q.year)===String(year)&&(q.subject===subjectId||!q.subject));
+    const bank=window.AssessmentQuestionBank||[];
+    // Modular banks must match the selected subject. This prevents legacy Science
+    // questions (which have no subject field) from leaking into Mathematics.
+    return bank.filter(q=>String(q.year)===String(year)&&q.subject===subjectId);
   }
   window.AssessmentBankLoader={load,loaded};
 })();
