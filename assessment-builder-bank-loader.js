@@ -22,7 +22,9 @@
     const y=s.years&&s.years[String(year)];
     if(!y) throw new Error('No question bank is available yet for '+s.label+' Year '+year+'.');
     if(y.legacy){await scriptsSequentially(legacyScienceFiles);const bank=window.AssessmentQuestionBank||[];return bank.filter(q=>String(q.year)===String(year));}
-    const src=y.src||`${cfg.bankRoot}/${subjectId}/year${year}.js`;await script(src);
+    const src=y.src||`${cfg.bankRoot}/${subjectId}/year${year}.js`;
+    await script(src);
+    if(subjectId==='mathematics') await script(`${cfg.bankRoot}/mathematics/years7-10-expansion.js`);
     return (window.AssessmentQuestionBank||[]).filter(q=>String(q.year)===String(year)&&(q.subject===subjectId||!q.subject));
   }
   window.AssessmentBankLoader={load,loaded};
