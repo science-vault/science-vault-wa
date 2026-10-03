@@ -7,7 +7,7 @@
     if(pending.has(src)) return pending.get(src);
     const p = new Promise((resolve,reject)=>{
       const s=document.createElement('script');
-      s.src=src+(src.includes('?')?'&':'?')+'v=2026.20';
+      s.src=src+(src.includes('?')?'&':'?')+'v=2026.21';
       s.async=false;
       s.onload=()=>{loaded.add(src);pending.delete(src);resolve(src)};
       s.onerror=()=>{pending.delete(src);reject(new Error('Could not load question bank file: '+src))};
@@ -17,7 +17,7 @@
   }
   async function scriptsSequentially(files){for(const file of files) await script(file)}
   function subject(id){return (window.AssessmentBuilderSubjects||[]).find(x=>x.id===id)}
-  const legacyScienceFiles=['assessment-question-bank-core.js','assessment-question-bank-year7-extra.js','assessment-question-bank-year7-2026-correction.js','assessment-question-bank-year8-extra.js','assessment-question-bank-year8-2026-correction.js','assessment-question-bank-year9-extra.js','assessment-question-bank-year9-2026-fix.js','assessment-question-bank-year9-2026-correction.js','assessment-question-bank-year10-extra.js','assessment-question-bank-year10-2026-fix.js','assessment-image-upgrade.js','assessment-question-bank-science-expansion-1.js','assessment-question-bank-science-repository-expansion-1.js','assessment-question-bank-science-expansion-2.js','assessment-question-bank-science-expansion-3.js','assessment-question-bank-science-expansion-4.js','assessment-question-bank-science-expansion-5.js'];
+  const legacyScienceFiles=['assessment-question-bank-core.js','assessment-question-bank-year7-extra.js','assessment-question-bank-year7-2026-correction.js','assessment-question-bank-year8-extra.js','assessment-question-bank-year8-2026-correction.js','assessment-question-bank-year9-extra.js','assessment-question-bank-year9-2026-fix.js','assessment-question-bank-year9-2026-correction.js','assessment-question-bank-year10-extra.js','assessment-question-bank-year10-2026-fix.js','assessment-image-upgrade.js','assessment-question-bank-science-expansion-1.js','assessment-question-bank-science-repository-expansion-1.js','assessment-question-bank-science-expansion-2.js','assessment-question-bank-science-expansion-3.js','assessment-question-bank-science-expansion-4.js','assessment-question-bank-science-expansion-5.js','assessment-question-bank-science-expansion-6.js'];
   async function load(subjectId,year){
     const s=subject(subjectId); if(!s) throw new Error('Unknown subject: '+subjectId);
     const y=s.years&&s.years[String(year)]; if(!y) throw new Error('No question bank is available yet for '+s.label+' Year '+year+'.');
