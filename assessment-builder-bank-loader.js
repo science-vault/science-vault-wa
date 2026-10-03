@@ -7,7 +7,7 @@
     if(pending.has(src)) return pending.get(src);
     const p = new Promise((resolve,reject)=>{
       const s=document.createElement('script');
-      s.src=src+(src.includes('?')?'&':'?')+'v=2026.9';
+      s.src=src+(src.includes('?')?'&':'?')+'v=2026.10';
       s.async=false;
       s.onload=()=>{loaded.add(src);pending.delete(src);resolve(src)};
       s.onerror=()=>{pending.delete(src);reject(new Error('Could not load question bank file: '+src))};
@@ -27,11 +27,9 @@
       await scriptsSequentially(legacyScienceFiles);
       return (window.AssessmentQuestionBank||[]).filter(q=>String(q.year)===String(year)&&(q.subject==='science'||!q.subject));
     }
-    // Mathematics uses a root-level combined bank. GitHub Pages was returning a
-    // load error for the nested mathematics/year*.js paths on the live site.
     if(subjectId==='mathematics'){
-      await script('assessment-question-bank-mathematics.js');
-      return (window.AssessmentQuestionBank||[]).filter(q=>String(q.year)===String(year)&&q.subject==='mathematics');
+      await scriptsSequentially(['assessment-question-bank-mathematics.js','assessment-question-bank-mathematics-expansion-1.js']);
+      return (window.AssessmentQuestionBank||[]).filter(q=>String(q.year)===String(year)&&q.subject==='mathematics'&&q.type!=='Multiple choice');
     }
     const cfg=window.AssessmentBuilderConfig||{};
     const src=y.src||`${cfg.bankRoot}/${subjectId}/year${year}.js`;
