@@ -2,6 +2,7 @@
 document.write('<script src="assessment-question-bank-core.js"><\/script>');
 document.write('<script src="assessment-question-bank-year7-extra.js"><\/script>');
 document.write('<script src="assessment-question-bank-year8-extra.js"><\/script>');
+document.write('<script src="assessment-question-bank-year8-2026-correction.js"><\/script>');
 document.write('<script src="assessment-question-bank-year9-extra.js"><\/script>');
 document.write('<script src="assessment-question-bank-year9-2026-fix.js"><\/script>');
 document.write('<script src="assessment-question-bank-year9-2026-correction.js"><\/script>');
