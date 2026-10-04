@@ -10,3 +10,13 @@ document.write('<script src="assessment-question-bank-year9-2026-correction.js">
 document.write('<script src="assessment-question-bank-year10-extra.js"><\/script>');
 document.write('<script src="assessment-question-bank-year10-2026-fix.js"><\/script>');
 document.write('<script src="assessment-image-upgrade.js"><\/script>');
+document.write('<script src="assessment-question-bank-science-expansion-1.js"><\/script>');
+document.write('<script src="assessment-question-bank-science-repository-expansion-1.js"><\/script>');
+document.write('<script src="assessment-question-bank-science-expansion-2.js"><\/script>');
+document.write('<script src="assessment-question-bank-science-expansion-3.js"><\/script>');
+document.write('<script src="assessment-question-bank-science-expansion-4.js"><\/script>');
+document.write('<script src="assessment-question-bank-science-expansion-5.js"><\/script>');
+document.write('<script src="assessment-question-bank-science-expansion-6.js"><\/script>');
+document.write('<script src="assessment-question-bank-science-expansion-7.js"><\/script>');
+document.write('<script src="assessment-question-bank-science-expansion-8.js"><\/script>');
+document.write('<script src="assessment-science-strand-normalizer.js?v=2026.24"><\/script>');
