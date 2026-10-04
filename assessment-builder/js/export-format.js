@@ -1,0 +1,56 @@
+// Professional Word-export formatting for Assessment Builder.
+// Loaded after the main builder so it can replace the legacy export renderer safely.
+(function(){
+  function esc(v){return String(v==null?'':v)}
+  function visual(q){
+    if(q.image) return '<div class="diagram"><img src="'+q.image+'" alt="'+(q.imageAlt||'Assessment question image')+'"></div>';
+    if(q.diagram) return '<div class="diagram">'+q.diagram+'</div>';
+    return '';
+  }
+  function mcq(q){
+    if(q.options) return q.options;
+    const m=String(q.question||'').match(/^(.*?)(?:\s+A\.\s+)(.*?)(?:\s+B\.\s+)(.*?)(?:\s+C\.\s+)(.*?)(?:\s+D\.\s+)(.*)$/);
+    return m?{stem:m[1],choices:[m[2],m[3],m[4],m[5]]}:null;
+  }
+  function response(q){
+    if(q.type==='Multiple choice') return '';
+    if(q.response==='working') return '<div class="working-space"></div>';
+    const n=q.responseLines||Math.max(q.type==='Extended response'?6:2,Math.ceil((q.marks||1)*(q.type==='Extended response'?2:1.35)));
+    return '<div class="response-space">'+Array.from({length:n},()=>'<div class="response-line"></div>').join('')+'</div>';
+  }
+  function qhtml(q,i,key){
+    const m=mcq(q);
+    let body=m?'<div class="stem">'+m.stem+'</div><table class="options" cellspacing="0" cellpadding="0">'+m.choices.map((x,j)=>'<tr><td class="letter">'+String.fromCharCode(65+j)+'.</td><td>'+x+'</td></tr>').join('')+'</table>':'<div class="stem">'+esc(q.question)+'</div>';
+    body+=visual(q);
+    const tail=key?'<div class="doc-answer"><b>Marking key:</b> '+esc(q.answer)+'</div>':response(q);
+    return '<div class="doc-question"><table class="question-head" width="100%" cellspacing="0" cellpadding="0"><tr><td class="qnumber"><b>Question '+(i+1)+'</b></td><td class="marks"><b>['+(q.marks||0)+' mark'+((q.marks||0)===1?'':'s')+']</b></td></tr></table><div class="doc-meta">'+esc(q.topic)+' &nbsp;•&nbsp; '+esc(q.type)+'</div>'+body+tail+'</div>';
+  }
+  window.docHTML=function(key){
+    const s=(typeof subjectDef==='function'?subjectDef():null), year=document.getElementById('year').value, assessmentType=document.getElementById('assessmentType').value;
+    const title=(s?s.label+' ':'')+'Year '+year+' '+assessmentType+(key?' – Marking Key':'');
+    const total=(window.built||built||[]).reduce((sum,q)=>sum+(Number(q.marks)||0),0);
+    const qs=(window.built||built||[]);
+    return '<!doctype html><html><head><meta charset="utf-8"><title>'+title+'</title><style>'+ 
+    '@page{margin:1.27cm;}'+
+    'html,body{font-family:Calibri,Arial,sans-serif;font-size:11pt;line-height:1.25;color:#000;margin:0;padding:0;}'+
+    '.doc-header{text-align:center;border-bottom:1.5pt solid #222;padding:0 0 8pt;margin:0 0 12pt;}'+
+    '.doc-header h1{font-family:Calibri,Arial,sans-serif;font-size:16pt;margin:0 0 3pt;font-weight:700;}'+
+    '.doc-header .sub{font-size:10pt;color:#444;}'+
+    '.details{width:100%;border-collapse:collapse;margin:10pt 0 8pt;} .details td{padding:5pt 0;}'+
+    '.line{display:inline-block;border-bottom:1pt solid #222;min-width:220pt;height:12pt;} .date-line{min-width:110pt;}'+
+    '.summary{border-top:1pt solid #999;border-bottom:1pt solid #999;padding:6pt 0;margin:6pt 0 16pt;font-weight:700;}'+
+    '.doc-question{margin:0 0 20pt;page-break-inside:avoid;}'+
+    '.question-head{width:100%;border-collapse:collapse;margin:0 0 2pt;} .question-head td{font-size:11pt;padding:0;}'+
+    '.qnumber{text-align:left;} .marks{text-align:right!important;width:90pt;white-space:nowrap;}'+
+    '.doc-meta{font-size:9pt;color:#666;margin:2pt 0 8pt;}'+
+    '.stem{margin:0 0 8pt;line-height:1.3;}'+
+    '.options{margin:2pt 0 4pt 12pt;border-collapse:collapse;width:auto;} .options td{padding:3pt 0;vertical-align:top;line-height:1.25;} .options .letter{font-weight:700;width:26pt;padding-right:5pt;}'+
+    '.response-space{margin-top:10pt;} .response-line{height:20pt;border-bottom:0.75pt solid #aaa;}'+
+    '.working-space{height:90pt;border:0.75pt solid #aaa;margin-top:10pt;}'+
+    '.doc-answer{margin-top:9pt;padding:8pt 10pt;border:0.75pt solid #aaa;background:#f3f3f3;}'+
+    '.diagram{margin:10pt auto;text-align:center;} .diagram img,.diagram svg{max-width:88%;max-height:330pt;height:auto;}'+
+    '</style></head><body><div class="doc-header"><h1>'+title+'</h1><div class="sub">'+(s?esc(s.label):'')+' • Year '+year+'</div></div>'+
+    (key?'':'<table class="details"><tr><td><b>Name:</b> <span class="line"></span></td><td style="text-align:right"><b>Date:</b> <span class="line date-line"></span></td></tr></table>')+
+    '<div class="summary">Total marks: '+total+' &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; Questions: '+qs.length+'</div>'+qs.map((q,i)=>qhtml(q,i,key)).join('')+'</body></html>';
+  };
+})();
