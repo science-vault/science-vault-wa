@@ -30,3 +30,12 @@ set('PHY12-26-O1-007',[[G([['speed'],['constant']], 'Constant speed does not mea
 set('PHY12-26-O1-008',[[G([['gravity'],['substantial','acts']], 'Gravity still acts strongly on the astronauts and laboratory.'),G([['free fall','free-fall'],['astronaut']], 'The astronauts are in continuous free fall.'),G([['free fall','free-fall'],['laboratory','spacecraft']], 'The orbiting laboratory is also in free fall.'),G([['same','together'],['acceleration']], 'They accelerate together under gravity.'),G([['normal','support'],['zero','negligible']], 'There is negligible normal/support force.'),G([['apparent'],['weightless']], 'The absence of support force produces apparent weightlessness.')]]);
 set('PHY12-26-O1-009',[[G([['magnetic flux','flux'],['change','decrease']], 'Pulling the loop out changes/decreases magnetic flux through it.'),G([['faraday']], 'Faraday’s law gives an induced emf when flux changes.'),G([['current'],['closed','loop']], 'The induced emf drives current in the closed conducting loop.'),G([['lenz']], 'Use Lenz’s law to determine the induced field.'),G([['oppose'],['decrease','change']], 'The induced magnetic field opposes the decrease/change in flux.'),G([['right hand','right-hand'],['current']], 'Use the right-hand grip rule to obtain current direction from the induced field.')]]);
 })();
+// Student Quiz universal-bank bootstrap. This runs only on student-quiz.html and leaves the Assessment Builders unchanged.
+if(/(?:^|\/)student-quiz\.html(?:$|[?#])/.test(location.pathname+location.search+location.hash)){
+ document.write('<script src="assessment-question-bank.js?v=2026.26"><\/script>');
+ document.write('<script src="assessment-question-bank-mathematics.js?v=2026.26"><\/script>');
+ document.write('<script src="assessment-question-bank-mathematics-expansion-1.js?v=2026.26"><\/script>');
+ document.write('<script src="assessment-question-bank-mathematics-expansion-2.js?v=2026.26"><\/script>');
+ document.write('<script src="assessment-question-bank-mathematics-expansion-3.js?v=2026.26"><\/script>');
+ document.write('<script src="student-quiz-bank-adapter.js?v=2026.26"><\/script>');
+}
