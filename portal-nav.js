@@ -8,8 +8,8 @@
     if(location.pathname.endsWith('/student-area.html')||location.pathname.endsWith('student-area.html')) role='student';
     if(location.pathname.endsWith('/teacher-area.html')||location.pathname.endsWith('teacher-area.html')) role='teacher';
   }
-  const student=[['student-area.html','Student Area'],['student-quiz.html','Student Quiz'],['powerpoints.html','PowerPoints'],['worksheets.html','Worksheets'],['revision.html','Revision'],['notes.html','Notes'],['videos.html','Videos'],['assessments.html','Assessments'],['exams.html','Exams'],['textbooks.html','Textbooks']];
-  const teacher=[['teacher-area.html','Teacher Area'],['assessment-builders.html','Assessment Builder'],['assessment-question-browser.html','Question Bank'],['student-quiz.html','Student Quiz'],['powerpoints.html','PowerPoints'],['worksheets.html','Worksheets'],['practicals.html','Practicals'],['revision.html','Revision'],['notes.html','Notes'],['videos.html','Videos'],['assessments.html','Assessments'],['exams.html','Exams'],['textbooks.html','Textbooks']];
+  const student=[['student-area.html','Student Area'],['topic-hub.html','Topic Hub'],['student-quiz.html','Student Quiz'],['powerpoints.html','PowerPoints'],['worksheets.html','Worksheets'],['revision.html','Revision'],['notes.html','Notes'],['videos.html','Videos'],['assessments.html','Assessments'],['exams.html','Exams'],['textbooks.html','Textbooks']];
+  const teacher=[['teacher-area.html','Teacher Area'],['topic-hub.html','Topic Hub'],['assessment-builders.html','Assessment Builder'],['assessment-question-browser.html','Question Bank'],['student-quiz.html','Student Quiz'],['powerpoints.html','PowerPoints'],['worksheets.html','Worksheets'],['practicals.html','Practicals'],['revision.html','Revision'],['notes.html','Notes'],['videos.html','Videos'],['assessments.html','Assessments'],['exams.html','Exams'],['textbooks.html','Textbooks']];
   window.LearningVaultPortal={
     role,
     links:role==='teacher'?teacher:student,
