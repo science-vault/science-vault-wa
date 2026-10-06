@@ -1,7 +1,7 @@
 /* Year 12 Human Biology ATAR — Chemical Messengers */
 (function(){
 window.Year12HumanBioTopics=window.Year12HumanBioTopics||{};
-window.Year12HumanBioTopics['Chemical Messengers']={title:'Chemical Messengers',subtitle:'Year 12 Human Biology ATAR · endocrine communication and homeostasis',topics:[
+const chemicalTopics=[
 {id:'endocrine-intro',title:'Endocrine system & hormones',icon:'🧬',description:'Endocrine glands, hormones, receptors, target cells, saturation, clearance and negative feedback.'},
 {id:'hormone-cell-action',title:'Hormone action at cells',icon:'🔑',description:'Protein/amine/peptide and steroid hormones, receptors, second messengers and enzyme amplification.'},
 {id:'hypothalamus-pituitary',title:'Hypothalamus & pituitary',icon:'🧠',description:'Anterior and posterior pituitary pathways, releasing factors, hormones and ADH regulation.'},
@@ -12,5 +12,9 @@ window.Year12HumanBioTopics['Chemical Messengers']={title:'Chemical Messengers',
 {id:'pancreas',title:'Pancreas: insulin & glucagon',icon:'🩸',description:'Blood-glucose homeostasis, insulin, glucagon, glycogen and diabetes mellitus.'},
 {id:'other-endocrine',title:'Other endocrine organs',icon:'🌙',description:'Thymus, pineal gland, gonads and other hormone-secreting tissues.'},
 {id:'recombinant-hormones',title:'Hormones & recombinant DNA',icon:'🧫',description:'Restriction enzymes, plasmids, ligase and production of synthetic insulin and growth hormone.'}
-]};
+];
+const unit='Unit 3 – Homeostasis and disease';
+const previous=window.Year12HumanBioTopics[unit]||{};
+const existing=previous.topics||[];
+window.Year12HumanBioTopics[unit]={...previous,title:unit,subtitle:'Year 12 Human Biology ATAR · Unit 3',topics:[...existing.filter(t=>!chemicalTopics.some(c=>c.id===t.id)),...chemicalTopics]};
 })();
