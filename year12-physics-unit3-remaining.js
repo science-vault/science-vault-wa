@@ -5,7 +5,14 @@ const F=(n,d)=>'<span class="eq-frac"><span class="eq-num">'+n+'</span><span cla
 const RT=x=>'<span class="eq-root"><span>'+x+'</span></span>';
 const E=(x,n='')=>'<div class="math-display" data-eq-native="1"><div class="eq-row">'+x+'</div>'+(n?'<span class="eq-note">'+n+'</span>':'')+'</div>';
 const K=r=>'<div class="symbol-key"><h3>What each symbol means</h3><table><tr><th>Symbol</th><th>Meaning</th><th>SI unit</th></tr>'+r.map(x=>'<tr><td><b>'+x[0]+'</b></td><td>'+x[1]+'</td><td>'+x[2]+'</td></tr>').join('')+'</table></div>';
-const W=(t,p,a,z)=>S(t,'<div class="worked-solution"><h2>'+t+'</h2><p><b>Problem:</b> '+p+'</p><h3>Full working</h3>'+a.map(E).join('')+'<p><b>Final answer:</b> '+z+'</p></div>','worked');
+const fmt=x=>String(x)
+.replace(/([A-Za-zΔℓγ])_([A-Za-z0-9]+)/g,'<i>$1</i><sub>$2</sub>')
+.replace(/([A-Za-zΔℓγ])([₁₂₃])/g,'<i>$1</i><sub>$2</sub>')
+.replace(/([A-Za-zΔℓγ])²/g,'<i>$1</i><sup>2</sup>')
+.replace(/([A-Za-zΔℓγ])³/g,'<i>$1</i><sup>3</sup>')
+.replace(/10([⁻−]?)([¹²³⁴⁵⁶⁷⁸⁹⁰]+)/g,'10<sup>$1$2</sup>')
+.replace(/m s⁻¹/g,'m s<sup>−1</sup>').replace(/kg m s⁻¹/g,'kg m s<sup>−1</sup>');
+const W=(t,p,a,z)=>S(t,'<div class="worked-solution"><h2>'+t+'</h2><p><b>Problem:</b> '+p+'</p><h3>Full working</h3>'+a.map(x=>E(fmt(x))).join('')+'<p><b>Final answer:</b> '+fmt(z)+'</p></div>','worked');
 function wire(r){r.querySelectorAll('.y12-quiz').forEach(b=>b.querySelectorAll('button').forEach(x=>x.onclick=()=>b.querySelector('.fb').textContent=(+x.dataset.i===+b.dataset.answer?'✓ Correct. ':'↻ Try again. ')+b.dataset.why));}
 const Q=(q,o,a,w)=>S('Check your understanding','<div class="y12-quiz" data-answer="'+a+'" data-why="'+w+'"><h2>Check your understanding</h2><p>'+q+'</p>'+o.map((x,i)=>'<button data-i="'+i+'">'+x+'</button>').join('')+'<div class="fb"></div></div>','quiz');
 function R(id,t,s){window.Year12PhysicsLessons=window.Year12PhysicsLessons||{};window.Year12PhysicsLessons[id]={title:t,screens:s,wire};}
