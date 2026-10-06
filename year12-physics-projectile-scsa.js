@@ -1,9 +1,10 @@
 /* Year 12 Physics ATAR — SCSA 2026 aligned Projectile Motion override */
 (function(){
 const S=(title,html,type='learn')=>({title,html,type});
-const eq=(x,n='')=>'<div class="math-display">'+x+(n?'<span class="eq-note">'+n+'</span>':'')+'</div>';
+const E={sub:(b,s)=>b+'<sub>'+s+'</sub>',sup:(b,s)=>b+'<sup>'+s+'</sup>',frac:(a,b)=>'<span class="eq-frac"><span class="eq-num">'+a+'</span><span class="eq-den">'+b+'</span></span>',root:x=>'<span class="eq-root"><span>'+x+'</span></span>'};
+const eq=(x,n='')=>'<div class="math-display" data-eq-native="1"><div class="eq-row">'+x+'</div>'+(n?'<span class="eq-note">'+n+'</span>':'')+'</div>';
 const sym=(rows)=>'<div class="symbol-key"><h3>What each symbol means</h3><table><tr><th>Symbol</th><th>Meaning</th><th>SI unit</th></tr>'+rows.map(r=>'<tr><td><b>'+r[0]+'</b></td><td>'+r[1]+'</td><td>'+r[2]+'</td></tr>').join('')+'</table></div>';
-const W=(title,problem,steps,answer)=>S(title,'<div class="worked-solution"><h2>'+title+'</h2><p><b>Problem:</b> '+problem+'</p><h3>Full working</h3>'+steps.map(x=>eq(x)).join('')+'<p><b>Final answer:</b> '+answer+'</p></div>','worked');
+const W=(title,problem,steps,answer)=>S(title,'<div class="worked-solution"><h2>'+title+'</h2><p><b>Problem:</b> '+problem+'</p><h3>Full working</h3>'+steps.map(x=>typeof x==='string'&&x.startsWith('<')?eq(x):'<p class="worked-note">'+x+'</p>').join('')+'<p><b>Final answer:</b> '+answer+'</p></div>','worked');
 const quiz=(q,o,a,why)=>S('Interactive check','<div class="y12-quiz" data-answer="'+a+'" data-why="'+why+'"><h2>Check your understanding</h2><p>'+q+'</p>'+o.map((x,i)=>'<button data-i="'+i+'">'+x+'</button>').join('')+'<div class="fb"></div></div>','quiz');
 function wire(root){root.querySelectorAll('.y12-quiz').forEach(b=>b.querySelectorAll('button[data-i]').forEach(x=>x.onclick=()=>{const ok=+x.dataset.i===+b.dataset.answer;b.querySelector('.fb').textContent=(ok?'Correct. ':'Try again. ')+b.dataset.why;}));}
 const motionSymbols=sym([['a','acceleration','m s⁻²'],['Δv','change in velocity','m s⁻¹'],['Δt','time interval','s'],['vᵢ','initial velocity','m s⁻¹'],['vᶠ','final velocity','m s⁻¹'],['s','displacement','m']]);
@@ -18,7 +19,15 @@ S('Choosing the equation',`<h2>Which SCSA equation should I use?</h2><table><tr>
 S('Type 1 — horizontal launch',`<h2>Horizontal launch from a height</h2><p>Examples: a ball rolling off a table, a package released from a horizontally moving aircraft, water leaving a horizontal pipe, or an object launched horizontally from a cliff.</p><p><b>Key condition:</b> vᵢᵧ = 0. Find the fall time from the vertical motion, then use the same time horizontally.</p>`),
 W('Example 1A — find flight time','A ball leaves a 20.0 m cliff horizontally at 15.0 m s⁻¹. Find its flight time.',['Choose upward as positive','s_y = −20.0 m, v_iy = 0, a_y = −9.81 m s⁻²','s_y = v_iy Δt + ½a_y(Δt)²','−20.0 = 0 + ½(−9.81)(Δt)²','−20.0 = −4.905(Δt)²','(Δt)² = 4.077','Δt = 2.02 s'],'<b>2.02 s</b>'),
 W('Example 1B — find horizontal range','For the same ball, calculate horizontal displacement.',['v_ix = 15.0 m s⁻¹, a_x = 0, Δt = 2.02 s','s_x = v_ixΔt + ½a_x(Δt)²','s_x = (15.0)(2.02) + 0','s_x = 30.3 m'],'<b>30.3 m</b>'),
-W('Example 1C — find impact velocity','For the same ball, calculate velocity immediately before impact.',['v_{fx} = 15.0 m s⁻¹','v_{fy} = v_{iy} + a_yΔt','v_{fy} = 0 + (−9.81)(2.02) = −19.8 m s⁻¹','v = √[(15.0)² + (−19.8)²] = 24.8 m s⁻¹','θ = tan⁻¹(19.8/15.0) = 52.9°'],'<b>24.8 m s⁻¹ at 52.9° below the horizontal</b>'),
+W('Example 1C — find impact velocity','For the same ball, calculate velocity immediately before impact.',[
+'<i>v</i><sub>fx</sub> = 15.0 m s<sup>−1</sup>',
+'<i>v</i><sub>fy</sub> = <i>v</i><sub>iy</sub> + <i>a</i><sub>y</sub>Δ<i>t</i>',
+'<i>v</i><sub>fy</sub> = 0 + (−9.81)(2.02) = −19.8 m s<sup>−1</sup>',
+'<i>v</i> = '+E.root('(<i>v</i><sub>fx</sub>)<sup>2</sup> + (<i>v</i><sub>fy</sub>)<sup>2</sup>'),
+'<i>v</i> = '+E.root('(15.0)<sup>2</sup> + (−19.8)<sup>2</sup>')+' = 24.8 m s<sup>−1</sup>',
+'θ = tan<sup>−1</sup>('+E.frac('|<i>v</i><sub>fy</sub>|','<i>v</i><sub>fx</sub>')+')',
+'θ = tan<sup>−1</sup>('+E.frac('19.8','15.0')+') = 52.9°'
+],'<b>24.8 m s<sup>−1</sup> at 52.9° below the horizontal</b>'),
 S('Type 2 — angled, same level',`<h2>Angled launch returning to launch height</h2><p>Examples: a kicked football, a thrown ball or a simplified javelin problem where launch and landing heights are equal. Resolve the launch velocity first. The ideal vertical motion is symmetric about the apex.</p><div class="y12-warning"><b>SCSA method:</b> use the equations of motion rather than relying on a memorised time-of-flight or range shortcut.</div>`),
 W('Example 2A — resolve components','A projectile is launched at 25.0 m s⁻¹, 40.0° above horizontal. Find its initial components.',['v_ix = v_i cosθ','v_ix = (25.0)cos40.0° = 19.2 m s⁻¹','v_iy = v_i sinθ','v_iy = (25.0)sin40.0° = 16.1 m s⁻¹'],'<b>vᵢₓ = 19.2 m s⁻¹ and vᵢᵧ = 16.1 m s⁻¹</b>'),
 W('Example 2B — time to apex','Find the time to maximum height.',['At the apex v_fy = 0','v_fy = v_iy + a_yΔt','0 = 16.1 − 9.81Δt','9.81Δt = 16.1','Δt = 1.64 s'],'<b>1.64 s</b>'),
