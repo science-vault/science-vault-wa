@@ -27,8 +27,18 @@ const nervousTopics=[
 {id:'nervous-endocrine-compare',title:'Nervous vs endocrine control',icon:'⚖️',description:'Compare speed, duration, message transmission and specificity.'},
 {id:'nervous-disease',title:'Nervous system diseases & treatments',icon:'🧬',description:'Huntington’s, Parkinson’s and Alzheimer’s disease, gene therapy and cell replacement therapy.'}
 ];
+const homeostasisTopics=[
+{id:'homeostasis-foundations',title:'Homeostasis & feedback loops',icon:'⚖️',description:'Steady state, dynamic equilibrium, tolerance limits, set points and feedback-loop components.'},
+{id:'thermoregulation-cold',title:'Thermoregulation – heat balance & cold responses',icon:'🥶',description:'Heat gain/loss, thermoreceptors, control centres, effectors and responses below set point.'},
+{id:'thermoregulation-hot',title:'Thermoregulation – heat responses & fever',icon:'🌡️',description:'Vasodilation, sweating, behavioural responses, tolerance limits, hyperthermia and fever.'},
+{id:'fluid-homeostasis',title:'Body fluid homeostasis',icon:'💧',description:'Fluid compartments, kidneys, osmotic pressure, ADH, aldosterone, thirst and water imbalance.'},
+{id:'glucose-homeostasis',title:'Blood glucose homeostasis',icon:'🩸',description:'Insulin, glucagon, liver, glycogenesis, glycogenolysis and negative feedback.'},
+{id:'blood-gas-homeostasis',title:'Blood gas homeostasis',icon:'🫁',description:'CO₂, pH, chemoreceptors, medulla, respiratory muscles and breathing-rate feedback.'},
+{id:'cardiovascular-homeostasis',title:'Heart rate & blood pressure regulation',icon:'❤️',description:'Cardiac output, baroreceptors, autonomic control, vessel diameter and exercise responses.'},
+{id:'homeostasis-disruptions',title:'Disruptions to homeostasis & biotechnology',icon:'⚠️',description:'Diabetes, thyroid/GH imbalance, emphysema, hypertension, nervous-system disease and biotechnology treatments.'}
+];
 const unit='Unit 3 – Homeostasis and disease';
 const previous=window.Year12HumanBioTopics[unit]||{};
 const existing=previous.topics||[];
-window.Year12HumanBioTopics[unit]={...previous,title:unit,subtitle:'Year 12 Human Biology ATAR · Unit 3',topics:[...existing.filter(t=>!chemicalTopics.some(c=>c.id===t.id)&&!nervousTopics.some(n=>n.id===t.id)),...chemicalTopics,...nervousTopics]};
+window.Year12HumanBioTopics[unit]={...previous,title:unit,subtitle:'Year 12 Human Biology ATAR · Unit 3',topics:[...existing.filter(t=>!chemicalTopics.some(c=>c.id===t.id)&&!nervousTopics.some(n=>n.id===t.id)&&!homeostasisTopics.some(h=>h.id===t.id)),...chemicalTopics,...nervousTopics,...homeostasisTopics]};
 })();
