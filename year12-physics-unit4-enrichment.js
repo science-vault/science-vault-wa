@@ -1,6 +1,7 @@
 /* Unit 4 enrichment: deeper explanations + topic-specific visual teaching. */
 (function(){
 const S=(t,h,y='learn')=>({title:t,html:h,type:y});
+const E=(x,n='')=>'<div class="math-display" data-eq-native="1"><div class="eq-row">'+x+'</div>'+(n?'<span class="eq-note">'+n+'</span>':'')+'</div>';
 const fig=(svg,cap)=>'<figure class="unit4-figure">'+svg+'<figcaption>'+cap+'</figcaption></figure>';
 const svg=(body)=>'<svg viewBox="0 0 760 330" role="img" aria-label="Physics teaching diagram" xmlns="http://www.w3.org/2000/svg">'+body+'</svg>';
 const arrow='<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8z" fill="currentColor"/></marker></defs>';
