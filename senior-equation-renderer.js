@@ -1,16 +1,20 @@
-/* Converts lesson formula text into textbook-style stacked HTML equations. Shared by Physics, Chemistry and Mathematics. */
+/* Shared textbook-style equation renderer for Topic Hub STEM lessons. */
 (function(){
-function frac(a,b){return `<span class="eq-frac"><span class="eq-num">${a}</span><span class="eq-den">${b}</span></span>`}
-function sub(s){return s.replace(/([A-Za-zΔΣωθ])_\\{([^}]+)\\}/g,'$1<sub>$2</sub>').replace(/([A-Za-zΔΣωθ])_([A-Za-z0-9]+)/g,'$1<sub>$2</sub>').replace(/v([fFiI])([xy])/g,(m,a,b)=>'v<sub>'+a.toLowerCase()+b+'</sub>').replace(/([A-Za-z])([₀₁₂₃₄₅₆₇₈₉])/g,'$1$2')}
-function sup(s){return s.replace(/\\^\\{([^}]+)\\}/g,'<sup>$1</sup>').replace(/\\^(-?\\d+)/g,'<sup>$1</sup>').replace(/²/g,'<sup>2</sup>').replace(/³/g,'<sup>3</sup>').replace(/⁻¹/g,'<sup>−1</sup>')}
-function sci(s){return s.replace(/×10([⁻−-]?\d+)/g,(m,p)=>`×10<sup>${p.replace('⁻','−')}</sup>`)}
-function basics(s){return sci(sup(sub(s))).replace(/tan(?:⁻¹|<sup>−1<\\/sup>)\\(([^/()]+)\\/([^()]+)\\)/g,(m,a,b)=>'tan<sup>−1</sup>\\left('+frac(a,b)+'\\right)').replace(/√\\[([^\\]]+)\\]/g,'<span class="eq-root"><span>$1</span></span>').replace(/√\\((.+)\\)/g,'<span class="eq-root"><span>$1</span></span>').replace(/sqrt\\((.+)\\)/gi,'<span class="eq-root"><span>$1</span></span>')}
-function formula(s){let t=s.trim();const replacements=[
-[/^U = − ?GMm \/ r$/,'U = − '+frac('GMm','r')],[/^g = GM\/r2$/,'g = '+frac('GM','r<sup>2</sup>')],[/^g = GM\/r²$/,'g = '+frac('GM','r<sup>2</sup>')],[/^F_c = mv²\/r$/,'F<sub>c</sub> = '+frac('mv<sup>2</sup>','r')],[/^a_c = v²\/r$/,'a<sub>c</sub> = '+frac('v<sup>2</sup>','r')],[/^H = u_y²\/\(2g\)$/,'H = '+frac('u<sub>y</sub><sup>2</sup>','2g')],[/^T = 2u sinθ \/ g$/,'T = '+frac('2u sin θ','g')],[/^T = 2u_y\/g$/,'T = '+frac('2u<sub>y</sub>','g')],[/^v = √\(v_x² \+ v_y²\)$/,'v = <span class="eq-root"><span>v<sub>x</sub><sup>2</sup> + v<sub>y</sub><sup>2</sup></span></span>'],[/^θ = tan⁻¹\(\|v_y\|\/v_x\)$/,'θ = tan<sup>−1</sup>('+frac('|v<sub>y</sub>|','v<sub>x</sub>')+')'],[/^v_e = √\(2GM\/R\)$/,'v<sub>e</sub> = <span class="eq-root"><span>'+frac('2GM','R')+'</span></span>'],[/^v = 2πr\/T = 2πrf$/,'v = '+frac('2πr','T')+' = 2πrf'],[/^ω = 2π\/T = 2πf$/,'ω = '+frac('2π','T')+' = 2πf'],[/^f = 1\/T$/,'f = '+frac('1','T')],[/^ΔU = −GMm\/r_f \+ GMm\/r_i$/,'ΔU = −'+frac('GMm','r<sub>f</sub>')+' + '+frac('GMm','r<sub>i</sub>')],[/^½mv_i² − GMm\/r_i = ½mv_f² − GMm\/r_f$/,'½mv<sub>i</sub><sup>2</sup> − '+frac('GMm','r<sub>i</sub>')+' = ½mv<sub>f</sub><sup>2</sup> − '+frac('GMm','r<sub>f</sub>')],[/^U₁ = −GMm\/r$/,'U₁ = −'+frac('GMm','r')],[/^U₂ = −GMm\/\(2r\) = ½U₁$/,'U₂ = −'+frac('GMm','2r')+' = ½U₁']];
-for(const [r,h] of replacements)if(r.test(t))return h;
-// Generic simple division: preserve a real fraction rather than slash notation.
-const m=t.match(/^(.+?) = (.+?)\/(.+)$/);if(m&&!m[2].includes(' '))return basics(m[1])+' = '+frac(basics(m[2]),basics(m[3]));
-return basics(t).replace(/\b([A-Za-z]+)\/([A-Za-z0-9()]+)\b/g,(m,a,b)=>frac(a,b));}
-function render(root=document){root.querySelectorAll('.math-display,.y12-equation').forEach(el=>{if(el.dataset.eqRendered)return;const note=el.querySelector('.eq-note');const noteHTML=note?note.outerHTML:'';const clone=el.cloneNode(true);clone.querySelectorAll('.eq-note').forEach(n=>n.remove());el.innerHTML=`<div class="eq-row">${formula(clone.textContent)}</div>${noteHTML}`;el.dataset.eqRendered='1'});}
-window.SeniorEquationRenderer={render,formula};new MutationObserver(ms=>ms.forEach(m=>m.addedNodes.forEach(n=>{if(n.nodeType===1)render(n.matches&&n.matches('.math-display')?n.parentNode:n)}))).observe(document.documentElement,{childList:true,subtree:true});document.addEventListener('DOMContentLoaded',()=>render());
+const frac=(a,b)=>'<span class="eq-frac"><span class="eq-num">'+a+'</span><span class="eq-den">'+b+'</span></span>';
+function sub(s){return s.replace(/([A-Za-zΔΣωθ])_\{([^}]+)\}/g,'$1<sub>$2</sub>').replace(/([A-Za-zΔΣωθ])_([A-Za-z0-9]+)/g,'$1<sub>$2</sub>').replace(/v([fFiI])([xy])/g,(m,a,b)=>'v<sub>'+a.toLowerCase()+b+'</sub>');}
+function sup(s){return s.replace(/\^\{([^}]+)\}/g,'<sup>$1</sup>').replace(/\^(-?\d+)/g,'<sup>$1</sup>').replace(/²/g,'<sup>2</sup>').replace(/³/g,'<sup>3</sup>').replace(/⁻¹/g,'<sup>−1</sup>');}
+function root(s){const i=s.indexOf('√[');if(i<0)return s;let depth=0,end=-1;for(let j=i+2;j<s.length;j++){if(s[j]==='[')depth++;if(s[j]===']'){if(depth===0){end=j;break;}depth--;}}if(end<0)return s;return s.slice(0,i)+'<span class="eq-root"><span>'+s.slice(i+2,end)+'</span></span>'+s.slice(end+1);}
+function format(s){
+ let t=s.trim();
+ t=sub(sup(t));
+ t=t.replace(/m s −1/g,'m s<sup>−1</sup>').replace(/m s −2/g,'m s<sup>−2</sup>');
+ t=root(t);
+ t=t.replace(/tan<sup>−1<\/sup>\(([^/()]+)\/([^()]+)\)/g,(m,a,b)=>'tan<sup>−1</sup>('+frac(a,b)+')');
+ t=t.replace(/\b([A-Za-z]+)\/([A-Za-z0-9]+)\b/g,(m,a,b)=>frac(a,b));
+ return t;
+}
+function render(root=document){root.querySelectorAll('.math-display,.y12-equation').forEach(el=>{if(el.dataset.eqRendered)return;const note=el.querySelector('.eq-note');const noteHTML=note?note.outerHTML:'';const clone=el.cloneNode(true);clone.querySelectorAll('.eq-note').forEach(n=>n.remove());el.innerHTML='<div class="eq-row">'+format(clone.textContent)+'</div>'+noteHTML;el.dataset.eqRendered='1';});}
+window.SeniorEquationRenderer={render,formula:format};
+new MutationObserver(ms=>ms.forEach(m=>m.addedNodes.forEach(n=>{if(n.nodeType===1)render(n.matches&&n.matches('.math-display,.y12-equation')?n.parentNode:n);}))).observe(document.documentElement,{childList:true,subtree:true});
+document.addEventListener('DOMContentLoaded',()=>render());
 })();
