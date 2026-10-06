@@ -10,3 +10,13 @@ body.senior-lms-open .y12-svg{max-height:390px;object-fit:contain}
 .senior-visual-card svg{width:100%;height:auto;max-height:300px}
 .senior-mini-diagram{width:min(100%,520px);margin:16px auto;display:block}
 @media(max-width:850px){.senior-visual{grid-template-columns:1fr}.senior-visual-card{min-height:180px}}
+
+/* Unit 4 visual teaching cards */
+.unit4-figure{margin:18px auto 24px;max-width:900px;padding:18px 20px 12px;border:1px solid #d6e1e8;border-radius:18px;background:#fbfdff;box-shadow:0 8px 24px rgba(20,45,70,.06)}
+.unit4-figure svg{display:block;width:100%;max-height:360px}
+.unit4-figure figcaption{margin-top:10px;font-size:15px;line-height:1.45;text-align:center;color:#526477}
+.unit4-figure svg line,.unit4-figure svg path,.unit4-figure svg rect,.unit4-figure svg circle{stroke:#183b56;stroke-width:3}
+.unit4-figure svg text{font:600 18px Arial,sans-serif;fill:#183b56;stroke:none}
+.unit4-figure svg .u4-dash{stroke-dasharray:9 8;stroke-width:2}
+.unit4-figure svg .u4-cmb{fill:#dbe8ef;stroke:#183b56;stroke-width:1}
+.unit4-figure+ .senior-two-col{margin-top:20px}
