@@ -5,12 +5,12 @@ const F=(n,d)=>'<span class="eq-frac"><span class="eq-num">'+n+'</span><span cla
 const RT=x=>'<span class="eq-root"><span>'+x+'</span></span>';
 const E=(x,n='')=>'<div class="math-display" data-eq-native="1"><div class="eq-row">'+x+'</div>'+(n?'<span class="eq-note">'+n+'</span>':'')+'</div>';
 const K=r=>'<div class="symbol-key"><h3>What each symbol means</h3><table><tr><th>Symbol</th><th>Meaning</th><th>SI unit</th></tr>'+r.map(x=>'<tr><td><b>'+x[0]+'</b></td><td>'+x[1]+'</td><td>'+x[2]+'</td></tr>').join('')+'</table></div>';
-const fmt=x=>{let s=String(x)
+const fmt=x=>{let s=String(x).replaceAll('<sup>','').replaceAll('</sup>','').replaceAll('<sub>','').replaceAll('</sub>','')
 .replace(/([A-Za-zΔℓγ])_([A-Za-z0-9]+)/g,'<i>$1</i><sub>$2</sub>')
 .replace(/([A-Za-zΔℓγ])([₁₂₃])/g,'<i>$1</i><sub>$2</sub>')
 .replace(/([A-Za-zΔℓγ])²/g,'<i>$1</i><sup>2</sup>')
 .replace(/([A-Za-zΔℓγ])³/g,'<i>$1</i><sup>3</sup>')
-.replace(/10([⁻−]?)([¹²³⁴⁵⁶⁷⁸⁹⁰]+)/g,'10<sup>$1$2</sup>')
+.replace(/10⁻([¹²³⁴⁵⁶⁷⁸⁹⁰]+)/g,'10<sup>−$1</sup>')
 .replace(/m s⁻¹/g,'m s<sup>−1</sup>').replace(/kg m s⁻¹/g,'kg m s<sup>−1</sup>');
 s=s.replace(/^([^=]+)= ([^=]+)\/([^=]+)$/,(m,l,n,d)=>l+'= '+F(n,d));
 s=s.replace(/^([^=]+)= ([^=]+)\/\[([^\]]+)\]$/,(m,l,n,d)=>l+'= '+F(n,'['+d+']'));
