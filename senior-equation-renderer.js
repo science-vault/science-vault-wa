@@ -13,7 +13,7 @@ function format(s){
  t=t.replace(/\b([A-Za-z]+)\/([A-Za-z0-9]+)\b/g,(m,a,b)=>frac(a,b));
  return t;
 }
-function render(root=document){root.querySelectorAll('.math-display,.y12-equation').forEach(el=>{if(el.dataset.eqRendered)return;const note=el.querySelector('.eq-note');const noteHTML=note?note.outerHTML:'';const clone=el.cloneNode(true);clone.querySelectorAll('.eq-note').forEach(n=>n.remove());el.innerHTML='<div class="eq-row">'+format(clone.textContent)+'</div>'+noteHTML;el.dataset.eqRendered='1';});}
+function render(root=document){root.querySelectorAll('.math-display,.y12-equation').forEach(el=>{if(el.dataset.eqRendered||el.dataset.eqNative)return;const note=el.querySelector('.eq-note');const noteHTML=note?note.outerHTML:'';const clone=el.cloneNode(true);clone.querySelectorAll('.eq-note').forEach(n=>n.remove());el.innerHTML='<div class="eq-row">'+format(clone.textContent)+'</div>'+noteHTML;el.dataset.eqRendered='1';});}
 window.SeniorEquationRenderer={render,formula:format};
 new MutationObserver(ms=>ms.forEach(m=>m.addedNodes.forEach(n=>{if(n.nodeType===1)render(n.matches&&n.matches('.math-display,.y12-equation')?n.parentNode:n);}))).observe(document.documentElement,{childList:true,subtree:true});
 document.addEventListener('DOMContentLoaded',()=>render());
