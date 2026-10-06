@@ -1,6 +1,7 @@
 /* Year 12 Human Biology ATAR — Chemical Messengers */
 (function(){
 window.Year12HumanBioTopics=window.Year12HumanBioTopics||{};
+window.Year12HumanBioTopics['Scientific Inquiry Skills']={title:'Scientific Inquiry Skills',subtitle:'Year 12 Human Biology ATAR · inquiry and data analysis',topics:[{id:'inquiry-types',title:'Types of scientific investigations',description:'Observation, surveys, case studies, longitudinal studies and controlled experiments.'},{id:'inquiry-planning',title:'Scientific method and planning valid investigations',description:'Hypotheses, variables, validity, reliability, ethics and experimental design.'},{id:'inquiry-data',title:'Data, results and analysis',description:'Data types, statistical summaries, graphs and evidence-based conclusions.'}]};
 const chemicalTopics=[
 {id:'endocrine-intro',title:'Endocrine system & hormones',icon:'🧬',description:'Endocrine glands, hormones, receptors, target cells, saturation, clearance and negative feedback.'},
 {id:'hormone-cell-action',title:'Hormone action at cells',icon:'🔑',description:'Protein/amine/peptide and steroid hormones, receptors, second messengers and enzyme amplification.'},
