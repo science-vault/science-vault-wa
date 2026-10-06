@@ -1,9 +1,16 @@
-/* Year 12 Human Biology ATAR topic tiles — Scientific Inquiry Skills */
+/* Year 12 Human Biology ATAR — Chemical Messengers */
 (function(){
-window.Year12HumanBioTopics={
-'Scientific Inquiry Skills':{title:'Scientific Inquiry Skills',subtitle:'Year 12 Human Biology ATAR · inquiry, investigation design and data analysis',topics:[
-{id:'inquiry-types',title:'Types of scientific investigations',icon:'🔬',description:'Observations, surveys, trial and error, case studies, longitudinal studies and controlled experiments.'},
-{id:'inquiry-planning',title:'Scientific method & valid investigations',icon:'🧪',description:'Hypotheses, variables, controls, validity, reliability, accuracy, error, ethics, bias, placebo and clinical trials.'},
-{id:'inquiry-data',title:'Data, results & analysis',icon:'📊',description:'Data types, limitations, confidence, mean/median/range, percentages, graphs, models and evidence-based conclusions.'}
-]}}
+window.Year12HumanBioTopics=window.Year12HumanBioTopics||{};
+window.Year12HumanBioTopics['Chemical Messengers']={title:'Chemical Messengers',subtitle:'Year 12 Human Biology ATAR · endocrine communication and homeostasis',topics:[
+{id:'endocrine-intro',title:'Endocrine system & hormones',icon:'🧬',description:'Endocrine glands, hormones, receptors, target cells, saturation, clearance and negative feedback.'},
+{id:'hormone-cell-action',title:'Hormone action at cells',icon:'🔑',description:'Protein/amine/peptide and steroid hormones, receptors, second messengers and enzyme amplification.'},
+{id:'hypothalamus-pituitary',title:'Hypothalamus & pituitary',icon:'🧠',description:'Anterior and posterior pituitary pathways, releasing factors, hormones and ADH regulation.'},
+{id:'growth-hormone',title:'Growth hormone',icon:'📈',description:'Production, actions, negative-feedback regulation, hypersecretion and deficiency.'},
+{id:'thyroid',title:'Thyroid gland',icon:'🦋',description:'T3/T4, thyroxine regulation, metabolic effects, hyperthyroidism and hypothyroidism.'},
+{id:'calcium-regulation',title:'Parathyroids & calcium regulation',icon:'🦴',description:'PTH and thyrocalcitonin in negative-feedback control of blood calcium.'},
+{id:'adrenal',title:'Adrenal glands',icon:'⚡',description:'Aldosterone, cortisol, catecholamines, adrenal cortex/medulla and stress responses.'},
+{id:'pancreas',title:'Pancreas: insulin & glucagon',icon:'🩸',description:'Blood-glucose homeostasis, insulin, glucagon, glycogen and diabetes mellitus.'},
+{id:'other-endocrine',title:'Other endocrine organs',icon:'🌙',description:'Thymus, pineal gland, gonads and other hormone-secreting tissues.'},
+{id:'recombinant-hormones',title:'Hormones & recombinant DNA',icon:'🧫',description:'Restriction enzymes, plasmids, ligase and production of synthetic insulin and growth hormone.'}
+]};
 })();
