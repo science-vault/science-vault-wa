@@ -3,7 +3,7 @@
 const S=(title,html,type='learn')=>({title,html,type});
 const F=(n,d)=>'<span class="eq-frac"><span class="eq-num">'+n+'</span><span class="eq-den">'+d+'</span></span>';
 const RT=x=>'<span class="eq-root"><span>'+x+'</span></span>';
-const fmt=x=>String(x).replace(/([A-Za-z])_([A-Za-z0-9]+)/g,'<i>$1</i><sub>$2</sub>').replace(/([A-Za-z])([₁₂₃])/g,'<i>$1</i><sub>$2</sub>').replace(/([A-Za-z])²/g,'<i>$1</i><sup>2</sup>').replace(/([A-Za-z])³/g,'<i>$1</i><sup>3</sup>').replace(/10⁻([¹²³⁴⁵⁶⁷⁸⁹⁰]+)/g,'10<sup>−$1</sup>').replace(/m s⁻¹/g,'m s<sup>−1</sup>').replace(/m s⁻²/g,'m s<sup>−2</sup>');
+const fmt=x=>{let s=String(x).replace(/([A-Za-z])_([A-Za-z0-9]+)/g,'<i>$1</i><sub>$2</sub>').replace(/([A-Za-z])([₁₂₃])/g,'<i>$1</i><sub>$2</sub>').replace(/([A-Za-z])²/g,'<i>$1</i><sup>2</sup>').replace(/([A-Za-z])³/g,'<i>$1</i><sup>3</sup>').replace(/10⁻([¹²³⁴⁵⁶⁷⁸⁹⁰]+)/g,'10<sup>−$1</sup>').replace(/m s⁻¹/g,'m s<sup>−1</sup>').replace(/m s⁻²/g,'m s<sup>−2</sup>');s=s.replace(/^([^=]+)= ([^=]+)\/([^=]+)$/,(m,l,n,d)=>l+'= '+F(n,d));return s;};
 const eq=(x,n='')=>'<div class="math-display" data-eq-native="1"><div class="eq-row">'+fmt(x)+'</div>'+(n?'<span class="eq-note">'+n+'</span>':'')+'</div>';
 const W=(title,problem,lines,answer)=>S(title,`<div class="worked-solution"><h2>${title}</h2><p><b>Problem:</b> ${problem}</p>${lines.map(x=>eq(x)).join('')}<p><b>Answer:</b> ${answer}</p></div>`,'worked');
 const quiz=(q,opts,a)=>S('Interactive check',`<div class="y12-quiz" data-answer="${a}"><h2>Check your understanding</h2><p>${q}</p>${opts.map((o,i)=>`<button data-i="${i}">${o}</button>`).join('')}<div class="fb"></div></div>`,'quiz');
