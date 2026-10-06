@@ -37,8 +37,16 @@ const homeostasisTopics=[
 {id:'cardiovascular-homeostasis',title:'Heart rate & blood pressure regulation',icon:'❤️',description:'Cardiac output, baroreceptors, autonomic control, vessel diameter and exercise responses.'},
 {id:'homeostasis-disruptions',title:'Disruptions to homeostasis & biotechnology',icon:'⚠️',description:'Diabetes, thyroid/GH imbalance, emphysema, hypertension, nervous-system disease and biotechnology treatments.'}
 ];
+const immuneTopics=[
+{id:'immune-external',title:'Pathogens & external defences',icon:'🛡️',description:'Pathogens, transmission, skin, mucous membranes, respiratory/digestive/urogenital barriers, eyes, ears and protective reflexes.'},
+{id:'immune-nonspecific',title:'Internal non-specific defences',icon:'🔥',description:'Natural killer cells, phagocytosis, inflammation, fever and the lymphatic system.'},
+{id:'immune-specific',title:'Specific immunity – B cells, T cells & memory',icon:'🧬',description:'Antigens, APCs, humoral and cell-mediated immunity, antibodies and primary/secondary responses.'},
+{id:'immune-vaccines',title:'Vaccination, boosters & herd immunity',icon:'💉',description:'Vaccines, immune memory, boosters, benefits/risks, vaccination programs and herd immunity.'},
+{id:'immune-types',title:'Active, passive, natural & artificial immunity',icon:'🔄',description:'Four types of acquired immunity, antibody transfer, vaccination, infection and memory cells.'},
+{id:'immune-antimicrobials',title:'Antibiotics, antivirals & resistance',icon:'💊',description:'Antibiotic/antiviral specificity, bactericidal/bacteriostatic action, culture and sensitivity and resistance.'}
+];
 const unit='Unit 3 – Homeostasis and disease';
 const previous=window.Year12HumanBioTopics[unit]||{};
 const existing=previous.topics||[];
-window.Year12HumanBioTopics[unit]={...previous,title:unit,subtitle:'Year 12 Human Biology ATAR · Unit 3',topics:[...existing.filter(t=>!chemicalTopics.some(c=>c.id===t.id)&&!nervousTopics.some(n=>n.id===t.id)&&!homeostasisTopics.some(h=>h.id===t.id)),...chemicalTopics,...nervousTopics,...homeostasisTopics]};
+window.Year12HumanBioTopics[unit]={...previous,title:unit,subtitle:'Year 12 Human Biology ATAR · Unit 3',topics:[...existing.filter(t=>!chemicalTopics.some(c=>c.id===t.id)&&!nervousTopics.some(n=>n.id===t.id)&&!homeostasisTopics.some(h=>h.id===t.id)&&!immuneTopics.some(i=>i.id===t.id)),...chemicalTopics,...nervousTopics,...homeostasisTopics,...immuneTopics]};
 })();
