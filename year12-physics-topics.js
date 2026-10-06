@@ -17,8 +17,8 @@ window.Year12PhysicsTopics={
   {id:'induction',icon:'🌀',title:'Electromagnetic Induction',subtitle:'Magnetic flux, Faraday’s law, Lenz’s law and induced emf.'},
   {id:'generators',icon:'🔋',title:'Generators and Alternating Current',subtitle:'Generator operation, sinusoidal emf and energy transformations.'},
   {id:'transformers',icon:'🔌',title:'Transformers and Power Transmission',subtitle:'Transformer ratios, power, losses and efficient electricity transmission.'},
-  {id:'standard-model',icon:'⚛️',title:'The Standard Model',subtitle:'Quarks, leptons, hadrons, antimatter, interactions and fundamental forces.'},
-  {id:'particle-physics',icon:'🔬',title:'Particle Accelerators and Particle Interactions',subtitle:'Accelerators, evidence, conservation laws and particle interactions.'},
+  {id:'quantum',icon:'⚛️',title:'Wave–Particle Duality and Quantum Theory',subtitle:'EM waves, photons, photoelectric effect, atomic spectra, Bohr model and matter waves.'},
+  {id:'particle-physics',icon:'🔬',title:'Particle Accelerators and Relativistic Energy',subtitle:'Electric and magnetic control, cyclotrons, linacs, synchrotrons, relativistic momentum and energy.'},
   {id:'cosmology',icon:'🌌',title:'Cosmology and the Expanding Universe',subtitle:'Distance scales, expansion, Big Bang evidence and evolution of the universe.'}
  ]
 };
