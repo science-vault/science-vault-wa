@@ -37,6 +37,12 @@ jobs:
             ! -name '.gitignore' \
             -exec cp {} _site/ \;
 
+          # Publish lightweight teaching assets used directly by lesson pages.
+          if [ -d assets ]; then
+            mkdir -p _site/assets
+            cp -R assets/human-biology _site/assets/
+          fi
+
           # Vault pages load these catalogues directly in the browser.
           # Validate every catalogue used by the public vaults before publishing.
           for f in resource-manifest.json powerpoint-manifest.json video-manifest.json exam-manifest.json textbook-manifest.json assessment-manifest.json assessment-year7.json assessment-year8.json assessment-year9.json assessment-year10.json assessment-year11.json assessment-year12.json; do
