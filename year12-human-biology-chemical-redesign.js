@@ -1,7 +1,7 @@
 /* Chemical Messengers lesson redesign — coherent LMS lessons with source visuals embedded at point of teaching. */
 (function(){
 const L=window.Year12HumanBioLessons&&window.Year12HumanBioLessons["endocrine-intro"]; if(!L)return;
-const A="assets/human-biology/chemical-messengers/endocrine-intro/";
+const A="/science-vault-wa/assets/human-biology/chemical-messengers/endocrine-intro/";
 const img=(f,alt,cap)=>'<figure class="hb-teach-visual"><img src="'+A+f+'" alt="'+alt+'"><figcaption>'+cap+'</figcaption></figure>';
 const flow=(items)=>'<div class="hb-flow">'+items.map((x,i)=>'<div class="hb-node">'+x+'</div>'+(i<items.length-1?'<div class="hb-arrow">↓</div>':'')).join('')+'</div>';
 L.screens=[
