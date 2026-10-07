@@ -10,7 +10,10 @@ function format(s){
  t=t.replace(/m s −1/g,'m s<sup>−1</sup>').replace(/m s −2/g,'m s<sup>−2</sup>');
  t=root(t);
  t=t.replace(/tan<sup>−1<\/sup>\(([^/()]+)\/([^()]+)\)/g,(m,a,b)=>'tan<sup>−1</sup>('+frac(a,b)+')');
- t=t.replace(/\b([A-Za-z]+)\/([A-Za-z0-9]+)\b/g,(m,a,b)=>frac(a,b));
+ // Display division explicitly whenever a remaining slash represents division.
+ // This catches numeric substitutions and compound expressions that the simple fraction parser cannot safely stack.
+ t=t.replace(/\s*\/\s*/g,' ÷ ');
+ t=t.replace(/\b([A-Za-z]+) ÷ ([A-Za-z0-9]+)\b/g,(m,a,b)=>frac(a,b));
  return t;
 }
 function render(root=document){root.querySelectorAll('.math-display,.y12-equation').forEach(el=>{if(el.dataset.eqRendered||el.dataset.eqNative||el.querySelector('.eq-frac,.eq-root,sub,sup'))return;const note=el.querySelector('.eq-note');const noteHTML=note?note.outerHTML:'';const clone=el.cloneNode(true);clone.querySelectorAll('.eq-note').forEach(n=>n.remove());el.innerHTML='<div class="eq-row">'+format(clone.textContent)+'</div>'+noteHTML;el.dataset.eqRendered='1';});}
