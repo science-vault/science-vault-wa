@@ -15,10 +15,7 @@ const cfg={
 'magnetic-fields':{tag:'MAGNETIC FIELDS',eq:['B = μ₀I/(2πr)','F = qvB sin θ','F = IlB sin θ'],imgs:['2021-electromagnetism-1-040.png','2021-electromagnetism-1-042.png','2021-electromagnetism-1-043.png']}
 };
 const S=(title,html,type='learn')=>({title,html,type});
-const math=x=>'<div class="math-display" data-eq-native="1"><div class="eq-row">'+x
- .replace(/([A-Za-z])_([A-Za-z0-9]+)/g,'<i>$1</i><sub>$2</sub>')
- .replace(/²/g,'<sup>2</sup>').replace(/³/g,'<sup>3</sup>')
- .replace(/⁻¹/g,'<sup>−1</sup>').replace(/⁻²/g,'<sup>−2</sup>')+'</div></div>';
+const math=x=>'<div class="math-display"><div class="eq-row">'+x+'</div></div>';
 const img=(src,cap)=>'<figure class="senior-source-visual"><img loading="lazy" src="assets/physics/'+src+'" alt="Physics diagram"><figcaption>'+cap+'</figcaption></figure>';
 function clean(h){
  return String(h||'')
