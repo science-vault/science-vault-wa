@@ -10,7 +10,8 @@ window.Year12PhysicsTopics={
   {id:'orbits',icon:'🪐',title:'Planetary Motion, Kepler and Satellites',subtitle:'Kepler’s laws, orbital motion, satellite speed and period.'},
   {id:'relativity-foundations',icon:'🚀',title:'Frames of Reference and Special Relativity',subtitle:'Classical relativity, light, Michelson–Morley and Einstein’s postulates.'},
   {id:'relativity-effects',icon:'⏱️',title:'Time Dilation and Length Contraction',subtitle:'Lorentz factor, proper quantities, calculations and experimental evidence.'},
-  {id:'relativity-energy',icon:'⚡',title:'Relativistic Momentum and Mass–Energy',subtitle:'Relativistic energy, momentum, mass–energy equivalence and applications.'},\n  {id:'general-relativity',icon:'🌌',title:'General Relativity — Consequences and Evidence',subtitle:'Gravitational time dilation, GPS, black holes, gravitational waves and gravitational lensing.'},
+  {id:'relativity-energy',icon:'⚡',title:'Relativistic Momentum and Mass–Energy',subtitle:'Relativistic energy, momentum, mass–energy equivalence and applications.'},
+  {id:'general-relativity',icon:'🌌',title:'General Relativity — Consequences and Evidence',subtitle:'Gravitational time dilation, GPS, black holes, gravitational waves and gravitational lensing.'},
  ],
  'Unit 4 – Electromagnetism and modern physics':[
   {id:'electric-fields',icon:'⚡',title:'Electric Fields',subtitle:'Coulomb’s law, electric field strength, potential difference and uniform fields.'},
