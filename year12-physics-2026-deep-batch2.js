@@ -7,9 +7,9 @@ const cfg={
 'induction':{tag:'ELECTROMAGNETISM',eq:['ε = ℓvB sin θ','Φ = BA⊥','ε = −NΔΦ/Δt'],imgs:['2021-electromagnetism-1-052.png','2021-electromagnetism-1-055.png','2021-electromagnetism-1-057.png']},
 'generators':{tag:'ELECTROMAGNETISM',eq:['εmax = 2NℓvB','εmax = 2πNBAf','εrms = εmax/√2'],imgs:['2021-electromagnetism-1-061.png','2021-electromagnetism-1-063.png','2021-electromagnetism-1-066.png']},
 'transformers':{tag:'ELECTROMAGNETISM',eq:['Vp/Vs = Np/Ns','P = VI','Ploss = I²R'],imgs:['2021-electromagnetism-1-071.png','2021-electromagnetism-1-074.png','2021-electromagnetism-1-077.png']},
-'quantum':{tag:'MODERN PHYSICS',eq:['c = fλ','E = hf = hc/λ','Ek,max = hf − φ','λ = h/p'],imgs:['2021-wave-particle-duality-and-the-quantum-theory-010.png','2021-wave-particle-duality-and-the-quantum-theory-026.png','2021-wave-particle-duality-and-the-quantum-theory-052.png']},
+'quantum':{tag:'MODERN PHYSICS',eq:['c = fλ','E = hf = hc/λ','Ek,max = hf − φ','λ = h/p'],imgs:['2021-wave-particle-duality-and-the-quantum-theory-010.jpeg','2021-wave-particle-duality-and-the-quantum-theory-026.png','2021-wave-particle-duality-and-the-quantum-theory-052.png']},
 'particle-physics':{tag:'MODERN PHYSICS',eq:['W = qΔV','r = p/(qB)','E² = p²c² + m²c⁴'],imgs:['2021-the-standard-model-1-004.png','2021-the-standard-model-1-011.png','2021-the-standard-model-1-018.png']},
-'cosmology':{tag:'MODERN PHYSICS',eq:['v = H₀d','z = Δλ/λ₀'],imgs:['2021-the-standard-model-1-025.png','2021-the-standard-model-1-029.png','2021-the-standard-model-1-033.png']}
+'cosmology':{tag:'MODERN PHYSICS',eq:['v = H₀d','z = Δλ/λ₀'],imgs:['2021-the-standard-model-1-025.gif','2021-the-standard-model-1-029.png','2021-the-standard-model-1-033.png']}
 };
 const S=(title,html,type='learn')=>({title,html,type});
 const E=x=>'<div class="math-display"><div class="eq-row">'+x+'</div></div>';
