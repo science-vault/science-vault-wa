@@ -41,6 +41,7 @@ jobs:
           if [ -d assets ]; then
             mkdir -p _site/assets
             cp -R assets/human-biology _site/assets/
+            cp -R assets/physics _site/assets/
           fi
 
           # Vault pages load these catalogues directly in the browser.
