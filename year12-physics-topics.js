@@ -8,11 +8,13 @@ window.Year12PhysicsTopics={
   {id:'orbits',icon:'🪐',title:'Planetary Motion, Kepler and Satellites',subtitle:'Kepler’s laws, orbital motion, satellite speed and period.'},
   {id:'relativity-foundations',icon:'🚀',title:'Frames of Reference and Special Relativity',subtitle:'Classical relativity, light, Michelson–Morley and Einstein’s postulates.'},
   {id:'relativity-effects',icon:'⏱️',title:'Time Dilation and Length Contraction',subtitle:'Lorentz factor, proper quantities, calculations and experimental evidence.'},
-  {id:'relativity-energy',icon:'⚡',title:'Relativistic Momentum and Mass–Energy',subtitle:'Relativistic energy, momentum, mass–energy equivalence and applications.'}
+  {id:'relativity-energy',icon:'⚡',title:'Relativistic Momentum and Mass–Energy',subtitle:'Relativistic energy, momentum, mass–energy equivalence and applications.'},
+  {id:'electric-fields',icon:'⚡',title:'Electric Fields',subtitle:'Field strength, force, potential energy, potential and charged-particle motion.'},
+  {id:'magnetic-fields',icon:'🧲',title:'Magnetic Fields and Forces',subtitle:'Fields around currents and forces on charges and conductors.'}
  ],
  'Unit 4 – Electromagnetism and modern physics':[
-  {id:'electric-fields',icon:'⚡',title:'Electric Fields',subtitle:'Field strength, force, potential energy, potential and charged-particle motion.'},
-  {id:'magnetic-fields',icon:'🧲',title:'Magnetic Fields and Forces',subtitle:'Fields around currents and forces on charges and conductors.'},
+  
+  
   {id:'motors',icon:'⚙️',title:'Electromagnetic Force and Motors',subtitle:'Motor effect, torque, coils and practical applications.'},
   {id:'induction',icon:'🌀',title:'Electromagnetic Induction',subtitle:'Magnetic flux, Faraday’s law, Lenz’s law and induced emf.'},
   {id:'generators',icon:'🔋',title:'Generators and Alternating Current',subtitle:'Generator operation, sinusoidal emf and energy transformations.'},
