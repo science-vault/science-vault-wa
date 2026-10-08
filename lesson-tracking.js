@@ -1,0 +1,23 @@
+(function(){
+'use strict';
+const api=window.LVTracking;let context=null,profile=null,seen=new Set(),lastSignature='',retryTimer,flushTimer,busy=false;let lastYear7Pass='';
+const host=document.getElementById('lessonContent');if(!host||!api)return;
+const banner=document.createElement('p');banner.className='track-banner';banner.setAttribute('role','status');host.parentNode.insertBefore(banner,host);
+const say=s=>banner.textContent=s;
+const queueKey=()=>api.session()?'lv-pending:'+api.session().user.id:null;
+function readQueue(){try{return JSON.parse(sessionStorage.getItem(queueKey())||'[]')}catch{return []}}
+function putQueue(q){try{sessionStorage.setItem(queueKey(),JSON.stringify(q))}catch{say('Progress could not be queued on this device. Keep this page open and retry.')}}
+async function flush(){if(busy||!api.configured()||!api.session())return;busy=true;const uid=api.session().user.id;try{let q=readQueue();while(q.length&&api.session()?.user.id===uid){await api.rpc('lv_record_activity',q[0]);if(api.session()?.user.id!==uid)break;q=readQueue();q.shift();putQueue(q)}say('Lesson progress saved. Your class teachers can see this activity.')}catch(e){say('Progress pending: '+e.message+' Keep this tab open; saving will retry.');clearTimeout(retryTimer);retryTimer=setTimeout(flush,15000)}finally{busy=false}}
+function enqueue(payload){const q=readQueue();q.push(payload);putQueue(q);clearTimeout(flushTimer);flushTimer=setTimeout(flush,300);}
+function snapshot(){if(!context||!profile||profile.role!=='student'||!api.session())return null;const label=host.querySelector('#y12Step,#hbyStep,#y7Step,#y8Step,#msStep,#svStepLabel')?.textContent||'',m=label.match(/(?:Screen|Step) (\d+) of (\d+)/);const count=host.querySelectorAll('.sv-lesson-item[data-i],.sv-lesson-item[data-step]').length;if(!count)return null;if(m)seen.add(+m[1]);const title=host.querySelector('#y12Title,#hbyTitle,#y7Title,#y8Title,#msTitle,#svScreenTitle')?.textContent||'Lesson';return{p_key:context.key,p_title:context.title,p_course:context.course,p_screen:title.slice(0,250),p_total:count,p_visited:[...seen],p_score:null,p_attempt:null};}
+function observe(){const p=snapshot();if(!p)return;const signature=JSON.stringify(p);if(signature!==lastSignature){lastSignature=signature;enqueue(p)}}
+const observer=new MutationObserver(observe);observer.observe(host,{subtree:true,childList:true,characterData:true});
+window.LVLessonTracking={async start(id,title,course,unit){context={key:(course+'|'+unit+'|'+id).slice(0,250),title:title.slice(0,250),course:course.slice(0,150)};seen=new Set();lastSignature='';if(!api.configured()){say('Live progress tracking is awaiting activation. You can continue learning.');return}if(!api.session()){banner.innerHTML='To share progress with your teacher, <a href="student-tracking.html">sign in and join your class</a>.';return}try{profile=await api.profile();if(profile.role!=='student'){say('Teacher preview — lesson activity is not recorded as student work.');return}say('Saving your lesson activity to your account.');observe();flush()}catch(e){say(e.message)}},stop(){observe();context=null;}};
+host.addEventListener('click',e=>{if(!e.target.closest('#ymCheck,#hmCheck,#y7Check,#y8Check,#msCheck'))return;setTimeout(()=>{const p=snapshot();if(!p)return;const questions=[...host.querySelectorAll('#ymq .rq,#hmq .master-q,#y7q .rq,#y8q .rq,#msq .rq')];if(!questions.length)return;const score=questions.filter(q=>{const chosen=q.querySelector('input:checked');return chosen&&+chosen.value===+q.dataset.a}).length;p.p_score=Math.round(score/questions.length*100);p.p_attempt=crypto.randomUUID();enqueue(p)},0)});
+// Year 7 mastery updates per answered question; record its percentage on answer actions.
+host.addEventListener('click',e=>{if(!e.target.closest('.sv-rq button'))return;setTimeout(()=>{const p=snapshot(),score=host.querySelector('.sv-score b')?.textContent;if(p&&score==='100%'&&lastYear7Pass!==p.p_key){lastYear7Pass=p.p_key;p.p_score=100;p.p_attempt=crypto.randomUUID();enqueue(p)}},0)});
+window.addEventListener('online',flush);document.addEventListener('visibilitychange',()=>{if(!document.hidden)flush()});
+})();
+
+
+
