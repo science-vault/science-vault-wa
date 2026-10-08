@@ -30,6 +30,12 @@ jobs:
         with:
           ref: main
           fetch-depth: 1
+          # Cone mode includes root site files and these published asset trees.
+          # Avoid downloading the archived exams/resources omitted by the artifact build.
+          sparse-checkout: |
+            assets/human-biology
+            assets/physics
+          sparse-checkout-cone-mode: true
       - name: Build lightweight site artifact
         run: |
           mkdir -p _site
