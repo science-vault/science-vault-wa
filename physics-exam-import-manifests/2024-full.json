@@ -1,0 +1,68 @@
+{
+  "batch": "batch-2024-u12-u34",
+  "outputScript": "upper-school-assessment-bank-physics-repository-2024-full.js",
+  "pairs": [
+    {
+      "year": 11,
+      "examYear": 2024,
+      "units": "12",
+      "expectedCount": 20,
+      "paperPdf": "rendered/y11-2024-u12-paper.pdf",
+      "keyPdf": "rendered/y11-2024-u12-key.pdf",
+      "sourceFile": "exams/ATAR/Physics/11/2024/2024_physics_units_12_exam.docx",
+      "sourceKeyFile": "exams/ATAR/Physics/11/2024/2024_physics_units_12_marking_guide (1).docx",
+      "publisher": "West Australian Test Papers",
+      "topics": {
+        "1": "Radioactive decay",
+        "2": "Wave interference",
+        "3": "Specific heat capacity and latent heat",
+        "4": "Free fall",
+        "5": "Thermal radiation",
+        "6": "Wave speed and interference",
+        "7": "DC circuits",
+        "8": "Momentum and collisions",
+        "9": "Heating curves",
+        "10": "Work and energy",
+        "11": "Impulse and safety",
+        "13": "Standing waves in pipes",
+        "14": "Heat transfer and efficiency",
+        "15": "Kinematics investigation",
+        "16": "Nuclear fission and mass defect",
+        "17": "DC circuits",
+        "18": "Electrostatics and equilibrium",
+        "19": "Thermal radiation and emissivity",
+        "20": "Radioactive decay and radiation dose"
+      }
+    },
+    {
+      "year": 12,
+      "examYear": 2024,
+      "units": "34",
+      "expectedCount": 18,
+      "paperPdf": "rendered/y12-2024-u34-paper.pdf",
+      "keyPdf": "rendered/y12-2024-u34-key.pdf",
+      "sourceFile": "exams/ATAR/Physics/12/WACE/2024/2024_physics_units_34_exam (1).docx",
+      "sourceKeyFile": "exams/ATAR/Physics/12/WACE/2024/2024_physics_units_34_marking_guide (4).docx",
+      "publisher": "West Australian Test Papers",
+      "topics": {
+        "1": "Projectile motion",
+        "2": "Blackbody radiation",
+        "3": "Polarisation",
+        "4": "Hubble law and expansion",
+        "5": "Electromagnetic induction",
+        "6": "Gravitation and orbital motion",
+        "7": "Magnetic force between wires",
+        "8": "Relativity and matter waves",
+        "9": "Power transmission",
+        "10": "Vertical circular motion",
+        "11": "Special relativity",
+        "12": "Torque and equilibrium",
+        "13": "Circular motion and gravitation investigation",
+        "14": "Particle physics and relativity",
+        "16": "Charged particles in electric and magnetic fields",
+        "17": "Photoelectric effect and quantum physics",
+        "18": "Gravitation and orbital motion"
+      }
+    }
+  ]
+}

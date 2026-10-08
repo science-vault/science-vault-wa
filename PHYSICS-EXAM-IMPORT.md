@@ -27,3 +27,13 @@ Remaining work includes auditing the other paper/key pairs, semantic duplicate c
 Run Pandoc on the two source DOCX papers with `-t html --mathml --extract-media=physics-text/media11` (or `media12`), writing `physics-text/year11.html` and `year12.html`. Keep `physics-sample/rendered/year11-paper.pdf` and `year12-paper.pdf` beside the `physics-text` directory, then run `python scripts/convert-physics-sample-to-text.py physics-text`. Media paths in HTML are relative to the parent of the working directory. The script preserves record IDs and original page fallbacks.
 
 Eighteen reviewed crops restore Word vector drawings; 21 native raster figures are copied with transparency composited onto white. The Year 11 Question 14 isotope equation uses corrected MathML prescripts. Source captions clipped by the Word renderer are preserved as selectable figure captions. This converter is scoped to the audited pilot and requires review before adapting it to other papers.
+
+## Archive batches for Assessment Builder
+
+`physics-exam-import-queue.json` tracks all 992 distinct source documents, exact duplicates, format variants and filename-only paper/key candidates. Candidate matches are not treated as verified. `physics-exam-import-manifests/2024-full.json` describes the next two paper/key pairs.
+
+The 2024 combined-unit batch adds 36 questions (19 Year 11 Units 1 & 2; 17 Year 12 Units 3 & 4). Each question retains selectable SVG text, source vector drawings, tables, native pictures, working space and blank graph grids. Source question headings and unrelated section/blank-page notices are omitted so the builder supplies its own numbering and total marks. Questions remain whole with their shared stimulus and subparts. Topic labels describe the source content, without asserting current syllabus alignment.
+
+Two questions are held: Year 11 Units 1 & 2 Question 12 (paper 7 marks; guide 6), and Year 12 Units 3 & 4 Question 15 (paper 18; guide 17). They are excluded from the selectable bank pending resolution. The bank contains 77 imported source questions in total; the remaining archive is pending.
+
+Run `python scripts/import-physics-source-pairs.py physics-exam-import-manifests/2024-full.json WORK_DIRECTORY` with the manifest PDFs under `WORK_DIRECTORY/rendered`. The importer requires consecutive question boundaries, explicit end markers and matching total marks, preserves source response space, namespaces SVG IDs, extracts native image assets and produces a report listing held questions. Visually review every generated section before publishing.
