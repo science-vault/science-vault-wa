@@ -2,7 +2,7 @@ from pathlib import Path
 import fitz,re,json,html
 from PIL import Image,ImageOps,ImageDraw,ImageChops
 ROOT=Path(__file__).resolve().parents[1]
-ASSET=ROOT/'assets/physics-exam-import/sample-2024'
+ASSET=ROOT/'assets/physics/exam-import/sample-2024'
 ASSET.mkdir(parents=True,exist_ok=True)
 import argparse
 parser=argparse.ArgumentParser(description='Extract the audited 2024 Physics pilot from rendered source PDFs.')
