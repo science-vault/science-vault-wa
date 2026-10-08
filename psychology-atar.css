@@ -6,3 +6,6 @@
 
 body.senior-lms-open .psy-lms .sv-course{height:auto;overflow:visible}body.senior-lms-open .psy-lms .sv-stage{height:auto;overflow:visible}
 body.senior-lms-open .psy-lms .sv-course{max-height:none}
+
+body.senior-lms-open:has(.psy-lms) .hub>.hero,body.senior-lms-open:has(.psy-lms) .hub>.hub-pathway{display:none}.psy-diagram-hint{display:none}@media(max-width:750px){.psy-lms .psy-diagram-hint{display:block;font-size:13px;color:#526a7a}}
+.psy-lms #psyFormFeedback:not(:empty){padding:16px;background:#eef8f5;border-left:4px solid #087f80}
