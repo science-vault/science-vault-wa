@@ -2,7 +2,7 @@
 
 The first batch adds 41 complete source questions from the 2024 Year 11 Unit 1 and Year 12 Unit 3 papers, with their matching marking-guide entries. The repository owner confirmed permission to publish the papers on 9 October 2026.
 
-Questions remain grouped with their subparts and shared stimulus. Rendered sections preserve photographs, Word drawing shapes, graphs, tables and equations. Each record stores searchable source text, total marks, source paths, original question number and source exam year. Stable source IDs prevent repeat loading from creating duplicate records.
+Questions remain grouped with their subparts and shared stimulus. The 41 question bodies now use selectable HTML text, source tables, superscripts/subscripts and MathML equations, with 39 preserved source figures. An expandable original question layout remains available. Marking guides retain their rendered source sections. Each record stores searchable source text, total marks, source paths, original question number and source exam year. Stable source IDs prevent repeat loading from creating duplicate records.
 
 The Question Bank and Upper School Assessment Builder load the batch. In the Question Bank, filter Physics and choose question type, year or topic, or search source text. In the builder, select Physics ATAR, Year 11 or 12, and the syllabus option `2024 source exams (historical syllabus)`.
 
@@ -21,3 +21,9 @@ A LibreOffice rendering issue clipped some equation text in the Year 11 marking 
 Initial tree audit found 1,034 non-temporary Physics exam-folder documents: 285 Year 11 and 749 Year 12. Removing 42 byte-identical copies leaves 992 distinct documents. Filename classification suggests 566 question papers, 425 keys and one data sheet. Those classifications require content verification. Forty-four same-name multi-format groups also require semantic deduplication.
 
 Remaining work includes auditing the other paper/key pairs, semantic duplicate checks across formats and editions, structured subpart extraction, syllabus mapping and batch-by-batch visual verification. The entire archive has not been imported.
+
+## Selectable text conversion
+
+Run Pandoc on the two source DOCX papers with `-t html --mathml --extract-media=physics-text/media11` (or `media12`), writing `physics-text/year11.html` and `year12.html`. Keep `physics-sample/rendered/year11-paper.pdf` and `year12-paper.pdf` beside the `physics-text` directory, then run `python scripts/convert-physics-sample-to-text.py physics-text`. Media paths in HTML are relative to the parent of the working directory. The script preserves record IDs and original page fallbacks.
+
+Eighteen reviewed crops restore Word vector drawings; 21 native raster figures are copied with transparency composited onto white. The Year 11 Question 14 isotope equation uses corrected MathML prescripts. Source captions clipped by the Word renderer are preserved as selectable figure captions. This converter is scoped to the audited pilot and requires review before adapting it to other papers.
