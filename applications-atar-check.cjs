@@ -1,0 +1,19 @@
+/* node applications-atar-check.cjs: no installed packages needed. */
+const fs=require('fs'),vm=require('vm'),assert=require('assert'),ctx={window:{}};vm.createContext(ctx);
+for(const f of ['applications-atar-course.js','applications-visuals.js','applications-interactives.js'])vm.runInContext(fs.readFileSync(__dirname+'/'+f,'utf8'),ctx,{filename:f});
+const ms=ctx.window.ApplicationsATAR,vs=ctx.window.ApplicationsVisuals,sim=ctx.window.ApplicationsInteractives;
+assert.equal(ms.length,101);assert.equal(ms.filter(m=>m.year==='11').length,53);assert.equal(ms.filter(m=>m.year==='12').length,48);assert.equal(new Set(ms.map(m=>m.id)).size,101);assert.equal(Object.keys(vs).length,30);
+const expected={11:{'1.1':8,'1.2':7,'1.3':8,'2.1':12,'2.2':4,'2.3':10},12:{'3.1':19,'3.2':11,'3.3':9,'4.1':8,'4.2':7,'4.3':11}};
+for(const year of ['11','12']){const wanted=Object.entries(expected[year]).flatMap(([prefix,n])=>Array.from({length:n},(_,i)=>prefix+'.'+(i+1)));const actual=[...new Set(ms.filter(m=>m.year===year).flatMap(m=>m.outcomes))];assert.deepEqual(actual.sort(),wanted.sort())}
+let screens=0,tasks=0,expressions=0;const qids=new Set();
+for(const m of ms){assert.equal(m.screens.filter(s=>s.kind==='learn').length,4);assert.equal(m.questions.filter(q=>!q.practice).length,2);assert(m.questions.filter(q=>q.practice).length>=4);assert(m.screens.some(s=>s.diagram&&vs[s.diagram]));for(const s of m.screens){if(s.kind==='learn')assert(s.html.length>130);if(s.diagram)assert(vs[s.diagram]);if(s.kind==='question'||s.kind==='solution')assert(m.questions[s.q]);if(s.kind==='check')assert(m.bank[s.q]);assert(!/\bundefined\b|\bNaN\b|<script\b/i.test(s.html||''))}for(const q of m.questions){assert(!qids.has(q.id));qids.add(q.id);assert.equal(q.steps.length,q.stepsHtml.length);assert.equal(q.marks,q.allocations.reduce((a,b)=>a+b,0));assert(q.steps.length>=3);for(const text of[q.promptHtml,...q.stepsHtml])assert(!/\bundefined\b|\bNaN\b|\$\\/.test(text))}screens+=m.screens.length;tasks+=m.questions.length;expressions+=m.outcomes.length}
+assert.equal(screens,1539);assert.equal(tasks,617);
+// Numerical oracle: independent Simpson integration of standard-normal density.
+const phi=z=>Math.exp(-z*z/2)/Math.sqrt(2*Math.PI);function integrate(a,b){let N=20000,h=(b-a)/N,s=phi(a)+phi(b);for(let i=1;i<N;i++)s+=(i%2?4:2)*phi(a+i*h);return s*h/3}
+for(const z of [-3,-1.5,-1,0,1,1.5,3])assert(Math.abs(sim.cdf(z)-integrate(-9,z))<1e-6);
+const aaa=sim.assignments([[9,2,7],[6,4,3],[5,8,1]]);assert.equal(aaa.length,6);assert.equal(Math.min(...aaa.map(x=>x.cost)),9);assert.equal(Math.max(...aaa.map(x=>x.cost)),21);assert(aaa.every(x=>new Set(x.p).size===3));
+const bbb=sim.assignments([[82,83,69,92],[77,37,49,92],[11,69,5,86],[8,9,98,23]]);assert.equal(bbb.length,24);assert.equal(Math.min(...bbb.map(x=>x.cost)),140);
+// Fixed answer anchors: independently hand-calculated amounts and structural certificates.
+const find=k=>ms.find(m=>m.id.endsWith('-'+k));const has=(k,q,phrase)=>assert(find(k).questions[q].steps.join(' ').includes(phrase),k+' '+phrase);
+has('wages',0,'$925.00');has('commission',0,'163 items');has('budget',0,'$253.00');has('unitcost',0,'$5.25');has('percent',0,'$483.84');has('gstprofit',0,'$275.00');has('simplecompound',0,'$2,270.00');has('currency',0,'571.88');has('shares',0,'$87.50');has('substitute',0,'159');has('matrixproduct',0,'$66.00');has('matrixpower',0,'2 two-step walks');has('space',0,'13 cm');has('scalepowers',0,'675 cm³');has('normalrule',0,'10');has('twoway',0,'31.25%');has('regression',0,'1.5');has('residual',0,'1');has('arithmetic',0,'276');has('steady',0,'140');has('euler',0,'B–A–C–D–B–C');has('shortest',0,'8 min');has('prim',0,'8');has('critical',0,'11 days');has('float',0,'2 days');has('flow',0,'12');has('assignment',0,'12');has('hungarian',6,'140');
+console.log({lessons:ms.length,screens,tasks,diagrams:Object.keys(vs).length,year11ContentIDs:49,year12ContentIDs:65,allChecksPassed:true});
