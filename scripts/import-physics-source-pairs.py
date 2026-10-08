@@ -34,6 +34,11 @@ def trim_section(page, rect):
     mask = ImageChops.difference(im, Image.new('RGB', im.size, 'white')).convert('L').point(lambda v:255 if v>35 else 0)
     ink = mask.getbbox()
     if ink is None or ink[3]-ink[1] < 5: return None
+    # Preserve unruled working space after a prompt, not just visible ink.
+    substantive = [text for text, box in source_lines(page)
+                   if rect.y0 <= box.y0 and box.y1 <= rect.y1 and not administrative(text)
+                   and re.search(r'[A-Za-z]{2}', text)]
+    if substantive or ink[3]-ink[1] > 30: return rect
     return fitz.Rect(rect.x0, max(rect.y0, rect.y0+ink[1]-8), rect.x1,
                      min(rect.y1, rect.y0+ink[3]+8))
 
@@ -137,18 +142,30 @@ def main():
     args = parser.parse_args(); manifest = json.loads(args.manifest.read_text())
     batch = manifest['batch']; assets = ROOT / 'assets/physics/exam-import' / batch
     assets.mkdir(parents=True, exist_ok=True)
-    records, held, images = [], [], set()
+    records, held, resolved, images = [], [], [], set()
     for pair in manifest['pairs']:
         paper = fitz.open(args.work_directory / pair['paperPdf']); key = fitz.open(args.work_directory / pair['keyPdf'])
         questions = boundaries(paper, pair['expectedCount']); answers = boundaries(key, pair['expectedCount'])
         for q, k in zip(questions, answers):
+            discrepancy = None
             if q['marks'] != k['marks']:
-                held.append({'paper':pair['sourceFile'], 'key':pair['sourceKeyFile'], 'question':q['number'],
-                             'paperMarks':q['marks'], 'keyMarks':k['marks'], 'reason':'Paper/key total marks disagree'})
-                continue
+                discrepancy = pair.get('reviewedMarkDiscrepancies', {}).get(str(q['number']))
+                rubric_maximum = 0
+                for pi, rect in k['pieces']:
+                    for text, box in source_lines(key[pi]):
+                        if rect.y0 <= box.y0 and box.y1 <= rect.y1:
+                            match = re.fullmatch(r'(\d+)(?:\s*[-–]\s*(\d+))?\s*marks?', text)
+                            if match: rubric_maximum += int(match[2] or match[1])
+                if not discrepancy or (q['marks'], k['marks'], rubric_maximum) != (discrepancy['paperMarks'], discrepancy['keyMarks'], discrepancy['rubricMaximum']) or sum(discrepancy['partMarks']) != q['marks']:
+                    held.append({'paper':pair['sourceFile'], 'key':pair['sourceKeyFile'], 'question':q['number'],
+                                 'paperMarks':q['marks'], 'keyMarks':k['marks'], 'reason':'Paper/key total marks disagree'})
+                    continue
+                resolved.append({'paper':pair['sourceFile'], 'question':q['number'], **discrepancy})
             identifier = f"PHY-REPO-{pair['examYear']}-Y{pair['year']}-U{pair['units']}-Q{q['number']:02d}"
             body, searchable, pages = content(paper, q, identifier+'-q', assets, images)
             answer, _, key_pages = content(key, k, identifier+'-k', assets, images)
+            if discrepancy:
+                answer = '<p class="source-marking-note"><strong>Marking note:</strong> '+html.escape(discrepancy['note'])+'</p>'+answer
             records.append({'id':identifier,'area':'Science','course':'Physics','pathway':'ATAR','year':pair['year'],
                 'unit':f"Units {pair['units'][0]} & {pair['units'][-1]} ({pair['examYear']} source)",
                 'syllabusVersion':f"source-{pair['examYear']}",'topic':pair.get('topics',{}).get(str(q['number']),'Source exam — topic mapping pending'),
@@ -158,6 +175,10 @@ def main():
                 'examYear':pair['examYear'],'sourceSyllabusYear':pair['examYear'],'sourcePublisher':pair.get('publisher','Source repository'),
                 'importBatch':batch,'markingMode':'manual','responseLines':0,'parts':[],
                 'questionFormat':'selectable-source-svg','reviewStatus':'Paper/key numbers and total marks agree; source layout retained; current syllabus and structured subpart marking pending'})
+            if discrepancy:
+                records[-1]['sourceGuideDeclaredMarks'] = k['marks']
+                records[-1]['markingNote'] = discrepancy['note']
+                records[-1]['reviewStatus'] = 'Source guide label discrepancy resolved against individual rubric criteria; paper total used; current syllabus alignment pending'
     output = ROOT / manifest['outputScript']
     script = """// Reviewed source paper/key pairs; source syllabus and manual marking.
 (function(){const bank=window.UpperSchoolQuestionBank=window.UpperSchoolQuestionBank||[];
@@ -167,7 +188,7 @@ if(window.UpperSchoolSyllabusVersions)for(const q of records){const key='Science
 if(typeof document!=='undefined'&&!document.getElementById('physics-source-svg-style')){const style=document.createElement('style');style.id='physics-source-svg-style';style.textContent='.physics-source-svg{display:block;width:100%;height:auto;overflow:hidden;margin:8px auto 18px;background:white;user-select:text}.physics-source-svg text{user-select:text;font-family:Arial,sans-serif}.physics-source-layout{max-width:800px;margin:auto}@media print{.physics-source-svg{break-inside:avoid;page-break-inside:avoid}.qhead{break-after:avoid}}';document.head.appendChild(style)}
 })();\n"""
     output.write_text(script)
-    report={'batch':batch,'publishedQuestionCandidates':len(records),'heldQuestions':held,'nativeImages':sorted(images),
+    report={'batch':batch,'publishedQuestionCandidates':len(records),'heldQuestions':held,'resolvedMarkDiscrepancies':resolved,'nativeImages':sorted(images),
             'records':[{'id':q['id'],'marks':q['marks'],'sourcePages':q['sourcePages'],'sourceKeyPages':q['sourceKeyPages']} for q in records]}
     (args.work_directory / (batch+'-report.json')).write_text(json.dumps(report,indent=2))
     print(json.dumps({'questions':len(records),'held':held,'nativeImages':len(images),'scriptBytes':output.stat().st_size}))

@@ -1847,11 +1847,11 @@
       "sha": "882a5a83c1c61d27e8d531df3fcac50c185e1b9d",
       "year": "11",
       "role": "question-paper candidate",
-      "status": "imported-with-held-questions",
+      "status": "validated-for-bank",
       "format": ".docx",
       "candidateKeys": [],
       "pairingStatus": "needs-pair-review",
-      "questionCount": 19,
+      "questionCount": 20,
       "importBatch": "batch-2024-u12-u34"
     },
     {
@@ -1859,10 +1859,10 @@
       "sha": "7d3fdca43e953a01d56fc0eba8f5c5be4b24b102",
       "year": "11",
       "role": "marking-key candidate",
-      "status": "imported-with-held-questions",
+      "status": "validated-for-bank",
       "format": ".docx",
       "importBatch": "batch-2024-u12-u34",
-      "questionCount": 19
+      "questionCount": 20
     },
     {
       "path": "exams/ATAR/Physics/11/A level Physics/AS-Physics-Equilibrium-and-Moments-Answers-OCR-AQA-Edexcel.pdf",
@@ -7755,11 +7755,11 @@
       "sha": "6a7bebdfe4cf694a062008c9ace623203669311a",
       "year": "12",
       "role": "question-paper candidate",
-      "status": "imported-with-held-questions",
+      "status": "validated-for-bank",
       "format": ".docx",
       "candidateKeys": [],
       "pairingStatus": "needs-pair-review",
-      "questionCount": 17,
+      "questionCount": 18,
       "importBatch": "batch-2024-u12-u34"
     },
     {
@@ -7767,10 +7767,10 @@
       "sha": "f9344c1ea89a4943eb63ab6d727ef01a0651691b",
       "year": "12",
       "role": "marking-key candidate",
-      "status": "imported-with-held-questions",
+      "status": "validated-for-bank",
       "format": ".docx",
       "importBatch": "batch-2024-u12-u34",
-      "questionCount": 17
+      "questionCount": 18
     },
     {
       "path": "exams/ATAR/Physics/12/WACE/2024/2024_physics_units_3_exam.docx",
@@ -10356,24 +10356,35 @@
     },
     {
       "id": "batch-2024-u12-u34",
-      "questionCount": 36,
+      "questionCount": 38,
       "status": "validated-for-bank",
-      "heldQuestions": [
+      "heldQuestions": [],
+      "resolvedMarkDiscrepancies": [
         {
           "paper": "exams/ATAR/Physics/11/2024/2024_physics_units_12_exam.docx",
-          "key": "exams/ATAR/Physics/11/2024/2024_physics_units_12_marking_guide (1).docx",
           "question": 12,
           "paperMarks": 7,
           "keyMarks": 6,
-          "reason": "Paper/key total marks disagree"
+          "rubricMaximum": 7,
+          "partMarks": [
+            1,
+            6
+          ],
+          "note": "Use 7 marks: part (a) 1 mark and part (b) 6 marks. The source guide heading says 6 and its part (b) label says 5, but its seven individual one-mark criteria total 7, matching the paper."
         },
         {
           "paper": "exams/ATAR/Physics/12/WACE/2024/2024_physics_units_34_exam (1).docx",
-          "key": "exams/ATAR/Physics/12/WACE/2024/2024_physics_units_34_marking_guide (4).docx",
           "question": 15,
           "paperMarks": 18,
           "keyMarks": 17,
-          "reason": "Paper/key total marks disagree"
+          "rubricMaximum": 18,
+          "partMarks": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "note": "Use 18 marks: parts (a) 3, (b) 4, (c) 5 and (d) 6. The source guide heading says 17, but its subparts and individual criteria total 18, matching the paper."
         }
       ]
     }

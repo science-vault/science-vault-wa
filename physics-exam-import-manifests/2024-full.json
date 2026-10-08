@@ -31,7 +31,20 @@
         "17": "DC circuits",
         "18": "Electrostatics and equilibrium",
         "19": "Thermal radiation and emissivity",
-        "20": "Radioactive decay and radiation dose"
+        "20": "Radioactive decay and radiation dose",
+        "12": "Velocity-time graphs and displacement"
+      },
+      "reviewedMarkDiscrepancies": {
+        "12": {
+          "paperMarks": 7,
+          "keyMarks": 6,
+          "rubricMaximum": 7,
+          "partMarks": [
+            1,
+            6
+          ],
+          "note": "Use 7 marks: part (a) 1 mark and part (b) 6 marks. The source guide heading says 6 and its part (b) label says 5, but its seven individual one-mark criteria total 7, matching the paper."
+        }
       }
     },
     {
@@ -61,7 +74,22 @@
         "14": "Particle physics and relativity",
         "16": "Charged particles in electric and magnetic fields",
         "17": "Photoelectric effect and quantum physics",
-        "18": "Gravitation and orbital motion"
+        "18": "Gravitation and orbital motion",
+        "15": "Fluorescence and atomic energy levels"
+      },
+      "reviewedMarkDiscrepancies": {
+        "15": {
+          "paperMarks": 18,
+          "keyMarks": 17,
+          "rubricMaximum": 18,
+          "partMarks": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "note": "Use 18 marks: parts (a) 3, (b) 4, (c) 5 and (d) 6. The source guide heading says 17, but its subparts and individual criteria total 18, matching the paper."
+        }
       }
     }
   ]
