@@ -22,7 +22,7 @@
     document.querySelectorAll('[data-teacher-only]').forEach(el=>{if(role!=='teacher')el.hidden=true});
     document.querySelectorAll('[data-student-only]').forEach(el=>{if(role!=='student')el.hidden=true});
     const nav=document.querySelector('.topbar nav');
-    if(nav&&nav.dataset.portalNav!=='off'){
+    if(nav&&nav.dataset.portalNav!=='off'&&!document.querySelector('script[src*="site-shell.js"]')){
       const keepHome='<a href="index.html">Home</a>';
       const primary=(role==='teacher'?teacher:student).slice(0,6).map(([href,label])=>`<a href="${href}">${label}</a>`).join('');
       nav.innerHTML=keepHome+primary+`<a href="${role==='teacher'?'teacher-area.html':'student-area.html'}" aria-label="Return to portal">Portal</a>`;

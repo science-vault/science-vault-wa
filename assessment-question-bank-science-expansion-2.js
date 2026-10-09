@@ -42,5 +42,5 @@ for(const [ys,strands] of Object.entries(curriculum)){const y=+ys;for(const [str
  // topic-specific diagram task where useful
  let dg=null;if(topic.includes('Mixtures'))dg=diagrams.sep;if(topic.includes('Cells'))dg=diagrams.cell;if(topic.includes('Plate tectonics'))dg=diagrams.plates;if(topic.includes('Motion and acceleration'))dg=diagrams.motion;
  if(dg)add(y,strand,topic,'Labelling',1,`Study the diagram related to ${topic.toLowerCase()}. Identify or label A–D using appropriate scientific terms and explain one relationship shown.`,`Correct identifications/labels appropriate to the diagram [up to 3]; correct relationship [1].`,4,'Medium',{diagram:dg,responseLines:4});
-}}}}
+}}}
 })();

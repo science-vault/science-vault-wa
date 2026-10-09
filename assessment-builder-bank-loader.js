@@ -7,7 +7,7 @@
     if(pending.has(src)) return pending.get(src);
     const p = new Promise((resolve,reject)=>{
       const s=document.createElement('script');
-      s.src=src+(src.includes('?')?'&':'?')+'v=2026.26';
+      s.src=src+(src.includes('?')?'&':'?')+'v=2026.10.9';
       s.async=false;
       s.onload=()=>{loaded.add(src);pending.delete(src);resolve(src)};
       s.onerror=()=>{pending.delete(src);reject(new Error('Could not load question bank file: '+src))};

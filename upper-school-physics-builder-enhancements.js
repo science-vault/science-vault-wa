@@ -22,7 +22,7 @@ function ready(){
  };
  window.showKey=function(){if(!$('questions'))return;$('questions').innerHTML=built.map((q,i)=>`<article class="q"><div class="qhead"><strong>Question ${i+1}</strong><strong>[${q.marks} marks]</strong></div><div class="meta">${q.unit} • ${q.topic} • ${q.type}</div><div class="question-stem">${q.stem||q.question}</div>${q.keyDiagram||q.diagram||''}${q.parts?q.parts.map(p=>`<div class="question-part"><b>${p.label||''}</b> ${p.text} <span class="part-marks">(${p.marks})</span></div>`).join(''):''}<div class="physics-key-answer"><b>Marking key:</b> ${q.answer}</div></article>`).join('')};
  // Physics uses only the three SCSA exam question categories in the question-bank filter.
- const sync=()=>{$('questionTypeField').style.display=isPhysics()?'':'none';if(isPhysics()){$('questionType').value=$('questionType').value||'all'} };
+ const sync=()=>{const field=$('questionTypeField');if(field)field.style.display=isPhysics()?'':'none';if(isPhysics()){$('questionType').value=$('questionType').value||'all'} };
  ['area','course','pathway','year'].forEach(id=>$(id)?.addEventListener('change',()=>setTimeout(sync,0)));sync();
  if(window.renderBank)renderBank();
 }
