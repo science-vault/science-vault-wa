@@ -45,19 +45,24 @@ jobs:
           resources=scan('resources')
           if not resources: raise SystemExit('ERROR: resources directory exists but resource scan returned zero files')
           save('resource-manifest.json',resources)
-          powerpoints=[r for r in resources if os.path.splitext(r['path'])[1].lower() in {'.ppt','.pptx'}]
+          powerpoints=[r for r in resources if os.path.splitext(r['path'])[1].lower() in {'.ppt','.pptx'} and not re.search(r'(^|/)assessments?(/|$)',r['path'],re.I)]
           videos=[r for r in resources if os.path.splitext(r['path'])[1].lower() in {'.mp4','.mov','.m4v','.webm','.ogv'}]
           save('powerpoint-manifest.json',powerpoints);save('video-manifest.json',videos)
           save('exam-manifest.json',scan('exams'))
           textbook_exts={'.pdf','.jpg','.jpeg','.png','.webp'}
           textbooks=scan('resources/Textbooks',textbook_exts)+scan('textbooks',textbook_exts)
           textbooks=sorted({x['path']:x for x in textbooks}.values(),key=lambda x:x['path'].lower());save('textbook-manifest.json',textbooks)
-          base='resources/Assessments';all_assess=[r for r in resources if r['path'].startswith(base+'/')];out=[]
+          base='resources/Assessments';all_assess=[r for r in resources if r['path'].startswith(base+'/') or (re.search(r'(^|/)assessments?(/|$)',r['path'],re.I) and os.path.splitext(r['path'])[1].lower() in {'.ppt','.pptx'})];out=[]
           lower_alias={'maths':'Mathematics','mathematics':'Mathematics','science':'Science','english':'English','hass':'HASS','digital technologies':'Digital Technologies','digital technology':'Digital Technologies','health and physical education':'Health and Physical Education','hpe':'Health and Physical Education'}
           school_rx=re.compile(r'school|college|academy|grammar|senior high|secondary|catholic|anglican|christian|community|southern river|kennedy|narrogin|rossmoyne|aranmore',re.I)
           for r in all_assess:
               p=r['path'];parts=p.split('/')
               if len(parts)<4:continue
+              if parts[1].lower() in {'atar','general'}:
+                  ym=next((int(re.search(r'(11|12)',x).group(1)) for x in parts[3:-1] if re.fullmatch(r'Year\\s*(11|12)|(?:11|12)',x,re.I)),None)
+                  if ym is None:continue
+                  unit=next((x for x in parts[3:-1] if re.fullmatch(r'Unit\\s*[1-4]',x,re.I)),'');school=next((x for x in parts[3:-1] if school_rx.search(x)),'Unspecified source')
+                  out.append({**r,'year':f'Year {ym}','pathway':parts[1].upper(),'subject':parts[2],'topic':'All Assessments','unit':unit,'school':school});continue
               if len(parts)>=6 and parts[2].lower()=='lowerschool' and re.fullmatch(r'Year\s*(7|8|9|10)',parts[3],re.I):
                   y=int(re.search(r'(7|8|9|10)',parts[3]).group(1));raw=parts[4].strip();subject=lower_alias.get(raw.lower(),raw);school='Unspecified source'
                   if len(parts)>=7 and school_rx.search(parts[5]):school=parts[5]
@@ -82,9 +87,10 @@ jobs:
           python -m json.tool powerpoint-manifest.json >/dev/null
           python -m json.tool video-manifest.json >/dev/null
           python - <<'PY'
-          import json
+          import json,re
           r=json.load(open('resource-manifest.json',encoding='utf-8'));p=json.load(open('powerpoint-manifest.json',encoding='utf-8'));v=json.load(open('video-manifest.json',encoding='utf-8'))
           assert len(r)>0;assert len(p)>0
+          assert all(not re.search(r'(^|/)assessments?(/|$)',x['path'],re.I) for x in p)
           print('Validated',len(r),'resources,',len(p),'PowerPoints and',len(v),'videos')
           PY
       - name: Commit manifests safely
