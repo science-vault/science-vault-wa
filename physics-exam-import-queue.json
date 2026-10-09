@@ -1790,19 +1790,71 @@
       "sha": "cd96970ce247c8d42958984dd35e5eebff922f0e",
       "year": "11",
       "role": "question-paper candidate",
-      "status": "pending-content-review",
+      "status": "partially-imported",
       "format": ".docx",
       "candidateKeys": [],
-      "pairingStatus": "needs-pair-review",
-      "questionCount": null
+      "pairingStatus": "verified-question-numbers-and-marks",
+      "questionCount": 12,
+      "importBatch": "batch-2023-u1-next12",
+      "sourceQuestionCount": 19,
+      "importedQuestionNumbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "remainingQuestionNumbers": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
     },
     {
       "path": "exams/ATAR/Physics/11/2023/2023_physics_unit_1_marking_guide.docx",
       "sha": "6f104715043f578cc7186768ec1724f755e4f738",
       "year": "11",
       "role": "marking-key candidate",
-      "status": "pending-content-review",
-      "format": ".docx"
+      "status": "partially-imported",
+      "format": ".docx",
+      "importBatch": "batch-2023-u1-next12",
+      "questionCount": 12,
+      "sourceQuestionCount": 19,
+      "importedQuestionNumbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "remainingQuestionNumbers": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "pairingStatus": "verified-question-numbers-and-marks"
     },
     {
       "path": "exams/ATAR/Physics/11/2023/2023_physics_units_12_exam.docx",
