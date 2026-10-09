@@ -2,7 +2,7 @@
 (function(){
  'use strict';
  function setup(){
-  const bar=document.querySelector('.topbar'),nav=bar?.querySelector('nav');if(!bar||!nav)return;
+  const bar=document.querySelector('.topbar');if(!bar)return;let nav=bar.querySelector('nav');if(!nav){nav=document.createElement('nav');bar.appendChild(nav)}
   let role='';try{role=sessionStorage.getItem('lv-role')||'';sessionStorage.removeItem('lv-tracking-session');for(let i=sessionStorage.length-1;i>=0;i--){const key=sessionStorage.key(i);if(key?.startsWith('lv-pending:'))sessionStorage.removeItem(key)}}catch{}
   const page=location.pathname.split('/').pop()||'index.html';
   const link=(href,label)=>`<a href="${href}"${page===href?' aria-current="page" class="active"':''}>${label}</a>`;
