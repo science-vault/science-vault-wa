@@ -11,5 +11,4 @@ window.UpperSchoolSyllabusVersions={
   'Science|Physics|ATAR|12':[{id:'teach-2026',label:'2026 SCSA Physics ATAR Year 12 syllabus',applicable2026:true}]
 };
 window.getUpperSchoolSyllabusVersions=function(area,course,pathway,year){const key=[area,course,pathway,String(year)].join('|');return window.UpperSchoolSyllabusVersions[key]||[{id:'current',label:'Current SCSA syllabus',applicable2026:true}]};
-// Load the Physics-specific assessment rendering/filter enhancements after the builder's base scripts finish parsing.
-if(typeof document!=='undefined'){const s=document.createElement('script');s.src='upper-school-physics-builder-enhancements.js?v=2026.10.3';s.async=true;document.head.appendChild(s);}
+// The builder now renders diagrams, parts and marking keys directly.
