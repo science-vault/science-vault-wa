@@ -2,37 +2,94 @@ rules_version = '2';
 service cloud.firestore {
  match /databases/{database}/documents {
   function signedIn() { return request.auth != null; }
-  function isAdmin() {
-   return signedIn() && request.auth.token.email_verified == true
-    && exists(/databases/$(database)/documents/admins/$(request.auth.uid))
-    && get(/databases/$(database)/documents/admins/$(request.auth.uid)).data.enabled == true;
+  function member() { return get(/databases/$(database)/documents/members/$(request.auth.uid)).data; }
+  function active() { return signedIn() && member().status == 'active' && member().registrationVersion == 2; }
+  function student() { return active() && member().role == 'student'; }
+  function teacher() { return active() && member().role == 'teacher' && request.auth.token.email_verified == true && member().permissions.get('teacher-classes.html',true) == true; }
+  function isAdmin() { return signedIn() && request.auth.token.email_verified == true && exists(/databases/$(database)/documents/admins/$(request.auth.uid)) && get(/databases/$(database)/documents/admins/$(request.auth.uid)).data.enabled == true; }
+  function room(code) { return get(/databases/$(database)/documents/classes/$(code)).data; }
+  function owner(code) { return teacher() && room(code).ownerUid == request.auth.uid; }
+  function ownerActive(code) { let p = get(/databases/$(database)/documents/members/$(room(code).ownerUid)).data; return p.role == 'teacher' && p.status == 'active' && p.registrationVersion == 2 && p.permissions.get('teacher-classes.html',true) == true; }
+  function enrolled(code) { return student() && ownerActive(code) && exists(/databases/$(database)/documents/classes/$(code)/students/$(request.auth.uid)); }
+  function validMember(d) {
+   return d.keys().hasOnly(['email','displayName','role','status','permissions','registrationVersion','yearGroup','subjects','classCode','createdAt','updatedAt'])
+    && d.keys().hasAll(['email','displayName','role','status','permissions','registrationVersion','yearGroup','subjects','classCode','createdAt','updatedAt'])
+    && d.email == request.auth.token.email && d.displayName is string && d.displayName.size() <= 60
+    && d.role in ['student','teacher'] && d.status == 'pending' && d.permissions == {} && d.registrationVersion == 2
+    && d.classCode is string && (d.classCode == '' || d.classCode.matches('^[A-HJ-NP-Z2-9]{8}$'))
+    && d.subjects is list && d.subjects.toSet().size() == d.subjects.size()
+    && ((d.role == 'teacher' && d.yearGroup == 0 && d.subjects == [] && d.classCode.size() == 8)
+     || (d.role == 'student' && d.yearGroup in [7,8,9,10,11,12]
+      && ((d.yearGroup <= 10 && d.subjects == []) || (d.yearGroup >= 11 && d.subjects.size() >= 4 && d.subjects.size() <= 5
+       && d.subjects.hasOnly(['Physics ATAR','Chemistry ATAR','Biology ATAR','Human Biology ATAR','Psychology ATAR','Mathematics Methods ATAR','Mathematics Specialist ATAR','Mathematics Applications ATAR','English ATAR','Physical Education Studies ATAR'])))))
+    && d.updatedAt == request.time;
   }
-  match /admins/{uid} {
-   // Bootstrap the owner in the Firebase console. Website users can never grant admin access.
-   allow get: if signedIn() && request.auth.uid == uid;
-   allow list, create, update, delete: if false;
-  }
+  match /admins/{uid} { allow get: if signedIn() && request.auth.uid == uid; allow list, write: if false; }
   match /members/{uid} {
    allow get: if signedIn() && (request.auth.uid == uid || isAdmin());
    allow list: if isAdmin();
-   allow create: if signedIn() && request.auth.uid == uid
-    && request.resource.data.keys().hasOnly(['email','displayName','role','status','permissions','createdAt','updatedAt'])
-    && request.resource.data.keys().hasAll(['email','displayName','role','status','permissions','createdAt','updatedAt'])
-    && request.resource.data.email == request.auth.token.email
-    && request.resource.data.displayName is string && request.resource.data.displayName.size() <= 60
-    && request.resource.data.role in ['student','teacher']
-    && ((request.resource.data.role == 'student' && request.resource.data.status == 'active')
-     || (request.resource.data.role == 'teacher' && request.resource.data.status == 'pending'))
-    && request.resource.data.permissions == {}
-    && request.resource.data.createdAt == request.time && request.resource.data.updatedAt == request.time;
-   allow update: if isAdmin()
-    && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status','permissions','updatedAt'])
-    && request.resource.data.status in ['active','pending','suspended']
-    && request.resource.data.permissions is map && request.resource.data.permissions.size() <= 500
-    && request.resource.data.updatedAt == request.time;
+   allow create: if signedIn() && request.auth.uid == uid && validMember(request.resource.data) && request.resource.data.createdAt == request.time;
+   allow update: if (isAdmin() && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status','permissions','updatedAt']) && request.resource.data.status in ['active','pending','suspended'] && request.resource.data.permissions is map && request.resource.data.permissions.size() <= 500 && request.resource.data.updatedAt == request.time)
+    || (signedIn() && request.auth.uid == uid && resource.data.get('registrationVersion',0) < 2 && request.resource.data.role == resource.data.role && request.resource.data.createdAt == resource.data.createdAt && validMember(request.resource.data));
    allow delete: if false;
+   match /enrollments/{code} {
+    allow read: if signedIn() && request.auth.uid == uid;
+    allow create, update: if student() && request.auth.uid == uid && member().permissions.get('student-classes.html',true) == true
+     && request.resource.data.keys().hasOnly(['classCode','joinedAt']) && request.resource.data.classCode == code && request.resource.data.joinedAt == request.time
+     && existsAfter(/databases/$(database)/documents/classes/$(code)/students/$(uid));
+    allow delete: if false;
+   }
   }
-  // Deny every collection that has not been explicitly defined above.
+  match /classes/{code} {
+   // The code is a shareable invitation. This document contains no student records.
+   allow get: if signedIn();
+   allow list: if teacher() && resource.data.ownerUid == request.auth.uid;
+   allow create: if signedIn() && request.resource.data.keys().hasOnly(['ownerUid','name','code','createdAt'])
+    && request.resource.data.ownerUid == request.auth.uid && request.resource.data.code == code && code.matches('^[A-HJ-NP-Z2-9]{8}$')
+    && request.resource.data.name is string && request.resource.data.name.size() <= 120 && request.resource.data.createdAt == request.time
+    && getAfter(/databases/$(database)/documents/members/$(request.auth.uid)).data.role == 'teacher'
+    && getAfter(/databases/$(database)/documents/members/$(request.auth.uid)).data.classCode == code;
+   allow update, delete: if false;
+   match /students/{uid} {
+    allow get: if owner(code) || isAdmin() || (student() && uid == request.auth.uid);
+    allow list: if owner(code) || isAdmin();
+    allow create, update: if student() && request.auth.uid == uid && ownerActive(code) && member().permissions.get('student-classes.html',true) == true
+     && request.resource.data.keys().hasOnly(['studentUid','displayName','yearGroup','joinedAt']) && request.resource.data.studentUid == uid
+     && request.resource.data.displayName == member().displayName && request.resource.data.yearGroup == member().yearGroup && request.resource.data.joinedAt == request.time;
+    allow delete: if false;
+   }
+   match /tasks/{taskId} {
+    allow read: if owner(code) || enrolled(code) || isAdmin();
+    allow create: if owner(code) && request.resource.data.keys().hasOnly(['title','kind','course','yearGroup','unit','topic','instructions','dueDate','minutes','questionIds','url','ownerUid','createdAt'])
+     && request.resource.data.ownerUid == request.auth.uid && request.resource.data.createdAt == request.time
+     && request.resource.data.title is string && request.resource.data.title.size() > 0 && request.resource.data.title.size() <= 120
+     && request.resource.data.kind in ['lesson','practice','assessment'] && request.resource.data.yearGroup in [7,8,9,10,11,12]
+     && request.resource.data.course is string && request.resource.data.course.size() <= 120
+     && request.resource.data.unit is string && request.resource.data.unit.size() <= 120 && request.resource.data.topic is string && request.resource.data.topic.size() <= 120
+     && request.resource.data.instructions is string && request.resource.data.instructions.size() <= 2000
+     && request.resource.data.dueDate is string && request.resource.data.dueDate.size() <= 10
+     && request.resource.data.minutes is int && request.resource.data.minutes >= 0 && request.resource.data.minutes <= 180
+     && request.resource.data.questionIds is list && request.resource.data.questionIds.size() <= 50
+     && (request.resource.data.kind != 'assessment' || request.resource.data.questionIds.size() > 0)
+     && request.resource.data.url is string && request.resource.data.url.size() <= 1500 && request.resource.data.url.matches('^(topic-hub|student-quiz)\\.html(\\?.*)?$');
+    allow update, delete: if false;
+   }
+   match /progress/{attemptId} {
+    allow read: if owner(code) || isAdmin() || (enrolled(code) && resource.data.studentUid == request.auth.uid);
+    allow create: if enrolled(code) && request.resource.data.keys().hasOnly(['studentUid','taskId','kind','title','course','yearGroup','earned','max','manualCount','completed','selfReported','seconds','responses','createdAt'])
+     && request.resource.data.studentUid == request.auth.uid && request.resource.data.createdAt == request.time
+     && request.resource.data.kind in ['quiz','lesson'] && request.resource.data.yearGroup == member().yearGroup
+     && request.resource.data.course is string && request.resource.data.course.size() <= 120 && (member().yearGroup <= 10 || request.resource.data.course in member().subjects)
+     && request.resource.data.title is string && request.resource.data.title.size() <= 120
+     && request.resource.data.earned is number && request.resource.data.max is number && request.resource.data.earned >= 0 && request.resource.data.earned <= request.resource.data.max && request.resource.data.max <= 10000
+     && request.resource.data.manualCount is int && request.resource.data.manualCount >= 0 && request.resource.data.manualCount <= 100
+     && request.resource.data.completed is bool && request.resource.data.selfReported is bool && request.resource.data.seconds is int && request.resource.data.seconds >= 0 && request.resource.data.seconds <= 86400
+     && request.resource.data.responses is list && request.resource.data.responses.size() <= 50 && request.resource.data.taskId is string
+     && member().permissions.get(request.resource.data.kind == 'quiz' ? 'student-quiz.html' : 'topic-hub.html',true) == true
+     && (request.resource.data.taskId == '' || (get(/databases/$(database)/documents/classes/$(code)/tasks/$(request.resource.data.taskId)).data.yearGroup == request.resource.data.yearGroup && get(/databases/$(database)/documents/classes/$(code)/tasks/$(request.resource.data.taskId)).data.course == request.resource.data.course));
+    allow update, delete: if false;
+   }
+  }
   match /{document=**} { allow read, write: if false; }
  }
 }

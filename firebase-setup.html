@@ -1,38 +1,95 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Owner account setup | Learning Vault WA</title><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="site-refresh.css?v=2026.10.9"><link rel="stylesheet" href="admin-access.css?v=2026.10.9"><script src="site-shell.js?v=2026.10.9-permissions" defer></script></head><body><header class="topbar"><a class="brand" href="account.html"><span class="brand-mark">LV</span><span><strong>Learning Vault WA</strong><small>Owner setup</small></span></a><nav></nav></header><main class="admin-layout"><section class="admin-hero"><span class="eyebrow">ONE-TIME FIREBASE SETUP</span><h1>Connect your admin account.</h1><p>The website is ready to use your Firebase Authentication and Firestore account permissions.</p></section><section class="admin-gate"><ol><li><strong>Enable email/password login.</strong> In your science-vault-wa Firebase project, open Authentication → Get started → Sign-in method, and enable Email/Password. In Authentication → Settings → Authorized domains, add <code>science-vault.github.io</code>.</li><li><strong>Create the account database.</strong> Open Firestore Database → Create database. Choose production mode and a suitable region. Do not use open test-mode rules.</li><li><strong>Publish the permission rules below.</strong> In Firestore Database → Rules, replace the rules with this complete file, then click Publish.</li><li><strong>Create your owner account.</strong> Open <a href="account.html#signup">Sign up</a>, choose Teacher, and verify your email. On My account, expand Account ID and copy your UID. Existing accounts can finish registration on My account.</li><li><strong>Assign the owner in the console.</strong> In Firestore Database → Data, create collection <code>admins</code>. Set the document ID to your exact Firebase account UID. Add field <code>enabled</code>, type <strong>boolean</strong>, value <strong>true</strong>. Only grant this to your own owner account.</li><li><strong>Open the admin page.</strong> Refresh My account, then open <a href="admin-access.html">Account administration</a>. Select an account, tick its pages, and use Approve &amp; save access. Use Save page access to change permissions later, or Suspend all access to block all content pages.</li></ol><p>Students receive the configured learning/practice defaults without owner approval. Teachers start pending with no content-page access. Granting a page never grants administrator powers. Login, privacy and legal pages remain available.</p><p><strong>Files and source on public GitHub remain public.</strong> These rules protect account information and who can edit permissions. Protecting the resource files and page data requires private storage or protected hosting.</p><h2>Firestore security rules</h2><p><a href="firestore.rules" download>Download firestore.rules</a></p><textarea aria-label="Firestore security rules" readonly style="width:100%;height:440px;padding:16px;font:13px/1.5 monospace;white-space:pre">rules_version = &#x27;2&#x27;;
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Owner account setup | Learning Vault WA</title><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="site-refresh.css?v=2026.10.9"><link rel="stylesheet" href="admin-access.css?v=2026.10.9"><script src="site-shell.js?v=2026.10.9-classes" defer></script></head><body><header class="topbar"><a class="brand" href="account.html"><span class="brand-mark">LV</span><span><strong>Learning Vault WA</strong><small>Owner setup</small></span></a><nav></nav></header><main class="admin-layout"><section class="admin-hero"><span class="eyebrow">ONE-TIME FIREBASE SETUP</span><h1>Connect your admin account.</h1><p>The website is ready to use your Firebase Authentication and Firestore account permissions.</p></section><section class="admin-gate"><ol><li><strong>Enable email/password login.</strong> In your science-vault-wa Firebase project, open Authentication → Get started → Sign-in method, and enable Email/Password. In Authentication → Settings → Authorized domains, add <code>science-vault.github.io</code>.</li><li><strong>Create the account database.</strong> Open Firestore Database → Create database. Choose production mode and a suitable region. Do not use open test-mode rules.</li><li><strong>Publish the permission rules below.</strong> In Firestore Database → Rules, replace the rules with this complete file, then click Publish.</li><li><strong>Create your owner account.</strong> Open <a href="account.html#signup">Sign up</a>, choose Teacher, and verify your email. On My account, expand Account ID and copy your UID. Existing accounts can finish registration on My account.</li><li><strong>Assign the owner in the console.</strong> In Firestore Database → Data, create collection <code>admins</code>. Set the document ID to your exact Firebase account UID. Add field <code>enabled</code>, type <strong>boolean</strong>, value <strong>true</strong>. Only grant this to your own owner account.</li><li><strong>Open the admin page.</strong> Refresh My account, then open <a href="admin-access.html">Account administration</a>. Select an account, tick its pages, and use Approve &amp; save access. Use Save page access to change permissions later, or Suspend all access to block all content pages.</li></ol><p>Both students and teachers start pending. Approve each account in Account administration. Students receive year/subject learning and practice access; teachers receive lessons, assessment builders and class-management access, with vaults and the standalone question database excluded by default. Teachers receive their class code after registration; approved students can join approved teachers using that code. Granting a page never grants administrator powers. Login, privacy and legal pages remain available.</p><p><strong>Files and source on public GitHub remain public.</strong> These rules protect account information and who can edit permissions. Protecting the resource files and page data requires private storage or protected hosting.</p><h2>Firestore security rules</h2><p><a href="firestore.rules" download>Download firestore.rules</a></p><textarea aria-label="Firestore security rules" readonly style="width:100%;height:440px;padding:16px;font:13px/1.5 monospace;white-space:pre">rules_version = &#x27;2&#x27;;
 service cloud.firestore {
  match /databases/{database}/documents {
   function signedIn() { return request.auth != null; }
-  function isAdmin() {
-   return signedIn() &amp;&amp; request.auth.token.email_verified == true
-    &amp;&amp; exists(/databases/$(database)/documents/admins/$(request.auth.uid))
-    &amp;&amp; get(/databases/$(database)/documents/admins/$(request.auth.uid)).data.enabled == true;
+  function member() { return get(/databases/$(database)/documents/members/$(request.auth.uid)).data; }
+  function active() { return signedIn() &amp;&amp; member().status == &#x27;active&#x27; &amp;&amp; member().registrationVersion == 2; }
+  function student() { return active() &amp;&amp; member().role == &#x27;student&#x27;; }
+  function teacher() { return active() &amp;&amp; member().role == &#x27;teacher&#x27; &amp;&amp; request.auth.token.email_verified == true &amp;&amp; member().permissions.get(&#x27;teacher-classes.html&#x27;,true) == true; }
+  function isAdmin() { return signedIn() &amp;&amp; request.auth.token.email_verified == true &amp;&amp; exists(/databases/$(database)/documents/admins/$(request.auth.uid)) &amp;&amp; get(/databases/$(database)/documents/admins/$(request.auth.uid)).data.enabled == true; }
+  function room(code) { return get(/databases/$(database)/documents/classes/$(code)).data; }
+  function owner(code) { return teacher() &amp;&amp; room(code).ownerUid == request.auth.uid; }
+  function ownerActive(code) { let p = get(/databases/$(database)/documents/members/$(room(code).ownerUid)).data; return p.role == &#x27;teacher&#x27; &amp;&amp; p.status == &#x27;active&#x27; &amp;&amp; p.registrationVersion == 2 &amp;&amp; p.permissions.get(&#x27;teacher-classes.html&#x27;,true) == true; }
+  function enrolled(code) { return student() &amp;&amp; ownerActive(code) &amp;&amp; exists(/databases/$(database)/documents/classes/$(code)/students/$(request.auth.uid)); }
+  function validMember(d) {
+   return d.keys().hasOnly([&#x27;email&#x27;,&#x27;displayName&#x27;,&#x27;role&#x27;,&#x27;status&#x27;,&#x27;permissions&#x27;,&#x27;registrationVersion&#x27;,&#x27;yearGroup&#x27;,&#x27;subjects&#x27;,&#x27;classCode&#x27;,&#x27;createdAt&#x27;,&#x27;updatedAt&#x27;])
+    &amp;&amp; d.keys().hasAll([&#x27;email&#x27;,&#x27;displayName&#x27;,&#x27;role&#x27;,&#x27;status&#x27;,&#x27;permissions&#x27;,&#x27;registrationVersion&#x27;,&#x27;yearGroup&#x27;,&#x27;subjects&#x27;,&#x27;classCode&#x27;,&#x27;createdAt&#x27;,&#x27;updatedAt&#x27;])
+    &amp;&amp; d.email == request.auth.token.email &amp;&amp; d.displayName is string &amp;&amp; d.displayName.size() &lt;= 60
+    &amp;&amp; d.role in [&#x27;student&#x27;,&#x27;teacher&#x27;] &amp;&amp; d.status == &#x27;pending&#x27; &amp;&amp; d.permissions == {} &amp;&amp; d.registrationVersion == 2
+    &amp;&amp; d.classCode is string &amp;&amp; (d.classCode == &#x27;&#x27; || d.classCode.matches(&#x27;^[A-HJ-NP-Z2-9]{8}$&#x27;))
+    &amp;&amp; d.subjects is list &amp;&amp; d.subjects.toSet().size() == d.subjects.size()
+    &amp;&amp; ((d.role == &#x27;teacher&#x27; &amp;&amp; d.yearGroup == 0 &amp;&amp; d.subjects == [] &amp;&amp; d.classCode.size() == 8)
+     || (d.role == &#x27;student&#x27; &amp;&amp; d.yearGroup in [7,8,9,10,11,12]
+      &amp;&amp; ((d.yearGroup &lt;= 10 &amp;&amp; d.subjects == []) || (d.yearGroup &gt;= 11 &amp;&amp; d.subjects.size() &gt;= 4 &amp;&amp; d.subjects.size() &lt;= 5
+       &amp;&amp; d.subjects.hasOnly([&#x27;Physics ATAR&#x27;,&#x27;Chemistry ATAR&#x27;,&#x27;Biology ATAR&#x27;,&#x27;Human Biology ATAR&#x27;,&#x27;Psychology ATAR&#x27;,&#x27;Mathematics Methods ATAR&#x27;,&#x27;Mathematics Specialist ATAR&#x27;,&#x27;Mathematics Applications ATAR&#x27;,&#x27;English ATAR&#x27;,&#x27;Physical Education Studies ATAR&#x27;])))))
+    &amp;&amp; d.updatedAt == request.time;
   }
-  match /admins/{uid} {
-   // Bootstrap the owner in the Firebase console. Website users can never grant admin access.
-   allow get: if signedIn() &amp;&amp; request.auth.uid == uid;
-   allow list, create, update, delete: if false;
-  }
+  match /admins/{uid} { allow get: if signedIn() &amp;&amp; request.auth.uid == uid; allow list, write: if false; }
   match /members/{uid} {
    allow get: if signedIn() &amp;&amp; (request.auth.uid == uid || isAdmin());
    allow list: if isAdmin();
-   allow create: if signedIn() &amp;&amp; request.auth.uid == uid
-    &amp;&amp; request.resource.data.keys().hasOnly([&#x27;email&#x27;,&#x27;displayName&#x27;,&#x27;role&#x27;,&#x27;status&#x27;,&#x27;permissions&#x27;,&#x27;createdAt&#x27;,&#x27;updatedAt&#x27;])
-    &amp;&amp; request.resource.data.keys().hasAll([&#x27;email&#x27;,&#x27;displayName&#x27;,&#x27;role&#x27;,&#x27;status&#x27;,&#x27;permissions&#x27;,&#x27;createdAt&#x27;,&#x27;updatedAt&#x27;])
-    &amp;&amp; request.resource.data.email == request.auth.token.email
-    &amp;&amp; request.resource.data.displayName is string &amp;&amp; request.resource.data.displayName.size() &lt;= 60
-    &amp;&amp; request.resource.data.role in [&#x27;student&#x27;,&#x27;teacher&#x27;]
-    &amp;&amp; ((request.resource.data.role == &#x27;student&#x27; &amp;&amp; request.resource.data.status == &#x27;active&#x27;)
-     || (request.resource.data.role == &#x27;teacher&#x27; &amp;&amp; request.resource.data.status == &#x27;pending&#x27;))
-    &amp;&amp; request.resource.data.permissions == {}
-    &amp;&amp; request.resource.data.createdAt == request.time &amp;&amp; request.resource.data.updatedAt == request.time;
-   allow update: if isAdmin()
-    &amp;&amp; request.resource.data.diff(resource.data).affectedKeys().hasOnly([&#x27;status&#x27;,&#x27;permissions&#x27;,&#x27;updatedAt&#x27;])
-    &amp;&amp; request.resource.data.status in [&#x27;active&#x27;,&#x27;pending&#x27;,&#x27;suspended&#x27;]
-    &amp;&amp; request.resource.data.permissions is map &amp;&amp; request.resource.data.permissions.size() &lt;= 500
-    &amp;&amp; request.resource.data.updatedAt == request.time;
+   allow create: if signedIn() &amp;&amp; request.auth.uid == uid &amp;&amp; validMember(request.resource.data) &amp;&amp; request.resource.data.createdAt == request.time;
+   allow update: if (isAdmin() &amp;&amp; request.resource.data.diff(resource.data).affectedKeys().hasOnly([&#x27;status&#x27;,&#x27;permissions&#x27;,&#x27;updatedAt&#x27;]) &amp;&amp; request.resource.data.status in [&#x27;active&#x27;,&#x27;pending&#x27;,&#x27;suspended&#x27;] &amp;&amp; request.resource.data.permissions is map &amp;&amp; request.resource.data.permissions.size() &lt;= 500 &amp;&amp; request.resource.data.updatedAt == request.time)
+    || (signedIn() &amp;&amp; request.auth.uid == uid &amp;&amp; resource.data.get(&#x27;registrationVersion&#x27;,0) &lt; 2 &amp;&amp; request.resource.data.role == resource.data.role &amp;&amp; request.resource.data.createdAt == resource.data.createdAt &amp;&amp; validMember(request.resource.data));
    allow delete: if false;
+   match /enrollments/{code} {
+    allow read: if signedIn() &amp;&amp; request.auth.uid == uid;
+    allow create, update: if student() &amp;&amp; request.auth.uid == uid &amp;&amp; member().permissions.get(&#x27;student-classes.html&#x27;,true) == true
+     &amp;&amp; request.resource.data.keys().hasOnly([&#x27;classCode&#x27;,&#x27;joinedAt&#x27;]) &amp;&amp; request.resource.data.classCode == code &amp;&amp; request.resource.data.joinedAt == request.time
+     &amp;&amp; existsAfter(/databases/$(database)/documents/classes/$(code)/students/$(uid));
+    allow delete: if false;
+   }
   }
-  // Deny every collection that has not been explicitly defined above.
+  match /classes/{code} {
+   // The code is a shareable invitation. This document contains no student records.
+   allow get: if signedIn();
+   allow list: if teacher() &amp;&amp; resource.data.ownerUid == request.auth.uid;
+   allow create: if signedIn() &amp;&amp; request.resource.data.keys().hasOnly([&#x27;ownerUid&#x27;,&#x27;name&#x27;,&#x27;code&#x27;,&#x27;createdAt&#x27;])
+    &amp;&amp; request.resource.data.ownerUid == request.auth.uid &amp;&amp; request.resource.data.code == code &amp;&amp; code.matches(&#x27;^[A-HJ-NP-Z2-9]{8}$&#x27;)
+    &amp;&amp; request.resource.data.name is string &amp;&amp; request.resource.data.name.size() &lt;= 120 &amp;&amp; request.resource.data.createdAt == request.time
+    &amp;&amp; getAfter(/databases/$(database)/documents/members/$(request.auth.uid)).data.role == &#x27;teacher&#x27;
+    &amp;&amp; getAfter(/databases/$(database)/documents/members/$(request.auth.uid)).data.classCode == code;
+   allow update, delete: if false;
+   match /students/{uid} {
+    allow get: if owner(code) || isAdmin() || (student() &amp;&amp; uid == request.auth.uid);
+    allow list: if owner(code) || isAdmin();
+    allow create, update: if student() &amp;&amp; request.auth.uid == uid &amp;&amp; ownerActive(code) &amp;&amp; member().permissions.get(&#x27;student-classes.html&#x27;,true) == true
+     &amp;&amp; request.resource.data.keys().hasOnly([&#x27;studentUid&#x27;,&#x27;displayName&#x27;,&#x27;yearGroup&#x27;,&#x27;joinedAt&#x27;]) &amp;&amp; request.resource.data.studentUid == uid
+     &amp;&amp; request.resource.data.displayName == member().displayName &amp;&amp; request.resource.data.yearGroup == member().yearGroup &amp;&amp; request.resource.data.joinedAt == request.time;
+    allow delete: if false;
+   }
+   match /tasks/{taskId} {
+    allow read: if owner(code) || enrolled(code) || isAdmin();
+    allow create: if owner(code) &amp;&amp; request.resource.data.keys().hasOnly([&#x27;title&#x27;,&#x27;kind&#x27;,&#x27;course&#x27;,&#x27;yearGroup&#x27;,&#x27;unit&#x27;,&#x27;topic&#x27;,&#x27;instructions&#x27;,&#x27;dueDate&#x27;,&#x27;minutes&#x27;,&#x27;questionIds&#x27;,&#x27;url&#x27;,&#x27;ownerUid&#x27;,&#x27;createdAt&#x27;])
+     &amp;&amp; request.resource.data.ownerUid == request.auth.uid &amp;&amp; request.resource.data.createdAt == request.time
+     &amp;&amp; request.resource.data.title is string &amp;&amp; request.resource.data.title.size() &gt; 0 &amp;&amp; request.resource.data.title.size() &lt;= 120
+     &amp;&amp; request.resource.data.kind in [&#x27;lesson&#x27;,&#x27;practice&#x27;,&#x27;assessment&#x27;] &amp;&amp; request.resource.data.yearGroup in [7,8,9,10,11,12]
+     &amp;&amp; request.resource.data.course is string &amp;&amp; request.resource.data.course.size() &lt;= 120
+     &amp;&amp; request.resource.data.unit is string &amp;&amp; request.resource.data.unit.size() &lt;= 120 &amp;&amp; request.resource.data.topic is string &amp;&amp; request.resource.data.topic.size() &lt;= 120
+     &amp;&amp; request.resource.data.instructions is string &amp;&amp; request.resource.data.instructions.size() &lt;= 2000
+     &amp;&amp; request.resource.data.dueDate is string &amp;&amp; request.resource.data.dueDate.size() &lt;= 10
+     &amp;&amp; request.resource.data.minutes is int &amp;&amp; request.resource.data.minutes &gt;= 0 &amp;&amp; request.resource.data.minutes &lt;= 180
+     &amp;&amp; request.resource.data.questionIds is list &amp;&amp; request.resource.data.questionIds.size() &lt;= 50
+     &amp;&amp; (request.resource.data.kind != &#x27;assessment&#x27; || request.resource.data.questionIds.size() &gt; 0)
+     &amp;&amp; request.resource.data.url is string &amp;&amp; request.resource.data.url.size() &lt;= 1500 &amp;&amp; request.resource.data.url.matches(&#x27;^(topic-hub|student-quiz)\\.html(\\?.*)?$&#x27;);
+    allow update, delete: if false;
+   }
+   match /progress/{attemptId} {
+    allow read: if owner(code) || isAdmin() || (enrolled(code) &amp;&amp; resource.data.studentUid == request.auth.uid);
+    allow create: if enrolled(code) &amp;&amp; request.resource.data.keys().hasOnly([&#x27;studentUid&#x27;,&#x27;taskId&#x27;,&#x27;kind&#x27;,&#x27;title&#x27;,&#x27;course&#x27;,&#x27;yearGroup&#x27;,&#x27;earned&#x27;,&#x27;max&#x27;,&#x27;manualCount&#x27;,&#x27;completed&#x27;,&#x27;selfReported&#x27;,&#x27;seconds&#x27;,&#x27;responses&#x27;,&#x27;createdAt&#x27;])
+     &amp;&amp; request.resource.data.studentUid == request.auth.uid &amp;&amp; request.resource.data.createdAt == request.time
+     &amp;&amp; request.resource.data.kind in [&#x27;quiz&#x27;,&#x27;lesson&#x27;] &amp;&amp; request.resource.data.yearGroup == member().yearGroup
+     &amp;&amp; request.resource.data.course is string &amp;&amp; request.resource.data.course.size() &lt;= 120 &amp;&amp; (member().yearGroup &lt;= 10 || request.resource.data.course in member().subjects)
+     &amp;&amp; request.resource.data.title is string &amp;&amp; request.resource.data.title.size() &lt;= 120
+     &amp;&amp; request.resource.data.earned is number &amp;&amp; request.resource.data.max is number &amp;&amp; request.resource.data.earned &gt;= 0 &amp;&amp; request.resource.data.earned &lt;= request.resource.data.max &amp;&amp; request.resource.data.max &lt;= 10000
+     &amp;&amp; request.resource.data.manualCount is int &amp;&amp; request.resource.data.manualCount &gt;= 0 &amp;&amp; request.resource.data.manualCount &lt;= 100
+     &amp;&amp; request.resource.data.completed is bool &amp;&amp; request.resource.data.selfReported is bool &amp;&amp; request.resource.data.seconds is int &amp;&amp; request.resource.data.seconds &gt;= 0 &amp;&amp; request.resource.data.seconds &lt;= 86400
+     &amp;&amp; request.resource.data.responses is list &amp;&amp; request.resource.data.responses.size() &lt;= 50 &amp;&amp; request.resource.data.taskId is string
+     &amp;&amp; member().permissions.get(request.resource.data.kind == &#x27;quiz&#x27; ? &#x27;student-quiz.html&#x27; : &#x27;topic-hub.html&#x27;,true) == true
+     &amp;&amp; (request.resource.data.taskId == &#x27;&#x27; || (get(/databases/$(database)/documents/classes/$(code)/tasks/$(request.resource.data.taskId)).data.yearGroup == request.resource.data.yearGroup &amp;&amp; get(/databases/$(database)/documents/classes/$(code)/tasks/$(request.resource.data.taskId)).data.course == request.resource.data.course));
+    allow update, delete: if false;
+   }
+  }
   match /{document=**} { allow read, write: if false; }
  }
 }
