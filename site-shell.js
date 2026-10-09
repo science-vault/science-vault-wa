@@ -10,10 +10,17 @@
   nav.id='siteNavigation';nav.setAttribute('aria-label','Main navigation');
   nav.innerHTML=link('index.html','Home')+link('topic-hub.html','Lessons')+link('student-quiz.html','Practice')+group('Resources',[
    ['library.html','All resources'],['powerpoints.html','PowerPoints'],['worksheets.html','Worksheets'],['practicals.html','Practicals'],['notes.html','Notes'],['revision.html','Revision'],['videos.html','Videos'],['assessments.html','Assessments'],['exams.html','Exam papers'],['textbooks.html','Textbooks']
-  ])+(role==='student'?'':group('Teacher tools',[
+  ])+group('Teacher tools',[
    ['assessment-builders.html','Assessment builders'],['assessment-builder.html','Years 7–10 builder'],['upper-school-assessment-builder.html','Years 11–12 builder'],['assessment-question-browser.html','Question bank']
-  ]))+link(role==='teacher'?'teacher-area.html':'student-area.html',role==='teacher'?'Teacher area':'Student area')+'<a href="account.html" data-account-link>Log in / Sign up</a>';
-  import('./firebase-client.mjs').then(client=>client.onAuthStateChanged(client.auth,user=>{const accountLink=nav.querySelector('[data-account-link]');if(accountLink)accountLink.textContent=user?'My account':'Log in / Sign up'})).catch(()=>{});
+  ])+link(role==='teacher'?'teacher-area.html':'student-area.html',role==='teacher'?'Teacher area':'Student area')+'<a href="account.html" data-account-link>Log in / Sign up</a>';
+  Promise.all([import('./access-client.mjs'),import('./access-policy.mjs'),import('./page-catalog.mjs')]).then(([client,policy,catalog])=>client.observeAccess(state=>{
+   const accountLink=nav.querySelector('[data-account-link]');if(accountLink)accountLink.textContent=state.user?'My account':'Log in / Sign up';
+   if(!state.ready)return;
+   nav.querySelectorAll('a:not([data-account-link])').forEach(a=>{const file=new URL(a.href,location.href).pathname.split('/').pop();const page=catalog.PAGES.find(p=>p.id===file);a.hidden=!!page&&!policy.canOpenPage(state,page)});
+   nav.querySelectorAll('details').forEach(menu=>menu.hidden=![...menu.querySelectorAll('a')].some(a=>!a.hidden));
+   let adminLink=nav.querySelector('[data-admin-link]');if(state.admin&&!adminLink){adminLink=document.createElement('a');adminLink.href='admin-access.html';adminLink.dataset.adminLink='';adminLink.textContent='Admin';nav.insertBefore(adminLink,accountLink)}if(adminLink)adminLink.hidden=!state.admin;
+   const teacherTools=catalog.PAGES.some(p=>p.group==='Teacher tools'&&policy.canOpenPage(state,p));document.querySelectorAll('[data-teacher-only]').forEach(el=>el.hidden=!teacherTools);
+  })).catch(()=>{});
   const toggle=document.createElement('button');toggle.type='button';toggle.className='site-nav-toggle';toggle.textContent='Menu';toggle.setAttribute('aria-controls',nav.id);toggle.setAttribute('aria-expanded','false');bar.insertBefore(toggle,nav);
   const close=()=>{bar.classList.remove('site-nav-open');toggle.setAttribute('aria-expanded','false');nav.querySelectorAll('details').forEach(el=>el.open=false)};
   toggle.addEventListener('click',()=>{const open=bar.classList.toggle('site-nav-open');toggle.setAttribute('aria-expanded',String(open))});

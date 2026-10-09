@@ -1,0 +1,39 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Owner account setup | Learning Vault WA</title><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="site-refresh.css?v=2026.10.9"><link rel="stylesheet" href="admin-access.css?v=2026.10.9"><script src="site-shell.js?v=2026.10.9-permissions" defer></script></head><body><header class="topbar"><a class="brand" href="account.html"><span class="brand-mark">LV</span><span><strong>Learning Vault WA</strong><small>Owner setup</small></span></a><nav></nav></header><main class="admin-layout"><section class="admin-hero"><span class="eyebrow">ONE-TIME FIREBASE SETUP</span><h1>Connect your admin account.</h1><p>The website is ready to use your Firebase Authentication and Firestore account permissions.</p></section><section class="admin-gate"><ol><li><strong>Enable email/password login.</strong> In your science-vault-wa Firebase project, open Authentication → Get started → Sign-in method, and enable Email/Password. In Authentication → Settings → Authorized domains, add <code>science-vault.github.io</code>.</li><li><strong>Create the account database.</strong> Open Firestore Database → Create database. Choose production mode and a suitable region. Do not use open test-mode rules.</li><li><strong>Publish the permission rules below.</strong> In Firestore Database → Rules, replace the rules with this complete file, then click Publish.</li><li><strong>Create your owner account.</strong> Open <a href="account.html#signup">Sign up</a>, choose Teacher, and verify your email. On My account, expand Account ID and copy your UID. Existing accounts can finish registration on My account.</li><li><strong>Assign the owner in the console.</strong> In Firestore Database → Data, create collection <code>admins</code>. Set the document ID to your exact Firebase account UID. Add field <code>enabled</code>, type <strong>boolean</strong>, value <strong>true</strong>. Only grant this to your own owner account.</li><li><strong>Open the admin page.</strong> Refresh My account, then open <a href="admin-access.html">Account administration</a>. Select an account, tick its pages, and use Approve &amp; save access. Use Save page access to change permissions later, or Suspend all access to block all content pages.</li></ol><p>Students receive the configured learning/practice defaults without owner approval. Teachers start pending with no content-page access. Granting a page never grants administrator powers. Login, privacy and legal pages remain available.</p><p><strong>Files and source on public GitHub remain public.</strong> These rules protect account information and who can edit permissions. Protecting the resource files and page data requires private storage or protected hosting.</p><h2>Firestore security rules</h2><p><a href="firestore.rules" download>Download firestore.rules</a></p><textarea aria-label="Firestore security rules" readonly style="width:100%;height:440px;padding:16px;font:13px/1.5 monospace;white-space:pre">rules_version = &#x27;2&#x27;;
+service cloud.firestore {
+ match /databases/{database}/documents {
+  function signedIn() { return request.auth != null; }
+  function isAdmin() {
+   return signedIn() &amp;&amp; request.auth.token.email_verified == true
+    &amp;&amp; exists(/databases/$(database)/documents/admins/$(request.auth.uid))
+    &amp;&amp; get(/databases/$(database)/documents/admins/$(request.auth.uid)).data.enabled == true;
+  }
+  match /admins/{uid} {
+   // Bootstrap the owner in the Firebase console. Website users can never grant admin access.
+   allow get: if signedIn() &amp;&amp; request.auth.uid == uid;
+   allow list, create, update, delete: if false;
+  }
+  match /members/{uid} {
+   allow get: if signedIn() &amp;&amp; (request.auth.uid == uid || isAdmin());
+   allow list: if isAdmin();
+   allow create: if signedIn() &amp;&amp; request.auth.uid == uid
+    &amp;&amp; request.resource.data.keys().hasOnly([&#x27;email&#x27;,&#x27;displayName&#x27;,&#x27;role&#x27;,&#x27;status&#x27;,&#x27;permissions&#x27;,&#x27;createdAt&#x27;,&#x27;updatedAt&#x27;])
+    &amp;&amp; request.resource.data.keys().hasAll([&#x27;email&#x27;,&#x27;displayName&#x27;,&#x27;role&#x27;,&#x27;status&#x27;,&#x27;permissions&#x27;,&#x27;createdAt&#x27;,&#x27;updatedAt&#x27;])
+    &amp;&amp; request.resource.data.email == request.auth.token.email
+    &amp;&amp; request.resource.data.displayName is string &amp;&amp; request.resource.data.displayName.size() &lt;= 60
+    &amp;&amp; request.resource.data.role in [&#x27;student&#x27;,&#x27;teacher&#x27;]
+    &amp;&amp; ((request.resource.data.role == &#x27;student&#x27; &amp;&amp; request.resource.data.status == &#x27;active&#x27;)
+     || (request.resource.data.role == &#x27;teacher&#x27; &amp;&amp; request.resource.data.status == &#x27;pending&#x27;))
+    &amp;&amp; request.resource.data.permissions == {}
+    &amp;&amp; request.resource.data.createdAt == request.time &amp;&amp; request.resource.data.updatedAt == request.time;
+   allow update: if isAdmin()
+    &amp;&amp; request.resource.data.diff(resource.data).affectedKeys().hasOnly([&#x27;status&#x27;,&#x27;permissions&#x27;,&#x27;updatedAt&#x27;])
+    &amp;&amp; request.resource.data.status in [&#x27;active&#x27;,&#x27;pending&#x27;,&#x27;suspended&#x27;]
+    &amp;&amp; request.resource.data.permissions is map &amp;&amp; request.resource.data.permissions.size() &lt;= 500
+    &amp;&amp; request.resource.data.updatedAt == request.time;
+   allow delete: if false;
+  }
+  // Deny every collection that has not been explicitly defined above.
+  match /{document=**} { allow read, write: if false; }
+ }
+}
+</textarea></section></main></body></html>

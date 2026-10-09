@@ -1,0 +1,38 @@
+rules_version = '2';
+service cloud.firestore {
+ match /databases/{database}/documents {
+  function signedIn() { return request.auth != null; }
+  function isAdmin() {
+   return signedIn() && request.auth.token.email_verified == true
+    && exists(/databases/$(database)/documents/admins/$(request.auth.uid))
+    && get(/databases/$(database)/documents/admins/$(request.auth.uid)).data.enabled == true;
+  }
+  match /admins/{uid} {
+   // Bootstrap the owner in the Firebase console. Website users can never grant admin access.
+   allow get: if signedIn() && request.auth.uid == uid;
+   allow list, create, update, delete: if false;
+  }
+  match /members/{uid} {
+   allow get: if signedIn() && (request.auth.uid == uid || isAdmin());
+   allow list: if isAdmin();
+   allow create: if signedIn() && request.auth.uid == uid
+    && request.resource.data.keys().hasOnly(['email','displayName','role','status','permissions','createdAt','updatedAt'])
+    && request.resource.data.keys().hasAll(['email','displayName','role','status','permissions','createdAt','updatedAt'])
+    && request.resource.data.email == request.auth.token.email
+    && request.resource.data.displayName is string && request.resource.data.displayName.size() <= 60
+    && request.resource.data.role in ['student','teacher']
+    && ((request.resource.data.role == 'student' && request.resource.data.status == 'active')
+     || (request.resource.data.role == 'teacher' && request.resource.data.status == 'pending'))
+    && request.resource.data.permissions == {}
+    && request.resource.data.createdAt == request.time && request.resource.data.updatedAt == request.time;
+   allow update: if isAdmin()
+    && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status','permissions','updatedAt'])
+    && request.resource.data.status in ['active','pending','suspended']
+    && request.resource.data.permissions is map && request.resource.data.permissions.size() <= 500
+    && request.resource.data.updatedAt == request.time;
+   allow delete: if false;
+  }
+  // Deny every collection that has not been explicitly defined above.
+  match /{document=**} { allow read, write: if false; }
+ }
+}

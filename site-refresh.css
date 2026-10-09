@@ -13,3 +13,5 @@ button:not(:disabled),summary{cursor:pointer}button:disabled{cursor:not-allowed}
 @media(max-width:600px){.brand small{font-size:10px}.brand-mark{width:38px;height:38px}.topbar{padding:10px 16px}.portal{padding:24px 16px!important}.portal-card{padding:20px}.portal-hero h1{font-size:36px!important}.pathway{padding:22px!important}.page-hero{padding:34px 18px}.section{padding:32px 16px}.section-heading h2,.content h2{font-size:28px}.modal{padding:12px!important}.modalbox{padding:22px 16px!important}.quiz-shell{padding:0 12px}.quiz-shell .card{padding:18px}.topic-head{align-items:start;flex-direction:column}.resource-actions{flex-wrap:wrap}footer{flex-direction:column}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
 @media print{.topbar,.site-skip,.site-nav-toggle{display:none!important}body{background:#fff}.panel,.paper,.card{box-shadow:none}.paper{border:0}}
+
+.topbar [hidden]{display:none!important}
