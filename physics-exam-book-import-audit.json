@@ -1,0 +1,47 @@
+{
+  "questionsImported": 134,
+  "existingPhysicsQuestions": 97,
+  "duplicatesFound": [],
+  "duplicateReviewCandidates": [],
+  "authoredMarkingGuides": 134,
+  "totalMarks": 1264,
+  "sourcePrintedMarkTotal": 1258,
+  "correctedMarkTotals": [
+    {
+      "id": "PHY-BOOK-Q006",
+      "sourceTotal": 3,
+      "bankTotal": 4
+    },
+    {
+      "id": "PHY-BOOK-Q011",
+      "sourceTotal": 6,
+      "bankTotal": 7
+    },
+    {
+      "id": "PHY-BOOK-Q053",
+      "sourceTotal": 5,
+      "bankTotal": 6
+    },
+    {
+      "id": "PHY-BOOK-Q058",
+      "sourceTotal": 14,
+      "bankTotal": 18
+    },
+    {
+      "id": "PHY-BOOK-Q070",
+      "sourceTotal": 15,
+      "bankTotal": 14
+    }
+  ],
+  "teacherReviewRequired": [
+    "PHY-BOOK-Q019"
+  ],
+  "restoredOffPageDiagramLabels": [
+    "PHY-BOOK-Q090"
+  ],
+  "questionImageSections": 275,
+  "sourceTextAndDiagramsRetained": true,
+  "additionalResponseLinesIncluded": true,
+  "existingRecordsCheckedForDuplicates": 109,
+  "totalLivePhysicsQuestions": 231
+}
