@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "status": "draft-awaiting-syllabus-verification",
+  "description": "Year 7 lower-school diagnostic starter. Mapping references are provisional concept IDs, NOT official SCSA codes. Do not publish as certified dot-point coverage until verified.",
+  "curriculum": {
+    "authority": "SCSA WA",
+    "year": 2026,
+    "source": "https://k10outline.scsa.wa.edu.au/"
+  },
+  "subjects": [
+    "Science",
+    "Mathematics",
+    "English",
+    "HASS"
+  ],
+  "questions": [
+    {
+      "id": "diag-y7-sci-001",
+      "year": 7,
+      "subject": "Science",
+      "conceptId": "Y7-SCI-INV-VARIABLES",
+      "syllabusDotPointId": null,
+      "question": "A student tests whether water temperature changes how quickly sugar dissolves. Which variable should the student deliberately change?",
+      "type": "multiple_choice",
+      "options": [
+        "Amount of sugar",
+        "Temperature of water",
+        "Size of the beaker",
+        "Time recorded"
+      ],
+      "correctOptionIndex": 1,
+      "marks": 1,
+      "explanation": "The independent variable is the water temperature.",
+      "status": "draft"
+    },
+    {
+      "id": "diag-y7-mat-001",
+      "year": 7,
+      "subject": "Mathematics",
+      "conceptId": "Y7-MAT-FRACTIONS",
+      "syllabusDotPointId": null,
+      "question": "What is 3/4 + 1/8?",
+      "type": "multiple_choice",
+      "options": [
+        "4/12",
+        "4/8",
+        "7/8",
+        "1"
+      ],
+      "correctOptionIndex": 2,
+      "marks": 1,
+      "explanation": "Convert 3/4 to 6/8, then add 1/8.",
+      "status": "draft"
+    },
+    {
+      "id": "diag-y7-eng-001",
+      "year": 7,
+      "subject": "English",
+      "conceptId": "Y7-ENG-INFERENCE",
+      "syllabusDotPointId": null,
+      "stimulus": "Maya checked the dark clouds and hurried to bring the washing inside.",
+      "question": "What can the reader reasonably infer?",
+      "type": "multiple_choice",
+      "options": [
+        "Maya expects rain",
+        "Maya is going shopping",
+        "The washing is already dry",
+        "It is midnight"
+      ],
+      "correctOptionIndex": 0,
+      "marks": 1,
+      "explanation": "Dark clouds and bringing washing inside suggest concern about rain.",
+      "status": "draft"
+    },
+    {
+      "id": "diag-y7-hass-001",
+      "year": 7,
+      "subject": "HASS",
+      "conceptId": "Y7-HASS-SOURCES",
+      "syllabusDotPointId": null,
+      "question": "Which source is most likely to provide a firsthand account of an event?",
+      "type": "multiple_choice",
+      "options": [
+        "A diary written by a person who witnessed it",
+        "A modern textbook summary",
+        "A fictional story about the event",
+        "An unrelated advertisement"
+      ],
+      "correctOptionIndex": 0,
+      "marks": 1,
+      "explanation": "A witness diary is a primary source for that event.",
+      "status": "draft"
+    }
+  ],
+  "analysisRules": {
+    "unassessed": "No submitted responses mapped to a verified syllabus dot point",
+    "insufficientEvidence": "Fewer than three independently scored items for a dot point",
+    "developing": "Below 70% across at least three items",
+    "mastered": "At least 70% across at least three items",
+    "warning": "Thresholds are initial design defaults, not validated mastery standards."
+  }
+}
