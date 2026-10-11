@@ -1,6 +1,8 @@
 name: Rebuild Resource Catalogue
 on:
   workflow_dispatch:
+permissions:
+  contents: write
 jobs:
   catalogue:
     runs-on: ubuntu-latest
