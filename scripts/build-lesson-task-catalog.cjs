@@ -25,6 +25,7 @@ for(const [key,course] of Object.entries({GeographyATAR:'Geography ATAR',Busines
 for(const year of [11,12])for(const [unit,cat]of Object.entries(dom.window['Year'+year+'PhysicsTopics']||{}))for(const m of Array.isArray(cat)?cat:cat.topics||[]){const lesson=dom.window['Year'+year+'PhysicsLessons']?.[m.id];if(!lesson?.screens?.length)throw Error('Physics task has no published lesson: '+m.id);add(m,'Physics ATAR',year,unit);}
 for(const year of [7,8,9,10])for(const [unit,list]of Object.entries(dom.window['Year'+year+'ScienceTopics']||{}))for(const m of list)add(m,'Science',year,unit);
 // Roll out one subject at a time, after teacher review.
-const published=tasks.filter(t=>['Geography ATAR','Physics ATAR'].includes(t.course));
+const standalone=JSON.parse(fs.readFileSync(path.join(root,'physics-standalone-tasks.json'),'utf8')).tasks;
+const published=tasks.filter(t=>['Geography ATAR','Physics ATAR'].includes(t.course)).map(t=>{if(t.course!=='Physics ATAR')return t;const task=standalone.find(x=>x.topic===t.topic&&x.yearGroup===t.yearGroup&&x.unit===t.unit);if(!task)throw Error('Missing standalone Physics task: '+t.topic);return {...t,format:'standalone',title:task.title,lessonTitle:task.lessonTitle,lessonUrl:t.url,url:t.url+'&activity=standalone',instructions:task.instructions,totalMarks:task.totalMarks,writtenQuestions:task.questions.length,conceptChecks:task.mastery.length}});
 fs.writeFileSync(path.join(root,'lesson-task-catalog.json'),JSON.stringify({version:1,tasks:published},null,2)+'\n');
 console.log('Prebuilt lesson tasks:',published.length,'Courses:',new Set(published.map(t=>t.course)).size);dom.window.close();
