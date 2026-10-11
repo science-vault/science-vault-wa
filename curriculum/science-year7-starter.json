@@ -210,5 +210,107 @@
         "url": "https://k10outline.scsa.wa.edu.au/home/wa-curriculum/learning-areas/science/p-10-science-curriculum/pre-primary-to-year-10-science-syllabus"
       }
     ]
+  },
+  {
+    "area": "Science",
+    "subject": "Science",
+    "year": 7,
+    "code": "WA7SSIPR1",
+    "strand": "Processing, modelling and analysing",
+    "statement": "Tables, graphs, models and mathematical representations of data.",
+    "source": "https://k10outline.scsa.wa.edu.au/home/wa-curriculum/learning-areas/science/p-10-science-curriculum/pre-primary-to-year-10-science-syllabus",
+    "wording": "Summary of official SCSA content; not verbatim",
+    "resources": [
+      {
+        "type": "SCSA source",
+        "title": "Official curriculum",
+        "url": "https://k10outline.scsa.wa.edu.au/home/wa-curriculum/learning-areas/science/p-10-science-curriculum/pre-primary-to-year-10-science-syllabus"
+      }
+    ]
+  },
+  {
+    "area": "Science",
+    "subject": "Science",
+    "year": 7,
+    "code": "WA7SSIPR2",
+    "strand": "Processing, modelling and analysing",
+    "statement": "Patterns, anomalies and evidence-based conclusions.",
+    "source": "https://k10outline.scsa.wa.edu.au/home/wa-curriculum/learning-areas/science/p-10-science-curriculum/pre-primary-to-year-10-science-syllabus",
+    "wording": "Summary of official SCSA content; not verbatim",
+    "resources": [
+      {
+        "type": "SCSA source",
+        "title": "Official curriculum",
+        "url": "https://k10outline.scsa.wa.edu.au/home/wa-curriculum/learning-areas/science/p-10-science-curriculum/pre-primary-to-year-10-science-syllabus"
+      }
+    ]
+  },
+  {
+    "area": "Science",
+    "subject": "Science",
+    "year": 7,
+    "code": "WA7SSIE1",
+    "strand": "Evaluating",
+    "statement": "Evaluation of data quality and investigation improvements.",
+    "source": "https://k10outline.scsa.wa.edu.au/home/wa-curriculum/learning-areas/science/p-10-science-curriculum/pre-primary-to-year-10-science-syllabus",
+    "wording": "Summary of official SCSA content; not verbatim",
+    "resources": [
+      {
+        "type": "SCSA source",
+        "title": "Official curriculum",
+        "url": "https://k10outline.scsa.wa.edu.au/home/wa-curriculum/learning-areas/science/p-10-science-curriculum/pre-primary-to-year-10-science-syllabus"
+      }
+    ]
+  },
+  {
+    "area": "Science",
+    "subject": "Science",
+    "year": 7,
+    "code": "WA7SSIE2",
+    "strand": "Evaluating",
+    "statement": "Evidence-based scientific arguments and claims.",
+    "source": "https://k10outline.scsa.wa.edu.au/home/wa-curriculum/learning-areas/science/p-10-science-curriculum/pre-primary-to-year-10-science-syllabus",
+    "wording": "Summary of official SCSA content; not verbatim",
+    "resources": [
+      {
+        "type": "SCSA source",
+        "title": "Official curriculum",
+        "url": "https://k10outline.scsa.wa.edu.au/home/wa-curriculum/learning-areas/science/p-10-science-curriculum/pre-primary-to-year-10-science-syllabus"
+      }
+    ]
+  },
+  {
+    "area": "Science",
+    "subject": "Science",
+    "year": 7,
+    "code": "WA7SSICL1",
+    "strand": "Collaborating and applying",
+    "statement": "Collaboration and perspectives in scientific knowledge.",
+    "source": "https://k10outline.scsa.wa.edu.au/home/wa-curriculum/learning-areas/science/p-10-science-curriculum/pre-primary-to-year-10-science-syllabus",
+    "wording": "Summary of official SCSA content; not verbatim",
+    "resources": [
+      {
+        "type": "SCSA source",
+        "title": "Official curriculum",
+        "url": "https://k10outline.scsa.wa.edu.au/home/wa-curriculum/learning-areas/science/p-10-science-curriculum/pre-primary-to-year-10-science-syllabus"
+      }
+    ]
+  },
+  {
+    "area": "Science",
+    "subject": "Science",
+    "year": 7,
+    "code": "WA7SSICL2",
+    "strand": "Collaborating and applying",
+    "statement": "Science applications in everyday and workplace practices.",
+    "source": "https://k10outline.scsa.wa.edu.au/home/wa-curriculum/learning-areas/science/p-10-science-curriculum/pre-primary-to-year-10-science-syllabus",
+    "wording": "Summary of official SCSA content; not verbatim",
+    "resources": [
+      {
+        "type": "SCSA source",
+        "title": "Official curriculum",
+        "url": "https://k10outline.scsa.wa.edu.au/home/wa-curriculum/learning-areas/science/p-10-science-curriculum/pre-primary-to-year-10-science-syllabus"
+      }
+    ]
   }
 ]
