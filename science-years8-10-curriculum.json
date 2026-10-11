@@ -1,0 +1,53 @@
+[
+  {
+    "area": "Science",
+    "subject": "Science",
+    "year": 8,
+    "code": "WA8SSUB1",
+    "strand": "Biological sciences",
+    "statement": "Cells, microscopy, organelles and their specialised functions.",
+    "source": "https://k10outline.scsa.wa.edu.au/home/wa-curriculum/learning-areas/science/p-10-science-curriculum/pre-primary-to-year-10-science-syllabus",
+    "wording": "Summary; consult official SCSA source",
+    "resources": [
+      {
+        "type": "Official curriculum",
+        "title": "SCSA syllabus",
+        "url": "https://k10outline.scsa.wa.edu.au/home/wa-curriculum/learning-areas/science/p-10-science-curriculum/pre-primary-to-year-10-science-syllabus"
+      }
+    ]
+  },
+  {
+    "area": "Science",
+    "subject": "Science",
+    "year": 9,
+    "code": "WA9SSUB1",
+    "strand": "Biological sciences",
+    "statement": "Structural, behavioural and physiological adaptations for survival.",
+    "source": "https://k10outline.scsa.wa.edu.au/home/wa-curriculum/learning-areas/science/p-10-science-curriculum/pre-primary-to-year-10-science-syllabus",
+    "wording": "Summary; consult official SCSA source",
+    "resources": [
+      {
+        "type": "Official curriculum",
+        "title": "SCSA syllabus",
+        "url": "https://k10outline.scsa.wa.edu.au/home/wa-curriculum/learning-areas/science/p-10-science-curriculum/pre-primary-to-year-10-science-syllabus"
+      }
+    ]
+  },
+  {
+    "area": "Science",
+    "subject": "Science",
+    "year": 10,
+    "code": "WA10SSUB1",
+    "strand": "Biological sciences",
+    "statement": "Mitosis, meiosis, chromosomes, genes and DNA.",
+    "source": "https://k10outline.scsa.wa.edu.au/home/wa-curriculum/learning-areas/science/p-10-science-curriculum/pre-primary-to-year-10-science-syllabus",
+    "wording": "Summary; consult official SCSA source",
+    "resources": [
+      {
+        "type": "Official curriculum",
+        "title": "SCSA syllabus",
+        "url": "https://k10outline.scsa.wa.edu.au/home/wa-curriculum/learning-areas/science/p-10-science-curriculum/pre-primary-to-year-10-science-syllabus"
+      }
+    ]
+  }
+]
