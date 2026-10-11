@@ -72,7 +72,8 @@ service cloud.firestore {
      && request.resource.data.questionIds is list && request.resource.data.questionIds.size() <= 50
      && (request.resource.data.kind != 'assessment' || request.resource.data.questionIds.size() > 0)
      && request.resource.data.url is string && request.resource.data.url.size() <= 1500 && request.resource.data.url.matches('^(topic-hub|student-quiz)\\.html(\\?.*)?$');
-    allow update, delete: if false;
+    allow update: if owner(code) && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['title','instructions','dueDate','minutes','topic','unit']) && request.resource.data.title is string && request.resource.data.title.size() > 0 && request.resource.data.title.size() <= 120 && request.resource.data.instructions is string && request.resource.data.instructions.size() <= 2000 && request.resource.data.dueDate is string && request.resource.data.dueDate.size() <= 10 && request.resource.data.minutes is int && request.resource.data.minutes >= 0 && request.resource.data.minutes <= 180 && request.resource.data.topic is string && request.resource.data.topic.size() <= 120 && request.resource.data.unit is string && request.resource.data.unit.size() <= 120;
+    allow delete: if owner(code);
    }
    match /progress/{attemptId} {
     allow read: if owner(code) || isAdmin() || (enrolled(code) && resource.data.studentUid == request.auth.uid);
