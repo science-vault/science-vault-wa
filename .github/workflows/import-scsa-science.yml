@@ -1,12 +1,6 @@
 name: Import SCSA Science curriculum
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - 'scripts/import-scsa-science.py'
-      - '.github/workflows/import-scsa-science.yml'
-  schedule:
-    - cron: '0 2 1 * *'
 permissions:
   contents: write
 jobs:
