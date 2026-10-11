@@ -1,5 +1,5 @@
 
-function isPublicResource(r){const p=String((r&&r.file)||'').replace(/\\/g,'/'),n=p.split('/').pop()||'',l=n.toLowerCase(),parts=p.toLowerCase().split('/');if(!n)return false;if(/^\.(ds_store|gitkeep|gitignore|directory)$/i.test(n)||/^(thumbs\.db|desktop\.ini)$/i.test(n))return false;if(/^~\$/.test(n)||/\.(tmp|temp|bak|old|orig|part|crdownload|icloud|lnk)$/i.test(n))return false;if(/(^|[ ._-])(copy|backup|autosave|recovered|conflicted copy)([ ._()-]|$)/i.test(l))return false;if(parts.some(v=>['__macosx','.git','.github','node_modules'].includes(v)))return false;return true;}
+function isPublicResource(r){const p=String((r&&r.file)||'').replace(/\\/g,'/'),n=p.split('/').pop()||'',l=n.toLowerCase(),parts=p.toLowerCase().split('/');if(!n)return false;if(/(^|\/)assessments?(\/|$)/i.test(p))return false;if(/^\.(ds_store|gitkeep|gitignore|directory)$/i.test(n)||/^(thumbs\.db|desktop\.ini)$/i.test(n))return false;if(/^~\$/.test(n)||/\.(tmp|temp|bak|old|orig|part|crdownload|icloud|lnk)$/i.test(n))return false;if(/(^|[ ._-])(copy|backup|autosave|recovered|conflicted copy)([ ._()-]|$)/i.test(l))return false;if(parts.some(v=>['__macosx','.git','.github','node_modules'].includes(v)))return false;return true;}
 const ALL_RESOURCES = (window.SCIENCE_VAULT_RESOURCES || []).filter(isPublicResource);
 let activeType = "All";
 let activeTopic = "";
