@@ -1,0 +1,9 @@
+name: Rebuild Resource Catalogue
+on:
+  workflow_dispatch:
+jobs:
+  catalogue:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/build-resource-manifest.py
