@@ -108,5 +108,107 @@
         "url": "https://k10outline.scsa.wa.edu.au/home/wa-curriculum/learning-areas/science/p-10-science-curriculum/pre-primary-to-year-10-science-syllabus"
       }
     ]
+  },
+  {
+    "area": "Science",
+    "subject": "Science",
+    "year": 7,
+    "code": "WA7SSUE2",
+    "strand": "Earth and space sciences",
+    "statement": "Phases of the Moon, eclipses, seasons and tides.",
+    "source": "https://k10outline.scsa.wa.edu.au/home/wa-curriculum/learning-areas/science/p-10-science-curriculum/pre-primary-to-year-10-science-syllabus",
+    "wording": "Summary of official SCSA content; not verbatim",
+    "resources": [
+      {
+        "type": "SCSA source",
+        "title": "Official curriculum",
+        "url": "https://k10outline.scsa.wa.edu.au/home/wa-curriculum/learning-areas/science/p-10-science-curriculum/pre-primary-to-year-10-science-syllabus"
+      }
+    ]
+  },
+  {
+    "area": "Science",
+    "subject": "Science",
+    "year": 7,
+    "code": "WA7SSUP1",
+    "strand": "Physical sciences",
+    "statement": "Unbalanced forces and effects on motion.",
+    "source": "https://k10outline.scsa.wa.edu.au/home/wa-curriculum/learning-areas/science/p-10-science-curriculum/pre-primary-to-year-10-science-syllabus",
+    "wording": "Summary of official SCSA content; not verbatim",
+    "resources": [
+      {
+        "type": "SCSA source",
+        "title": "Official curriculum",
+        "url": "https://k10outline.scsa.wa.edu.au/home/wa-curriculum/learning-areas/science/p-10-science-curriculum/pre-primary-to-year-10-science-syllabus"
+      }
+    ]
+  },
+  {
+    "area": "Science",
+    "subject": "Science",
+    "year": 7,
+    "code": "WA7SSUP2",
+    "strand": "Physical sciences",
+    "statement": "Mechanical advantage in simple machines.",
+    "source": "https://k10outline.scsa.wa.edu.au/home/wa-curriculum/learning-areas/science/p-10-science-curriculum/pre-primary-to-year-10-science-syllabus",
+    "wording": "Summary of official SCSA content; not verbatim",
+    "resources": [
+      {
+        "type": "SCSA source",
+        "title": "Official curriculum",
+        "url": "https://k10outline.scsa.wa.edu.au/home/wa-curriculum/learning-areas/science/p-10-science-curriculum/pre-primary-to-year-10-science-syllabus"
+      }
+    ]
+  },
+  {
+    "area": "Science",
+    "subject": "Science",
+    "year": 7,
+    "code": "WA7SSIQ1",
+    "strand": "Questioning and predicting",
+    "statement": "Investigable questions and scientific predictions.",
+    "source": "https://k10outline.scsa.wa.edu.au/home/wa-curriculum/learning-areas/science/p-10-science-curriculum/pre-primary-to-year-10-science-syllabus",
+    "wording": "Summary of official SCSA content; not verbatim",
+    "resources": [
+      {
+        "type": "SCSA source",
+        "title": "Official curriculum",
+        "url": "https://k10outline.scsa.wa.edu.au/home/wa-curriculum/learning-areas/science/p-10-science-curriculum/pre-primary-to-year-10-science-syllabus"
+      }
+    ]
+  },
+  {
+    "area": "Science",
+    "subject": "Science",
+    "year": 7,
+    "code": "WA7SSIPL1",
+    "strand": "Planning and conducting",
+    "statement": "Reproducible investigations, risks and ethics.",
+    "source": "https://k10outline.scsa.wa.edu.au/home/wa-curriculum/learning-areas/science/p-10-science-curriculum/pre-primary-to-year-10-science-syllabus",
+    "wording": "Summary of official SCSA content; not verbatim",
+    "resources": [
+      {
+        "type": "SCSA source",
+        "title": "Official curriculum",
+        "url": "https://k10outline.scsa.wa.edu.au/home/wa-curriculum/learning-areas/science/p-10-science-curriculum/pre-primary-to-year-10-science-syllabus"
+      }
+    ]
+  },
+  {
+    "area": "Science",
+    "subject": "Science",
+    "year": 7,
+    "code": "WA7SSIPL2",
+    "strand": "Planning and conducting",
+    "statement": "Precise scientific measurements and data recording.",
+    "source": "https://k10outline.scsa.wa.edu.au/home/wa-curriculum/learning-areas/science/p-10-science-curriculum/pre-primary-to-year-10-science-syllabus",
+    "wording": "Summary of official SCSA content; not verbatim",
+    "resources": [
+      {
+        "type": "SCSA source",
+        "title": "Official curriculum",
+        "url": "https://k10outline.scsa.wa.edu.au/home/wa-curriculum/learning-areas/science/p-10-science-curriculum/pre-primary-to-year-10-science-syllabus"
+      }
+    ]
   }
 ]
