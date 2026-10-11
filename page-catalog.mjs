@@ -8,6 +8,13 @@ export const PAGES=[
     "teacherDefault": true
   },
   {
+    "id": "student-results.html",
+    "label": "My results and progress",
+    "group": "Classes and progress",
+    "studentDefault": true,
+    "teacherDefault": false
+  },
+  {
     "id": "student-classes.html",
     "label": "My classes and tasks",
     "group": "Classes and progress",
