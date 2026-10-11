@@ -1,4 +1,4 @@
-import {setupTeacherLibrary} from './teacher-lesson-tasks.mjs?v=2026.10.11-tasks';
+import {setupTeacherLibrary} from './teacher-lesson-tasks.mjs?v=2026.10.11-physics-tasks';
 import {waitForAccess} from './access-client.mjs?v=2026.10.9-classes';
 import {myClasses,classTasks,assignTask,editTask,removeTask,classReport} from './class-client.mjs';
 import {SUBJECTS} from './registration-options.mjs?v=2026.10.11-geography';

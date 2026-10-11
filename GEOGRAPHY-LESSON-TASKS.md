@@ -1,6 +1,6 @@
 # Geography ATAR prebuilt lesson tasks
 
-First subject rollout: Geography ATAR only, with 56 Year 11 and 73 Year 12 lesson packages. Other lesson courses, assessment builders and manual class assignments remain available.
+Geography ATAR was the first subject rollout, with 56 Year 11 and 73 Year 12 lesson packages. Physics ATAR has now been added as the second subject. Other lesson courses, assessment builders and manual class assignments remain available.
 
 Teachers: open `teacher-classes.html`, filter the prebuilt library by year or search by lesson / unit, choose **Use this task**, review the populated form, choose a class and optional due date, then **Assign task**. Packages use the existing Firestore lesson task schema and current rules. Each assignment links directly to the selected lesson.
 
@@ -22,4 +22,4 @@ node --experimental-vm-modules tests/lesson-tasks.cjs
 node --experimental-vm-modules geography-atar-check.cjs
 ```
 
-The generator reads the current Topic Hub lesson scripts and emits `lesson-task-catalog.json`; its published-course allowlist is Geography ATAR for this rollout. Add another course only after the subject is ready for review. The tests exercise teacher assignment values, direct lesson opening, class links, independent selection, subject/year limits, per-account storage and completion submission with mocked Firebase calls. Live authenticated Firebase operations still require an approved teacher/student account.
+The generator reads the current Topic Hub lesson scripts and emits `lesson-task-catalog.json`; its published-course allowlist includes Geography ATAR and Physics ATAR. Add another course only after the subject is ready for review. The tests exercise teacher assignment values, direct lesson opening, class links, independent selection, subject/year limits, per-account storage and completion submission with mocked Firebase calls. Live authenticated Firebase operations still require an approved teacher/student account.
