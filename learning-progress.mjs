@@ -1,6 +1,6 @@
 import {getAccessState,waitForAccess} from './access-client.mjs?v=2026.10.9-classes';
 import {saveProgress,loadTask} from './class-client.mjs';
-import {SUBJECTS,normalCourse} from './registration-options.mjs';
+import {SUBJECTS,normalCourse} from './registration-options.mjs?v=2026.10.11-geography';
 export const canonicalCourse=(course,year)=>Number(year)<=10?course:SUBJECTS.find(s=>normalCourse(s)===normalCourse(course))||course;
 let assignment=null;const params=new URLSearchParams(location.search);
 if(location.pathname.endsWith('topic-hub.html')&&params.get('class')&&params.get('task')){try{assignment=await loadTask(params.get('class'),params.get('task'))}catch(error){const p=document.createElement('p');p.className='class-message';p.textContent=error.code?'Assigned task could not load. Check account and class approval.':error.message;document.querySelector('main')?.prepend(p)}}

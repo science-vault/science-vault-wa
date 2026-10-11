@@ -3,7 +3,7 @@ from pathlib import Path
 import re,json,sys
 root=Path(sys.argv[1]).resolve() if len(sys.argv)>1 else Path(__file__).resolve().parent
 public={'account.html','privacy.html','terms.html','copyright.html','admin-access.html','firebase-setup.html','index.html'}
-student={'index.html','student-area.html','topic-hub.html','topic-hubs.html','student-quiz.html','learning-area.html','syllabus.html','about.html','contact.html','student-classes.html'}
+student={'geography-atar.html','index.html','student-area.html','topic-hub.html','topic-hubs.html','student-quiz.html','learning-area.html','syllabus.html','about.html','contact.html','student-classes.html'}
 labels={'index.html':'Home','teacher-area.html':'Teacher area','student-area.html':'Student area','student-quiz.html':'Practice tests','pdf-preview.html':'PDF preview','OPEN-RESOURCE-MANAGER.html':'Resource manager launcher'}
 teacher={'assessment-builders.html','assessment-builder.html','upper-school-assessment-builder.html','assessment-question-browser.html','questions.html','my-resources.html','OPEN-RESOURCE-MANAGER.html','teacher-area.html'}
 pages=[]
@@ -14,7 +14,7 @@ for path in sorted(root.glob('*.html')):
  title=re.search(r'<title>(.*?)</title>',text,re.S|re.I)
  label=labels.get(name,re.split(r'\s*[|–—]\s*',title.group(1) if title else name)[0].strip())
  group='Classes and progress' if name in {'teacher-classes.html','student-classes.html'} else 'Teacher tools' if name in teacher else 'Practice' if name=='student-quiz.html' else 'Learning and general pages' if name in student else 'Resources and course pages'
- pages.append({'id':name,'label':label,'group':group,'studentDefault':name in student,'teacherDefault':name in {'teacher-area.html','topic-hub.html','topic-hubs.html','assessment-builders.html','assessment-builder.html','upper-school-assessment-builder.html','teacher-classes.html'}})
+ pages.append({'id':name,'label':label,'group':group,'studentDefault':name in student,'teacherDefault':name in {'geography-atar.html','teacher-area.html','topic-hub.html','topic-hubs.html','assessment-builders.html','assessment-builder.html','upper-school-assessment-builder.html','teacher-classes.html'}})
  if not re.search(r'<script\b[^>]*src=["\'][^"\']*access-bootstrap\.js',text,re.I):
   text=re.sub(r'<head([^>]*)>',lambda m:m.group(0)+'<script src="access-bootstrap.js?v=2026.10.9-classes"></script>',text,count=1,flags=re.I)
  if 'id="accessNoScript"' not in text:

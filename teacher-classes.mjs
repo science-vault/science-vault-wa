@@ -1,6 +1,6 @@
 import {waitForAccess} from './access-client.mjs?v=2026.10.9-classes';
 import {myClasses,classTasks,assignTask,editTask,removeTask,classReport} from './class-client.mjs';
-import {SUBJECTS} from './registration-options.mjs';
+import {SUBJECTS} from './registration-options.mjs?v=2026.10.11-geography';
 const $=id=>document.getElementById(id);let rooms=[],draft=null,state,request=0;
 function message(text,error=false){$('classStatus').textContent=text;$('classStatus').dataset.kind=error?'error':'info'}
 $('taskYear').innerHTML=[7,8,9,10,11,12].map(y=>`<option>${y}</option>`).join('');

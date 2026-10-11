@@ -15,7 +15,7 @@ export function observeAccess(fn){listeners.add(fn);fn(current);if(!started){sta
  }catch(error){if(ticket===generation)emit({ready:true,user,member:null,admin:false,error})}
  },error=>emit({ready:true,user:null,member:null,admin:false,error}))}return()=>listeners.delete(fn)}
 export async function registerMember(user,role,options={}){
- const {registrationProblem}=await import('./registration-options.mjs');const problem=registrationProblem(role,options);if(problem)throw Error(problem);
+ const {registrationProblem}=await import('./registration-options.mjs?v=2026.10.11-geography');const problem=registrationProblem(role,options);if(problem)throw Error(problem);
  const alphabet='ABCDEFGHJKLMNPQRSTUVWXYZ23456789';const bytes=crypto.getRandomValues(new Uint8Array(8));const generated=[...bytes].map(x=>alphabet[x%alphabet.length]).join('');
  const target=doc(db,'members',user.uid);
  await runTransaction(db,async tx=>{const existing=await tx.get(target);if(existing.exists()&&existing.data().registrationVersion===2)return;

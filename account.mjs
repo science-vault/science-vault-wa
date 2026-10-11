@@ -1,4 +1,4 @@
-import {mountRegistration,registrationProblem} from './registration-options.mjs';
+import {mountRegistration,registrationProblem} from './registration-options.mjs?v=2026.10.11-geography';
 import {accountError,signupProblem} from './account-helpers.mjs';
 const $=id=>document.getElementById(id),forms={login:$('loginForm'),signup:$('signupForm'),reset:$('resetForm')};
 const signupOptions=mountRegistration('signup',$('signupRole')),memberOptions=mountRegistration('member',$('memberRole'));
