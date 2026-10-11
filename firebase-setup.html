@@ -21,7 +21,7 @@ service cloud.firestore {
     &amp;&amp; ((d.role == &#x27;teacher&#x27; &amp;&amp; d.yearGroup == 0 &amp;&amp; d.subjects == [] &amp;&amp; d.classCode.size() == 8)
      || (d.role == &#x27;student&#x27; &amp;&amp; d.yearGroup in [7,8,9,10,11,12]
       &amp;&amp; ((d.yearGroup &lt;= 10 &amp;&amp; d.subjects == []) || (d.yearGroup &gt;= 11 &amp;&amp; d.subjects.size() &gt;= 4 &amp;&amp; d.subjects.size() &lt;= 5
-       &amp;&amp; d.subjects.hasOnly([&#x27;Accounting and Finance ATAR&#x27;,&#x27;Physics ATAR&#x27;,&#x27;Chemistry ATAR&#x27;,&#x27;Biology ATAR&#x27;,&#x27;Human Biology ATAR&#x27;,&#x27;Psychology ATAR&#x27;,&#x27;Mathematics Methods ATAR&#x27;,&#x27;Mathematics Specialist ATAR&#x27;,&#x27;Mathematics Applications ATAR&#x27;,&#x27;English ATAR&#x27;,&#x27;Physical Education Studies ATAR&#x27;])))))
+       &amp;&amp; d.subjects.hasOnly([&#x27;Business Management and Enterprise ATAR&#x27;,&#x27;Accounting and Finance ATAR&#x27;,&#x27;Physics ATAR&#x27;,&#x27;Chemistry ATAR&#x27;,&#x27;Biology ATAR&#x27;,&#x27;Human Biology ATAR&#x27;,&#x27;Psychology ATAR&#x27;,&#x27;Mathematics Methods ATAR&#x27;,&#x27;Mathematics Specialist ATAR&#x27;,&#x27;Mathematics Applications ATAR&#x27;,&#x27;English ATAR&#x27;,&#x27;Physical Education Studies ATAR&#x27;])))))
     &amp;&amp; d.updatedAt == request.time;
   }
   match /admins/{uid} { allow get: if signedIn() &amp;&amp; request.auth.uid == uid; allow list, write: if false; }
@@ -94,3 +94,4 @@ service cloud.firestore {
  }
 }
 </textarea></section></main></body></html>
+
