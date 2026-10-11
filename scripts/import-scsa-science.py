@@ -1,13 +1,20 @@
 #!/usr/bin/env python3
 """Build the Year 7–10 mapper from SCSA's official downloadable JSON."""
-import json,re,html,pathlib,urllib.request
+import json,re,html,pathlib,urllib.request,urllib.error,sys
 URL="https://k10outline.scsa.wa.edu.au/__data/assets/file/0008/1270394/science.json"
 SOURCE="https://k10outline.scsa.wa.edu.au/home/wa-curriculum/learning-areas/science/p-10-science-curriculum/pre-primary-to-year-10-science-syllabus"
 def clean(s):
     s=re.sub(r"<[^>]+>"," ",s or "")
     return " ".join(html.unescape(s).split())
-with urllib.request.urlopen(URL,timeout=40) as response:
-    data=json.load(response)
+try:
+    with urllib.request.urlopen(URL,timeout=40) as response:
+        data=json.load(response)
+except urllib.error.HTTPError as exc:
+    if exc.code in (401,403):
+        print('SCSA denied automated download (HTTP %s). No curriculum file was changed.' % exc.code)
+        print('Use a permitted official SCSA download and review the file before importing.')
+        sys.exit(0)
+    raise
 entries=[]
 for level in data:
     year=str(level.get("year",""))
