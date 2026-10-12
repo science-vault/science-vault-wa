@@ -37,9 +37,11 @@ jobs:
             assets/human-biology
             assets/physics
             assets/chemistry
+            scripts
           sparse-checkout-cone-mode: true
       - name: Build lightweight site artifact
         run: |
+          python scripts/build-vault-catalog.py
           python page-catalog-builder.py
           mkdir -p _site
           find . -maxdepth 1 -type f \

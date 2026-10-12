@@ -1,0 +1,221 @@
+{
+  "version": 1,
+  "parts": [
+    {
+      "type": "Assessments",
+      "file": "vault-index-assessments-1.json",
+      "count": 700
+    },
+    {
+      "type": "Assessments",
+      "file": "vault-index-assessments-2.json",
+      "count": 700
+    },
+    {
+      "type": "Assessments",
+      "file": "vault-index-assessments-3.json",
+      "count": 700
+    },
+    {
+      "type": "Assessments",
+      "file": "vault-index-assessments-4.json",
+      "count": 700
+    },
+    {
+      "type": "Assessments",
+      "file": "vault-index-assessments-5.json",
+      "count": 700
+    },
+    {
+      "type": "Assessments",
+      "file": "vault-index-assessments-6.json",
+      "count": 700
+    },
+    {
+      "type": "Assessments",
+      "file": "vault-index-assessments-7.json",
+      "count": 700
+    },
+    {
+      "type": "Assessments",
+      "file": "vault-index-assessments-8.json",
+      "count": 700
+    },
+    {
+      "type": "Assessments",
+      "file": "vault-index-assessments-9.json",
+      "count": 700
+    },
+    {
+      "type": "Assessments",
+      "file": "vault-index-assessments-10.json",
+      "count": 700
+    },
+    {
+      "type": "Assessments",
+      "file": "vault-index-assessments-11.json",
+      "count": 700
+    },
+    {
+      "type": "Assessments",
+      "file": "vault-index-assessments-12.json",
+      "count": 700
+    },
+    {
+      "type": "Assessments",
+      "file": "vault-index-assessments-13.json",
+      "count": 700
+    },
+    {
+      "type": "Assessments",
+      "file": "vault-index-assessments-14.json",
+      "count": 700
+    },
+    {
+      "type": "Assessments",
+      "file": "vault-index-assessments-15.json",
+      "count": 700
+    },
+    {
+      "type": "Assessments",
+      "file": "vault-index-assessments-16.json",
+      "count": 700
+    },
+    {
+      "type": "Assessments",
+      "file": "vault-index-assessments-17.json",
+      "count": 700
+    },
+    {
+      "type": "Assessments",
+      "file": "vault-index-assessments-18.json",
+      "count": 700
+    },
+    {
+      "type": "Assessments",
+      "file": "vault-index-assessments-19.json",
+      "count": 700
+    },
+    {
+      "type": "Assessments",
+      "file": "vault-index-assessments-20.json",
+      "count": 700
+    },
+    {
+      "type": "Assessments",
+      "file": "vault-index-assessments-21.json",
+      "count": 700
+    },
+    {
+      "type": "Assessments",
+      "file": "vault-index-assessments-22.json",
+      "count": 224
+    },
+    {
+      "type": "Exams",
+      "file": "vault-index-exams-1.json",
+      "count": 700
+    },
+    {
+      "type": "Exams",
+      "file": "vault-index-exams-2.json",
+      "count": 700
+    },
+    {
+      "type": "Exams",
+      "file": "vault-index-exams-3.json",
+      "count": 700
+    },
+    {
+      "type": "Exams",
+      "file": "vault-index-exams-4.json",
+      "count": 700
+    },
+    {
+      "type": "Exams",
+      "file": "vault-index-exams-5.json",
+      "count": 700
+    },
+    {
+      "type": "Exams",
+      "file": "vault-index-exams-6.json",
+      "count": 66
+    },
+    {
+      "type": "Notes",
+      "file": "vault-index-notes-1.json",
+      "count": 29
+    },
+    {
+      "type": "Other Resources",
+      "file": "vault-index-other-resources-1.json",
+      "count": 700
+    },
+    {
+      "type": "Other Resources",
+      "file": "vault-index-other-resources-2.json",
+      "count": 376
+    },
+    {
+      "type": "PowerPoints",
+      "file": "vault-index-powerpoints-1.json",
+      "count": 700
+    },
+    {
+      "type": "PowerPoints",
+      "file": "vault-index-powerpoints-2.json",
+      "count": 700
+    },
+    {
+      "type": "PowerPoints",
+      "file": "vault-index-powerpoints-3.json",
+      "count": 360
+    },
+    {
+      "type": "Practicals",
+      "file": "vault-index-practicals-1.json",
+      "count": 96
+    },
+    {
+      "type": "Revision",
+      "file": "vault-index-revision-1.json",
+      "count": 101
+    },
+    {
+      "type": "Textbooks",
+      "file": "vault-index-textbooks-1.json",
+      "count": 274
+    },
+    {
+      "type": "Videos",
+      "file": "vault-index-videos-1.json",
+      "count": 66
+    },
+    {
+      "type": "Worksheets",
+      "file": "vault-index-worksheets-1.json",
+      "count": 700
+    },
+    {
+      "type": "Worksheets",
+      "file": "vault-index-worksheets-2.json",
+      "count": 82
+    }
+  ],
+  "counts": {
+    "Assessments": 14924,
+    "Exams": 3566,
+    "Notes": 29,
+    "Other Resources": 1076,
+    "PowerPoints": 1760,
+    "Practicals": 96,
+    "Revision": 101,
+    "Textbooks": 274,
+    "Videos": 66,
+    "Worksheets": 782
+  },
+  "uniqueFiles": 22674,
+  "excludedEmpty": 358,
+  "excludedJunk": 1903,
+  "duplicateCopies": 3306
+}
