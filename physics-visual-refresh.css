@@ -1,0 +1,35 @@
+/* Physics tables and visual teaching cards. */
+.sv-screen .pf-depth{max-width:100%;font-size:18px;line-height:1.75;color:#243b50}
+.sv-screen .pf-depth table,.sv-screen .pf-table-scroll table{table-layout:fixed;width:100%;border-collapse:separate;border-spacing:0;font-size:17px;line-height:1.65;margin:0;background:#fff;border:1px solid #cbdce5;border-radius:12px;overflow:hidden}
+.sv-screen .pf-depth th,.sv-screen .pf-depth td,.sv-screen .pf-table-scroll th,.sv-screen .pf-table-scroll td{white-space:normal;word-break:normal;overflow-wrap:break-word;hyphens:none;padding:16px 18px;text-align:left;vertical-align:top;border:0;border-right:1px solid #d5e2e9;border-bottom:1px solid #d5e2e9;color:#243b50;font-size:inherit;line-height:inherit}
+.sv-screen .pf-depth th,.sv-screen .pf-table-scroll th{background:#173f56;color:#fff;font-weight:800}
+.sv-screen .pf-depth tbody tr:nth-child(even) td,.sv-screen .pf-table-scroll tbody tr:nth-child(even) td{background:#f0f7fa}
+.sv-screen .pf-depth th:first-child,.sv-screen .pf-depth td:first-child,.sv-screen .pf-table-scroll th:first-child,.sv-screen .pf-table-scroll td:first-child{width:29%;min-width:150px}
+.sv-screen table[data-pf-columns="3"] th:first-child,.sv-screen table[data-pf-columns="3"] td:first-child{width:24%}
+.sv-screen table[data-pf-columns="3"] th:last-child,.sv-screen table[data-pf-columns="3"] td:last-child{width:38%}
+.sv-screen .pf-depth tr:last-child td,.sv-screen .pf-table-scroll tr:last-child td{border-bottom:0}
+.sv-screen .pf-depth th:last-child,.sv-screen .pf-depth td:last-child,.sv-screen .pf-table-scroll th:last-child,.sv-screen .pf-table-scroll td:last-child{border-right:0}
+.pf-table-scroll{max-width:100%;overflow-x:auto;margin:22px 0;border-radius:12px;overscroll-behavior-x:contain}
+.pf-table-scroll:focus-visible{outline:3px solid #16947e;outline-offset:3px}
+.pf-connection-grid{display:grid;gap:14px;margin:22px 0}
+.sv-screen .pf-connection{display:grid;grid-template-columns:minmax(155px,28%) minmax(0,1fr);background:#f2f8fb;border:1px solid #ccdde7;border-radius:14px;overflow:hidden}
+.sv-screen .pf-connection h3{margin:0;padding:20px;font-size:17px;line-height:1.5;color:#123d56;background:#dff0f5;word-break:normal;overflow-wrap:normal;hyphens:none}
+.pf-connection>div{padding:20px;line-height:1.75;color:#243b50;font-size:17px}
+.pf-picture{margin:26px 0;border:1px solid #c8ddd9;border-radius:18px;overflow:hidden;background:#fff;box-shadow:0 8px 24px #12374b0c}
+.pf-picture-top{padding:17px 22px;background:linear-gradient(110deg,#123d54,#126e63);color:white;display:flex;flex-direction:column;gap:5px}
+.pf-picture-top span{font-size:11px;letter-spacing:.12em;font-weight:800;color:#b8eedf}
+.pf-picture-top strong{font-size:22px;line-height:1.35}
+.sv-screen .pf-picture img{display:block;max-width:100%;width:100%;height:auto;max-height:420px;object-fit:contain;background:#eff5f7;padding:0;margin:0}
+.sv-screen .pf-picture-diagram img{padding:18px;box-sizing:border-box;background:#fff;max-height:460px}
+.pf-picture figcaption{padding:20px 22px;font-size:17px;color:#314e61;line-height:1.75}
+.pf-picture figcaption>b{color:#087969}
+.sv-screen .pf-picture-question{padding:14px 17px;border-left:4px solid #dc9b33;border-radius:8px;background:#fff4df;font-size:16px;margin:16px 0 0;color:#563c17}
+.sv-screen .pf-picture .pf-image-credit{font-size:12px;background:transparent;padding:0;margin:14px 0 0;line-height:1.6;color:#627a88}
+.pf-image-credit summary{font-weight:500;cursor:pointer}.pf-image-credit a{color:#476a80;text-decoration:underline}
+.pf-tile-picture{margin:-22px -22px 18px;height:145px;background:#edf3f5;border-radius:18px 18px 0 0;overflow:hidden}
+.pf-tile-picture img{width:100%;height:100%;object-fit:cover;display:block}.pf-tile-diagram img{object-fit:contain;background:white}
+.physics-sequence .topic-tile{overflow:hidden}.physics-sequence .topic-tile .topic-icon{display:none}
+@media(max-width:600px){.sv-screen .pf-depth{font-size:17px}.sv-screen .pf-table-scroll table{min-width:520px;font-size:16px}.sv-screen .pf-connection{grid-template-columns:1fr}.sv-screen .pf-connection h3{padding:14px 18px}.pf-connection>div{padding:16px 18px;font-size:16px}.pf-picture-top,.pf-picture figcaption{padding:16px 18px}.pf-picture-top strong{font-size:20px}.pf-picture figcaption{font-size:16px}.pf-tile-picture{height:160px}.sv-screen .pf-picture img{max-height:330px}}
+@media print{.pf-picture,.pf-connection,.pf-table-scroll{break-inside:avoid;box-shadow:none}.pf-picture-top{background:white;color:black;border-bottom:1px solid #bbb}.pf-picture-top span{color:#333}.pf-tile-picture{display:none}.pf-image-credit{display:none}.pf-table-scroll{overflow:visible}.sv-screen .pf-table-scroll table{min-width:0}}
+
+.sv-screen table[data-pf-marking="true"] th:first-child,.sv-screen table[data-pf-marking="true"] td:first-child{width:18%}.sv-screen table[data-pf-marking="true"] th:last-child,.sv-screen table[data-pf-marking="true"] td:last-child{width:12%}
