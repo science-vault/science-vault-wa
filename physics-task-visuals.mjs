@@ -3,7 +3,7 @@ const text=(x,y,s)=>`<text x="${x}" y="${y}">${esc(s)}</text>`;
 const line=(x1,y1,x2,y2,arrow=false)=>`<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}"${arrow?' marker-end="url(#ptArrow)"':''}/>`;
 const rect=(x,y,w,h)=>`<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="5"/>`;
 const circle=(x,y,r)=>`<circle cx="${x}" cy="${y}" r="${r}"/>`;
-export function taskFigure(task){let body='',caption='Schematic diagram: not to scale. Use the values stated in the questions.';const t=text,l=line,r=rect,c=circle;switch(task.visual){
+export function taskFigure(task){if(task.figure?.svg)return task.figure;let body='',caption='Schematic diagram: not to scale. Use the values stated in the questions.';const t=text,l=line,r=rect,c=circle;switch(task.visual){
 case 'measurement':body=r(200,75,160,100)+t(210,110,'m = 0.240 kg')+t(210,142,'V = 8.0 × 10⁻⁵ m³')+t(190,260,'density = m/V');break;
 case 'vectors':body=l(130,215,430,215,true)+l(430,215,430,90,true)+l(130,215,430,90,true)+t(235,245,'120 m east')+t(450,160,'50 m north')+t(180,115,'displacement');break;
 case 'motion':body=l(100,240,530,240,true)+l(100,240,100,30,true)+`<path d="M100 200 L340 40 L520 40"/>`+t(75,204,'2')+t(63,46,'10')+t(332,264,'4')+t(512,264,'7')+t(20,20,'v (m s⁻¹)')+t(465,285,'time (s)');caption='Velocity–time graph for the two-stage trolley motion in Questions 2 and 3.';break;

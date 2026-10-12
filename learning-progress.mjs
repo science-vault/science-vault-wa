@@ -1,5 +1,5 @@
-import {installLessonChecklist} from './lesson-task-checklist.mjs?v=2026.10.11-standalone';
-import {isComplete,taskProgress,prebuiltCourse} from './lesson-task-tools.mjs?v=2026.10.11-standalone';
+import {installLessonChecklist} from './lesson-task-checklist.mjs?v=2026.10.12-focused-tasks';
+import {isComplete,taskProgress,prebuiltCourse} from './lesson-task-tools.mjs?v=2026.10.12-focused-tasks';
 import {getAccessState,waitForAccess} from './access-client.mjs?v=2026.10.9-classes';
 import {saveProgress,loadTask} from './class-client.mjs';
 import {SUBJECTS,normalCourse} from './registration-options.mjs?v=2026.10.11-geography';

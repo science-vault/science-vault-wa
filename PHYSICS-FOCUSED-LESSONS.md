@@ -8,8 +8,8 @@ The added lessons cover relativistic velocity addition, Young's double slit, pol
 
 ## Compatibility
 
-- Existing lesson URLs, the 44 standalone task definitions and stored task identifiers are retained.
-- Each focused lesson links to the existing standalone task for its parent topic sequence, without duplicating that task or changing its completion record.
+- Existing lesson URLs, the 44 original standalone task definitions and stored task identifiers are retained.
+- Each of the 142 focused lessons links to its own separately authored standalone task. The original 44 broad topic tasks remain playable for existing assignments and retain their identifiers and completion records.
 - Teachers can assign a focused lesson through the existing “Assign this lesson” control.
 - The original full modules are placed in reference disclosures below each focused sequence.
 - Existing course, year and page permission checks still apply. No Firebase rule changes are required.
