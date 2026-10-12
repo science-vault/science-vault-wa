@@ -1,0 +1,1204 @@
+{
+  "version": "2026.10.12-scenarios",
+  "tasks": [
+    {
+      "course": "Physics ATAR",
+      "yearGroup": 12,
+      "unit": "Unit 3 – Gravity and relativity",
+      "topic": "projectile-horizontal-scenarios",
+      "id": "[\"Physics ATAR\",12,\"Unit 3 – Gravity and relativity\",\"projectile-horizontal-scenarios\"]",
+      "parentTopic": "projectile",
+      "title": "Projectile motion: drops and horizontal launches — standalone task",
+      "lessonTitle": "Projectile motion: drops and horizontal launches",
+      "focus": "Start with zero vertical launch velocity; solve time, range and impact.",
+      "instructions": "Attempt both structured questions before revealing the guide. Draw labelled diagrams and explain equation choices. Show substitutions, units and directions. Complete the four concept checks, review your working and record one improvement. Written marks are self-reviewed; concepts are checked automatically.",
+      "url": "topic-hub.html?course=Physics%20ATAR&year=12&unit=Unit%203%20%E2%80%93%20Gravity%20and%20relativity&topic=projectile-horizontal-scenarios&activity=standalone",
+      "lessonUrl": "topic-hub.html?course=Physics%20ATAR&year=12&unit=Unit%203%20%E2%80%93%20Gravity%20and%20relativity&topic=projectile-horizontal-scenarios",
+      "minutes": 0,
+      "format": "standalone",
+      "taskVersion": "2026.10.12-scenarios",
+      "totalMarks": 15,
+      "writtenQuestions": 2,
+      "conceptChecks": 4,
+      "suggestedMinutes": 30,
+      "constants": "Use g = 9.80 m/s², +x right and +y up. Neglect air resistance unless stated otherwise.",
+      "questions": [
+        {
+          "id": "projectile-horizontal-scenarios-scenario-q1",
+          "prompt": "A ball rolls horizontally at 6.00 m/s from a 7.35 m ledge. Find flight time, range, and impact speed and direction.",
+          "marks": 6,
+          "lines": 12,
+          "marking": [
+            {
+              "point": "uᵧ = 0 and Δy = −7.35 m.",
+              "marks": 1
+            },
+            {
+              "point": "−7.35 = −4.90t² gives t = 1.22 s.",
+              "marks": 1
+            },
+            {
+              "point": "Range = 6.00t = 7.35 m.",
+              "marks": 1
+            },
+            {
+              "point": "vₓ = 6.00 m/s; vᵧ = −9.80t = −12.0 m/s.",
+              "marks": 1
+            },
+            {
+              "point": "Impact speed = √(vₓ² + vᵧ²) = 13.4 m/s.",
+              "marks": 1
+            },
+            {
+              "point": "Angle = atan(|vᵧ|/vₓ) = 63.4° below horizontal.",
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "id": "projectile-horizontal-scenarios-scenario-q2",
+          "prompt": "A projectile launches horizontally and lands 44.1 m below launch, 54.0 m away. Find launch speed and explain whether doubling this speed changes the fall time.",
+          "marks": 5,
+          "lines": 10,
+          "marking": [
+            {
+              "point": "uᵧ = 0; −44.1 = −4.90t².",
+              "marks": 1
+            },
+            {
+              "point": "The future root is t = 3.00 s.",
+              "marks": 1
+            },
+            {
+              "point": "uₓ = 54.0/3.00 = 18.0 m/s.",
+              "marks": 1
+            },
+            {
+              "point": "Doubling uₓ does not change vertical conditions, so time stays 3.00 s.",
+              "marks": 1
+            },
+            {
+              "point": "Range doubles to 108 m in this no-drag model.",
+              "marks": 1
+            }
+          ]
+        }
+      ],
+      "mastery": [
+        {
+          "id": "projectile-horizontal-scenarios-scenario-m1",
+          "prompt": "A horizontal launch from a greater height, with uₓ fixed, has…",
+          "options": [
+            "a shorter fall time",
+            "a longer fall time",
+            "the same time"
+          ],
+          "answer": 1,
+          "why": "t = √(2H/g), so increasing H increases the fall time.",
+          "marks": 1
+        },
+        {
+          "id": "projectile-horizontal-scenarios-scenario-m2",
+          "prompt": "A dropped ball starts with…",
+          "options": [
+            "uᵧ = −g",
+            "uᵧ = 0",
+            "vᵧ = 0 at every instant"
+          ],
+          "answer": 1,
+          "why": "Released from rest means initial velocity zero; gravity then changes it.",
+          "marks": 1
+        },
+        {
+          "id": "projectile-horizontal-scenarios-scenario-m3",
+          "prompt": "Two balls have equal vertical starting conditions but different uₓ. Their fall times are…",
+          "options": [
+            "equal",
+            "different in proportion to uₓ",
+            "impossible to compare"
+          ],
+          "answer": 0,
+          "why": "The vertical motion determines the shared fall time.",
+          "marks": 1
+        },
+        {
+          "id": "projectile-horizontal-scenarios-scenario-m4",
+          "prompt": "For vₓ = 8 and vᵧ = −9.8 m/s the impact speed is…",
+          "options": [
+            "17.8 m/s",
+            "1.8 m/s",
+            "12.7 m/s"
+          ],
+          "answer": 2,
+          "why": "The components are perpendicular: √(8² + 9.8²) ≈ 12.7 m/s.",
+          "marks": 1
+        }
+      ],
+      "visual": "focused",
+      "figure": {
+        "svg": "<svg class=\"pp-svg\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 450\" role=\"img\" aria-label=\"Horizontal launch with labelled vertical drop and horizontal displacement\"><title>Horizontal launch with labelled vertical drop and horizontal displacement</title><defs><marker id=\"pp-arrow-1\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10Z\" fill=\"context-stroke\"/></marker></defs><path d=\"M55 95L110 95\" stroke=\"#526d82\" stroke-width=\"3\" fill=\"none\"/><path d=\"M110 95L110 315\" stroke=\"#526d82\" stroke-width=\"3\" fill=\"none\"/><path d=\"M55 315L700 315\" stroke=\"#526d82\" stroke-width=\"3\" fill=\"none\"/><path d=\"M110.00 95.00 L120.80 95.09 L131.60 95.35 L142.40 95.79 L153.20 96.41 L164.00 97.20 L174.80 98.17 L185.60 99.31 L196.40 100.63 L207.20 102.13 L218.00 103.80 L228.80 105.65 L239.60 107.67 L250.40 109.87 L261.20 112.25 L272.00 114.80 L282.80 117.53 L293.60 120.43 L304.40 123.51 L315.20 126.77 L326.00 130.20 L336.80 133.81 L347.60 137.59 L358.40 141.55 L369.20 145.69 L380.00 150.00 L390.80 154.49 L401.60 159.15 L412.40 163.99 L423.20 169.01 L434.00 174.20 L444.80 179.57 L455.60 185.11 L466.40 190.83 L477.20 196.73 L488.00 202.80 L498.80 209.05 L509.60 215.47 L520.40 222.07 L531.20 228.85 L542.00 235.80 L552.80 242.93 L563.60 250.23 L574.40 257.71 L585.20 265.37 L596.00 273.20 L606.80 281.21 L617.60 289.39 L628.40 297.75 L639.20 306.29 L650.00 315.00\" stroke=\"#c87518\" stroke-width=\"4\" fill=\"none\"/><circle cx=\"110\" cy=\"95\" r=\"10\" fill=\"#e48d2a\" stroke=\"#18374d\" stroke-width=\"2\"/><circle cx=\"650\" cy=\"315\" r=\"10\" fill=\"#e48d2a\" stroke=\"#18374d\" stroke-width=\"2\"/><path d=\"M125 95L255 95\" stroke=\"#0b8774\" stroke-width=\"4\" fill=\"none\" marker-end=\"url(#pp-arrow-1)\"/><path d=\"M75 95L75 315\" stroke=\"#2a6bb2\" stroke-width=\"4\" fill=\"none\" marker-end=\"url(#pp-arrow-1)\"/><path d=\"M110 355L650 355\" stroke=\"#526d82\" stroke-width=\"3\" fill=\"none\"/><text x=\"175\" y=\"65\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">uₓ = ?; uᵧ = 0</text><text x=\"135\" y=\"205\" fill=\"#2a6bb2\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">Δy = −4.90 m</text><text x=\"345\" y=\"382\" fill=\"#0b8774\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\">Δx = +12.0 m</text><text x=\"450\" y=\"45\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">Earth: g = 9.80 m/s²</text><text x=\"95\" y=\"425\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">Axes: +x right, +y up. Schematic, not to scale.</text></svg>",
+        "caption": "Labelled model for this scenario family. Diagram values belong to the illustration; use the separate values stated in each task question."
+      }
+    },
+    {
+      "course": "Physics ATAR",
+      "yearGroup": 12,
+      "unit": "Unit 3 – Gravity and relativity",
+      "topic": "projectile-focus-2",
+      "id": "[\"Physics ATAR\",12,\"Unit 3 – Gravity and relativity\",\"projectile-focus-2\"]",
+      "parentTopic": "projectile",
+      "title": "Projectile motion: equal-height launches — standalone task",
+      "lessonTitle": "Projectile motion: equal-height launches",
+      "focus": "Launch and landing share a height; learn symmetry, flight time and range.",
+      "instructions": "Attempt both structured questions before revealing the guide. Draw labelled diagrams and explain equation choices. Show substitutions, units and directions. Complete the four concept checks, review your working and record one improvement. Written marks are self-reviewed; concepts are checked automatically.",
+      "url": "topic-hub.html?course=Physics%20ATAR&year=12&unit=Unit%203%20%E2%80%93%20Gravity%20and%20relativity&topic=projectile-focus-2&activity=standalone",
+      "lessonUrl": "topic-hub.html?course=Physics%20ATAR&year=12&unit=Unit%203%20%E2%80%93%20Gravity%20and%20relativity&topic=projectile-focus-2",
+      "minutes": 0,
+      "format": "standalone",
+      "taskVersion": "2026.10.12-scenarios",
+      "totalMarks": 13,
+      "writtenQuestions": 2,
+      "conceptChecks": 4,
+      "suggestedMinutes": 30,
+      "constants": "Use g = 9.80 m/s², +x right and +y up. Neglect air resistance unless stated otherwise.",
+      "questions": [
+        {
+          "id": "projectile-focus-2-scenario-q1",
+          "prompt": "A ball launches at 18.0 m/s at 45.0° and lands at launch height. Find time to apex, total flight time, maximum height and range.",
+          "marks": 5,
+          "lines": 10,
+          "marking": [
+            {
+              "point": "uₓ = uᵧ = 18 sin45° = 12.7 m/s.",
+              "marks": 1
+            },
+            {
+              "point": "Time to apex = uᵧ/g = 1.30 s.",
+              "marks": 1
+            },
+            {
+              "point": "Total flight time = 2uᵧ/g = 2.60 s.",
+              "marks": 1
+            },
+            {
+              "point": "Maximum height = uᵧ²/(2g) = 8.27 m above launch.",
+              "marks": 1
+            },
+            {
+              "point": "Range = uₓT = 33.1 m.",
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "id": "projectile-focus-2-scenario-q2",
+          "prompt": "A launcher has fixed speed 12.0 m/s. Can it reach a target 16.0 m away at launch height? Justify without guessing angles.",
+          "marks": 4,
+          "lines": 10,
+          "marking": [
+            {
+              "point": "Equal-height range is R = u² sin2θ/g.",
+              "marks": 1
+            },
+            {
+              "point": "Its maximum occurs at sin2θ = 1, θ = 45°.",
+              "marks": 1
+            },
+            {
+              "point": "Rmax = 144/9.80 = 14.7 m.",
+              "marks": 1
+            },
+            {
+              "point": "The required 16.0 m exceeds this maximum, so no launch angle reaches the target under the model.",
+              "marks": 1
+            }
+          ]
+        }
+      ],
+      "mastery": [
+        {
+          "id": "projectile-focus-2-scenario-m1",
+          "prompt": "For equal launch and landing heights, total flight time is…",
+          "options": [
+            "uᵧ/g",
+            "2uᵧ/g",
+            "uₓ/g"
+          ],
+          "answer": 1,
+          "why": "The rise and return take equal times; uᵧ/g is time to apex.",
+          "marks": 1
+        },
+        {
+          "id": "projectile-focus-2-scenario-m2",
+          "prompt": "At equal-height landing, the speed without drag is…",
+          "options": [
+            "equal to launch speed",
+            "zero",
+            "always greater than launch speed"
+          ],
+          "answer": 0,
+          "why": "Gravitational potential energy is unchanged between the endpoints.",
+          "marks": 1
+        },
+        {
+          "id": "projectile-focus-2-scenario-m3",
+          "prompt": "Complementary launch angles share…",
+          "options": [
+            "flight time",
+            "maximum height",
+            "range at equal heights and fixed speed"
+          ],
+          "answer": 2,
+          "why": "The range contains sin2θ; time and height depend on the vertical component.",
+          "marks": 1
+        },
+        {
+          "id": "projectile-focus-2-scenario-m4",
+          "prompt": "45° maximises range for…",
+          "options": [
+            "every projectile",
+            "equal heights, fixed speed, constant g and no drag",
+            "only a horizontal launch"
+          ],
+          "answer": 1,
+          "why": "The maximum follows from sin2θ = 1 under the stated assumptions.",
+          "marks": 1
+        }
+      ],
+      "visual": "focused",
+      "figure": {
+        "svg": "<svg class=\"pp-svg\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 450\" role=\"img\" aria-label=\"Projectile path: labelled launch origin, initial components and signed target height\"><title>Projectile path: labelled launch origin, initial components and signed target height</title><defs><marker id=\"pp-arrow-9\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10Z\" fill=\"context-stroke\"/></marker></defs><path d=\"M110 280L200 280\" stroke=\"#0b8774\" stroke-width=\"4\" fill=\"none\" marker-end=\"url(#pp-arrow-9)\"/><path d=\"M110 280L110 240\" stroke=\"#2a6bb2\" stroke-width=\"4\" fill=\"none\" marker-end=\"url(#pp-arrow-9)\"/><path d=\"M65 280L695 280\" stroke=\"#9aadb9\" stroke-width=\"3\" fill=\"none\" stroke-dasharray=\"6 6\"/><path d=\"M110.00 280.00 L116.00 276.58 L122.00 273.25 L128.00 270.00 L134.00 266.84 L140.00 263.76 L146.00 260.77 L152.00 257.87 L158.00 255.06 L164.00 252.33 L170.00 249.69 L176.00 247.13 L182.00 244.67 L188.00 242.28 L194.00 239.99 L200.00 237.78 L206.00 235.66 L212.00 233.62 L218.00 231.68 L224.00 229.81 L230.00 228.04 L236.00 226.35 L242.00 224.75 L248.00 223.23 L254.00 221.80 L260.00 220.46 L266.00 219.21 L272.00 218.04 L278.00 216.95 L284.00 215.96 L290.00 215.05 L296.00 214.23 L302.00 213.49 L308.00 212.84 L314.00 212.28 L320.00 211.80 L326.00 211.41 L332.00 211.11 L338.00 210.89 L344.00 210.76 L350.00 210.72 L356.00 210.76 L362.00 210.89 L368.00 211.11 L374.00 211.41 L380.00 211.80 L386.00 212.28 L392.00 212.84 L398.00 213.49 L404.00 214.23 L410.00 215.05 L416.00 215.96 L422.00 216.95 L428.00 218.04 L434.00 219.21 L440.00 220.46 L446.00 221.80 L452.00 223.23 L458.00 224.75 L464.00 226.35 L470.00 228.04 L476.00 229.81 L482.00 231.68 L488.00 233.62 L494.00 235.66 L500.00 237.78 L506.00 239.99 L512.00 242.28 L518.00 244.67 L524.00 247.13 L530.00 249.69 L536.00 252.33 L542.00 255.06 L548.00 257.87 L554.00 260.77 L560.00 263.76 L566.00 266.84 L572.00 270.00 L578.00 273.25 L584.00 276.58 L590.00 280.00\" fill=\"none\" stroke=\"#c87518\" stroke-width=\"4\"/><circle cx=\"110\" cy=\"280\" r=\"10\" fill=\"#e48d2a\" stroke=\"#18374d\" stroke-width=\"2\"/><circle cx=\"590\" cy=\"280\" r=\"10\" fill=\"#e48d2a\" stroke=\"#18374d\" stroke-width=\"2\"/><path d=\"M590 280L695 280\" stroke=\"#526d82\" stroke-width=\"3\" fill=\"none\"/><text x=\"70\" y=\"35\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">u = 20 m/s; angle = 30°</text><text x=\"125\" y=\"315\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">launch: y = 0</text><text x=\"390\" y=\"365\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">target Δy = 0 m</text><text x=\"70\" y=\"410\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">+x right; +y up. Position axes use the same scale.</text></svg>",
+        "caption": "Labelled model for this scenario family. Diagram values belong to the illustration; use the separate values stated in each task question."
+      }
+    },
+    {
+      "course": "Physics ATAR",
+      "yearGroup": 12,
+      "unit": "Unit 3 – Gravity and relativity",
+      "topic": "projectile-focus-3",
+      "id": "[\"Physics ATAR\",12,\"Unit 3 – Gravity and relativity\",\"projectile-focus-3\"]",
+      "parentTopic": "projectile",
+      "title": "Projectile motion: unequal heights and impact — standalone task",
+      "lessonTitle": "Projectile motion: unequal heights and impact",
+      "focus": "Land below or above launch; solve the quadratic and identify the physical event.",
+      "instructions": "Attempt both structured questions before revealing the guide. Draw labelled diagrams and explain equation choices. Show substitutions, units and directions. Complete the four concept checks, review your working and record one improvement. Written marks are self-reviewed; concepts are checked automatically.",
+      "url": "topic-hub.html?course=Physics%20ATAR&year=12&unit=Unit%203%20%E2%80%93%20Gravity%20and%20relativity&topic=projectile-focus-3&activity=standalone",
+      "lessonUrl": "topic-hub.html?course=Physics%20ATAR&year=12&unit=Unit%203%20%E2%80%93%20Gravity%20and%20relativity&topic=projectile-focus-3",
+      "minutes": 0,
+      "format": "standalone",
+      "taskVersion": "2026.10.12-scenarios",
+      "totalMarks": 14,
+      "writtenQuestions": 2,
+      "conceptChecks": 4,
+      "suggestedMinutes": 30,
+      "constants": "Use g = 9.80 m/s², +x right and +y up. Neglect air resistance unless stated otherwise.",
+      "questions": [
+        {
+          "id": "projectile-focus-3-scenario-q1",
+          "prompt": "A ball launches at 12.0 m/s at 30.0° above horizontal from a 6.00 m platform. Find time to ground, range and impact speed.",
+          "marks": 5,
+          "lines": 10,
+          "marking": [
+            {
+              "point": "uₓ = 10.4 m/s; uᵧ = 6.00 m/s; Δy = −6.00 m.",
+              "marks": 1
+            },
+            {
+              "point": "−6.00 = 6.00t − 4.90t².",
+              "marks": 1
+            },
+            {
+              "point": "Select future root t = 1.88 s; discard the negative root.",
+              "marks": 1
+            },
+            {
+              "point": "Range = uₓt = 19.5 m.",
+              "marks": 1
+            },
+            {
+              "point": "Impact speed from v² = u² + 2gH is √261.6 = 16.2 m/s.",
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "id": "projectile-focus-3-scenario-q2",
+          "prompt": "A projectile has uₓ = 9.00 m/s and uᵧ = 12.0 m/s. Find both times it reaches 3.00 m above launch and the corresponding x-positions. Explain why height alone does not identify a target hit.",
+          "marks": 5,
+          "lines": 10,
+          "marking": [
+            {
+              "point": "3.00 = 12.0t − 4.90t².",
+              "marks": 1
+            },
+            {
+              "point": "Quadratic roots t = 0.283 s and 2.17 s.",
+              "marks": 1
+            },
+            {
+              "point": "x = 9.00t gives 2.54 m and 19.5 m.",
+              "marks": 1
+            },
+            {
+              "point": "The smaller root is rising; the larger root is falling, as vᵧ = 12.0 − 9.80t changes sign.",
+              "marks": 1
+            },
+            {
+              "point": "A target must match both x and y at the same time.",
+              "marks": 1
+            }
+          ]
+        }
+      ],
+      "mastery": [
+        {
+          "id": "projectile-focus-3-scenario-m1",
+          "prompt": "Landing 10 m below launch has Δy, with up positive,…",
+          "options": [
+            "+10 m",
+            "−10 m",
+            "0 m"
+          ],
+          "answer": 1,
+          "why": "Δy is final minus initial height.",
+          "marks": 1
+        },
+        {
+          "id": "projectile-focus-3-scenario-m2",
+          "prompt": "Two positive roots for an upward launch reaching a higher height describe…",
+          "options": [
+            "an error",
+            "rising and falling crossings",
+            "two different accelerations"
+          ],
+          "answer": 1,
+          "why": "The same reachable height can be crossed twice.",
+          "marks": 1
+        },
+        {
+          "id": "projectile-focus-3-scenario-m3",
+          "prompt": "A negative discriminant means…",
+          "options": [
+            "the target height is unreachable",
+            "use its absolute value",
+            "gravity reverses"
+          ],
+          "answer": 0,
+          "why": "There is no real time satisfying the height condition.",
+          "marks": 1
+        },
+        {
+          "id": "projectile-focus-3-scenario-m4",
+          "prompt": "At a lower landing the speed is…",
+          "options": [
+            "smaller than launch speed",
+            "equal to launch speed",
+            "greater than launch speed in the no-drag model"
+          ],
+          "answer": 2,
+          "why": "Gravitational potential energy becomes kinetic energy.",
+          "marks": 1
+        }
+      ],
+      "visual": "focused",
+      "figure": {
+        "svg": "<svg class=\"pp-svg\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 450\" role=\"img\" aria-label=\"Projectile path: labelled launch origin, initial components and signed target height\"><title>Projectile path: labelled launch origin, initial components and signed target height</title><defs><marker id=\"pp-arrow-16\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10Z\" fill=\"context-stroke\"/></marker></defs><path d=\"M110 180.16943379348876L200 180.16943379348876\" stroke=\"#0b8774\" stroke-width=\"4\" fill=\"none\" marker-end=\"url(#pp-arrow-16)\"/><path d=\"M110 180.16943379348876L110 140.16943379348876\" stroke=\"#2a6bb2\" stroke-width=\"4\" fill=\"none\" marker-end=\"url(#pp-arrow-16)\"/><path d=\"M65 180.16943379348876L695 180.16943379348876\" stroke=\"#9aadb9\" stroke-width=\"3\" fill=\"none\" stroke-dasharray=\"6 6\"/><path d=\"M110.00 180.17 L116.00 176.76 L122.00 173.48 L128.00 170.31 L134.00 167.26 L140.00 164.32 L146.00 161.51 L152.00 158.81 L158.00 156.23 L164.00 153.76 L170.00 151.42 L176.00 149.19 L182.00 147.08 L188.00 145.09 L194.00 143.22 L200.00 141.46 L206.00 139.82 L212.00 138.30 L218.00 136.90 L224.00 135.61 L230.00 134.45 L236.00 133.40 L242.00 132.47 L248.00 131.65 L254.00 130.96 L260.00 130.38 L266.00 129.92 L272.00 129.58 L278.00 129.35 L284.00 129.25 L290.00 129.26 L296.00 129.38 L302.00 129.63 L308.00 130.00 L314.00 130.48 L320.00 131.08 L326.00 131.80 L332.00 132.63 L338.00 133.58 L344.00 134.66 L350.00 135.85 L356.00 137.15 L362.00 138.58 L368.00 140.12 L374.00 141.78 L380.00 143.56 L386.00 145.45 L392.00 147.47 L398.00 149.60 L404.00 151.85 L410.00 154.21 L416.00 156.70 L422.00 159.30 L428.00 162.02 L434.00 164.86 L440.00 167.82 L446.00 170.89 L452.00 174.08 L458.00 177.39 L464.00 180.82 L470.00 184.36 L476.00 188.03 L482.00 191.81 L488.00 195.70 L494.00 199.72 L500.00 203.85 L506.00 208.11 L512.00 212.48 L518.00 216.96 L524.00 221.57 L530.00 226.29 L536.00 231.13 L542.00 236.09 L548.00 241.17 L554.00 246.36 L560.00 251.67 L566.00 257.10 L572.00 262.65 L578.00 268.32 L584.00 274.10 L590.00 280.00\" fill=\"none\" stroke=\"#c87518\" stroke-width=\"4\"/><circle cx=\"110\" cy=\"180.16943379348876\" r=\"10\" fill=\"#e48d2a\" stroke=\"#18374d\" stroke-width=\"2\"/><circle cx=\"590\" cy=\"280\" r=\"10\" fill=\"#e48d2a\" stroke=\"#18374d\" stroke-width=\"2\"/><path d=\"M590 280L695 280\" stroke=\"#526d82\" stroke-width=\"3\" fill=\"none\"/><text x=\"70\" y=\"35\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">u = 20 m/s; angle = 30°</text><text x=\"125\" y=\"215.16943379348876\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">launch: y = 0</text><text x=\"390\" y=\"365\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">target Δy = -10 m</text><text x=\"70\" y=\"410\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">+x right; +y up. Position axes use the same scale.</text></svg>",
+        "caption": "Labelled model for this scenario family. Diagram values belong to the illustration; use the separate values stated in each task question."
+      }
+    },
+    {
+      "course": "Physics ATAR",
+      "yearGroup": 12,
+      "unit": "Unit 3 – Gravity and relativity",
+      "topic": "projectile-target-scenarios",
+      "id": "[\"Physics ATAR\",12,\"Unit 3 – Gravity and relativity\",\"projectile-target-scenarios\"]",
+      "parentTopic": "projectile",
+      "title": "Projectile motion: walls, targets and unknown launches — standalone task",
+      "lessonTitle": "Projectile motion: walls, targets and unknown launches",
+      "focus": "Choose the event; work backwards from a target and combine coordinates.",
+      "instructions": "Attempt both structured questions before revealing the guide. Draw labelled diagrams and explain equation choices. Show substitutions, units and directions. Complete the four concept checks, review your working and record one improvement. Written marks are self-reviewed; concepts are checked automatically.",
+      "url": "topic-hub.html?course=Physics%20ATAR&year=12&unit=Unit%203%20%E2%80%93%20Gravity%20and%20relativity&topic=projectile-target-scenarios&activity=standalone",
+      "lessonUrl": "topic-hub.html?course=Physics%20ATAR&year=12&unit=Unit%203%20%E2%80%93%20Gravity%20and%20relativity&topic=projectile-target-scenarios",
+      "minutes": 0,
+      "format": "standalone",
+      "taskVersion": "2026.10.12-scenarios",
+      "totalMarks": 12,
+      "writtenQuestions": 2,
+      "conceptChecks": 4,
+      "suggestedMinutes": 30,
+      "constants": "Use g = 9.80 m/s², +x right and +y up. Neglect air resistance unless stated otherwise.",
+      "questions": [
+        {
+          "id": "projectile-target-scenarios-scenario-q1",
+          "prompt": "A ball launches at 18.0 m/s at 35.0°. A wall 15.0 m away is 3.00 m above launch. Determine its clearance above the wall.",
+          "marks": 4,
+          "lines": 10,
+          "marking": [
+            {
+              "point": "uₓ = 14.7 m/s and uᵧ = 10.3 m/s.",
+              "marks": 1
+            },
+            {
+              "point": "Arrival time at wall = 15.0/uₓ = 1.02 s.",
+              "marks": 1
+            },
+            {
+              "point": "Height at wall = uᵧt − 4.90t² = 5.43 m.",
+              "marks": 1
+            },
+            {
+              "point": "Clearance = y − 3.00 = 2.43 m, so the ideal point projectile clears it.",
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "id": "projectile-target-scenarios-scenario-q2",
+          "prompt": "At a fixed launch angle of 45.0°, what speed reaches a target 12.0 m horizontally away and 2.00 m above launch? Explain the positivity condition in your rearrangement.",
+          "marks": 4,
+          "lines": 10,
+          "marking": [
+            {
+              "point": "Y = X tanθ − gX²/(2u²cos²θ).",
+              "marks": 1
+            },
+            {
+              "point": "u² = gX²/[2cos²θ(Xtanθ − Y)].",
+              "marks": 1
+            },
+            {
+              "point": "Xtanθ − Y = 12.0 − 2.00 = 10.0 m > 0, so a physical solution exists.",
+              "marks": 1
+            },
+            {
+              "point": "u = √(9.80 × 144/10.0) = 11.9 m/s.",
+              "marks": 1
+            }
+          ]
+        }
+      ],
+      "mastery": [
+        {
+          "id": "projectile-target-scenarios-scenario-m1",
+          "prompt": "To test clearance at a known wall x-position, find time using…",
+          "options": [
+            "x = uₓt",
+            "T = 2uᵧ/g for every wall",
+            "maximum height alone"
+          ],
+          "answer": 0,
+          "why": "The wall is an intermediate event at a specified x.",
+          "marks": 1
+        },
+        {
+          "id": "projectile-target-scenarios-scenario-m2",
+          "prompt": "A rim at 3.05 m and release at 1.80 m requires Δy =…",
+          "options": [
+            "3.05 m",
+            "1.25 m",
+            "4.85 m"
+          ],
+          "answer": 1,
+          "why": "Target displacement is final minus initial height.",
+          "marks": 1
+        },
+        {
+          "id": "projectile-target-scenarios-scenario-m3",
+          "prompt": "A target requires matching…",
+          "options": [
+            "height somewhere in the flight",
+            "range only",
+            "both coordinates at one time"
+          ],
+          "answer": 2,
+          "why": "The object and target must coincide at the same event.",
+          "marks": 1
+        },
+        {
+          "id": "projectile-target-scenarios-scenario-m4",
+          "prompt": "A faster target ahead moving in the same direction is…",
+          "options": [
+            "caught at the apex",
+            "not caught in the ideal constant-uₓ model",
+            "always caught"
+          ],
+          "answer": 1,
+          "why": "The horizontal gap does not close.",
+          "marks": 1
+        }
+      ],
+      "visual": "focused",
+      "figure": {
+        "svg": "<svg class=\"pp-svg\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 440\" role=\"img\" aria-label=\"Projectile and wall: horizontal distance to wall 20.0 metres and wall top 4.00 metres above launch\"><title>Projectile and wall: horizontal distance to wall 20.0 metres and wall top 4.00 metres above launch</title><defs><marker id=\"pp-arrow-20\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10Z\" fill=\"context-stroke\"/></marker></defs><path d=\"M65 310L710 310\" stroke=\"#526d82\" stroke-width=\"3\" fill=\"none\"/><path d=\"M90.00 310.00 L95.30 306.98 L100.60 304.03 L105.91 301.16 L111.21 298.37 L116.51 295.65 L121.81 293.01 L127.12 290.45 L132.42 287.96 L137.72 285.55 L143.02 283.21 L148.32 280.96 L153.63 278.78 L158.93 276.67 L164.23 274.64 L169.53 272.69 L174.84 270.82 L180.14 269.02 L185.44 267.30 L190.74 265.65 L196.04 264.08 L201.35 262.59 L206.65 261.17 L211.95 259.83 L217.25 258.57 L222.55 257.39 L227.86 256.28 L233.16 255.24 L238.46 254.29 L243.76 253.41 L249.07 252.60 L254.37 251.88 L259.67 251.22 L264.97 250.65 L270.27 250.15 L275.58 249.73 L280.88 249.39 L286.18 249.12 L291.48 248.93 L296.79 248.81 L302.09 248.78 L307.39 248.81 L312.69 248.93 L317.99 249.12 L323.30 249.39 L328.60 249.73 L333.90 250.15 L339.20 250.65 L344.51 251.22 L349.81 251.88 L355.11 252.60 L360.41 253.41 L365.71 254.29 L371.02 255.24 L376.32 256.28 L381.62 257.39 L386.92 258.57 L392.23 259.83 L397.53 261.17 L402.83 262.59 L408.13 264.08 L413.43 265.65 L418.74 267.30 L424.04 269.02 L429.34 270.82 L434.64 272.69 L439.94 274.64 L445.25 276.67 L450.55 278.78 L455.85 280.96 L461.15 283.21 L466.46 285.55 L471.76 287.96 L477.06 290.45 L482.36 293.01 L487.66 295.65 L492.97 298.37 L498.27 301.16 L503.57 304.03 L508.87 306.98 L514.18 310.00\" stroke=\"#c87518\" stroke-width=\"4\" fill=\"none\"/><path d=\"M330 310L330 262\" stroke=\"#2a6bb2\" stroke-width=\"3\" fill=\"none\"/><circle cx=\"90\" cy=\"310\" r=\"10\" fill=\"#e48d2a\" stroke=\"#18374d\" stroke-width=\"2\"/><text x=\"70\" y=\"45\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">Launch: 20.0 m/s at 30.0°</text><text x=\"350\" y=\"242\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">wall top: +4.00 m</text><text x=\"220\" y=\"355\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">wall at x = 20.0 m</text><text x=\"70\" y=\"410\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">Height at the wall matters; maximum height occurs elsewhere.</text></svg>",
+        "caption": "Labelled model for this scenario family. Diagram values belong to the illustration; use the separate values stated in each task question."
+      }
+    },
+    {
+      "course": "Physics ATAR",
+      "yearGroup": 12,
+      "unit": "Unit 3 – Gravity and relativity",
+      "topic": "static-equilibrium-focus-2",
+      "id": "[\"Physics ATAR\",12,\"Unit 3 – Gravity and relativity\",\"static-equilibrium-focus-2\"]",
+      "parentTopic": "static-equilibrium",
+      "title": "Equilibrium: beams, cantilevers and tipping — standalone task",
+      "lessonTitle": "Equilibrium: beams, cantilevers and tipping",
+      "focus": "Draw the forces, choose a pivot, and calculate support forces and turning effects.",
+      "instructions": "Attempt both structured questions before revealing the guide. Draw labelled diagrams and explain equation choices. Show substitutions, units and directions. Complete the four concept checks, review your working and record one improvement. Written marks are self-reviewed; concepts are checked automatically.",
+      "url": "topic-hub.html?course=Physics%20ATAR&year=12&unit=Unit%203%20%E2%80%93%20Gravity%20and%20relativity&topic=static-equilibrium-focus-2&activity=standalone",
+      "lessonUrl": "topic-hub.html?course=Physics%20ATAR&year=12&unit=Unit%203%20%E2%80%93%20Gravity%20and%20relativity&topic=static-equilibrium-focus-2",
+      "minutes": 0,
+      "format": "standalone",
+      "taskVersion": "2026.10.12-scenarios",
+      "totalMarks": 14,
+      "writtenQuestions": 2,
+      "conceptChecks": 4,
+      "suggestedMinutes": 30,
+      "constants": "Use g = 9.80 m/s². Structures are rigid and stationary; state support assumptions. Anticlockwise torque is positive.",
+      "questions": [
+        {
+          "id": "static-equilibrium-focus-2-scenario-q1",
+          "prompt": "A uniform 5.00 m beam weighs 160 N and rests on end supports A and B. A 250 N point load acts 4.00 m from A. Find both support reactions.",
+          "marks": 5,
+          "lines": 10,
+          "marking": [
+            {
+              "point": "Beam weight acts 2.50 m from A.",
+              "marks": 1
+            },
+            {
+              "point": "Moments about A: 5.00Rᵦ = 160 × 2.50 + 250 × 4.00.",
+              "marks": 1
+            },
+            {
+              "point": "Rᵦ = 280 N upward.",
+              "marks": 1
+            },
+            {
+              "point": "Vertical balance: Rₐ + 280 = 410 gives Rₐ = 130 N upward.",
+              "marks": 1
+            },
+            {
+              "point": "Check about B: 130 × 5.00 = 160 × 2.50 + 250 × 1.00.",
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "id": "static-equilibrium-focus-2-scenario-q2",
+          "prompt": "A uniform 6.00 m beam weighing 200 N rests on unbolted supports at x = 0 and x = 4.00 m. A 600 N person walks onto the overhang. Find the position x where tipping begins.",
+          "marks": 5,
+          "lines": 10,
+          "marking": [
+            {
+              "point": "At impending tipping the x = 0 support reaction is zero.",
+              "marks": 1
+            },
+            {
+              "point": "Take moments about the support at x = 4.00 m.",
+              "marks": 1
+            },
+            {
+              "point": "200 × (4.00 − 3.00) = 600 × (x − 4.00).",
+              "marks": 1
+            },
+            {
+              "point": "x = 4.00 + 200/600 = 4.33 m from the left end.",
+              "marks": 1
+            },
+            {
+              "point": "Further motion would require a downward reaction at the unbolted left support, so two-contact equilibrium fails.",
+              "marks": 1
+            }
+          ]
+        }
+      ],
+      "mastery": [
+        {
+          "id": "static-equilibrium-focus-2-scenario-m1",
+          "prompt": "Taking moments about A removes Rₐ because…",
+          "options": [
+            "Rₐ is zero",
+            "its lever arm is zero",
+            "all reactions are equal"
+          ],
+          "answer": 1,
+          "why": "Its line of action passes through the pivot.",
+          "marks": 1
+        },
+        {
+          "id": "static-equilibrium-focus-2-scenario-m2",
+          "prompt": "A uniform beam weight acts at…",
+          "options": [
+            "the midpoint",
+            "the heaviest support",
+            "the loaded end"
+          ],
+          "answer": 0,
+          "why": "Uniform mass distribution puts its centre of mass halfway along.",
+          "marks": 1
+        },
+        {
+          "id": "static-equilibrium-focus-2-scenario-m3",
+          "prompt": "Two supports share a load equally when…",
+          "options": [
+            "there are exactly two supports",
+            "the complete load and geometry are symmetric",
+            "the beam is heavy"
+          ],
+          "answer": 1,
+          "why": "Force balance alone gives the total, while symmetry and moment balance give equal sharing.",
+          "marks": 1
+        },
+        {
+          "id": "static-equilibrium-focus-2-scenario-m4",
+          "prompt": "A fixed cantilever support must usually supply…",
+          "options": [
+            "only horizontal force",
+            "a force and a reaction moment",
+            "zero force"
+          ],
+          "answer": 1,
+          "why": "The clamp balances both net force and net torque.",
+          "marks": 1
+        }
+      ],
+      "visual": "focused",
+      "figure": {
+        "svg": "<svg class=\"pp-svg\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 440\" role=\"img\" aria-label=\"Uniform four-metre beam: support reactions at A and B, beam weight at centre, and downward point load\"><title>Uniform four-metre beam: support reactions at A and B, beam weight at centre, and downward point load</title><defs><marker id=\"pp-arrow-23\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10Z\" fill=\"context-stroke\"/></marker></defs><path d=\"M100 170L620 170\" stroke=\"#526d82\" stroke-width=\"3\" fill=\"none\"/><path d=\"M100 260L100 170\" stroke=\"#0b8774\" stroke-width=\"4\" fill=\"none\" marker-end=\"url(#pp-arrow-23)\"/><path d=\"M620 260L620 170\" stroke=\"#0b8774\" stroke-width=\"4\" fill=\"none\" marker-end=\"url(#pp-arrow-23)\"/><path d=\"M360 85L360 170\" stroke=\"#c87518\" stroke-width=\"4\" fill=\"none\" marker-end=\"url(#pp-arrow-23)\"/><path d=\"M490 85L490 170\" stroke=\"#2a6bb2\" stroke-width=\"4\" fill=\"none\" marker-end=\"url(#pp-arrow-23)\"/><text x=\"70\" y=\"295\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">A: Rₐ upward</text><text x=\"530\" y=\"295\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">B: Rᵦ upward</text><text x=\"235\" y=\"55\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">beam weight 200 N at 2.00 m</text><text x=\"435\" y=\"90\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">point load 300 N</text><path d=\"M100 335L620 335\" stroke=\"#526d82\" stroke-width=\"3\" fill=\"none\"/><text x=\"250\" y=\"370\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">AB = 4.00 m; load at 3.00 m from A</text><text x=\"80\" y=\"420\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">Free-body diagram; force arrows are schematic.</text></svg>",
+        "caption": "Labelled model for this scenario family. Diagram values belong to the illustration; use the separate values stated in each task question."
+      }
+    },
+    {
+      "course": "Physics ATAR",
+      "yearGroup": 12,
+      "unit": "Unit 3 – Gravity and relativity",
+      "topic": "static-equilibrium-focus-3",
+      "id": "[\"Physics ATAR\",12,\"Unit 3 – Gravity and relativity\",\"static-equilibrium-focus-3\"]",
+      "parentTopic": "static-equilibrium",
+      "title": "Equilibrium: ladders, friction and slipping — standalone task",
+      "lessonTitle": "Equilibrium: ladders, friction and slipping",
+      "focus": "Resolve contact forces, use moment geometry and test friction limits.",
+      "instructions": "Attempt both structured questions before revealing the guide. Draw labelled diagrams and explain equation choices. Show substitutions, units and directions. Complete the four concept checks, review your working and record one improvement. Written marks are self-reviewed; concepts are checked automatically.",
+      "url": "topic-hub.html?course=Physics%20ATAR&year=12&unit=Unit%203%20%E2%80%93%20Gravity%20and%20relativity&topic=static-equilibrium-focus-3&activity=standalone",
+      "lessonUrl": "topic-hub.html?course=Physics%20ATAR&year=12&unit=Unit%203%20%E2%80%93%20Gravity%20and%20relativity&topic=static-equilibrium-focus-3",
+      "minutes": 0,
+      "format": "standalone",
+      "taskVersion": "2026.10.12-scenarios",
+      "totalMarks": 14,
+      "writtenQuestions": 2,
+      "conceptChecks": 4,
+      "suggestedMinutes": 30,
+      "constants": "Use g = 9.80 m/s². Uniform rigid ladder; smooth vertical wall and rough horizontal floor unless stated. Anticlockwise torque positive.",
+      "questions": [
+        {
+          "id": "static-equilibrium-focus-3-scenario-q1",
+          "prompt": "A uniform 6.00 m ladder weighs 180 N and leans at 65.0° to a rough floor against a smooth wall. Find the wall normal, floor normal and minimum floor friction coefficient.",
+          "marks": 5,
+          "lines": 10,
+          "marking": [
+            {
+              "point": "The smooth wall exerts only a horizontal normal.",
+              "marks": 1
+            },
+            {
+              "point": "Nwall × 6 sin65° = 180 × 3 cos65°.",
+              "marks": 1
+            },
+            {
+              "point": "Nwall = 42.0 N; horizontal balance gives the same required floor friction.",
+              "marks": 1
+            },
+            {
+              "point": "Nfloor = 180 N.",
+              "marks": 1
+            },
+            {
+              "point": "Minimum μs = Nwall/180 = 0.233.",
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "id": "static-equilibrium-focus-3-scenario-q2",
+          "prompt": "A uniform 6.00 m ladder weighs 180 N and leans at 60.0° against a smooth wall. A 600 N person stands 4.00 m along it. With floor μs = 0.300, can it remain still?",
+          "marks": 5,
+          "lines": 10,
+          "marking": [
+            {
+              "point": "Nfloor = 180 + 600 = 780 N.",
+              "marks": 1
+            },
+            {
+              "point": "Moments about foot: Nwall × 6 sin60° = (180 × 3 + 600 × 4)cos60°.",
+              "marks": 1
+            },
+            {
+              "point": "Required Nwall and floor friction = 283 N.",
+              "marks": 1
+            },
+            {
+              "point": "Maximum friction = 0.300 × 780 = 234 N.",
+              "marks": 1
+            },
+            {
+              "point": "Required friction exceeds 234 N, so the assumed static position cannot hold.",
+              "marks": 1
+            }
+          ]
+        }
+      ],
+      "mastery": [
+        {
+          "id": "static-equilibrium-focus-3-scenario-m1",
+          "prompt": "A smooth wall exerts…",
+          "options": [
+            "no force",
+            "a horizontal normal only in this model",
+            "vertical friction only"
+          ],
+          "answer": 1,
+          "why": "The normal is perpendicular to the wall; smooth neglects friction.",
+          "marks": 1
+        },
+        {
+          "id": "static-equilibrium-focus-3-scenario-m2",
+          "prompt": "For vertical weight at distance s along a ladder, the arm is…",
+          "options": [
+            "s cosθ",
+            "s sinθ",
+            "always s"
+          ],
+          "answer": 0,
+          "why": "The perpendicular distance is the horizontal projection.",
+          "marks": 1
+        },
+        {
+          "id": "static-equilibrium-focus-3-scenario-m3",
+          "prompt": "Static friction equals μsN…",
+          "options": [
+            "in every stationary case",
+            "at impending slipping",
+            "only at a smooth wall"
+          ],
+          "answer": 1,
+          "why": "Below the limit it adjusts to the required value.",
+          "marks": 1
+        },
+        {
+          "id": "static-equilibrium-focus-3-scenario-m4",
+          "prompt": "Climbing higher generally makes required floor friction…",
+          "options": [
+            "smaller",
+            "larger",
+            "zero"
+          ],
+          "answer": 1,
+          "why": "The person weight has a larger turning arm about the foot.",
+          "marks": 1
+        }
+      ],
+      "visual": "focused",
+      "figure": {
+        "svg": "<svg class=\"pp-svg\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 440\" role=\"img\" aria-label=\"Ladder free-body diagram: smooth-wall horizontal normal, floor normal and friction, ladder weight, and optional person load\"><title>Ladder free-body diagram: smooth-wall horizontal normal, floor normal and friction, ladder weight, and optional person load</title><defs><marker id=\"pp-arrow-30\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10Z\" fill=\"context-stroke\"/></marker></defs><path d=\"M100 330L650 330\" stroke=\"#526d82\" stroke-width=\"3\" fill=\"none\"/><path d=\"M590 50L590 330\" stroke=\"#526d82\" stroke-width=\"3\" fill=\"none\"/><path d=\"M200 330L590 90\" stroke=\"#526d82\" stroke-width=\"3\" fill=\"none\"/><path d=\"M590 90L490 90\" stroke=\"#2a6bb2\" stroke-width=\"4\" fill=\"none\" marker-end=\"url(#pp-arrow-30)\"/><path d=\"M200 330L200 235\" stroke=\"#0b8774\" stroke-width=\"4\" fill=\"none\" marker-end=\"url(#pp-arrow-30)\"/><path d=\"M200 330L310 330\" stroke=\"#0b8774\" stroke-width=\"4\" fill=\"none\" marker-end=\"url(#pp-arrow-30)\"/><path d=\"M395 160L395 210\" stroke=\"#c87518\" stroke-width=\"4\" fill=\"none\" marker-end=\"url(#pp-arrow-30)\"/><text x=\"60\" y=\"220\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">Nfloor ↑</text><text x=\"240\" y=\"370\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">floor friction →</text><text x=\"375\" y=\"60\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">wall normal ←</text><text x=\"255\" y=\"150\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">Wladder ↓ at midpoint</text><text x=\"70\" y=\"415\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">Distances along ladder project onto horizontal and vertical axes.</text></svg>",
+        "caption": "Labelled model for this scenario family. Diagram values belong to the illustration; use the separate values stated in each task question."
+      }
+    },
+    {
+      "course": "Physics ATAR",
+      "yearGroup": 12,
+      "unit": "Unit 3 – Gravity and relativity",
+      "topic": "equilibrium-sign-cable-scenarios",
+      "id": "[\"Physics ATAR\",12,\"Unit 3 – Gravity and relativity\",\"equilibrium-sign-cable-scenarios\"]",
+      "parentTopic": "static-equilibrium",
+      "title": "Equilibrium: signs, cables and angled supports — standalone task",
+      "lessonTitle": "Equilibrium: signs, cables and angled supports",
+      "focus": "Balance angled tensions and combine force balance with hinge moments.",
+      "instructions": "Attempt both structured questions before revealing the guide. Draw labelled diagrams and explain equation choices. Show substitutions, units and directions. Complete the four concept checks, review your working and record one improvement. Written marks are self-reviewed; concepts are checked automatically.",
+      "url": "topic-hub.html?course=Physics%20ATAR&year=12&unit=Unit%203%20%E2%80%93%20Gravity%20and%20relativity&topic=equilibrium-sign-cable-scenarios&activity=standalone",
+      "lessonUrl": "topic-hub.html?course=Physics%20ATAR&year=12&unit=Unit%203%20%E2%80%93%20Gravity%20and%20relativity&topic=equilibrium-sign-cable-scenarios",
+      "minutes": 0,
+      "format": "standalone",
+      "taskVersion": "2026.10.12-scenarios",
+      "totalMarks": 13,
+      "writtenQuestions": 2,
+      "conceptChecks": 4,
+      "suggestedMinutes": 30,
+      "constants": "Use g = 9.80 m/s². Cables are light and taut; hinges are frictionless; beams are rigid. Angles are measured from horizontal unless stated.",
+      "questions": [
+        {
+          "id": "equilibrium-sign-cable-scenarios-scenario-q1",
+          "prompt": "A 240 N sign hangs from two equal cables, each 45.0° above horizontal. Find each cable tension and show why it is not 120 N.",
+          "marks": 4,
+          "lines": 10,
+          "marking": [
+            {
+              "point": "Symmetry and horizontal balance give equal tensions T.",
+              "marks": 1
+            },
+            {
+              "point": "Vertical balance: 2T sin45° = 240.",
+              "marks": 1
+            },
+            {
+              "point": "T = 240/(2sin45°) = 170 N.",
+              "marks": 1
+            },
+            {
+              "point": "120 N is each cable’s vertical component, not its total tension.",
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "id": "equilibrium-sign-cable-scenarios-scenario-q2",
+          "prompt": "A uniform horizontal 4.00 m beam weighs 160 N and supports a 240 N sign at its end. An end cable pulls up-left at 60.0°. Find cable tension and both hinge components.",
+          "marks": 5,
+          "lines": 10,
+          "marking": [
+            {
+              "point": "Moments about hinge: T sin60° × 4.00 = 160 × 2.00 + 240 × 4.00.",
+              "marks": 1
+            },
+            {
+              "point": "Tᵧ = 320 N; T = 320/sin60° = 370 N.",
+              "marks": 1
+            },
+            {
+              "point": "Horizontal hinge component = 320cot60° = 185 N right.",
+              "marks": 1
+            },
+            {
+              "point": "Vertical hinge component = 400 − 320 = 80.0 N up.",
+              "marks": 1
+            },
+            {
+              "point": "The horizontal cable component has zero moment about the hinge but enters horizontal force balance.",
+              "marks": 1
+            }
+          ]
+        }
+      ],
+      "mastery": [
+        {
+          "id": "equilibrium-sign-cable-scenarios-scenario-m1",
+          "prompt": "An angled cable’s vertical component, angle above horizontal, is…",
+          "options": [
+            "T cosθ",
+            "T sinθ",
+            "T itself"
+          ],
+          "answer": 1,
+          "why": "The vertical side is opposite the angle.",
+          "marks": 1
+        },
+        {
+          "id": "equilibrium-sign-cable-scenarios-scenario-m2",
+          "prompt": "Unequal cable angles generally give…",
+          "options": [
+            "equal tensions",
+            "unequal tensions",
+            "zero net weight"
+          ],
+          "answer": 1,
+          "why": "Their horizontal components must cancel while vertical components support the weight.",
+          "marks": 1
+        },
+        {
+          "id": "equilibrium-sign-cable-scenarios-scenario-m3",
+          "prompt": "For a horizontal beam, the cable horizontal component has torque about its hinge…",
+          "options": [
+            "zero if its line passes through the hinge",
+            "TL",
+            "always maximum"
+          ],
+          "answer": 0,
+          "why": "The perpendicular lever arm is zero.",
+          "marks": 1
+        },
+        {
+          "id": "equilibrium-sign-cable-scenarios-scenario-m4",
+          "prompt": "A cable strength rating should be compared with…",
+          "options": [
+            "only Tᵧ",
+            "full tension T",
+            "beam weight alone"
+          ],
+          "answer": 1,
+          "why": "The cable carries the full tensile force.",
+          "marks": 1
+        }
+      ],
+      "visual": "focused",
+      "figure": {
+        "svg": "<svg class=\"pp-svg\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 440\" role=\"img\" aria-label=\"Sign supported by two cables: left tension up-left at 30 degrees, right tension up-right at 60 degrees and weight down\"><title>Sign supported by two cables: left tension up-left at 30 degrees, right tension up-right at 60 degrees and weight down</title><defs><marker id=\"pp-arrow-33\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10Z\" fill=\"context-stroke\"/></marker></defs><path d=\"M380 190L205 90\" stroke=\"#0b8774\" stroke-width=\"4\" fill=\"none\" marker-end=\"url(#pp-arrow-33)\"/><path d=\"M380 190L470 35\" stroke=\"#2a6bb2\" stroke-width=\"4\" fill=\"none\" marker-end=\"url(#pp-arrow-33)\"/><path d=\"M380 190L380 320\" stroke=\"#c87518\" stroke-width=\"4\" fill=\"none\" marker-end=\"url(#pp-arrow-33)\"/><circle cx=\"380\" cy=\"190\" r=\"12\" fill=\"#e48d2a\" stroke=\"#18374d\" stroke-width=\"2\"/><text x=\"75\" y=\"70\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">Tleft: 30° above horizontal</text><text x=\"490\" y=\"95\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">Tright: 60°</text><text x=\"405\" y=\"300\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">W = 200 N ↓</text><path d=\"M180 190L590 190\" stroke=\"#9aadb9\" stroke-width=\"3\" fill=\"none\" stroke-dasharray=\"6 6\"/><text x=\"90\" y=\"400\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">At the joint: left/right horizontal components cancel.</text></svg>",
+        "caption": "Labelled model for this scenario family. Diagram values belong to the illustration; use the separate values stated in each task question."
+      }
+    },
+    {
+      "course": "Physics ATAR",
+      "yearGroup": 12,
+      "unit": "Unit 3 – Gravity and relativity",
+      "topic": "relativity-clock-length-scenarios",
+      "id": "[\"Physics ATAR\",12,\"Unit 3 – Gravity and relativity\",\"relativity-clock-length-scenarios\"]",
+      "parentTopic": "relativity-effects",
+      "title": "Relativity: clocks, spacecraft and particle lifetimes — standalone task",
+      "lessonTitle": "Relativity: clocks, spacecraft and particle lifetimes",
+      "focus": "Identify proper time and proper length; reconcile approaching, receding and particle scenarios.",
+      "instructions": "Attempt both structured questions before revealing the guide. Draw labelled diagrams and explain equation choices. Show substitutions, units and directions. Complete the four concept checks, review your working and record one improvement. Written marks are self-reviewed; concepts are checked automatically.",
+      "url": "topic-hub.html?course=Physics%20ATAR&year=12&unit=Unit%203%20%E2%80%93%20Gravity%20and%20relativity&topic=relativity-clock-length-scenarios&activity=standalone",
+      "lessonUrl": "topic-hub.html?course=Physics%20ATAR&year=12&unit=Unit%203%20%E2%80%93%20Gravity%20and%20relativity&topic=relativity-clock-length-scenarios",
+      "minutes": 0,
+      "format": "standalone",
+      "taskVersion": "2026.10.12-scenarios",
+      "totalMarks": 14,
+      "writtenQuestions": 2,
+      "conceptChecks": 4,
+      "suggestedMinutes": 30,
+      "constants": "Use c = 3.00 × 10⁸ m/s. Frames move inertially at constant relative velocity unless stated. β = |v|/c and γ = 1/√(1 − β²).",
+      "questions": [
+        {
+          "id": "relativity-clock-length-scenarios-scenario-q1",
+          "prompt": "A ship with proper longitudinal length 250 m moves at 0.800c relative to Earth. Two events occur at one onboard clock location 6.00 s apart according to that clock. Find Earth-measured length and interval.",
+          "marks": 5,
+          "lines": 10,
+          "marking": [
+            {
+              "point": "γ = 1/√(1 − 0.800²) = 1.66667.",
+              "marks": 1
+            },
+            {
+              "point": "Moving longitudinal length = 250/γ = 150 m.",
+              "marks": 1
+            },
+            {
+              "point": "6.00 s is proper time because both events are colocated on the onboard clock.",
+              "marks": 1
+            },
+            {
+              "point": "Earth interval = γ × 6.00 = 10.0 s.",
+              "marks": 1
+            },
+            {
+              "point": "Only the dimension parallel to the relative motion contracts.",
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "id": "relativity-clock-length-scenarios-scenario-q2",
+          "prompt": "A particle has proper mean lifetime 2.00 μs and travels at 0.600c in the laboratory. Find its mean laboratory travel distance and the equivalent detector travel distance in its rest frame.",
+          "marks": 5,
+          "lines": 10,
+          "marking": [
+            {
+              "point": "γ = 1.25.",
+              "marks": 1
+            },
+            {
+              "point": "Laboratory lifetime = 1.25 × 2.00 = 2.50 μs.",
+              "marks": 1
+            },
+            {
+              "point": "Laboratory distance = 0.600c × 2.50 μs = 450 m.",
+              "marks": 1
+            },
+            {
+              "point": "Particle-frame distance = 450/1.25 = 360 m.",
+              "marks": 1
+            },
+            {
+              "point": "0.600c × proper lifetime 2.00 μs also gives 360 m, reconciling the frames.",
+              "marks": 1
+            }
+          ]
+        }
+      ],
+      "mastery": [
+        {
+          "id": "relativity-clock-length-scenarios-scenario-m1",
+          "prompt": "Proper time is measured between events…",
+          "options": [
+            "at the same position in the clock rest frame",
+            "simultaneous everywhere",
+            "only on Earth"
+          ],
+          "answer": 0,
+          "why": "A clock present at both events records their proper interval.",
+          "marks": 1
+        },
+        {
+          "id": "relativity-clock-length-scenarios-scenario-m2",
+          "prompt": "At 0.60c, γ is…",
+          "options": [
+            "0.80",
+            "1.25",
+            "0.60"
+          ],
+          "answer": 1,
+          "why": "γ = 1/√0.64 = 1.25.",
+          "marks": 1
+        },
+        {
+          "id": "relativity-clock-length-scenarios-scenario-m3",
+          "prompt": "Changing v from +0.80c to −0.80c changes γ…",
+          "options": [
+            "to its negative",
+            "not at all",
+            "to zero"
+          ],
+          "answer": 1,
+          "why": "The Lorentz factor depends on v².",
+          "marks": 1
+        },
+        {
+          "id": "relativity-clock-length-scenarios-scenario-m4",
+          "prompt": "A proper length 120 m at 0.80c along its length is measured…",
+          "options": [
+            "200 m",
+            "120 m",
+            "72.0 m"
+          ],
+          "answer": 2,
+          "why": "L = L₀√(1 − β²) = 72.0 m.",
+          "marks": 1
+        }
+      ],
+      "visual": "focused",
+      "figure": {
+        "svg": "<svg class=\"pp-svg\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 440\" role=\"img\" aria-label=\"Two inertial frames: Earth laboratory S and spacecraft S prime with their own clocks and rulers\"><title>Two inertial frames: Earth laboratory S and spacecraft S prime with their own clocks and rulers</title><defs><marker id=\"pp-arrow-38\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10Z\" fill=\"context-stroke\"/></marker></defs><path d=\"M70 320L680 320\" stroke=\"#526d82\" stroke-width=\"3\" fill=\"none\"/><path d=\"M85 320L85 75\" stroke=\"#0b8774\" stroke-width=\"4\" fill=\"none\" marker-end=\"url(#pp-arrow-38)\"/><text x=\"105\" y=\"90\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">S: Earth laboratory</text><text x=\"120\" y=\"285\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">Earth clock and ruler</text><rect x=\"300\" y=\"140\" width=\"270\" height=\"95\" rx=\"20\" fill=\"#e6eff7\" stroke=\"#2a6bb2\" stroke-width=\"3\"/><path d=\"M590 185L700 185\" stroke=\"#2a6bb2\" stroke-width=\"4\" fill=\"none\" marker-end=\"url(#pp-arrow-38)\"/><text x=\"320\" y=\"175\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">S′: spacecraft</text><text x=\"320\" y=\"210\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">ship clock and ruler</text><text x=\"605\" y=\"155\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">v →</text><text x=\"70\" y=\"410\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">State which observer measures each time, length and velocity.</text></svg>",
+        "caption": "Labelled model for this scenario family. Diagram values belong to the illustration; use the separate values stated in each task question."
+      }
+    },
+    {
+      "course": "Physics ATAR",
+      "yearGroup": 12,
+      "unit": "Unit 3 – Gravity and relativity",
+      "topic": "relativistic-velocity-addition",
+      "id": "[\"Physics ATAR\",12,\"Unit 3 – Gravity and relativity\",\"relativistic-velocity-addition\"]",
+      "parentTopic": "relativity-foundations",
+      "title": "Relativity extension: approaching, receding and overtaking — standalone task",
+      "lessonTitle": "Relativity extension: approaching, receding and overtaking",
+      "focus": "Use signed velocities and distinguish a frame measurement from a closing rate.",
+      "instructions": "Attempt both structured questions before revealing the guide. Draw labelled diagrams and explain equation choices. Show substitutions, units and directions. Complete the four concept checks, review your working and record one improvement. Written marks are self-reviewed; concepts are checked automatically.",
+      "url": "topic-hub.html?course=Physics%20ATAR&year=12&unit=Unit%203%20%E2%80%93%20Gravity%20and%20relativity&topic=relativistic-velocity-addition&activity=standalone",
+      "lessonUrl": "topic-hub.html?course=Physics%20ATAR&year=12&unit=Unit%203%20%E2%80%93%20Gravity%20and%20relativity&topic=relativistic-velocity-addition",
+      "minutes": 0,
+      "format": "standalone",
+      "taskVersion": "2026.10.12-scenarios",
+      "totalMarks": 13,
+      "writtenQuestions": 2,
+      "conceptChecks": 4,
+      "suggestedMinutes": 30,
+      "constants": "Extension beyond the assessed 2026 velocity-transformation equations. Use c = 3.00 × 10⁸ m/s. One-dimensional inertial frames; +x to the right.",
+      "questions": [
+        {
+          "id": "relativistic-velocity-addition-scenario-q1",
+          "prompt": "Extension: A travels at +0.80c and B at −0.30c in Earth frame, with A initially left of B. Find A’s signed velocity measured by B and distinguish it from Earth’s closing rate.",
+          "marks": 5,
+          "lines": 10,
+          "marking": [
+            {
+              "point": "Object u = +0.80c and observer v = −0.30c.",
+              "marks": 1
+            },
+            {
+              "point": "u′/c = (0.80 − (−0.30))/(1 − 0.80(−0.30)).",
+              "marks": 1
+            },
+            {
+              "point": "u′ = +1.10c/1.24 = +0.887c.",
+              "marks": 1
+            },
+            {
+              "point": "Earth-coordinate closing rate is 1.10c.",
+              "marks": 1
+            },
+            {
+              "point": "The closing rate is a separation rate in Earth coordinates; it is not B’s measured object speed.",
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "id": "relativistic-velocity-addition-scenario-q2",
+          "prompt": "Extension: A ship moves at +0.50c relative to Earth. A probe moves backwards at −0.80c relative to the ship. Find its Earth velocity and interpret its sign.",
+          "marks": 4,
+          "lines": 10,
+          "marking": [
+            {
+              "point": "Transform from ship to Earth: u = (u′ + v)/(1 + u′v/c²).",
+              "marks": 1
+            },
+            {
+              "point": "u/c = (−0.80 + 0.50)/(1 − 0.40) = −0.500.",
+              "marks": 1
+            },
+            {
+              "point": "Earth velocity is −0.500c, leftward.",
+              "marks": 1
+            },
+            {
+              "point": "Unlike some backward ship-frame launches, this probe also moves backwards in Earth frame; the sign follows the calculation.",
+              "marks": 1
+            }
+          ]
+        }
+      ],
+      "mastery": [
+        {
+          "id": "relativistic-velocity-addition-scenario-m1",
+          "prompt": "The inverse transformation expects u and v to be measured…",
+          "options": [
+            "in the same starting frame",
+            "in whichever frames are available",
+            "only in the object frame"
+          ],
+          "answer": 0,
+          "why": "u is the object and v the observer velocity in S.",
+          "marks": 1
+        },
+        {
+          "id": "relativistic-velocity-addition-scenario-m2",
+          "prompt": "Two ships each at 0.60c approach in Earth frame. One measures the other’s speed as…",
+          "options": [
+            "1.20c",
+            "0.882c",
+            "0.36c"
+          ],
+          "answer": 1,
+          "why": "1.20/1.36 = 0.882; 1.20c is the Earth-coordinate closing rate.",
+          "marks": 1
+        },
+        {
+          "id": "relativistic-velocity-addition-scenario-m3",
+          "prompt": "A negative u′ means…",
+          "options": [
+            "negative speed is impossible",
+            "motion in the negative chosen direction",
+            "the denominator must be discarded"
+          ],
+          "answer": 1,
+          "why": "Velocity carries direction; speed is its magnitude.",
+          "marks": 1
+        },
+        {
+          "id": "relativistic-velocity-addition-scenario-m4",
+          "prompt": "For a light signal emitted forwards from a moving ship, Earth measures vacuum speed…",
+          "options": [
+            "c + v",
+            "c",
+            "less than c"
+          ],
+          "answer": 1,
+          "why": "The transformation preserves c.",
+          "marks": 1
+        }
+      ],
+      "visual": "focused",
+      "figure": {
+        "svg": "<svg class=\"pp-svg\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 440\" role=\"img\" aria-label=\"Ground-frame velocity arrows for two spacecraft; plus x is right\"><title>Ground-frame velocity arrows for two spacecraft; plus x is right</title><defs><marker id=\"pp-arrow-42\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10Z\" fill=\"context-stroke\"/></marker></defs><path d=\"M65 310L710 310\" stroke=\"#526d82\" stroke-width=\"3\" fill=\"none\"/><rect x=\"170\" y=\"150\" width=\"120\" height=\"65\" rx=\"20\" fill=\"#e8f5ef\" stroke=\"#0b8774\"/><rect x=\"460\" y=\"150\" width=\"120\" height=\"65\" rx=\"20\" fill=\"#e6eff7\" stroke=\"#2a6bb2\"/><path d=\"M230 250L330 250\" stroke=\"#0b8774\" stroke-width=\"4\" fill=\"none\" marker-end=\"url(#pp-arrow-42)\"/><path d=\"M520 250L420 250\" stroke=\"#2a6bb2\" stroke-width=\"4\" fill=\"none\" marker-end=\"url(#pp-arrow-42)\"/><text x=\"230\" y=\"135\" fill=\"#0b8774\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\">A: +0.6c</text><text x=\"520\" y=\"135\" fill=\"#2a6bb2\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\">B: -0.6c</text><text x=\"70\" y=\"45\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">Both arrows are velocities measured in S: Earth</text><text x=\"70\" y=\"380\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">Transform to an observer frame before calling a value</text><text x=\"70\" y=\"415\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">the object’s velocity measured by that observer.</text></svg>",
+        "caption": "Labelled model for this scenario family. Diagram values belong to the illustration; use the separate values stated in each task question."
+      }
+    }
+  ]
+}

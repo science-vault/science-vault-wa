@@ -1,7 +1,7 @@
 export const prebuiltCourse=course=>['Geography ATAR','Physics ATAR'].includes(course);
 import {canStudy} from './registration-options.mjs?v=2026.10.11-geography';
 let catalog;
-export async function lessonTasks(){if(!catalog)catalog=fetch('lesson-task-catalog.json?v=2026.10.12-focused-tasks').then(async r=>{if(!r.ok)throw Error('Lesson-task library could not load. Please refresh and try again.');const data=await r.json();return data.tasks}).catch(e=>{catalog=null;throw e});return catalog}
+export async function lessonTasks(){if(!catalog)catalog=Promise.all(['lesson-task-catalog.json?v=2026.10.12-focused-tasks','physics-scenario-tasks.json?v=2026.10.12-scenarios'].map(async url=>{const r=await fetch(url);if(!r.ok)throw Error('Lesson-task library could not load. Please refresh and try again.');return (await r.json()).tasks})).then(collections=>{const merged=new Map();for(const tasks of collections)for(const task of tasks)merged.set(taskKey(task),task);return [...merged.values()]}).catch(e=>{catalog=null;throw e});return catalog}
 export function taskKey(task){return JSON.stringify([task.course,Number(task.yearGroup),task.unit,task.topic,...(task.format==='standalone'?['standalone-v1']:[])])}
 export function eligibleTasks(tasks,state){return tasks.filter(t=>canStudy(state.member,t.course,t.yearGroup,state.admin))}
 export const steps=[['learn','Learn: study explanations, models and worked examples.'],['practise','Practise: attempt questions, check the marking points and correct your work.'],['check','Check: finish the mastery review and record an improvement.']];
