@@ -11,7 +11,7 @@
  async function fill(img){
   if(img.dataset.scsaLoaded)return;
   const id=img.dataset.scsaPack,key=img.dataset.scsaImage;
-  try{const pack=await load(id);if(!pack[key])throw new Error('Missing source question image');const cacheKey=id+':'+key;let url=urls.get(cacheKey);if(!url){const raw=atob(pack[key]),bytes=Uint8Array.from(raw,c=>c.charCodeAt(0));url=URL.createObjectURL(new Blob([bytes],{type:'image/jpeg'}));urls.set(cacheKey,url);}img.src=url;img.dataset.scsaLoaded='true';const link=img.closest('a[data-scsa-image-link]');if(link)link.href=url;img.removeAttribute('data-scsa-error');}
+  try{const pack=await load(id);if(!pack[key])throw new Error('Missing source question image');const cacheKey=id+':'+key;let url=urls.get(cacheKey);if(!url){const raw=atob(pack[key]),bytes=Uint8Array.from(raw,c=>c.charCodeAt(0));url=URL.createObjectURL(new Blob([bytes],{type:window.ScsaSourceImagePackMimeTypes?.[id]||'image/jpeg'}));urls.set(cacheKey,url);}img.src=url;img.dataset.scsaLoaded='true';const link=img.closest('a[data-scsa-image-link]');if(link)link.href=url;img.removeAttribute('data-scsa-error');}
   catch(e){img.dataset.scsaError=e.message;img.alt='Examination image could not load. Open the original paper link or retry.';}
  }
  const observer=typeof IntersectionObserver==='function'?new IntersectionObserver(entries=>{for(const e of entries)if(e.isIntersecting){observer.unobserve(e.target);fill(e.target)}},{rootMargin:'400px'}):null;
