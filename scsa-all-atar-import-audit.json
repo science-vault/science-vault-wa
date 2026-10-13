@@ -1,0 +1,30 @@
+{
+  "questions": 38,
+  "papers": [
+    {
+      "course": "Biology",
+      "year": 2025,
+      "source": "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0005/1232645/2025-BLY-Examination-Web-Version.PDF",
+      "key": "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0006/1232646/2025-BLY-Ratified-Marking-Key-Web-Version.PDF",
+      "detected": 39,
+      "importable": 38,
+      "withheld": [
+        {
+          "question": 32,
+          "reason": "Required third-party content omitted in the official web source"
+        }
+      ],
+      "images": 53,
+      "reviewed": true,
+      "reviewNotes": "All crop contact sheets reviewed; shared MC stimulus tables retained; unrelated next-section material removed; source omissions withheld."
+    }
+  ],
+  "imagePacks": 1,
+  "imagePackBytes": 3567387,
+  "subjects": [
+    "Biology"
+  ],
+  "reviewStatus": "Only reviewed papers included",
+  "duplicateIds": 0,
+  "duplicateSourceIdentities": 0
+}
