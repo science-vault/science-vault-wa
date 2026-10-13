@@ -1,4 +1,4 @@
-import {setupLearningPlan} from './student-lesson-plan.mjs?v=2026.10.13-mechanics';
+import {setupLearningPlan} from './student-lesson-plan.mjs?v=2026.10.13-year11-complete';
 import {waitForAccess} from './access-client.mjs?v=2026.10.9-classes';
 import {joinClass,myClasses,classTasks} from './class-client.mjs';
 import {canStudy} from './registration-options.mjs?v=2026.10.11-geography';

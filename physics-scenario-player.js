@@ -1,6 +1,6 @@
 /* Scenario player retains the approved lesson's navigation, feedback and accessible diagrams. */
 (function(){'use strict';
-const G=9.8,VERSION='2026.10.13-year11-rebuild',registry=[];
+const G=9.8,VERSION='2026.10.13-year11-complete',registry=[];
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const math=(eq,note='')=>'<div class="pp-equation">'+eq+(note?'<small>'+note+'</small>':'')+'</div>';
 const note=(label,text,tone='blue')=>'<aside class="pp-note '+tone+'"><b>'+label+'</b><p>'+text+'</p></aside>';
@@ -84,7 +84,7 @@ const existing=window['Year'+info.year+'PhysicsLessons'][ID]||{};
 Object.assign(existing,{title:spec.title,parentTopic:spec.parent,screens:pages,bank,wire,scenarioVersion:VERSION,focus:spec.focus,theory:spec.summary});
 window['Year'+info.year+'PhysicsLessons'][ID]=existing;
 const player=window['Year'+info.year+'PhysicsPlayer'],oldBuild=player.build;player.build=(topic,host)=>topic.id===ID?mount(topic,host):oldBuild(topic,host);
-const result={...spec,year:info.year,unit:info.unit,wire,mount,worksheet:printWorksheet};registry.push(result);return result;
+const result={...spec,year:info.year,unit:info.unit,wire,scenarioWire:spec.wire,mount,worksheet:printWorksheet};registry.push(result);return result;
 }
 window.PhysicsScenarioCourse={version:VERSION,registry,register,helpers:{esc,math,note,pair,steps,paper,reveal,svg,text,line,arrow,ball,flight,curve,components,forces,axes,apex,cliff,compareAngles,check,number,sim}};
 })();
