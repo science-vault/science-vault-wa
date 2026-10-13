@@ -1,4 +1,4 @@
-const linkedHeading=current=>((window.Year11PhysicsLessons||{})[current.id]||(window.Year12PhysicsLessons||{})[current.id])?.parentTopic?'Standalone practice for this focused lesson':'Original topic consolidation task';
+const linkedHeading=current=>((window.Year11PhysicsLessons||{})[current.id]||(window.Year12PhysicsLessons||{})[current.id])?.parentTopic&&((window.Year11PhysicsLessons||{})[current.id]||(window.Year12PhysicsLessons||{})[current.id])?.parentTopic!==current.id?'Standalone practice for this focused lesson':'Original topic consolidation task';
 // Every published Physics lesson links to its separate question task.
 if(new URLSearchParams(location.search).get('activity')!=='standalone'){
  let box;
