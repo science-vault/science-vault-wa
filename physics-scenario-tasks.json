@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.13-year11-rebuild",
+  "version": "2026.10.13-mechanics",
   "tasks": [
     {
       "course": "Physics ATAR",
@@ -2373,6 +2373,669 @@
       "figure": {
         "svg": "<svg class=\"pp-svg\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 440\" role=\"img\" aria-label=\"Stopping-distance stages: reaction distance at initial speed then braking distance as speed decreases\"><title>Stopping-distance stages: reaction distance at initial speed then braking distance as speed decreases</title><defs><marker id=\"pp-arrow-22\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10Z\" fill=\"context-stroke\"/></marker></defs><rect x=\"90\" y=\"120\" width=\"150\" height=\"65\" rx=\"15\" fill=\"#c8e2ee\" stroke=\"#18374d\"/><circle cx=\"120\" cy=\"195\" r=\"16\" fill=\"#526d82\" stroke=\"#18374d\" stroke-width=\"2\"/><circle cx=\"210\" cy=\"195\" r=\"16\" fill=\"#526d82\" stroke=\"#18374d\" stroke-width=\"2\"/><path d=\"M65 215L705 215\" stroke=\"#526d82\" stroke-width=\"3\" fill=\"none\"/><path d=\"M110 285L330 285\" stroke=\"#0b8774\" stroke-width=\"4\" fill=\"none\" marker-end=\"url(#pp-arrow-22)\"/><path d=\"M330 285L635 285\" stroke=\"#c87518\" stroke-width=\"4\" fill=\"none\" marker-end=\"url(#pp-arrow-22)\"/><text x=\"100\" y=\"335\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">reaction: u·tr</text><text x=\"395\" y=\"335\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">braking: u²/(2|a|)</text><path d=\"M330 245L330 300\" stroke=\"#526d82\" stroke-width=\"3\" fill=\"none\" stroke-dasharray=\"6 6\"/><text x=\"330\" y=\"390\" fill=\"#18374d\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\">brakes begin</text><text x=\"80\" y=\"65\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">Notice hazard → react → brake → stop</text></svg>",
         "caption": "Labelled illustration for this scenario family. Use the values stated in each task question; diagram numbers belong to its illustrative example."
+      }
+    },
+    {
+      "id": "[\"Physics ATAR\",11,\"Unit 1 – Motion, forces and energy\",\"y11-motion-graphs-focus-2\"]",
+      "topic": "y11-motion-graphs-focus-2",
+      "parentTopic": "y11-motion-graphs",
+      "title": "Motion graphs: areas, gradients and reversals — standalone task",
+      "lessonTitle": "Motion graphs: areas, gradients and reversals",
+      "course": "Physics ATAR",
+      "yearGroup": 11,
+      "unit": "Unit 1 – Motion, forces and energy",
+      "focus": "Read position, velocity and acceleration graphs without confusing their meanings.",
+      "instructions": "Attempt both fresh structured questions before revealing marking tables. Draw labelled diagrams and explain model choices. Complete four concept checks, review your written work and record an improvement. Written marks are self-reviewed; concept answers are checked automatically.",
+      "url": "topic-hub.html?course=Physics%20ATAR&year=11&unit=Unit%201%20%E2%80%93%20Motion%2C%20forces%20and%20energy&topic=y11-motion-graphs-focus-2&activity=standalone",
+      "lessonUrl": "topic-hub.html?course=Physics%20ATAR&year=11&unit=Unit%201%20%E2%80%93%20Motion%2C%20forces%20and%20energy&topic=y11-motion-graphs-focus-2",
+      "minutes": 0,
+      "format": "standalone",
+      "taskVersion": "2026.10.13-mechanics",
+      "totalMarks": 14,
+      "writtenQuestions": 2,
+      "conceptChecks": 4,
+      "suggestedMinutes": 30,
+      "constants": "Use g = 9.80 m/s², SI units and the stated idealisations. Choose a positive direction; retain calculator guard digits.",
+      "questions": [
+        {
+          "id": "y11-motion-graphs-focus-2-mechanics-q1",
+          "prompt": "A velocity-time graph shows +6.00 m/s from 0 to 1.00 s, then a straight line to −6.00 m/s at 4.00 s. Find reversal time, displacement and total distance.",
+          "marks": 5,
+          "lines": 10,
+          "marking": [
+            {
+              "point": "During the sloped segment a = (−6.00 − 6.00)/3.00 = −4.00 m/s².",
+              "marks": 1
+            },
+            {
+              "point": "Zero velocity occurs 1.50 s after the segment begins, at t = 2.50 s.",
+              "marks": 1
+            },
+            {
+              "point": "First rectangle gives +6.00 m; the later positive and negative triangles each have magnitude 4.50 m.",
+              "marks": 1
+            },
+            {
+              "point": "Net displacement = +6.00 m because the two later signed areas cancel.",
+              "marks": 1
+            },
+            {
+              "point": "Total distance = 6.00 + 4.50 + 4.50 = 15.0 m.",
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "id": "y11-motion-graphs-focus-2-mechanics-q2",
+          "prompt": "A position-time relationship is x = 5.00 − 2.00t, with SI units. Find velocity, positions at 1.00 s and 4.00 s, displacement over that interval and time of crossing the origin.",
+          "marks": 5,
+          "lines": 10,
+          "marking": [
+            {
+              "point": "Velocity is the gradient, −2.00 m/s.",
+              "marks": 1
+            },
+            {
+              "point": "x(1.00) = 3.00 m and x(4.00) = −3.00 m.",
+              "marks": 1
+            },
+            {
+              "point": "Displacement = −3.00 − 3.00 = −6.00 m; distance is 6.00 m because velocity never reverses.",
+              "marks": 1
+            },
+            {
+              "point": "At x = 0, t = 5.00/2.00 = 2.50 s.",
+              "marks": 1
+            },
+            {
+              "point": "Crossing the origin does not mean the object stops; its velocity remains −2.00 m/s.",
+              "marks": 1
+            }
+          ]
+        }
+      ],
+      "mastery": [
+        {
+          "id": "y11-motion-graphs-focus-2-mechanics-m1",
+          "prompt": "Velocity-time slope represents…",
+          "options": [
+            "acceleration",
+            "displacement",
+            "position"
+          ],
+          "answer": 0,
+          "why": "Slope is Δv/Δt.",
+          "marks": 1
+        },
+        {
+          "id": "y11-motion-graphs-focus-2-mechanics-m2",
+          "prompt": "A negative velocity means…",
+          "options": [
+            "leftward motion under the chosen axis",
+            "slowing always",
+            "negative time"
+          ],
+          "answer": 0,
+          "why": "Velocity sign gives direction.",
+          "marks": 1
+        },
+        {
+          "id": "y11-motion-graphs-focus-2-mechanics-m3",
+          "prompt": "A horizontal position-time line means…",
+          "options": [
+            "constant nonzero speed",
+            "rest",
+            "constant nonzero acceleration"
+          ],
+          "answer": 1,
+          "why": "Position is unchanged.",
+          "marks": 1
+        },
+        {
+          "id": "y11-motion-graphs-focus-2-mechanics-m4",
+          "prompt": "Distance for a reversing graph requires…",
+          "options": [
+            "magnitude of net area only",
+            "sum of area magnitudes",
+            "gradient only"
+          ],
+          "answer": 1,
+          "why": "The opposite-direction path still adds to total travel.",
+          "marks": 1
+        }
+      ],
+      "visual": "focused",
+      "figure": {
+        "svg": "<svg class=\"pp-svg\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 490\" role=\"img\" aria-label=\"Standalone Question 1: velocity-time graph with initial constant velocity then reversal\"><title>Standalone Question 1: velocity-time graph with initial constant velocity then reversal</title><defs><marker id=\"pp-arrow-17\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10Z\" fill=\"context-stroke\"/></marker></defs><path d=\"M100 220L700 220\" stroke=\"#0b8774\" stroke-width=\"4\" fill=\"none\" marker-end=\"url(#pp-arrow-17)\"/><path d=\"M100 365L100 45\" stroke=\"#2a6bb2\" stroke-width=\"4\" fill=\"none\" marker-end=\"url(#pp-arrow-17)\"/><path d=\"M100 220V100H220L400 220Z\" fill=\"#0b8774\" opacity=\".15\"/><path d=\"M400 220L580 340V220Z\" fill=\"#2a6bb2\" opacity=\".15\"/><path d=\"M100 100H220L580 340\" stroke=\"#c87518\" stroke-width=\"4\" fill=\"none\"/><text x=\"100\" y=\"390\" fill=\"#18374d\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\">0</text><text x=\"220\" y=\"390\" fill=\"#18374d\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\">1</text><text x=\"340\" y=\"390\" fill=\"#18374d\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\">2</text><text x=\"460\" y=\"390\" fill=\"#18374d\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\">3</text><text x=\"580\" y=\"390\" fill=\"#18374d\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\">4</text><text x=\"75\" y=\"106\" fill=\"#18374d\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"19\">+6</text><text x=\"75\" y=\"226\" fill=\"#18374d\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"19\">0</text><text x=\"75\" y=\"346\" fill=\"#18374d\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"19\">−6</text><text x=\"110\" y=\"35\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">velocity (m/s)</text><text x=\"520\" y=\"420\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">time (s)</text><text x=\"110\" y=\"455\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">0–1 s: +6 m/s. Then a straight line to −6 m/s at 4 s.</text></svg>",
+        "caption": "Question 1 velocity-time graph. For Question 2, sketch the separate position-time line."
+      }
+    },
+    {
+      "id": "[\"Physics ATAR\",11,\"Unit 1 – Motion, forces and energy\",\"y11-newton-focus-1\"]",
+      "topic": "y11-newton-focus-1",
+      "parentTopic": "y11-newton",
+      "title": "Forces: diagrams, net force and lifts — standalone task",
+      "lessonTitle": "Forces: diagrams, net force and lifts",
+      "course": "Physics ATAR",
+      "yearGroup": 11,
+      "unit": "Unit 1 – Motion, forces and energy",
+      "focus": "Identify forces on one object and solve horizontal, vertical and lift scenarios.",
+      "instructions": "Attempt both fresh structured questions before revealing marking tables. Draw labelled diagrams and explain model choices. Complete four concept checks, review your written work and record an improvement. Written marks are self-reviewed; concept answers are checked automatically.",
+      "url": "topic-hub.html?course=Physics%20ATAR&year=11&unit=Unit%201%20%E2%80%93%20Motion%2C%20forces%20and%20energy&topic=y11-newton-focus-1&activity=standalone",
+      "lessonUrl": "topic-hub.html?course=Physics%20ATAR&year=11&unit=Unit%201%20%E2%80%93%20Motion%2C%20forces%20and%20energy&topic=y11-newton-focus-1",
+      "minutes": 0,
+      "format": "standalone",
+      "taskVersion": "2026.10.13-mechanics",
+      "totalMarks": 12,
+      "writtenQuestions": 2,
+      "conceptChecks": 4,
+      "suggestedMinutes": 30,
+      "constants": "Use g = 9.80 m/s², SI units and the stated idealisations. Choose a positive direction; retain calculator guard digits.",
+      "questions": [
+        {
+          "id": "y11-newton-focus-1-mechanics-q1",
+          "prompt": "An 8.00 kg crate experiences a 35.0 N rightward push and 11.0 N leftward friction on a level surface with no vertical acceleration. Find net force, horizontal acceleration and normal force.",
+          "marks": 4,
+          "lines": 10,
+          "marking": [
+            {
+              "point": "Draw weight down, normal up, push right and friction left.",
+              "marks": 1
+            },
+            {
+              "point": "Net horizontal force = 35.0 − 11.0 = +24.0 N.",
+              "marks": 1
+            },
+            {
+              "point": "a = 24.0/8.00 = +3.00 m/s².",
+              "marks": 1
+            },
+            {
+              "point": "Vertical balance gives N = 8.00 × 9.80 = 78.4 N.",
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "id": "y11-newton-focus-1-mechanics-q2",
+          "prompt": "An 80.0 kg passenger rises in a lift that slows with acceleration magnitude 1.25 m/s². Find the scale reading and explain whether it is above or below gravitational weight.",
+          "marks": 4,
+          "lines": 10,
+          "marking": [
+            {
+              "point": "Rising but slowing means downward acceleration: a = −1.25 m/s² with up positive.",
+              "marks": 1
+            },
+            {
+              "point": "N − mg = ma.",
+              "marks": 1
+            },
+            {
+              "point": "N = 80.0(9.80 − 1.25) = 684 N.",
+              "marks": 1
+            },
+            {
+              "point": "Gravitational weight is 784 N, so the scale reading is lower because acceleration is downward.",
+              "marks": 1
+            }
+          ]
+        }
+      ],
+      "mastery": [
+        {
+          "id": "y11-newton-focus-1-mechanics-m1",
+          "prompt": "A zero resultant force allows…",
+          "options": [
+            "constant velocity",
+            "only rest",
+            "always increasing speed"
+          ],
+          "answer": 0,
+          "why": "Zero net force means zero acceleration.",
+          "marks": 1
+        },
+        {
+          "id": "y11-newton-focus-1-mechanics-m2",
+          "prompt": "A third-law pair acts…",
+          "options": [
+            "on different objects",
+            "on one diagram always",
+            "only vertically"
+          ],
+          "answer": 0,
+          "why": "The forces belong to the two interacting objects.",
+          "marks": 1
+        },
+        {
+          "id": "y11-newton-focus-1-mechanics-m3",
+          "prompt": "A scale measures…",
+          "options": [
+            "normal contact force",
+            "mass directly in newtons",
+            "gravity disappearing"
+          ],
+          "answer": 0,
+          "why": "Its force reading is apparent weight.",
+          "marks": 1
+        },
+        {
+          "id": "y11-newton-focus-1-mechanics-m4",
+          "prompt": "A descending lift slowing has acceleration…",
+          "options": [
+            "downward",
+            "upward",
+            "zero"
+          ],
+          "answer": 1,
+          "why": "Its downward velocity is becoming less negative.",
+          "marks": 1
+        }
+      ],
+      "visual": "focused",
+      "figure": {
+        "svg": "<svg class=\"pp-svg\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 460\" role=\"img\" aria-label=\"Horizontal block free-body diagram with upward normal, downward weight, applied force right and friction left\"><title>Horizontal block free-body diagram with upward normal, downward weight, applied force right and friction left</title><defs><marker id=\"pp-arrow-3\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10Z\" fill=\"context-stroke\"/></marker></defs><rect x=\"280\" y=\"170\" width=\"130\" height=\"85\" fill=\"#dcebf3\" stroke=\"#18374d\"/><path d=\"M345 170L345 70\" stroke=\"#0b8774\" stroke-width=\"4\" fill=\"none\" marker-end=\"url(#pp-arrow-3)\"/><path d=\"M345 255L345 345\" stroke=\"#c87518\" stroke-width=\"4\" fill=\"none\" marker-end=\"url(#pp-arrow-3)\"/><path d=\"M410 210L580 210\" stroke=\"#2a6bb2\" stroke-width=\"4\" fill=\"none\" marker-end=\"url(#pp-arrow-3)\"/><path d=\"M280 210L165 210\" stroke=\"#a15bb5\" stroke-width=\"4\" fill=\"none\" marker-end=\"url(#pp-arrow-3)\"/><text x=\"365\" y=\"95\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">N ↑</text><text x=\"365\" y=\"330\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">mg ↓</text><text x=\"455\" y=\"180\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">F = 35.0 N →</text><text x=\"80\" y=\"180\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">f = 11.0 N ←</text><text x=\"70\" y=\"420\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">Arrows are forces on the block; horizontal and vertical sums differ.</text></svg>",
+        "caption": "Illustrative scenario model. Use each question's separately stated values; diagram values belong to its example."
+      }
+    },
+    {
+      "id": "[\"Physics ATAR\",11,\"Unit 1 – Motion, forces and energy\",\"y11-friction-slopes-focus-2\"]",
+      "topic": "y11-friction-slopes-focus-2",
+      "parentTopic": "y11-friction-slopes",
+      "title": "Friction and slopes: sticking, sliding and connected masses — standalone task",
+      "lessonTitle": "Friction and slopes: sticking, sliding and connected masses",
+      "course": "Physics ATAR",
+      "yearGroup": 11,
+      "unit": "Unit 1 – Motion, forces and energy",
+      "focus": "Determine friction direction and magnitude before solving an acceleration.",
+      "instructions": "Attempt both fresh structured questions before revealing marking tables. Draw labelled diagrams and explain model choices. Complete four concept checks, review your written work and record an improvement. Written marks are self-reviewed; concept answers are checked automatically.",
+      "url": "topic-hub.html?course=Physics%20ATAR&year=11&unit=Unit%201%20%E2%80%93%20Motion%2C%20forces%20and%20energy&topic=y11-friction-slopes-focus-2&activity=standalone",
+      "lessonUrl": "topic-hub.html?course=Physics%20ATAR&year=11&unit=Unit%201%20%E2%80%93%20Motion%2C%20forces%20and%20energy&topic=y11-friction-slopes-focus-2",
+      "minutes": 0,
+      "format": "standalone",
+      "taskVersion": "2026.10.13-mechanics",
+      "totalMarks": 14,
+      "writtenQuestions": 2,
+      "conceptChecks": 4,
+      "suggestedMinutes": 30,
+      "constants": "Use g = 9.80 m/s², SI units and the stated idealisations. Choose a positive direction; retain calculator guard digits.",
+      "questions": [
+        {
+          "id": "y11-friction-slopes-focus-2-mechanics-q1",
+          "prompt": "A 6.00 kg block slides down a 30.0° slope with μk = 0.200. Find normal force, friction and acceleration. If initially stationary with μs = 0.500, can it stay at rest?",
+          "marks": 5,
+          "lines": 10,
+          "marking": [
+            {
+              "point": "N = 6.00 × 9.80 cos30° = 50.9 N.",
+              "marks": 1
+            },
+            {
+              "point": "Kinetic friction = 0.200N = 10.2 N uphill during the slide.",
+              "marks": 1
+            },
+            {
+              "point": "Downhill weight component = 6.00 × 9.80 sin30° = 29.4 N.",
+              "marks": 1
+            },
+            {
+              "point": "Downhill acceleration = (29.4 − 10.184…)/6.00 = 3.20 m/s².",
+              "marks": 1
+            },
+            {
+              "point": "For rest, required friction is 29.4 N but maximum static friction is 0.500 × 50.922… = 25.5 N, so it cannot stay at rest.",
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "id": "y11-friction-slopes-focus-2-mechanics-q2",
+          "prompt": "A 5.00 kg frictionless table block is connected to a hanging 2.00 kg mass by an ideal rope and pulley. Find acceleration and tension and verify using each object.",
+          "marks": 5,
+          "lines": 10,
+          "marking": [
+            {
+              "point": "Table-right positive: T = 5.00a. Hanging-down positive: 19.6 − T = 2.00a.",
+              "marks": 1
+            },
+            {
+              "point": "Adding gives a = 19.6/7.00 = 2.80 m/s².",
+              "marks": 1
+            },
+            {
+              "point": "T = 5.00 × 2.80 = 14.0 N.",
+              "marks": 1
+            },
+            {
+              "point": "Check hanging mass: 19.6 − 14.0 = 2.00 × 2.80 = 5.60 N.",
+              "marks": 1
+            },
+            {
+              "point": "The rope assumptions give one tension magnitude and equal path-acceleration magnitudes.",
+              "marks": 1
+            }
+          ]
+        }
+      ],
+      "mastery": [
+        {
+          "id": "y11-friction-slopes-focus-2-mechanics-m1",
+          "prompt": "Static friction always equals μsN…",
+          "options": [
+            "true",
+            "false; that is its maximum",
+            "only on slopes"
+          ],
+          "answer": 1,
+          "why": "It adjusts to the required value up to its limit.",
+          "marks": 1
+        },
+        {
+          "id": "y11-friction-slopes-focus-2-mechanics-m2",
+          "prompt": "A block sliding uphill has friction…",
+          "options": [
+            "downhill",
+            "uphill",
+            "normal to the plane"
+          ],
+          "answer": 0,
+          "why": "It opposes relative sliding.",
+          "marks": 1
+        },
+        {
+          "id": "y11-friction-slopes-focus-2-mechanics-m3",
+          "prompt": "N on a simple incline is…",
+          "options": [
+            "mg",
+            "mg cosθ",
+            "mg sinθ"
+          ],
+          "answer": 1,
+          "why": "Balance the perpendicular component.",
+          "marks": 1
+        },
+        {
+          "id": "y11-friction-slopes-focus-2-mechanics-m4",
+          "prompt": "An initially stationary block stays still when…",
+          "options": [
+            "required friction exceeds its limit",
+            "required friction is within the static limit",
+            "μk is zero only"
+          ],
+          "answer": 1,
+          "why": "Compare the required static force with μsN.",
+          "marks": 1
+        }
+      ],
+      "visual": "focused",
+      "figure": {
+        "svg": "<svg class=\"pp-svg\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 475\" role=\"img\" aria-label=\"Inclined-plane force model: weight down, normal perpendicular and friction along the slope\"><title>Inclined-plane force model: weight down, normal perpendicular and friction along the slope</title><defs><marker id=\"pp-arrow-7\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10Z\" fill=\"context-stroke\"/></marker></defs><path d=\"M130 320L620 90\" stroke=\"#526d82\" stroke-width=\"3\" fill=\"none\"/><path d=\"M130 320L620 320\" stroke=\"#9aadb9\" stroke-width=\"3\" fill=\"none\" stroke-dasharray=\"6 6\"/><path d=\"M180 320A50 50 0 0 0 175.3 298.7\" fill=\"none\" stroke=\"#526d82\" stroke-width=\"2\"/><text x=\"190\" y=\"310\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">θ</text><rect x=\"305\" y=\"185\" width=\"90\" height=\"65\" transform=\"rotate(-25 350 220)\" fill=\"#dcebf3\" stroke=\"#18374d\"/><path d=\"M350 220L350 340\" stroke=\"#c87518\" stroke-width=\"4\" fill=\"none\" marker-end=\"url(#pp-arrow-7)\"/><path d=\"M350 220L299 112\" stroke=\"#0b8774\" stroke-width=\"4\" fill=\"none\" marker-end=\"url(#pp-arrow-7)\"/><path d=\"M350 220L445 175\" stroke=\"#2a6bb2\" stroke-width=\"4\" fill=\"none\" marker-end=\"url(#pp-arrow-7)\"/><text x=\"365\" y=\"340\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">mg ↓</text><text x=\"205\" y=\"110\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">N: perpendicular</text><text x=\"455\" y=\"170\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">friction uphill</text><text x=\"80\" y=\"45\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">For a block sliding down: friction acts up the plane</text><text x=\"100\" y=\"400\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">Down-slope component: mg sinθ</text><text x=\"100\" y=\"435\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">Into-plane component: mg cosθ</text></svg>",
+        "caption": "Illustrative scenario model. Use each question's separately stated values; diagram values belong to its example."
+      }
+    },
+    {
+      "id": "[\"Physics ATAR\",11,\"Unit 1 – Motion, forces and energy\",\"y11-collisions-focus-1\"]",
+      "topic": "y11-collisions-focus-1",
+      "parentTopic": "y11-collisions",
+      "title": "Momentum: collisions, rebound and recoil — standalone task",
+      "lessonTitle": "Momentum: collisions, rebound and recoil",
+      "course": "Physics ATAR",
+      "yearGroup": 11,
+      "unit": "Unit 1 – Motion, forces and energy",
+      "focus": "Choose the system and signs, use impulse and test momentum conservation.",
+      "instructions": "Attempt both fresh structured questions before revealing marking tables. Draw labelled diagrams and explain model choices. Complete four concept checks, review your written work and record an improvement. Written marks are self-reviewed; concept answers are checked automatically.",
+      "url": "topic-hub.html?course=Physics%20ATAR&year=11&unit=Unit%201%20%E2%80%93%20Motion%2C%20forces%20and%20energy&topic=y11-collisions-focus-1&activity=standalone",
+      "lessonUrl": "topic-hub.html?course=Physics%20ATAR&year=11&unit=Unit%201%20%E2%80%93%20Motion%2C%20forces%20and%20energy&topic=y11-collisions-focus-1",
+      "minutes": 0,
+      "format": "standalone",
+      "taskVersion": "2026.10.13-mechanics",
+      "totalMarks": 13,
+      "writtenQuestions": 2,
+      "conceptChecks": 4,
+      "suggestedMinutes": 30,
+      "constants": "Use g = 9.80 m/s², SI units and the stated idealisations. Choose a positive direction; retain calculator guard digits.",
+      "questions": [
+        {
+          "id": "y11-collisions-focus-1-mechanics-q1",
+          "prompt": "A 4.00 kg cart at +3.00 m/s hits a stationary 2.00 kg cart and they stick. Neglect external impulse. Find final velocity and kinetic-energy loss.",
+          "marks": 5,
+          "lines": 10,
+          "marking": [
+            {
+              "point": "Initial momentum = 4.00 × 3.00 = +12.0 kg·m/s.",
+              "marks": 1
+            },
+            {
+              "point": "Shared final velocity = 12.0/6.00 = +2.00 m/s.",
+              "marks": 1
+            },
+            {
+              "point": "Initial kinetic energy = ½ × 4.00 × 3.00² = 18.0 J.",
+              "marks": 1
+            },
+            {
+              "point": "Final kinetic energy = ½ × 6.00 × 2.00² = 12.0 J.",
+              "marks": 1
+            },
+            {
+              "point": "Kinetic-energy loss is 6.00 J; energy transfers to other forms rather than being destroyed.",
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "id": "y11-collisions-focus-1-mechanics-q2",
+          "prompt": "A 0.200 kg ball changes velocity from −15.0 m/s to +25.0 m/s in 0.0200 s. Find impulse and average net force, then describe the effect of doubling contact time for the same velocity change.",
+          "marks": 4,
+          "lines": 10,
+          "marking": [
+            {
+              "point": "Impulse = 0.200[25.0 − (−15.0)] = +8.00 N·s.",
+              "marks": 1
+            },
+            {
+              "point": "Average net force = 8.00/0.0200 = +400 N.",
+              "marks": 1
+            },
+            {
+              "point": "For twice the time and the same impulse, average net force halves to +200 N.",
+              "marks": 1
+            },
+            {
+              "point": "The velocity change, not merely the speed change, must be used for the rebound.",
+              "marks": 1
+            }
+          ]
+        }
+      ],
+      "mastery": [
+        {
+          "id": "y11-collisions-focus-1-mechanics-m1",
+          "prompt": "A rebound impulse depends on…",
+          "options": [
+            "change in speed only",
+            "signed velocity change",
+            "the final speed only"
+          ],
+          "answer": 1,
+          "why": "Direction reversal must enter v − u.",
+          "marks": 1
+        },
+        {
+          "id": "y11-collisions-focus-1-mechanics-m2",
+          "prompt": "System momentum is conserved when…",
+          "options": [
+            "external impulse is negligible",
+            "all forces are zero",
+            "kinetic energy is always conserved"
+          ],
+          "answer": 0,
+          "why": "Internal interactions can be large.",
+          "marks": 1
+        },
+        {
+          "id": "y11-collisions-focus-1-mechanics-m3",
+          "prompt": "A sticking collision generally…",
+          "options": [
+            "conserves kinetic energy",
+            "does not conserve total energy",
+            "transfers kinetic energy to other forms"
+          ],
+          "answer": 2,
+          "why": "Momentum can remain conserved while macroscopic kinetic energy decreases.",
+          "marks": 1
+        },
+        {
+          "id": "y11-collisions-focus-1-mechanics-m4",
+          "prompt": "A triangular force pulse impulse is…",
+          "options": [
+            "FpeakΔt",
+            "½FpeakΔt",
+            "Fpeak/Δt"
+          ],
+          "answer": 1,
+          "why": "Use the triangular area.",
+          "marks": 1
+        }
+      ],
+      "visual": "focused",
+      "figure": {
+        "svg": "<svg class=\"pp-svg\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 480\" role=\"img\" aria-label=\"One-dimensional collision model with a positive axis and two masses before and after sticking\"><title>One-dimensional collision model with a positive axis and two masses before and after sticking</title><defs><marker id=\"pp-arrow-10\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10Z\" fill=\"context-stroke\"/></marker></defs><path d=\"M80 95L700 95\" stroke=\"#526d82\" stroke-width=\"4\" fill=\"none\" marker-end=\"url(#pp-arrow-10)\"/><text x=\"85\" y=\"65\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">+ direction →</text><rect x=\"120\" y=\"170\" width=\"110\" height=\"60\" fill=\"#dcebf3\"/><rect x=\"390\" y=\"170\" width=\"140\" height=\"60\" fill=\"#e6f2e9\"/><path d=\"M240 200L340 200\" stroke=\"#2a6bb2\" stroke-width=\"4\" fill=\"none\" marker-end=\"url(#pp-arrow-10)\"/><text x=\"120\" y=\"155\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">m₁; u₁ →</text><text x=\"390\" y=\"155\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">m₂; u₂ = 0</text><rect x=\"265\" y=\"300\" width=\"230\" height=\"60\" fill=\"#efe5d4\"/><path d=\"M505 330L625 330\" stroke=\"#c87518\" stroke-width=\"4\" fill=\"none\" marker-end=\"url(#pp-arrow-10)\"/><text x=\"285\" y=\"340\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">m₁ + m₂</text><text x=\"505\" y=\"390\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">shared final v</text><text x=\"80\" y=\"440\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">Momentum conservation applies to the chosen system and interval.</text></svg>",
+        "caption": "Illustrative scenario model. Use each question's separately stated values; diagram values belong to its example."
+      }
+    },
+    {
+      "id": "[\"Physics ATAR\",11,\"Unit 1 – Motion, forces and energy\",\"y11-work-energy-power-focus-2\"]",
+      "topic": "y11-work-energy-power-focus-2",
+      "parentTopic": "y11-work-energy-power",
+      "title": "Energy: work, friction, hills and power — standalone task",
+      "lessonTitle": "Energy: work, friction, hills and power",
+      "course": "Physics ATAR",
+      "yearGroup": 11,
+      "unit": "Unit 1 – Motion, forces and energy",
+      "focus": "Choose an energy budget and combine separate stages without confusing conservation laws.",
+      "instructions": "Attempt both fresh structured questions before revealing marking tables. Draw labelled diagrams and explain model choices. Complete four concept checks, review your written work and record an improvement. Written marks are self-reviewed; concept answers are checked automatically.",
+      "url": "topic-hub.html?course=Physics%20ATAR&year=11&unit=Unit%201%20%E2%80%93%20Motion%2C%20forces%20and%20energy&topic=y11-work-energy-power-focus-2&activity=standalone",
+      "lessonUrl": "topic-hub.html?course=Physics%20ATAR&year=11&unit=Unit%201%20%E2%80%93%20Motion%2C%20forces%20and%20energy&topic=y11-work-energy-power-focus-2",
+      "minutes": 0,
+      "format": "standalone",
+      "taskVersion": "2026.10.13-mechanics",
+      "totalMarks": 14,
+      "writtenQuestions": 2,
+      "conceptChecks": 4,
+      "suggestedMinutes": 30,
+      "constants": "Use g = 9.80 m/s², SI units and the stated idealisations. Choose a positive direction; retain calculator guard digits.",
+      "questions": [
+        {
+          "id": "y11-work-energy-power-focus-2-mechanics-q1",
+          "prompt": "A 4.00 kg object descends from rest through height 2.00 m along a 5.00 m track. Constant friction is 3.00 N. Find final kinetic energy and speed.",
+          "marks": 5,
+          "lines": 10,
+          "marking": [
+            {
+              "point": "Gravity releases 4.00 × 9.80 × 2.00 = 78.4 J.",
+              "marks": 1
+            },
+            {
+              "point": "Friction transfers 3.00 × 5.00 = 15.0 J to other forms.",
+              "marks": 1
+            },
+            {
+              "point": "Final kinetic energy = 78.4 − 15.0 = 63.4 J.",
+              "marks": 1
+            },
+            {
+              "point": "Speed = √(2 × 63.4/4.00) = 5.63 m/s.",
+              "marks": 1
+            },
+            {
+              "point": "Use vertical height for gravity and path length for friction.",
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "id": "y11-work-energy-power-focus-2-mechanics-q2",
+          "prompt": "An 80.0 kg load is raised 2.00 m at constant speed in 4.00 s by a 70.0%-efficient motor. Find useful work, useful power, input energy and input power.",
+          "marks": 5,
+          "lines": 10,
+          "marking": [
+            {
+              "point": "Useful work = 80.0 × 9.80 × 2.00 = 1568 J.",
+              "marks": 1
+            },
+            {
+              "point": "Useful power = 1568/4.00 = 392 W.",
+              "marks": 1
+            },
+            {
+              "point": "Input energy = 1568/0.700 = 2240 J.",
+              "marks": 1
+            },
+            {
+              "point": "Input power = 392/0.700 = 560 W.",
+              "marks": 1
+            },
+            {
+              "point": "Zero acceleration does not mean zero motor work; motor force balances weight while energy is transferred.",
+              "marks": 1
+            }
+          ]
+        }
+      ],
+      "mastery": [
+        {
+          "id": "y11-work-energy-power-focus-2-mechanics-m1",
+          "prompt": "A perpendicular force does work…",
+          "options": [
+            "Fs",
+            "zero in this model",
+            "always negative"
+          ],
+          "answer": 1,
+          "why": "cos90° = 0.",
+          "marks": 1
+        },
+        {
+          "id": "y11-work-energy-power-focus-2-mechanics-m2",
+          "prompt": "For constant friction, thermal transfer uses…",
+          "options": [
+            "vertical height only",
+            "sliding path length",
+            "initial speed only"
+          ],
+          "answer": 1,
+          "why": "The force acts along the path.",
+          "marks": 1
+        },
+        {
+          "id": "y11-work-energy-power-focus-2-mechanics-m3",
+          "prompt": "A sticking collision followed by a climb requires…",
+          "options": [
+            "one kinetic-energy conservation equation across both",
+            "momentum for collision, then an energy budget for climb",
+            "no model assumptions"
+          ],
+          "answer": 1,
+          "why": "The stages obey different relevant conditions.",
+          "marks": 1
+        },
+        {
+          "id": "y11-work-energy-power-focus-2-mechanics-m4",
+          "prompt": "At fixed mass, doubling speed changes Eₖ by…",
+          "options": [
+            "×2",
+            "×4",
+            "÷2"
+          ],
+          "answer": 1,
+          "why": "Eₖ contains v².",
+          "marks": 1
+        }
+      ],
+      "visual": "focused",
+      "figure": {
+        "svg": "<svg class=\"pp-svg\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 460\" role=\"img\" aria-label=\"Energy budget diagram showing gravitational energy becoming kinetic and thermal energy\"><title>Energy budget diagram showing gravitational energy becoming kinetic and thermal energy</title><defs><marker id=\"pp-arrow-14\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10Z\" fill=\"context-stroke\"/></marker></defs><text x=\"80\" y=\"80\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">Initial energy</text><path d=\"M220 75L390 75\" stroke=\"#0b8774\" stroke-width=\"4\" fill=\"none\" marker-end=\"url(#pp-arrow-14)\"/><text x=\"440\" y=\"80\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">Final kinetic energy</text><path d=\"M300 95L300 230\" stroke=\"#c87518\" stroke-width=\"4\" fill=\"none\" marker-end=\"url(#pp-arrow-14)\"/><text x=\"315\" y=\"230\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">thermal / other transfers</text><text x=\"90\" y=\"350\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">Track the whole energy budget; friction does not destroy energy.</text><text x=\"90\" y=\"415\" fill=\"#18374d\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\">Choose a reference height and state the system boundary.</text></svg>",
+        "caption": "Illustrative scenario model. Use each question's separately stated values; diagram values belong to its example."
       }
     }
   ]
