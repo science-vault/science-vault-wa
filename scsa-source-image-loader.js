@@ -5,6 +5,11 @@
   if(packs[id])return Promise.resolve(packs[id]);
   if(pending.has(id))return pending.get(id);
   if(!/^[a-z0-9-]+$/.test(id))return Promise.reject(new Error('Invalid source image pack'));
+  const external=window.ScsaSourceImagePackUrls?.[id];
+  if(external){
+   const p=Promise.resolve().then(()=>fetch(external)).then(response=>{if(!response.ok)throw new Error('Could not load examination images');return response.json()}).then(data=>{if(!data.images||typeof data.images!=='object'||!/^image\/(webp|jpeg|png)$/.test(data.mime))throw new Error('Invalid source image pack');packs[id]=data.images;window.ScsaSourceImagePackMimeTypes=window.ScsaSourceImagePackMimeTypes||{};window.ScsaSourceImagePackMimeTypes[id]=data.mime;return packs[id]}).catch(error=>{pending.delete(id);throw error});
+   pending.set(id,p);return p;
+  }
   const p=new Promise((resolve,reject)=>{const s=document.createElement('script');s.src='scsa-source-pack-'+id+'.js?v='+encodeURIComponent(window.ScsaSourceImagePackVersions?.[id]||'2026.10.13');s.onload=()=>packs[id]?resolve(packs[id]):reject(new Error('Empty source image pack'));s.onerror=()=>{pending.delete(id);reject(new Error('Could not load examination images'))};document.head.appendChild(s)});
   pending.set(id,p);return p;
  }

@@ -1,0 +1,17 @@
+{
+  "questions": 473,
+  "plannedQuestions": 473,
+  "completedBatches": 3,
+  "batchSizes": [
+    158,
+    158,
+    157
+  ],
+  "verifiedPanels": 1660,
+  "courses": {
+    "Mathematics Applications": 142,
+    "Mathematics Methods": 157,
+    "Mathematics Specialist": 174
+  },
+  "reviewStatus": "All 473 source/key identifiers, question sequences, marks and 1660 lossless panels checked; representative visual review across all three courses and both calculator sections. Historical source syllabus retained."
+}
