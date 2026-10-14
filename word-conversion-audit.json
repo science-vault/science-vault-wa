@@ -1,7 +1,7 @@
 {
   "totalUniqueRecords": 5394,
-  "wordReady": 3675,
-  "remainingToConvert": 1719,
+  "wordReady": 3682,
+  "remainingToConvert": 1712,
   "readyByCourse": {
     "Science": 2945,
     "Mathematics": 325,
@@ -10,7 +10,7 @@
     "Human Biology": 27,
     "Biology": 38,
     "Psychology": 5,
-    "Mathematics Applications": 42,
+    "Mathematics Applications": 49,
     "Mathematics Essential": 4,
     "English": 8,
     "Geography": 4,
@@ -7843,41 +7843,6 @@
       "year": 12
     },
     {
-      "id": "WV-MATHS-APPLICATIONS-2018-FREE-Q01",
-      "course": "Mathematics Applications",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-APPLICATIONS-2018-FREE-Q02",
-      "course": "Mathematics Applications",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-APPLICATIONS-2018-FREE-Q03",
-      "course": "Mathematics Applications",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-APPLICATIONS-2018-FREE-Q04",
-      "course": "Mathematics Applications",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-APPLICATIONS-2018-FREE-Q05",
-      "course": "Mathematics Applications",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-APPLICATIONS-2018-FREE-Q06",
-      "course": "Mathematics Applications",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-APPLICATIONS-2018-FREE-Q07",
-      "course": "Mathematics Applications",
-      "year": 12
-    },
-    {
       "id": "WV-MATHS-METHODS-2018-ASSUMED-Q08",
       "course": "Mathematics Methods",
       "year": 12
@@ -8630,5 +8595,5 @@
   ],
   "reason": "Remaining questions require checked transcription of source images, tables, equations or marking guides.",
   "updatedAt": "2026-10-14",
-  "checkedSourceCopies": 233
+  "checkedSourceCopies": 240
 }
