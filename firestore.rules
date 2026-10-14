@@ -91,8 +91,83 @@ service cloud.firestore {
     allow update, delete: if false;
    }
   }
+  // Quiz Battle: class-bound rooms, immutable server-timed answers, teacher scoring.
+  function battle(code) { return get(/databases/$(database)/documents/quizBattles/$(code)).data; }
+  function battleFresh(d) { return request.time < d.createdAt + duration.value(12,'h'); }
+  function battleStudent(d) { return enrolled(d.classCode) && member().permissions.get('quiz-battle.html',true) == true && member().yearGroup == d.yearGroup && (d.yearGroup <= 10 || d.course in member().subjects); }
+  function battleHost(d) { return teacher() && d.ownerUid == request.auth.uid && owner(d.classCode) && member().permissions.get('quiz-battle.html',true) == true; }
+  function validBattle(d) {
+   return d.keys().hasOnly(['ownerUid','classCode','title','course','yearGroup','mode','phase','round','total','seconds','question','correct','explanation','standings','playerCount','startedAt','createdAt','updatedAt'])
+    && d.title is string && d.title.size() > 0 && d.title.size() <= 80
+    && d.course is string && d.course.size() > 0 && d.course.size() <= 120 && d.yearGroup in [7,8,9,10,11,12]
+    && ((d.yearGroup <= 10 && d.course == 'Science') || (d.yearGroup >= 11 && d.course != 'Science'))
+    && d.mode in ['individual','teams'] && d.phase in ['lobby','question','scoring','reveal','finished']
+    && d.total is int && d.total >= 1 && d.total <= 50 && d.round is int && d.round >= 0 && d.round < d.total
+    && d.seconds in [20,30,45,60] && d.playerCount is int && d.playerCount >= 0 && d.playerCount <= 100
+    && d.standings is list && d.standings.size() <= 100 && d.correct is int && d.correct >= -1 && d.correct <= 3
+    && d.explanation is string && d.explanation.size() <= 1000 && d.question is map && d.question.keys().hasOnly(['prompt','options'])
+    && d.question.prompt is string && d.question.prompt.size() <= 2000 && d.question.options is list
+    && (d.question.options.size() == 0 || (d.question.options.size() == 4 && d.question.options[0] is string && d.question.options[1] is string && d.question.options[2] is string && d.question.options[3] is string && d.question.options[0].size() <= 300 && d.question.options[1].size() <= 300 && d.question.options[2].size() <= 300 && d.question.options[3].size() <= 300))
+    && d.createdAt is timestamp && d.startedAt is timestamp && d.updatedAt is timestamp;
+  }
+  function validBattleTransition(before,after) {
+   return (before.phase == 'lobby' && ((after.phase == 'question' && after.round == 0 && before.playerCount > 0) || after.phase == 'finished'))
+    || (before.phase == 'question' && after.phase == 'scoring' && after.round == before.round)
+    || (before.phase == 'scoring' && after.phase == 'reveal' && after.round == before.round)
+    || (before.phase == 'reveal' && ((after.phase == 'question' && after.round == before.round + 1) || (after.phase == 'finished' && after.round == before.round)));
+  }
+  match /quizBattles/{code} {
+   allow get: if (teacher() && (!exists(/databases/$(database)/documents/quizBattles/$(code)) || (battleHost(resource.data) && battleFresh(resource.data)))) || (battleStudent(resource.data) && battleFresh(resource.data));
+   allow list, delete: if false;
+   allow create: if code.matches('^[A-HJ-NP-Z2-9]{8}$') && battleHost(request.resource.data) && validBattle(request.resource.data)
+    && request.resource.data.phase == 'lobby' && request.resource.data.round == 0 && request.resource.data.playerCount == 0
+    && request.resource.data.correct == -1 && request.resource.data.standings == [] && request.resource.data.question == {'prompt':'','options':[]}
+    && request.resource.data.createdAt == request.time && request.resource.data.updatedAt == request.time && request.resource.data.startedAt == request.time;
+   allow update: if battleFresh(resource.data) && (
+    (battleHost(resource.data) && validBattle(request.resource.data)
+     && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['phase','round','question','correct','explanation','standings','startedAt','updatedAt'])
+     && validBattleTransition(resource.data,request.resource.data) && request.resource.data.updatedAt == request.time
+     && (request.resource.data.phase != 'question' || (request.resource.data.startedAt == request.time && request.resource.data.correct == -1 && request.resource.data.explanation == '' && request.resource.data.question.options.size() == 4)))
+    || (battleStudent(resource.data) && resource.data.phase == 'lobby' && resource.data.playerCount < 100
+     && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['playerCount']) && request.resource.data.playerCount == resource.data.playerCount + 1
+     && !exists(/databases/$(database)/documents/quizBattles/$(code)/players/$(request.auth.uid))
+     && existsAfter(/databases/$(database)/documents/quizBattles/$(code)/players/$(request.auth.uid)))
+   );
+   match /private/{privateId} {
+    allow get: if battleHost(battle(code)) && battleFresh(battle(code));
+    allow create: if privateId == 'deck' && battleHost(getAfter(/databases/$(database)/documents/quizBattles/$(code)).data)
+     && getAfter(/databases/$(database)/documents/quizBattles/$(code)).data.createdAt == request.time
+     && request.resource.data.keys().hasOnly(['questions']) && request.resource.data.questions is list
+     && request.resource.data.questions.size() == getAfter(/databases/$(database)/documents/quizBattles/$(code)).data.total;
+    allow list, update, delete: if false;
+   }
+   match /players/{uid} {
+    allow get: if battleFresh(battle(code)) && (battleHost(battle(code)) || (battleStudent(battle(code)) && request.auth.uid == uid));
+    allow list: if battleHost(battle(code)) && battleFresh(battle(code));
+    allow create: if battleStudent(battle(code)) && battleFresh(battle(code)) && request.auth.uid == uid && battle(code).phase == 'lobby'
+     && request.resource.data.keys().hasOnly(['nickname','team','joinedAt']) && request.resource.data.nickname is string && request.resource.data.nickname.size() > 0 && request.resource.data.nickname.size() <= 24
+     && request.resource.data.joinedAt == request.time && request.resource.data.team is int
+     && ((battle(code).mode == 'individual' && request.resource.data.team == -1) || (battle(code).mode == 'teams' && request.resource.data.team >= 0 && request.resource.data.team <= 3))
+     && getAfter(/databases/$(database)/documents/quizBattles/$(code)).data.playerCount == battle(code).playerCount + 1;
+    allow update, delete: if false;
+   }
+   match /answers/{answerId} {
+    allow get: if battleFresh(battle(code)) && (battleHost(battle(code)) || (battleStudent(battle(code)) && answerId == string(battle(code).round) + '_' + request.auth.uid));
+    allow list: if battleHost(battle(code)) && battleFresh(battle(code));
+    allow create: if battleStudent(battle(code)) && battleFresh(battle(code)) && battle(code).phase == 'question'
+     && exists(/databases/$(database)/documents/quizBattles/$(code)/players/$(request.auth.uid))
+     && request.resource.data.keys().hasOnly(['uid','round','choice','createdAt']) && request.resource.data.uid == request.auth.uid
+     && request.resource.data.round == battle(code).round && answerId == string(battle(code).round) + '_' + request.auth.uid
+     && request.resource.data.choice is int && request.resource.data.choice >= 0 && request.resource.data.choice <= 3
+     && request.resource.data.createdAt == request.time && request.time >= battle(code).startedAt
+     && request.time <= battle(code).startedAt + duration.value(battle(code).seconds,'s');
+    allow update, delete: if false;
+   }
+  }
+
   match /{document=**} { allow read, write: if false; }
  }
 }
+
 
 
