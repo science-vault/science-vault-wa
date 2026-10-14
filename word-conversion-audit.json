@@ -1,7 +1,7 @@
 {
   "totalUniqueRecords": 5394,
-  "wordReady": 3656,
-  "remainingToConvert": 1738,
+  "wordReady": 3658,
+  "remainingToConvert": 1736,
   "readyByCourse": {
     "Science": 2945,
     "Mathematics": 325,
@@ -10,7 +10,7 @@
     "Human Biology": 27,
     "Biology": 38,
     "Psychology": 5,
-    "Mathematics Applications": 23,
+    "Mathematics Applications": 25,
     "Mathematics Essential": 4,
     "English": 8,
     "Geography": 4,
@@ -7133,22 +7133,12 @@
       "year": 12
     },
     {
-      "id": "WV-MATHS-APPLICATIONS-2021-FREE-Q01",
-      "course": "Mathematics Applications",
-      "year": 12
-    },
-    {
       "id": "WV-MATHS-APPLICATIONS-2021-FREE-Q02",
       "course": "Mathematics Applications",
       "year": 12
     },
     {
       "id": "WV-MATHS-APPLICATIONS-2021-FREE-Q03",
-      "course": "Mathematics Applications",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-APPLICATIONS-2021-FREE-Q04",
       "course": "Mathematics Applications",
       "year": 12
     },
@@ -8725,5 +8715,5 @@
   ],
   "reason": "Remaining questions require checked transcription of source images, tables, equations or marking guides.",
   "updatedAt": "2026-10-14",
-  "checkedSourceCopies": 214
+  "checkedSourceCopies": 216
 }
