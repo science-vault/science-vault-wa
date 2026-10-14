@@ -1,7 +1,7 @@
 {
   "totalUniqueRecords": 5394,
-  "wordReady": 3711,
-  "remainingToConvert": 1683,
+  "wordReady": 3716,
+  "remainingToConvert": 1678,
   "readyByCourse": {
     "Science": 2945,
     "Mathematics": 325,
@@ -29,7 +29,8 @@
     "Aviation": 19,
     "Food Science and Technology": 13,
     "Marine and Maritime Studies": 15,
-    "Outdoor Education": 20
+    "Outdoor Education": 20,
+    "Mathematics Methods": 5
   },
   "pending": [
     {
@@ -6443,26 +6444,6 @@
       "year": 12
     },
     {
-      "id": "WV-MATHS-METHODS-2024-ASSUMED-Q08",
-      "course": "Mathematics Methods",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-METHODS-2024-ASSUMED-Q09",
-      "course": "Mathematics Methods",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-METHODS-2024-ASSUMED-Q10",
-      "course": "Mathematics Methods",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-METHODS-2024-ASSUMED-Q11",
-      "course": "Mathematics Methods",
-      "year": 12
-    },
-    {
       "id": "WV-MATHS-METHODS-2024-ASSUMED-Q12",
       "course": "Mathematics Methods",
       "year": 12
@@ -6484,11 +6465,6 @@
     },
     {
       "id": "WV-MATHS-METHODS-2024-ASSUMED-Q16",
-      "course": "Mathematics Methods",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-METHODS-2024-ASSUMED-Q17",
       "course": "Mathematics Methods",
       "year": 12
     },
@@ -8450,5 +8426,5 @@
   ],
   "reason": "Remaining questions require checked transcription of source images, tables, equations or marking guides.",
   "updatedAt": "2026-10-14",
-  "checkedSourceCopies": 269
+  "checkedSourceCopies": 274
 }
