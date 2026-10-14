@@ -3,7 +3,7 @@ export const TEAMS=['Aurora','Orbit','Nova','Comet'];
 export const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export function validateDeck(input){
  if(!Array.isArray(input)||input.length<1||input.length>50)throw Error('Use between 1 and 50 questions.');
- return input.map((q,i)=>{if(typeof q.prompt!=='string'||!q.prompt.trim()||q.prompt.length>2000||!Array.isArray(q.options)||q.options.length!==4||q.options.some(x=>typeof x!=='string'||!x.trim()||x.length>300)||new Set(q.options.map(x=>x.trim().toLowerCase())).size!==4||!Number.isInteger(q.correct)||q.correct<0||q.correct>3||typeof(q.explanation??'')!=='string'||(q.explanation??'').length>1000)throw Error(`Question ${i+1}: provide a question, four different options and a correct answer numbered 0–3.`);return{id:String(q.id||'custom-'+i).slice(0,100),prompt:q.prompt.trim(),options:q.options.map(x=>x.trim()),correct:q.correct,explanation:q.explanation||''}});
+ return input.map((q,i)=>{if(typeof q.prompt!=='string'||!q.prompt.trim()||q.prompt.length>2000||!Array.isArray(q.options)||(q.options.length<2||q.options.length>4)||q.options.some(x=>typeof x!=='string'||!x.trim()||x.length>300)||new Set(q.options.map(x=>x.trim())).size!==q.options.length||!Number.isInteger(q.correct)||q.correct<0||q.correct>=q.options.length||typeof(q.explanation??'')!=='string'||(q.explanation??'').length>1000)throw Error(`Question ${i+1}: provide a question, two to four different options and a valid correct-answer index.`);return{id:String(q.id||'custom-'+i).slice(0,100),prompt:q.prompt.trim(),options:q.options.map(x=>x.trim()),correct:q.correct,explanation:q.explanation||''}});
 }
 export function points(correct,elapsed,seconds,streak=0){if(!correct)return 0;const fraction=Math.max(0,Math.min(1,Number(elapsed)/seconds));return 500+Math.round(500*(1-fraction))+Math.min(5,Math.max(0,streak-1))*50}
 export function scoreRound(players,previous,answers,correct,startedAt,seconds,mode){
@@ -48,3 +48,4 @@ export const STARTERS={
  q('MTH-03','Two independent fair coin tosses are made. What is P(two heads)?',['1/4','1/2','3/4','1'],0,'Multiply independent probabilities: 1/2 × 1/2 = 1/4.'),
  q('MTH-04','What is ln(e³)?',['e','3e','1','3'],3,'The natural logarithm is the inverse of exponentiation with base e.')]
 };
+
