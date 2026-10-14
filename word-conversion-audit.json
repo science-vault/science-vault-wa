@@ -1,7 +1,7 @@
 {
   "totalUniqueRecords": 5394,
-  "wordReady": 3866,
-  "remainingToConvert": 1528,
+  "wordReady": 3916,
+  "remainingToConvert": 1478,
   "readyByCourse": {
     "Science": 2945,
     "Mathematics": 325,
@@ -10,7 +10,7 @@
     "Human Biology": 27,
     "Biology": 38,
     "Psychology": 5,
-    "Mathematics Applications": 83,
+    "Mathematics Applications": 84,
     "Mathematics Essential": 4,
     "English": 8,
     "Geography": 4,
@@ -30,8 +30,8 @@
     "Food Science and Technology": 13,
     "Marine and Maritime Studies": 15,
     "Outdoor Education": 20,
-    "Mathematics Methods": 60,
-    "Mathematics Specialist": 90
+    "Mathematics Methods": 81,
+    "Mathematics Specialist": 118
   },
   "pending": [
     {
@@ -6445,11 +6445,6 @@
       "year": 12
     },
     {
-      "id": "WV-MATHS-METHODS-2024-ASSUMED-Q12",
-      "course": "Mathematics Methods",
-      "year": 12
-    },
-    {
       "id": "WV-MATHS-METHODS-2024-ASSUMED-Q13",
       "course": "Mathematics Methods",
       "year": 12
@@ -6461,11 +6456,6 @@
     },
     {
       "id": "WV-MATHS-METHODS-2024-ASSUMED-Q15",
-      "course": "Mathematics Methods",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-METHODS-2024-ASSUMED-Q16",
       "course": "Mathematics Methods",
       "year": 12
     },
@@ -6482,21 +6472,6 @@
     {
       "id": "WV-MATHS-METHODS-2024-FREE-Q07",
       "course": "Mathematics Methods",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-SPECIALIST-2024-ASSUMED-Q10",
-      "course": "Mathematics Specialist",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-SPECIALIST-2024-ASSUMED-Q11",
-      "course": "Mathematics Specialist",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-SPECIALIST-2024-ASSUMED-Q12",
-      "course": "Mathematics Specialist",
       "year": 12
     },
     {
@@ -6605,32 +6580,12 @@
       "year": 12
     },
     {
-      "id": "WV-MATHS-SPECIALIST-2023-ASSUMED-Q10",
-      "course": "Mathematics Specialist",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-SPECIALIST-2023-ASSUMED-Q11",
-      "course": "Mathematics Specialist",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-SPECIALIST-2023-ASSUMED-Q12",
-      "course": "Mathematics Specialist",
-      "year": 12
-    },
-    {
       "id": "WV-MATHS-SPECIALIST-2023-ASSUMED-Q13",
       "course": "Mathematics Specialist",
       "year": 12
     },
     {
       "id": "WV-MATHS-SPECIALIST-2023-ASSUMED-Q15",
-      "course": "Mathematics Specialist",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-SPECIALIST-2023-ASSUMED-Q16",
       "course": "Mathematics Specialist",
       "year": 12
     },
@@ -6705,11 +6660,6 @@
       "year": 12
     },
     {
-      "id": "WV-MATHS-METHODS-2022-ASSUMED-Q10",
-      "course": "Mathematics Methods",
-      "year": 12
-    },
-    {
       "id": "WV-MATHS-METHODS-2022-ASSUMED-Q11",
       "course": "Mathematics Methods",
       "year": 12
@@ -6750,16 +6700,6 @@
       "year": 12
     },
     {
-      "id": "WV-MATHS-SPECIALIST-2022-ASSUMED-Q10",
-      "course": "Mathematics Specialist",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-SPECIALIST-2022-ASSUMED-Q11",
-      "course": "Mathematics Specialist",
-      "year": 12
-    },
-    {
       "id": "WV-MATHS-SPECIALIST-2022-ASSUMED-Q12",
       "course": "Mathematics Specialist",
       "year": 12
@@ -6786,16 +6726,6 @@
     },
     {
       "id": "WV-MATHS-SPECIALIST-2022-ASSUMED-Q19",
-      "course": "Mathematics Specialist",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-SPECIALIST-2022-FREE-Q06",
-      "course": "Mathematics Specialist",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-SPECIALIST-2022-FREE-Q07",
       "course": "Mathematics Specialist",
       "year": 12
     },
@@ -6910,27 +6840,12 @@
       "year": 12
     },
     {
-      "id": "WV-MATHS-SPECIALIST-2021-ASSUMED-Q16",
-      "course": "Mathematics Specialist",
-      "year": 12
-    },
-    {
       "id": "WV-MATHS-SPECIALIST-2021-ASSUMED-Q17",
       "course": "Mathematics Specialist",
       "year": 12
     },
     {
-      "id": "WV-MATHS-SPECIALIST-2021-ASSUMED-Q18",
-      "course": "Mathematics Specialist",
-      "year": 12
-    },
-    {
       "id": "WV-MATHS-SPECIALIST-2021-ASSUMED-Q19",
-      "course": "Mathematics Specialist",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-SPECIALIST-2021-FREE-Q02",
       "course": "Mathematics Specialist",
       "year": 12
     },
@@ -6985,22 +6900,7 @@
       "year": 12
     },
     {
-      "id": "WV-MATHS-METHODS-2020-ASSUMED-Q09",
-      "course": "Mathematics Methods",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-METHODS-2020-ASSUMED-Q11",
-      "course": "Mathematics Methods",
-      "year": 12
-    },
-    {
       "id": "WV-MATHS-METHODS-2020-ASSUMED-Q12",
-      "course": "Mathematics Methods",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-METHODS-2020-ASSUMED-Q13",
       "course": "Mathematics Methods",
       "year": 12
     },
@@ -7021,11 +6921,6 @@
     },
     {
       "id": "WV-MATHS-METHODS-2020-ASSUMED-Q17",
-      "course": "Mathematics Methods",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-METHODS-2020-FREE-Q01",
       "course": "Mathematics Methods",
       "year": 12
     },
@@ -7066,16 +6961,6 @@
     },
     {
       "id": "WV-MATHS-SPECIALIST-2020-ASSUMED-Q20",
-      "course": "Mathematics Specialist",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-SPECIALIST-2020-ASSUMED-Q21",
-      "course": "Mathematics Specialist",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-SPECIALIST-2020-FREE-Q05",
       "course": "Mathematics Specialist",
       "year": 12
     },
@@ -7150,11 +7035,6 @@
       "year": 12
     },
     {
-      "id": "WV-MATHS-METHODS-2019-ASSUMED-Q12",
-      "course": "Mathematics Methods",
-      "year": 12
-    },
-    {
       "id": "WV-MATHS-METHODS-2019-ASSUMED-Q13",
       "course": "Mathematics Methods",
       "year": 12
@@ -7172,31 +7052,6 @@
     {
       "id": "WV-MATHS-METHODS-2019-ASSUMED-Q17",
       "course": "Mathematics Methods",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-METHODS-2019-ASSUMED-Q18",
-      "course": "Mathematics Methods",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-METHODS-2019-FREE-Q04",
-      "course": "Mathematics Methods",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-METHODS-2019-FREE-Q06",
-      "course": "Mathematics Methods",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-METHODS-2019-FREE-Q07",
-      "course": "Mathematics Methods",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-SPECIALIST-2019-ASSUMED-Q11",
-      "course": "Mathematics Specialist",
       "year": 12
     },
     {
@@ -7220,22 +7075,12 @@
       "year": 12
     },
     {
-      "id": "WV-MATHS-SPECIALIST-2019-ASSUMED-Q16",
-      "course": "Mathematics Specialist",
-      "year": 12
-    },
-    {
       "id": "WV-MATHS-SPECIALIST-2019-ASSUMED-Q17",
       "course": "Mathematics Specialist",
       "year": 12
     },
     {
       "id": "WV-MATHS-SPECIALIST-2019-ASSUMED-Q18",
-      "course": "Mathematics Specialist",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-SPECIALIST-2019-FREE-Q07",
       "course": "Mathematics Specialist",
       "year": 12
     },
@@ -7310,11 +7155,6 @@
       "year": 12
     },
     {
-      "id": "WV-MATHS-METHODS-2018-ASSUMED-Q14",
-      "course": "Mathematics Methods",
-      "year": 12
-    },
-    {
       "id": "WV-MATHS-METHODS-2018-ASSUMED-Q17",
       "course": "Mathematics Methods",
       "year": 12
@@ -7335,27 +7175,7 @@
       "year": 12
     },
     {
-      "id": "WV-MATHS-METHODS-2018-FREE-Q06",
-      "course": "Mathematics Methods",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-SPECIALIST-2018-ASSUMED-Q11",
-      "course": "Mathematics Specialist",
-      "year": 12
-    },
-    {
       "id": "WV-MATHS-SPECIALIST-2018-ASSUMED-Q12",
-      "course": "Mathematics Specialist",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-SPECIALIST-2018-ASSUMED-Q14",
-      "course": "Mathematics Specialist",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-SPECIALIST-2018-ASSUMED-Q15",
       "course": "Mathematics Specialist",
       "year": 12
     },
@@ -7371,16 +7191,6 @@
     },
     {
       "id": "WV-MATHS-SPECIALIST-2018-ASSUMED-Q19",
-      "course": "Mathematics Specialist",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-SPECIALIST-2018-ASSUMED-Q20",
-      "course": "Mathematics Specialist",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-SPECIALIST-2018-FREE-Q02",
       "course": "Mathematics Specialist",
       "year": 12
     },
@@ -7411,11 +7221,6 @@
     },
     {
       "id": "WV-MATHS-APPLICATIONS-2017-ASSUMED-Q12",
-      "course": "Mathematics Applications",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-APPLICATIONS-2017-ASSUMED-Q13",
       "course": "Mathematics Applications",
       "year": 12
     },
@@ -7465,11 +7270,6 @@
       "year": 12
     },
     {
-      "id": "WV-MATHS-METHODS-2017-ASSUMED-Q20",
-      "course": "Mathematics Methods",
-      "year": 12
-    },
-    {
       "id": "WV-MATHS-METHODS-2017-FREE-Q01",
       "course": "Mathematics Methods",
       "year": 12
@@ -7486,11 +7286,6 @@
     },
     {
       "id": "WV-MATHS-SPECIALIST-2017-ASSUMED-Q09",
-      "course": "Mathematics Specialist",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-SPECIALIST-2017-ASSUMED-Q10",
       "course": "Mathematics Specialist",
       "year": 12
     },
@@ -7521,21 +7316,6 @@
     },
     {
       "id": "WV-MATHS-SPECIALIST-2017-ASSUMED-Q18",
-      "course": "Mathematics Specialist",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-SPECIALIST-2017-FREE-Q04",
-      "course": "Mathematics Specialist",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-SPECIALIST-2017-FREE-Q07",
-      "course": "Mathematics Specialist",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-SPECIALIST-2017-FREE-Q08",
       "course": "Mathematics Specialist",
       "year": 12
     },
@@ -7590,11 +7370,6 @@
       "year": 12
     },
     {
-      "id": "WV-MATHS-METHODS-2016-ASSUMED-Q09",
-      "course": "Mathematics Methods",
-      "year": 12
-    },
-    {
       "id": "WV-MATHS-METHODS-2016-ASSUMED-Q10",
       "course": "Mathematics Methods",
       "year": 12
@@ -7605,37 +7380,12 @@
       "year": 12
     },
     {
-      "id": "WV-MATHS-METHODS-2016-ASSUMED-Q15",
-      "course": "Mathematics Methods",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-METHODS-2016-ASSUMED-Q16",
-      "course": "Mathematics Methods",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-METHODS-2016-ASSUMED-Q17",
-      "course": "Mathematics Methods",
-      "year": 12
-    },
-    {
       "id": "WV-MATHS-METHODS-2016-ASSUMED-Q20",
       "course": "Mathematics Methods",
       "year": 12
     },
     {
       "id": "WV-MATHS-METHODS-2016-ASSUMED-Q21",
-      "course": "Mathematics Methods",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-METHODS-2016-FREE-Q03",
-      "course": "Mathematics Methods",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-METHODS-2016-FREE-Q08",
       "course": "Mathematics Methods",
       "year": 12
     },
@@ -7677,5 +7427,5 @@
   ],
   "reason": "Remaining questions require checked transcription of source images, tables, equations or marking guides.",
   "updatedAt": "2026-10-14",
-  "checkedSourceCopies": 424
+  "checkedSourceCopies": 474
 }
