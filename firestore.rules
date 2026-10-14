@@ -107,7 +107,7 @@ service cloud.firestore {
     && d.standings is list && d.standings.size() <= 100 && d.correct is int && d.correct >= -1 && d.correct <= 3
     && d.explanation is string && d.explanation.size() <= 1000 && d.question is map && d.question.keys().hasOnly(['prompt','options'])
     && d.question.prompt is string && d.question.prompt.size() <= 2000 && d.question.options is list
-    && (d.question.options.size() == 0 || (d.question.options.size() == 4 && d.question.options[0] is string && d.question.options[1] is string && d.question.options[2] is string && d.question.options[3] is string && d.question.options[0].size() <= 300 && d.question.options[1].size() <= 300 && d.question.options[2].size() <= 300 && d.question.options[3].size() <= 300))
+    && (d.question.options.size() == 0 || (d.question.options.size() >= 2 && d.question.options.size() <= 4 && d.question.options[0] is string && d.question.options[1] is string && d.question.options[0].size() <= 300 && d.question.options[1].size() <= 300 && (d.question.options.size() < 3 || (d.question.options[2] is string && d.question.options[2].size() <= 300)) && (d.question.options.size() < 4 || (d.question.options[3] is string && d.question.options[3].size() <= 300))))
     && d.createdAt is timestamp && d.startedAt is timestamp && d.updatedAt is timestamp;
   }
   function validBattleTransition(before,after) {
@@ -127,7 +127,7 @@ service cloud.firestore {
     (battleHost(resource.data) && validBattle(request.resource.data)
      && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['phase','round','question','correct','explanation','standings','startedAt','updatedAt'])
      && validBattleTransition(resource.data,request.resource.data) && request.resource.data.updatedAt == request.time
-     && (request.resource.data.phase != 'question' || (request.resource.data.startedAt == request.time && request.resource.data.correct == -1 && request.resource.data.explanation == '' && request.resource.data.question.options.size() == 4)))
+     && (request.resource.data.phase != 'question' || (request.resource.data.startedAt == request.time && request.resource.data.correct == -1 && request.resource.data.explanation == '' && request.resource.data.question.options.size() >= 2)))
     || (battleStudent(resource.data) && resource.data.phase == 'lobby' && resource.data.playerCount < 100
      && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['playerCount']) && request.resource.data.playerCount == resource.data.playerCount + 1
      && !exists(/databases/$(database)/documents/quizBattles/$(code)/players/$(request.auth.uid))
@@ -158,7 +158,7 @@ service cloud.firestore {
      && exists(/databases/$(database)/documents/quizBattles/$(code)/players/$(request.auth.uid))
      && request.resource.data.keys().hasOnly(['uid','round','choice','createdAt']) && request.resource.data.uid == request.auth.uid
      && request.resource.data.round == battle(code).round && answerId == string(battle(code).round) + '_' + request.auth.uid
-     && request.resource.data.choice is int && request.resource.data.choice >= 0 && request.resource.data.choice <= 3
+     && request.resource.data.choice is int && request.resource.data.choice >= 0 && request.resource.data.choice < battle(code).question.options.size()
      && request.resource.data.createdAt == request.time && request.time >= battle(code).startedAt
      && request.time <= battle(code).startedAt + duration.value(battle(code).seconds,'s');
     allow update, delete: if false;
@@ -168,6 +168,7 @@ service cloud.firestore {
   match /{document=**} { allow read, write: if false; }
  }
 }
+
 
 
 
