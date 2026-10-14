@@ -1,7 +1,7 @@
 {
   "totalUniqueRecords": 5394,
-  "wordReady": 3685,
-  "remainingToConvert": 1709,
+  "wordReady": 3711,
+  "remainingToConvert": 1683,
   "readyByCourse": {
     "Science": 2945,
     "Mathematics": 325,
@@ -10,7 +10,7 @@
     "Human Biology": 27,
     "Biology": 38,
     "Psychology": 5,
-    "Mathematics Applications": 52,
+    "Mathematics Applications": 78,
     "Mathematics Essential": 4,
     "English": 8,
     "Geography": 4,
@@ -6443,46 +6443,6 @@
       "year": 12
     },
     {
-      "id": "WV-MATHS-APPLICATIONS-2024-ASSUMED-Q06",
-      "course": "Mathematics Applications",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-APPLICATIONS-2024-ASSUMED-Q07",
-      "course": "Mathematics Applications",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-APPLICATIONS-2024-ASSUMED-Q08",
-      "course": "Mathematics Applications",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-APPLICATIONS-2024-ASSUMED-Q09",
-      "course": "Mathematics Applications",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-APPLICATIONS-2024-ASSUMED-Q10",
-      "course": "Mathematics Applications",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-APPLICATIONS-2024-ASSUMED-Q11",
-      "course": "Mathematics Applications",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-APPLICATIONS-2024-ASSUMED-Q12",
-      "course": "Mathematics Applications",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-APPLICATIONS-2024-ASSUMED-Q13",
-      "course": "Mathematics Applications",
-      "year": 12
-    },
-    {
       "id": "WV-MATHS-METHODS-2024-ASSUMED-Q08",
       "course": "Mathematics Methods",
       "year": 12
@@ -6655,46 +6615,6 @@
     {
       "id": "WV-MATHS-SPECIALIST-2024-FREE-Q08",
       "course": "Mathematics Specialist",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-APPLICATIONS-2023-ASSUMED-Q07",
-      "course": "Mathematics Applications",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-APPLICATIONS-2023-ASSUMED-Q08",
-      "course": "Mathematics Applications",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-APPLICATIONS-2023-ASSUMED-Q09",
-      "course": "Mathematics Applications",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-APPLICATIONS-2023-ASSUMED-Q10",
-      "course": "Mathematics Applications",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-APPLICATIONS-2023-ASSUMED-Q11",
-      "course": "Mathematics Applications",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-APPLICATIONS-2023-ASSUMED-Q12",
-      "course": "Mathematics Applications",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-APPLICATIONS-2023-ASSUMED-Q13",
-      "course": "Mathematics Applications",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-APPLICATIONS-2023-ASSUMED-Q14",
-      "course": "Mathematics Applications",
       "year": 12
     },
     {
@@ -8078,26 +7998,6 @@
       "year": 12
     },
     {
-      "id": "WV-MATHS-APPLICATIONS-2017-FREE-Q02",
-      "course": "Mathematics Applications",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-APPLICATIONS-2017-FREE-Q03",
-      "course": "Mathematics Applications",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-APPLICATIONS-2017-FREE-Q06",
-      "course": "Mathematics Applications",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-APPLICATIONS-2017-FREE-Q07",
-      "course": "Mathematics Applications",
-      "year": 12
-    },
-    {
       "id": "WV-MATHS-METHODS-2017-ASSUMED-Q10",
       "course": "Mathematics Methods",
       "year": 12
@@ -8343,36 +8243,6 @@
       "year": 12
     },
     {
-      "id": "WV-MATHS-APPLICATIONS-2016-FREE-Q01",
-      "course": "Mathematics Applications",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-APPLICATIONS-2016-FREE-Q02",
-      "course": "Mathematics Applications",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-APPLICATIONS-2016-FREE-Q03",
-      "course": "Mathematics Applications",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-APPLICATIONS-2016-FREE-Q04",
-      "course": "Mathematics Applications",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-APPLICATIONS-2016-FREE-Q05",
-      "course": "Mathematics Applications",
-      "year": 12
-    },
-    {
-      "id": "WV-MATHS-APPLICATIONS-2016-FREE-Q06",
-      "course": "Mathematics Applications",
-      "year": 12
-    },
-    {
       "id": "WV-MATHS-METHODS-2016-ASSUMED-Q09",
       "course": "Mathematics Methods",
       "year": 12
@@ -8580,5 +8450,5 @@
   ],
   "reason": "Remaining questions require checked transcription of source images, tables, equations or marking guides.",
   "updatedAt": "2026-10-14",
-  "checkedSourceCopies": 243
+  "checkedSourceCopies": 269
 }
