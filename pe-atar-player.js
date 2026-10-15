@@ -2,8 +2,8 @@
 (function(){
 'use strict';
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-function read(key,fallback){try{return JSON.parse(localStorage.getItem(key))??fallback}catch{return fallback}}
-function write(key,value){try{localStorage.setItem(key,JSON.stringify(value));return true}catch{return false}}
+function read(key,fallback){if(!window.LessonJourneyAccountUid)return fallback;key='sv-account:'+window.LessonJourneyAccountUid+':'+key;try{return JSON.parse(localStorage.getItem(key))??fallback}catch{return fallback}}
+function write(key,value){if(!window.LessonJourneyAccountUid)return false;key='sv-account:'+window.LessonJourneyAccountUid+':'+key;try{localStorage.setItem(key,JSON.stringify(value));return true}catch{return false}}
 function shuffle(a){a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
 function figure(id){const v=window.PEVisuals[id];if(!v)throw new Error('Missing pe diagram '+id);return `<figure class="pes-figure"><h3>${esc(v.title)}</h3><p class="pes-diagram-hint">Swipe across the diagram to read all labels.</p><div class="pes-svg" tabindex="0" aria-label="Scrollable teaching diagram">${v.svg}</div><figcaption><p><strong>Reading the model:</strong> ${esc(v.explain)}</p><p><strong>Model limit:</strong> ${esc(v.limit)}</p></figcaption></figure>`}
 function build(topic,host){

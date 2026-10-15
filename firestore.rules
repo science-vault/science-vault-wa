@@ -32,6 +32,29 @@ service cloud.firestore {
    allow update: if (isAdmin() && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status','permissions','updatedAt']) && request.resource.data.status in ['active','pending','suspended'] && request.resource.data.permissions is map && request.resource.data.permissions.size() <= 500 && request.resource.data.updatedAt == request.time)
     || (signedIn() && request.auth.uid == uid && resource.data.get('registrationVersion',0) < 2 && request.resource.data.role == resource.data.role && request.resource.data.createdAt == resource.data.createdAt && validMember(request.resource.data));
    allow delete: if false;
+   // A user's saved lesson sequence, current slide and drafts.
+   match /lessonJourneys/{lessonId} {
+    allow read: if isAdmin() || (signedIn() && request.auth.uid == uid);
+    allow create, update: if signedIn() && request.auth.uid == uid && (isAdmin() || active())
+     && request.resource.data.keys().hasOnly(['version','total','index','completed','masterPassed','started','attempt','completedOnce','drafts','updatedMs','course','year','unit','topic','title','updatedAt'])
+     && request.resource.data.version == 1
+     && request.resource.data.total is int && request.resource.data.total > 0 && request.resource.data.total <= 2000
+     && request.resource.data.index is int && request.resource.data.index >= 0 && request.resource.data.index <= request.resource.data.total
+     && request.resource.data.completed is list && request.resource.data.completed.size() <= request.resource.data.total
+     && request.resource.data.completed.toSet().size() == request.resource.data.completed.size()
+     && request.resource.data.masterPassed is bool && request.resource.data.started is bool && request.resource.data.completedOnce is bool
+     && (!request.resource.data.masterPassed || request.resource.data.completed.size() == request.resource.data.total)
+     && request.resource.data.attempt is int && request.resource.data.attempt >= 0 && request.resource.data.attempt <= 1000000
+     && request.resource.data.drafts is map && request.resource.data.drafts.size() <= 2001
+     && request.resource.data.updatedMs is number && request.resource.data.updatedMs >= 0
+     && request.resource.data.course is string && request.resource.data.course.size() <= 120
+     && request.resource.data.year in [7,8,9,10,11,12]
+     && request.resource.data.unit is string && request.resource.data.unit.size() <= 160
+     && request.resource.data.topic is string && request.resource.data.topic.size() <= 160
+     && request.resource.data.title is string && request.resource.data.title.size() <= 180
+     && request.resource.data.updatedAt == request.time;
+    allow delete: if false;
+   }
    match /enrollments/{code} {
     allow read: if signedIn() && request.auth.uid == uid;
     allow create, update: if student() && request.auth.uid == uid && member().permissions.get('student-classes.html',true) == true

@@ -1,0 +1,11 @@
+import assert from 'node:assert/strict';
+import {fresh,clean,frontier,canVisit,percentage,completeSlide,restart,merge} from '../lesson-journey-core.mjs';
+const state=fresh(3);assert.equal(frontier(state),0);assert.equal(canVisit(state,1),false);assert.equal(completeSlide(state,2),false);assert.equal(percentage(state),0);
+assert.equal(completeSlide(state,0),true);assert.equal(canVisit(state,1),true);assert.equal(canVisit(state,2),false);assert.equal(percentage(state),25);state.index=1;
+const resumed=clean(JSON.parse(JSON.stringify(state)),3);assert.equal(resumed.index,1);assert.deepEqual(resumed.completed,[0]);
+completeSlide(state,1);completeSlide(state,2);assert.equal(canVisit(state,3),true);assert.equal(percentage(state),75);state.masterPassed=true;assert.equal(percentage(state),100);
+const retake=restart(state);assert.equal(retake.attempt,1);assert.equal(retake.masterPassed,false);assert.equal(retake.completedOnce,true);assert.equal(percentage(retake),0);assert.equal(canVisit(retake,1),false);assert.deepEqual(retake.drafts,{});
+assert.equal(merge(state,retake).attempt,1,'retake must not resurrect old completion');
+const a={...fresh(3),completed:[0],index:1,updatedMs:1},b={...fresh(3),completed:[0,1],index:2,updatedMs:2};assert.deepEqual(merge(a,b).completed,[0,1]);assert.equal(merge(a,b).index,2);
+assert.equal(clean({...fresh(3),index:99,completed:[]},3).index,0,'corrupt saved index cannot unlock slides');assert.equal(clean({...fresh(3),masterPassed:true},3).masterPassed,false);
+console.log('PASS: sequential unlocking, percentage, same-slide resume, completion, retake reset, cloud merge and corrupt-state handling');

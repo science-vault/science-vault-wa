@@ -2,8 +2,8 @@
 (function(){
 'use strict';
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-function read(key,fallback){try{return JSON.parse(localStorage.getItem(key))??fallback}catch{return fallback}}
-function write(key,value){try{localStorage.setItem(key,JSON.stringify(value));return true}catch{return false}}
+function read(key,fallback){if(!window.LessonJourneyAccountUid)return fallback;key='sv-account:'+window.LessonJourneyAccountUid+':'+key;try{return JSON.parse(localStorage.getItem(key))??fallback}catch{return fallback}}
+function write(key,value){if(!window.LessonJourneyAccountUid)return false;key='sv-account:'+window.LessonJourneyAccountUid+':'+key;try{localStorage.setItem(key,JSON.stringify(value));return true}catch{return false}}
 function shuffle(a){a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
 function figure(id){const v=window.AccountingVisuals[id];if(!v)return '';return `<figure class="acf-figure"><h3>${esc(v.title)}</h3><div class="acf-svg" tabindex="0" aria-label="Scrollable accounting diagram">${v.svg}</div><figcaption>${esc(v.explain)}</figcaption></figure>`}
 function modelHtml(m){return `<figure class="acf-figure"><h3>${esc(m.model.title)}</h3><div class="acf-table-scroll"><table><thead><tr><th scope="col">Component</th><th scope="col">Accounting relationship / example</th></tr></thead><tbody>${m.model.rows.map(r=>`<tr><th scope="row">${esc(r[0])}</th><td>${esc(r[1])}</td></tr>`).join('')}</tbody></table></div><figcaption>Read each component and trace its meaning through the worked example. Amounts and assumptions are specific to this model.</figcaption></figure>${figure(m.id)}`}

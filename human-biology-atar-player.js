@@ -2,8 +2,8 @@
 (function(){
 'use strict';
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-function read(key,fallback){try{return JSON.parse(localStorage.getItem(key))??fallback}catch{return fallback}}
-function write(key,value){try{localStorage.setItem(key,JSON.stringify(value));return true}catch{return false}}
+function read(key,fallback){if(!window.LessonJourneyAccountUid)return fallback;key='sv-account:'+window.LessonJourneyAccountUid+':'+key;try{return JSON.parse(localStorage.getItem(key))??fallback}catch{return fallback}}
+function write(key,value){if(!window.LessonJourneyAccountUid)return false;key='sv-account:'+window.LessonJourneyAccountUid+':'+key;try{localStorage.setItem(key,JSON.stringify(value));return true}catch{return false}}
 function shuffle(a){a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
 function highlight(s){return esc(s).replace(/\b(homeostasis|negative feedback|positive feedback|diffusion|osmosis|active transport|ATP|DNA|mRNA|meiosis|mitosis|allele|genotype|phenotype|haemoglobin|receptor|enzyme|antibody|filtration|reabsorption|secretion|natural selection|genetic drift)\b/gi,'<strong class="hb-term">$1</strong>')}
 function figure(id){const v=window.HumanBiologyVisuals[id];if(!v)throw new Error('Missing human biology diagram '+id);return `<figure class="hb-figure"><h3>${esc(v.title)}</h3><p class="hb-diagram-hint">Scroll the diagram sideways on a small screen to read all labels.</p><div class="hb-svg">${v.svg}</div><figcaption><p><strong>Reading the model:</strong> ${esc(v.explain)}</p><p><strong>Model limit:</strong> ${esc(v.limit)}</p></figcaption></figure>`}
