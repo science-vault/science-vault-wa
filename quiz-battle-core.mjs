@@ -3,7 +3,7 @@ export const TEAMS=['Aurora','Orbit','Nova','Comet'];
 export const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export function validateDeck(input){
  if(!Array.isArray(input)||input.length<1||input.length>50)throw Error('Use between 1 and 50 questions.');
- return input.map((q,i)=>{if(typeof q.prompt!=='string'||!q.prompt.trim()||q.prompt.length>2000||!Array.isArray(q.options)||(q.options.length<2||q.options.length>4)||q.options.some(x=>typeof x!=='string'||!x.trim()||x.length>300)||new Set(q.options.map(x=>x.trim())).size!==q.options.length||!Number.isInteger(q.correct)||q.correct<0||q.correct>=q.options.length||typeof(q.explanation??'')!=='string'||(q.explanation??'').length>1000)throw Error(`Question ${i+1}: provide a question, two to four different options and a valid correct-answer index.`);return{id:String(q.id||'custom-'+i).slice(0,100),prompt:q.prompt.trim(),options:q.options.map(x=>x.trim()),correct:q.correct,explanation:q.explanation||''}});
+ return input.map((q,i)=>{if(typeof q.prompt!=='string'||!q.prompt.trim()||q.prompt.length>2000||!Array.isArray(q.options)||(q.options.length<2||q.options.length>4)||q.options.some(x=>typeof x!=='string'||!x.trim()||x.length>300)||new Set(q.options.map(x=>x.trim())).size!==q.options.length||!Number.isInteger(q.correct)||q.correct<0||q.correct>=q.options.length||typeof(q.explanation??'')!=='string'||(q.explanation??'').length>1000)throw Error(`Question ${i+1}: provide a question, two to four different options and a valid correct-answer index.`);questionContent(q.prompt);return{id:String(q.id||'custom-'+i).slice(0,100),prompt:q.prompt.trim(),options:q.options.map(x=>x.trim()),correct:q.correct,explanation:q.explanation||''}});
 }
 export function points(correct,elapsed,seconds,streak=0){if(!correct)return 0;const fraction=Math.max(0,Math.min(1,Number(elapsed)/seconds));return 500+Math.round(500*(1-fraction))+Math.min(5,Math.max(0,streak-1))*50}
 export function scoreRound(players,previous,answers,correct,startedAt,seconds,mode){
@@ -49,3 +49,15 @@ export const STARTERS={
  q('MTH-04','What is ln(e³)?',['e','3e','1','3'],3,'The natural logarithm is the inverse of exponentiation with base e.')]
 };
 
+
+
+// Media stays inside the validated prompt string, preserving the deployed room schema.
+export function questionContent(prompt){
+ const raw=String(prompt??''),match=raw.match(/\n\[LV-MEDIA:(\{[^\n]*\})\]\s*$/);
+ if(!match){if(raw.includes('[LV-MEDIA:'))throw Error('Invalid question media metadata.');return{text:raw,images:[],source:null}}
+ let media;try{media=JSON.parse(match[1])}catch{throw Error('Invalid question media metadata.')}
+ if(!media||!Array.isArray(media.images)||media.images.length<1||media.images.length>6)throw Error('A question can include 1–6 source images.');
+ const images=media.images.map(ref=>{if(ref&&typeof ref.src==='string'&&/^assets\/(human-biology|physics|chemistry)\/[A-Za-z0-9_./-]+\.(jpg|jpeg|png|webp)$/i.test(ref.src)&&!ref.src.includes('..')&&Object.keys(ref).length===1)return{src:ref.src};if(ref&&/^[a-z0-9-]{1,100}$/.test(ref.pack)&&/^[A-Za-z0-9_-]{1,200}$/.test(ref.id)&&Object.keys(ref).length===2)return{pack:ref.pack,id:ref.id};throw Error('Question images must use supported Vault assets or image packs.')});
+ let source=null;if(media.source){let url;try{url=new URL(media.source.url)}catch{throw Error('Invalid examination source URL.')}if(url.protocol!=='https:'||url.username||url.password||!(url.hostname==='wacevault.com'||url.hostname==='www.wacevault.com'||url.hostname.endsWith('.scsa.wa.edu.au')))throw Error('Unsupported examination source URL.');source={label:String(media.source.label||'Original examination').slice(0,180),url:url.href}}
+ return{text:raw.slice(0,match.index).trim(),images,source};
+}
