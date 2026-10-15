@@ -52,6 +52,45 @@ def metadata(e):
  group=hashlib.sha256(('/'.join(folders)+'|'+normalize(clean)).encode()).hexdigest()[:20]
  return {'path':p,'title':title,'type':kind,'subject':subject,'year':year,'pathway':pathway,'unit':unit,'topic':topic,'school':school,'examYear':schoolyear,'role':role,'group':group,'groupTitle':clean,'format':ext[1:].upper()}
 def build(tree):
+ # Publish the directory in the same artifact as the site, without a second workflow.
+ directory_files=[{'path':e['path'],'type':'blob'} for e in tree if e.get('type')=='blob' and re.search(r'\.(pptx?|ppsx?|pdf|docx?|xlsx?) roots=[e for e in tree if e.get('type')=='blob' and e['path'].startswith(('resources/','exams/','textbooks/'))]
+ empty=[e['path'] for e in roots if e['sha']==EMPTY];junk=[e['path'] for e in roots if JUNK.search(e['path'])]
+ valid=[e for e in roots if EXT.search(e['path']) and e['sha']!=EMPTY and not JUNK.search(e['path'])]
+ groups=collections.defaultdict(list)
+ for e in valid:groups[e['sha']].append(e)
+ rows=[];duplicates=[];misplaced=[]
+ for sha,entries in groups.items():
+  entries.sort(key=lambda e:(bool(re.search(r'\bcopy\b|\(\d+\)',e['path'],re.I)),bool(JUNK.search(e['path'])),len(e['path']),e['path'].lower()))
+  canonical=entries[0];row=metadata(canonical);row['sha']=sha;row['size']=canonical.get('size');row['modified']=canonical.get('modified','')
+  if len(entries)>1:
+   row['aliases']=[{k:v for k,v in metadata(e).items() if k not in ['title','group','groupTitle','format']} for e in entries[1:]];duplicates.append({'canonical':canonical['path'],'copies':[e['path'] for e in entries[1:]],'sha':sha})
+  if row['type']=='PowerPoints' and re.search(r'/worksheets?/',row['path'],re.I):misplaced.append({'path':row['path'],'shownIn':'PowerPoints','reason':'Presentation file inside worksheet folder'})
+  if row['type'] not in ['Assessments','Exams'] and '/Assessments/' in row['path']:misplaced.append({'path':row['path'],'shownIn':row['type'],'reason':'Teaching resource or video inside an assessment archive'})
+  if row['type']=='Textbooks' and '/Assessments/' in row['path']:misplaced.append({'path':row['path'],'shownIn':'Textbooks','reason':'Textbook file inside assessment folder'})
+  rows.append(row)
+ rows.sort(key=lambda r:(r['type'],r['subject'],r['year'],r['title'].lower()))
+ for old in ROOT.glob('vault-index-*.json'):old.unlink()
+ parts=[];counts=collections.Counter()
+ for kind in sorted(set(r['type'] for r in rows)):
+  subset=[r for r in rows if r['type']==kind];counts[kind]=len(subset)
+  for n in range(0,len(subset),700):
+   filename='vault-index-'+kind.lower().replace(' ','-')+'-'+str(n//700+1)+'.json';(ROOT/filename).write_text(json.dumps(subset[n:n+700],ensure_ascii=False,separators=(',',':'))+'\n');parts.append({'type':kind,'file':filename,'count':len(subset[n:n+700])})
+ report={'trackedResourceFiles':len(roots),'supportedFiles':len(valid),'uniqueContentFiles':len(rows),'duplicateCopies':sum(len(e['copies']) for e in duplicates),'emptyFiles':empty,'junkFiles':junk,'duplicates':duplicates,'correctedLocations':misplaced,'categories':dict(counts),'preservation':'Usable source paths are preserved. Exact duplicates display once; alternate contexts remain searchable. Zero-byte and temporary files are excluded. Original files are not renamed, so existing question-bank and download URLs continue working.'}
+ (ROOT/'RESOURCE-AUDIT.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+ (ROOT/'vault-catalog.json').write_text(json.dumps({'version':1,'parts':parts,'counts':dict(counts),'uniqueFiles':len(rows),'excludedEmpty':len(empty),'excludedJunk':len(junk),'duplicateCopies':report['duplicateCopies']},indent=2)+'\n')
+ print({k:report[k] for k in ['trackedResourceFiles','supportedFiles','uniqueContentFiles','duplicateCopies']});print(dict(counts));return report
+if __name__=='__main__':
+ if len(sys.argv)>1:tree=json.loads(Path(sys.argv[1]).read_text())['tree']
+ else:
+  sizes={x['path']:x for f in ['resource-manifest.json','exam-manifest.json','textbook-manifest.json'] if (ROOT/f).exists() for x in json.loads((ROOT/f).read_text())}
+  tree=[]
+  for raw in subprocess.check_output(['git','ls-tree','-r','-z','HEAD'],cwd=ROOT).split(b'\0'):
+   if not raw:continue
+   meta,p=raw.split(b'\t',1);mode,kind,sha=meta.decode().split();p=p.decode();tree.append({**sizes.get(p,{}),'path':p,'type':kind,'sha':sha})
+ build(tree)
+,e['path'],re.I) and e.get('sha')!=EMPTY and not JUNK.search(e['path'])]
+ directory_files.sort(key=lambda e:e['path'].casefold())
+ (ROOT/'file-directory-index.json').write_text(json.dumps({'version':1,'files':directory_files},ensure_ascii=False,separators=(',',':')),encoding='utf-8')
  roots=[e for e in tree if e.get('type')=='blob' and e['path'].startswith(('resources/','exams/','textbooks/'))]
  empty=[e['path'] for e in roots if e['sha']==EMPTY];junk=[e['path'] for e in roots if JUNK.search(e['path'])]
  valid=[e for e in roots if EXT.search(e['path']) and e['sha']!=EMPTY and not JUNK.search(e['path'])]
