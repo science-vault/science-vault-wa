@@ -1,6 +1,7 @@
 // Permission decisions use Firestore account documents, never a local role choice.
 export function canOpenPage(state,page){
  if(page.id==='index.html')return true;
+ if(page.id==='file-directory.html')return !!state?.admin && !state?.error;
  if(!state?.user||state.error)return false;
  if(state.admin)return true;
  const member=state.member;
