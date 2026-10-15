@@ -1,8 +1,8 @@
 {
-  "trackedResourceFiles": 30524,
-  "supportedFiles": 28029,
-  "uniqueContentFiles": 23289,
-  "duplicateCopies": 4740,
+  "trackedResourceFiles": 30534,
+  "supportedFiles": 28039,
+  "uniqueContentFiles": 23298,
+  "duplicateCopies": 4741,
   "emptyFiles": [
     "exams/Year 10/.keep",
     "exams/Year 7/.keep",
@@ -6451,6 +6451,13 @@
         "resources/ATAR/Ancient History/11/Ridgeview Secondary College/Unit 1/Lesson Resources/BY SYLLABUS POINT/Representations of the ancient civilisation/TheBattleofTroyTheTrojanWarinAncientGreeceReadingComprehension-1.doc"
       ],
       "sha": "fa29888d2d90b8e7c60071c72d31fc9f1a324e78"
+    },
+    {
+      "canonical": "resources/Assessments/Ancient History/11/Ridgeview Secondary College/Unit 1/Assessments/Task 2 - Explanation/Task 2 Explanation 2023.docx",
+      "copies": [
+        "resources/ATAR/Ancient History/11/Ridgeview Secondary College/Unit 1/Lesson Resources/Term One/Week 6 - The Trojan War/Task 2 Explanation 2023.docx"
+      ],
+      "sha": "b40d277101214eb441eedb8b034acdf5d386e45f"
     },
     {
       "canonical": "resources/ATAR/Ancient History/11/Ridgeview Secondary College/Unit 2/Lesson Resources/Term Two/Week 8 - Ancient Macedonia/AlexandertheGreatDocumentAnalysisActivity-1.pdf",
@@ -34432,10 +34439,10 @@
     }
   ],
   "categories": {
-    "Assessments": 15539,
+    "Assessments": 15549,
     "Exams": 3566,
     "Notes": 29,
-    "Other Resources": 1076,
+    "Other Resources": 1075,
     "PowerPoints": 1760,
     "Practicals": 96,
     "Revision": 101,

@@ -114,7 +114,7 @@
     {
       "type": "Assessments",
       "file": "vault-index-assessments-23.json",
-      "count": 139
+      "count": 149
     },
     {
       "type": "Exams",
@@ -159,7 +159,7 @@
     {
       "type": "Other Resources",
       "file": "vault-index-other-resources-2.json",
-      "count": 376
+      "count": 375
     },
     {
       "type": "PowerPoints",
@@ -208,10 +208,10 @@
     }
   ],
   "counts": {
-    "Assessments": 15539,
+    "Assessments": 15549,
     "Exams": 3566,
     "Notes": 29,
-    "Other Resources": 1076,
+    "Other Resources": 1075,
     "PowerPoints": 1760,
     "Practicals": 96,
     "Revision": 101,
@@ -219,8 +219,8 @@
     "Videos": 66,
     "Worksheets": 782
   },
-  "uniqueFiles": 23289,
+  "uniqueFiles": 23298,
   "excludedEmpty": 284,
   "excludedJunk": 2005,
-  "duplicateCopies": 4740
+  "duplicateCopies": 4741
 }
