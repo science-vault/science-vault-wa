@@ -5,14 +5,18 @@ const status=root.querySelector('#directoryStatus'),list=root.querySelector('#di
 const base='https://api.github.com/repos/science-vault/science-vault-wa';
 let all=[],type='PowerPoints',path=[];
 const ext=/\.(pptx?|ppsx?|pdf|docx?|xlsx?)$/i;
-const power=/\.(pptx?|ppsx?)$/i;
-const assessment=/assessment|exam|test|quiz|marking.?key|rubric/i;
-const presentations=/powerpoint|presentation|slides|ppt/i;
+const folderNames={PowerPoints:/^powerpoints?$/i,Assessments:/^assessments?$/i};
 const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-function relevant(f){const p=f.path;return type==='PowerPoints'?(power.test(p)||presentations.test(p)&&ext.test(p)):(ext.test(p)&&assessment.test(p));}
-function view(){const q=search.value.trim().toLowerCase();const subset=all.filter(relevant);const prefix=path.length?path.join('/')+'/':'';const dirs=new Map(),files=[];
-for(const f of subset){if(!f.path.startsWith(prefix))continue;const rest=f.path.slice(prefix.length);if(q){if(!f.path.toLowerCase().includes(q))continue;files.push(f);continue;}const seg=rest.split('/');if(seg.length>1){dirs.set(seg[0],(dirs.get(seg[0])||0)+1);}else files.push(f);}
-crumb.innerHTML='<button type="button" data-depth="0">Home</button>'+path.map((p,i)=>' / <button type="button" data-depth="'+(i+1)+'">'+escape(p)+'</button>').join('');
+function directoryPath(f){
+const parts=f.path.split('/'),folders=parts.slice(0,-1);
+if(!ext.test(f.path)||!folders.some(name=>folderNames[type].test(name)))return null;
+// Open the main assessment archive directly; other matching folders retain their year/subject context.
+if(type==='Assessments'&&parts[0]==='resources'&&folderNames.Assessments.test(parts[1]))return parts.slice(2).join('/');
+return (parts[0]==='resources'?parts.slice(1):parts).join('/');
+}
+function view(){const q=search.value.trim().toLowerCase();const subset=all.map(f=>({...f,directoryPath:directoryPath(f)})).filter(f=>f.directoryPath!==null);const prefix=path.length?path.join('/')+'/':'';const dirs=new Map(),files=[];
+for(const f of subset){if(!f.directoryPath.startsWith(prefix))continue;const rest=f.directoryPath.slice(prefix.length);if(q){if(!f.path.toLowerCase().includes(q))continue;files.push(f);continue;}const seg=rest.split('/');if(seg.length>1){dirs.set(seg[0],(dirs.get(seg[0])||0)+1);}else files.push(f);}
+crumb.innerHTML='<button type="button" data-depth="0">'+escape(type)+'</button>'+path.map((p,i)=>' / <button type="button" data-depth="'+(i+1)+'">'+escape(p)+'</button>').join('');
 list.replaceChildren();
 if(!q)for(const [name,count] of [...dirs].sort((a,b)=>a[0].localeCompare(b[0]))){const b=document.createElement('button');b.type='button';b.className='directory-folder';b.textContent='📁  '+name+'  ('+count+')';b.onclick=()=>{path.push(name);view();};list.append(b);}
 for(const f of files.sort((a,b)=>a.path.localeCompare(b.path)).slice(0,350)){const row=document.createElement('div');row.className='directory-file';const title=document.createElement('span');title.textContent='📄  '+(q?f.path:f.path.split('/').pop());const a=document.createElement('a');a.textContent='View / Download ↗';a.target='_blank';a.rel='noopener noreferrer';a.href='https://github.com/science-vault/science-vault-wa/blob/HEAD/'+f.path.split('/').map(encodeURIComponent).join('/');row.append(title,a);list.append(row);}
