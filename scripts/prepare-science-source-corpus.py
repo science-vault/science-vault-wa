@@ -53,7 +53,7 @@ def extract(path,ext):
 def hints(name,content):
  t=content.lower();n=name.lower();return dict(filenameSuggestsKey=bool(re.search(r'answer|solution|marking|rubric|\bkey\b',n)),filenameSuggestsAssessment=bool(re.search(r'test|exam|assessment|quiz|task|validation|investigation|assign|revision|question|worksheet',n)),filenameSuggestsSupporting=bool(re.search(r'word.?search|answer.?sheet|\bnotes?\b|periodic.table|formulae|powerpoint|revision',n)),questionIndicators=len(re.findall(r'\?|\b(?:explain|calculate|describe|identify|determine|state|label|compare|complete)\b',t)),characters=len(content))
 def main():
- ap=argparse.ArgumentParser();ap.add_argument('--output',required=True);ap.add_argument('--inventory',default='science-assessment-import-status.json');ap.add_argument('--workers',type=int,default=8);args=ap.parse_args();out=Path(args.output);cache=out/'sources';corpus=out/'corpus';cache.mkdir(parents=True,exist_ok=True);corpus.mkdir(exist_ok=True)
+ ap=argparse.ArgumentParser();ap.add_argument('--output',required=True);ap.add_argument('--inventory',default='science-assessment-import-status.json');ap.add_argument('--workers',type=int,default=8);ap.add_argument('--repository',help='Optional local sparse Git checkout, avoiding per-file HTTP downloads');args=ap.parse_args();out=Path(args.output);cache=out/'sources';corpus=out/'corpus';cache.mkdir(parents=True,exist_ok=True);corpus.mkdir(exist_ok=True)
  inventory=json.loads(Path(args.inventory).read_text());groups={}
  for f in inventory['files']:groups.setdefault(f['sha'],[]).append(f)
  def process(item):
@@ -64,7 +64,7 @@ def main():
    if not path.exists():
     for attempt in range(3):
      try:
-      data=urllib.request.urlopen(BASE+urllib.parse.quote(f['path']),timeout=45).read();actual=hashlib.sha1(b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest()
+      data=(Path(args.repository)/f['path']).read_bytes() if args.repository else urllib.request.urlopen(BASE+urllib.parse.quote(f['path']),timeout=45).read();actual=hashlib.sha1(b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest()
       if actual!=sha:raise ValueError('Git blob hash mismatch')
       tmp=path.with_suffix(path.suffix+'.download');tmp.write_bytes(data);tmp.replace(path);break
      except Exception:
