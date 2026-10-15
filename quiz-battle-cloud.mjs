@@ -1,6 +1,6 @@
 import {db} from './access-client.mjs?v=2026.10.9-classes';
 import {doc,collection,getDoc,getDocFromServer,getDocsFromServer,query,where,runTransaction,serverTimestamp,setDoc,onSnapshot} from 'https://www.gstatic.com/firebasejs/12.19.0/firebase-firestore.js';
-import {randomCode,validateDeck,scoreRound} from './quiz-battle-core.mjs?v=2026.10.14-lesson-games1';
+import {randomCode,validateDeck,scoreRound} from './quiz-battle-core.mjs?v=2026.10.15-hb-games1';
 const ref=code=>doc(db,'quizBattles',code);
 const ms=x=>x?.toMillis?.()??0;
 export function watchRoom(code,fn,error){return onSnapshot(ref(code),s=>{if(!s.exists()){error(Error('This battle was not found.'));return}fn({...s.data(),code:s.id,startedMs:ms(s.data().startedAt)})},error)}
@@ -20,4 +20,5 @@ export async function closeRound(code,deck){const r=ref(code);await runTransacti
  await runTransaction(db,async tx=>{const current=(await tx.get(r)).data();if(current.phase!=='scoring'||current.round!==room.round)return;tx.update(r,{phase:'reveal',correct:q.correct,explanation:q.explanation,standings,updatedAt:serverTimestamp()})})}
 export async function finishBattle(code){await runTransaction(db,async tx=>{const r=ref(code),room=(await tx.get(r)).data();if(!['lobby','reveal'].includes(room.phase))throw Error('Close the current round before finishing.');tx.update(r,{phase:'finished',updatedAt:serverTimestamp()})})}
 export async function ownAnswer(code,uid,round){const s=await getDoc(doc(ref(code),'answers',round+'_'+uid));return s.exists()?s.data():null}
+
 
