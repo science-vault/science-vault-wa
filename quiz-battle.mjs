@@ -3,7 +3,7 @@ import {canOpenPage} from './access-policy.mjs?v=2026.10.9-classes';
 import {myClasses} from './class-client.mjs?v=2026.10.14-league1';
 import {STARTERS,TEAMS,esc,validateDeck,parsePaste,points,teamScores,questionContent} from './quiz-battle-core.mjs?v=2026.10.15-lower-complete1';
 import {mediaMarkup,prepareMedia,preloadQuestionMedia,preloadSetMedia} from './quiz-battle-media.mjs?v=2026.10.15-lower-complete1';
-import {mountLessonGames,lessonGameIndex,lessonGameSet} from './lesson-game-library.mjs?v=2026.10.15-lower-complete1';
+import {mountLessonGames,lessonGameIndex,lessonGameSet} from './lesson-game-library.mjs?v=2026.10.15-science-source1';
 import * as cloud from './quiz-battle-cloud.mjs?v=2026.10.15-lower-complete1';
 const $=id=>document.getElementById(id),arena=$('arena'),status=$('battleStatus');
 const SUBJECTS=['Science','Physics ATAR','Chemistry ATAR','Biology ATAR','Human Biology ATAR','Psychology ATAR','Geography ATAR','Mathematics Methods ATAR','Mathematics Applications ATAR','Mathematics Specialist ATAR','Business Management and Enterprise ATAR','Accounting and Finance ATAR','English ATAR','Physical Education Studies ATAR'];
@@ -49,6 +49,7 @@ function answerSolo(n){const s=solo;if(!s||s.revealed||!s.mediaReady)return;cons
 function tickSolo(){const s=solo;if(!s||s.revealed||!s.mediaReady)return;const remaining=Math.max(0,s.seconds-(Date.now()-s.start)/1000);if($('clock'))$('clock').textContent=Math.ceil(remaining)+'s';if($('timerFill'))$('timerFill').style.width=remaining/s.seconds*100+'%';if(!remaining)answerSolo(null)}
 function finishSolo(){clearInterval(timer);const s=solo,k='vault-battle-best:'+state.user.uid+':'+(s.metadata?.id||s.subject)+':'+s.seconds;let best=s.score,stored=true;try{best=Math.max(s.score,Number(localStorage.getItem(k))||0);localStorage.setItem(k,String(best))}catch{stored=false}arena.innerHTML=`<section class="battle-card"><span class="battle-badge">SPRINT COMPLETE</span><h2 style="margin-top:16px">${s.correct===deck.length?'Perfect accuracy. Great run!':'Every round builds knowledge.'}</h2><div class="battle-podium"><div><span>YOUR SCORE</span><strong>${s.score.toLocaleString()}</strong><small>battle points</small></div><div><span>ACCURACY</span><strong>${s.correct} / ${deck.length}</strong><small>correct answers</small></div><div><span>PERSONAL BEST</span><strong>${best.toLocaleString()}</strong><small>${stored?'on this device':'storage unavailable'}</small></div></div><button id="playAgain">Sprint again</button><button id="leave" class="battle-secondary">All games</button><a class="battle-button battle-secondary" href="topic-hub.html">Attempt a lesson →</a><details><summary>Review the answers</summary><ol>${deck.map(q=>`<li><strong>${esc(questionContent(q.prompt).text)}</strong><p>${esc(q.options[q.correct])} — ${esc(q.explanation)}</p></li>`).join('')}</ol></details></section>`;action('playAgain',()=>startSolo(s.subject,s.seconds,s.questions,s.metadata));action('leave',home)}
 try{state=await waitForAccess();if(!canOpenPage(state,{id:'quiz-battle.html',studentDefault:true,teacherDefault:true}))throw Error('An approved Learning Vault account is required.');if(isTeacher()){try{rooms=await myClasses(state)}catch(e){error(e)}}home();window.addEventListener('pagehide',cleanup)}catch(e){error(e)}
+
 
 
 

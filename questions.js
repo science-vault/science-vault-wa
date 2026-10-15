@@ -18,4 +18,5 @@ Add questions using this structure:
 }
 */
 
-(function(){const rows=window.LEARNING_VAULT_QUESTIONS||[],ids=new Set(rows.map(q=>q.id));const text=v=>{if(!/<[a-z][^>]*>/i.test(String(v||'')))return String(v||'');const t=document.createElement('div');t.innerHTML=v;return t.textContent||''};for(const q of window.AssessmentQuestionBank||[])if((!q.subject||q.subject==='science')&&Number(q.year)>=7&&Number(q.year)<=10&&!ids.has(q.id)){rows.push({...q,subject:'Science',course:'Science',question:text(q.question),answer:text(q.answer),source:q.source||'Learning Vault Science assessment bank'});ids.add(q.id)}window.LEARNING_VAULT_QUESTIONS=rows})();
+(function(){const rows=window.LEARNING_VAULT_QUESTIONS||[],ids=new Set(rows.map(q=>q.id));const text=v=>{if(!/<[a-z][^>]*>/i.test(String(v||'')))return String(v||'');const t=document.createElement('div');t.innerHTML=v;return t.textContent||''};for(const q of window.AssessmentQuestionBank||[])if((!q.subject||q.subject==='science')&&Number(q.year)>=7&&Number(q.year)<=10&&!ids.has(q.id)){rows.push({...q,subject:'Science',course:'Science',question:text(q.question),questionHTML:q.sourceAssessment?q.question:undefined,answer:text(q.answer),source:q.source||'Learning Vault Science assessment bank'});ids.add(q.id)}window.LEARNING_VAULT_QUESTIONS=rows})();
+

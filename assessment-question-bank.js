@@ -22,3 +22,5 @@ document.write('<script src="assessment-question-bank-science-expansion-8.js"><\
 document.write('<script src="assessment-science-strand-normalizer.js?v=2026.24"><\/script>');
 
 document.write('<script src="assessment-question-bank-science-complete.js?v=2026.10.15-lower-complete1"><\/script>');
+
+document.write('<script src="assessment-question-bank-science-source-batch01.js?v=2026.10.15-science-source1"><\/script>');
