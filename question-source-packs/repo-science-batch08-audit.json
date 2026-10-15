@@ -1,0 +1,104 @@
+{
+  "batch": "repo-science-batch08",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y8-SBY-2024-ENERGY-MC01",
+    "SCI-REPO-Y8-SBY-2024-ENERGY-MC02",
+    "SCI-REPO-Y8-SBY-2024-ENERGY-MC03",
+    "SCI-REPO-Y8-SBY-2024-ENERGY-MC04",
+    "SCI-REPO-Y8-SBY-2024-ENERGY-MC05",
+    "SCI-REPO-Y8-SBY-2024-ENERGY-MC06",
+    "SCI-REPO-Y8-SBY-2024-ENERGY-MC07",
+    "SCI-REPO-Y8-SBY-2024-ENERGY-MC08",
+    "SCI-REPO-Y8-SBY-2024-ENERGY-MC09",
+    "SCI-REPO-Y8-SBY-2024-ENERGY-MC10",
+    "SCI-REPO-Y8-SBY-2024-ENERGY-WR11",
+    "SCI-REPO-Y8-SBY-2024-ENERGY-WR12",
+    "SCI-REPO-Y8-SBY-2024-ENERGY-WR13",
+    "SCI-REPO-Y8-SBY-2024-ENERGY-WR14",
+    "SCI-REPO-Y8-SBY-2024-ENERGY-WR15",
+    "SCI-REPO-Y8-SBY-2024-ENERGY-WR16",
+    "SCI-REPO-Y8-SBY-2024-ENERGY-WR17",
+    "SCI-REPO-Y8-SBY-2024-ENERGY-WR18",
+    "SCI-REPO-Y8-SBY-2024-ENERGY-WR19"
+  ],
+  "questions": 19,
+  "multipleChoice": 10,
+  "writtenQuestions": 9,
+  "marks": 55,
+  "printedCoverMarks": 52,
+  "markAudit": "Cover says 10 MC +42 written =52, but item allocations total 10+45=55; attached answer-booklet total also says55. Original question allocations retained.",
+  "battleEligible": 10,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y8-SBY-2024-ENERGY-WR16",
+      "note": "The source treats kinetic energy as useful output. The 66% is only for that supplied conversion model, not the refrigerator’s overall cooling performance. Refrigerators transfer heat; coefficient of performance is a different measure. Do not infer a running-cost comparison from these data alone."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2024-ENERGY-WR17",
+      "note": "The source supplies no explicit potential-energy zero, initial speed or loss assumption. A unique equal-KE/PE position is therefore underdetermined; teacher clarification or a scientifically justified conditional answer is required."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2024-ENERGY-WR18",
+      "note": "The claim that all solar cars are necessarily more efficient than petrol cars lacks a defined boundary and numerical data. Accept a qualified comparison; do not assume photovoltaic conversion and electric motors are lossless."
+    }
+  ],
+  "imageAudit": [
+    {
+      "id": "cyclist",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Safety Bay/2024/2024 Year 8 Energy test.docx",
+      "embeddedImage": "word/media/image2.png",
+      "role": "question_stimulus",
+      "sha256": "6f4ad5df419245658f2f5b1220bb49e98022c1a181d9e5f0b831bdfaebb8b964",
+      "publishedSha256": "bddf9a9572937cf02b2c48d43e2cdfcb7937b99aa5be1ec07a65f027a76d2be6"
+    },
+    {
+      "id": "television",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Safety Bay/2024/2024 Year 8 Energy test.docx",
+      "embeddedImage": "word/media/image4.jpeg",
+      "role": "question_stimulus",
+      "sha256": "cf0b26eb995ffa148a2bd4ae0efb3397f81981042ea31b443aebda752043abc6",
+      "publishedSha256": "579c5ed5a5c0323a877c17a71fb1700ac8ce6cec9bbceeac71fde98176b15230"
+    },
+    {
+      "id": "fridge",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Safety Bay/2024/2024 Year 8 Energy test.docx",
+      "embeddedImage": "word/media/image5.jpeg",
+      "role": "question_stimulus",
+      "sha256": "bee025be6fd92e600b287a65bcd4396429c10335f654ab93d643e883a681f9c1",
+      "publishedSha256": "0eba8c1890d976d92dc4134c1fd731e6dc81437e7056b1b618fd4f0b6482424d"
+    },
+    {
+      "id": "rollercoaster",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Safety Bay/2024/2024 Year 8 Energy test.docx",
+      "embeddedImage": "word/media/image6.png",
+      "role": "question_stimulus",
+      "sha256": "5aacb5d249b4e0f2ecd4a77a08ac8a3867c42178c04f0c9f290b66d35e2bea22",
+      "publishedSha256": "e5246881d1824bc20e28b5b88ad6413fbb7e351aa2b09f5828d9c3bb609986c0"
+    }
+  ],
+  "createdKeys": 19,
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Safety Bay/2024/2024 Year 8 Energy test.docx",
+      "sha": "6e857461cf12af74940b68df9db5e51a143bf08b",
+      "year": 8
+    }
+  ],
+  "gameMeta": {
+    "id": "science-source-y8-safety-bay-2024-energy",
+    "title": "Year 8 Science — Energy — Safety Bay 2024 (original assessment)",
+    "course": "Science",
+    "yearGroup": 8,
+    "unit": "Physical Sciences",
+    "parent": "Energy — Safety Bay 2024",
+    "count": 10,
+    "kind": "assessment",
+    "assessmentCount": 10,
+    "focusCount": 0,
+    "revisionCount": 0,
+    "pack": "science-source-assessment-games-batch08.json",
+    "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=8&search=SCI-REPO-Y8-SBY-2024-ENERGY",
+    "coverage": "Original assessment MC and cyclist diagram. Every written calculation, flow diagram, efficiency and extended-response task is retained with created marking guidance in the bank."
+  }
+}
