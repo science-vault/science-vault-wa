@@ -1,0 +1,124 @@
+{
+  "batch": "repo-science-batch06",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y8-SBY-2024-MATTER-MC01",
+    "SCI-REPO-Y8-SBY-2024-MATTER-MC02",
+    "SCI-REPO-Y8-SBY-2024-MATTER-MC03",
+    "SCI-REPO-Y8-SBY-2024-MATTER-MC04",
+    "SCI-REPO-Y8-SBY-2024-MATTER-MC05",
+    "SCI-REPO-Y8-SBY-2024-MATTER-MC06",
+    "SCI-REPO-Y8-SBY-2024-MATTER-MC07",
+    "SCI-REPO-Y8-SBY-2024-MATTER-MC08",
+    "SCI-REPO-Y8-SBY-2024-MATTER-MC09",
+    "SCI-REPO-Y8-SBY-2024-MATTER-MC10",
+    "SCI-REPO-Y8-SBY-2024-MATTER-WR11",
+    "SCI-REPO-Y8-SBY-2024-MATTER-WR12",
+    "SCI-REPO-Y8-SBY-2024-MATTER-WR13",
+    "SCI-REPO-Y8-SBY-2024-MATTER-WR14",
+    "SCI-REPO-Y8-SBY-2024-MATTER-WR15",
+    "SCI-REPO-Y8-SBY-2024-MATTER-WR16",
+    "SCI-REPO-Y8-SBY-2024-MATTER-WR17",
+    "SCI-REPO-Y8-SBY-2024-MATTER-WR18",
+    "SCI-REPO-Y8-SBY-2024-MATTER-WR19",
+    "SCI-REPO-Y8-SBY-2024-MATTER-WR20"
+  ],
+  "questions": 20,
+  "multipleChoice": 10,
+  "writtenQuestions": 10,
+  "marks": 44,
+  "battleEligible": 9,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y8-SBY-2024-MATTER-MC10",
+      "note": "No option is fully correct. During melting of a pure substance at constant pressure the temperature and mean kinetic energy remain approximately constant while added energy changes particle interactions. Particles leave fixed positions; they do not expand. Volume change is substance-dependent. Retain teacher review; do not automatically credit B."
+    }
+  ],
+  "imageAudit": [
+    {
+      "id": "matter-mc03",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Safety Bay/2024/2024 Year 8 Chemistry Matter test.docx",
+      "embeddedImage": "word/media/image2.png",
+      "role": "question_stimulus",
+      "sha256": "cf334726fe20676239fdec189aff5ca426a2138052cc8da4d5f727a262d850da",
+      "publishedSha256": "d7d0a386160e8c3385bf8b27a2259c8573a6e76b2b2dbe3d555b7682acfba742"
+    },
+    {
+      "id": "particle-boxes",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Safety Bay/2024/2024 Year 8 Chemistry Matter test.docx",
+      "embeddedImage": "word/media/image3.png",
+      "role": "question_stimulus",
+      "sha256": "fd6e88e5eaf269325dcc692290eb67d592f51c4dd8621eec0e5a3480bfcc950b",
+      "publishedSha256": "2a5e3119aada7006b62d9f0db1ac30acba017eda91146cbdb22f77961c5fc12a"
+    },
+    {
+      "id": "states-processes",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Safety Bay/2024/2024 Year 8 Chemistry Matter test.docx",
+      "embeddedImage": "word/media/image4.png",
+      "role": "question_stimulus",
+      "sha256": "bca8fd62f64b4d44efe15c01f8c35cb6c0c7805719360624966af4fc99c9c329",
+      "publishedSha256": "88a0e13976865af94f0e95f850ea2023d13ed349705d38943f8e7b8c832f050b"
+    },
+    {
+      "id": "reed-diffuser",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Safety Bay/2024/2024 Year 8 Chemistry Matter test.docx",
+      "embeddedImage": "word/media/image5.jpeg",
+      "role": "question_stimulus",
+      "sha256": "deed6f3c2b03fb5eaf820fe7ea6f79a49fb44408b7183923a5bce4b90cebe531",
+      "publishedSha256": "3376252239b747e49bfbbf6868d0ae902ce317938744d1b893cf57eb15d5f333"
+    },
+    {
+      "id": "particles-key",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Safety Bay/2024/2024 Year 8 Chemistry 1 Matter test (Answers).docx",
+      "embeddedImage": "word/media/image3.png",
+      "role": "supplied_key",
+      "sha256": "068f6091db4bdc75d6a30fab5672f97f8f5f221132626817221e50ec7b1c2682",
+      "publishedSha256": "5e00587b9cfd9144943a50e918a9080df21881643e4864880e586655f2731ca8"
+    },
+    {
+      "id": "states-processes-key",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Safety Bay/2024/2024 Year 8 Chemistry 1 Matter test (Answers).docx",
+      "embeddedImage": "word/media/image4.png",
+      "role": "supplied_key",
+      "sha256": "f7b628a8636bc047cef68ea1b1980f06f313d9aad894983b6b97e91738816b77",
+      "publishedSha256": "f2a693f59a5ccb198faa13d0f371fc65b9b3ca7251e54b477627ea6ce25c6e67"
+    },
+    {
+      "id": "diffusion-key",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Safety Bay/2024/2024 Year 8 Chemistry 1 Matter test (Answers).docx",
+      "embeddedImage": "word/media/image6.jpeg",
+      "role": "supplied_key",
+      "sha256": "8ce3dd4037881215d04a2c56bd27ee4580e55525e0d41a6fabefb685a65dcebc",
+      "publishedSha256": "febf335556781838098c9212ec192ade86ad540db7d20cfc773e46318b49cb68"
+    }
+  ],
+  "createdKeys": 17,
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Safety Bay/2024/2024 Year 8 Chemistry Matter test.docx",
+      "sha": "9a873e8d6c5ff06333f08e4fa7a1587bebe4be97",
+      "year": 8
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Safety Bay/2024/2024 Year 8 Chemistry 1 Matter test (Answers).docx",
+      "sha": "f64ef3968794e2458da08902ad59fc3d0e095ad9",
+      "year": 8
+    }
+  ],
+  "gameMeta": {
+    "id": "science-source-y8-safety-bay-2024-matter",
+    "title": "Year 8 Science — Matter — Safety Bay 2024 (original assessment)",
+    "course": "Science",
+    "yearGroup": 8,
+    "unit": "Chemical Sciences",
+    "parent": "Matter — Safety Bay 2024",
+    "count": 9,
+    "kind": "assessment",
+    "assessmentCount": 9,
+    "focusCount": 0,
+    "revisionCount": 0,
+    "pack": "science-source-assessment-games-batch06.json",
+    "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=8&search=SCI-REPO-Y8-SBY-2024-MATTER",
+    "coverage": "Exact original assessment. All written and diagram questions remain in the question bank, builder and practice; only valid MC enter battles."
+  }
+}
