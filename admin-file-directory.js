@@ -2,7 +2,7 @@
 (()=>{'use strict';
 const root=document.getElementById('adminFileDirectory');if(!root)return;
 const status=root.querySelector('#directoryStatus'),list=root.querySelector('#directoryList'),crumb=root.querySelector('#directoryBreadcrumb'),search=root.querySelector('#directorySearch'),tabs=root.querySelector('#directoryType');
-const endpoint='https://api.github.com/repos/science-vault/science-vault-wa/git/trees/HEAD?recursive=1';
+const base='https://api.github.com/repos/science-vault/science-vault-wa';
 let all=[],type='PowerPoints',path=[];
 const ext=/\.(pptx?|ppsx?|pdf|docx?|xlsx?)$/i;
 const power=/\.(pptx?|ppsx?)$/i;
@@ -21,6 +21,18 @@ if(!files.length&&!dirs.size){const p=document.createElement('p');p.textContent=
 }
 crumb.addEventListener('click',e=>{const b=e.target.closest('button[data-depth]');if(b){path=path.slice(0,Number(b.dataset.depth));view();}});
 tabs.addEventListener('change',()=>{type=tabs.value;path=[];search.value='';view();});search.addEventListener('input',view);
-async function load(){status.textContent='Loading repository directory…';try{const response=await fetch(endpoint,{headers:{Accept:'application/vnd.github+json'}});if(!response.ok)throw Error('GitHub returned '+response.status);const data=await response.json();if(data.truncated)status.textContent='Warning: GitHub returned a truncated directory index.';all=(data.tree||[]).filter(x=>x.type==='blob'&&x.path);view();if(data.truncated)status.textContent+=' Some files may not appear.';}catch(err){status.textContent='Unable to load directory: '+err.message;}}
-const observer=new MutationObserver(()=>{const panel=document.getElementById('adminPanel');if(panel&&!panel.hidden&&!all.length){observer.disconnect();load();}});observer.observe(document.getElementById('adminPanel'),{attributes:true,attributeFilter:['hidden']});if(!document.getElementById('adminPanel').hidden)load();
+async function load(){status.textContent='Loading repository directory…';try{
+const response=await fetch(base+'/git/trees/main?recursive=1');if(!response.ok)throw Error('GitHub returned '+response.status);
+const data=await response.json();if(data.truncated)throw Error('Repository index was truncated');
+all=(data.tree||[]).filter(x=>x.type==='blob'&&x.path);view();
+}catch(err){status.textContent='Full index unavailable. Loading folders individually…';try{
+const seen=new Set(),files=[];let queue=[''];let requests=0;
+while(queue.length&&requests<180){const batch=queue.splice(0,5);const results=await Promise.all(batch.map(async dir=>{const url=base+'/contents/'+dir.split('/').map(encodeURIComponent).join('/');const response=await fetch(url);if(!response.ok)throw Error('GitHub returned '+response.status+' for '+(dir||'root'));return {dir,entries:await response.json()};}));requests+=batch.length;
+for(const {dir,entries} of results){for(const e of entries){if(e.type==='dir'&&!seen.has(e.path)){seen.add(e.path);queue.push(e.path)}else if(e.type==='file')files.push({path:e.path,type:'blob'});}}
+status.textContent='Scanning folders… '+requests+' checked';}
+all=files;view();if(queue.length)status.textContent+=' · Scan limit reached; some folders may not appear.';
+}catch(failure){status.textContent='Unable to load directory: '+failure.message;}}
+}
+
+import('./access-client.mjs').then(api=>api.observeAccess(state=>{const gate=document.getElementById('directoryGate');if(!state.ready)return;root.hidden=!state.admin;gate.hidden=state.admin;if(state.admin&&!all.length)load();})).catch(()=>{status.textContent='Unable to verify administrator access.';});
 })();
