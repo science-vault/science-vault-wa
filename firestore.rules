@@ -187,7 +187,8 @@ service cloud.firestore {
     && d.lastSeenAt == request.time && d.page is string && d.page.size() <= 160;
   }
   match /activityUsers/{uid} {
-   allow read: if isAdmin();
+   allow get: if isAdmin() || (signedIn() && uid == request.auth.uid);
+   allow list: if isAdmin();
    allow create, update: if signedIn() && uid == request.auth.uid && validActivityUser(request.resource.data);
    allow delete: if false;
   }
