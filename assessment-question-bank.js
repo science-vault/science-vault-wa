@@ -30,3 +30,5 @@ document.write('<script src="assessment-question-bank-science-source-batch04.js?
 document.write('<script src="assessment-question-bank-science-source-batch05.js?v=2026.10.15-science-source5"><\/script>');
 
 document.write('<script src="assessment-question-bank-science-source-batch06.js?v=2026.10.16-science-source6"><\/script>');
+
+document.write('<script src="assessment-question-bank-science-source-batch07.js?v=2026.10.16-science-source7"><\/script>');
