@@ -177,6 +177,37 @@ service cloud.firestore {
    }
   }
 
+  // Signed-in site activity is visible only to the administrator.
+  function validActivityUser(d) {
+   return d.keys().hasOnly(['displayName','role','lastSignInMs','lastSeenAt','page'])
+    && d.displayName is string && d.displayName.size() <= 60
+    && d.displayName == (exists(/databases/$(database)/documents/members/$(request.auth.uid)) ? member().displayName : 'User')
+    && d.role == (exists(/databases/$(database)/documents/members/$(request.auth.uid)) ? member().role : 'user')
+    && d.lastSignInMs is number && d.lastSignInMs >= 0 && d.lastSignInMs <= 4102444800000
+    && d.lastSeenAt == request.time && d.page is string && d.page.size() <= 160;
+  }
+  match /activityUsers/{uid} {
+   allow read: if isAdmin();
+   allow create, update: if signedIn() && uid == request.auth.uid && validActivityUser(request.resource.data);
+   allow delete: if false;
+  }
+  match /activityEvents/{eventId} {
+   allow read: if isAdmin();
+   allow create: if signedIn()
+    && request.resource.data.keys().hasOnly(['uid','sessionId','kind','page','title','lessonId','lessonTitle','course','yearGroup','createdAt'])
+    && request.resource.data.uid == request.auth.uid
+    && request.resource.data.sessionId is string && request.resource.data.sessionId.size() <= 40
+    && request.resource.data.kind in ['page_view','lesson_view']
+    && request.resource.data.page is string && request.resource.data.page.size() <= 160
+    && request.resource.data.title is string && request.resource.data.title.size() <= 180
+    && request.resource.data.lessonId is string && request.resource.data.lessonId.size() <= 160
+    && request.resource.data.lessonTitle is string && request.resource.data.lessonTitle.size() <= 180
+    && request.resource.data.course is string && request.resource.data.course.size() <= 120
+    && request.resource.data.yearGroup is string && request.resource.data.yearGroup.size() <= 2
+    && request.resource.data.createdAt == request.time;
+   allow update, delete: if false;
+  }
+
   match /{document=**} { allow read, write: if false; }
  }
 }
