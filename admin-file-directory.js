@@ -2,7 +2,7 @@
 (()=>{'use strict';
 const root=document.getElementById('adminFileDirectory');if(!root)return;
 const status=root.querySelector('#directoryStatus'),list=root.querySelector('#directoryList'),crumb=root.querySelector('#directoryBreadcrumb'),search=root.querySelector('#directorySearch'),tabs=root.querySelector('#directoryType');
-const endpoint='https://api.github.com/repos/science-vault/science-vault-wa/git/trees/HEAD?recursive=1';
+const base='https://api.github.com/repos/science-vault/science-vault-wa';
 let all=[],type='PowerPoints',path=[];
 const ext=/\.(pptx?|ppsx?|pdf|docx?|xlsx?)$/i;
 const power=/\.(pptx?|ppsx?)$/i;
@@ -21,6 +21,19 @@ if(!files.length&&!dirs.size){const p=document.createElement('p');p.textContent=
 }
 crumb.addEventListener('click',e=>{const b=e.target.closest('button[data-depth]');if(b){path=path.slice(0,Number(b.dataset.depth));view();}});
 tabs.addEventListener('change',()=>{type=tabs.value;path=[];search.value='';view();});search.addEventListener('input',view);
-async function load(){status.textContent='Loading repository directory…';try{const response=await fetch(endpoint,{headers:{Accept:'application/vnd.github+json'}});if(!response.ok)throw Error('GitHub returned '+response.status);const data=await response.json();if(data.truncated)status.textContent='Warning: GitHub returned a truncated directory index.';all=(data.tree||[]).filter(x=>x.type==='blob'&&x.path);view();if(data.truncated)status.textContent+=' Some files may not appear.';}catch(err){status.textContent='Unable to load directory: '+err.message;}}
-const observer=new MutationObserver(()=>{const panel=document.getElementById('adminPanel');if(panel&&!panel.hidden&&!all.length){observer.disconnect();load();}});observer.observe(document.getElementById('adminPanel'),{attributes:true,attributeFilter:['hidden']});if(!document.getElementById('adminPanel').hidden)load();
+async function load(){
+status.textContent='Loading file directory index…';
+try{
+const response=await fetch('file-directory-index.json?v=20261015',{cache:'no-store'});
+if(!response.ok)throw Error('Directory index not published yet (HTTP '+response.status+')');
+const data=await response.json();
+if(!Array.isArray(data.files))throw Error('Directory index format is invalid');
+all=data.files.filter(x=>x.type==='blob'&&typeof x.path==='string');
+view();
+}catch(error){
+status.textContent='Directory index unavailable: '+error.message+'. The GitHub Actions index workflow may still be running.';
+}
+}
+
+import('./access-client.mjs').then(api=>api.observeAccess(state=>{const gate=document.getElementById('directoryGate');if(!state.ready)return;root.hidden=!state.admin;gate.hidden=state.admin;if(state.admin&&!all.length)load();})).catch(()=>{status.textContent='Unable to verify administrator access.';});
 })();
