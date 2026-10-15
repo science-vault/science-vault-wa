@@ -5,12 +5,13 @@ const status=root.querySelector('#directoryStatus'),list=root.querySelector('#di
 const base='https://api.github.com/repos/science-vault/science-vault-wa';
 let all=[],type='PowerPoints',path=[];
 const ext=/\.(pptx?|ppsx?|pdf|docx?|xlsx?)$/i;
-const folderNames={PowerPoints:/^powerpoints?$/i,Assessments:/^assessments?$/i};
+const folderNames={PowerPoints:/^powerpoints?$/i,Assessments:/^assessments?$/i,Exams:/^exams?$/i};
 const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function directoryPath(f){
 const parts=f.path.split('/'),folders=parts.slice(0,-1);
 if(!ext.test(f.path)||!folders.some(name=>folderNames[type].test(name)))return null;
-// Open the main assessment archive directly; other matching folders retain their year/subject context.
+// Open the main archive directly; nested folders retain their year/subject context.
+if(type==='Exams'&&folderNames.Exams.test(parts[0]))return parts.slice(1).join('/');
 if(type==='Assessments'&&parts[0]==='resources'&&folderNames.Assessments.test(parts[1]))return parts.slice(2).join('/');
 return (parts[0]==='resources'?parts.slice(1):parts).join('/');
 }
