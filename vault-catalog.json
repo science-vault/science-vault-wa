@@ -109,7 +109,12 @@
     {
       "type": "Assessments",
       "file": "vault-index-assessments-22.json",
-      "count": 224
+      "count": 700
+    },
+    {
+      "type": "Assessments",
+      "file": "vault-index-assessments-23.json",
+      "count": 139
     },
     {
       "type": "Exams",
@@ -203,7 +208,7 @@
     }
   ],
   "counts": {
-    "Assessments": 14924,
+    "Assessments": 15539,
     "Exams": 3566,
     "Notes": 29,
     "Other Resources": 1076,
@@ -214,8 +219,8 @@
     "Videos": 66,
     "Worksheets": 782
   },
-  "uniqueFiles": 22674,
+  "uniqueFiles": 23289,
   "excludedEmpty": 284,
-  "excludedJunk": 1903,
-  "duplicateCopies": 3306
+  "excludedJunk": 1938,
+  "duplicateCopies": 3670
 }

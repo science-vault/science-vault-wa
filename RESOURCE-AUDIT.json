@@ -1,8 +1,8 @@
 {
-  "trackedResourceFiles": 28353,
-  "supportedFiles": 25980,
-  "uniqueContentFiles": 22674,
-  "duplicateCopies": 3306,
+  "trackedResourceFiles": 29369,
+  "supportedFiles": 26959,
+  "uniqueContentFiles": 23289,
+  "duplicateCopies": 3670,
   "emptyFiles": [
     "exams/Year 10/.keep",
     "exams/Year 7/.keep",
@@ -1801,6 +1801,41 @@
     "resources/Assessments/Psychology General/12/Joseph Banks/w8/._trait.pptx",
     "resources/Assessments/Psychology General/12/Joseph Banks/w8/._~$trait.pptx",
     "resources/Assessments/Psychology General/12/Joseph Banks/w8/~$trait.pptx",
+    "resources/Assessments/WME Assessment Bank Zeta/2013 Years 7 and 8 Topic Tests/Measurement 2013/~$ea Test 2013.docx",
+    "resources/Assessments/WME Assessment Bank Zeta/2013 Years 9 and 10 Topic Tests/Number 2013/Thumbs.db",
+    "resources/Assessments/WME Assessment Bank Zeta/Current Topic Tests - Version ζ/V ζ Year 7 8 Topic Tests/7 8 Probability ζ/~$mple Space and Probability Test 2017.docx",
+    "resources/Assessments/WME Assessment Bank Zeta/Current Topic Tests - Version ζ/V ζ Year 9 10 Topic Tests/9 10 Measurement ζ/Thumbs.db",
+    "resources/Assessments/WME Assessment Bank Zeta/Current Topic Tests - Version ζ/V ζ Year 9 10 Topic Tests/9 10 Number ζ/Thumbs.db",
+    "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Measurement  2014/Thumbs.db",
+    "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2015/7 8 Data 2016/~$ta Analysis Test 2015.docx",
+    "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2015/9 10 Algebra 2016/~$ordinate Geometry Test 2016.docx",
+    "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2015/9 10 Data 2016/~$ngle Variable Data Analysis Test 2015.docx",
+    "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2015/9 10 Data 2016/~$rther Single Variable Analysis Test 2015.docx",
+    "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2015/9 10 Data 2016/~$variate Data Test 2015.docx",
+    "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2015/9 10 Measurement  2016/~$rface Area and Volume of Other Solids Test 2016.docx",
+    "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2015/9 10 Measurement  2016/~$sic Measurement Test 2016.docx",
+    "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Geometry/~$ansformations and Congruence Test.docx",
+    "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Geometry/~$gles Test.docx",
+    "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Measurement/~$ea Test.docx",
+    "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Probability/~$rther Probability Test.docx",
+    "resources/Assessments/WME Assessment Bank/2012 Assessment Bank Topic Tests/2012 Years 7 and 8 Topic Tests/Measurement 2012/~$rimeterTest 2012.docx",
+    "resources/Assessments/WME Assessment Bank/2012 Assessment Bank Topic Tests/2012 Years 7 and 8 Topic Tests/Number 2012/~$tio and Rates Test 2012.docx",
+    "resources/Assessments/WME Assessment Bank/2012 Assessment Bank Topic Tests/2012 Years 7 and 8 Topic Tests/Space and Geometry 2012/~$gles Test 2012.doc",
+    "resources/Assessments/WME Assessment Bank/2012 Assessment Bank Topic Tests/2012 Years 7 and 8 Topic Tests/Space and Geometry 2012/~$lygons Test 2012.doc",
+    "resources/Assessments/WME Assessment Bank/2013 Years 7 and 8 Topic Tests/Measurement 2013/~$ea Test 2013.docx",
+    "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2016/7 8 Data 2016/~$ta Analysis Test 2015.docx",
+    "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2014/9 10 Algebra 2014/Thumbs.db",
+    "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2014/9 10 Data 2014/Thumbs.db",
+    "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2014/9 10 Measurement  2014/Thumbs.db",
+    "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2014/9 10 Number 2014/Thumbs.db",
+    "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2014/9 10 Probability 2014/Thumbs.db",
+    "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2014/9 10 Space and Geometry 2014/Thumbs.db",
+    "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Algebra 2016/~$ordinate Geometry Test 2016.docx",
+    "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Data 2016/~$ngle Variable Data Analysis Test 2015.docx",
+    "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Data 2016/~$rther Single Variable Analysis Test 2015.docx",
+    "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Data 2016/~$variate Data Test 2015.docx",
+    "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Measurement  2016/~$rface Area and Volume of Other Solids Test 2016.docx",
+    "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Measurement  2016/~$sic Measurement Test 2016.docx",
     "resources/Forensics/Worksheets/Ballistics/~$ch_17.ppt",
     "resources/Forensics/Worksheets/Ballistics/~$netic_energy_of_projectile.doc",
     "resources/Forensics/Worksheets/Ballistics/~$tivity_17-1_bullet_trajectory (1).doc",
@@ -20528,6 +20563,2554 @@
       "sha": "b0a956ac76ef8469f60dab3952bee13873d467b5"
     },
     {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/7 8 Tests/ALGEBRA/Further Algebra Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/7 8 Tests/ALGEBRA/Further Algebra Test 2013.pdf"
+      ],
+      "sha": "8b8a22b80ef82d946fe3aeeb404bb6ad325eed9d"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/7 8 Tests/ALGEBRA/Indices  Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/7 8 Tests/ALGEBRA/Indices  Test 2013.pdf"
+      ],
+      "sha": "3d9767db0e287afc535c0cfa0c38c5b247f9f281"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/7 8 Tests/ALGEBRA/Introductory Algebra Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/7 8 Tests/ALGEBRA/Introductory Algebra Test 2013.pdf"
+      ],
+      "sha": "619463d96a020376401a0099927e0a915c306e7a"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/7 8 Tests/ALGEBRA/Linear Equations Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/7 8 Tests/ALGEBRA/Linear Equations Test 2013.pdf"
+      ],
+      "sha": "8d2cceb374d8395972a99a5d21ac7ad2f3fa2932"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/7 8 Tests/ALGEBRA/Linear Relationships Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/7 8 Tests/ALGEBRA/Linear Relationships Test 2013.pdf"
+      ],
+      "sha": "a34482942224dd5c1fe5a12812d589f67f1c77b5"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/7 8 Tests/DATA/Data Analysis Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/7 8 Tests/DATA/Data Analysis Test 2013.pdf"
+      ],
+      "sha": "e54b216915bcd7b9b635c3cadd83b4d4a603bdb5"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/7 8 Tests/DATA/Data Collection and Representation Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/7 8 Tests/DATA/Data Collection and Representation Test 2013.pdf"
+      ],
+      "sha": "b166f9658e93eb3a262efa4c9ef51ee2ddf066b4"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/7 8 Tests/DATA/Pythagoras Theorem Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/7 8 Tests/DATA/Pythagoras Theorem Test 2013.pdf"
+      ],
+      "sha": "612171645338c2feb749f496e19409ed567bd9e7"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/7 8 Tests/GEOMETRY/Angle Properties Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/7 8 Tests/GEOMETRY/Angle Properties Test 2013.pdf"
+      ],
+      "sha": "25cb9525640e689c61310910dea3ddc36560ab28"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/7 8 Tests/GEOMETRY/Polygons & Circles Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/7 8 Tests/GEOMETRY/Polygons & Circles Test 2013.pdf"
+      ],
+      "sha": "57b67a898e2ec018c8b64e775008503b2c8184a8"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/7 8 Tests/GEOMETRY/Shapes Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/7 8 Tests/GEOMETRY/Shapes Test 2013.pdf"
+      ],
+      "sha": "aa81a1a2eef36cd61d8e82bb948c3c6d1321e4e8"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/7 8 Tests/GEOMETRY/Transformations & Congruence Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/7 8 Tests/GEOMETRY/Transformations & Congruence Test 2013.pdf"
+      ],
+      "sha": "6dc0de18a45ce98150624aeeb6a947435fae6c60"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/7 8 Tests/MEASUREMENT/Area Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/7 8 Tests/MEASUREMENT/Area Test 2013.pdf"
+      ],
+      "sha": "bd88a9fd436b2b289a74f5a6780d1d13e66e4afd"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/7 8 Tests/MEASUREMENT/Grids and Location Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/7 8 Tests/MEASUREMENT/Grids and Location Test 2013.pdf"
+      ],
+      "sha": "10a080c42f3774f1cbecb77b021e86f72dae0a8c"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/7 8 Tests/MEASUREMENT/Metric System Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/7 8 Tests/MEASUREMENT/Metric System Test 2013.pdf"
+      ],
+      "sha": "98d479e47e3667ad13ba489ed03d2b61e5758d17"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/7 8 Tests/MEASUREMENT/Perimeter Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/7 8 Tests/MEASUREMENT/Perimeter Test 2013.pdf"
+      ],
+      "sha": "200b2155ec6001488926e5acec007bb8f3e29bbe"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/7 8 Tests/MEASUREMENT/Pythagoras Theorem Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/7 8 Tests/MEASUREMENT/Pythagoras Theorem Test 2013.pdf"
+      ],
+      "sha": "a4898c3b1b53b7e1436d8c8f79c4a22cd22bd525"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/7 8 Tests/MEASUREMENT/Volume Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/7 8 Tests/MEASUREMENT/Volume Test 2013.pdf"
+      ],
+      "sha": "646c1976be31c825272037f20932131577bca85a"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/7 8 Tests/NUMBER/Decimals Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/7 8 Tests/NUMBER/Decimals Test 2013.pdf"
+      ],
+      "sha": "a82c7e1902af6539913ff60bef2d787c30505ba3"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/7 8 Tests/NUMBER/Fractions Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/7 8 Tests/NUMBER/Fractions Test 2013.pdf"
+      ],
+      "sha": "73d6d38b767e89bf1b9745887555c29e5aa5a20d"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/7 8 Tests/NUMBER/Integers Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/7 8 Tests/NUMBER/Integers Test 2013.pdf"
+      ],
+      "sha": "dff2fad7e150dea6a397ec0873bb347ad154958e"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/7 8 Tests/NUMBER/Number Systems Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/7 8 Tests/NUMBER/Number Systems Test 2013.pdf"
+      ],
+      "sha": "1e9f7e665eda984411671ba20901acf6c7deb957"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/7 8 Tests/NUMBER/Percentages and Financial Maths Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/7 8 Tests/NUMBER/Percentages and Financial Maths Test 2013.pdf"
+      ],
+      "sha": "abdd5421d63b64cffa1b69f0d13fcc8c9fa365e3"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/7 8 Tests/NUMBER/Ratio and Proportion Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/7 8 Tests/NUMBER/Ratio and Proportion Test 2013.pdf"
+      ],
+      "sha": "3bb6b4845c229547924c721d7b6a018fef34732e"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/7 8 Tests/NUMBER/Rational Numbers Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/7 8 Tests/NUMBER/Rational Numbers Test 2013.pdf"
+      ],
+      "sha": "ac49f656216ff8d3a81095b7168303e1aacf87dc"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/7 8 Tests/NUMBER/Whole Number Computation Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/7 8 Tests/NUMBER/Whole Number Computation Test 2013.pdf"
+      ],
+      "sha": "c7ebf511f76757a3f37323e00d1fec367d58ea60"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/7 8 Tests/PROBABILITY/Further Probability Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/7 8 Tests/PROBABILITY/Further Probability Test 2013.pdf"
+      ],
+      "sha": "ac8ba4f5748d5275d58253d209e9622c89343a9c"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/7 8 Tests/PROBABILITY/Sample Space and Probability Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/7 8 Tests/PROBABILITY/Sample Space and Probability Test 2013.pdf"
+      ],
+      "sha": "9a996aaa5be7f25454f0690f3bfb6bbe04e257a4"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/9 10 Tests/ALGEBRA/Algebraic Products Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/9 10 Tests/ALGEBRA/Algebraic Products Test 2013.pdf"
+      ],
+      "sha": "ee57b1bc2906079a57bcda390991f9d44f0385d9"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/9 10 Tests/ALGEBRA/Basic Algebra Skills Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/9 10 Tests/ALGEBRA/Basic Algebra Skills Test 2013.pdf"
+      ],
+      "sha": "656ff07ba90a296bdbdc585666567ec1efb1a652"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/9 10 Tests/ALGEBRA/Coordinate Geometry Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/9 10 Tests/ALGEBRA/Coordinate Geometry Test 2013.pdf"
+      ],
+      "sha": "8db6eee08af291ef80dd47c7a89d794cbe55b371"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/9 10 Tests/ALGEBRA/Equations and Inequations Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/9 10 Tests/ALGEBRA/Equations and Inequations Test 2013.pdf"
+      ],
+      "sha": "8dab45eae0571647e981a58c177029ede9227b85"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/9 10 Tests/ALGEBRA/Factorisation Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/9 10 Tests/ALGEBRA/Factorisation Test 2013.pdf"
+      ],
+      "sha": "f097fcc9d9de045865cd383fe4eda86809716868"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/9 10 Tests/ALGEBRA/Linear Relations Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/9 10 Tests/ALGEBRA/Linear Relations Test 2013.pdf"
+      ],
+      "sha": "0c05c72b3c452a3f0f2c487044e4b6f819b3a58e"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/9 10 Tests/ALGEBRA/Non Linear  Equations Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/9 10 Tests/ALGEBRA/Non Linear  Equations Test 2013.pdf"
+      ],
+      "sha": "a4444d0cc1601e621634da46035fabe2f0795cdc"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/9 10 Tests/ALGEBRA/Non Linear Relations Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/9 10 Tests/ALGEBRA/Non Linear Relations Test 2013.pdf"
+      ],
+      "sha": "505e66a89ec4ac4d08a743a193814478dcd6ff9c"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/9 10 Tests/ALGEBRA/Simultaneous Equations Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/9 10 Tests/ALGEBRA/Simultaneous Equations Test 2013.pdf"
+      ],
+      "sha": "cbffe5906376a681d514ae08db52ae68da61c1eb"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/9 10 Tests/DATA/Basic Statistics Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/9 10 Tests/DATA/Basic Statistics Test 2013.pdf"
+      ],
+      "sha": "8984d10fec9e9629d89a82f578f94f39cdce6a14"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/9 10 Tests/DATA/Bivariate Data Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/9 10 Tests/DATA/Bivariate Data Test 2013.pdf"
+      ],
+      "sha": "5f1faa6242b7ea999b43e01abafee07f2166d76b"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/9 10 Tests/DATA/Data Comparison and Sampling Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/9 10 Tests/DATA/Data Comparison and Sampling Test 2013.pdf"
+      ],
+      "sha": "456996842d9bff576a04da95cd195c4165e61ed8"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/9 10 Tests/DATA/Further Measures of Spread Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/9 10 Tests/DATA/Further Measures of Spread Test 2013.pdf"
+      ],
+      "sha": "121f1e9d6dda1d345777bb2bfdc3957ec5522f44"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/9 10 Tests/GEOMETRY/Basic Geometry Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/9 10 Tests/GEOMETRY/Basic Geometry Test 2013.pdf"
+      ],
+      "sha": "af7b2752cfdcebe73513d2aa0f3ed24cbd2d6c6e"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/9 10 Tests/GEOMETRY/Congruence Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/9 10 Tests/GEOMETRY/Congruence Test 2013.pdf"
+      ],
+      "sha": "a407278f5f06c38a4209ec364526de5933b7a026"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/9 10 Tests/GEOMETRY/Enlargement & Similarity Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/9 10 Tests/GEOMETRY/Enlargement & Similarity Test 2013.pdf"
+      ],
+      "sha": "dd30d043691f0945b60a4df5677e1ed29730fba7"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/9 10 Tests/GEOMETRY/Geometric Reasoning Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/9 10 Tests/GEOMETRY/Geometric Reasoning Test 2013.pdf"
+      ],
+      "sha": "316136ff288add54d4724e210e0be34465ccd1d0"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/9 10 Tests/MEASUREMENT/Area of Plane Shapes Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/9 10 Tests/MEASUREMENT/Area of Plane Shapes Test 2013.pdf"
+      ],
+      "sha": "152feef90a17d12ef8f0845aacb10713a06275ca"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/9 10 Tests/MEASUREMENT/Basic Measurement Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/9 10 Tests/MEASUREMENT/Basic Measurement Test 2013.pdf"
+      ],
+      "sha": "e5451ea5058c10e33b1924f2c1a353d6073c6f27"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/9 10 Tests/MEASUREMENT/Non Right Triangle Trigonometry.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/9 10 Tests/MEASUREMENT/Non Right Triangle Trigonometry.pdf"
+      ],
+      "sha": "0330e935fdbbb82fe98ec5f994c9cec2e40c2222"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/9 10 Tests/MEASUREMENT/Pythagoras Theorem Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/9 10 Tests/MEASUREMENT/Pythagoras Theorem Test 2013.pdf"
+      ],
+      "sha": "991137a92e149ddefac1dee139bc4feb41b7b010"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/9 10 Tests/MEASUREMENT/Right Triangle Trigonometry Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/9 10 Tests/MEASUREMENT/Right Triangle Trigonometry Test 2013.pdf"
+      ],
+      "sha": "bc5f38ec56929fa78ca62801ebd5931cdd70079d"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/9 10 Tests/MEASUREMENT/Surface Area and Volume of Other Solids Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/9 10 Tests/MEASUREMENT/Surface Area and Volume of Other Solids Test 2013.pdf"
+      ],
+      "sha": "ac4dc39ec563a371804792a5a62458fbb4b6d057"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/9 10 Tests/MEASUREMENT/Surface Area and Volume of Prisms Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/9 10 Tests/MEASUREMENT/Surface Area and Volume of Prisms Test 2013.pdf"
+      ],
+      "sha": "baa64802a960e107c0f7922366ad0c0d56786ce6"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/9 10 Tests/NUMBER/Basic Number Skills Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/9 10 Tests/NUMBER/Basic Number Skills Test 2013.pdf"
+      ],
+      "sha": "c12025e214c87cfaf0cd77cc4af9d0323e89ea9a"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/9 10 Tests/NUMBER/Compound Interest and Consumer Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/9 10 Tests/NUMBER/Compound Interest and Consumer Test 2013.pdf"
+      ],
+      "sha": "86095a68d8cd510aec4113498050c6609f308b83"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/9 10 Tests/NUMBER/Earning Money Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/9 10 Tests/NUMBER/Earning Money Test 2013.pdf"
+      ],
+      "sha": "dae61277f9c9335cdee8e700d7d88b8a587f01d7"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/9 10 Tests/NUMBER/Index Laws Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/9 10 Tests/NUMBER/Index Laws Test 2013.pdf"
+      ],
+      "sha": "ba755ea0b2b208bf6ac87bf2d6218ec6ecca34d1"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/9 10 Tests/NUMBER/Logarithms Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/9 10 Tests/NUMBER/Logarithms Test 2013.pdf"
+      ],
+      "sha": "fc0328fbb09892400eb08efbce4cc90175b50292"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/9 10 Tests/NUMBER/Proportion Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/9 10 Tests/NUMBER/Proportion Test 2013.pdf"
+      ],
+      "sha": "a4a743cac3206ce0e2cf8b9ffbc95d5e859ea94d"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/9 10 Tests/NUMBER/Ratio and Rates Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/9 10 Tests/NUMBER/Ratio and Rates Test 2013.pdf"
+      ],
+      "sha": "87891d9266175e101d5216b27286aa3526d99e96"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/9 10 Tests/NUMBER/Simple Interest and  Consumer Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/9 10 Tests/NUMBER/Simple Interest and  Consumer Test 2013.pdf"
+      ],
+      "sha": "a2695a0e5162d527ff90d8aa0ec39c0d95d2992f"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/9 10 Tests/NUMBER/Surds Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/9 10 Tests/NUMBER/Surds Test 2013.pdf"
+      ],
+      "sha": "e6d8b0aa873d6e7c26569b4c72d1cc24efd1f8d9"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/9 10 Tests/PROBABILITY/Basic Probability Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/9 10 Tests/PROBABILITY/Basic Probability Test 2013.pdf"
+      ],
+      "sha": "3c42001502f2a7a2d3fe7496f68d8d03c99489f0"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/9 10 Tests/PROBABILITY/Counting Techniques Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/9 10 Tests/PROBABILITY/Counting Techniques Test 2013.pdf"
+      ],
+      "sha": "efa0069301419deaba5595448f117e5b85752f9b"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 PDF Tests/9 10 Tests/PROBABILITY/Two and Three Stage Events Test 2013.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 PDF Tests/9 10 Tests/PROBABILITY/Two and Three Stage Events Test 2013.pdf"
+      ],
+      "sha": "0e5ec79110330301577c10041f188d2614c8de2a"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 7 and 8 Topic Tests/Algebra 2013/Further Algebra Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 7 and 8 Topic Tests/Algebra 2013/Further Algebra Test 2013.docx"
+      ],
+      "sha": "4dc8c296ba1481bacd370367536177b8fe455522"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 7 and 8 Topic Tests/Algebra 2013/Indices  Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 7 and 8 Topic Tests/Algebra 2013/Indices  Test 2013.docx"
+      ],
+      "sha": "788a6c12aae94613de1d7e511dad707ce79e1600"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 7 and 8 Topic Tests/Algebra 2013/Introductory Algebra Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 7 and 8 Topic Tests/Algebra 2013/Introductory Algebra Test 2013.docx"
+      ],
+      "sha": "5c789e20a84aba9e022bbd8e33d2fe60d6d346f0"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 7 and 8 Topic Tests/Algebra 2013/Linear Equations Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 7 and 8 Topic Tests/Algebra 2013/Linear Equations Test 2013.docx"
+      ],
+      "sha": "92fb0b6c7ebbca509aff1947e4edd67b8e47383d"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 7 and 8 Topic Tests/Algebra 2013/Linear Relationships Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 7 and 8 Topic Tests/Algebra 2013/Linear Relationships Test 2013.docx"
+      ],
+      "sha": "a82faea471f8afc871c979b35ea6fa4b7255ad63"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 7 and 8 Topic Tests/Data 2013/Data Analysis Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 7 and 8 Topic Tests/Data 2013/Data Analysis Test 2013.docx"
+      ],
+      "sha": "78843d413155e4eb4fc708a5bef13d5bfbaa0f49"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 7 and 8 Topic Tests/Data 2013/Data Collection and Representation Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 7 and 8 Topic Tests/Data 2013/Data Collection and Representation Test 2013.docx"
+      ],
+      "sha": "e70f752bd3c13dc2ad25f9a2b2d04aee0b94ed42"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 7 and 8 Topic Tests/Measurement 2013/Area Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 7 and 8 Topic Tests/Measurement 2013/Area Test 2013.docx"
+      ],
+      "sha": "fc8cff5a9cff0ca2cc8c7dd034f52e05cfae9d1a"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 7 and 8 Topic Tests/Measurement 2013/Grids and Location Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 7 and 8 Topic Tests/Measurement 2013/Grids and Location Test 2013.docx"
+      ],
+      "sha": "1dc36741ec2bf0c40a1bdbc63ef40f0e9cc2b8b0"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 7 and 8 Topic Tests/Measurement 2013/Metric System Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 7 and 8 Topic Tests/Measurement 2013/Metric System Test 2013.docx"
+      ],
+      "sha": "fe5259612989c42db3a7f928b1f706714b9ca23e"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 7 and 8 Topic Tests/Measurement 2013/Perimeter Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 7 and 8 Topic Tests/Measurement 2013/Perimeter Test 2013.docx"
+      ],
+      "sha": "732f1784cae321d651ba1e0b7a08ec05c8aead46"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 7 and 8 Topic Tests/Measurement 2013/Pythagoras Theorem Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 7 and 8 Topic Tests/Measurement 2013/Pythagoras Theorem Test 2013.docx"
+      ],
+      "sha": "2e7de702a535cf2c1d81d51b3557f7ddaa9f3821"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 7 and 8 Topic Tests/Measurement 2013/Volume Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 7 and 8 Topic Tests/Measurement 2013/Volume Test 2013.docx"
+      ],
+      "sha": "4628aec026b6a8b98f4e187d42f5d1f98a20b3b8"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 7 and 8 Topic Tests/Number 2013/Decimals Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 7 and 8 Topic Tests/Number 2013/Decimals Test 2013.docx"
+      ],
+      "sha": "9cca88db01a7d3bc68b1b2d2a70ea983d924727f"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 7 and 8 Topic Tests/Number 2013/Fractions Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 7 and 8 Topic Tests/Number 2013/Fractions Test 2013.docx"
+      ],
+      "sha": "e9b990ad78c324562581828864f92ee2ec519245"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 7 and 8 Topic Tests/Number 2013/Integers Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 7 and 8 Topic Tests/Number 2013/Integers Test 2013.docx"
+      ],
+      "sha": "93a3d7d53512eea00a7aeb895b54e8b92e9c68a7"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 7 and 8 Topic Tests/Number 2013/Number Systems Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 7 and 8 Topic Tests/Number 2013/Number Systems Test 2013.docx"
+      ],
+      "sha": "04f53e8e86ab2d29b82ef24600a01d397f7c5515"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 7 and 8 Topic Tests/Number 2013/Percentages and Financial Maths Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 7 and 8 Topic Tests/Number 2013/Percentages and Financial Maths Test 2013.docx"
+      ],
+      "sha": "adfe3957a00c1dde69870d0a6c9abac0062c8667"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 7 and 8 Topic Tests/Number 2013/Ratio and Proportion Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 7 and 8 Topic Tests/Number 2013/Ratio and Proportion Test 2013.docx"
+      ],
+      "sha": "80abc5c8ff0b328fb4baa1c7ed9c623e69520be0"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 7 and 8 Topic Tests/Number 2013/Rational Numbers Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 7 and 8 Topic Tests/Number 2013/Rational Numbers Test 2013.docx"
+      ],
+      "sha": "3816cfced61447be4a50075167d488db39c441b1"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 7 and 8 Topic Tests/Number 2013/Whole Number Computation Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 7 and 8 Topic Tests/Number 2013/Whole Number Computation Test 2013.docx"
+      ],
+      "sha": "6447de162d625768ed8ae6b619b283e837c05721"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 7 and 8 Topic Tests/Probability 2013/Further Probability Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 7 and 8 Topic Tests/Probability 2013/Further Probability Test 2013.docx"
+      ],
+      "sha": "741337039e346501acc7b7e63fe20830e06ef286"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 7 and 8 Topic Tests/Probability 2013/Sample Space and Probability Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 7 and 8 Topic Tests/Probability 2013/Sample Space and Probability Test 2013.docx"
+      ],
+      "sha": "ce0d945bd7d1fad67b0b25bdfdb921fde068cc00"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 7 and 8 Topic Tests/Space and Geometry 2013/Angle Properties Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 7 and 8 Topic Tests/Space and Geometry 2013/Angle Properties Test 2013.docx"
+      ],
+      "sha": "8018302f98df951ba6ea4c8eab6e0aece7da3cad"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 7 and 8 Topic Tests/Space and Geometry 2013/Polygons & Circles Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 7 and 8 Topic Tests/Space and Geometry 2013/Polygons & Circles Test 2013.docx"
+      ],
+      "sha": "d936f6b2868366cea82bd3e995bb02834c3f0fc2"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 7 and 8 Topic Tests/Space and Geometry 2013/Shapes Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 7 and 8 Topic Tests/Space and Geometry 2013/Shapes Test 2013.docx"
+      ],
+      "sha": "f7df88785ccc97f0225ccffecf77fed08eee8007"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 7 and 8 Topic Tests/Space and Geometry 2013/Transformations & Congruence Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 7 and 8 Topic Tests/Space and Geometry 2013/Transformations & Congruence Test 2013.docx"
+      ],
+      "sha": "f10a53f1b2da24914d0c0fd6f8ab94444384af7c"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 9 and 10 Topic Tests/Algebra 2013/Algebraic Products Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 9 and 10 Topic Tests/Algebra 2013/Algebraic Products Test 2013.docx"
+      ],
+      "sha": "fa4c63cae20e401c58ccbb8532819625a897098b"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 9 and 10 Topic Tests/Algebra 2013/Basic Algebra Skills Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 9 and 10 Topic Tests/Algebra 2013/Basic Algebra Skills Test 2013.docx"
+      ],
+      "sha": "bbfd8df04360f63ac333ebc66ae5ce822e96aeb9"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 9 and 10 Topic Tests/Algebra 2013/Coordinate Geometry Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 9 and 10 Topic Tests/Algebra 2013/Coordinate Geometry Test 2013.docx"
+      ],
+      "sha": "0bcd926001a34c905e7c9ebdf3b9e4af273897e0"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 9 and 10 Topic Tests/Algebra 2013/Equations and Inequations Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 9 and 10 Topic Tests/Algebra 2013/Equations and Inequations Test 2013.docx"
+      ],
+      "sha": "ad425e0d272d30fee6a1ab6fe5edb7374612cc32"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 9 and 10 Topic Tests/Algebra 2013/Factorisation Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 9 and 10 Topic Tests/Algebra 2013/Factorisation Test 2013.docx"
+      ],
+      "sha": "35ca40aa2558e3f973e3fc954b7f4d17743f5847"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 9 and 10 Topic Tests/Algebra 2013/Linear Relations Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 9 and 10 Topic Tests/Algebra 2013/Linear Relations Test 2013.docx"
+      ],
+      "sha": "3ae94ce0413381ce543ff0b1e2b38060d21f7737"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 9 and 10 Topic Tests/Algebra 2013/Non Linear  Equations Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 9 and 10 Topic Tests/Algebra 2013/Non Linear  Equations Test 2013.docx"
+      ],
+      "sha": "2535f1f4392ff86e9c42443c7f74cd2eebb191ef"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 9 and 10 Topic Tests/Algebra 2013/Non Linear Relations Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 9 and 10 Topic Tests/Algebra 2013/Non Linear Relations Test 2013.docx"
+      ],
+      "sha": "d5987e6e24a2f41a6801900e1f5e919a85480ded"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 9 and 10 Topic Tests/Algebra 2013/Simultaneous Equations Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 9 and 10 Topic Tests/Algebra 2013/Simultaneous Equations Test 2013.docx"
+      ],
+      "sha": "8f59149d9e8f4c095659a162423291e4e1090cce"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 9 and 10 Topic Tests/Data 2013/Basic Statistics Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 9 and 10 Topic Tests/Data 2013/Basic Statistics Test 2013.docx"
+      ],
+      "sha": "7f338c0c4b9f40fd60dd22b060297ab7b0bed486"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 9 and 10 Topic Tests/Data 2013/Bivariate Data Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 9 and 10 Topic Tests/Data 2013/Bivariate Data Test 2013.docx"
+      ],
+      "sha": "0365ccb71cb29b97b0aa82ff5e12ff425aaf3c36"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 9 and 10 Topic Tests/Data 2013/Data Comparison and Sampling Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 9 and 10 Topic Tests/Data 2013/Data Comparison and Sampling Test 2013.docx"
+      ],
+      "sha": "601ad5c467e0e3a7686f0f6d4a00e2242b8f69f0"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 9 and 10 Topic Tests/Data 2013/Further Measures of Spread Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 9 and 10 Topic Tests/Data 2013/Further Measures of Spread Test 2013.docx"
+      ],
+      "sha": "35b20d2562bb7f969f3c0c8197faf4a6b0fea2e8"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 9 and 10 Topic Tests/Measurement 2013/Area of Plane Shapes Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 9 and 10 Topic Tests/Measurement 2013/Area of Plane Shapes Test 2013.docx"
+      ],
+      "sha": "b474e9edbf482387229d46ee6e2e016aab21960e"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 9 and 10 Topic Tests/Measurement 2013/Basic Measurement Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 9 and 10 Topic Tests/Measurement 2013/Basic Measurement Test 2013.docx"
+      ],
+      "sha": "839afe99ca1d32fcb6786410ee764586d8dc0645"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 9 and 10 Topic Tests/Measurement 2013/Non Right Triangle Trigonometry.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 9 and 10 Topic Tests/Measurement 2013/Non Right Triangle Trigonometry.docx"
+      ],
+      "sha": "85fcbe62766e912dd17e79f027df3300d0821f9f"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 9 and 10 Topic Tests/Measurement 2013/Pythagoras Theorem Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 9 and 10 Topic Tests/Measurement 2013/Pythagoras Theorem Test 2013.docx"
+      ],
+      "sha": "29161338fac0dbb47029066ab453a88a89627bbd"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 9 and 10 Topic Tests/Measurement 2013/Right Triangle Trigonometry Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 9 and 10 Topic Tests/Measurement 2013/Right Triangle Trigonometry Test 2013.docx"
+      ],
+      "sha": "69d8614c5b9983047e5aa7763c46614cb44052f2"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 9 and 10 Topic Tests/Measurement 2013/Surface Area and Volume of Other Solids Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 9 and 10 Topic Tests/Measurement 2013/Surface Area and Volume of Other Solids Test 2013.docx"
+      ],
+      "sha": "af4a2bc3b21f8180a4cff1f9926dd47b87991bf2"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 9 and 10 Topic Tests/Measurement 2013/Surface Area and Volume of Prisms Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 9 and 10 Topic Tests/Measurement 2013/Surface Area and Volume of Prisms Test 2013.docx"
+      ],
+      "sha": "43af6fd285520d16a55c76831d5a3660ce56fcc9"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 9 and 10 Topic Tests/Number 2013/Basic Number Skills Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 9 and 10 Topic Tests/Number 2013/Basic Number Skills Test 2013.docx"
+      ],
+      "sha": "eb6c72156e87a0ad5b93001ef59b66747e1db058"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 9 and 10 Topic Tests/Number 2013/Compound Interest and Consumer Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 9 and 10 Topic Tests/Number 2013/Compound Interest and Consumer Test 2013.docx"
+      ],
+      "sha": "0c4efbba2c69685aa202bd657eb9c45041e646ba"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 9 and 10 Topic Tests/Number 2013/Earning Money Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 9 and 10 Topic Tests/Number 2013/Earning Money Test 2013.docx"
+      ],
+      "sha": "7c4c3dc63d9b18f5c55dc5b042929b9e8ed2e542"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 9 and 10 Topic Tests/Number 2013/Index Laws Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 9 and 10 Topic Tests/Number 2013/Index Laws Test 2013.docx"
+      ],
+      "sha": "69aec3a0acf28894df374643f546baf17ce61a96"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 9 and 10 Topic Tests/Number 2013/Logarithms Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 9 and 10 Topic Tests/Number 2013/Logarithms Test 2013.docx"
+      ],
+      "sha": "0c03c59901ba399d5ea14b16af6f99278cff136f"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 9 and 10 Topic Tests/Number 2013/Proportion Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 9 and 10 Topic Tests/Number 2013/Proportion Test 2013.docx"
+      ],
+      "sha": "3028a35b1070c3c0bc62f05c8496e0b6e664cfd9"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 9 and 10 Topic Tests/Number 2013/Ratio and Rates Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 9 and 10 Topic Tests/Number 2013/Ratio and Rates Test 2013.docx"
+      ],
+      "sha": "c6a811319a46c0a7da6731410404c8ae02dedb22"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 9 and 10 Topic Tests/Number 2013/Simple Interest and  Consumer Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 9 and 10 Topic Tests/Number 2013/Simple Interest and  Consumer Test 2013.docx"
+      ],
+      "sha": "363983b694fc40794d09cf7e2fd5713ebae3508f"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 9 and 10 Topic Tests/Number 2013/Surds Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 9 and 10 Topic Tests/Number 2013/Surds Test 2013.docx"
+      ],
+      "sha": "469660d088c967b7144aee612a8f653809938b9a"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 9 and 10 Topic Tests/Probability 2013/Basic Probability Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 9 and 10 Topic Tests/Probability 2013/Basic Probability Test 2013.docx"
+      ],
+      "sha": "1bdddcefb2ec9bc1b3fc9c7fc91162f331bff0f1"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 9 and 10 Topic Tests/Probability 2013/Counting Techniques Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 9 and 10 Topic Tests/Probability 2013/Counting Techniques Test 2013.docx"
+      ],
+      "sha": "202c532a52e3e36b590585905c24719c5fb146f0"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 9 and 10 Topic Tests/Probability 2013/Two and Three Stage Events Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 9 and 10 Topic Tests/Probability 2013/Two and Three Stage Events Test 2013.docx"
+      ],
+      "sha": "06eee22d49dd881ae14da205bb6692b8b7797992"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 9 and 10 Topic Tests/Space and Geometry 2013/Basic Geometry Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 9 and 10 Topic Tests/Space and Geometry 2013/Basic Geometry Test 2013.docx"
+      ],
+      "sha": "05fa3e5cae043566b08d5dd9824fa292f0bae882"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 9 and 10 Topic Tests/Space and Geometry 2013/Congruence Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 9 and 10 Topic Tests/Space and Geometry 2013/Congruence Test 2013.docx"
+      ],
+      "sha": "c3e7c239888b0f71777f05ec4ceafa47028c01e9"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 9 and 10 Topic Tests/Space and Geometry 2013/Enlargement & Similarity Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 9 and 10 Topic Tests/Space and Geometry 2013/Enlargement & Similarity Test 2013.docx"
+      ],
+      "sha": "33fd06dc73e70f83011401fb03aa69c192465cd6"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/2013 Years 9 and 10 Topic Tests/Space and Geometry 2013/Geometric Reasoning Test 2013.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/2013 Years 9 and 10 Topic Tests/Space and Geometry 2013/Geometric Reasoning Test 2013.docx"
+      ],
+      "sha": "df4dac6c2863b714775959e82fd40df8d3bdf1e4"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Algebra 2014/Equations Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Algebra 2014/Equations Test 2014.pdf"
+      ],
+      "sha": "5b992cf54c2118bd842c6f3b477ed30e99cda64f"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Algebra 2014/Further Algebraic Techniques Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Algebra 2014/Further Algebraic Techniques Test 2014.pdf"
+      ],
+      "sha": "657f21c3b67ac99b91765841a0215df9c98403cf"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Algebra 2014/Indices Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Algebra 2014/Indices Test 2014.pdf"
+      ],
+      "sha": "6e8f54ba5b48c90327022de881b8a4a29d596246"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Algebra 2014/Introductory Algebra Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Algebra 2014/Introductory Algebra Test 2014.pdf"
+      ],
+      "sha": "573ff484da8bf8ac612cdff6633fabc118e2726c"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Algebra 2014/Linear Relations Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Algebra 2014/Linear Relations Test 2014.pdf"
+      ],
+      "sha": "ad71028aae05b1d30ba7ffc5818bd05edbca0c91"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Data 2014/Data Analysis Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Data 2014/Data Analysis Test 2014.pdf"
+      ],
+      "sha": "648223984082389a4eb050d6b4a760bf27c70a3b"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Data 2014/Data Collection and Representation Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Data 2014/Data Collection and Representation Test 2014.pdf"
+      ],
+      "sha": "ee0fbd063fa373f49d4dfce4d9c07bf35f3d0858"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Measurement  2014/Area Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Measurement  2014/Area Test 2014.pdf"
+      ],
+      "sha": "f6d71f53a2ba5ce97f3063c5fc73ad885efe61cf"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Measurement  2014/Metric Units Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Measurement  2014/Metric Units Test 2014.pdf"
+      ],
+      "sha": "667ab670cd1fa788ef1394d20feec2a680bdf94b"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Measurement  2014/Perimeter Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Measurement  2014/Perimeter Test 2014.pdf"
+      ],
+      "sha": "d4d5084ba8b2741632df0e5af84207bb98b17901"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Measurement  2014/Pythagoras Theorem Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Measurement  2014/Pythagoras Theorem Test 2014.pdf"
+      ],
+      "sha": "e9a93b874750deb6fd4ec333b01360918bce7d09"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Measurement  2014/Volume Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Measurement  2014/Volume Test 2014.pdf"
+      ],
+      "sha": "3b8e41657afca4291ba33dc9dffb2a1bb63e91eb"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Number 2014/Decimals Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Number 2014/Decimals Test 2014.pdf"
+      ],
+      "sha": "ba84de50dc76daa44f2bad41abf4cb6dad0a93e9"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Number 2014/Fractions Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Number 2014/Fractions Test 2014.pdf"
+      ],
+      "sha": "8ad35452984680b862fe16e9d29e87f9d097875e"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Number 2014/Integers Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Number 2014/Integers Test 2014.pdf"
+      ],
+      "sha": "8144e579c3e153b27594970fb933ea3d210bb0b4"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Number 2014/Percentages and Financial Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Number 2014/Percentages and Financial Test 2014.pdf"
+      ],
+      "sha": "0ceed8e78957a3c76df571bdb58d07e31f2200ff"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Number 2014/Ratio and Rates Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Number 2014/Ratio and Rates Test 2014.pdf"
+      ],
+      "sha": "a10500904222a623b3cf93478cd6dd082310594e"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Number 2014/Rational Numbers Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Number 2014/Rational Numbers Test 2014.pdf"
+      ],
+      "sha": "d3853f815e05a0faab89076cb0fe5c2c133a49e4"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Number 2014/Whole Numbers Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Number 2014/Whole Numbers Test 2014.pdf"
+      ],
+      "sha": "7c6598c95df5b57e26570a7cdc78810893ab9c54"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Probability 2014/Further Probability Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Probability 2014/Further Probability Test 2014.pdf"
+      ],
+      "sha": "025c37839298c262266eacf551463aff620c15f7"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Probability 2014/Sample Space and Probability Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Probability 2014/Sample Space and Probability Test 2014.pdf"
+      ],
+      "sha": "9764944dbc200368520d0fe2bc8cb0fa3117107e"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Space and Geometry 2014/2D and 3D Shapes Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Space and Geometry 2014/2D and 3D Shapes Test 2014.pdf"
+      ],
+      "sha": "57727e9a798e87fbd0fa2ba22507e1db1c9c14b3"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Space and Geometry 2014/Angle Properties Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Space and Geometry 2014/Angle Properties Test 2014.pdf"
+      ],
+      "sha": "8ac16c9e06db910e71601a3e85984a3f797d1fae"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Space and Geometry 2014/Grids and Location Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Space and Geometry 2014/Grids and Location Test 2014.pdf"
+      ],
+      "sha": "2a38327869f7d7dce1aaaf2d41ca4868a67135c3"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Space and Geometry 2014/Polygons and Circles Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2014 PDF Files/7 8 Space and Geometry 2014/Polygons and Circles Test 2014.pdf"
+      ],
+      "sha": "8190affe81c8c1c47e2f9730a79471e2de71d574"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Algebra 2015 PDF/Equations Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Algebra 2015 PDF/Equations Test 2015.pdf"
+      ],
+      "sha": "222fc653fd649ddce5e7ac2fda9b0c2a0c2088a0"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Algebra 2015 PDF/Further Algebraic Techniques Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Algebra 2015 PDF/Further Algebraic Techniques Test 2015.pdf"
+      ],
+      "sha": "b14c669cb8be21db2b05a91499c011a7720b3070"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Algebra 2015 PDF/Indices Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Algebra 2015 PDF/Indices Test 2015.pdf"
+      ],
+      "sha": "e88215491cfc7ae178ee4dd33161228fac6cc9a4"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Algebra 2015 PDF/Introductory Algebra Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Algebra 2015 PDF/Introductory Algebra Test 2015.pdf"
+      ],
+      "sha": "1d04d89a5158b11c14b0d8d3a3da5938ed6ab9da"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Algebra 2015 PDF/Linear Relations Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Algebra 2015 PDF/Linear Relations Test 2015.pdf"
+      ],
+      "sha": "6f7a58a1658e78e96225b54a1c6f4f5baa53a959"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Data PDF/Data Analysis Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Data PDF/Data Analysis Test 2015.pdf"
+      ],
+      "sha": "fa193dea4d1e6c7bbc102f8b0bc7c5b746051eaa"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Data PDF/Data Collection and Representation Test 2015 P1.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Data PDF/Data Collection and Representation Test 2015 P1.pdf"
+      ],
+      "sha": "99f918f3a88acd863f107bb8e38a6d405b6aeb00"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Geometry 2015 PDF/2D and 3D Shapes Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Geometry 2015 PDF/2D and 3D Shapes Test 2015.pdf"
+      ],
+      "sha": "961f469889c96863a2dd97597748811b6186b348"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Geometry 2015 PDF/Angle Properties Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Geometry 2015 PDF/Angle Properties Test 2015.pdf"
+      ],
+      "sha": "43aa89948c2b34bf44a7ed3890626d9f6b16c083"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Geometry 2015 PDF/Polygons and Circles Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Geometry 2015 PDF/Polygons and Circles Test 2015.pdf"
+      ],
+      "sha": "41ed4a471f2f9e388b3acf60e9979d10d62de0db"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Geometry 2015 PDF/Transformations and Congruence Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Geometry 2015 PDF/Transformations and Congruence Test 2015.pdf"
+      ],
+      "sha": "4f22bfb873ee81101f00176fb5bb566b824595a5"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Measurement PDF/Area of Plane Shapes Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Measurement PDF/Area of Plane Shapes Test 2015.pdf"
+      ],
+      "sha": "581d407eb4111b1f71803c8df7bde37446d825da"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Measurement PDF/Metric Units Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Measurement PDF/Metric Units Test 2015.pdf"
+      ],
+      "sha": "651dbb0f270edf7a87120233fb826ec30512d1cb"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Measurement PDF/Perimeter Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Measurement PDF/Perimeter Test 2015.pdf"
+      ],
+      "sha": "ed170cac18aafd628813f1dd0c20f4df1013dda3"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Measurement PDF/Volume Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Measurement PDF/Volume Test 2015.pdf"
+      ],
+      "sha": "d838a6cd5b6d0ab0effeccae55d29562f51195bd"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Measurement PDF/Yr 8 Pythagoras Theorem Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Measurement PDF/Yr 8 Pythagoras Theorem Test 2015.pdf"
+      ],
+      "sha": "e33e529f2573c672ed31a14267b986ebc259dc89"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Number PDF/Decimals Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Number PDF/Decimals Test 2015.pdf"
+      ],
+      "sha": "0384e14328e7295084ed5562565ab2cec3b3053e"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Number PDF/Fractions Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Number PDF/Fractions Test 2015.pdf"
+      ],
+      "sha": "2f3223128e963e149f3fed9f9a29dc200bb7123b"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Number PDF/Integers Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Number PDF/Integers Test 2015.pdf"
+      ],
+      "sha": "dfeb3a0afdc90349777bfdd66043d3a7912032e3"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Number PDF/Percentages and Financial Maths Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Number PDF/Percentages and Financial Maths Test 2015.pdf"
+      ],
+      "sha": "2706fba2ff7e372ecfe76e5d9297951d5aa5a087"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Number PDF/Ratio Rates and Proportion Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Number PDF/Ratio Rates and Proportion Test 2015.pdf"
+      ],
+      "sha": "86c9df3296796c9ab0d6946c04202e73c80024cf"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Number PDF/Rational Numbers Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Number PDF/Rational Numbers Test 2015.pdf"
+      ],
+      "sha": "c7c44fc0eb8b577b72671cfc289e7dcd3e43a03e"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Number PDF/Whole Numbers Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Number PDF/Whole Numbers Test 2015.pdf"
+      ],
+      "sha": "b9e736d30e186a91abd5ac0ceb5f69497f05aa40"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Probability PDF/Further Probability Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Probability PDF/Further Probability Test 2015.pdf"
+      ],
+      "sha": "43e5c99cf0fafd7bb106ffbde7e32a304710f746"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Probability PDF/Sample Space and Probability Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 7 8 Topic Tests 2015 PDF Files/7 8 Probability PDF/Sample Space and Probability Test 2015.pdf"
+      ],
+      "sha": "f740b6a230b0ce250d30e8cef578347d5d261d9e"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Algebra 2014/Algebraic Products Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Algebra 2014/Algebraic Products Test 2014.pdf"
+      ],
+      "sha": "19cd0bdd7fb6c91e4f679ef23f6e1eeb75b1cee2"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Algebra 2014/Basic Algebra Skills Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Algebra 2014/Basic Algebra Skills Test 2014.pdf"
+      ],
+      "sha": "720ea15bf75b08afb1ddc781d656a6f12d315823"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Algebra 2014/Coordinate Geometry Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Algebra 2014/Coordinate Geometry Test 2014.pdf"
+      ],
+      "sha": "37c5feefbef89e9b9d1788bc73e3e7a70d9ed2f7"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Algebra 2014/Equations Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Algebra 2014/Equations Test 2014.pdf"
+      ],
+      "sha": "6d710b43f8e7c5d9fbc1d4f08f829a147c8149f8"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Algebra 2014/Factorisation Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Algebra 2014/Factorisation Test 2014.pdf"
+      ],
+      "sha": "7352594873ebcaac3cc08144a817f0885ab46580"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Algebra 2014/Linear Relations Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Algebra 2014/Linear Relations Test 2014.pdf"
+      ],
+      "sha": "1e08597ce1e4ee0fba39da2a9708e93a0efd7807"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Algebra 2014/Non Linear Equations Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Algebra 2014/Non Linear Equations Test 2014.pdf"
+      ],
+      "sha": "2c72b6dd0081336b356ee24ef319150bd484a887"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Algebra 2014/Non Linear Relations Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Algebra 2014/Non Linear Relations Test 2014.pdf"
+      ],
+      "sha": "27144273d3a71703c317cc1b01d2120d02892f7c"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Algebra 2014/Simultaneous Equations Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Algebra 2014/Simultaneous Equations Test 2014.pdf"
+      ],
+      "sha": "8ce94860a884c5c7cf286c3c299f6764a6fab021"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Data 2014/Basic Statistics Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Data 2014/Basic Statistics Test 2014.pdf"
+      ],
+      "sha": "5532a6032efe10d6b1eb6ef139ab777bf7018724"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Data 2014/Bivariate Data Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Data 2014/Bivariate Data Test 2014.pdf"
+      ],
+      "sha": "4eee6c90d9acfa9a38b4e077a93f86d8bc0ea964"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Data 2014/Further Measures of Spread Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Data 2014/Further Measures of Spread Test 2014.pdf"
+      ],
+      "sha": "fa1af60588c3ca421e00801828fbfb4467b09141"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Data 2014/Single Variable Data Analysis Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Data 2014/Single Variable Data Analysis Test 2014.pdf"
+      ],
+      "sha": "08c6a93ce4c0ca216f0db70609794e9f04acbf6b"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Measurement  2014/Area of Plane Shapes Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Measurement  2014/Area of Plane Shapes Test 2014.pdf"
+      ],
+      "sha": "527d336c8919c7e45b66cc56ea065fecfbc9c59f"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Measurement  2014/Basic Measurement Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Measurement  2014/Basic Measurement Test 2014.pdf"
+      ],
+      "sha": "40b7fc91296b6cfb18af7c2966c2eb1bccc164da"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Measurement  2014/Non Right Triangle Trigonometry Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Measurement  2014/Non Right Triangle Trigonometry Test 2014.pdf"
+      ],
+      "sha": "5b8f98be91854704909ec8d8e396e92209cad777"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Measurement  2014/Pythagoras Theorem Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Measurement  2014/Pythagoras Theorem Test 2014.pdf"
+      ],
+      "sha": "8f3d37d7ca755b0950e24aa484cba656aa9a6870"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Measurement  2014/Right Triangle Trigonometry Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Measurement  2014/Right Triangle Trigonometry Test 2014.pdf"
+      ],
+      "sha": "81c74a72f6463345f37942b4f4840b7182f5c2a1"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Number 2014/Basic Number Skills Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Number 2014/Basic Number Skills Test 2014.pdf"
+      ],
+      "sha": "de08168d8188d64345e31ed202187f0b4c3fb27b"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Number 2014/Earning Money Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Number 2014/Earning Money Test 2014.pdf"
+      ],
+      "sha": "14c4a3a0c658c1b73ff96005618e96b01a9ed0b2"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Number 2014/Financial Maths Compound Interest Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Number 2014/Financial Maths Compound Interest Test 2014.pdf"
+      ],
+      "sha": "af32d2be1dd151fe543f08a13fcb050e1a7d6cc4"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Number 2014/Financial Maths Simple Interest Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Number 2014/Financial Maths Simple Interest Test 2014.pdf"
+      ],
+      "sha": "ce9e7091e76e38eb75a8bc056d3f0bf680524248"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Number 2014/Indices Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Number 2014/Indices Test 2014.pdf"
+      ],
+      "sha": "133b21218f08a20045cfab1ddd2c65a92742b4c6"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Number 2014/Proportion Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Number 2014/Proportion Test 2014.pdf"
+      ],
+      "sha": "ef3b7eb0f926dff116de40aeaeaefe12bde75e74"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Number 2014/Ratio and Rates Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Number 2014/Ratio and Rates Test 2014.pdf"
+      ],
+      "sha": "c63c27e664d4048daca60a8a69fd0883a35c83af"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Number 2014/Surds Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Number 2014/Surds Test 2014.pdf"
+      ],
+      "sha": "1c0a6e6f46338f509cf80a3be0b3660aa32983e5"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Probability 2014/Basic Probability Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Probability 2014/Basic Probability Test 2014.pdf"
+      ],
+      "sha": "f17c7c55080ac9d7a0d985f24c74dff7b7af6bb5"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Probability 2014/Counting Techniques Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Probability 2014/Counting Techniques Test 2014.pdf"
+      ],
+      "sha": "75768e9eb2dbabfa34176d332856e30a4e8c4c8d"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Probability 2014/Two and Three Stage Events; Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Probability 2014/Two and Three Stage Events; Test 2014.pdf"
+      ],
+      "sha": "83441202e2828405c4c9448cbd5c578060cd7c72"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Space and Geometry 2014/Basic Geometry Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Space and Geometry 2014/Basic Geometry Test 2014.pdf"
+      ],
+      "sha": "16309c1c39b37ac8766475c4dc0d2e20a4b768e9"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Space and Geometry 2014/Congruence Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Space and Geometry 2014/Congruence Test 2014.pdf"
+      ],
+      "sha": "4b8663868567d91d79241744aca7057dd9735031"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Space and Geometry 2014/Enlargement & Similarity Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Space and Geometry 2014/Enlargement & Similarity Test 2014.pdf"
+      ],
+      "sha": "1d43a452897279a6677ce88591d71deb474e8b00"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Space and Geometry 2014/Geometric Reasoning Test 2014.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2014 PDF Files/9 10 Space and Geometry 2014/Geometric Reasoning Test 2014.pdf"
+      ],
+      "sha": "c0d786990abbf4834eca3dbc9c2ae93007b0bcd4"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Algebra 2015 PDF/Algebraic Products Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Algebra 2015 PDF/Algebraic Products Test 2015.pdf"
+      ],
+      "sha": "f4a37aec5bd2cbec188d337673861aab638848ca"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Algebra 2015 PDF/Basic Algebra Skills Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Algebra 2015 PDF/Basic Algebra Skills Test 2015.pdf"
+      ],
+      "sha": "a5bc8ba15001191e4c5a36e9965f685ef43f1fbb"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Algebra 2015 PDF/Coordinate Geometry Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Algebra 2015 PDF/Coordinate Geometry Test 2015.pdf"
+      ],
+      "sha": "0315791edd4231d2f2e7d4b7a4bd85c87b3ac766"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Algebra 2015 PDF/Factorisation Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Algebra 2015 PDF/Factorisation Test 2015.pdf"
+      ],
+      "sha": "442b7c9f1c74079133ec6c9917e449d179286873"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Algebra 2015 PDF/Linear Equations Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Algebra 2015 PDF/Linear Equations Test 2015.pdf"
+      ],
+      "sha": "20453e429186164495b17f67381ff615e0f0bd6d"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Algebra 2015 PDF/Linear Relations Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Algebra 2015 PDF/Linear Relations Test 2015.pdf"
+      ],
+      "sha": "26bb5447789c900ce50150d83be9874754b02543"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Algebra 2015 PDF/Non Linear Equations Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Algebra 2015 PDF/Non Linear Equations Test 2015.pdf"
+      ],
+      "sha": "3000cb11da445a2c091baae7b17f4c7283b273fa"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Algebra 2015 PDF/Non Linear Relations Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Algebra 2015 PDF/Non Linear Relations Test 2015.pdf"
+      ],
+      "sha": "9934db039df6d20a589af51f5ac08e046470e1e8"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Algebra 2015 PDF/Simultaneous Equations Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Algebra 2015 PDF/Simultaneous Equations Test 2015.pdf"
+      ],
+      "sha": "6966ff8ca752d655e6f77a7f6f7866448b0e2eff"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Data PDF/Basic Statistics Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Data PDF/Basic Statistics Test 2015.pdf"
+      ],
+      "sha": "d9fc3a7e427648176fceb4a5a5aec33a99ed38ff"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Data PDF/Bivariate Data Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Data PDF/Bivariate Data Test 2015.pdf"
+      ],
+      "sha": "22f91ff5d543c1c8b9e2c14ad8011d798b3335d4"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Data PDF/Further Single Variable Analysis Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Data PDF/Further Single Variable Analysis Test 2015.pdf"
+      ],
+      "sha": "3a06eb4c5ec2a59c1cfb5c6df2bfff6652642374"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Data PDF/Single Variable Data Analysis Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Data PDF/Single Variable Data Analysis Test 2015.pdf"
+      ],
+      "sha": "a0cc3c1356fa9edee3a111dee8e5d6407562e829"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Geometry 2015 PDF/Basic Geometry Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Geometry 2015 PDF/Basic Geometry Test 2015.pdf"
+      ],
+      "sha": "05112e83bce5ce29b826fe66b432b47aadfb5c1c"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Geometry 2015 PDF/Congruence Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Geometry 2015 PDF/Congruence Test 2015.pdf"
+      ],
+      "sha": "6115b4e5a6db079410bb8805a2d858997c1698a3"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Geometry 2015 PDF/Enlargement & Similarity Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Geometry 2015 PDF/Enlargement & Similarity Test 2015.pdf"
+      ],
+      "sha": "dfe0d8771a805d54620312ea7878a79dd52e6b26"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Geometry 2015 PDF/Geometric Reasoning Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Geometry 2015 PDF/Geometric Reasoning Test 2015.pdf"
+      ],
+      "sha": "7ca3293724f4c1d31af088f63e267ca5e04081c9"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Measurement PDF/Basic Measurement Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Measure PDF/Basic Measurement Test 2015.pdf"
+      ],
+      "sha": "e3a629516fbc9f213a69e96221e2e60f83ecc8a8"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Measurement PDF/Non Right Triangle Trigonometry Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Measure PDF/Non Right Triangle Trigonometry Test 2015.pdf"
+      ],
+      "sha": "c007da7aafd16231591a4156b717dcb86b993b2f"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Measurement PDF/Right Triangle Trigonometry Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Measure PDF/Right Triangle Trigonometry Test 2015.pdf"
+      ],
+      "sha": "c213fb62d2d62e3f38cf82cd7aeb0e342d0d9e90"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Measurement PDF/Volume and SA of Prisms and Cylinders Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Measure PDF/Volume and SA of Prisms and Cylinders Test 2015.pdf"
+      ],
+      "sha": "2b18ad2880d4e6797236dcbe4933786dd037c5db"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Measurement PDF/Year 9 Area of Plane Shapes Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Measure PDF/Year 9 Area of Plane Shapes Test 2015.pdf"
+      ],
+      "sha": "1a11b8377603b63be68a5147667c85c17d68dece"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Measurement PDF/Yr 9 Pythagoras Theorem Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Measure PDF/Yr 9 Pythagoras Theorem Test 2015.pdf"
+      ],
+      "sha": "eee1cd6f67399fc2fec8ee0554a5764e65b66b71"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Number PDF/Basic Number Skills Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Number PDF/Basic Number Skills Test 2015.pdf"
+      ],
+      "sha": "c20ee27c593ab88dc8f64e2af279b4da5b8d7737"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Number PDF/Earning Money Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Number PDF/Earning Money Test 2015.pdf"
+      ],
+      "sha": "d7b1f0b234c801fbb77bf91f787e072cd9db739a"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Number PDF/Financial Maths & Compound Interest Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Number PDF/Financial Maths & Compound Interest Test 2015.pdf"
+      ],
+      "sha": "5ac0de22399578541a3d203d361c80f8b5007bd3"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Number PDF/Financial Maths & Simple Interest Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Number PDF/Financial Maths & Simple Interest Test 2015.pdf"
+      ],
+      "sha": "7f45b2dbb41f574f0c771bc69d9a1e02cf8868e2"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Number PDF/Indices Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Number PDF/Indices Test 2015.pdf"
+      ],
+      "sha": "b7da3fe0ec8b52705fd1aceedc679b6262a4ad26"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Number PDF/Proportion Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Number PDF/Proportion Test 2015.pdf"
+      ],
+      "sha": "c4ddb32aa7a7f38d845b4dbb27ca735af5170cfa"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Number PDF/Ratio and Rates Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Number PDF/Ratio and Rates Test 2015.pdf"
+      ],
+      "sha": "5ef2626e66cb78986a99cea08e5d55fe6c9432f2"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Number PDF/Surds Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Number PDF/Surds Test 2015.pdf"
+      ],
+      "sha": "cebea07fbc051f3b0e6fcf18761f690b1d031f00"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Probability PDF/Basic Probability Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Probability PDF/Basic Probability Test 2015.pdf"
+      ],
+      "sha": "709fcd87f5e1917a35f4285f08640ae714f85e78"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Probability PDF/Counting Techniques Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Probability PDF/Counting Techniques Test 2015.pdf"
+      ],
+      "sha": "aaa9bf73a0541f0eb746fda1068f350096a7c1dc"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Probability PDF/Two and Three Stage Events Test 2015.pdf",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/PDF Copies of Tests/Year 9 10 Topic Tests 2015 PDF Files/9 10 Probability PDF/Two and Three Stage Events Test 2015.pdf"
+      ],
+      "sha": "bcff617bd3210e92c967ecf65aee3db5723ed8b8"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2014/7 8 Algebra 2014/Equations Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2014/7 8 Algebra 2014/Equations Test 2014.docx"
+      ],
+      "sha": "38771c06fa2adc90a8cda1f491a08710059cb9d0"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2014/7 8 Algebra 2014/Further Algebraic Techniques Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2014/7 8 Algebra 2014/Further Algebraic Techniques Test 2014.docx"
+      ],
+      "sha": "bbedec201202991f1dad908006b824bac363455c"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2014/7 8 Algebra 2014/Indices Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2014/7 8 Algebra 2014/Indices Test 2014.docx"
+      ],
+      "sha": "95b15feb69ca514cd8e1e99e4819df7d8475c489"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2014/7 8 Algebra 2014/Introductory Algebra Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2014/7 8 Algebra 2014/Introductory Algebra Test 2014.docx"
+      ],
+      "sha": "40e7278717c6410c6e3a6d5ab6fc1a8d2a2343d6"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2014/7 8 Algebra 2014/Linear Relations Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2014/7 8 Algebra 2014/Linear Relations Test 2014.docx"
+      ],
+      "sha": "c11f2cfe3633b2c0d84432c5d1b59554e62f3b71"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2014/7 8 Data 2014/Data Analysis Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2014/7 8 Data 2014/Data Analysis Test 2014.docx"
+      ],
+      "sha": "574da8b01dee631add2c42aa7427816671261f08"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2014/7 8 Data 2014/Data Collection and Representation Test 2014.doc",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2014/7 8 Data 2014/Data Collection and Representation Test 2014.doc"
+      ],
+      "sha": "6dcb3cd91d207f1d996530a8485abf21bebd66bc"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2014/7 8 Measurement  2014/Area Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2014/7 8 Measurement  2014/Area Test 2014.docx"
+      ],
+      "sha": "e2b80003a9a3e4e9d23a1ec3ac79922aaa2af470"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2014/7 8 Measurement  2014/Metric Units Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2014/7 8 Measurement  2014/Metric Units Test 2014.docx"
+      ],
+      "sha": "6e7aec0e3e9033bbc45684f69ba20384a4ce5850"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2014/7 8 Measurement  2014/Perimeter Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2014/7 8 Measurement  2014/Perimeter Test 2014.docx"
+      ],
+      "sha": "f5bf772de27ac7704ef42d5736fee2f664964875"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2014/7 8 Measurement  2014/Pythagoras Theorem Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2014/7 8 Measurement  2014/Pythagoras Theorem Test 2014.docx"
+      ],
+      "sha": "0b4c676655579793f552be91619bce510e64ffd5"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2014/7 8 Measurement  2014/Volume Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2014/7 8 Measurement  2014/Volume Test 2014.docx"
+      ],
+      "sha": "0ccb8ed8805ca37531380ceddbe141d56fd7b9e3"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2014/7 8 Number 2014/Decimals Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2014/7 8 Number 2014/Decimals Test 2014.docx"
+      ],
+      "sha": "3da57b2753910a5e7cae8df9e7cf487307a69cc2"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2014/7 8 Number 2014/Fractions Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2014/7 8 Number 2014/Fractions Test 2014.docx"
+      ],
+      "sha": "98ba1593f62908c2fd2db5171baa955ec607d5f8"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2014/7 8 Number 2014/Integers Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2014/7 8 Number 2014/Integers Test 2014.docx"
+      ],
+      "sha": "fbcc2c64494458100b79ed03b315d4178de7fee0"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2014/7 8 Number 2014/Percentages and Financial Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2014/7 8 Number 2014/Percentages and Financial Test 2014.docx"
+      ],
+      "sha": "9053d75b7b08a06379879554959ada4819184baa"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2014/7 8 Number 2014/Ratio and Rates Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2014/7 8 Number 2014/Ratio and Rates Test 2014.docx"
+      ],
+      "sha": "9ef973e36eae7312ce7e8e41b3a9af836c251c02"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2014/7 8 Number 2014/Rational Numbers Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2014/7 8 Number 2014/Rational Numbers Test 2014.docx"
+      ],
+      "sha": "56724e538f98a142349c06ed0245f300b7d0c6bc"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2014/7 8 Number 2014/Whole Numbers Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2014/7 8 Number 2014/Whole Numbers Test 2014.docx"
+      ],
+      "sha": "41b321006e1975813707a816071673e86aebb770"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2014/7 8 Probability 2014/Further Probability Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2014/7 8 Probability 2014/Further Probability Test 2014.docx"
+      ],
+      "sha": "2f699c6086f31d199c0d7659caf94d9ee518c22a"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2014/7 8 Probability 2014/Sample Space and Probability Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2014/7 8 Probability 2014/Sample Space and Probability Test 2014.docx"
+      ],
+      "sha": "bc16afb23f9cbc77ab0cdde64f14a6057c654dfb"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2014/7 8 Space and Geometry 2014/2D and 3D Shapes Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2014/7 8 Space and Geometry 2014/2D and 3D Shapes Test 2014.docx"
+      ],
+      "sha": "ca7b67012c8f975d9587f58c1ee6046632b327bc"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2014/7 8 Space and Geometry 2014/Angle Properties Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2014/7 8 Space and Geometry 2014/Angle Properties Test 2014.docx"
+      ],
+      "sha": "88f15e457bcdddeff8077ec66b8021d4fd6f1371"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2014/7 8 Space and Geometry 2014/Grids and Location Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2014/7 8 Space and Geometry 2014/Grids and Location Test 2014.docx"
+      ],
+      "sha": "35047aa93d75ce2b977fdf1f2813626d0e775510"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2014/7 8 Space and Geometry 2014/Polygons and Circles Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2014/7 8 Space and Geometry 2014/Polygons and Circles Test 2014.docx"
+      ],
+      "sha": "932b669a212467430a64f739dbb1aa3abec9773e"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2014/7 8 Space and Geometry 2014/Transformations and Congruence Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2014/7 8 Space and Geometry 2014/Transformations and Congruence Test 2014.docx"
+      ],
+      "sha": "c4cfe75030da8e782dd2e30baebd57cf836e213f"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2016/7 8 Algebra 2016/Equations Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2015/7 8 Algebra 2016/Equations Test 2016.docx"
+      ],
+      "sha": "a0071e1c6fb9ed52ec530d8dc992341be6f51aec"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2016/7 8 Algebra 2016/Further Algebraic Techniques Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2015/7 8 Algebra 2016/Further Algebraic Techniques Test 2016.docx"
+      ],
+      "sha": "c4b11a4425a72f3de20034d957a18ddc4a7678a9"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2016/7 8 Algebra 2016/Indices Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2015/7 8 Algebra 2016/Indices Test 2016.docx"
+      ],
+      "sha": "048b156d29e6aa23421c5baa6f57de93f601d06b"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2016/7 8 Algebra 2016/Introductory Algebra Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2015/7 8 Algebra 2016/Introductory Algebra Test 2016.docx"
+      ],
+      "sha": "7f14dc8ffcf58cb6beeee249031e70a587447987"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2016/7 8 Algebra 2016/Linear Relations Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2015/7 8 Algebra 2016/Linear Relations Test 2016.docx"
+      ],
+      "sha": "30b66f074b27f0727b8cc575c3a916945f6a294e"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2016/7 8 Data 2016/Data Analysis Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2015/7 8 Data 2016/Data Analysis Test 2016.docx"
+      ],
+      "sha": "6052d5dbafb386e11d77b7c7d7e63b9458bc14e0"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2016/7 8 Data 2016/Data Collection and Representation Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2015/7 8 Data 2016/Data Collection and Representation Test 2016.docx"
+      ],
+      "sha": "21bbf5e62beb24c717b1e31f7e86249e3d9dcad4"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2016/7 8 Geometry 2016/2D and 3D Shapes Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2015/7 8 Geometry 2016/2D and 3D Shapes Test 2016.docx"
+      ],
+      "sha": "3c6ec7fe71f2a4cd1ee47a858c629868110f755e"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2016/7 8 Geometry 2016/Angle Properties Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2015/7 8 Geometry 2016/Angle Properties Test 2016.docx"
+      ],
+      "sha": "de8ad9dee9c8c47a5bfee98465d7894c50b2336e"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2016/7 8 Geometry 2016/Polygons and Circles Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2015/7 8 Geometry 2016/Polygons and Circles Test 2016.docx"
+      ],
+      "sha": "0a6fcf37bf75352b5886590a2a703a4fbf0bfa53"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2016/7 8 Geometry 2016/Transformations and Congruence Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2015/7 8 Geometry 2016/Transformations and Congruence Test 2016.docx"
+      ],
+      "sha": "ebdcd04b658003c5e61a4571e79ef46ff54d812b"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2016/7 8 Measurement  2016/Area of Plane Shapes Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2015/7 8 Measurement  2016/Area of Plane Shapes Test 2016.docx"
+      ],
+      "sha": "03e4ef80cd12f4f28c296f18eb64b68cec93c06e"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2016/7 8 Measurement  2016/Metric Units Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2015/7 8 Measurement  2016/Metric Units Test 2016.docx"
+      ],
+      "sha": "9a5f9bd7d9dad7c521b709fe05c1f30e9fa8aa0e"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2016/7 8 Measurement  2016/Perimeter Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2015/7 8 Measurement  2016/Perimeter Test 2016.docx"
+      ],
+      "sha": "b57c68e480846b726e83a9fb2418523acdefcaa0"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2016/7 8 Measurement  2016/Volume Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2015/7 8 Measurement  2016/Volume Test 2016.docx"
+      ],
+      "sha": "cfbf2c4ca01021a8d489170ddf49081744de2162"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2016/7 8 Measurement  2016/Yr 8 Pythagoras Theorem Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2015/7 8 Measurement  2016/Yr 8 Pythagoras Theorem Test 2016.docx"
+      ],
+      "sha": "d6db57d51aa6e3e982b41ed915f331656155a139"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2016/7 8 Number 2016/Decimals Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2015/7 8 Number 2016/Decimals Test 2016.docx"
+      ],
+      "sha": "eb7feebb8dc54f736d430705570a859141bf9afc"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2016/7 8 Number 2016/Fractions Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2015/7 8 Number 2016/Fractions Test 2016.docx"
+      ],
+      "sha": "89dfea2d2fb264ec2050f56ff5b5d7330233be09"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2016/7 8 Number 2016/Integers Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2015/7 8 Number 2016/Integers Test 2016.docx"
+      ],
+      "sha": "451d900b0c623ec6139230b25db3084b3d3c6cee"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2016/7 8 Number 2016/Percentages and Financial Maths Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2015/7 8 Number 2016/Percentages and Financial Maths Test 2016.docx"
+      ],
+      "sha": "f3974055127f533efdccd28e4790416ad568bc4e"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2016/7 8 Number 2016/Ratio Rates and Proportion Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2015/7 8 Number 2016/Ratio Rates and Proportion Test 2016.docx"
+      ],
+      "sha": "0a7fcdc1098747647d0b2c3601accfd9a35c7194"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2016/7 8 Number 2016/Rational Numbers Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2015/7 8 Number 2016/Rational Numbers Test 2016.docx"
+      ],
+      "sha": "d08603c8f2aa0de7c8ecabc0480762bb515fa213"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2016/7 8 Number 2016/Whole Numbers Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2015/7 8 Number 2016/Whole Numbers Test 2016.docx"
+      ],
+      "sha": "9e6a771f37218b8c43f750f65dc6bee5dad320e1"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2016/7 8 Probability 2016/Further Probability Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2015/7 8 Probability 2016/Further Probability Test 2016.docx"
+      ],
+      "sha": "9d80629b275ec8ad9c8a0f489a8bfea176e3fa68"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 7 8 Topic Tests 2016/7 8 Probability 2016/Sample Space and Probability Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 7 8 Topic Tests 2015/7 8 Probability 2016/Sample Space and Probability Test 2016.docx"
+      ],
+      "sha": "aa9eec7a785b3578d3f74c055dab03c88330787d"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2014/9 10 Algebra 2014/Algebraic Products Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2014/9 10 Algebra 2014/Algebraic Products Test 2014.docx"
+      ],
+      "sha": "953668dd1726f741db8738510e1dd534c072f358"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2014/9 10 Algebra 2014/Basic Algebra Skills Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2014/9 10 Algebra 2014/Basic Algebra Skills Test 2014.docx"
+      ],
+      "sha": "5abe918ac82f189c11ec283a402ae249ee36a42d"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2014/9 10 Algebra 2014/Coordinate Geometry Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2014/9 10 Algebra 2014/Coordinate Geometry Test 2014.docx"
+      ],
+      "sha": "63f984ad63a75732dc9e885fa340709d7c396a6f"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2014/9 10 Algebra 2014/Equations Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2014/9 10 Algebra 2014/Equations Test 2014.docx"
+      ],
+      "sha": "1fbae5e4ed9ff888302d51d4c56f2459793759b6"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2014/9 10 Algebra 2014/Factorisation Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2014/9 10 Algebra 2014/Factorisation Test 2014.docx"
+      ],
+      "sha": "2fb5cdfa1c784a26c1ba46d22e78e59626c29db3"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2014/9 10 Algebra 2014/Linear Relations Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2014/9 10 Algebra 2014/Linear Relations Test 2014.docx"
+      ],
+      "sha": "5811c2773cc4b073636ac93e24af7b9f9f2a2a42"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2014/9 10 Algebra 2014/Non Linear Equations Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2014/9 10 Algebra 2014/Non Linear Equations Test 2014.docx"
+      ],
+      "sha": "da40d6ad92eec86bfda7856d9600ff2ecc120a71"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2014/9 10 Algebra 2014/Non Linear Relations Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2014/9 10 Algebra 2014/Non Linear Relations Test 2014.docx"
+      ],
+      "sha": "d765daf29a9283cfe9128ea21d0622fd315691cf"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2014/9 10 Algebra 2014/Simultaneous Equations Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2014/9 10 Algebra 2014/Simultaneous Equations Test 2014.docx"
+      ],
+      "sha": "db03fea40725b07e96ff9d0ac90c3f58b5b7f863"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2014/9 10 Data 2014/Basic Statistics Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2014/9 10 Data 2014/Basic Statistics Test 2014.docx"
+      ],
+      "sha": "67017b592a9575d38a1217e9795d29f83fea3c56"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2014/9 10 Data 2014/Bivariate Data Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2014/9 10 Data 2014/Bivariate Data Test 2014.docx"
+      ],
+      "sha": "3d6429c4a799849ef5fae77c0a6fb67e8ddf2c56"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2014/9 10 Data 2014/Further Measures of Spread Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2014/9 10 Data 2014/Further Measures of Spread Test 2014.docx"
+      ],
+      "sha": "269dbcc50cefea77d569ceadce773722c8514fa3"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2014/9 10 Data 2014/Single Variable Data Analysis Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2014/9 10 Data 2014/Single Variable Data Analysis Test 2014.docx"
+      ],
+      "sha": "9f000a88164dbbde2c261c9ec4183b8cc960614a"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2014/9 10 Measure 2014/Area of Plane Shapes Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2014/9 10 Measurement  2014/Area of Plane Shapes Test 2014.docx"
+      ],
+      "sha": "79c5caeda3a80d9ae8b6cd29615d916cfbb77840"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2014/9 10 Measure 2014/Basic Measurement Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2014/9 10 Measurement  2014/Basic Measurement Test 2014.docx"
+      ],
+      "sha": "f9a1554684cb9bc7ee0cbec5985b3a28c0cf288e"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2014/9 10 Measure 2014/Non Right Triangle Trigonometry Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2014/9 10 Measurement  2014/Non Right Triangle Trigonometry Test 2014.docx"
+      ],
+      "sha": "e3dc78dd65d4d5c445d5d66f54dd9717dfed29bb"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2014/9 10 Measure 2014/Pythagoras Theorem Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2014/9 10 Measurement  2014/Pythagoras Theorem Test 2014.docx"
+      ],
+      "sha": "2b6adece3079277562eda4f4193273368eda293f"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2014/9 10 Measure 2014/Right Triangle Trigonometry Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2014/9 10 Measurement  2014/Right Triangle Trigonometry Test 2014.docx"
+      ],
+      "sha": "e13ce45b5f15c7e1cbfe08877e339e73cf26d38e"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2014/9 10 Measure 2014/Surface Area and Volume of Other Solids Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2014/9 10 Measurement  2014/Surface Area and Volume of Other Solids Test 2014.docx"
+      ],
+      "sha": "8ab3d0f33ee6e2366673fcb3b022613623cdcec2"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2014/9 10 Measure 2014/Volume and SA of Prisms and Cylinders Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2014/9 10 Measurement  2014/Volume and SA of Prisms and Cylinders Test 2014.docx"
+      ],
+      "sha": "8eaea58fef8f9ce104f5cc8f028eea36b79ababe"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2014/9 10 Number 2014/Basic Number Skills Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2014/9 10 Number 2014/Basic Number Skills Test 2014.docx"
+      ],
+      "sha": "f2646c7cfb28f4a6eeed19620e8e79ae08adcba6"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2014/9 10 Number 2014/Earning Money Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2014/9 10 Number 2014/Earning Money Test 2014.docx"
+      ],
+      "sha": "66ac6bacb70589d1e403c17eb5adb3fa72fc0db4"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2014/9 10 Number 2014/Financial Maths Compound Interest Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2014/9 10 Number 2014/Financial Maths Compound Interest Test 2014.docx"
+      ],
+      "sha": "fb65d8535e84b745d310763ac2d08c79233ed209"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2014/9 10 Number 2014/Financial Maths Simple Interest Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2014/9 10 Number 2014/Financial Maths Simple Interest Test 2014.docx"
+      ],
+      "sha": "9af2e4c2f7193b3c4e4bc3d4fb7282402cd9094b"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2014/9 10 Number 2014/Indices Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2014/9 10 Number 2014/Indices Test 2014.docx"
+      ],
+      "sha": "8b422a50fa638790c9b8decfeeee6ef328712f9a"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2014/9 10 Number 2014/Proportion Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2014/9 10 Number 2014/Proportion Test 2014.docx"
+      ],
+      "sha": "1b24ddaa2523821e1cdb916cc7cfbe79bb0130d8"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2014/9 10 Number 2014/Ratio and Rates Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2014/9 10 Number 2014/Ratio and Rates Test 2014.docx"
+      ],
+      "sha": "642bcfcefdae07e6750b28ce03bbda6c35bc63a9"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2014/9 10 Number 2014/Surds Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2014/9 10 Number 2014/Surds Test 2014.docx"
+      ],
+      "sha": "203fbf9b78ba3af7d55c46c5fbb2c2e14ffb735e"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2014/9 10 Probability 2014/Basic Probability Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2014/9 10 Probability 2014/Basic Probability Test 2014.docx"
+      ],
+      "sha": "800ae6270d67a778229f7db7b6741821e774b4c1"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2014/9 10 Probability 2014/Counting Techniques Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2014/9 10 Probability 2014/Counting Techniques Test 2014.docx"
+      ],
+      "sha": "062233adef0ae296d02de9bb7e2cad89f1cffbf6"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2014/9 10 Space and Geometry 2014/Basic Geometry Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2014/9 10 Space and Geometry 2014/Basic Geometry Test 2014.docx"
+      ],
+      "sha": "74c4d7373a2a742b908fc2443e4af14bec23618c"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2014/9 10 Space and Geometry 2014/Congruence Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2014/9 10 Space and Geometry 2014/Congruence Test 2014.docx"
+      ],
+      "sha": "a2a955694f9d97dd2ecd9fe9bac709f4969acba6"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2014/9 10 Space and Geometry 2014/Enlargement & Similarity Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2014/9 10 Space and Geometry 2014/Enlargement & Similarity Test 2014.docx"
+      ],
+      "sha": "b316bdf229745b1dbd621f7590c0cde042ae05b2"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2014/9 10 Space and Geometry 2014/Geometric Reasoning Test 2014.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2014/9 10 Space and Geometry 2014/Geometric Reasoning Test 2014.docx"
+      ],
+      "sha": "cea96e27cebd149345ee0bc007c6691ceb324eca"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Algebra 2016/Algebraic Products Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2015/9 10 Algebra 2016/Algebraic Products Test 2016.docx"
+      ],
+      "sha": "b15a3d6135aaf3ea3df20ac918b227dd847509e0"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Algebra 2016/Basic Algebra Skills Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2015/9 10 Algebra 2016/Basic Algebra Skills Test 2016.docx"
+      ],
+      "sha": "0cd6413900cbec6532f60a1f1a93a37806b5aa64"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Algebra 2016/Coordinate Geometry Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2015/9 10 Algebra 2016/Coordinate Geometry Test 2016.docx"
+      ],
+      "sha": "32c8e95c6e5421ddb104687b55baf2c2b7ed108e"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Algebra 2016/Factorisation Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2015/9 10 Algebra 2016/Factorisation Test 2016.docx"
+      ],
+      "sha": "3e6282bb43350543dbaec44cd04905a74a5913d6"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Algebra 2016/Linear Equations Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2015/9 10 Algebra 2016/Linear Equations Test 2016.docx"
+      ],
+      "sha": "c9eec8d62bc668ae21980eb91e7a773a83aeb21a"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Algebra 2016/Linear Relations Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2015/9 10 Algebra 2016/Linear Relations Test 2016.docx"
+      ],
+      "sha": "d481d987159806385f66353c2acee5a3256ec8ef"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Algebra 2016/Non Linear Equations Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2015/9 10 Algebra 2016/Non Linear Equations Test 2016.docx"
+      ],
+      "sha": "a7fc265e39058985fb109287b9d06d83af5536fc"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Algebra 2016/Non Linear Relations Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2015/9 10 Algebra 2016/Non Linear Relations Test 2016.docx"
+      ],
+      "sha": "95a4de7c4e334f086e6d37748605afe279dc5c4e"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Algebra 2016/Simultaneous Equations Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2015/9 10 Algebra 2016/Simultaneous Equations Test 2016.docx"
+      ],
+      "sha": "75d1d3951f76f57624e059ff87e7537dee879a38"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Data 2016/Basic Statistics Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2015/9 10 Data 2016/Basic Statistics Test 2016.docx"
+      ],
+      "sha": "20a0dfcc50acb870993942293832e4ae12894de4"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Data 2016/Bivariate Data Test 2015.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2015/9 10 Data 2016/Bivariate Data Test 2015.docx"
+      ],
+      "sha": "b33d37819cbd90228cb44600452f874009a15611"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Data 2016/Further Single Variable Analysis Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2015/9 10 Data 2016/Further Single Variable Analysis Test 2016.docx"
+      ],
+      "sha": "9f8bfdc4fe17c4e7ccd75786c63d434c415825fb"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Data 2016/Single Variable Data Analysis Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2015/9 10 Data 2016/Single Variable Data Analysis Test 2016.docx"
+      ],
+      "sha": "c81d474ed06d210e83e0cad33b20b6453d225362"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Geometry 2016/Basic Geometry Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2015/9 10 Geometry 2016/Basic Geometry Test 2016.docx"
+      ],
+      "sha": "9c9a45f881d52037cfc495b68318fb4ae3484a5b"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Geometry 2016/Congruence Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2015/9 10 Geometry 2016/Congruence Test 2016.docx"
+      ],
+      "sha": "bca0f66f1d72662d2ea325fcbcc0b2cb14576dc7"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Geometry 2016/Enlargement & Similarity Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2015/9 10 Geometry 2016/Enlargement & Similarity Test 2016.docx"
+      ],
+      "sha": "bc89042c7df64adad427bd60a36d7e9335699840"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Geometry 2016/Geometric Reasoning Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2015/9 10 Geometry 2016/Geometric Reasoning Test 2016.docx"
+      ],
+      "sha": "c19d581f36554afe4111302118759f1c5e6b4e85"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Measurement  2016/Basic Measurement Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2015/9 10 Measurement  2016/Basic Measurement Test 2016.docx"
+      ],
+      "sha": "2c42c303b782a604c5ab4248d8bcde4f336e7dd6"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Measurement  2016/Non Right Triangle Trigonometry Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2015/9 10 Measurement  2016/Non Right Triangle Trigonometry Test 2016.docx"
+      ],
+      "sha": "2c83a8b6cd175052d8a36dbfc398f48c2ff978aa"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Measurement  2016/Right Triangle Trigonometry Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2015/9 10 Measurement  2016/Right Triangle Trigonometry Test 2016.docx"
+      ],
+      "sha": "3026848096ac8720acdb555f87226d43603e18ff"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Measurement  2016/Surface Area and Volume of Other Solids Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2015/9 10 Measurement  2016/Surface Area and Volume of Other Solids Test 2016.docx"
+      ],
+      "sha": "2fcec6367a21bff6ccdc2d8fcf6d20303d557989"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Measurement  2016/Volume and SA of Prisms and Cylinders Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2015/9 10 Measurement  2016/Volume and SA of Prisms and Cylinders Test 2016.docx"
+      ],
+      "sha": "aba254f40cbd1995b5c49b076f1bf59295363ce3"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Measurement  2016/Year 9 Area of Plane Shapes Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2015/9 10 Measurement  2016/Year 9 Area of Plane Shapes Test 2016.docx"
+      ],
+      "sha": "b577af62b0eae2c03707bd3efbd0dbfff60f0a34"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Measurement  2016/Yr 9 Pythagoras Theorem Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2015/9 10 Measurement  2016/Yr 9 Pythagoras Theorem Test 2016.docx"
+      ],
+      "sha": "7b56256f177a5cd7290b9be1fcd59c73f23995af"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Number 2016/Basic Number Skills Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2015/9 10 Number 2016/Basic Number Skills Test 2016.docx"
+      ],
+      "sha": "5523b77cc62b90cfb4a784c5553931f14b0f6997"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Number 2016/Earning Money Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2015/9 10 Number 2016/Earning Money Test 2016.docx"
+      ],
+      "sha": "d4f1ba8aa410667a67b3875b87a90adee2408baa"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Number 2016/Financial Maths & Compound Interest Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2015/9 10 Number 2016/Financial Maths & Compound Interest Test 2016.docx"
+      ],
+      "sha": "f91d346f85bd62dca9e8962d25b3af64d87f980d"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Number 2016/Financial Maths & Simple Interest Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2015/9 10 Number 2016/Financial Maths & Simple Interest Test 2016.docx"
+      ],
+      "sha": "dc320f496f474678388cbd3406cde0aa15f5b524"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Number 2016/Indices Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2015/9 10 Number 2016/Indices Test 2016.docx"
+      ],
+      "sha": "50639e2a624d429c71b70859b5f1d4d4fce50371"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Number 2016/Proportion Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2015/9 10 Number 2016/Proportion Test 2016.docx"
+      ],
+      "sha": "b334b3cf5f8669bda83cd7c0f33cf2bb87922411"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Number 2016/Ratio and Rates Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2015/9 10 Number 2016/Ratio and Rates Test 2016.docx"
+      ],
+      "sha": "6a52d16afa957d180fb60057c4f56fa9687a38fa"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Number 2016/Surds Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2015/9 10 Number 2016/Surds Test 2016.docx"
+      ],
+      "sha": "579653b15ccf308acbabdde513448a40c860d45e"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Probability 2016/Basic Probability Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2015/9 10 Probability 2016/Basic Probability Test 2016.docx"
+      ],
+      "sha": "05a4d081dce29e0fd540b2b6a782723927a39fee"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Probability 2016/Counting Techniques Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2015/9 10 Probability 2016/Counting Techniques Test 2016.docx"
+      ],
+      "sha": "ec09e1666a321d4d9207a9518693256f7c3d505f"
+    },
+    {
+      "canonical": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Probability 2016/Two and Three Stage Events Test 2016.docx",
+      "copies": [
+        "resources/Assessments/WME Assessment Bank Zeta/Year 9 10 Topic Tests 2015/9 10 Probability 2016/Two and Three Stage Events Test 2016.docx"
+      ],
+      "sha": "dfb46f9be19f0fc6729f29ba4e708f7f30af17c5"
+    },
+    {
       "canonical": "resources/Forensics/Powerpoints/Video CSI Challenges/Crime360_ForenEnto.ppt",
       "copies": [
         "resources/Forensics/Powerpoints/Video CSI Challenges/Crime360_ForenEnto (1).ppt"
@@ -24940,7 +27523,7 @@
     }
   ],
   "categories": {
-    "Assessments": 14924,
+    "Assessments": 15539,
     "Exams": 3566,
     "Notes": 29,
     "Other Resources": 1076,
