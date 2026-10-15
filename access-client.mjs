@@ -35,3 +35,6 @@ export async function saveMember(uid,changes,expectedUpdatedAt){
  return{uid,...(await getDoc(doc(db,'members',uid))).data()};
 }
 export function permissionError(error){if(error?.message?.includes('changed elsewhere')||error?.message?.includes('no longer exists'))return error.message;if(error?.code==='permission-denied')return'Access was denied. The site owner needs to publish the Firestore rules, and only the configured admin account can manage approvals.';if(error?.code==='unavailable')return'Could not reach the account database. Check your connection and try again.';return'Account access could not be saved. Check Firebase setup and try again.'}
+
+// Load signed-in activity tracking after account services have initialized.
+import('./activity-tracker.mjs?v=2026.10.15-activity1').catch(()=>{});
