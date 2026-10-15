@@ -25,3 +25,4 @@ document.write('<script src="assessment-question-bank-science-complete.js?v=2026
 
 document.write('<script src="assessment-question-bank-science-source-batch01.js?v=2026.10.15-science-source1"><\/script>');
 document.write('<script src="assessment-question-bank-science-source-batch02.js?v=2026.10.15-science-source2"><\/script>');
+document.write('<script src="assessment-question-bank-science-source-batch03.js?v=2026.10.15-science-source3"><\/script>');
