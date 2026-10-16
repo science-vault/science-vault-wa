@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.16-science-source163",
+  "version": "2026.10.16-science-source168",
   "status": "in_progress",
   "scope": "Original Science assessment files in repository, Years 7–10. File counts include keys and supporting materials; they are not question counts.",
   "inventoryFiles": 2009,
@@ -11,11 +11,11 @@
     "9": 457,
     "10": 582
   },
-  "importedPapers": 348,
-  "importedQuestions": 3926,
-  "multipleChoice": 864,
-  "writtenQuestions": 3062,
-  "battleEligibleQuestions": 748,
+  "importedPapers": 354,
+  "importedQuestions": 3961,
+  "multipleChoice": 883,
+  "writtenQuestions": 3078,
+  "battleEligibleQuestions": 765,
   "reviewRequired": [
     {
       "id": "SCI-REPO-Y7-NAR-2024-CHEM-WR02",
@@ -1163,11 +1163,11 @@
     },
     {
       "id": "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-materials",
-      "note": "Separate practical sheet and final cooling steps are absent from this file."
+      "note": "Companion practical now located:50mLwater/10galum,ice versus cotton insulation. Teacher-key materials75mL/25gconflict with its own method;clarify quantities before use."
     },
     {
       "id": "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-method",
-      "note": "Separate practical sheet and final cooling steps are absent from this file."
+      "note": "Companion practical now located:50mLwater/10galum,ice versus cotton insulation. Teacher-key materials75mL/25gconflict with its own method;clarify quantities before use."
     },
     {
       "id": "SCI-REPO-Y8-ARAN-2015-BURGERRING-independent",
@@ -2460,6 +2460,34 @@
     {
       "id": "SCI-REPO-Y7-ARAN-FORCESSPORT-project",
       "note": "Source parenthetical implies an unbalanced force always makes an object move;correct criterion is nonzero acceleration. Balanced forces permit rest or constant velocity."
+    },
+    {
+      "id": "SCI-REPO-Y8-MLAW-CRYSTALKEY-graph",
+      "note": "Additional6mark graph is absent from original30mark lab report. Key’s complete listed allocations sum36despite printed30. Source range examples do not define exact trial averages."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-MC09",
+      "note": "Universal acid wording needs qualification;exclude from automatic battles."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-W2",
+      "note": "Element types versus atom counts and molecule terminology require clarification."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-W6",
+      "note": "Silver/HClpremise is chemically invalid in ordinary bulk-metal classroom context;nitric acid product specification is condition-dependent. Manual marking must accept scientifically correct objections."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2016-CHEM2ACC-MC09",
+      "note": "Source radical-ion term means polyatomic ion here;modern radical ions have an unpaired electron. Ambiguous terminology excluded from automatic battles."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2016-CHEM2ACC-W6",
+      "note": "Source gives oxygen rather than hydrogen valence information for methane;oxygen is not part of CH₄."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2017-PHYSCHEM-1b",
+      "note": "Supplied key incorrectly makes irreversibility a defining requirement."
     },
     {
       "id": "SCI-REPO-Y10-NAR-2024-UNIVERSE-MC02",
@@ -13082,12 +13110,13 @@
       "marks": 89,
       "imageAudit": "question-source-packs/repo-science-batch56-audit.json",
       "notes": [
-        "Three investigation papers reviewed. Original crystal30 and tape16 task allocations retained. Burger-ring43 task marks plus2 presentation-only marks sum to45; class mass/energy calculations included within original4-mark category. Mass is distinguished from weight, and water heat recovery from total/metabolizable food energy. Incomplete crystal practical-sheet steps explicitly unresolved."
+        "Three investigation papers reviewed. Original crystal30 and tape16 task allocations retained. Burger-ring43 task marks plus2 presentation-only marks sum to45; class mass/energy calculations included within original4-mark category. Mass is distinguished from weight, and water heat recovery from total/metabolizable food energy. Companion crystal practical and full teacher-key method now located;quantity discrepancy remains flagged."
       ],
       "markAudit": {
         "Crystal": {
           "total": 30,
-          "methodIncomplete": true
+          "methodIncomplete": false,
+          "materialsQuantityConflict": true
         },
         "Tape": {
           "total": 16,
@@ -29744,6 +29773,1286 @@
         "tasks": 1
       },
       "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch164",
+      "questionIds": [
+        "SCI-REPO-Y8-MLAW-CRYSTALKEY-graph"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8 ESS Crystal Size ANSWERS.docx",
+          "sha": "20ee967e6c45c28244aef34fb75b62a2dbfacd2d",
+          "year": 8,
+          "role": "paper"
+        }
+      ],
+      "questions": 1,
+      "marks": 6,
+      "imageAudit": "question-source-packs/repo-science-batch164-audit.json",
+      "notes": [
+        "Complete teacher key reviewed:13existing report tasks linked,one additional6mark graph extracted. Key allocations36versusprinted30;original report30has no graph. Separate practical sheet located;50mL/10gmethod conflicts with key75mL/25gmaterials. Sample findings not invented as student observations."
+      ],
+      "markAudit": {
+        "printed": 30,
+        "sumListedAllocations": 36,
+        "existingReport": 30,
+        "additionalGraph": 6,
+        "quantityConflict": [
+          "materials75mLwater/25galum",
+          "method50mLwater/10galum"
+        ]
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8 ESS Crystal Size ANSWERS.docx",
+          "sourceFileSha": "20ee967e6c45c28244aef34fb75b62a2dbfacd2d",
+          "sourceQuestionNumber": "aim",
+          "sourceParagraphs": [
+            5
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-aim",
+          "reason": "Same report task already selectable;teacher key supplies method and example findings. Separate additional graph prompt extracted once.",
+          "reviewSupplement": {
+            "answer": "Cooling-rate condition1 and crystal-size outcome1.",
+            "note": "Key materials75mL/25g conflict with method50mL/10g and separate practical50mL/10g;teacher must select consistent quantities. Supplied examples <1mm versus3–5mm are not guaranteed student results."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8 ESS Crystal Size ANSWERS.docx",
+          "sourceFileSha": "20ee967e6c45c28244aef34fb75b62a2dbfacd2d",
+          "sourceQuestionNumber": "hypothesis",
+          "sourceParagraphs": [
+            9,
+            10
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-hypothesis",
+          "reason": "Same report task already selectable;teacher key supplies method and example findings. Separate additional graph prompt extracted once.",
+          "reviewSupplement": {
+            "answer": "Testable prediction1, correctly identifies input1 and outcome1. Slower cooling often allows larger crystals, but actual experimental evidence determines support.",
+            "note": "Key materials75mL/25g conflict with method50mL/10g and separate practical50mL/10g;teacher must select consistent quantities. Supplied examples <1mm versus3–5mm are not guaranteed student results."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8 ESS Crystal Size ANSWERS.docx",
+          "sourceFileSha": "20ee967e6c45c28244aef34fb75b62a2dbfacd2d",
+          "sourceQuestionNumber": "variables",
+          "sourceParagraphs": [
+            14,
+            15,
+            17,
+            19
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-variables",
+          "reason": "Same report task already selectable;teacher key supplies method and example findings. Separate additional graph prompt extracted once.",
+          "reviewSupplement": {
+            "answer": "Cooling condition/rate1; crystal size with a defined measurement1; two relevant controls together1, e.g. initial solution concentration/volume, vessel and observation period.",
+            "note": "Key materials75mL/25g conflict with method50mL/10g and separate practical50mL/10g;teacher must select consistent quantities. Supplied examples <1mm versus3–5mm are not guaranteed student results."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8 ESS Crystal Size ANSWERS.docx",
+          "sourceFileSha": "20ee967e6c45c28244aef34fb75b62a2dbfacd2d",
+          "sourceQuestionNumber": "materials",
+          "sourceParagraphs": [
+            23
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-materials",
+          "reason": "Same report task already selectable;teacher key supplies method and example findings. Separate additional graph prompt extracted once.",
+          "reviewSupplement": {
+            "answer": "Use the located companion practical:prepare alum solution with the teacher-approved consistent quantities,divide equally between tubes,compare ice cooling with cotton insulation,and leave overnight under otherwise matched conditions. Key materials75mL/25gconflict with method/practical50mL/10g;resolve with teacher. Appropriate missing equipment/materials consistent with the actual practical, such as alum, measurement/stirring/transfer apparatus and the assigned cooling arrangements. ",
+            "note": "Key materials75mL/25g conflict with method50mL/10g and separate practical50mL/10g;teacher must select consistent quantities. Supplied examples <1mm versus3–5mm are not guaranteed student results."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8 ESS Crystal Size ANSWERS.docx",
+          "sourceFileSha": "20ee967e6c45c28244aef34fb75b62a2dbfacd2d",
+          "sourceQuestionNumber": "diagram",
+          "sourceParagraphs": [
+            24,
+            25,
+            26
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Diagram",
+          "existingQuestionId": "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-diagram",
+          "reason": "Same report task already selectable;teacher key supplies method and example findings. Separate additional graph prompt extracted once.",
+          "reviewSupplement": {
+            "answer": "Coherent actual arrangement1; correct labels1.",
+            "note": "Key materials75mL/25g conflict with method50mL/10g and separate practical50mL/10g;teacher must select consistent quantities. Supplied examples <1mm versus3–5mm are not guaranteed student results."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8 ESS Crystal Size ANSWERS.docx",
+          "sourceFileSha": "20ee967e6c45c28244aef34fb75b62a2dbfacd2d",
+          "sourceQuestionNumber": "method",
+          "sourceParagraphs": [
+            38
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-method",
+          "reason": "Same report task already selectable;teacher key supplies method and example findings. Separate additional graph prompt extracted once.",
+          "reviewSupplement": {
+            "answer": "Use the located companion practical:prepare alum solution with the teacher-approved consistent quantities,divide equally between tubes,compare ice cooling with cotton insulation,and leave overnight under otherwise matched conditions. Key materials75mL/25gconflict with method/practical50mL/10g;resolve with teacher. Reproducible procedure1; explains actual contrasting cooling conditions and consistent endpoint1. ",
+            "note": "Key materials75mL/25g conflict with method50mL/10g and separate practical50mL/10g;teacher must select consistent quantities. Supplied examples <1mm versus3–5mm are not guaranteed student results."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8 ESS Crystal Size ANSWERS.docx",
+          "sourceFileSha": "20ee967e6c45c28244aef34fb75b62a2dbfacd2d",
+          "sourceQuestionNumber": "results",
+          "sourceParagraphs": [
+            54,
+            56
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-results",
+          "reason": "Same report task already selectable;teacher key supplies method and example findings. Separate additional graph prompt extracted once.",
+          "reviewSupplement": {
+            "answer": "Condition headings1, size measure/units1, actual observations1, clear complete presentation/repetition where performed1.",
+            "note": "Key materials75mL/25g conflict with method50mL/10g and separate practical50mL/10g;teacher must select consistent quantities. Supplied examples <1mm versus3–5mm are not guaranteed student results."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8 ESS Crystal Size ANSWERS.docx",
+          "sourceFileSha": "20ee967e6c45c28244aef34fb75b62a2dbfacd2d",
+          "sourceQuestionNumber": "observations",
+          "sourceParagraphs": [
+            66
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-observations",
+          "reason": "Same report task already selectable;teacher key supplies method and example findings. Separate additional graph prompt extracted once.",
+          "reviewSupplement": {
+            "answer": "Accurate trend1, numerical/qualitative comparison1, distinguishes observation from causal explanation1.",
+            "note": "Key materials75mL/25g conflict with method50mL/10g and separate practical50mL/10g;teacher must select consistent quantities. Supplied examples <1mm versus3–5mm are not guaranteed student results."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8 ESS Crystal Size ANSWERS.docx",
+          "sourceFileSha": "20ee967e6c45c28244aef34fb75b62a2dbfacd2d",
+          "sourceQuestionNumber": "support",
+          "sourceParagraphs": [
+            72
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-support",
+          "reason": "Same report task already selectable;teacher key supplies method and example findings. Separate additional graph prompt extracted once.",
+          "reviewSupplement": {
+            "answer": "Correct support/non-support judgement1 and actual evidence1; not proof from one experiment.",
+            "note": "Key materials75mL/25g conflict with method50mL/10g and separate practical50mL/10g;teacher must select consistent quantities. Supplied examples <1mm versus3–5mm are not guaranteed student results."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8 ESS Crystal Size ANSWERS.docx",
+          "sourceFileSha": "20ee967e6c45c28244aef34fb75b62a2dbfacd2d",
+          "sourceQuestionNumber": "finding",
+          "sourceParagraphs": [
+            77
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-finding",
+          "reason": "Same report task already selectable;teacher key supplies method and example findings. Separate additional graph prompt extracted once.",
+          "reviewSupplement": {
+            "answer": "Evidence-based relationship1 with appropriate qualification1.",
+            "note": "Key materials75mL/25g conflict with method50mL/10g and separate practical50mL/10g;teacher must select consistent quantities. Supplied examples <1mm versus3–5mm are not guaranteed student results."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8 ESS Crystal Size ANSWERS.docx",
+          "sourceFileSha": "20ee967e6c45c28244aef34fb75b62a2dbfacd2d",
+          "sourceQuestionNumber": "explanation",
+          "sourceParagraphs": [
+            83
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-explanation",
+          "reason": "Same report task already selectable;teacher key supplies method and example findings. Separate additional graph prompt extracted once.",
+          "reviewSupplement": {
+            "answer": "Relates cooling/crystallisation time to particle arrangement/crystal growth1; explains the measured size pattern with possible nucleation/condition effects1.",
+            "note": "Key materials75mL/25g conflict with method50mL/10g and separate practical50mL/10g;teacher must select consistent quantities. Supplied examples <1mm versus3–5mm are not guaranteed student results."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8 ESS Crystal Size ANSWERS.docx",
+          "sourceFileSha": "20ee967e6c45c28244aef34fb75b62a2dbfacd2d",
+          "sourceQuestionNumber": "evaluation",
+          "sourceParagraphs": [
+            90,
+            91,
+            94,
+            97
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-evaluation",
+          "reason": "Same report task already selectable;teacher key supplies method and example findings. Separate additional graph prompt extracted once.",
+          "reviewSupplement": {
+            "answer": "Fair test/control design1; accuracy requires a suitable reference or justified measurement appraisal1; reliability/repeatability assessed from repeats/consistency1. A smooth pattern alone does not prove accuracy.",
+            "note": "Key materials75mL/25g conflict with method50mL/10g and separate practical50mL/10g;teacher must select consistent quantities. Supplied examples <1mm versus3–5mm are not guaranteed student results."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8 ESS Crystal Size ANSWERS.docx",
+          "sourceFileSha": "20ee967e6c45c28244aef34fb75b62a2dbfacd2d",
+          "sourceQuestionNumber": "improve",
+          "sourceParagraphs": [
+            101
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-improve",
+          "reason": "Same report task already selectable;teacher key supplies method and example findings. Separate additional graph prompt extracted once.",
+          "reviewSupplement": {
+            "answer": "Specific justified modification addressing an identified limitation.",
+            "note": "Key materials75mL/25g conflict with method50mL/10g and separate practical50mL/10g;teacher must select consistent quantities. Supplied examples <1mm versus3–5mm are not guaranteed student results."
+          }
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch165",
+      "questionIds": [],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Acceleration Ticker Tape Inv.docx",
+          "sha": "4f8737e2046ef245a364ea345c5e340d79359892",
+          "year": 10,
+          "role": "paper",
+          "sameContentAsSha": "defc7fc25c307fc01da6f70d7241ea737b8f1eae"
+        }
+      ],
+      "questions": 0,
+      "marks": 0,
+      "imageAudit": "question-source-packs/repo-science-batch165-audit.json",
+      "notes": [
+        "Exact content-equivalent source documents mapped to previously checked questions;no generated replacements or additional question counts."
+      ],
+      "markAudit": {
+        "newQuestions": 0,
+        "proof": [
+          {
+            "source": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Acceleration Ticker Tape Inv.docx",
+            "sha": "4f8737e2046ef245a364ea345c5e340d79359892",
+            "canonicalSource": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2016 Acceleration Ticker Tape Inv.docx",
+            "canonicalSha": "defc7fc25c307fc01da6f70d7241ea737b8f1eae",
+            "fingerprint": "67993affd7214aff7a0030eb9703c4218b7600ff59e8dc9f4b1cc724b29f59a5",
+            "mappedResponses": 16
+          }
+        ]
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Acceleration Ticker Tape Inv.docx",
+          "sourceFileSha": "4f8737e2046ef245a364ea345c5e340d79359892",
+          "sourceQuestionNumber": "title",
+          "sourceParagraphs": [
+            3,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            15
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2016-RAMPACCEL-title",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Acceleration Ticker Tape Inv.docx",
+          "sourceFileSha": "4f8737e2046ef245a364ea345c5e340d79359892",
+          "sourceQuestionNumber": "aim",
+          "sourceParagraphs": [
+            3,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            15
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2016-RAMPACCEL-aim",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Acceleration Ticker Tape Inv.docx",
+          "sourceFileSha": "4f8737e2046ef245a364ea345c5e340d79359892",
+          "sourceQuestionNumber": "hypothesis",
+          "sourceParagraphs": [
+            3,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            15
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2016-RAMPACCEL-hypothesis",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Acceleration Ticker Tape Inv.docx",
+          "sourceFileSha": "4f8737e2046ef245a364ea345c5e340d79359892",
+          "sourceQuestionNumber": "independent",
+          "sourceParagraphs": [
+            3,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            15
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2016-RAMPACCEL-independent",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Acceleration Ticker Tape Inv.docx",
+          "sourceFileSha": "4f8737e2046ef245a364ea345c5e340d79359892",
+          "sourceQuestionNumber": "dependent",
+          "sourceParagraphs": [
+            3,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            15
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2016-RAMPACCEL-dependent",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Acceleration Ticker Tape Inv.docx",
+          "sourceFileSha": "4f8737e2046ef245a364ea345c5e340d79359892",
+          "sourceQuestionNumber": "controls",
+          "sourceParagraphs": [
+            3,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            15
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2016-RAMPACCEL-controls",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Acceleration Ticker Tape Inv.docx",
+          "sourceFileSha": "4f8737e2046ef245a364ea345c5e340d79359892",
+          "sourceQuestionNumber": "materials",
+          "sourceParagraphs": [
+            3,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            15
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2016-RAMPACCEL-materials",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Acceleration Ticker Tape Inv.docx",
+          "sourceFileSha": "4f8737e2046ef245a364ea345c5e340d79359892",
+          "sourceQuestionNumber": "method",
+          "sourceParagraphs": [
+            3,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            15
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2016-RAMPACCEL-method",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Acceleration Ticker Tape Inv.docx",
+          "sourceFileSha": "4f8737e2046ef245a364ea345c5e340d79359892",
+          "sourceQuestionNumber": "diagram",
+          "sourceParagraphs": [
+            3,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            15
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Diagram",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2016-RAMPACCEL-diagram",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Acceleration Ticker Tape Inv.docx",
+          "sourceFileSha": "4f8737e2046ef245a364ea345c5e340d79359892",
+          "sourceQuestionNumber": "reliability",
+          "sourceParagraphs": [
+            3,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            15
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2016-RAMPACCEL-reliability",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Acceleration Ticker Tape Inv.docx",
+          "sourceFileSha": "4f8737e2046ef245a364ea345c5e340d79359892",
+          "sourceQuestionNumber": "calculations",
+          "sourceParagraphs": [
+            3,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            15
+          ],
+          "sourceMarks": 6,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2016-RAMPACCEL-calculations",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Acceleration Ticker Tape Inv.docx",
+          "sourceFileSha": "4f8737e2046ef245a364ea345c5e340d79359892",
+          "sourceQuestionNumber": "table",
+          "sourceParagraphs": [
+            3,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            15
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2016-RAMPACCEL-table",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Acceleration Ticker Tape Inv.docx",
+          "sourceFileSha": "4f8737e2046ef245a364ea345c5e340d79359892",
+          "sourceQuestionNumber": "graph",
+          "sourceParagraphs": [
+            3,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            15
+          ],
+          "sourceMarks": 5,
+          "sourceType": "Diagram",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2016-RAMPACCEL-graph",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Acceleration Ticker Tape Inv.docx",
+          "sourceFileSha": "4f8737e2046ef245a364ea345c5e340d79359892",
+          "sourceQuestionNumber": "discussion",
+          "sourceParagraphs": [
+            3,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            15
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2016-RAMPACCEL-discussion",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Acceleration Ticker Tape Inv.docx",
+          "sourceFileSha": "4f8737e2046ef245a364ea345c5e340d79359892",
+          "sourceQuestionNumber": "conclusion",
+          "sourceParagraphs": [
+            3,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            15
+          ],
+          "sourceMarks": 6,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2016-RAMPACCEL-conclusion",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Acceleration Ticker Tape Inv.docx",
+          "sourceFileSha": "4f8737e2046ef245a364ea345c5e340d79359892",
+          "sourceQuestionNumber": "references",
+          "sourceParagraphs": [
+            3,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            15
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2016-RAMPACCEL-references",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch166",
+      "questionIds": [
+        "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-MC01",
+        "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-MC02",
+        "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-MC03",
+        "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-MC04",
+        "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-MC05",
+        "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-MC06",
+        "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-MC07",
+        "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-MC09",
+        "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-MC10",
+        "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-MC08",
+        "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-W1",
+        "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-W2",
+        "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-W3",
+        "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-W4",
+        "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-W5",
+        "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-W6",
+        "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-W7"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/10 SCIENCE 2016 general.docx",
+          "sha": "b9bf410dbd2650be05aeb49c46d2b1adfc66a1a0",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 17,
+      "marks": 51,
+      "imageAudit": "question-source-packs/repo-science-batch166-audit.json",
+      "notes": [
+        "Complete51mark general Chemistry Test Two:10MCand7written groups. Original graph grid and supplied ion table retained. Universal acid wording,ionic molecule terminology,and silver/HCl/nitric-acid reaction assumptions flagged. Primary chemistry sources checked;formal balancing distinguished from reaction validity."
+      ],
+      "markAudit": {
+        "total": 51,
+        "MC": 10,
+        "written": 41
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch167",
+      "questionIds": [
+        "SCI-REPO-Y10-ARAN-2016-CHEM2ACC-MC01",
+        "SCI-REPO-Y10-ARAN-2016-CHEM2ACC-MC02",
+        "SCI-REPO-Y10-ARAN-2016-CHEM2ACC-MC03",
+        "SCI-REPO-Y10-ARAN-2016-CHEM2ACC-MC07",
+        "SCI-REPO-Y10-ARAN-2016-CHEM2ACC-MC09",
+        "SCI-REPO-Y10-ARAN-2016-CHEM2ACC-MC11",
+        "SCI-REPO-Y10-ARAN-2016-CHEM2ACC-MC12",
+        "SCI-REPO-Y10-ARAN-2016-CHEM2ACC-MC13",
+        "SCI-REPO-Y10-ARAN-2016-CHEM2ACC-MC15",
+        "SCI-REPO-Y10-ARAN-2016-CHEM2ACC-W1",
+        "SCI-REPO-Y10-ARAN-2016-CHEM2ACC-W2-extra",
+        "SCI-REPO-Y10-ARAN-2016-CHEM2ACC-W6"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/10 SCIENCE 2016 test 2 accelerated class.docx",
+          "sha": "8fee66a6e88dc08955ec8e83b45078e7917bbfdc",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 12,
+      "marks": 18,
+      "imageAudit": "question-source-packs/repo-science-batch167-audit.json",
+      "notes": [
+        "Complete54mark accelerated test reviewed. Six identical MCmapped to general test. Common eight compound rows,seven balances,four word-equations and iron graph linked rather than duplicated. Four new compound cells retained as one4mark extension. Original sulfur and water figures inspected/preserved. Radical-ion terminology and methane oxygen distractor flagged."
+      ],
+      "markAudit": {
+        "total": 54,
+        "MC": 15,
+        "written": 39,
+        "writtenAliasMarks": 30,
+        "newWrittenMarks": 9
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/10 SCIENCE 2016 test 2 accelerated class.docx",
+          "sourceFileSha": "8fee66a6e88dc08955ec8e83b45078e7917bbfdc",
+          "sourceQuestionNumber": "W2-common",
+          "sourceParagraphs": [
+            137,
+            139,
+            141
+          ],
+          "sourceMarks": 10,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-W3",
+          "reason": "Eight common formula cells plus2collectiveion-column marks already covered;four additional formula cells separately retained."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/10 SCIENCE 2016 test 2 accelerated class.docx",
+          "sourceFileSha": "8fee66a6e88dc08955ec8e83b45078e7917bbfdc",
+          "sourceQuestionNumber": "W3",
+          "sourceParagraphs": [
+            145,
+            147,
+            157,
+            166,
+            176,
+            185,
+            191,
+            192
+          ],
+          "sourceMarks": 7,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-W4",
+          "reason": "Same complete seven balancing equations."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/10 SCIENCE 2016 test 2 accelerated class.docx",
+          "sourceFileSha": "8fee66a6e88dc08955ec8e83b45078e7917bbfdc",
+          "sourceQuestionNumber": "W5",
+          "sourceParagraphs": [
+            198,
+            199,
+            201,
+            208,
+            213,
+            218
+          ],
+          "sourceMarks": 8,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-W6",
+          "reason": "First four formal word-equation balances already in general test;silver/HCland nitric-acid assumptions remain manual review."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/10 SCIENCE 2016 test 2 accelerated class.docx",
+          "sourceFileSha": "8fee66a6e88dc08955ec8e83b45078e7917bbfdc",
+          "sourceQuestionNumber": "W9",
+          "sourceParagraphs": [
+            238,
+            239,
+            242,
+            252
+          ],
+          "sourceMarks": 5,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-W7",
+          "reason": "Same six iron-production data points and graph requirement;one series alone cannot establish catalyst effect."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/10 SCIENCE 2016 test 2 accelerated class.docx",
+          "sourceFileSha": "8fee66a6e88dc08955ec8e83b45078e7917bbfdc",
+          "sourceQuestionNumber": "4",
+          "sourceParagraphs": [
+            35,
+            37,
+            38,
+            39,
+            40
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-MC02",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/10 SCIENCE 2016 test 2 accelerated class.docx",
+          "sourceFileSha": "8fee66a6e88dc08955ec8e83b45078e7917bbfdc",
+          "sourceQuestionNumber": "5",
+          "sourceParagraphs": [
+            43,
+            45,
+            46,
+            47,
+            48
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-MC03",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/10 SCIENCE 2016 test 2 accelerated class.docx",
+          "sourceFileSha": "8fee66a6e88dc08955ec8e83b45078e7917bbfdc",
+          "sourceQuestionNumber": "6",
+          "sourceParagraphs": [
+            51,
+            53,
+            54,
+            55,
+            56
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-MC04",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/10 SCIENCE 2016 test 2 accelerated class.docx",
+          "sourceFileSha": "8fee66a6e88dc08955ec8e83b45078e7917bbfdc",
+          "sourceQuestionNumber": "8",
+          "sourceParagraphs": [
+            67,
+            69,
+            70,
+            71,
+            72
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-MC05",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/10 SCIENCE 2016 test 2 accelerated class.docx",
+          "sourceFileSha": "8fee66a6e88dc08955ec8e83b45078e7917bbfdc",
+          "sourceQuestionNumber": "10",
+          "sourceParagraphs": [
+            82,
+            84,
+            85,
+            86,
+            87
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-MC06",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/10 SCIENCE 2016 test 2 accelerated class.docx",
+          "sourceFileSha": "8fee66a6e88dc08955ec8e83b45078e7917bbfdc",
+          "sourceQuestionNumber": "14",
+          "sourceParagraphs": [
+            111,
+            112,
+            113,
+            114,
+            115
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-MC07",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch168",
+      "questionIds": [
+        "SCI-REPO-Y8-SBY-2017-PHYSCHEM-1a",
+        "SCI-REPO-Y8-SBY-2017-PHYSCHEM-1b",
+        "SCI-REPO-Y8-SBY-2017-PHYSCHEM-2A",
+        "SCI-REPO-Y8-SBY-2017-PHYSCHEM-2B",
+        "SCI-REPO-Y8-SBY-2017-PHYSCHEM-3"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Safety Bay/2017/Year 8 Physical and chemical changes- assessment.docx",
+          "sha": "1ef9c5f34c499560ce5d9430816d10c547a7f2aa",
+          "year": 8,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Safety Bay/2017/Year 8 Physical and chemical changes- assessment (Answers).docx",
+          "sha": "627aeaa98ac9375d3283f1ad9751fc07f96a645a",
+          "year": 8,
+          "role": "paper"
+        }
+      ],
+      "questions": 5,
+      "marks": 14,
+      "imageAudit": "question-source-packs/repo-science-batch168-audit.json",
+      "notes": [
+        "Full30mark assessment and answer version reviewed.14new task marks retained;8scenario prompts(16local marks)linked to already imported formative questions without duplicate records. Irreversibility and unsupported observation requirements corrected;source-specific2mark scenario allocation preserved."
+      ],
+      "markAudit": {
+        "totalPerVersion": 30,
+        "newTaskMarks": 14,
+        "existingScenarioLocalMarks": 16,
+        "versions": 2
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Safety Bay/2017/Year 8 Physical and chemical changes- assessment.docx",
+          "sourceFileSha": "1ef9c5f34c499560ce5d9430816d10c547a7f2aa",
+          "sourceQuestionNumber": "4-1",
+          "sourceParagraphs": [
+            93,
+            95,
+            97
+          ],
+          "sourceSubtableRow": 1,
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B2",
+          "reason": "Same full scenario and classify-with-evidence prompt already imported from formative worksheet. This assessment uses2marks rather than canonical formative3;retain local source allocation.",
+          "reviewSupplement": {
+            "answer": "Chemical [1]. Burning/toasting forms new substances, with blackened char/smoke and persistent colour changes as evidence [2 for two explained observations]. No single indicator alone is a universal test.",
+            "note": "Local assessment2marks:classification1andappropriate supporting evidence1. Do not require two separately scored1mark explanations from the formative3mark version."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Safety Bay/2017/Year 8 Physical and chemical changes- assessment.docx",
+          "sourceFileSha": "1ef9c5f34c499560ce5d9430816d10c547a7f2aa",
+          "sourceQuestionNumber": "4-2",
+          "sourceParagraphs": [
+            93,
+            95,
+            97
+          ],
+          "sourceSubtableRow": 2,
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B4",
+          "reason": "Same full scenario and classify-with-evidence prompt already imported from formative worksheet. This assessment uses2marks rather than canonical formative3;retain local source allocation.",
+          "reviewSupplement": {
+            "answer": "Physical [1]. Water evaporates but remains H₂O; hair/water identities need not change [2 for two appropriate reasons]. The supplied key incorrectly calls evaporation irreversible: condensation reverses the phase change.",
+            "note": "Local assessment2marks:classification1andappropriate supporting evidence1. Do not require two separately scored1mark explanations from the formative3mark version."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Safety Bay/2017/Year 8 Physical and chemical changes- assessment.docx",
+          "sourceFileSha": "1ef9c5f34c499560ce5d9430816d10c547a7f2aa",
+          "sourceQuestionNumber": "4-3",
+          "sourceParagraphs": [
+            93,
+            95,
+            97
+          ],
+          "sourceSubtableRow": 3,
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B3",
+          "reason": "Same full scenario and classify-with-evidence prompt already imported from formative worksheet. This assessment uses2marks rather than canonical formative3;retain local source allocation.",
+          "reviewSupplement": {
+            "answer": "Chemical [1]. New rust/corrosion products and changed surface colour are appropriate evidence [2]. Do not require an unmeasured detectable heat change.",
+            "note": "Local assessment2marks:classification1andappropriate supporting evidence1. Do not require two separately scored1mark explanations from the formative3mark version."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Safety Bay/2017/Year 8 Physical and chemical changes- assessment.docx",
+          "sourceFileSha": "1ef9c5f34c499560ce5d9430816d10c547a7f2aa",
+          "sourceQuestionNumber": "4-4",
+          "sourceParagraphs": [
+            93,
+            95,
+            97
+          ],
+          "sourceSubtableRow": 4,
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B7",
+          "reason": "Same full scenario and classify-with-evidence prompt already imported from formative worksheet. This assessment uses2marks rather than canonical formative3;retain local source allocation.",
+          "reviewSupplement": {
+            "answer": "Physical [1]. Wire changes shape while remaining the same material; reshaping does not itself make a new substance [2]. Reversibility alone is not the definition.",
+            "note": "Local assessment2marks:classification1andappropriate supporting evidence1. Do not require two separately scored1mark explanations from the formative3mark version."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Safety Bay/2017/Year 8 Physical and chemical changes- assessment.docx",
+          "sourceFileSha": "1ef9c5f34c499560ce5d9430816d10c547a7f2aa",
+          "sourceQuestionNumber": "4-5",
+          "sourceParagraphs": [
+            93,
+            95,
+            97
+          ],
+          "sourceSubtableRow": 5,
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B5",
+          "reason": "Same full scenario and classify-with-evidence prompt already imported from formative worksheet. This assessment uses2marks rather than canonical formative3;retain local source allocation.",
+          "reviewSupplement": {
+            "answer": "Chemical [1]. A reaction forms new carbon dioxide and changes reactants into products [2]. Do not demand colour or a particular heat direction unsupported by observations.",
+            "note": "Local assessment2marks:classification1andappropriate supporting evidence1. Do not require two separately scored1mark explanations from the formative3mark version."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Safety Bay/2017/Year 8 Physical and chemical changes- assessment.docx",
+          "sourceFileSha": "1ef9c5f34c499560ce5d9430816d10c547a7f2aa",
+          "sourceQuestionNumber": "4-6",
+          "sourceParagraphs": [
+            93,
+            95,
+            97
+          ],
+          "sourceSubtableRow": 6,
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B8",
+          "reason": "Same full scenario and classify-with-evidence prompt already imported from formative worksheet. This assessment uses2marks rather than canonical formative3;retain local source allocation.",
+          "reviewSupplement": {
+            "answer": "Physical [1]. Colourant disperses/mixes with water without necessarily making a new substance; original components remain [2]. Absence of visible heat/gas alone does not prove a physical change.",
+            "note": "Local assessment2marks:classification1andappropriate supporting evidence1. Do not require two separately scored1mark explanations from the formative3mark version."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Safety Bay/2017/Year 8 Physical and chemical changes- assessment.docx",
+          "sourceFileSha": "1ef9c5f34c499560ce5d9430816d10c547a7f2aa",
+          "sourceQuestionNumber": "4-7",
+          "sourceParagraphs": [
+            93,
+            95,
+            97
+          ],
+          "sourceSubtableRow": 7,
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B6",
+          "reason": "Same full scenario and classify-with-evidence prompt already imported from formative worksheet. This assessment uses2marks rather than canonical formative3;retain local source allocation.",
+          "reviewSupplement": {
+            "answer": "Chemical [1]. New dark tarnish and changed surface appearance [2]. Ordinary silver tarnish is largely silver sulfide, not the supplied key’s assumed silver oxide; do not require an unobserved heat change.",
+            "note": "Local assessment2marks:classification1andappropriate supporting evidence1. Do not require two separately scored1mark explanations from the formative3mark version."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Safety Bay/2017/Year 8 Physical and chemical changes- assessment.docx",
+          "sourceFileSha": "1ef9c5f34c499560ce5d9430816d10c547a7f2aa",
+          "sourceQuestionNumber": "4-8",
+          "sourceParagraphs": [
+            93,
+            95,
+            97
+          ],
+          "sourceSubtableRow": 8,
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B10",
+          "reason": "Same full scenario and classify-with-evidence prompt already imported from formative worksheet. This assessment uses2marks rather than canonical formative3;retain local source allocation.",
+          "reviewSupplement": {
+            "answer": "Chemical [1]. Reactions form new products with thermal/light emission, gases and sound [2 for two appropriately linked observations]. Effects are evidence in this context, not universally sufficient tests.",
+            "note": "Local assessment2marks:classification1andappropriate supporting evidence1. Do not require two separately scored1mark explanations from the formative3mark version."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Safety Bay/2017/Year 8 Physical and chemical changes- assessment (Answers).docx",
+          "sourceFileSha": "627aeaa98ac9375d3283f1ad9751fc07f96a645a",
+          "sourceQuestionNumber": "4-1",
+          "sourceParagraphs": [
+            89,
+            91,
+            93
+          ],
+          "sourceSubtableRow": 1,
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B2",
+          "reason": "Same full scenario and classify-with-evidence prompt already imported from formative worksheet. This assessment uses2marks rather than canonical formative3;retain local source allocation.",
+          "reviewSupplement": {
+            "answer": "Chemical [1]. Burning/toasting forms new substances, with blackened char/smoke and persistent colour changes as evidence [2 for two explained observations]. No single indicator alone is a universal test.",
+            "note": "Local assessment2marks:classification1andappropriate supporting evidence1. Do not require two separately scored1mark explanations from the formative3mark version."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Safety Bay/2017/Year 8 Physical and chemical changes- assessment (Answers).docx",
+          "sourceFileSha": "627aeaa98ac9375d3283f1ad9751fc07f96a645a",
+          "sourceQuestionNumber": "4-2",
+          "sourceParagraphs": [
+            89,
+            91,
+            93
+          ],
+          "sourceSubtableRow": 2,
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B4",
+          "reason": "Same full scenario and classify-with-evidence prompt already imported from formative worksheet. This assessment uses2marks rather than canonical formative3;retain local source allocation.",
+          "reviewSupplement": {
+            "answer": "Physical [1]. Water evaporates but remains H₂O; hair/water identities need not change [2 for two appropriate reasons]. The supplied key incorrectly calls evaporation irreversible: condensation reverses the phase change.",
+            "note": "Local assessment2marks:classification1andappropriate supporting evidence1. Do not require two separately scored1mark explanations from the formative3mark version."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Safety Bay/2017/Year 8 Physical and chemical changes- assessment (Answers).docx",
+          "sourceFileSha": "627aeaa98ac9375d3283f1ad9751fc07f96a645a",
+          "sourceQuestionNumber": "4-3",
+          "sourceParagraphs": [
+            89,
+            91,
+            93
+          ],
+          "sourceSubtableRow": 3,
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B3",
+          "reason": "Same full scenario and classify-with-evidence prompt already imported from formative worksheet. This assessment uses2marks rather than canonical formative3;retain local source allocation.",
+          "reviewSupplement": {
+            "answer": "Chemical [1]. New rust/corrosion products and changed surface colour are appropriate evidence [2]. Do not require an unmeasured detectable heat change.",
+            "note": "Local assessment2marks:classification1andappropriate supporting evidence1. Do not require two separately scored1mark explanations from the formative3mark version."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Safety Bay/2017/Year 8 Physical and chemical changes- assessment (Answers).docx",
+          "sourceFileSha": "627aeaa98ac9375d3283f1ad9751fc07f96a645a",
+          "sourceQuestionNumber": "4-4",
+          "sourceParagraphs": [
+            89,
+            91,
+            93
+          ],
+          "sourceSubtableRow": 4,
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B7",
+          "reason": "Same full scenario and classify-with-evidence prompt already imported from formative worksheet. This assessment uses2marks rather than canonical formative3;retain local source allocation.",
+          "reviewSupplement": {
+            "answer": "Physical [1]. Wire changes shape while remaining the same material; reshaping does not itself make a new substance [2]. Reversibility alone is not the definition.",
+            "note": "Local assessment2marks:classification1andappropriate supporting evidence1. Do not require two separately scored1mark explanations from the formative3mark version."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Safety Bay/2017/Year 8 Physical and chemical changes- assessment (Answers).docx",
+          "sourceFileSha": "627aeaa98ac9375d3283f1ad9751fc07f96a645a",
+          "sourceQuestionNumber": "4-5",
+          "sourceParagraphs": [
+            89,
+            91,
+            93
+          ],
+          "sourceSubtableRow": 5,
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B5",
+          "reason": "Same full scenario and classify-with-evidence prompt already imported from formative worksheet. This assessment uses2marks rather than canonical formative3;retain local source allocation.",
+          "reviewSupplement": {
+            "answer": "Chemical [1]. A reaction forms new carbon dioxide and changes reactants into products [2]. Do not demand colour or a particular heat direction unsupported by observations.",
+            "note": "Local assessment2marks:classification1andappropriate supporting evidence1. Do not require two separately scored1mark explanations from the formative3mark version."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Safety Bay/2017/Year 8 Physical and chemical changes- assessment (Answers).docx",
+          "sourceFileSha": "627aeaa98ac9375d3283f1ad9751fc07f96a645a",
+          "sourceQuestionNumber": "4-6",
+          "sourceParagraphs": [
+            89,
+            91,
+            93
+          ],
+          "sourceSubtableRow": 6,
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B8",
+          "reason": "Same full scenario and classify-with-evidence prompt already imported from formative worksheet. This assessment uses2marks rather than canonical formative3;retain local source allocation.",
+          "reviewSupplement": {
+            "answer": "Physical [1]. Colourant disperses/mixes with water without necessarily making a new substance; original components remain [2]. Absence of visible heat/gas alone does not prove a physical change.",
+            "note": "Local assessment2marks:classification1andappropriate supporting evidence1. Do not require two separately scored1mark explanations from the formative3mark version."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Safety Bay/2017/Year 8 Physical and chemical changes- assessment (Answers).docx",
+          "sourceFileSha": "627aeaa98ac9375d3283f1ad9751fc07f96a645a",
+          "sourceQuestionNumber": "4-7",
+          "sourceParagraphs": [
+            89,
+            91,
+            93
+          ],
+          "sourceSubtableRow": 7,
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B6",
+          "reason": "Same full scenario and classify-with-evidence prompt already imported from formative worksheet. This assessment uses2marks rather than canonical formative3;retain local source allocation.",
+          "reviewSupplement": {
+            "answer": "Chemical [1]. New dark tarnish and changed surface appearance [2]. Ordinary silver tarnish is largely silver sulfide, not the supplied key’s assumed silver oxide; do not require an unobserved heat change.",
+            "note": "Local assessment2marks:classification1andappropriate supporting evidence1. Do not require two separately scored1mark explanations from the formative3mark version."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Safety Bay/2017/Year 8 Physical and chemical changes- assessment (Answers).docx",
+          "sourceFileSha": "627aeaa98ac9375d3283f1ad9751fc07f96a645a",
+          "sourceQuestionNumber": "4-8",
+          "sourceParagraphs": [
+            89,
+            91,
+            93
+          ],
+          "sourceSubtableRow": 8,
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B10",
+          "reason": "Same full scenario and classify-with-evidence prompt already imported from formative worksheet. This assessment uses2marks rather than canonical formative3;retain local source allocation.",
+          "reviewSupplement": {
+            "answer": "Chemical [1]. Reactions form new products with thermal/light emission, gases and sound [2 for two appropriately linked observations]. Effects are evidence in this context, not universally sufficient tests.",
+            "note": "Local assessment2marks:classification1andappropriate supporting evidence1. Do not require two separately scored1mark explanations from the formative3mark version."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Safety Bay/2017/Year 8 Physical and chemical changes- assessment (Answers).docx",
+          "sourceFileSha": "627aeaa98ac9375d3283f1ad9751fc07f96a645a",
+          "sourceQuestionNumber": "1a",
+          "sourceParagraphs": [
+            11,
+            13,
+            14,
+            15,
+            17
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-SBY-2017-PHYSCHEM-1a",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Safety Bay/2017/Year 8 Physical and chemical changes- assessment (Answers).docx",
+          "sourceFileSha": "627aeaa98ac9375d3283f1ad9751fc07f96a645a",
+          "sourceQuestionNumber": "1b",
+          "sourceParagraphs": [
+            20,
+            22,
+            24
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-SBY-2017-PHYSCHEM-1b",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Safety Bay/2017/Year 8 Physical and chemical changes- assessment (Answers).docx",
+          "sourceFileSha": "627aeaa98ac9375d3283f1ad9751fc07f96a645a",
+          "sourceQuestionNumber": "2A",
+          "sourceParagraphs": [
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52
+          ],
+          "sourceMarks": 5,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-SBY-2017-PHYSCHEM-2A",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Safety Bay/2017/Year 8 Physical and chemical changes- assessment (Answers).docx",
+          "sourceFileSha": "627aeaa98ac9375d3283f1ad9751fc07f96a645a",
+          "sourceQuestionNumber": "2B",
+          "sourceParagraphs": [
+            55,
+            56,
+            58,
+            59,
+            63,
+            65,
+            67,
+            70,
+            72,
+            74,
+            76,
+            77
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-SBY-2017-PHYSCHEM-2B",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Safety Bay/2017/Year 8 Physical and chemical changes- assessment (Answers).docx",
+          "sourceFileSha": "627aeaa98ac9375d3283f1ad9751fc07f96a645a",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            80,
+            81,
+            82,
+            83,
+            84,
+            85
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-SBY-2017-PHYSCHEM-3",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
     }
   ],
   "files": [
@@ -35626,7 +36935,7 @@
       "sha": "627aeaa98ac9375d3283f1ad9751fc07f96a645a",
       "year": 8,
       "size": 84504,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -35634,7 +36943,7 @@
       "sha": "1ef9c5f34c499560ce5d9430816d10c547a7f2aa",
       "year": 8,
       "size": 78718,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -35986,7 +37295,7 @@
       "sha": "20ee967e6c45c28244aef34fb75b62a2dbfacd2d",
       "year": 8,
       "size": 98240,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -35994,17 +37303,17 @@
       "sha": "b062e56376b2ef3613197fc903631c1eb5da4b84",
       "year": 8,
       "size": 22281,
-      "status": "reviewed_incomplete_referenced_material",
-      "duplicateOf": null,
-      "reviewReason": "Source assignment explicitly refers to missing textbook method/discussion wording; recorded prompts reviewed, referenced questions not invented."
+      "status": "imported",
+      "duplicateOf": null
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8 ESS Crystal Size Task.docx",
       "sha": "5cd51c0529d859a3d662c13aab74802d9be91712",
       "year": 8,
       "size": 85341,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Complete cooling-rate practical procedure only;no response prompts. Companion lab report already imported and teacher key reviewed inbatch164. Specifies50mLwater/10galum and ice versus insulated cotton cooling."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8ESS Practical Rock ANSWERS.docx",
@@ -42193,7 +43502,7 @@
       "sha": "b9bf410dbd2650be05aeb49c46d2b1adfc66a1a0",
       "year": 10,
       "size": 78429,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -42201,7 +43510,7 @@
       "sha": "8fee66a6e88dc08955ec8e83b45078e7917bbfdc",
       "year": 10,
       "size": 79526,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -44710,7 +46019,7 @@
       "sha": "4f8737e2046ef245a364ea345c5e340d79359892",
       "year": 10,
       "size": 81698,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -45975,9 +47284,9 @@
       "duplicateOf": null
     }
   ],
-  "learningVaultCreatedKeySupplements": 1328,
-  "remainingUniqueFileBlobs": 1182,
-  "learningVaultCreatedKeys": 2288,
+  "learningVaultCreatedKeySupplements": 1334,
+  "remainingUniqueFileBlobs": 1175,
+  "learningVaultCreatedKeys": 2317,
   "blockedSources": [
     {
       "sha": "49d4b7f3f8af844477b39abb856365aeb096cafd",
@@ -46189,7 +47498,7 @@
     "ocrPages": 1175,
     "ocrTextVerified": false
   },
-  "distinctSourceAndKeyReferences": 398,
+  "distinctSourceAndKeyReferences": 404,
   "unscoredQuestionsPreserved": 1,
   "activeAdditionalQuestionRequest": {
     "requestedAdditionalQuestions": 1000,
@@ -46204,12 +47513,12 @@
     "requestedAt": "2026-10-16",
     "scope": "All remaining Years 7–10 Science assessment papers; all question types, source figures, response space and marking guidance",
     "startingImportedQuestions": 1374,
-    "addedQuestions": 2552,
+    "addedQuestions": 2587,
     "status": "in_progress",
     "completionRule": "Every unique assessment paper reviewed; duplicates mapped and unreadable/protected files explicitly resolved. File-blob count is not a paper denominator.",
     "restoredQuestionsAfterDuplicateFix": 4,
-    "newlyExtractedQuestions": 2548,
-    "papersReviewedSinceRequest": 285,
+    "newlyExtractedQuestions": 2583,
+    "papersReviewedSinceRequest": 291,
     "canonicalSourceQuestionsReReviewed": 2
   },
   "sourceInventoryExclusions": {
@@ -46219,8 +47528,8 @@
     "note": "These are file metadata records, not papers or questions; excluded from import work without increasing question or paper totals."
   },
   "supportingResourceReview": {
-    "files": 73,
-    "uniqueBlobs": 65,
+    "files": 74,
+    "uniqueBlobs": 66,
     "audit": "question-source-packs/repo-science-supporting-resource-review.json",
     "countedAsPapers": false,
     "countedAsQuestions": false
@@ -46533,19 +47842,9 @@
       "sourceFileSha": "94b2e14a03b0ad96c09b2aa96faf92ee4d3aaa63",
       "description": "Assignedelementandchosenisotopearenotfilledin.",
       "effect": "Researchtaskandcorrectformula-basedkeyretained;noinventedelementorneutroncount."
-    },
-    {
-      "questionId": "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-method",
-      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8 ESS Crystal Size Lab Report.docx",
-      "sourceFileSha": "b062e56376b2ef3613197fc903631c1eb5da4b84",
-      "reference": "Mount Lawley cooling-rate/crystal-size practical sheet",
-      "missing": [
-        "Final cooling conditions and remaining method steps7–9"
-      ],
-      "resolution": "Locate original practical sheet; do not invent missing source directions."
     }
   ],
-  "reviewedDistinctSourceBlobs": 418,
+  "reviewedDistinctSourceBlobs": 425,
   "inventoryCountBasis": "Remaining unique file blobs counts pending or key-reference-pending identities, including protected inputs; it is not a remaining-paper or remaining-question estimate.",
   "canonicalUniverseReviewRepair": {
     "questionIds": [

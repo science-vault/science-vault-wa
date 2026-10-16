@@ -1176,6 +1176,110 @@
       "path": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2023/2023 Term1 LGs and SC - Chemistry.docx",
       "sha": "8c5685bbb5a93495e045006f0f3896dec26d1274",
       "reason": "Learning-goals/success-criteria confidence checklist and assessment schedule,not actual test or research prompts;embedded school logo inspected."
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8 ESS Crystal Size Task.docx",
+      "sha": "5cd51c0529d859a3d662c13aab74802d9be91712",
+      "status": "reviewed_supporting_resource",
+      "reason": "Complete cooling-rate practical procedure only;no response prompts. Companion lab report already imported and teacher key reviewed inbatch164. Specifies50mLwater/10galum and ice versus insulated cotton cooling.",
+      "sourceBodyText": [
+        [
+          1,
+          "INVESTIGATION – COOLING RATE AND CRYSTAL SIZE"
+        ],
+        [
+          2,
+          "Rocks formed from cooling magma are known as igneous rocks. When magma cools and solidifies, particles in the liquid may clump together to form structures called crystals. Crystals are solids that have special shapes."
+        ],
+        [
+          3,
+          "The purpose of this investigation is to see how the size of crystals in igneous rocks is affected by the rate of cooling."
+        ],
+        [
+          5,
+          "Materials:"
+        ],
+        [
+          6,
+          "Safety glasses"
+        ],
+        [
+          7,
+          "Safety Mat"
+        ],
+        [
+          8,
+          "2 x Test tubes"
+        ],
+        [
+          9,
+          "Labels for stickers"
+        ],
+        [
+          10,
+          "2 x 100mL Beaker"
+        ],
+        [
+          11,
+          "2 x Cotton wool"
+        ],
+        [
+          12,
+          "Stirring rod"
+        ],
+        [
+          13,
+          "50mL Boiling Water"
+        ],
+        [
+          14,
+          "10g of Alum"
+        ],
+        [
+          15,
+          "Pipette"
+        ],
+        [
+          18,
+          "Method:"
+        ],
+        [
+          20,
+          "Collect the equipment listed above."
+        ],
+        [
+          22,
+          "Write your group members’ names on two labels then label your test tubes."
+        ],
+        [
+          24,
+          "Put 50mL of boiling water into a 100mL beaker."
+        ],
+        [
+          26,
+          "Measure out the 10g alum into the 100mL beaker of hot water and using the stirring rod, stir continuously until all the alum is dissolved."
+        ],
+        [
+          28,
+          "Using the pipette, pipette approximately 1/2 the liquid into each of the test tubes."
+        ],
+        [
+          30,
+          "Plug the test tubes with cotton wool."
+        ],
+        [
+          32,
+          "Place one of the test tubes into an ice filled beaker at the front of the class."
+        ],
+        [
+          34,
+          "Place the other test tube into a beaker filled with cotton wool at the front of the class. Make sure the test tube is WRAPPED properly in the cotton wool to keep it warm."
+        ],
+        [
+          36,
+          "Leave the beakers in a secure place overnight."
+        ]
+      ]
     }
   ]
 }

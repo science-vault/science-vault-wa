@@ -1,0 +1,91 @@
+{
+  "batch": "repo-science-batch166",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-MC01",
+    "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-MC02",
+    "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-MC03",
+    "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-MC04",
+    "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-MC05",
+    "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-MC06",
+    "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-MC07",
+    "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-MC09",
+    "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-MC10",
+    "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-MC08",
+    "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-W1",
+    "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-W2",
+    "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-W3",
+    "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-W4",
+    "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-W5",
+    "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-W6",
+    "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-W7"
+  ],
+  "questions": 17,
+  "multipleChoice": 10,
+  "writtenQuestions": 7,
+  "battleEligible": 9,
+  "marks": 51,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-MC09",
+      "note": "Universal acid wording needs qualification;exclude from automatic battles."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-W2",
+      "note": "Element types versus atom counts and molecule terminology require clarification."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-W6",
+      "note": "Silver/HClpremise is chemically invalid in ordinary bulk-metal classroom context;nitric acid product specification is condition-dependent. Manual marking must accept scientifically correct objections."
+    }
+  ],
+  "imageAudit": [
+    {
+      "id": "e395-image1",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/10 SCIENCE 2016 general.docx",
+      "embeddedImage": "word/media/image1.png",
+      "sha256": "08c6dd6e2fd9f08bb333fbc458eec24c35fe1837ee15b1e9f14a802d06001163",
+      "publishedSha256": "dd1ed13f67abad207b4fd4db59157284057a572c715e269e0ecd5d3b0610f5aa",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/10 SCIENCE 2016 general.docx",
+      "sha": "b9bf410dbd2650be05aeb49c46d2b1adfc66a1a0",
+      "year": 10,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [
+    {
+      "id": "sci-repo-y10-aran-2016-chem2gen-mc-1",
+      "title": "Year 10 Science — Chemistry test two general (original source MC)",
+      "course": "Science",
+      "yearGroup": 10,
+      "unit": "Chemical Sciences",
+      "parent": "Chemistry test two general",
+      "count": 9,
+      "kind": "assessment",
+      "assessmentCount": 9,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch166.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=10&search=SCI-REPO-Y10-ARAN-2016-CHEM2GEN",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    }
+  ],
+  "createdKeys": 17,
+  "createdSupplements": 0,
+  "notes": [
+    "Complete51mark general Chemistry Test Two:10MCand7written groups. Original graph grid and supplied ion table retained. Universal acid wording,ionic molecule terminology,and silver/HCl/nitric-acid reaction assumptions flagged. Primary chemistry sources checked;formal balancing distinguished from reaction validity."
+  ],
+  "markAudit": {
+    "total": 51,
+    "MC": 10,
+    "written": 41
+  },
+  "duplicateQuestionAliases": []
+}

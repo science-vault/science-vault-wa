@@ -1,0 +1,256 @@
+{
+  "batch": "repo-science-batch167",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y10-ARAN-2016-CHEM2ACC-MC01",
+    "SCI-REPO-Y10-ARAN-2016-CHEM2ACC-MC02",
+    "SCI-REPO-Y10-ARAN-2016-CHEM2ACC-MC03",
+    "SCI-REPO-Y10-ARAN-2016-CHEM2ACC-MC07",
+    "SCI-REPO-Y10-ARAN-2016-CHEM2ACC-MC09",
+    "SCI-REPO-Y10-ARAN-2016-CHEM2ACC-MC11",
+    "SCI-REPO-Y10-ARAN-2016-CHEM2ACC-MC12",
+    "SCI-REPO-Y10-ARAN-2016-CHEM2ACC-MC13",
+    "SCI-REPO-Y10-ARAN-2016-CHEM2ACC-MC15",
+    "SCI-REPO-Y10-ARAN-2016-CHEM2ACC-W1",
+    "SCI-REPO-Y10-ARAN-2016-CHEM2ACC-W2-extra",
+    "SCI-REPO-Y10-ARAN-2016-CHEM2ACC-W6"
+  ],
+  "questions": 12,
+  "multipleChoice": 9,
+  "writtenQuestions": 3,
+  "battleEligible": 8,
+  "marks": 18,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y10-ARAN-2016-CHEM2ACC-MC09",
+      "note": "Source radical-ion term means polyatomic ion here;modern radical ions have an unpaired electron. Ambiguous terminology excluded from automatic battles."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2016-CHEM2ACC-W6",
+      "note": "Source gives oxygen rather than hydrogen valence information for methane;oxygen is not part of CH₄."
+    }
+  ],
+  "imageAudit": [
+    {
+      "id": "e399-image1",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/10 SCIENCE 2016 test 2 accelerated class.docx",
+      "embeddedImage": "word/media/image1.jpeg",
+      "sha256": "6632c4deb7cfd7bd84a87fa57c5110c3cd714efb4da089086ebf905fe38878c2",
+      "publishedSha256": "84a5ce1628d5e778bea0d8d216ebfcadc6461248473e03cb92be2231b3c540f0",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e399-image2",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/10 SCIENCE 2016 test 2 accelerated class.docx",
+      "embeddedImage": "word/media/image2.jpeg",
+      "sha256": "e80ade452da4a78432f21eeb64308fbcf4ab5e68aee2c0fb68084236b3e5b917",
+      "publishedSha256": "2c5c4fa790323640543df6ad43bc5fc4ada9c1da69aae1ece3c862f25e2714ae",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/10 SCIENCE 2016 test 2 accelerated class.docx",
+      "sha": "8fee66a6e88dc08955ec8e83b45078e7917bbfdc",
+      "year": 10,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [
+    {
+      "id": "sci-repo-y10-aran-2016-chem2acc-mc-1",
+      "title": "Year 10 Science — Chemistry test two accelerated (original source MC)",
+      "course": "Science",
+      "yearGroup": 10,
+      "unit": "Chemical Sciences",
+      "parent": "Chemistry test two accelerated",
+      "count": 8,
+      "kind": "assessment",
+      "assessmentCount": 8,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch167.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=10&search=SCI-REPO-Y10-ARAN-2016-CHEM2ACC",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    }
+  ],
+  "createdKeys": 12,
+  "createdSupplements": 0,
+  "notes": [
+    "Complete54mark accelerated test reviewed. Six identical MCmapped to general test. Common eight compound rows,seven balances,four word-equations and iron graph linked rather than duplicated. Four new compound cells retained as one4mark extension. Original sulfur and water figures inspected/preserved. Radical-ion terminology and methane oxygen distractor flagged."
+  ],
+  "markAudit": {
+    "total": 54,
+    "MC": 15,
+    "written": 39,
+    "writtenAliasMarks": 30,
+    "newWrittenMarks": 9
+  },
+  "duplicateQuestionAliases": [
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/10 SCIENCE 2016 test 2 accelerated class.docx",
+      "sourceFileSha": "8fee66a6e88dc08955ec8e83b45078e7917bbfdc",
+      "sourceQuestionNumber": "W2-common",
+      "sourceParagraphs": [
+        137,
+        139,
+        141
+      ],
+      "sourceMarks": 10,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-W3",
+      "reason": "Eight common formula cells plus2collectiveion-column marks already covered;four additional formula cells separately retained."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/10 SCIENCE 2016 test 2 accelerated class.docx",
+      "sourceFileSha": "8fee66a6e88dc08955ec8e83b45078e7917bbfdc",
+      "sourceQuestionNumber": "W3",
+      "sourceParagraphs": [
+        145,
+        147,
+        157,
+        166,
+        176,
+        185,
+        191,
+        192
+      ],
+      "sourceMarks": 7,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-W4",
+      "reason": "Same complete seven balancing equations."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/10 SCIENCE 2016 test 2 accelerated class.docx",
+      "sourceFileSha": "8fee66a6e88dc08955ec8e83b45078e7917bbfdc",
+      "sourceQuestionNumber": "W5",
+      "sourceParagraphs": [
+        198,
+        199,
+        201,
+        208,
+        213,
+        218
+      ],
+      "sourceMarks": 8,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-W6",
+      "reason": "First four formal word-equation balances already in general test;silver/HCland nitric-acid assumptions remain manual review."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/10 SCIENCE 2016 test 2 accelerated class.docx",
+      "sourceFileSha": "8fee66a6e88dc08955ec8e83b45078e7917bbfdc",
+      "sourceQuestionNumber": "W9",
+      "sourceParagraphs": [
+        238,
+        239,
+        242,
+        252
+      ],
+      "sourceMarks": 5,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-W7",
+      "reason": "Same six iron-production data points and graph requirement;one series alone cannot establish catalyst effect."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/10 SCIENCE 2016 test 2 accelerated class.docx",
+      "sourceFileSha": "8fee66a6e88dc08955ec8e83b45078e7917bbfdc",
+      "sourceQuestionNumber": "4",
+      "sourceParagraphs": [
+        35,
+        37,
+        38,
+        39,
+        40
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-MC02",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/10 SCIENCE 2016 test 2 accelerated class.docx",
+      "sourceFileSha": "8fee66a6e88dc08955ec8e83b45078e7917bbfdc",
+      "sourceQuestionNumber": "5",
+      "sourceParagraphs": [
+        43,
+        45,
+        46,
+        47,
+        48
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-MC03",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/10 SCIENCE 2016 test 2 accelerated class.docx",
+      "sourceFileSha": "8fee66a6e88dc08955ec8e83b45078e7917bbfdc",
+      "sourceQuestionNumber": "6",
+      "sourceParagraphs": [
+        51,
+        53,
+        54,
+        55,
+        56
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-MC04",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/10 SCIENCE 2016 test 2 accelerated class.docx",
+      "sourceFileSha": "8fee66a6e88dc08955ec8e83b45078e7917bbfdc",
+      "sourceQuestionNumber": "8",
+      "sourceParagraphs": [
+        67,
+        69,
+        70,
+        71,
+        72
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-MC05",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/10 SCIENCE 2016 test 2 accelerated class.docx",
+      "sourceFileSha": "8fee66a6e88dc08955ec8e83b45078e7917bbfdc",
+      "sourceQuestionNumber": "10",
+      "sourceParagraphs": [
+        82,
+        84,
+        85,
+        86,
+        87
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-MC06",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/10 SCIENCE 2016 test 2 accelerated class.docx",
+      "sourceFileSha": "8fee66a6e88dc08955ec8e83b45078e7917bbfdc",
+      "sourceQuestionNumber": "14",
+      "sourceParagraphs": [
+        111,
+        112,
+        113,
+        114,
+        115
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-MC07",
+      "reason": "Equivalent source question already present; not added or counted again."
+    }
+  ]
+}

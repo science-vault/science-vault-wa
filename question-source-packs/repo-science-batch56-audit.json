@@ -47,11 +47,11 @@
   "reviewRequired": [
     {
       "id": "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-materials",
-      "note": "Separate practical sheet and final cooling steps are absent from this file."
+      "note": "Companion practical now located:50mLwater/10galum,ice versus cotton insulation. Teacher-key materials75mL/25gconflict with its own method;clarify quantities before use."
     },
     {
       "id": "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-method",
-      "note": "Separate practical sheet and final cooling steps are absent from this file."
+      "note": "Companion practical now located:50mLwater/10galum,ice versus cotton insulation. Teacher-key materials75mL/25gconflict with its own method;clarify quantities before use."
     },
     {
       "id": "SCI-REPO-Y8-ARAN-2015-BURGERRING-independent",
@@ -87,12 +87,13 @@
   "createdKeys": 36,
   "createdSupplements": 0,
   "notes": [
-    "Three investigation papers reviewed. Original crystal30 and tape16 task allocations retained. Burger-ring43 task marks plus2 presentation-only marks sum to45; class mass/energy calculations included within original4-mark category. Mass is distinguished from weight, and water heat recovery from total/metabolizable food energy. Incomplete crystal practical-sheet steps explicitly unresolved."
+    "Three investigation papers reviewed. Original crystal30 and tape16 task allocations retained. Burger-ring43 task marks plus2 presentation-only marks sum to45; class mass/energy calculations included within original4-mark category. Mass is distinguished from weight, and water heat recovery from total/metabolizable food energy. Companion crystal practical and full teacher-key method now located;quantity discrepancy remains flagged."
   ],
   "markAudit": {
     "Crystal": {
       "total": 30,
-      "methodIncomplete": true
+      "methodIncomplete": false,
+      "materialsQuantityConflict": true
     },
     "Tape": {
       "total": 16,
