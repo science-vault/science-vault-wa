@@ -47,13 +47,16 @@
   ],
   "imageAudit": [
     {
-      "id": "e51-image1",
+      "id": "e51-image1-crop-d8517ac7",
       "source": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2011 10 GENERAL CHEMISTRY TEST.docx",
       "embeddedImage": "word/media/image1.emf",
       "sha256": "3c155f618dbb6461ca78df4b4b2da0a710b8af8408c436038296eefbea473efa",
       "publishedSha256": "33cedcf363b156637bf862f8340e50e1a1fe495733d7732439d298ead6aee1e7",
       "role": "source_question_or_response_figure",
-      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+      "wordSourceCrop100000ths": {
+        "b": 5723
+      },
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
     }
   ],
   "sources": [

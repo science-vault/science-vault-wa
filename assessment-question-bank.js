@@ -42,32 +42,40 @@ document.write('<script src="assessment-question-bank-science-source-batch10.js?
 
 document.write('<script src="assessment-question-bank-science-source-batch11.js?v=2026.10.16-science-source11"><\/script>');
 
-document.write('<script src="assessment-question-bank-science-source-batch12.js?v=2026.10.16-science-source12-diagram-dedup-repair1"><\/script>');
+document.write('<script src="assessment-question-bank-science-source-batch12.js?v=2026.10.16-science-source12-native-crops-r1"><\/script>');
 
-document.write('<script src="assessment-question-bank-science-source-batch13.js?v=2026.10.16-science-source13"><\/script>');
+document.write('<script src="assessment-question-bank-science-source-batch13.js?v=2026.10.16-science-source13-native-crops-r1"><\/script>');
 
-document.write('<script src="assessment-question-bank-science-source-batch14.js?v=2026.10.16-science-source14"><\/script>');
+document.write('<script src="assessment-question-bank-science-source-batch14.js?v=2026.10.16-science-source14-native-crops-r1"><\/script>');
 
-document.write('<script src="assessment-question-bank-science-source-batch15.js?v=2026.10.16-science-source15"><\/script>');
+document.write('<script src="assessment-question-bank-science-source-batch15.js?v=2026.10.16-science-source15-native-crops-r1"><\/script>');
 
-document.write('<script src="assessment-question-bank-science-source-batch16.js?v=2026.10.16-science-source16"><\/script>');
+document.write('<script src="assessment-question-bank-science-source-batch16.js?v=2026.10.16-science-source16-native-crops-r1"><\/script>');
 
-document.write('<script src="assessment-question-bank-science-source-batch17.js?v=2026.10.16-science-source17"><\/script>');
+document.write('<script src="assessment-question-bank-science-source-batch17.js?v=2026.10.16-science-source17-native-crops-r1"><\/script>');
 
-document.write('<script src="assessment-question-bank-science-source-batch18.js?v=2026.10.16-science-source18"><\/script>');
+document.write('<script src="assessment-question-bank-science-source-batch18.js?v=2026.10.16-science-source18-native-crops-r1"><\/script>');
 
-document.write('<script src="assessment-question-bank-science-source-batch19.js?v=2026.10.16-science-source19"><\/script>');
+document.write('<script src="assessment-question-bank-science-source-batch19.js?v=2026.10.16-science-source19-native-crops-r1"><\/script>');
 
-document.write('<script src="assessment-question-bank-science-source-batch20.js?v=2026.10.16-science-source20"><\/script>');
+document.write('<script src="assessment-question-bank-science-source-batch20.js?v=2026.10.16-science-source20-native-crops-r1"><\/script>');
 
-document.write('<script src="assessment-question-bank-science-source-batch21.js?v=2026.10.16-science-source21"><\/script>');
+document.write('<script src="assessment-question-bank-science-source-batch21.js?v=2026.10.16-science-source21-native-crops-r1"><\/script>');
 
-document.write('<script src="assessment-question-bank-science-source-batch22.js?v=2026.10.16-science-source22"><\/script>');
+document.write('<script src="assessment-question-bank-science-source-batch22.js?v=2026.10.16-science-source22-native-crops-r1"><\/script>');
 
-document.write('<script src="assessment-question-bank-science-source-batch23.js?v=2026.10.16-science-source23"><\/script>');
+document.write('<script src="assessment-question-bank-science-source-batch23.js?v=2026.10.16-science-source23-native-crops-r1"><\/script>');
 
-document.write('<script src="assessment-question-bank-science-source-batch24.js?v=2026.10.16-science-source24"><\/script>');
+document.write('<script src="assessment-question-bank-science-source-batch24.js?v=2026.10.16-science-source24-native-crops-r1"><\/script>');
 
-document.write('<script src="assessment-question-bank-science-source-batch25.js?v=2026.10.16-science-source25"><\/script>');
+document.write('<script src="assessment-question-bank-science-source-batch25.js?v=2026.10.16-science-source25-native-crops-r1"><\/script>');
 
-document.write('<script src="assessment-question-bank-science-source-batch26.js?v=2026.10.16-science-source26"><\/script>');
+document.write('<script src="assessment-question-bank-science-source-batch26.js?v=2026.10.16-science-source26-native-crops-r1"><\/script>');
+
+document.write('<script src="assessment-question-bank-science-source-batch27.js?v=2026.10.16-science-source27-native-crops-r1"><\/script>');
+
+document.write('<script src="assessment-question-bank-science-source-batch28.js?v=2026.10.16-science-source28-native-crops-r1"><\/script>');
+
+document.write('<script src="assessment-question-bank-science-source-batch29.js?v=2026.10.16-science-source29-native-crops-r1"><\/script>');
+
+document.write('<script src="assessment-question-bank-science-source-batch30.js?v=2026.10.16-science-source30"><\/script>');

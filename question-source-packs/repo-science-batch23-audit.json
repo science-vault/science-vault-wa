@@ -31,13 +31,17 @@
   ],
   "imageAudit": [
     {
-      "id": "e55-image2",
+      "id": "e55-image2-crop-94b800ca",
       "source": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Test - Observations, Inferences and Variables.docx",
       "embeddedImage": "word/media/image2.png",
       "sha256": "9cd2c392cd8efaa30c37994c7bedf740f5bf92eb8fbfdb9eefba7966ce9eeceb",
-      "publishedSha256": "b8ccfa4c21c16b494df98341e76ff3526f138c086b45f28e8471d95be32bc7f9",
+      "publishedSha256": "5b62fc419efb71928d4599b06c41f25b63bfea9a32c8aed93a9e9bf265e0388c",
       "role": "source_question_or_response_figure",
-      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+      "wordSourceCrop100000ths": {
+        "t": 47212,
+        "r": 81795
+      },
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
     },
     {
       "id": "e55-image3",
@@ -46,7 +50,8 @@
       "sha256": "b89eec050890fcc1ee82ba78260c8b3a0cdb2cbce703a4357fe0291da358efda",
       "publishedSha256": "e3cb36b7cc666bc90dd3f5ea827a7f4e4db61ed05b496ccd7a5d656fefd1785c",
       "role": "source_question_or_response_figure",
-      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
     }
   ],
   "sources": [

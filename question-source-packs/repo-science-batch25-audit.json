@@ -54,7 +54,8 @@
       "sha256": "2c4e7fdef7455b488e97000a9f3ee4a66cf7c59c0b08704542809037d56c762e",
       "publishedSha256": "7de77c4452aa5ea78fdcd3956233efe2c632ac6718e48c0064454c834fa9576c",
       "role": "source_question_or_response_figure",
-      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
     },
     {
       "id": "e59-image2",
@@ -63,7 +64,8 @@
       "sha256": "772fa6a743b43d7ab329c2f9a3740251fa19c08fbf63014db6d028a7348ff775",
       "publishedSha256": "79b0b3045b80979b8dd22697b40e359bd089ec23f66f1a98b68ad61d216d7251",
       "role": "source_question_or_response_figure",
-      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
     },
     {
       "id": "e59-image3",
@@ -72,7 +74,8 @@
       "sha256": "9b844d9d5b08c61cdd0491a9680ffbde146522a78477bee668118b8308b4f2dd",
       "publishedSha256": "d519926cec874f81255a02fc0970cbfa5c29ad30984d4042c53544492305a0c5",
       "role": "source_question_or_response_figure",
-      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
     },
     {
       "id": "e59-image4",
@@ -81,7 +84,8 @@
       "sha256": "5935db61fb3e602ada406861a93253331e372ccdb3629a976ffcb23794dad5ae",
       "publishedSha256": "ce4491028b062c0065f140ea79f2ccbe07b1dcedeae3fc68394738bac19c9402",
       "role": "source_question_or_response_figure",
-      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
     },
     {
       "id": "e59-image5",
@@ -90,7 +94,8 @@
       "sha256": "1c753b5b6ef025890abaa205ea6b9a573bae9ab2f11b91732a23c17557ab44e5",
       "publishedSha256": "4c663ce3bba62a6355fc52c399f83943c508e419e44118478961a07499f8f75b",
       "role": "source_question_or_response_figure",
-      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
     }
   ],
   "sources": [

@@ -1,0 +1,120 @@
+{
+  "batch": "repo-science-batch27",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y8-ARAN-2015-CHEMEND-MC01",
+    "SCI-REPO-Y8-ARAN-2015-CHEMEND-MC02",
+    "SCI-REPO-Y8-ARAN-2015-CHEMEND-MC03",
+    "SCI-REPO-Y8-ARAN-2015-CHEMEND-MC04",
+    "SCI-REPO-Y8-ARAN-2015-CHEMEND-MC05",
+    "SCI-REPO-Y8-ARAN-2015-CHEMEND-MC06",
+    "SCI-REPO-Y8-ARAN-2015-CHEMEND-MC07",
+    "SCI-REPO-Y8-ARAN-2015-CHEMEND-MC08",
+    "SCI-REPO-Y8-ARAN-2015-CHEMEND-MC09",
+    "SCI-REPO-Y8-ARAN-2015-CHEMEND-MC10",
+    "SCI-REPO-Y8-ARAN-2015-CHEMEND-W1",
+    "SCI-REPO-Y8-ARAN-2015-CHEMEND-W2I",
+    "SCI-REPO-Y8-ARAN-2015-CHEMEND-W2II",
+    "SCI-REPO-Y8-ARAN-2015-CHEMEND-W2III",
+    "SCI-REPO-Y8-ARAN-2015-CHEMEND-W3I",
+    "SCI-REPO-Y8-ARAN-2015-CHEMEND-W3II",
+    "SCI-REPO-Y8-ARAN-2015-CHEMEND-W4I",
+    "SCI-REPO-Y8-ARAN-2015-CHEMEND-W4II"
+  ],
+  "questions": 18,
+  "multipleChoice": 10,
+  "writtenQuestions": 8,
+  "battleEligible": 10,
+  "marks": 73,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y8-ARAN-2015-CHEMEND-W1",
+      "note": "Mass numbers/neutron counts are not uniquely determined by element identity. Do not require an unspecified isotope or confuse average relative atomic mass with mass number."
+    }
+  ],
+  "imageAudit": [
+    {
+      "id": "e63-page4-particle-choice-table",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/Year 8 Chemistry End of Topic Test 2015.docx",
+      "sourceFileSha": "71c3a7baa036791faecd43a5cbef545a277395ab",
+      "sourcePage": 4,
+      "pdfCropPoints": [
+        71,
+        122,
+        526,
+        461
+      ],
+      "role": "original_native_Word_figure",
+      "conversion": "Original DOCX rendered by LibreOffice to PDF; bounded source figure rasterised at 216 dpi without redrawing. Native editable shapes, table borders, shading and example points retained.",
+      "publishedSha256": "3e2ef36c74039273bbbd881c5c6549c541a302691b622e0613b7e03b2420954c"
+    },
+    {
+      "id": "e63-image3",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/Year 8 Chemistry End of Topic Test 2015.docx",
+      "embeddedImage": "word/media/image3.gif",
+      "sha256": "3f3c8d9c2596e252256a85d14242fd8a87f207ae1a6af6d0d8ab003dde3b20a4",
+      "publishedSha256": "0cf0d2e3f42f803ae9a7abbbf6d2ac44527f789a32df12d5f3d8acd5d2c9024a",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e63-image4",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/Year 8 Chemistry End of Topic Test 2015.docx",
+      "embeddedImage": "word/media/image4.png",
+      "sha256": "0ea010209246c5cdf409636175c9e61957b135931375e8f828750a8819c8691a",
+      "publishedSha256": "76321724593e00e9da3a2892245e9a6757c2d4458aaa1a1e2a44b1390afcfe56",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e63-image5",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/Year 8 Chemistry End of Topic Test 2015.docx",
+      "embeddedImage": "word/media/image5.jpeg",
+      "sha256": "9998bf636ccd0deb0b1a1ef1625bdd72ef359e6ef06ca8f107db87bfcbf22b78",
+      "publishedSha256": "699dfff0728f3e7f5148cda3bb6bde61d998189867d51230b5ede7b04a631907",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/Year 8 Chemistry End of Topic Test 2015.docx",
+      "sha": "71c3a7baa036791faecd43a5cbef545a277395ab",
+      "year": 8,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [
+    {
+      "id": "sci-repo-y8-aran-2015-chemend-mc-1",
+      "title": "Year 8 Science — Chemistry end-topic test — Aranmore 2015 (original source MC)",
+      "course": "Science",
+      "yearGroup": 8,
+      "unit": "Chemical Sciences",
+      "parent": "Chemistry end-topic test — Aranmore 2015",
+      "count": 10,
+      "kind": "assessment",
+      "assessmentCount": 10,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch27.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=8&search=SCI-REPO-Y8-ARAN-2015-CHEMEND",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    }
+  ],
+  "createdKeys": 18,
+  "createdSupplements": 0,
+  "notes": [
+    "Complete 73-mark chemistry paper. Native particle-choice diagrams retained from the rendered source. Full third-shell capacity distinguished from simplified first-20-element filling; unspecified isotope issue explicitly moderated."
+  ],
+  "markAudit": {
+    "Chemistry end-topic": {
+      "printedTotal": 73,
+      "sourceTaskMarksBeforeDeduplication": 73
+    }
+  },
+  "duplicateQuestionAliases": []
+}

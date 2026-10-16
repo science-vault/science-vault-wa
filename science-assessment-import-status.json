@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.16-science-source26",
+  "version": "2026.10.16-science-source30",
   "status": "in_progress",
   "scope": "Original Science assessment files in repository, Years 7–10. File counts include keys and supporting materials; they are not question counts.",
   "inventoryFiles": 2009,
@@ -11,11 +11,11 @@
     "9": 457,
     "10": 582
   },
-  "importedPapers": 80,
-  "importedQuestions": 1565,
-  "multipleChoice": 681,
-  "writtenQuestions": 884,
-  "battleEligibleQuestions": 602,
+  "importedPapers": 84,
+  "importedQuestions": 1622,
+  "multipleChoice": 699,
+  "writtenQuestions": 923,
+  "battleEligibleQuestions": 620,
   "reviewRequired": [
     {
       "id": "SCI-REPO-Y7-NAR-2024-EARTH-MC03",
@@ -680,6 +680,14 @@
     {
       "id": "SCI-REPO-Y10-ARAN-GENERALMID2-1",
       "note": "Source figure says700N and50kg, whereas written problem says400N and20kg. Accept a consistent interpretation; supplied worked solution uses the written values."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2015-CHEMEND-W1",
+      "note": "Mass numbers/neutron counts are not uniquely determined by element identity. Do not require an unspecified isotope or confuse average relative atomic mass with mass number."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2014-SCIMETHOD-W7",
+      "note": "Definition b does not uniquely establish second-hand provenance. Accept a justified correction of the source definition."
     }
   ],
   "batches": [
@@ -6833,6 +6841,574 @@
           "reason": "Repeated first problem with worked solution; used as marking guidance, not counted as a new question."
         }
       ]
+    },
+    {
+      "id": "repo-science-batch27",
+      "questionIds": [
+        "SCI-REPO-Y8-ARAN-2015-CHEMEND-MC01",
+        "SCI-REPO-Y8-ARAN-2015-CHEMEND-MC02",
+        "SCI-REPO-Y8-ARAN-2015-CHEMEND-MC03",
+        "SCI-REPO-Y8-ARAN-2015-CHEMEND-MC04",
+        "SCI-REPO-Y8-ARAN-2015-CHEMEND-MC05",
+        "SCI-REPO-Y8-ARAN-2015-CHEMEND-MC06",
+        "SCI-REPO-Y8-ARAN-2015-CHEMEND-MC07",
+        "SCI-REPO-Y8-ARAN-2015-CHEMEND-MC08",
+        "SCI-REPO-Y8-ARAN-2015-CHEMEND-MC09",
+        "SCI-REPO-Y8-ARAN-2015-CHEMEND-MC10",
+        "SCI-REPO-Y8-ARAN-2015-CHEMEND-W1",
+        "SCI-REPO-Y8-ARAN-2015-CHEMEND-W2I",
+        "SCI-REPO-Y8-ARAN-2015-CHEMEND-W2II",
+        "SCI-REPO-Y8-ARAN-2015-CHEMEND-W2III",
+        "SCI-REPO-Y8-ARAN-2015-CHEMEND-W3I",
+        "SCI-REPO-Y8-ARAN-2015-CHEMEND-W3II",
+        "SCI-REPO-Y8-ARAN-2015-CHEMEND-W4I",
+        "SCI-REPO-Y8-ARAN-2015-CHEMEND-W4II"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/Year 8 Chemistry End of Topic Test 2015.docx",
+          "sha": "71c3a7baa036791faecd43a5cbef545a277395ab",
+          "year": 8,
+          "role": "paper"
+        }
+      ],
+      "questions": 18,
+      "marks": 73,
+      "imageAudit": "question-source-packs/repo-science-batch27-audit.json",
+      "notes": [
+        "Complete 73-mark chemistry paper. Native particle-choice diagrams retained from the rendered source. Full third-shell capacity distinguished from simplified first-20-element filling; unspecified isotope issue explicitly moderated."
+      ],
+      "markAudit": {
+        "Chemistry end-topic": {
+          "printedTotal": 73,
+          "sourceTaskMarksBeforeDeduplication": 73
+        }
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch28",
+      "questionIds": [
+        "SCI-REPO-Y8-ARAN-2014-SCIMETHOD-MC01",
+        "SCI-REPO-Y8-ARAN-2014-SCIMETHOD-MC02",
+        "SCI-REPO-Y8-ARAN-2014-SCIMETHOD-MC03",
+        "SCI-REPO-Y8-ARAN-2014-SCIMETHOD-MC04",
+        "SCI-REPO-Y8-ARAN-2014-SCIMETHOD-MC05",
+        "SCI-REPO-Y8-ARAN-2014-SCIMETHOD-W1",
+        "SCI-REPO-Y8-ARAN-2014-SCIMETHOD-W2a",
+        "SCI-REPO-Y8-ARAN-2014-SCIMETHOD-W2b",
+        "SCI-REPO-Y8-ARAN-2014-SCIMETHOD-W2c",
+        "SCI-REPO-Y8-ARAN-2014-SCIMETHOD-W2d",
+        "SCI-REPO-Y8-ARAN-2014-SCIMETHOD-W2e",
+        "SCI-REPO-Y8-ARAN-2014-SCIMETHOD-W3",
+        "SCI-REPO-Y8-ARAN-2014-SCIMETHOD-W4",
+        "SCI-REPO-Y8-ARAN-2014-SCIMETHOD-W5",
+        "SCI-REPO-Y8-ARAN-2014-SCIMETHOD-W6a",
+        "SCI-REPO-Y8-ARAN-2014-SCIMETHOD-W6b",
+        "SCI-REPO-Y8-ARAN-2014-SCIMETHOD-W7",
+        "SCI-REPO-Y8-ARAN-2014-SCIMETHOD-W8"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2014 8 SCIENCE SCIENTIFIC METHOD TEST.docx",
+          "sha": "1bf59d2151e79a263d717a90f120d371f9c39feb",
+          "year": 8,
+          "role": "paper"
+        }
+      ],
+      "questions": 18,
+      "marks": 45,
+      "imageAudit": "question-source-packs/repo-science-batch28-audit.json",
+      "notes": [
+        "Complete 2014 scientific-method assessment with equipment drawings kept in original table cells and supplied population data preserved. Corrected narrow first-/second-hand wording in marking guidance."
+      ],
+      "markAudit": {
+        "Scientific method": {
+          "coverTotal": 46,
+          "multipleChoice": 5,
+          "printedWrittenTotal": 40,
+          "sumOfPrintedTaskMarks": 45,
+          "note": "The cover says46 but five MC plus written task allocations sum45; source task marks retained."
+        }
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch29",
+      "questionIds": [
+        "SCI-REPO-Y8-ARAN-2015-METHODPRACTICAL-1a",
+        "SCI-REPO-Y8-ARAN-2015-METHODPRACTICAL-1b",
+        "SCI-REPO-Y8-ARAN-2015-METHODPRACTICAL-1c",
+        "SCI-REPO-Y8-ARAN-2015-METHODPRACTICAL-1d",
+        "SCI-REPO-Y8-ARAN-2015-METHODPRACTICAL-2a",
+        "SCI-REPO-Y8-ARAN-2015-METHODPRACTICAL-2b",
+        "SCI-REPO-Y8-ARAN-2015-METHODPRACTICAL-3",
+        "SCI-REPO-Y8-ARAN-2015-METHODPRACTICAL-4a",
+        "SCI-REPO-Y8-ARAN-2015-METHODPRACTICAL-4b",
+        "SCI-REPO-Y8-ARAN-2015-METHODPRACTICAL-5a",
+        "SCI-REPO-Y8-ARAN-2015-METHODPRACTICAL-5b",
+        "SCI-REPO-Y8-ARAN-2015-METHODPRACTICAL-5c",
+        "SCI-REPO-Y8-ARAN-2015-METHODPRACTICAL-5d",
+        "SCI-REPO-Y8-ARAN-2015-METHODPRACTICAL-5e",
+        "SCI-REPO-Y8-ARAN-2015-METHODPRACTICAL-5f",
+        "SCI-REPO-Y8-ARAN-2015-METHODPRACTICAL-5g",
+        "SCI-REPO-Y8-ARAN-2015-METHODPRACTICAL-6a",
+        "SCI-REPO-Y8-ARAN-2015-METHODPRACTICAL-6b"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Scientific Method Test.docx",
+          "sha": "ee66b536b0f29f9718650dbf21475f53c9487d98",
+          "year": 8,
+          "role": "paper"
+        }
+      ],
+      "questions": 18,
+      "marks": 43,
+      "imageAudit": "question-source-packs/repo-science-batch29-audit.json",
+      "notes": [
+        "Complete 43-mark practical-skills quiz. Word crop settings respected: the measurement figure shows the intended eye diagram rather than uncropped answer annotations outside its display window. Created guidance separates food intake from measured energy expenditure and playback endurance from strict energy efficiency."
+      ],
+      "markAudit": {
+        "Practical skills mini quiz": {
+          "printedTotal": 43,
+          "sourceTaskMarksBeforeDeduplication": 43,
+          "conversionTableAllocation": "Three unit/symbol blanks at1 each; three conversion rows at1 each, split over their two converted blanks."
+        }
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch30",
+      "questionIds": [
+        "SCI-REPO-Y8-ARAN-2015-PHYSEND-MC14",
+        "SCI-REPO-Y8-ARAN-2015-PHYSEND-MC15",
+        "SCI-REPO-Y8-ARAN-2015-PHYSEND-MC16"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+          "sha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+          "year": 8,
+          "role": "paper"
+        }
+      ],
+      "questions": 3,
+      "marks": 3,
+      "imageAudit": "question-source-packs/repo-science-batch30-audit.json",
+      "notes": [
+        "Full 2015 physics variant reviewed, including its embedded solutions. Seventeen repeated MC and eighteen repeated written parts explicitly mapped to existing 2013 source records. Only the three distinct MC prompts are added. Matching cooling-data tables checked directly, and worked solution section is not counted as questions."
+      ],
+      "markAudit": {
+        "Physics end-topic": {
+          "printedTotal": 47,
+          "sourceMarksIncludingAliases": 47,
+          "newSourcePromptsBeforeDeduplication": 3,
+          "repeatPromptsMapped": 35
+        }
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+          "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            9
+          ],
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC01",
+          "reason": "Same source task and context in the previously imported 2013 paper; not recounted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+          "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+          "sourceQuestionNumber": "2",
+          "sourceParagraphs": [
+            16
+          ],
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC02",
+          "reason": "Same source task and context in the previously imported 2013 paper; not recounted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+          "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            23
+          ],
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC03",
+          "reason": "Same source task and context in the previously imported 2013 paper; not recounted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+          "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+          "sourceQuestionNumber": "4",
+          "sourceParagraphs": [
+            30
+          ],
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC04",
+          "reason": "Equivalent source stem and response choices; changed names/device labels or reordered options do not create an additional question. Thermal-capacity conditional assumptions remain in the existing manual-review record."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+          "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+          "sourceQuestionNumber": "5",
+          "sourceParagraphs": [
+            36
+          ],
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC05",
+          "reason": "Same source task and context in the previously imported 2013 paper; not recounted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+          "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+          "sourceQuestionNumber": "6",
+          "sourceParagraphs": [
+            43
+          ],
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC06",
+          "reason": "Same source task and context in the previously imported 2013 paper; not recounted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+          "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+          "sourceQuestionNumber": "7",
+          "sourceParagraphs": [
+            50
+          ],
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC07",
+          "reason": "Same source task and context in the previously imported 2013 paper; not recounted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+          "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+          "sourceQuestionNumber": "8",
+          "sourceParagraphs": [
+            57
+          ],
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC08",
+          "reason": "Same source task and context in the previously imported 2013 paper; not recounted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+          "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+          "sourceQuestionNumber": "9",
+          "sourceParagraphs": [
+            65
+          ],
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC09",
+          "reason": "Same source task and context in the previously imported 2013 paper; not recounted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+          "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+          "sourceQuestionNumber": "10",
+          "sourceParagraphs": [
+            71
+          ],
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC10",
+          "reason": "Same source task and context in the previously imported 2013 paper; not recounted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+          "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+          "sourceQuestionNumber": "11",
+          "sourceParagraphs": [
+            77
+          ],
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC11",
+          "reason": "Same source task and context in the previously imported 2013 paper; not recounted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+          "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+          "sourceQuestionNumber": "12",
+          "sourceParagraphs": [
+            83,
+            84,
+            85,
+            86
+          ],
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC12",
+          "reason": "Same source task and context in the previously imported 2013 paper; not recounted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+          "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+          "sourceQuestionNumber": "13",
+          "sourceParagraphs": [
+            92,
+            93,
+            95
+          ],
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC13",
+          "reason": "Equivalent source stem and response choices; changed names/device labels or reordered options do not create an additional question. Thermal-capacity conditional assumptions remain in the existing manual-review record."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+          "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+          "sourceQuestionNumber": "17",
+          "sourceParagraphs": [
+            121
+          ],
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC17",
+          "reason": "Same source task and context in the previously imported 2013 paper; not recounted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+          "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+          "sourceQuestionNumber": "18",
+          "sourceParagraphs": [
+            127
+          ],
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC18",
+          "reason": "Same source task and context in the previously imported 2013 paper; not recounted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+          "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+          "sourceQuestionNumber": "19",
+          "sourceParagraphs": [
+            134
+          ],
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC19",
+          "reason": "Same source task and context in the previously imported 2013 paper; not recounted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+          "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+          "sourceQuestionNumber": "20",
+          "sourceParagraphs": [
+            140,
+            141,
+            144
+          ],
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC20",
+          "reason": "Same source task and context in the previously imported 2013 paper; not recounted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+          "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+          "sourceQuestionNumber": "1a",
+          "sourceParagraphs": [
+            154,
+            155
+          ],
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-1a",
+          "reason": "Same source task and context in the 2013 end-topic paper; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+          "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+          "sourceQuestionNumber": "1b",
+          "sourceParagraphs": [
+            154,
+            157
+          ],
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-1b",
+          "reason": "Same source task and context in the 2013 end-topic paper; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+          "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+          "sourceQuestionNumber": "1c",
+          "sourceParagraphs": [
+            154,
+            159
+          ],
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-1c",
+          "reason": "Same source task and context in the 2013 end-topic paper; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+          "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+          "sourceQuestionNumber": "2",
+          "sourceParagraphs": [
+            163
+          ],
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-2",
+          "reason": "Same source task and context in the 2013 end-topic paper; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+          "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+          "sourceQuestionNumber": "3a",
+          "sourceParagraphs": [
+            167,
+            168
+          ],
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-3a",
+          "reason": "Same source task and context in the 2013 end-topic paper; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+          "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+          "sourceQuestionNumber": "3b",
+          "sourceParagraphs": [
+            167,
+            170
+          ],
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-3b",
+          "reason": "Same source task and context in the 2013 end-topic paper; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+          "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+          "sourceQuestionNumber": "3c",
+          "sourceParagraphs": [
+            167,
+            174
+          ],
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-3c",
+          "reason": "Same source task and context in the 2013 end-topic paper; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+          "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+          "sourceQuestionNumber": "3d",
+          "sourceParagraphs": [
+            167,
+            176
+          ],
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-3d",
+          "reason": "Same source task and context in the 2013 end-topic paper; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+          "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+          "sourceQuestionNumber": "4",
+          "sourceParagraphs": [
+            180,
+            181,
+            182
+          ],
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-4",
+          "reason": "Same source task and context in the 2013 end-topic paper; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+          "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+          "sourceQuestionNumber": "7a",
+          "sourceParagraphs": [
+            187,
+            188,
+            189,
+            190,
+            191,
+            192,
+            193
+          ],
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-7a",
+          "reason": "Same source task and context in the 2013 end-topic paper; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+          "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+          "sourceQuestionNumber": "7b",
+          "sourceParagraphs": [
+            187,
+            188,
+            189,
+            190,
+            191,
+            192,
+            194
+          ],
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-7b",
+          "reason": "Same source task and context in the 2013 end-topic paper; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+          "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+          "sourceQuestionNumber": "7c",
+          "sourceParagraphs": [
+            187,
+            188,
+            189,
+            190,
+            191,
+            192,
+            195
+          ],
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-7c",
+          "reason": "Same source task and context in the 2013 end-topic paper; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+          "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+          "sourceQuestionNumber": "7d",
+          "sourceParagraphs": [
+            187,
+            188,
+            189,
+            190,
+            191,
+            192,
+            196
+          ],
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-7d",
+          "reason": "Same source task and context in the 2013 end-topic paper; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+          "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+          "sourceQuestionNumber": "8a",
+          "sourceParagraphs": [
+            200,
+            202,
+            215
+          ],
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-8a",
+          "reason": "Same source task and context in the 2013 end-topic paper; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+          "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+          "sourceQuestionNumber": "8b",
+          "sourceParagraphs": [
+            200,
+            202,
+            218
+          ],
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-8b",
+          "reason": "Same source task and context in the 2013 end-topic paper; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+          "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+          "sourceQuestionNumber": "8c",
+          "sourceParagraphs": [
+            200,
+            202,
+            221
+          ],
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-8c",
+          "reason": "Same source task and context in the 2013 end-topic paper; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+          "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+          "sourceQuestionNumber": "8d",
+          "sourceParagraphs": [
+            200,
+            202,
+            223
+          ],
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-8d",
+          "reason": "Same source task and context in the 2013 end-topic paper; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+          "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+          "sourceQuestionNumber": "8e",
+          "sourceParagraphs": [
+            200,
+            202,
+            225
+          ],
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-8e",
+          "reason": "Same source task and context in the 2013 end-topic paper; not added or counted again."
+        }
+      ]
     }
   ],
   "files": [
@@ -11953,7 +12529,7 @@
       "sha": "71c3a7baa036791faecd43a5cbef545a277395ab",
       "year": 8,
       "size": 71881,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -13897,7 +14473,7 @@
       "sha": "1bf59d2151e79a263d717a90f120d371f9c39feb",
       "year": 8,
       "size": 124332,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -13921,7 +14497,7 @@
       "sha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
       "year": 8,
       "size": 80403,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -13929,7 +14505,7 @@
       "sha": "ee66b536b0f29f9718650dbf21475f53c9487d98",
       "year": 8,
       "size": 150953,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -22968,9 +23544,9 @@
       "duplicateOf": null
     }
   ],
-  "learningVaultCreatedKeySupplements": 779,
-  "remainingUniqueFileBlobs": 1591,
-  "learningVaultCreatedKeys": 474,
+  "learningVaultCreatedKeySupplements": 782,
+  "remainingUniqueFileBlobs": 1587,
+  "learningVaultCreatedKeys": 528,
   "blockedSources": [
     {
       "sha": "49d4b7f3f8af844477b39abb856365aeb096cafd",
@@ -23182,7 +23758,7 @@
     "ocrPages": 1175,
     "ocrTextVerified": false
   },
-  "distinctSourceAndKeyReferences": 118,
+  "distinctSourceAndKeyReferences": 122,
   "unscoredQuestionsPreserved": 1,
   "activeAdditionalQuestionRequest": {
     "requestedAdditionalQuestions": 1000,
@@ -23197,12 +23773,12 @@
     "requestedAt": "2026-10-16",
     "scope": "All remaining Years 7–10 Science assessment papers; all question types, source figures, response space and marking guidance",
     "startingImportedQuestions": 1374,
-    "addedQuestions": 191,
+    "addedQuestions": 248,
     "status": "in_progress",
     "completionRule": "Every unique assessment paper reviewed; duplicates mapped and unreadable/protected files explicitly resolved. File-blob count is not a paper denominator.",
     "restoredQuestionsAfterDuplicateFix": 4,
-    "newlyExtractedQuestions": 187,
-    "papersReviewedSinceRequest": 17
+    "newlyExtractedQuestions": 244,
+    "papersReviewedSinceRequest": 21
   },
   "sourceInventoryExclusions": {
     "files": 59,

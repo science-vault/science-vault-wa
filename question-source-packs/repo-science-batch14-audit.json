@@ -250,16 +250,20 @@
       "sha256": "8d21e5bb12da823929dcfb4be516f167fb4876a0318074eca1ee092792f90e25",
       "publishedSha256": "d2b7fffdd88e3f881ae2118bb72d8f2bb73514a15d95d876c33dcc654634bdf9",
       "role": "source_question_or_response_figure",
-      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
     },
     {
-      "id": "e18-image5",
+      "id": "e18-image5-crop-6b933ad1",
       "source": "resources/Assessments/Lowerschool/Year 8/Science/Biological Sciences/Safety Bay/2018/Year 8 Systems test 2018.docx",
       "embeddedImage": "word/media/image5.jpeg",
       "sha256": "60a55e0fa22fd3ead0366b84a55ed85a0763a188928938d9b9f95bdcfeb0ff9b",
-      "publishedSha256": "f152853d3982a57d1f5baa9461cd4433cf91d6476cbe0a1a44df578ed5a59fcf",
+      "publishedSha256": "2badce1689dd077a05f86ff6198b2a3b15e1578c1d6458a8f493b8b96621e4cb",
       "role": "source_question_or_response_figure",
-      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+      "wordSourceCrop100000ths": {
+        "b": 18536
+      },
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
     },
     {
       "id": "e18-image6",
@@ -268,7 +272,8 @@
       "sha256": "919343c230b758cdf76402a1471b5d048eb3bd7b42a0d86625e95cc2915c1e2b",
       "publishedSha256": "a1770c1879e7c8086301da936bbb469b6cbe65c566fd79610134a4945619ed01",
       "role": "source_question_or_response_figure",
-      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
     },
     {
       "id": "e18-image7",
@@ -277,7 +282,8 @@
       "sha256": "fcc40451386fc5f551eaf83bd3dbc7d21f09a90efd4cdf1deb9e00797d62debc",
       "publishedSha256": "ca9c73c5543f8d14d25ca9e01136bb23f4df48bd18cae6c4a3d74946bbf06ac1",
       "role": "source_question_or_response_figure",
-      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
     },
     {
       "id": "e20-image3",
@@ -286,7 +292,8 @@
       "sha256": "ac47551f14a61e29b5f560c59b72be46d673c6db25abac4eda923b03f1151214",
       "publishedSha256": "e78a80d8d64a27d8fd416e91a1685c762fa9ee9dfec155ead8ca6dc230f9fa33",
       "role": "source_question_or_response_figure",
-      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
     },
     {
       "id": "e25-image2",
@@ -295,7 +302,8 @@
       "sha256": "9804b9e1e60b5d89cb214da9b0ea289ee3befcd24c986f459a3b16e97abfd2cf",
       "publishedSha256": "1652e0e3282934cf960bf343c138d6bd1399aeb4f93fb6e282237ac221be13c1",
       "role": "source_question_or_response_figure",
-      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
     },
     {
       "id": "e25-image3",
@@ -304,7 +312,8 @@
       "sha256": "99f87728ab2fc400cc01d0929f74cda4d06ba6e5cb2f9f662e2ec60f63e71eae",
       "publishedSha256": "6b4604858252ef4497aa46944cf3ce7c93bcb3894f781af2443002aee918573f",
       "role": "source_question_or_response_figure",
-      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
     },
     {
       "id": "native-vector-eb9d4afd6a03",
@@ -314,7 +323,7 @@
         183
       ],
       "role": "source_native_vector_response_figure",
-      "conversion": "Original blank response circles or labelled force arrows redrawn as SVG,then rasterised for cross-format export.",
+      "conversion": "Source-native response figure or labelled diagram transcribed to SVG with source structure preserved, then rasterised for cross-format export.",
       "vectorSha256": "eb9d4afd6a030465b5ea543796ddc29c79de557f1523a60b52ea6ed19ea4fc28",
       "publishedSha256": "3af09d92f51fe55c65de3868c7d56871c6ad34c419db1686b870cdc65914e958"
     }

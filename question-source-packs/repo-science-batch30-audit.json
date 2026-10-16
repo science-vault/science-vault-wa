@@ -1,0 +1,457 @@
+{
+  "batch": "repo-science-batch30",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y8-ARAN-2015-PHYSEND-MC14",
+    "SCI-REPO-Y8-ARAN-2015-PHYSEND-MC15",
+    "SCI-REPO-Y8-ARAN-2015-PHYSEND-MC16"
+  ],
+  "questions": 3,
+  "multipleChoice": 3,
+  "writtenQuestions": 0,
+  "battleEligible": 3,
+  "marks": 3,
+  "reviewRequired": [],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+      "sha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+      "year": 8,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [
+    {
+      "id": "sci-repo-y8-aran-2015-physend-mc-1",
+      "title": "Year 8 Science — Physics end-topic test — Aranmore 2015 (original source MC)",
+      "course": "Science",
+      "yearGroup": 8,
+      "unit": "Physical Sciences",
+      "parent": "Physics end-topic test — Aranmore 2015",
+      "count": 3,
+      "kind": "assessment",
+      "assessmentCount": 3,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch30.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=8&search=SCI-REPO-Y8-ARAN-2015-PHYSEND",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    }
+  ],
+  "createdKeys": 0,
+  "createdSupplements": 3,
+  "notes": [
+    "Full 2015 physics variant reviewed, including its embedded solutions. Seventeen repeated MC and eighteen repeated written parts explicitly mapped to existing 2013 source records. Only the three distinct MC prompts are added. Matching cooling-data tables checked directly, and worked solution section is not counted as questions."
+  ],
+  "markAudit": {
+    "Physics end-topic": {
+      "printedTotal": 47,
+      "sourceMarksIncludingAliases": 47,
+      "newSourcePromptsBeforeDeduplication": 3,
+      "repeatPromptsMapped": 35
+    }
+  },
+  "duplicateQuestionAliases": [
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+      "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+      "sourceQuestionNumber": "1",
+      "sourceParagraphs": [
+        9
+      ],
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC01",
+      "reason": "Same source task and context in the previously imported 2013 paper; not recounted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+      "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+      "sourceQuestionNumber": "2",
+      "sourceParagraphs": [
+        16
+      ],
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC02",
+      "reason": "Same source task and context in the previously imported 2013 paper; not recounted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+      "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+      "sourceQuestionNumber": "3",
+      "sourceParagraphs": [
+        23
+      ],
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC03",
+      "reason": "Same source task and context in the previously imported 2013 paper; not recounted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+      "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+      "sourceQuestionNumber": "4",
+      "sourceParagraphs": [
+        30
+      ],
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC04",
+      "reason": "Equivalent source stem and response choices; changed names/device labels or reordered options do not create an additional question. Thermal-capacity conditional assumptions remain in the existing manual-review record."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+      "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+      "sourceQuestionNumber": "5",
+      "sourceParagraphs": [
+        36
+      ],
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC05",
+      "reason": "Same source task and context in the previously imported 2013 paper; not recounted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+      "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+      "sourceQuestionNumber": "6",
+      "sourceParagraphs": [
+        43
+      ],
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC06",
+      "reason": "Same source task and context in the previously imported 2013 paper; not recounted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+      "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+      "sourceQuestionNumber": "7",
+      "sourceParagraphs": [
+        50
+      ],
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC07",
+      "reason": "Same source task and context in the previously imported 2013 paper; not recounted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+      "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+      "sourceQuestionNumber": "8",
+      "sourceParagraphs": [
+        57
+      ],
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC08",
+      "reason": "Same source task and context in the previously imported 2013 paper; not recounted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+      "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+      "sourceQuestionNumber": "9",
+      "sourceParagraphs": [
+        65
+      ],
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC09",
+      "reason": "Same source task and context in the previously imported 2013 paper; not recounted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+      "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+      "sourceQuestionNumber": "10",
+      "sourceParagraphs": [
+        71
+      ],
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC10",
+      "reason": "Same source task and context in the previously imported 2013 paper; not recounted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+      "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+      "sourceQuestionNumber": "11",
+      "sourceParagraphs": [
+        77
+      ],
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC11",
+      "reason": "Same source task and context in the previously imported 2013 paper; not recounted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+      "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+      "sourceQuestionNumber": "12",
+      "sourceParagraphs": [
+        83,
+        84,
+        85,
+        86
+      ],
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC12",
+      "reason": "Same source task and context in the previously imported 2013 paper; not recounted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+      "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+      "sourceQuestionNumber": "13",
+      "sourceParagraphs": [
+        92,
+        93,
+        95
+      ],
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC13",
+      "reason": "Equivalent source stem and response choices; changed names/device labels or reordered options do not create an additional question. Thermal-capacity conditional assumptions remain in the existing manual-review record."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+      "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+      "sourceQuestionNumber": "17",
+      "sourceParagraphs": [
+        121
+      ],
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC17",
+      "reason": "Same source task and context in the previously imported 2013 paper; not recounted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+      "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+      "sourceQuestionNumber": "18",
+      "sourceParagraphs": [
+        127
+      ],
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC18",
+      "reason": "Same source task and context in the previously imported 2013 paper; not recounted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+      "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+      "sourceQuestionNumber": "19",
+      "sourceParagraphs": [
+        134
+      ],
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC19",
+      "reason": "Same source task and context in the previously imported 2013 paper; not recounted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+      "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+      "sourceQuestionNumber": "20",
+      "sourceParagraphs": [
+        140,
+        141,
+        144
+      ],
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC20",
+      "reason": "Same source task and context in the previously imported 2013 paper; not recounted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+      "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+      "sourceQuestionNumber": "1a",
+      "sourceParagraphs": [
+        154,
+        155
+      ],
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-1a",
+      "reason": "Same source task and context in the 2013 end-topic paper; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+      "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+      "sourceQuestionNumber": "1b",
+      "sourceParagraphs": [
+        154,
+        157
+      ],
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-1b",
+      "reason": "Same source task and context in the 2013 end-topic paper; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+      "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+      "sourceQuestionNumber": "1c",
+      "sourceParagraphs": [
+        154,
+        159
+      ],
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-1c",
+      "reason": "Same source task and context in the 2013 end-topic paper; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+      "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+      "sourceQuestionNumber": "2",
+      "sourceParagraphs": [
+        163
+      ],
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-2",
+      "reason": "Same source task and context in the 2013 end-topic paper; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+      "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+      "sourceQuestionNumber": "3a",
+      "sourceParagraphs": [
+        167,
+        168
+      ],
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-3a",
+      "reason": "Same source task and context in the 2013 end-topic paper; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+      "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+      "sourceQuestionNumber": "3b",
+      "sourceParagraphs": [
+        167,
+        170
+      ],
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-3b",
+      "reason": "Same source task and context in the 2013 end-topic paper; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+      "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+      "sourceQuestionNumber": "3c",
+      "sourceParagraphs": [
+        167,
+        174
+      ],
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-3c",
+      "reason": "Same source task and context in the 2013 end-topic paper; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+      "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+      "sourceQuestionNumber": "3d",
+      "sourceParagraphs": [
+        167,
+        176
+      ],
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-3d",
+      "reason": "Same source task and context in the 2013 end-topic paper; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+      "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+      "sourceQuestionNumber": "4",
+      "sourceParagraphs": [
+        180,
+        181,
+        182
+      ],
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-4",
+      "reason": "Same source task and context in the 2013 end-topic paper; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+      "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+      "sourceQuestionNumber": "7a",
+      "sourceParagraphs": [
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193
+      ],
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-7a",
+      "reason": "Same source task and context in the 2013 end-topic paper; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+      "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+      "sourceQuestionNumber": "7b",
+      "sourceParagraphs": [
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        194
+      ],
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-7b",
+      "reason": "Same source task and context in the 2013 end-topic paper; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+      "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+      "sourceQuestionNumber": "7c",
+      "sourceParagraphs": [
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        195
+      ],
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-7c",
+      "reason": "Same source task and context in the 2013 end-topic paper; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+      "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+      "sourceQuestionNumber": "7d",
+      "sourceParagraphs": [
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        196
+      ],
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-7d",
+      "reason": "Same source task and context in the 2013 end-topic paper; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+      "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+      "sourceQuestionNumber": "8a",
+      "sourceParagraphs": [
+        200,
+        202,
+        215
+      ],
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-8a",
+      "reason": "Same source task and context in the 2013 end-topic paper; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+      "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+      "sourceQuestionNumber": "8b",
+      "sourceParagraphs": [
+        200,
+        202,
+        218
+      ],
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-8b",
+      "reason": "Same source task and context in the 2013 end-topic paper; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+      "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+      "sourceQuestionNumber": "8c",
+      "sourceParagraphs": [
+        200,
+        202,
+        221
+      ],
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-8c",
+      "reason": "Same source task and context in the 2013 end-topic paper; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+      "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+      "sourceQuestionNumber": "8d",
+      "sourceParagraphs": [
+        200,
+        202,
+        223
+      ],
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-8d",
+      "reason": "Same source task and context in the 2013 end-topic paper; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Physics End of Topic Test.docx",
+      "sourceFileSha": "932bcd680b0cc225cadb8fc7a40f04c418ea7908",
+      "sourceQuestionNumber": "8e",
+      "sourceParagraphs": [
+        200,
+        202,
+        225
+      ],
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-8e",
+      "reason": "Same source task and context in the 2013 end-topic paper; not added or counted again."
+    }
+  ]
+}

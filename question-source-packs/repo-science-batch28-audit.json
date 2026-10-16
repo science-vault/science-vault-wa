@@ -1,0 +1,120 @@
+{
+  "batch": "repo-science-batch28",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y8-ARAN-2014-SCIMETHOD-MC01",
+    "SCI-REPO-Y8-ARAN-2014-SCIMETHOD-MC02",
+    "SCI-REPO-Y8-ARAN-2014-SCIMETHOD-MC03",
+    "SCI-REPO-Y8-ARAN-2014-SCIMETHOD-MC04",
+    "SCI-REPO-Y8-ARAN-2014-SCIMETHOD-MC05",
+    "SCI-REPO-Y8-ARAN-2014-SCIMETHOD-W1",
+    "SCI-REPO-Y8-ARAN-2014-SCIMETHOD-W2a",
+    "SCI-REPO-Y8-ARAN-2014-SCIMETHOD-W2b",
+    "SCI-REPO-Y8-ARAN-2014-SCIMETHOD-W2c",
+    "SCI-REPO-Y8-ARAN-2014-SCIMETHOD-W2d",
+    "SCI-REPO-Y8-ARAN-2014-SCIMETHOD-W2e",
+    "SCI-REPO-Y8-ARAN-2014-SCIMETHOD-W3",
+    "SCI-REPO-Y8-ARAN-2014-SCIMETHOD-W4",
+    "SCI-REPO-Y8-ARAN-2014-SCIMETHOD-W5",
+    "SCI-REPO-Y8-ARAN-2014-SCIMETHOD-W6a",
+    "SCI-REPO-Y8-ARAN-2014-SCIMETHOD-W6b",
+    "SCI-REPO-Y8-ARAN-2014-SCIMETHOD-W7",
+    "SCI-REPO-Y8-ARAN-2014-SCIMETHOD-W8"
+  ],
+  "questions": 18,
+  "multipleChoice": 5,
+  "writtenQuestions": 13,
+  "battleEligible": 5,
+  "marks": 45,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y8-ARAN-2014-SCIMETHOD-W7",
+      "note": "Definition b does not uniquely establish second-hand provenance. Accept a justified correction of the source definition."
+    }
+  ],
+  "imageAudit": [
+    {
+      "id": "e64-page3-equipment-response-table",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2014 8 SCIENCE SCIENTIFIC METHOD TEST.docx",
+      "sourceFileSha": "1bf59d2151e79a263d717a90f120d371f9c39feb",
+      "sourcePage": 3,
+      "pdfCropPoints": [
+        28,
+        82,
+        570,
+        817
+      ],
+      "role": "original_native_Word_figure",
+      "conversion": "Original DOCX rendered by LibreOffice to PDF; bounded source figure rasterised at 216 dpi without redrawing. Native editable shapes, table borders, shading and example points retained.",
+      "publishedSha256": "62fd9955f0ac3ec114b637f844c98a99841e9591fcff85663f0bfd9e4a06bac5"
+    },
+    {
+      "id": "e64-image3-crop-aec01a74",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2014 8 SCIENCE SCIENTIFIC METHOD TEST.docx",
+      "embeddedImage": "word/media/image3.png",
+      "sha256": "0e062beb1f9552e6e708cc8548a1a6170eb1f8b5bd726ce41683e82b97ab2705",
+      "publishedSha256": "8fbe01aec20b36cf9996582959071d60f372d8b90440d39f7dd1cd502c8b7520",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {
+        "t": 3448
+      },
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e64-image4-crop-d17599b7",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2014 8 SCIENCE SCIENTIFIC METHOD TEST.docx",
+      "embeddedImage": "word/media/image4.jpeg",
+      "sha256": "69725320f0b7c2bf44257981380fcf57e09167e6dd33e741757972557caccf30",
+      "publishedSha256": "2e75972b129e6e7f137e571f56792038861eaf02871cb4726d057a5b01480219",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {
+        "l": 7661,
+        "t": 12044,
+        "r": 8176,
+        "b": 12094
+      },
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2014 8 SCIENCE SCIENTIFIC METHOD TEST.docx",
+      "sha": "1bf59d2151e79a263d717a90f120d371f9c39feb",
+      "year": 8,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [
+    {
+      "id": "sci-repo-y8-aran-2014-scimethod-mc-1",
+      "title": "Year 8 Science — Scientific method test — Aranmore 2014 (original source MC)",
+      "course": "Science",
+      "yearGroup": 8,
+      "unit": "Science Inquiry Skills",
+      "parent": "Scientific method test — Aranmore 2014",
+      "count": 5,
+      "kind": "assessment",
+      "assessmentCount": 5,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch28.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=8&search=SCI-REPO-Y8-ARAN-2014-SCIMETHOD",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    }
+  ],
+  "createdKeys": 18,
+  "createdSupplements": 0,
+  "notes": [
+    "Complete 2014 scientific-method assessment with equipment drawings kept in original table cells and supplied population data preserved. Corrected narrow first-/second-hand wording in marking guidance."
+  ],
+  "markAudit": {
+    "Scientific method": {
+      "coverTotal": 46,
+      "multipleChoice": 5,
+      "printedWrittenTotal": 40,
+      "sumOfPrintedTaskMarks": 45,
+      "note": "The cover says46 but five MC plus written task allocations sum45; source task marks retained."
+    }
+  },
+  "duplicateQuestionAliases": []
+}

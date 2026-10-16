@@ -74,7 +74,8 @@
       "sha256": "78a570aafd1e0f6dfd930f61a61eafec962831c22bbf2bc2f10a6eb84dfbdd93",
       "publishedSha256": "2eb7ee366646594a70b206f550732dc6b936ed5a98c7cd84ecb1d4155def9b23",
       "role": "source_question_or_response_figure",
-      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
     },
     {
       "id": "e60-image10",
@@ -83,7 +84,8 @@
       "sha256": "a8ffc203a99b67419a2924fb153e91b4f2b2e97c7e1774926cae89168f1a3d4f",
       "publishedSha256": "f8ae6afbd4bd0867aaceab682600e1b3e9dcd54b43f1b0109432af82b79d053a",
       "role": "source_question_or_response_figure",
-      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
     },
     {
       "id": "e60-image11",
@@ -92,7 +94,8 @@
       "sha256": "7f225c40f65d408fd291314d2e85015395e76ec7f874b2572d77236bae0a3a46",
       "publishedSha256": "cf9a4ecc74bc82e2068999a89bdba41020a9bedd3b77073c202ed0f711755215",
       "role": "source_question_or_response_figure",
-      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
     },
     {
       "id": "e60-image12",
@@ -101,7 +104,8 @@
       "sha256": "5b45ec796497bd916a6b4fbbe188a29e50d35fd4a87b23d5a48b2269f2812d55",
       "publishedSha256": "6dd13fbfeaff7eb1f8a473d2097febc31046a961db35723e4ca9d01b223a6b43",
       "role": "source_question_or_response_figure",
-      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
     },
     {
       "id": "e60-image13",
@@ -110,7 +114,8 @@
       "sha256": "8b1840559e5bc3bcc858272914702f5022b47806c5994dda89ced501cf159c32",
       "publishedSha256": "cb0b0a90ceae6f5b167bbfec7ec42e6479d4b9643a2ee5d052168daa4ea3661a",
       "role": "source_question_or_response_figure",
-      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
     },
     {
       "id": "e60-image14",
@@ -119,16 +124,21 @@
       "sha256": "5ba05593ef55bc5df4c3212a0dee572550cfaa4a8400bac032cce6cb88f3b7cb",
       "publishedSha256": "0232bd6f67e67e1b9eecdbe1d469d93113f4cf96b605bc8481dd7537192b3c95",
       "role": "source_question_or_response_figure",
-      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
     },
     {
-      "id": "e60-image15",
+      "id": "e60-image15-crop-4b1bacda",
       "source": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/General End Topic Test Ch8 and 9.1.docx",
       "embeddedImage": "word/media/image15.jpeg",
       "sha256": "6c7fc562bf75d1e69b263ff586e426bd14ee35cddf289067f7440e51fc54578e",
-      "publishedSha256": "0bcbcc75e3162112741d1efceb24bfa6addc3edf6ba1b52421deba0be28f0cbd",
+      "publishedSha256": "2a0a2fd81b3e3ea9f3ea1810a721e1a65ed591a1baa486134bbac7c650e1f4fd",
       "role": "source_question_or_response_figure",
-      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+      "wordSourceCrop100000ths": {
+        "t": 2029,
+        "b": -1
+      },
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
     },
     {
       "id": "e60-image16",
@@ -137,7 +147,8 @@
       "sha256": "67408431187450bf88c199409a78fcb6a7f3b01f97e8104d5527f2f083c87726",
       "publishedSha256": "88709bdc137db81949fa3b820b97448dcdb2d98ba60ee877e8e34c862c4be906",
       "role": "source_question_or_response_figure",
-      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
     },
     {
       "id": "e60-image17",
@@ -146,7 +157,8 @@
       "sha256": "f080e2c54385e9947266bcf12e7aae944bbea5e609dbb5fe8ee8cdfe19bc9a48",
       "publishedSha256": "22ecbbe7e15f27599cc88273023c94ea16692f135399592a76ac152aeb673b83",
       "role": "source_question_or_response_figure",
-      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
     },
     {
       "id": "e60-page7-bridge-A-B-labels",
@@ -170,7 +182,8 @@
       "sha256": "1a76c8df24e0211f01d6fa235b053302d4930c665ee8506680ada11802946276",
       "publishedSha256": "da6415f4e24058a94014596fa57483e05140c07ee600886fa87ce1caa446733e",
       "role": "source_question_or_response_figure",
-      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
     },
     {
       "id": "e60-image19",
@@ -179,7 +192,8 @@
       "sha256": "f07f54cf4fa808d9890abdd8ab3701415f746bf6b53a5fd70401b9a68646e11a",
       "publishedSha256": "1894e3e6c37b471051ca03cc79965a8e18df3e631b01616aaffc19d417e5e34a",
       "role": "source_question_or_response_figure",
-      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
     },
     {
       "id": "e60-image20",
@@ -188,7 +202,8 @@
       "sha256": "f4c15fd7b0fb57ad3b19afb80cf00cedcdec8d733085a257b59b8f6cc762140f",
       "publishedSha256": "d9be75693063c0f18dbc34161c84ef2660067f0112def77e08a528d324b873ac",
       "role": "source_question_or_response_figure",
-      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
     },
     {
       "id": "e62-image1",
@@ -197,7 +212,8 @@
       "sha256": "3a78fb9fe922c0af6f5cf3c5dc0909ea3cd6851b6e2e0e51e5c9f70e129e40f0",
       "publishedSha256": "0ec2e68da268022efe46a210c7a4e1a6dae6f217307a620edc15f32f5feb0685",
       "role": "source_question_or_response_figure",
-      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
     }
   ],
   "sources": [
