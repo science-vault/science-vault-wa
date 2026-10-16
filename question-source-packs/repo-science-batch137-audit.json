@@ -1,0 +1,91 @@
+{
+  "batch": "repo-science-batch137",
+  "paperCount": 2,
+  "questionIds": [
+    "SCI-REPO-Y10-SBY-2024-MEMORYRESEARCHA-focus",
+    "SCI-REPO-Y10-SBY-2024-MEMORYRESEARCHA-loftus-one",
+    "SCI-REPO-Y10-SBY-2024-MEMORYRESEARCHA-loftus-two",
+    "SCI-REPO-Y10-SBY-2024-MEMORYRESEARCHA-additional-one",
+    "SCI-REPO-Y10-SBY-2024-MEMORYRESEARCHA-additional-two",
+    "SCI-REPO-Y10-SBY-2024-MEMORYRESEARCHB-aim",
+    "SCI-REPO-Y10-SBY-2024-MEMORYRESEARCHB-variables",
+    "SCI-REPO-Y10-SBY-2024-MEMORYRESEARCHB-hypothesis",
+    "SCI-REPO-Y10-SBY-2024-MEMORYRESEARCHB-equipment",
+    "SCI-REPO-Y10-SBY-2024-MEMORYRESEARCHB-method",
+    "SCI-REPO-Y10-SBY-2024-MEMORYRESEARCHB-results",
+    "SCI-REPO-Y10-SBY-2024-MEMORYRESEARCHB-patterns",
+    "SCI-REPO-Y10-SBY-2024-MEMORYRESEARCHB-evaluation",
+    "SCI-REPO-Y10-SBY-2024-MEMORYRESEARCHB-conclusion"
+  ],
+  "questions": 14,
+  "multipleChoice": 0,
+  "writtenQuestions": 14,
+  "battleEligible": 0,
+  "marks": 32,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MEMORYRESEARCHB-aim",
+      "note": "Source report requires the actual selected memory-study design and data;no fixed experiment is supplied."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MEMORYRESEARCHB-variables",
+      "note": "Source report requires the actual selected memory-study design and data;no fixed experiment is supplied."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MEMORYRESEARCHB-hypothesis",
+      "note": "Source report requires the actual selected memory-study design and data;no fixed experiment is supplied."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MEMORYRESEARCHB-equipment",
+      "note": "Source report requires the actual selected memory-study design and data;no fixed experiment is supplied."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MEMORYRESEARCHB-method",
+      "note": "Source report requires the actual selected memory-study design and data;no fixed experiment is supplied."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MEMORYRESEARCHB-results",
+      "note": "Source report requires the actual selected memory-study design and data;no fixed experiment is supplied."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MEMORYRESEARCHB-patterns",
+      "note": "Source report requires the actual selected memory-study design and data;no fixed experiment is supplied."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MEMORYRESEARCHB-evaluation",
+      "note": "Source report requires the actual selected memory-study design and data;no fixed experiment is supplied."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MEMORYRESEARCHB-conclusion",
+      "note": "Source report requires the actual selected memory-study design and data;no fixed experiment is supplied."
+    }
+  ],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Psychology Elective/Safety Bay/2024/Assessments/Task 6 Reliablity of Memory Task Part A.docx",
+      "sha": "8ddafcf4dc3085272eaab14be4eb90fe349e6e9f",
+      "year": 10,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Psychology Elective/Safety Bay/2024/Assessments/Task 6 Reliablity of Memory Task Part B.docx",
+      "sha": "60740d9acd5510bdb6f6727ccdea76f736546c08",
+      "year": 10,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 0,
+  "createdSupplements": 14,
+  "notes": [
+    "Both linked memory-research/report parts reviewed. PartA12andPartB20retained;15%is course weighting,not markcount. SourcePartBprose mistakenly repeatsPartAheading,while its printed32overall matches12+20. No actual participant study or submission performed."
+  ],
+  "markAudit": {
+    "A": 12,
+    "B": 20,
+    "total": 32,
+    "courseWeightPercent": 15
+  },
+  "duplicateQuestionAliases": []
+}

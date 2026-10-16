@@ -1,8 +1,63 @@
 {
   "questionIds": [
-    "SCI-REPO-Y7-B09-D11-MC02"
+    "SCI-REPO-Y7-B09-D11-MC02",
+    "SCI-REPO-Y7-B09-D11-WR01",
+    "SCI-REPO-Y7-B09-D11-WR02",
+    "SCI-REPO-Y7-B09-D11-WR03",
+    "SCI-REPO-Y7-B09-D11-WR04",
+    "SCI-REPO-Y7-B09-D11-WR05",
+    "SCI-REPO-Y7-B09-D11-WR06",
+    "SCI-REPO-Y7-B09-D11-WR07",
+    "SCI-REPO-Y7-B09-D11-WR08",
+    "SCI-REPO-Y7-B09-D11-WR09",
+    "SCI-REPO-Y7-B09-D11-WR10",
+    "SCI-REPO-Y7-B09-D11-WR11"
   ],
   "notes": {
+    "SCI-REPO-Y7-B09-D11-WR01": {
+      "answer": "Source subpart match1: Controlled variable.  Source subpart match2: Evaporation.  Source subpart match3: Chemical property.  Source subpart match4: State or phase.  Source subpart match5: Grams. Gram is the supplied mass unit;the SI base unit is kilogram. Source subpart match6: Incompressible. Effectively incompressible is an approximation for ordinary solids/liquids. Source subpart match7: Freezing.  Source subpart match8: Tripod.  Source subpart match9: Sublimation.  Source subpart match10: Atom. Atoms are basic units of elements;matter also contains molecules,ions and other constituents.",
+      "note": "Existing grouped question rechecked against the keyed source;subpart guidance consolidated without counting duplicates."
+    },
+    "SCI-REPO-Y7-B09-D11-WR02": {
+      "answer": "Source subpart distillation: Scientific apparatus drawing2.5marks plus labels2.5marks as supplied. Show heated saltwater vessel,vapour path,condenser/cooling arrangement and receiving vessel;label condenser explicitly. Salt remains in the boiling vessel and water condenses into receiver. Source references Pearson Science7p141 but includes no actual diagram.",
+      "note": "Existing grouped question rechecked against the keyed source;subpart guidance consolidated without counting duplicates."
+    },
+    "SCI-REPO-Y7-B09-D11-WR03": {
+      "answer": "Source subpart 3a: Evaporate more slowly (1),with a feasible way to slow it,such as gentler conditions/less rapid heating (1). Source subpart 3b: Slower evaporation reduces rapid supersaturation/nucleation under suitable conditions (1),allowing existing crystals more time/material to grow (1);other factors also matter.",
+      "note": "Existing grouped question rechecked against the keyed source;subpart guidance consolidated without counting duplicates."
+    },
+    "SCI-REPO-Y7-B09-D11-WR04": {
+      "answer": "Source subpart 4a: Two accurate physical properties of water (1each),with conditions where needed,e.g.colourless liquid at room conditions;freezing near0\u00b0Candboiling near100\u00b0Cat1atm. Do not taste laboratory samples. Source subpart 4b: Solid,liquid and gas. Source subpart 4c: Three suitable techniques for insoluble mixtures (1each),e.g.filtration,sieving,decanting,centrifugation,magnetic separation where one component is magnetic. Suitability depends on the mixture.",
+      "note": "Existing grouped question rechecked against the keyed source;subpart guidance consolidated without counting duplicates."
+    },
+    "SCI-REPO-Y7-B09-D11-WR05": {
+      "answer": "Source subpart 5: Recover the volatile solvent by condensation (1) as well as retaining the nonvolatile solute (1),so both valuable components can be recovered;ordinary open evaporation loses solvent.",
+      "note": "Existing grouped question rechecked against the keyed source;subpart guidance consolidated without counting duplicates."
+    },
+    "SCI-REPO-Y7-B09-D11-WR06": {
+      "answer": "Source subpart 6: Formation of an ordered crystalline solid (1),e.g.from a supersaturated solution as solvent evaporates/cools (1). Crystallisation is not limited to evaporation from solution.",
+      "note": "Existing grouped question rechecked against the keyed source;subpart guidance consolidated without counting duplicates."
+    },
+    "SCI-REPO-Y7-B09-D11-WR07": {
+      "answer": "Source subpart 7a: Physical property. Source subpart 7b: Physical property. Source subpart 7c: Chemical property. Source subpart 7d: Physical property.",
+      "note": "Existing grouped question rechecked against the keyed source;subpart guidance consolidated without counting duplicates."
+    },
+    "SCI-REPO-Y7-B09-D11-WR08": {
+      "answer": "Source subpart 8a: Melting. Source subpart 8b: Gelation:formation of a gel network,not generally freezing. The source key says freezing/solidification;none of the supplied simple phase-change labels describes ordinary jelly setting accurately. Source subpart 8c: Condensation. Source subpart 8d: Dry ice CO2sublimes directly from solid to gas. The visible fog is condensed water droplets,not visible CO2gas or steam. Source subpart 8e: Evaporation is the intended phase-change answer,though real water can also drain/infiltrate.",
+      "note": "Existing grouped question rechecked against the keyed source;subpart guidance consolidated without counting duplicates."
+    },
+    "SCI-REPO-Y7-B09-D11-WR09": {
+      "answer": "Source subpart line: A plot showing a relationship across a continuous/ordered numerical variable,with suitable lines connecting or modelling points. Source subpart evaporation: Vaporisation at a liquid surface;can occur below boiling temperature and without external heating. Source subpart chemical: A characteristic concerning chemical change/reactivity. Source subpart method: An ordered reproducible procedure explaining how an investigation is conducted.",
+      "note": "Existing grouped question rechecked against the keyed source;subpart guidance consolidated without counting duplicates."
+    },
+    "SCI-REPO-Y7-B09-D11-WR10": {
+      "answer": "Source subpart 10a: Accurate columns for red121,orange132,yellow145,green87,blue45,indigo39,violet28mm (2);ink-colour categories (1);distance axis/units/scale (1);title (1). Source subpart 10b: Particle mass/heaviest ink cannot be determined from travel distance alone. Violet travelled least (28mm),but the supplied heaviest=violet claim is unsupported. Source subpart 10c: Particle mass/lightest ink cannot be determined from travel distance alone. Yellow travelled furthest (145mm),but the supplied lightest=yellow claim is unsupported. Source subpart 10d: Describe actual categorical travel distances with at least two accurate comparisons;yellow highest145mm,violet lowest28mm. Travel depends on solubility and attraction to stationary/mobile phases,not a simple mass ranking. Source subpart 10e: No unique brown distance can be predicted from these data. Brown ink can be a mixture with multiple components/bands;accept a clearly labelled justified hypothesis,not a factual measured value. Source subpart 10f: Justify a tentative hypothesis with relevant separation chemistry (1),and explain the need to measure the actual brown ink/formulation (1). Colour alone does not determine chromatographic distance.",
+      "note": "Existing grouped question rechecked against the keyed source;subpart guidance consolidated without counting duplicates."
+    },
+    "SCI-REPO-Y7-B09-D11-WR11": {
+      "answer": "Source subpart 11: Four properties across three states,1per cell:shape\u2014solid fixed,liquid takes occupied container shape,gas fills container;compressibility\u2014solids/liquids low,gas high;volume\u2014solid/liquid approximately fixed for a fixed amount under stated conditions,gas container-dependent;particles\u2014solid/liquid closely spaced,gas much further apart. Liquids are not generically far apart,and solids/liquids are slightly compressible.",
+      "note": "Existing grouped question rechecked against the keyed source;subpart guidance consolidated without counting duplicates."
+    },
     "SCI-REPO-Y7-B09-D11-MC02": {
       "answer": "Rapid evaporation commonly gives smaller crystals by allowing less growth time,but outcome depends on conditions. A and D overlap,and no-crystal claims need conditions;this is not a unique automatic question.",
       "note": "Overlapping rapid-evaporation choices need teacher review."

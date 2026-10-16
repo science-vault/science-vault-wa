@@ -1,0 +1,94 @@
+{
+  "batch": "repo-science-batch138",
+  "paperCount": 2,
+  "questionIds": [
+    "SCI-REPO-Y10-SBY-2024-DISORDERPRESENT-description",
+    "SCI-REPO-Y10-SBY-2024-DISORDERPRESENT-symptoms",
+    "SCI-REPO-Y10-SBY-2024-DISORDERPRESENT-treatment",
+    "SCI-REPO-Y10-SBY-2024-DISORDERPRESENT-statistics",
+    "SCI-REPO-Y10-SBY-2024-DISORDERPRESENT-case",
+    "SCI-REPO-Y10-SBY-2024-DISORDERPRESENT-references",
+    "SCI-REPO-Y10-SBY-2024-BRAINMODEL-model",
+    "SCI-REPO-Y10-SBY-2024-BRAINMODEL-hemispheres",
+    "SCI-REPO-Y10-SBY-2024-BRAINMODEL-requirements",
+    "SCI-REPO-Y10-SBY-2024-BRAINMODEL-facts",
+    "SCI-REPO-Y10-SBY-2024-BRAINMODEL-CNS",
+    "SCI-REPO-Y10-SBY-2024-BRAINMODEL-protection"
+  ],
+  "questions": 12,
+  "multipleChoice": 0,
+  "writtenQuestions": 12,
+  "battleEligible": 0,
+  "marks": 31,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-DISORDERPRESENT-description",
+      "note": "Open research presentation;actual condition/case/data must be selected and checked. Source rubric marks retained."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-DISORDERPRESENT-symptoms",
+      "note": "Open research presentation;actual condition/case/data must be selected and checked. Source rubric marks retained."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-DISORDERPRESENT-treatment",
+      "note": "Open research presentation;actual condition/case/data must be selected and checked. Source rubric marks retained."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-DISORDERPRESENT-statistics",
+      "note": "Open research presentation;actual condition/case/data must be selected and checked. Source rubric marks retained."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-DISORDERPRESENT-case",
+      "note": "Open research presentation;actual condition/case/data must be selected and checked. Source rubric marks retained."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-DISORDERPRESENT-references",
+      "note": "Open research presentation;actual condition/case/data must be selected and checked. Source rubric marks retained."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-BRAINMODEL-CNS",
+      "note": "Explicit prose requirements absent from rubric;allocation proposed."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-BRAINMODEL-protection",
+      "note": "Explicit prose requirements absent from rubric;allocation proposed."
+    }
+  ],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Psychology Elective/Safety Bay/2024/Assessments/Task 3 Mental Disorders Presentation.docx",
+      "sha": "a188224d0c0a55c6a66bf2adba5b4809344db1c1",
+      "year": 10,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Psychology Elective/Safety Bay/2024/Assessments/Task 2 Model Brain.docx",
+      "sha": "21a169e19cce612123d16e5c517a5a1a696034a8",
+      "year": 10,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 0,
+  "createdSupplements": 12,
+  "notes": [
+    "Mental-disorder and brain-model rubrics visually checked by scoring columns. Mental presentation20=14content/reference+6clarity/creativity. Brain model17=13content+4creativity;two explicit prose requirements add4proposed marks separately. No actual medical presentation,individual diagnosis or external submission performed."
+  ],
+  "markAudit": {
+    "presentation": {
+      "total": 20,
+      "selected": 14,
+      "clarityCreativity": 6,
+      "weightPercent": 15
+    },
+    "brain": {
+      "rubricTotal": 17,
+      "printedContent": 13,
+      "creativity": 4,
+      "additionalProposed": 4,
+      "selected": 17
+    }
+  },
+  "duplicateQuestionAliases": []
+}

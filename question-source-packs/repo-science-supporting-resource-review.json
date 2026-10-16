@@ -1141,6 +1141,36 @@
       "path": "resources/Assessments/Lowerschool/Year 10/Science/Psychology Elective/Safety Bay/2024/Assessments/Task 8 Semester 1 Online Notes.docx",
       "sha": "db8ac9c647d812784891767db7a88ca18e1105a5",
       "reason": "Generic notebook completion/detail/presentation rubric;no psychology content task supplied."
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2017/Chemistry Extension/ATAR Chemistry/Table for Precipitation experiment 4.3.docx",
+      "sha": "0f128cecd0f1a83862f74d9006524abdc42cc76e",
+      "reason": "Precipitation experiment recording matrix only;no prompt,procedure,observations or referenced activity4.3text supplied."
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Physics/Narrogin/2019/Dispersion of Light.docx",
+      "sha": "905c9479400eb3b1bd427290c675da7c0ab2228d",
+      "reason": "Dispersion title and unlabelled prism-ray reference diagram only;visually inspected,no student question or marking allocation."
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Psychology Elective/Safety Bay/2024/Outlines/Psychology Assessment Outline 2024.docx",
+      "sha": "2a88e562c6a92838195e4245948ba850aedab202",
+      "reason": "Psychology assessment schedule and weights only;no actual assessment questions."
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Psychology Elective/Safety Bay/2024/Outlines/Student Outline 2024.docx",
+      "sha": "31e569b38c3ebafca531fc53560cac001b1327be",
+      "reason": "Teaching/content outline and assessment dates/weights;topic headings are not supplied assessment questions."
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/COVER 2017 Sem 2 Exam Yr 10 Mainstream.docx",
+      "sha": "da75ab0ed9e82375de1505641f59ce273347c9ec",
+      "reason": "Exam cover and administrative instructions only;question booklets not included."
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/COVER 2017 Sem 2 Exam Yr 10 Ext.docx",
+      "sha": "44dc3a03f0cd8174d2f81220b94f1de99f37ba2a",
+      "reason": "Extension exam cover and administrative instructions only;question booklets not included."
     }
   ]
 }
