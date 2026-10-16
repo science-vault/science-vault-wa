@@ -1,0 +1,63 @@
+{
+  "batch": "repo-science-batch74",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-aim",
+    "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-prediction",
+    "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-hypothesis",
+    "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-independent",
+    "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-dependent",
+    "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-controlled",
+    "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-equipment",
+    "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-tense1",
+    "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-tense2",
+    "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-tense3",
+    "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-tense4",
+    "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-tense5",
+    "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-tense6",
+    "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-tense7",
+    "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-tense8",
+    "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-safety",
+    "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-results",
+    "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-heliotropism",
+    "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-phototropism",
+    "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-direction",
+    "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-groups",
+    "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-confounds",
+    "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-conclusion",
+    "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-difficulties",
+    "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-improve"
+  ],
+  "questions": 25,
+  "multipleChoice": 0,
+  "writtenQuestions": 25,
+  "battleEligible": 0,
+  "marks": 33,
+  "reviewRequired": [],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Unknown School/Effects of Sunlight on Plants Laboratory Assessment.docx",
+      "sha": "dbff5824f8b33fa04d928b37f78f459de38124b0",
+      "year": 7,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 25,
+  "createdSupplements": 0,
+  "notes": [
+    "Full plant-light assessment preserved:8planning,10tense conversions,1safety,2results,8discussion,2conclusion,2evaluation=33marks.8planning split explicitly proposed across7blank fields. Heliotropism and growth-based phototropism distinguished;actual observations required."
+  ],
+  "markAudit": {
+    "planning": 8,
+    "tense": 10,
+    "safety": 1,
+    "results": 2,
+    "discussion": 8,
+    "conclusion": 2,
+    "evaluation": 2,
+    "total": 33
+  },
+  "duplicateQuestionAliases": []
+}

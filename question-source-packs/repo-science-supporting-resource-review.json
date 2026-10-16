@@ -1005,6 +1005,11 @@
       "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2017/biomagnification 2.docx",
       "sha": "aa0e762d902245b195056f02f39246211c2c58a2",
       "reason": "Single biomagnification infographic only;visually inspected,no student prompts."
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2017/DISTILLATION.docx",
+      "sha": "b6f0ba67a2cd71aa0e8fe83f34c30554130de285",
+      "reason": "Distillation explanatory notes and illustrative apparatus;no student question or response task."
     }
   ]
 }

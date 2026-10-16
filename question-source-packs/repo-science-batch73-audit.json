@@ -1,0 +1,50 @@
+{
+  "batch": "repo-science-batch73",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y7-MLAW-2022-AUSECOSYSTEM-location",
+    "SCI-REPO-Y7-MLAW-2022-AUSECOSYSTEM-factors",
+    "SCI-REPO-Y7-MLAW-2022-AUSECOSYSTEM-predatorprey",
+    "SCI-REPO-Y7-MLAW-2022-AUSECOSYSTEM-chain",
+    "SCI-REPO-Y7-MLAW-2022-AUSECOSYSTEM-web",
+    "SCI-REPO-Y7-MLAW-2022-AUSECOSYSTEM-roles",
+    "SCI-REPO-Y7-MLAW-2022-AUSECOSYSTEM-diets",
+    "SCI-REPO-Y7-MLAW-2022-AUSECOSYSTEM-trophic",
+    "SCI-REPO-Y7-MLAW-2022-AUSECOSYSTEM-impacts",
+    "SCI-REPO-Y7-MLAW-2022-AUSECOSYSTEM-bibliography",
+    "SCI-REPO-Y7-MLAW-2022-AUSECOSYSTEM-poster",
+    "SCI-REPO-Y7-MLAW-2022-AUSECOSYSTEM-contribution"
+  ],
+  "questions": 12,
+  "multipleChoice": 0,
+  "writtenQuestions": 12,
+  "battleEligible": 0,
+  "marks": 32,
+  "reviewRequired": [],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Mount Lawley/7BS Ecosystems Investigation 2022.docx",
+      "sha": "5eadb4a9b7854beb20912153c5baecbad7cb6fca",
+      "year": 7,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 12,
+  "createdSupplements": 0,
+  "notes": [
+    "Complete research booklet and paired poster reviewed. Research rubric maximum23 differs from cover21;poster11 comprises8content+3presentation/editing. Reported32cover versus34rubric total retained as conflict,not silently reconciled. Contribution record separately proposed1mark."
+  ],
+  "markAudit": {
+    "cover": 32,
+    "researchCover": 21,
+    "researchRubricSum": 23,
+    "posterCoverAndRubric": 11,
+    "posterContent": 8,
+    "posterPresentationOnly": 3,
+    "rubricCombined": 34,
+    "contributionProposedAdditional": 1
+  },
+  "duplicateQuestionAliases": []
+}

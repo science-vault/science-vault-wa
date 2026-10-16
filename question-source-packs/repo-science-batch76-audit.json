@@ -1,0 +1,525 @@
+{
+  "batch": "repo-science-batch76",
+  "paperCount": 2,
+  "questionIds": [
+    "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-filtration",
+    "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-chromatography",
+    "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-magnetic",
+    "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-centrifuge",
+    "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-distillation",
+    "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-decanting",
+    "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match1",
+    "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match2",
+    "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match3",
+    "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match4",
+    "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match5",
+    "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match6",
+    "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match7",
+    "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match8",
+    "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match9",
+    "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match10",
+    "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match11",
+    "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match12",
+    "SCI-REPO-Y7-ARAN-CHEMVOCAB-225-chromatography",
+    "SCI-REPO-Y7-ARAN-CHEMVOCAB-225-magnetic",
+    "SCI-REPO-Y7-ARAN-CHEMVOCAB-225-centrifuge",
+    "SCI-REPO-Y7-ARAN-CHEMVOCAB-225-distillation",
+    "SCI-REPO-Y7-ARAN-CHEMVOCAB-225-decanting"
+  ],
+  "questions": 23,
+  "multipleChoice": 0,
+  "writtenQuestions": 23,
+  "battleEligible": 0,
+  "marks": 34,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-filtration",
+      "note": "Proposed distribution of13diagram marks under original25-mark cover;12matching marks separately explicit by items.Input label ambiguity flagged."
+    }
+  ],
+  "imageAudit": [
+    {
+      "id": "e222-page1-original-filtration-labels",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/2016/Year 7 Chemistry Vocabulary Test 2016.docx",
+      "sourceFileSha": "cbf1c44d3c64e8a2339266f9b19e3c64cb55415e",
+      "sourcePage": 1,
+      "pdfCropPoints": [
+        20,
+        270,
+        550,
+        525
+      ],
+      "role": "original_native_Word_figure",
+      "conversion": "Original DOCX rendered by LibreOffice to PDF; bounded source figure rasterised at 216 dpi without redrawing. Native editable shapes, table borders, shading and example points retained.",
+      "publishedSha256": "30a87eeb1475b654616fe728058c56dd398c406893f4edd5b5de010da5aa153e"
+    },
+    {
+      "id": "e222-page1-original-chromatography-labels",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/2016/Year 7 Chemistry Vocabulary Test 2016.docx",
+      "sourceFileSha": "cbf1c44d3c64e8a2339266f9b19e3c64cb55415e",
+      "sourcePage": 1,
+      "pdfCropPoints": [
+        60,
+        600,
+        255,
+        785
+      ],
+      "role": "original_native_Word_figure",
+      "conversion": "Original DOCX rendered by LibreOffice to PDF; bounded source figure rasterised at 216 dpi without redrawing. Native editable shapes, table borders, shading and example points retained.",
+      "publishedSha256": "30bc0c211e395a4ba783416d8b6bf2f43db9321f4355691e535b9e8ddc748ba7"
+    },
+    {
+      "id": "e222-page2-original-magnetic-labels",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/2016/Year 7 Chemistry Vocabulary Test 2016.docx",
+      "sourceFileSha": "cbf1c44d3c64e8a2339266f9b19e3c64cb55415e",
+      "sourcePage": 2,
+      "pdfCropPoints": [
+        165,
+        70,
+        305,
+        260
+      ],
+      "role": "original_native_Word_figure",
+      "conversion": "Original DOCX rendered by LibreOffice to PDF; bounded source figure rasterised at 216 dpi without redrawing. Native editable shapes, table borders, shading and example points retained.",
+      "publishedSha256": "87744dcd352d1bfd0adfed82aa7d47a3a5ef5c650b4ffcd75766aca056dbe779"
+    },
+    {
+      "id": "e222-page2-original-centrifuge-labels",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/2016/Year 7 Chemistry Vocabulary Test 2016.docx",
+      "sourceFileSha": "cbf1c44d3c64e8a2339266f9b19e3c64cb55415e",
+      "sourcePage": 2,
+      "pdfCropPoints": [
+        45,
+        145,
+        175,
+        330
+      ],
+      "role": "original_native_Word_figure",
+      "conversion": "Original DOCX rendered by LibreOffice to PDF; bounded source figure rasterised at 216 dpi without redrawing. Native editable shapes, table borders, shading and example points retained.",
+      "publishedSha256": "5a77bfc01b969d5137fcc7921131ca476f98a0b34a7ad85b1cc40b604aa4624b"
+    },
+    {
+      "id": "e222-page2-original-distillation-labels",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/2016/Year 7 Chemistry Vocabulary Test 2016.docx",
+      "sourceFileSha": "cbf1c44d3c64e8a2339266f9b19e3c64cb55415e",
+      "sourcePage": 2,
+      "pdfCropPoints": [
+        65,
+        370,
+        575,
+        670
+      ],
+      "role": "original_native_Word_figure",
+      "conversion": "Original DOCX rendered by LibreOffice to PDF; bounded source figure rasterised at 216 dpi without redrawing. Native editable shapes, table borders, shading and example points retained.",
+      "publishedSha256": "9bfe69ce9f6f3f2a45915b1b88350a8425aad196549c54190faeb820b841cd9d"
+    },
+    {
+      "id": "e222-page3-original-decanting-labels",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/2016/Year 7 Chemistry Vocabulary Test 2016.docx",
+      "sourceFileSha": "cbf1c44d3c64e8a2339266f9b19e3c64cb55415e",
+      "sourcePage": 3,
+      "pdfCropPoints": [
+        135,
+        95,
+        365,
+        300
+      ],
+      "role": "original_native_Word_figure",
+      "conversion": "Original DOCX rendered by LibreOffice to PDF; bounded source figure rasterised at 216 dpi without redrawing. Native editable shapes, table borders, shading and example points retained.",
+      "publishedSha256": "e625898b63ced5b2be0cbb3fef48cf7cbbba9e732733e8ded0c56bcd329bfe77"
+    },
+    {
+      "id": "e225-page1-original-filtration-labels",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Year 7 Chemistry Vocabulary Test.docx",
+      "sourceFileSha": "f454924484df23fb58cc90b58c833065b2b8b246",
+      "sourcePage": 1,
+      "pdfCropPoints": [
+        20,
+        270,
+        550,
+        525
+      ],
+      "role": "original_native_Word_figure",
+      "conversion": "Original DOCX rendered by LibreOffice to PDF; bounded source figure rasterised at 216 dpi without redrawing. Native editable shapes, table borders, shading and example points retained.",
+      "publishedSha256": "30a87eeb1475b654616fe728058c56dd398c406893f4edd5b5de010da5aa153e"
+    },
+    {
+      "id": "e225-page1-original-chromatography-labels",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Year 7 Chemistry Vocabulary Test.docx",
+      "sourceFileSha": "f454924484df23fb58cc90b58c833065b2b8b246",
+      "sourcePage": 1,
+      "pdfCropPoints": [
+        60,
+        600,
+        255,
+        785
+      ],
+      "role": "original_native_Word_figure",
+      "conversion": "Original DOCX rendered by LibreOffice to PDF; bounded source figure rasterised at 216 dpi without redrawing. Native editable shapes, table borders, shading and example points retained.",
+      "publishedSha256": "d84439206aee2af4c4f7585db08d17a6fe67bef5ee551cf7ecb886ef2367ab8b"
+    },
+    {
+      "id": "e225-page1-original-magnetic-labels",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Year 7 Chemistry Vocabulary Test.docx",
+      "sourceFileSha": "f454924484df23fb58cc90b58c833065b2b8b246",
+      "sourcePage": 1,
+      "pdfCropPoints": [
+        365,
+        645,
+        500,
+        825
+      ],
+      "role": "original_native_Word_figure",
+      "conversion": "Original DOCX rendered by LibreOffice to PDF; bounded source figure rasterised at 216 dpi without redrawing. Native editable shapes, table borders, shading and example points retained.",
+      "publishedSha256": "9974c17067c3e54f907a61e585fce0e20dd76fae84b0bf67d4ef7c7761d91595"
+    },
+    {
+      "id": "e225-page1-original-centrifuge-labels",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Year 7 Chemistry Vocabulary Test.docx",
+      "sourceFileSha": "f454924484df23fb58cc90b58c833065b2b8b246",
+      "sourcePage": 1,
+      "pdfCropPoints": [
+        235,
+        700,
+        365,
+        837
+      ],
+      "role": "original_native_Word_figure",
+      "conversion": "Original DOCX rendered by LibreOffice to PDF; bounded source figure rasterised at 216 dpi without redrawing. Native editable shapes, table borders, shading and example points retained.",
+      "publishedSha256": "6f9c487603e00be201669ce0d243c51e0ceb13070f5d6aa9204d404afe4ba45b"
+    },
+    {
+      "id": "e225-page2-original-distillation-labels",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Year 7 Chemistry Vocabulary Test.docx",
+      "sourceFileSha": "f454924484df23fb58cc90b58c833065b2b8b246",
+      "sourcePage": 2,
+      "pdfCropPoints": [
+        65,
+        205,
+        575,
+        515
+      ],
+      "role": "original_native_Word_figure",
+      "conversion": "Original DOCX rendered by LibreOffice to PDF; bounded source figure rasterised at 216 dpi without redrawing. Native editable shapes, table borders, shading and example points retained.",
+      "publishedSha256": "0ade3c61497f7f90f32b7940090f0d3f59b9f2947467bbd7b6579f246471e9f3"
+    },
+    {
+      "id": "e225-page2-original-decanting-labels",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Year 7 Chemistry Vocabulary Test.docx",
+      "sourceFileSha": "f454924484df23fb58cc90b58c833065b2b8b246",
+      "sourcePage": 2,
+      "pdfCropPoints": [
+        170,
+        610,
+        355,
+        790
+      ],
+      "role": "original_native_Word_figure",
+      "conversion": "Original DOCX rendered by LibreOffice to PDF; bounded source figure rasterised at 216 dpi without redrawing. Native editable shapes, table borders, shading and example points retained.",
+      "publishedSha256": "6397656ed9306f9b44b57115984f0e44bac0e45bf3e9ab31d5150c20d86eac95"
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/2016/Year 7 Chemistry Vocabulary Test 2016.docx",
+      "sha": "cbf1c44d3c64e8a2339266f9b19e3c64cb55415e",
+      "year": 7,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Year 7 Chemistry Vocabulary Test.docx",
+      "sha": "f454924484df23fb58cc90b58c833065b2b8b246",
+      "year": 7,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 23,
+  "createdSupplements": 0,
+  "notes": [
+    "Both complete25-mark diagram/vocabulary tests reviewed. All source-native leader lines and apparatus preserved. Six diagram tasks use proposed13-mark allocation;12matching items1each. Input-mixture label for filtration requires manual clarification."
+  ],
+  "markAudit": {
+    "eachPaper": 25,
+    "diagramAllocationProposed": 13,
+    "matching": 12
+  },
+  "duplicateQuestionAliases": [
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Year 7 Chemistry Vocabulary Test.docx",
+      "sourceFileSha": "f454924484df23fb58cc90b58c833065b2b8b246",
+      "sourceQuestionNumber": "filtration",
+      "sourceParagraphs": [
+        2,
+        3,
+        5
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-filtration",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Year 7 Chemistry Vocabulary Test.docx",
+      "sourceFileSha": "f454924484df23fb58cc90b58c833065b2b8b246",
+      "sourceQuestionNumber": "match1",
+      "sourceParagraphs": [
+        49,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match1",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Year 7 Chemistry Vocabulary Test.docx",
+      "sourceFileSha": "f454924484df23fb58cc90b58c833065b2b8b246",
+      "sourceQuestionNumber": "match2",
+      "sourceParagraphs": [
+        49,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match2",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Year 7 Chemistry Vocabulary Test.docx",
+      "sourceFileSha": "f454924484df23fb58cc90b58c833065b2b8b246",
+      "sourceQuestionNumber": "match3",
+      "sourceParagraphs": [
+        49,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match3",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Year 7 Chemistry Vocabulary Test.docx",
+      "sourceFileSha": "f454924484df23fb58cc90b58c833065b2b8b246",
+      "sourceQuestionNumber": "match4",
+      "sourceParagraphs": [
+        49,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match4",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Year 7 Chemistry Vocabulary Test.docx",
+      "sourceFileSha": "f454924484df23fb58cc90b58c833065b2b8b246",
+      "sourceQuestionNumber": "match5",
+      "sourceParagraphs": [
+        49,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match5",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Year 7 Chemistry Vocabulary Test.docx",
+      "sourceFileSha": "f454924484df23fb58cc90b58c833065b2b8b246",
+      "sourceQuestionNumber": "match6",
+      "sourceParagraphs": [
+        49,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match6",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Year 7 Chemistry Vocabulary Test.docx",
+      "sourceFileSha": "f454924484df23fb58cc90b58c833065b2b8b246",
+      "sourceQuestionNumber": "match7",
+      "sourceParagraphs": [
+        49,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match7",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Year 7 Chemistry Vocabulary Test.docx",
+      "sourceFileSha": "f454924484df23fb58cc90b58c833065b2b8b246",
+      "sourceQuestionNumber": "match8",
+      "sourceParagraphs": [
+        49,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match8",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Year 7 Chemistry Vocabulary Test.docx",
+      "sourceFileSha": "f454924484df23fb58cc90b58c833065b2b8b246",
+      "sourceQuestionNumber": "match9",
+      "sourceParagraphs": [
+        49,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match9",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Year 7 Chemistry Vocabulary Test.docx",
+      "sourceFileSha": "f454924484df23fb58cc90b58c833065b2b8b246",
+      "sourceQuestionNumber": "match10",
+      "sourceParagraphs": [
+        49,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match10",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Year 7 Chemistry Vocabulary Test.docx",
+      "sourceFileSha": "f454924484df23fb58cc90b58c833065b2b8b246",
+      "sourceQuestionNumber": "match11",
+      "sourceParagraphs": [
+        49,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match11",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Year 7 Chemistry Vocabulary Test.docx",
+      "sourceFileSha": "f454924484df23fb58cc90b58c833065b2b8b246",
+      "sourceQuestionNumber": "match12",
+      "sourceParagraphs": [
+        49,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match12",
+      "reason": "Equivalent source question already present; not added or counted again."
+    }
+  ]
+}

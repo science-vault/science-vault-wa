@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.16-science-source72",
+  "version": "2026.10.16-science-source77",
   "status": "in_progress",
   "scope": "Original Science assessment files in repository, Years 7–10. File counts include keys and supporting materials; they are not question counts.",
   "inventoryFiles": 2009,
@@ -11,11 +11,11 @@
     "9": 457,
     "10": 582
   },
-  "importedPapers": 194,
-  "importedQuestions": 2764,
-  "multipleChoice": 777,
-  "writtenQuestions": 1987,
-  "battleEligibleQuestions": 679,
+  "importedPapers": 203,
+  "importedQuestions": 2862,
+  "multipleChoice": 793,
+  "writtenQuestions": 2069,
+  "battleEligibleQuestions": 690,
   "reviewRequired": [
     {
       "id": "SCI-REPO-Y7-NAR-2024-CHEM-WR02",
@@ -1408,6 +1408,46 @@
     {
       "id": "SCI-REPO-Y7-NARR-2018-WATERFILTER-dependent",
       "note": "Use actual operational measure;filtrate appearance alone does not establish potability."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-MC01",
+      "note": "Ambiguous:no universal6000°Cminimum applies to all plasmas;low-temperature plasmas exist. “Plasma found deep in ocean” is also not a generally supported ordinary-state description. More than one problematic choice;manual moderation required."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-MC05",
+      "note": "A is the intended false statement:liquid particles retain interactions despite moving past each other. “Bonds between particles” conflates intermolecular attraction and chemical bonds;gas molecules can contain strong chemical bonds. Manual moderation required."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-MC06",
+      "note": "Question gives initial water volume,not final solution volume."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-V1",
+      "note": "Imprecise original definition requires teacher clarification."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-V3",
+      "note": "Imprecise original definition requires teacher clarification."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-2016-CHEMMID-221-V3",
+      "note": "Imprecise original definition requires teacher clarification."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-2012-CHEMMID-223-W4",
+      "note": "Modified word bank omits sublimation although solid-to-gas arrow remains;allow correct term outside supplied bank."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-filtration",
+      "note": "Proposed distribution of13diagram marks under original25-mark cover;12matching marks separately explicit by items.Input label ambiguity flagged."
+    },
+    {
+      "id": "SCI-REPO-Y7-NARR-2018-CHEM1-MC01",
+      "note": "IntendedB,but reversibility is not the defining criterion. A physical change does not change chemical identity;some physical changes are hard to reverse,and some chemical reactions are reversible. No fully adequate definition among options."
+    },
+    {
+      "id": "SCI-REPO-Y7-NARR-2018-CHEM1-MC05",
+      "note": "IntendedD:evaporation/crystallisation. The wording “one substance more soluble than another” most directly describes selective dissolving/fractional crystallisation,not every evaporation separation;teacher clarification needed."
     },
     {
       "id": "SCI-REPO-Y10-NAR-2024-UNIVERSE-MC02",
@@ -13946,6 +13986,1086 @@
         "waterFiltering": 20
       },
       "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch73",
+      "questionIds": [
+        "SCI-REPO-Y7-MLAW-2022-AUSECOSYSTEM-location",
+        "SCI-REPO-Y7-MLAW-2022-AUSECOSYSTEM-factors",
+        "SCI-REPO-Y7-MLAW-2022-AUSECOSYSTEM-predatorprey",
+        "SCI-REPO-Y7-MLAW-2022-AUSECOSYSTEM-chain",
+        "SCI-REPO-Y7-MLAW-2022-AUSECOSYSTEM-web",
+        "SCI-REPO-Y7-MLAW-2022-AUSECOSYSTEM-roles",
+        "SCI-REPO-Y7-MLAW-2022-AUSECOSYSTEM-diets",
+        "SCI-REPO-Y7-MLAW-2022-AUSECOSYSTEM-trophic",
+        "SCI-REPO-Y7-MLAW-2022-AUSECOSYSTEM-impacts",
+        "SCI-REPO-Y7-MLAW-2022-AUSECOSYSTEM-bibliography",
+        "SCI-REPO-Y7-MLAW-2022-AUSECOSYSTEM-poster",
+        "SCI-REPO-Y7-MLAW-2022-AUSECOSYSTEM-contribution"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Mount Lawley/7BS Ecosystems Investigation 2022.docx",
+          "sha": "5eadb4a9b7854beb20912153c5baecbad7cb6fca",
+          "year": 7,
+          "role": "paper"
+        }
+      ],
+      "questions": 12,
+      "marks": 32,
+      "imageAudit": "question-source-packs/repo-science-batch73-audit.json",
+      "notes": [
+        "Complete research booklet and paired poster reviewed. Research rubric maximum23 differs from cover21;poster11 comprises8content+3presentation/editing. Reported32cover versus34rubric total retained as conflict,not silently reconciled. Contribution record separately proposed1mark."
+      ],
+      "markAudit": {
+        "cover": 32,
+        "researchCover": 21,
+        "researchRubricSum": 23,
+        "posterCoverAndRubric": 11,
+        "posterContent": 8,
+        "posterPresentationOnly": 3,
+        "rubricCombined": 34,
+        "contributionProposedAdditional": 1
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch74",
+      "questionIds": [
+        "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-aim",
+        "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-prediction",
+        "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-hypothesis",
+        "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-independent",
+        "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-dependent",
+        "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-controlled",
+        "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-equipment",
+        "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-tense1",
+        "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-tense2",
+        "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-tense3",
+        "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-tense4",
+        "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-tense5",
+        "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-tense6",
+        "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-tense7",
+        "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-tense8",
+        "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-safety",
+        "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-results",
+        "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-heliotropism",
+        "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-phototropism",
+        "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-direction",
+        "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-groups",
+        "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-confounds",
+        "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-conclusion",
+        "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-difficulties",
+        "SCI-REPO-Y7-UNKNOWN-LIGHTPLANTS-improve"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Unknown School/Effects of Sunlight on Plants Laboratory Assessment.docx",
+          "sha": "dbff5824f8b33fa04d928b37f78f459de38124b0",
+          "year": 7,
+          "role": "paper"
+        }
+      ],
+      "questions": 25,
+      "marks": 33,
+      "imageAudit": "question-source-packs/repo-science-batch74-audit.json",
+      "notes": [
+        "Full plant-light assessment preserved:8planning,10tense conversions,1safety,2results,8discussion,2conclusion,2evaluation=33marks.8planning split explicitly proposed across7blank fields. Heliotropism and growth-based phototropism distinguished;actual observations required."
+      ],
+      "markAudit": {
+        "planning": 8,
+        "tense": 10,
+        "safety": 1,
+        "results": 2,
+        "discussion": 8,
+        "conclusion": 2,
+        "evaluation": 2,
+        "total": 33
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch75",
+      "questionIds": [
+        "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-MC01",
+        "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-MC02",
+        "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-MC03",
+        "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-MC04",
+        "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-MC05",
+        "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-MC06",
+        "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-W1",
+        "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-W2",
+        "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-W3",
+        "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-W4",
+        "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-W5",
+        "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-V1",
+        "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-V2",
+        "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-V3",
+        "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-V4",
+        "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-V5",
+        "SCI-REPO-Y7-ARAN-2016-CHEMMID-221-MC03",
+        "SCI-REPO-Y7-ARAN-2016-CHEMMID-221-MC06",
+        "SCI-REPO-Y7-ARAN-2016-CHEMMID-221-W2",
+        "SCI-REPO-Y7-ARAN-2016-CHEMMID-221-W4",
+        "SCI-REPO-Y7-ARAN-2016-CHEMMID-221-W5",
+        "SCI-REPO-Y7-ARAN-2016-CHEMMID-221-V2",
+        "SCI-REPO-Y7-ARAN-2016-CHEMMID-221-V3",
+        "SCI-REPO-Y7-ARAN-2012-CHEMMID-223-W4"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/2014/Chemistry Mid topic test 2014.docx",
+          "sha": "1528f045eef11432cb54fa079a6027d32c01a120",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/2016/Chemistry Mid topic test 2016.docx",
+          "sha": "73f90f49365839f8063f825b7edc56b3e8c5c5f4",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid topic test 2012 modified.docx",
+          "sha": "b1063c73672cf078452ac1af4206c052edad5dc2",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid topic test 2012.docx",
+          "sha": "9b2e1f5248fde99aa2acd58bbebf0ddfcdbacdc3",
+          "year": 7,
+          "role": "paper"
+        }
+      ],
+      "questions": 24,
+      "marks": 67,
+      "imageAudit": "question-source-packs/repo-science-batch75-audit.json",
+      "notes": [
+        "Four complete35-mark chemistry tests reviewed with source-native diagram crops and all11state-change labels retained. MCplasma,bond terminology and concentration denominator issues flagged. Modified word bank omits sublimation. Steam/mist and solute/solvent definition errors explicitly corrected in manual guidance;duplicate MC reviews recorded for canonical follow-through."
+      ],
+      "markAudit": {
+        "eachPaper": 35,
+        "mc": 6,
+        "written": {
+          "properties": 5,
+          "solutionLabels": 3,
+          "concentration": 2,
+          "stateDiagram": 11,
+          "rateParagraph": 3,
+          "vocabulary": 5
+        }
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/2016/Chemistry Mid topic test 2016.docx",
+          "sourceFileSha": "73f90f49365839f8063f825b7edc56b3e8c5c5f4",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-MC01",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "Ambiguous:no universal6000°Cminimum applies to all plasmas;low-temperature plasmas exist. “Plasma found deep in ocean” is also not a generally supported ordinary-state description. More than one problematic choice;manual moderation required.",
+            "note": "Ambiguous:no universal6000°Cminimum applies to all plasmas;low-temperature plasmas exist. “Plasma found deep in ocean” is also not a generally supported ordinary-state description. More than one problematic choice;manual moderation required."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/2016/Chemistry Mid topic test 2016.docx",
+          "sourceFileSha": "73f90f49365839f8063f825b7edc56b3e8c5c5f4",
+          "sourceQuestionNumber": "2",
+          "sourceParagraphs": [
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-MC02",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/2016/Chemistry Mid topic test 2016.docx",
+          "sourceFileSha": "73f90f49365839f8063f825b7edc56b3e8c5c5f4",
+          "sourceQuestionNumber": "4",
+          "sourceParagraphs": [
+            22,
+            23,
+            24,
+            25,
+            26
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-MC04",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/2016/Chemistry Mid topic test 2016.docx",
+          "sourceFileSha": "73f90f49365839f8063f825b7edc56b3e8c5c5f4",
+          "sourceQuestionNumber": "5",
+          "sourceParagraphs": [
+            28,
+            29,
+            30,
+            31,
+            32
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-MC05",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "A is the intended false statement:liquid particles retain interactions despite moving past each other. “Bonds between particles” conflates intermolecular attraction and chemical bonds;gas molecules can contain strong chemical bonds. Manual moderation required.",
+            "note": "A is the intended false statement:liquid particles retain interactions despite moving past each other. “Bonds between particles” conflates intermolecular attraction and chemical bonds;gas molecules can contain strong chemical bonds. Manual moderation required."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/2016/Chemistry Mid topic test 2016.docx",
+          "sourceFileSha": "73f90f49365839f8063f825b7edc56b3e8c5c5f4",
+          "sourceQuestionNumber": "W1",
+          "sourceParagraphs": [
+            42,
+            43,
+            44
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-W1",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/2016/Chemistry Mid topic test 2016.docx",
+          "sourceFileSha": "73f90f49365839f8063f825b7edc56b3e8c5c5f4",
+          "sourceQuestionNumber": "W3",
+          "sourceParagraphs": [
+            50
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-W3",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/2016/Chemistry Mid topic test 2016.docx",
+          "sourceFileSha": "73f90f49365839f8063f825b7edc56b3e8c5c5f4",
+          "sourceQuestionNumber": "V1",
+          "sourceParagraphs": [
+            105
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-V1",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/2016/Chemistry Mid topic test 2016.docx",
+          "sourceFileSha": "73f90f49365839f8063f825b7edc56b3e8c5c5f4",
+          "sourceQuestionNumber": "V4",
+          "sourceParagraphs": [
+            111
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-V4",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/2016/Chemistry Mid topic test 2016.docx",
+          "sourceFileSha": "73f90f49365839f8063f825b7edc56b3e8c5c5f4",
+          "sourceQuestionNumber": "V5",
+          "sourceParagraphs": [
+            113
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-V5",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid topic test 2012 modified.docx",
+          "sourceFileSha": "b1063c73672cf078452ac1af4206c052edad5dc2",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-MC01",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "Ambiguous:no universal6000°Cminimum applies to all plasmas;low-temperature plasmas exist. “Plasma found deep in ocean” is also not a generally supported ordinary-state description. More than one problematic choice;manual moderation required.",
+            "note": "Ambiguous:no universal6000°Cminimum applies to all plasmas;low-temperature plasmas exist. “Plasma found deep in ocean” is also not a generally supported ordinary-state description. More than one problematic choice;manual moderation required."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid topic test 2012 modified.docx",
+          "sourceFileSha": "b1063c73672cf078452ac1af4206c052edad5dc2",
+          "sourceQuestionNumber": "2",
+          "sourceParagraphs": [
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-MC02",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid topic test 2012 modified.docx",
+          "sourceFileSha": "b1063c73672cf078452ac1af4206c052edad5dc2",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            18,
+            19,
+            20,
+            21,
+            22
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-MC03",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid topic test 2012 modified.docx",
+          "sourceFileSha": "b1063c73672cf078452ac1af4206c052edad5dc2",
+          "sourceQuestionNumber": "4",
+          "sourceParagraphs": [
+            24,
+            25,
+            26,
+            27,
+            28
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-MC04",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid topic test 2012 modified.docx",
+          "sourceFileSha": "b1063c73672cf078452ac1af4206c052edad5dc2",
+          "sourceQuestionNumber": "5",
+          "sourceParagraphs": [
+            30,
+            31,
+            32,
+            33,
+            34
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-MC05",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "A is the intended false statement:liquid particles retain interactions despite moving past each other. “Bonds between particles” conflates intermolecular attraction and chemical bonds;gas molecules can contain strong chemical bonds. Manual moderation required.",
+            "note": "A is the intended false statement:liquid particles retain interactions despite moving past each other. “Bonds between particles” conflates intermolecular attraction and chemical bonds;gas molecules can contain strong chemical bonds. Manual moderation required."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid topic test 2012 modified.docx",
+          "sourceFileSha": "b1063c73672cf078452ac1af4206c052edad5dc2",
+          "sourceQuestionNumber": "6",
+          "sourceParagraphs": [
+            36,
+            37,
+            38,
+            39,
+            40
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-MC06",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "IntendedB:5g/10mL=0.5g per mL of initial water. Standard mass concentration uses FINALsolution volume,which is not supplied;dissolving may alter volume. Accept intended calculation with this qualification,not an exact final-solution concentration.",
+            "note": "Question gives initial water volume,not final solution volume."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid topic test 2012 modified.docx",
+          "sourceFileSha": "b1063c73672cf078452ac1af4206c052edad5dc2",
+          "sourceQuestionNumber": "W1",
+          "sourceParagraphs": [
+            44,
+            45,
+            46
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-W1",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid topic test 2012 modified.docx",
+          "sourceFileSha": "b1063c73672cf078452ac1af4206c052edad5dc2",
+          "sourceQuestionNumber": "W2",
+          "sourceParagraphs": [
+            49
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-W2",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid topic test 2012 modified.docx",
+          "sourceFileSha": "b1063c73672cf078452ac1af4206c052edad5dc2",
+          "sourceQuestionNumber": "W3",
+          "sourceParagraphs": [
+            52
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-W3",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid topic test 2012 modified.docx",
+          "sourceFileSha": "b1063c73672cf078452ac1af4206c052edad5dc2",
+          "sourceQuestionNumber": "W5",
+          "sourceParagraphs": [
+            98,
+            99,
+            100
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2016-CHEMMID-221-W5",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid topic test 2012 modified.docx",
+          "sourceFileSha": "b1063c73672cf078452ac1af4206c052edad5dc2",
+          "sourceQuestionNumber": "V1",
+          "sourceParagraphs": [
+            106
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-V1",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid topic test 2012 modified.docx",
+          "sourceFileSha": "b1063c73672cf078452ac1af4206c052edad5dc2",
+          "sourceQuestionNumber": "V2",
+          "sourceParagraphs": [
+            108
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2016-CHEMMID-221-V2",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid topic test 2012 modified.docx",
+          "sourceFileSha": "b1063c73672cf078452ac1af4206c052edad5dc2",
+          "sourceQuestionNumber": "V3",
+          "sourceParagraphs": [
+            110
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-V3",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid topic test 2012 modified.docx",
+          "sourceFileSha": "b1063c73672cf078452ac1af4206c052edad5dc2",
+          "sourceQuestionNumber": "V4",
+          "sourceParagraphs": [
+            112
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-V4",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid topic test 2012 modified.docx",
+          "sourceFileSha": "b1063c73672cf078452ac1af4206c052edad5dc2",
+          "sourceQuestionNumber": "V5",
+          "sourceParagraphs": [
+            114
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-V5",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid topic test 2012.docx",
+          "sourceFileSha": "9b2e1f5248fde99aa2acd58bbebf0ddfcdbacdc3",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-MC01",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "Ambiguous:no universal6000°Cminimum applies to all plasmas;low-temperature plasmas exist. “Plasma found deep in ocean” is also not a generally supported ordinary-state description. More than one problematic choice;manual moderation required.",
+            "note": "Ambiguous:no universal6000°Cminimum applies to all plasmas;low-temperature plasmas exist. “Plasma found deep in ocean” is also not a generally supported ordinary-state description. More than one problematic choice;manual moderation required."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid topic test 2012.docx",
+          "sourceFileSha": "9b2e1f5248fde99aa2acd58bbebf0ddfcdbacdc3",
+          "sourceQuestionNumber": "2",
+          "sourceParagraphs": [
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-MC02",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid topic test 2012.docx",
+          "sourceFileSha": "9b2e1f5248fde99aa2acd58bbebf0ddfcdbacdc3",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            18,
+            19,
+            20,
+            21,
+            22
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-MC03",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid topic test 2012.docx",
+          "sourceFileSha": "9b2e1f5248fde99aa2acd58bbebf0ddfcdbacdc3",
+          "sourceQuestionNumber": "4",
+          "sourceParagraphs": [
+            24,
+            25,
+            26,
+            27,
+            28
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-MC04",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid topic test 2012.docx",
+          "sourceFileSha": "9b2e1f5248fde99aa2acd58bbebf0ddfcdbacdc3",
+          "sourceQuestionNumber": "5",
+          "sourceParagraphs": [
+            30,
+            31,
+            32,
+            33,
+            34
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-MC05",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "A is the intended false statement:liquid particles retain interactions despite moving past each other. “Bonds between particles” conflates intermolecular attraction and chemical bonds;gas molecules can contain strong chemical bonds. Manual moderation required.",
+            "note": "A is the intended false statement:liquid particles retain interactions despite moving past each other. “Bonds between particles” conflates intermolecular attraction and chemical bonds;gas molecules can contain strong chemical bonds. Manual moderation required."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid topic test 2012.docx",
+          "sourceFileSha": "9b2e1f5248fde99aa2acd58bbebf0ddfcdbacdc3",
+          "sourceQuestionNumber": "6",
+          "sourceParagraphs": [
+            36,
+            37,
+            38,
+            39,
+            40
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-MC06",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "IntendedB:5g/10mL=0.5g per mL of initial water. Standard mass concentration uses FINALsolution volume,which is not supplied;dissolving may alter volume. Accept intended calculation with this qualification,not an exact final-solution concentration.",
+            "note": "Question gives initial water volume,not final solution volume."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid topic test 2012.docx",
+          "sourceFileSha": "9b2e1f5248fde99aa2acd58bbebf0ddfcdbacdc3",
+          "sourceQuestionNumber": "W1",
+          "sourceParagraphs": [
+            44,
+            45,
+            46
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-W1",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid topic test 2012.docx",
+          "sourceFileSha": "9b2e1f5248fde99aa2acd58bbebf0ddfcdbacdc3",
+          "sourceQuestionNumber": "W2",
+          "sourceParagraphs": [
+            49
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-W2",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid topic test 2012.docx",
+          "sourceFileSha": "9b2e1f5248fde99aa2acd58bbebf0ddfcdbacdc3",
+          "sourceQuestionNumber": "W3",
+          "sourceParagraphs": [
+            52
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-W3",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid topic test 2012.docx",
+          "sourceFileSha": "9b2e1f5248fde99aa2acd58bbebf0ddfcdbacdc3",
+          "sourceQuestionNumber": "W4",
+          "sourceParagraphs": [
+            62,
+            63,
+            64,
+            65,
+            73
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-W4",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid topic test 2012.docx",
+          "sourceFileSha": "9b2e1f5248fde99aa2acd58bbebf0ddfcdbacdc3",
+          "sourceQuestionNumber": "W5",
+          "sourceParagraphs": [
+            101,
+            102
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-W5",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid topic test 2012.docx",
+          "sourceFileSha": "9b2e1f5248fde99aa2acd58bbebf0ddfcdbacdc3",
+          "sourceQuestionNumber": "V1",
+          "sourceParagraphs": [
+            106
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-V1",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid topic test 2012.docx",
+          "sourceFileSha": "9b2e1f5248fde99aa2acd58bbebf0ddfcdbacdc3",
+          "sourceQuestionNumber": "V2",
+          "sourceParagraphs": [
+            108
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-V2",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid topic test 2012.docx",
+          "sourceFileSha": "9b2e1f5248fde99aa2acd58bbebf0ddfcdbacdc3",
+          "sourceQuestionNumber": "V3",
+          "sourceParagraphs": [
+            110
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-V3",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid topic test 2012.docx",
+          "sourceFileSha": "9b2e1f5248fde99aa2acd58bbebf0ddfcdbacdc3",
+          "sourceQuestionNumber": "V4",
+          "sourceParagraphs": [
+            112
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-V4",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid topic test 2012.docx",
+          "sourceFileSha": "9b2e1f5248fde99aa2acd58bbebf0ddfcdbacdc3",
+          "sourceQuestionNumber": "V5",
+          "sourceParagraphs": [
+            114
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-V5",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch76",
+      "questionIds": [
+        "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-filtration",
+        "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-chromatography",
+        "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-magnetic",
+        "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-centrifuge",
+        "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-distillation",
+        "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-decanting",
+        "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match1",
+        "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match2",
+        "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match3",
+        "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match4",
+        "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match5",
+        "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match6",
+        "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match7",
+        "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match8",
+        "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match9",
+        "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match10",
+        "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match11",
+        "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match12",
+        "SCI-REPO-Y7-ARAN-CHEMVOCAB-225-chromatography",
+        "SCI-REPO-Y7-ARAN-CHEMVOCAB-225-magnetic",
+        "SCI-REPO-Y7-ARAN-CHEMVOCAB-225-centrifuge",
+        "SCI-REPO-Y7-ARAN-CHEMVOCAB-225-distillation",
+        "SCI-REPO-Y7-ARAN-CHEMVOCAB-225-decanting"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/2016/Year 7 Chemistry Vocabulary Test 2016.docx",
+          "sha": "cbf1c44d3c64e8a2339266f9b19e3c64cb55415e",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Year 7 Chemistry Vocabulary Test.docx",
+          "sha": "f454924484df23fb58cc90b58c833065b2b8b246",
+          "year": 7,
+          "role": "paper"
+        }
+      ],
+      "questions": 23,
+      "marks": 34,
+      "imageAudit": "question-source-packs/repo-science-batch76-audit.json",
+      "notes": [
+        "Both complete25-mark diagram/vocabulary tests reviewed. All source-native leader lines and apparatus preserved. Six diagram tasks use proposed13-mark allocation;12matching items1each. Input-mixture label for filtration requires manual clarification."
+      ],
+      "markAudit": {
+        "eachPaper": 25,
+        "diagramAllocationProposed": 13,
+        "matching": 12
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Year 7 Chemistry Vocabulary Test.docx",
+          "sourceFileSha": "f454924484df23fb58cc90b58c833065b2b8b246",
+          "sourceQuestionNumber": "filtration",
+          "sourceParagraphs": [
+            2,
+            3,
+            5
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-filtration",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Year 7 Chemistry Vocabulary Test.docx",
+          "sourceFileSha": "f454924484df23fb58cc90b58c833065b2b8b246",
+          "sourceQuestionNumber": "match1",
+          "sourceParagraphs": [
+            49,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match1",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Year 7 Chemistry Vocabulary Test.docx",
+          "sourceFileSha": "f454924484df23fb58cc90b58c833065b2b8b246",
+          "sourceQuestionNumber": "match2",
+          "sourceParagraphs": [
+            49,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match2",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Year 7 Chemistry Vocabulary Test.docx",
+          "sourceFileSha": "f454924484df23fb58cc90b58c833065b2b8b246",
+          "sourceQuestionNumber": "match3",
+          "sourceParagraphs": [
+            49,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match3",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Year 7 Chemistry Vocabulary Test.docx",
+          "sourceFileSha": "f454924484df23fb58cc90b58c833065b2b8b246",
+          "sourceQuestionNumber": "match4",
+          "sourceParagraphs": [
+            49,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match4",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Year 7 Chemistry Vocabulary Test.docx",
+          "sourceFileSha": "f454924484df23fb58cc90b58c833065b2b8b246",
+          "sourceQuestionNumber": "match5",
+          "sourceParagraphs": [
+            49,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match5",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Year 7 Chemistry Vocabulary Test.docx",
+          "sourceFileSha": "f454924484df23fb58cc90b58c833065b2b8b246",
+          "sourceQuestionNumber": "match6",
+          "sourceParagraphs": [
+            49,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match6",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Year 7 Chemistry Vocabulary Test.docx",
+          "sourceFileSha": "f454924484df23fb58cc90b58c833065b2b8b246",
+          "sourceQuestionNumber": "match7",
+          "sourceParagraphs": [
+            49,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match7",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Year 7 Chemistry Vocabulary Test.docx",
+          "sourceFileSha": "f454924484df23fb58cc90b58c833065b2b8b246",
+          "sourceQuestionNumber": "match8",
+          "sourceParagraphs": [
+            49,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match8",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Year 7 Chemistry Vocabulary Test.docx",
+          "sourceFileSha": "f454924484df23fb58cc90b58c833065b2b8b246",
+          "sourceQuestionNumber": "match9",
+          "sourceParagraphs": [
+            49,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match9",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Year 7 Chemistry Vocabulary Test.docx",
+          "sourceFileSha": "f454924484df23fb58cc90b58c833065b2b8b246",
+          "sourceQuestionNumber": "match10",
+          "sourceParagraphs": [
+            49,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match10",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Year 7 Chemistry Vocabulary Test.docx",
+          "sourceFileSha": "f454924484df23fb58cc90b58c833065b2b8b246",
+          "sourceQuestionNumber": "match11",
+          "sourceParagraphs": [
+            49,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match11",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Year 7 Chemistry Vocabulary Test.docx",
+          "sourceFileSha": "f454924484df23fb58cc90b58c833065b2b8b246",
+          "sourceQuestionNumber": "match12",
+          "sourceParagraphs": [
+            49,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match12",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch77",
+      "questionIds": [
+        "SCI-REPO-Y7-NARR-2018-CHEM1-MC01",
+        "SCI-REPO-Y7-NARR-2018-CHEM1-MC02",
+        "SCI-REPO-Y7-NARR-2018-CHEM1-MC03",
+        "SCI-REPO-Y7-NARR-2018-CHEM1-MC05",
+        "SCI-REPO-Y7-NARR-2018-CHEM1-MC06",
+        "SCI-REPO-Y7-NARR-2018-CHEM1-MC08",
+        "SCI-REPO-Y7-NARR-2018-CHEM1-MC10",
+        "SCI-REPO-Y7-NARR-2018-CHEM1-MC04",
+        "SCI-REPO-Y7-NARR-2018-CHEM1-W1",
+        "SCI-REPO-Y7-NARR-2018-CHEM1-W2",
+        "SCI-REPO-Y7-NARR-2018-CHEM1-W3",
+        "SCI-REPO-Y7-NARR-2018-CHEM1-W4a",
+        "SCI-REPO-Y7-NARR-2018-CHEM1-W4b",
+        "SCI-REPO-Y7-NARR-2018-CHEM1-W4c"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2018/Chemistry 1 Test 2018.docx",
+          "sha": "0af6712eff52c5e0a62af802ef287fc18e66813f",
+          "year": 7,
+          "role": "paper"
+        }
+      ],
+      "questions": 14,
+      "marks": 23,
+      "imageAudit": "question-source-packs/repo-science-batch77-audit.json",
+      "notes": [
+        "Complete25-mark chemistry test reviewed. Original four-picture MC layout and distillation apparatus retained. Physical-change reversibility definition and comparative-solubility wording flagged. All filtration diagram,separation sequence,saturation and muddy-seawater written parts preserved."
+      ],
+      "markAudit": {
+        "total": 25,
+        "mc": 10,
+        "written": 15
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2018/Chemistry 1 Test 2018.docx",
+          "sourceFileSha": "0af6712eff52c5e0a62af802ef287fc18e66813f",
+          "sourceQuestionNumber": "7",
+          "sourceParagraphs": [
+            47,
+            48,
+            49,
+            50,
+            51
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC12",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2018/Chemistry 1 Test 2018.docx",
+          "sourceFileSha": "0af6712eff52c5e0a62af802ef287fc18e66813f",
+          "sourceQuestionNumber": "9",
+          "sourceParagraphs": [
+            59,
+            60,
+            61,
+            62,
+            63
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC15",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
     }
   ],
   "files": [
@@ -14139,7 +15259,7 @@
       "sha": "5eadb4a9b7854beb20912153c5baecbad7cb6fca",
       "year": 7,
       "size": 125805,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -14984,7 +16104,7 @@
       "sha": "dbff5824f8b33fa04d928b37f78f459de38124b0",
       "year": 7,
       "size": 147120,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -15064,7 +16184,7 @@
       "sha": "1528f045eef11432cb54fa079a6027d32c01a120",
       "year": 7,
       "size": 128098,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -15105,7 +16225,7 @@
       "sha": "73f90f49365839f8063f825b7edc56b3e8c5c5f4",
       "year": 7,
       "size": 126143,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -15121,7 +16241,7 @@
       "sha": "cbf1c44d3c64e8a2339266f9b19e3c64cb55415e",
       "year": 7,
       "size": 138848,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -15203,7 +16323,7 @@
       "sha": "b1063c73672cf078452ac1af4206c052edad5dc2",
       "year": 7,
       "size": 131721,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -15211,7 +16331,7 @@
       "sha": "9b2e1f5248fde99aa2acd58bbebf0ddfcdbacdc3",
       "year": 7,
       "size": 128101,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -15299,7 +16419,7 @@
       "sha": "f454924484df23fb58cc90b58c833065b2b8b246",
       "year": 7,
       "size": 144824,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -15373,8 +16493,9 @@
       "sha": "b6f0ba67a2cd71aa0e8fe83f34c30554130de285",
       "year": 7,
       "size": 135713,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Distillation explanatory notes and illustrative apparatus;no student question or response task."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2017/Filtration.docx",
@@ -15429,7 +16550,7 @@
       "sha": "0af6712eff52c5e0a62af802ef287fc18e66813f",
       "year": 7,
       "size": 112770,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -30127,8 +31248,8 @@
     }
   ],
   "learningVaultCreatedKeySupplements": 924,
-  "remainingUniqueFileBlobs": 1369,
-  "learningVaultCreatedKeys": 1530,
+  "remainingUniqueFileBlobs": 1359,
+  "learningVaultCreatedKeys": 1628,
   "blockedSources": [
     {
       "sha": "49d4b7f3f8af844477b39abb856365aeb096cafd",
@@ -30340,7 +31461,7 @@
     "ocrPages": 1175,
     "ocrTextVerified": false
   },
-  "distinctSourceAndKeyReferences": 242,
+  "distinctSourceAndKeyReferences": 251,
   "unscoredQuestionsPreserved": 1,
   "activeAdditionalQuestionRequest": {
     "requestedAdditionalQuestions": 1000,
@@ -30355,12 +31476,12 @@
     "requestedAt": "2026-10-16",
     "scope": "All remaining Years 7–10 Science assessment papers; all question types, source figures, response space and marking guidance",
     "startingImportedQuestions": 1374,
-    "addedQuestions": 1390,
+    "addedQuestions": 1488,
     "status": "in_progress",
     "completionRule": "Every unique assessment paper reviewed; duplicates mapped and unreadable/protected files explicitly resolved. File-blob count is not a paper denominator.",
     "restoredQuestionsAfterDuplicateFix": 4,
-    "newlyExtractedQuestions": 1386,
-    "papersReviewedSinceRequest": 131,
+    "newlyExtractedQuestions": 1484,
+    "papersReviewedSinceRequest": 140,
     "canonicalSourceQuestionsReReviewed": 2
   },
   "sourceInventoryExclusions": {
@@ -30370,8 +31491,8 @@
     "note": "These are file metadata records, not papers or questions; excluded from import work without increasing question or paper totals."
   },
   "supportingResourceReview": {
-    "files": 35,
-    "uniqueBlobs": 32,
+    "files": 36,
+    "uniqueBlobs": 33,
     "audit": "question-source-packs/repo-science-supporting-resource-review.json",
     "countedAsPapers": false,
     "countedAsQuestions": false
@@ -30479,7 +31600,7 @@
       "resolution": "Locate original practical sheet; do not invent missing source directions."
     }
   ],
-  "reviewedDistinctSourceBlobs": 231,
+  "reviewedDistinctSourceBlobs": 241,
   "inventoryCountBasis": "Remaining unique file blobs counts pending or key-reference-pending identities, including protected inputs; it is not a remaining-paper or remaining-question estimate.",
   "canonicalUniverseReviewRepair": {
     "questionIds": [
