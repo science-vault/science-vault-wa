@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.16-science-source174",
+  "version": "2026.10.16-science-source175",
   "status": "in_progress",
   "scope": "Original Science assessment files in repository, Years 7–10. File counts include keys and supporting materials; they are not question counts.",
   "inventoryFiles": 2009,
@@ -11,11 +11,11 @@
     "9": 457,
     "10": 582
   },
-  "importedPapers": 361,
-  "importedQuestions": 4000,
-  "multipleChoice": 883,
-  "writtenQuestions": 3117,
-  "battleEligibleQuestions": 765,
+  "importedPapers": 362,
+  "importedQuestions": 4020,
+  "multipleChoice": 898,
+  "writtenQuestions": 3122,
+  "battleEligibleQuestions": 777,
   "reviewRequired": [
     {
       "id": "SCI-REPO-Y7-NAR-2024-CHEM-WR02",
@@ -2520,6 +2520,30 @@
     {
       "id": "SCI-REPO-Y8-KOLBE-2021-BODYVALIDRUBRIC-1",
       "note": "Draft rubric names a7mark labelling task but omits the actual circulation figure."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-CHEMEXTEND-MC07",
+      "note": "Hydrogen is intended for common proton-donating acids;Lewis acids need not contain hydrogen,so universal wording needs qualification."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-CHEMEXTEND-MC09",
+      "note": "Ionic is the intended introductory metal/nonmetal classification. The universal wording is too broad:some metal–nonmetal compounds have substantial covalent bonding."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-CHEMEXTEND-MC13",
+      "note": "Both gaining an electron to formCl⁻andsharing in covalent bonds can complete an octet. Without an ionic context bothBandCare defensible;manual marking."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-CHEMEXTEND-W3",
+      "note": "Final source equation creates hydrogen from no hydrogen-containing reactant;requires correction before use."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-CHEMEXTEND-W4",
+      "note": "Six word/formula pairs share only10printed marks;individual weighting unspecified. General acid-metal pattern applies only under suitable reaction conditions,not every metal/acid combination."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-CHEMEXTEND-precipitation",
+      "note": "Final precipitation section has no printed marks;3proposed. Supplied solubility reference contains ion-charge/formula errors and simplifications."
     },
     {
       "id": "SCI-REPO-Y10-NAR-2024-UNIVERSE-MC02",
@@ -31467,6 +31491,53 @@
         "tasks": 1
       },
       "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch175",
+      "questionIds": [
+        "SCI-REPO-Y10-SBY-2017-CHEMEXTEND-MC01",
+        "SCI-REPO-Y10-SBY-2017-CHEMEXTEND-MC02",
+        "SCI-REPO-Y10-SBY-2017-CHEMEXTEND-MC03",
+        "SCI-REPO-Y10-SBY-2017-CHEMEXTEND-MC04",
+        "SCI-REPO-Y10-SBY-2017-CHEMEXTEND-MC05",
+        "SCI-REPO-Y10-SBY-2017-CHEMEXTEND-MC06",
+        "SCI-REPO-Y10-SBY-2017-CHEMEXTEND-MC07",
+        "SCI-REPO-Y10-SBY-2017-CHEMEXTEND-MC08",
+        "SCI-REPO-Y10-SBY-2017-CHEMEXTEND-MC09",
+        "SCI-REPO-Y10-SBY-2017-CHEMEXTEND-MC10",
+        "SCI-REPO-Y10-SBY-2017-CHEMEXTEND-MC11",
+        "SCI-REPO-Y10-SBY-2017-CHEMEXTEND-MC12",
+        "SCI-REPO-Y10-SBY-2017-CHEMEXTEND-MC13",
+        "SCI-REPO-Y10-SBY-2017-CHEMEXTEND-MC14",
+        "SCI-REPO-Y10-SBY-2017-CHEMEXTEND-MC15",
+        "SCI-REPO-Y10-SBY-2017-CHEMEXTEND-W1",
+        "SCI-REPO-Y10-SBY-2017-CHEMEXTEND-W2",
+        "SCI-REPO-Y10-SBY-2017-CHEMEXTEND-W3",
+        "SCI-REPO-Y10-SBY-2017-CHEMEXTEND-W4",
+        "SCI-REPO-Y10-SBY-2017-CHEMEXTEND-precipitation"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2017/Chemistry Extension/ATAR Chemistry/Year 10 Chemistry Term 3 End of unit Test.docx",
+          "sha": "c37f2d47358e11a316ed1f212794d80dd93e0c0b",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 20,
+      "marks": 38,
+      "imageAudit": "question-source-packs/repo-science-batch175-audit.json",
+      "notes": [
+        "Complete15MCandall5written groups reviewed. Three ambiguous MCexcluded from battles. Original impossible hydrogen-creation equation retained and flagged,not silently corrected.10mark six-pair reaction task kept grouped. Solubility table typos qualified;unmarked precipitation3marks proposed."
+      ],
+      "markAudit": {
+        "proposedMC": 15,
+        "printedWritten": 20,
+        "proposedPrecipitation": 3,
+        "selectedTotal": 38,
+        "noPrintedOverallTotal": true
+      },
+      "duplicateQuestionAliases": []
     }
   ],
   "files": [
@@ -45126,7 +45197,7 @@
       "sha": "c37f2d47358e11a316ed1f212794d80dd93e0c0b",
       "year": 10,
       "size": 95573,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -47703,8 +47774,8 @@
     }
   ],
   "learningVaultCreatedKeySupplements": 1373,
-  "remainingUniqueFileBlobs": 1166,
-  "learningVaultCreatedKeys": 2317,
+  "remainingUniqueFileBlobs": 1165,
+  "learningVaultCreatedKeys": 2337,
   "blockedSources": [
     {
       "sha": "49d4b7f3f8af844477b39abb856365aeb096cafd",
@@ -47916,7 +47987,7 @@
     "ocrPages": 1175,
     "ocrTextVerified": false
   },
-  "distinctSourceAndKeyReferences": 411,
+  "distinctSourceAndKeyReferences": 412,
   "unscoredQuestionsPreserved": 1,
   "activeAdditionalQuestionRequest": {
     "requestedAdditionalQuestions": 1000,
@@ -47931,12 +48002,12 @@
     "requestedAt": "2026-10-16",
     "scope": "All remaining Years 7–10 Science assessment papers; all question types, source figures, response space and marking guidance",
     "startingImportedQuestions": 1374,
-    "addedQuestions": 2626,
+    "addedQuestions": 2646,
     "status": "in_progress",
     "completionRule": "Every unique assessment paper reviewed; duplicates mapped and unreadable/protected files explicitly resolved. File-blob count is not a paper denominator.",
     "restoredQuestionsAfterDuplicateFix": 4,
-    "newlyExtractedQuestions": 2622,
-    "papersReviewedSinceRequest": 298,
+    "newlyExtractedQuestions": 2642,
+    "papersReviewedSinceRequest": 299,
     "canonicalSourceQuestionsReReviewed": 2
   },
   "sourceInventoryExclusions": {
@@ -48304,7 +48375,7 @@
       "effect": "Researchtaskandcorrectformula-basedkeyretained;noinventedelementorneutroncount."
     }
   ],
-  "reviewedDistinctSourceBlobs": 434,
+  "reviewedDistinctSourceBlobs": 435,
   "inventoryCountBasis": "Remaining unique file blobs counts pending or key-reference-pending identities, including protected inputs; it is not a remaining-paper or remaining-question estimate.",
   "canonicalUniverseReviewRepair": {
     "questionIds": [
