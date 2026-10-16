@@ -1,0 +1,506 @@
+{
+  "batch": "repo-science-batch16",
+  "paperCount": 6,
+  "questionIds": [
+    "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-MC01",
+    "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-MC02",
+    "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-MC03",
+    "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-MC04",
+    "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-MC05",
+    "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-MC06",
+    "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-MC07",
+    "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-MC08",
+    "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-MC09",
+    "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-MC10",
+    "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-11",
+    "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-12a",
+    "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-12b",
+    "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-12c",
+    "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-12d",
+    "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-12e",
+    "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-12f",
+    "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-13",
+    "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-14",
+    "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-15",
+    "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-16",
+    "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-17a",
+    "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-17b",
+    "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-18",
+    "SCI-REPO-Y8-SBY-2018-MICROSCOPES-MC01",
+    "SCI-REPO-Y8-SBY-2018-MICROSCOPES-MC02",
+    "SCI-REPO-Y8-SBY-2018-MICROSCOPES-MC03",
+    "SCI-REPO-Y8-SBY-2018-MICROSCOPES-MC04",
+    "SCI-REPO-Y8-SBY-2018-MICROSCOPES-MC05",
+    "SCI-REPO-Y8-SBY-2018-MICROSCOPES-MC06",
+    "SCI-REPO-Y8-SBY-2018-MICROSCOPES-MC07",
+    "SCI-REPO-Y8-SBY-2018-MICROSCOPES-MC08",
+    "SCI-REPO-Y8-SBY-2018-MICROSCOPES-MC09",
+    "SCI-REPO-Y8-SBY-2018-MICROSCOPES-MC10",
+    "SCI-REPO-Y8-SBY-2018-MICROSCOPES-MC11",
+    "SCI-REPO-Y8-SBY-2018-MICROSCOPES-MC12",
+    "SCI-REPO-Y8-SBY-2018-MICROSCOPES-13",
+    "SCI-REPO-Y8-SBY-2018-MICROSCOPES-14",
+    "SCI-REPO-Y8-SBY-2018-MICROSCOPES-15a",
+    "SCI-REPO-Y8-SBY-2018-MICROSCOPES-15b",
+    "SCI-REPO-Y8-SBY-2018-MICROSCOPES-16a",
+    "SCI-REPO-Y8-SBY-2018-MICROSCOPES-16b",
+    "SCI-REPO-Y8-SBY-2018-MICROSCOPES-17",
+    "SCI-REPO-Y8-SBY-2018-MICROSCOPES-18",
+    "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC01",
+    "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC02",
+    "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC03",
+    "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC04",
+    "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC05",
+    "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC06",
+    "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC07",
+    "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC08",
+    "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC09",
+    "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC10",
+    "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC11",
+    "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC12",
+    "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC13",
+    "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC14",
+    "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC15",
+    "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC16",
+    "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC17",
+    "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC18",
+    "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC19",
+    "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC20",
+    "SCI-REPO-Y8-ARAN-2013-PHYSEND-1a",
+    "SCI-REPO-Y8-ARAN-2013-PHYSEND-1b",
+    "SCI-REPO-Y8-ARAN-2013-PHYSEND-1c",
+    "SCI-REPO-Y8-ARAN-2013-PHYSEND-2",
+    "SCI-REPO-Y8-ARAN-2013-PHYSEND-3a",
+    "SCI-REPO-Y8-ARAN-2013-PHYSEND-3b",
+    "SCI-REPO-Y8-ARAN-2013-PHYSEND-3c",
+    "SCI-REPO-Y8-ARAN-2013-PHYSEND-3d",
+    "SCI-REPO-Y8-ARAN-2013-PHYSEND-4",
+    "SCI-REPO-Y8-ARAN-2013-PHYSEND-7a",
+    "SCI-REPO-Y8-ARAN-2013-PHYSEND-7b",
+    "SCI-REPO-Y8-ARAN-2013-PHYSEND-7c",
+    "SCI-REPO-Y8-ARAN-2013-PHYSEND-7d",
+    "SCI-REPO-Y8-ARAN-2013-PHYSEND-8a",
+    "SCI-REPO-Y8-ARAN-2013-PHYSEND-8b",
+    "SCI-REPO-Y8-ARAN-2013-PHYSEND-8c",
+    "SCI-REPO-Y8-ARAN-2013-PHYSEND-8d",
+    "SCI-REPO-Y8-ARAN-2013-PHYSEND-8e",
+    "SCI-REPO-Y8-ARAN-2015-ENERGY-MC01",
+    "SCI-REPO-Y8-ARAN-2015-ENERGY-MC02",
+    "SCI-REPO-Y8-ARAN-2015-ENERGY-MC03",
+    "SCI-REPO-Y8-ARAN-2015-ENERGY-MC04",
+    "SCI-REPO-Y8-ARAN-2015-ENERGY-MC05",
+    "SCI-REPO-Y8-ARAN-2015-ENERGY-MC06",
+    "SCI-REPO-Y8-ARAN-2015-ENERGY-MC07",
+    "SCI-REPO-Y8-ARAN-2015-ENERGY-MC08",
+    "SCI-REPO-Y8-ARAN-2015-ENERGY-MC09",
+    "SCI-REPO-Y8-ARAN-2015-ENERGY-MC10",
+    "SCI-REPO-Y8-ARAN-2015-ENERGY-11",
+    "SCI-REPO-Y8-ARAN-2015-ENERGY-12",
+    "SCI-REPO-Y8-ARAN-2015-ENERGY-13a",
+    "SCI-REPO-Y8-ARAN-2015-ENERGY-13b",
+    "SCI-REPO-Y8-ARAN-2015-ENERGY-14a",
+    "SCI-REPO-Y8-ARAN-2015-ENERGY-14b",
+    "SCI-REPO-Y8-ARAN-2015-ENERGY-14c",
+    "SCI-REPO-Y8-ARAN-2015-ENERGY-14d",
+    "SCI-REPO-Y8-ARAN-2015-ENERGY-14e",
+    "SCI-REPO-Y8-ARAN-2015-ENERGY-15",
+    "SCI-REPO-Y8-ARAN-2015-ENERGY-16a",
+    "SCI-REPO-Y8-ARAN-2015-ENERGY-16b",
+    "SCI-REPO-Y8-ARAN-2015-ENERGY-16c",
+    "SCI-REPO-Y8-ARAN-2015-ENERGY-17",
+    "SCI-REPO-Y8-ARAN-2015-ENERGY-18a",
+    "SCI-REPO-Y8-ARAN-2015-ENERGY-18b",
+    "SCI-REPO-Y8-ARAN-2015-ENERGY-18c",
+    "SCI-REPO-Y8-ARAN-2015-ENERGY-18d",
+    "SCI-REPO-Y8-ARAN-2015-ENERGY-18e",
+    "SCI-REPO-Y10-NAR-2023-MOTION-MC01",
+    "SCI-REPO-Y10-NAR-2023-MOTION-MC02",
+    "SCI-REPO-Y10-NAR-2023-MOTION-MC03",
+    "SCI-REPO-Y10-NAR-2023-MOTION-MC04",
+    "SCI-REPO-Y10-NAR-2023-MOTION-MC05",
+    "SCI-REPO-Y10-NAR-2023-MOTION-MC06",
+    "SCI-REPO-Y10-NAR-2023-MOTION-MC07",
+    "SCI-REPO-Y10-NAR-2023-MOTION-MC08",
+    "SCI-REPO-Y10-NAR-2023-MOTION-MC09",
+    "SCI-REPO-Y10-NAR-2023-MOTION-MC10",
+    "SCI-REPO-Y10-NAR-2023-MOTION-11",
+    "SCI-REPO-Y10-NAR-2023-MOTION-12",
+    "SCI-REPO-Y10-NAR-2023-MOTION-13",
+    "SCI-REPO-Y10-NAR-2023-MOTION-14a",
+    "SCI-REPO-Y10-NAR-2023-MOTION-14b",
+    "SCI-REPO-Y10-NAR-2023-MOTION-15",
+    "SCI-REPO-Y10-ARAN-2013-DNAINHERIT-1",
+    "SCI-REPO-Y10-ARAN-2013-DNAINHERIT-2",
+    "SCI-REPO-Y10-ARAN-2013-DNAINHERIT-3",
+    "SCI-REPO-Y10-ARAN-2013-DNAINHERIT-4",
+    "SCI-REPO-Y10-ARAN-2013-DNAINHERIT-5a",
+    "SCI-REPO-Y10-ARAN-2013-DNAINHERIT-5b",
+    "SCI-REPO-Y10-ARAN-2013-DNAINHERIT-6a",
+    "SCI-REPO-Y10-ARAN-2013-DNAINHERIT-6b",
+    "SCI-REPO-Y10-ARAN-2013-DNAINHERIT-7",
+    "SCI-REPO-Y10-ARAN-2013-DNAINHERIT-8",
+    "SCI-REPO-Y10-ARAN-2013-DNAINHERIT-9",
+    "SCI-REPO-Y10-ARAN-2013-DNAINHERIT-10",
+    "SCI-REPO-Y10-ARAN-2013-DNAINHERIT-11"
+  ],
+  "questions": 140,
+  "multipleChoice": 62,
+  "writtenQuestions": 78,
+  "battleEligible": 53,
+  "marks": 216.0,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-MC08",
+      "note": "Source draft option includes“WEEK4Content-Not assessed”;retain teacher review rather than auto-assess."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-MC09",
+      "note": "Speciation can involve drift as well as selection,so the requirement list is not uniquely discriminating."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC13",
+      "note": "Equal masses/initial temperatures are unstated;answer conditional on them."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC14",
+      "note": "Thermal conductivity alone does not determine actual temperature or touch sensation after sunshine exposure."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2015-ENERGY-MC04",
+      "note": "Course-specific recall with no curriculum list provided."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2015-ENERGY-MC07",
+      "note": "A generic flow diagram can also represent energy transformations;answers overlap."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2015-ENERGY-12",
+      "note": "Word-bank item conflates energy with power;retained for teacher correction."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2015-ENERGY-15",
+      "note": "Corrected supplied key’s missing kinetic energy of the moving balloon/air."
+    },
+    {
+      "id": "SCI-REPO-Y10-NAR-2023-MOTION-MC08",
+      "note": "BothC andD are true."
+    },
+    {
+      "id": "SCI-REPO-Y10-NAR-2023-MOTION-MC09",
+      "note": "Resultant direction is known but speed change requires velocity direction."
+    },
+    {
+      "id": "SCI-REPO-Y10-NAR-2023-MOTION-MC10",
+      "note": "Multiple ticker tapes shown without identifying the target."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2013-DNAINHERIT-10",
+      "note": "This is the source’s stipulated single-gene Mendelian model;real earlobe attachment and tongue rolling are not reliably described as simple one-gene dominant traits."
+    }
+  ],
+  "imageAudit": [
+    {
+      "id": "e40-image2",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/Extras/Evolution Test General 2020 FROM SCRATCH WIP!.docx",
+      "embeddedImage": "word/media/image2.png",
+      "sha256": "df95faa08574df6987ac8d49f442373e17e3ce30e7a6bc33c4f754622a351d31",
+      "publishedSha256": "020ad1ef4a8fb27a7cc5957cb02f097a37a96dbeaf54b21f9b2a24184f14be7a",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e40-image3",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/Extras/Evolution Test General 2020 FROM SCRATCH WIP!.docx",
+      "embeddedImage": "word/media/image3.png",
+      "sha256": "fa1275dde244b3967fb99c83818d07183c6b3e69dcca524328e31b63bf75f8c3",
+      "publishedSha256": "26a33ad55d13073d9a0b054194a4e81998732cfc008a4fa1f6174850bf55cfee",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e42-image2",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Biological Sciences/Safety Bay/2018/Microscope and Cells Test.docx",
+      "embeddedImage": "word/media/image2.jpeg",
+      "sha256": "16202235b6fc8cc3d7f2101cb71100243f45d9e7468d52cea29a4ad5b19c96d6",
+      "publishedSha256": "291f0badfee6e3102e479cf178178fc97f753f0465992372fa0406421fada4d7",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e42-image3",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Biological Sciences/Safety Bay/2018/Microscope and Cells Test.docx",
+      "embeddedImage": "word/media/image3.jpeg",
+      "sha256": "9e3d9a2f603838e8dded29c76c61f7a999134876c192effd7f78b69a279ceec1",
+      "publishedSha256": "a782429f6f00e4e6e60a268ca16029933ba1d43d6a9d07d2a54416b1dd442253",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e44-image1",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/Year 8 Physics End of Topic Test 2013.docx",
+      "embeddedImage": "word/media/image1.jpeg",
+      "sha256": "d85e533cca3264bcf7e2d9cecde20bd45c524d91ca4c9077a86b642a0b62bbbc",
+      "publishedSha256": "b59f61a0931a75418649bd9bf387cc483594dcb55c5ed80fd6c7eacb5600a857",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e44-image2",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/Year 8 Physics End of Topic Test 2013.docx",
+      "embeddedImage": "word/media/image2.jpeg",
+      "sha256": "b6bc7895f641f8bee842ad1c65e8118c3ca12c101f3fd148a149cb653405df90",
+      "publishedSha256": "dd4f3a35fecfb2ca662d76f90b72dc47b39a0ce0d3463810b902b80d4313ac25",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e45-image2",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/Year 8 energy test 2015.docx",
+      "embeddedImage": "word/media/image2.emf",
+      "sha256": "e9364c170e8bf3cedaba047fa2c37aff10de5be37a4c52fe4663ef2cd35f7d38",
+      "publishedSha256": "f0f084c7f2337820ced64734c40f5dad736926ec3dfeca01a30c12e59c7970be",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e46-image2",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Narrogin/2023/Task 5 Forces Motion and Energy TEST.docx",
+      "embeddedImage": "word/media/image2.png",
+      "sha256": "7a0c11c6c559986d7ee6d96a083b2026caba9aa9fa0320161863e835e166fb12",
+      "publishedSha256": "224a12dfe2b62fa2d117c37571734b01461ffa6cb7f2efd5779b3c3dacb41c81",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e46-image3",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Narrogin/2023/Task 5 Forces Motion and Energy TEST.docx",
+      "embeddedImage": "word/media/image3.png",
+      "sha256": "34b19eaad2c6110bb64f4a6142ee6ccca34ec7f037ef9db2a5d2181fe8f299b5",
+      "publishedSha256": "224a12dfe2b62fa2d117c37571734b01461ffa6cb7f2efd5779b3c3dacb41c81",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e46-image4",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Narrogin/2023/Task 5 Forces Motion and Energy TEST.docx",
+      "embeddedImage": "word/media/image4.png",
+      "sha256": "f08b28bcfdbdc53acde42e7542941fdab87f60426703c1914dc25d15816b4c8b",
+      "publishedSha256": "92d99ed8cebc40f436fa0db59d098fa68b63eb40ed5ee471125647b44dd53cb6",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e46-image5",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Narrogin/2023/Task 5 Forces Motion and Energy TEST.docx",
+      "embeddedImage": "word/media/image5.jpeg",
+      "sha256": "bb49bb19259304c0ec48e23fd07e5b01be1723d75a5a3a9d5c64da45a7e3bb4c",
+      "publishedSha256": "b684517845060af129631a8c97e28cfda2c82c1a5f2cf92743b8da0f9350403c",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e46-image6",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Narrogin/2023/Task 5 Forces Motion and Energy TEST.docx",
+      "embeddedImage": "word/media/image6.jpeg",
+      "sha256": "d99f2679d64f8ed1e66c025a906e20a492f22528d73cc4cf9b49d5f8cd9f4913",
+      "publishedSha256": "f5bbf7a3ed2904f637567bfca519f0d1216a85f504b737cd20d53e71a5dd6675",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e46-image7",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Narrogin/2023/Task 5 Forces Motion and Energy TEST.docx",
+      "embeddedImage": "word/media/image7.jpeg",
+      "sha256": "c256e08b25a4cad71e588a5696970d1ecb416334e3be648c51689ff5f914aa57",
+      "publishedSha256": "0008d3d1d244f8a7c1760e20bb54813b4cf74e6ceda418a1edff93a107b90012",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e47-image1",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/10 Biology assessments extention/2013 10 Extension Mini Test.docx",
+      "embeddedImage": "word/media/image1.jpeg",
+      "sha256": "a066fe6e05f97dd9c897d3e7a8631456d8959ba8c5b7b7a83cd014900ce6db16",
+      "publishedSha256": "c1c58c2d3422e1c0611783ebb75eb7f2124aec2628aa570197b17d55ecfd078f",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e47-image2",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/10 Biology assessments extention/2013 10 Extension Mini Test.docx",
+      "embeddedImage": "word/media/image2.jpeg",
+      "sha256": "1344259a2814b0be9f85508a99e6c237407ac31af4c5a1f717d99da4d1602176",
+      "publishedSha256": "4b332608ebdc0c1eb67ef908afeaf72111c75ddd14f1616d09c3f15aa2a0b9df",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e47-image3",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/10 Biology assessments extention/2013 10 Extension Mini Test.docx",
+      "embeddedImage": "word/media/image3.jpeg",
+      "sha256": "3e019a4ef8d8eda544c35ee8c981e929c7046fcba51a838f049ec827c89f8f51",
+      "publishedSha256": "9b8183161bdc785a41dd4808badb8dcecff4ad05791b529cf3bcd9085d73ac87",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e47-image4",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/10 Biology assessments extention/2013 10 Extension Mini Test.docx",
+      "embeddedImage": "word/media/image4.jpeg",
+      "sha256": "6748b68358a997bc8978e2338fb69c5e195afd96454f0d864ce321e4f397730f",
+      "publishedSha256": "dd14f75ff5ce3e7b241c12e4fd5c24b803d2926be508b6148a5a416c7789fac5",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "native-vector-d70204e95779",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Narrogin/2023/Task 5 Forces Motion and Energy TEST.docx",
+      "sourceParagraphs": [
+        156,
+        158,
+        159
+      ],
+      "role": "source_native_vector_response_figure",
+      "conversion": "Original blank response circles or labelled force arrows redrawn as SVG,then rasterised for cross-format export.",
+      "vectorSha256": "d70204e95779bfcd608788da3433d6cb5d54fb1c6aa36d5f4bf1cb7f6f8f4ad5",
+      "publishedSha256": "66d7af08ecbbfd3d9260d9463f5593ded4b68a55240c31f4a0b7ea1b5b12c36b"
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/Extras/Evolution Test General 2020 FROM SCRATCH WIP!.docx",
+      "sha": "4a3d71f67bc7af85c675e7699080670da89d8de9",
+      "year": 10,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/Evolution Test General ANSWERS.docx",
+      "sha": "c57c19a2c33ba037c5d42d0972ff22be6c220a0c",
+      "year": 10,
+      "role": "key_reference"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Biological Sciences/Safety Bay/2018/Microscope and Cells Test.docx",
+      "sha": "080432af36a267d1a099ca21d23111f66dd09dee",
+      "year": 8,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Biological Sciences/Safety Bay/2018/Microscope and Cells Test ANSWERS.docx",
+      "sha": "a548e2b1bf0422167f41ac61b9c94f52b101369c",
+      "year": 8,
+      "role": "key_reference"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/Year 8 Physics End of Topic Test 2013.docx",
+      "sha": "7846a7b2e4beb98ebd492078878dbb4a053b3865",
+      "year": 8,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/Year 8 energy test 2015.docx",
+      "sha": "a6bc156f1307942c6f831f0f7f75450cea54ba32",
+      "year": 8,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Narrogin/2023/Task 5 Forces Motion and Energy TEST.docx",
+      "sha": "06ffa55b93adf41f4b41293255c092f2035b07d6",
+      "year": 10,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/10 Biology assessments extention/2013 10 Extension Mini Test.docx",
+      "sha": "10e71dd0930d11bcbca4e3cbc08e0936b4b64669",
+      "year": 10,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [
+    {
+      "id": "sci-repo-y10-sby-2020-evolution-wip-mc-1",
+      "title": "Year 10 Science — Evolution general source draft —SafetyBay2020 (original source MC)",
+      "course": "Science",
+      "yearGroup": 10,
+      "unit": "Biological Sciences",
+      "parent": "Evolution general source draft —SafetyBay2020",
+      "count": 8,
+      "kind": "assessment",
+      "assessmentCount": 8,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch16.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=10&search=SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    },
+    {
+      "id": "sci-repo-y8-sby-2018-microscopes-mc-1",
+      "title": "Year 8 Science — Microscopes and cells —SafetyBay2018 (original source MC)",
+      "course": "Science",
+      "yearGroup": 8,
+      "unit": "Biological Sciences",
+      "parent": "Microscopes and cells —SafetyBay2018",
+      "count": 12,
+      "kind": "assessment",
+      "assessmentCount": 12,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch16.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=8&search=SCI-REPO-Y8-SBY-2018-MICROSCOPES",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    },
+    {
+      "id": "sci-repo-y8-aran-2013-physend-mc-1",
+      "title": "Year 8 Science — Energy end-of-topic test —Aranmore2013 (original source MC)",
+      "course": "Science",
+      "yearGroup": 8,
+      "unit": "Physical Sciences",
+      "parent": "Energy end-of-topic test —Aranmore2013",
+      "count": 18,
+      "kind": "assessment",
+      "assessmentCount": 18,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch16.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=8&search=SCI-REPO-Y8-ARAN-2013-PHYSEND",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    },
+    {
+      "id": "sci-repo-y8-aran-2015-energy-mc-1",
+      "title": "Year 8 Science — Energy source test —Aranmore2015 (original source MC)",
+      "course": "Science",
+      "yearGroup": 8,
+      "unit": "Physical Sciences",
+      "parent": "Energy source test —Aranmore2015",
+      "count": 8,
+      "kind": "assessment",
+      "assessmentCount": 8,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch16.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=8&search=SCI-REPO-Y8-ARAN-2015-ENERGY",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    },
+    {
+      "id": "sci-repo-y10-nar-2023-motion-mc-1",
+      "title": "Year 10 Science — Forces,motion and energy —Narrogin2023 (original source MC)",
+      "course": "Science",
+      "yearGroup": 10,
+      "unit": "Physical Sciences",
+      "parent": "Forces,motion and energy —Narrogin2023",
+      "count": 7,
+      "kind": "assessment",
+      "assessmentCount": 7,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch16.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=10&search=SCI-REPO-Y10-NAR-2023-MOTION",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    }
+  ],
+  "createdKeys": 29,
+  "createdSupplements": 111,
+  "notes": "Six source assessments:one evolution draft,microscopes,two energy tests,motion,andDNAinheritance. All original unscored examples and duplicate answer sections excluded from the added count. Marks and figures preserved;native force arrows redrawn as vectors. Created guidance differentiates historical/classroom models from scientific facts.",
+  "markAudit": "EvolutionWIPitemtotal31 differsfrom47cover and32sectionheader;printed per-item marks retained. Microscope12+18+10=40 differsfrom42cover. Aranmore2013energy47,2015energy40,Narrogin26,DNAmini32. Source tables with grouped marks stay grouped;fractional marks retained,not rounded toinflate counts.",
+  "duplicateQuestionAliases": []
+}

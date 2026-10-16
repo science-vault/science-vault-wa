@@ -253,7 +253,8 @@
       "embeddedImage": "word/media/image2.jpeg",
       "sha256": "1bb9cfd266a981e9084525d935610b63c6a55c647f3146a018ee161341d2fe9f",
       "publishedSha256": "6b02d05dc52e88520e1d1ab6a3efa094c77ee534299bfebc47d5ae774cbaf5d8",
-      "role": "source_question_or_response_figure"
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
     },
     {
       "id": "e11-image3",
@@ -261,7 +262,8 @@
       "embeddedImage": "word/media/image3.jpeg",
       "sha256": "13df57ab631abcaa82f68ba308a92c7460e370f2a6f56fd5558186003683861a",
       "publishedSha256": "1702b7e267241585eb8ff4ff5cf919bc374888b4d64cec7ede5f8148943791fa",
-      "role": "source_question_or_response_figure"
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
     },
     {
       "id": "e11-image4",
@@ -269,7 +271,8 @@
       "embeddedImage": "word/media/image4.gif",
       "sha256": "e17f394ddd3bc75ce8a65b247adebafb1d2a960adac47828bae6931affb543c7",
       "publishedSha256": "95a77d440e84f12cfae72414dedaaa69d1ab4ce21d43d83dd7b4ee9223e0bae2",
-      "role": "source_question_or_response_figure"
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
     },
     {
       "id": "e13-image2",
@@ -277,7 +280,8 @@
       "embeddedImage": "word/media/image2.png",
       "sha256": "b81fadef22e14e9f43f990a507a8a0241c67147000964d6b9a863e6e9142b940",
       "publishedSha256": "92950440a57561e4c9fd1d78067e5aa7cb982a89062c5f871b13f5fdfe7f7598",
-      "role": "source_question_or_response_figure"
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
     },
     {
       "id": "e15-image1",
@@ -285,7 +289,8 @@
       "embeddedImage": "word/media/image1.jpeg",
       "sha256": "597e60675cdb4a63d0a50dbeb32b110f054334dc9163f8fb69caef5cc6cb6e47",
       "publishedSha256": "f182246ce20031b1d8f3ec6ea0d9d5edbe8de2837546077050b3d05726d3b3b1",
-      "role": "source_question_or_response_figure"
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
     },
     {
       "id": "e15-image2",
@@ -293,7 +298,8 @@
       "embeddedImage": "word/media/image2.jpeg",
       "sha256": "35d0580dcb00194e0dee4da9b64cb7e5de2962c135f3276d61a3ca7e49fb1059",
       "publishedSha256": "9b4c285a9aad7cab86032dcdab8b9e3a2a7113874dc5e29034f7d0837df8651a",
-      "role": "source_question_or_response_figure"
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
     },
     {
       "id": "e15-image3",
@@ -301,7 +307,8 @@
       "embeddedImage": "word/media/image3.jpeg",
       "sha256": "ac5c7a890c20a4a9b3c9576086338db5190d2c83525711d949f2413859747f23",
       "publishedSha256": "731b6da6c31e9d5d9ed63e7acf6015c097b9a18739fa46626cb8d13876612b5d",
-      "role": "source_question_or_response_figure"
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
     },
     {
       "id": "e17-image2",
@@ -309,7 +316,8 @@
       "embeddedImage": "word/media/image2.gif",
       "sha256": "18ecf72f2f66a9dced474ba2b7be2a5cb333f1815bf57f1f2c266c30fd0cb77b",
       "publishedSha256": "4cf8fa1384ddd7d53a8d48b660c2c7153ae3405086d2dbf8dcc63b48a2269b31",
-      "role": "source_question_or_response_figure"
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
     }
   ],
   "sources": [

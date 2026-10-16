@@ -1,0 +1,541 @@
+{
+  "batch": "repo-science-batch15",
+  "paperCount": 2,
+  "questionIds": [
+    "SCI-REPO-Y10-SBY-2017-S1EXAM-MC01",
+    "SCI-REPO-Y10-SBY-2017-S1EXAM-MC03",
+    "SCI-REPO-Y10-SBY-2017-S1EXAM-MC05",
+    "SCI-REPO-Y10-SBY-2017-S1EXAM-MC08",
+    "SCI-REPO-Y10-SBY-2017-S1EXAM-MC09",
+    "SCI-REPO-Y10-SBY-2017-S1EXAM-MC10",
+    "SCI-REPO-Y10-SBY-2017-S1EXAM-MC11",
+    "SCI-REPO-Y10-SBY-2017-S1EXAM-MC12",
+    "SCI-REPO-Y10-SBY-2017-S1EXAM-MC13",
+    "SCI-REPO-Y10-SBY-2017-S1EXAM-MC16",
+    "SCI-REPO-Y10-SBY-2017-S1EXAM-MC21",
+    "SCI-REPO-Y10-SBY-2017-S1EXAM-MC22",
+    "SCI-REPO-Y10-SBY-2017-S1EXAM-MC23",
+    "SCI-REPO-Y10-SBY-2017-S1EXAM-MC25",
+    "SCI-REPO-Y10-SBY-2017-S1EXAM-MC26",
+    "SCI-REPO-Y10-SBY-2017-S1EXAM-MC30",
+    "SCI-REPO-Y10-SBY-2017-S1EXAM-1a",
+    "SCI-REPO-Y10-SBY-2017-S1EXAM-1b",
+    "SCI-REPO-Y10-SBY-2017-S1EXAM-2a",
+    "SCI-REPO-Y10-SBY-2017-S1EXAM-2b",
+    "SCI-REPO-Y10-SBY-2017-S1EXAM-3a",
+    "SCI-REPO-Y10-SBY-2017-S1EXAM-3b",
+    "SCI-REPO-Y10-SBY-2017-S1EXAM-3c",
+    "SCI-REPO-Y10-SBY-2017-S1EXAM-3d",
+    "SCI-REPO-Y10-SBY-2017-S1EXAM-3e",
+    "SCI-REPO-Y10-SBY-2017-S1EXAM-4a",
+    "SCI-REPO-Y10-SBY-2017-S1EXAM-4b",
+    "SCI-REPO-Y10-SBY-2017-S1EXAM-4c",
+    "SCI-REPO-Y10-SBY-2017-S1EXAM-4d",
+    "SCI-REPO-Y10-SBY-2017-S1EXAM-4e",
+    "SCI-REPO-Y10-SBY-2017-S1EXAM-5a",
+    "SCI-REPO-Y10-SBY-2017-S1EXAM-5b",
+    "SCI-REPO-Y10-SBY-2017-S1EXAM-5c",
+    "SCI-REPO-Y10-SBY-2017-S1EXAM-5d",
+    "SCI-REPO-Y10-SBY-2017-S1EXAM-5e",
+    "SCI-REPO-Y10-SBY-2017-S1EXAM-5f",
+    "SCI-REPO-Y10-SBY-2017-S1EXAM-5g",
+    "SCI-REPO-Y10-SBY-2017-S1EXAM-5h",
+    "SCI-REPO-Y9-SBY-2020-S2EXAM-MC01",
+    "SCI-REPO-Y9-SBY-2020-S2EXAM-MC02",
+    "SCI-REPO-Y9-SBY-2020-S2EXAM-MC03",
+    "SCI-REPO-Y9-SBY-2020-S2EXAM-MC04",
+    "SCI-REPO-Y9-SBY-2020-S2EXAM-MC05",
+    "SCI-REPO-Y9-SBY-2020-S2EXAM-MC06",
+    "SCI-REPO-Y9-SBY-2020-S2EXAM-MC07",
+    "SCI-REPO-Y9-SBY-2020-S2EXAM-MC08",
+    "SCI-REPO-Y9-SBY-2020-S2EXAM-MC09",
+    "SCI-REPO-Y9-SBY-2020-S2EXAM-MC10",
+    "SCI-REPO-Y9-SBY-2020-S2EXAM-MC11",
+    "SCI-REPO-Y9-SBY-2020-S2EXAM-MC12",
+    "SCI-REPO-Y9-SBY-2020-S2EXAM-MC13",
+    "SCI-REPO-Y9-SBY-2020-S2EXAM-MC14",
+    "SCI-REPO-Y9-SBY-2020-S2EXAM-MC15",
+    "SCI-REPO-Y9-SBY-2020-S2EXAM-MC17",
+    "SCI-REPO-Y9-SBY-2020-S2EXAM-MC18",
+    "SCI-REPO-Y9-SBY-2020-S2EXAM-MC19",
+    "SCI-REPO-Y9-SBY-2020-S2EXAM-MC20",
+    "SCI-REPO-Y9-SBY-2020-S2EXAM-21a",
+    "SCI-REPO-Y9-SBY-2020-S2EXAM-21bi",
+    "SCI-REPO-Y9-SBY-2020-S2EXAM-21bii",
+    "SCI-REPO-Y9-SBY-2020-S2EXAM-21c",
+    "SCI-REPO-Y9-SBY-2020-S2EXAM-21d",
+    "SCI-REPO-Y9-SBY-2020-S2EXAM-21e",
+    "SCI-REPO-Y9-SBY-2020-S2EXAM-22",
+    "SCI-REPO-Y9-SBY-2020-S2EXAM-23a",
+    "SCI-REPO-Y9-SBY-2020-S2EXAM-23b",
+    "SCI-REPO-Y9-SBY-2020-S2EXAM-23c",
+    "SCI-REPO-Y9-SBY-2020-S2EXAM-23d",
+    "SCI-REPO-Y9-SBY-2020-S2EXAM-24",
+    "SCI-REPO-Y9-SBY-2020-S2EXAM-25",
+    "SCI-REPO-Y9-SBY-2020-S2EXAM-26a",
+    "SCI-REPO-Y9-SBY-2020-S2EXAM-26b",
+    "SCI-REPO-Y9-SBY-2020-S2EXAM-26c",
+    "SCI-REPO-Y9-SBY-2020-S2EXAM-27",
+    "SCI-REPO-Y9-SBY-2020-S2EXAM-28",
+    "SCI-REPO-Y9-SBY-2020-S2EXAM-29"
+  ],
+  "questions": 76,
+  "multipleChoice": 35,
+  "writtenQuestions": 41,
+  "battleEligible": 33,
+  "marks": 143,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-S1EXAM-MC21",
+      "note": "The question omits whether the chromosome has replicated;two chromatids is not always true."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-S1EXAM-2b",
+      "note": "Corrected supplied key:meiosis normally gives four products,not three;gametes are products,not the site of meiosis."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-S1EXAM-4e",
+      "note": "Supplied key gives25% for dimples;corrected to75% under the stated dominant model."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-S1EXAM-5a",
+      "note": "Source confuses band extension/variable force with the distance the released band travels. Do not present25J as uniquely inferable."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-S1EXAM-5e",
+      "note": "Supplied key uses firefighter mass for cat;correct answer75J."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2020-S2EXAM-MC17",
+      "note": "All options falsely say S-waves travel through solids,liquids and gases;teacher review required."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2020-S2EXAM-21e",
+      "note": "Supplied key gives−1 despite showing11protons and10electrons;corrected to+1."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2020-S2EXAM-28",
+      "note": "Older supplied key says no earthquakes/volcanoes at convergence;that is false and corrected."
+    }
+  ],
+  "imageAudit": [
+    {
+      "id": "e30-image2",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/Year 10 Exam 2017 2 Hour.docx",
+      "embeddedImage": "word/media/image2.gif",
+      "sha256": "3a1956a7cc7a7bcf646ec9e8c907b8163587cfa1bb7e4e104d2d558332635dfa",
+      "publishedSha256": "d013619a8e9a680c89502fd2e50b4698486b887d97f5dfba6409dcf6dcacae02",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e30-image4",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/Year 10 Exam 2017 2 Hour.docx",
+      "embeddedImage": "word/media/image4.emf",
+      "sha256": "01aa0eea8d58d3f666302259e1f2229ee1f4fd747681852edfa0f4dbcd7d4a02",
+      "publishedSha256": "d2c82e4271c6a7958279d5e9f5c610e7831ed72e102b77367a25a5dbb984d4dc",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e30-image5",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/Year 10 Exam 2017 2 Hour.docx",
+      "embeddedImage": "word/media/image5.wmf",
+      "sha256": "8ef38f2ff8f75c86d9bf46f877f1b3686341956fe3c4ddd902b0353d86c68f90",
+      "publishedSha256": "f3195402071986df9b7ce11d24e02be7b34a1e40f25309e0d1c35a11d0e44bfc",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e30-image6",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/Year 10 Exam 2017 2 Hour.docx",
+      "embeddedImage": "word/media/image6.png",
+      "sha256": "2d2d65bb32739983ee60a3fa42a9d567f76249f92286fb37d2282d9d4cb1e3a2",
+      "publishedSha256": "176562349b26a5e8495ec71b9cf2bfe9b577abef682180fe925e527e1dcd2911",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e32-image3",
+      "source": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2020/Semester 2 Exam/2020 exam WIP.docx",
+      "embeddedImage": "word/media/image3.wmf",
+      "sha256": "5e072889d5d2884c4feff2c99549d551a45c5c5dc5755e34b00105c5b2f45a51",
+      "publishedSha256": "675ac0650115e7eb26d22028a8e0d31fda498963cb5b8640e456d46a81734bc5",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e32-image4",
+      "source": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2020/Semester 2 Exam/2020 exam WIP.docx",
+      "embeddedImage": "word/media/image4.jpeg",
+      "sha256": "761a863a72dbb9d8512135146f73d3679a5dfc30efbedbfce9a83348ea4d05de",
+      "publishedSha256": "fdb87f2a46900b71215bc2db2874926cea2b29b01d03eec109f734d75cd6bbba",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e32-image5",
+      "source": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2020/Semester 2 Exam/2020 exam WIP.docx",
+      "embeddedImage": "word/media/image5.png",
+      "sha256": "4032931c671133d1dd1882359d8167aa05760734d53e5c33b74cd53b603984a3",
+      "publishedSha256": "68f26d698fb5be3a22063147d350cea534bc45b7363c1f25c95ee5cca5ee17af",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e32-image6",
+      "source": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2020/Semester 2 Exam/2020 exam WIP.docx",
+      "embeddedImage": "word/media/image6.jpeg",
+      "sha256": "7114252da32df5a5f44d06649ef83e007e2ab62e2340f1bb048348fee1a746c7",
+      "publishedSha256": "b5c0ad697a317b2882e1c8e5e386b74fee90be605d51f6fa03b0e31113776d36",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e32-image7",
+      "source": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2020/Semester 2 Exam/2020 exam WIP.docx",
+      "embeddedImage": "word/media/image7.emf",
+      "sha256": "5446bcd2f43732809b77ac286b3c2d7a716357825f4fd82c59cc276fdf804d0d",
+      "publishedSha256": "cb277deba26e73532404a4754b5235af600e1634a38bb19009464ca33c98a484",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e32-image8",
+      "source": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2020/Semester 2 Exam/2020 exam WIP.docx",
+      "embeddedImage": "word/media/image8.emf",
+      "sha256": "048cd568bdf647685e772fd618d156ab9490b04beb73d3f8542d47489bae7227",
+      "publishedSha256": "b763d31f552ce5d8d43ab5abf8675c2f364e7e19ece4619d9ac063aa0e1a2c40",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e32-image9",
+      "source": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2020/Semester 2 Exam/2020 exam WIP.docx",
+      "embeddedImage": "word/media/image9.emf",
+      "sha256": "7a2d4cedc0fd14621f5f39068fe6f65c8f03b21d520185f45128552d47c9b799",
+      "publishedSha256": "363c15f44dad3e8d16c7d4b11eaea7a8ac56eee95094b7792794165a59a0d464",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e32-image10",
+      "source": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2020/Semester 2 Exam/2020 exam WIP.docx",
+      "embeddedImage": "word/media/image10.emf",
+      "sha256": "b9362af17ceea7cb116e86e89f07d3cefa965e0db4bd846b29aca245b8a287a9",
+      "publishedSha256": "5973e1dd1d6e43abfb1bd6e4d92d915150819bd153c64ddcacd9735fe08cb82c",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e32-image11",
+      "source": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2020/Semester 2 Exam/2020 exam WIP.docx",
+      "embeddedImage": "word/media/image11.emf",
+      "sha256": "0ccd5bfaf7446dac6e8a4d6ec8f2bf39965cb5427ddd87a60da2c174a5316100",
+      "publishedSha256": "0564aaf3943180426933eed78f31626cac704e11ff6159f9d625aa302b099e49",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e32-image12",
+      "source": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2020/Semester 2 Exam/2020 exam WIP.docx",
+      "embeddedImage": "word/media/image12.png",
+      "sha256": "abbcfc41f027879429a44f105f87269d50bb70ea930a2f315a9e4451dfacc7b8",
+      "publishedSha256": "c0b4fdda7873954239f8f32cd0d590cbfe508f91375b3d2fb659ff92d8d934e4",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "native-vector-9062ac2ed053",
+      "source": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2020/Semester 2 Exam/2020 exam WIP.docx",
+      "sourceParagraphs": [
+        306,
+        321,
+        322
+      ],
+      "role": "source_native_vector_response_figure",
+      "conversion": "Original blank response circles or labelled force arrows redrawn as SVG,then rasterised for cross-format export.",
+      "vectorSha256": "9062ac2ed0535a1cef2c656bffa5e32ce785b89106d228b1852a6d16c2335082",
+      "publishedSha256": "3af09d92f51fe55c65de3868c7d56871c6ad34c419db1686b870cdc65914e958"
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/Year 10 Exam 2017 2 Hour.docx",
+      "sha": "50858a742b3bd80b2e52d7864732ff32bbf682db",
+      "year": 10,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/Year 10 Exam 2017 2 Hour ANSWERS.docx",
+      "sha": "05e66bf9c879750e469fb01ed1877654acffeef4",
+      "year": 10,
+      "role": "key_reference"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2020/Semester 2 Exam/2020 exam WIP.docx",
+      "sha": "fb39c62e2b1e0b768646461f65160ade6d5b60ae",
+      "year": 9,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2020/Semester 2 Exam/2020 Exam ANSWERS WIP.docx",
+      "sha": "3b9964a09807ea82b58c1cfb4f3d67c9902b572f",
+      "year": 9,
+      "role": "key_reference"
+    }
+  ],
+  "gameMeta": [
+    {
+      "id": "sci-repo-y10-sby-2017-s1exam-mc-1",
+      "title": "Year 10 Science — Semester1 two-hour exam — SafetyBay2017 (original source MC)",
+      "course": "Science",
+      "yearGroup": 10,
+      "unit": "Science inquiry and understanding",
+      "parent": "Semester1 two-hour exam — SafetyBay2017",
+      "count": 15,
+      "kind": "assessment",
+      "assessmentCount": 15,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch15.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=10&search=SCI-REPO-Y10-SBY-2017-S1EXAM",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    },
+    {
+      "id": "sci-repo-y9-sby-2020-s2exam-mc-1",
+      "title": "Year 9 Science — Semester2 atoms,infection and geology —2020WIP (original source MC)",
+      "course": "Science",
+      "yearGroup": 9,
+      "unit": "Science inquiry and understanding",
+      "parent": "Semester2 atoms,infection and geology —2020WIP",
+      "count": 18,
+      "kind": "assessment",
+      "assessmentCount": 18,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch15.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=9&search=SCI-REPO-Y9-SBY-2020-S2EXAM",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    }
+  ],
+  "createdKeys": 0,
+  "createdSupplements": 76,
+  "notes": "Two source exams with original genetic,pedigree,nuclide and plate-map figures. Duplicate MC reused across the2017papers are aliased,not counted again. Supplied keys contain arithmetic and science errors;corrections explicit. The2019labelled key for2020WIP is matched item-by-item rather than assuming identical numbering.",
+  "markAudit": "Year10 original90marks=30MC+60written;some duplicate MC stored only as aliases. Year9 original68=20+42+6;retain2020per-part marks rather than olderkeyallocations. Guessed missing questions are not created.",
+  "duplicateQuestionAliases": [
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/Year 10 Exam 2017 2 Hour.docx",
+      "sourceFileSha": "50858a742b3bd80b2e52d7864732ff32bbf682db",
+      "sourceQuestionNumber": "19",
+      "sourceParagraphs": [
+        126,
+        127,
+        128,
+        129,
+        130,
+        118
+      ],
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC12",
+      "reason": "Same question and same labelled rollercoaster diagram reused from2017extensionpaper;not counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/Year 10 Exam 2017 2 Hour.docx",
+      "sourceFileSha": "50858a742b3bd80b2e52d7864732ff32bbf682db",
+      "sourceQuestionNumber": "20",
+      "sourceParagraphs": [
+        131,
+        132,
+        133,
+        134,
+        135,
+        118
+      ],
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC13",
+      "reason": "Same question and same labelled rollercoaster diagram reused from2017extensionpaper;not counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/Year 10 Exam 2017 2 Hour.docx",
+      "sourceFileSha": "50858a742b3bd80b2e52d7864732ff32bbf682db",
+      "sourceQuestionNumber": "2",
+      "sourceParagraphs": [
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC08",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/Year 10 Exam 2017 2 Hour.docx",
+      "sourceFileSha": "50858a742b3bd80b2e52d7864732ff32bbf682db",
+      "sourceQuestionNumber": "4",
+      "sourceParagraphs": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC03",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/Year 10 Exam 2017 2 Hour.docx",
+      "sourceFileSha": "50858a742b3bd80b2e52d7864732ff32bbf682db",
+      "sourceQuestionNumber": "6",
+      "sourceParagraphs": [
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC02",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/Year 10 Exam 2017 2 Hour.docx",
+      "sourceFileSha": "50858a742b3bd80b2e52d7864732ff32bbf682db",
+      "sourceQuestionNumber": "7",
+      "sourceParagraphs": [
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC06",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/Year 10 Exam 2017 2 Hour.docx",
+      "sourceFileSha": "50858a742b3bd80b2e52d7864732ff32bbf682db",
+      "sourceQuestionNumber": "14",
+      "sourceParagraphs": [
+        91,
+        92,
+        93,
+        94,
+        95
+      ],
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC09",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/Year 10 Exam 2017 2 Hour.docx",
+      "sourceFileSha": "50858a742b3bd80b2e52d7864732ff32bbf682db",
+      "sourceQuestionNumber": "15",
+      "sourceParagraphs": [
+        96,
+        97,
+        98,
+        99,
+        100
+      ],
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC07",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/Year 10 Exam 2017 2 Hour.docx",
+      "sourceFileSha": "50858a742b3bd80b2e52d7864732ff32bbf682db",
+      "sourceQuestionNumber": "17",
+      "sourceParagraphs": [
+        108,
+        109,
+        110,
+        111,
+        112
+      ],
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC05",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/Year 10 Exam 2017 2 Hour.docx",
+      "sourceFileSha": "50858a742b3bd80b2e52d7864732ff32bbf682db",
+      "sourceQuestionNumber": "18",
+      "sourceParagraphs": [
+        113,
+        114,
+        115,
+        116,
+        117
+      ],
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC11",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/Year 10 Exam 2017 2 Hour.docx",
+      "sourceFileSha": "50858a742b3bd80b2e52d7864732ff32bbf682db",
+      "sourceQuestionNumber": "24",
+      "sourceParagraphs": [
+        154,
+        155,
+        156,
+        157,
+        158
+      ],
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC14",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/Year 10 Exam 2017 2 Hour.docx",
+      "sourceFileSha": "50858a742b3bd80b2e52d7864732ff32bbf682db",
+      "sourceQuestionNumber": "27",
+      "sourceParagraphs": [
+        173,
+        174,
+        175,
+        176,
+        177
+      ],
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC01",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/Year 10 Exam 2017 2 Hour.docx",
+      "sourceFileSha": "50858a742b3bd80b2e52d7864732ff32bbf682db",
+      "sourceQuestionNumber": "28",
+      "sourceParagraphs": [
+        179,
+        180,
+        181,
+        182,
+        183
+      ],
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC04",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/Year 10 Exam 2017 2 Hour.docx",
+      "sourceFileSha": "50858a742b3bd80b2e52d7864732ff32bbf682db",
+      "sourceQuestionNumber": "29",
+      "sourceParagraphs": [
+        185,
+        187,
+        188,
+        189,
+        190
+      ],
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC10",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2020/Semester 2 Exam/2020 exam WIP.docx",
+      "sourceFileSha": "fb39c62e2b1e0b768646461f65160ade6d5b60ae",
+      "sourceQuestionNumber": "16",
+      "sourceParagraphs": [
+        157,
+        159,
+        160,
+        161,
+        162
+      ],
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-TECTONICS-MC01",
+      "reason": "Equivalent source question already present; not added or counted again."
+    }
+  ]
+}

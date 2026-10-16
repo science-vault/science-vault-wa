@@ -226,32 +226,36 @@
       "source": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/Exam/Yr 9 Extended Exam Sem2 2017.docx",
       "embeddedImage": "word/media/image3.wmf",
       "sha256": "6f06de235c76a1ee7389eab16a28d5af80f711c5db431721bc9f6ec4ecae0b71",
-      "publishedSha256": "d68b33f5e91adfe107afd63a931f115fab835d122b201255253b5c73d1bf4864",
-      "role": "source_question_or_response_figure"
+      "publishedSha256": "be97c1b53f640ded30b340592398f4f826abde0a73828095238118de9288424a",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
     },
     {
       "id": "e6-image4",
       "source": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/Exam/Yr 9 Extended Exam Sem2 2017.docx",
       "embeddedImage": "word/media/image4.wmf",
       "sha256": "8a92d7de714f1cae92cd97afa4add133156a4fdf04f05859383dc3aee775b0c3",
-      "publishedSha256": "55472fddeb9f08d35838aafc99d722a15b5cb8800a074c0e9a10f68ed4cfd4b9",
-      "role": "source_question_or_response_figure"
+      "publishedSha256": "bdb419286b83c7750f3ab2a89cd3bfa05e837e38080b9495b3667bfcddff37e5",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
     },
     {
       "id": "e6-image5",
       "source": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/Exam/Yr 9 Extended Exam Sem2 2017.docx",
       "embeddedImage": "word/media/image5.wmf",
       "sha256": "8f045dbe50d945391494e7dfa9673aefca4eac471b250c314bdd31a6db59c4ec",
-      "publishedSha256": "d9a6cf3291eaa7ef14f4b8885b442224443d8ce8983d1603bc09096bcacc9aca",
-      "role": "source_question_or_response_figure"
+      "publishedSha256": "6977e82158adb37f8b0708a88f9b634e2e951949120486132a9f7b691767a756",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
     },
     {
       "id": "e6-image6",
       "source": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/Exam/Yr 9 Extended Exam Sem2 2017.docx",
       "embeddedImage": "word/media/image6.wmf",
       "sha256": "c5ffdd9afa1544a283c07579e93909cf03b60a482f33cbf9fa707013f2db62a5",
-      "publishedSha256": "b26fe23d27aec022f42521ff3ccc6a245d302071f73cd1d7e29b523e3d4731bc",
-      "role": "source_question_or_response_figure"
+      "publishedSha256": "ea78138a3ce42c1b4d375b0733ab45a2b021c9f66a54a52ae63f53bb617e0462",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
     },
     {
       "id": "e6-image7",
@@ -259,7 +263,8 @@
       "embeddedImage": "word/media/image7.png",
       "sha256": "282b7fc983e0198f0210fc199e7038a2b47c6e7e9faed79f8c420f006e261ac2",
       "publishedSha256": "57b48af33630ee6115c48ed878f2fbf93cb7e0c62e4d49265821d44bf9919981",
-      "role": "source_question_or_response_figure"
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
     },
     {
       "id": "e6-image8",
@@ -267,7 +272,8 @@
       "embeddedImage": "word/media/image8.png",
       "sha256": "89a295370b4f9b49d96c888a8324cb14eb707310019ad7f64ed6254827de1467",
       "publishedSha256": "e1a7376dbccb5b0597431e5e4162e1f8470bdbee946d2204d3e168925aac256a",
-      "role": "source_question_or_response_figure"
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
     },
     {
       "id": "e6-image9",
@@ -275,7 +281,8 @@
       "embeddedImage": "word/media/image9.png",
       "sha256": "072fa15d0e7b0022377a613e6603956003e02d2235255090cbf4f0f386b6a309",
       "publishedSha256": "5f983fa923fe0c8de69a94f3801da5d191d32dfa6982fb51a356d21e418ffc20",
-      "role": "source_question_or_response_figure"
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
     },
     {
       "id": "e6-image10",
@@ -283,7 +290,8 @@
       "embeddedImage": "word/media/image10.png",
       "sha256": "6c1558435b36dd591fe9f2c1c02e1fec272ef2c3c1f6146391ed368f7be1d17f",
       "publishedSha256": "b418ed3c01d44719faa34e8d4efc12628585e03e3d36b3add2c74d5ef090251b",
-      "role": "source_question_or_response_figure"
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
     },
     {
       "id": "e7-image2",
@@ -291,15 +299,17 @@
       "embeddedImage": "word/media/image2.png",
       "sha256": "51ac1c269282d6bcaf22b5dc89e7844cd9ea3e6d0c9f8f8211496c898766eae5",
       "publishedSha256": "d013619a8e9a680c89502fd2e50b4698486b887d97f5dfba6409dcf6dcacae02",
-      "role": "source_question_or_response_figure"
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
     },
     {
       "id": "e7-image4",
       "source": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/FINAL 2017 Sem 2 Exam Yr 10 Ext.docx",
       "embeddedImage": "word/media/image4.wmf",
       "sha256": "c13ecc411a2ed2ff289092c909ecc501f0c0d9ae8f19d0ec062c9d04842a3e9b",
-      "publishedSha256": "158d3dd92d5bea877a97230393cb46980fff1ab68868fc9d412528d563023b76",
-      "role": "source_question_or_response_figure"
+      "publishedSha256": "f82403091147e50c579ef9730e2dc38e3277bc452983d723a2ac36fad21f5c65",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
     },
     {
       "id": "e9-image2",
@@ -307,7 +317,8 @@
       "embeddedImage": "word/media/image2.png",
       "sha256": "1d6b9b63a4ea6b06826381449901149efe7e2e89aa0424ad0c3dd4ef645c4b1e",
       "publishedSha256": "5e56127e48d4d079c22992a47da26f0a00db4beb37379195ef566fd40aade715",
-      "role": "source_question_or_response_figure"
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
     },
     {
       "id": "e9-image3",
@@ -315,7 +326,8 @@
       "embeddedImage": "word/media/image3.png",
       "sha256": "a3561dfa0152c4adff4867e4a822cb29f3cf392a91797f804e8731f024a627e6",
       "publishedSha256": "434fa7b5ef9c27f808baa8bb5c259cec1a709ede7fc367f4025fee1d0d4dfa3d",
-      "role": "source_question_or_response_figure"
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
     },
     {
       "id": "e8-image4",
@@ -323,7 +335,8 @@
       "embeddedImage": "word/media/image4.png",
       "sha256": "97b9dd80af93fe8214eaae56505bfa1e43455773de9a79a08b321a3306a3ba64",
       "publishedSha256": "0b939acfe8fef63b345215ad55e5785881444e4a4111a737a39ce2fc1677de74",
-      "role": "source_question_or_response_figure"
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
     },
     {
       "id": "e8-image5",
@@ -331,7 +344,8 @@
       "embeddedImage": "word/media/image5.png",
       "sha256": "b9711b8d7796f7e7b2578f0377207ef3cc8a679921512a282225e26dce1f05ac",
       "publishedSha256": "d1870061ab2638579e988a5c314f28b5e24f5f6ea6eb760bae4dcf734b10a757",
-      "role": "source_question_or_response_figure"
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
     },
     {
       "id": "e8-image6",
@@ -339,7 +353,8 @@
       "embeddedImage": "word/media/image6.png",
       "sha256": "5ec542a818db63e4bffc4edf35642f01f73213a8f6129c03ee95d47fa1004a17",
       "publishedSha256": "88407cfc8e558b3c06abd064541a322bedf444ba0bed1197f15a9b5c1015a2db",
-      "role": "source_question_or_response_figure"
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
     }
   ],
   "sources": [
