@@ -1,0 +1,51 @@
+{
+  "batch": "repo-science-batch151",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y9-NARR-2024-HOUSEHOLDPH-table"
+  ],
+  "questions": 1,
+  "multipleChoice": 0,
+  "writtenQuestions": 1,
+  "battleEligible": 0,
+  "marks": 33,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y9-NARR-2024-HOUSEHOLDPH-table",
+      "note": "Unmarked practical table;33marks proposed. Actual sample identity/preparation/measurements required. Binary acid/base heading omits neutral,and printed pHrange is oversimplified."
+    }
+  ],
+  "imageAudit": [
+    {
+      "id": "e378-image1",
+      "source": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2024/Acids Bases Y9 science4fun p68 goc.docx",
+      "embeddedImage": "word/media/image1.png",
+      "sha256": "9c0200a462013891acf352db1cc2a00463abaa74fc6724024ca80db228bf7bf1",
+      "publishedSha256": "9515460c093b8cedf98d200c28b1842dceaeee02f66e22b9e3ef6b0b74657023",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2024/Acids Bases Y9 science4fun p68 goc.docx",
+      "sha": "d3499613b893876919f802d6af6a09c916fa1f89",
+      "year": 9,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 1,
+  "createdSupplements": 0,
+  "notes": [
+    "Complete one-page indicator chart/11sample table visually checked and retained. One consolidated33proposed-mark task avoids creating separate questions for empty cells. No household-productpHvalues or mixing procedure invented;neutral andrange limitations flagged."
+  ],
+  "markAudit": {
+    "sourceMarks": null,
+    "samples": 11,
+    "proposedPerSample": 3,
+    "proposedTotal": 33
+  },
+  "duplicateQuestionAliases": []
+}

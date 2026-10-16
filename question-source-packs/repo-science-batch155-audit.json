@@ -1,0 +1,164 @@
+{
+  "batch": "repo-science-batch155",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y10-ARAN-PHYSICSESL2-MC02",
+    "SCI-REPO-Y10-ARAN-PHYSICSESL2-MC03",
+    "SCI-REPO-Y10-ARAN-PHYSICSESL2-MC04",
+    "SCI-REPO-Y10-ARAN-PHYSICSESL2-MC05",
+    "SCI-REPO-Y10-ARAN-PHYSICSESL2-MC06",
+    "SCI-REPO-Y10-ARAN-PHYSICSESL2-MC07",
+    "SCI-REPO-Y10-ARAN-PHYSICSESL2-MC08",
+    "SCI-REPO-Y10-ARAN-PHYSICSESL2-MC09",
+    "SCI-REPO-Y10-ARAN-PHYSICSESL2-MC10",
+    "SCI-REPO-Y10-ARAN-PHYSICSESL2-W1a",
+    "SCI-REPO-Y10-ARAN-PHYSICSESL2-W1b",
+    "SCI-REPO-Y10-ARAN-PHYSICSESL2-W1c",
+    "SCI-REPO-Y10-ARAN-PHYSICSESL2-W2",
+    "SCI-REPO-Y10-ARAN-PHYSICSESL2-W3",
+    "SCI-REPO-Y10-ARAN-PHYSICSESL2-W4",
+    "SCI-REPO-Y10-ARAN-PHYSICSESL2-W5",
+    "SCI-REPO-Y10-ARAN-PHYSICSESL2-W6",
+    "SCI-REPO-Y10-ARAN-PHYSICSESL2-W7a",
+    "SCI-REPO-Y10-ARAN-PHYSICSESL2-W7b",
+    "SCI-REPO-Y10-ARAN-PHYSICSESL2-W7c-i",
+    "SCI-REPO-Y10-ARAN-PHYSICSESL2-W7c-ii",
+    "SCI-REPO-Y10-ARAN-PHYSICSESL2-W7c-iii",
+    "SCI-REPO-Y10-ARAN-PHYSICSESL2-W8",
+    "SCI-REPO-Y10-ARAN-PHYSICSESL2-W9"
+  ],
+  "questions": 24,
+  "multipleChoice": 9,
+  "writtenQuestions": 15,
+  "battleEligible": 9,
+  "marks": 53,
+  "reviewRequired": [],
+  "imageAudit": [
+    {
+      "id": "e389-image1",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/Physics ESL Topic Test 2.docx",
+      "embeddedImage": "word/media/image1.gif",
+      "sha256": "ebcf39f43ce8e7e531c20fd6abb0d237fb2b5aef486763b421a26957ddfc2c69",
+      "publishedSha256": "3404e7f8b0d30e3ffbe4689eaf4ce8615617459161bb5bf59d5f6b986b032327",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e389-image2",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/Physics ESL Topic Test 2.docx",
+      "embeddedImage": "word/media/image2.jpeg",
+      "sha256": "49a128eb371432356db27b55e769080390222de6537d718f5e9191ae7a0e35a3",
+      "publishedSha256": "0a7d61271c3a2d05c012fd4ddffdbfc1a5cb161c0b9d840e55a64de3d98b3471",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e389-image3",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/Physics ESL Topic Test 2.docx",
+      "embeddedImage": "word/media/image3.jpeg",
+      "sha256": "86ec2a14a4c092a5f2c4ff5f21a1e12ac3c659eadc6c506c8eb78bdf1070523a",
+      "publishedSha256": "45168ff675e1824db2bf44870c29c591ccf39931b7aee6c1fc607b9137680b32",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e389-image4",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/Physics ESL Topic Test 2.docx",
+      "embeddedImage": "word/media/image4.png",
+      "sha256": "07d5d730cab3fa41007d010973395f381ce7f5577382b6aed9290f32cbadff4d",
+      "publishedSha256": "12bf1337f2df14c1c1d542f78c16ed964d78b59b6783788c64a8390780d7a5fd",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e389-image5",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/Physics ESL Topic Test 2.docx",
+      "embeddedImage": "word/media/image5.jpeg",
+      "sha256": "8e053e4bd14022f61855e7dfaddabc44b57076a3747bedcc19f49a1d1295723d",
+      "publishedSha256": "ae03712878e8924bf646730ccf6ead810b3cf78606801d6b779c4f7b107cbba2",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e389-image6",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/Physics ESL Topic Test 2.docx",
+      "embeddedImage": "word/media/image6.jpeg",
+      "sha256": "42609fe75b6b13be97ca9adbcc6ad4c8666881036ee45b11fd16b4c9258a9f1a",
+      "publishedSha256": "bc853d2fcdd0f4e7efb00d6b00fda03ec9a81c30bd93d241f9297e415e5c8f3e",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e389-image7",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/Physics ESL Topic Test 2.docx",
+      "embeddedImage": "word/media/image7.png",
+      "sha256": "859c035c0425f3bca2188885a912aa401471810039d9d122abfe215faa039577",
+      "publishedSha256": "c78025890107ba4f1411186f7e31f102beef3304c5a652f49e70815e2b856238",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/Physics ESL Topic Test 2.docx",
+      "sha": "23d756bbf15a80b6021f99e0fd2a937f72a09b07",
+      "year": 10,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [
+    {
+      "id": "sci-repo-y10-aran-physicsesl2-mc-1",
+      "title": "Year 10 Science — Physics and introductory science topic test2 (original source MC)",
+      "course": "Science",
+      "yearGroup": 10,
+      "unit": "Physical Sciences",
+      "parent": "Physics and introductory science topic test2",
+      "count": 9,
+      "kind": "assessment",
+      "assessmentCount": 9,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch155.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=10&search=SCI-REPO-Y10-ARAN-PHYSICSESL2",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    }
+  ],
+  "createdKeys": 24,
+  "createdSupplements": 0,
+  "notes": [
+    "Complete10MC+44written-mark physics ESL test reviewed;15markMCheading conflicts with10stems and54total. Original skateboard,bullet,gazelle,equation,force-triangle andgraph-grid figures visually checked and retained. Acceleration answers correctly convert km/h;car figures treated as supplied exercise data,not current specifications."
+  ],
+  "markAudit": {
+    "headerTotal": 54,
+    "MCHeading": 15,
+    "actualMC": 10,
+    "written": 44,
+    "actualTotal": 54
+  },
+  "duplicateQuestionAliases": [
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/Physics ESL Topic Test 2.docx",
+      "sourceFileSha": "23d756bbf15a80b6021f99e0fd2a937f72a09b07",
+      "sourceQuestionNumber": "1",
+      "sourceParagraphs": [
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC27",
+      "reason": "Equivalent source question already present; not added or counted again."
+    }
+  ]
+}

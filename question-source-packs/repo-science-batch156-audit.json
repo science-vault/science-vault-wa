@@ -1,0 +1,145 @@
+{
+  "batch": "repo-science-batch156",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y10-SBY-2024-SOCIALDILEMMA-1",
+    "SCI-REPO-Y10-SBY-2024-SOCIALDILEMMA-2",
+    "SCI-REPO-Y10-SBY-2024-SOCIALDILEMMA-3",
+    "SCI-REPO-Y10-SBY-2024-SOCIALDILEMMA-4",
+    "SCI-REPO-Y10-SBY-2024-SOCIALDILEMMA-5",
+    "SCI-REPO-Y10-SBY-2024-SOCIALDILEMMA-6",
+    "SCI-REPO-Y10-SBY-2024-SOCIALDILEMMA-7",
+    "SCI-REPO-Y10-SBY-2024-SOCIALDILEMMA-8",
+    "SCI-REPO-Y10-SBY-2024-SOCIALDILEMMA-9",
+    "SCI-REPO-Y10-SBY-2024-SOCIALDILEMMA-10",
+    "SCI-REPO-Y10-SBY-2024-SOCIALDILEMMA-11",
+    "SCI-REPO-Y10-SBY-2024-SOCIALDILEMMA-12",
+    "SCI-REPO-Y10-SBY-2024-SOCIALDILEMMA-13",
+    "SCI-REPO-Y10-SBY-2024-SOCIALDILEMMA-14",
+    "SCI-REPO-Y10-SBY-2024-SOCIALDILEMMA-15",
+    "SCI-REPO-Y10-SBY-2024-SOCIALDILEMMA-16",
+    "SCI-REPO-Y10-SBY-2024-SOCIALDILEMMA-17",
+    "SCI-REPO-Y10-SBY-2024-SOCIALDILEMMA-18",
+    "SCI-REPO-Y10-SBY-2024-SOCIALDILEMMA-19",
+    "SCI-REPO-Y10-SBY-2024-SOCIALDILEMMA-20"
+  ],
+  "questions": 20,
+  "multipleChoice": 0,
+  "writtenQuestions": 20,
+  "battleEligible": 0,
+  "marks": 55,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-SOCIALDILEMMA-1",
+      "note": "Unmarked open discussion worksheet;allocations proposed. Accept supported perspectives and hypothetical reflection;source empirical claims need critical qualification."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-SOCIALDILEMMA-2",
+      "note": "Unmarked open discussion worksheet;allocations proposed. Accept supported perspectives and hypothetical reflection;source empirical claims need critical qualification."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-SOCIALDILEMMA-3",
+      "note": "Unmarked open discussion worksheet;allocations proposed. Accept supported perspectives and hypothetical reflection;source empirical claims need critical qualification."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-SOCIALDILEMMA-4",
+      "note": "Unmarked open discussion worksheet;allocations proposed. Accept supported perspectives and hypothetical reflection;source empirical claims need critical qualification."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-SOCIALDILEMMA-5",
+      "note": "Unmarked open discussion worksheet;allocations proposed. Accept supported perspectives and hypothetical reflection;source empirical claims need critical qualification."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-SOCIALDILEMMA-6",
+      "note": "Unmarked open discussion worksheet;allocations proposed. Accept supported perspectives and hypothetical reflection;source empirical claims need critical qualification."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-SOCIALDILEMMA-7",
+      "note": "Unmarked open discussion worksheet;allocations proposed. Accept supported perspectives and hypothetical reflection;source empirical claims need critical qualification."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-SOCIALDILEMMA-8",
+      "note": "Unmarked open discussion worksheet;allocations proposed. Accept supported perspectives and hypothetical reflection;source empirical claims need critical qualification."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-SOCIALDILEMMA-9",
+      "note": "Unmarked open discussion worksheet;allocations proposed. Accept supported perspectives and hypothetical reflection;source empirical claims need critical qualification."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-SOCIALDILEMMA-10",
+      "note": "Unmarked open discussion worksheet;allocations proposed. Accept supported perspectives and hypothetical reflection;source empirical claims need critical qualification."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-SOCIALDILEMMA-11",
+      "note": "Unmarked open discussion worksheet;allocations proposed. Accept supported perspectives and hypothetical reflection;source empirical claims need critical qualification."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-SOCIALDILEMMA-12",
+      "note": "Unmarked open discussion worksheet;allocations proposed. Accept supported perspectives and hypothetical reflection;source empirical claims need critical qualification."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-SOCIALDILEMMA-13",
+      "note": "Unmarked open discussion worksheet;allocations proposed. Accept supported perspectives and hypothetical reflection;source empirical claims need critical qualification."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-SOCIALDILEMMA-14",
+      "note": "Unmarked open discussion worksheet;allocations proposed. Accept supported perspectives and hypothetical reflection;source empirical claims need critical qualification."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-SOCIALDILEMMA-15",
+      "note": "Unmarked open discussion worksheet;allocations proposed. Accept supported perspectives and hypothetical reflection;source empirical claims need critical qualification."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-SOCIALDILEMMA-16",
+      "note": "Unmarked open discussion worksheet;allocations proposed. Accept supported perspectives and hypothetical reflection;source empirical claims need critical qualification."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-SOCIALDILEMMA-17",
+      "note": "Unmarked open discussion worksheet;allocations proposed. Accept supported perspectives and hypothetical reflection;source empirical claims need critical qualification."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-SOCIALDILEMMA-18",
+      "note": "Unmarked open discussion worksheet;allocations proposed. Accept supported perspectives and hypothetical reflection;source empirical claims need critical qualification."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-SOCIALDILEMMA-19",
+      "note": "Unmarked open discussion worksheet;allocations proposed. Accept supported perspectives and hypothetical reflection;source empirical claims need critical qualification."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-SOCIALDILEMMA-20",
+      "note": "Unmarked open discussion worksheet;allocations proposed. Accept supported perspectives and hypothetical reflection;source empirical claims need critical qualification."
+    }
+  ],
+  "imageAudit": [
+    {
+      "id": "e383-image1",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Psychology Elective/Safety Bay/2024/Resources/Worksheets/The Social Dilemma.docx",
+      "embeddedImage": "word/media/image1.png",
+      "sha256": "0d32f182f3e9f249e46dbd4bb65b7662dadd8243715ed45b892419d31425669b",
+      "publishedSha256": "c7aad8c98a0ed37183c2c749d8b5cf71188050e71d87c7526da760d534405d7a",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Psychology Elective/Safety Bay/2024/Resources/Worksheets/The Social Dilemma.docx",
+      "sha": "51bd51d9e932563bb0fb0135f93ed7b79c5bed0e",
+      "year": 10,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 20,
+  "createdSupplements": 0,
+  "notes": [
+    "All20explicit social-media discussion prompts retained. Current account access or personal disclosures not required. Unattributed64%claim and universal false-news wording flagged;primary2018diffusion research used only within its actual scope. No claim that the film was watched or that platforms currently implement a specific policy."
+  ],
+  "markAudit": {
+    "sourceMarks": null,
+    "proposedTotal": 55,
+    "questions": 20
+  },
+  "duplicateQuestionAliases": []
+}
