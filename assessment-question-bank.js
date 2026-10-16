@@ -42,7 +42,7 @@ document.write('<script src="assessment-question-bank-science-source-batch10.js?
 
 document.write('<script src="assessment-question-bank-science-source-batch11.js?v=2026.10.16-science-source11"><\/script>');
 
-document.write('<script src="assessment-question-bank-science-source-batch12.js?v=2026.10.16-science-source12"><\/script>');
+document.write('<script src="assessment-question-bank-science-source-batch12.js?v=2026.10.16-science-source12-diagram-dedup-repair1"><\/script>');
 
 document.write('<script src="assessment-question-bank-science-source-batch13.js?v=2026.10.16-science-source13"><\/script>');
 
@@ -65,3 +65,9 @@ document.write('<script src="assessment-question-bank-science-source-batch21.js?
 document.write('<script src="assessment-question-bank-science-source-batch22.js?v=2026.10.16-science-source22"><\/script>');
 
 document.write('<script src="assessment-question-bank-science-source-batch23.js?v=2026.10.16-science-source23"><\/script>');
+
+document.write('<script src="assessment-question-bank-science-source-batch24.js?v=2026.10.16-science-source24"><\/script>');
+
+document.write('<script src="assessment-question-bank-science-source-batch25.js?v=2026.10.16-science-source25"><\/script>');
+
+document.write('<script src="assessment-question-bank-science-source-batch26.js?v=2026.10.16-science-source26"><\/script>');

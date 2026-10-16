@@ -1,0 +1,278 @@
+{
+  "batch": "repo-science-batch26",
+  "paperCount": 2,
+  "questionIds": [
+    "SCI-REPO-Y10-ARAN-PHYS89GENERAL-MC01",
+    "SCI-REPO-Y10-ARAN-PHYS89GENERAL-MC02",
+    "SCI-REPO-Y10-ARAN-PHYS89GENERAL-MC03",
+    "SCI-REPO-Y10-ARAN-PHYS89GENERAL-MC04",
+    "SCI-REPO-Y10-ARAN-PHYS89GENERAL-MC05",
+    "SCI-REPO-Y10-ARAN-PHYS89GENERAL-MC06",
+    "SCI-REPO-Y10-ARAN-PHYS89GENERAL-MC07",
+    "SCI-REPO-Y10-ARAN-PHYS89GENERAL-MC08",
+    "SCI-REPO-Y10-ARAN-PHYS89GENERAL-MC09",
+    "SCI-REPO-Y10-ARAN-PHYS89GENERAL-MC10",
+    "SCI-REPO-Y10-ARAN-PHYS89GENERAL-MC11",
+    "SCI-REPO-Y10-ARAN-PHYS89GENERAL-MC12",
+    "SCI-REPO-Y10-ARAN-PHYS89GENERAL-MC13",
+    "SCI-REPO-Y10-ARAN-PHYS89GENERAL-MC14",
+    "SCI-REPO-Y10-ARAN-PHYS89GENERAL-MC15",
+    "SCI-REPO-Y10-ARAN-PHYS89GENERAL-MC16",
+    "SCI-REPO-Y10-ARAN-PHYS89GENERAL-MC17",
+    "SCI-REPO-Y10-ARAN-PHYS89GENERAL-MC18",
+    "SCI-REPO-Y10-ARAN-PHYS89GENERAL-MC19",
+    "SCI-REPO-Y10-ARAN-PHYS89GENERAL-MC20",
+    "SCI-REPO-Y10-ARAN-PHYS89GENERAL-MC21",
+    "SCI-REPO-Y10-ARAN-PHYS89GENERAL-MC22",
+    "SCI-REPO-Y10-ARAN-PHYS89GENERAL-W1",
+    "SCI-REPO-Y10-ARAN-PHYS89GENERAL-W2",
+    "SCI-REPO-Y10-ARAN-PHYS89GENERAL-W3",
+    "SCI-REPO-Y10-ARAN-PHYS89GENERAL-W4",
+    "SCI-REPO-Y10-ARAN-PHYS89GENERAL-W5",
+    "SCI-REPO-Y10-ARAN-PHYS89GENERAL-W6",
+    "SCI-REPO-Y10-ARAN-PHYS89GENERAL-W7",
+    "SCI-REPO-Y10-ARAN-PHYS89GENERAL-W8",
+    "SCI-REPO-Y10-ARAN-GENERALMID2-1",
+    "SCI-REPO-Y10-ARAN-GENERALMID2-2"
+  ],
+  "questions": 32,
+  "multipleChoice": 22,
+  "writtenQuestions": 10,
+  "battleEligible": 17,
+  "marks": 47,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y10-ARAN-PHYS89GENERAL-MC13",
+      "note": "Sydney Harbour Bridge is not precisely a bowstring/tied arch; closest source option is A."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-PHYS89GENERAL-MC15",
+      "note": "Both running child and moving wings of hovering bee have kinetic energy."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-PHYS89GENERAL-MC16",
+      "note": "Force magnitudes and initial velocity are unspecified; movement is not uniquely determined."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-PHYS89GENERAL-MC20",
+      "note": "Two choices (B and C) are incorrect, so this is not single-answer MC."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-PHYS89GENERAL-MC22",
+      "note": "Moving down a hill does not exclude gravitational potential energy."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-GENERALMID2-1",
+      "note": "Source figure says700N and50kg, whereas written problem says400N and20kg. Accept a consistent interpretation; supplied worked solution uses the written values."
+    }
+  ],
+  "imageAudit": [
+    {
+      "id": "e60-image8",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/General End Topic Test Ch8 and 9.1.docx",
+      "embeddedImage": "word/media/image8.jpeg",
+      "sha256": "78a570aafd1e0f6dfd930f61a61eafec962831c22bbf2bc2f10a6eb84dfbdd93",
+      "publishedSha256": "2eb7ee366646594a70b206f550732dc6b936ed5a98c7cd84ecb1d4155def9b23",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e60-image10",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/General End Topic Test Ch8 and 9.1.docx",
+      "embeddedImage": "word/media/image10.jpeg",
+      "sha256": "a8ffc203a99b67419a2924fb153e91b4f2b2e97c7e1774926cae89168f1a3d4f",
+      "publishedSha256": "f8ae6afbd4bd0867aaceab682600e1b3e9dcd54b43f1b0109432af82b79d053a",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e60-image11",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/General End Topic Test Ch8 and 9.1.docx",
+      "embeddedImage": "word/media/image11.gif",
+      "sha256": "7f225c40f65d408fd291314d2e85015395e76ec7f874b2572d77236bae0a3a46",
+      "publishedSha256": "cf9a4ecc74bc82e2068999a89bdba41020a9bedd3b77073c202ed0f711755215",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e60-image12",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/General End Topic Test Ch8 and 9.1.docx",
+      "embeddedImage": "word/media/image12.jpeg",
+      "sha256": "5b45ec796497bd916a6b4fbbe188a29e50d35fd4a87b23d5a48b2269f2812d55",
+      "publishedSha256": "6dd13fbfeaff7eb1f8a473d2097febc31046a961db35723e4ca9d01b223a6b43",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e60-image13",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/General End Topic Test Ch8 and 9.1.docx",
+      "embeddedImage": "word/media/image13.jpeg",
+      "sha256": "8b1840559e5bc3bcc858272914702f5022b47806c5994dda89ced501cf159c32",
+      "publishedSha256": "cb0b0a90ceae6f5b167bbfec7ec42e6479d4b9643a2ee5d052168daa4ea3661a",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e60-image14",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/General End Topic Test Ch8 and 9.1.docx",
+      "embeddedImage": "word/media/image14.jpeg",
+      "sha256": "5ba05593ef55bc5df4c3212a0dee572550cfaa4a8400bac032cce6cb88f3b7cb",
+      "publishedSha256": "0232bd6f67e67e1b9eecdbe1d469d93113f4cf96b605bc8481dd7537192b3c95",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e60-image15",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/General End Topic Test Ch8 and 9.1.docx",
+      "embeddedImage": "word/media/image15.jpeg",
+      "sha256": "6c7fc562bf75d1e69b263ff586e426bd14ee35cddf289067f7440e51fc54578e",
+      "publishedSha256": "0bcbcc75e3162112741d1efceb24bfa6addc3edf6ba1b52421deba0be28f0cbd",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e60-image16",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/General End Topic Test Ch8 and 9.1.docx",
+      "embeddedImage": "word/media/image16.gif",
+      "sha256": "67408431187450bf88c199409a78fcb6a7f3b01f97e8104d5527f2f083c87726",
+      "publishedSha256": "88709bdc137db81949fa3b820b97448dcdb2d98ba60ee877e8e34c862c4be906",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e60-image17",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/General End Topic Test Ch8 and 9.1.docx",
+      "embeddedImage": "word/media/image17.gif",
+      "sha256": "f080e2c54385e9947266bcf12e7aae944bbea5e609dbb5fe8ee8cdfe19bc9a48",
+      "publishedSha256": "22ecbbe7e15f27599cc88273023c94ea16692f135399592a76ac152aeb673b83",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e60-page7-bridge-A-B-labels",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/General End Topic Test Ch8 and 9.1.docx",
+      "sourceFileSha": "e0d3ea45acdefae9f6447fa3c8579fa7d8915fa0",
+      "sourcePage": 7,
+      "pdfCropPoints": [
+        373,
+        580,
+        564,
+        780
+      ],
+      "role": "original_native_Word_figure",
+      "conversion": "Original DOCX rendered by LibreOffice to PDF; bounded source figure rasterised at 216 dpi without redrawing. Native editable shapes, table borders, shading and example points retained.",
+      "publishedSha256": "09c49f70d4222b4bda3b6cb8d5c3a4392a6fb3042bec340e59e74f1ed2b0359e"
+    },
+    {
+      "id": "e60-image18",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/General End Topic Test Ch8 and 9.1.docx",
+      "embeddedImage": "word/media/image18.jpeg",
+      "sha256": "1a76c8df24e0211f01d6fa235b053302d4930c665ee8506680ada11802946276",
+      "publishedSha256": "da6415f4e24058a94014596fa57483e05140c07ee600886fa87ce1caa446733e",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e60-image19",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/General End Topic Test Ch8 and 9.1.docx",
+      "embeddedImage": "word/media/image19.png",
+      "sha256": "f07f54cf4fa808d9890abdd8ab3701415f746bf6b53a5fd70401b9a68646e11a",
+      "publishedSha256": "1894e3e6c37b471051ca03cc79965a8e18df3e631b01616aaffc19d417e5e34a",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e60-image20",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/General End Topic Test Ch8 and 9.1.docx",
+      "embeddedImage": "word/media/image20.jpeg",
+      "sha256": "f4c15fd7b0fb57ad3b19afb80cf00cedcdec8d733085a257b59b8f6cc762140f",
+      "publishedSha256": "d9be75693063c0f18dbc34161c84ef2660067f0112def77e08a528d324b873ac",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e62-image1",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/General Mid Topic Test 2.docx",
+      "embeddedImage": "word/media/image1.jpeg",
+      "sha256": "3a78fb9fe922c0af6f5cf3c5dc0909ea3cd6851b6e2e0e51e5c9f70e129e40f0",
+      "publishedSha256": "0ec2e68da268022efe46a210c7a4e1a6dae6f217307a620edc15f32f5feb0685",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/General End Topic Test Ch8 and 9.1.docx",
+      "sha": "e0d3ea45acdefae9f6447fa3c8579fa7d8915fa0",
+      "year": 10,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/SOLUTIONS General End topic test Ch8 & 9.1.docx",
+      "sha": "c32b3ed28561e823478d43924c1f8121168c5c70",
+      "year": 10,
+      "role": "key_reference"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/General Mid Topic Test 2.docx",
+      "sha": "ab2e248eb3fab0502f8e3ee7be80815501975492",
+      "year": 10,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [
+    {
+      "id": "sci-repo-y10-aran-phys89general-mc-1",
+      "title": "Year 10 Science — General physics end-topic chapters 8 and 9.1 — Aranmore (original source MC)",
+      "course": "Science",
+      "yearGroup": 10,
+      "unit": "Physical Sciences",
+      "parent": "General physics end-topic chapters 8 and 9.1 — Aranmore",
+      "count": 17,
+      "kind": "assessment",
+      "assessmentCount": 17,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch26.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=10&search=SCI-REPO-Y10-ARAN-PHYS89GENERAL",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    }
+  ],
+  "createdKeys": 0,
+  "createdSupplements": 32,
+  "notes": [
+    "Complete general end-topic paper and two-problem mid-topic paper. Source option tables and diagram-only choices converted into explicit selectable choices without changing meaning. Uniquely ambiguous MC retained for manual marking and excluded from battles. Repeated worked mid-topic problem not counted."
+  ],
+  "markAudit": {
+    "General end-topic": {
+      "coverTotal": 41,
+      "sourceMarksBeforeDeduplication": 41,
+      "writtenTask6MarksFromMatchingKey": 2
+    },
+    "General mid-topic2": {
+      "printedMarks": null,
+      "proposedTeacherMarks": 6,
+      "uniqueProblems": 2,
+      "workedRepeatExcluded": true
+    }
+  },
+  "duplicateQuestionAliases": [
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/General Mid Topic Test 2.docx",
+      "sourceFileSha": "ab2e248eb3fab0502f8e3ee7be80815501975492",
+      "sourceQuestionNumber": "worked-answer-repeat-1",
+      "sourceParagraphs": [
+        62,
+        63,
+        65,
+        67,
+        69,
+        70,
+        71,
+        72
+      ],
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-GENERALMID2-1",
+      "reason": "Repeated first problem with worked solution; used as marking guidance, not counted as a new question."
+    }
+  ]
+}

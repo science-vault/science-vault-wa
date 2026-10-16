@@ -1,0 +1,285 @@
+{
+  "batch": "repo-science-batch24",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y7-SBY-2018-CLASSIFICATION-MC01",
+    "SCI-REPO-Y7-SBY-2018-CLASSIFICATION-MC02",
+    "SCI-REPO-Y7-SBY-2018-CLASSIFICATION-MC03",
+    "SCI-REPO-Y7-SBY-2018-CLASSIFICATION-MC04",
+    "SCI-REPO-Y7-SBY-2018-CLASSIFICATION-MC05",
+    "SCI-REPO-Y7-SBY-2018-CLASSIFICATION-MC06",
+    "SCI-REPO-Y7-SBY-2018-CLASSIFICATION-MC07",
+    "SCI-REPO-Y7-SBY-2018-CLASSIFICATION-MC08",
+    "SCI-REPO-Y7-SBY-2018-CLASSIFICATION-MC09",
+    "SCI-REPO-Y7-SBY-2018-CLASSIFICATION-MC10",
+    "SCI-REPO-Y7-SBY-2018-CLASSIFICATION-W1a",
+    "SCI-REPO-Y7-SBY-2018-CLASSIFICATION-W1b",
+    "SCI-REPO-Y7-SBY-2018-CLASSIFICATION-W2",
+    "SCI-REPO-Y7-SBY-2018-CLASSIFICATION-W3",
+    "SCI-REPO-Y7-SBY-2018-CLASSIFICATION-W4",
+    "SCI-REPO-Y7-SBY-2018-CLASSIFICATION-W5"
+  ],
+  "questions": 16,
+  "multipleChoice": 10,
+  "writtenQuestions": 6,
+  "battleEligible": 10,
+  "marks": 36,
+  "reviewRequired": [],
+  "imageAudit": [
+    {
+      "id": "e57-image2",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Safety Bay/2018/2018 Classification Test FINAL.docx",
+      "embeddedImage": "word/media/image2.jpeg",
+      "sha256": "67be53a1e8a34652c035f792c6904d94828d20cdb3a04527a8e76972168a2904",
+      "publishedSha256": "e42fc1390ceadb8cbec9f3f7647be1518fe17fbc34a03121de0aa0f5a5d0a50b",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e57-image3",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Safety Bay/2018/2018 Classification Test FINAL.docx",
+      "embeddedImage": "word/media/image3.jpeg",
+      "sha256": "a69b9ac1770d5fec0c501689c7460d5cd3533dd2e721309285fdc47bbf71a026",
+      "publishedSha256": "477190b76852f87f1beba4bebfabab51434f1eff8c90216254bb282176f8ccf6",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e57-image4",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Safety Bay/2018/2018 Classification Test FINAL.docx",
+      "embeddedImage": "word/media/image4.png",
+      "sha256": "c64d0470449f44763f4b2492c4565111e1cb01e5bad3442c8afbf17c823dc8fc",
+      "publishedSha256": "400794dc0611f068e8fabeb43d17e225119815f7b2869c588356099d46750e05",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e57-page4-sea-animals-labelled",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Safety Bay/2018/2018 Classification Test FINAL.docx",
+      "sourceFileSha": "85092153ca9406e7240653e9e6fe0a46825a1d2b",
+      "sourcePage": 4,
+      "pdfCropPoints": [
+        75,
+        97,
+        456,
+        178
+      ],
+      "role": "original_native_Word_figure",
+      "conversion": "Original DOCX rendered by LibreOffice to PDF; bounded source figure rasterised at 216 dpi without redrawing. Native editable shapes, table borders, shading and example points retained.",
+      "publishedSha256": "39cc7dc0af8869c682b6d4558794cc526b529f913fa12cdefc76c70bfbcf6e0b"
+    },
+    {
+      "id": "e57-image6",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Safety Bay/2018/2018 Classification Test FINAL.docx",
+      "embeddedImage": "word/media/image6.png",
+      "sha256": "6c406ef59479b161848c2b301e606ea0206eca374b1cf07d1f052af4f3bc8d50",
+      "publishedSha256": "a7179ad390dc17de2a2fa99dc52b78c5885191f52097d9dfd9adda594a47ab12",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e57-image7",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Safety Bay/2018/2018 Classification Test FINAL.docx",
+      "embeddedImage": "word/media/image7.png",
+      "sha256": "4d6085f0d4676fdc249737a1637ad773100e3fbffd9752225e2a9fc55660ed51",
+      "publishedSha256": "9e04639339e3878a33ae1bec66fe8b59cbbfcdb8157ad30f3d412d8d93b6cdac",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e57-image8",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Safety Bay/2018/2018 Classification Test FINAL.docx",
+      "embeddedImage": "word/media/image8.jpeg",
+      "sha256": "0cb4a87218050555dc54d3276d1cba9112dff393008ae18ed2d41e644c84a14f",
+      "publishedSha256": "33eba2449d2f84935089655855a92f3d4bf5e38266d1b16f9a72024954e92940",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e57-image9",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Safety Bay/2018/2018 Classification Test FINAL.docx",
+      "embeddedImage": "word/media/image9.jpeg",
+      "sha256": "587a2b606fee67cda689cf37cfb03e2a314ea97950f4a215b8f590b8a5b2617d",
+      "publishedSha256": "c37639b635eef95d583a00327c8b821351ac277de48853cb384fb0451e079c60",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e57-image10",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Safety Bay/2018/2018 Classification Test FINAL.docx",
+      "embeddedImage": "word/media/image10.jpeg",
+      "sha256": "4cda459a80086f01d324d1c5dffbb51329967baf6cbde660a53175133bfcf6db",
+      "publishedSha256": "732d474f2531b1c067b732f4f9773db4fcb7ede2873c268e54322e13fc507954",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e57-page9-three-creatures",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Safety Bay/2018/2018 Classification Test FINAL.docx",
+      "sourceFileSha": "85092153ca9406e7240653e9e6fe0a46825a1d2b",
+      "sourcePage": 9,
+      "pdfCropPoints": [
+        130,
+        138,
+        550,
+        303
+      ],
+      "role": "original_native_Word_figure",
+      "conversion": "Original DOCX rendered by LibreOffice to PDF; bounded source figure rasterised at 216 dpi without redrawing. Native editable shapes, table borders, shading and example points retained.",
+      "publishedSha256": "1b3c6562f10186dea45d4957f81c893c2a770e4c787f4b5cc0e5c679cce81521"
+    },
+    {
+      "id": "e57-image13",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Safety Bay/2018/2018 Classification Test FINAL.docx",
+      "embeddedImage": "word/media/image13.jpeg",
+      "sha256": "43fb26c6c9a43acad2672021753f62878fa857bb5ff63789442d4b65b07eec73",
+      "publishedSha256": "7bcd96ecc37d034dec63a89bf75cc428e0ebbbf841f3be54126934170616d02a",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e57-image14",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Safety Bay/2018/2018 Classification Test FINAL.docx",
+      "embeddedImage": "word/media/image14.jpeg",
+      "sha256": "337fe2f0d47d87dffa7df5cf7e9908e742131a3bbd800e80286798737731ba3d",
+      "publishedSha256": "aa9e1bd244b42fa370d7101c5716c1b7a2e1088ba1f72705bd6cad398b2427a4",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e57-image15",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Safety Bay/2018/2018 Classification Test FINAL.docx",
+      "embeddedImage": "word/media/image15.jpeg",
+      "sha256": "c5f88c1ce4bec3513646067cbea1b10a8e2223766456cec2d11b0df03eb945dd",
+      "publishedSha256": "924b0a47d8aaf5c2e20f5aa0d16f799ed67c7bcdb96c1451b3ea4c62648579cd",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e57-image16",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Safety Bay/2018/2018 Classification Test FINAL.docx",
+      "embeddedImage": "word/media/image16.jpeg",
+      "sha256": "9ff3b66072dea9c6f771aeb6b325d97a781013eacda629ace6850069dc8c7d7b",
+      "publishedSha256": "6ee9883adef8af2331f9b94dbd6a279739f86b15a538494dd39e120a111d7231",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e57-image17",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Safety Bay/2018/2018 Classification Test FINAL.docx",
+      "embeddedImage": "word/media/image17.jpeg",
+      "sha256": "00d70d9d14b9f0d0b6d7ee18ddcf6c66847162459f772695e3ec2f3eeb81e841",
+      "publishedSha256": "4f5645132efd3c1dc8975f45095eeea22879c46b8869cb54760c2126fcbe3179",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e57-image18",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Safety Bay/2018/2018 Classification Test FINAL.docx",
+      "embeddedImage": "word/media/image18.jpeg",
+      "sha256": "f60e1e6882de1e50fe5d67d61c0c6691f47fc838a8b487c9fe95c2a6d482bc40",
+      "publishedSha256": "4446d678342d4687abb6a169c875d24f7328ceee52947899f0ac5adc418c74f2",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e57-image19",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Safety Bay/2018/2018 Classification Test FINAL.docx",
+      "embeddedImage": "word/media/image19.jpeg",
+      "sha256": "cea225efe36c2c211c9df4d058b263930ebca68035c201991e8f70d06fd4f386",
+      "publishedSha256": "454fb4e9b5a3c9320306c37a8f6d45f7061d55408888c14422c3f8bec507c310",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e57-image20",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Safety Bay/2018/2018 Classification Test FINAL.docx",
+      "embeddedImage": "word/media/image20.jpeg",
+      "sha256": "42fef17881f611eba11823637ee94d1b38c05b7269d7ee2eb03447411064c992",
+      "publishedSha256": "89ff7616fe2fba08933346096e3ded4c235e6df0bded8a47fad9d5fdccc874bf",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e57-image21",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Safety Bay/2018/2018 Classification Test FINAL.docx",
+      "embeddedImage": "word/media/image21.jpeg",
+      "sha256": "59d379f047776d2f702b51be642c7eafc9e6c8214b7fb66aa31223c63c8a72e3",
+      "publishedSha256": "3eeb9a2a78391a6b60b4d9986b64ce623cdfde9eb8b2615a21a9a96dca29fd90",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e57-image22",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Safety Bay/2018/2018 Classification Test FINAL.docx",
+      "embeddedImage": "word/media/image22.jpeg",
+      "sha256": "2901aa4079175d5485abdd8bb08cebb76ca9ef9f501feb40ef8eb276b787e7fa",
+      "publishedSha256": "36566b2229aa5e5f8c7d22ac62956f3d0592db6719d3cce8f4ba0b43c1e9e3be",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "native-vector-a8ca5200ddfd",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Safety Bay/2018/2018 Classification Test FINAL.docx",
+      "sourceParagraphs": [
+        211,
+        212,
+        238,
+        239,
+        240,
+        243,
+        214
+      ],
+      "role": "source_native_vector_response_figure",
+      "conversion": "Source-native response figure or labelled diagram transcribed to SVG with source structure preserved, then rasterised for cross-format export.",
+      "vectorSha256": "a8ca5200ddfda6f07eb738468d5d2e953f6d76e428b6ad78dd945e1a13c86687",
+      "publishedSha256": "b1f3a424020fc23fa99c3a0c19158fbb89fda5e3d46a0202df8d7857fb889102"
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Safety Bay/2018/2018 Classification Test FINAL.docx",
+      "sha": "85092153ca9406e7240653e9e6fe0a46825a1d2b",
+      "year": 7,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Safety Bay/2018/2018 Classification Test ASWERS _WIP.docx",
+      "sha": "906f97a92dec4a4073bf640f80f3dbe66e788eca",
+      "year": 7,
+      "role": "key_reference"
+    }
+  ],
+  "gameMeta": [
+    {
+      "id": "sci-repo-y7-sby-2018-classification-mc-1",
+      "title": "Year 7 Science — Classification — Safety Bay 2018 (original source MC)",
+      "course": "Science",
+      "yearGroup": 7,
+      "unit": "Biological Sciences",
+      "parent": "Classification — Safety Bay 2018",
+      "count": 10,
+      "kind": "assessment",
+      "assessmentCount": 10,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch24.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=7&search=SCI-REPO-Y7-SBY-2018-CLASSIFICATION",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    }
+  ],
+  "createdKeys": 0,
+  "createdSupplements": 16,
+  "notes": [
+    "Complete classification paper with original character/circular/invertebrate/smiley figures. Native plant flowchart labels and branches transcribed after rendered original exposed floating-label displacement. Supplied worked smiley excluded from response count while preserving the original grouped ten-mark rubric."
+  ],
+  "markAudit": {
+    "Classification": {
+      "coverTotal": 36,
+      "sourceTaskMarksBeforeDeduplication": 36,
+      "writtenParts": 6,
+      "note": "Five main written questions include two separately prompted parts in question1; W2 remains one grouped two-mark comparison."
+    }
+  },
+  "duplicateQuestionAliases": []
+}
