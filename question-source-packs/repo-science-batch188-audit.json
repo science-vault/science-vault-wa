@@ -1,0 +1,59 @@
+{
+  "batch": "repo-science-batch188",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y7-KOLBE-2021-WORKSCIENTIST-differences",
+    "SCI-REPO-Y7-KOLBE-2021-WORKSCIENTIST-safety",
+    "SCI-REPO-Y7-KOLBE-2021-WORKSCIENTIST-rules",
+    "SCI-REPO-Y7-KOLBE-2021-WORKSCIENTIST-equipment",
+    "SCI-REPO-Y7-KOLBE-2021-WORKSCIENTIST-bunsen",
+    "SCI-REPO-Y7-KOLBE-2021-WORKSCIENTIST-observations",
+    "SCI-REPO-Y7-KOLBE-2021-WORKSCIENTIST-drawing"
+  ],
+  "questions": 7,
+  "multipleChoice": 0,
+  "writtenQuestions": 7,
+  "battleEligible": 0,
+  "marks": 28,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y7-KOLBE-2021-WORKSCIENTIST-observations",
+      "note": "Prompt explicitly includes inference while rubric abbreviates the annotation requirement;moderate consistently."
+    }
+  ],
+  "imageAudit": [
+    {
+      "id": "e443-image1-crop-4e654997",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Kolbe/2021/Year 7 Task 1 2021.docx",
+      "embeddedImage": "word/media/image1.jpeg",
+      "sha256": "d55ce2682e7f87efc24d8f98d4f8e9a9a00e21b26ac00e964ba4923d9a6ed063",
+      "publishedSha256": "b072265d05e41c54b56ee0ab394cde4e9154cbe496698ba481092df80cda03c0",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {
+        "b": 6708
+      },
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Kolbe/2021/Year 7 Task 1 2021.docx",
+      "sha": "ca57a2e59cda9d0d86c6c23ae6a28b9cb6bfbde9",
+      "year": 7,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 0,
+  "createdSupplements": 7,
+  "notes": [
+    "Complete30mark three-part practical portfolio reviewed. Seven science tasks28marks;2self-management marks logged separately. Actual photos/video,class experiment and observations required;no fabricated student performance. Prompt/rubric inference mismatch noted."
+  ],
+  "markAudit": {
+    "total": 30,
+    "selected": 28,
+    "selfManagement": 2,
+    "tasks": 7
+  },
+  "duplicateQuestionAliases": []
+}

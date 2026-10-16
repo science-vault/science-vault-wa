@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.16-science-source184",
+  "version": "2026.10.16-science-source188",
   "status": "in_progress",
   "scope": "Original Science assessment files in repository, Years 7–10. File counts include keys and supporting materials; they are not question counts.",
   "inventoryFiles": 2009,
@@ -11,10 +11,10 @@
     "9": 457,
     "10": 582
   },
-  "importedPapers": 371,
-  "importedQuestions": 4081,
+  "importedPapers": 379,
+  "importedQuestions": 4115,
   "multipleChoice": 898,
-  "writtenQuestions": 3183,
+  "writtenQuestions": 3217,
   "battleEligibleQuestions": 776,
   "reviewRequired": [
     {
@@ -1028,6 +1028,10 @@
     {
       "id": "SCI-REPO-Y7-ARAN-2015-TAPEREPORT-conclusion",
       "note": "Supplied key has an allocation conflict or example-specific result; actual student data govern."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNKNOWN-FRICTIONESSAY-essay",
+      "note": "Matching teacher rubric now located. Explicit science maxima18replace the earlier proposed10;heading21andcover31conflict with their detailed cells."
     },
     {
       "id": "SCI-REPO-Y7-UNKNOWN-PHYSREV-1h",
@@ -2656,6 +2660,22 @@
     {
       "id": "SCI-REPO-Y10-ARAN-2014-GENTECH-native",
       "note": "Unmarked critical-research prompt;3marks proposed. Accept supported case-specific reasoning rather than blanket claims."
+    },
+    {
+      "id": "SCI-REPO-Y8-KOLBE-2021-MATTERCHOICE-R2C1",
+      "note": "Source gives choices but no numeric rubric;all marks proposed. Isotope/classification/phase-change limitations noted."
+    },
+    {
+      "id": "SCI-REPO-Y8-KOLBE-2021-MATTERCHOICE-R2C2",
+      "note": "Source gives choices but no numeric rubric;all marks proposed. Isotope/classification/phase-change limitations noted."
+    },
+    {
+      "id": "SCI-REPO-Y8-KOLBE-2021-MATTERCHOICE-R3C5",
+      "note": "Source gives choices but no numeric rubric;all marks proposed. Isotope/classification/phase-change limitations noted."
+    },
+    {
+      "id": "SCI-REPO-Y7-KOLBE-2021-WORKSCIENTIST-observations",
+      "note": "Prompt explicitly includes inference while rubric abbreviates the annotation requirement;moderate consistently."
     },
     {
       "id": "SCI-REPO-Y10-NAR-2024-UNIVERSE-MC02",
@@ -12816,6 +12836,12 @@
           "role": "paper"
         },
         {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Unknown School/Year 7 Persuasive Essay Marking Guide.docx",
+          "sha": "0f6adf206bb5ebf190c9e3840a3b0367fb5cd5e0",
+          "year": 7,
+          "role": "key_reference"
+        },
+        {
           "path": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Unknown School/Revision for Topic Test Year 7 Physical Science.docx",
           "sha": "2c248b8b107a31c9f45707410876779361707960",
           "year": 7,
@@ -12823,14 +12849,17 @@
         }
       ],
       "questions": 40,
-      "marks": 85,
+      "marks": 93,
       "imageAudit": "question-source-packs/repo-science-batch51-audit.json",
       "notes": [
-        "Complete essay scaffold and physical-science revision prompts retained with proposed marks. Net force table predicts acceleration, not direction of motion without initial velocity. Forced fall-speed choice flagged. Source references to textbook pages are supplementary; all assessed prompt wording is present."
+        "Complete essay scaffold and physical-science revision prompts retained. Matched essay rubric now supplies18explicit science maxima;revision marks remain proposed. Net force table predicts acceleration, not direction of motion without initial velocity. Forced fall-speed choice flagged. Source references to textbook pages are supplementary; all assessed prompt wording is present."
       ],
       "markAudit": {
         "Essay": {
-          "printedMarks": null
+          "sumDetailedMaxima": 18,
+          "scienceHeading": 21,
+          "coverTotal": 31,
+          "language": 10
         },
         "Revision": {
           "printedMarks": null,
@@ -32869,6 +32898,467 @@
           }
         }
       ]
+    },
+    {
+      "id": "repo-science-batch185",
+      "questionIds": [
+        "SCI-REPO-Y8-KOLBE-2021-MATTERCHOICE-R1C1",
+        "SCI-REPO-Y8-KOLBE-2021-MATTERCHOICE-R1C2",
+        "SCI-REPO-Y8-KOLBE-2021-MATTERCHOICE-R1C3",
+        "SCI-REPO-Y8-KOLBE-2021-MATTERCHOICE-R1C4",
+        "SCI-REPO-Y8-KOLBE-2021-MATTERCHOICE-R1C5",
+        "SCI-REPO-Y8-KOLBE-2021-MATTERCHOICE-R2C1",
+        "SCI-REPO-Y8-KOLBE-2021-MATTERCHOICE-R2C2",
+        "SCI-REPO-Y8-KOLBE-2021-MATTERCHOICE-R2C3",
+        "SCI-REPO-Y8-KOLBE-2021-MATTERCHOICE-R2C4",
+        "SCI-REPO-Y8-KOLBE-2021-MATTERCHOICE-R2C5",
+        "SCI-REPO-Y8-KOLBE-2021-MATTERCHOICE-R3C1",
+        "SCI-REPO-Y8-KOLBE-2021-MATTERCHOICE-R3C2",
+        "SCI-REPO-Y8-KOLBE-2021-MATTERCHOICE-R3C3",
+        "SCI-REPO-Y8-KOLBE-2021-MATTERCHOICE-R3C4",
+        "SCI-REPO-Y8-KOLBE-2021-MATTERCHOICE-R3C5"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Kolbe/2021/Task 4_Matter choice board/Task Matter choice board.docx",
+          "sha": "c02fab519136e5a9ee1813a4aa192d5ffca4f390",
+          "year": 8,
+          "role": "paper"
+        }
+      ],
+      "questions": 15,
+      "marks": 93,
+      "imageAudit": "question-source-packs/repo-science-batch185-audit.json",
+      "notes": [
+        "All15choice-board options retained;student selects6under source row/column constraints,not all15. All93available-option marks proposed and no single required student total invented. Isotopes,metalloid counts,pure-food assumptions and four phase changes qualified. Student-created questions/tweets/videos are outputs,not new original questions or publishing actions."
+      ],
+      "markAudit": {
+        "sourceMarks": null,
+        "availableOptionMarks": 93,
+        "options": 15,
+        "requiredSelection": 6
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch186",
+      "questionIds": [],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Unknown School/Year 7 Persuasive Essay Marking Guide.docx",
+          "sha": "0f6adf206bb5ebf190c9e3840a3b0367fb5cd5e0",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/NEW - Volcano Model and Report Marking Key.docx",
+          "sha": "449bd4f29125e0b7122021a6ad92b2cddb8fa2bc",
+          "year": 9,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Physics/Aranmore/2013 Insulators Investigation (with scaffolding).docx",
+          "sha": "7330d46df7aa794430e24d2bf484b31040f25e2e",
+          "year": 9,
+          "role": "paper"
+        }
+      ],
+      "questions": 0,
+      "marks": 0,
+      "imageAudit": "question-source-packs/repo-science-batch186-audit.json",
+      "notes": [
+        "Three full sources reviewed:friction essay18explicit science marks despite21heading/31overall;updated volcano variant linked with29science marks plus7style;34markinsulator scaffold mapped to existing complete project. Original essay statement located and existing canonical task updated."
+      ],
+      "markAudit": {
+        "friction": {
+          "scienceHeading": 21,
+          "sumContentMaxima": 18,
+          "language": 10,
+          "overallCover": 31
+        },
+        "volcano": {
+          "total": 36,
+          "selected": 29,
+          "style": 7
+        },
+        "insulator": {
+          "total": 34,
+          "newQuestions": 0
+        }
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Unknown School/Year 7 Persuasive Essay Marking Guide.docx",
+          "sourceFileSha": "0f6adf206bb5ebf190c9e3840a3b0367fb5cd5e0",
+          "sourceQuestionNumber": "essay",
+          "sourceParagraphs": [
+            0,
+            2,
+            3,
+            5,
+            6,
+            7
+          ],
+          "sourceMarks": 18,
+          "sourceType": "Extended response",
+          "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-FRICTIONESSAY-essay",
+          "reason": "Matched teacher rubric for existing essay scaffold. Original claim located in companion paper:reducing friction is difficult and offers little benefit. Canonical essay updated from proposed10to detailed18science maxima;science21heading andoverall31conflict with18+10language."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/NEW - Volcano Model and Report Marking Key.docx",
+          "sourceFileSha": "449bd4f29125e0b7122021a6ad92b2cddb8fa2bc",
+          "sourceQuestionNumber": "project",
+          "sourceParagraphs": [
+            0,
+            2,
+            4
+          ],
+          "sourceMarks": 29,
+          "sourceType": "Extended response",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2018-VOLCANOMODELRUBRIC-project",
+          "reason": "Same complete model/report task already imported. This version explicitly requires at least3controlled variables3marks plus independent/dependent1each,raising science/function selection to29andtotal to36;source-specific allocation retained.",
+          "reviewSupplement": {
+            "answer": "Apply this version’s29science/function marks,including3controlled variables3andcorrect independent/dependent variables1each. Other science requirements match the existing model/report task;7style/aesthetic marks remain separate.",
+            "note": "2017updated rubric totals36versus2018version35;do not substitute one version’s marks for the other."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Physics/Aranmore/2013 Insulators Investigation (with scaffolding).docx",
+          "sourceFileSha": "7330d46df7aa794430e24d2bf484b31040f25e2e",
+          "sourceQuestionNumber": "project",
+          "sourceParagraphs": [
+            19,
+            21,
+            22,
+            25,
+            37,
+            42,
+            54,
+            55,
+            56,
+            59,
+            62,
+            67,
+            70,
+            77,
+            95,
+            107,
+            120,
+            121,
+            138,
+            140,
+            142,
+            143,
+            158,
+            160,
+            163,
+            166,
+            169,
+            170,
+            175,
+            180,
+            181
+          ],
+          "sourceMarks": 34,
+          "sourceType": "Extended response",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2013-INSULATOR-project",
+          "reason": "Same two-material thermos investigation and full34mark rubric already imported from unscaffolded version. Scaffold adds response spaces/headings,but no additional science task or mark allocation."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch187",
+      "questionIds": [
+        "SCI-REPO-Y8-ARAN-2014-PENDULUM-hypothesis",
+        "SCI-REPO-Y8-ARAN-2014-PENDULUM-independent",
+        "SCI-REPO-Y8-ARAN-2014-PENDULUM-dependent",
+        "SCI-REPO-Y8-ARAN-2014-PENDULUM-controls",
+        "SCI-REPO-Y8-ARAN-2014-PENDULUM-materials",
+        "SCI-REPO-Y8-ARAN-2014-PENDULUM-method",
+        "SCI-REPO-Y8-ARAN-2014-PENDULUM-results",
+        "SCI-REPO-Y8-ARAN-2014-PENDULUM-diagram",
+        "SCI-REPO-Y8-ARAN-2014-PENDULUM-graph",
+        "SCI-REPO-Y8-ARAN-2014-PENDULUM-discussion",
+        "SCI-REPO-Y8-ARAN-2014-PENDULUM-conclusion",
+        "SCI-REPO-Y10-NAR-2021-PENDULUM-project"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2014 8 SCIENCE PENDULUM INVESTIGATION.docx",
+          "sha": "eb8aa104c5d2ef25d78dc4d6eea309d0662f37dd",
+          "year": 8,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2016 8 Science Physics Pendulum Investigation.docx",
+          "sha": "7e108a3f175d455cb41c69b4609b9f868d2175e2",
+          "year": 8,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Investigating/Narrogin/2021/Task 1 Pendulums INV.docx",
+          "sha": "59a56fb8d629c855170736a992cf31575a40afeb",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 12,
+      "marks": 51,
+      "imageAudit": "question-source-packs/repo-science-batch187-audit.json",
+      "notes": [
+        "Three full pendulum investigations reviewed. Year8eleven26markscience tasks retained once across2014and2016versions;presentation2versus3anddiscussion-count differences logged. SeparateYear10student-design25marktask includes amplitude choice and references. Original apparatus figure and revised-source graph grid preserved. Checkbox-only source symbols excluded from prompt rendering;choice stated explicitly in the aim/context."
+      ],
+      "markAudit": {
+        "Year8_2014": {
+          "total": 28,
+          "selected": 26,
+          "presentation": 2
+        },
+        "Year8_2016": {
+          "total": 29,
+          "selected": 26,
+          "style": 3
+        },
+        "Year10": {
+          "total": 25,
+          "weightingPercent": 7.5
+        },
+        "newQuestions": 12
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2016 8 Science Physics Pendulum Investigation.docx",
+          "sourceFileSha": "7e108a3f175d455cb41c69b4609b9f868d2175e2",
+          "sourceQuestionNumber": "hypothesis",
+          "sourceParagraphs": [
+            42,
+            51,
+            56,
+            69,
+            71,
+            74
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2014-PENDULUM-hypothesis",
+          "reason": "Same26mark pendulum science investigation.2016adds one science-language/style mark to presentation(3versus2),making29overall rather than28;discussion specifies one error rather than two,within the same3markcategory.",
+          "sourceLocalDiscussionRequirement": "2016requires one error with effect and improvement;2014requires two limitations collectively within3marks."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2016 8 Science Physics Pendulum Investigation.docx",
+          "sourceFileSha": "7e108a3f175d455cb41c69b4609b9f868d2175e2",
+          "sourceQuestionNumber": "independent",
+          "sourceParagraphs": [
+            42,
+            51,
+            56,
+            69,
+            71,
+            90
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2014-PENDULUM-independent",
+          "reason": "Same26mark pendulum science investigation.2016adds one science-language/style mark to presentation(3versus2),making29overall rather than28;discussion specifies one error rather than two,within the same3markcategory.",
+          "sourceLocalDiscussionRequirement": "2016requires one error with effect and improvement;2014requires two limitations collectively within3marks."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2016 8 Science Physics Pendulum Investigation.docx",
+          "sourceFileSha": "7e108a3f175d455cb41c69b4609b9f868d2175e2",
+          "sourceQuestionNumber": "dependent",
+          "sourceParagraphs": [
+            42,
+            51,
+            56,
+            69,
+            71,
+            96
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2014-PENDULUM-dependent",
+          "reason": "Same26mark pendulum science investigation.2016adds one science-language/style mark to presentation(3versus2),making29overall rather than28;discussion specifies one error rather than two,within the same3markcategory.",
+          "sourceLocalDiscussionRequirement": "2016requires one error with effect and improvement;2014requires two limitations collectively within3marks."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2016 8 Science Physics Pendulum Investigation.docx",
+          "sourceFileSha": "7e108a3f175d455cb41c69b4609b9f868d2175e2",
+          "sourceQuestionNumber": "controls",
+          "sourceParagraphs": [
+            42,
+            51,
+            56,
+            69,
+            71,
+            102
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2014-PENDULUM-controls",
+          "reason": "Same26mark pendulum science investigation.2016adds one science-language/style mark to presentation(3versus2),making29overall rather than28;discussion specifies one error rather than two,within the same3markcategory.",
+          "sourceLocalDiscussionRequirement": "2016requires one error with effect and improvement;2014requires two limitations collectively within3marks."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2016 8 Science Physics Pendulum Investigation.docx",
+          "sourceFileSha": "7e108a3f175d455cb41c69b4609b9f868d2175e2",
+          "sourceQuestionNumber": "materials",
+          "sourceParagraphs": [
+            42,
+            51,
+            56,
+            69,
+            71,
+            110
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2014-PENDULUM-materials",
+          "reason": "Same26mark pendulum science investigation.2016adds one science-language/style mark to presentation(3versus2),making29overall rather than28;discussion specifies one error rather than two,within the same3markcategory.",
+          "sourceLocalDiscussionRequirement": "2016requires one error with effect and improvement;2014requires two limitations collectively within3marks."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2016 8 Science Physics Pendulum Investigation.docx",
+          "sourceFileSha": "7e108a3f175d455cb41c69b4609b9f868d2175e2",
+          "sourceQuestionNumber": "method",
+          "sourceParagraphs": [
+            42,
+            51,
+            56,
+            69,
+            71,
+            124
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2014-PENDULUM-method",
+          "reason": "Same26mark pendulum science investigation.2016adds one science-language/style mark to presentation(3versus2),making29overall rather than28;discussion specifies one error rather than two,within the same3markcategory.",
+          "sourceLocalDiscussionRequirement": "2016requires one error with effect and improvement;2014requires two limitations collectively within3marks."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2016 8 Science Physics Pendulum Investigation.docx",
+          "sourceFileSha": "7e108a3f175d455cb41c69b4609b9f868d2175e2",
+          "sourceQuestionNumber": "results",
+          "sourceParagraphs": [
+            42,
+            51,
+            56,
+            69,
+            71,
+            172,
+            174
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2014-PENDULUM-results",
+          "reason": "Same26mark pendulum science investigation.2016adds one science-language/style mark to presentation(3versus2),making29overall rather than28;discussion specifies one error rather than two,within the same3markcategory.",
+          "sourceLocalDiscussionRequirement": "2016requires one error with effect and improvement;2014requires two limitations collectively within3marks."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2016 8 Science Physics Pendulum Investigation.docx",
+          "sourceFileSha": "7e108a3f175d455cb41c69b4609b9f868d2175e2",
+          "sourceQuestionNumber": "diagram",
+          "sourceParagraphs": [
+            42,
+            51,
+            56,
+            69,
+            71,
+            209
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Diagram",
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2014-PENDULUM-diagram",
+          "reason": "Same26mark pendulum science investigation.2016adds one science-language/style mark to presentation(3versus2),making29overall rather than28;discussion specifies one error rather than two,within the same3markcategory.",
+          "sourceLocalDiscussionRequirement": "2016requires one error with effect and improvement;2014requires two limitations collectively within3marks."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2016 8 Science Physics Pendulum Investigation.docx",
+          "sourceFileSha": "7e108a3f175d455cb41c69b4609b9f868d2175e2",
+          "sourceQuestionNumber": "graph",
+          "sourceParagraphs": [
+            42,
+            51,
+            56,
+            69,
+            71,
+            234
+          ],
+          "sourceMarks": 5,
+          "sourceType": "Diagram",
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2014-PENDULUM-graph",
+          "reason": "Same26mark pendulum science investigation.2016adds one science-language/style mark to presentation(3versus2),making29overall rather than28;discussion specifies one error rather than two,within the same3markcategory.",
+          "sourceLocalDiscussionRequirement": "2016requires one error with effect and improvement;2014requires two limitations collectively within3marks."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2016 8 Science Physics Pendulum Investigation.docx",
+          "sourceFileSha": "7e108a3f175d455cb41c69b4609b9f868d2175e2",
+          "sourceQuestionNumber": "discussion",
+          "sourceParagraphs": [
+            42,
+            51,
+            56,
+            69,
+            71,
+            293
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2014-PENDULUM-discussion",
+          "reason": "Same26mark pendulum science investigation.2016adds one science-language/style mark to presentation(3versus2),making29overall rather than28;discussion specifies one error rather than two,within the same3markcategory.",
+          "sourceLocalDiscussionRequirement": "2016requires one error with effect and improvement;2014requires two limitations collectively within3marks."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2016 8 Science Physics Pendulum Investigation.docx",
+          "sourceFileSha": "7e108a3f175d455cb41c69b4609b9f868d2175e2",
+          "sourceQuestionNumber": "conclusion",
+          "sourceParagraphs": [
+            42,
+            51,
+            56,
+            69,
+            71,
+            322
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2014-PENDULUM-conclusion",
+          "reason": "Same26mark pendulum science investigation.2016adds one science-language/style mark to presentation(3versus2),making29overall rather than28;discussion specifies one error rather than two,within the same3markcategory.",
+          "sourceLocalDiscussionRequirement": "2016requires one error with effect and improvement;2014requires two limitations collectively within3marks."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch188",
+      "questionIds": [
+        "SCI-REPO-Y7-KOLBE-2021-WORKSCIENTIST-differences",
+        "SCI-REPO-Y7-KOLBE-2021-WORKSCIENTIST-safety",
+        "SCI-REPO-Y7-KOLBE-2021-WORKSCIENTIST-rules",
+        "SCI-REPO-Y7-KOLBE-2021-WORKSCIENTIST-equipment",
+        "SCI-REPO-Y7-KOLBE-2021-WORKSCIENTIST-bunsen",
+        "SCI-REPO-Y7-KOLBE-2021-WORKSCIENTIST-observations",
+        "SCI-REPO-Y7-KOLBE-2021-WORKSCIENTIST-drawing"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Kolbe/2021/Year 7 Task 1 2021.docx",
+          "sha": "ca57a2e59cda9d0d86c6c23ae6a28b9cb6bfbde9",
+          "year": 7,
+          "role": "paper"
+        }
+      ],
+      "questions": 7,
+      "marks": 28,
+      "imageAudit": "question-source-packs/repo-science-batch188-audit.json",
+      "notes": [
+        "Complete30mark three-part practical portfolio reviewed. Seven science tasks28marks;2self-management marks logged separately. Actual photos/video,class experiment and observations required;no fabricated student performance. Prompt/rubric inference mismatch noted."
+      ],
+      "markAudit": {
+        "total": 30,
+        "selected": 28,
+        "selfManagement": 2,
+        "tasks": 7
+      },
+      "duplicateQuestionAliases": []
     }
   ],
   "files": [
@@ -35603,7 +36093,7 @@
       "sha": "ca57a2e59cda9d0d86c6c23ae6a28b9cb6bfbde9",
       "year": 7,
       "size": 119338,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -36890,7 +37380,7 @@
       "sha": "0f6adf206bb5ebf190c9e3840a3b0367fb5cd5e0",
       "year": 7,
       "size": 106149,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -38143,7 +38633,7 @@
       "sha": "c02fab519136e5a9ee1813a4aa192d5ffca4f390",
       "year": 8,
       "size": 105440,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -38151,8 +38641,9 @@
       "sha": "5b3178494ace8382082a79859896c7608e01a008",
       "year": 8,
       "size": 120190,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "CompleteYear8Chemistry learning-objectives/checklist,not a question paper. Contains particle-model/state-change/density curriculum statements without specified response tasks or assessment marks.2023folder contains the same2022internal objectives."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Kolbe/2022/Task 5 - Particle Model, Kinetic Theory, Density Test/Y8 MOD Particle Model, Kinetic Theory & Density Test.docx",
@@ -38311,8 +38802,9 @@
       "sha": "2434ec2fe697eb55f2553fc0cbb5b633e3249b70",
       "year": 8,
       "size": 124001,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "CompleteYear8Chemistry learning-objectives/checklist,not a question paper. Contains particle-model/state-change/density curriculum statements without specified response tasks or assessment marks.2023folder contains the same2022internal objectives."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Kolbe/2023/Task 6 - End of Topic Chemistry Test/Task 5 - Particle Model, Kinetic Theory, Density Test/Y8 MOD Particle Model, Kinetic Theory & Density Test.docx",
@@ -39938,7 +40430,7 @@
       "sha": "eb8aa104c5d2ef25d78dc4d6eea309d0662f37dd",
       "year": 8,
       "size": 118831,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -40034,7 +40526,7 @@
       "sha": "7e108a3f175d455cb41c69b4609b9f868d2175e2",
       "year": 8,
       "size": 127425,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -43204,7 +43696,7 @@
       "sha": "449bd4f29125e0b7122021a6ad92b2cddb8fa2bc",
       "year": 9,
       "size": 106358,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -43335,7 +43827,7 @@
       "sha": "449bd4f29125e0b7122021a6ad92b2cddb8fa2bc",
       "year": 9,
       "size": 106358,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/NEW - Volcano Model and Report Marking Key.docx"
     },
     {
@@ -43399,7 +43891,7 @@
       "sha": "7330d46df7aa794430e24d2bf484b31040f25e2e",
       "year": 9,
       "size": 115765,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -47806,7 +48298,7 @@
       "sha": "59a56fb8d629c855170736a992cf31575a40afeb",
       "year": 10,
       "size": 113950,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -47814,7 +48306,7 @@
       "sha": "59a56fb8d629c855170736a992cf31575a40afeb",
       "year": 10,
       "size": 113950,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": "resources/Assessments/Lowerschool/Year 10/Science/Investigating/Narrogin/2021/Task 1 Pendulums INV.docx"
     },
     {
@@ -49105,9 +49597,9 @@
       "duplicateOf": null
     }
   ],
-  "learningVaultCreatedKeySupplements": 1401,
-  "remainingUniqueFileBlobs": 1156,
-  "learningVaultCreatedKeys": 2370,
+  "learningVaultCreatedKeySupplements": 1421,
+  "remainingUniqueFileBlobs": 1146,
+  "learningVaultCreatedKeys": 2384,
   "blockedSources": [
     {
       "sha": "49d4b7f3f8af844477b39abb856365aeb096cafd",
@@ -49319,7 +49811,7 @@
     "ocrPages": 1175,
     "ocrTextVerified": false
   },
-  "distinctSourceAndKeyReferences": 421,
+  "distinctSourceAndKeyReferences": 429,
   "unscoredQuestionsPreserved": 1,
   "activeAdditionalQuestionRequest": {
     "requestedAdditionalQuestions": 1000,
@@ -49334,12 +49826,12 @@
     "requestedAt": "2026-10-16",
     "scope": "All remaining Years 7–10 Science assessment papers; all question types, source figures, response space and marking guidance",
     "startingImportedQuestions": 1374,
-    "addedQuestions": 2707,
+    "addedQuestions": 2741,
     "status": "in_progress",
     "completionRule": "Every unique assessment paper reviewed; duplicates mapped and unreadable/protected files explicitly resolved. File-blob count is not a paper denominator.",
     "restoredQuestionsAfterDuplicateFix": 4,
-    "newlyExtractedQuestions": 2703,
-    "papersReviewedSinceRequest": 308,
+    "newlyExtractedQuestions": 2737,
+    "papersReviewedSinceRequest": 316,
     "canonicalSourceQuestionsReReviewed": 2
   },
   "sourceInventoryExclusions": {
@@ -49349,8 +49841,8 @@
     "note": "These are file metadata records, not papers or questions; excluded from import work without increasing question or paper totals."
   },
   "supportingResourceReview": {
-    "files": 76,
-    "uniqueBlobs": 68,
+    "files": 78,
+    "uniqueBlobs": 70,
     "audit": "question-source-packs/repo-science-supporting-resource-review.json",
     "countedAsPapers": false,
     "countedAsQuestions": false
@@ -49742,7 +50234,7 @@
       "effect": "Four explicit prompts retained,but case signs,techniques,prevalence number and help history cannot be invented."
     }
   ],
-  "reviewedDistinctSourceBlobs": 444,
+  "reviewedDistinctSourceBlobs": 454,
   "inventoryCountBasis": "Remaining unique file blobs counts pending or key-reference-pending identities, including protected inputs; it is not a remaining-paper or remaining-question estimate.",
   "canonicalUniverseReviewRepair": {
     "questionIds": [
