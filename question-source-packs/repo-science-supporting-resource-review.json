@@ -412,6 +412,22 @@
           "1977American congress approves funding for the Large Space Telescope1978Astronauts begin training for space telescope missions1979Work begins on the telescope’s 2.4-metre mirror1981Space Telescope Science Institute (STScI) begins operations in Baltimore, Maryland1983The Large Space Telescope is renamed Hubble, after Edwin P. Hubble, the astronomer who proved the existence of other galaxies and discovered the first evidence for an expanding universe1990Launch: Shuttle Discovery (STS-31) launched on 24 April 1990. Hubble deployed on 25 April 1990.Damage discovered in the Hubble primary mirror, 25 June 1990.1993First Servicing Mission (STS-61) launched on 2 December 1993 (Endeavour).COSTAR corrective optics installed, replacing HSP (High Speed Photometer) and cameras.1994Hubble takes pictures of comet Shoemaker Levy 9 as it hits Jupiter.1995Hubble takes the famous “pillars of creation” photo of the Eagle Nebula.1996The first Hubble Deep Field is released, showing the unimaginable number of galaxies in the Universe.1997Servicing Mission 2 (STS-82) launched on 11 February 1997 (Discovery).1998HST Orbital Systems Test (HOST - STS-95) launched on 29 October 1998 (Discovery). The HOST mission was flown to test new technologies to be used in Hubble on the Third Servicing Mission and beyond.1999Servicing Mission 3A (STS-103) launched on 19 December 1999 (Discovery).General maintenance. 2001Hubble observations detect the elements in the atmosphere of exoplanet HD 209458b.2002Servicing Mission 3B launched on 1 March 2002.Installation of new Solar Panels.2005Hubble images two previously unknown moons orbiting Pluto.2006Hubble observations show that the dwarf planet Eris is bigger than Pluto.2007The power supply on the Advanced Camera for Surveys, one of Hubble’s key instruments, fails.2008Hubble photographs exoplanet Fomalhaut b, one of the first to be confirmed through direct imaging.2008Hubble completes its 100,000th orbit around the Earth.2009Servicing Mission 4 (STS-125) launched on 11 May 2009.Maintenance and update of equipment.2010Hubble images show distant galaxies, showing the Universe as it was when it was less than a tenth of its current age.2011Hubble makes its millionth observation, a spectroscopic analysis of the exoplanet HAT-P-7b."
         ]
       ]
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Narrogin/2017/Microscope drawing template.docx",
+      "sha": "c5e33706503f1859387f296e7ab7db85de61b53b",
+      "status": "reviewed_supporting_resource",
+      "reason": "Blank microscope drawing template with name and magnification fields; no specified specimen or assessment question.",
+      "sourceBodyText": [
+        [
+          0,
+          "Mircroscope Drawing  Name: ___________________"
+        ],
+        [
+          6,
+          "Magnification: ______"
+        ]
+      ]
     }
   ]
 }

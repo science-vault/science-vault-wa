@@ -1,0 +1,235 @@
+{
+  "batch": "repo-science-batch48",
+  "paperCount": 8,
+  "questionIds": [
+    "SCI-REPO-Y7-ARAN-HUBBLETIMELINE-assignment",
+    "SCI-REPO-Y7-ARAN-PLANETPROJECT-project",
+    "SCI-REPO-Y7-NAR-2022-SOLARRESEARCH-assignment",
+    "SCI-REPO-Y7-SBY-2017-PHENOMENA-seasons",
+    "SCI-REPO-Y7-SBY-2017-PHENOMENA-eclipses",
+    "SCI-REPO-Y7-SBY-2017-PHENOMENA-tides",
+    "SCI-REPO-Y7-SBY-2024-ENERGYRESEARCH-1",
+    "SCI-REPO-Y7-SBY-2024-ENERGYRESEARCH-2",
+    "SCI-REPO-Y7-SBY-2024-ENERGYRESEARCH-3",
+    "SCI-REPO-Y7-SBY-2024-ENERGYRESEARCH-4",
+    "SCI-REPO-Y7-SBY-2024-ENERGYRESEARCH-5",
+    "SCI-REPO-Y7-SBY-2024-ENERGYRESEARCH-6",
+    "SCI-REPO-Y7-SBY-2024-ENERGYRESEARCH-7",
+    "SCI-REPO-Y7-SBY-2024-ENERGYRESEARCH-8",
+    "SCI-REPO-Y7-SBY-2024-ENERGYRESEARCH-9",
+    "SCI-REPO-Y7-SBY-2024-ENERGYRESEARCH-10",
+    "SCI-REPO-Y7-SBY-2024-ENERGYRESEARCH-11",
+    "SCI-REPO-Y7-SBY-2024-ENERGYRESEARCH-12",
+    "SCI-REPO-Y7-SBY-2024-ENERGYRESEARCH-13",
+    "SCI-REPO-Y7-SBY-2024-ENERGYRESEARCH-14",
+    "SCI-REPO-Y7-ARAN-DIFFUSIONREPORT-planning",
+    "SCI-REPO-Y7-ARAN-DIFFUSIONREPORT-independent",
+    "SCI-REPO-Y7-ARAN-DIFFUSIONREPORT-dependent",
+    "SCI-REPO-Y7-ARAN-DIFFUSIONREPORT-controls",
+    "SCI-REPO-Y7-ARAN-DIFFUSIONREPORT-materials",
+    "SCI-REPO-Y7-ARAN-DIFFUSIONREPORT-method",
+    "SCI-REPO-Y7-ARAN-DIFFUSIONREPORT-results",
+    "SCI-REPO-Y7-ARAN-DIFFUSIONREPORT-graph",
+    "SCI-REPO-Y7-ARAN-DIFFUSIONREPORT-discussion",
+    "SCI-REPO-Y7-ARAN-DIFFUSIONREPORT-conclusion"
+  ],
+  "questions": 30,
+  "multipleChoice": 0,
+  "writtenQuestions": 30,
+  "battleEligible": 0,
+  "marks": 292,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y7-ARAN-HUBBLETIMELINE-assignment",
+      "note": "Task reconstructed from its explicit marking-guide requirements, not eight invented event questions. Companion blank draft and historical information file remain supporting resources."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-PLANETPROJECT-project",
+      "note": "Source list includes Pluto, while explicitly asking why it is a dwarf planet. Original40-mark total retained. Graph sub-rubric and minimum graph count are inconsistent; teacher moderation required."
+    },
+    {
+      "id": "SCI-REPO-Y7-NAR-2022-SOLARRESEARCH-assignment",
+      "note": "Printed total mismatch29/30 and incomplete “at least content slides” instruction. Exact category maxima must be clarified."
+    },
+    {
+      "id": "SCI-REPO-Y7-SBY-2017-PHENOMENA-seasons",
+      "note": "Raw40, weighting80%, erroneous “total×2=100”. The source says two topics but actually lists three. These are alternative assignments, not a compulsory135-mark paper."
+    },
+    {
+      "id": "SCI-REPO-Y7-SBY-2017-PHENOMENA-eclipses",
+      "note": "Raw45, weighting90%, erroneous “total×2=100”. The source says two topics but actually lists three. These are alternative assignments, not a compulsory135-mark paper."
+    },
+    {
+      "id": "SCI-REPO-Y7-SBY-2017-PHENOMENA-tides",
+      "note": "Raw50, weighting100%;×2 correctly gives100. The source says two topics but actually lists three. These are alternative assignments, not a compulsory135-mark paper."
+    },
+    {
+      "id": "SCI-REPO-Y7-SBY-2024-ENERGYRESEARCH-1",
+      "note": "Open research question: quantitative/current claims require dated, comparable sources; no fixed numerical answer invented."
+    },
+    {
+      "id": "SCI-REPO-Y7-SBY-2024-ENERGYRESEARCH-2",
+      "note": "Open research question: quantitative/current claims require dated, comparable sources; no fixed numerical answer invented."
+    },
+    {
+      "id": "SCI-REPO-Y7-SBY-2024-ENERGYRESEARCH-3",
+      "note": "Open research question: quantitative/current claims require dated, comparable sources; no fixed numerical answer invented."
+    },
+    {
+      "id": "SCI-REPO-Y7-SBY-2024-ENERGYRESEARCH-4",
+      "note": "Open research question: quantitative/current claims require dated, comparable sources; no fixed numerical answer invented."
+    },
+    {
+      "id": "SCI-REPO-Y7-SBY-2024-ENERGYRESEARCH-5",
+      "note": "Open research question: quantitative/current claims require dated, comparable sources; no fixed numerical answer invented."
+    },
+    {
+      "id": "SCI-REPO-Y7-SBY-2024-ENERGYRESEARCH-6",
+      "note": "Open research question: quantitative/current claims require dated, comparable sources; no fixed numerical answer invented."
+    },
+    {
+      "id": "SCI-REPO-Y7-SBY-2024-ENERGYRESEARCH-7",
+      "note": "Open research question: quantitative/current claims require dated, comparable sources; no fixed numerical answer invented."
+    },
+    {
+      "id": "SCI-REPO-Y7-SBY-2024-ENERGYRESEARCH-8",
+      "note": "Open research question: quantitative/current claims require dated, comparable sources; no fixed numerical answer invented."
+    },
+    {
+      "id": "SCI-REPO-Y7-SBY-2024-ENERGYRESEARCH-9",
+      "note": "Open research question: quantitative/current claims require dated, comparable sources; no fixed numerical answer invented."
+    },
+    {
+      "id": "SCI-REPO-Y7-SBY-2024-ENERGYRESEARCH-10",
+      "note": "Open research question: quantitative/current claims require dated, comparable sources; no fixed numerical answer invented."
+    },
+    {
+      "id": "SCI-REPO-Y7-SBY-2024-ENERGYRESEARCH-11",
+      "note": "Open research question: quantitative/current claims require dated, comparable sources; no fixed numerical answer invented."
+    },
+    {
+      "id": "SCI-REPO-Y7-SBY-2024-ENERGYRESEARCH-12",
+      "note": "Open research question: quantitative/current claims require dated, comparable sources; no fixed numerical answer invented."
+    },
+    {
+      "id": "SCI-REPO-Y7-SBY-2024-ENERGYRESEARCH-13",
+      "note": "Open research question: quantitative/current claims require dated, comparable sources; no fixed numerical answer invented."
+    },
+    {
+      "id": "SCI-REPO-Y7-SBY-2024-ENERGYRESEARCH-14",
+      "note": "Open research question: quantitative/current claims require dated, comparable sources; no fixed numerical answer invented."
+    }
+  ],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Aranmore/Hubble Timeline Assessment Sonya.docx",
+      "sha": "b5a3d6ab71be7341b428c6610ee975967fdeed44",
+      "year": 7,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Aranmore/Year 7 Science planet assignment.docx",
+      "sha": "0bb893a9a8883f8ca78a6fed44f138751975d7d7",
+      "year": 7,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2022/Lib Assign.docx",
+      "sha": "6d4107cdea5087ef4a3950bc2ae1fae1ed3afab1",
+      "year": 7,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2023/Lib Assign.docx",
+      "sha": "67616253ee1b180bd46f4cb888436a367f6e399c",
+      "year": 7,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2024/Lib Assign.docx",
+      "sha": "a239a93d0f2e0ae6465416c82510ae66e9ed540e",
+      "year": 7,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Safety Bay/2017/Earth and Space Research Assignment.docx",
+      "sha": "4de311275602568df4217fb0b7574485ee54620c",
+      "year": 7,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Safety Bay/2024/Research task water and resources.docx",
+      "sha": "7776d026f815e6baa3c37c6b2890791eb3876fa1",
+      "year": 7,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Aranmore/Diffusion Investigation Scaffold Year 7 Chemistry.docx",
+      "sha": "3fadd1b5f5dae3c1cd4c34cac08a84d6df331bc8",
+      "year": 7,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 30,
+  "createdSupplements": 0,
+  "notes": [
+    "Eight assignment variants reviewed. Research-topic choices remain alternatives within one assignment, not invented compulsory question sets.2023/2024 solar-research variants mapped with original25-mark alternatives to2022’s30-mark source. Original Hubble and planet rubric inconsistencies flagged. Predictable-phenomena raw scores/weightings retained without forced totals. Energy research questions carry evidence criteria rather than invented current prices/statistics or predetermined conclusions."
+  ],
+  "markAudit": {
+    "Hubble": 25,
+    "Planet": 40,
+    "SolarResearch": {
+      "2022Final": 30,
+      "2022Header": 29,
+      "2023Final": 25,
+      "2023Header": 29,
+      "2024": 25
+    },
+    "Phenomena": {
+      "seasonsRaw": 40,
+      "seasonsWeight": 80,
+      "eclipsesRaw": 45,
+      "eclipsesWeight": 90,
+      "tidesRaw": 50,
+      "tidesWeight": 100
+    },
+    "EnergyResearch": {
+      "printedMarks": null
+    },
+    "Diffusion": {
+      "printedMarks": null
+    }
+  },
+  "duplicateQuestionAliases": [
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2023/Lib Assign.docx",
+      "sourceFileSha": "67616253ee1b180bd46f4cb888436a367f6e399c",
+      "sourceQuestionNumber": "assignment",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2022-SOLARRESEARCH-assignment",
+      "reason": "Same one-topic solar-system research, notes, glossary, slide and bibliography task. Variant rubric removes oral-delivery/timing components; no second science question counted.2024 allows individual or pair work.",
+      "sourceRubricVariant": {
+        "finalTotal": 25,
+        "oralPresentationRequired": false,
+        "individualWorkAllowed": false,
+        "headerTotal": 29,
+        "incompleteMinimumSlideInstruction": true
+      }
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2024/Lib Assign.docx",
+      "sourceFileSha": "a239a93d0f2e0ae6465416c82510ae66e9ed540e",
+      "sourceQuestionNumber": "assignment",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2022-SOLARRESEARCH-assignment",
+      "reason": "Same one-topic solar-system research, notes, glossary, slide and bibliography task. Variant rubric removes oral-delivery/timing components; no second science question counted.2024 allows individual or pair work.",
+      "sourceRubricVariant": {
+        "finalTotal": 25,
+        "oralPresentationRequired": false,
+        "individualWorkAllowed": true,
+        "headerTotal": 25,
+        "incompleteMinimumSlideInstruction": true
+      }
+    }
+  ]
+}
