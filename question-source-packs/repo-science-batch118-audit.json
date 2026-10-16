@@ -1,0 +1,110 @@
+{
+  "batch": "repo-science-batch118",
+  "paperCount": 2,
+  "questionIds": [
+    "SCI-REPO-Y10-SBY-2024-CONFORMITY-1",
+    "SCI-REPO-Y10-SBY-2024-CONFORMITY-2",
+    "SCI-REPO-Y10-SBY-2024-CONFORMITY-3",
+    "SCI-REPO-Y10-SBY-2024-CONFORMITY-4",
+    "SCI-REPO-Y10-SBY-2024-CONFORMITY-5",
+    "SCI-REPO-Y10-SBY-2024-CONFORMITY-6",
+    "SCI-REPO-Y10-SBY-2024-CONFORMITY-7",
+    "SCI-REPO-Y10-SBY-2024-CONFORMITY-8",
+    "SCI-REPO-Y10-SBY-2024-CONFORMITY-9",
+    "SCI-REPO-Y10-SBY-2024-CONFORMITY-10",
+    "SCI-REPO-Y10-SBY-2024-PROSOCIAL-definitions",
+    "SCI-REPO-Y10-SBY-2024-PROSOCIAL-examples",
+    "SCI-REPO-Y10-SBY-2024-PROSOCIAL-characteristics",
+    "SCI-REPO-Y10-SBY-2024-PROSOCIAL-consequences"
+  ],
+  "questions": 14,
+  "multipleChoice": 0,
+  "writtenQuestions": 14,
+  "battleEligible": 0,
+  "marks": 68,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-CONFORMITY-1",
+      "note": "Unmarked psychology-elective worksheet;allocations proposed and open responses require teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-CONFORMITY-2",
+      "note": "Unmarked psychology-elective worksheet;allocations proposed and open responses require teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-CONFORMITY-3",
+      "note": "Unmarked psychology-elective worksheet;allocations proposed and open responses require teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-CONFORMITY-4",
+      "note": "Unmarked psychology-elective worksheet;allocations proposed and open responses require teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-CONFORMITY-5",
+      "note": "Unmarked psychology-elective worksheet;allocations proposed and open responses require teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-CONFORMITY-6",
+      "note": "Unmarked psychology-elective worksheet;allocations proposed and open responses require teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-CONFORMITY-7",
+      "note": "Unmarked psychology-elective worksheet;allocations proposed and open responses require teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-CONFORMITY-8",
+      "note": "Unmarked psychology-elective worksheet;allocations proposed and open responses require teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-CONFORMITY-9",
+      "note": "Unmarked psychology-elective worksheet;allocations proposed and open responses require teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-CONFORMITY-10",
+      "note": "Unmarked psychology-elective worksheet;allocations proposed and open responses require teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-PROSOCIAL-definitions",
+      "note": "Unmarked comparison-poster activity;allocations proposed. Concepts concern behaviour,not a clinical diagnosis."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-PROSOCIAL-examples",
+      "note": "Unmarked comparison-poster activity;allocations proposed. Concepts concern behaviour,not a clinical diagnosis."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-PROSOCIAL-characteristics",
+      "note": "Unmarked comparison-poster activity;allocations proposed. Concepts concern behaviour,not a clinical diagnosis."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-PROSOCIAL-consequences",
+      "note": "Unmarked comparison-poster activity;allocations proposed. Concepts concern behaviour,not a clinical diagnosis."
+    }
+  ],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Psychology Elective/Safety Bay/2024/Resources/Worksheets/Social Conformity.docx",
+      "sha": "f5013cb3c35d7e363d5dc8d5a797210e35b2286e",
+      "year": 10,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Psychology Elective/Safety Bay/2024/Resources/Worksheets/Prosocial vs Antisocial.docx",
+      "sha": "df653ea9e13f93d1ee10a11ef99b20c0eae47b09",
+      "year": 10,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 14,
+  "createdSupplements": 0,
+  "notes": [
+    "Both psychology-elective resources are explicitly within the repository science-assessment scope. All10conformity prompts and4poster content tasks retained. General poster title/layout not counted as additional questions. Open reflection accepts hypothetical/societal examples."
+  ],
+  "markAudit": {
+    "conformityProposed": 50,
+    "posterProposed": 18,
+    "sourceMarks": null
+  },
+  "duplicateQuestionAliases": []
+}

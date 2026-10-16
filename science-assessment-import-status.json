@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.16-science-source113",
+  "version": "2026.10.16-science-source119",
   "status": "in_progress",
   "scope": "Original Science assessment files in repository, Years 7–10. File counts include keys and supporting materials; they are not question counts.",
   "inventoryFiles": 2009,
@@ -11,10 +11,10 @@
     "9": 457,
     "10": 582
   },
-  "importedPapers": 273,
-  "importedQuestions": 3416,
+  "importedPapers": 283,
+  "importedQuestions": 3485,
   "multipleChoice": 820,
-  "writtenQuestions": 2596,
+  "writtenQuestions": 2665,
   "battleEligibleQuestions": 711,
   "reviewRequired": [
     {
@@ -1808,6 +1808,142 @@
     {
       "id": "SCI-REPO-Y10-SBY-2017-CHEMREV-e",
       "note": "Unmarked source;proposed3marks. Reactant proportions/oxidising nitric acid require teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-MENDELEEV-318-assigned-position",
+      "note": "Source element allocation is blank;teacher must assign it."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-MENDELEEV-318-assigned-discovery",
+      "note": "Source element allocation is blank;teacher must assign it."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-MENDELEEV-318-assigned-name",
+      "note": "Source element allocation is blank;teacher must assign it."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-MENDELEEV-318-assigned-facts",
+      "note": "Source element allocation is blank;teacher must assign it."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-MENDELEEV-291-radioactive",
+      "note": "Simplified rubric supplies6 marks per two-element category without full content criteria."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-MENDELEEV-291-noble",
+      "note": "Simplified rubric supplies6 marks per two-element category without full content criteria."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-MENDELEEV-291-halogen",
+      "note": "Simplified rubric supplies6 marks per two-element category without full content criteria."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-NEWTONLAWS-born",
+      "note": "Historical dates require stated calendar conventions."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-NEWTONLAWS-died",
+      "note": "Historical dates require stated calendar conventions."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-MENDELEEVESL-birth",
+      "note": "Historical calendar/family-detail conventions require source checking."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-MENDELEEVESL-death",
+      "note": "Historical calendar/family-detail conventions require source checking."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-MENDELEEVESL-family",
+      "note": "Historical calendar/family-detail conventions require source checking."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2015-LIFEEXTINCTION-origins",
+      "note": "Unmarked open research assignment;all allocations proposed,accept evidence-based alternatives."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2015-LIFEEXTINCTION-past",
+      "note": "Unmarked open research assignment;all allocations proposed,accept evidence-based alternatives."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2015-LIFEEXTINCTION-future",
+      "note": "Unmarked open research assignment;all allocations proposed,accept evidence-based alternatives."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-CONFORMITY-1",
+      "note": "Unmarked psychology-elective worksheet;allocations proposed and open responses require teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-CONFORMITY-2",
+      "note": "Unmarked psychology-elective worksheet;allocations proposed and open responses require teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-CONFORMITY-3",
+      "note": "Unmarked psychology-elective worksheet;allocations proposed and open responses require teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-CONFORMITY-4",
+      "note": "Unmarked psychology-elective worksheet;allocations proposed and open responses require teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-CONFORMITY-5",
+      "note": "Unmarked psychology-elective worksheet;allocations proposed and open responses require teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-CONFORMITY-6",
+      "note": "Unmarked psychology-elective worksheet;allocations proposed and open responses require teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-CONFORMITY-7",
+      "note": "Unmarked psychology-elective worksheet;allocations proposed and open responses require teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-CONFORMITY-8",
+      "note": "Unmarked psychology-elective worksheet;allocations proposed and open responses require teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-CONFORMITY-9",
+      "note": "Unmarked psychology-elective worksheet;allocations proposed and open responses require teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-CONFORMITY-10",
+      "note": "Unmarked psychology-elective worksheet;allocations proposed and open responses require teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-PROSOCIAL-definitions",
+      "note": "Unmarked comparison-poster activity;allocations proposed. Concepts concern behaviour,not a clinical diagnosis."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-PROSOCIAL-examples",
+      "note": "Unmarked comparison-poster activity;allocations proposed. Concepts concern behaviour,not a clinical diagnosis."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-PROSOCIAL-characteristics",
+      "note": "Unmarked comparison-poster activity;allocations proposed. Concepts concern behaviour,not a clinical diagnosis."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-PROSOCIAL-consequences",
+      "note": "Unmarked comparison-poster activity;allocations proposed. Concepts concern behaviour,not a clinical diagnosis."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-OZONERUBRIC-uses",
+      "note": "Recovered explicit content criteria from a teacher rubric;original assigned essay brief not supplied. Teacher must confirm this task framework and allocation before use."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-OZONERUBRIC-protocol",
+      "note": "Recovered explicit content criteria from a teacher rubric;original assigned essay brief not supplied. Teacher must confirm this task framework and allocation before use."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-OZONERUBRIC-mechanism",
+      "note": "Recovered explicit content criteria from a teacher rubric;original assigned essay brief not supplied. Teacher must confirm this task framework and allocation before use."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-OZONERUBRIC-impacts",
+      "note": "Recovered explicit content criteria from a teacher rubric;original assigned essay brief not supplied. Teacher must confirm this task framework and allocation before use."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-OZONERUBRIC-references",
+      "note": "Recovered explicit content criteria from a teacher rubric;original assigned essay brief not supplied. Teacher must confirm this task framework and allocation before use."
     },
     {
       "id": "SCI-REPO-Y10-NAR-2024-UNIVERSE-MC02",
@@ -21492,6 +21628,654 @@
         "proposed": 23
       },
       "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch114",
+      "questionIds": [
+        "SCI-REPO-Y10-ARAN-MENDELEEV-301-birth",
+        "SCI-REPO-Y10-ARAN-MENDELEEV-301-birthplace",
+        "SCI-REPO-Y10-ARAN-MENDELEEV-301-death",
+        "SCI-REPO-Y10-ARAN-MENDELEEV-301-named",
+        "SCI-REPO-Y10-ARAN-MENDELEEV-301-achievements",
+        "SCI-REPO-Y10-ARAN-MENDELEEV-301-gaps",
+        "SCI-REPO-Y10-ARAN-MENDELEEV-301-predictions",
+        "SCI-REPO-Y10-ARAN-MENDELEEV-301-facts",
+        "SCI-REPO-Y10-ARAN-MENDELEEV-301-alkali",
+        "SCI-REPO-Y10-ARAN-MENDELEEV-301-alkaline",
+        "SCI-REPO-Y10-ARAN-MENDELEEV-301-radioactive",
+        "SCI-REPO-Y10-ARAN-MENDELEEV-301-noble",
+        "SCI-REPO-Y10-ARAN-MENDELEEV-301-halogen",
+        "SCI-REPO-Y10-ARAN-MENDELEEV-301-transition",
+        "SCI-REPO-Y10-ARAN-MENDELEEV-301-references",
+        "SCI-REPO-Y10-ARAN-MENDELEEV-318-alkali",
+        "SCI-REPO-Y10-ARAN-MENDELEEV-318-alkaline",
+        "SCI-REPO-Y10-ARAN-MENDELEEV-318-radioactive",
+        "SCI-REPO-Y10-ARAN-MENDELEEV-318-noble",
+        "SCI-REPO-Y10-ARAN-MENDELEEV-318-halogen",
+        "SCI-REPO-Y10-ARAN-MENDELEEV-318-transition",
+        "SCI-REPO-Y10-ARAN-MENDELEEV-318-assigned-position",
+        "SCI-REPO-Y10-ARAN-MENDELEEV-318-assigned-discovery",
+        "SCI-REPO-Y10-ARAN-MENDELEEV-318-assigned-name",
+        "SCI-REPO-Y10-ARAN-MENDELEEV-318-assigned-facts",
+        "SCI-REPO-Y10-ARAN-MENDELEEV-291-radioactive",
+        "SCI-REPO-Y10-ARAN-MENDELEEV-291-noble",
+        "SCI-REPO-Y10-ARAN-MENDELEEV-291-halogen"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/L3 10 SCIENCE CHEMISTRY ASSIGNMENT.docx",
+          "sha": "999f40c4a797c626081986f112f8ab15a929337a",
+          "year": 10,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2015 10 SCIENCE PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+          "sha": "237de97f08b855215dda5b1d36b4aede7ab962ae",
+          "year": 10,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2015 10ScL2PeriodicTable & Element Assignment.docx",
+          "sha": "cc96c683976980cd9313431b2961b4a05d10993f",
+          "year": 10,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/very simplified Mendeleev assmt marking key.docx",
+          "sha": "d8f12f5a41b86b473276a046c63084d62e72880f",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 28,
+      "marks": 86,
+      "imageAudit": "question-source-packs/repo-science-batch114-audit.json",
+      "notes": [
+        "Four Mendeleev rubric variants reviewed. Shared research linked without inflating counts;source-specific marks retained. Simplified table criteria remain flagged instead of inventing required fields. Assigned-element section remains conditional on a real allocation."
+      ],
+      "markAudit": {
+        "301": {
+          "total": 50,
+          "selected": 42,
+          "notesAndPresentation": 8
+        },
+        "316": {
+          "total": 50,
+          "selected": 42,
+          "notesAndPresentation": 8
+        },
+        "318": {
+          "total": 50,
+          "selected": 44,
+          "notesAndPresentation": 6
+        },
+        "291": {
+          "total": 37,
+          "selected": 34,
+          "tablePresentationAndPicture": 3
+        }
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2015 10 SCIENCE PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+          "sourceFileSha": "237de97f08b855215dda5b1d36b4aede7ab962ae",
+          "sourceQuestionNumber": "birth",
+          "sourceParagraphs": [
+            9
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-birth",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2015 10 SCIENCE PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+          "sourceFileSha": "237de97f08b855215dda5b1d36b4aede7ab962ae",
+          "sourceQuestionNumber": "birthplace",
+          "sourceParagraphs": [
+            9
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-birthplace",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2015 10 SCIENCE PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+          "sourceFileSha": "237de97f08b855215dda5b1d36b4aede7ab962ae",
+          "sourceQuestionNumber": "death",
+          "sourceParagraphs": [
+            9
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-death",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2015 10 SCIENCE PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+          "sourceFileSha": "237de97f08b855215dda5b1d36b4aede7ab962ae",
+          "sourceQuestionNumber": "named",
+          "sourceParagraphs": [
+            9
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-named",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2015 10 SCIENCE PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+          "sourceFileSha": "237de97f08b855215dda5b1d36b4aede7ab962ae",
+          "sourceQuestionNumber": "achievements",
+          "sourceParagraphs": [
+            9
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-achievements",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2015 10 SCIENCE PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+          "sourceFileSha": "237de97f08b855215dda5b1d36b4aede7ab962ae",
+          "sourceQuestionNumber": "gaps",
+          "sourceParagraphs": [
+            9
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-gaps",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2015 10 SCIENCE PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+          "sourceFileSha": "237de97f08b855215dda5b1d36b4aede7ab962ae",
+          "sourceQuestionNumber": "predictions",
+          "sourceParagraphs": [
+            9
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-predictions",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2015 10 SCIENCE PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+          "sourceFileSha": "237de97f08b855215dda5b1d36b4aede7ab962ae",
+          "sourceQuestionNumber": "facts",
+          "sourceParagraphs": [
+            9
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-facts",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2015 10 SCIENCE PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+          "sourceFileSha": "237de97f08b855215dda5b1d36b4aede7ab962ae",
+          "sourceQuestionNumber": "alkali",
+          "sourceParagraphs": [
+            10
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-alkali",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2015 10 SCIENCE PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+          "sourceFileSha": "237de97f08b855215dda5b1d36b4aede7ab962ae",
+          "sourceQuestionNumber": "alkaline",
+          "sourceParagraphs": [
+            10
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-alkaline",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2015 10 SCIENCE PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+          "sourceFileSha": "237de97f08b855215dda5b1d36b4aede7ab962ae",
+          "sourceQuestionNumber": "radioactive",
+          "sourceParagraphs": [
+            10
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-radioactive",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2015 10 SCIENCE PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+          "sourceFileSha": "237de97f08b855215dda5b1d36b4aede7ab962ae",
+          "sourceQuestionNumber": "noble",
+          "sourceParagraphs": [
+            10
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-noble",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2015 10 SCIENCE PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+          "sourceFileSha": "237de97f08b855215dda5b1d36b4aede7ab962ae",
+          "sourceQuestionNumber": "halogen",
+          "sourceParagraphs": [
+            10
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-halogen",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2015 10 SCIENCE PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+          "sourceFileSha": "237de97f08b855215dda5b1d36b4aede7ab962ae",
+          "sourceQuestionNumber": "transition",
+          "sourceParagraphs": [
+            10
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-transition",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2015 10 SCIENCE PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+          "sourceFileSha": "237de97f08b855215dda5b1d36b4aede7ab962ae",
+          "sourceQuestionNumber": "references",
+          "sourceParagraphs": [
+            43
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-references",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2015 10ScL2PeriodicTable & Element Assignment.docx",
+          "sourceFileSha": "cc96c683976980cd9313431b2961b4a05d10993f",
+          "sourceQuestionNumber": "birth",
+          "sourceParagraphs": [
+            8
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-birth",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2015 10ScL2PeriodicTable & Element Assignment.docx",
+          "sourceFileSha": "cc96c683976980cd9313431b2961b4a05d10993f",
+          "sourceQuestionNumber": "birthplace",
+          "sourceParagraphs": [
+            8
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-birthplace",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2015 10ScL2PeriodicTable & Element Assignment.docx",
+          "sourceFileSha": "cc96c683976980cd9313431b2961b4a05d10993f",
+          "sourceQuestionNumber": "death",
+          "sourceParagraphs": [
+            8
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-death",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2015 10ScL2PeriodicTable & Element Assignment.docx",
+          "sourceFileSha": "cc96c683976980cd9313431b2961b4a05d10993f",
+          "sourceQuestionNumber": "named",
+          "sourceParagraphs": [
+            8
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-named",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2015 10ScL2PeriodicTable & Element Assignment.docx",
+          "sourceFileSha": "cc96c683976980cd9313431b2961b4a05d10993f",
+          "sourceQuestionNumber": "achievements",
+          "sourceParagraphs": [
+            8
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-achievements",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2015 10ScL2PeriodicTable & Element Assignment.docx",
+          "sourceFileSha": "cc96c683976980cd9313431b2961b4a05d10993f",
+          "sourceQuestionNumber": "gaps",
+          "sourceParagraphs": [
+            8
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-gaps",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2015 10ScL2PeriodicTable & Element Assignment.docx",
+          "sourceFileSha": "cc96c683976980cd9313431b2961b4a05d10993f",
+          "sourceQuestionNumber": "predictions",
+          "sourceParagraphs": [
+            8
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-predictions",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2015 10ScL2PeriodicTable & Element Assignment.docx",
+          "sourceFileSha": "cc96c683976980cd9313431b2961b4a05d10993f",
+          "sourceQuestionNumber": "facts",
+          "sourceParagraphs": [
+            8
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-facts",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2015 10ScL2PeriodicTable & Element Assignment.docx",
+          "sourceFileSha": "cc96c683976980cd9313431b2961b4a05d10993f",
+          "sourceQuestionNumber": "references",
+          "sourceParagraphs": [
+            44
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-references",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/very simplified Mendeleev assmt marking key.docx",
+          "sourceFileSha": "d8f12f5a41b86b473276a046c63084d62e72880f",
+          "sourceQuestionNumber": "birth",
+          "sourceParagraphs": [
+            7
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-birth",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/very simplified Mendeleev assmt marking key.docx",
+          "sourceFileSha": "d8f12f5a41b86b473276a046c63084d62e72880f",
+          "sourceQuestionNumber": "birthplace",
+          "sourceParagraphs": [
+            7
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-birthplace",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/very simplified Mendeleev assmt marking key.docx",
+          "sourceFileSha": "d8f12f5a41b86b473276a046c63084d62e72880f",
+          "sourceQuestionNumber": "death",
+          "sourceParagraphs": [
+            7
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-death",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/very simplified Mendeleev assmt marking key.docx",
+          "sourceFileSha": "d8f12f5a41b86b473276a046c63084d62e72880f",
+          "sourceQuestionNumber": "named",
+          "sourceParagraphs": [
+            7
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-named",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/very simplified Mendeleev assmt marking key.docx",
+          "sourceFileSha": "d8f12f5a41b86b473276a046c63084d62e72880f",
+          "sourceQuestionNumber": "achievements",
+          "sourceParagraphs": [
+            7
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-achievements",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/very simplified Mendeleev assmt marking key.docx",
+          "sourceFileSha": "d8f12f5a41b86b473276a046c63084d62e72880f",
+          "sourceQuestionNumber": "gaps",
+          "sourceParagraphs": [
+            7
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-gaps",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/very simplified Mendeleev assmt marking key.docx",
+          "sourceFileSha": "d8f12f5a41b86b473276a046c63084d62e72880f",
+          "sourceQuestionNumber": "predictions",
+          "sourceParagraphs": [
+            7
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-predictions",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/very simplified Mendeleev assmt marking key.docx",
+          "sourceFileSha": "d8f12f5a41b86b473276a046c63084d62e72880f",
+          "sourceQuestionNumber": "facts",
+          "sourceParagraphs": [
+            7
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-facts",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch115",
+      "questionIds": [
+        "SCI-REPO-Y10-ARAN-NEWTONLAWS-born",
+        "SCI-REPO-Y10-ARAN-NEWTONLAWS-died",
+        "SCI-REPO-Y10-ARAN-NEWTONLAWS-early",
+        "SCI-REPO-Y10-ARAN-NEWTONLAWS-education",
+        "SCI-REPO-Y10-ARAN-NEWTONLAWS-profession",
+        "SCI-REPO-Y10-ARAN-NEWTONLAWS-contribution",
+        "SCI-REPO-Y10-ARAN-NEWTONLAWS-law1",
+        "SCI-REPO-Y10-ARAN-NEWTONLAWS-law2",
+        "SCI-REPO-Y10-ARAN-NEWTONLAWS-law3",
+        "SCI-REPO-Y10-ARAN-NEWTONLAWS-references"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/George's ex IEC Isaac Newton.docx",
+          "sha": "eef1ba6414dbb5b03b3c5714d897d9fbd65b3cde",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 10,
+      "marks": 29,
+      "imageAudit": "question-source-packs/repo-science-batch115-audit.json",
+      "notes": [
+        "Complete Newton biography/motion report reviewed. Ten science/reference tasks29marks retained;title/introduction/general writing and presentation7logged separately for36total. Calendar conventions and action/reaction on separate bodies explicit."
+      ],
+      "markAudit": {
+        "total": 36,
+        "selected": 29,
+        "generalWritingPresentation": 7
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch116",
+      "questionIds": [
+        "SCI-REPO-Y10-ARAN-MENDELEEVESL-birth",
+        "SCI-REPO-Y10-ARAN-MENDELEEVESL-death",
+        "SCI-REPO-Y10-ARAN-MENDELEEVESL-family",
+        "SCI-REPO-Y10-ARAN-MENDELEEVESL-school",
+        "SCI-REPO-Y10-ARAN-MENDELEEVESL-university",
+        "SCI-REPO-Y10-ARAN-MENDELEEVESL-famous",
+        "SCI-REPO-Y10-ARAN-MENDELEEVESL-element-one",
+        "SCI-REPO-Y10-ARAN-MENDELEEVESL-element-two",
+        "SCI-REPO-Y10-ARAN-MENDELEEVESL-references"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/ESL SCIENCE CHEMISTRY ASSIGNMENT.docx",
+          "sha": "59950e1e9f97ee2523d09072ed50f62d52c83632",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 9,
+      "marks": 32,
+      "imageAudit": "question-source-packs/repo-science-batch116-audit.json",
+      "notes": [
+        "Complete ESL Mendeleev report reviewed. Nine content/reference tasks32marks;notes1andessayform2logged separately for35total. Two distinct chosen-element reports retained,not two copies of one unspecified answer."
+      ],
+      "markAudit": {
+        "total": 35,
+        "selected": 32,
+        "notes": 1,
+        "essayForm": 2
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch117",
+      "questionIds": [
+        "SCI-REPO-Y10-ARAN-2015-LIFEEXTINCTION-origins",
+        "SCI-REPO-Y10-ARAN-2015-LIFEEXTINCTION-past",
+        "SCI-REPO-Y10-ARAN-2015-LIFEEXTINCTION-future"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2015 Origins and Extinction of life assignment.docx",
+          "sha": "d1fd00c9e17703ca84e7a075da03be5f27f19b98",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 3,
+      "marks": 30,
+      "imageAudit": "question-source-packs/repo-science-batch117-audit.json",
+      "notes": [
+        "Complete three-part museum-information-sheet assignment reviewed. Open hypotheses/evidence research remains teacher-reviewed;no claim that an unproved origin model is established,and no imminent catastrophe invented."
+      ],
+      "markAudit": {
+        "printedMarks": null,
+        "proposed": 30
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch118",
+      "questionIds": [
+        "SCI-REPO-Y10-SBY-2024-CONFORMITY-1",
+        "SCI-REPO-Y10-SBY-2024-CONFORMITY-2",
+        "SCI-REPO-Y10-SBY-2024-CONFORMITY-3",
+        "SCI-REPO-Y10-SBY-2024-CONFORMITY-4",
+        "SCI-REPO-Y10-SBY-2024-CONFORMITY-5",
+        "SCI-REPO-Y10-SBY-2024-CONFORMITY-6",
+        "SCI-REPO-Y10-SBY-2024-CONFORMITY-7",
+        "SCI-REPO-Y10-SBY-2024-CONFORMITY-8",
+        "SCI-REPO-Y10-SBY-2024-CONFORMITY-9",
+        "SCI-REPO-Y10-SBY-2024-CONFORMITY-10",
+        "SCI-REPO-Y10-SBY-2024-PROSOCIAL-definitions",
+        "SCI-REPO-Y10-SBY-2024-PROSOCIAL-examples",
+        "SCI-REPO-Y10-SBY-2024-PROSOCIAL-characteristics",
+        "SCI-REPO-Y10-SBY-2024-PROSOCIAL-consequences"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Psychology Elective/Safety Bay/2024/Resources/Worksheets/Social Conformity.docx",
+          "sha": "f5013cb3c35d7e363d5dc8d5a797210e35b2286e",
+          "year": 10,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Psychology Elective/Safety Bay/2024/Resources/Worksheets/Prosocial vs Antisocial.docx",
+          "sha": "df653ea9e13f93d1ee10a11ef99b20c0eae47b09",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 14,
+      "marks": 68,
+      "imageAudit": "question-source-packs/repo-science-batch118-audit.json",
+      "notes": [
+        "Both psychology-elective resources are explicitly within the repository science-assessment scope. All10conformity prompts and4poster content tasks retained. General poster title/layout not counted as additional questions. Open reflection accepts hypothetical/societal examples."
+      ],
+      "markAudit": {
+        "conformityProposed": 50,
+        "posterProposed": 18,
+        "sourceMarks": null
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch119",
+      "questionIds": [
+        "SCI-REPO-Y10-ARAN-2014-OZONERUBRIC-uses",
+        "SCI-REPO-Y10-ARAN-2014-OZONERUBRIC-protocol",
+        "SCI-REPO-Y10-ARAN-2014-OZONERUBRIC-mechanism",
+        "SCI-REPO-Y10-ARAN-2014-OZONERUBRIC-impacts",
+        "SCI-REPO-Y10-ARAN-2014-OZONERUBRIC-references"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2014 OZONE ASSIGNMENT TEACHER MARKING KEY sonya's version.docx",
+          "sha": "097eea018fd173fd7d583caaa262dc8c4079cb17",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 5,
+      "marks": 16,
+      "imageAudit": "question-source-packs/repo-science-batch119-audit.json",
+      "notes": [
+        "Teacher ozone essay rubric reviewed. Five recoverable content/reference criteria16marks retained as flagged task framework;missing original essay brief not reconstructed as verbatim source. Intro/conclusion4andpresentation5logged separately."
+      ],
+      "markAudit": {
+        "total": 25,
+        "scienceContent": 13,
+        "references": 3,
+        "essayStructure": 4,
+        "presentation": 5,
+        "originalBriefMissing": true
+      },
+      "duplicateQuestionAliases": []
     }
   ],
   "files": [
@@ -34256,7 +35040,7 @@
       "sha": "237de97f08b855215dda5b1d36b4aede7ab962ae",
       "year": 10,
       "size": 17260,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -34264,7 +35048,7 @@
       "sha": "cc96c683976980cd9313431b2961b4a05d10993f",
       "year": 10,
       "size": 17904,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -34336,7 +35120,7 @@
       "sha": "59950e1e9f97ee2523d09072ed50f62d52c83632",
       "year": 10,
       "size": 14463,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -34344,7 +35128,7 @@
       "sha": "999f40c4a797c626081986f112f8ab15a929337a",
       "year": 10,
       "size": 14574,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -34377,7 +35161,7 @@
       "sha": "d8f12f5a41b86b473276a046c63084d62e72880f",
       "year": 10,
       "size": 12813,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -35593,7 +36377,7 @@
       "sha": "097eea018fd173fd7d583caaa262dc8c4079cb17",
       "year": 10,
       "size": 15401,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -35617,7 +36401,7 @@
       "sha": "d1fd00c9e17703ca84e7a075da03be5f27f19b98",
       "year": 10,
       "size": 13424,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -36747,7 +37531,7 @@
       "sha": "eef1ba6414dbb5b03b3c5714d897d9fbd65b3cde",
       "year": 10,
       "size": 16047,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -37595,7 +38379,7 @@
       "sha": "df653ea9e13f93d1ee10a11ef99b20c0eae47b09",
       "year": 10,
       "size": 15448,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -37611,7 +38395,7 @@
       "sha": "f5013cb3c35d7e363d5dc8d5a797210e35b2286e",
       "year": 10,
       "size": 15063,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -37703,9 +38487,9 @@
       "duplicateOf": null
     }
   ],
-  "learningVaultCreatedKeySupplements": 1088,
-  "remainingUniqueFileBlobs": 1271,
-  "learningVaultCreatedKeys": 2018,
+  "learningVaultCreatedKeySupplements": 1140,
+  "remainingUniqueFileBlobs": 1261,
+  "learningVaultCreatedKeys": 2035,
   "blockedSources": [
     {
       "sha": "49d4b7f3f8af844477b39abb856365aeb096cafd",
@@ -37917,7 +38701,7 @@
     "ocrPages": 1175,
     "ocrTextVerified": false
   },
-  "distinctSourceAndKeyReferences": 323,
+  "distinctSourceAndKeyReferences": 333,
   "unscoredQuestionsPreserved": 1,
   "activeAdditionalQuestionRequest": {
     "requestedAdditionalQuestions": 1000,
@@ -37932,12 +38716,12 @@
     "requestedAt": "2026-10-16",
     "scope": "All remaining Years 7–10 Science assessment papers; all question types, source figures, response space and marking guidance",
     "startingImportedQuestions": 1374,
-    "addedQuestions": 2042,
+    "addedQuestions": 2111,
     "status": "in_progress",
     "completionRule": "Every unique assessment paper reviewed; duplicates mapped and unreadable/protected files explicitly resolved. File-blob count is not a paper denominator.",
     "restoredQuestionsAfterDuplicateFix": 4,
-    "newlyExtractedQuestions": 2038,
-    "papersReviewedSinceRequest": 210,
+    "newlyExtractedQuestions": 2107,
+    "papersReviewedSinceRequest": 220,
     "canonicalSourceQuestionsReReviewed": 2
   },
   "sourceInventoryExclusions": {
@@ -38196,7 +38980,7 @@
       "effect": "Retained as teacher-review diagram task;exact label-order key must be verified before assigning."
     }
   ],
-  "reviewedDistinctSourceBlobs": 329,
+  "reviewedDistinctSourceBlobs": 339,
   "inventoryCountBasis": "Remaining unique file blobs counts pending or key-reference-pending identities, including protected inputs; it is not a remaining-paper or remaining-question estimate.",
   "canonicalUniverseReviewRepair": {
     "questionIds": [

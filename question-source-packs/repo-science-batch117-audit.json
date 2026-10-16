@@ -1,0 +1,48 @@
+{
+  "batch": "repo-science-batch117",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y10-ARAN-2015-LIFEEXTINCTION-origins",
+    "SCI-REPO-Y10-ARAN-2015-LIFEEXTINCTION-past",
+    "SCI-REPO-Y10-ARAN-2015-LIFEEXTINCTION-future"
+  ],
+  "questions": 3,
+  "multipleChoice": 0,
+  "writtenQuestions": 3,
+  "battleEligible": 0,
+  "marks": 30,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y10-ARAN-2015-LIFEEXTINCTION-origins",
+      "note": "Unmarked open research assignment;all allocations proposed,accept evidence-based alternatives."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2015-LIFEEXTINCTION-past",
+      "note": "Unmarked open research assignment;all allocations proposed,accept evidence-based alternatives."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2015-LIFEEXTINCTION-future",
+      "note": "Unmarked open research assignment;all allocations proposed,accept evidence-based alternatives."
+    }
+  ],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2015 Origins and Extinction of life assignment.docx",
+      "sha": "d1fd00c9e17703ca84e7a075da03be5f27f19b98",
+      "year": 10,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 3,
+  "createdSupplements": 0,
+  "notes": [
+    "Complete three-part museum-information-sheet assignment reviewed. Open hypotheses/evidence research remains teacher-reviewed;no claim that an unproved origin model is established,and no imminent catastrophe invented."
+  ],
+  "markAudit": {
+    "printedMarks": null,
+    "proposed": 30
+  },
+  "duplicateQuestionAliases": []
+}
