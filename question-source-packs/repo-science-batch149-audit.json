@@ -1,0 +1,59 @@
+{
+  "batch": "repo-science-batch149",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y10-SBY-2019-GENETICSASSIGN-S1-heterozygosity",
+    "SCI-REPO-Y10-SBY-2019-GENETICSASSIGN-S1-phenotypes",
+    "SCI-REPO-Y10-SBY-2019-GENETICSASSIGN-S1-hair",
+    "SCI-REPO-Y10-SBY-2019-GENETICSASSIGN-S2-TTtt",
+    "SCI-REPO-Y10-SBY-2019-GENETICSASSIGN-S2-tall",
+    "SCI-REPO-Y10-SBY-2019-GENETICSASSIGN-S2-TtTt",
+    "SCI-REPO-Y10-SBY-2019-GENETICSASSIGN-S2-short",
+    "SCI-REPO-Y10-SBY-2019-GENETICSASSIGN-S3-white",
+    "SCI-REPO-Y10-SBY-2019-GENETICSASSIGN-S3-white-percent",
+    "SCI-REPO-Y10-SBY-2019-GENETICSASSIGN-S3-purple-cross",
+    "SCI-REPO-Y10-SBY-2019-GENETICSASSIGN-S3-purple-percent",
+    "SCI-REPO-Y10-SBY-2019-GENETICSASSIGN-S3-recessive-percent",
+    "SCI-REPO-Y10-SBY-2019-GENETICSASSIGN-S3-guinea-genotypes",
+    "SCI-REPO-Y10-SBY-2019-GENETICSASSIGN-S3-guinea-homo",
+    "SCI-REPO-Y10-SBY-2019-GENETICSASSIGN-S3-guinea-allshort",
+    "SCI-REPO-Y10-SBY-2019-GENETICSASSIGN-S3-guinea-hetero",
+    "SCI-REPO-Y10-SBY-2019-GENETICSASSIGN-S3-guinea-short",
+    "SCI-REPO-Y10-SBY-2019-GENETICSASSIGN-S3-guinea-long",
+    "SCI-REPO-Y10-SBY-2019-GENETICSASSIGN-S3-parent-inference"
+  ],
+  "questions": 19,
+  "multipleChoice": 0,
+  "writtenQuestions": 19,
+  "battleEligible": 0,
+  "marks": 43,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y10-SBY-2019-GENETICSASSIGN-S1-hair",
+      "note": "Straight/curly human hair is not generally a single complete-dominance trait;source uses a simplified model and repeats straight twice."
+    }
+  ],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/1. Genetics Assignment 2019 Revision.docx",
+      "sha": "c09fb6802cb139631f97701c13111de3929951ca",
+      "year": 10,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 19,
+  "createdSupplements": 0,
+  "notes": [
+    "Full19prompt genetics assignment reviewed,with accurate Punnett-square marking diagrams. Section9+6+28=43;cover has conflicting overprinted totals. Repeated straight-hair row and simplified human-hair model flagged. Expected probabilities distinguished from guaranteed finite counts."
+  ],
+  "markAudit": {
+    "section1": 9,
+    "section2": 6,
+    "section3": 28,
+    "sum": 43,
+    "coverOverprintedTotals": true
+  },
+  "duplicateQuestionAliases": []
+}

@@ -1,0 +1,164 @@
+{
+  "batch": "repo-science-batch148",
+  "paperCount": 2,
+  "questionIds": [
+    "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-variables",
+    "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-question-prediction",
+    "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-risks",
+    "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-table",
+    "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-graph",
+    "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-analysis",
+    "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-evaluation"
+  ],
+  "questions": 7,
+  "multipleChoice": 0,
+  "writtenQuestions": 7,
+  "battleEligible": 0,
+  "marks": 27,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-variables",
+      "note": "Rubric-only recovered task framework requires actual apparatus/procedure. Question/prediction point rows conflict with subtotal and teacher next-year revision note."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-question-prediction",
+      "note": "Rubric-only recovered task framework requires actual apparatus/procedure. Question/prediction point rows conflict with subtotal and teacher next-year revision note."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-risks",
+      "note": "Rubric-only recovered task framework requires actual apparatus/procedure. Question/prediction point rows conflict with subtotal and teacher next-year revision note."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-table",
+      "note": "Rubric-only recovered task framework requires actual apparatus/procedure. Question/prediction point rows conflict with subtotal and teacher next-year revision note."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-graph",
+      "note": "Rubric-only recovered task framework requires actual apparatus/procedure. Question/prediction point rows conflict with subtotal and teacher next-year revision note."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-analysis",
+      "note": "Rubric-only recovered task framework requires actual apparatus/procedure. Question/prediction point rows conflict with subtotal and teacher next-year revision note."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-evaluation",
+      "note": "Rubric-only recovered task framework requires actual apparatus/procedure. Question/prediction point rows conflict with subtotal and teacher next-year revision note."
+    }
+  ],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Investigating Sciences/Safety Bay/2024/Marshmallow slingshot MK.docx",
+      "sha": "76506df0a7f63138c2306293f2dc17b3f50b23bc",
+      "year": 8,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Investigating Sciences/Safety Bay/2024/Marshmallow slingshot  Teacher Marking Key.docx",
+      "sha": "2be51e11873f297e82d19adcaf411825157f117b",
+      "year": 8,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 0,
+  "createdSupplements": 7,
+  "notes": [
+    "Both rubric/key files reviewed. Same seven task groups retained once. Printed subtotal total27;blank question/prediction rows permit4instead of printed3,andteacherkey awardsquestion2withnote to reduce to1nextyear. Key variant records4forcombinedcriterion/28row-derivedtotal;canonical27remains flagged for teacher resolution. Only embedded image is school logo."
+  ],
+  "markAudit": {
+    "printedTotal": 27,
+    "canonicalSubtotalTotal": 27,
+    "keyRowDerivedTotal": 28,
+    "questionPredictionPrintedSubtotal": 3,
+    "keyRows": 4,
+    "nextYearQuestionChange": "2to1",
+    "missingOriginalProcedure": true
+  },
+  "duplicateQuestionAliases": [
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Investigating Sciences/Safety Bay/2024/Marshmallow slingshot  Teacher Marking Key.docx",
+      "sourceFileSha": "2be51e11873f297e82d19adcaf411825157f117b",
+      "sourceQuestionNumber": "variables",
+      "sourceParagraphs": [
+        1
+      ],
+      "sourceMarks": 4,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-variables",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Investigating Sciences/Safety Bay/2024/Marshmallow slingshot  Teacher Marking Key.docx",
+      "sourceFileSha": "2be51e11873f297e82d19adcaf411825157f117b",
+      "sourceQuestionNumber": "question-prediction",
+      "sourceParagraphs": [
+        1
+      ],
+      "sourceMarks": 4,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-question-prediction",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Investigating Sciences/Safety Bay/2024/Marshmallow slingshot  Teacher Marking Key.docx",
+      "sourceFileSha": "2be51e11873f297e82d19adcaf411825157f117b",
+      "sourceQuestionNumber": "risks",
+      "sourceParagraphs": [
+        1
+      ],
+      "sourceMarks": 4,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-risks",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Investigating Sciences/Safety Bay/2024/Marshmallow slingshot  Teacher Marking Key.docx",
+      "sourceFileSha": "2be51e11873f297e82d19adcaf411825157f117b",
+      "sourceQuestionNumber": "table",
+      "sourceParagraphs": [
+        1
+      ],
+      "sourceMarks": 3,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-table",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Investigating Sciences/Safety Bay/2024/Marshmallow slingshot  Teacher Marking Key.docx",
+      "sourceFileSha": "2be51e11873f297e82d19adcaf411825157f117b",
+      "sourceQuestionNumber": "graph",
+      "sourceParagraphs": [
+        1
+      ],
+      "sourceMarks": 5,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-graph",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Investigating Sciences/Safety Bay/2024/Marshmallow slingshot  Teacher Marking Key.docx",
+      "sourceFileSha": "2be51e11873f297e82d19adcaf411825157f117b",
+      "sourceQuestionNumber": "analysis",
+      "sourceParagraphs": [
+        1
+      ],
+      "sourceMarks": 4,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-analysis",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Investigating Sciences/Safety Bay/2024/Marshmallow slingshot  Teacher Marking Key.docx",
+      "sourceFileSha": "2be51e11873f297e82d19adcaf411825157f117b",
+      "sourceQuestionNumber": "evaluation",
+      "sourceParagraphs": [
+        1
+      ],
+      "sourceMarks": 4,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-evaluation",
+      "reason": "Equivalent source question already present; not added or counted again."
+    }
+  ]
+}

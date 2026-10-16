@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.16-science-source141",
+  "version": "2026.10.16-science-source150",
   "status": "in_progress",
   "scope": "Original Science assessment files in repository, Years 7–10. File counts include keys and supporting materials; they are not question counts.",
   "inventoryFiles": 2009,
@@ -11,10 +11,10 @@
     "9": 457,
     "10": 582
   },
-  "importedPapers": 317,
-  "importedQuestions": 3694,
+  "importedPapers": 332,
+  "importedQuestions": 3838,
   "multipleChoice": 832,
-  "writtenQuestions": 2862,
+  "writtenQuestions": 3006,
   "battleEligibleQuestions": 719,
   "reviewRequired": [
     {
@@ -2256,6 +2256,110 @@
     {
       "id": "SCI-REPO-Y10-SBY-2024-AMNESIA-references",
       "note": "Source rubric is copied from another task and does not align with its amnesia requirements;these allocations are proposed,not original marks. Educational guidance is not an individual diagnosis/treatment."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-2013-COFFEELID-read-time",
+      "note": "Unmarked source;allocation proposed. Graph-reading target is blank and requires teacher completion."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-2013-COFFEELID-read-temperature",
+      "note": "Unmarked source;allocation proposed. Graph-reading target is blank and requires teacher completion."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2016-RAMPACCEL-calculations",
+      "note": "Source10dot/end-speed method requires correct interval count and elapsed-time reference."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-PERTHWATER-project",
+      "note": "Source32mark project includes5general presentation marks;27content/reference marks retained as one linked research/poster task to avoid counting repeated information twice. Current-versus-proposed water-source status checked against Water Corporation;historical key needs updating."
+    },
+    {
+      "id": "SCI-REPO-Y7-SBY-2017-WATERROCKET-diagram",
+      "note": "Explicit diagram prompt has no separate source allocation;2marks proposed."
+    },
+    {
+      "id": "SCI-REPO-Y10-NARR-2024-WORKINGMEM-intro",
+      "note": "Actual selected working-memory study,ethics arrangements and dataset required;no fixed experiment supplied."
+    },
+    {
+      "id": "SCI-REPO-Y10-NARR-2024-WORKINGMEM-aim-hypothesis",
+      "note": "Actual selected working-memory study,ethics arrangements and dataset required;no fixed experiment supplied."
+    },
+    {
+      "id": "SCI-REPO-Y10-NARR-2024-WORKINGMEM-procedure",
+      "note": "Actual selected working-memory study,ethics arrangements and dataset required;no fixed experiment supplied."
+    },
+    {
+      "id": "SCI-REPO-Y10-NARR-2024-WORKINGMEM-variables",
+      "note": "Actual selected working-memory study,ethics arrangements and dataset required;no fixed experiment supplied."
+    },
+    {
+      "id": "SCI-REPO-Y10-NARR-2024-WORKINGMEM-results",
+      "note": "Actual selected working-memory study,ethics arrangements and dataset required;no fixed experiment supplied."
+    },
+    {
+      "id": "SCI-REPO-Y10-NARR-2024-WORKINGMEM-graph",
+      "note": "Actual selected working-memory study,ethics arrangements and dataset required;no fixed experiment supplied."
+    },
+    {
+      "id": "SCI-REPO-Y10-NARR-2024-WORKINGMEM-discussion",
+      "note": "Actual selected working-memory study,ethics arrangements and dataset required;no fixed experiment supplied."
+    },
+    {
+      "id": "SCI-REPO-Y10-NARR-2024-WORKINGMEM-conclusion",
+      "note": "Actual selected working-memory study,ethics arrangements and dataset required;no fixed experiment supplied."
+    },
+    {
+      "id": "SCI-REPO-Y10-NARR-2024-WORKINGMEM-references",
+      "note": "Actual selected working-memory study,ethics arrangements and dataset required;no fixed experiment supplied."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-variables",
+      "note": "Rubric-only recovered task framework requires actual apparatus/procedure. Question/prediction point rows conflict with subtotal and teacher next-year revision note."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-question-prediction",
+      "note": "Rubric-only recovered task framework requires actual apparatus/procedure. Question/prediction point rows conflict with subtotal and teacher next-year revision note."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-risks",
+      "note": "Rubric-only recovered task framework requires actual apparatus/procedure. Question/prediction point rows conflict with subtotal and teacher next-year revision note."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-table",
+      "note": "Rubric-only recovered task framework requires actual apparatus/procedure. Question/prediction point rows conflict with subtotal and teacher next-year revision note."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-graph",
+      "note": "Rubric-only recovered task framework requires actual apparatus/procedure. Question/prediction point rows conflict with subtotal and teacher next-year revision note."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-analysis",
+      "note": "Rubric-only recovered task framework requires actual apparatus/procedure. Question/prediction point rows conflict with subtotal and teacher next-year revision note."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-evaluation",
+      "note": "Rubric-only recovered task framework requires actual apparatus/procedure. Question/prediction point rows conflict with subtotal and teacher next-year revision note."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2019-GENETICSASSIGN-S1-hair",
+      "note": "Straight/curly human hair is not generally a single complete-dominance trait;source uses a simplified model and repeats straight twice."
+    },
+    {
+      "id": "SCI-REPO-Y8-MUSCLEFATIGUE-safety",
+      "note": "Unmarked safety field;1proposed mark."
+    },
+    {
+      "id": "SCI-REPO-Y8-MUSCLEFATIGUE-table",
+      "note": "Source timing/physiological inference needs qualification."
+    },
+    {
+      "id": "SCI-REPO-Y8-MUSCLEFATIGUE-blood-oxygen",
+      "note": "Source timing/physiological inference needs qualification."
+    },
+    {
+      "id": "SCI-REPO-Y8-MUSCLEFATIGUE-links",
+      "note": "Source timing/physiological inference needs qualification."
     },
     {
       "id": "SCI-REPO-Y10-NAR-2024-UNIVERSE-MC02",
@@ -26916,6 +27020,1167 @@
           "reason": "Equivalent source question already present; not added or counted again."
         }
       ]
+    },
+    {
+      "id": "repo-science-batch142",
+      "questionIds": [
+        "SCI-REPO-Y7-ARAN-2013-COFFEELID-aim",
+        "SCI-REPO-Y7-ARAN-2013-COFFEELID-prediction",
+        "SCI-REPO-Y7-ARAN-2013-COFFEELID-independent",
+        "SCI-REPO-Y7-ARAN-2013-COFFEELID-dependent",
+        "SCI-REPO-Y7-ARAN-2013-COFFEELID-controls",
+        "SCI-REPO-Y7-ARAN-2013-COFFEELID-equipment",
+        "SCI-REPO-Y7-ARAN-2013-COFFEELID-method",
+        "SCI-REPO-Y7-ARAN-2013-COFFEELID-table",
+        "SCI-REPO-Y7-ARAN-2013-COFFEELID-trend",
+        "SCI-REPO-Y7-ARAN-2013-COFFEELID-graph",
+        "SCI-REPO-Y7-ARAN-2013-COFFEELID-read-time",
+        "SCI-REPO-Y7-ARAN-2013-COFFEELID-read-temperature",
+        "SCI-REPO-Y7-ARAN-2013-COFFEELID-hypothesis-check",
+        "SCI-REPO-Y7-ARAN-2013-COFFEELID-recommend",
+        "SCI-REPO-Y7-ARAN-2013-COFFEELID-science",
+        "SCI-REPO-Y7-ARAN-2013-COFFEELID-accuracy",
+        "SCI-REPO-Y7-ARAN-2013-COFFEELID-further",
+        "SCI-REPO-Y7-ARAN-2013-PAPERPLANE-aim",
+        "SCI-REPO-Y7-ARAN-2013-PAPERPLANE-prediction",
+        "SCI-REPO-Y7-ARAN-2013-PAPERPLANE-independent",
+        "SCI-REPO-Y7-ARAN-2013-PAPERPLANE-dependent",
+        "SCI-REPO-Y7-ARAN-2013-PAPERPLANE-controls",
+        "SCI-REPO-Y7-ARAN-2013-PAPERPLANE-designs",
+        "SCI-REPO-Y7-ARAN-2013-PAPERPLANE-equipment",
+        "SCI-REPO-Y7-ARAN-2013-PAPERPLANE-method",
+        "SCI-REPO-Y7-ARAN-2013-PAPERPLANE-table",
+        "SCI-REPO-Y7-ARAN-2013-PAPERPLANE-graph",
+        "SCI-REPO-Y7-ARAN-2013-PAPERPLANE-longest",
+        "SCI-REPO-Y7-ARAN-2013-PAPERPLANE-finding",
+        "SCI-REPO-Y7-ARAN-2013-PAPERPLANE-hypothesis",
+        "SCI-REPO-Y7-ARAN-2013-PAPERPLANE-accuracy",
+        "SCI-REPO-Y7-ARAN-2013-PAPERPLANE-further",
+        "SCI-REPO-Y7-ARAN-2013-PAPERPLANE-real-plane"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Aranmore/2013 Year 7 Investigation Keep my Coffee warm.docx",
+          "sha": "fee87b28e65ae9948982e772cbda3a0f4831ed8d",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Aranmore/2013 Year 7 Investigation Flight of paper planes.docx",
+          "sha": "5d9f8ec2861ad53e7b946eb4995ff410a75790e9",
+          "year": 7,
+          "role": "paper"
+        }
+      ],
+      "questions": 33,
+      "marks": 75,
+      "imageAudit": "question-source-packs/repo-science-batch142-audit.json",
+      "notes": [
+        "Two complete inquiry worksheets reviewed. All explicit fields retained;overlapping prediction/hypothesis and repeated trend fields consolidated. Coffee graph-reading targets remain flagged as blank. No measurements,chosen plane factor or missing linked article content invented."
+      ],
+      "markAudit": {
+        "sourceMarks": null,
+        "coffeeProposed": 36,
+        "planeProposed": 39
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch143",
+      "questionIds": [
+        "SCI-REPO-Y10-ARAN-RAMPSPEED-384-title",
+        "SCI-REPO-Y10-ARAN-RAMPSPEED-384-aim",
+        "SCI-REPO-Y10-ARAN-RAMPSPEED-384-intro",
+        "SCI-REPO-Y10-ARAN-RAMPSPEED-384-hypothesis",
+        "SCI-REPO-Y10-ARAN-RAMPSPEED-384-independent",
+        "SCI-REPO-Y10-ARAN-RAMPSPEED-384-dependent",
+        "SCI-REPO-Y10-ARAN-RAMPSPEED-384-controls",
+        "SCI-REPO-Y10-ARAN-RAMPSPEED-384-materials",
+        "SCI-REPO-Y10-ARAN-RAMPSPEED-384-method",
+        "SCI-REPO-Y10-ARAN-RAMPSPEED-384-diagram",
+        "SCI-REPO-Y10-ARAN-RAMPSPEED-384-reliability",
+        "SCI-REPO-Y10-ARAN-RAMPSPEED-384-results",
+        "SCI-REPO-Y10-ARAN-RAMPSPEED-384-calculations",
+        "SCI-REPO-Y10-ARAN-RAMPSPEED-384-graphs",
+        "SCI-REPO-Y10-ARAN-RAMPSPEED-384-discussion",
+        "SCI-REPO-Y10-ARAN-RAMPSPEED-384-conclusion",
+        "SCI-REPO-Y10-ARAN-RAMPSPEED-384-references",
+        "SCI-REPO-Y10-ARAN-2016-RAMPACCEL-title",
+        "SCI-REPO-Y10-ARAN-2016-RAMPACCEL-aim",
+        "SCI-REPO-Y10-ARAN-2016-RAMPACCEL-hypothesis",
+        "SCI-REPO-Y10-ARAN-2016-RAMPACCEL-independent",
+        "SCI-REPO-Y10-ARAN-2016-RAMPACCEL-dependent",
+        "SCI-REPO-Y10-ARAN-2016-RAMPACCEL-controls",
+        "SCI-REPO-Y10-ARAN-2016-RAMPACCEL-materials",
+        "SCI-REPO-Y10-ARAN-2016-RAMPACCEL-method",
+        "SCI-REPO-Y10-ARAN-2016-RAMPACCEL-diagram",
+        "SCI-REPO-Y10-ARAN-2016-RAMPACCEL-reliability",
+        "SCI-REPO-Y10-ARAN-2016-RAMPACCEL-calculations",
+        "SCI-REPO-Y10-ARAN-2016-RAMPACCEL-table",
+        "SCI-REPO-Y10-ARAN-2016-RAMPACCEL-graph",
+        "SCI-REPO-Y10-ARAN-2016-RAMPACCEL-discussion",
+        "SCI-REPO-Y10-ARAN-2016-RAMPACCEL-conclusion",
+        "SCI-REPO-Y10-ARAN-2016-RAMPACCEL-references"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/2015 General Speed Ticker Tape Inv.docx",
+          "sha": "f9f4d2b21aa0dca1d4ea868855ea33730f5420e0",
+          "year": 10,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/2016 General Speed Ticker Tape Inv.docx",
+          "sha": "9f29ff5c9ce8f07936932c8b75c650fd7d2d3c53",
+          "year": 10,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2016 Acceleration Ticker Tape Inv.docx",
+          "sha": "defc7fc25c307fc01da6f70d7241ea737b8f1eae",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 33,
+      "marks": 84,
+      "imageAudit": "question-source-packs/repo-science-batch143-audit.json",
+      "notes": [
+        "Three complete ramp investigations reviewed. Equivalent speed tasks across2015/2016linked while retaining changed control/presentation marks. Acceleration investigation retains separate calculations and outcome. Missing textbook pages,timer frequency and actual trial data not invented."
+      ],
+      "markAudit": {
+        "speed2015": {
+          "total": 43,
+          "task": 41,
+          "presentation": 2
+        },
+        "speed2016": {
+          "total": 45,
+          "task": 42,
+          "presentation": 3
+        },
+        "acceleration2016": {
+          "total": 45,
+          "task": 43,
+          "presentation": 2
+        }
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/2016 General Speed Ticker Tape Inv.docx",
+          "sourceFileSha": "9f29ff5c9ce8f07936932c8b75c650fd7d2d3c53",
+          "sourceQuestionNumber": "title",
+          "sourceParagraphs": [
+            3,
+            5,
+            7,
+            8,
+            9,
+            10,
+            15
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-RAMPSPEED-384-title",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/2016 General Speed Ticker Tape Inv.docx",
+          "sourceFileSha": "9f29ff5c9ce8f07936932c8b75c650fd7d2d3c53",
+          "sourceQuestionNumber": "aim",
+          "sourceParagraphs": [
+            3,
+            5,
+            7,
+            8,
+            9,
+            10,
+            15
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-RAMPSPEED-384-aim",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/2016 General Speed Ticker Tape Inv.docx",
+          "sourceFileSha": "9f29ff5c9ce8f07936932c8b75c650fd7d2d3c53",
+          "sourceQuestionNumber": "intro",
+          "sourceParagraphs": [
+            3,
+            5,
+            7,
+            8,
+            9,
+            10,
+            15
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-RAMPSPEED-384-intro",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/2016 General Speed Ticker Tape Inv.docx",
+          "sourceFileSha": "9f29ff5c9ce8f07936932c8b75c650fd7d2d3c53",
+          "sourceQuestionNumber": "hypothesis",
+          "sourceParagraphs": [
+            3,
+            5,
+            7,
+            8,
+            9,
+            10,
+            15
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-RAMPSPEED-384-hypothesis",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/2016 General Speed Ticker Tape Inv.docx",
+          "sourceFileSha": "9f29ff5c9ce8f07936932c8b75c650fd7d2d3c53",
+          "sourceQuestionNumber": "independent",
+          "sourceParagraphs": [
+            3,
+            5,
+            7,
+            8,
+            9,
+            10,
+            15
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-RAMPSPEED-384-independent",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/2016 General Speed Ticker Tape Inv.docx",
+          "sourceFileSha": "9f29ff5c9ce8f07936932c8b75c650fd7d2d3c53",
+          "sourceQuestionNumber": "dependent",
+          "sourceParagraphs": [
+            3,
+            5,
+            7,
+            8,
+            9,
+            10,
+            15
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-RAMPSPEED-384-dependent",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/2016 General Speed Ticker Tape Inv.docx",
+          "sourceFileSha": "9f29ff5c9ce8f07936932c8b75c650fd7d2d3c53",
+          "sourceQuestionNumber": "controls",
+          "sourceParagraphs": [
+            3,
+            5,
+            7,
+            8,
+            9,
+            10,
+            15
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-RAMPSPEED-384-controls",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/2016 General Speed Ticker Tape Inv.docx",
+          "sourceFileSha": "9f29ff5c9ce8f07936932c8b75c650fd7d2d3c53",
+          "sourceQuestionNumber": "materials",
+          "sourceParagraphs": [
+            3,
+            5,
+            7,
+            8,
+            9,
+            10,
+            15
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-RAMPSPEED-384-materials",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/2016 General Speed Ticker Tape Inv.docx",
+          "sourceFileSha": "9f29ff5c9ce8f07936932c8b75c650fd7d2d3c53",
+          "sourceQuestionNumber": "method",
+          "sourceParagraphs": [
+            3,
+            5,
+            7,
+            8,
+            9,
+            10,
+            15
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-RAMPSPEED-384-method",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/2016 General Speed Ticker Tape Inv.docx",
+          "sourceFileSha": "9f29ff5c9ce8f07936932c8b75c650fd7d2d3c53",
+          "sourceQuestionNumber": "diagram",
+          "sourceParagraphs": [
+            3,
+            5,
+            7,
+            8,
+            9,
+            10,
+            15
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Diagram",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-RAMPSPEED-384-diagram",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/2016 General Speed Ticker Tape Inv.docx",
+          "sourceFileSha": "9f29ff5c9ce8f07936932c8b75c650fd7d2d3c53",
+          "sourceQuestionNumber": "reliability",
+          "sourceParagraphs": [
+            3,
+            5,
+            7,
+            8,
+            9,
+            10,
+            15
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-RAMPSPEED-384-reliability",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/2016 General Speed Ticker Tape Inv.docx",
+          "sourceFileSha": "9f29ff5c9ce8f07936932c8b75c650fd7d2d3c53",
+          "sourceQuestionNumber": "results",
+          "sourceParagraphs": [
+            3,
+            5,
+            7,
+            8,
+            9,
+            10,
+            15
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-RAMPSPEED-384-results",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/2016 General Speed Ticker Tape Inv.docx",
+          "sourceFileSha": "9f29ff5c9ce8f07936932c8b75c650fd7d2d3c53",
+          "sourceQuestionNumber": "calculations",
+          "sourceParagraphs": [
+            3,
+            5,
+            7,
+            8,
+            9,
+            10,
+            15
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-RAMPSPEED-384-calculations",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/2016 General Speed Ticker Tape Inv.docx",
+          "sourceFileSha": "9f29ff5c9ce8f07936932c8b75c650fd7d2d3c53",
+          "sourceQuestionNumber": "graphs",
+          "sourceParagraphs": [
+            3,
+            5,
+            7,
+            8,
+            9,
+            10,
+            15
+          ],
+          "sourceMarks": 5,
+          "sourceType": "Diagram",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-RAMPSPEED-384-graphs",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/2016 General Speed Ticker Tape Inv.docx",
+          "sourceFileSha": "9f29ff5c9ce8f07936932c8b75c650fd7d2d3c53",
+          "sourceQuestionNumber": "discussion",
+          "sourceParagraphs": [
+            3,
+            5,
+            7,
+            8,
+            9,
+            10,
+            15
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-RAMPSPEED-384-discussion",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/2016 General Speed Ticker Tape Inv.docx",
+          "sourceFileSha": "9f29ff5c9ce8f07936932c8b75c650fd7d2d3c53",
+          "sourceQuestionNumber": "conclusion",
+          "sourceParagraphs": [
+            3,
+            5,
+            7,
+            8,
+            9,
+            10,
+            15
+          ],
+          "sourceMarks": 5,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-RAMPSPEED-384-conclusion",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/2016 General Speed Ticker Tape Inv.docx",
+          "sourceFileSha": "9f29ff5c9ce8f07936932c8b75c650fd7d2d3c53",
+          "sourceQuestionNumber": "references",
+          "sourceParagraphs": [
+            3,
+            5,
+            7,
+            8,
+            9,
+            10,
+            15
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-RAMPSPEED-384-references",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch144",
+      "questionIds": [
+        "SCI-REPO-Y7-ARAN-BOUNCEVARIABLES-term",
+        "SCI-REPO-Y7-ARAN-BOUNCEVARIABLES-dependent",
+        "SCI-REPO-Y7-ARAN-BOUNCEVARIABLES-changed",
+        "SCI-REPO-Y7-ARAN-BOUNCEVARIABLES-fair",
+        "SCI-REPO-Y7-ARAN-BOUNCEVARIABLES-conclusion",
+        "SCI-REPO-Y7-ARAN-BOUNCEVARIABLES-fix",
+        "SCI-REPO-Y7-ARAN-BOUNCEVARIABLES-aim",
+        "SCI-REPO-Y7-ARAN-BOUNCEVARIABLES-independent",
+        "SCI-REPO-Y7-ARAN-BOUNCEVARIABLES-dependent-own",
+        "SCI-REPO-Y7-ARAN-BOUNCEVARIABLES-controls",
+        "SCI-REPO-Y7-ARAN-BOUNCEVARIABLES-equipment",
+        "SCI-REPO-Y7-ARAN-BOUNCEVARIABLES-method",
+        "SCI-REPO-Y7-ARAN-BOUNCEVARIABLES-diagram",
+        "SCI-REPO-Y7-ARAN-BOUNCEVARIABLES-results",
+        "SCI-REPO-Y7-ARAN-BOUNCEVARIABLES-conclusion-own",
+        "SCI-REPO-Y7-ARAN-BOUNCEVARIABLES-improve"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Aranmore/Investigation - Planning and Experimenting with variables.docx",
+          "sha": "a3be79d2e91091aed904e82b77940225a882414c",
+          "year": 7,
+          "role": "paper"
+        }
+      ],
+      "questions": 16,
+      "marks": 29,
+      "imageAudit": "question-source-packs/repo-science-batch144-audit.json",
+      "notes": [
+        "Complete fair-test worksheet reviewed. Printed local annotations sum25whileheader29;two unallocated evaluation prompts receive2proposed marks each,bringing supplemented total29without claiming those allocations were printed. Original confounded ball/surface/height data retained;no student investigation results invented."
+      ],
+      "markAudit": {
+        "header": 29,
+        "explicitLocalMarks": 25,
+        "unallocatedPrompts": 2,
+        "additionalProposed": 4,
+        "supplementedTotal": 29
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch145",
+      "questionIds": [
+        "SCI-REPO-Y7-ARAN-PERTHWATER-project"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Aranmore/Year 7 poster assessment.docx",
+          "sha": "73ea090c99dc882ee6ae31e2b24553cac578aac9",
+          "year": 7,
+          "role": "paper"
+        }
+      ],
+      "questions": 1,
+      "marks": 27,
+      "imageAudit": "question-source-packs/repo-science-batch145-audit.json",
+      "notes": [
+        "Complete Perth drinking-water project and teacher rubric reviewed. Notes/poster/reference requirements consolidated as one27mark content task;heading1,visual effort2andlegibility2logged separately. Current source categories verified;historical north-pipeline suggestion not represented as operating supply. No current percentages or future commissioning claims invented."
+      ],
+      "markAudit": {
+        "total": 32,
+        "selected": 27,
+        "presentation": 5,
+        "reviewDate": "2026-10-16"
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch146",
+      "questionIds": [
+        "SCI-REPO-Y7-SBY-2017-WATERROCKET-explain",
+        "SCI-REPO-Y7-SBY-2017-WATERROCKET-changes",
+        "SCI-REPO-Y7-SBY-2017-WATERROCKET-implementation",
+        "SCI-REPO-Y7-SBY-2017-WATERROCKET-diagram",
+        "SCI-REPO-Y10-NARR-2024-WORKINGMEM-intro",
+        "SCI-REPO-Y10-NARR-2024-WORKINGMEM-aim-hypothesis",
+        "SCI-REPO-Y10-NARR-2024-WORKINGMEM-procedure",
+        "SCI-REPO-Y10-NARR-2024-WORKINGMEM-variables",
+        "SCI-REPO-Y10-NARR-2024-WORKINGMEM-results",
+        "SCI-REPO-Y10-NARR-2024-WORKINGMEM-graph",
+        "SCI-REPO-Y10-NARR-2024-WORKINGMEM-discussion",
+        "SCI-REPO-Y10-NARR-2024-WORKINGMEM-conclusion",
+        "SCI-REPO-Y10-NARR-2024-WORKINGMEM-references"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Safety bay/2017/Water Rocket Project.docx",
+          "sha": "16d9b665040032048bb8c157acdab8c0855e7faf",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Psychology Elective/Narrogin/2024/Task 3 Psychology Investigation.docx",
+          "sha": "3686d9cdfc28e496a3e6a27728643b6b72e3b975",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 13,
+      "marks": 37,
+      "imageAudit": "question-source-packs/repo-science-batch146-audit.json",
+      "notes": [
+        "Water-rocket10markproject retained as three scored tasks plus2proposed marks for explicit diagram prompt.40%moduleweight notconverted to40marks. Complete25markworking-memory report rubric retained,including numerical-variable and ethics criteria,without inventing a participant experiment."
+      ],
+      "markAudit": {
+        "waterRocket": {
+          "total": 10,
+          "diagramProposed": 2,
+          "weightPercent": 40
+        },
+        "workingMemory": {
+          "total": 25,
+          "weightPercent": 10
+        }
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch147",
+      "questionIds": [],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling - assessment/Log Book ÔÇô Heating Water experiment.docx",
+          "sha": "ee022c9369f6c9522590acc400772cbbdec38043",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+          "sha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+          "year": 7,
+          "role": "paper"
+        }
+      ],
+      "questions": 0,
+      "marks": 0,
+      "imageAudit": "question-source-packs/repo-science-batch147-audit.json",
+      "notes": [
+        "Heating-water variant’s six tasks linked to the existing logbook;Oxford7p173method still absent. Fast/slow evaporation answer-key variant’s21tasks mapped to the existing worksheet;local explicit marks18,printedtotal30,leaving12unallocated across9tense steps or other criteria. Canonical proposed rubrics remain distinguishable from variant source marks."
+      ],
+      "markAudit": {
+        "heatingLog": "Unmarked;existing proposed allocations retained",
+        "evaporation": {
+          "printedTotal": 30,
+          "explicitLocalMarks": 18,
+          "unallocatedSourceMarks": 12,
+          "tenseSteps": 9,
+          "sourceMethodMarksUnspecified": true
+        }
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+          "sourceFileSha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+          "sourceQuestionNumber": "aim",
+          "sourceParagraphs": [
+            4
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-aim",
+          "reason": "Same source experiment and task;keyed variant linked to the checked worksheet. Unmarked tense allocations remain proposed,not printed."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+          "sourceFileSha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+          "sourceQuestionNumber": "prediction",
+          "sourceParagraphs": [
+            6
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-prediction",
+          "reason": "Same source experiment and task;keyed variant linked to the checked worksheet. Unmarked tense allocations remain proposed,not printed."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+          "sourceFileSha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+          "sourceQuestionNumber": "hypothesis",
+          "sourceParagraphs": [
+            8
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-hypothesis",
+          "reason": "Same source experiment and task;keyed variant linked to the checked worksheet. Unmarked tense allocations remain proposed,not printed."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+          "sourceFileSha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+          "sourceQuestionNumber": "independent",
+          "sourceParagraphs": [
+            10
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-independent",
+          "reason": "Same source experiment and task;keyed variant linked to the checked worksheet. Unmarked tense allocations remain proposed,not printed."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+          "sourceFileSha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+          "sourceQuestionNumber": "dependent",
+          "sourceParagraphs": [
+            12
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-dependent",
+          "reason": "Same source experiment and task;keyed variant linked to the checked worksheet. Unmarked tense allocations remain proposed,not printed."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+          "sourceFileSha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+          "sourceQuestionNumber": "controlled",
+          "sourceParagraphs": [
+            14
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-controlled",
+          "reason": "Same source experiment and task;keyed variant linked to the checked worksheet. Unmarked tense allocations remain proposed,not printed."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+          "sourceFileSha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+          "sourceQuestionNumber": "equipment",
+          "sourceParagraphs": [
+            16
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-equipment",
+          "reason": "Same source experiment and task;keyed variant linked to the checked worksheet. Unmarked tense allocations remain proposed,not printed."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+          "sourceFileSha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+          "sourceQuestionNumber": "tense1",
+          "sourceParagraphs": [
+            22
+          ],
+          "sourceMarks": null,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-tense1",
+          "reason": "Same source experiment and task;keyed variant linked to the checked worksheet. Unmarked tense allocations remain proposed,not printed."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+          "sourceFileSha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+          "sourceQuestionNumber": "tense2",
+          "sourceParagraphs": [
+            26
+          ],
+          "sourceMarks": null,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-tense2",
+          "reason": "Same source experiment and task;keyed variant linked to the checked worksheet. Unmarked tense allocations remain proposed,not printed."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+          "sourceFileSha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+          "sourceQuestionNumber": "tense3",
+          "sourceParagraphs": [
+            30
+          ],
+          "sourceMarks": null,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-tense3",
+          "reason": "Same source experiment and task;keyed variant linked to the checked worksheet. Unmarked tense allocations remain proposed,not printed."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+          "sourceFileSha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+          "sourceQuestionNumber": "tense4",
+          "sourceParagraphs": [
+            34
+          ],
+          "sourceMarks": null,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-tense4",
+          "reason": "Same source experiment and task;keyed variant linked to the checked worksheet. Unmarked tense allocations remain proposed,not printed."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+          "sourceFileSha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+          "sourceQuestionNumber": "tense5",
+          "sourceParagraphs": [
+            38
+          ],
+          "sourceMarks": null,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-tense5",
+          "reason": "Same source experiment and task;keyed variant linked to the checked worksheet. Unmarked tense allocations remain proposed,not printed."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+          "sourceFileSha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+          "sourceQuestionNumber": "tense6",
+          "sourceParagraphs": [
+            42
+          ],
+          "sourceMarks": null,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-tense6",
+          "reason": "Same source experiment and task;keyed variant linked to the checked worksheet. Unmarked tense allocations remain proposed,not printed."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+          "sourceFileSha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+          "sourceQuestionNumber": "tense7",
+          "sourceParagraphs": [
+            46
+          ],
+          "sourceMarks": null,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-tense7",
+          "reason": "Same source experiment and task;keyed variant linked to the checked worksheet. Unmarked tense allocations remain proposed,not printed."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+          "sourceFileSha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+          "sourceQuestionNumber": "tense8",
+          "sourceParagraphs": [
+            51
+          ],
+          "sourceMarks": null,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-tense8",
+          "reason": "Same source experiment and task;keyed variant linked to the checked worksheet. Unmarked tense allocations remain proposed,not printed."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+          "sourceFileSha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+          "sourceQuestionNumber": "tense9",
+          "sourceParagraphs": [
+            57
+          ],
+          "sourceMarks": null,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-tense9",
+          "reason": "Same source experiment and task;keyed variant linked to the checked worksheet. Unmarked tense allocations remain proposed,not printed."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+          "sourceFileSha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+          "sourceQuestionNumber": "safety",
+          "sourceParagraphs": [
+            61
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-safety",
+          "reason": "Same source experiment and task;keyed variant linked to the checked worksheet. Unmarked tense allocations remain proposed,not printed."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+          "sourceFileSha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+          "sourceQuestionNumber": "results",
+          "sourceParagraphs": [
+            63
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-results",
+          "reason": "Same source experiment and task;keyed variant linked to the checked worksheet. Unmarked tense allocations remain proposed,not printed."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+          "sourceFileSha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+          "sourceQuestionNumber": "conclusion",
+          "sourceParagraphs": [
+            97
+          ],
+          "sourceMarks": 5,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-conclusion",
+          "reason": "Same source experiment and task;keyed variant linked to the checked worksheet. Unmarked tense allocations remain proposed,not printed."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+          "sourceFileSha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+          "sourceQuestionNumber": "difficulties",
+          "sourceParagraphs": [
+            116
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-difficulties",
+          "reason": "Same source experiment and task;keyed variant linked to the checked worksheet. Unmarked tense allocations remain proposed,not printed."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+          "sourceFileSha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+          "sourceQuestionNumber": "improvements",
+          "sourceParagraphs": [
+            123
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-improvements",
+          "reason": "Same source experiment and task;keyed variant linked to the checked worksheet. Unmarked tense allocations remain proposed,not printed."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling - assessment/Log Book ÔÇô Heating Water experiment.docx",
+          "sourceFileSha": "ee022c9369f6c9522590acc400772cbbdec38043",
+          "sourceQuestionNumber": "independent",
+          "sourceParagraphs": [
+            3,
+            5
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HEATINGWATER-independent",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling - assessment/Log Book ÔÇô Heating Water experiment.docx",
+          "sourceFileSha": "ee022c9369f6c9522590acc400772cbbdec38043",
+          "sourceQuestionNumber": "dependent",
+          "sourceParagraphs": [
+            3,
+            7
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HEATINGWATER-dependent",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling - assessment/Log Book ÔÇô Heating Water experiment.docx",
+          "sourceFileSha": "ee022c9369f6c9522590acc400772cbbdec38043",
+          "sourceQuestionNumber": "controls",
+          "sourceParagraphs": [
+            3,
+            9
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HEATINGWATER-controls",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling - assessment/Log Book ÔÇô Heating Water experiment.docx",
+          "sourceFileSha": "ee022c9369f6c9522590acc400772cbbdec38043",
+          "sourceQuestionNumber": "hypothesis",
+          "sourceParagraphs": [
+            3,
+            13
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HEATINGWATER-hypothesis",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling - assessment/Log Book ÔÇô Heating Water experiment.docx",
+          "sourceFileSha": "ee022c9369f6c9522590acc400772cbbdec38043",
+          "sourceQuestionNumber": "diagram",
+          "sourceParagraphs": [
+            3,
+            17
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Diagram",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HEATINGWATER-diagram",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling - assessment/Log Book ÔÇô Heating Water experiment.docx",
+          "sourceFileSha": "ee022c9369f6c9522590acc400772cbbdec38043",
+          "sourceQuestionNumber": "results",
+          "sourceParagraphs": [
+            3,
+            37
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HEATINGWATER-results",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch148",
+      "questionIds": [
+        "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-variables",
+        "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-question-prediction",
+        "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-risks",
+        "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-table",
+        "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-graph",
+        "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-analysis",
+        "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-evaluation"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Investigating Sciences/Safety Bay/2024/Marshmallow slingshot MK.docx",
+          "sha": "76506df0a7f63138c2306293f2dc17b3f50b23bc",
+          "year": 8,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Investigating Sciences/Safety Bay/2024/Marshmallow slingshot  Teacher Marking Key.docx",
+          "sha": "2be51e11873f297e82d19adcaf411825157f117b",
+          "year": 8,
+          "role": "paper"
+        }
+      ],
+      "questions": 7,
+      "marks": 27,
+      "imageAudit": "question-source-packs/repo-science-batch148-audit.json",
+      "notes": [
+        "Both rubric/key files reviewed. Same seven task groups retained once. Printed subtotal total27;blank question/prediction rows permit4instead of printed3,andteacherkey awardsquestion2withnote to reduce to1nextyear. Key variant records4forcombinedcriterion/28row-derivedtotal;canonical27remains flagged for teacher resolution. Only embedded image is school logo."
+      ],
+      "markAudit": {
+        "printedTotal": 27,
+        "canonicalSubtotalTotal": 27,
+        "keyRowDerivedTotal": 28,
+        "questionPredictionPrintedSubtotal": 3,
+        "keyRows": 4,
+        "nextYearQuestionChange": "2to1",
+        "missingOriginalProcedure": true
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Investigating Sciences/Safety Bay/2024/Marshmallow slingshot  Teacher Marking Key.docx",
+          "sourceFileSha": "2be51e11873f297e82d19adcaf411825157f117b",
+          "sourceQuestionNumber": "variables",
+          "sourceParagraphs": [
+            1
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-variables",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Investigating Sciences/Safety Bay/2024/Marshmallow slingshot  Teacher Marking Key.docx",
+          "sourceFileSha": "2be51e11873f297e82d19adcaf411825157f117b",
+          "sourceQuestionNumber": "question-prediction",
+          "sourceParagraphs": [
+            1
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-question-prediction",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Investigating Sciences/Safety Bay/2024/Marshmallow slingshot  Teacher Marking Key.docx",
+          "sourceFileSha": "2be51e11873f297e82d19adcaf411825157f117b",
+          "sourceQuestionNumber": "risks",
+          "sourceParagraphs": [
+            1
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-risks",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Investigating Sciences/Safety Bay/2024/Marshmallow slingshot  Teacher Marking Key.docx",
+          "sourceFileSha": "2be51e11873f297e82d19adcaf411825157f117b",
+          "sourceQuestionNumber": "table",
+          "sourceParagraphs": [
+            1
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-table",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Investigating Sciences/Safety Bay/2024/Marshmallow slingshot  Teacher Marking Key.docx",
+          "sourceFileSha": "2be51e11873f297e82d19adcaf411825157f117b",
+          "sourceQuestionNumber": "graph",
+          "sourceParagraphs": [
+            1
+          ],
+          "sourceMarks": 5,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-graph",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Investigating Sciences/Safety Bay/2024/Marshmallow slingshot  Teacher Marking Key.docx",
+          "sourceFileSha": "2be51e11873f297e82d19adcaf411825157f117b",
+          "sourceQuestionNumber": "analysis",
+          "sourceParagraphs": [
+            1
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-analysis",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Investigating Sciences/Safety Bay/2024/Marshmallow slingshot  Teacher Marking Key.docx",
+          "sourceFileSha": "2be51e11873f297e82d19adcaf411825157f117b",
+          "sourceQuestionNumber": "evaluation",
+          "sourceParagraphs": [
+            1
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-evaluation",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch149",
+      "questionIds": [
+        "SCI-REPO-Y10-SBY-2019-GENETICSASSIGN-S1-heterozygosity",
+        "SCI-REPO-Y10-SBY-2019-GENETICSASSIGN-S1-phenotypes",
+        "SCI-REPO-Y10-SBY-2019-GENETICSASSIGN-S1-hair",
+        "SCI-REPO-Y10-SBY-2019-GENETICSASSIGN-S2-TTtt",
+        "SCI-REPO-Y10-SBY-2019-GENETICSASSIGN-S2-tall",
+        "SCI-REPO-Y10-SBY-2019-GENETICSASSIGN-S2-TtTt",
+        "SCI-REPO-Y10-SBY-2019-GENETICSASSIGN-S2-short",
+        "SCI-REPO-Y10-SBY-2019-GENETICSASSIGN-S3-white",
+        "SCI-REPO-Y10-SBY-2019-GENETICSASSIGN-S3-white-percent",
+        "SCI-REPO-Y10-SBY-2019-GENETICSASSIGN-S3-purple-cross",
+        "SCI-REPO-Y10-SBY-2019-GENETICSASSIGN-S3-purple-percent",
+        "SCI-REPO-Y10-SBY-2019-GENETICSASSIGN-S3-recessive-percent",
+        "SCI-REPO-Y10-SBY-2019-GENETICSASSIGN-S3-guinea-genotypes",
+        "SCI-REPO-Y10-SBY-2019-GENETICSASSIGN-S3-guinea-homo",
+        "SCI-REPO-Y10-SBY-2019-GENETICSASSIGN-S3-guinea-allshort",
+        "SCI-REPO-Y10-SBY-2019-GENETICSASSIGN-S3-guinea-hetero",
+        "SCI-REPO-Y10-SBY-2019-GENETICSASSIGN-S3-guinea-short",
+        "SCI-REPO-Y10-SBY-2019-GENETICSASSIGN-S3-guinea-long",
+        "SCI-REPO-Y10-SBY-2019-GENETICSASSIGN-S3-parent-inference"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/1. Genetics Assignment 2019 Revision.docx",
+          "sha": "c09fb6802cb139631f97701c13111de3929951ca",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 19,
+      "marks": 43,
+      "imageAudit": "question-source-packs/repo-science-batch149-audit.json",
+      "notes": [
+        "Full19prompt genetics assignment reviewed,with accurate Punnett-square marking diagrams. Section9+6+28=43;cover has conflicting overprinted totals. Repeated straight-hair row and simplified human-hair model flagged. Expected probabilities distinguished from guaranteed finite counts."
+      ],
+      "markAudit": {
+        "section1": 9,
+        "section2": 6,
+        "section3": 28,
+        "sum": 43,
+        "coverOverprintedTotals": true
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch150",
+      "questionIds": [
+        "SCI-REPO-Y8-MUSCLEFATIGUE-aim",
+        "SCI-REPO-Y8-MUSCLEFATIGUE-prediction",
+        "SCI-REPO-Y8-MUSCLEFATIGUE-hypothesis",
+        "SCI-REPO-Y8-MUSCLEFATIGUE-independent",
+        "SCI-REPO-Y8-MUSCLEFATIGUE-dependent",
+        "SCI-REPO-Y8-MUSCLEFATIGUE-control",
+        "SCI-REPO-Y8-MUSCLEFATIGUE-equipment",
+        "SCI-REPO-Y8-MUSCLEFATIGUE-tense1",
+        "SCI-REPO-Y8-MUSCLEFATIGUE-tense2",
+        "SCI-REPO-Y8-MUSCLEFATIGUE-tense3",
+        "SCI-REPO-Y8-MUSCLEFATIGUE-tense4",
+        "SCI-REPO-Y8-MUSCLEFATIGUE-tense5",
+        "SCI-REPO-Y8-MUSCLEFATIGUE-safety",
+        "SCI-REPO-Y8-MUSCLEFATIGUE-table",
+        "SCI-REPO-Y8-MUSCLEFATIGUE-graph",
+        "SCI-REPO-Y8-MUSCLEFATIGUE-analysis",
+        "SCI-REPO-Y8-MUSCLEFATIGUE-compare",
+        "SCI-REPO-Y8-MUSCLEFATIGUE-blood-oxygen",
+        "SCI-REPO-Y8-MUSCLEFATIGUE-importance",
+        "SCI-REPO-Y8-MUSCLEFATIGUE-links",
+        "SCI-REPO-Y8-MUSCLEFATIGUE-difficulty",
+        "SCI-REPO-Y8-MUSCLEFATIGUE-improve"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Biological Sciences/2.4 Muscles Get Tired Lab assessment.docx..docx",
+          "sha": "d56ce0af32a3ee658688342ff29a66115f85c070",
+          "year": 8,
+          "role": "paper"
+        }
+      ],
+      "questions": 22,
+      "marks": 42,
+      "imageAudit": "question-source-packs/repo-science-batch150-audit.json",
+      "notes": [
+        "Complete muscle-fatigue worksheet reviewed. Seven planning marks,eight tense marks and26other explicit marks sum41;unmarked safety field receives1proposed mark rather than being claimed as printed. Header42retained. Table’s minute label conflicts with actual protocol;blood/oxygen mechanisms are not measured and must remain qualified."
+      ],
+      "markAudit": {
+        "header": 42,
+        "explicitLocalMarks": 41,
+        "safetyProposed": 1,
+        "supplementedTotal": 42,
+        "timeUnitConflict": true
+      },
+      "duplicateQuestionAliases": []
     }
   ],
   "files": [
@@ -28779,7 +30044,7 @@
       "sha": "4d04243c1598870d872d45ec36caa30e76cb9650",
       "year": 7,
       "size": 78297,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -29522,7 +30787,7 @@
       "sha": "5d9f8ec2861ad53e7b946eb4995ff410a75790e9",
       "year": 7,
       "size": 66024,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -29530,7 +30795,7 @@
       "sha": "fee87b28e65ae9948982e772cbda3a0f4831ed8d",
       "year": 7,
       "size": 50085,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -29578,7 +30843,7 @@
       "sha": "a3be79d2e91091aed904e82b77940225a882414c",
       "year": 7,
       "size": 66854,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -29642,7 +30907,7 @@
       "sha": "73ea090c99dc882ee6ae31e2b24553cac578aac9",
       "year": 7,
       "size": 54370,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -30078,7 +31343,7 @@
       "sha": "ee022c9369f6c9522590acc400772cbbdec38043",
       "year": 7,
       "size": 58511,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -30680,7 +31945,7 @@
       "sha": "16d9b665040032048bb8c157acdab8c0855e7faf",
       "year": 7,
       "size": 61691,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -30945,7 +32210,7 @@
       "sha": "d56ce0af32a3ee658688342ff29a66115f85c070",
       "year": 8,
       "size": 73404,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -33933,7 +35198,7 @@
       "sha": "2be51e11873f297e82d19adcaf411825157f117b",
       "year": 8,
       "size": 71092,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -33941,8 +35206,9 @@
       "sha": "76506df0a7f63138c2306293f2dc17b3f50b23bc",
       "year": 8,
       "size": 67248,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_incomplete_referenced_material",
+      "duplicateOf": null,
+      "reviewReason": "Source assignment explicitly refers to missing textbook method/discussion wording; recorded prompts reviewed, referenced questions not invented."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2011 8 STICKY TAPE INVESTIGATION.docx",
@@ -36450,8 +37716,9 @@
       "sha": "8c5685bbb5a93495e045006f0f3896dec26d1274",
       "year": 9,
       "size": 66972,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Learning-goals/success-criteria confidence checklist and assessment schedule,not actual test or research prompts;embedded school logo inspected."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2023/9 Energy in Fuel Investigation.doc",
@@ -36538,8 +37805,9 @@
       "sha": "8c5685bbb5a93495e045006f0f3896dec26d1274",
       "year": 9,
       "size": 66972,
-      "status": "pending",
-      "duplicateOf": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2023/2023 Term1 LGs and SC - Chemistry.docx"
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2023/2023 Term1 LGs and SC - Chemistry.docx",
+      "reviewReason": "Learning-goals/success-criteria confidence checklist and assessment schedule,not actual test or research prompts;embedded school logo inspected."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2024/9 Energy in Fuel Investigation.doc",
@@ -39250,7 +40518,7 @@
       "sha": "c09fb6802cb139631f97701c13111de3929951ca",
       "year": 10,
       "size": 72643,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -41912,7 +43180,7 @@
       "sha": "defc7fc25c307fc01da6f70d7241ea737b8f1eae",
       "year": 10,
       "size": 78148,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -42087,7 +43355,7 @@
       "sha": "f9f4d2b21aa0dca1d4ea868855ea33730f5420e0",
       "year": 10,
       "size": 68093,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -42119,7 +43387,7 @@
       "sha": "9f29ff5c9ce8f07936932c8b75c650fd7d2d3c53",
       "year": 10,
       "size": 68198,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -42735,7 +44003,7 @@
       "sha": "3686d9cdfc28e496a3e6a27728643b6b72e3b975",
       "year": 10,
       "size": 61806,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -43144,9 +44412,9 @@
       "duplicateOf": null
     }
   ],
-  "learningVaultCreatedKeySupplements": 1253,
-  "remainingUniqueFileBlobs": 1214,
-  "learningVaultCreatedKeys": 2131,
+  "learningVaultCreatedKeySupplements": 1323,
+  "remainingUniqueFileBlobs": 1198,
+  "learningVaultCreatedKeys": 2205,
   "blockedSources": [
     {
       "sha": "49d4b7f3f8af844477b39abb856365aeb096cafd",
@@ -43358,7 +44626,7 @@
     "ocrPages": 1175,
     "ocrTextVerified": false
   },
-  "distinctSourceAndKeyReferences": 367,
+  "distinctSourceAndKeyReferences": 382,
   "unscoredQuestionsPreserved": 1,
   "activeAdditionalQuestionRequest": {
     "requestedAdditionalQuestions": 1000,
@@ -43373,12 +44641,12 @@
     "requestedAt": "2026-10-16",
     "scope": "All remaining Years 7–10 Science assessment papers; all question types, source figures, response space and marking guidance",
     "startingImportedQuestions": 1374,
-    "addedQuestions": 2320,
+    "addedQuestions": 2464,
     "status": "in_progress",
     "completionRule": "Every unique assessment paper reviewed; duplicates mapped and unreadable/protected files explicitly resolved. File-blob count is not a paper denominator.",
     "restoredQuestionsAfterDuplicateFix": 4,
-    "newlyExtractedQuestions": 2316,
-    "papersReviewedSinceRequest": 254,
+    "newlyExtractedQuestions": 2460,
+    "papersReviewedSinceRequest": 269,
     "canonicalSourceQuestionsReReviewed": 2
   },
   "sourceInventoryExclusions": {
@@ -43388,8 +44656,8 @@
     "note": "These are file metadata records, not papers or questions; excluded from import work without increasing question or paper totals."
   },
   "supportingResourceReview": {
-    "files": 71,
-    "uniqueBlobs": 64,
+    "files": 73,
+    "uniqueBlobs": 65,
     "audit": "question-source-packs/repo-science-supporting-resource-review.json",
     "countedAsPapers": false,
     "countedAsQuestions": false
@@ -43471,6 +44739,55 @@
       "sourceFileSha": "1c496f3b549eb093849b94eef7ad0f49b36b248b",
       "description": "Student prompt gives4.2mm lowFOV but not the low/high magnifications;key supplies40×and400×.",
       "effect": "Key assumptions explicitly supplied in extracted context;do not pretend unique calculation follows from pupil wording alone."
+    },
+    {
+      "questionId": "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-variables",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Investigating Sciences/Safety Bay/2024/Marshmallow slingshot MK.docx",
+      "sourceFileSha": "76506df0a7f63138c2306293f2dc17b3f50b23bc",
+      "description": "Original slingshot brief/construction and approved measurement procedure not included in rubric/key.",
+      "effect": "Explicit assessed criteria recovered;teacher must attach actual study setup and resolve question/prediction score discrepancy."
+    },
+    {
+      "questionId": "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-question-prediction",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Investigating Sciences/Safety Bay/2024/Marshmallow slingshot MK.docx",
+      "sourceFileSha": "76506df0a7f63138c2306293f2dc17b3f50b23bc",
+      "description": "Original slingshot brief/construction and approved measurement procedure not included in rubric/key.",
+      "effect": "Explicit assessed criteria recovered;teacher must attach actual study setup and resolve question/prediction score discrepancy."
+    },
+    {
+      "questionId": "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-risks",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Investigating Sciences/Safety Bay/2024/Marshmallow slingshot MK.docx",
+      "sourceFileSha": "76506df0a7f63138c2306293f2dc17b3f50b23bc",
+      "description": "Original slingshot brief/construction and approved measurement procedure not included in rubric/key.",
+      "effect": "Explicit assessed criteria recovered;teacher must attach actual study setup and resolve question/prediction score discrepancy."
+    },
+    {
+      "questionId": "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-table",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Investigating Sciences/Safety Bay/2024/Marshmallow slingshot MK.docx",
+      "sourceFileSha": "76506df0a7f63138c2306293f2dc17b3f50b23bc",
+      "description": "Original slingshot brief/construction and approved measurement procedure not included in rubric/key.",
+      "effect": "Explicit assessed criteria recovered;teacher must attach actual study setup and resolve question/prediction score discrepancy."
+    },
+    {
+      "questionId": "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-graph",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Investigating Sciences/Safety Bay/2024/Marshmallow slingshot MK.docx",
+      "sourceFileSha": "76506df0a7f63138c2306293f2dc17b3f50b23bc",
+      "description": "Original slingshot brief/construction and approved measurement procedure not included in rubric/key.",
+      "effect": "Explicit assessed criteria recovered;teacher must attach actual study setup and resolve question/prediction score discrepancy."
+    },
+    {
+      "questionId": "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-analysis",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Investigating Sciences/Safety Bay/2024/Marshmallow slingshot MK.docx",
+      "sourceFileSha": "76506df0a7f63138c2306293f2dc17b3f50b23bc",
+      "description": "Original slingshot brief/construction and approved measurement procedure not included in rubric/key.",
+      "effect": "Explicit assessed criteria recovered;teacher must attach actual study setup and resolve question/prediction score discrepancy."
+    },
+    {
+      "questionId": "SCI-REPO-Y8-SBY-2024-SLINGSHOT-382-evaluation",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Investigating Sciences/Safety Bay/2024/Marshmallow slingshot MK.docx",
+      "sourceFileSha": "76506df0a7f63138c2306293f2dc17b3f50b23bc",
+      "description": "Original slingshot brief/construction and approved measurement procedure not included in rubric/key.",
+      "effect": "Explicit assessed criteria recovered;teacher must attach actual study setup and resolve question/prediction score discrepancy."
     },
     {
       "questionId": "SCI-REPO-Y9-NARR-2023-FOODCHAINS-A",
@@ -43665,7 +44982,7 @@
       "effect": "Retained as teacher-review diagram task;exact label-order key must be verified before assigning."
     }
   ],
-  "reviewedDistinctSourceBlobs": 386,
+  "reviewedDistinctSourceBlobs": 402,
   "inventoryCountBasis": "Remaining unique file blobs counts pending or key-reference-pending identities, including protected inputs; it is not a remaining-paper or remaining-question estimate.",
   "canonicalUniverseReviewRepair": {
     "questionIds": [

@@ -1,0 +1,374 @@
+{
+  "batch": "repo-science-batch147",
+  "paperCount": 2,
+  "questionIds": [],
+  "questions": 0,
+  "multipleChoice": 0,
+  "writtenQuestions": 0,
+  "battleEligible": 0,
+  "marks": 0,
+  "reviewRequired": [],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling - assessment/Log Book ÔÇô Heating Water experiment.docx",
+      "sha": "ee022c9369f6c9522590acc400772cbbdec38043",
+      "year": 7,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+      "sha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+      "year": 7,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 0,
+  "createdSupplements": 0,
+  "notes": [
+    "Heating-water variant’s six tasks linked to the existing logbook;Oxford7p173method still absent. Fast/slow evaporation answer-key variant’s21tasks mapped to the existing worksheet;local explicit marks18,printedtotal30,leaving12unallocated across9tense steps or other criteria. Canonical proposed rubrics remain distinguishable from variant source marks."
+  ],
+  "markAudit": {
+    "heatingLog": "Unmarked;existing proposed allocations retained",
+    "evaporation": {
+      "printedTotal": 30,
+      "explicitLocalMarks": 18,
+      "unallocatedSourceMarks": 12,
+      "tenseSteps": 9,
+      "sourceMethodMarksUnspecified": true
+    }
+  },
+  "duplicateQuestionAliases": [
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+      "sourceFileSha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+      "sourceQuestionNumber": "aim",
+      "sourceParagraphs": [
+        4
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-aim",
+      "reason": "Same source experiment and task;keyed variant linked to the checked worksheet. Unmarked tense allocations remain proposed,not printed."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+      "sourceFileSha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+      "sourceQuestionNumber": "prediction",
+      "sourceParagraphs": [
+        6
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-prediction",
+      "reason": "Same source experiment and task;keyed variant linked to the checked worksheet. Unmarked tense allocations remain proposed,not printed."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+      "sourceFileSha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+      "sourceQuestionNumber": "hypothesis",
+      "sourceParagraphs": [
+        8
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-hypothesis",
+      "reason": "Same source experiment and task;keyed variant linked to the checked worksheet. Unmarked tense allocations remain proposed,not printed."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+      "sourceFileSha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+      "sourceQuestionNumber": "independent",
+      "sourceParagraphs": [
+        10
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-independent",
+      "reason": "Same source experiment and task;keyed variant linked to the checked worksheet. Unmarked tense allocations remain proposed,not printed."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+      "sourceFileSha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+      "sourceQuestionNumber": "dependent",
+      "sourceParagraphs": [
+        12
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-dependent",
+      "reason": "Same source experiment and task;keyed variant linked to the checked worksheet. Unmarked tense allocations remain proposed,not printed."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+      "sourceFileSha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+      "sourceQuestionNumber": "controlled",
+      "sourceParagraphs": [
+        14
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-controlled",
+      "reason": "Same source experiment and task;keyed variant linked to the checked worksheet. Unmarked tense allocations remain proposed,not printed."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+      "sourceFileSha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+      "sourceQuestionNumber": "equipment",
+      "sourceParagraphs": [
+        16
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-equipment",
+      "reason": "Same source experiment and task;keyed variant linked to the checked worksheet. Unmarked tense allocations remain proposed,not printed."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+      "sourceFileSha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+      "sourceQuestionNumber": "tense1",
+      "sourceParagraphs": [
+        22
+      ],
+      "sourceMarks": null,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-tense1",
+      "reason": "Same source experiment and task;keyed variant linked to the checked worksheet. Unmarked tense allocations remain proposed,not printed."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+      "sourceFileSha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+      "sourceQuestionNumber": "tense2",
+      "sourceParagraphs": [
+        26
+      ],
+      "sourceMarks": null,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-tense2",
+      "reason": "Same source experiment and task;keyed variant linked to the checked worksheet. Unmarked tense allocations remain proposed,not printed."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+      "sourceFileSha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+      "sourceQuestionNumber": "tense3",
+      "sourceParagraphs": [
+        30
+      ],
+      "sourceMarks": null,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-tense3",
+      "reason": "Same source experiment and task;keyed variant linked to the checked worksheet. Unmarked tense allocations remain proposed,not printed."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+      "sourceFileSha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+      "sourceQuestionNumber": "tense4",
+      "sourceParagraphs": [
+        34
+      ],
+      "sourceMarks": null,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-tense4",
+      "reason": "Same source experiment and task;keyed variant linked to the checked worksheet. Unmarked tense allocations remain proposed,not printed."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+      "sourceFileSha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+      "sourceQuestionNumber": "tense5",
+      "sourceParagraphs": [
+        38
+      ],
+      "sourceMarks": null,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-tense5",
+      "reason": "Same source experiment and task;keyed variant linked to the checked worksheet. Unmarked tense allocations remain proposed,not printed."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+      "sourceFileSha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+      "sourceQuestionNumber": "tense6",
+      "sourceParagraphs": [
+        42
+      ],
+      "sourceMarks": null,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-tense6",
+      "reason": "Same source experiment and task;keyed variant linked to the checked worksheet. Unmarked tense allocations remain proposed,not printed."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+      "sourceFileSha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+      "sourceQuestionNumber": "tense7",
+      "sourceParagraphs": [
+        46
+      ],
+      "sourceMarks": null,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-tense7",
+      "reason": "Same source experiment and task;keyed variant linked to the checked worksheet. Unmarked tense allocations remain proposed,not printed."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+      "sourceFileSha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+      "sourceQuestionNumber": "tense8",
+      "sourceParagraphs": [
+        51
+      ],
+      "sourceMarks": null,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-tense8",
+      "reason": "Same source experiment and task;keyed variant linked to the checked worksheet. Unmarked tense allocations remain proposed,not printed."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+      "sourceFileSha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+      "sourceQuestionNumber": "tense9",
+      "sourceParagraphs": [
+        57
+      ],
+      "sourceMarks": null,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-tense9",
+      "reason": "Same source experiment and task;keyed variant linked to the checked worksheet. Unmarked tense allocations remain proposed,not printed."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+      "sourceFileSha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+      "sourceQuestionNumber": "safety",
+      "sourceParagraphs": [
+        61
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-safety",
+      "reason": "Same source experiment and task;keyed variant linked to the checked worksheet. Unmarked tense allocations remain proposed,not printed."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+      "sourceFileSha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+      "sourceQuestionNumber": "results",
+      "sourceParagraphs": [
+        63
+      ],
+      "sourceMarks": 3,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-results",
+      "reason": "Same source experiment and task;keyed variant linked to the checked worksheet. Unmarked tense allocations remain proposed,not printed."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+      "sourceFileSha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+      "sourceQuestionNumber": "conclusion",
+      "sourceParagraphs": [
+        97
+      ],
+      "sourceMarks": 5,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-conclusion",
+      "reason": "Same source experiment and task;keyed variant linked to the checked worksheet. Unmarked tense allocations remain proposed,not printed."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+      "sourceFileSha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+      "sourceQuestionNumber": "difficulties",
+      "sourceParagraphs": [
+        116
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-difficulties",
+      "reason": "Same source experiment and task;keyed variant linked to the checked worksheet. Unmarked tense allocations remain proposed,not printed."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment Answers.docx",
+      "sourceFileSha": "4d04243c1598870d872d45ec36caa30e76cb9650",
+      "sourceQuestionNumber": "improvements",
+      "sourceParagraphs": [
+        123
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-improvements",
+      "reason": "Same source experiment and task;keyed variant linked to the checked worksheet. Unmarked tense allocations remain proposed,not printed."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling - assessment/Log Book ÔÇô Heating Water experiment.docx",
+      "sourceFileSha": "ee022c9369f6c9522590acc400772cbbdec38043",
+      "sourceQuestionNumber": "independent",
+      "sourceParagraphs": [
+        3,
+        5
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HEATINGWATER-independent",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling - assessment/Log Book ÔÇô Heating Water experiment.docx",
+      "sourceFileSha": "ee022c9369f6c9522590acc400772cbbdec38043",
+      "sourceQuestionNumber": "dependent",
+      "sourceParagraphs": [
+        3,
+        7
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HEATINGWATER-dependent",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling - assessment/Log Book ÔÇô Heating Water experiment.docx",
+      "sourceFileSha": "ee022c9369f6c9522590acc400772cbbdec38043",
+      "sourceQuestionNumber": "controls",
+      "sourceParagraphs": [
+        3,
+        9
+      ],
+      "sourceMarks": 3,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HEATINGWATER-controls",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling - assessment/Log Book ÔÇô Heating Water experiment.docx",
+      "sourceFileSha": "ee022c9369f6c9522590acc400772cbbdec38043",
+      "sourceQuestionNumber": "hypothesis",
+      "sourceParagraphs": [
+        3,
+        13
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HEATINGWATER-hypothesis",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling - assessment/Log Book ÔÇô Heating Water experiment.docx",
+      "sourceFileSha": "ee022c9369f6c9522590acc400772cbbdec38043",
+      "sourceQuestionNumber": "diagram",
+      "sourceParagraphs": [
+        3,
+        17
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Diagram",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HEATINGWATER-diagram",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling - assessment/Log Book ÔÇô Heating Water experiment.docx",
+      "sourceFileSha": "ee022c9369f6c9522590acc400772cbbdec38043",
+      "sourceQuestionNumber": "results",
+      "sourceParagraphs": [
+        3,
+        37
+      ],
+      "sourceMarks": 3,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HEATINGWATER-results",
+      "reason": "Equivalent source question already present; not added or counted again."
+    }
+  ]
+}

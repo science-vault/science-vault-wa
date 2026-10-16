@@ -1171,6 +1171,11 @@
       "path": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/COVER 2017 Sem 2 Exam Yr 10 Ext.docx",
       "sha": "44dc3a03f0cd8174d2f81220b94f1de99f37ba2a",
       "reason": "Extension exam cover and administrative instructions only;question booklets not included."
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2023/2023 Term1 LGs and SC - Chemistry.docx",
+      "sha": "8c5685bbb5a93495e045006f0f3896dec26d1274",
+      "reason": "Learning-goals/success-criteria confidence checklist and assessment schedule,not actual test or research prompts;embedded school logo inspected."
     }
   ]
 }

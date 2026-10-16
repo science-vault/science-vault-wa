@@ -1,0 +1,99 @@
+{
+  "batch": "repo-science-batch146",
+  "paperCount": 2,
+  "questionIds": [
+    "SCI-REPO-Y7-SBY-2017-WATERROCKET-explain",
+    "SCI-REPO-Y7-SBY-2017-WATERROCKET-changes",
+    "SCI-REPO-Y7-SBY-2017-WATERROCKET-implementation",
+    "SCI-REPO-Y7-SBY-2017-WATERROCKET-diagram",
+    "SCI-REPO-Y10-NARR-2024-WORKINGMEM-intro",
+    "SCI-REPO-Y10-NARR-2024-WORKINGMEM-aim-hypothesis",
+    "SCI-REPO-Y10-NARR-2024-WORKINGMEM-procedure",
+    "SCI-REPO-Y10-NARR-2024-WORKINGMEM-variables",
+    "SCI-REPO-Y10-NARR-2024-WORKINGMEM-results",
+    "SCI-REPO-Y10-NARR-2024-WORKINGMEM-graph",
+    "SCI-REPO-Y10-NARR-2024-WORKINGMEM-discussion",
+    "SCI-REPO-Y10-NARR-2024-WORKINGMEM-conclusion",
+    "SCI-REPO-Y10-NARR-2024-WORKINGMEM-references"
+  ],
+  "questions": 13,
+  "multipleChoice": 0,
+  "writtenQuestions": 13,
+  "battleEligible": 0,
+  "marks": 37,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y7-SBY-2017-WATERROCKET-diagram",
+      "note": "Explicit diagram prompt has no separate source allocation;2marks proposed."
+    },
+    {
+      "id": "SCI-REPO-Y10-NARR-2024-WORKINGMEM-intro",
+      "note": "Actual selected working-memory study,ethics arrangements and dataset required;no fixed experiment supplied."
+    },
+    {
+      "id": "SCI-REPO-Y10-NARR-2024-WORKINGMEM-aim-hypothesis",
+      "note": "Actual selected working-memory study,ethics arrangements and dataset required;no fixed experiment supplied."
+    },
+    {
+      "id": "SCI-REPO-Y10-NARR-2024-WORKINGMEM-procedure",
+      "note": "Actual selected working-memory study,ethics arrangements and dataset required;no fixed experiment supplied."
+    },
+    {
+      "id": "SCI-REPO-Y10-NARR-2024-WORKINGMEM-variables",
+      "note": "Actual selected working-memory study,ethics arrangements and dataset required;no fixed experiment supplied."
+    },
+    {
+      "id": "SCI-REPO-Y10-NARR-2024-WORKINGMEM-results",
+      "note": "Actual selected working-memory study,ethics arrangements and dataset required;no fixed experiment supplied."
+    },
+    {
+      "id": "SCI-REPO-Y10-NARR-2024-WORKINGMEM-graph",
+      "note": "Actual selected working-memory study,ethics arrangements and dataset required;no fixed experiment supplied."
+    },
+    {
+      "id": "SCI-REPO-Y10-NARR-2024-WORKINGMEM-discussion",
+      "note": "Actual selected working-memory study,ethics arrangements and dataset required;no fixed experiment supplied."
+    },
+    {
+      "id": "SCI-REPO-Y10-NARR-2024-WORKINGMEM-conclusion",
+      "note": "Actual selected working-memory study,ethics arrangements and dataset required;no fixed experiment supplied."
+    },
+    {
+      "id": "SCI-REPO-Y10-NARR-2024-WORKINGMEM-references",
+      "note": "Actual selected working-memory study,ethics arrangements and dataset required;no fixed experiment supplied."
+    }
+  ],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Safety bay/2017/Water Rocket Project.docx",
+      "sha": "16d9b665040032048bb8c157acdab8c0855e7faf",
+      "year": 7,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Psychology Elective/Narrogin/2024/Task 3 Psychology Investigation.docx",
+      "sha": "3686d9cdfc28e496a3e6a27728643b6b72e3b975",
+      "year": 10,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 0,
+  "createdSupplements": 13,
+  "notes": [
+    "Water-rocket10markproject retained as three scored tasks plus2proposed marks for explicit diagram prompt.40%moduleweight notconverted to40marks. Complete25markworking-memory report rubric retained,including numerical-variable and ethics criteria,without inventing a participant experiment."
+  ],
+  "markAudit": {
+    "waterRocket": {
+      "total": 10,
+      "diagramProposed": 2,
+      "weightPercent": 40
+    },
+    "workingMemory": {
+      "total": 25,
+      "weightPercent": 10
+    }
+  },
+  "duplicateQuestionAliases": []
+}

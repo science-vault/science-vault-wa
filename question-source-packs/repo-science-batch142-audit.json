@@ -1,0 +1,81 @@
+{
+  "batch": "repo-science-batch142",
+  "paperCount": 2,
+  "questionIds": [
+    "SCI-REPO-Y7-ARAN-2013-COFFEELID-aim",
+    "SCI-REPO-Y7-ARAN-2013-COFFEELID-prediction",
+    "SCI-REPO-Y7-ARAN-2013-COFFEELID-independent",
+    "SCI-REPO-Y7-ARAN-2013-COFFEELID-dependent",
+    "SCI-REPO-Y7-ARAN-2013-COFFEELID-controls",
+    "SCI-REPO-Y7-ARAN-2013-COFFEELID-equipment",
+    "SCI-REPO-Y7-ARAN-2013-COFFEELID-method",
+    "SCI-REPO-Y7-ARAN-2013-COFFEELID-table",
+    "SCI-REPO-Y7-ARAN-2013-COFFEELID-trend",
+    "SCI-REPO-Y7-ARAN-2013-COFFEELID-graph",
+    "SCI-REPO-Y7-ARAN-2013-COFFEELID-read-time",
+    "SCI-REPO-Y7-ARAN-2013-COFFEELID-read-temperature",
+    "SCI-REPO-Y7-ARAN-2013-COFFEELID-hypothesis-check",
+    "SCI-REPO-Y7-ARAN-2013-COFFEELID-recommend",
+    "SCI-REPO-Y7-ARAN-2013-COFFEELID-science",
+    "SCI-REPO-Y7-ARAN-2013-COFFEELID-accuracy",
+    "SCI-REPO-Y7-ARAN-2013-COFFEELID-further",
+    "SCI-REPO-Y7-ARAN-2013-PAPERPLANE-aim",
+    "SCI-REPO-Y7-ARAN-2013-PAPERPLANE-prediction",
+    "SCI-REPO-Y7-ARAN-2013-PAPERPLANE-independent",
+    "SCI-REPO-Y7-ARAN-2013-PAPERPLANE-dependent",
+    "SCI-REPO-Y7-ARAN-2013-PAPERPLANE-controls",
+    "SCI-REPO-Y7-ARAN-2013-PAPERPLANE-designs",
+    "SCI-REPO-Y7-ARAN-2013-PAPERPLANE-equipment",
+    "SCI-REPO-Y7-ARAN-2013-PAPERPLANE-method",
+    "SCI-REPO-Y7-ARAN-2013-PAPERPLANE-table",
+    "SCI-REPO-Y7-ARAN-2013-PAPERPLANE-graph",
+    "SCI-REPO-Y7-ARAN-2013-PAPERPLANE-longest",
+    "SCI-REPO-Y7-ARAN-2013-PAPERPLANE-finding",
+    "SCI-REPO-Y7-ARAN-2013-PAPERPLANE-hypothesis",
+    "SCI-REPO-Y7-ARAN-2013-PAPERPLANE-accuracy",
+    "SCI-REPO-Y7-ARAN-2013-PAPERPLANE-further",
+    "SCI-REPO-Y7-ARAN-2013-PAPERPLANE-real-plane"
+  ],
+  "questions": 33,
+  "multipleChoice": 0,
+  "writtenQuestions": 33,
+  "battleEligible": 0,
+  "marks": 75,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y7-ARAN-2013-COFFEELID-read-time",
+      "note": "Unmarked source;allocation proposed. Graph-reading target is blank and requires teacher completion."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-2013-COFFEELID-read-temperature",
+      "note": "Unmarked source;allocation proposed. Graph-reading target is blank and requires teacher completion."
+    }
+  ],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Aranmore/2013 Year 7 Investigation Keep my Coffee warm.docx",
+      "sha": "fee87b28e65ae9948982e772cbda3a0f4831ed8d",
+      "year": 7,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Aranmore/2013 Year 7 Investigation Flight of paper planes.docx",
+      "sha": "5d9f8ec2861ad53e7b946eb4995ff410a75790e9",
+      "year": 7,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 33,
+  "createdSupplements": 0,
+  "notes": [
+    "Two complete inquiry worksheets reviewed. All explicit fields retained;overlapping prediction/hypothesis and repeated trend fields consolidated. Coffee graph-reading targets remain flagged as blank. No measurements,chosen plane factor or missing linked article content invented."
+  ],
+  "markAudit": {
+    "sourceMarks": null,
+    "coffeeProposed": 36,
+    "planeProposed": 39
+  },
+  "duplicateQuestionAliases": []
+}

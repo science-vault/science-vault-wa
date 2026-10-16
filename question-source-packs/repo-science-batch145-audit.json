@@ -1,0 +1,40 @@
+{
+  "batch": "repo-science-batch145",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y7-ARAN-PERTHWATER-project"
+  ],
+  "questions": 1,
+  "multipleChoice": 0,
+  "writtenQuestions": 1,
+  "battleEligible": 0,
+  "marks": 27,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y7-ARAN-PERTHWATER-project",
+      "note": "Source32mark project includes5general presentation marks;27content/reference marks retained as one linked research/poster task to avoid counting repeated information twice. Current-versus-proposed water-source status checked against Water Corporation;historical key needs updating."
+    }
+  ],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Aranmore/Year 7 poster assessment.docx",
+      "sha": "73ea090c99dc882ee6ae31e2b24553cac578aac9",
+      "year": 7,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 0,
+  "createdSupplements": 1,
+  "notes": [
+    "Complete Perth drinking-water project and teacher rubric reviewed. Notes/poster/reference requirements consolidated as one27mark content task;heading1,visual effort2andlegibility2logged separately. Current source categories verified;historical north-pipeline suggestion not represented as operating supply. No current percentages or future commissioning claims invented."
+  ],
+  "markAudit": {
+    "total": 32,
+    "selected": 27,
+    "presentation": 5,
+    "reviewDate": "2026-10-16"
+  },
+  "duplicateQuestionAliases": []
+}

@@ -1,0 +1,51 @@
+{
+  "batch": "repo-science-batch144",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y7-ARAN-BOUNCEVARIABLES-term",
+    "SCI-REPO-Y7-ARAN-BOUNCEVARIABLES-dependent",
+    "SCI-REPO-Y7-ARAN-BOUNCEVARIABLES-changed",
+    "SCI-REPO-Y7-ARAN-BOUNCEVARIABLES-fair",
+    "SCI-REPO-Y7-ARAN-BOUNCEVARIABLES-conclusion",
+    "SCI-REPO-Y7-ARAN-BOUNCEVARIABLES-fix",
+    "SCI-REPO-Y7-ARAN-BOUNCEVARIABLES-aim",
+    "SCI-REPO-Y7-ARAN-BOUNCEVARIABLES-independent",
+    "SCI-REPO-Y7-ARAN-BOUNCEVARIABLES-dependent-own",
+    "SCI-REPO-Y7-ARAN-BOUNCEVARIABLES-controls",
+    "SCI-REPO-Y7-ARAN-BOUNCEVARIABLES-equipment",
+    "SCI-REPO-Y7-ARAN-BOUNCEVARIABLES-method",
+    "SCI-REPO-Y7-ARAN-BOUNCEVARIABLES-diagram",
+    "SCI-REPO-Y7-ARAN-BOUNCEVARIABLES-results",
+    "SCI-REPO-Y7-ARAN-BOUNCEVARIABLES-conclusion-own",
+    "SCI-REPO-Y7-ARAN-BOUNCEVARIABLES-improve"
+  ],
+  "questions": 16,
+  "multipleChoice": 0,
+  "writtenQuestions": 16,
+  "battleEligible": 0,
+  "marks": 29,
+  "reviewRequired": [],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Aranmore/Investigation - Planning and Experimenting with variables.docx",
+      "sha": "a3be79d2e91091aed904e82b77940225a882414c",
+      "year": 7,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 0,
+  "createdSupplements": 16,
+  "notes": [
+    "Complete fair-test worksheet reviewed. Printed local annotations sum25whileheader29;two unallocated evaluation prompts receive2proposed marks each,bringing supplemented total29without claiming those allocations were printed. Original confounded ball/surface/height data retained;no student investigation results invented."
+  ],
+  "markAudit": {
+    "header": 29,
+    "explicitLocalMarks": 25,
+    "unallocatedPrompts": 2,
+    "additionalProposed": 4,
+    "supplementedTotal": 29
+  },
+  "duplicateQuestionAliases": []
+}
