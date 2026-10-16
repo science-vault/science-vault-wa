@@ -1,0 +1,296 @@
+{
+  "batch": "repo-science-batch19",
+  "paperCount": 2,
+  "questionIds": [
+    "SCI-REPO-Y9-SBY-REACTIONTYPES-MC02",
+    "SCI-REPO-Y9-SBY-REACTIONTYPES-MC04",
+    "SCI-REPO-Y9-SBY-REACTIONTYPES-MC05",
+    "SCI-REPO-Y9-SBY-REACTIONTYPES-MC06",
+    "SCI-REPO-Y9-SBY-REACTIONTYPES-MC07",
+    "SCI-REPO-Y9-SBY-REACTIONTYPES-MC08",
+    "SCI-REPO-Y9-SBY-REACTIONTYPES-MC09",
+    "SCI-REPO-Y9-SBY-REACTIONTYPES-13",
+    "SCI-REPO-Y9-SBY-REACTIONTYPES-14a",
+    "SCI-REPO-Y9-SBY-REACTIONTYPES-14b",
+    "SCI-REPO-Y9-SBY-REACTIONTYPES-14c",
+    "SCI-REPO-Y10-ARAN-2013-ELEMENTS-1",
+    "SCI-REPO-Y10-ARAN-2013-ELEMENTS-2"
+  ],
+  "questions": 13,
+  "multipleChoice": 7,
+  "writtenQuestions": 6,
+  "battleEligible": 5,
+  "marks": 68,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y9-SBY-REACTIONTYPES-MC05",
+      "note": "Printed rust formula is incomplete; no fully correct option."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-REACTIONTYPES-MC09",
+      "note": "Options B and C overlap; duplicated native sunlight/chlorophyll annotations in the source extraction. Teacher review required."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-REACTIONTYPES-13",
+      "note": "The source uses corrosion broadly for metal oxidation. Accept a scientifically justified distinction from rapid combustion."
+    }
+  ],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/REACTION TYPES TEST.docx",
+      "sha": "5471d0f67dc92d7dd86ab3c5d54d26c76323b78c",
+      "year": 9,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/REACTION TYPES TEST ANSWERS.docx",
+      "sha": "4a3ae26b4b4eb9ed7a98b4300533e24697b3e04d",
+      "year": 9,
+      "role": "key_reference"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2013 10 ELEMENTS TEST.docx",
+      "sha": "70c4598f7c4960ffd43b383280dd0b23851b76af",
+      "year": 10,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [
+    {
+      "id": "sci-repo-y9-sby-reactiontypes-mc-1",
+      "title": "Year 9 Science — Reaction types source paper — Safety Bay (original source MC)",
+      "course": "Science",
+      "yearGroup": 9,
+      "unit": "Chemical Sciences",
+      "parent": "Reaction types source paper — Safety Bay",
+      "count": 5,
+      "kind": "assessment",
+      "assessmentCount": 5,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch19.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=9&search=SCI-REPO-Y9-SBY-REACTIONTYPES",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    }
+  ],
+  "createdKeys": 2,
+  "createdSupplements": 11,
+  "notes": [
+    "Reaction types paper completed with explicit aliases to repeated extended-exam tasks; ambiguous source MC excluded from battles. Complete elements-table test retained in two source task groups. Source header says semester one 2016 despite repository 2018 folder; no unsupported exact year assigned."
+  ],
+  "markAudit": {
+    "Reaction types": {
+      "printedTotal": 29,
+      "sourceTaskMarksIncludingAliases": 29
+    },
+    "Elements test": {
+      "printedTotal": 55,
+      "sourceQuestionMarks": 55
+    }
+  },
+  "duplicateQuestionAliases": [
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/REACTION TYPES TEST.docx",
+      "sourceFileSha": "5471d0f67dc92d7dd86ab3c5d54d26c76323b78c",
+      "sourceQuestionNumber": "1",
+      "sourceParagraphs": [
+        18,
+        20,
+        21,
+        22,
+        23
+      ],
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-EXT-MC03",
+      "reason": "Same independently prompted task and source context in previously imported extended exam; retained as source alias, not counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/REACTION TYPES TEST.docx",
+      "sourceFileSha": "5471d0f67dc92d7dd86ab3c5d54d26c76323b78c",
+      "sourceQuestionNumber": "3",
+      "sourceParagraphs": [
+        32,
+        34,
+        35,
+        36,
+        37
+      ],
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-EXT-MC04",
+      "reason": "Same independently prompted task and source context in previously imported extended exam; retained as source alias, not counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/REACTION TYPES TEST.docx",
+      "sourceFileSha": "5471d0f67dc92d7dd86ab3c5d54d26c76323b78c",
+      "sourceQuestionNumber": "10",
+      "sourceParagraphs": [
+        83,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91
+      ],
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-EXT-MC07",
+      "reason": "Same independently prompted task and source context in previously imported extended exam; retained as source alias, not counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/REACTION TYPES TEST.docx",
+      "sourceFileSha": "5471d0f67dc92d7dd86ab3c5d54d26c76323b78c",
+      "sourceQuestionNumber": "11a",
+      "sourceParagraphs": [
+        149,
+        151
+      ],
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-EXT-21a",
+      "reason": "Same independently prompted task and source context in previously imported extended exam; retained as source alias, not counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/REACTION TYPES TEST.docx",
+      "sourceFileSha": "5471d0f67dc92d7dd86ab3c5d54d26c76323b78c",
+      "sourceQuestionNumber": "11b",
+      "sourceParagraphs": [
+        149,
+        152
+      ],
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-EXT-21b",
+      "reason": "Same independently prompted task and source context in previously imported extended exam; retained as source alias, not counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/REACTION TYPES TEST.docx",
+      "sourceFileSha": "5471d0f67dc92d7dd86ab3c5d54d26c76323b78c",
+      "sourceQuestionNumber": "11c",
+      "sourceParagraphs": [
+        149,
+        153
+      ],
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-EXT-21c",
+      "reason": "Same independently prompted task and source context in previously imported extended exam; retained as source alias, not counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/REACTION TYPES TEST.docx",
+      "sourceFileSha": "5471d0f67dc92d7dd86ab3c5d54d26c76323b78c",
+      "sourceQuestionNumber": "11d",
+      "sourceParagraphs": [
+        149,
+        154
+      ],
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-EXT-21d",
+      "reason": "Same independently prompted task and source context in previously imported extended exam; retained as source alias, not counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/REACTION TYPES TEST.docx",
+      "sourceFileSha": "5471d0f67dc92d7dd86ab3c5d54d26c76323b78c",
+      "sourceQuestionNumber": "12a",
+      "sourceParagraphs": [
+        173,
+        174,
+        175
+      ],
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-EXT-22a",
+      "reason": "Same independently prompted task and source context in previously imported extended exam; retained as source alias, not counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/REACTION TYPES TEST.docx",
+      "sourceFileSha": "5471d0f67dc92d7dd86ab3c5d54d26c76323b78c",
+      "sourceQuestionNumber": "12b",
+      "sourceParagraphs": [
+        173,
+        174,
+        176
+      ],
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-EXT-22b",
+      "reason": "Same independently prompted task and source context in previously imported extended exam; retained as source alias, not counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/REACTION TYPES TEST.docx",
+      "sourceFileSha": "5471d0f67dc92d7dd86ab3c5d54d26c76323b78c",
+      "sourceQuestionNumber": "12c",
+      "sourceParagraphs": [
+        173,
+        174,
+        177
+      ],
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-EXT-22c",
+      "reason": "Same independently prompted task and source context in previously imported extended exam; retained as source alias, not counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/REACTION TYPES TEST.docx",
+      "sourceFileSha": "5471d0f67dc92d7dd86ab3c5d54d26c76323b78c",
+      "sourceQuestionNumber": "12d",
+      "sourceParagraphs": [
+        173,
+        174,
+        178
+      ],
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-EXT-22d",
+      "reason": "Same independently prompted task and source context in previously imported extended exam; retained as source alias, not counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/REACTION TYPES TEST.docx",
+      "sourceFileSha": "5471d0f67dc92d7dd86ab3c5d54d26c76323b78c",
+      "sourceQuestionNumber": "15a",
+      "sourceParagraphs": [
+        215,
+        216,
+        217,
+        218
+      ],
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-EXT-27a",
+      "reason": "Same independently prompted task and source context in previously imported extended exam; retained as source alias, not counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/REACTION TYPES TEST.docx",
+      "sourceFileSha": "5471d0f67dc92d7dd86ab3c5d54d26c76323b78c",
+      "sourceQuestionNumber": "15b",
+      "sourceParagraphs": [
+        215,
+        216,
+        217,
+        219
+      ],
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-EXT-27b",
+      "reason": "Same independently prompted task and source context in previously imported extended exam; retained as source alias, not counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/REACTION TYPES TEST.docx",
+      "sourceFileSha": "5471d0f67dc92d7dd86ab3c5d54d26c76323b78c",
+      "sourceQuestionNumber": "15c",
+      "sourceParagraphs": [
+        215,
+        216,
+        217,
+        220
+      ],
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-EXT-27c",
+      "reason": "Same independently prompted task and source context in previously imported extended exam; retained as source alias, not counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/REACTION TYPES TEST.docx",
+      "sourceFileSha": "5471d0f67dc92d7dd86ab3c5d54d26c76323b78c",
+      "sourceQuestionNumber": "15d",
+      "sourceParagraphs": [
+        215,
+        216,
+        217,
+        221
+      ],
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-EXT-27d",
+      "reason": "Same independently prompted task and source context in previously imported extended exam; retained as source alias, not counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/REACTION TYPES TEST.docx",
+      "sourceFileSha": "5471d0f67dc92d7dd86ab3c5d54d26c76323b78c",
+      "sourceQuestionNumber": "15e",
+      "sourceParagraphs": [
+        215,
+        216,
+        217,
+        222
+      ],
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-EXT-27e",
+      "reason": "Same independently prompted task and source context in previously imported extended exam; retained as source alias, not counted again."
+    }
+  ]
+}

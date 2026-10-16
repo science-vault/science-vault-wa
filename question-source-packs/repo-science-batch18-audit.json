@@ -1,0 +1,124 @@
+{
+  "batch": "repo-science-batch18",
+  "paperCount": 2,
+  "questionIds": [
+    "SCI-REPO-Y9-ARAN-INSULATORS-materials",
+    "SCI-REPO-Y9-ARAN-INSULATORS-hypothesis",
+    "SCI-REPO-Y9-ARAN-INSULATORS-independent",
+    "SCI-REPO-Y9-ARAN-INSULATORS-dependent",
+    "SCI-REPO-Y9-ARAN-INSULATORS-controls",
+    "SCI-REPO-Y9-ARAN-INSULATORS-table",
+    "SCI-REPO-Y9-ARAN-INSULATORS-graph",
+    "SCI-REPO-Y9-ARAN-INSULATORS-discussion",
+    "SCI-REPO-Y9-ARAN-INSULATORS-discussion1",
+    "SCI-REPO-Y9-ARAN-INSULATORS-discussion2",
+    "SCI-REPO-Y9-ARAN-INSULATORS-conclusion",
+    "SCI-REPO-Y10-ARAN-2011-CHEM-MC01",
+    "SCI-REPO-Y10-ARAN-2011-CHEM-MC03",
+    "SCI-REPO-Y10-ARAN-2011-CHEM-MC04",
+    "SCI-REPO-Y10-ARAN-2011-CHEM-MC05",
+    "SCI-REPO-Y10-ARAN-2011-CHEM-1",
+    "SCI-REPO-Y10-ARAN-2011-CHEM-2",
+    "SCI-REPO-Y10-ARAN-2011-CHEM-3",
+    "SCI-REPO-Y10-ARAN-2011-CHEM-4",
+    "SCI-REPO-Y10-ARAN-2011-CHEM-5",
+    "SCI-REPO-Y10-ARAN-2011-CHEM-6a",
+    "SCI-REPO-Y10-ARAN-2011-CHEM-6b",
+    "SCI-REPO-Y10-ARAN-2011-CHEM-6c",
+    "SCI-REPO-Y10-ARAN-2011-CHEM-6d",
+    "SCI-REPO-Y10-ARAN-2011-CHEM-6e",
+    "SCI-REPO-Y10-ARAN-2011-CHEM-7a",
+    "SCI-REPO-Y10-ARAN-2011-CHEM-7b"
+  ],
+  "questions": 27,
+  "multipleChoice": 4,
+  "writtenQuestions": 23,
+  "battleEligible": 4,
+  "marks": 68,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y10-ARAN-2011-CHEM-5",
+      "note": "The source table gives no isotope mass numbers. Created guidance must not treat common isotope assumptions as uniquely supplied facts."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2011-CHEM-6c",
+      "note": "Source typo Na20 requires teacher correction to Na₂O."
+    }
+  ],
+  "imageAudit": [
+    {
+      "id": "e51-image1",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2011 10 GENERAL CHEMISTRY TEST.docx",
+      "embeddedImage": "word/media/image1.emf",
+      "sha256": "3c155f618dbb6461ca78df4b4b2da0a710b8af8408c436038296eefbea473efa",
+      "publishedSha256": "33cedcf363b156637bf862f8340e50e1a1fe495733d7732439d298ead6aee1e7",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Physics/Aranmore/2014 9 SCIENCE TESTING INSULATORS INVESTIGATION.docx",
+      "sha": "ec64a86dbe8aa0b096c1de844ef44aaddd82413d",
+      "year": 9,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2011 10 GENERAL CHEMISTRY TEST.docx",
+      "sha": "399a3f281765ad7b6e6aba2ff47a3c1c447ba3be",
+      "year": 10,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [
+    {
+      "id": "sci-repo-y10-aran-2011-chem-mc-1",
+      "title": "Year 10 Science — Chemistry test — Aranmore 2011 (original source MC)",
+      "course": "Science",
+      "yearGroup": 10,
+      "unit": "Chemical Sciences",
+      "parent": "Chemistry test — Aranmore 2011",
+      "count": 4,
+      "kind": "assessment",
+      "assessmentCount": 4,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch18.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=10&search=SCI-REPO-Y10-ARAN-2011-CHEM",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    }
+  ],
+  "createdKeys": 16,
+  "createdSupplements": 11,
+  "notes": [
+    "Complete insulator investigation and 2011 chemistry test. Presentation-only marks are not counted as science questions. Exact repeated questions are mapped to existing records."
+  ],
+  "markAudit": {
+    "Insulator investigation": {
+      "printedTotal": 30,
+      "questionMarks": 28,
+      "presentationRubricMarks": 2,
+      "note": "Presentation is a rubric, not a separately prompted science question."
+    },
+    "Chemistry test": {
+      "printedTotal": 41,
+      "sourceQuestionMarksBeforeDuplicateExclusion": 41
+    }
+  },
+  "duplicateQuestionAliases": [
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2011 10 GENERAL CHEMISTRY TEST.docx",
+      "sourceFileSha": "399a3f281765ad7b6e6aba2ff47a3c1c447ba3be",
+      "sourceQuestionNumber": "2",
+      "sourceParagraphs": [
+        17,
+        19,
+        20,
+        20,
+        21
+      ],
+      "existingQuestionId": "SCI-REPO-Y10-B10-D24-MC03",
+      "reason": "Equivalent source question already present; not added or counted again."
+    }
+  ]
+}
