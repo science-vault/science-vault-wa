@@ -1,0 +1,55 @@
+{
+  "batch": "repo-science-batch96",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y9-NARR-2021-PRECIP-prediction",
+    "SCI-REPO-Y9-NARR-2021-PRECIP-observation",
+    "SCI-REPO-Y9-NARR-2021-PRECIP-precipitate",
+    "SCI-REPO-Y9-NARR-2021-PRECIP-chemical",
+    "SCI-REPO-Y9-NARR-2021-PRECIP-products",
+    "SCI-REPO-Y9-NARR-2021-PRECIP-gas",
+    "SCI-REPO-Y9-NARR-2021-PRECIP-solid",
+    "SCI-REPO-Y9-NARR-2021-PRECIP-reactant-atoms",
+    "SCI-REPO-Y9-NARR-2021-PRECIP-product-atoms",
+    "SCI-REPO-Y9-NARR-2021-PRECIP-balanced"
+  ],
+  "questions": 10,
+  "multipleChoice": 0,
+  "writtenQuestions": 10,
+  "battleEligible": 0,
+  "marks": 20,
+  "reviewRequired": [],
+  "imageAudit": [
+    {
+      "id": "e265-image1",
+      "source": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2021/chemical reactns prac.docx",
+      "embeddedImage": "word/media/image1.png",
+      "sha256": "2a1fb7404b9ac7ee26d0a89140bfa73b0e17d3ddcbb70c3fadc8b8366187e912",
+      "publishedSha256": "1e68a727dea7b899374ec1c827f4bc897c55d8085eb96254db39cd55ee7df1d4",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2021/chemical reactns prac.docx",
+      "sha": "aff7a14f0ba51c3179086d44329ea31f121ff911",
+      "year": 9,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 0,
+  "createdSupplements": 10,
+  "notes": [
+    "All10distinct pupil prompts extracted;matching teacher section used as supplied key rather than imported again. Original particle/equation image preserved. Atom totals verified both sides;source unmarked,proposed20marks explicitly labelled."
+  ],
+  "markAudit": {
+    "sourceMarks": null,
+    "proposedTotal": 20,
+    "distinctPupilPrompts": 10,
+    "teacherDuplicateCounted": false
+  },
+  "duplicateQuestionAliases": []
+}

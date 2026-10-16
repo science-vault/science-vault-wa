@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.16-science-source90",
+  "version": "2026.10.16-science-source96",
   "status": "in_progress",
   "scope": "Original Science assessment files in repository, Years 7–10. File counts include keys and supporting materials; they are not question counts.",
   "inventoryFiles": 2009,
@@ -11,11 +11,11 @@
     "9": 457,
     "10": 582
   },
-  "importedPapers": 226,
-  "importedQuestions": 3072,
-  "multipleChoice": 793,
-  "writtenQuestions": 2279,
-  "battleEligibleQuestions": 690,
+  "importedPapers": 238,
+  "importedQuestions": 3171,
+  "multipleChoice": 809,
+  "writtenQuestions": 2362,
+  "battleEligibleQuestions": 701,
   "reviewRequired": [
     {
       "id": "SCI-REPO-Y7-NAR-2024-CHEM-WR02",
@@ -1576,6 +1576,58 @@
     {
       "id": "SCI-REPO-Y9-SBY-2018-ECOSYSTEMKEY-2",
       "note": "Referenced original foodweb/diagram is not supplied by this key."
+    },
+    {
+      "id": "SCI-REPO-Y9-NARR-2023-FOODCHAINS-A",
+      "note": "Missing grid;proposed allocation only."
+    },
+    {
+      "id": "SCI-REPO-Y9-NARR-2023-FOODCHAINS-3",
+      "note": "Only generic “plant parts”are identified in the provided chains;no3producer species are named. Credit producer plants with suitable scientifically justified examples only if teacher explicitly permits examples outside the supplied list. Do not invent3specific source species."
+    },
+    {
+      "id": "SCI-REPO-Y9-NARR-2023-FOODCHAINS-4",
+      "note": "From the supplied chains:land snail,sparrow,rabbit,earthworm,small insects,cricket (six at0.5each is proposed interpretation of3marks). These are roles in the simplified web;earthworms actually consume detritus and microorganisms too."
+    },
+    {
+      "id": "SCI-REPO-Y9-NARR-2023-FOODCHAINS-6",
+      "note": "If “only”means exactlysecond trophic consumer position in every listed chain,robin is the only clear fit. Snake,hawk,fox,owl andraccoon occupy other positions too. If intended as exclusively animal-eating consumers,the category is carnivores at multiple levels. Source3-mark premise needs clarification;do not force3incorrect names."
+    },
+    {
+      "id": "SCI-REPO-Y9-NARR-2023-FOODCHAINS-8",
+      "note": "Mouse andraccoon are the only explicit plant-and-animal feeders in the supplied chains. Printed5marks does not establish5correctorganisms;teacher must moderate. Fox/others may be omnivorous in reality,but no plantfeeding link for them is shown here."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2013-ELEMENTNEWS-numbers",
+      "note": "Assignedelementandisotopearenotspecifiedintheblanktemplate."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2013-ELEMENTNEWS-particles",
+      "note": "Assignedelementandisotopearenotspecifiedintheblanktemplate."
+    },
+    {
+      "id": "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-MC06",
+      "note": "D is intended:forming a solid from a liquid can be freezing (physical) or precipitation (chemical). The statement alone does not uniquely diagnose a chemical change;interpret the stated event."
+    },
+    {
+      "id": "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-MC12",
+      "note": "Formal atom balancing requires coefficient2:2NaF + Br2 →2NaBr + F2. This is not a plausible spontaneous halogen displacement under ordinary conditions:Br2 cannot displace fluoride to produce F2. Separate formal balancing from chemical feasibility."
+    },
+    {
+      "id": "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-MC13",
+      "note": "D:all the listed processes involve chemical changes. Food breakdown releases stored chemical energy;it does not literally turn all food matter into energy."
+    },
+    {
+      "id": "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-MC20",
+      "note": "No valid combustion option is supplied. None lists the expected fuel+oxygen combustion;some listed equations are also chemically/atomically invalid. Retain for teacher review rather than choosing a false answer."
+    },
+    {
+      "id": "SCI-REPO-Y9-NARR-2019-REACTIONTYPES-MC12",
+      "note": "Formal atom balancing requires coefficient2:2NaF + Br2 →2NaBr + F2. This is not a plausible spontaneous halogen displacement under ordinary conditions:Br2 cannot displace fluoride to produce F2. Separate formal balancing from chemical feasibility."
+    },
+    {
+      "id": "SCI-REPO-Y9-NARR-2019-REACTIONTYPES-W3b",
+      "note": "Provided classification list is narrower than the scientifically precise description."
     },
     {
       "id": "SCI-REPO-Y10-NAR-2024-UNIVERSE-MC02",
@@ -16627,6 +16679,2418 @@
         "missingReferencedDiagrams": true
       },
       "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch91",
+      "questionIds": [
+        "SCI-REPO-Y9-NARR-2023-FOODCHAINS-A",
+        "SCI-REPO-Y9-NARR-2023-FOODCHAINS-1-hawk",
+        "SCI-REPO-Y9-NARR-2023-FOODCHAINS-1-earthworm",
+        "SCI-REPO-Y9-NARR-2023-FOODCHAINS-1-fox",
+        "SCI-REPO-Y9-NARR-2023-FOODCHAINS-1-owl",
+        "SCI-REPO-Y9-NARR-2023-FOODCHAINS-1-snake",
+        "SCI-REPO-Y9-NARR-2023-FOODCHAINS-1-small-insects",
+        "SCI-REPO-Y9-NARR-2023-FOODCHAINS-2",
+        "SCI-REPO-Y9-NARR-2023-FOODCHAINS-3",
+        "SCI-REPO-Y9-NARR-2023-FOODCHAINS-4",
+        "SCI-REPO-Y9-NARR-2023-FOODCHAINS-5",
+        "SCI-REPO-Y9-NARR-2023-FOODCHAINS-6",
+        "SCI-REPO-Y9-NARR-2023-FOODCHAINS-7",
+        "SCI-REPO-Y9-NARR-2023-FOODCHAINS-8",
+        "SCI-REPO-Y9-NARR-2023-FOODCHAINS-9",
+        "SCI-REPO-Y9-NARR-2023-FOODCHAINS-10",
+        "SCI-REPO-Y9-NARR-2023-FOODCHAINS-11",
+        "SCI-REPO-Y9-NARR-2023-FOODCHAINS-12"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Narrogin/2023/In class validation.docx",
+          "sha": "4524f5d4d5297b7ed81c26aa17d82945ce7001ce",
+          "year": 9,
+          "role": "paper"
+        }
+      ],
+      "questions": 18,
+      "marks": 37,
+      "imageAudit": "question-source-packs/repo-science-batch91-audit.json",
+      "notes": [
+        "AllPartBinstructions and original14chainfigure retained. Counts computed from the actual image;no guessedproducer species or5omnivores added. Source explicitPartBmarks31,cover35;backyardchains unmarked proposed4could reconcile cover but remains labelledproposed. MissingPartAgrid separately proposed2. Trophiclevel/carnivorediet ambiguity flagged."
+      ],
+      "markAudit": {
+        "cover": 35,
+        "explicitPartB": 31,
+        "backyardChainsProposed": 4,
+        "missingPartAGridProposed": 2,
+        "chains": 14,
+        "sourceCountAnswers": {
+          "hawk": 4,
+          "earthworm": 2,
+          "fox": 6,
+          "owl": 3,
+          "snake": 4,
+          "small-insects": 1
+        }
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch92",
+      "questionIds": [],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2019/Investigation - Plant growth NEW.docx",
+          "sha": "0f1cffca0ac27f84f443157f0e33625841cc9c46",
+          "year": 9,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2014 9 SCIENCE CHEMISTRY ASSIGNMENT HISTORY OF THE ATOMIC MODEL.docx",
+          "sha": "c178fa6f9206ac79579ab6cb814a1bc4168082fa",
+          "year": 9,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2015 HISTORY OF THE ATOMIC MODEL.docx",
+          "sha": "3ba01dfebfa5b9306f1f9997839f213039cb4885",
+          "year": 9,
+          "role": "paper"
+        }
+      ],
+      "questions": 0,
+      "marks": 0,
+      "imageAudit": "question-source-packs/repo-science-batch92-audit.json",
+      "notes": [
+        "Threefullvariants manuallycompared with canonicaltasks rather than paraphrased as new questions. All sourcequestionaliases retain originalmarks and changedrubricnotes.2015atomicrubric shading/layout visuallychecked;education2 and reduceddiagram/notes/references allocations retained."
+      ],
+      "markAudit": {
+        "plant2019": 35,
+        "atomic2014": 42,
+        "atomic2015": 35,
+        "newQuestionCount": 0
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2019/Investigation - Plant growth NEW.docx",
+          "sourceFileSha": "0f1cffca0ac27f84f443157f0e33625841cc9c46",
+          "sourceQuestionNumber": "aim",
+          "sourceParagraphs": [
+            7,
+            8,
+            9
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-aim",
+          "reason": "Manually reviewed same response task;source rubric variation retained. Data table adds an Abiotic factor column;still max5columnmarks. Graphaxislabels0.5each(total1)and correctscale1 replace older axislabels1each(total2);graph remains7marks."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2019/Investigation - Plant growth NEW.docx",
+          "sourceFileSha": "0f1cffca0ac27f84f443157f0e33625841cc9c46",
+          "sourceQuestionNumber": "independent",
+          "sourceParagraphs": [
+            11,
+            12
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-independent",
+          "reason": "Manually reviewed same response task;source rubric variation retained. Data table adds an Abiotic factor column;still max5columnmarks. Graphaxislabels0.5each(total1)and correctscale1 replace older axislabels1each(total2);graph remains7marks."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2019/Investigation - Plant growth NEW.docx",
+          "sourceFileSha": "0f1cffca0ac27f84f443157f0e33625841cc9c46",
+          "sourceQuestionNumber": "dependent",
+          "sourceParagraphs": [
+            14,
+            15
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-dependent",
+          "reason": "Manually reviewed same response task;source rubric variation retained. Data table adds an Abiotic factor column;still max5columnmarks. Graphaxislabels0.5each(total1)and correctscale1 replace older axislabels1each(total2);graph remains7marks."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2019/Investigation - Plant growth NEW.docx",
+          "sourceFileSha": "0f1cffca0ac27f84f443157f0e33625841cc9c46",
+          "sourceQuestionNumber": "controls",
+          "sourceParagraphs": [
+            21,
+            22
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-controls",
+          "reason": "Manually reviewed same response task;source rubric variation retained. Data table adds an Abiotic factor column;still max5columnmarks. Graphaxislabels0.5each(total1)and correctscale1 replace older axislabels1each(total2);graph remains7marks."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2019/Investigation - Plant growth NEW.docx",
+          "sourceFileSha": "0f1cffca0ac27f84f443157f0e33625841cc9c46",
+          "sourceQuestionNumber": "hypothesis",
+          "sourceParagraphs": [
+            24,
+            25,
+            26,
+            27,
+            28
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-hypothesis",
+          "reason": "Manually reviewed same response task;source rubric variation retained. Data table adds an Abiotic factor column;still max5columnmarks. Graphaxislabels0.5each(total1)and correctscale1 replace older axislabels1each(total2);graph remains7marks."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2019/Investigation - Plant growth NEW.docx",
+          "sourceFileSha": "0f1cffca0ac27f84f443157f0e33625841cc9c46",
+          "sourceQuestionNumber": "abiotic-table",
+          "sourceParagraphs": [
+            32,
+            33,
+            34
+          ],
+          "sourceMarks": 7,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-abiotic-table",
+          "reason": "Manually reviewed same response task;source rubric variation retained. Data table adds an Abiotic factor column;still max5columnmarks. Graphaxislabels0.5each(total1)and correctscale1 replace older axislabels1each(total2);graph remains7marks."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2019/Investigation - Plant growth NEW.docx",
+          "sourceFileSha": "0f1cffca0ac27f84f443157f0e33625841cc9c46",
+          "sourceQuestionNumber": "growth-observations",
+          "sourceParagraphs": [
+            41,
+            42,
+            43
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-growth-observations",
+          "reason": "Manually reviewed same response task;source rubric variation retained. Data table adds an Abiotic factor column;still max5columnmarks. Graphaxislabels0.5each(total1)and correctscale1 replace older axislabels1each(total2);graph remains7marks."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2019/Investigation - Plant growth NEW.docx",
+          "sourceFileSha": "0f1cffca0ac27f84f443157f0e33625841cc9c46",
+          "sourceQuestionNumber": "graph",
+          "sourceParagraphs": [
+            45,
+            46
+          ],
+          "sourceMarks": 7,
+          "sourceType": "Diagram",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-graph",
+          "reason": "Manually reviewed same response task;source rubric variation retained. Data table adds an Abiotic factor column;still max5columnmarks. Graphaxislabels0.5each(total1)and correctscale1 replace older axislabels1each(total2);graph remains7marks."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2019/Investigation - Plant growth NEW.docx",
+          "sourceFileSha": "0f1cffca0ac27f84f443157f0e33625841cc9c46",
+          "sourceQuestionNumber": "discussion",
+          "sourceParagraphs": [
+            51,
+            52
+          ],
+          "sourceMarks": 10,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-discussion",
+          "reason": "Manually reviewed same response task;source rubric variation retained. Data table adds an Abiotic factor column;still max5columnmarks. Graphaxislabels0.5each(total1)and correctscale1 replace older axislabels1each(total2);graph remains7marks."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2014 9 SCIENCE CHEMISTRY ASSIGNMENT HISTORY OF THE ATOMIC MODEL.docx",
+          "sourceFileSha": "c178fa6f9206ac79579ab6cb814a1bc4168082fa",
+          "sourceQuestionNumber": "timeline",
+          "sourceParagraphs": [
+            19,
+            21,
+            22,
+            23,
+            109
+          ],
+          "sourceMarks": 12,
+          "sourceType": "Extended response",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-timeline",
+          "reason": "Manually reviewed same response task;source rubric variation retained. 2014cover42explicitly adds education2;2015cover35uses timeline11,science19,notes1,references2,presentation2.2015diagramminimumsizeinstructionhasnoadditionalmark."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2014 9 SCIENCE CHEMISTRY ASSIGNMENT HISTORY OF THE ATOMIC MODEL.docx",
+          "sourceFileSha": "c178fa6f9206ac79579ab6cb814a1bc4168082fa",
+          "sourceQuestionNumber": "birthdate",
+          "sourceParagraphs": [
+            33
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-birthdate",
+          "reason": "Manually reviewed same response task;source rubric variation retained. 2014cover42explicitly adds education2;2015cover35uses timeline11,science19,notes1,references2,presentation2.2015diagramminimumsizeinstructionhasnoadditionalmark."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2014 9 SCIENCE CHEMISTRY ASSIGNMENT HISTORY OF THE ATOMIC MODEL.docx",
+          "sourceFileSha": "c178fa6f9206ac79579ab6cb814a1bc4168082fa",
+          "sourceQuestionNumber": "birthplace",
+          "sourceParagraphs": [
+            34
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-birthplace",
+          "reason": "Manually reviewed same response task;source rubric variation retained. 2014cover42explicitly adds education2;2015cover35uses timeline11,science19,notes1,references2,presentation2.2015diagramminimumsizeinstructionhasnoadditionalmark."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2014 9 SCIENCE CHEMISTRY ASSIGNMENT HISTORY OF THE ATOMIC MODEL.docx",
+          "sourceFileSha": "c178fa6f9206ac79579ab6cb814a1bc4168082fa",
+          "sourceQuestionNumber": "death",
+          "sourceParagraphs": [
+            35
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-death",
+          "reason": "Manually reviewed same response task;source rubric variation retained. 2014cover42explicitly adds education2;2015cover35uses timeline11,science19,notes1,references2,presentation2.2015diagramminimumsizeinstructionhasnoadditionalmark."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2014 9 SCIENCE CHEMISTRY ASSIGNMENT HISTORY OF THE ATOMIC MODEL.docx",
+          "sourceFileSha": "c178fa6f9206ac79579ab6cb814a1bc4168082fa",
+          "sourceQuestionNumber": "earlylife",
+          "sourceParagraphs": [
+            36
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-earlylife",
+          "reason": "Manually reviewed same response task;source rubric variation retained. 2014cover42explicitly adds education2;2015cover35uses timeline11,science19,notes1,references2,presentation2.2015diagramminimumsizeinstructionhasnoadditionalmark."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2014 9 SCIENCE CHEMISTRY ASSIGNMENT HISTORY OF THE ATOMIC MODEL.docx",
+          "sourceFileSha": "c178fa6f9206ac79579ab6cb814a1bc4168082fa",
+          "sourceQuestionNumber": "education",
+          "sourceParagraphs": [
+            37
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-education",
+          "reason": "Manually reviewed same response task;source rubric variation retained. 2014cover42explicitly adds education2;2015cover35uses timeline11,science19,notes1,references2,presentation2.2015diagramminimumsizeinstructionhasnoadditionalmark."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2014 9 SCIENCE CHEMISTRY ASSIGNMENT HISTORY OF THE ATOMIC MODEL.docx",
+          "sourceFileSha": "c178fa6f9206ac79579ab6cb814a1bc4168082fa",
+          "sourceQuestionNumber": "worldhistory",
+          "sourceParagraphs": [
+            38
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-worldhistory",
+          "reason": "Manually reviewed same response task;source rubric variation retained. 2014cover42explicitly adds education2;2015cover35uses timeline11,science19,notes1,references2,presentation2.2015diagramminimumsizeinstructionhasnoadditionalmark."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2014 9 SCIENCE CHEMISTRY ASSIGNMENT HISTORY OF THE ATOMIC MODEL.docx",
+          "sourceFileSha": "c178fa6f9206ac79579ab6cb814a1bc4168082fa",
+          "sourceQuestionNumber": "model",
+          "sourceParagraphs": [
+            39,
+            40
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-model",
+          "reason": "Manually reviewed same response task;source rubric variation retained. 2014cover42explicitly adds education2;2015cover35uses timeline11,science19,notes1,references2,presentation2.2015diagramminimumsizeinstructionhasnoadditionalmark."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2014 9 SCIENCE CHEMISTRY ASSIGNMENT HISTORY OF THE ATOMIC MODEL.docx",
+          "sourceFileSha": "c178fa6f9206ac79579ab6cb814a1bc4168082fa",
+          "sourceQuestionNumber": "diagram",
+          "sourceParagraphs": [
+            41
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Diagram",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-diagram",
+          "reason": "Manually reviewed same response task;source rubric variation retained. 2014cover42explicitly adds education2;2015cover35uses timeline11,science19,notes1,references2,presentation2.2015diagramminimumsizeinstructionhasnoadditionalmark."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2014 9 SCIENCE CHEMISTRY ASSIGNMENT HISTORY OF THE ATOMIC MODEL.docx",
+          "sourceFileSha": "c178fa6f9206ac79579ab6cb814a1bc4168082fa",
+          "sourceQuestionNumber": "awards",
+          "sourceParagraphs": [
+            42
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-awards",
+          "reason": "Manually reviewed same response task;source rubric variation retained. 2014cover42explicitly adds education2;2015cover35uses timeline11,science19,notes1,references2,presentation2.2015diagramminimumsizeinstructionhasnoadditionalmark."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2014 9 SCIENCE CHEMISTRY ASSIGNMENT HISTORY OF THE ATOMIC MODEL.docx",
+          "sourceFileSha": "c178fa6f9206ac79579ab6cb814a1bc4168082fa",
+          "sourceQuestionNumber": "otherjobs",
+          "sourceParagraphs": [
+            43
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-otherjobs",
+          "reason": "Manually reviewed same response task;source rubric variation retained. 2014cover42explicitly adds education2;2015cover35uses timeline11,science19,notes1,references2,presentation2.2015diagramminimumsizeinstructionhasnoadditionalmark."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2014 9 SCIENCE CHEMISTRY ASSIGNMENT HISTORY OF THE ATOMIC MODEL.docx",
+          "sourceFileSha": "c178fa6f9206ac79579ab6cb814a1bc4168082fa",
+          "sourceQuestionNumber": "contributions",
+          "sourceParagraphs": [
+            44
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-contributions",
+          "reason": "Manually reviewed same response task;source rubric variation retained. 2014cover42explicitly adds education2;2015cover35uses timeline11,science19,notes1,references2,presentation2.2015diagramminimumsizeinstructionhasnoadditionalmark."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2014 9 SCIENCE CHEMISTRY ASSIGNMENT HISTORY OF THE ATOMIC MODEL.docx",
+          "sourceFileSha": "c178fa6f9206ac79579ab6cb814a1bc4168082fa",
+          "sourceQuestionNumber": "fact",
+          "sourceParagraphs": [
+            45
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-fact",
+          "reason": "Manually reviewed same response task;source rubric variation retained. 2014cover42explicitly adds education2;2015cover35uses timeline11,science19,notes1,references2,presentation2.2015diagramminimumsizeinstructionhasnoadditionalmark."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2014 9 SCIENCE CHEMISTRY ASSIGNMENT HISTORY OF THE ATOMIC MODEL.docx",
+          "sourceFileSha": "c178fa6f9206ac79579ab6cb814a1bc4168082fa",
+          "sourceQuestionNumber": "notes",
+          "sourceParagraphs": [
+            103,
+            104,
+            106
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-notes",
+          "reason": "Manually reviewed same response task;source rubric variation retained. 2014cover42explicitly adds education2;2015cover35uses timeline11,science19,notes1,references2,presentation2.2015diagramminimumsizeinstructionhasnoadditionalmark."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2014 9 SCIENCE CHEMISTRY ASSIGNMENT HISTORY OF THE ATOMIC MODEL.docx",
+          "sourceFileSha": "c178fa6f9206ac79579ab6cb814a1bc4168082fa",
+          "sourceQuestionNumber": "references",
+          "sourceParagraphs": [
+            59,
+            60,
+            61,
+            109
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-references",
+          "reason": "Manually reviewed same response task;source rubric variation retained. 2014cover42explicitly adds education2;2015cover35uses timeline11,science19,notes1,references2,presentation2.2015diagramminimumsizeinstructionhasnoadditionalmark."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2015 HISTORY OF THE ATOMIC MODEL.docx",
+          "sourceFileSha": "3ba01dfebfa5b9306f1f9997839f213039cb4885",
+          "sourceQuestionNumber": "timeline",
+          "sourceParagraphs": [
+            17,
+            19,
+            20,
+            21,
+            25,
+            27,
+            28,
+            29,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            48
+          ],
+          "sourceMarks": 11,
+          "sourceType": "Extended response",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-timeline",
+          "reason": "Manually reviewed same response task;source rubric variation retained. 2014cover42explicitly adds education2;2015cover35uses timeline11,science19,notes1,references2,presentation2.2015diagramminimumsizeinstructionhasnoadditionalmark."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2015 HISTORY OF THE ATOMIC MODEL.docx",
+          "sourceFileSha": "3ba01dfebfa5b9306f1f9997839f213039cb4885",
+          "sourceQuestionNumber": "birthdate",
+          "sourceParagraphs": [
+            17,
+            19,
+            20,
+            21,
+            25,
+            27,
+            28,
+            29,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            48
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-birthdate",
+          "reason": "Manually reviewed same response task;source rubric variation retained. 2014cover42explicitly adds education2;2015cover35uses timeline11,science19,notes1,references2,presentation2.2015diagramminimumsizeinstructionhasnoadditionalmark."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2015 HISTORY OF THE ATOMIC MODEL.docx",
+          "sourceFileSha": "3ba01dfebfa5b9306f1f9997839f213039cb4885",
+          "sourceQuestionNumber": "birthplace",
+          "sourceParagraphs": [
+            17,
+            19,
+            20,
+            21,
+            25,
+            27,
+            28,
+            29,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            48
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-birthplace",
+          "reason": "Manually reviewed same response task;source rubric variation retained. 2014cover42explicitly adds education2;2015cover35uses timeline11,science19,notes1,references2,presentation2.2015diagramminimumsizeinstructionhasnoadditionalmark."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2015 HISTORY OF THE ATOMIC MODEL.docx",
+          "sourceFileSha": "3ba01dfebfa5b9306f1f9997839f213039cb4885",
+          "sourceQuestionNumber": "death",
+          "sourceParagraphs": [
+            17,
+            19,
+            20,
+            21,
+            25,
+            27,
+            28,
+            29,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            48
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-death",
+          "reason": "Manually reviewed same response task;source rubric variation retained. 2014cover42explicitly adds education2;2015cover35uses timeline11,science19,notes1,references2,presentation2.2015diagramminimumsizeinstructionhasnoadditionalmark."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2015 HISTORY OF THE ATOMIC MODEL.docx",
+          "sourceFileSha": "3ba01dfebfa5b9306f1f9997839f213039cb4885",
+          "sourceQuestionNumber": "earlylife",
+          "sourceParagraphs": [
+            17,
+            19,
+            20,
+            21,
+            25,
+            27,
+            28,
+            29,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            48
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-earlylife",
+          "reason": "Manually reviewed same response task;source rubric variation retained. 2014cover42explicitly adds education2;2015cover35uses timeline11,science19,notes1,references2,presentation2.2015diagramminimumsizeinstructionhasnoadditionalmark."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2015 HISTORY OF THE ATOMIC MODEL.docx",
+          "sourceFileSha": "3ba01dfebfa5b9306f1f9997839f213039cb4885",
+          "sourceQuestionNumber": "education",
+          "sourceParagraphs": [
+            17,
+            19,
+            20,
+            21,
+            25,
+            27,
+            28,
+            29,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            48
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-education",
+          "reason": "Manually reviewed same response task;source rubric variation retained. 2014cover42explicitly adds education2;2015cover35uses timeline11,science19,notes1,references2,presentation2.2015diagramminimumsizeinstructionhasnoadditionalmark."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2015 HISTORY OF THE ATOMIC MODEL.docx",
+          "sourceFileSha": "3ba01dfebfa5b9306f1f9997839f213039cb4885",
+          "sourceQuestionNumber": "worldhistory",
+          "sourceParagraphs": [
+            17,
+            19,
+            20,
+            21,
+            25,
+            27,
+            28,
+            29,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            48
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-worldhistory",
+          "reason": "Manually reviewed same response task;source rubric variation retained. 2014cover42explicitly adds education2;2015cover35uses timeline11,science19,notes1,references2,presentation2.2015diagramminimumsizeinstructionhasnoadditionalmark."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2015 HISTORY OF THE ATOMIC MODEL.docx",
+          "sourceFileSha": "3ba01dfebfa5b9306f1f9997839f213039cb4885",
+          "sourceQuestionNumber": "model",
+          "sourceParagraphs": [
+            17,
+            19,
+            20,
+            21,
+            25,
+            27,
+            28,
+            29,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            48
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-model",
+          "reason": "Manually reviewed same response task;source rubric variation retained. 2014cover42explicitly adds education2;2015cover35uses timeline11,science19,notes1,references2,presentation2.2015diagramminimumsizeinstructionhasnoadditionalmark."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2015 HISTORY OF THE ATOMIC MODEL.docx",
+          "sourceFileSha": "3ba01dfebfa5b9306f1f9997839f213039cb4885",
+          "sourceQuestionNumber": "diagram",
+          "sourceParagraphs": [
+            17,
+            19,
+            20,
+            21,
+            25,
+            27,
+            28,
+            29,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            48
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Diagram",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-diagram",
+          "reason": "Manually reviewed same response task;source rubric variation retained. 2014cover42explicitly adds education2;2015cover35uses timeline11,science19,notes1,references2,presentation2.2015diagramminimumsizeinstructionhasnoadditionalmark."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2015 HISTORY OF THE ATOMIC MODEL.docx",
+          "sourceFileSha": "3ba01dfebfa5b9306f1f9997839f213039cb4885",
+          "sourceQuestionNumber": "awards",
+          "sourceParagraphs": [
+            17,
+            19,
+            20,
+            21,
+            25,
+            27,
+            28,
+            29,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            48
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-awards",
+          "reason": "Manually reviewed same response task;source rubric variation retained. 2014cover42explicitly adds education2;2015cover35uses timeline11,science19,notes1,references2,presentation2.2015diagramminimumsizeinstructionhasnoadditionalmark."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2015 HISTORY OF THE ATOMIC MODEL.docx",
+          "sourceFileSha": "3ba01dfebfa5b9306f1f9997839f213039cb4885",
+          "sourceQuestionNumber": "otherjobs",
+          "sourceParagraphs": [
+            17,
+            19,
+            20,
+            21,
+            25,
+            27,
+            28,
+            29,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            48
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-otherjobs",
+          "reason": "Manually reviewed same response task;source rubric variation retained. 2014cover42explicitly adds education2;2015cover35uses timeline11,science19,notes1,references2,presentation2.2015diagramminimumsizeinstructionhasnoadditionalmark."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2015 HISTORY OF THE ATOMIC MODEL.docx",
+          "sourceFileSha": "3ba01dfebfa5b9306f1f9997839f213039cb4885",
+          "sourceQuestionNumber": "contributions",
+          "sourceParagraphs": [
+            17,
+            19,
+            20,
+            21,
+            25,
+            27,
+            28,
+            29,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            48
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-contributions",
+          "reason": "Manually reviewed same response task;source rubric variation retained. 2014cover42explicitly adds education2;2015cover35uses timeline11,science19,notes1,references2,presentation2.2015diagramminimumsizeinstructionhasnoadditionalmark."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2015 HISTORY OF THE ATOMIC MODEL.docx",
+          "sourceFileSha": "3ba01dfebfa5b9306f1f9997839f213039cb4885",
+          "sourceQuestionNumber": "fact",
+          "sourceParagraphs": [
+            17,
+            19,
+            20,
+            21,
+            25,
+            27,
+            28,
+            29,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            48
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-fact",
+          "reason": "Manually reviewed same response task;source rubric variation retained. 2014cover42explicitly adds education2;2015cover35uses timeline11,science19,notes1,references2,presentation2.2015diagramminimumsizeinstructionhasnoadditionalmark."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2015 HISTORY OF THE ATOMIC MODEL.docx",
+          "sourceFileSha": "3ba01dfebfa5b9306f1f9997839f213039cb4885",
+          "sourceQuestionNumber": "notes",
+          "sourceParagraphs": [
+            17,
+            19,
+            20,
+            21,
+            25,
+            27,
+            28,
+            29,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            48
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-notes",
+          "reason": "Manually reviewed same response task;source rubric variation retained. 2014cover42explicitly adds education2;2015cover35uses timeline11,science19,notes1,references2,presentation2.2015diagramminimumsizeinstructionhasnoadditionalmark."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2015 HISTORY OF THE ATOMIC MODEL.docx",
+          "sourceFileSha": "3ba01dfebfa5b9306f1f9997839f213039cb4885",
+          "sourceQuestionNumber": "references",
+          "sourceParagraphs": [
+            17,
+            19,
+            20,
+            21,
+            25,
+            27,
+            28,
+            29,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            48
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-references",
+          "reason": "Manually reviewed same response task;source rubric variation retained. 2014cover42explicitly adds education2;2015cover35uses timeline11,science19,notes1,references2,presentation2.2015diagramminimumsizeinstructionhasnoadditionalmark."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch93",
+      "questionIds": [
+        "SCI-REPO-Y9-ARAN-2014-SHAMPOO-hypothesis",
+        "SCI-REPO-Y9-ARAN-2014-SHAMPOO-independent",
+        "SCI-REPO-Y9-ARAN-2014-SHAMPOO-dependent",
+        "SCI-REPO-Y9-ARAN-2014-SHAMPOO-controls",
+        "SCI-REPO-Y9-ARAN-2014-SHAMPOO-method",
+        "SCI-REPO-Y9-ARAN-2014-SHAMPOO-table",
+        "SCI-REPO-Y9-ARAN-2014-SHAMPOO-graph",
+        "SCI-REPO-Y9-ARAN-2014-SHAMPOO-discussion",
+        "SCI-REPO-Y9-ARAN-2014-SHAMPOO-water",
+        "SCI-REPO-Y9-ARAN-2014-SHAMPOO-indicator",
+        "SCI-REPO-Y9-ARAN-2014-SHAMPOO-conclusion",
+        "SCI-REPO-Y9-ARAN-2015-SHAMPOO-title",
+        "SCI-REPO-Y9-ARAN-2015-SHAMPOO-aim",
+        "SCI-REPO-Y9-ARAN-2015-SHAMPOO-materials",
+        "SCI-REPO-Y9-ARAN-2015-SHAMPOO-diagram",
+        "SCI-REPO-Y9-ARAN-2015-SHAMPOO-background",
+        "SCI-REPO-Y9-ARAN-2015-SHAMPOO-reliability",
+        "SCI-REPO-Y9-ARAN-2015-SHAMPOO-discussion",
+        "SCI-REPO-Y9-ARAN-2015-SHAMPOO-conclusion",
+        "SCI-REPO-Y9-ARAN-2015-SHAMPOO-references",
+        "SCI-REPO-Y9-ARAN-2013-SHAMPOO-discussion",
+        "SCI-REPO-Y9-ARAN-2013-SHAMPOO-finding",
+        "SCI-REPO-Y9-ARAN-2013-SHAMPOO-support",
+        "SCI-REPO-Y9-ARAN-2013-SHAMPOO-relationship"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2014 9 SCIENCE SHAMPOO INVESTIGATION.docx",
+          "sha": "6576fdc6d52c71aaf2b95307ed4794758c5d61d3",
+          "year": 9,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2015 SHAMPOO PRAC.docx",
+          "sha": "ce55762e4eb265ac820500fe8e8d0dd9c71ee88a",
+          "year": 9,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/9 SCIENCE CHEMISTRY SHAMPOO PRAC 2013.docx",
+          "sha": "d4c95a195285c4e4363d1f7df9b8f833c0f4af57",
+          "year": 9,
+          "role": "paper"
+        }
+      ],
+      "questions": 24,
+      "marks": 58,
+      "imageAudit": "question-source-packs/repo-science-batch93-audit.json",
+      "notes": [
+        "Threefullshampooinvestigations reviewed.2014:30task+2presentation=32.2015fullreport37marks includes7method asmethod3+diagram2+reliability2.2013design30marks;unmarkedgraphtypequestionretainedwithgraph5ratherthanaddedagain. Sharedtaskaliasesretainmarkdifferences;distinctdiscussion/conclusionpromptsremainseparate."
+      ],
+      "markAudit": {
+        "2014": 32,
+        "2015": 37,
+        "2013": 30,
+        "pHReadings": "Actualobservationsrequired"
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2015 SHAMPOO PRAC.docx",
+          "sourceFileSha": "ce55762e4eb265ac820500fe8e8d0dd9c71ee88a",
+          "sourceQuestionNumber": "hypothesis",
+          "sourceParagraphs": [
+            33
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-SHAMPOO-hypothesis",
+          "reason": "Manually reviewed same pH investigation response task;original variant marks retained."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2015 SHAMPOO PRAC.docx",
+          "sourceFileSha": "ce55762e4eb265ac820500fe8e8d0dd9c71ee88a",
+          "sourceQuestionNumber": "independent",
+          "sourceParagraphs": [
+            33
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-SHAMPOO-independent",
+          "reason": "Manually reviewed same pH investigation response task;original variant marks retained."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2015 SHAMPOO PRAC.docx",
+          "sourceFileSha": "ce55762e4eb265ac820500fe8e8d0dd9c71ee88a",
+          "sourceQuestionNumber": "dependent",
+          "sourceParagraphs": [
+            33
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-SHAMPOO-dependent",
+          "reason": "Manually reviewed same pH investigation response task;original variant marks retained."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2015 SHAMPOO PRAC.docx",
+          "sourceFileSha": "ce55762e4eb265ac820500fe8e8d0dd9c71ee88a",
+          "sourceQuestionNumber": "controls",
+          "sourceParagraphs": [
+            33
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-SHAMPOO-controls",
+          "reason": "Manually reviewed same pH investigation response task;original variant marks retained."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2015 SHAMPOO PRAC.docx",
+          "sourceFileSha": "ce55762e4eb265ac820500fe8e8d0dd9c71ee88a",
+          "sourceQuestionNumber": "method",
+          "sourceParagraphs": [
+            33
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-SHAMPOO-method",
+          "reason": "Manually reviewed same pH investigation response task;original variant marks retained."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2015 SHAMPOO PRAC.docx",
+          "sourceFileSha": "ce55762e4eb265ac820500fe8e8d0dd9c71ee88a",
+          "sourceQuestionNumber": "table",
+          "sourceParagraphs": [
+            33
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-SHAMPOO-table",
+          "reason": "Manually reviewed same pH investigation response task;original variant marks retained."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2015 SHAMPOO PRAC.docx",
+          "sourceFileSha": "ce55762e4eb265ac820500fe8e8d0dd9c71ee88a",
+          "sourceQuestionNumber": "graph",
+          "sourceParagraphs": [
+            33
+          ],
+          "sourceMarks": 5,
+          "sourceType": "Diagram",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-SHAMPOO-graph",
+          "reason": "Manually reviewed same pH investigation response task;original variant marks retained."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/9 SCIENCE CHEMISTRY SHAMPOO PRAC 2013.docx",
+          "sourceFileSha": "d4c95a195285c4e4363d1f7df9b8f833c0f4af57",
+          "sourceQuestionNumber": "hypothesis",
+          "sourceParagraphs": [
+            34,
+            47,
+            48,
+            49,
+            52,
+            54,
+            59,
+            62,
+            68,
+            82,
+            114,
+            115,
+            145,
+            156
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-SHAMPOO-hypothesis",
+          "reason": "Manually reviewed same pH investigation response task;original variant marks retained."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/9 SCIENCE CHEMISTRY SHAMPOO PRAC 2013.docx",
+          "sourceFileSha": "d4c95a195285c4e4363d1f7df9b8f833c0f4af57",
+          "sourceQuestionNumber": "independent",
+          "sourceParagraphs": [
+            34,
+            47,
+            48,
+            49,
+            52,
+            54,
+            59,
+            62,
+            68,
+            82,
+            114,
+            115,
+            145,
+            156
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-SHAMPOO-independent",
+          "reason": "Manually reviewed same pH investigation response task;original variant marks retained."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/9 SCIENCE CHEMISTRY SHAMPOO PRAC 2013.docx",
+          "sourceFileSha": "d4c95a195285c4e4363d1f7df9b8f833c0f4af57",
+          "sourceQuestionNumber": "dependent",
+          "sourceParagraphs": [
+            34,
+            47,
+            48,
+            49,
+            52,
+            54,
+            59,
+            62,
+            68,
+            82,
+            114,
+            115,
+            145,
+            156
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-SHAMPOO-dependent",
+          "reason": "Manually reviewed same pH investigation response task;original variant marks retained."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/9 SCIENCE CHEMISTRY SHAMPOO PRAC 2013.docx",
+          "sourceFileSha": "d4c95a195285c4e4363d1f7df9b8f833c0f4af57",
+          "sourceQuestionNumber": "controls",
+          "sourceParagraphs": [
+            34,
+            47,
+            48,
+            49,
+            52,
+            54,
+            59,
+            62,
+            68,
+            82,
+            114,
+            115,
+            145,
+            156
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-SHAMPOO-controls",
+          "reason": "Manually reviewed same pH investigation response task;original variant marks retained."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/9 SCIENCE CHEMISTRY SHAMPOO PRAC 2013.docx",
+          "sourceFileSha": "d4c95a195285c4e4363d1f7df9b8f833c0f4af57",
+          "sourceQuestionNumber": "method",
+          "sourceParagraphs": [
+            34,
+            47,
+            48,
+            49,
+            52,
+            54,
+            59,
+            62,
+            68,
+            82,
+            114,
+            115,
+            145,
+            156
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-SHAMPOO-method",
+          "reason": "Manually reviewed same pH investigation response task;original variant marks retained."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/9 SCIENCE CHEMISTRY SHAMPOO PRAC 2013.docx",
+          "sourceFileSha": "d4c95a195285c4e4363d1f7df9b8f833c0f4af57",
+          "sourceQuestionNumber": "table",
+          "sourceParagraphs": [
+            34,
+            47,
+            48,
+            49,
+            52,
+            54,
+            59,
+            62,
+            68,
+            82,
+            114,
+            115,
+            145,
+            156
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-SHAMPOO-table",
+          "reason": "Manually reviewed same pH investigation response task;original variant marks retained."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/9 SCIENCE CHEMISTRY SHAMPOO PRAC 2013.docx",
+          "sourceFileSha": "d4c95a195285c4e4363d1f7df9b8f833c0f4af57",
+          "sourceQuestionNumber": "graph",
+          "sourceParagraphs": [
+            34,
+            47,
+            48,
+            49,
+            52,
+            54,
+            59,
+            62,
+            68,
+            82,
+            114,
+            115,
+            145,
+            156
+          ],
+          "sourceMarks": 5,
+          "sourceType": "Diagram",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-SHAMPOO-graph",
+          "reason": "Manually reviewed same pH investigation response task;original variant marks retained."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/9 SCIENCE CHEMISTRY SHAMPOO PRAC 2013.docx",
+          "sourceFileSha": "d4c95a195285c4e4363d1f7df9b8f833c0f4af57",
+          "sourceQuestionNumber": "title",
+          "sourceParagraphs": [
+            34,
+            47,
+            48,
+            62,
+            82,
+            174,
+            183,
+            187,
+            192,
+            194,
+            195
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2015-SHAMPOO-title",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/9 SCIENCE CHEMISTRY SHAMPOO PRAC 2013.docx",
+          "sourceFileSha": "d4c95a195285c4e4363d1f7df9b8f833c0f4af57",
+          "sourceQuestionNumber": "aim",
+          "sourceParagraphs": [
+            34,
+            47,
+            48,
+            62,
+            82,
+            174,
+            183,
+            187,
+            192,
+            194,
+            195
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2015-SHAMPOO-aim",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/9 SCIENCE CHEMISTRY SHAMPOO PRAC 2013.docx",
+          "sourceFileSha": "d4c95a195285c4e4363d1f7df9b8f833c0f4af57",
+          "sourceQuestionNumber": "materials",
+          "sourceParagraphs": [
+            34,
+            47,
+            48,
+            62,
+            82,
+            174,
+            183,
+            187,
+            192,
+            194,
+            195
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2015-SHAMPOO-materials",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/9 SCIENCE CHEMISTRY SHAMPOO PRAC 2013.docx",
+          "sourceFileSha": "d4c95a195285c4e4363d1f7df9b8f833c0f4af57",
+          "sourceQuestionNumber": "diagram",
+          "sourceParagraphs": [
+            34,
+            47,
+            48,
+            62,
+            82,
+            174,
+            183,
+            187,
+            192,
+            194,
+            195
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Diagram",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2015-SHAMPOO-diagram",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch94",
+      "questionIds": [
+        "SCI-REPO-Y9-ARAN-2013-ELEMENTNEWS-name",
+        "SCI-REPO-Y9-ARAN-2013-ELEMENTNEWS-numbers",
+        "SCI-REPO-Y9-ARAN-2013-ELEMENTNEWS-shells",
+        "SCI-REPO-Y9-ARAN-2013-ELEMENTNEWS-particles",
+        "SCI-REPO-Y9-ARAN-2013-ELEMENTNEWS-location",
+        "SCI-REPO-Y9-ARAN-2013-ELEMENTNEWS-discovery",
+        "SCI-REPO-Y9-ARAN-2013-ELEMENTNEWS-features",
+        "SCI-REPO-Y9-ARAN-2013-ELEMENTNEWS-bibliography",
+        "SCI-REPO-Y9-ARAN-2013-ELEMENTNEWS-draft"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/9 SCIENCE CHEMSITRY ELEMENT ASSIGNMENT 2013.docx",
+          "sha": "94b2e14a03b0ad96c09b2aa96faf92ee4d3aaa63",
+          "year": 9,
+          "role": "paper"
+        }
+      ],
+      "questions": 9,
+      "marks": 19,
+      "imageAudit": "question-source-packs/repo-science-batch94-audit.json",
+      "notes": [
+        "Completeelementarticletemplate reviewed. SourceWordshadingandrenderedrubricverified:18task+2presentation=20. Draftsubmissionisaseparateunmarkedrequirement(proposed1). Element/isotopeblankrecorded;massnumberdistinguishedfromaverageatomicmass."
+      ],
+      "markAudit": {
+        "cover": 20,
+        "taskMarks": 18,
+        "presentation": 2,
+        "draftProposedAdditional": 1,
+        "rubricMaximums": {
+          "name": 1,
+          "numbers": 2,
+          "shells": 2,
+          "particles": 3,
+          "location": 2,
+          "discovery": 3,
+          "features": 4,
+          "presentation": 2,
+          "bibliography": 1
+        }
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch95",
+      "questionIds": [
+        "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-MC01",
+        "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-MC02",
+        "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-MC06",
+        "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-MC07",
+        "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-MC11",
+        "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-MC12",
+        "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-MC13",
+        "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-MC14",
+        "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-MC15",
+        "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-MC16",
+        "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-MC17",
+        "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-MC18",
+        "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-MC19",
+        "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-MC20",
+        "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-W1",
+        "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-W2a",
+        "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-W2b",
+        "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-observations-a",
+        "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-observations-b",
+        "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-size",
+        "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-temperature",
+        "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-classification-a",
+        "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-classification-b",
+        "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-classification-c",
+        "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-classification-d",
+        "SCI-REPO-Y9-NARR-2019-REACTIONTYPES-MC12",
+        "SCI-REPO-Y9-NARR-2019-REACTIONTYPES-MC18",
+        "SCI-REPO-Y9-NARR-2019-REACTIONTYPES-W3a",
+        "SCI-REPO-Y9-NARR-2019-REACTIONTYPES-W3b",
+        "SCI-REPO-Y9-NARR-2019-REACTIONTYPES-W3c",
+        "SCI-REPO-Y9-NARR-2019-REACTIONTYPES-observations-b",
+        "SCI-REPO-Y9-NARR-2019-REACTIONTYPES-temperature",
+        "SCI-REPO-Y9-NARR-2020-REACTIONTYPES-size",
+        "SCI-REPO-Y9-NARR-2020-REACTIONTYPES-temperature",
+        "SCI-REPO-Y9-NARR-2020-REACTIONTYPES-classification-a",
+        "SCI-REPO-Y9-NARR-2020-REACTIONTYPES-classification-b",
+        "SCI-REPO-Y9-NARR-2020-REACTIONTYPES-classification-c",
+        "SCI-REPO-Y9-NARR-2020-REACTIONTYPES-classification-d"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2018/chemistry 2 Test.docx",
+          "sha": "418d895106fa39784940ed0969d09f4d22f26699",
+          "year": 9,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2019/9 Reaction Types test 2019.docx",
+          "sha": "10bd26e8a7265349613d4cc02c22193a304f5d33",
+          "year": 9,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2020/9 Reaction Types test 2020.docx",
+          "sha": "2daf51292a84d167aa2991d1ea5b958a8f368d46",
+          "year": 9,
+          "role": "paper"
+        }
+      ],
+      "questions": 38,
+      "marks": 46,
+      "imageAudit": "question-source-packs/repo-science-batch95-audit.json",
+      "notes": [
+        "ThreecompleteReactionTypespapers reviewed.2018cover35=20MC+15written;2019/2020add6balancing/classificationmarks,total41.2018MC13has5options,all retained and excluded from battles.2018MC20has no valid combustion answer. NaF/Br2formal balance preserved but infeasible reaction flagged. Source observation image retained."
+      ],
+      "markAudit": {
+        "2018": 35,
+        "2019": 41,
+        "2020": 41,
+        "ambiguousOrInvalidMC": [
+          6,
+          12
+        ],
+        "2018ExtraIssues": [
+          13,
+          20
+        ]
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2018/chemistry 2 Test.docx",
+          "sourceFileSha": "418d895106fa39784940ed0969d09f4d22f26699",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NAR-2023-REACTIONS-MC03",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2018/chemistry 2 Test.docx",
+          "sourceFileSha": "418d895106fa39784940ed0969d09f4d22f26699",
+          "sourceQuestionNumber": "4",
+          "sourceParagraphs": [
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NAR-2023-REACTIONS-MC04",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2018/chemistry 2 Test.docx",
+          "sourceFileSha": "418d895106fa39784940ed0969d09f4d22f26699",
+          "sourceQuestionNumber": "5",
+          "sourceParagraphs": [
+            29,
+            30,
+            31,
+            32,
+            33
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NAR-2023-REACTIONS-MC05",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2018/chemistry 2 Test.docx",
+          "sourceFileSha": "418d895106fa39784940ed0969d09f4d22f26699",
+          "sourceQuestionNumber": "8",
+          "sourceParagraphs": [
+            52,
+            53,
+            54,
+            55,
+            56
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NAR-2023-REACTIONS-MC08",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2018/chemistry 2 Test.docx",
+          "sourceFileSha": "418d895106fa39784940ed0969d09f4d22f26699",
+          "sourceQuestionNumber": "9",
+          "sourceParagraphs": [
+            58,
+            59,
+            60,
+            61,
+            62
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NAR-2023-REACTIONS-MC09",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2018/chemistry 2 Test.docx",
+          "sourceFileSha": "418d895106fa39784940ed0969d09f4d22f26699",
+          "sourceQuestionNumber": "10",
+          "sourceParagraphs": [
+            64,
+            65,
+            66,
+            67,
+            68
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NAR-2023-REACTIONS-MC10",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2019/9 Reaction Types test 2019.docx",
+          "sourceFileSha": "10bd26e8a7265349613d4cc02c22193a304f5d33",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NAR-2023-REACTIONS-MC01",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2019/9 Reaction Types test 2019.docx",
+          "sourceFileSha": "10bd26e8a7265349613d4cc02c22193a304f5d33",
+          "sourceQuestionNumber": "2",
+          "sourceParagraphs": [
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-MC02",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2019/9 Reaction Types test 2019.docx",
+          "sourceFileSha": "10bd26e8a7265349613d4cc02c22193a304f5d33",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NAR-2023-REACTIONS-MC03",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2019/9 Reaction Types test 2019.docx",
+          "sourceFileSha": "10bd26e8a7265349613d4cc02c22193a304f5d33",
+          "sourceQuestionNumber": "4",
+          "sourceParagraphs": [
+            26,
+            27,
+            28,
+            29,
+            30
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NAR-2023-REACTIONS-MC04",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2019/9 Reaction Types test 2019.docx",
+          "sourceFileSha": "10bd26e8a7265349613d4cc02c22193a304f5d33",
+          "sourceQuestionNumber": "5",
+          "sourceParagraphs": [
+            32,
+            33,
+            34,
+            35,
+            36
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NAR-2023-REACTIONS-MC05",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2019/9 Reaction Types test 2019.docx",
+          "sourceFileSha": "10bd26e8a7265349613d4cc02c22193a304f5d33",
+          "sourceQuestionNumber": "6",
+          "sourceParagraphs": [
+            38,
+            39,
+            40,
+            41,
+            42
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-MC06",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "D is intended:forming a solid from a liquid can be freezing (physical) or precipitation (chemical). The statement alone does not uniquely diagnose a chemical change;interpret the stated event.",
+            "note": "D is intended:forming a solid from a liquid can be freezing (physical) or precipitation (chemical). The statement alone does not uniquely diagnose a chemical change;interpret the stated event."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2019/9 Reaction Types test 2019.docx",
+          "sourceFileSha": "10bd26e8a7265349613d4cc02c22193a304f5d33",
+          "sourceQuestionNumber": "7",
+          "sourceParagraphs": [
+            43,
+            44,
+            45,
+            46,
+            47,
+            48
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-MC07",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2019/9 Reaction Types test 2019.docx",
+          "sourceFileSha": "10bd26e8a7265349613d4cc02c22193a304f5d33",
+          "sourceQuestionNumber": "8",
+          "sourceParagraphs": [
+            50,
+            51,
+            52,
+            53,
+            54
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NAR-2023-REACTIONS-MC08",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2019/9 Reaction Types test 2019.docx",
+          "sourceFileSha": "10bd26e8a7265349613d4cc02c22193a304f5d33",
+          "sourceQuestionNumber": "9",
+          "sourceParagraphs": [
+            56,
+            57,
+            58,
+            59,
+            60
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NAR-2023-REACTIONS-MC09",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2019/9 Reaction Types test 2019.docx",
+          "sourceFileSha": "10bd26e8a7265349613d4cc02c22193a304f5d33",
+          "sourceQuestionNumber": "10",
+          "sourceParagraphs": [
+            62,
+            63,
+            64,
+            65,
+            66
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NAR-2023-REACTIONS-MC10",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2019/9 Reaction Types test 2019.docx",
+          "sourceFileSha": "10bd26e8a7265349613d4cc02c22193a304f5d33",
+          "sourceQuestionNumber": "11",
+          "sourceParagraphs": [
+            68,
+            69,
+            70,
+            71,
+            72
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NAR-2023-REACTIONS-MC11",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2019/9 Reaction Types test 2019.docx",
+          "sourceFileSha": "10bd26e8a7265349613d4cc02c22193a304f5d33",
+          "sourceQuestionNumber": "13",
+          "sourceParagraphs": [
+            84,
+            85,
+            86,
+            87,
+            88
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NAR-2023-REACTIONS-MC13",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2019/9 Reaction Types test 2019.docx",
+          "sourceFileSha": "10bd26e8a7265349613d4cc02c22193a304f5d33",
+          "sourceQuestionNumber": "14",
+          "sourceParagraphs": [
+            90,
+            91,
+            92,
+            93,
+            94
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-MC14",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2019/9 Reaction Types test 2019.docx",
+          "sourceFileSha": "10bd26e8a7265349613d4cc02c22193a304f5d33",
+          "sourceQuestionNumber": "15",
+          "sourceParagraphs": [
+            98,
+            99,
+            100,
+            101,
+            102,
+            97
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-MC15",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2019/9 Reaction Types test 2019.docx",
+          "sourceFileSha": "10bd26e8a7265349613d4cc02c22193a304f5d33",
+          "sourceQuestionNumber": "16",
+          "sourceParagraphs": [
+            104,
+            105,
+            106,
+            107,
+            108,
+            97
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-MC16",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2019/9 Reaction Types test 2019.docx",
+          "sourceFileSha": "10bd26e8a7265349613d4cc02c22193a304f5d33",
+          "sourceQuestionNumber": "17",
+          "sourceParagraphs": [
+            110,
+            111,
+            112,
+            113,
+            114,
+            97
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-MC17",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2019/9 Reaction Types test 2019.docx",
+          "sourceFileSha": "10bd26e8a7265349613d4cc02c22193a304f5d33",
+          "sourceQuestionNumber": "19",
+          "sourceParagraphs": [
+            121,
+            122,
+            123,
+            124,
+            125
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-MC19",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2019/9 Reaction Types test 2019.docx",
+          "sourceFileSha": "10bd26e8a7265349613d4cc02c22193a304f5d33",
+          "sourceQuestionNumber": "20",
+          "sourceParagraphs": [
+            127,
+            128,
+            129,
+            130,
+            131
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NAR-2023-REACTIONS-MC20",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2019/9 Reaction Types test 2019.docx",
+          "sourceFileSha": "10bd26e8a7265349613d4cc02c22193a304f5d33",
+          "sourceQuestionNumber": "W1",
+          "sourceParagraphs": [
+            162,
+            164
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-W1",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2019/9 Reaction Types test 2019.docx",
+          "sourceFileSha": "10bd26e8a7265349613d4cc02c22193a304f5d33",
+          "sourceQuestionNumber": "W2a",
+          "sourceParagraphs": [
+            167
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-W2a",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2019/9 Reaction Types test 2019.docx",
+          "sourceFileSha": "10bd26e8a7265349613d4cc02c22193a304f5d33",
+          "sourceQuestionNumber": "W2b",
+          "sourceParagraphs": [
+            173
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-W2b",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2019/9 Reaction Types test 2019.docx",
+          "sourceFileSha": "10bd26e8a7265349613d4cc02c22193a304f5d33",
+          "sourceQuestionNumber": "observations-a",
+          "sourceParagraphs": [
+            195,
+            193
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-observations-a",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2019/9 Reaction Types test 2019.docx",
+          "sourceFileSha": "10bd26e8a7265349613d4cc02c22193a304f5d33",
+          "sourceQuestionNumber": "size",
+          "sourceParagraphs": [
+            202
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-size",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2019/9 Reaction Types test 2019.docx",
+          "sourceFileSha": "10bd26e8a7265349613d4cc02c22193a304f5d33",
+          "sourceQuestionNumber": "classification-a",
+          "sourceParagraphs": [
+            209
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-classification-a",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2019/9 Reaction Types test 2019.docx",
+          "sourceFileSha": "10bd26e8a7265349613d4cc02c22193a304f5d33",
+          "sourceQuestionNumber": "classification-b",
+          "sourceParagraphs": [
+            210
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-classification-b",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2019/9 Reaction Types test 2019.docx",
+          "sourceFileSha": "10bd26e8a7265349613d4cc02c22193a304f5d33",
+          "sourceQuestionNumber": "classification-c",
+          "sourceParagraphs": [
+            211
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-classification-c",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2019/9 Reaction Types test 2019.docx",
+          "sourceFileSha": "10bd26e8a7265349613d4cc02c22193a304f5d33",
+          "sourceQuestionNumber": "classification-d",
+          "sourceParagraphs": [
+            212
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-classification-d",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2020/9 Reaction Types test 2020.docx",
+          "sourceFileSha": "2daf51292a84d167aa2991d1ea5b958a8f368d46",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NAR-2023-REACTIONS-MC01",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2020/9 Reaction Types test 2020.docx",
+          "sourceFileSha": "2daf51292a84d167aa2991d1ea5b958a8f368d46",
+          "sourceQuestionNumber": "2",
+          "sourceParagraphs": [
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-MC02",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2020/9 Reaction Types test 2020.docx",
+          "sourceFileSha": "2daf51292a84d167aa2991d1ea5b958a8f368d46",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NAR-2023-REACTIONS-MC03",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2020/9 Reaction Types test 2020.docx",
+          "sourceFileSha": "2daf51292a84d167aa2991d1ea5b958a8f368d46",
+          "sourceQuestionNumber": "4",
+          "sourceParagraphs": [
+            26,
+            27,
+            28,
+            29,
+            30
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NAR-2023-REACTIONS-MC04",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2020/9 Reaction Types test 2020.docx",
+          "sourceFileSha": "2daf51292a84d167aa2991d1ea5b958a8f368d46",
+          "sourceQuestionNumber": "5",
+          "sourceParagraphs": [
+            32,
+            33,
+            34,
+            35,
+            36
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NAR-2023-REACTIONS-MC05",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2020/9 Reaction Types test 2020.docx",
+          "sourceFileSha": "2daf51292a84d167aa2991d1ea5b958a8f368d46",
+          "sourceQuestionNumber": "6",
+          "sourceParagraphs": [
+            38,
+            39,
+            40,
+            41,
+            42
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-MC06",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "D is intended:forming a solid from a liquid can be freezing (physical) or precipitation (chemical). The statement alone does not uniquely diagnose a chemical change;interpret the stated event.",
+            "note": "D is intended:forming a solid from a liquid can be freezing (physical) or precipitation (chemical). The statement alone does not uniquely diagnose a chemical change;interpret the stated event."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2020/9 Reaction Types test 2020.docx",
+          "sourceFileSha": "2daf51292a84d167aa2991d1ea5b958a8f368d46",
+          "sourceQuestionNumber": "7",
+          "sourceParagraphs": [
+            43,
+            44,
+            45,
+            46,
+            47,
+            48
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-MC07",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2020/9 Reaction Types test 2020.docx",
+          "sourceFileSha": "2daf51292a84d167aa2991d1ea5b958a8f368d46",
+          "sourceQuestionNumber": "8",
+          "sourceParagraphs": [
+            50,
+            51,
+            52,
+            53,
+            54
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NAR-2023-REACTIONS-MC08",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2020/9 Reaction Types test 2020.docx",
+          "sourceFileSha": "2daf51292a84d167aa2991d1ea5b958a8f368d46",
+          "sourceQuestionNumber": "9",
+          "sourceParagraphs": [
+            56,
+            57,
+            58,
+            59,
+            60
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NAR-2023-REACTIONS-MC09",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2020/9 Reaction Types test 2020.docx",
+          "sourceFileSha": "2daf51292a84d167aa2991d1ea5b958a8f368d46",
+          "sourceQuestionNumber": "10",
+          "sourceParagraphs": [
+            62,
+            63,
+            64,
+            65,
+            66
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NAR-2023-REACTIONS-MC10",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2020/9 Reaction Types test 2020.docx",
+          "sourceFileSha": "2daf51292a84d167aa2991d1ea5b958a8f368d46",
+          "sourceQuestionNumber": "11",
+          "sourceParagraphs": [
+            68,
+            69,
+            70,
+            71,
+            72
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NAR-2023-REACTIONS-MC11",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2020/9 Reaction Types test 2020.docx",
+          "sourceFileSha": "2daf51292a84d167aa2991d1ea5b958a8f368d46",
+          "sourceQuestionNumber": "12",
+          "sourceParagraphs": [
+            77,
+            78,
+            79,
+            80,
+            81,
+            82
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NARR-2019-REACTIONTYPES-MC12",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "Formal atom balancing requires coefficient2:2NaF + Br2 →2NaBr + F2. This is not a plausible spontaneous halogen displacement under ordinary conditions:Br2 cannot displace fluoride to produce F2. Separate formal balancing from chemical feasibility.",
+            "note": "Formal atom balancing requires coefficient2:2NaF + Br2 →2NaBr + F2. This is not a plausible spontaneous halogen displacement under ordinary conditions:Br2 cannot displace fluoride to produce F2. Separate formal balancing from chemical feasibility."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2020/9 Reaction Types test 2020.docx",
+          "sourceFileSha": "2daf51292a84d167aa2991d1ea5b958a8f368d46",
+          "sourceQuestionNumber": "13",
+          "sourceParagraphs": [
+            84,
+            85,
+            86,
+            87,
+            88
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NAR-2023-REACTIONS-MC13",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2020/9 Reaction Types test 2020.docx",
+          "sourceFileSha": "2daf51292a84d167aa2991d1ea5b958a8f368d46",
+          "sourceQuestionNumber": "14",
+          "sourceParagraphs": [
+            90,
+            91,
+            92,
+            93,
+            94
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-MC14",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2020/9 Reaction Types test 2020.docx",
+          "sourceFileSha": "2daf51292a84d167aa2991d1ea5b958a8f368d46",
+          "sourceQuestionNumber": "15",
+          "sourceParagraphs": [
+            98,
+            99,
+            100,
+            101,
+            102,
+            97
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-MC15",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2020/9 Reaction Types test 2020.docx",
+          "sourceFileSha": "2daf51292a84d167aa2991d1ea5b958a8f368d46",
+          "sourceQuestionNumber": "16",
+          "sourceParagraphs": [
+            104,
+            105,
+            106,
+            107,
+            108,
+            97
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-MC16",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2020/9 Reaction Types test 2020.docx",
+          "sourceFileSha": "2daf51292a84d167aa2991d1ea5b958a8f368d46",
+          "sourceQuestionNumber": "17",
+          "sourceParagraphs": [
+            110,
+            111,
+            112,
+            113,
+            114,
+            97
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-MC17",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2020/9 Reaction Types test 2020.docx",
+          "sourceFileSha": "2daf51292a84d167aa2991d1ea5b958a8f368d46",
+          "sourceQuestionNumber": "18",
+          "sourceParagraphs": [
+            115,
+            116,
+            117,
+            118,
+            119
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NARR-2019-REACTIONTYPES-MC18",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2020/9 Reaction Types test 2020.docx",
+          "sourceFileSha": "2daf51292a84d167aa2991d1ea5b958a8f368d46",
+          "sourceQuestionNumber": "19",
+          "sourceParagraphs": [
+            121,
+            122,
+            123,
+            124,
+            125
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-MC19",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2020/9 Reaction Types test 2020.docx",
+          "sourceFileSha": "2daf51292a84d167aa2991d1ea5b958a8f368d46",
+          "sourceQuestionNumber": "20",
+          "sourceParagraphs": [
+            127,
+            128,
+            129,
+            130,
+            131
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-NAR-2023-REACTIONS-MC20",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2020/9 Reaction Types test 2020.docx",
+          "sourceFileSha": "2daf51292a84d167aa2991d1ea5b958a8f368d46",
+          "sourceQuestionNumber": "W1",
+          "sourceParagraphs": [
+            162,
+            164
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-W1",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2020/9 Reaction Types test 2020.docx",
+          "sourceFileSha": "2daf51292a84d167aa2991d1ea5b958a8f368d46",
+          "sourceQuestionNumber": "W2a",
+          "sourceParagraphs": [
+            167
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-W2a",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2020/9 Reaction Types test 2020.docx",
+          "sourceFileSha": "2daf51292a84d167aa2991d1ea5b958a8f368d46",
+          "sourceQuestionNumber": "W2b",
+          "sourceParagraphs": [
+            173
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-W2b",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2020/9 Reaction Types test 2020.docx",
+          "sourceFileSha": "2daf51292a84d167aa2991d1ea5b958a8f368d46",
+          "sourceQuestionNumber": "W3a",
+          "sourceParagraphs": [
+            181,
+            183
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-NARR-2019-REACTIONTYPES-W3a",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2020/9 Reaction Types test 2020.docx",
+          "sourceFileSha": "2daf51292a84d167aa2991d1ea5b958a8f368d46",
+          "sourceQuestionNumber": "W3b",
+          "sourceParagraphs": [
+            181,
+            186
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-NARR-2019-REACTIONTYPES-W3b",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2020/9 Reaction Types test 2020.docx",
+          "sourceFileSha": "2daf51292a84d167aa2991d1ea5b958a8f368d46",
+          "sourceQuestionNumber": "W3c",
+          "sourceParagraphs": [
+            181,
+            189
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-NARR-2019-REACTIONTYPES-W3c",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2020/9 Reaction Types test 2020.docx",
+          "sourceFileSha": "2daf51292a84d167aa2991d1ea5b958a8f368d46",
+          "sourceQuestionNumber": "observations-a",
+          "sourceParagraphs": [
+            195,
+            193
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-observations-a",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2020/9 Reaction Types test 2020.docx",
+          "sourceFileSha": "2daf51292a84d167aa2991d1ea5b958a8f368d46",
+          "sourceQuestionNumber": "observations-b",
+          "sourceParagraphs": [
+            198,
+            193
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-NARR-2019-REACTIONTYPES-observations-b",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch96",
+      "questionIds": [
+        "SCI-REPO-Y9-NARR-2021-PRECIP-prediction",
+        "SCI-REPO-Y9-NARR-2021-PRECIP-observation",
+        "SCI-REPO-Y9-NARR-2021-PRECIP-precipitate",
+        "SCI-REPO-Y9-NARR-2021-PRECIP-chemical",
+        "SCI-REPO-Y9-NARR-2021-PRECIP-products",
+        "SCI-REPO-Y9-NARR-2021-PRECIP-gas",
+        "SCI-REPO-Y9-NARR-2021-PRECIP-solid",
+        "SCI-REPO-Y9-NARR-2021-PRECIP-reactant-atoms",
+        "SCI-REPO-Y9-NARR-2021-PRECIP-product-atoms",
+        "SCI-REPO-Y9-NARR-2021-PRECIP-balanced"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2021/chemical reactns prac.docx",
+          "sha": "aff7a14f0ba51c3179086d44329ea31f121ff911",
+          "year": 9,
+          "role": "paper"
+        }
+      ],
+      "questions": 10,
+      "marks": 20,
+      "imageAudit": "question-source-packs/repo-science-batch96-audit.json",
+      "notes": [
+        "All10distinct pupil prompts extracted;matching teacher section used as supplied key rather than imported again. Original particle/equation image preserved. Atom totals verified both sides;source unmarked,proposed20marks explicitly labelled."
+      ],
+      "markAudit": {
+        "sourceMarks": null,
+        "proposedTotal": 20,
+        "distinctPupilPrompts": 10,
+        "teacherDuplicateCounted": false
+      },
+      "duplicateQuestionAliases": []
     }
   ],
   "files": [
@@ -25207,8 +27671,9 @@
       "sha": "4524f5d4d5297b7ed81c26aa17d82945ce7001ce",
       "year": 9,
       "size": 80116,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_incomplete_referenced_material",
+      "duplicateOf": null,
+      "reviewReason": "Source assignment explicitly refers to missing textbook method/discussion wording; recorded prompts reviewed, referenced questions not invented."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Narrogin/2023/Year 9 Biology 1 Test Coordination and disease 2023.doc",
@@ -25577,7 +28042,7 @@
       "sha": "0f1cffca0ac27f84f443157f0e33625841cc9c46",
       "year": 9,
       "size": 34157,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -25642,7 +28107,7 @@
       "sha": "c178fa6f9206ac79579ab6cb814a1bc4168082fa",
       "year": 9,
       "size": 78646,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -25690,7 +28155,7 @@
       "sha": "6576fdc6d52c71aaf2b95307ed4794758c5d61d3",
       "year": 9,
       "size": 43345,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -25738,7 +28203,7 @@
       "sha": "3ba01dfebfa5b9306f1f9997839f213039cb4885",
       "year": 9,
       "size": 21271,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -25754,7 +28219,7 @@
       "sha": "ce55762e4eb265ac820500fe8e8d0dd9c71ee88a",
       "year": 9,
       "size": 62463,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -25842,7 +28307,7 @@
       "sha": "d4c95a195285c4e4363d1f7df9b8f833c0f4af57",
       "year": 9,
       "size": 71082,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -25858,8 +28323,9 @@
       "sha": "94b2e14a03b0ad96c09b2aa96faf92ee4d3aaa63",
       "year": 9,
       "size": 20064,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_incomplete_referenced_material",
+      "duplicateOf": null,
+      "reviewReason": "Source assignment explicitly refers to missing textbook method/discussion wording; recorded prompts reviewed, referenced questions not invented."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2018/9 1 HISTORY OF ATOMS  Research C1 2017.doc",
@@ -25906,7 +28372,7 @@
       "sha": "418d895106fa39784940ed0969d09f4d22f26699",
       "year": 9,
       "size": 94797,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -25930,7 +28396,7 @@
       "sha": "10bd26e8a7265349613d4cc02c22193a304f5d33",
       "year": 9,
       "size": 95538,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -25962,7 +28428,7 @@
       "sha": "10bd26e8a7265349613d4cc02c22193a304f5d33",
       "year": 9,
       "size": 95538,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2019/9 Reaction Types test 2019.docx"
     },
     {
@@ -25970,7 +28436,7 @@
       "sha": "2daf51292a84d167aa2991d1ea5b958a8f368d46",
       "year": 9,
       "size": 95712,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -26018,7 +28484,7 @@
       "sha": "10bd26e8a7265349613d4cc02c22193a304f5d33",
       "year": 9,
       "size": 95538,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2019/9 Reaction Types test 2019.docx"
     },
     {
@@ -26026,7 +28492,7 @@
       "sha": "2daf51292a84d167aa2991d1ea5b958a8f368d46",
       "year": 9,
       "size": 95712,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2020/9 Reaction Types test 2020.docx"
     },
     {
@@ -26058,7 +28524,7 @@
       "sha": "aff7a14f0ba51c3179086d44329ea31f121ff911",
       "year": 9,
       "size": 44076,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -26098,7 +28564,7 @@
       "sha": "10bd26e8a7265349613d4cc02c22193a304f5d33",
       "year": 9,
       "size": 95538,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2019/9 Reaction Types test 2019.docx"
     },
     {
@@ -26106,7 +28572,7 @@
       "sha": "2daf51292a84d167aa2991d1ea5b958a8f368d46",
       "year": 9,
       "size": 95712,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2020/9 Reaction Types test 2020.docx"
     },
     {
@@ -26146,7 +28612,7 @@
       "sha": "aff7a14f0ba51c3179086d44329ea31f121ff911",
       "year": 9,
       "size": 44076,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2021/chemical reactns prac.docx"
     },
     {
@@ -26394,7 +28860,7 @@
       "sha": "3ba01dfebfa5b9306f1f9997839f213039cb4885",
       "year": 9,
       "size": 21271,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2015 HISTORY OF THE ATOMIC MODEL.docx"
     },
     {
@@ -29306,7 +31772,7 @@
       "sha": "c178fa6f9206ac79579ab6cb814a1bc4168082fa",
       "year": 10,
       "size": 78646,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2014 9 SCIENCE CHEMISTRY ASSIGNMENT HISTORY OF THE ATOMIC MODEL.docx"
     },
     {
@@ -29354,7 +31820,7 @@
       "sha": "6576fdc6d52c71aaf2b95307ed4794758c5d61d3",
       "year": 10,
       "size": 43345,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2014 9 SCIENCE SHAMPOO INVESTIGATION.docx"
     },
     {
@@ -29418,7 +31884,7 @@
       "sha": "3ba01dfebfa5b9306f1f9997839f213039cb4885",
       "year": 10,
       "size": 21271,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2015 HISTORY OF THE ATOMIC MODEL.docx"
     },
     {
@@ -32819,9 +35285,9 @@
       "duplicateOf": null
     }
   ],
-  "learningVaultCreatedKeySupplements": 931,
-  "remainingUniqueFileBlobs": 1333,
-  "learningVaultCreatedKeys": 1831,
+  "learningVaultCreatedKeySupplements": 941,
+  "remainingUniqueFileBlobs": 1321,
+  "learningVaultCreatedKeys": 1920,
   "blockedSources": [
     {
       "sha": "49d4b7f3f8af844477b39abb856365aeb096cafd",
@@ -33033,7 +35499,7 @@
     "ocrPages": 1175,
     "ocrTextVerified": false
   },
-  "distinctSourceAndKeyReferences": 274,
+  "distinctSourceAndKeyReferences": 286,
   "unscoredQuestionsPreserved": 1,
   "activeAdditionalQuestionRequest": {
     "requestedAdditionalQuestions": 1000,
@@ -33048,12 +35514,12 @@
     "requestedAt": "2026-10-16",
     "scope": "All remaining Years 7–10 Science assessment papers; all question types, source figures, response space and marking guidance",
     "startingImportedQuestions": 1374,
-    "addedQuestions": 1698,
+    "addedQuestions": 1797,
     "status": "in_progress",
     "completionRule": "Every unique assessment paper reviewed; duplicates mapped and unreadable/protected files explicitly resolved. File-blob count is not a paper denominator.",
     "restoredQuestionsAfterDuplicateFix": 4,
-    "newlyExtractedQuestions": 1694,
-    "papersReviewedSinceRequest": 163,
+    "newlyExtractedQuestions": 1793,
+    "papersReviewedSinceRequest": 175,
     "canonicalSourceQuestionsReReviewed": 2
   },
   "sourceInventoryExclusions": {
@@ -33085,11 +35551,32 @@
       "effect": "Key assumptions explicitly supplied in extracted context;do not pretend unique calculation follows from pupil wording alone."
     },
     {
+      "questionId": "SCI-REPO-Y9-NARR-2023-FOODCHAINS-A",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Narrogin/2023/In class validation.docx",
+      "sourceFileSha": "4524f5d4d5297b7ed81c26aa17d82945ce7001ce",
+      "description": "PartArefers to a table on the next page,but no feeding matrix is printed.",
+      "effect": "Instruction preserved;teacher must supply/reconstruct and label the response grid."
+    },
+    {
       "questionId": "SCI-REPO-Y10-NARR-2019-DNARESEARCH-research",
       "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Narrogin/2019/Topic 2 Biology 1/Task 2 DNA Research 2018.docx",
       "sourceFileSha": "cfccac69f79fb3250387490688653ba2b6c15cda",
       "description": "Student-selected DNA questions are blank.",
       "effect": "Research task/rubric retained;no unseen questions or fixed answers invented."
+    },
+    {
+      "questionId": "SCI-REPO-Y9-ARAN-2013-ELEMENTNEWS-numbers",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/9 SCIENCE CHEMSITRY ELEMENT ASSIGNMENT 2013.docx",
+      "sourceFileSha": "94b2e14a03b0ad96c09b2aa96faf92ee4d3aaa63",
+      "description": "Assignedelementandchosenisotopearenotfilledin.",
+      "effect": "Researchtaskandcorrectformula-basedkeyretained;noinventedelementorneutroncount."
+    },
+    {
+      "questionId": "SCI-REPO-Y9-ARAN-2013-ELEMENTNEWS-particles",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/9 SCIENCE CHEMSITRY ELEMENT ASSIGNMENT 2013.docx",
+      "sourceFileSha": "94b2e14a03b0ad96c09b2aa96faf92ee4d3aaa63",
+      "description": "Assignedelementandchosenisotopearenotfilledin.",
+      "effect": "Researchtaskandcorrectformula-basedkeyretained;noinventedelementorneutroncount."
     },
     {
       "questionId": "SCI-REPO-Y7-SBY-2017-HEATINGWATER-diagram",
@@ -33228,7 +35715,7 @@
       "effect": "Retained as teacher-review diagram task;exact label-order key must be verified before assigning."
     }
   ],
-  "reviewedDistinctSourceBlobs": 267,
+  "reviewedDistinctSourceBlobs": 279,
   "inventoryCountBasis": "Remaining unique file blobs counts pending or key-reference-pending identities, including protected inputs; it is not a remaining-paper or remaining-question estimate.",
   "canonicalUniverseReviewRepair": {
     "questionIds": [

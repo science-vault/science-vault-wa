@@ -1,0 +1,418 @@
+{
+  "batch": "repo-science-batch93",
+  "paperCount": 3,
+  "questionIds": [
+    "SCI-REPO-Y9-ARAN-2014-SHAMPOO-hypothesis",
+    "SCI-REPO-Y9-ARAN-2014-SHAMPOO-independent",
+    "SCI-REPO-Y9-ARAN-2014-SHAMPOO-dependent",
+    "SCI-REPO-Y9-ARAN-2014-SHAMPOO-controls",
+    "SCI-REPO-Y9-ARAN-2014-SHAMPOO-method",
+    "SCI-REPO-Y9-ARAN-2014-SHAMPOO-table",
+    "SCI-REPO-Y9-ARAN-2014-SHAMPOO-graph",
+    "SCI-REPO-Y9-ARAN-2014-SHAMPOO-discussion",
+    "SCI-REPO-Y9-ARAN-2014-SHAMPOO-water",
+    "SCI-REPO-Y9-ARAN-2014-SHAMPOO-indicator",
+    "SCI-REPO-Y9-ARAN-2014-SHAMPOO-conclusion",
+    "SCI-REPO-Y9-ARAN-2015-SHAMPOO-title",
+    "SCI-REPO-Y9-ARAN-2015-SHAMPOO-aim",
+    "SCI-REPO-Y9-ARAN-2015-SHAMPOO-materials",
+    "SCI-REPO-Y9-ARAN-2015-SHAMPOO-diagram",
+    "SCI-REPO-Y9-ARAN-2015-SHAMPOO-background",
+    "SCI-REPO-Y9-ARAN-2015-SHAMPOO-reliability",
+    "SCI-REPO-Y9-ARAN-2015-SHAMPOO-discussion",
+    "SCI-REPO-Y9-ARAN-2015-SHAMPOO-conclusion",
+    "SCI-REPO-Y9-ARAN-2015-SHAMPOO-references",
+    "SCI-REPO-Y9-ARAN-2013-SHAMPOO-discussion",
+    "SCI-REPO-Y9-ARAN-2013-SHAMPOO-finding",
+    "SCI-REPO-Y9-ARAN-2013-SHAMPOO-support",
+    "SCI-REPO-Y9-ARAN-2013-SHAMPOO-relationship"
+  ],
+  "questions": 24,
+  "multipleChoice": 0,
+  "writtenQuestions": 24,
+  "battleEligible": 0,
+  "marks": 58,
+  "reviewRequired": [],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2014 9 SCIENCE SHAMPOO INVESTIGATION.docx",
+      "sha": "6576fdc6d52c71aaf2b95307ed4794758c5d61d3",
+      "year": 9,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2015 SHAMPOO PRAC.docx",
+      "sha": "ce55762e4eb265ac820500fe8e8d0dd9c71ee88a",
+      "year": 9,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/9 SCIENCE CHEMISTRY SHAMPOO PRAC 2013.docx",
+      "sha": "d4c95a195285c4e4363d1f7df9b8f833c0f4af57",
+      "year": 9,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 24,
+  "createdSupplements": 0,
+  "notes": [
+    "Threefullshampooinvestigations reviewed.2014:30task+2presentation=32.2015fullreport37marks includes7method asmethod3+diagram2+reliability2.2013design30marks;unmarkedgraphtypequestionretainedwithgraph5ratherthanaddedagain. Sharedtaskaliasesretainmarkdifferences;distinctdiscussion/conclusionpromptsremainseparate."
+  ],
+  "markAudit": {
+    "2014": 32,
+    "2015": 37,
+    "2013": 30,
+    "pHReadings": "Actualobservationsrequired"
+  },
+  "duplicateQuestionAliases": [
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2015 SHAMPOO PRAC.docx",
+      "sourceFileSha": "ce55762e4eb265ac820500fe8e8d0dd9c71ee88a",
+      "sourceQuestionNumber": "hypothesis",
+      "sourceParagraphs": [
+        33
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-SHAMPOO-hypothesis",
+      "reason": "Manually reviewed same pH investigation response task;original variant marks retained."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2015 SHAMPOO PRAC.docx",
+      "sourceFileSha": "ce55762e4eb265ac820500fe8e8d0dd9c71ee88a",
+      "sourceQuestionNumber": "independent",
+      "sourceParagraphs": [
+        33
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-SHAMPOO-independent",
+      "reason": "Manually reviewed same pH investigation response task;original variant marks retained."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2015 SHAMPOO PRAC.docx",
+      "sourceFileSha": "ce55762e4eb265ac820500fe8e8d0dd9c71ee88a",
+      "sourceQuestionNumber": "dependent",
+      "sourceParagraphs": [
+        33
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-SHAMPOO-dependent",
+      "reason": "Manually reviewed same pH investigation response task;original variant marks retained."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2015 SHAMPOO PRAC.docx",
+      "sourceFileSha": "ce55762e4eb265ac820500fe8e8d0dd9c71ee88a",
+      "sourceQuestionNumber": "controls",
+      "sourceParagraphs": [
+        33
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-SHAMPOO-controls",
+      "reason": "Manually reviewed same pH investigation response task;original variant marks retained."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2015 SHAMPOO PRAC.docx",
+      "sourceFileSha": "ce55762e4eb265ac820500fe8e8d0dd9c71ee88a",
+      "sourceQuestionNumber": "method",
+      "sourceParagraphs": [
+        33
+      ],
+      "sourceMarks": 3,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-SHAMPOO-method",
+      "reason": "Manually reviewed same pH investigation response task;original variant marks retained."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2015 SHAMPOO PRAC.docx",
+      "sourceFileSha": "ce55762e4eb265ac820500fe8e8d0dd9c71ee88a",
+      "sourceQuestionNumber": "table",
+      "sourceParagraphs": [
+        33
+      ],
+      "sourceMarks": 3,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-SHAMPOO-table",
+      "reason": "Manually reviewed same pH investigation response task;original variant marks retained."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2015 SHAMPOO PRAC.docx",
+      "sourceFileSha": "ce55762e4eb265ac820500fe8e8d0dd9c71ee88a",
+      "sourceQuestionNumber": "graph",
+      "sourceParagraphs": [
+        33
+      ],
+      "sourceMarks": 5,
+      "sourceType": "Diagram",
+      "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-SHAMPOO-graph",
+      "reason": "Manually reviewed same pH investigation response task;original variant marks retained."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/9 SCIENCE CHEMISTRY SHAMPOO PRAC 2013.docx",
+      "sourceFileSha": "d4c95a195285c4e4363d1f7df9b8f833c0f4af57",
+      "sourceQuestionNumber": "hypothesis",
+      "sourceParagraphs": [
+        34,
+        47,
+        48,
+        49,
+        52,
+        54,
+        59,
+        62,
+        68,
+        82,
+        114,
+        115,
+        145,
+        156
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-SHAMPOO-hypothesis",
+      "reason": "Manually reviewed same pH investigation response task;original variant marks retained."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/9 SCIENCE CHEMISTRY SHAMPOO PRAC 2013.docx",
+      "sourceFileSha": "d4c95a195285c4e4363d1f7df9b8f833c0f4af57",
+      "sourceQuestionNumber": "independent",
+      "sourceParagraphs": [
+        34,
+        47,
+        48,
+        49,
+        52,
+        54,
+        59,
+        62,
+        68,
+        82,
+        114,
+        115,
+        145,
+        156
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-SHAMPOO-independent",
+      "reason": "Manually reviewed same pH investigation response task;original variant marks retained."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/9 SCIENCE CHEMISTRY SHAMPOO PRAC 2013.docx",
+      "sourceFileSha": "d4c95a195285c4e4363d1f7df9b8f833c0f4af57",
+      "sourceQuestionNumber": "dependent",
+      "sourceParagraphs": [
+        34,
+        47,
+        48,
+        49,
+        52,
+        54,
+        59,
+        62,
+        68,
+        82,
+        114,
+        115,
+        145,
+        156
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-SHAMPOO-dependent",
+      "reason": "Manually reviewed same pH investigation response task;original variant marks retained."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/9 SCIENCE CHEMISTRY SHAMPOO PRAC 2013.docx",
+      "sourceFileSha": "d4c95a195285c4e4363d1f7df9b8f833c0f4af57",
+      "sourceQuestionNumber": "controls",
+      "sourceParagraphs": [
+        34,
+        47,
+        48,
+        49,
+        52,
+        54,
+        59,
+        62,
+        68,
+        82,
+        114,
+        115,
+        145,
+        156
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-SHAMPOO-controls",
+      "reason": "Manually reviewed same pH investigation response task;original variant marks retained."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/9 SCIENCE CHEMISTRY SHAMPOO PRAC 2013.docx",
+      "sourceFileSha": "d4c95a195285c4e4363d1f7df9b8f833c0f4af57",
+      "sourceQuestionNumber": "method",
+      "sourceParagraphs": [
+        34,
+        47,
+        48,
+        49,
+        52,
+        54,
+        59,
+        62,
+        68,
+        82,
+        114,
+        115,
+        145,
+        156
+      ],
+      "sourceMarks": 3,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-SHAMPOO-method",
+      "reason": "Manually reviewed same pH investigation response task;original variant marks retained."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/9 SCIENCE CHEMISTRY SHAMPOO PRAC 2013.docx",
+      "sourceFileSha": "d4c95a195285c4e4363d1f7df9b8f833c0f4af57",
+      "sourceQuestionNumber": "table",
+      "sourceParagraphs": [
+        34,
+        47,
+        48,
+        49,
+        52,
+        54,
+        59,
+        62,
+        68,
+        82,
+        114,
+        115,
+        145,
+        156
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-SHAMPOO-table",
+      "reason": "Manually reviewed same pH investigation response task;original variant marks retained."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/9 SCIENCE CHEMISTRY SHAMPOO PRAC 2013.docx",
+      "sourceFileSha": "d4c95a195285c4e4363d1f7df9b8f833c0f4af57",
+      "sourceQuestionNumber": "graph",
+      "sourceParagraphs": [
+        34,
+        47,
+        48,
+        49,
+        52,
+        54,
+        59,
+        62,
+        68,
+        82,
+        114,
+        115,
+        145,
+        156
+      ],
+      "sourceMarks": 5,
+      "sourceType": "Diagram",
+      "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-SHAMPOO-graph",
+      "reason": "Manually reviewed same pH investigation response task;original variant marks retained."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/9 SCIENCE CHEMISTRY SHAMPOO PRAC 2013.docx",
+      "sourceFileSha": "d4c95a195285c4e4363d1f7df9b8f833c0f4af57",
+      "sourceQuestionNumber": "title",
+      "sourceParagraphs": [
+        34,
+        47,
+        48,
+        62,
+        82,
+        174,
+        183,
+        187,
+        192,
+        194,
+        195
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-ARAN-2015-SHAMPOO-title",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/9 SCIENCE CHEMISTRY SHAMPOO PRAC 2013.docx",
+      "sourceFileSha": "d4c95a195285c4e4363d1f7df9b8f833c0f4af57",
+      "sourceQuestionNumber": "aim",
+      "sourceParagraphs": [
+        34,
+        47,
+        48,
+        62,
+        82,
+        174,
+        183,
+        187,
+        192,
+        194,
+        195
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-ARAN-2015-SHAMPOO-aim",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/9 SCIENCE CHEMISTRY SHAMPOO PRAC 2013.docx",
+      "sourceFileSha": "d4c95a195285c4e4363d1f7df9b8f833c0f4af57",
+      "sourceQuestionNumber": "materials",
+      "sourceParagraphs": [
+        34,
+        47,
+        48,
+        62,
+        82,
+        174,
+        183,
+        187,
+        192,
+        194,
+        195
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-ARAN-2015-SHAMPOO-materials",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/9 SCIENCE CHEMISTRY SHAMPOO PRAC 2013.docx",
+      "sourceFileSha": "d4c95a195285c4e4363d1f7df9b8f833c0f4af57",
+      "sourceQuestionNumber": "diagram",
+      "sourceParagraphs": [
+        34,
+        47,
+        48,
+        62,
+        82,
+        174,
+        183,
+        187,
+        192,
+        194,
+        195
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Diagram",
+      "existingQuestionId": "SCI-REPO-Y9-ARAN-2015-SHAMPOO-diagram",
+      "reason": "Equivalent source question already present; not added or counted again."
+    }
+  ]
+}

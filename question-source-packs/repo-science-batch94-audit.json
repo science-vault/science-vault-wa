@@ -1,0 +1,63 @@
+{
+  "batch": "repo-science-batch94",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y9-ARAN-2013-ELEMENTNEWS-name",
+    "SCI-REPO-Y9-ARAN-2013-ELEMENTNEWS-numbers",
+    "SCI-REPO-Y9-ARAN-2013-ELEMENTNEWS-shells",
+    "SCI-REPO-Y9-ARAN-2013-ELEMENTNEWS-particles",
+    "SCI-REPO-Y9-ARAN-2013-ELEMENTNEWS-location",
+    "SCI-REPO-Y9-ARAN-2013-ELEMENTNEWS-discovery",
+    "SCI-REPO-Y9-ARAN-2013-ELEMENTNEWS-features",
+    "SCI-REPO-Y9-ARAN-2013-ELEMENTNEWS-bibliography",
+    "SCI-REPO-Y9-ARAN-2013-ELEMENTNEWS-draft"
+  ],
+  "questions": 9,
+  "multipleChoice": 0,
+  "writtenQuestions": 9,
+  "battleEligible": 0,
+  "marks": 19,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y9-ARAN-2013-ELEMENTNEWS-numbers",
+      "note": "Assignedelementandisotopearenotspecifiedintheblanktemplate."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2013-ELEMENTNEWS-particles",
+      "note": "Assignedelementandisotopearenotspecifiedintheblanktemplate."
+    }
+  ],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/9 SCIENCE CHEMSITRY ELEMENT ASSIGNMENT 2013.docx",
+      "sha": "94b2e14a03b0ad96c09b2aa96faf92ee4d3aaa63",
+      "year": 9,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 9,
+  "createdSupplements": 0,
+  "notes": [
+    "Completeelementarticletemplate reviewed. SourceWordshadingandrenderedrubricverified:18task+2presentation=20. Draftsubmissionisaseparateunmarkedrequirement(proposed1). Element/isotopeblankrecorded;massnumberdistinguishedfromaverageatomicmass."
+  ],
+  "markAudit": {
+    "cover": 20,
+    "taskMarks": 18,
+    "presentation": 2,
+    "draftProposedAdditional": 1,
+    "rubricMaximums": {
+      "name": 1,
+      "numbers": 2,
+      "shells": 2,
+      "particles": 3,
+      "location": 2,
+      "discovery": 3,
+      "features": 4,
+      "presentation": 2,
+      "bibliography": 1
+    }
+  },
+  "duplicateQuestionAliases": []
+}
