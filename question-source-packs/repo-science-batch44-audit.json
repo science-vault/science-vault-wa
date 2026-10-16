@@ -1,0 +1,191 @@
+{
+  "batch": "repo-science-batch44",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-MC02",
+    "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-MC03",
+    "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-MC04",
+    "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-MC05",
+    "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-MC06",
+    "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-MC07",
+    "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-MC08",
+    "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-MC09",
+    "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-MC10",
+    "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-MC11",
+    "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-MC12",
+    "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-MC13",
+    "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-MC14",
+    "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-MC15",
+    "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-MC16",
+    "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-MC17",
+    "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-W1",
+    "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-W2",
+    "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-W3",
+    "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-W4",
+    "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-W5",
+    "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-W6",
+    "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-W7",
+    "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-W8a",
+    "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-W8b",
+    "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-W9a",
+    "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-W9b"
+  ],
+  "questions": 27,
+  "multipleChoice": 16,
+  "writtenQuestions": 11,
+  "battleEligible": 15,
+  "marks": 50,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-MC14",
+      "note": "No correct answer choice. Original images checked: hand-shaped undivided blade A, palmate compound leaf B."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-W2",
+      "note": "Source insect key includes questionable wing and antenna descriptions. Score faithful route tracing but do not teach these as universal insect traits."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-W7",
+      "note": "Historical classification model and oversimplified descriptors; manual contextual marking."
+    }
+  ],
+  "imageAudit": [
+    {
+      "id": "e89-image1",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Year 7 Biology End of Topic Test.docx",
+      "embeddedImage": "word/media/image1.jpeg",
+      "sha256": "bf6d31cee0eb4b7e3d599e01b1c0e0be0f32ada842c8ad31c0d079a890e76759",
+      "publishedSha256": "ed04914595574f42d02b047065b7b9cd348b35d24e202c39953672b066514223",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e89-image2",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Year 7 Biology End of Topic Test.docx",
+      "embeddedImage": "word/media/image2.jpeg",
+      "sha256": "e1ada85d0fabe308f5c49e915cdcc7d04338cdd5288be91a723b2b335d82adb1",
+      "publishedSha256": "9be285a5e80c5239d2116366c8e146a709fba578bb1ddc427122d304a868889b",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e89-image3",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Year 7 Biology End of Topic Test.docx",
+      "embeddedImage": "word/media/image3.jpeg",
+      "sha256": "03211894cfa063e13a4b1988721809cc07ec010698b394e50139bd60cb243ca7",
+      "publishedSha256": "8f897265bca3e893c5ea08722f456ed1ac6dac9abef5c1f5756aae9a84f49340",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e89-image4",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Year 7 Biology End of Topic Test.docx",
+      "embeddedImage": "word/media/image4.jpeg",
+      "sha256": "bdc10e9d661f265d02bc9ac49d0d51796f0b0b4753e7caea4739d2d1e8891bc9",
+      "publishedSha256": "27821cafe3bebfa0ae6f250e5eeee389df76e7be3305f95fea45642c7bf845cb",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e89-image5",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Year 7 Biology End of Topic Test.docx",
+      "embeddedImage": "word/media/image5.jpeg",
+      "sha256": "d22d02cffc939a76df4ad78e5acfda2cee04b3221c89da3cd80488bd44e558e2",
+      "publishedSha256": "c282b3e1727259cb542ff3afda1647467e9b99feb6b119062b31643eeb104dba",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e89-image6",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Year 7 Biology End of Topic Test.docx",
+      "embeddedImage": "word/media/image6.jpeg",
+      "sha256": "d765c73d088838d653d4cd5f41c8f1d8ab41ffa430f5364b4ee21005d84c19eb",
+      "publishedSha256": "7b75d79001c527fc0dc74f15bc06d47f064c41eb505f0baba7fa3bd7532fce6f",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e89-image7",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Year 7 Biology End of Topic Test.docx",
+      "embeddedImage": "word/media/image7.jpeg",
+      "sha256": "0ede6fb590eaa5d7f3e4f77fb1f187897a70ed39cdf3a504046d1fbc391c891c",
+      "publishedSha256": "1c61a352095a82d53c42059ce8bd5316342502d70df9f25d794fea07777957c3",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e89-image8",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Year 7 Biology End of Topic Test.docx",
+      "embeddedImage": "word/media/image8.png",
+      "sha256": "3fef514dd768df6330580be716aa60de6dfd43e6f1419707df3cc8692a9c6ac3",
+      "publishedSha256": "f03b022ae8f6730690a544df9f727f0e557be4f78bdb28057e8593d26c814462",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Year 7 Biology End of Topic Test.docx",
+      "sha": "731183612088074c0d009ad467995945415359b9",
+      "year": 7,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [
+    {
+      "id": "sci-repo-y7-aran-undated-bioend-mc-1",
+      "title": "Year 7 Science — Biology end-of-topic test — Aranmore, undated (original source MC)",
+      "course": "Science",
+      "yearGroup": 7,
+      "unit": "Biological Sciences",
+      "parent": "Biology end-of-topic test — Aranmore, undated",
+      "count": 15,
+      "kind": "assessment",
+      "assessmentCount": 15,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch44.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=7&search=SCI-REPO-Y7-ARAN-UNDATED-BIOEND",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    }
+  ],
+  "createdKeys": 27,
+  "createdSupplements": 0,
+  "notes": [
+    "Complete end-of-topic test (cover52marks; explicit task allocations51marks),17 MC plus11 written tasks. Original leaf key transcribed once instead of duplicated Word fallback text. Original leaf/animal/insect-key figures preserved. MC14 has no correct option and is manual, excluded from battles. Historical classification labels retained with contextual guidance."
+  ],
+  "markAudit": {
+    "End topic": {
+      "coverTotal": 52,
+      "explicitParts": 51,
+      "multipleChoice": 17,
+      "writtenMarks": 34,
+      "coverMismatch": "Printed tasks add to51, one less than cover52. No extra mark or question invented.",
+      "invalidMultipleChoice": "Q14: maple/chestnut pair absent from choices."
+    }
+  },
+  "duplicateQuestionAliases": [
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Year 7 Biology End of Topic Test.docx",
+      "sourceFileSha": "731183612088074c0d009ad467995945415359b9",
+      "sourceQuestionNumber": "1",
+      "sourceParagraphs": [
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2018-CLASSIFICATION-MC01",
+      "reason": "Equivalent source question already present; not added or counted again."
+    }
+  ]
+}

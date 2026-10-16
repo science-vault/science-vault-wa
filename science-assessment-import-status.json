@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.16-science-source40",
+  "version": "2026.10.16-science-source44",
   "status": "in_progress",
   "scope": "Original Science assessment files in repository, Years 7–10. File counts include keys and supporting materials; they are not question counts.",
   "inventoryFiles": 2009,
@@ -11,11 +11,11 @@
     "9": 457,
     "10": 582
   },
-  "importedPapers": 96,
-  "importedQuestions": 1774,
-  "multipleChoice": 734,
-  "writtenQuestions": 1040,
-  "battleEligibleQuestions": 644,
+  "importedPapers": 105,
+  "importedQuestions": 1851,
+  "multipleChoice": 776,
+  "writtenQuestions": 1075,
+  "battleEligibleQuestions": 679,
   "reviewRequired": [
     {
       "id": "SCI-REPO-Y7-NAR-2024-EARTH-MC03",
@@ -776,6 +776,54 @@
     {
       "id": "SCI-REPO-Y8-KOL-2021-CHEMREVISION-11b",
       "note": "Original asks for processes at every marked point, but F/G mark temperatures. Proposed rubric explicitly distinguishes these labels."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-2015-BIO-MC06",
+      "note": "The Sun is the intended source for this photosynthesis-based classroom web. “All food webs” is too broad: some are based on chemosynthesis."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-2015-BIO-MC13",
+      "note": "A is intended: silver perch, trout and pelican can occupy third-consumer positions along appropriate paths. The omnivorous network allows more than one trophic position; do not treat each organism as having one fixed level."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-2015-BIO-MC16",
+      "note": "B is intended in the historical five-kingdom model. Classification systems differ; the model must be specified."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-2013-BIO-MC03",
+      "note": "C is the narrow intended effect: foxes eat introduced rabbits. This does not establish a net ecological benefit of fox introduction; native predation can outweigh it."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-2013-BIO-MC06",
+      "note": "The Sun is the intended source for this photosynthesis-based classroom web. “All food webs” is too broad: some are based on chemosynthesis."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-2013-BIO-MC15",
+      "note": "B is intended as least specifically linked to cold or fast swimming, but swallowing prey whole can still aid feeding/survival; comparison is subjective."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-2013-BIO-W2-intro",
+      "note": "An additional open-response sentence precedes the true/false task but has no printed mark allocation. Proposed2-mark rubric is clearly separate from the printed42-mark paper total."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-2013-BIO-W2",
+      "note": "Source includes inline T/F answers. These are removed from the student prompt; itemd uses simplified conservation-category wording."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-2013-BIO-W7a",
+      "note": "Inline source answer MUTUALISM contradicts its own stem. Corrected to commensalism; retain manual review."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-MC14",
+      "note": "No correct answer choice. Original images checked: hand-shaped undivided blade A, palmate compound leaf B."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-W2",
+      "note": "Source insect key includes questionable wing and antenna descriptions. Score faithful route tracing but do not teach these as universal insect traits."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-W7",
+      "note": "Historical classification model and oversimplified descriptors; manual contextual marking."
     },
     {
       "id": "SCI-REPO-Y10-NAR-2024-UNIVERSE-MC02",
@@ -8246,6 +8294,659 @@
         }
       },
       "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch41",
+      "questionIds": [
+        "SCI-REPO-Y7-ARAN-2012-LEAFKEY-assignment",
+        "SCI-REPO-Y7-ARAN-2012-INTRODUCED-assignment"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Dichotomous Key Assignment 2012.docx",
+          "sha": "cce892246489983b944cb2c9dd2d3c0f3210cb5a",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Dichotomous Key Assignment.docx",
+          "sha": "916ab7264792093921dd8417caf1737bdcb60f40",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Introduced species Assignment 2012.docx",
+          "sha": "10e99992d30ac4490d20d1dabf1f38945cb79423",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Introduced species Assignment 2013.docx",
+          "sha": "14b67f246ca0b6b92aec449e4c18708517172b05",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Introduced species Assignment.docx",
+          "sha": "912904e23ad916ecaa18440d5fd55434bb005d3b",
+          "year": 7,
+          "role": "paper"
+        }
+      ],
+      "questions": 2,
+      "marks": 36,
+      "imageAudit": "question-source-packs/repo-science-batch41-audit.json",
+      "notes": [
+        "Five source assignment variants reviewed; two canonical extended tasks. Presentation/cover/reference descriptors retained in each complete assignment rubric rather than inflated into science question counts. Same-task variants mapped with explicit14/20/22-mark rubric differences. No printed school dates invented for undated versions."
+      ],
+      "markAudit": {
+        "Leaf key": {
+          "printedTotal": 14
+        },
+        "Introduced report": {
+          "2012Total": 22,
+          "2013Total": 22,
+          "undatedTotal": 20,
+          "scientificContentMarks": 16
+        }
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Dichotomous Key Assignment.docx",
+          "sourceFileSha": "916ab7264792093921dd8417caf1737bdcb60f40",
+          "sourceQuestionNumber": "assignment",
+          "sourceParagraphs": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2012-LEAFKEY-assignment",
+          "reason": "Same eight-leaf dichotomous key, labelled specimens and branch draft; same14-mark total. Undated variant explicitly allocates0.5 for each specimen successfully identified and groups numbering under correctly presented key.",
+          "sourceRubricVariant": {
+            "presentation": 2,
+            "workingKey": 4,
+            "correctlyPresentedKey": 2,
+            "strongKey": 2,
+            "labelledSpecimens": 2,
+            "branchDiagram": 2
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Introduced species Assignment 2013.docx",
+          "sourceFileSha": "14b67f246ca0b6b92aec449e4c18708517172b05",
+          "sourceQuestionNumber": "assignment",
+          "sourceParagraphs": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2012-INTRODUCED-assignment",
+          "reason": "Same introduced-species ecosystem report and scientific requirements; not recounted as a new question."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Introduced species Assignment.docx",
+          "sourceFileSha": "912904e23ad916ecaa18440d5fd55434bb005d3b",
+          "sourceQuestionNumber": "assignment",
+          "sourceParagraphs": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2012-INTRODUCED-assignment",
+          "reason": "Same introduced-species ecosystem report and scientific requirements; not recounted as a new question. Undated variant has20 marks, omitting the separately scored cover page; references requirement does not specify three sources/book.",
+          "sourceRubricVariant": {
+            "total": 20,
+            "coverPageSeparatelyScored": false,
+            "references": 2,
+            "referenceCountSpecified": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch42",
+      "questionIds": [
+        "SCI-REPO-Y7-ARAN-2015-BIO-MC01",
+        "SCI-REPO-Y7-ARAN-2015-BIO-MC02",
+        "SCI-REPO-Y7-ARAN-2015-BIO-MC03",
+        "SCI-REPO-Y7-ARAN-2015-BIO-MC04",
+        "SCI-REPO-Y7-ARAN-2015-BIO-MC05",
+        "SCI-REPO-Y7-ARAN-2015-BIO-MC06",
+        "SCI-REPO-Y7-ARAN-2015-BIO-MC07",
+        "SCI-REPO-Y7-ARAN-2015-BIO-MC08",
+        "SCI-REPO-Y7-ARAN-2015-BIO-MC09",
+        "SCI-REPO-Y7-ARAN-2015-BIO-MC10",
+        "SCI-REPO-Y7-ARAN-2015-BIO-MC11",
+        "SCI-REPO-Y7-ARAN-2015-BIO-MC12",
+        "SCI-REPO-Y7-ARAN-2015-BIO-MC13",
+        "SCI-REPO-Y7-ARAN-2015-BIO-MC14",
+        "SCI-REPO-Y7-ARAN-2015-BIO-MC15",
+        "SCI-REPO-Y7-ARAN-2015-BIO-MC16",
+        "SCI-REPO-Y7-ARAN-2015-BIO-W1",
+        "SCI-REPO-Y7-ARAN-2015-BIO-W2",
+        "SCI-REPO-Y7-ARAN-2015-BIO-W3",
+        "SCI-REPO-Y7-ARAN-2015-BIO-W4a",
+        "SCI-REPO-Y7-ARAN-2015-BIO-W4b",
+        "SCI-REPO-Y7-ARAN-2015-BIO-W5",
+        "SCI-REPO-Y7-ARAN-2015-BIO-W6",
+        "SCI-REPO-Y7-ARAN-2015-BIO-W7",
+        "SCI-REPO-Y7-ARAN-2015-BIO-W8",
+        "SCI-REPO-Y7-ARAN-2013-BIO-MC01",
+        "SCI-REPO-Y7-ARAN-2013-BIO-MC02",
+        "SCI-REPO-Y7-ARAN-2013-BIO-MC03",
+        "SCI-REPO-Y7-ARAN-2013-BIO-MC04",
+        "SCI-REPO-Y7-ARAN-2013-BIO-MC05",
+        "SCI-REPO-Y7-ARAN-2013-BIO-MC06",
+        "SCI-REPO-Y7-ARAN-2013-BIO-MC11",
+        "SCI-REPO-Y7-ARAN-2013-BIO-MC12",
+        "SCI-REPO-Y7-ARAN-2013-BIO-MC15",
+        "SCI-REPO-Y7-ARAN-2013-BIO-MC16",
+        "SCI-REPO-Y7-ARAN-2013-BIO-W1a",
+        "SCI-REPO-Y7-ARAN-2013-BIO-W1b",
+        "SCI-REPO-Y7-ARAN-2013-BIO-W2-intro",
+        "SCI-REPO-Y7-ARAN-2013-BIO-W2",
+        "SCI-REPO-Y7-ARAN-2013-BIO-W3a",
+        "SCI-REPO-Y7-ARAN-2013-BIO-W3b",
+        "SCI-REPO-Y7-ARAN-2013-BIO-W4a",
+        "SCI-REPO-Y7-ARAN-2013-BIO-W4b",
+        "SCI-REPO-Y7-ARAN-2013-BIO-W4c",
+        "SCI-REPO-Y7-ARAN-2013-BIO-W5",
+        "SCI-REPO-Y7-ARAN-2013-BIO-W6",
+        "SCI-REPO-Y7-ARAN-2013-BIO-W7a",
+        "SCI-REPO-Y7-ARAN-2013-BIO-W7b"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/2015 Year 7 Biology  Topic Test.docx",
+          "sha": "9a5a8075846c9c103d630d16e9cfb50594cac834",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/2013 Year 7 Biology  Topic Test - ANSWERS.docx",
+          "sha": "b937dac9d0aab3cda46ffe7995aba761fdcb910c",
+          "year": 7,
+          "role": "paper"
+        }
+      ],
+      "questions": 48,
+      "marks": 84,
+      "imageAudit": "question-source-packs/repo-science-batch42-audit.json",
+      "notes": [
+        "Both complete2013 answered and2015 unfilled tests reviewed. Student prompts exclude inline source answers. Incorrect mutualism answer corrected; consumers are not restricted to eating producers. Ambiguous universal-sun, fixed-trophic-level and model-unspecified kingdom questions excluded from automatic battles. Original classification key/food webs/bird photos/species chart preserved."
+      ],
+      "markAudit": {
+        "2015": {
+          "coverTotal": 46,
+          "explicitPartMarks": 46
+        },
+        "2013": {
+          "coverTotal": 42,
+          "printedScoredPartMarks": 42,
+          "additionalUnallocatedPromptProposedMarks": 2,
+          "inlineAnswerCorrection": "Cattle-egret relationship is commensalism, not mutualism."
+        }
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/2013 Year 7 Biology  Topic Test - ANSWERS.docx",
+          "sourceFileSha": "b937dac9d0aab3cda46ffe7995aba761fdcb910c",
+          "sourceQuestionNumber": "7",
+          "sourceParagraphs": [
+            53,
+            54,
+            55,
+            56,
+            57
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2015-BIO-MC07",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/2013 Year 7 Biology  Topic Test - ANSWERS.docx",
+          "sourceFileSha": "b937dac9d0aab3cda46ffe7995aba761fdcb910c",
+          "sourceQuestionNumber": "8",
+          "sourceParagraphs": [
+            61,
+            63,
+            64,
+            65,
+            66
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2015-BIO-MC08",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/2013 Year 7 Biology  Topic Test - ANSWERS.docx",
+          "sourceFileSha": "b937dac9d0aab3cda46ffe7995aba761fdcb910c",
+          "sourceQuestionNumber": "9",
+          "sourceParagraphs": [
+            69,
+            71,
+            72,
+            73,
+            74
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2015-BIO-MC09",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/2013 Year 7 Biology  Topic Test - ANSWERS.docx",
+          "sourceFileSha": "b937dac9d0aab3cda46ffe7995aba761fdcb910c",
+          "sourceQuestionNumber": "10",
+          "sourceParagraphs": [
+            77,
+            79,
+            80,
+            81,
+            82
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2015-BIO-MC10",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/2013 Year 7 Biology  Topic Test - ANSWERS.docx",
+          "sourceFileSha": "b937dac9d0aab3cda46ffe7995aba761fdcb910c",
+          "sourceQuestionNumber": "13",
+          "sourceParagraphs": [
+            110,
+            114,
+            115,
+            116,
+            117,
+            112
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2015-BIO-MC13",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/2013 Year 7 Biology  Topic Test - ANSWERS.docx",
+          "sourceFileSha": "b937dac9d0aab3cda46ffe7995aba761fdcb910c",
+          "sourceQuestionNumber": "14",
+          "sourceParagraphs": [
+            121,
+            125,
+            126,
+            127,
+            128,
+            123
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2015-BIO-MC14",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch43",
+      "questionIds": [],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Year 7 Biology Mid Topic Test.docx",
+          "sha": "24ce1f48c6899d65f1b7d662170e50f48678cb9b",
+          "year": 7,
+          "role": "paper"
+        }
+      ],
+      "questions": 0,
+      "marks": 0,
+      "imageAudit": "question-source-packs/repo-science-batch43-audit.json",
+      "notes": [
+        "Entire undated mid-topic test checked against its2013 answered counterpart: sixteen MC and thirteen written prompts including the unallocated introductory response. No questions recounted. Diagrams verified from embedded originals; only mouse/cattle photographs differ in image encoding/crop without changing the assessed task. Incorrect mutualism inline answer is absent in this unfilled variant; canonical corrected guidance remains."
+      ],
+      "markAudit": {
+        "Mid-topic": {
+          "coverMarks": 42,
+          "sourcePrompts": 29,
+          "duplicatePrompts": 29,
+          "additionalUnallocatedPrompt": 1
+        }
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Year 7 Biology Mid Topic Test.docx",
+          "sourceFileSha": "24ce1f48c6899d65f1b7d662170e50f48678cb9b",
+          "sourceQuestionNumber": "1",
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2013-BIO-MC01",
+          "reason": "Same complete question/answer choices as the2013 answered test, with inline answers removed. Food-web diagrams and most photographs are byte-identical; hopping-mouse and cattle-egret photo variants visually checked and depict the same features/relationships.",
+          "sourceLocatorBasis": "MC1–16; written1a/1b, unallocated2intro and2T/F,3a/3b,4a/4b/4c,5,6,7a/7b match the reviewed2013 counterpart in order."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Year 7 Biology Mid Topic Test.docx",
+          "sourceFileSha": "24ce1f48c6899d65f1b7d662170e50f48678cb9b",
+          "sourceQuestionNumber": "2",
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2013-BIO-MC02",
+          "reason": "Same complete question/answer choices as the2013 answered test, with inline answers removed. Food-web diagrams and most photographs are byte-identical; hopping-mouse and cattle-egret photo variants visually checked and depict the same features/relationships.",
+          "sourceLocatorBasis": "MC1–16; written1a/1b, unallocated2intro and2T/F,3a/3b,4a/4b/4c,5,6,7a/7b match the reviewed2013 counterpart in order."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Year 7 Biology Mid Topic Test.docx",
+          "sourceFileSha": "24ce1f48c6899d65f1b7d662170e50f48678cb9b",
+          "sourceQuestionNumber": "3",
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2013-BIO-MC03",
+          "reason": "Same complete question/answer choices as the2013 answered test, with inline answers removed. Food-web diagrams and most photographs are byte-identical; hopping-mouse and cattle-egret photo variants visually checked and depict the same features/relationships.",
+          "sourceLocatorBasis": "MC1–16; written1a/1b, unallocated2intro and2T/F,3a/3b,4a/4b/4c,5,6,7a/7b match the reviewed2013 counterpart in order."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Year 7 Biology Mid Topic Test.docx",
+          "sourceFileSha": "24ce1f48c6899d65f1b7d662170e50f48678cb9b",
+          "sourceQuestionNumber": "4",
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2013-BIO-MC04",
+          "reason": "Same complete question/answer choices as the2013 answered test, with inline answers removed. Food-web diagrams and most photographs are byte-identical; hopping-mouse and cattle-egret photo variants visually checked and depict the same features/relationships.",
+          "sourceLocatorBasis": "MC1–16; written1a/1b, unallocated2intro and2T/F,3a/3b,4a/4b/4c,5,6,7a/7b match the reviewed2013 counterpart in order."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Year 7 Biology Mid Topic Test.docx",
+          "sourceFileSha": "24ce1f48c6899d65f1b7d662170e50f48678cb9b",
+          "sourceQuestionNumber": "5",
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2013-BIO-MC05",
+          "reason": "Same complete question/answer choices as the2013 answered test, with inline answers removed. Food-web diagrams and most photographs are byte-identical; hopping-mouse and cattle-egret photo variants visually checked and depict the same features/relationships.",
+          "sourceLocatorBasis": "MC1–16; written1a/1b, unallocated2intro and2T/F,3a/3b,4a/4b/4c,5,6,7a/7b match the reviewed2013 counterpart in order."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Year 7 Biology Mid Topic Test.docx",
+          "sourceFileSha": "24ce1f48c6899d65f1b7d662170e50f48678cb9b",
+          "sourceQuestionNumber": "6",
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2013-BIO-MC06",
+          "reason": "Same complete question/answer choices as the2013 answered test, with inline answers removed. Food-web diagrams and most photographs are byte-identical; hopping-mouse and cattle-egret photo variants visually checked and depict the same features/relationships.",
+          "sourceLocatorBasis": "MC1–16; written1a/1b, unallocated2intro and2T/F,3a/3b,4a/4b/4c,5,6,7a/7b match the reviewed2013 counterpart in order."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Year 7 Biology Mid Topic Test.docx",
+          "sourceFileSha": "24ce1f48c6899d65f1b7d662170e50f48678cb9b",
+          "sourceQuestionNumber": "11",
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2013-BIO-MC11",
+          "reason": "Same complete question/answer choices as the2013 answered test, with inline answers removed. Food-web diagrams and most photographs are byte-identical; hopping-mouse and cattle-egret photo variants visually checked and depict the same features/relationships.",
+          "sourceLocatorBasis": "MC1–16; written1a/1b, unallocated2intro and2T/F,3a/3b,4a/4b/4c,5,6,7a/7b match the reviewed2013 counterpart in order."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Year 7 Biology Mid Topic Test.docx",
+          "sourceFileSha": "24ce1f48c6899d65f1b7d662170e50f48678cb9b",
+          "sourceQuestionNumber": "12",
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2013-BIO-MC12",
+          "reason": "Same complete question/answer choices as the2013 answered test, with inline answers removed. Food-web diagrams and most photographs are byte-identical; hopping-mouse and cattle-egret photo variants visually checked and depict the same features/relationships.",
+          "sourceLocatorBasis": "MC1–16; written1a/1b, unallocated2intro and2T/F,3a/3b,4a/4b/4c,5,6,7a/7b match the reviewed2013 counterpart in order."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Year 7 Biology Mid Topic Test.docx",
+          "sourceFileSha": "24ce1f48c6899d65f1b7d662170e50f48678cb9b",
+          "sourceQuestionNumber": "15",
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2013-BIO-MC15",
+          "reason": "Same complete question/answer choices as the2013 answered test, with inline answers removed. Food-web diagrams and most photographs are byte-identical; hopping-mouse and cattle-egret photo variants visually checked and depict the same features/relationships.",
+          "sourceLocatorBasis": "MC1–16; written1a/1b, unallocated2intro and2T/F,3a/3b,4a/4b/4c,5,6,7a/7b match the reviewed2013 counterpart in order."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Year 7 Biology Mid Topic Test.docx",
+          "sourceFileSha": "24ce1f48c6899d65f1b7d662170e50f48678cb9b",
+          "sourceQuestionNumber": "16",
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2013-BIO-MC16",
+          "reason": "Same complete question/answer choices as the2013 answered test, with inline answers removed. Food-web diagrams and most photographs are byte-identical; hopping-mouse and cattle-egret photo variants visually checked and depict the same features/relationships.",
+          "sourceLocatorBasis": "MC1–16; written1a/1b, unallocated2intro and2T/F,3a/3b,4a/4b/4c,5,6,7a/7b match the reviewed2013 counterpart in order."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Year 7 Biology Mid Topic Test.docx",
+          "sourceFileSha": "24ce1f48c6899d65f1b7d662170e50f48678cb9b",
+          "sourceQuestionNumber": "W1a",
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2013-BIO-W1a",
+          "reason": "Same complete question/answer choices as the2013 answered test, with inline answers removed. Food-web diagrams and most photographs are byte-identical; hopping-mouse and cattle-egret photo variants visually checked and depict the same features/relationships.",
+          "sourceLocatorBasis": "MC1–16; written1a/1b, unallocated2intro and2T/F,3a/3b,4a/4b/4c,5,6,7a/7b match the reviewed2013 counterpart in order."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Year 7 Biology Mid Topic Test.docx",
+          "sourceFileSha": "24ce1f48c6899d65f1b7d662170e50f48678cb9b",
+          "sourceQuestionNumber": "W1b",
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2013-BIO-W1b",
+          "reason": "Same complete question/answer choices as the2013 answered test, with inline answers removed. Food-web diagrams and most photographs are byte-identical; hopping-mouse and cattle-egret photo variants visually checked and depict the same features/relationships.",
+          "sourceLocatorBasis": "MC1–16; written1a/1b, unallocated2intro and2T/F,3a/3b,4a/4b/4c,5,6,7a/7b match the reviewed2013 counterpart in order."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Year 7 Biology Mid Topic Test.docx",
+          "sourceFileSha": "24ce1f48c6899d65f1b7d662170e50f48678cb9b",
+          "sourceQuestionNumber": "W2-intro",
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2013-BIO-W2-intro",
+          "reason": "Same complete question/answer choices as the2013 answered test, with inline answers removed. Food-web diagrams and most photographs are byte-identical; hopping-mouse and cattle-egret photo variants visually checked and depict the same features/relationships.",
+          "sourceLocatorBasis": "MC1–16; written1a/1b, unallocated2intro and2T/F,3a/3b,4a/4b/4c,5,6,7a/7b match the reviewed2013 counterpart in order."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Year 7 Biology Mid Topic Test.docx",
+          "sourceFileSha": "24ce1f48c6899d65f1b7d662170e50f48678cb9b",
+          "sourceQuestionNumber": "W2",
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2013-BIO-W2",
+          "reason": "Same complete question/answer choices as the2013 answered test, with inline answers removed. Food-web diagrams and most photographs are byte-identical; hopping-mouse and cattle-egret photo variants visually checked and depict the same features/relationships.",
+          "sourceLocatorBasis": "MC1–16; written1a/1b, unallocated2intro and2T/F,3a/3b,4a/4b/4c,5,6,7a/7b match the reviewed2013 counterpart in order."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Year 7 Biology Mid Topic Test.docx",
+          "sourceFileSha": "24ce1f48c6899d65f1b7d662170e50f48678cb9b",
+          "sourceQuestionNumber": "W3a",
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2013-BIO-W3a",
+          "reason": "Same complete question/answer choices as the2013 answered test, with inline answers removed. Food-web diagrams and most photographs are byte-identical; hopping-mouse and cattle-egret photo variants visually checked and depict the same features/relationships.",
+          "sourceLocatorBasis": "MC1–16; written1a/1b, unallocated2intro and2T/F,3a/3b,4a/4b/4c,5,6,7a/7b match the reviewed2013 counterpart in order."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Year 7 Biology Mid Topic Test.docx",
+          "sourceFileSha": "24ce1f48c6899d65f1b7d662170e50f48678cb9b",
+          "sourceQuestionNumber": "W3b",
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2013-BIO-W3b",
+          "reason": "Same complete question/answer choices as the2013 answered test, with inline answers removed. Food-web diagrams and most photographs are byte-identical; hopping-mouse and cattle-egret photo variants visually checked and depict the same features/relationships.",
+          "sourceLocatorBasis": "MC1–16; written1a/1b, unallocated2intro and2T/F,3a/3b,4a/4b/4c,5,6,7a/7b match the reviewed2013 counterpart in order."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Year 7 Biology Mid Topic Test.docx",
+          "sourceFileSha": "24ce1f48c6899d65f1b7d662170e50f48678cb9b",
+          "sourceQuestionNumber": "W4a",
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2013-BIO-W4a",
+          "reason": "Same complete question/answer choices as the2013 answered test, with inline answers removed. Food-web diagrams and most photographs are byte-identical; hopping-mouse and cattle-egret photo variants visually checked and depict the same features/relationships.",
+          "sourceLocatorBasis": "MC1–16; written1a/1b, unallocated2intro and2T/F,3a/3b,4a/4b/4c,5,6,7a/7b match the reviewed2013 counterpart in order."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Year 7 Biology Mid Topic Test.docx",
+          "sourceFileSha": "24ce1f48c6899d65f1b7d662170e50f48678cb9b",
+          "sourceQuestionNumber": "W4b",
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2013-BIO-W4b",
+          "reason": "Same complete question/answer choices as the2013 answered test, with inline answers removed. Food-web diagrams and most photographs are byte-identical; hopping-mouse and cattle-egret photo variants visually checked and depict the same features/relationships.",
+          "sourceLocatorBasis": "MC1–16; written1a/1b, unallocated2intro and2T/F,3a/3b,4a/4b/4c,5,6,7a/7b match the reviewed2013 counterpart in order."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Year 7 Biology Mid Topic Test.docx",
+          "sourceFileSha": "24ce1f48c6899d65f1b7d662170e50f48678cb9b",
+          "sourceQuestionNumber": "W4c",
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2013-BIO-W4c",
+          "reason": "Same complete question/answer choices as the2013 answered test, with inline answers removed. Food-web diagrams and most photographs are byte-identical; hopping-mouse and cattle-egret photo variants visually checked and depict the same features/relationships.",
+          "sourceLocatorBasis": "MC1–16; written1a/1b, unallocated2intro and2T/F,3a/3b,4a/4b/4c,5,6,7a/7b match the reviewed2013 counterpart in order."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Year 7 Biology Mid Topic Test.docx",
+          "sourceFileSha": "24ce1f48c6899d65f1b7d662170e50f48678cb9b",
+          "sourceQuestionNumber": "W5",
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2013-BIO-W5",
+          "reason": "Same complete question/answer choices as the2013 answered test, with inline answers removed. Food-web diagrams and most photographs are byte-identical; hopping-mouse and cattle-egret photo variants visually checked and depict the same features/relationships.",
+          "sourceLocatorBasis": "MC1–16; written1a/1b, unallocated2intro and2T/F,3a/3b,4a/4b/4c,5,6,7a/7b match the reviewed2013 counterpart in order."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Year 7 Biology Mid Topic Test.docx",
+          "sourceFileSha": "24ce1f48c6899d65f1b7d662170e50f48678cb9b",
+          "sourceQuestionNumber": "W6",
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2013-BIO-W6",
+          "reason": "Same complete question/answer choices as the2013 answered test, with inline answers removed. Food-web diagrams and most photographs are byte-identical; hopping-mouse and cattle-egret photo variants visually checked and depict the same features/relationships.",
+          "sourceLocatorBasis": "MC1–16; written1a/1b, unallocated2intro and2T/F,3a/3b,4a/4b/4c,5,6,7a/7b match the reviewed2013 counterpart in order."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Year 7 Biology Mid Topic Test.docx",
+          "sourceFileSha": "24ce1f48c6899d65f1b7d662170e50f48678cb9b",
+          "sourceQuestionNumber": "W7a",
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2013-BIO-W7a",
+          "reason": "Same complete question/answer choices as the2013 answered test, with inline answers removed. Food-web diagrams and most photographs are byte-identical; hopping-mouse and cattle-egret photo variants visually checked and depict the same features/relationships.",
+          "sourceLocatorBasis": "MC1–16; written1a/1b, unallocated2intro and2T/F,3a/3b,4a/4b/4c,5,6,7a/7b match the reviewed2013 counterpart in order."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Year 7 Biology Mid Topic Test.docx",
+          "sourceFileSha": "24ce1f48c6899d65f1b7d662170e50f48678cb9b",
+          "sourceQuestionNumber": "W7b",
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2013-BIO-W7b",
+          "reason": "Same complete question/answer choices as the2013 answered test, with inline answers removed. Food-web diagrams and most photographs are byte-identical; hopping-mouse and cattle-egret photo variants visually checked and depict the same features/relationships.",
+          "sourceLocatorBasis": "MC1–16; written1a/1b, unallocated2intro and2T/F,3a/3b,4a/4b/4c,5,6,7a/7b match the reviewed2013 counterpart in order."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Year 7 Biology Mid Topic Test.docx",
+          "sourceFileSha": "24ce1f48c6899d65f1b7d662170e50f48678cb9b",
+          "sourceQuestionNumber": "7",
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2015-BIO-MC07",
+          "reason": "Same complete question/answer choices as the2013 answered test, with inline answers removed. Food-web diagrams and most photographs are byte-identical; hopping-mouse and cattle-egret photo variants visually checked and depict the same features/relationships.",
+          "sourceLocatorBasis": "MC1–16; written1a/1b, unallocated2intro and2T/F,3a/3b,4a/4b/4c,5,6,7a/7b match the reviewed2013 counterpart in order."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Year 7 Biology Mid Topic Test.docx",
+          "sourceFileSha": "24ce1f48c6899d65f1b7d662170e50f48678cb9b",
+          "sourceQuestionNumber": "8",
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2015-BIO-MC08",
+          "reason": "Same complete question/answer choices as the2013 answered test, with inline answers removed. Food-web diagrams and most photographs are byte-identical; hopping-mouse and cattle-egret photo variants visually checked and depict the same features/relationships.",
+          "sourceLocatorBasis": "MC1–16; written1a/1b, unallocated2intro and2T/F,3a/3b,4a/4b/4c,5,6,7a/7b match the reviewed2013 counterpart in order."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Year 7 Biology Mid Topic Test.docx",
+          "sourceFileSha": "24ce1f48c6899d65f1b7d662170e50f48678cb9b",
+          "sourceQuestionNumber": "9",
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2015-BIO-MC09",
+          "reason": "Same complete question/answer choices as the2013 answered test, with inline answers removed. Food-web diagrams and most photographs are byte-identical; hopping-mouse and cattle-egret photo variants visually checked and depict the same features/relationships.",
+          "sourceLocatorBasis": "MC1–16; written1a/1b, unallocated2intro and2T/F,3a/3b,4a/4b/4c,5,6,7a/7b match the reviewed2013 counterpart in order."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Year 7 Biology Mid Topic Test.docx",
+          "sourceFileSha": "24ce1f48c6899d65f1b7d662170e50f48678cb9b",
+          "sourceQuestionNumber": "10",
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2015-BIO-MC10",
+          "reason": "Same complete question/answer choices as the2013 answered test, with inline answers removed. Food-web diagrams and most photographs are byte-identical; hopping-mouse and cattle-egret photo variants visually checked and depict the same features/relationships.",
+          "sourceLocatorBasis": "MC1–16; written1a/1b, unallocated2intro and2T/F,3a/3b,4a/4b/4c,5,6,7a/7b match the reviewed2013 counterpart in order."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Year 7 Biology Mid Topic Test.docx",
+          "sourceFileSha": "24ce1f48c6899d65f1b7d662170e50f48678cb9b",
+          "sourceQuestionNumber": "13",
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2015-BIO-MC13",
+          "reason": "Same complete question/answer choices as the2013 answered test, with inline answers removed. Food-web diagrams and most photographs are byte-identical; hopping-mouse and cattle-egret photo variants visually checked and depict the same features/relationships.",
+          "sourceLocatorBasis": "MC1–16; written1a/1b, unallocated2intro and2T/F,3a/3b,4a/4b/4c,5,6,7a/7b match the reviewed2013 counterpart in order."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Year 7 Biology Mid Topic Test.docx",
+          "sourceFileSha": "24ce1f48c6899d65f1b7d662170e50f48678cb9b",
+          "sourceQuestionNumber": "14",
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2015-BIO-MC14",
+          "reason": "Same complete question/answer choices as the2013 answered test, with inline answers removed. Food-web diagrams and most photographs are byte-identical; hopping-mouse and cattle-egret photo variants visually checked and depict the same features/relationships.",
+          "sourceLocatorBasis": "MC1–16; written1a/1b, unallocated2intro and2T/F,3a/3b,4a/4b/4c,5,6,7a/7b match the reviewed2013 counterpart in order."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch44",
+      "questionIds": [
+        "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-MC02",
+        "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-MC03",
+        "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-MC04",
+        "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-MC05",
+        "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-MC06",
+        "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-MC07",
+        "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-MC08",
+        "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-MC09",
+        "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-MC10",
+        "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-MC11",
+        "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-MC12",
+        "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-MC13",
+        "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-MC14",
+        "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-MC15",
+        "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-MC16",
+        "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-MC17",
+        "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-W1",
+        "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-W2",
+        "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-W3",
+        "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-W4",
+        "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-W5",
+        "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-W6",
+        "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-W7",
+        "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-W8a",
+        "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-W8b",
+        "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-W9a",
+        "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-W9b"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Year 7 Biology End of Topic Test.docx",
+          "sha": "731183612088074c0d009ad467995945415359b9",
+          "year": 7,
+          "role": "paper"
+        }
+      ],
+      "questions": 27,
+      "marks": 50,
+      "imageAudit": "question-source-packs/repo-science-batch44-audit.json",
+      "notes": [
+        "Complete end-of-topic test (cover52marks; explicit task allocations51marks),17 MC plus11 written tasks. Original leaf key transcribed once instead of duplicated Word fallback text. Original leaf/animal/insect-key figures preserved. MC14 has no correct option and is manual, excluded from battles. Historical classification labels retained with contextual guidance."
+      ],
+      "markAudit": {
+        "End topic": {
+          "coverTotal": 52,
+          "explicitParts": 51,
+          "multipleChoice": 17,
+          "writtenMarks": 34,
+          "coverMismatch": "Printed tasks add to51, one less than cover52. No extra mark or question invented.",
+          "invalidMultipleChoice": "Q14: maple/chestnut pair absent from choices."
+        }
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Year 7 Biology End of Topic Test.docx",
+          "sourceFileSha": "731183612088074c0d009ad467995945415359b9",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2018-CLASSIFICATION-MC01",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
     }
   ],
   "files": [
@@ -8254,7 +8955,7 @@
       "sha": "b937dac9d0aab3cda46ffe7995aba761fdcb910c",
       "year": 7,
       "size": 853929,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -8262,7 +8963,7 @@
       "sha": "9a5a8075846c9c103d630d16e9cfb50594cac834",
       "year": 7,
       "size": 460198,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -8270,7 +8971,7 @@
       "sha": "cce892246489983b944cb2c9dd2d3c0f3210cb5a",
       "year": 7,
       "size": 15271,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -8278,7 +8979,7 @@
       "sha": "916ab7264792093921dd8417caf1737bdcb60f40",
       "year": 7,
       "size": 14599,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -8286,7 +8987,7 @@
       "sha": "10e99992d30ac4490d20d1dabf1f38945cb79423",
       "year": 7,
       "size": 16255,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -8294,7 +8995,7 @@
       "sha": "14b67f246ca0b6b92aec449e4c18708517172b05",
       "year": 7,
       "size": 16474,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -8302,7 +9003,7 @@
       "sha": "912904e23ad916ecaa18440d5fd55434bb005d3b",
       "year": 7,
       "size": 14806,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -8318,7 +9019,7 @@
       "sha": "731183612088074c0d009ad467995945415359b9",
       "year": 7,
       "size": 195675,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -8326,7 +9027,7 @@
       "sha": "24ce1f48c6899d65f1b7d662170e50f48678cb9b",
       "year": 7,
       "size": 760912,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -24382,8 +25083,8 @@
     }
   ],
   "learningVaultCreatedKeySupplements": 811,
-  "remainingUniqueFileBlobs": 1575,
-  "learningVaultCreatedKeys": 653,
+  "remainingUniqueFileBlobs": 1566,
+  "learningVaultCreatedKeys": 730,
   "blockedSources": [
     {
       "sha": "49d4b7f3f8af844477b39abb856365aeb096cafd",
@@ -24595,7 +25296,7 @@
     "ocrPages": 1175,
     "ocrTextVerified": false
   },
-  "distinctSourceAndKeyReferences": 137,
+  "distinctSourceAndKeyReferences": 146,
   "unscoredQuestionsPreserved": 1,
   "activeAdditionalQuestionRequest": {
     "requestedAdditionalQuestions": 1000,
@@ -24610,12 +25311,12 @@
     "requestedAt": "2026-10-16",
     "scope": "All remaining Years 7–10 Science assessment papers; all question types, source figures, response space and marking guidance",
     "startingImportedQuestions": 1374,
-    "addedQuestions": 400,
+    "addedQuestions": 477,
     "status": "in_progress",
     "completionRule": "Every unique assessment paper reviewed; duplicates mapped and unreadable/protected files explicitly resolved. File-blob count is not a paper denominator.",
     "restoredQuestionsAfterDuplicateFix": 4,
-    "newlyExtractedQuestions": 396,
-    "papersReviewedSinceRequest": 33,
+    "newlyExtractedQuestions": 473,
+    "papersReviewedSinceRequest": 42,
     "canonicalSourceQuestionsReReviewed": 2
   },
   "sourceInventoryExclusions": {

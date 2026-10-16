@@ -1,0 +1,156 @@
+{
+  "batch": "repo-science-batch41",
+  "paperCount": 5,
+  "questionIds": [
+    "SCI-REPO-Y7-ARAN-2012-LEAFKEY-assignment",
+    "SCI-REPO-Y7-ARAN-2012-INTRODUCED-assignment"
+  ],
+  "questions": 2,
+  "multipleChoice": 0,
+  "writtenQuestions": 2,
+  "battleEligible": 0,
+  "marks": 36,
+  "reviewRequired": [],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Dichotomous Key Assignment 2012.docx",
+      "sha": "cce892246489983b944cb2c9dd2d3c0f3210cb5a",
+      "year": 7,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Dichotomous Key Assignment.docx",
+      "sha": "916ab7264792093921dd8417caf1737bdcb60f40",
+      "year": 7,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Introduced species Assignment 2012.docx",
+      "sha": "10e99992d30ac4490d20d1dabf1f38945cb79423",
+      "year": 7,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Introduced species Assignment 2013.docx",
+      "sha": "14b67f246ca0b6b92aec449e4c18708517172b05",
+      "year": 7,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Introduced species Assignment.docx",
+      "sha": "912904e23ad916ecaa18440d5fd55434bb005d3b",
+      "year": 7,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 2,
+  "createdSupplements": 0,
+  "notes": [
+    "Five source assignment variants reviewed; two canonical extended tasks. Presentation/cover/reference descriptors retained in each complete assignment rubric rather than inflated into science question counts. Same-task variants mapped with explicit14/20/22-mark rubric differences. No printed school dates invented for undated versions."
+  ],
+  "markAudit": {
+    "Leaf key": {
+      "printedTotal": 14
+    },
+    "Introduced report": {
+      "2012Total": 22,
+      "2013Total": 22,
+      "undatedTotal": 20,
+      "scientificContentMarks": 16
+    }
+  },
+  "duplicateQuestionAliases": [
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Dichotomous Key Assignment.docx",
+      "sourceFileSha": "916ab7264792093921dd8417caf1737bdcb60f40",
+      "sourceQuestionNumber": "assignment",
+      "sourceParagraphs": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-2012-LEAFKEY-assignment",
+      "reason": "Same eight-leaf dichotomous key, labelled specimens and branch draft; same14-mark total. Undated variant explicitly allocates0.5 for each specimen successfully identified and groups numbering under correctly presented key.",
+      "sourceRubricVariant": {
+        "presentation": 2,
+        "workingKey": 4,
+        "correctlyPresentedKey": 2,
+        "strongKey": 2,
+        "labelledSpecimens": 2,
+        "branchDiagram": 2
+      }
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Introduced species Assignment 2013.docx",
+      "sourceFileSha": "14b67f246ca0b6b92aec449e4c18708517172b05",
+      "sourceQuestionNumber": "assignment",
+      "sourceParagraphs": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-2012-INTRODUCED-assignment",
+      "reason": "Same introduced-species ecosystem report and scientific requirements; not recounted as a new question."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Introduced species Assignment.docx",
+      "sourceFileSha": "912904e23ad916ecaa18440d5fd55434bb005d3b",
+      "sourceQuestionNumber": "assignment",
+      "sourceParagraphs": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-2012-INTRODUCED-assignment",
+      "reason": "Same introduced-species ecosystem report and scientific requirements; not recounted as a new question. Undated variant has20 marks, omitting the separately scored cover page; references requirement does not specify three sources/book.",
+      "sourceRubricVariant": {
+        "total": 20,
+        "coverPageSeparatelyScored": false,
+        "references": 2,
+        "referenceCountSpecified": false
+      }
+    }
+  ]
+}
