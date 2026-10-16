@@ -1,0 +1,33 @@
+{
+  "batch": "repo-science-batch174",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y9-ARAN-2013-INSULATOR-project"
+  ],
+  "questions": 1,
+  "multipleChoice": 0,
+  "writtenQuestions": 1,
+  "battleEligible": 0,
+  "marks": 34,
+  "reviewRequired": [],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Physics/Aranmore/2013 Insulators Investigation.docx",
+      "sha": "d0daf3bbac3d323d70d3e186e38997931f9b6d10",
+      "year": 9,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 0,
+  "createdSupplements": 1,
+  "notes": [
+    "Complete34mark two-material insulation design/report task retained,including source rubric and required paired cooling graph.2013file/internal task retained. Conduction description broadened beyond vibration-only account;actual measured results required."
+  ],
+  "markAudit": {
+    "total": 34,
+    "tasks": 1
+  },
+  "duplicateQuestionAliases": []
+}

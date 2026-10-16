@@ -1,0 +1,42 @@
+{
+  "batch": "repo-science-batch172",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y8-KOLBE-2021-BODYVALIDRUBRIC-1",
+    "SCI-REPO-Y8-KOLBE-2021-BODYVALIDRUBRIC-2",
+    "SCI-REPO-Y8-KOLBE-2021-BODYVALIDRUBRIC-3"
+  ],
+  "questions": 3,
+  "multipleChoice": 0,
+  "writtenQuestions": 3,
+  "battleEligible": 0,
+  "marks": 26,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y8-KOLBE-2021-BODYVALIDRUBRIC-1",
+      "note": "Draft rubric names a7mark labelling task but omits the actual circulation figure."
+    }
+  ],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Biological Sciences/Kolbe/2021/Task 2_ Body Systems Investigation/2021 8Sci Assessment 3 Extended Answer rubric (Draft Only) .docx",
+      "sha": "5aab5c4f7f787f3284ce4305734896384e2d4013",
+      "year": 8,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 0,
+  "createdSupplements": 3,
+  "notes": [
+    "Complete draft validation rubric includes three explicit student tasks26marks. Two text-response tasks usable;missing7label circulation figure recorded. Four4mark extended-response domains preserved;ventilation,gas exchange and cellular respiration distinguished. Draft status retained,not promoted to a final examiner paper."
+  ],
+  "markAudit": {
+    "total": 26,
+    "diagramMissing": 7,
+    "textTasks": 19,
+    "draftOnly": true
+  },
+  "duplicateQuestionAliases": []
+}

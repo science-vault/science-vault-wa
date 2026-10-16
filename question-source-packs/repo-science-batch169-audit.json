@@ -1,0 +1,61 @@
+{
+  "batch": "repo-science-batch169",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-1",
+    "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-2",
+    "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-3",
+    "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-4",
+    "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-5"
+  ],
+  "questions": 5,
+  "multipleChoice": 0,
+  "writtenQuestions": 5,
+  "battleEligible": 0,
+  "marks": 34,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-1",
+      "note": "Numbered physical rock set/photos not included. Reuse requires the original matching specimens or replacement images with remapped numbers. Printed section41differs from34marks across its listed groups."
+    },
+    {
+      "id": "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-2",
+      "note": "Numbered physical rock set/photos not included. Reuse requires the original matching specimens or replacement images with remapped numbers. Printed section41differs from34marks across its listed groups."
+    },
+    {
+      "id": "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-3",
+      "note": "Numbered physical rock set/photos not included. Reuse requires the original matching specimens or replacement images with remapped numbers. Printed section41differs from34marks across its listed groups."
+    },
+    {
+      "id": "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-4",
+      "note": "Numbered physical rock set/photos not included. Reuse requires the original matching specimens or replacement images with remapped numbers. Printed section41differs from34marks across its listed groups."
+    },
+    {
+      "id": "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-5",
+      "note": "Numbered physical rock set/photos not included. Reuse requires the original matching specimens or replacement images with remapped numbers. Printed section41differs from34marks across its listed groups."
+    }
+  ],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8ESS Practical Rock ANSWERS.docx",
+      "sha": "6858bd5e6ce3eada22939fe4d28eaa8c5874e932",
+      "year": 8,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 0,
+  "createdSupplements": 5,
+  "notes": [
+    "Full one-page rock practical key visually checked. Five complete question groups retained;their labelled allocations sum34rather than printed41. First group4marks covers3numbered IDs plus unmarked fossil prompt with proposed internal split. Obsidian underwater requirement corrected;shale fossil alternative accepted. Numbered specimens unavailable and explicitly required,not replaced with invented figures."
+  ],
+  "markAudit": {
+    "printedSection": 41,
+    "sumPrintedGroupMarks": 34,
+    "unallocatedDifference": 7,
+    "groups": 5,
+    "firstGroupInternalSplitProposed": true
+  },
+  "duplicateQuestionAliases": []
+}

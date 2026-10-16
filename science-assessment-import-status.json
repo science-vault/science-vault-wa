@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.16-science-source168",
+  "version": "2026.10.16-science-source174",
   "status": "in_progress",
   "scope": "Original Science assessment files in repository, Years 7–10. File counts include keys and supporting materials; they are not question counts.",
   "inventoryFiles": 2009,
@@ -11,10 +11,10 @@
     "9": 457,
     "10": 582
   },
-  "importedPapers": 354,
-  "importedQuestions": 3961,
+  "importedPapers": 361,
+  "importedQuestions": 4000,
   "multipleChoice": 883,
-  "writtenQuestions": 3078,
+  "writtenQuestions": 3117,
   "battleEligibleQuestions": 765,
   "reviewRequired": [
     {
@@ -2488,6 +2488,38 @@
     {
       "id": "SCI-REPO-Y8-SBY-2017-PHYSCHEM-1b",
       "note": "Supplied key incorrectly makes irreversibility a defining requirement."
+    },
+    {
+      "id": "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-1",
+      "note": "Numbered physical rock set/photos not included. Reuse requires the original matching specimens or replacement images with remapped numbers. Printed section41differs from34marks across its listed groups."
+    },
+    {
+      "id": "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-2",
+      "note": "Numbered physical rock set/photos not included. Reuse requires the original matching specimens or replacement images with remapped numbers. Printed section41differs from34marks across its listed groups."
+    },
+    {
+      "id": "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-3",
+      "note": "Numbered physical rock set/photos not included. Reuse requires the original matching specimens or replacement images with remapped numbers. Printed section41differs from34marks across its listed groups."
+    },
+    {
+      "id": "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-4",
+      "note": "Numbered physical rock set/photos not included. Reuse requires the original matching specimens or replacement images with remapped numbers. Printed section41differs from34marks across its listed groups."
+    },
+    {
+      "id": "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-5",
+      "note": "Numbered physical rock set/photos not included. Reuse requires the original matching specimens or replacement images with remapped numbers. Printed section41differs from34marks across its listed groups."
+    },
+    {
+      "id": "SCI-REPO-Y7-SBY-2023-SUNANGLEKEY-hypothesis",
+      "note": "Source angle convention and universal geographical wording require qualification."
+    },
+    {
+      "id": "SCI-REPO-Y7-SBY-2023-SUNANGLEKEY-explain",
+      "note": "Source angle convention and universal geographical wording require qualification."
+    },
+    {
+      "id": "SCI-REPO-Y8-KOLBE-2021-BODYVALIDRUBRIC-1",
+      "note": "Draft rubric names a7mark labelling task but omits the actual circulation figure."
     },
     {
       "id": "SCI-REPO-Y10-NAR-2024-UNIVERSE-MC02",
@@ -31053,6 +31085,388 @@
           "reason": "Equivalent source question already present; not added or counted again."
         }
       ]
+    },
+    {
+      "id": "repo-science-batch169",
+      "questionIds": [
+        "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-1",
+        "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-2",
+        "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-3",
+        "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-4",
+        "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-5"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8ESS Practical Rock ANSWERS.docx",
+          "sha": "6858bd5e6ce3eada22939fe4d28eaa8c5874e932",
+          "year": 8,
+          "role": "paper"
+        }
+      ],
+      "questions": 5,
+      "marks": 34,
+      "imageAudit": "question-source-packs/repo-science-batch169-audit.json",
+      "notes": [
+        "Full one-page rock practical key visually checked. Five complete question groups retained;their labelled allocations sum34rather than printed41. First group4marks covers3numbered IDs plus unmarked fossil prompt with proposed internal split. Obsidian underwater requirement corrected;shale fossil alternative accepted. Numbered specimens unavailable and explicitly required,not replaced with invented figures."
+      ],
+      "markAudit": {
+        "printedSection": 41,
+        "sumPrintedGroupMarks": 34,
+        "unallocatedDifference": 7,
+        "groups": 5,
+        "firstGroupInternalSplitProposed": true
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch170",
+      "questionIds": [
+        "SCI-REPO-Y10-ARAN-SURFACERATE-2015-materials",
+        "SCI-REPO-Y10-ARAN-SURFACERATE-2015-hypothesis",
+        "SCI-REPO-Y10-ARAN-SURFACERATE-2015-independent",
+        "SCI-REPO-Y10-ARAN-SURFACERATE-2015-dependent",
+        "SCI-REPO-Y10-ARAN-SURFACERATE-2015-controls",
+        "SCI-REPO-Y10-ARAN-SURFACERATE-2015-method",
+        "SCI-REPO-Y10-ARAN-SURFACERATE-2015-results",
+        "SCI-REPO-Y10-ARAN-SURFACERATE-2015-graph",
+        "SCI-REPO-Y10-ARAN-SURFACERATE-2015-discussion",
+        "SCI-REPO-Y10-ARAN-SURFACERATE-2015-explain",
+        "SCI-REPO-Y10-ARAN-SURFACERATE-2015-conclusion"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2015 YR10 SCIENCE RATE OF REACTION INVESTIGATION.docx",
+          "sha": "99c7ebc216fe1193f55b3ad95688bc5ba119931f",
+          "year": 10,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 SCIENCE RATE OF REACTION INVESTIGATION.docx",
+          "sha": "1ae3a327aaa53359b6fc8975e651ebe0d3faaa5b",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 11,
+      "marks": 38,
+      "imageAudit": "question-source-packs/repo-science-batch170-audit.json",
+      "notes": [
+        "Complete2014and2015surface-area investigation versions reviewed.11science tasks retained once:2015has38content+2presentation=40;2014has30content+2presentation=32. Same report tasks linked across versions. Planning hints are context,not duplicate questions. Source proven/disproven wording moderated to support/not support;actual reaction and data required."
+      ],
+      "markAudit": {
+        "2015": {
+          "total": 40,
+          "content": 38,
+          "presentation": 2
+        },
+        "2014": {
+          "total": 32,
+          "content": 30,
+          "presentation": 2
+        },
+        "tasksPerVersion": 11
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 SCIENCE RATE OF REACTION INVESTIGATION.docx",
+          "sourceFileSha": "1ae3a327aaa53359b6fc8975e651ebe0d3faaa5b",
+          "sourceQuestionNumber": "materials",
+          "sourceParagraphs": [
+            0,
+            2,
+            56,
+            67
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-SURFACERATE-2015-materials",
+          "reason": "Same surface-area investigation task,with different2014mark allocation. Local30content+2presentation=32;2015uses38+2=40. Do not apply2015suballocations to2014without moderation."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 SCIENCE RATE OF REACTION INVESTIGATION.docx",
+          "sourceFileSha": "1ae3a327aaa53359b6fc8975e651ebe0d3faaa5b",
+          "sourceQuestionNumber": "hypothesis",
+          "sourceParagraphs": [
+            0,
+            2,
+            56,
+            76
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-SURFACERATE-2015-hypothesis",
+          "reason": "Same surface-area investigation task,with different2014mark allocation. Local30content+2presentation=32;2015uses38+2=40. Do not apply2015suballocations to2014without moderation."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 SCIENCE RATE OF REACTION INVESTIGATION.docx",
+          "sourceFileSha": "1ae3a327aaa53359b6fc8975e651ebe0d3faaa5b",
+          "sourceQuestionNumber": "independent",
+          "sourceParagraphs": [
+            0,
+            2,
+            56,
+            89
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-SURFACERATE-2015-independent",
+          "reason": "Same surface-area investigation task,with different2014mark allocation. Local30content+2presentation=32;2015uses38+2=40. Do not apply2015suballocations to2014without moderation."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 SCIENCE RATE OF REACTION INVESTIGATION.docx",
+          "sourceFileSha": "1ae3a327aaa53359b6fc8975e651ebe0d3faaa5b",
+          "sourceQuestionNumber": "dependent",
+          "sourceParagraphs": [
+            0,
+            2,
+            56,
+            94
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-SURFACERATE-2015-dependent",
+          "reason": "Same surface-area investigation task,with different2014mark allocation. Local30content+2presentation=32;2015uses38+2=40. Do not apply2015suballocations to2014without moderation."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 SCIENCE RATE OF REACTION INVESTIGATION.docx",
+          "sourceFileSha": "1ae3a327aaa53359b6fc8975e651ebe0d3faaa5b",
+          "sourceQuestionNumber": "controls",
+          "sourceParagraphs": [
+            0,
+            2,
+            56,
+            99
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-SURFACERATE-2015-controls",
+          "reason": "Same surface-area investigation task,with different2014mark allocation. Local30content+2presentation=32;2015uses38+2=40. Do not apply2015suballocations to2014without moderation."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 SCIENCE RATE OF REACTION INVESTIGATION.docx",
+          "sourceFileSha": "1ae3a327aaa53359b6fc8975e651ebe0d3faaa5b",
+          "sourceQuestionNumber": "method",
+          "sourceParagraphs": [
+            0,
+            2,
+            56,
+            116
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-SURFACERATE-2015-method",
+          "reason": "Same surface-area investigation task,with different2014mark allocation. Local30content+2presentation=32;2015uses38+2=40. Do not apply2015suballocations to2014without moderation."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 SCIENCE RATE OF REACTION INVESTIGATION.docx",
+          "sourceFileSha": "1ae3a327aaa53359b6fc8975e651ebe0d3faaa5b",
+          "sourceQuestionNumber": "results",
+          "sourceParagraphs": [
+            0,
+            2,
+            56,
+            178,
+            179
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-SURFACERATE-2015-results",
+          "reason": "Same surface-area investigation task,with different2014mark allocation. Local30content+2presentation=32;2015uses38+2=40. Do not apply2015suballocations to2014without moderation."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 SCIENCE RATE OF REACTION INVESTIGATION.docx",
+          "sourceFileSha": "1ae3a327aaa53359b6fc8975e651ebe0d3faaa5b",
+          "sourceQuestionNumber": "graph",
+          "sourceParagraphs": [
+            0,
+            2,
+            56,
+            231,
+            233,
+            234,
+            235,
+            236,
+            237,
+            238,
+            239,
+            240
+          ],
+          "sourceMarks": 6,
+          "sourceType": "Diagram",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-SURFACERATE-2015-graph",
+          "reason": "Same surface-area investigation task,with different2014mark allocation. Local30content+2presentation=32;2015uses38+2=40. Do not apply2015suballocations to2014without moderation."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 SCIENCE RATE OF REACTION INVESTIGATION.docx",
+          "sourceFileSha": "1ae3a327aaa53359b6fc8975e651ebe0d3faaa5b",
+          "sourceQuestionNumber": "discussion",
+          "sourceParagraphs": [
+            0,
+            2,
+            56,
+            241,
+            242
+          ],
+          "sourceMarks": 6,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-SURFACERATE-2015-discussion",
+          "reason": "Same surface-area investigation task,with different2014mark allocation. Local30content+2presentation=32;2015uses38+2=40. Do not apply2015suballocations to2014without moderation."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 SCIENCE RATE OF REACTION INVESTIGATION.docx",
+          "sourceFileSha": "1ae3a327aaa53359b6fc8975e651ebe0d3faaa5b",
+          "sourceQuestionNumber": "explain",
+          "sourceParagraphs": [
+            0,
+            2,
+            56,
+            279
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-SURFACERATE-2015-explain",
+          "reason": "Same surface-area investigation task,with different2014mark allocation. Local30content+2presentation=32;2015uses38+2=40. Do not apply2015suballocations to2014without moderation."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 SCIENCE RATE OF REACTION INVESTIGATION.docx",
+          "sourceFileSha": "1ae3a327aaa53359b6fc8975e651ebe0d3faaa5b",
+          "sourceQuestionNumber": "conclusion",
+          "sourceParagraphs": [
+            0,
+            2,
+            56,
+            299
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-SURFACERATE-2015-conclusion",
+          "reason": "Same surface-area investigation task,with different2014mark allocation. Local30content+2presentation=32;2015uses38+2=40. Do not apply2015suballocations to2014without moderation."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch171",
+      "questionIds": [
+        "SCI-REPO-Y7-SBY-2023-SUNANGLEKEY-independent",
+        "SCI-REPO-Y7-SBY-2023-SUNANGLEKEY-dependent",
+        "SCI-REPO-Y7-SBY-2023-SUNANGLEKEY-controls",
+        "SCI-REPO-Y7-SBY-2023-SUNANGLEKEY-hypothesis",
+        "SCI-REPO-Y7-SBY-2023-SUNANGLEKEY-table",
+        "SCI-REPO-Y7-SBY-2023-SUNANGLEKEY-graph",
+        "SCI-REPO-Y7-SBY-2023-SUNANGLEKEY-increase",
+        "SCI-REPO-Y7-SBY-2023-SUNANGLEKEY-locations",
+        "SCI-REPO-Y7-SBY-2023-SUNANGLEKEY-explain"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Safety Bay/2023/Year 7 Angles make a difference ANSWERS.docx",
+          "sha": "fd94e45e4f8b35397cd76286797cb19071c259e5",
+          "year": 7,
+          "role": "paper"
+        }
+      ],
+      "questions": 9,
+      "marks": 24,
+      "imageAudit": "question-source-packs/repo-science-batch171-audit.json",
+      "notes": [
+        "Full24mark keyed version retained in9tasks,with exact original setup figure and five time-paired data points. Inline answers removed from student prompts. Angle convention,seasonality and drifting iceberg exceptions qualified. Distinct supplied24mark dataset task is not the older30mark textbook-page-dependent report."
+      ],
+      "markAudit": {
+        "total": 24,
+        "tasks": 9,
+        "weightingPercent": 20
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch172",
+      "questionIds": [
+        "SCI-REPO-Y8-KOLBE-2021-BODYVALIDRUBRIC-1",
+        "SCI-REPO-Y8-KOLBE-2021-BODYVALIDRUBRIC-2",
+        "SCI-REPO-Y8-KOLBE-2021-BODYVALIDRUBRIC-3"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Biological Sciences/Kolbe/2021/Task 2_ Body Systems Investigation/2021 8Sci Assessment 3 Extended Answer rubric (Draft Only) .docx",
+          "sha": "5aab5c4f7f787f3284ce4305734896384e2d4013",
+          "year": 8,
+          "role": "paper"
+        }
+      ],
+      "questions": 3,
+      "marks": 26,
+      "imageAudit": "question-source-packs/repo-science-batch172-audit.json",
+      "notes": [
+        "Complete draft validation rubric includes three explicit student tasks26marks. Two text-response tasks usable;missing7label circulation figure recorded. Four4mark extended-response domains preserved;ventilation,gas exchange and cellular respiration distinguished. Draft status retained,not promoted to a final examiner paper."
+      ],
+      "markAudit": {
+        "total": 26,
+        "diagramMissing": 7,
+        "textTasks": 19,
+        "draftOnly": true
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch173",
+      "questionIds": [
+        "SCI-REPO-Y10-NAR-2020-CONCRATE-title",
+        "SCI-REPO-Y10-NAR-2020-CONCRATE-introduction",
+        "SCI-REPO-Y10-NAR-2020-CONCRATE-aim-hypothesis",
+        "SCI-REPO-Y10-NAR-2020-CONCRATE-procedure",
+        "SCI-REPO-Y10-NAR-2020-CONCRATE-variables",
+        "SCI-REPO-Y10-NAR-2020-CONCRATE-results",
+        "SCI-REPO-Y10-NAR-2020-CONCRATE-graph",
+        "SCI-REPO-Y10-NAR-2020-CONCRATE-discussion",
+        "SCI-REPO-Y10-NAR-2020-CONCRATE-conclusion",
+        "SCI-REPO-Y10-NAR-2020-CONCRATE-references"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 6 Chemistry 2/10 4 Reaction rate  Inv C2 2020 extra scaffold for general.docx",
+          "sha": "779fcc79189c457c4ca8b71d0d74db5d399831cf",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 10,
+      "marks": 28,
+      "imageAudit": "question-source-packs/repo-science-batch173-audit.json",
+      "notes": [
+        "Complete30mark general scaffold:10content/reference tasks28marks,2general presentation marks logged separately. Three-trial table and numerical independent-variable requirement preserved. Actual reaction,concentrations and observations remain student/class inputs."
+      ],
+      "markAudit": {
+        "total": 30,
+        "selected": 28,
+        "presentation": 2,
+        "tasks": 10
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch174",
+      "questionIds": [
+        "SCI-REPO-Y9-ARAN-2013-INSULATOR-project"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Physics/Aranmore/2013 Insulators Investigation.docx",
+          "sha": "d0daf3bbac3d323d70d3e186e38997931f9b6d10",
+          "year": 9,
+          "role": "paper"
+        }
+      ],
+      "questions": 1,
+      "marks": 34,
+      "imageAudit": "question-source-packs/repo-science-batch174-audit.json",
+      "notes": [
+        "Complete34mark two-material insulation design/report task retained,including source rubric and required paired cooling graph.2013file/internal task retained. Conduction description broadened beyond vibration-only account;actual measured results required."
+      ],
+      "markAudit": {
+        "total": 34,
+        "tasks": 1
+      },
+      "duplicateQuestionAliases": []
     }
   ],
   "files": [
@@ -33595,7 +34009,7 @@
       "sha": "fd94e45e4f8b35397cd76286797cb19071c259e5",
       "year": 7,
       "size": 83292,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -33627,7 +34041,7 @@
       "sha": "fd94e45e4f8b35397cd76286797cb19071c259e5",
       "year": 7,
       "size": 83292,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Safety Bay/2023/Year 7 Angles make a difference ANSWERS.docx"
     },
     {
@@ -35331,8 +35745,9 @@
       "sha": "5aab5c4f7f787f3284ce4305734896384e2d4013",
       "year": 8,
       "size": 84662,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_incomplete_referenced_material",
+      "duplicateOf": null,
+      "reviewReason": "Source assignment explicitly refers to missing textbook method/discussion wording; recorded prompts reviewed, referenced questions not invented."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 8/Science/Biological Sciences/Kolbe/2021/Task 2_ Body Systems Investigation/2021 Year 8 Body Systems scientific investigation .docx",
@@ -37320,8 +37735,9 @@
       "sha": "6858bd5e6ce3eada22939fe4d28eaa8c5874e932",
       "year": 8,
       "size": 79388,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_incomplete_referenced_material",
+      "duplicateOf": null,
+      "reviewReason": "Source assignment explicitly refers to missing textbook method/discussion wording; recorded prompts reviewed, referenced questions not invented."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8ESS Rock Cycle Test 2022 ANSWERS.docx",
@@ -41588,7 +42004,7 @@
       "sha": "d0daf3bbac3d323d70d3e186e38997931f9b6d10",
       "year": 9,
       "size": 104963,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -43745,7 +44161,7 @@
       "sha": "1ae3a327aaa53359b6fc8975e651ebe0d3faaa5b",
       "year": 10,
       "size": 94586,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -43889,7 +44305,7 @@
       "sha": "99c7ebc216fe1193f55b3ad95688bc5ba119931f",
       "year": 10,
       "size": 88704,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -44142,7 +44558,7 @@
       "sha": "779fcc79189c457c4ca8b71d0d74db5d399831cf",
       "year": 10,
       "size": 97582,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -46990,8 +47406,9 @@
       "sha": "8952cc2f28739691c306a8e82b8e58214d305d95",
       "year": 10,
       "size": 79320,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Full2024psychology teaching/course outline with timelines,outcomes and assessment schedule. Names assessments already represented by separate task sheets,but supplies no standalone assessment question paper."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 10/Science/Psychology Elective/Safety Bay/2024/Outlines/Student Outline 2024.docx",
@@ -47224,8 +47641,9 @@
       "sha": "5e76436752a803e85fc89bb18b026d5792260731",
       "year": 10,
       "size": 86509,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Sport-science course description and four assessment-schedule summaries with25%weightings. Generic course planning template,no detailed student question paper or marking key;percentages are not task marks."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 10/Science/Sport Science/Safety Bay/2017/YEAR 10 SPORT SCIENCE TEST ANSWERS.docx",
@@ -47284,8 +47702,8 @@
       "duplicateOf": null
     }
   ],
-  "learningVaultCreatedKeySupplements": 1334,
-  "remainingUniqueFileBlobs": 1175,
+  "learningVaultCreatedKeySupplements": 1373,
+  "remainingUniqueFileBlobs": 1166,
   "learningVaultCreatedKeys": 2317,
   "blockedSources": [
     {
@@ -47498,7 +47916,7 @@
     "ocrPages": 1175,
     "ocrTextVerified": false
   },
-  "distinctSourceAndKeyReferences": 404,
+  "distinctSourceAndKeyReferences": 411,
   "unscoredQuestionsPreserved": 1,
   "activeAdditionalQuestionRequest": {
     "requestedAdditionalQuestions": 1000,
@@ -47513,12 +47931,12 @@
     "requestedAt": "2026-10-16",
     "scope": "All remaining Years 7–10 Science assessment papers; all question types, source figures, response space and marking guidance",
     "startingImportedQuestions": 1374,
-    "addedQuestions": 2587,
+    "addedQuestions": 2626,
     "status": "in_progress",
     "completionRule": "Every unique assessment paper reviewed; duplicates mapped and unreadable/protected files explicitly resolved. File-blob count is not a paper denominator.",
     "restoredQuestionsAfterDuplicateFix": 4,
-    "newlyExtractedQuestions": 2583,
-    "papersReviewedSinceRequest": 291,
+    "newlyExtractedQuestions": 2622,
+    "papersReviewedSinceRequest": 298,
     "canonicalSourceQuestionsReReviewed": 2
   },
   "sourceInventoryExclusions": {
@@ -47528,8 +47946,8 @@
     "note": "These are file metadata records, not papers or questions; excluded from import work without increasing question or paper totals."
   },
   "supportingResourceReview": {
-    "files": 74,
-    "uniqueBlobs": 66,
+    "files": 76,
+    "uniqueBlobs": 68,
     "audit": "question-source-packs/repo-science-supporting-resource-review.json",
     "countedAsPapers": false,
     "countedAsQuestions": false
@@ -47552,6 +47970,13 @@
       "sourceFileSha": "e5a1539e03a1c6d73edeae9d4c8180c67cce6bec",
       "description": "Several historicalorganisation webpages could not be retrieved during review.",
       "effect": "Six-organisation task retained;unverified stances not invented. Archived/current attributable statements required."
+    },
+    {
+      "questionId": "SCI-REPO-Y8-KOLBE-2021-BODYVALIDRUBRIC-1",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Biological Sciences/Kolbe/2021/Task 2_ Body Systems Investigation/2021 8Sci Assessment 3 Extended Answer rubric (Draft Only) .docx",
+      "sourceFileSha": "5aab5c4f7f787f3284ce4305734896384e2d4013",
+      "reference": "Seven-label circulatory-system validation diagram",
+      "resolution": "Locate original question paper or provide an explicitly remapped replacement;no original diagram invented."
     },
     {
       "questionId": "SCI-REPO-Y7-ARAN-PERTHWATER-bibliography",
@@ -47615,6 +48040,41 @@
       "sourceFileSha": "76506df0a7f63138c2306293f2dc17b3f50b23bc",
       "description": "Original slingshot brief/construction and approved measurement procedure not included in rubric/key.",
       "effect": "Explicit assessed criteria recovered;teacher must attach actual study setup and resolve question/prediction score discrepancy."
+    },
+    {
+      "questionId": "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-1",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8ESS Practical Rock ANSWERS.docx",
+      "sourceFileSha": "6858bd5e6ce3eada22939fe4d28eaa8c5874e932",
+      "reference": "Original Mount Lawley numbered rock specimen set",
+      "resolution": "Teacher must provide matching specimens or explicitly remap numbered questions;do not invent specimen photos."
+    },
+    {
+      "questionId": "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-2",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8ESS Practical Rock ANSWERS.docx",
+      "sourceFileSha": "6858bd5e6ce3eada22939fe4d28eaa8c5874e932",
+      "reference": "Original Mount Lawley numbered rock specimen set",
+      "resolution": "Teacher must provide matching specimens or explicitly remap numbered questions;do not invent specimen photos."
+    },
+    {
+      "questionId": "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-3",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8ESS Practical Rock ANSWERS.docx",
+      "sourceFileSha": "6858bd5e6ce3eada22939fe4d28eaa8c5874e932",
+      "reference": "Original Mount Lawley numbered rock specimen set",
+      "resolution": "Teacher must provide matching specimens or explicitly remap numbered questions;do not invent specimen photos."
+    },
+    {
+      "questionId": "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-4",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8ESS Practical Rock ANSWERS.docx",
+      "sourceFileSha": "6858bd5e6ce3eada22939fe4d28eaa8c5874e932",
+      "reference": "Original Mount Lawley numbered rock specimen set",
+      "resolution": "Teacher must provide matching specimens or explicitly remap numbered questions;do not invent specimen photos."
+    },
+    {
+      "questionId": "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-5",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8ESS Practical Rock ANSWERS.docx",
+      "sourceFileSha": "6858bd5e6ce3eada22939fe4d28eaa8c5874e932",
+      "reference": "Original Mount Lawley numbered rock specimen set",
+      "resolution": "Teacher must provide matching specimens or explicitly remap numbered questions;do not invent specimen photos."
     },
     {
       "questionId": "SCI-REPO-Y9-NARR-2022-BRAINLABELS-lateral",
@@ -47844,7 +48304,7 @@
       "effect": "Researchtaskandcorrectformula-basedkeyretained;noinventedelementorneutroncount."
     }
   ],
-  "reviewedDistinctSourceBlobs": 425,
+  "reviewedDistinctSourceBlobs": 434,
   "inventoryCountBasis": "Remaining unique file blobs counts pending or key-reference-pending identities, including protected inputs; it is not a remaining-paper or remaining-question estimate.",
   "canonicalUniverseReviewRepair": {
     "questionIds": [
