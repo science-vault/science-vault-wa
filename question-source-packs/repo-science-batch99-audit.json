@@ -1,0 +1,126 @@
+{
+  "batch": "repo-science-batch99",
+  "paperCount": 3,
+  "questionIds": [
+    "SCI-REPO-Y7-NARR-2017-BIOREV1-4",
+    "SCI-REPO-Y7-NARR-2017-BIOREV1-5",
+    "SCI-REPO-Y7-NARR-2017-BIOREV1-6",
+    "SCI-REPO-Y7-NARR-2017-BIOREV1-7",
+    "SCI-REPO-Y7-NARR-2017-BIOREV1-8",
+    "SCI-REPO-Y7-NARR-2017-BIOREV1-10",
+    "SCI-REPO-Y7-NARR-2017-BIOREV1-11",
+    "SCI-REPO-Y7-NARR-2017-BIOREV1-12",
+    "SCI-REPO-Y7-NARR-2017-BIOREV1-13",
+    "SCI-REPO-Y7-NARR-2017-BIOREV1-14",
+    "SCI-REPO-Y7-NARR-2017-BIOREV1-15",
+    "SCI-REPO-Y7-NARR-2017-BIOREV1-16",
+    "SCI-REPO-Y7-NARR-2017-BIOREV1-17",
+    "SCI-REPO-Y7-SBY-2018-HOTCUPSKEY-aim",
+    "SCI-REPO-Y7-SBY-2018-HOTCUPSKEY-independent",
+    "SCI-REPO-Y7-SBY-2018-HOTCUPSKEY-dependent",
+    "SCI-REPO-Y7-SBY-2018-HOTCUPSKEY-controls",
+    "SCI-REPO-Y7-SBY-2018-HOTCUPSKEY-hypothesis",
+    "SCI-REPO-Y7-SBY-2018-HOTCUPSKEY-materials-method",
+    "SCI-REPO-Y7-SBY-2018-HOTCUPSKEY-diagram",
+    "SCI-REPO-Y7-SBY-2018-HOTCUPSKEY-table",
+    "SCI-REPO-Y7-SBY-2018-HOTCUPSKEY-graph",
+    "SCI-REPO-Y7-SBY-2018-HOTCUPSKEY-fastest",
+    "SCI-REPO-Y7-SBY-2018-HOTCUPSKEY-slowest",
+    "SCI-REPO-Y7-SBY-2018-HOTCUPSKEY-trend",
+    "SCI-REPO-Y7-SBY-2018-HOTCUPSKEY-explain",
+    "SCI-REPO-Y7-SBY-2018-HOTCUPSKEY-conclusion",
+    "SCI-REPO-Y7-SBY-2018-HOTCUPSKEY-problems",
+    "SCI-REPO-Y7-SBY-2018-HOTCUPSKEY-improve",
+    "SCI-REPO-Y9-SBY-2018-PLANEMIRRORKEY-1",
+    "SCI-REPO-Y9-SBY-2018-PLANEMIRRORKEY-2",
+    "SCI-REPO-Y9-SBY-2018-PLANEMIRRORKEY-3"
+  ],
+  "questions": 32,
+  "multipleChoice": 0,
+  "writtenQuestions": 32,
+  "battleEligible": 0,
+  "marks": 58,
+  "reviewRequired": [],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2017/Year 7 Biology revision 1 no answers.docx",
+      "sha": "44cb143782f35e8827649ed0627dee1e4a2bed52",
+      "year": 7,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/3. Hot drinks cooling report ANSWERS.docx",
+      "sha": "68489f6b17669c2438da1497fdf32239ee7726de",
+      "year": 7,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Physics/Safety Bay/2018/Experiment - Reflection from plane mirrors- answers.docx",
+      "sha": "77e0051182267dc28136cab273c7e8bb7b52dd0c",
+      "year": 9,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 13,
+  "createdSupplements": 19,
+  "notes": [
+    "Complete17prompt biologyrevision,30markcup-cooling key/report and3mirror discussionprompts reviewed. Cup-type context,graph5allocation and fractional marks preserved. Mirror answer conditional on rear-coated mirror;no measuredangles fabricated."
+  ],
+  "markAudit": {
+    "biologyRevision": "Unmarked;proposed allocations",
+    "cupCooling": 30,
+    "mirrorDiscussion": "Unmarked;proposed allocations"
+  },
+  "duplicateQuestionAliases": [
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2017/Year 7 Biology revision 1 no answers.docx",
+      "sourceFileSha": "44cb143782f35e8827649ed0627dee1e4a2bed52",
+      "sourceQuestionNumber": "1",
+      "sourceParagraphs": [
+        2
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2017-BIOREV-1",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2017/Year 7 Biology revision 1 no answers.docx",
+      "sourceFileSha": "44cb143782f35e8827649ed0627dee1e4a2bed52",
+      "sourceQuestionNumber": "2",
+      "sourceParagraphs": [
+        3
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2017-BIOREV-2",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2017/Year 7 Biology revision 1 no answers.docx",
+      "sourceFileSha": "44cb143782f35e8827649ed0627dee1e4a2bed52",
+      "sourceQuestionNumber": "3",
+      "sourceParagraphs": [
+        4
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2017-BIOREV-3",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2017/Year 7 Biology revision 1 no answers.docx",
+      "sourceFileSha": "44cb143782f35e8827649ed0627dee1e4a2bed52",
+      "sourceQuestionNumber": "9",
+      "sourceParagraphs": [
+        10
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2017-BIOREV-9",
+      "reason": "Equivalent source question already present; not added or counted again."
+    }
+  ]
+}

@@ -1,0 +1,492 @@
+{
+  "batch": "repo-science-batch97",
+  "paperCount": 3,
+  "questionIds": [],
+  "questions": 0,
+  "multipleChoice": 0,
+  "writtenQuestions": 0,
+  "battleEligible": 0,
+  "marks": 0,
+  "reviewRequired": [],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - Observations, Inferences and Variables.docx",
+      "sha": "db997e6bc9b630e532d95354ec0ba4c1cfe157ba",
+      "year": 7,
+      "role": "paper",
+      "sameContentAsSha": "9e7de534a33a4ee97d61a18431122ae262adadfa"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Log Book – Heating Water experiment.docx",
+      "sha": "a0d91e3bf1a1f74ec6ea73113c7f1bf99b6a3400",
+      "year": 7,
+      "role": "paper",
+      "sameContentAsSha": "4e4ff8dff42b7bc81dcc5ee365a29f6c426e9252"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/Investigation - Plant growth NEW.docx",
+      "sha": "f96bd53ec350a4244d37ac3d7dde3f763b3b793d",
+      "year": 9,
+      "role": "paper",
+      "sameContentAsSha": "6ee5c54ffad5c36d7b098916cee3157dc974b5c9"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 0,
+  "createdSupplements": 0,
+  "notes": [
+    "Exact content-equivalent source documents mapped to previously checked questions;no generated replacements or additional question counts."
+  ],
+  "markAudit": {
+    "newQuestions": 0,
+    "proof": [
+      {
+        "source": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - Observations, Inferences and Variables.docx",
+        "sha": "db997e6bc9b630e532d95354ec0ba4c1cfe157ba",
+        "canonicalSource": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Test - Observations, Inferences and Variables.docx",
+        "canonicalSha": "9e7de534a33a4ee97d61a18431122ae262adadfa",
+        "fingerprint": "e5a92409138635adb1f90e755c52ab5fe2329b2f10d4999e2edafc750acefeb1",
+        "mappedResponses": 15
+      },
+      {
+        "source": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Log Book – Heating Water experiment.docx",
+        "sha": "a0d91e3bf1a1f74ec6ea73113c7f1bf99b6a3400",
+        "canonicalSource": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Log Book – Heating Water experiment.docx",
+        "canonicalSha": "4e4ff8dff42b7bc81dcc5ee365a29f6c426e9252",
+        "fingerprint": "f9b1fa7c77b7207f22330ca09f628836e11b17e6f493419d9eaa12810c3794ba",
+        "mappedResponses": 6
+      },
+      {
+        "source": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/Investigation - Plant growth NEW.docx",
+        "sha": "f96bd53ec350a4244d37ac3d7dde3f763b3b793d",
+        "canonicalSource": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/Investigation - Plant growth NEW.docx",
+        "canonicalSha": "6ee5c54ffad5c36d7b098916cee3157dc974b5c9",
+        "fingerprint": "40be6f2da83c34d97ae05f4ea320afd597e1abd8d9abf99a762c9169953fa3c9",
+        "mappedResponses": 9
+      }
+    ]
+  },
+  "duplicateQuestionAliases": [
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - Observations, Inferences and Variables.docx",
+      "sourceFileSha": "db997e6bc9b630e532d95354ec0ba4c1cfe157ba",
+      "sourceQuestionNumber": "1",
+      "sourceParagraphs": [
+        25,
+        27,
+        28,
+        29,
+        30
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-MC01",
+      "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - Observations, Inferences and Variables.docx",
+      "sourceFileSha": "db997e6bc9b630e532d95354ec0ba4c1cfe157ba",
+      "sourceQuestionNumber": "2",
+      "sourceParagraphs": [
+        33,
+        35,
+        36,
+        37,
+        38
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-MC02",
+      "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - Observations, Inferences and Variables.docx",
+      "sourceFileSha": "db997e6bc9b630e532d95354ec0ba4c1cfe157ba",
+      "sourceQuestionNumber": "3",
+      "sourceParagraphs": [
+        41,
+        44,
+        45,
+        46,
+        47,
+        43
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-MC03",
+      "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - Observations, Inferences and Variables.docx",
+      "sourceFileSha": "db997e6bc9b630e532d95354ec0ba4c1cfe157ba",
+      "sourceQuestionNumber": "4",
+      "sourceParagraphs": [
+        49,
+        50,
+        52,
+        53,
+        54,
+        55
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-MC04",
+      "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - Observations, Inferences and Variables.docx",
+      "sourceFileSha": "db997e6bc9b630e532d95354ec0ba4c1cfe157ba",
+      "sourceQuestionNumber": "5",
+      "sourceParagraphs": [
+        57,
+        58,
+        64,
+        65,
+        66,
+        67,
+        62
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-MC05",
+      "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - Observations, Inferences and Variables.docx",
+      "sourceFileSha": "db997e6bc9b630e532d95354ec0ba4c1cfe157ba",
+      "sourceQuestionNumber": "6",
+      "sourceParagraphs": [
+        69,
+        71,
+        72,
+        73,
+        74
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-MC06",
+      "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - Observations, Inferences and Variables.docx",
+      "sourceFileSha": "db997e6bc9b630e532d95354ec0ba4c1cfe157ba",
+      "sourceQuestionNumber": "7",
+      "sourceParagraphs": [
+        76,
+        78,
+        79,
+        80,
+        81
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-MC07",
+      "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - Observations, Inferences and Variables.docx",
+      "sourceFileSha": "db997e6bc9b630e532d95354ec0ba4c1cfe157ba",
+      "sourceQuestionNumber": "8",
+      "sourceParagraphs": [
+        88,
+        90,
+        92,
+        93,
+        94,
+        95
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-MC08",
+      "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - Observations, Inferences and Variables.docx",
+      "sourceFileSha": "db997e6bc9b630e532d95354ec0ba4c1cfe157ba",
+      "sourceQuestionNumber": "9",
+      "sourceParagraphs": [
+        88,
+        98,
+        100,
+        101,
+        102,
+        103
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-MC09",
+      "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - Observations, Inferences and Variables.docx",
+      "sourceFileSha": "db997e6bc9b630e532d95354ec0ba4c1cfe157ba",
+      "sourceQuestionNumber": "10",
+      "sourceParagraphs": [
+        88,
+        106,
+        108,
+        109,
+        110,
+        111
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-MC10",
+      "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - Observations, Inferences and Variables.docx",
+      "sourceFileSha": "db997e6bc9b630e532d95354ec0ba4c1cfe157ba",
+      "sourceQuestionNumber": "11",
+      "sourceParagraphs": [
+        140,
+        141
+      ],
+      "sourceMarks": 6,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-11",
+      "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - Observations, Inferences and Variables.docx",
+      "sourceFileSha": "db997e6bc9b630e532d95354ec0ba4c1cfe157ba",
+      "sourceQuestionNumber": "12",
+      "sourceParagraphs": [
+        143,
+        144,
+        145,
+        146
+      ],
+      "sourceMarks": 6,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-12",
+      "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - Observations, Inferences and Variables.docx",
+      "sourceFileSha": "db997e6bc9b630e532d95354ec0ba4c1cfe157ba",
+      "sourceQuestionNumber": "13",
+      "sourceParagraphs": [
+        147
+      ],
+      "sourceMarks": 8,
+      "sourceType": "Diagram",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-13",
+      "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - Observations, Inferences and Variables.docx",
+      "sourceFileSha": "db997e6bc9b630e532d95354ec0ba4c1cfe157ba",
+      "sourceQuestionNumber": "14",
+      "sourceParagraphs": [
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157
+      ],
+      "sourceMarks": 6,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-14",
+      "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - Observations, Inferences and Variables.docx",
+      "sourceFileSha": "db997e6bc9b630e532d95354ec0ba4c1cfe157ba",
+      "sourceQuestionNumber": "15",
+      "sourceParagraphs": [
+        159
+      ],
+      "sourceMarks": 5,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-15",
+      "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Log Book – Heating Water experiment.docx",
+      "sourceFileSha": "a0d91e3bf1a1f74ec6ea73113c7f1bf99b6a3400",
+      "sourceQuestionNumber": "independent",
+      "sourceParagraphs": [],
+      "sourceMarks": null,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HEATINGWATER-independent",
+      "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Log Book – Heating Water experiment.docx",
+      "sourceFileSha": "a0d91e3bf1a1f74ec6ea73113c7f1bf99b6a3400",
+      "sourceQuestionNumber": "dependent",
+      "sourceParagraphs": [],
+      "sourceMarks": null,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HEATINGWATER-dependent",
+      "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Log Book – Heating Water experiment.docx",
+      "sourceFileSha": "a0d91e3bf1a1f74ec6ea73113c7f1bf99b6a3400",
+      "sourceQuestionNumber": "controls",
+      "sourceParagraphs": [],
+      "sourceMarks": null,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HEATINGWATER-controls",
+      "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Log Book – Heating Water experiment.docx",
+      "sourceFileSha": "a0d91e3bf1a1f74ec6ea73113c7f1bf99b6a3400",
+      "sourceQuestionNumber": "hypothesis",
+      "sourceParagraphs": [],
+      "sourceMarks": null,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HEATINGWATER-hypothesis",
+      "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Log Book – Heating Water experiment.docx",
+      "sourceFileSha": "a0d91e3bf1a1f74ec6ea73113c7f1bf99b6a3400",
+      "sourceQuestionNumber": "diagram",
+      "sourceParagraphs": [],
+      "sourceMarks": null,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HEATINGWATER-diagram",
+      "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Log Book – Heating Water experiment.docx",
+      "sourceFileSha": "a0d91e3bf1a1f74ec6ea73113c7f1bf99b6a3400",
+      "sourceQuestionNumber": "results",
+      "sourceParagraphs": [],
+      "sourceMarks": null,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HEATINGWATER-results",
+      "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/Investigation - Plant growth NEW.docx",
+      "sourceFileSha": "f96bd53ec350a4244d37ac3d7dde3f763b3b793d",
+      "sourceQuestionNumber": "aim",
+      "sourceParagraphs": [
+        7,
+        8,
+        9
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-aim",
+      "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/Investigation - Plant growth NEW.docx",
+      "sourceFileSha": "f96bd53ec350a4244d37ac3d7dde3f763b3b793d",
+      "sourceQuestionNumber": "independent",
+      "sourceParagraphs": [
+        11,
+        12
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-independent",
+      "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/Investigation - Plant growth NEW.docx",
+      "sourceFileSha": "f96bd53ec350a4244d37ac3d7dde3f763b3b793d",
+      "sourceQuestionNumber": "dependent",
+      "sourceParagraphs": [
+        14,
+        15
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-dependent",
+      "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/Investigation - Plant growth NEW.docx",
+      "sourceFileSha": "f96bd53ec350a4244d37ac3d7dde3f763b3b793d",
+      "sourceQuestionNumber": "controls",
+      "sourceParagraphs": [
+        21,
+        22
+      ],
+      "sourceMarks": 3,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-controls",
+      "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/Investigation - Plant growth NEW.docx",
+      "sourceFileSha": "f96bd53ec350a4244d37ac3d7dde3f763b3b793d",
+      "sourceQuestionNumber": "hypothesis",
+      "sourceParagraphs": [
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-hypothesis",
+      "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/Investigation - Plant growth NEW.docx",
+      "sourceFileSha": "f96bd53ec350a4244d37ac3d7dde3f763b3b793d",
+      "sourceQuestionNumber": "abiotic-table",
+      "sourceParagraphs": [
+        32,
+        33,
+        34
+      ],
+      "sourceMarks": 7,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-abiotic-table",
+      "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/Investigation - Plant growth NEW.docx",
+      "sourceFileSha": "f96bd53ec350a4244d37ac3d7dde3f763b3b793d",
+      "sourceQuestionNumber": "growth-observations",
+      "sourceParagraphs": [
+        41,
+        42,
+        43
+      ],
+      "sourceMarks": 3,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-growth-observations",
+      "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/Investigation - Plant growth NEW.docx",
+      "sourceFileSha": "f96bd53ec350a4244d37ac3d7dde3f763b3b793d",
+      "sourceQuestionNumber": "graph",
+      "sourceParagraphs": [
+        45,
+        46
+      ],
+      "sourceMarks": 7,
+      "sourceType": "Diagram",
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-graph",
+      "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/Investigation - Plant growth NEW.docx",
+      "sourceFileSha": "f96bd53ec350a4244d37ac3d7dde3f763b3b793d",
+      "sourceQuestionNumber": "discussion",
+      "sourceParagraphs": [
+        51,
+        52
+      ],
+      "sourceMarks": 10,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-discussion",
+      "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.16-science-source96",
+  "version": "2026.10.16-science-source103",
   "status": "in_progress",
   "scope": "Original Science assessment files in repository, Years 7–10. File counts include keys and supporting materials; they are not question counts.",
   "inventoryFiles": 2009,
@@ -11,11 +11,11 @@
     "9": 457,
     "10": 582
   },
-  "importedPapers": 238,
-  "importedQuestions": 3171,
-  "multipleChoice": 809,
-  "writtenQuestions": 2362,
-  "battleEligibleQuestions": 701,
+  "importedPapers": 253,
+  "importedQuestions": 3308,
+  "multipleChoice": 820,
+  "writtenQuestions": 2488,
+  "battleEligibleQuestions": 711,
   "reviewRequired": [
     {
       "id": "SCI-REPO-Y7-NAR-2024-CHEM-WR02",
@@ -1628,6 +1628,70 @@
     {
       "id": "SCI-REPO-Y9-NARR-2019-REACTIONTYPES-W3b",
       "note": "Provided classification list is narrower than the scientifically precise description."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2020-GENEXTRA-MC04",
+      "note": "Dominant is the intended option,but “more strongly inherited”is not the definition. Dominance concerns heterozygote expression,not inheritance frequency,strength or superiority."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-25",
+      "note": "Unmarked source;proposed1mark. Original erroneous definition retained and corrected in guidance."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-29",
+      "note": "Unmarked source;proposed1mark. Original erroneous definition retained and corrected in guidance."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-plan",
+      "note": "Fullprojectbriefnotcontainedinrubric;teacher mustsupplycontext."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-diagram",
+      "note": "Fullprojectbriefnotcontainedinrubric;teacher mustsupplycontext."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-materials",
+      "note": "Fullprojectbriefnotcontainedinrubric;teacher mustsupplycontext."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-variables",
+      "note": "Fullprojectbriefnotcontainedinrubric;teacher mustsupplycontext."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-model",
+      "note": "Fullprojectbriefnotcontainedinrubric;teacher mustsupplycontext."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-introduction",
+      "note": "Fullprojectbriefnotcontainedinrubric;teacher mustsupplycontext."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-method",
+      "note": "Fullprojectbriefnotcontainedinrubric;teacher mustsupplycontext."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-results",
+      "note": "Fullprojectbriefnotcontainedinrubric;teacher mustsupplycontext."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-discussion",
+      "note": "Fullprojectbriefnotcontainedinrubric;teacher mustsupplycontext."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2015-SOUNDPROOF-review1",
+      "note": "Current legal/health research task;date and authoritative sources supplied for teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2015-SOUNDPROOF-review2",
+      "note": "Current legal/health research task;date and authoritative sources supplied for teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2015-SOUNDPROOF-review3",
+      "note": "Current legal/health research task;date and authoritative sources supplied for teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2015-SOUNDPROOF-review4",
+      "note": "Current legal/health research task;date and authoritative sources supplied for teacher review."
     },
     {
       "id": "SCI-REPO-Y10-NAR-2024-UNIVERSE-MC02",
@@ -19091,6 +19155,1013 @@
         "teacherDuplicateCounted": false
       },
       "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch97",
+      "questionIds": [],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - Observations, Inferences and Variables.docx",
+          "sha": "db997e6bc9b630e532d95354ec0ba4c1cfe157ba",
+          "year": 7,
+          "role": "paper",
+          "sameContentAsSha": "9e7de534a33a4ee97d61a18431122ae262adadfa"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Log Book – Heating Water experiment.docx",
+          "sha": "a0d91e3bf1a1f74ec6ea73113c7f1bf99b6a3400",
+          "year": 7,
+          "role": "paper",
+          "sameContentAsSha": "4e4ff8dff42b7bc81dcc5ee365a29f6c426e9252"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/Investigation - Plant growth NEW.docx",
+          "sha": "f96bd53ec350a4244d37ac3d7dde3f763b3b793d",
+          "year": 9,
+          "role": "paper",
+          "sameContentAsSha": "6ee5c54ffad5c36d7b098916cee3157dc974b5c9"
+        }
+      ],
+      "questions": 0,
+      "marks": 0,
+      "imageAudit": "question-source-packs/repo-science-batch97-audit.json",
+      "notes": [
+        "Exact content-equivalent source documents mapped to previously checked questions;no generated replacements or additional question counts."
+      ],
+      "markAudit": {
+        "newQuestions": 0,
+        "proof": [
+          {
+            "source": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - Observations, Inferences and Variables.docx",
+            "sha": "db997e6bc9b630e532d95354ec0ba4c1cfe157ba",
+            "canonicalSource": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Test - Observations, Inferences and Variables.docx",
+            "canonicalSha": "9e7de534a33a4ee97d61a18431122ae262adadfa",
+            "fingerprint": "e5a92409138635adb1f90e755c52ab5fe2329b2f10d4999e2edafc750acefeb1",
+            "mappedResponses": 15
+          },
+          {
+            "source": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Log Book – Heating Water experiment.docx",
+            "sha": "a0d91e3bf1a1f74ec6ea73113c7f1bf99b6a3400",
+            "canonicalSource": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Log Book – Heating Water experiment.docx",
+            "canonicalSha": "4e4ff8dff42b7bc81dcc5ee365a29f6c426e9252",
+            "fingerprint": "f9b1fa7c77b7207f22330ca09f628836e11b17e6f493419d9eaa12810c3794ba",
+            "mappedResponses": 6
+          },
+          {
+            "source": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/Investigation - Plant growth NEW.docx",
+            "sha": "f96bd53ec350a4244d37ac3d7dde3f763b3b793d",
+            "canonicalSource": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/Investigation - Plant growth NEW.docx",
+            "canonicalSha": "6ee5c54ffad5c36d7b098916cee3157dc974b5c9",
+            "fingerprint": "40be6f2da83c34d97ae05f4ea320afd597e1abd8d9abf99a762c9169953fa3c9",
+            "mappedResponses": 9
+          }
+        ]
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - Observations, Inferences and Variables.docx",
+          "sourceFileSha": "db997e6bc9b630e532d95354ec0ba4c1cfe157ba",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            25,
+            27,
+            28,
+            29,
+            30
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-MC01",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - Observations, Inferences and Variables.docx",
+          "sourceFileSha": "db997e6bc9b630e532d95354ec0ba4c1cfe157ba",
+          "sourceQuestionNumber": "2",
+          "sourceParagraphs": [
+            33,
+            35,
+            36,
+            37,
+            38
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-MC02",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - Observations, Inferences and Variables.docx",
+          "sourceFileSha": "db997e6bc9b630e532d95354ec0ba4c1cfe157ba",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            41,
+            44,
+            45,
+            46,
+            47,
+            43
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-MC03",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - Observations, Inferences and Variables.docx",
+          "sourceFileSha": "db997e6bc9b630e532d95354ec0ba4c1cfe157ba",
+          "sourceQuestionNumber": "4",
+          "sourceParagraphs": [
+            49,
+            50,
+            52,
+            53,
+            54,
+            55
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-MC04",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - Observations, Inferences and Variables.docx",
+          "sourceFileSha": "db997e6bc9b630e532d95354ec0ba4c1cfe157ba",
+          "sourceQuestionNumber": "5",
+          "sourceParagraphs": [
+            57,
+            58,
+            64,
+            65,
+            66,
+            67,
+            62
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-MC05",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - Observations, Inferences and Variables.docx",
+          "sourceFileSha": "db997e6bc9b630e532d95354ec0ba4c1cfe157ba",
+          "sourceQuestionNumber": "6",
+          "sourceParagraphs": [
+            69,
+            71,
+            72,
+            73,
+            74
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-MC06",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - Observations, Inferences and Variables.docx",
+          "sourceFileSha": "db997e6bc9b630e532d95354ec0ba4c1cfe157ba",
+          "sourceQuestionNumber": "7",
+          "sourceParagraphs": [
+            76,
+            78,
+            79,
+            80,
+            81
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-MC07",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - Observations, Inferences and Variables.docx",
+          "sourceFileSha": "db997e6bc9b630e532d95354ec0ba4c1cfe157ba",
+          "sourceQuestionNumber": "8",
+          "sourceParagraphs": [
+            88,
+            90,
+            92,
+            93,
+            94,
+            95
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-MC08",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - Observations, Inferences and Variables.docx",
+          "sourceFileSha": "db997e6bc9b630e532d95354ec0ba4c1cfe157ba",
+          "sourceQuestionNumber": "9",
+          "sourceParagraphs": [
+            88,
+            98,
+            100,
+            101,
+            102,
+            103
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-MC09",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - Observations, Inferences and Variables.docx",
+          "sourceFileSha": "db997e6bc9b630e532d95354ec0ba4c1cfe157ba",
+          "sourceQuestionNumber": "10",
+          "sourceParagraphs": [
+            88,
+            106,
+            108,
+            109,
+            110,
+            111
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-MC10",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - Observations, Inferences and Variables.docx",
+          "sourceFileSha": "db997e6bc9b630e532d95354ec0ba4c1cfe157ba",
+          "sourceQuestionNumber": "11",
+          "sourceParagraphs": [
+            140,
+            141
+          ],
+          "sourceMarks": 6,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-11",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - Observations, Inferences and Variables.docx",
+          "sourceFileSha": "db997e6bc9b630e532d95354ec0ba4c1cfe157ba",
+          "sourceQuestionNumber": "12",
+          "sourceParagraphs": [
+            143,
+            144,
+            145,
+            146
+          ],
+          "sourceMarks": 6,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-12",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - Observations, Inferences and Variables.docx",
+          "sourceFileSha": "db997e6bc9b630e532d95354ec0ba4c1cfe157ba",
+          "sourceQuestionNumber": "13",
+          "sourceParagraphs": [
+            147
+          ],
+          "sourceMarks": 8,
+          "sourceType": "Diagram",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-13",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - Observations, Inferences and Variables.docx",
+          "sourceFileSha": "db997e6bc9b630e532d95354ec0ba4c1cfe157ba",
+          "sourceQuestionNumber": "14",
+          "sourceParagraphs": [
+            151,
+            152,
+            153,
+            154,
+            155,
+            156,
+            157
+          ],
+          "sourceMarks": 6,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-14",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - Observations, Inferences and Variables.docx",
+          "sourceFileSha": "db997e6bc9b630e532d95354ec0ba4c1cfe157ba",
+          "sourceQuestionNumber": "15",
+          "sourceParagraphs": [
+            159
+          ],
+          "sourceMarks": 5,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-15",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Log Book – Heating Water experiment.docx",
+          "sourceFileSha": "a0d91e3bf1a1f74ec6ea73113c7f1bf99b6a3400",
+          "sourceQuestionNumber": "independent",
+          "sourceParagraphs": [],
+          "sourceMarks": null,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HEATINGWATER-independent",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Log Book – Heating Water experiment.docx",
+          "sourceFileSha": "a0d91e3bf1a1f74ec6ea73113c7f1bf99b6a3400",
+          "sourceQuestionNumber": "dependent",
+          "sourceParagraphs": [],
+          "sourceMarks": null,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HEATINGWATER-dependent",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Log Book – Heating Water experiment.docx",
+          "sourceFileSha": "a0d91e3bf1a1f74ec6ea73113c7f1bf99b6a3400",
+          "sourceQuestionNumber": "controls",
+          "sourceParagraphs": [],
+          "sourceMarks": null,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HEATINGWATER-controls",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Log Book – Heating Water experiment.docx",
+          "sourceFileSha": "a0d91e3bf1a1f74ec6ea73113c7f1bf99b6a3400",
+          "sourceQuestionNumber": "hypothesis",
+          "sourceParagraphs": [],
+          "sourceMarks": null,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HEATINGWATER-hypothesis",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Log Book – Heating Water experiment.docx",
+          "sourceFileSha": "a0d91e3bf1a1f74ec6ea73113c7f1bf99b6a3400",
+          "sourceQuestionNumber": "diagram",
+          "sourceParagraphs": [],
+          "sourceMarks": null,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HEATINGWATER-diagram",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Log Book – Heating Water experiment.docx",
+          "sourceFileSha": "a0d91e3bf1a1f74ec6ea73113c7f1bf99b6a3400",
+          "sourceQuestionNumber": "results",
+          "sourceParagraphs": [],
+          "sourceMarks": null,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HEATINGWATER-results",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/Investigation - Plant growth NEW.docx",
+          "sourceFileSha": "f96bd53ec350a4244d37ac3d7dde3f763b3b793d",
+          "sourceQuestionNumber": "aim",
+          "sourceParagraphs": [
+            7,
+            8,
+            9
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-aim",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/Investigation - Plant growth NEW.docx",
+          "sourceFileSha": "f96bd53ec350a4244d37ac3d7dde3f763b3b793d",
+          "sourceQuestionNumber": "independent",
+          "sourceParagraphs": [
+            11,
+            12
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-independent",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/Investigation - Plant growth NEW.docx",
+          "sourceFileSha": "f96bd53ec350a4244d37ac3d7dde3f763b3b793d",
+          "sourceQuestionNumber": "dependent",
+          "sourceParagraphs": [
+            14,
+            15
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-dependent",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/Investigation - Plant growth NEW.docx",
+          "sourceFileSha": "f96bd53ec350a4244d37ac3d7dde3f763b3b793d",
+          "sourceQuestionNumber": "controls",
+          "sourceParagraphs": [
+            21,
+            22
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-controls",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/Investigation - Plant growth NEW.docx",
+          "sourceFileSha": "f96bd53ec350a4244d37ac3d7dde3f763b3b793d",
+          "sourceQuestionNumber": "hypothesis",
+          "sourceParagraphs": [
+            24,
+            25,
+            26,
+            27,
+            28
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-hypothesis",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/Investigation - Plant growth NEW.docx",
+          "sourceFileSha": "f96bd53ec350a4244d37ac3d7dde3f763b3b793d",
+          "sourceQuestionNumber": "abiotic-table",
+          "sourceParagraphs": [
+            32,
+            33,
+            34
+          ],
+          "sourceMarks": 7,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-abiotic-table",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/Investigation - Plant growth NEW.docx",
+          "sourceFileSha": "f96bd53ec350a4244d37ac3d7dde3f763b3b793d",
+          "sourceQuestionNumber": "growth-observations",
+          "sourceParagraphs": [
+            41,
+            42,
+            43
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-growth-observations",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/Investigation - Plant growth NEW.docx",
+          "sourceFileSha": "f96bd53ec350a4244d37ac3d7dde3f763b3b793d",
+          "sourceQuestionNumber": "graph",
+          "sourceParagraphs": [
+            45,
+            46
+          ],
+          "sourceMarks": 7,
+          "sourceType": "Diagram",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-graph",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/Investigation - Plant growth NEW.docx",
+          "sourceFileSha": "f96bd53ec350a4244d37ac3d7dde3f763b3b793d",
+          "sourceQuestionNumber": "discussion",
+          "sourceParagraphs": [
+            51,
+            52
+          ],
+          "sourceMarks": 10,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-discussion",
+          "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch98",
+      "questionIds": [
+        "SCI-REPO-Y10-SBY-2020-EVOMC-MC02",
+        "SCI-REPO-Y10-SBY-2020-EVOMC-MC03",
+        "SCI-REPO-Y10-SBY-2020-EVOMC-MC04",
+        "SCI-REPO-Y10-SBY-2020-GENEXTRA-generation",
+        "SCI-REPO-Y10-SBY-2020-GENEXTRA-homologous",
+        "SCI-REPO-Y10-SBY-2020-GENEXTRA-artificial",
+        "SCI-REPO-Y10-SBY-2020-GENEXTRA-MC01",
+        "SCI-REPO-Y10-SBY-2020-GENEXTRA-MC02",
+        "SCI-REPO-Y10-SBY-2020-GENEXTRA-MC03",
+        "SCI-REPO-Y10-SBY-2020-GENEXTRA-MC04",
+        "SCI-REPO-Y10-SBY-2020-GENEXTRA-MC05",
+        "SCI-REPO-Y10-SBY-2020-GENEXTRA-MC06",
+        "SCI-REPO-Y10-SBY-2020-GENEXTRA-MC07",
+        "SCI-REPO-Y10-SBY-2020-GENEXTRA-MC08",
+        "SCI-REPO-Y10-SBY-2020-GENEXTRA-growth",
+        "SCI-REPO-Y10-SBY-2020-GENEXTRA-gametes"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/Extras/M choice questions.docx",
+          "sha": "50163185ef58247762941f458f5e48edcdf67048",
+          "year": 10,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/extra questions.docx",
+          "sha": "689f64bac95071a406945d1c7c9c07c36c4e0147",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 16,
+      "marks": 19,
+      "imageAudit": "question-source-packs/repo-science-batch98-audit.json",
+      "notes": [
+        "All4selection/fossilMC and completeextra-genetics sheet reviewed. Source declares10MCmarks but prints9items,one repeated phenotype question;no10thstem invented. Definitions6marks and2writtenmarks retained. Misleading “strongerinheritance”dominance wording manuallyreviewed."
+      ],
+      "markAudit": {
+        "evolutionMC": "4items;marksproposed",
+        "extraDefinitions": 6,
+        "extraMCDeclared": 10,
+        "extraMCPrinted": 9,
+        "extraMCRepeatedPhenotype": true,
+        "extraWritten": 2
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/Extras/M choice questions.docx",
+          "sourceFileSha": "50163185ef58247762941f458f5e48edcdf67048",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-MC01",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/extra questions.docx",
+          "sourceFileSha": "689f64bac95071a406945d1c7c9c07c36c4e0147",
+          "sourceQuestionNumber": "9",
+          "sourceParagraphs": [
+            48,
+            49,
+            50,
+            51,
+            52
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2020-GENEXTRA-MC08",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch99",
+      "questionIds": [
+        "SCI-REPO-Y7-NARR-2017-BIOREV1-4",
+        "SCI-REPO-Y7-NARR-2017-BIOREV1-5",
+        "SCI-REPO-Y7-NARR-2017-BIOREV1-6",
+        "SCI-REPO-Y7-NARR-2017-BIOREV1-7",
+        "SCI-REPO-Y7-NARR-2017-BIOREV1-8",
+        "SCI-REPO-Y7-NARR-2017-BIOREV1-10",
+        "SCI-REPO-Y7-NARR-2017-BIOREV1-11",
+        "SCI-REPO-Y7-NARR-2017-BIOREV1-12",
+        "SCI-REPO-Y7-NARR-2017-BIOREV1-13",
+        "SCI-REPO-Y7-NARR-2017-BIOREV1-14",
+        "SCI-REPO-Y7-NARR-2017-BIOREV1-15",
+        "SCI-REPO-Y7-NARR-2017-BIOREV1-16",
+        "SCI-REPO-Y7-NARR-2017-BIOREV1-17",
+        "SCI-REPO-Y7-SBY-2018-HOTCUPSKEY-aim",
+        "SCI-REPO-Y7-SBY-2018-HOTCUPSKEY-independent",
+        "SCI-REPO-Y7-SBY-2018-HOTCUPSKEY-dependent",
+        "SCI-REPO-Y7-SBY-2018-HOTCUPSKEY-controls",
+        "SCI-REPO-Y7-SBY-2018-HOTCUPSKEY-hypothesis",
+        "SCI-REPO-Y7-SBY-2018-HOTCUPSKEY-materials-method",
+        "SCI-REPO-Y7-SBY-2018-HOTCUPSKEY-diagram",
+        "SCI-REPO-Y7-SBY-2018-HOTCUPSKEY-table",
+        "SCI-REPO-Y7-SBY-2018-HOTCUPSKEY-graph",
+        "SCI-REPO-Y7-SBY-2018-HOTCUPSKEY-fastest",
+        "SCI-REPO-Y7-SBY-2018-HOTCUPSKEY-slowest",
+        "SCI-REPO-Y7-SBY-2018-HOTCUPSKEY-trend",
+        "SCI-REPO-Y7-SBY-2018-HOTCUPSKEY-explain",
+        "SCI-REPO-Y7-SBY-2018-HOTCUPSKEY-conclusion",
+        "SCI-REPO-Y7-SBY-2018-HOTCUPSKEY-problems",
+        "SCI-REPO-Y7-SBY-2018-HOTCUPSKEY-improve",
+        "SCI-REPO-Y9-SBY-2018-PLANEMIRRORKEY-1",
+        "SCI-REPO-Y9-SBY-2018-PLANEMIRRORKEY-2",
+        "SCI-REPO-Y9-SBY-2018-PLANEMIRRORKEY-3"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2017/Year 7 Biology revision 1 no answers.docx",
+          "sha": "44cb143782f35e8827649ed0627dee1e4a2bed52",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/3. Hot drinks cooling report ANSWERS.docx",
+          "sha": "68489f6b17669c2438da1497fdf32239ee7726de",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Physics/Safety Bay/2018/Experiment - Reflection from plane mirrors- answers.docx",
+          "sha": "77e0051182267dc28136cab273c7e8bb7b52dd0c",
+          "year": 9,
+          "role": "paper"
+        }
+      ],
+      "questions": 32,
+      "marks": 58,
+      "imageAudit": "question-source-packs/repo-science-batch99-audit.json",
+      "notes": [
+        "Complete17prompt biologyrevision,30markcup-cooling key/report and3mirror discussionprompts reviewed. Cup-type context,graph5allocation and fractional marks preserved. Mirror answer conditional on rear-coated mirror;no measuredangles fabricated."
+      ],
+      "markAudit": {
+        "biologyRevision": "Unmarked;proposed allocations",
+        "cupCooling": 30,
+        "mirrorDiscussion": "Unmarked;proposed allocations"
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2017/Year 7 Biology revision 1 no answers.docx",
+          "sourceFileSha": "44cb143782f35e8827649ed0627dee1e4a2bed52",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            2
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2017-BIOREV-1",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2017/Year 7 Biology revision 1 no answers.docx",
+          "sourceFileSha": "44cb143782f35e8827649ed0627dee1e4a2bed52",
+          "sourceQuestionNumber": "2",
+          "sourceParagraphs": [
+            3
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2017-BIOREV-2",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2017/Year 7 Biology revision 1 no answers.docx",
+          "sourceFileSha": "44cb143782f35e8827649ed0627dee1e4a2bed52",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            4
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2017-BIOREV-3",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2017/Year 7 Biology revision 1 no answers.docx",
+          "sourceFileSha": "44cb143782f35e8827649ed0627dee1e4a2bed52",
+          "sourceQuestionNumber": "9",
+          "sourceParagraphs": [
+            10
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2017-BIOREV-9",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch100",
+      "questionIds": [
+        "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-1",
+        "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-2",
+        "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-3",
+        "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-4",
+        "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-5",
+        "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-6",
+        "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-7",
+        "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-8",
+        "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-9",
+        "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-10",
+        "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-11",
+        "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-12",
+        "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-13",
+        "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-14",
+        "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-15",
+        "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-16",
+        "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-17",
+        "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-18",
+        "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-19",
+        "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-20",
+        "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-21",
+        "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-22",
+        "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-23",
+        "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-24",
+        "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-25",
+        "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-26",
+        "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-27",
+        "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-28",
+        "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-29",
+        "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-30",
+        "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-31",
+        "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-32",
+        "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-33",
+        "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-34",
+        "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-35",
+        "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-36",
+        "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-37",
+        "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-38"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Physics/Aranmore/Chapter 4 Vocabulary Mixed.docx",
+          "sha": "a5e554c4b5de889362fc202e9e0d6d1dcc04563a",
+          "year": 9,
+          "role": "paper"
+        }
+      ],
+      "questions": 38,
+      "marks": 38,
+      "imageAudit": "question-source-packs/repo-science-batch100-audit.json",
+      "notes": [
+        "All38vocabularyblanks reviewed. Sourceopacity violates energy accounting;sourceeye-length/short-sightedness definition is contradictory. Both flagged rather than automatically marked. Other optical/thermal definitions qualified without changing source numbering."
+      ],
+      "markAudit": {
+        "sourceMarks": null,
+        "proposedMarks": 38,
+        "sourceErrors": [
+          25,
+          29
+        ]
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch101",
+      "questionIds": [
+        "SCI-REPO-Y9-SBY-2018-SEM2REV-282-matterenergy",
+        "SCI-REPO-Y9-SBY-2018-SEM2REV-282-decomposers",
+        "SCI-REPO-Y9-SBY-2018-SEM2REV-282-resistance",
+        "SCI-REPO-Y9-SBY-2018-SEM2REV-282-current",
+        "SCI-REPO-Y9-SBY-2018-SEM2REV-282-voltage",
+        "SCI-REPO-Y9-SBY-2018-SEM2REV-282-thermos",
+        "SCI-REPO-Y9-SBY-2018-SEM2REV-282-parallel",
+        "SCI-REPO-Y9-SBY-2018-SEM2REV-282-acidsbases"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/exam revison.docx",
+          "sha": "6b748098ef39af248f100744405eec10bd320d62",
+          "year": 9,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/exam revision.docx",
+          "sha": "66ae25301e5cd7b55d60674bb2d436a33c3d4234",
+          "year": 9,
+          "role": "paper"
+        }
+      ],
+      "questions": 8,
+      "marks": 26,
+      "imageAudit": "question-source-packs/repo-science-batch101-audit.json",
+      "notes": [
+        "Bothidenticalrevisionlists reviewed;all explicitconcepts retained and duplicatefilemapped to existingrecords.8tasks cover biology,electricity,thermalinsulation andacid/baseproperties with strand-specific tags. No unspecified definition list invented."
+      ],
+      "markAudit": {
+        "sourceMarks": null,
+        "proposedPerUniqueSet": 26,
+        "identicalVersions": 2
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/exam revision.docx",
+          "sourceFileSha": "66ae25301e5cd7b55d60674bb2d436a33c3d4234",
+          "sourceQuestionNumber": "matterenergy",
+          "sourceParagraphs": [
+            0
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2018-SEM2REV-282-matterenergy",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/exam revision.docx",
+          "sourceFileSha": "66ae25301e5cd7b55d60674bb2d436a33c3d4234",
+          "sourceQuestionNumber": "decomposers",
+          "sourceParagraphs": [
+            1
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2018-SEM2REV-282-decomposers",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/exam revision.docx",
+          "sourceFileSha": "66ae25301e5cd7b55d60674bb2d436a33c3d4234",
+          "sourceQuestionNumber": "resistance",
+          "sourceParagraphs": [
+            2
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2018-SEM2REV-282-resistance",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/exam revision.docx",
+          "sourceFileSha": "66ae25301e5cd7b55d60674bb2d436a33c3d4234",
+          "sourceQuestionNumber": "current",
+          "sourceParagraphs": [
+            2
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2018-SEM2REV-282-current",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/exam revision.docx",
+          "sourceFileSha": "66ae25301e5cd7b55d60674bb2d436a33c3d4234",
+          "sourceQuestionNumber": "voltage",
+          "sourceParagraphs": [
+            2
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2018-SEM2REV-282-voltage",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/exam revision.docx",
+          "sourceFileSha": "66ae25301e5cd7b55d60674bb2d436a33c3d4234",
+          "sourceQuestionNumber": "thermos",
+          "sourceParagraphs": [
+            3,
+            4
+          ],
+          "sourceMarks": 6,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2018-SEM2REV-282-thermos",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/exam revision.docx",
+          "sourceFileSha": "66ae25301e5cd7b55d60674bb2d436a33c3d4234",
+          "sourceQuestionNumber": "parallel",
+          "sourceParagraphs": [
+            5
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2018-SEM2REV-282-parallel",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/exam revision.docx",
+          "sourceFileSha": "66ae25301e5cd7b55d60674bb2d436a33c3d4234",
+          "sourceQuestionNumber": "acidsbases",
+          "sourceParagraphs": [
+            6
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2018-SEM2REV-282-acidsbases",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch102",
+      "questionIds": [
+        "SCI-REPO-Y9-ARAN-2013-TRAVELSCIENCE-concepts",
+        "SCI-REPO-Y9-ARAN-2013-TRAVELSCIENCE-terms",
+        "SCI-REPO-Y9-ARAN-2013-TRAVELSCIENCE-diagrams",
+        "SCI-REPO-Y9-ARAN-2013-TRAVELSCIENCE-product",
+        "SCI-REPO-Y9-ARAN-2013-TRAVELSCIENCE-individual",
+        "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-plan",
+        "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-diagram",
+        "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-materials",
+        "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-variables",
+        "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-model",
+        "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-introduction",
+        "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-method",
+        "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-results",
+        "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-discussion"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Physics/Aranmore/Overseas Work.docx",
+          "sha": "885f8751d208b8ccc4a79e6e83e7aae4973333d6",
+          "year": 9,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/Volcano marking key.docx",
+          "sha": "47a4ec1491d22501500d6f1a633c9b2042c05da5",
+          "year": 9,
+          "role": "paper"
+        }
+      ],
+      "questions": 14,
+      "marks": 44,
+      "imageAudit": "question-source-packs/repo-science-batch102-audit.json",
+      "notes": [
+        "Complete travelproject requirements retained with proposed18points;50%termweightnotconvertedto50marks. Volcano29rubric retained as26content/task+3grammar/spelling;maximums derived from rubriccolumns,includingmaterials2. Missingfullvolcanobriefexplicitlyflagged."
+      ],
+      "markAudit": {
+        "travel": "No sourcepointtotal;proposed18",
+        "travelSourceWeightPercent": 50,
+        "volcano": {
+          "total": 29,
+          "taskMarks": 26,
+          "grammarSpelling": 3
+        }
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch103",
+      "questionIds": [
+        "SCI-REPO-Y9-ARAN-2015-SOUNDPROOF-intro",
+        "SCI-REPO-Y9-ARAN-2015-SOUNDPROOF-hypothesis",
+        "SCI-REPO-Y9-ARAN-2015-SOUNDPROOF-independent",
+        "SCI-REPO-Y9-ARAN-2015-SOUNDPROOF-dependent",
+        "SCI-REPO-Y9-ARAN-2015-SOUNDPROOF-controls",
+        "SCI-REPO-Y9-ARAN-2015-SOUNDPROOF-methodcost",
+        "SCI-REPO-Y9-ARAN-2015-SOUNDPROOF-table",
+        "SCI-REPO-Y9-ARAN-2015-SOUNDPROOF-graph",
+        "SCI-REPO-Y9-ARAN-2015-SOUNDPROOF-conclusion",
+        "SCI-REPO-Y9-ARAN-2015-SOUNDPROOF-review1",
+        "SCI-REPO-Y9-ARAN-2015-SOUNDPROOF-review2",
+        "SCI-REPO-Y9-ARAN-2015-SOUNDPROOF-review3",
+        "SCI-REPO-Y9-ARAN-2015-SOUNDPROOF-review4",
+        "SCI-REPO-Y9-ARAN-2014-BASEISOLATION-title",
+        "SCI-REPO-Y9-ARAN-2014-BASEISOLATION-intro",
+        "SCI-REPO-Y9-ARAN-2014-BASEISOLATION-aim",
+        "SCI-REPO-Y9-ARAN-2014-BASEISOLATION-hypothesis",
+        "SCI-REPO-Y9-ARAN-2014-BASEISOLATION-independent",
+        "SCI-REPO-Y9-ARAN-2014-BASEISOLATION-dependent",
+        "SCI-REPO-Y9-ARAN-2014-BASEISOLATION-controls",
+        "SCI-REPO-Y9-ARAN-2014-BASEISOLATION-materials",
+        "SCI-REPO-Y9-ARAN-2014-BASEISOLATION-method",
+        "SCI-REPO-Y9-ARAN-2014-BASEISOLATION-diagrams",
+        "SCI-REPO-Y9-ARAN-2014-BASEISOLATION-reliability",
+        "SCI-REPO-Y9-ARAN-2014-BASEISOLATION-table",
+        "SCI-REPO-Y9-ARAN-2014-BASEISOLATION-graph",
+        "SCI-REPO-Y9-ARAN-2014-BASEISOLATION-discussion",
+        "SCI-REPO-Y9-ARAN-2014-BASEISOLATION-conclusion",
+        "SCI-REPO-Y9-ARAN-2014-BASEISOLATION-references"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Physics/Aranmore/2015 Soundproofing Investigation.docx",
+          "sha": "1ddb402bc1a6c86af12483f0a815e19a35532806",
+          "year": 9,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Aranmore/2014 Base Isolation Investigation.docx",
+          "sha": "9267c0c43d9bb267ec068c385c5c54ced61e85e3",
+          "year": 9,
+          "role": "paper"
+        }
+      ],
+      "questions": 29,
+      "marks": 82,
+      "imageAudit": "question-source-packs/repo-science-batch103-audit.json",
+      "notes": [
+        "Bothcomplete design investigations reviewed. Soundproofing practical23includes1review-completion mark;reviewquestions21so printed23+21=43is inconsistent(arithmetic44). Selectedscience tasks22+21=43with completion1logged separately. CurrentWAnoise and hearing-management guidance checked against official sources. Baseisolation42=39task+3presentation."
+      ],
+      "markAudit": {
+        "sound": {
+          "practicalRubric": 23,
+          "reviewQuestions": 21,
+          "arithmeticTotal": 44,
+          "printedTotal": 43,
+          "completionOnly": 1,
+          "selectedTaskMarks": 43
+        },
+        "baseIsolation": {
+          "total": 42,
+          "task": 39,
+          "presentation": 3
+        }
+      },
+      "duplicateQuestionAliases": []
     }
   ],
   "files": [
@@ -19472,7 +20543,7 @@
       "sha": "44cb143782f35e8827649ed0627dee1e4a2bed52",
       "year": 7,
       "size": 14623,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -22274,7 +23345,7 @@
       "sha": "a0d91e3bf1a1f74ec6ea73113c7f1bf99b6a3400",
       "year": 7,
       "size": 64481,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -22290,7 +23361,7 @@
       "sha": "68489f6b17669c2438da1497fdf32239ee7726de",
       "year": 7,
       "size": 18964,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -22354,7 +23425,7 @@
       "sha": "db997e6bc9b630e532d95354ec0ba4c1cfe157ba",
       "year": 7,
       "size": 638377,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -29045,7 +30116,7 @@
       "sha": "66ae25301e5cd7b55d60674bb2d436a33c3d4234",
       "year": 9,
       "size": 20302,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -29053,7 +30124,7 @@
       "sha": "6b748098ef39af248f100744405eec10bd320d62",
       "year": 9,
       "size": 20295,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -29166,7 +30237,7 @@
       "sha": "9267c0c43d9bb267ec068c385c5c54ced61e85e3",
       "year": 9,
       "size": 20887,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -29406,7 +30477,7 @@
       "sha": "f96bd53ec350a4244d37ac3d7dde3f763b3b793d",
       "year": 9,
       "size": 39912,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -29462,8 +30533,9 @@
       "sha": "47a4ec1491d22501500d6f1a633c9b2042c05da5",
       "year": 9,
       "size": 19649,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_incomplete_referenced_material",
+      "duplicateOf": null,
+      "reviewReason": "Source assignment explicitly refers to missing textbook method/discussion wording; recorded prompts reviewed, referenced questions not invented."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/YEAR 9 TECTONICS TEST (2).docx",
@@ -29734,7 +30806,7 @@
       "sha": "1ddb402bc1a6c86af12483f0a815e19a35532806",
       "year": 9,
       "size": 13197,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -29830,7 +30902,7 @@
       "sha": "a5e554c4b5de889362fc202e9e0d6d1dcc04563a",
       "year": 9,
       "size": 19051,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -29878,7 +30950,7 @@
       "sha": "885f8751d208b8ccc4a79e6e83e7aae4973333d6",
       "year": 9,
       "size": 20515,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -30481,7 +31553,7 @@
       "sha": "77e0051182267dc28136cab273c7e8bb7b52dd0c",
       "year": 9,
       "size": 19255,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -31452,7 +32524,7 @@
       "sha": "50163185ef58247762941f458f5e48edcdf67048",
       "year": 10,
       "size": 14098,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -31484,7 +32556,7 @@
       "sha": "689f64bac95071a406945d1c7c9c07c36c4e0147",
       "year": 10,
       "size": 15516,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -35285,9 +36357,9 @@
       "duplicateOf": null
     }
   ],
-  "learningVaultCreatedKeySupplements": 941,
-  "remainingUniqueFileBlobs": 1321,
-  "learningVaultCreatedKeys": 1920,
+  "learningVaultCreatedKeySupplements": 998,
+  "remainingUniqueFileBlobs": 1306,
+  "learningVaultCreatedKeys": 2000,
   "blockedSources": [
     {
       "sha": "49d4b7f3f8af844477b39abb856365aeb096cafd",
@@ -35499,7 +36571,7 @@
     "ocrPages": 1175,
     "ocrTextVerified": false
   },
-  "distinctSourceAndKeyReferences": 286,
+  "distinctSourceAndKeyReferences": 301,
   "unscoredQuestionsPreserved": 1,
   "activeAdditionalQuestionRequest": {
     "requestedAdditionalQuestions": 1000,
@@ -35514,12 +36586,12 @@
     "requestedAt": "2026-10-16",
     "scope": "All remaining Years 7–10 Science assessment papers; all question types, source figures, response space and marking guidance",
     "startingImportedQuestions": 1374,
-    "addedQuestions": 1797,
+    "addedQuestions": 1934,
     "status": "in_progress",
     "completionRule": "Every unique assessment paper reviewed; duplicates mapped and unreadable/protected files explicitly resolved. File-blob count is not a paper denominator.",
     "restoredQuestionsAfterDuplicateFix": 4,
-    "newlyExtractedQuestions": 1793,
-    "papersReviewedSinceRequest": 175,
+    "newlyExtractedQuestions": 1930,
+    "papersReviewedSinceRequest": 190,
     "canonicalSourceQuestionsReReviewed": 2
   },
   "sourceInventoryExclusions": {
@@ -35536,6 +36608,69 @@
     "countedAsQuestions": false
   },
   "missingReferencedMaterial": [
+    {
+      "questionId": "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-plan",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/Volcano marking key.docx",
+      "sourceFileSha": "47a4ec1491d22501500d6f1a633c9b2042c05da5",
+      "description": "Volcano rubric has no full experimental question,variable choice or method.",
+      "effect": "All assessed task criteria preserved;teacher must attach actual project brief before assignment."
+    },
+    {
+      "questionId": "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-diagram",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/Volcano marking key.docx",
+      "sourceFileSha": "47a4ec1491d22501500d6f1a633c9b2042c05da5",
+      "description": "Volcano rubric has no full experimental question,variable choice or method.",
+      "effect": "All assessed task criteria preserved;teacher must attach actual project brief before assignment."
+    },
+    {
+      "questionId": "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-materials",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/Volcano marking key.docx",
+      "sourceFileSha": "47a4ec1491d22501500d6f1a633c9b2042c05da5",
+      "description": "Volcano rubric has no full experimental question,variable choice or method.",
+      "effect": "All assessed task criteria preserved;teacher must attach actual project brief before assignment."
+    },
+    {
+      "questionId": "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-variables",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/Volcano marking key.docx",
+      "sourceFileSha": "47a4ec1491d22501500d6f1a633c9b2042c05da5",
+      "description": "Volcano rubric has no full experimental question,variable choice or method.",
+      "effect": "All assessed task criteria preserved;teacher must attach actual project brief before assignment."
+    },
+    {
+      "questionId": "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-model",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/Volcano marking key.docx",
+      "sourceFileSha": "47a4ec1491d22501500d6f1a633c9b2042c05da5",
+      "description": "Volcano rubric has no full experimental question,variable choice or method.",
+      "effect": "All assessed task criteria preserved;teacher must attach actual project brief before assignment."
+    },
+    {
+      "questionId": "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-introduction",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/Volcano marking key.docx",
+      "sourceFileSha": "47a4ec1491d22501500d6f1a633c9b2042c05da5",
+      "description": "Volcano rubric has no full experimental question,variable choice or method.",
+      "effect": "All assessed task criteria preserved;teacher must attach actual project brief before assignment."
+    },
+    {
+      "questionId": "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-method",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/Volcano marking key.docx",
+      "sourceFileSha": "47a4ec1491d22501500d6f1a633c9b2042c05da5",
+      "description": "Volcano rubric has no full experimental question,variable choice or method.",
+      "effect": "All assessed task criteria preserved;teacher must attach actual project brief before assignment."
+    },
+    {
+      "questionId": "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-results",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/Volcano marking key.docx",
+      "sourceFileSha": "47a4ec1491d22501500d6f1a633c9b2042c05da5",
+      "description": "Volcano rubric has no full experimental question,variable choice or method.",
+      "effect": "All assessed task criteria preserved;teacher must attach actual project brief before assignment."
+    },
+    {
+      "questionId": "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-discussion",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/Volcano marking key.docx",
+      "sourceFileSha": "47a4ec1491d22501500d6f1a633c9b2042c05da5",
+      "description": "Volcano rubric has no full experimental question,variable choice or method.",
+      "effect": "All assessed task criteria preserved;teacher must attach actual project brief before assignment."
+    },
     {
       "questionId": "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-timeline",
       "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Aranmore/9 SCIENCE CHEMISTRY ASSIGNMENT HISTORY OF THE ATOMIC MODEL 2014.docx",
@@ -35715,7 +36850,7 @@
       "effect": "Retained as teacher-review diagram task;exact label-order key must be verified before assigning."
     }
   ],
-  "reviewedDistinctSourceBlobs": 279,
+  "reviewedDistinctSourceBlobs": 294,
   "inventoryCountBasis": "Remaining unique file blobs counts pending or key-reference-pending identities, including protected inputs; it is not a remaining-paper or remaining-question estimate.",
   "canonicalUniverseReviewRepair": {
     "questionIds": [
