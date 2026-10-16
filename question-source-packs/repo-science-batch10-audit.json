@@ -1,0 +1,364 @@
+{
+  "batch": "repo-science-batch10",
+  "paperCount": 8,
+  "questionIds": [
+    "SCI-REPO-Y7-B10-D12-MC01",
+    "SCI-REPO-Y7-B10-D12-MC02",
+    "SCI-REPO-Y7-B10-D12-MC03",
+    "SCI-REPO-Y7-B10-D12-MC04",
+    "SCI-REPO-Y7-B10-D12-MC05",
+    "SCI-REPO-Y7-B10-D12-MC06",
+    "SCI-REPO-Y7-B10-D12-MC07",
+    "SCI-REPO-Y7-B10-D12-MC08",
+    "SCI-REPO-Y7-B10-D12-MC09",
+    "SCI-REPO-Y7-B10-D12-MC10",
+    "SCI-REPO-Y7-B10-D12-MC11",
+    "SCI-REPO-Y7-B10-D12-MC12",
+    "SCI-REPO-Y7-B10-D12-MC13",
+    "SCI-REPO-Y7-B10-D12-MC14",
+    "SCI-REPO-Y7-B10-D12-MC15",
+    "SCI-REPO-Y7-B10-D12-WR01",
+    "SCI-REPO-Y7-B10-D12-WR02",
+    "SCI-REPO-Y7-B10-D12-WR03",
+    "SCI-REPO-Y7-B10-D12-WR04",
+    "SCI-REPO-Y7-B10-D12-WR05",
+    "SCI-REPO-Y7-B10-D12-WR06",
+    "SCI-REPO-Y8-B10-D13-MC01",
+    "SCI-REPO-Y8-B10-D13-MC02",
+    "SCI-REPO-Y8-B10-D13-MC03",
+    "SCI-REPO-Y8-B10-D13-MC04",
+    "SCI-REPO-Y8-B10-D13-MC05",
+    "SCI-REPO-Y8-B10-D13-MC06",
+    "SCI-REPO-Y8-B10-D13-MC07",
+    "SCI-REPO-Y8-B10-D13-MC08",
+    "SCI-REPO-Y8-B10-D13-MC09",
+    "SCI-REPO-Y8-B10-D13-MC10",
+    "SCI-REPO-Y8-B10-D13-WR01",
+    "SCI-REPO-Y8-B10-D13-WR02",
+    "SCI-REPO-Y8-B10-D13-WR03",
+    "SCI-REPO-Y8-B10-D13-WR04",
+    "SCI-REPO-Y8-B10-D13-WR05",
+    "SCI-REPO-Y8-B10-D13-WR06",
+    "SCI-REPO-Y8-B10-D13-WR07",
+    "SCI-REPO-Y8-B10-D13-WR08",
+    "SCI-REPO-Y8-B10-D13-WR09",
+    "SCI-REPO-Y8-B10-D13-WR10",
+    "SCI-REPO-Y8-B10-D13-WR11",
+    "SCI-REPO-Y8-B10-D14-WR01",
+    "SCI-REPO-Y8-B10-D14-WR02",
+    "SCI-REPO-Y8-B10-D14-WR03",
+    "SCI-REPO-Y8-B10-D15-WR01",
+    "SCI-REPO-Y8-B10-D15-WR02",
+    "SCI-REPO-Y8-B10-D15-WR03",
+    "SCI-REPO-Y8-B10-D15-WR04",
+    "SCI-REPO-Y8-B10-D15-WR05",
+    "SCI-REPO-Y8-B10-D15-WR06",
+    "SCI-REPO-Y8-B10-D15-WR07",
+    "SCI-REPO-Y8-B10-D15-WR08",
+    "SCI-REPO-Y8-B10-D15-WR09",
+    "SCI-REPO-Y8-B10-D15-WR10",
+    "SCI-REPO-Y8-B10-D15-WR11",
+    "SCI-REPO-Y8-B10-D15-WR12",
+    "SCI-REPO-Y8-B10-D15-WR13",
+    "SCI-REPO-Y8-B10-D15-WR14",
+    "SCI-REPO-Y9-B10-D17-WRA1",
+    "SCI-REPO-Y9-B10-D17-WRA2",
+    "SCI-REPO-Y9-B10-D17-WRA3",
+    "SCI-REPO-Y9-B10-D17-WRA4",
+    "SCI-REPO-Y9-B10-D17-WRA5",
+    "SCI-REPO-Y9-B10-D17-WRA6",
+    "SCI-REPO-Y9-B10-D17-WRA7",
+    "SCI-REPO-Y9-B10-D17-WRA8",
+    "SCI-REPO-Y9-B10-D17-WRA9",
+    "SCI-REPO-Y9-B10-D17-WRA10",
+    "SCI-REPO-Y9-B10-D17-WRA11",
+    "SCI-REPO-Y9-B10-D17-WRA12",
+    "SCI-REPO-Y9-B10-D17-WRB1",
+    "SCI-REPO-Y9-B10-D17-WRB2",
+    "SCI-REPO-Y9-B10-D17-WRB3",
+    "SCI-REPO-Y9-B10-D17-WRB4",
+    "SCI-REPO-Y9-B10-D17-WRB5",
+    "SCI-REPO-Y9-B10-D17-WRB6",
+    "SCI-REPO-Y9-B10-D17-WRB7",
+    "SCI-REPO-Y9-B10-D17-WRB8",
+    "SCI-REPO-Y9-B10-D17-WRB9",
+    "SCI-REPO-Y9-B10-D17-WRB10",
+    "SCI-REPO-Y9-B10-D17-WRB11",
+    "SCI-REPO-Y9-B10-D17-WRB12",
+    "SCI-REPO-Y9-B10-D19-WR01",
+    "SCI-REPO-Y9-B10-D19-WR02",
+    "SCI-REPO-Y9-B10-D19-WR03",
+    "SCI-REPO-Y9-B10-D19-WR04",
+    "SCI-REPO-Y9-B10-D19-WR05",
+    "SCI-REPO-Y9-B10-D19-WR06",
+    "SCI-REPO-Y9-B10-D19-WR07",
+    "SCI-REPO-Y9-B10-D19-WR08",
+    "SCI-REPO-Y9-B10-D19-WR09",
+    "SCI-REPO-Y9-B10-D19-WR11",
+    "SCI-REPO-Y9-B10-D19-WR12",
+    "SCI-REPO-Y9-B10-D19-WR13",
+    "SCI-REPO-Y9-B10-D19-WR14",
+    "SCI-REPO-Y10-B10-D24-MC01",
+    "SCI-REPO-Y10-B10-D24-MC02",
+    "SCI-REPO-Y10-B10-D24-MC03",
+    "SCI-REPO-Y10-B10-D24-MC04",
+    "SCI-REPO-Y10-B10-D24-MC05",
+    "SCI-REPO-Y10-B10-D24-MC06",
+    "SCI-REPO-Y10-B10-D24-MC07",
+    "SCI-REPO-Y10-B10-D24-MC08",
+    "SCI-REPO-Y10-B10-D24-MC09",
+    "SCI-REPO-Y10-B10-D24-MC10",
+    "SCI-REPO-Y10-B10-D24-WR11",
+    "SCI-REPO-Y10-B10-D24-WR12",
+    "SCI-REPO-Y10-B10-D24-WR13",
+    "SCI-REPO-Y10-B10-D24-WR14",
+    "SCI-REPO-Y10-B10-D27-MC01",
+    "SCI-REPO-Y10-B10-D27-MC02",
+    "SCI-REPO-Y10-B10-D27-MC03",
+    "SCI-REPO-Y10-B10-D27-MC04",
+    "SCI-REPO-Y10-B10-D27-MC05",
+    "SCI-REPO-Y10-B10-D27-MC06",
+    "SCI-REPO-Y10-B10-D27-MC07",
+    "SCI-REPO-Y10-B10-D27-MC08",
+    "SCI-REPO-Y10-B10-D27-MC09",
+    "SCI-REPO-Y10-B10-D27-MC10",
+    "SCI-REPO-Y10-B10-D27-MC11",
+    "SCI-REPO-Y10-B10-D27-MC12",
+    "SCI-REPO-Y10-B10-D27-MC13",
+    "SCI-REPO-Y10-B10-D27-MC14",
+    "SCI-REPO-Y10-B10-D27-MC15",
+    "SCI-REPO-Y10-B10-D27-WR01",
+    "SCI-REPO-Y10-B10-D27-WR02",
+    "SCI-REPO-Y10-B10-D27-WR04",
+    "SCI-REPO-Y10-B10-D27-WR05",
+    "SCI-REPO-Y10-B10-D27-WR06"
+  ],
+  "questions": 130,
+  "multipleChoice": 50,
+  "writtenQuestions": 80,
+  "marks": 263,
+  "battleEligible": 45,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y7-B10-D12-MC04",
+      "note": "No option precisely states zero resultant force; A is incomplete and can be false."
+    },
+    {
+      "id": "SCI-REPO-Y8-B10-D13-MC07",
+      "note": "Two true options and an incorrect “largest organ” statement; retain manual."
+    },
+    {
+      "id": "SCI-REPO-Y8-B10-D13-MC10",
+      "note": "“Most to least” fails to identify abundance or complexity. Teacher must clarify."
+    },
+    {
+      "id": "SCI-REPO-Y8-B10-D13-WR08",
+      "note": "The two B arrows have low-resolution endpoints among small airways/alveolar regions. Accept a correctly justified interpretation or clarify on the displayed original before marking."
+    },
+    {
+      "id": "SCI-REPO-Y8-B10-D13-WR09",
+      "note": "The rounded table sums to 100.04%/100%, and the repeated-breathing task is a nonphysiological arithmetic model. Do not conduct rebreathing or claim a safe breath count; accept a justified limitation."
+    },
+    {
+      "id": "SCI-REPO-Y8-B10-D15-WR02",
+      "note": "One created mark per independent source term; the second half of this file repeats the same definitions as a response variant and is not counted again. Missing sublimation definition; gas→solid is deposition."
+    },
+    {
+      "id": "SCI-REPO-Y9-B10-D17-WRB1",
+      "note": "One created mark per independent source response; supplied embedded answer table25. Source incorrectly locates the asthenosphere in the lower mantle."
+    },
+    {
+      "id": "SCI-REPO-Y9-B10-D17-WRB3",
+      "note": "One created mark per independent source response; supplied embedded answer table25. Supplied trench terminology is imprecise."
+    },
+    {
+      "id": "SCI-REPO-Y9-B10-D17-WRB9",
+      "note": "One created mark per independent source response; supplied embedded answer table25. Several cold currents fit the unlocated description; teacher clarification required."
+    },
+    {
+      "id": "SCI-REPO-Y10-B10-D24-WR11",
+      "note": "Worked Ca example has18 electrons while neutral calcium has20. No charge is stated for the rows, so accept a consistently stated neutral-atom or common-ion interpretation; teacher must clarify."
+    },
+    {
+      "id": "SCI-REPO-Y10-B10-D27-MC10",
+      "note": "Printed AgC1 may be a digit/letter typo, creating a second invalid formula. Clarify before scoring."
+    },
+    {
+      "id": "SCI-REPO-Y10-B10-D27-MC12",
+      "note": "The claim “all acids contain hydrogen” is limited to the intended school acid model and is false for Lewis acids generally."
+    },
+    {
+      "id": "SCI-REPO-Y10-B10-D27-WR05",
+      "note": "Subpart d is unbalanceable as printed with oxygen gas as a product. Retain the original and award a correct diagnosis; teacher repair needed."
+    },
+    {
+      "id": "SCI-REPO-Y10-B10-D27-WR06",
+      "note": "Subpartd depends on the preceding erroneous equation and must be clarified. Accept accurate redox/acid-base classifications as well as the source’s broad pattern categories."
+    }
+  ],
+  "createdKeys": 106,
+  "createdSupplements": 3,
+  "imageAudit": [
+    {
+      "id": "car",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Aranmore/Forces Test.docx",
+      "embeddedImage": "word/media/image1.jpeg",
+      "role": "question_stimulus",
+      "sha256": "e334b88999ef2811e3745a0a6567beb93b657189e7f67a66801c25c8c69aed91",
+      "publishedSha256": "357fa2822793bf6efe552755c8cc879cf215c103d48df70f3ff1ff2662545af0"
+    },
+    {
+      "id": "wing",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Aranmore/Forces Test.docx",
+      "embeddedImage": "word/media/image2.png",
+      "role": "question_stimulus",
+      "sha256": "babdf280e606f4f543f38b462fcacbb6c5c9b6008a1bf711e44dfa9741ff398b",
+      "publishedSha256": "6d6c515252d2bfb76892c0ff079098228495e4c34c281a76defe5b974c87f14b"
+    },
+    {
+      "id": "respiratory",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Biological Sciences/Mid Topic Test Biological Science Year 8.docx",
+      "embeddedImage": "word/media/image1.jpeg",
+      "role": "question_stimulus",
+      "sha256": "3410db10865c08c7e81765a5fb4694cecf5c0c641d135f654b963b89807ff5d2",
+      "publishedSha256": "15b4aaeaf38a1de771b9b1b344d96a7fa2ab36adcdf522e5bf963cdaf622c7e6"
+    },
+    {
+      "id": "reaction-graph",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2017/Chemistry Extension/Semester 2 Chemistry test.docx",
+      "embeddedImage": "word/media/image1.png",
+      "role": "question_stimulus",
+      "sha256": "e7458ad4d4cbf7f413ca277d62306e3a9f44a8f996fb527299f11c11c032ea25",
+      "publishedSha256": "0e5c2a4449b56fe9fa24166e246cc8f474b0b3933a269467c3ac07cc94512e9f"
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Aranmore/Forces Test.docx",
+      "sha": "a83d26dac980d00001f11688c8337620000244c0",
+      "year": 7
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Biological Sciences/Mid Topic Test Biological Science Year 8.docx",
+      "sha": "90a00c87be114a68d9d33134a0c2eee28e14f5ae",
+      "year": 8
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/Density Practical Test 2013.docx",
+      "sha": "e6920b31d11294dab2ca3fdaf951caeca0a1eb15",
+      "year": 8
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/Vocab Test for Chapter 6.1 2013.docx",
+      "sha": "1a3a84860445fff36284df286ca753e0b202335f",
+      "year": 8
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Aranmore/10.1 & 10.2 Vocabulary Quiz 2 2013.docx",
+      "sha": "1272681b452316ac538b816b3b5006b4a1726e65",
+      "year": 9
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Physics/Safety Bay/2018/Practice Test - Light and sound.docx",
+      "sha": "662a8e9dec0f553503d001fb7608775681cd56ad",
+      "year": 9
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2011 10 GENERAL CHEMISTRY TOPIC TEST.docx",
+      "sha": "b5e0cc7d38b9cde57b04f490514c554149a2bd1d",
+      "year": 10
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2017/Chemistry Extension/Semester 2 Chemistry test.docx",
+      "sha": "8535d28ffb538e1a99bdfbf8f7a5d81700326185",
+      "year": 10
+    }
+  ],
+  "gameMeta": [
+    {
+      "id": "science-source-y7-b10-d12",
+      "title": "Year 7 Science — Forces — Aranmore (original assessment)",
+      "course": "Science",
+      "yearGroup": 7,
+      "unit": "Physical Sciences",
+      "parent": "Forces — Aranmore",
+      "count": 14,
+      "kind": "assessment",
+      "assessmentCount": 14,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch10.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=7&search=SCI-REPO-Y7-B10-D12",
+      "coverage": "Original source MC, with original graph/table where required. Ambiguous questions retained manually in the bank, not automatic battles."
+    },
+    {
+      "id": "science-source-y8-b10-d13",
+      "title": "Year 8 Science — Cells and body systems (original assessment)",
+      "course": "Science",
+      "yearGroup": 8,
+      "unit": "Biological Sciences",
+      "parent": "Cells and body systems",
+      "count": 8,
+      "kind": "assessment",
+      "assessmentCount": 8,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch10.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=8&search=SCI-REPO-Y8-B10-D13",
+      "coverage": "Original source MC, with original graph/table where required. Ambiguous questions retained manually in the bank, not automatic battles."
+    },
+    {
+      "id": "science-source-y10-b10-d24",
+      "title": "Year 10 Science — Chemistry — Aranmore 2011 (original assessment)",
+      "course": "Science",
+      "yearGroup": 10,
+      "unit": "Chemical Sciences",
+      "parent": "Chemistry — Aranmore 2011",
+      "count": 10,
+      "kind": "assessment",
+      "assessmentCount": 10,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch10.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=10&search=SCI-REPO-Y10-B10-D24",
+      "coverage": "Original source MC, with original graph/table where required. Ambiguous questions retained manually in the bank, not automatic battles."
+    },
+    {
+      "id": "science-source-y10-b10-d27",
+      "title": "Year 10 Science — Chemistry extension — Safety Bay 2017 (original assessment)",
+      "course": "Science",
+      "yearGroup": 10,
+      "unit": "Chemical Sciences",
+      "parent": "Chemistry extension — Safety Bay 2017",
+      "count": 13,
+      "kind": "assessment",
+      "assessmentCount": 13,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch10.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=10&search=SCI-REPO-Y10-B10-D27",
+      "coverage": "Original source MC, with original graph/table where required. Ambiguous questions retained manually in the bank, not automatic battles."
+    }
+  ],
+  "byYear": {
+    "7": 21,
+    "8": 38,
+    "9": 37,
+    "10": 34
+  },
+  "markAudit": "Forces: printed42=item42. Biology: printed68=item68. Density: printed10=item10. Chemistry2011: printed35=item35. Chemistry2017:15MC+26written=41 from item allocations. Unmarked vocabulary and Light/Sound use explicitly identified created marks. Tectonics embedded supplied answers retained with three flagged scientific/wording supplements. Repeated response/answer sheets not counted again.",
+  "notes": "Eight papers; major numbered multipart tasks kept together. Independent vocabulary/definition responses remain separate. Four original diagrams/graphs preserved. Source errors remain visible with correct marking guidance; ambiguous MC excluded from battles.",
+  "duplicateQuestionAliases": [
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Physics/Safety Bay/2018/Practice Test - Light and sound.docx",
+      "sourceFileSha": "662a8e9dec0f553503d001fb7608775681cd56ad",
+      "sourceQuestionNumber": "10 (speed comparison)",
+      "sourceParagraphs": [
+        25,
+        26
+      ],
+      "existingQuestionId": "SCI-REPO-Y9-NAR-2022-WAVES-WR01",
+      "reason": "Exact same source question already imported; not added or counted again."
+    }
+  ]
+}

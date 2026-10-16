@@ -122,7 +122,7 @@
   "multipleChoice": 30,
   "writtenQuestions": 85,
   "marks": 280,
-  "battleEligible": 26,
+  "battleEligible": 25,
   "reviewRequired": [
     {
       "id": "SCI-REPO-Y7-B09-D01-WR04",
@@ -175,6 +175,10 @@
     {
       "id": "SCI-REPO-Y7-B09-D10-WR10",
       "note": "No place, date or tidal model is specified. Roughly 6 h 12 min between alternating tides is only an ideal semidiurnal approximation and does not reliably describe Perth. Teacher clarification required."
+    },
+    {
+      "id": "SCI-REPO-Y7-B09-D11-MC06",
+      "note": "Original A and C distractors are identical. The source item has a clear intended answer D, but the live battle engine rejects duplicate choices. Retain the printed options for teacher use."
     },
     {
       "id": "SCI-REPO-Y7-B09-D11-WR08",
@@ -303,9 +307,9 @@
       "yearGroup": 7,
       "unit": "Chemical Sciences",
       "parent": "Chemistry and investigating science",
-      "count": 10,
+      "count": 9,
       "kind": "assessment",
-      "assessmentCount": 10,
+      "assessmentCount": 9,
       "focusCount": 0,
       "revisionCount": 0,
       "pack": "science-source-assessment-games-batch09.json",
