@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.16-science-source10",
+  "version": "2026.10.16-science-source11",
   "status": "in_progress",
   "scope": "Original Science assessment files in repository, Years 7–10. File counts include keys and supporting materials; they are not question counts.",
   "inventoryFiles": 2009,
@@ -11,10 +11,10 @@
     "9": 457,
     "10": 582
   },
-  "importedPapers": 34,
-  "importedQuestions": 604,
+  "importedPapers": 42,
+  "importedQuestions": 684,
   "multipleChoice": 335,
-  "writtenQuestions": 269,
+  "writtenQuestions": 349,
   "battleEligibleQuestions": 308,
   "reviewRequired": [
     {
@@ -244,6 +244,46 @@
     {
       "id": "SCI-REPO-Y10-B10-D27-WR06",
       "note": "Subpartd depends on the preceding erroneous equation and must be clarified. Accept accurate redox/acid-base classifications as well as the source’s broad pattern categories."
+    },
+    {
+      "id": "SCI-REPO-Y8-B11-D33-WR01",
+      "note": "The source concludes expenditure from later food intake, which is not sufficient evidence. Accept critique: intake, stored energy and other activities are not controlled; scale resolution is not necessarily a systematic bias."
+    },
+    {
+      "id": "SCI-REPO-Y8-B11-D33-WR05",
+      "note": "Play count measures endurance under tested conditions, not energy efficiency without measuring energy input and useful output. Equal charging time does not guarantee equal stored charge; accept critique."
+    },
+    {
+      "id": "SCI-REPO-Y9-B11-D34-WR02",
+      "note": "One created mark per independent source term. Repeated response and embedded answer tables are not separately imported. Source uses absolute “does not allow heat to pass”."
+    },
+    {
+      "id": "SCI-REPO-Y9-B11-D34-WR05",
+      "note": "One created mark per independent source term. Repeated response and embedded answer tables are not separately imported. Supplied matching key has wrong radiation number9; correct is8."
+    },
+    {
+      "id": "SCI-REPO-Y9-B11-D34-WR09",
+      "note": "One created mark per independent source term. Repeated response and embedded answer tables are not separately imported. Source rounds to−273°C and implies all particle kinetic energy is lost."
+    },
+    {
+      "id": "SCI-REPO-Y9-B11-D34-WR12",
+      "note": "One created mark per independent source term. Repeated response and embedded answer tables are not separately imported. Source incorrectly calls stored thermal energy “heat”."
+    },
+    {
+      "id": "SCI-REPO-Y9-B11-D36-WR03",
+      "note": "One created mark per independent source term. Repeated response and embedded answer tables are not separately imported. Opaque definition is scientifically false as printed."
+    },
+    {
+      "id": "SCI-REPO-Y9-B11-D36-WR10",
+      "note": "One created mark per independent source term. Repeated response and embedded answer tables are not separately imported. Source omits the necessary refractive-index and incidence-angle conditions."
+    },
+    {
+      "id": "SCI-REPO-Y9-B11-D37-WR09",
+      "note": "One created mark per independent source term. Repeated response and embedded answer tables are not separately imported. Source reverses eye-length explanation of myopia."
+    },
+    {
+      "id": "SCI-REPO-Y10-B11-D38-WR02",
+      "note": "One created mark per independent source term. Repeated response and embedded answer tables are not separately imported. Source says “all forces are equal”, which is not the general condition."
     }
   ],
   "batches": [
@@ -3178,6 +3218,138 @@
           "reason": "Exact same source question already imported; not added or counted again."
         }
       ]
+    },
+    {
+      "id": "repo-science-batch11",
+      "questionIds": [
+        "SCI-REPO-Y7-B11-D31-WR01",
+        "SCI-REPO-Y7-B11-D31-WR02",
+        "SCI-REPO-Y7-B11-D31-WR03",
+        "SCI-REPO-Y7-B11-D31-WR04",
+        "SCI-REPO-Y7-B11-D31-WR05",
+        "SCI-REPO-Y7-B11-D31-WR06",
+        "SCI-REPO-Y7-B11-D31-WR07",
+        "SCI-REPO-Y7-B11-D31-WR08",
+        "SCI-REPO-Y7-B11-D31-WR09",
+        "SCI-REPO-Y7-B11-D31-WR10",
+        "SCI-REPO-Y7-B11-D31-WR11",
+        "SCI-REPO-Y7-B11-D31-WR12",
+        "SCI-REPO-Y7-B11-D31-WR13",
+        "SCI-REPO-Y7-B11-D31-WR14",
+        "SCI-REPO-Y7-B11-D31-WR15",
+        "SCI-REPO-Y8-B11-D32-WR01",
+        "SCI-REPO-Y8-B11-D32-WR02",
+        "SCI-REPO-Y8-B11-D32-WR03",
+        "SCI-REPO-Y8-B11-D32-WR04",
+        "SCI-REPO-Y8-B11-D33-WR01",
+        "SCI-REPO-Y8-B11-D33-WR02",
+        "SCI-REPO-Y8-B11-D33-WR03",
+        "SCI-REPO-Y8-B11-D33-WR04",
+        "SCI-REPO-Y8-B11-D33-WR05",
+        "SCI-REPO-Y9-B11-D34-WR01",
+        "SCI-REPO-Y9-B11-D34-WR02",
+        "SCI-REPO-Y9-B11-D34-WR03",
+        "SCI-REPO-Y9-B11-D34-WR04",
+        "SCI-REPO-Y9-B11-D34-WR05",
+        "SCI-REPO-Y9-B11-D34-WR06",
+        "SCI-REPO-Y9-B11-D34-WR07",
+        "SCI-REPO-Y9-B11-D34-WR08",
+        "SCI-REPO-Y9-B11-D34-WR09",
+        "SCI-REPO-Y9-B11-D34-WR10",
+        "SCI-REPO-Y9-B11-D34-WR11",
+        "SCI-REPO-Y9-B11-D34-WR12",
+        "SCI-REPO-Y9-B11-D35-WR01",
+        "SCI-REPO-Y9-B11-D35-WR02",
+        "SCI-REPO-Y9-B11-D35-WR03",
+        "SCI-REPO-Y9-B11-D35-WR04",
+        "SCI-REPO-Y9-B11-D35-WR05",
+        "SCI-REPO-Y9-B11-D35-WR06",
+        "SCI-REPO-Y9-B11-D35-WR07",
+        "SCI-REPO-Y9-B11-D35-WR08",
+        "SCI-REPO-Y9-B11-D35-WR09",
+        "SCI-REPO-Y9-B11-D35-WR10",
+        "SCI-REPO-Y9-B11-D35-WR11",
+        "SCI-REPO-Y9-B11-D35-WR12",
+        "SCI-REPO-Y9-B11-D36-WR01",
+        "SCI-REPO-Y9-B11-D36-WR02",
+        "SCI-REPO-Y9-B11-D36-WR03",
+        "SCI-REPO-Y9-B11-D36-WR04",
+        "SCI-REPO-Y9-B11-D36-WR05",
+        "SCI-REPO-Y9-B11-D36-WR06",
+        "SCI-REPO-Y9-B11-D36-WR07",
+        "SCI-REPO-Y9-B11-D36-WR08",
+        "SCI-REPO-Y9-B11-D36-WR09",
+        "SCI-REPO-Y9-B11-D36-WR10",
+        "SCI-REPO-Y9-B11-D36-WR11",
+        "SCI-REPO-Y9-B11-D36-WR12",
+        "SCI-REPO-Y9-B11-D37-WR01",
+        "SCI-REPO-Y9-B11-D37-WR02",
+        "SCI-REPO-Y9-B11-D37-WR03",
+        "SCI-REPO-Y9-B11-D37-WR04",
+        "SCI-REPO-Y9-B11-D37-WR05",
+        "SCI-REPO-Y9-B11-D37-WR06",
+        "SCI-REPO-Y9-B11-D37-WR07",
+        "SCI-REPO-Y9-B11-D37-WR08",
+        "SCI-REPO-Y9-B11-D37-WR09",
+        "SCI-REPO-Y9-B11-D37-WR10",
+        "SCI-REPO-Y9-B11-D37-WR11",
+        "SCI-REPO-Y9-B11-D37-WR12",
+        "SCI-REPO-Y10-B11-D38-WR01",
+        "SCI-REPO-Y10-B11-D38-WR02",
+        "SCI-REPO-Y10-B11-D38-WR03",
+        "SCI-REPO-Y10-B11-D38-WR04",
+        "SCI-REPO-Y10-B11-D38-WR05",
+        "SCI-REPO-Y10-B11-D38-WR06",
+        "SCI-REPO-Y10-B11-D38-WR07",
+        "SCI-REPO-Y10-B11-D38-WR08"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Aranmore/Year 7 Biology Mini Vocab Test Chapter 5.1.docx",
+          "sha": "6c6b6892c3b0032d3bd575ef8f90d02e5e54ff0f",
+          "year": 7
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Biological Sciences/Aranmore/Cell Vocab Mini Test.docx",
+          "sha": "a9cc8ab27cfd3f9d62d51c63c07e1fad3f58acfb",
+          "year": 8
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2013 Scientific Method & Measurement Mini Quiz-reformatted.docx",
+          "sha": "ae72adea58cf9eca81b4665d1d4da0c76601e6ec",
+          "year": 8
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Physics/Aranmore/Chapter 4.1 Vocabulary.docx",
+          "sha": "631c83613bfe7afb1b74a97b3547f8e7d48699f3",
+          "year": 9
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Physics/Aranmore/Chapter 4.2 Vocabulary.docx",
+          "sha": "42cecc59aca6593af1f2ffa9ba34934287427280",
+          "year": 9
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Physics/Aranmore/Chapter 4.3 Vocabulary.docx",
+          "sha": "2d5ab861e7424d41465b94aca793a07825db9032",
+          "year": 9
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Physics/Aranmore/Chapter 4.4 Vocabulary.docx",
+          "sha": "e9c93fdd61c0cb18ee95c7c17cead5298e7cec1b",
+          "year": 9
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/Chapter 9.1 Vocabulary.docx",
+          "sha": "134cf85372b2645181e02c40691fc1fe4e736c4d",
+          "year": 10
+        }
+      ],
+      "imageAudit": "question-source-packs/repo-science-batch11-audit.json",
+      "questions": 80,
+      "marks": 123,
+      "notes": "Eight source tests/quiz sheets, all written matching, calculations or diagrams. Five vocabulary sheets include supplied embedded keys; erroneous radiation number, heat definition, opacity, myopia and other issues corrected explicitly in marking guidance, with teacher-review flags. Three original diagrams/grids preserved. No new practice questions and no automatic battle items.",
+      "markAudit": "Cells printed23 preserved (3+11+8+1). Scientific method cover29 preserved:Q4 heading6 conflicts with subparts2+5=7, so retain7 as item total; other8+2+6+6. Unmarked vocabulary uses one created mark per independent response. No repeated answer/response-table variants counted."
     }
   ],
   "files": [
@@ -3266,7 +3438,7 @@
       "sha": "6c6b6892c3b0032d3bd575ef8f90d02e5e54ff0f",
       "year": 7,
       "size": 96787,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -7322,7 +7494,7 @@
       "sha": "a9cc8ab27cfd3f9d62d51c63c07e1fad3f58acfb",
       "year": 8,
       "size": 110750,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -10170,7 +10342,7 @@
       "sha": "ae72adea58cf9eca81b4665d1d4da0c76601e6ec",
       "year": 8,
       "size": 106464,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -13858,7 +14030,7 @@
       "sha": "631c83613bfe7afb1b74a97b3547f8e7d48699f3",
       "year": 9,
       "size": 19587,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -13866,7 +14038,7 @@
       "sha": "42cecc59aca6593af1f2ffa9ba34934287427280",
       "year": 9,
       "size": 19500,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -13874,7 +14046,7 @@
       "sha": "2d5ab861e7424d41465b94aca793a07825db9032",
       "year": 9,
       "size": 19910,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -13882,7 +14054,7 @@
       "sha": "e9c93fdd61c0cb18ee95c7c17cead5298e7cec1b",
       "year": 9,
       "size": 19866,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -18258,7 +18430,7 @@
       "sha": "134cf85372b2645181e02c40691fc1fe4e736c4d",
       "year": 10,
       "size": 17141,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -19254,9 +19426,9 @@
       "duplicateOf": null
     }
   ],
-  "learningVaultCreatedKeySupplements": 72,
-  "remainingUniqueFileBlobs": 1637,
-  "learningVaultCreatedKeys": 268,
+  "learningVaultCreatedKeySupplements": 80,
+  "remainingUniqueFileBlobs": 1629,
+  "learningVaultCreatedKeys": 292,
   "blockedSources": [
     {
       "sha": "49d4b7f3f8af844477b39abb856365aeb096cafd",
@@ -19468,13 +19640,13 @@
     "ocrPages": 1175,
     "ocrTextVerified": false
   },
-  "distinctSourceAndKeyReferences": 49,
+  "distinctSourceAndKeyReferences": 57,
   "unscoredQuestionsPreserved": 1,
   "activeAdditionalQuestionRequest": {
     "requestedAdditionalQuestions": 1000,
     "startingImportedQuestions": 359,
-    "addedQuestions": 245,
-    "remainingQuestions": 755,
+    "addedQuestions": 325,
+    "remainingQuestions": 675,
     "sourceMode": "Assessment papers only",
     "status": "in_progress",
     "requestedAt": "2026-10-16"
