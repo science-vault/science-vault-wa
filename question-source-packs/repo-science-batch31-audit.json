@@ -1,0 +1,70 @@
+{
+  "batch": "repo-science-batch31",
+  "paperCount": 2,
+  "questionIds": [
+    "SCI-REPO-Y9-NAR-TOOLIBIN-VALIDATION-1",
+    "SCI-REPO-Y9-NAR-TOOLIBIN-VALIDATION-2",
+    "SCI-REPO-Y9-NAR-TOOLIBIN-VALIDATION-3",
+    "SCI-REPO-Y9-NAR-TOOLIBIN-VALIDATION-4",
+    "SCI-REPO-Y9-NAR-TOOLIBIN-VALIDATION-5",
+    "SCI-REPO-Y9-NAR-2022-INFECTION-EXT-1",
+    "SCI-REPO-Y9-NAR-2022-INFECTION-EXT-2",
+    "SCI-REPO-Y9-NAR-2022-INFECTION-EXT-3",
+    "SCI-REPO-Y9-NAR-2022-INFECTION-EXT-4"
+  ],
+  "questions": 9,
+  "multipleChoice": 0,
+  "writtenQuestions": 9,
+  "battleEligible": 0,
+  "marks": 31,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y9-NAR-2022-INFECTION-EXT-2",
+      "note": "Source introduction incorrectly generalises all viral vaccines as attenuated; supplied key also implies mild illness is required. Created guidance corrects both."
+    },
+    {
+      "id": "SCI-REPO-Y9-NAR-2022-INFECTION-EXT-4",
+      "note": "Source wrongly guarantees no future disease and supplied key assigns phagocytosis to killer T cells. These errors are corrected; item requires teacher moderation."
+    }
+  ],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Narrogin/2020/Validation for Toolibin Excursion.docx",
+      "sha": "8c88a545ffd42d7cadb5526d25b330bc0f2b437b",
+      "year": 9,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Narrogin/2022/9Sc1Response to Infection TestExtended Answers5 marks.docx",
+      "sha": "050e42ba17e6dc61f7714f60a8073599f827ce08",
+      "year": 9,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Narrogin/2022/9Sc1Response to Infection TestExtended Answers5 mark1-Marking Guide.docx",
+      "sha": "27b1a9a6412887b8ebfdfbf5d5f1ac9b84aaac3e",
+      "year": 9,
+      "role": "key_reference"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 5,
+  "createdSupplements": 4,
+  "notes": [
+    "Toolibin excursion validation checked against primary Australian/WA government sources. Four optional infection extension prompts retained individually; supplied vaccine/immune-memory/T-cell key errors explicitly corrected. No automatic battle questions."
+  ],
+  "markAudit": {
+    "Toolibin validation": {
+      "sumOfPrintedTaskMarks": 11
+    },
+    "Infection extension": {
+      "marksPerOption": 5,
+      "optionsInPool": 4,
+      "poolMarks": 20,
+      "compulsoryCombinedTotal": false,
+      "sourceInstruction": "Complete one fully, then attempt a second if appropriate."
+    }
+  },
+  "duplicateQuestionAliases": []
+}

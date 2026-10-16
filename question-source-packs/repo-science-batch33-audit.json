@@ -1,0 +1,106 @@
+{
+  "batch": "repo-science-batch33",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-MC01",
+    "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-MC02",
+    "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-MC03",
+    "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-MC04",
+    "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-MC05",
+    "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-MC06",
+    "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-MC07",
+    "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-MC08",
+    "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-MC09",
+    "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-MC10",
+    "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-V1",
+    "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-V2",
+    "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-V3",
+    "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-V4",
+    "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-V5",
+    "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-V6",
+    "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-V7",
+    "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-V8",
+    "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-V9",
+    "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-V10"
+  ],
+  "questions": 20,
+  "multipleChoice": 10,
+  "writtenQuestions": 10,
+  "battleEligible": 6,
+  "marks": 20,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-MC04",
+      "note": "Area labels are floating points rather than clearly bounded regions; rendered source can support multiple interpretations. Teacher must clarify the diagram/letter mapping before using this item."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-MC05",
+      "note": "Area labels are floating points rather than clearly bounded regions; rendered source can support multiple interpretations. Teacher must clarify the diagram/letter mapping before using this item."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-MC06",
+      "note": "Area labels are floating points rather than clearly bounded regions; rendered source can support multiple interpretations. Teacher must clarify the diagram/letter mapping before using this item."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-MC07",
+      "note": "Area labels are floating points rather than clearly bounded regions; rendered source can support multiple interpretations. Teacher must clarify the diagram/letter mapping before using this item."
+    }
+  ],
+  "imageAudit": [
+    {
+      "id": "e71-page1-periodic-area-markers",
+      "source": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/9 CHEMISTRY ATOMS & PERIODIC TABLE MINI TEST 2013.docx",
+      "sourceFileSha": "610d0efac4fd132a2c6cb42df6efe5c8986df609",
+      "sourcePage": 1,
+      "pdfCropPoints": [
+        52,
+        563,
+        448,
+        754
+      ],
+      "role": "original_native_Word_figure",
+      "conversion": "Original DOCX rendered by LibreOffice to PDF; bounded source figure rasterised at 216 dpi without redrawing. Native editable shapes, table borders, shading and example points retained.",
+      "publishedSha256": "24d0dcd3fdff1d8ceb25e3c2dc6af87e6c6f89b2fe49a1aa3b18f6610b06d7db"
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/9 CHEMISTRY ATOMS & PERIODIC TABLE MINI TEST 2013.docx",
+      "sha": "610d0efac4fd132a2c6cb42df6efe5c8986df609",
+      "year": 9,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [
+    {
+      "id": "sci-repo-y9-aran-2013-atomsmini-mc-1",
+      "title": "Year 9 Science — Atoms and periodic table mini test — Aranmore 2013 (original source MC)",
+      "course": "Science",
+      "yearGroup": 9,
+      "unit": "Chemical Sciences",
+      "parent": "Atoms and periodic table mini test — Aranmore 2013",
+      "count": 6,
+      "kind": "assessment",
+      "assessmentCount": 6,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch33.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=9&search=SCI-REPO-Y9-ARAN-2013-ATOMSMINI",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    }
+  ],
+  "createdKeys": 20,
+  "createdSupplements": 0,
+  "notes": [
+    "Complete source mini test: ten MC prompts and ten vocabulary prompts. No original marks supplied; proposed one-mark allocations explicitly labelled. Four periodic-area MC retained for teacher clarification rather than inventing a unique letter or allowing automatic battle marking. Original floating-marker diagram preserved from rendered DOCX."
+  ],
+  "markAudit": {
+    "Atoms mini test": {
+      "printedMarks": null,
+      "sourcePrompts": 20,
+      "proposedTeacherMarks": 20,
+      "areaQuestionsRequireClarification": 4
+    }
+  },
+  "duplicateQuestionAliases": []
+}

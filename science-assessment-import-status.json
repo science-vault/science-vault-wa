@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.16-science-source30",
+  "version": "2026.10.16-science-source33",
   "status": "in_progress",
   "scope": "Original Science assessment files in repository, Years 7–10. File counts include keys and supporting materials; they are not question counts.",
   "inventoryFiles": 2009,
@@ -11,11 +11,11 @@
     "9": 457,
     "10": 582
   },
-  "importedPapers": 84,
-  "importedQuestions": 1622,
-  "multipleChoice": 699,
-  "writtenQuestions": 923,
-  "battleEligibleQuestions": 620,
+  "importedPapers": 88,
+  "importedQuestions": 1672,
+  "multipleChoice": 719,
+  "writtenQuestions": 953,
+  "battleEligibleQuestions": 633,
   "reviewRequired": [
     {
       "id": "SCI-REPO-Y7-NAR-2024-EARTH-MC03",
@@ -688,6 +688,54 @@
     {
       "id": "SCI-REPO-Y8-ARAN-2014-SCIMETHOD-W7",
       "note": "Definition b does not uniquely establish second-hand provenance. Accept a justified correction of the source definition."
+    },
+    {
+      "id": "SCI-REPO-Y9-NAR-2022-INFECTION-EXT-2",
+      "note": "Source introduction incorrectly generalises all viral vaccines as attenuated; supplied key also implies mild illness is required. Created guidance corrects both."
+    },
+    {
+      "id": "SCI-REPO-Y9-NAR-2022-INFECTION-EXT-4",
+      "note": "Source wrongly guarantees no future disease and supplied key assigns phagocytosis to killer T cells. These errors are corrected; item requires teacher moderation."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2013-CHEM2-MC04",
+      "note": "Closed valence shell is not the same as every electron shell filled to its full theoretical capacity."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2013-CHEM2-MC06",
+      "note": "Corrosivity is conditional, not shared universally by all acids and bases."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2013-CHEM2-MC08",
+      "note": "The absolute same-column valence rule has exceptions, notably helium and transition metals."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2013-CHEM2-W2",
+      "note": "Universal-indicator colour varies with pH and corrosivity is conditional. The table’s binary format oversimplifies both."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2013-CHEM2-W4c",
+      "note": "Universal indicator normally does not justify the printed decimal precision; single samples do not establish a general causal rule."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2013-CHEM2-W5",
+      "note": "Source has fifteen blank cells but only six marks, without an allocation. Retained as the original grouped six-mark task."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-MC04",
+      "note": "Area labels are floating points rather than clearly bounded regions; rendered source can support multiple interpretations. Teacher must clarify the diagram/letter mapping before using this item."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-MC05",
+      "note": "Area labels are floating points rather than clearly bounded regions; rendered source can support multiple interpretations. Teacher must clarify the diagram/letter mapping before using this item."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-MC06",
+      "note": "Area labels are floating points rather than clearly bounded regions; rendered source can support multiple interpretations. Teacher must clarify the diagram/letter mapping before using this item."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-MC07",
+      "note": "Area labels are floating points rather than clearly bounded regions; rendered source can support multiple interpretations. Teacher must clarify the diagram/letter mapping before using this item."
     }
   ],
   "batches": [
@@ -7409,6 +7457,156 @@
           "reason": "Same source task and context in the 2013 end-topic paper; not added or counted again."
         }
       ]
+    },
+    {
+      "id": "repo-science-batch31",
+      "questionIds": [
+        "SCI-REPO-Y9-NAR-TOOLIBIN-VALIDATION-1",
+        "SCI-REPO-Y9-NAR-TOOLIBIN-VALIDATION-2",
+        "SCI-REPO-Y9-NAR-TOOLIBIN-VALIDATION-3",
+        "SCI-REPO-Y9-NAR-TOOLIBIN-VALIDATION-4",
+        "SCI-REPO-Y9-NAR-TOOLIBIN-VALIDATION-5",
+        "SCI-REPO-Y9-NAR-2022-INFECTION-EXT-1",
+        "SCI-REPO-Y9-NAR-2022-INFECTION-EXT-2",
+        "SCI-REPO-Y9-NAR-2022-INFECTION-EXT-3",
+        "SCI-REPO-Y9-NAR-2022-INFECTION-EXT-4"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Narrogin/2020/Validation for Toolibin Excursion.docx",
+          "sha": "8c88a545ffd42d7cadb5526d25b330bc0f2b437b",
+          "year": 9,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Narrogin/2022/9Sc1Response to Infection TestExtended Answers5 marks.docx",
+          "sha": "050e42ba17e6dc61f7714f60a8073599f827ce08",
+          "year": 9,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Narrogin/2022/9Sc1Response to Infection TestExtended Answers5 mark1-Marking Guide.docx",
+          "sha": "27b1a9a6412887b8ebfdfbf5d5f1ac9b84aaac3e",
+          "year": 9,
+          "role": "key_reference"
+        }
+      ],
+      "questions": 9,
+      "marks": 31,
+      "imageAudit": "question-source-packs/repo-science-batch31-audit.json",
+      "notes": [
+        "Toolibin excursion validation checked against primary Australian/WA government sources. Four optional infection extension prompts retained individually; supplied vaccine/immune-memory/T-cell key errors explicitly corrected. No automatic battle questions."
+      ],
+      "markAudit": {
+        "Toolibin validation": {
+          "sumOfPrintedTaskMarks": 11
+        },
+        "Infection extension": {
+          "marksPerOption": 5,
+          "optionsInPool": 4,
+          "poolMarks": 20,
+          "compulsoryCombinedTotal": false,
+          "sourceInstruction": "Complete one fully, then attempt a second if appropriate."
+        }
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch32",
+      "questionIds": [
+        "SCI-REPO-Y9-ARAN-2013-CHEM2-MC01",
+        "SCI-REPO-Y9-ARAN-2013-CHEM2-MC02",
+        "SCI-REPO-Y9-ARAN-2013-CHEM2-MC03",
+        "SCI-REPO-Y9-ARAN-2013-CHEM2-MC04",
+        "SCI-REPO-Y9-ARAN-2013-CHEM2-MC05",
+        "SCI-REPO-Y9-ARAN-2013-CHEM2-MC06",
+        "SCI-REPO-Y9-ARAN-2013-CHEM2-MC07",
+        "SCI-REPO-Y9-ARAN-2013-CHEM2-MC08",
+        "SCI-REPO-Y9-ARAN-2013-CHEM2-MC09",
+        "SCI-REPO-Y9-ARAN-2013-CHEM2-MC10",
+        "SCI-REPO-Y9-ARAN-2013-CHEM2-W1a",
+        "SCI-REPO-Y9-ARAN-2013-CHEM2-W1b",
+        "SCI-REPO-Y9-ARAN-2013-CHEM2-W1c",
+        "SCI-REPO-Y9-ARAN-2013-CHEM2-W1d",
+        "SCI-REPO-Y9-ARAN-2013-CHEM2-W2",
+        "SCI-REPO-Y9-ARAN-2013-CHEM2-W3",
+        "SCI-REPO-Y9-ARAN-2013-CHEM2-W4a",
+        "SCI-REPO-Y9-ARAN-2013-CHEM2-W4b",
+        "SCI-REPO-Y9-ARAN-2013-CHEM2-W4c",
+        "SCI-REPO-Y9-ARAN-2013-CHEM2-W4d",
+        "SCI-REPO-Y9-ARAN-2013-CHEM2-W5"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2013 9 SCIENCE CHEMISTRY TEST 2.docx",
+          "sha": "b59df4969a2eaa50c91aa59a9a9afd9e136df9da",
+          "year": 9,
+          "role": "paper"
+        }
+      ],
+      "questions": 21,
+      "marks": 40,
+      "imageAudit": "question-source-packs/repo-science-batch32-audit.json",
+      "notes": [
+        "Complete40-mark chemistry paper with supplied atom and periodic-reference figures retained. Source oversimplifications about argon shell capacity, corrosivity and valence trends explicitly moderated. Shampoo data kept with precision/design limitations."
+      ],
+      "markAudit": {
+        "Chemical sciences test2": {
+          "coverTotal": 40,
+          "sourceTaskMarksBeforeDeduplication": 40,
+          "finalTableMarks": 6,
+          "finalTableResponseCells": 15
+        }
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch33",
+      "questionIds": [
+        "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-MC01",
+        "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-MC02",
+        "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-MC03",
+        "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-MC04",
+        "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-MC05",
+        "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-MC06",
+        "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-MC07",
+        "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-MC08",
+        "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-MC09",
+        "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-MC10",
+        "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-V1",
+        "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-V2",
+        "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-V3",
+        "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-V4",
+        "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-V5",
+        "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-V6",
+        "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-V7",
+        "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-V8",
+        "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-V9",
+        "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-V10"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/9 CHEMISTRY ATOMS & PERIODIC TABLE MINI TEST 2013.docx",
+          "sha": "610d0efac4fd132a2c6cb42df6efe5c8986df609",
+          "year": 9,
+          "role": "paper"
+        }
+      ],
+      "questions": 20,
+      "marks": 20,
+      "imageAudit": "question-source-packs/repo-science-batch33-audit.json",
+      "notes": [
+        "Complete source mini test: ten MC prompts and ten vocabulary prompts. No original marks supplied; proposed one-mark allocations explicitly labelled. Four periodic-area MC retained for teacher clarification rather than inventing a unique letter or allowing automatic battle marking. Original floating-marker diagram preserved from rendered DOCX."
+      ],
+      "markAudit": {
+        "Atoms mini test": {
+          "printedMarks": null,
+          "sourcePrompts": 20,
+          "proposedTeacherMarks": 20,
+          "areaQuestionsRequireClarification": 4
+        }
+      },
+      "duplicateQuestionAliases": []
     }
   ],
   "files": [
@@ -15626,7 +15824,7 @@
       "sha": "8c88a545ffd42d7cadb5526d25b330bc0f2b437b",
       "year": 9,
       "size": 72838,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -15730,7 +15928,7 @@
       "sha": "8c88a545ffd42d7cadb5526d25b330bc0f2b437b",
       "year": 9,
       "size": 72838,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Narrogin/2020/Validation for Toolibin Excursion.docx"
     },
     {
@@ -15786,7 +15984,7 @@
       "sha": "27b1a9a6412887b8ebfdfbf5d5f1ac9b84aaac3e",
       "year": 9,
       "size": 14820,
-      "status": "pending",
+      "status": "key_reference_pending_variant_review",
       "duplicateOf": null
     },
     {
@@ -15794,7 +15992,7 @@
       "sha": "050e42ba17e6dc61f7714f60a8073599f827ce08",
       "year": 9,
       "size": 12125,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -15899,7 +16097,7 @@
       "sha": "8c88a545ffd42d7cadb5526d25b330bc0f2b437b",
       "year": 9,
       "size": 72838,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Narrogin/2020/Validation for Toolibin Excursion.docx"
     },
     {
@@ -16363,7 +16561,7 @@
       "sha": "b59df4969a2eaa50c91aa59a9a9afd9e136df9da",
       "year": 9,
       "size": 122487,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -16547,7 +16745,7 @@
       "sha": "610d0efac4fd132a2c6cb42df6efe5c8986df609",
       "year": 9,
       "size": 103814,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -19959,7 +20157,7 @@
       "sha": "b59df4969a2eaa50c91aa59a9a9afd9e136df9da",
       "year": 10,
       "size": 122487,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2013 9 SCIENCE CHEMISTRY TEST 2.docx"
     },
     {
@@ -23544,9 +23742,9 @@
       "duplicateOf": null
     }
   ],
-  "learningVaultCreatedKeySupplements": 782,
-  "remainingUniqueFileBlobs": 1587,
-  "learningVaultCreatedKeys": 528,
+  "learningVaultCreatedKeySupplements": 786,
+  "remainingUniqueFileBlobs": 1583,
+  "learningVaultCreatedKeys": 574,
   "blockedSources": [
     {
       "sha": "49d4b7f3f8af844477b39abb856365aeb096cafd",
@@ -23758,7 +23956,7 @@
     "ocrPages": 1175,
     "ocrTextVerified": false
   },
-  "distinctSourceAndKeyReferences": 122,
+  "distinctSourceAndKeyReferences": 127,
   "unscoredQuestionsPreserved": 1,
   "activeAdditionalQuestionRequest": {
     "requestedAdditionalQuestions": 1000,
@@ -23773,12 +23971,12 @@
     "requestedAt": "2026-10-16",
     "scope": "All remaining Years 7–10 Science assessment papers; all question types, source figures, response space and marking guidance",
     "startingImportedQuestions": 1374,
-    "addedQuestions": 248,
+    "addedQuestions": 298,
     "status": "in_progress",
     "completionRule": "Every unique assessment paper reviewed; duplicates mapped and unreadable/protected files explicitly resolved. File-blob count is not a paper denominator.",
     "restoredQuestionsAfterDuplicateFix": 4,
-    "newlyExtractedQuestions": 244,
-    "papersReviewedSinceRequest": 21
+    "newlyExtractedQuestions": 294,
+    "papersReviewedSinceRequest": 25
   },
   "sourceInventoryExclusions": {
     "files": 59,

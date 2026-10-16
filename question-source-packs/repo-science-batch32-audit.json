@@ -1,0 +1,130 @@
+{
+  "batch": "repo-science-batch32",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y9-ARAN-2013-CHEM2-MC01",
+    "SCI-REPO-Y9-ARAN-2013-CHEM2-MC02",
+    "SCI-REPO-Y9-ARAN-2013-CHEM2-MC03",
+    "SCI-REPO-Y9-ARAN-2013-CHEM2-MC04",
+    "SCI-REPO-Y9-ARAN-2013-CHEM2-MC05",
+    "SCI-REPO-Y9-ARAN-2013-CHEM2-MC06",
+    "SCI-REPO-Y9-ARAN-2013-CHEM2-MC07",
+    "SCI-REPO-Y9-ARAN-2013-CHEM2-MC08",
+    "SCI-REPO-Y9-ARAN-2013-CHEM2-MC09",
+    "SCI-REPO-Y9-ARAN-2013-CHEM2-MC10",
+    "SCI-REPO-Y9-ARAN-2013-CHEM2-W1a",
+    "SCI-REPO-Y9-ARAN-2013-CHEM2-W1b",
+    "SCI-REPO-Y9-ARAN-2013-CHEM2-W1c",
+    "SCI-REPO-Y9-ARAN-2013-CHEM2-W1d",
+    "SCI-REPO-Y9-ARAN-2013-CHEM2-W2",
+    "SCI-REPO-Y9-ARAN-2013-CHEM2-W3",
+    "SCI-REPO-Y9-ARAN-2013-CHEM2-W4a",
+    "SCI-REPO-Y9-ARAN-2013-CHEM2-W4b",
+    "SCI-REPO-Y9-ARAN-2013-CHEM2-W4c",
+    "SCI-REPO-Y9-ARAN-2013-CHEM2-W4d",
+    "SCI-REPO-Y9-ARAN-2013-CHEM2-W5"
+  ],
+  "questions": 21,
+  "multipleChoice": 10,
+  "writtenQuestions": 11,
+  "battleEligible": 7,
+  "marks": 40,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y9-ARAN-2013-CHEM2-MC04",
+      "note": "Closed valence shell is not the same as every electron shell filled to its full theoretical capacity."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2013-CHEM2-MC06",
+      "note": "Corrosivity is conditional, not shared universally by all acids and bases."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2013-CHEM2-MC08",
+      "note": "The absolute same-column valence rule has exceptions, notably helium and transition metals."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2013-CHEM2-W2",
+      "note": "Universal-indicator colour varies with pH and corrosivity is conditional. The table’s binary format oversimplifies both."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2013-CHEM2-W4c",
+      "note": "Universal indicator normally does not justify the printed decimal precision; single samples do not establish a general causal rule."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2013-CHEM2-W5",
+      "note": "Source has fifteen blank cells but only six marks, without an allocation. Retained as the original grouped six-mark task."
+    }
+  ],
+  "imageAudit": [
+    {
+      "id": "e70-image1",
+      "source": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2013 9 SCIENCE CHEMISTRY TEST 2.docx",
+      "embeddedImage": "word/media/image1.gif",
+      "sha256": "bd596d5e402f059498341f9fc4f9aea510f4ecd50fce02957f41eb21b98485f3",
+      "publishedSha256": "1531575aa9c155d4bc9d67bf5c0b964730783b61a6469ab8be91a87ef71aa0f3",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e70-image2",
+      "source": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2013 9 SCIENCE CHEMISTRY TEST 2.docx",
+      "embeddedImage": "word/media/image2.gif",
+      "sha256": "5bbc255bad6a858b892efa618c0e34a11cbda7544c1a2fbfdd1b096b0950dfea",
+      "publishedSha256": "ace4cb2b382e05b432f1d2a90d9d0a0f30b7242d8949bb518800fec97d49ca9f",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e70-image3",
+      "source": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2013 9 SCIENCE CHEMISTRY TEST 2.docx",
+      "embeddedImage": "word/media/image3.jpeg",
+      "sha256": "c8bdb80bcce7d357a1006740d5c82bbf5244a8d162a5fa79635f2f66af00e67a",
+      "publishedSha256": "e6cd9f336be9985fdcf6ba08e92be6d072a9e7dea66d500e9304cf22a43d5d14",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Aranmore/2013 9 SCIENCE CHEMISTRY TEST 2.docx",
+      "sha": "b59df4969a2eaa50c91aa59a9a9afd9e136df9da",
+      "year": 9,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [
+    {
+      "id": "sci-repo-y9-aran-2013-chem2-mc-1",
+      "title": "Year 9 Science — Chemical sciences test/quiz 2 — Aranmore 2013 (original source MC)",
+      "course": "Science",
+      "yearGroup": 9,
+      "unit": "Chemical Sciences",
+      "parent": "Chemical sciences test/quiz 2 — Aranmore 2013",
+      "count": 7,
+      "kind": "assessment",
+      "assessmentCount": 7,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch32.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=9&search=SCI-REPO-Y9-ARAN-2013-CHEM2",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    }
+  ],
+  "createdKeys": 21,
+  "createdSupplements": 0,
+  "notes": [
+    "Complete40-mark chemistry paper with supplied atom and periodic-reference figures retained. Source oversimplifications about argon shell capacity, corrosivity and valence trends explicitly moderated. Shampoo data kept with precision/design limitations."
+  ],
+  "markAudit": {
+    "Chemical sciences test2": {
+      "coverTotal": 40,
+      "sourceTaskMarksBeforeDeduplication": 40,
+      "finalTableMarks": 6,
+      "finalTableResponseCells": 15
+    }
+  },
+  "duplicateQuestionAliases": []
+}

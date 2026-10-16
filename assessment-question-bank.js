@@ -79,3 +79,9 @@ document.write('<script src="assessment-question-bank-science-source-batch28.js?
 document.write('<script src="assessment-question-bank-science-source-batch29.js?v=2026.10.16-science-source29-native-crops-r1"><\/script>');
 
 document.write('<script src="assessment-question-bank-science-source-batch30.js?v=2026.10.16-science-source30"><\/script>');
+
+document.write('<script src="assessment-question-bank-science-source-batch31.js?v=2026.10.16-science-source31"><\/script>');
+
+document.write('<script src="assessment-question-bank-science-source-batch32.js?v=2026.10.16-science-source32"><\/script>');
+
+document.write('<script src="assessment-question-bank-science-source-batch33.js?v=2026.10.16-science-source33"><\/script>');
