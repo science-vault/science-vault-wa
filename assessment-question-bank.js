@@ -91,3 +91,11 @@ document.write('<script src="assessment-question-bank-science-source-batch34.js?
 document.write('<script src="assessment-question-bank-science-source-batch35.js?v=2026.10.16-science-source35-source-text-r2"><\/script>');
 
 document.write('<script src="assessment-question-bank-science-source-batch36.js?v=2026.10.16-science-source36-source-text-r2"><\/script>');
+
+document.write('<script src="assessment-question-bank-science-source-batch37.js?v=2026.10.16-science-source37-source-text-r2"><\/script>');
+
+document.write('<script src="assessment-question-bank-science-source-batch38.js?v=2026.10.16-science-source38-source-text-r2"><\/script>');
+
+document.write('<script src="assessment-question-bank-science-source-batch39.js?v=2026.10.16-science-source39-source-text-r2"><\/script>');
+
+document.write('<script src="assessment-question-bank-science-source-batch40.js?v=2026.10.16-science-source40"><\/script>');

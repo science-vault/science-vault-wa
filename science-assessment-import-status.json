@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.16-science-source36",
+  "version": "2026.10.16-science-source40",
   "status": "in_progress",
   "scope": "Original Science assessment files in repository, Years 7–10. File counts include keys and supporting materials; they are not question counts.",
   "inventoryFiles": 2009,
@@ -11,11 +11,11 @@
     "9": 457,
     "10": 582
   },
-  "importedPapers": 91,
-  "importedQuestions": 1699,
-  "multipleChoice": 730,
-  "writtenQuestions": 969,
-  "battleEligibleQuestions": 640,
+  "importedPapers": 96,
+  "importedQuestions": 1774,
+  "multipleChoice": 734,
+  "writtenQuestions": 1040,
+  "battleEligibleQuestions": 644,
   "reviewRequired": [
     {
       "id": "SCI-REPO-Y7-NAR-2024-EARTH-MC03",
@@ -752,6 +752,30 @@
     {
       "id": "SCI-REPO-Y10-SBY-PREATAR-MODULE-17b",
       "note": "Supplied equation does not correspond to the asked reactants; corrected equation explicitly provided."
+    },
+    {
+      "id": "SCI-REPO-Y8-KOL-2021-PHYSCHEMCHANGE-3",
+      "note": "Five classification/reason pairs are supplied but only8 marks; no original cell-level rubric identified."
+    },
+    {
+      "id": "SCI-REPO-Y8-MAROOCH-2021-DISSOLVINGREPORT-background",
+      "note": "Source background mislabels bicarbonate as Na₂CO₃ and gives an incorrect citrate formula; corrected here. Necessary scientific context is condensed from the source without reproducing medication-administration claims."
+    },
+    {
+      "id": "SCI-REPO-Y8-MAROOCH-2021-DISSOLVINGREPORT-evaluation",
+      "note": "Source cloze incorrectly treats low scatter as proof of accuracy. Correct evaluations should receive credit rather than being forced into that wording."
+    },
+    {
+      "id": "SCI-REPO-Y8-MAROOCH-2021-DISSOLVINGREPORT-conclusion",
+      "note": "Source conflates low error with validity. The created guidance distinguishes design validity, repeatability and accuracy."
+    },
+    {
+      "id": "SCI-REPO-Y8-KOL-2021-SALTBOILING-conclusion",
+      "note": "Source incorrectly equates little error with validity. Corrected guidance accepts scientifically justified evaluation."
+    },
+    {
+      "id": "SCI-REPO-Y8-KOL-2021-CHEMREVISION-11b",
+      "note": "Original asks for processes at every marked point, but F/G mark temperatures. Proposed rubric explicitly distinguishes these labels."
     },
     {
       "id": "SCI-REPO-Y10-NAR-2024-UNIVERSE-MC02",
@@ -8025,6 +8049,203 @@
           "reason": "Equivalent source question already present; not added or counted again."
         }
       ]
+    },
+    {
+      "id": "repo-science-batch37",
+      "questionIds": [
+        "SCI-REPO-Y8-KOL-2021-PARTICLEMODEL-MC01",
+        "SCI-REPO-Y8-KOL-2021-PARTICLEMODEL-MC02",
+        "SCI-REPO-Y8-KOL-2021-PARTICLEMODEL-MC03",
+        "SCI-REPO-Y8-KOL-2021-PARTICLEMODEL-MC04",
+        "SCI-REPO-Y8-KOL-2021-PARTICLEMODEL-W1",
+        "SCI-REPO-Y8-KOL-2021-PARTICLEMODEL-W2",
+        "SCI-REPO-Y8-KOL-2021-PARTICLEMODEL-W3",
+        "SCI-REPO-Y8-KOL-2021-PARTICLEMODEL-W4",
+        "SCI-REPO-Y8-KOL-2021-PARTICLEMODEL-W5",
+        "SCI-REPO-Y8-KOL-2021-PHYSCHEMCHANGE-1a",
+        "SCI-REPO-Y8-KOL-2021-PHYSCHEMCHANGE-1b",
+        "SCI-REPO-Y8-KOL-2021-PHYSCHEMCHANGE-2",
+        "SCI-REPO-Y8-KOL-2021-PHYSCHEMCHANGE-3",
+        "SCI-REPO-Y8-KOL-2021-PHYSCHEMCHANGE-4",
+        "SCI-REPO-Y8-KOL-2021-PHYSCHEMCHANGE-5a",
+        "SCI-REPO-Y8-KOL-2021-PHYSCHEMCHANGE-5b",
+        "SCI-REPO-Y8-KOL-2021-PHYSCHEMCHANGE-5c",
+        "SCI-REPO-Y8-KOL-2021-PHYSCHEMCHANGE-5d"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Kolbe/2021/Task 3.1 Chemistry Formative Assessments/2021 Particle model Formative Test.docx",
+          "sha": "53d849fc6ed49e54bb43ffbf65027abc063cb08a",
+          "year": 8,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Kolbe/2021/Task 3.1 Chemistry Formative Assessments/2021 Year 8 Physical and Chemical Change Formative Test.docx",
+          "sha": "6198f0afb0e222bbfd80ae9fd5d1236669ce3390",
+          "year": 8,
+          "role": "paper"
+        }
+      ],
+      "questions": 18,
+      "marks": 51,
+      "imageAudit": "question-source-packs/repo-science-batch37-audit.json",
+      "notes": [
+        "Two complete Kolbe formative papers. Particle-model source supplies no marks: proposed scoring clearly labelled. Physical/chemical-change source keeps its28-mark total and grouped eight-mark table despite an unexplained five-row allocation. Nearby states-of-matter answer document is a different worksheet and was not misapplied."
+      ],
+      "markAudit": {
+        "Particle model": {
+          "printedMarks": null,
+          "proposedTeacherMarks": 23
+        },
+        "Physical/chemical change": {
+          "printedTotal": 28,
+          "sourceTaskMarksBeforeDeduplication": 28
+        }
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch38",
+      "questionIds": [
+        "SCI-REPO-Y8-MAROOCH-2021-DISSOLVINGREPORT-background",
+        "SCI-REPO-Y8-MAROOCH-2021-DISSOLVINGREPORT-research",
+        "SCI-REPO-Y8-MAROOCH-2021-DISSOLVINGREPORT-variables",
+        "SCI-REPO-Y8-MAROOCH-2021-DISSOLVINGREPORT-diagram",
+        "SCI-REPO-Y8-MAROOCH-2021-DISSOLVINGREPORT-method",
+        "SCI-REPO-Y8-MAROOCH-2021-DISSOLVINGREPORT-risk",
+        "SCI-REPO-Y8-MAROOCH-2021-DISSOLVINGREPORT-results",
+        "SCI-REPO-Y8-MAROOCH-2021-DISSOLVINGREPORT-mean",
+        "SCI-REPO-Y8-MAROOCH-2021-DISSOLVINGREPORT-graph",
+        "SCI-REPO-Y8-MAROOCH-2021-DISSOLVINGREPORT-pattern",
+        "SCI-REPO-Y8-MAROOCH-2021-DISSOLVINGREPORT-theory",
+        "SCI-REPO-Y8-MAROOCH-2021-DISSOLVINGREPORT-evaluation",
+        "SCI-REPO-Y8-MAROOCH-2021-DISSOLVINGREPORT-errors",
+        "SCI-REPO-Y8-MAROOCH-2021-DISSOLVINGREPORT-improvements",
+        "SCI-REPO-Y8-MAROOCH-2021-DISSOLVINGREPORT-conclusion"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Kolbe/2021/Task 3.1 Chemistry Formative Assessments/2021 Chemistry Science Investigation Formative Assessment  .docx",
+          "sha": "4e6df17c404f233ce9cd54c7030204b0d8166eef",
+          "year": 8,
+          "role": "paper"
+        }
+      ],
+      "questions": 15,
+      "marks": 45,
+      "imageAudit": "question-source-packs/repo-science-batch38-audit.json",
+      "notes": [
+        "Complete45-mark scientific-report scaffold, including all fifteen scored task groups. Printed school attribution retained despite the Kolbe folder. Given materials, administrative covers and rubric-only presentation descriptors are not counted as extra questions. Flawed background formulae and accuracy/validity claims explicitly corrected."
+      ],
+      "markAudit": {
+        "Scientific report": {
+          "coverTotal": 45,
+          "sumOfSourceTaskAllocations": 45,
+          "scoredTaskGroups": 15,
+          "schoolAttribution": "Printed Maroochydore State High School overrides repository folder label."
+        }
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch39",
+      "questionIds": [
+        "SCI-REPO-Y8-KOL-2021-SALTBOILING-hypotheses",
+        "SCI-REPO-Y8-KOL-2021-SALTBOILING-risk",
+        "SCI-REPO-Y8-KOL-2021-SALTBOILING-results",
+        "SCI-REPO-Y8-KOL-2021-SALTBOILING-graph",
+        "SCI-REPO-Y8-KOL-2021-SALTBOILING-analysis-boiling",
+        "SCI-REPO-Y8-KOL-2021-SALTBOILING-analysis-rate",
+        "SCI-REPO-Y8-KOL-2021-SALTBOILING-errors",
+        "SCI-REPO-Y8-KOL-2021-SALTBOILING-conclusion"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Kolbe/2021/Task 3.1 Chemistry Formative Assessments/2021 Year 8 Formative Assessment The Effect of Salt concentration and boiling pint.docx",
+          "sha": "4d2ffa060f549495db4eac4d199871335ee9959c",
+          "year": 8,
+          "role": "paper"
+        }
+      ],
+      "questions": 8,
+      "marks": 26,
+      "imageAudit": "question-source-packs/repo-science-batch39-audit.json",
+      "notes": [
+        "All eight task groups retained. No original marks: proposed26-mark rubric clearly identified. Original setup and native graph scaffold preserved. Repeated Word fallback tables do not create extra trials. Third legend blank does not create an unperformed condition."
+      ],
+      "markAudit": {
+        "Salt practical": {
+          "printedMarks": null,
+          "proposedTeacherMarks": 26,
+          "sourceMethodSaltMasses_g": [
+            5,
+            10
+          ],
+          "waterVolume_mL": 100
+        }
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch40",
+      "questionIds": [
+        "SCI-REPO-Y8-KOL-2021-CHEMREVISION-1",
+        "SCI-REPO-Y8-KOL-2021-CHEMREVISION-2",
+        "SCI-REPO-Y8-KOL-2021-CHEMREVISION-3",
+        "SCI-REPO-Y8-KOL-2021-CHEMREVISION-4",
+        "SCI-REPO-Y8-KOL-2021-CHEMREVISION-5a",
+        "SCI-REPO-Y8-KOL-2021-CHEMREVISION-5b",
+        "SCI-REPO-Y8-KOL-2021-CHEMREVISION-5c",
+        "SCI-REPO-Y8-KOL-2021-CHEMREVISION-5d",
+        "SCI-REPO-Y8-KOL-2021-CHEMREVISION-6",
+        "SCI-REPO-Y8-KOL-2021-CHEMREVISION-7",
+        "SCI-REPO-Y8-KOL-2021-CHEMREVISION-8a",
+        "SCI-REPO-Y8-KOL-2021-CHEMREVISION-8b",
+        "SCI-REPO-Y8-KOL-2021-CHEMREVISION-8c",
+        "SCI-REPO-Y8-KOL-2021-CHEMREVISION-8d",
+        "SCI-REPO-Y8-KOL-2021-CHEMREVISION-8e",
+        "SCI-REPO-Y8-KOL-2021-CHEMREVISION-9",
+        "SCI-REPO-Y8-KOL-2021-CHEMREVISION-10",
+        "SCI-REPO-Y8-KOL-2021-CHEMREVISION-11a",
+        "SCI-REPO-Y8-KOL-2021-CHEMREVISION-11b",
+        "SCI-REPO-Y8-KOL-2021-CHEMREVISION-12",
+        "SCI-REPO-Y8-KOL-2021-CHEMREVISION-13a",
+        "SCI-REPO-Y8-KOL-2021-CHEMREVISION-13b",
+        "SCI-REPO-Y8-KOL-2021-CHEMREVISION-14ai",
+        "SCI-REPO-Y8-KOL-2021-CHEMREVISION-14aii",
+        "SCI-REPO-Y8-KOL-2021-CHEMREVISION-14b",
+        "SCI-REPO-Y8-KOL-2021-CHEMREVISION-14c",
+        "SCI-REPO-Y8-KOL-2021-CHEMREVISION-14d",
+        "SCI-REPO-Y8-KOL-2021-CHEMREVISION-15a",
+        "SCI-REPO-Y8-KOL-2021-CHEMREVISION-15b",
+        "SCI-REPO-Y8-KOL-2021-CHEMREVISION-15c",
+        "SCI-REPO-Y8-KOL-2021-CHEMREVISION-15d",
+        "SCI-REPO-Y8-KOL-2021-CHEMREVISION-15e",
+        "SCI-REPO-Y8-KOL-2021-CHEMREVISION-15f",
+        "SCI-REPO-Y8-KOL-2021-CHEMREVISION-16"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Kolbe/2021/Task 3.1 Chemistry Formative Assessments/2021 Year 8 Revision Test Formative Assessment .docx",
+          "sha": "dc8e9b90942e96be203ece0b02792077c4cc76b9",
+          "year": 8,
+          "role": "paper"
+        }
+      ],
+      "questions": 34,
+      "marks": 114,
+      "imageAudit": "question-source-packs/repo-science-batch40-audit.json",
+      "notes": [
+        "Complete revision assessment, all original prompts/explicit subparts. Proposed rubric only: no printed marks. Original labelled heating/cooling and particle pictures retained by bounded PDF crops. Formula table transcribed to correct source rendering overlap without changing compound/formula associations. Native symbol legend faithfully transcribed."
+      ],
+      "markAudit": {
+        "Revision": {
+          "printedMarks": null,
+          "proposedTeacherMarks": 114,
+          "allWrittenManual": true
+        }
+      },
+      "duplicateQuestionAliases": []
     }
   ],
   "files": [
@@ -13153,7 +13374,7 @@
       "sha": "4e6df17c404f233ce9cd54c7030204b0d8166eef",
       "year": 8,
       "size": 121096,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -13161,7 +13382,7 @@
       "sha": "53d849fc6ed49e54bb43ffbf65027abc063cb08a",
       "year": 8,
       "size": 108193,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -13193,7 +13414,7 @@
       "sha": "4d2ffa060f549495db4eac4d199871335ee9959c",
       "year": 8,
       "size": 173668,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -13201,7 +13422,7 @@
       "sha": "6198f0afb0e222bbfd80ae9fd5d1236669ce3390",
       "year": 8,
       "size": 118625,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -13209,7 +13430,7 @@
       "sha": "dc8e9b90942e96be203ece0b02792077c4cc76b9",
       "year": 8,
       "size": 208742,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -24161,8 +24382,8 @@
     }
   ],
   "learningVaultCreatedKeySupplements": 811,
-  "remainingUniqueFileBlobs": 1580,
-  "learningVaultCreatedKeys": 578,
+  "remainingUniqueFileBlobs": 1575,
+  "learningVaultCreatedKeys": 653,
   "blockedSources": [
     {
       "sha": "49d4b7f3f8af844477b39abb856365aeb096cafd",
@@ -24374,7 +24595,7 @@
     "ocrPages": 1175,
     "ocrTextVerified": false
   },
-  "distinctSourceAndKeyReferences": 132,
+  "distinctSourceAndKeyReferences": 137,
   "unscoredQuestionsPreserved": 1,
   "activeAdditionalQuestionRequest": {
     "requestedAdditionalQuestions": 1000,
@@ -24389,12 +24610,12 @@
     "requestedAt": "2026-10-16",
     "scope": "All remaining Years 7–10 Science assessment papers; all question types, source figures, response space and marking guidance",
     "startingImportedQuestions": 1374,
-    "addedQuestions": 325,
+    "addedQuestions": 400,
     "status": "in_progress",
     "completionRule": "Every unique assessment paper reviewed; duplicates mapped and unreadable/protected files explicitly resolved. File-blob count is not a paper denominator.",
     "restoredQuestionsAfterDuplicateFix": 4,
-    "newlyExtractedQuestions": 321,
-    "papersReviewedSinceRequest": 28,
+    "newlyExtractedQuestions": 396,
+    "papersReviewedSinceRequest": 33,
     "canonicalSourceQuestionsReReviewed": 2
   },
   "sourceInventoryExclusions": {

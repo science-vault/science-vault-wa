@@ -1,0 +1,88 @@
+{
+  "batch": "repo-science-batch39",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y8-KOL-2021-SALTBOILING-hypotheses",
+    "SCI-REPO-Y8-KOL-2021-SALTBOILING-risk",
+    "SCI-REPO-Y8-KOL-2021-SALTBOILING-results",
+    "SCI-REPO-Y8-KOL-2021-SALTBOILING-graph",
+    "SCI-REPO-Y8-KOL-2021-SALTBOILING-analysis-boiling",
+    "SCI-REPO-Y8-KOL-2021-SALTBOILING-analysis-rate",
+    "SCI-REPO-Y8-KOL-2021-SALTBOILING-errors",
+    "SCI-REPO-Y8-KOL-2021-SALTBOILING-conclusion"
+  ],
+  "questions": 8,
+  "multipleChoice": 0,
+  "writtenQuestions": 8,
+  "battleEligible": 0,
+  "marks": 26,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y8-KOL-2021-SALTBOILING-conclusion",
+      "note": "Source incorrectly equates little error with validity. Corrected guidance accepts scientifically justified evaluation."
+    }
+  ],
+  "imageAudit": [
+    {
+      "id": "e79-image1",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Kolbe/2021/Task 3.1 Chemistry Formative Assessments/2021 Year 8 Formative Assessment The Effect of Salt concentration and boiling pint.docx",
+      "embeddedImage": "word/media/image1.png",
+      "sha256": "53f7511078e047a164d1672637bd4eceb483393a626b6fdfcd9d9bbb65f8b134",
+      "publishedSha256": "21012c456b344ad0f428f6c0cd2bf06aae6e4093fa38460a61ea9619f8102693",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e79-image2",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Kolbe/2021/Task 3.1 Chemistry Formative Assessments/2021 Year 8 Formative Assessment The Effect of Salt concentration and boiling pint.docx",
+      "embeddedImage": "word/media/image2.png",
+      "sha256": "316f71ec71c03e03ae197b36db6ca6123bcb48e5ddb6b19e64c0c29e29d36187",
+      "publishedSha256": "6913b96b837a61881aa22f55e1313d1a366d691165009b96a235c2a67482c739",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e79-page4-temperature-time-graph",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Kolbe/2021/Task 3.1 Chemistry Formative Assessments/2021 Year 8 Formative Assessment The Effect of Salt concentration and boiling pint.docx",
+      "sourceFileSha": "4d2ffa060f549495db4eac4d199871335ee9959c",
+      "sourcePage": 4,
+      "pdfCropPoints": [
+        30,
+        30,
+        570,
+        445
+      ],
+      "role": "original_native_Word_figure",
+      "conversion": "Original DOCX rendered by LibreOffice to PDF; bounded source figure rasterised at 216 dpi without redrawing. Native editable shapes, table borders, shading and example points retained.",
+      "publishedSha256": "88531455d7f4e6c47341c8c58c549f5d59f344bf7d35e0543c8eb025c811a2c5"
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Kolbe/2021/Task 3.1 Chemistry Formative Assessments/2021 Year 8 Formative Assessment The Effect of Salt concentration and boiling pint.docx",
+      "sha": "4d2ffa060f549495db4eac4d199871335ee9959c",
+      "year": 8,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 8,
+  "createdSupplements": 0,
+  "notes": [
+    "All eight task groups retained. No original marks: proposed26-mark rubric clearly identified. Original setup and native graph scaffold preserved. Repeated Word fallback tables do not create extra trials. Third legend blank does not create an unperformed condition."
+  ],
+  "markAudit": {
+    "Salt practical": {
+      "printedMarks": null,
+      "proposedTeacherMarks": 26,
+      "sourceMethodSaltMasses_g": [
+        5,
+        10
+      ],
+      "waterVolume_mL": 100
+    }
+  },
+  "duplicateQuestionAliases": []
+}

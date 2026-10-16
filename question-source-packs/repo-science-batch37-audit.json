@@ -1,0 +1,84 @@
+{
+  "batch": "repo-science-batch37",
+  "paperCount": 2,
+  "questionIds": [
+    "SCI-REPO-Y8-KOL-2021-PARTICLEMODEL-MC01",
+    "SCI-REPO-Y8-KOL-2021-PARTICLEMODEL-MC02",
+    "SCI-REPO-Y8-KOL-2021-PARTICLEMODEL-MC03",
+    "SCI-REPO-Y8-KOL-2021-PARTICLEMODEL-MC04",
+    "SCI-REPO-Y8-KOL-2021-PARTICLEMODEL-W1",
+    "SCI-REPO-Y8-KOL-2021-PARTICLEMODEL-W2",
+    "SCI-REPO-Y8-KOL-2021-PARTICLEMODEL-W3",
+    "SCI-REPO-Y8-KOL-2021-PARTICLEMODEL-W4",
+    "SCI-REPO-Y8-KOL-2021-PARTICLEMODEL-W5",
+    "SCI-REPO-Y8-KOL-2021-PHYSCHEMCHANGE-1a",
+    "SCI-REPO-Y8-KOL-2021-PHYSCHEMCHANGE-1b",
+    "SCI-REPO-Y8-KOL-2021-PHYSCHEMCHANGE-2",
+    "SCI-REPO-Y8-KOL-2021-PHYSCHEMCHANGE-3",
+    "SCI-REPO-Y8-KOL-2021-PHYSCHEMCHANGE-4",
+    "SCI-REPO-Y8-KOL-2021-PHYSCHEMCHANGE-5a",
+    "SCI-REPO-Y8-KOL-2021-PHYSCHEMCHANGE-5b",
+    "SCI-REPO-Y8-KOL-2021-PHYSCHEMCHANGE-5c",
+    "SCI-REPO-Y8-KOL-2021-PHYSCHEMCHANGE-5d"
+  ],
+  "questions": 18,
+  "multipleChoice": 4,
+  "writtenQuestions": 14,
+  "battleEligible": 4,
+  "marks": 51,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y8-KOL-2021-PHYSCHEMCHANGE-3",
+      "note": "Five classification/reason pairs are supplied but only8 marks; no original cell-level rubric identified."
+    }
+  ],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Kolbe/2021/Task 3.1 Chemistry Formative Assessments/2021 Particle model Formative Test.docx",
+      "sha": "53d849fc6ed49e54bb43ffbf65027abc063cb08a",
+      "year": 8,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Kolbe/2021/Task 3.1 Chemistry Formative Assessments/2021 Year 8 Physical and Chemical Change Formative Test.docx",
+      "sha": "6198f0afb0e222bbfd80ae9fd5d1236669ce3390",
+      "year": 8,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [
+    {
+      "id": "sci-repo-y8-kol-2021-particlemodel-mc-1",
+      "title": "Year 8 Science — Particle model formative test — Kolbe 2021 (original source MC)",
+      "course": "Science",
+      "yearGroup": 8,
+      "unit": "Chemical Sciences",
+      "parent": "Particle model formative test — Kolbe 2021",
+      "count": 4,
+      "kind": "assessment",
+      "assessmentCount": 4,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch37.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=8&search=SCI-REPO-Y8-KOL-2021-PARTICLEMODEL",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    }
+  ],
+  "createdKeys": 18,
+  "createdSupplements": 0,
+  "notes": [
+    "Two complete Kolbe formative papers. Particle-model source supplies no marks: proposed scoring clearly labelled. Physical/chemical-change source keeps its28-mark total and grouped eight-mark table despite an unexplained five-row allocation. Nearby states-of-matter answer document is a different worksheet and was not misapplied."
+  ],
+  "markAudit": {
+    "Particle model": {
+      "printedMarks": null,
+      "proposedTeacherMarks": 23
+    },
+    "Physical/chemical change": {
+      "printedTotal": 28,
+      "sourceTaskMarksBeforeDeduplication": 28
+    }
+  },
+  "duplicateQuestionAliases": []
+}
