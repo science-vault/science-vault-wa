@@ -1,0 +1,93 @@
+{
+  "batch": "repo-science-batch17",
+  "paperCount": 2,
+  "questionIds": [
+    "SCI-REPO-Y10-ARAN-2013-DNAMINI-1a",
+    "SCI-REPO-Y10-ARAN-2013-DNAMINI-1b",
+    "SCI-REPO-Y10-ARAN-2013-DNAMINI-1c",
+    "SCI-REPO-Y10-ARAN-2013-DNAMINI-2a",
+    "SCI-REPO-Y10-ARAN-2013-DNAMINI-2b",
+    "SCI-REPO-Y10-ARAN-2013-DNAMINI-3",
+    "SCI-REPO-Y10-ARAN-2013-DNAMINI-4a",
+    "SCI-REPO-Y10-ARAN-2013-DNAMINI-4b",
+    "SCI-REPO-Y10-ARAN-2013-DNAMINI-4c",
+    "SCI-REPO-Y10-ARAN-2013-DNAMINI-4d",
+    "SCI-REPO-Y10-SBY-2020-NEWTONVALID-aim",
+    "SCI-REPO-Y10-SBY-2020-NEWTONVALID-independent",
+    "SCI-REPO-Y10-SBY-2020-NEWTONVALID-dependent",
+    "SCI-REPO-Y10-SBY-2020-NEWTONVALID-controls",
+    "SCI-REPO-Y10-SBY-2020-NEWTONVALID-hypothesis",
+    "SCI-REPO-Y10-SBY-2020-NEWTONVALID-results",
+    "SCI-REPO-Y10-SBY-2020-NEWTONVALID-graph",
+    "SCI-REPO-Y10-SBY-2020-NEWTONVALID-statement",
+    "SCI-REPO-Y10-SBY-2020-NEWTONVALID-hypothesischeck",
+    "SCI-REPO-Y10-SBY-2020-NEWTONVALID-newtoncheck",
+    "SCI-REPO-Y10-SBY-2020-NEWTONVALID-improvements"
+  ],
+  "questions": 21,
+  "multipleChoice": 0,
+  "writtenQuestions": 21,
+  "battleEligible": 0,
+  "marks": 48,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y10-ARAN-2013-DNAMINI-1a",
+      "note": "The source requests four labels but does not identify four target arrows; teacher moderation is required."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2020-NEWTONVALID-newtoncheck",
+      "note": "The source omits total moving mass and friction information; accept justified limitations rather than a forced confirmation."
+    }
+  ],
+  "imageAudit": [
+    {
+      "id": "e48-image1",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/2013 10 DNA MINI TEST.docx",
+      "embeddedImage": "word/media/image1.jpeg",
+      "sha256": "a066fe6e05f97dd9c897d3e7a8631456d8959ba8c5b7b7a83cd014900ce6db16",
+      "publishedSha256": "c1c58c2d3422e1c0611783ebb75eb7f2124aec2628aa570197b17d55ecfd078f",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e48-image2",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/2013 10 DNA MINI TEST.docx",
+      "embeddedImage": "word/media/image2.jpeg",
+      "sha256": "1344259a2814b0be9f85508a99e6c237407ac31af4c5a1f717d99da4d1602176",
+      "publishedSha256": "4b332608ebdc0c1eb67ef908afeaf72111c75ddd14f1616d09c3f15aa2a0b9df",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/2013 10 DNA MINI TEST.docx",
+      "sha": "411c9eebcb68370b8625a688b77f5d7acbbd1fd3",
+      "year": 10,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2020/Physics Investigation Validation Test 2020.docx",
+      "sha": "857b294acdb8adf73619a61fcb552df5172a769b",
+      "year": 10,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 21,
+  "createdSupplements": 0,
+  "notes": [
+    "Two complete source papers: DNA mini test and Newton investigation validation. Original diagrams and measured data retained. Created marking guidance identifies source ambiguities; no invented questions."
+  ],
+  "markAudit": {
+    "DNA mini test": {
+      "printedTotal": 22,
+      "extractedMarks": 22
+    },
+    "Newton validation": {
+      "printedTotal": 26,
+      "extractedMarks": 26
+    }
+  },
+  "duplicateQuestionAliases": []
+}
