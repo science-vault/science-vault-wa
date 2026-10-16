@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.16-science-source11",
+  "version": "2026.10.16-science-source13",
   "status": "in_progress",
   "scope": "Original Science assessment files in repository, Years 7–10. File counts include keys and supporting materials; they are not question counts.",
   "inventoryFiles": 2009,
@@ -11,11 +11,11 @@
     "9": 457,
     "10": 582
   },
-  "importedPapers": 42,
-  "importedQuestions": 684,
-  "multipleChoice": 335,
-  "writtenQuestions": 349,
-  "battleEligibleQuestions": 308,
+  "importedPapers": 49,
+  "importedQuestions": 1022,
+  "multipleChoice": 440,
+  "writtenQuestions": 582,
+  "battleEligibleQuestions": 399,
   "reviewRequired": [
     {
       "id": "SCI-REPO-Y7-NAR-2024-EARTH-MC03",
@@ -284,6 +284,114 @@
     {
       "id": "SCI-REPO-Y10-B11-D38-WR02",
       "note": "One created mark per independent source term. Repeated response and embedded answer tables are not separately imported. Source says “all forces are equal”, which is not the general condition."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2017-EXT-MC02",
+      "note": "More than one description can be correct, and supplied keys disagree across variants."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2017-EXT-MC07",
+      "note": "At least two statements are false; not a valid single-answer MC."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2017-EXT-MC12",
+      "note": "Both C and D describe a community."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2017-EXT-MC15",
+      "note": "Supplied key confuses heat with temperature; correct energy-transfer explanation provided."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2017-EXT-MC18",
+      "note": "Charge carriers depend on medium; electrons in metal wires and ions in electrolytes."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2017-EXT-26b",
+      "note": "Supplied key incorrectly defines strength using danger and edibility. Replaced with ionisation-based guidance."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2017-EXT-33",
+      "note": "Supplied key wrongly calls the vacuum a layer of air. Figure text already explains reflection; original figure preserved and answer is manually marked."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-EXT-MC10",
+      "note": "Supplied key marks sons only, but question asks allele inheritance: all children inherit maternal allele."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-EXT-MC23",
+      "note": "Direction convention is unstated; negative acceleration need not mean slowing."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-EXT-MC28",
+      "note": "Original optionB has no numerical value; teacher must repair incomplete distractor."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-EXT-19",
+      "note": "Source and key ignore the downhill gravitational component. Accept−1.8m/s² only under the stated friction-only/resultant-force assumption; accept a correct underdetermination explanation."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-EXT-20b",
+      "note": "Supplied key substitutes inconsistent values and reports20J. Original task gives2kg,9.8N/kg and2m, yielding39.2J."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-EXT-24b",
+      "note": "Supplied key incorrectly namesCO as carbon dioxide; corrected to carbon monoxide."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-EXT-28option1",
+      "note": "Original optional10mark response retained separately. Supplied key wrongly generalises all covalent solids as malleable, soft and low-melting; correct molecular/network distinction accepted."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2015-S1CHEM-MC18",
+      "note": "A is universally valid; D includes mechanism-specific claims that are not general. Teacher review required."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNK-BIO-END-MC03",
+      "note": "Incomplete commensalism definition means other interactions can fitC."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNK-BIO-END-MC10",
+      "note": "Options omit indirect effects across the food web."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNK-BIO-END-1h",
+      "note": "Source definition omits the host being harmed; parasitism cannot be inferred merely from living on another organism."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNK-BIO-END-9f",
+      "note": "The premise about animal activity is not evidenced by the supplied temperature table;accept a justified limitation."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNK-BIO-END-10ii",
+      "note": "Supplied guide incorrectly defines extinct by a50-year absence and confuses extinction in the wild;corrected."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNK-CHEM-MID-9e",
+      "note": "Supplied key assumes solubility halves with Celsius temperature,which is unsupported."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNK-CHEM-MID-10iii",
+      "note": "Supplied key defines insoluble as able to dissolve—the opposite;corrected."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNK-PHYS-END-MC01",
+      "note": "All listed actions can involve force;not uniquely single-answer as phrased."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNK-PHYS-END-MC09",
+      "note": "Forces determine acceleration,not necessarily current direction of motion without initial conditions."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNK-PHYS-END-9d",
+      "note": "Supplied text wrongly says200g has10N more while its own values show less;corrected."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNK-PHYS-END-10iv",
+      "note": "Supplied key defines acceleration only as speeding up;corrected to velocity change."
+    },
+    {
+      "id": "SCI-REPO-Y8-UNK-EARTH-END-MC10",
+      "note": "Pie charts can also represent categorical preferences,so the item is not uniquely answered as phrased."
     }
   ],
   "batches": [
@@ -3350,6 +3458,557 @@
       "marks": 123,
       "notes": "Eight source tests/quiz sheets, all written matching, calculations or diagrams. Five vocabulary sheets include supplied embedded keys; erroneous radiation number, heat definition, opacity, myopia and other issues corrected explicitly in marking guidance, with teacher-review flags. Three original diagrams/grids preserved. No new practice questions and no automatic battle items.",
       "markAudit": "Cells printed23 preserved (3+11+8+1). Scientific method cover29 preserved:Q4 heading6 conflicts with subparts2+5=7, so retain7 as item total; other8+2+6+6. Unmarked vocabulary uses one created mark per independent response. No repeated answer/response-table variants counted."
+    },
+    {
+      "id": "repo-science-batch12",
+      "questionIds": [
+        "SCI-REPO-Y9-SBY-2017-EXT-MC01",
+        "SCI-REPO-Y9-SBY-2017-EXT-MC02",
+        "SCI-REPO-Y9-SBY-2017-EXT-MC03",
+        "SCI-REPO-Y9-SBY-2017-EXT-MC04",
+        "SCI-REPO-Y9-SBY-2017-EXT-MC05",
+        "SCI-REPO-Y9-SBY-2017-EXT-MC06",
+        "SCI-REPO-Y9-SBY-2017-EXT-MC07",
+        "SCI-REPO-Y9-SBY-2017-EXT-MC08",
+        "SCI-REPO-Y9-SBY-2017-EXT-MC09",
+        "SCI-REPO-Y9-SBY-2017-EXT-MC10",
+        "SCI-REPO-Y9-SBY-2017-EXT-MC11",
+        "SCI-REPO-Y9-SBY-2017-EXT-MC12",
+        "SCI-REPO-Y9-SBY-2017-EXT-MC13",
+        "SCI-REPO-Y9-SBY-2017-EXT-MC14",
+        "SCI-REPO-Y9-SBY-2017-EXT-MC15",
+        "SCI-REPO-Y9-SBY-2017-EXT-MC16",
+        "SCI-REPO-Y9-SBY-2017-EXT-MC17",
+        "SCI-REPO-Y9-SBY-2017-EXT-MC18",
+        "SCI-REPO-Y9-SBY-2017-EXT-MC19",
+        "SCI-REPO-Y9-SBY-2017-EXT-MC20",
+        "SCI-REPO-Y9-SBY-2017-EXT-21a",
+        "SCI-REPO-Y9-SBY-2017-EXT-21b",
+        "SCI-REPO-Y9-SBY-2017-EXT-21c",
+        "SCI-REPO-Y9-SBY-2017-EXT-21d",
+        "SCI-REPO-Y9-SBY-2017-EXT-22a",
+        "SCI-REPO-Y9-SBY-2017-EXT-22b",
+        "SCI-REPO-Y9-SBY-2017-EXT-22c",
+        "SCI-REPO-Y9-SBY-2017-EXT-22d",
+        "SCI-REPO-Y9-SBY-2017-EXT-22e",
+        "SCI-REPO-Y9-SBY-2017-EXT-23a",
+        "SCI-REPO-Y9-SBY-2017-EXT-24a",
+        "SCI-REPO-Y9-SBY-2017-EXT-24b",
+        "SCI-REPO-Y9-SBY-2017-EXT-24c",
+        "SCI-REPO-Y9-SBY-2017-EXT-25",
+        "SCI-REPO-Y9-SBY-2017-EXT-26a",
+        "SCI-REPO-Y9-SBY-2017-EXT-26b",
+        "SCI-REPO-Y9-SBY-2017-EXT-27a",
+        "SCI-REPO-Y9-SBY-2017-EXT-27b",
+        "SCI-REPO-Y9-SBY-2017-EXT-27c",
+        "SCI-REPO-Y9-SBY-2017-EXT-27d",
+        "SCI-REPO-Y9-SBY-2017-EXT-27e",
+        "SCI-REPO-Y9-SBY-2017-EXT-28a",
+        "SCI-REPO-Y9-SBY-2017-EXT-28b",
+        "SCI-REPO-Y9-SBY-2017-EXT-28c",
+        "SCI-REPO-Y9-SBY-2017-EXT-29a",
+        "SCI-REPO-Y9-SBY-2017-EXT-29b",
+        "SCI-REPO-Y9-SBY-2017-EXT-29c",
+        "SCI-REPO-Y9-SBY-2017-EXT-30",
+        "SCI-REPO-Y9-SBY-2017-EXT-31",
+        "SCI-REPO-Y9-SBY-2017-EXT-32",
+        "SCI-REPO-Y9-SBY-2017-EXT-33",
+        "SCI-REPO-Y9-SBY-2017-EXT-34",
+        "SCI-REPO-Y10-SBY-2017-EXT-MC01",
+        "SCI-REPO-Y10-SBY-2017-EXT-MC02",
+        "SCI-REPO-Y10-SBY-2017-EXT-MC03",
+        "SCI-REPO-Y10-SBY-2017-EXT-MC04",
+        "SCI-REPO-Y10-SBY-2017-EXT-MC05",
+        "SCI-REPO-Y10-SBY-2017-EXT-MC06",
+        "SCI-REPO-Y10-SBY-2017-EXT-MC07",
+        "SCI-REPO-Y10-SBY-2017-EXT-MC08",
+        "SCI-REPO-Y10-SBY-2017-EXT-MC09",
+        "SCI-REPO-Y10-SBY-2017-EXT-MC10",
+        "SCI-REPO-Y10-SBY-2017-EXT-MC11",
+        "SCI-REPO-Y10-SBY-2017-EXT-MC12",
+        "SCI-REPO-Y10-SBY-2017-EXT-MC13",
+        "SCI-REPO-Y10-SBY-2017-EXT-MC14",
+        "SCI-REPO-Y10-SBY-2017-EXT-MC15",
+        "SCI-REPO-Y10-SBY-2017-EXT-MC16",
+        "SCI-REPO-Y10-SBY-2017-EXT-MC17",
+        "SCI-REPO-Y10-SBY-2017-EXT-MC18",
+        "SCI-REPO-Y10-SBY-2017-EXT-MC19",
+        "SCI-REPO-Y10-SBY-2017-EXT-MC20",
+        "SCI-REPO-Y10-SBY-2017-EXT-MC21",
+        "SCI-REPO-Y10-SBY-2017-EXT-MC22",
+        "SCI-REPO-Y10-SBY-2017-EXT-MC23",
+        "SCI-REPO-Y10-SBY-2017-EXT-MC24",
+        "SCI-REPO-Y10-SBY-2017-EXT-MC25",
+        "SCI-REPO-Y10-SBY-2017-EXT-MC26",
+        "SCI-REPO-Y10-SBY-2017-EXT-MC27",
+        "SCI-REPO-Y10-SBY-2017-EXT-MC28",
+        "SCI-REPO-Y10-SBY-2017-EXT-MC29",
+        "SCI-REPO-Y10-SBY-2017-EXT-MC30",
+        "SCI-REPO-Y10-SBY-2017-EXT-16a",
+        "SCI-REPO-Y10-SBY-2017-EXT-16b",
+        "SCI-REPO-Y10-SBY-2017-EXT-17",
+        "SCI-REPO-Y10-SBY-2017-EXT-18i",
+        "SCI-REPO-Y10-SBY-2017-EXT-18ii",
+        "SCI-REPO-Y10-SBY-2017-EXT-19",
+        "SCI-REPO-Y10-SBY-2017-EXT-20a",
+        "SCI-REPO-Y10-SBY-2017-EXT-20b",
+        "SCI-REPO-Y10-SBY-2017-EXT-21a",
+        "SCI-REPO-Y10-SBY-2017-EXT-21b",
+        "SCI-REPO-Y10-SBY-2017-EXT-21c",
+        "SCI-REPO-Y10-SBY-2017-EXT-22a",
+        "SCI-REPO-Y10-SBY-2017-EXT-22b",
+        "SCI-REPO-Y10-SBY-2017-EXT-23a",
+        "SCI-REPO-Y10-SBY-2017-EXT-23b",
+        "SCI-REPO-Y10-SBY-2017-EXT-24a",
+        "SCI-REPO-Y10-SBY-2017-EXT-24b",
+        "SCI-REPO-Y10-SBY-2017-EXT-24c",
+        "SCI-REPO-Y10-SBY-2017-EXT-24d",
+        "SCI-REPO-Y10-SBY-2017-EXT-24e",
+        "SCI-REPO-Y10-SBY-2017-EXT-24f",
+        "SCI-REPO-Y10-SBY-2017-EXT-25a",
+        "SCI-REPO-Y10-SBY-2017-EXT-25b",
+        "SCI-REPO-Y10-SBY-2017-EXT-25c",
+        "SCI-REPO-Y10-SBY-2017-EXT-25d",
+        "SCI-REPO-Y10-SBY-2017-EXT-26a",
+        "SCI-REPO-Y10-SBY-2017-EXT-26b",
+        "SCI-REPO-Y10-SBY-2017-EXT-26c",
+        "SCI-REPO-Y10-SBY-2017-EXT-27a",
+        "SCI-REPO-Y10-SBY-2017-EXT-27bi",
+        "SCI-REPO-Y10-SBY-2017-EXT-27bii",
+        "SCI-REPO-Y10-SBY-2017-EXT-27biii",
+        "SCI-REPO-Y10-SBY-2017-EXT-27c",
+        "SCI-REPO-Y10-SBY-2017-EXT-28option1",
+        "SCI-REPO-Y10-SBY-2017-EXT-28option2",
+        "SCI-REPO-Y10-ARAN-2015-S1CHEM-MC01",
+        "SCI-REPO-Y10-ARAN-2015-S1CHEM-MC02",
+        "SCI-REPO-Y10-ARAN-2015-S1CHEM-MC08",
+        "SCI-REPO-Y10-ARAN-2015-S1CHEM-MC09",
+        "SCI-REPO-Y10-ARAN-2015-S1CHEM-MC10",
+        "SCI-REPO-Y10-ARAN-2015-S1CHEM-MC11",
+        "SCI-REPO-Y10-ARAN-2015-S1CHEM-MC12",
+        "SCI-REPO-Y10-ARAN-2015-S1CHEM-MC13",
+        "SCI-REPO-Y10-ARAN-2015-S1CHEM-MC14",
+        "SCI-REPO-Y10-ARAN-2015-S1CHEM-MC15",
+        "SCI-REPO-Y10-ARAN-2015-S1CHEM-MC16",
+        "SCI-REPO-Y10-ARAN-2015-S1CHEM-MC17",
+        "SCI-REPO-Y10-ARAN-2015-S1CHEM-MC18",
+        "SCI-REPO-Y10-ARAN-2015-S1CHEM-MC19",
+        "SCI-REPO-Y10-ARAN-2015-S1CHEM-MC20",
+        "SCI-REPO-Y10-ARAN-2015-S1CHEM-1a",
+        "SCI-REPO-Y10-ARAN-2015-S1CHEM-1b",
+        "SCI-REPO-Y10-ARAN-2015-S1CHEM-1c",
+        "SCI-REPO-Y10-ARAN-2015-S1CHEM-1e",
+        "SCI-REPO-Y10-ARAN-2015-S1CHEM-2a",
+        "SCI-REPO-Y10-ARAN-2015-S1CHEM-2b",
+        "SCI-REPO-Y10-ARAN-2015-S1CHEM-2c",
+        "SCI-REPO-Y10-ARAN-2015-S1CHEM-2d",
+        "SCI-REPO-Y10-ARAN-2015-S1CHEM-3",
+        "SCI-REPO-Y10-ARAN-2015-S1CHEM-4a",
+        "SCI-REPO-Y10-ARAN-2015-S1CHEM-5a",
+        "SCI-REPO-Y10-ARAN-2015-S1CHEM-5b",
+        "SCI-REPO-Y10-ARAN-2015-S1CHEM-5c",
+        "SCI-REPO-Y10-ARAN-2015-S1CHEM-6a",
+        "SCI-REPO-Y10-ARAN-2015-S1CHEM-6c",
+        "SCI-REPO-Y10-ARAN-2015-S1CHEM-7a",
+        "SCI-REPO-Y10-ARAN-2015-S1CHEM-7b",
+        "SCI-REPO-Y10-ARAN-2015-S1CHEM-8"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/Exam/Yr 9 Extended Exam Sem2 2017.docx",
+          "sha": "d6ea5801639d3efc921535e81c8bf66e3911e2bb",
+          "year": 9,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/Exam/Yr 9 Extended Exam Sem2 2017 ANSWERS.docx",
+          "sha": "b70cfda669cfd9fbf17af0ba0d1211aba6ffe467",
+          "year": 9,
+          "role": "key_reference"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/FINAL 2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sha": "744f2fe222e0299feb7199b95b2b85edd4412b45",
+          "year": 10,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/MARKING KEY 2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sha": "29a9dbdd96d564bbf7d0132d7e2a839fae701dbd",
+          "year": 10,
+          "role": "key_reference"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/10ScienceL2S1Exam2015.docx",
+          "sha": "4a79cdffdfc060388665e2fd7daa4df6bbd61531",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 150,
+      "marks": 231,
+      "imageAudit": "question-source-packs/repo-science-batch12-audit.json",
+      "notes": "Three source exams. Explicit separately marked question parts are selectable with their parent context. Original optional essays remain alternatives, not two required responses. Exact repeats are source aliases rather than new questions. Scientific and marking-key errors flagged.",
+      "markAudit": "Year9 printed70=item70;Year10 extension section marks64+30+20=114, while cover table says110; optional essays both stored10 each but selectone in original exam. Aranmore chemistry50=item50. Original per-part marks retained;4mark atomic-number table responses grouped where no individual allocation exists.",
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/Exam/Yr 9 Extended Exam Sem2 2017.docx",
+          "sourceFileSha": "d6ea5801639d3efc921535e81c8bf66e3911e2bb",
+          "sourceQuestionNumber": "23b",
+          "sourceParagraphs": [
+            237,
+            240
+          ],
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-EXT-23a",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/Exam/Yr 9 Extended Exam Sem2 2017.docx",
+          "sourceFileSha": "d6ea5801639d3efc921535e81c8bf66e3911e2bb",
+          "sourceQuestionNumber": "23c",
+          "sourceParagraphs": [
+            237,
+            241
+          ],
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-EXT-23a",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/Exam/Yr 9 Extended Exam Sem2 2017.docx",
+          "sourceFileSha": "d6ea5801639d3efc921535e81c8bf66e3911e2bb",
+          "sourceQuestionNumber": "23d",
+          "sourceParagraphs": [
+            237,
+            242
+          ],
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-EXT-23a",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/10ScienceL2S1Exam2015.docx",
+          "sourceFileSha": "4a79cdffdfc060388665e2fd7daa4df6bbd61531",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            101,
+            103,
+            104,
+            105,
+            106
+          ],
+          "existingQuestionId": "SCI-REPO-Y10-B10-D24-MC01",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/10ScienceL2S1Exam2015.docx",
+          "sourceFileSha": "4a79cdffdfc060388665e2fd7daa4df6bbd61531",
+          "sourceQuestionNumber": "4",
+          "sourceParagraphs": [
+            109,
+            111,
+            112,
+            113,
+            114
+          ],
+          "existingQuestionId": "SCI-REPO-Y10-B10-D24-MC02",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/10ScienceL2S1Exam2015.docx",
+          "sourceFileSha": "4a79cdffdfc060388665e2fd7daa4df6bbd61531",
+          "sourceQuestionNumber": "5",
+          "sourceParagraphs": [
+            117,
+            119,
+            120,
+            121,
+            122
+          ],
+          "existingQuestionId": "SCI-REPO-Y10-B10-D24-MC03",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/10ScienceL2S1Exam2015.docx",
+          "sourceFileSha": "4a79cdffdfc060388665e2fd7daa4df6bbd61531",
+          "sourceQuestionNumber": "6",
+          "sourceParagraphs": [
+            126,
+            128,
+            129,
+            130,
+            131
+          ],
+          "existingQuestionId": "SCI-REPO-Y10-B10-D24-MC05",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/10ScienceL2S1Exam2015.docx",
+          "sourceFileSha": "4a79cdffdfc060388665e2fd7daa4df6bbd61531",
+          "sourceQuestionNumber": "7",
+          "sourceParagraphs": [
+            134,
+            136,
+            137,
+            138,
+            139
+          ],
+          "existingQuestionId": "SCI-REPO-Y10-B10-D24-MC08",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/10ScienceL2S1Exam2015.docx",
+          "sourceFileSha": "4a79cdffdfc060388665e2fd7daa4df6bbd61531",
+          "sourceQuestionNumber": "4b",
+          "sourceParagraphs": [
+            299,
+            308
+          ],
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-S1CHEM-4a",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch13",
+      "questionIds": [
+        "SCI-REPO-Y7-UNK-BIO-END-MC01",
+        "SCI-REPO-Y7-UNK-BIO-END-MC02",
+        "SCI-REPO-Y7-UNK-BIO-END-MC03",
+        "SCI-REPO-Y7-UNK-BIO-END-MC04",
+        "SCI-REPO-Y7-UNK-BIO-END-MC05",
+        "SCI-REPO-Y7-UNK-BIO-END-MC06",
+        "SCI-REPO-Y7-UNK-BIO-END-MC07",
+        "SCI-REPO-Y7-UNK-BIO-END-MC08",
+        "SCI-REPO-Y7-UNK-BIO-END-MC09",
+        "SCI-REPO-Y7-UNK-BIO-END-MC10",
+        "SCI-REPO-Y7-UNK-BIO-END-1a",
+        "SCI-REPO-Y7-UNK-BIO-END-1b",
+        "SCI-REPO-Y7-UNK-BIO-END-1c",
+        "SCI-REPO-Y7-UNK-BIO-END-1d",
+        "SCI-REPO-Y7-UNK-BIO-END-1e",
+        "SCI-REPO-Y7-UNK-BIO-END-1f",
+        "SCI-REPO-Y7-UNK-BIO-END-1g",
+        "SCI-REPO-Y7-UNK-BIO-END-1h",
+        "SCI-REPO-Y7-UNK-BIO-END-1i",
+        "SCI-REPO-Y7-UNK-BIO-END-1j",
+        "SCI-REPO-Y7-UNK-BIO-END-2a",
+        "SCI-REPO-Y7-UNK-BIO-END-2b",
+        "SCI-REPO-Y7-UNK-BIO-END-3a",
+        "SCI-REPO-Y7-UNK-BIO-END-3b",
+        "SCI-REPO-Y7-UNK-BIO-END-3c",
+        "SCI-REPO-Y7-UNK-BIO-END-4",
+        "SCI-REPO-Y7-UNK-BIO-END-5",
+        "SCI-REPO-Y7-UNK-BIO-END-6a",
+        "SCI-REPO-Y7-UNK-BIO-END-6b",
+        "SCI-REPO-Y7-UNK-BIO-END-6c",
+        "SCI-REPO-Y7-UNK-BIO-END-6d",
+        "SCI-REPO-Y7-UNK-BIO-END-7a",
+        "SCI-REPO-Y7-UNK-BIO-END-7b",
+        "SCI-REPO-Y7-UNK-BIO-END-7c",
+        "SCI-REPO-Y7-UNK-BIO-END-8a",
+        "SCI-REPO-Y7-UNK-BIO-END-8b",
+        "SCI-REPO-Y7-UNK-BIO-END-8c",
+        "SCI-REPO-Y7-UNK-BIO-END-9a",
+        "SCI-REPO-Y7-UNK-BIO-END-9b",
+        "SCI-REPO-Y7-UNK-BIO-END-9c",
+        "SCI-REPO-Y7-UNK-BIO-END-9d",
+        "SCI-REPO-Y7-UNK-BIO-END-9e",
+        "SCI-REPO-Y7-UNK-BIO-END-9f",
+        "SCI-REPO-Y7-UNK-BIO-END-10i",
+        "SCI-REPO-Y7-UNK-BIO-END-10ii",
+        "SCI-REPO-Y7-UNK-BIO-END-10iii",
+        "SCI-REPO-Y7-UNK-BIO-END-10iv",
+        "SCI-REPO-Y7-UNK-BIO-END-10v",
+        "SCI-REPO-Y7-UNK-CHEM-MID-MC01",
+        "SCI-REPO-Y7-UNK-CHEM-MID-MC02",
+        "SCI-REPO-Y7-UNK-CHEM-MID-MC03",
+        "SCI-REPO-Y7-UNK-CHEM-MID-MC04",
+        "SCI-REPO-Y7-UNK-CHEM-MID-MC05",
+        "SCI-REPO-Y7-UNK-CHEM-MID-MC06",
+        "SCI-REPO-Y7-UNK-CHEM-MID-MC07",
+        "SCI-REPO-Y7-UNK-CHEM-MID-MC08",
+        "SCI-REPO-Y7-UNK-CHEM-MID-MC09",
+        "SCI-REPO-Y7-UNK-CHEM-MID-MC10",
+        "SCI-REPO-Y7-UNK-CHEM-MID-1a",
+        "SCI-REPO-Y7-UNK-CHEM-MID-1b",
+        "SCI-REPO-Y7-UNK-CHEM-MID-1c",
+        "SCI-REPO-Y7-UNK-CHEM-MID-1d",
+        "SCI-REPO-Y7-UNK-CHEM-MID-1e",
+        "SCI-REPO-Y7-UNK-CHEM-MID-1f",
+        "SCI-REPO-Y7-UNK-CHEM-MID-1g",
+        "SCI-REPO-Y7-UNK-CHEM-MID-1h",
+        "SCI-REPO-Y7-UNK-CHEM-MID-1i",
+        "SCI-REPO-Y7-UNK-CHEM-MID-1j",
+        "SCI-REPO-Y7-UNK-CHEM-MID-2",
+        "SCI-REPO-Y7-UNK-CHEM-MID-3a",
+        "SCI-REPO-Y7-UNK-CHEM-MID-3b",
+        "SCI-REPO-Y7-UNK-CHEM-MID-4a",
+        "SCI-REPO-Y7-UNK-CHEM-MID-4b",
+        "SCI-REPO-Y7-UNK-CHEM-MID-4c",
+        "SCI-REPO-Y7-UNK-CHEM-MID-5",
+        "SCI-REPO-Y7-UNK-CHEM-MID-6",
+        "SCI-REPO-Y7-UNK-CHEM-MID-7a",
+        "SCI-REPO-Y7-UNK-CHEM-MID-7b",
+        "SCI-REPO-Y7-UNK-CHEM-MID-7c",
+        "SCI-REPO-Y7-UNK-CHEM-MID-7d",
+        "SCI-REPO-Y7-UNK-CHEM-MID-8a",
+        "SCI-REPO-Y7-UNK-CHEM-MID-8b",
+        "SCI-REPO-Y7-UNK-CHEM-MID-8c",
+        "SCI-REPO-Y7-UNK-CHEM-MID-8d",
+        "SCI-REPO-Y7-UNK-CHEM-MID-8e",
+        "SCI-REPO-Y7-UNK-CHEM-MID-9a",
+        "SCI-REPO-Y7-UNK-CHEM-MID-9b",
+        "SCI-REPO-Y7-UNK-CHEM-MID-9c",
+        "SCI-REPO-Y7-UNK-CHEM-MID-9d",
+        "SCI-REPO-Y7-UNK-CHEM-MID-9e",
+        "SCI-REPO-Y7-UNK-CHEM-MID-9f",
+        "SCI-REPO-Y7-UNK-CHEM-MID-10i",
+        "SCI-REPO-Y7-UNK-CHEM-MID-10ii",
+        "SCI-REPO-Y7-UNK-CHEM-MID-10iii",
+        "SCI-REPO-Y7-UNK-CHEM-MID-10iv",
+        "SCI-REPO-Y7-UNK-CHEM-MID-11",
+        "SCI-REPO-Y7-UNK-PHYS-END-MC01",
+        "SCI-REPO-Y7-UNK-PHYS-END-MC02",
+        "SCI-REPO-Y7-UNK-PHYS-END-MC03",
+        "SCI-REPO-Y7-UNK-PHYS-END-MC04",
+        "SCI-REPO-Y7-UNK-PHYS-END-MC05",
+        "SCI-REPO-Y7-UNK-PHYS-END-MC06",
+        "SCI-REPO-Y7-UNK-PHYS-END-MC07",
+        "SCI-REPO-Y7-UNK-PHYS-END-MC08",
+        "SCI-REPO-Y7-UNK-PHYS-END-MC09",
+        "SCI-REPO-Y7-UNK-PHYS-END-MC10",
+        "SCI-REPO-Y7-UNK-PHYS-END-1a",
+        "SCI-REPO-Y7-UNK-PHYS-END-1b",
+        "SCI-REPO-Y7-UNK-PHYS-END-1c",
+        "SCI-REPO-Y7-UNK-PHYS-END-1d",
+        "SCI-REPO-Y7-UNK-PHYS-END-1e",
+        "SCI-REPO-Y7-UNK-PHYS-END-1f",
+        "SCI-REPO-Y7-UNK-PHYS-END-1g",
+        "SCI-REPO-Y7-UNK-PHYS-END-1h",
+        "SCI-REPO-Y7-UNK-PHYS-END-1i",
+        "SCI-REPO-Y7-UNK-PHYS-END-1j",
+        "SCI-REPO-Y7-UNK-PHYS-END-2a",
+        "SCI-REPO-Y7-UNK-PHYS-END-2b",
+        "SCI-REPO-Y7-UNK-PHYS-END-3a",
+        "SCI-REPO-Y7-UNK-PHYS-END-3b",
+        "SCI-REPO-Y7-UNK-PHYS-END-4",
+        "SCI-REPO-Y7-UNK-PHYS-END-5",
+        "SCI-REPO-Y7-UNK-PHYS-END-6a",
+        "SCI-REPO-Y7-UNK-PHYS-END-6b",
+        "SCI-REPO-Y7-UNK-PHYS-END-6c",
+        "SCI-REPO-Y7-UNK-PHYS-END-6d",
+        "SCI-REPO-Y7-UNK-PHYS-END-7a",
+        "SCI-REPO-Y7-UNK-PHYS-END-7b",
+        "SCI-REPO-Y7-UNK-PHYS-END-7c",
+        "SCI-REPO-Y7-UNK-PHYS-END-8a",
+        "SCI-REPO-Y7-UNK-PHYS-END-8b",
+        "SCI-REPO-Y7-UNK-PHYS-END-8c",
+        "SCI-REPO-Y7-UNK-PHYS-END-9a",
+        "SCI-REPO-Y7-UNK-PHYS-END-9b",
+        "SCI-REPO-Y7-UNK-PHYS-END-9c",
+        "SCI-REPO-Y7-UNK-PHYS-END-9d",
+        "SCI-REPO-Y7-UNK-PHYS-END-9e",
+        "SCI-REPO-Y7-UNK-PHYS-END-9f",
+        "SCI-REPO-Y7-UNK-PHYS-END-10i",
+        "SCI-REPO-Y7-UNK-PHYS-END-10ii",
+        "SCI-REPO-Y7-UNK-PHYS-END-10iii",
+        "SCI-REPO-Y7-UNK-PHYS-END-10iv",
+        "SCI-REPO-Y7-UNK-PHYS-END-10v",
+        "SCI-REPO-Y8-UNK-EARTH-END-MC01",
+        "SCI-REPO-Y8-UNK-EARTH-END-MC02",
+        "SCI-REPO-Y8-UNK-EARTH-END-MC03",
+        "SCI-REPO-Y8-UNK-EARTH-END-MC04",
+        "SCI-REPO-Y8-UNK-EARTH-END-MC05",
+        "SCI-REPO-Y8-UNK-EARTH-END-MC06",
+        "SCI-REPO-Y8-UNK-EARTH-END-MC07",
+        "SCI-REPO-Y8-UNK-EARTH-END-MC08",
+        "SCI-REPO-Y8-UNK-EARTH-END-MC09",
+        "SCI-REPO-Y8-UNK-EARTH-END-MC10",
+        "SCI-REPO-Y8-UNK-EARTH-END-1a",
+        "SCI-REPO-Y8-UNK-EARTH-END-1b",
+        "SCI-REPO-Y8-UNK-EARTH-END-1c",
+        "SCI-REPO-Y8-UNK-EARTH-END-1d",
+        "SCI-REPO-Y8-UNK-EARTH-END-1e",
+        "SCI-REPO-Y8-UNK-EARTH-END-1f",
+        "SCI-REPO-Y8-UNK-EARTH-END-1g",
+        "SCI-REPO-Y8-UNK-EARTH-END-1h",
+        "SCI-REPO-Y8-UNK-EARTH-END-1i",
+        "SCI-REPO-Y8-UNK-EARTH-END-1j",
+        "SCI-REPO-Y8-UNK-EARTH-END-2",
+        "SCI-REPO-Y8-UNK-EARTH-END-3a",
+        "SCI-REPO-Y8-UNK-EARTH-END-3b",
+        "SCI-REPO-Y8-UNK-EARTH-END-4",
+        "SCI-REPO-Y8-UNK-EARTH-END-5",
+        "SCI-REPO-Y8-UNK-EARTH-END-6",
+        "SCI-REPO-Y8-UNK-EARTH-END-7a",
+        "SCI-REPO-Y8-UNK-EARTH-END-7b",
+        "SCI-REPO-Y8-UNK-EARTH-END-7c",
+        "SCI-REPO-Y8-UNK-EARTH-END-7d",
+        "SCI-REPO-Y8-UNK-EARTH-END-8a",
+        "SCI-REPO-Y8-UNK-EARTH-END-8b",
+        "SCI-REPO-Y8-UNK-EARTH-END-8c",
+        "SCI-REPO-Y8-UNK-EARTH-END-9a",
+        "SCI-REPO-Y8-UNK-EARTH-END-9b",
+        "SCI-REPO-Y8-UNK-EARTH-END-9c",
+        "SCI-REPO-Y8-UNK-EARTH-END-9d",
+        "SCI-REPO-Y8-UNK-EARTH-END-9e",
+        "SCI-REPO-Y8-UNK-EARTH-END-9f",
+        "SCI-REPO-Y8-UNK-EARTH-END-9g",
+        "SCI-REPO-Y8-UNK-EARTH-END-10i",
+        "SCI-REPO-Y8-UNK-EARTH-END-10ii",
+        "SCI-REPO-Y8-UNK-EARTH-END-10iii",
+        "SCI-REPO-Y8-UNK-EARTH-END-10iv",
+        "SCI-REPO-Y8-UNK-EARTH-END-12"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Unknown School/End topic test Biological Science Year 7.docx",
+          "sha": "1d3d67d02a48ea2960b341cff21cfffb8af9bd5a",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Unknown School/End topic test Biological Science Year 7 Answers.docx",
+          "sha": "9004f8e3962efd45ce1680a9659185d6923b778c",
+          "year": 7,
+          "role": "key_reference"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Mid topic test Chem and Inv Science Year 7.docx",
+          "sha": "520227faa1b627c9823c60562b9000a2df36351c",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Mid topic test Chem and Inv Science Year 7 answers.docx",
+          "sha": "ef77827aef6302da241b26df2f854b1e312eaf2a",
+          "year": 7,
+          "role": "key_reference"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Unknown School/End topic test Physical Science Year 7.docx",
+          "sha": "bca066623e3f7fc4793e41ee3a1fe962def69918",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Unknown School/End topic test Physical Science Year 7 Answers.docx",
+          "sha": "90e198bf6da2cbeeb0dba639801efcd7bdb8db2c",
+          "year": 7,
+          "role": "key_reference"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Unknown/End of topic test Inv and Earth Science Year 8.docx",
+          "sha": "49f997aa9f4ce5a103fce450b698f8084a3a6f0c",
+          "year": 8,
+          "role": "paper"
+        }
+      ],
+      "questions": 188,
+      "marks": 269,
+      "imageAudit": "question-source-packs/repo-science-batch13-audit.json",
+      "notes": "Four source topic tests with original diagrams,tables and separately prompted subparts. Matching word-bank items retain their shared source terms. Supplied key errors corrected explicitly;ambiguous items remain manual. No generated practice.",
+      "markAudit": "Biology65,chemistry69,physical65 andEarth70 original item totals retained. Multi-list tasks with a grouped mark allocation remain grouped. Worked example cylinder14mL unscored;no source number11 invented forEarth test.",
+      "duplicateQuestionAliases": []
     }
   ],
   "files": [
@@ -4382,7 +5041,7 @@
       "sha": "9004f8e3962efd45ce1680a9659185d6923b778c",
       "year": 7,
       "size": 414513,
-      "status": "pending",
+      "status": "key_reference_pending_variant_review",
       "duplicateOf": null
     },
     {
@@ -4390,7 +5049,7 @@
       "sha": "1d3d67d02a48ea2960b341cff21cfffb8af9bd5a",
       "year": 7,
       "size": 414008,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -5214,7 +5873,7 @@
       "sha": "ef77827aef6302da241b26df2f854b1e312eaf2a",
       "year": 7,
       "size": 112266,
-      "status": "pending",
+      "status": "key_reference_pending_variant_review",
       "duplicateOf": null
     },
     {
@@ -5222,7 +5881,7 @@
       "sha": "520227faa1b627c9823c60562b9000a2df36351c",
       "year": 7,
       "size": 98903,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -7270,7 +7929,7 @@
       "sha": "90e198bf6da2cbeeb0dba639801efcd7bdb8db2c",
       "year": 7,
       "size": 165633,
-      "status": "pending",
+      "status": "key_reference_pending_variant_review",
       "duplicateOf": null
     },
     {
@@ -7278,7 +7937,7 @@
       "sha": "bca066623e3f7fc4793e41ee3a1fe962def69918",
       "year": 7,
       "size": 163663,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -9950,7 +10609,7 @@
       "sha": "49f997aa9f4ce5a103fce450b698f8084a3a6f0c",
       "year": 8,
       "size": 185479,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -13182,7 +13841,7 @@
       "sha": "b70cfda669cfd9fbf17af0ba0d1211aba6ffe467",
       "year": 9,
       "size": 390334,
-      "status": "pending",
+      "status": "key_reference_pending_variant_review",
       "duplicateOf": null
     },
     {
@@ -13190,7 +13849,7 @@
       "sha": "d6ea5801639d3efc921535e81c8bf66e3911e2bb",
       "year": 9,
       "size": 560132,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -15726,7 +16385,7 @@
       "sha": "4a79cdffdfc060388665e2fd7daa4df6bbd61531",
       "year": 10,
       "size": 155732,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -17894,7 +18553,7 @@
       "sha": "744f2fe222e0299feb7199b95b2b85edd4412b45",
       "year": 10,
       "size": 353161,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -17918,7 +18577,7 @@
       "sha": "29a9dbdd96d564bbf7d0132d7e2a839fae701dbd",
       "year": 10,
       "size": 281667,
-      "status": "pending",
+      "status": "key_reference_pending_variant_review",
       "duplicateOf": null
     },
     {
@@ -19426,9 +20085,9 @@
       "duplicateOf": null
     }
   ],
-  "learningVaultCreatedKeySupplements": 80,
-  "remainingUniqueFileBlobs": 1629,
-  "learningVaultCreatedKeys": 292,
+  "learningVaultCreatedKeySupplements": 340,
+  "remainingUniqueFileBlobs": 1622,
+  "learningVaultCreatedKeys": 370,
   "blockedSources": [
     {
       "sha": "49d4b7f3f8af844477b39abb856365aeb096cafd",
@@ -19640,13 +20299,13 @@
     "ocrPages": 1175,
     "ocrTextVerified": false
   },
-  "distinctSourceAndKeyReferences": 57,
+  "distinctSourceAndKeyReferences": 69,
   "unscoredQuestionsPreserved": 1,
   "activeAdditionalQuestionRequest": {
     "requestedAdditionalQuestions": 1000,
     "startingImportedQuestions": 359,
-    "addedQuestions": 325,
-    "remainingQuestions": 675,
+    "addedQuestions": 663,
+    "remainingQuestions": 337,
     "sourceMode": "Assessment papers only",
     "status": "in_progress",
     "requestedAt": "2026-10-16"

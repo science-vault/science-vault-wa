@@ -41,3 +41,7 @@ document.write('<script src="assessment-question-bank-science-source-batch09.js?
 document.write('<script src="assessment-question-bank-science-source-batch10.js?v=2026.10.16-science-source10"><\/script>');
 
 document.write('<script src="assessment-question-bank-science-source-batch11.js?v=2026.10.16-science-source11"><\/script>');
+
+document.write('<script src="assessment-question-bank-science-source-batch12.js?v=2026.10.16-science-source12"><\/script>');
+
+document.write('<script src="assessment-question-bank-science-source-batch13.js?v=2026.10.16-science-source13"><\/script>');
