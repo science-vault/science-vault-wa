@@ -1,0 +1,520 @@
+{
+  "batch": "repo-science-batch46",
+  "paperCount": 6,
+  "questionIds": [
+    "SCI-REPO-Y7-NAR-2017-BIOREV-1",
+    "SCI-REPO-Y7-NAR-2017-BIOREV-2",
+    "SCI-REPO-Y7-NAR-2017-BIOREV-3",
+    "SCI-REPO-Y7-NAR-2017-BIOREV-4",
+    "SCI-REPO-Y7-NAR-2017-BIOREV-5",
+    "SCI-REPO-Y7-NAR-2017-BIOREV-6",
+    "SCI-REPO-Y7-NAR-2017-BIOREV-7",
+    "SCI-REPO-Y7-NAR-2017-BIOREV-8",
+    "SCI-REPO-Y7-NAR-2017-BIOREV-9",
+    "SCI-REPO-Y7-NAR-2017-BIOREV-10",
+    "SCI-REPO-Y7-NAR-2017-BIOREV-11",
+    "SCI-REPO-Y7-NAR-2017-BIOREV-12",
+    "SCI-REPO-Y7-NAR-2017-BIOREV-13",
+    "SCI-REPO-Y7-NAR-2017-BIOREV-14",
+    "SCI-REPO-Y7-UNKNOWN-ECOLOGYREV-Va",
+    "SCI-REPO-Y7-UNKNOWN-ECOLOGYREV-Vb",
+    "SCI-REPO-Y7-UNKNOWN-ECOLOGYREV-Vc",
+    "SCI-REPO-Y7-UNKNOWN-ECOLOGYREV-Vd",
+    "SCI-REPO-Y7-UNKNOWN-ECOLOGYREV-Ve",
+    "SCI-REPO-Y7-UNKNOWN-ECOLOGYREV-Vf",
+    "SCI-REPO-Y7-UNKNOWN-ECOLOGYREV-Vg",
+    "SCI-REPO-Y7-UNKNOWN-ECOLOGYREV-Vh",
+    "SCI-REPO-Y7-UNKNOWN-ECOLOGYREV-Vi",
+    "SCI-REPO-Y7-UNKNOWN-ECOLOGYREV-Vj",
+    "SCI-REPO-Y7-UNKNOWN-ECOLOGYREV-Vk",
+    "SCI-REPO-Y7-UNKNOWN-ECOLOGYREV-Vl",
+    "SCI-REPO-Y7-UNKNOWN-ECOLOGYREV-Vm",
+    "SCI-REPO-Y7-UNKNOWN-ECOLOGYREV-Vn",
+    "SCI-REPO-Y7-UNKNOWN-ECOLOGYREV-Vo",
+    "SCI-REPO-Y7-UNKNOWN-ECOLOGYREV-Vp",
+    "SCI-REPO-Y7-UNKNOWN-ECOLOGYREV-Vq",
+    "SCI-REPO-Y7-UNKNOWN-ECOLOGYREV-Vr",
+    "SCI-REPO-Y7-UNKNOWN-ECOLOGYREV-Vs",
+    "SCI-REPO-Y7-UNKNOWN-ECOLOGYREV-Vt",
+    "SCI-REPO-Y7-UNKNOWN-ECOLOGYREV-Vu",
+    "SCI-REPO-Y7-UNKNOWN-ECOLOGYREV-Vv",
+    "SCI-REPO-Y7-UNKNOWN-ECOLOGYREV-Vw",
+    "SCI-REPO-Y7-UNKNOWN-ECOLOGYREV-ocean",
+    "SCI-REPO-Y7-UNKNOWN-ECOLOGYREV-factors",
+    "SCI-REPO-Y7-UNKNOWN-ECOLOGYREV-arrows",
+    "SCI-REPO-Y7-UNKNOWN-ECOLOGYREV-chain",
+    "SCI-REPO-Y7-UNKNOWN-ECOLOGYREV-plantfood",
+    "SCI-REPO-Y7-UNKNOWN-ECOLOGYREV-levels",
+    "SCI-REPO-Y7-UNKNOWN-ECOLOGYREV-biocontrol",
+    "SCI-REPO-Y7-UNKNOWN-ECOLOGYREV-competition",
+    "SCI-REPO-Y7-UNKNOWN-ECOLOGYREV-topconsumer",
+    "SCI-REPO-Y7-UNKNOWN-ECOLOGYREV-habitat",
+    "SCI-REPO-Y7-UNKNOWN-ECOLOGYREV-birdflight",
+    "SCI-REPO-Y7-UNKNOWN-ECOLOGYREV-fishswim",
+    "SCI-REPO-Y7-UNKNOWN-ECOLOGYREV-animaladapt",
+    "SCI-REPO-Y7-UNKNOWN-ECOLOGYREV-plantadapt",
+    "SCI-REPO-Y7-UNKNOWN-ECOLOGYREV-webproducers",
+    "SCI-REPO-Y7-UNKNOWN-ECOLOGYREV-webowls",
+    "SCI-REPO-Y7-UNKNOWN-ECOLOGYREV-webrabbit",
+    "SCI-REPO-Y7-UNKNOWN-ECOLOGYREV-webfox",
+    "SCI-REPO-Y7-UNKNOWN-CLASSREV-1",
+    "SCI-REPO-Y7-UNKNOWN-CLASSREV-2",
+    "SCI-REPO-Y7-UNKNOWN-CLASSREV-3",
+    "SCI-REPO-Y7-UNKNOWN-CLASSREV-4",
+    "SCI-REPO-Y7-UNKNOWN-CLASSREV-5",
+    "SCI-REPO-Y7-UNKNOWN-CLASSREV-6",
+    "SCI-REPO-Y7-UNKNOWN-CLASSREV-7",
+    "SCI-REPO-Y7-UNKNOWN-CLASSREV-8",
+    "SCI-REPO-Y7-UNKNOWN-CLASSREV-9",
+    "SCI-REPO-Y7-UNKNOWN-CLASSREV-10",
+    "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-1",
+    "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-2",
+    "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-3",
+    "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-4",
+    "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-5",
+    "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-6",
+    "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-7",
+    "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-8",
+    "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-9",
+    "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-10",
+    "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-11",
+    "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-12",
+    "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-13",
+    "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-14",
+    "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-15",
+    "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-16",
+    "SCI-REPO-Y7-ARAN-WATERREV-1",
+    "SCI-REPO-Y7-ARAN-WATERREV-2",
+    "SCI-REPO-Y7-ARAN-WATERREV-3",
+    "SCI-REPO-Y7-ARAN-WATERREV-4",
+    "SCI-REPO-Y7-ARAN-WATERREV-parts",
+    "SCI-REPO-Y7-ARAN-WATERREV-concentration",
+    "SCI-REPO-Y7-ARAN-WATERREV-solubility",
+    "SCI-REPO-Y7-ARAN-WATERREV-filterfold",
+    "SCI-REPO-Y7-ARAN-WATERREV-separationtypes"
+  ],
+  "questions": 90,
+  "multipleChoice": 0,
+  "writtenQuestions": 90,
+  "battleEligible": 0,
+  "marks": 210,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y7-UNKNOWN-ECOLOGYREV-Vh",
+      "note": "Parasite (in this intended context). Living on/in another organism is not sufficient by itself to establish parasitism; a parasite benefits at the host’s expense."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNKNOWN-ECOLOGYREV-Vw",
+      "note": "Extinct (historical intended answer). The printed50-year-without-sighting rule is obsolete. Modern extinction assessment requires strong evidence that no individuals survive, informed by adequate surveys; absence of sightings for a fixed period alone is insufficient."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNKNOWN-CLASSREV-1",
+      "note": "Textbook-specific/historical grouping needs teacher moderation; exact referenced textbook pages were not supplied."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNKNOWN-CLASSREV-4",
+      "note": "Textbook-specific/historical grouping needs teacher moderation; exact referenced textbook pages were not supplied."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNKNOWN-CLASSREV-5",
+      "note": "Textbook-specific/historical grouping needs teacher moderation; exact referenced textbook pages were not supplied."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNKNOWN-CLASSREV-6",
+      "note": "Textbook-specific/historical grouping needs teacher moderation; exact referenced textbook pages were not supplied."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNKNOWN-CLASSREV-10",
+      "note": "Textbook-specific/historical grouping needs teacher moderation; exact referenced textbook pages were not supplied."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-14",
+      "note": "Water volume is specified; final solution volume is not. The common0.7g/mL answer needs that qualification."
+    }
+  ],
+  "imageAudit": [
+    {
+      "id": "e95-image1",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Unknown School/Revision for End of Topic Test.docx",
+      "embeddedImage": "word/media/image1.jpeg",
+      "sha256": "77f887c955e1c1c0bbe13b3c41b9148613176e99b6528bb28ff7e659d31c6676",
+      "publishedSha256": "270f2e98a170f6ade7b901f768ec58048c5506b541047be0b867122371bafb9b",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2017/Year 7 Biology revision 1.docx",
+      "sha": "c72ff7093b2bf176a063a5501a14cade1e52d1ad",
+      "year": 7,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Unknown School/Revision for End of Topic Test.docx",
+      "sha": "d10ce8857b3ffe559b31dfe7867f8ffc8f11d34d",
+      "year": 7,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Unknown School/Revision for Mid Topic Test.docx",
+      "sha": "63b3c3a3c943b68d3d3d3b8aa2c6adeb0ffc93bf",
+      "year": 7,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid Topic Test Revision sonya.docx",
+      "sha": "2a8017b6de34f24e491d5e565ade70b342f9509b",
+      "year": 7,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid Topic Test Revision.docx",
+      "sha": "326eb7c83872df5185a91ab9d141d04eb1bfff0b",
+      "year": 7,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Revise.docx",
+      "sha": "fc8767570746dcfc8ae7d582d56bb698fbc13b82",
+      "year": 7,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 90,
+  "createdSupplements": 0,
+  "notes": [
+    "All explicit prompts from six revision handouts retained. Source103 repeats the same16 chemistry prompts twice: both copies mapped. Inline answers in biology revision removed from student prompts. The water revision sheet’s blank response headings are retained as short-response tasks; references to unseen textbook exercises are not invented questions. Proposed rubrics clearly labelled. Historical extinction rule corrected against IUCN; textbook-dependent classification lists flagged for moderation."
+  ],
+  "markAudit": {
+    "Revision": {
+      "originalMarks": null,
+      "allMarksProposed": true,
+      "chemistryRepeatedPromptsMapped": 32
+    }
+  },
+  "duplicateQuestionAliases": [
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid Topic Test Revision.docx",
+      "sourceFileSha": "326eb7c83872df5185a91ab9d141d04eb1bfff0b",
+      "sourceQuestionNumber": "1",
+      "sourceParagraphs": [
+        2
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-1",
+      "reason": "Identical chemistry revision prompt, including numerical values, already retained from the companion handout. Source repeats the entire question list twice."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid Topic Test Revision.docx",
+      "sourceFileSha": "326eb7c83872df5185a91ab9d141d04eb1bfff0b",
+      "sourceQuestionNumber": "1-copy2",
+      "sourceParagraphs": [
+        26
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-1",
+      "reason": "Identical chemistry revision prompt, including numerical values, already retained from the companion handout. Source repeats the entire question list twice."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid Topic Test Revision.docx",
+      "sourceFileSha": "326eb7c83872df5185a91ab9d141d04eb1bfff0b",
+      "sourceQuestionNumber": "2",
+      "sourceParagraphs": [
+        3
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-2",
+      "reason": "Identical chemistry revision prompt, including numerical values, already retained from the companion handout. Source repeats the entire question list twice."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid Topic Test Revision.docx",
+      "sourceFileSha": "326eb7c83872df5185a91ab9d141d04eb1bfff0b",
+      "sourceQuestionNumber": "2-copy2",
+      "sourceParagraphs": [
+        27
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-2",
+      "reason": "Identical chemistry revision prompt, including numerical values, already retained from the companion handout. Source repeats the entire question list twice."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid Topic Test Revision.docx",
+      "sourceFileSha": "326eb7c83872df5185a91ab9d141d04eb1bfff0b",
+      "sourceQuestionNumber": "3",
+      "sourceParagraphs": [
+        4
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-3",
+      "reason": "Identical chemistry revision prompt, including numerical values, already retained from the companion handout. Source repeats the entire question list twice."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid Topic Test Revision.docx",
+      "sourceFileSha": "326eb7c83872df5185a91ab9d141d04eb1bfff0b",
+      "sourceQuestionNumber": "3-copy2",
+      "sourceParagraphs": [
+        28
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-3",
+      "reason": "Identical chemistry revision prompt, including numerical values, already retained from the companion handout. Source repeats the entire question list twice."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid Topic Test Revision.docx",
+      "sourceFileSha": "326eb7c83872df5185a91ab9d141d04eb1bfff0b",
+      "sourceQuestionNumber": "4",
+      "sourceParagraphs": [
+        5
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-4",
+      "reason": "Identical chemistry revision prompt, including numerical values, already retained from the companion handout. Source repeats the entire question list twice."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid Topic Test Revision.docx",
+      "sourceFileSha": "326eb7c83872df5185a91ab9d141d04eb1bfff0b",
+      "sourceQuestionNumber": "4-copy2",
+      "sourceParagraphs": [
+        29
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-4",
+      "reason": "Identical chemistry revision prompt, including numerical values, already retained from the companion handout. Source repeats the entire question list twice."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid Topic Test Revision.docx",
+      "sourceFileSha": "326eb7c83872df5185a91ab9d141d04eb1bfff0b",
+      "sourceQuestionNumber": "5",
+      "sourceParagraphs": [
+        6
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-5",
+      "reason": "Identical chemistry revision prompt, including numerical values, already retained from the companion handout. Source repeats the entire question list twice."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid Topic Test Revision.docx",
+      "sourceFileSha": "326eb7c83872df5185a91ab9d141d04eb1bfff0b",
+      "sourceQuestionNumber": "5-copy2",
+      "sourceParagraphs": [
+        30
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-5",
+      "reason": "Identical chemistry revision prompt, including numerical values, already retained from the companion handout. Source repeats the entire question list twice."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid Topic Test Revision.docx",
+      "sourceFileSha": "326eb7c83872df5185a91ab9d141d04eb1bfff0b",
+      "sourceQuestionNumber": "6",
+      "sourceParagraphs": [
+        7
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-6",
+      "reason": "Identical chemistry revision prompt, including numerical values, already retained from the companion handout. Source repeats the entire question list twice."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid Topic Test Revision.docx",
+      "sourceFileSha": "326eb7c83872df5185a91ab9d141d04eb1bfff0b",
+      "sourceQuestionNumber": "6-copy2",
+      "sourceParagraphs": [
+        31
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-6",
+      "reason": "Identical chemistry revision prompt, including numerical values, already retained from the companion handout. Source repeats the entire question list twice."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid Topic Test Revision.docx",
+      "sourceFileSha": "326eb7c83872df5185a91ab9d141d04eb1bfff0b",
+      "sourceQuestionNumber": "7",
+      "sourceParagraphs": [
+        8
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-7",
+      "reason": "Identical chemistry revision prompt, including numerical values, already retained from the companion handout. Source repeats the entire question list twice."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid Topic Test Revision.docx",
+      "sourceFileSha": "326eb7c83872df5185a91ab9d141d04eb1bfff0b",
+      "sourceQuestionNumber": "7-copy2",
+      "sourceParagraphs": [
+        32
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-7",
+      "reason": "Identical chemistry revision prompt, including numerical values, already retained from the companion handout. Source repeats the entire question list twice."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid Topic Test Revision.docx",
+      "sourceFileSha": "326eb7c83872df5185a91ab9d141d04eb1bfff0b",
+      "sourceQuestionNumber": "8",
+      "sourceParagraphs": [
+        9
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-8",
+      "reason": "Identical chemistry revision prompt, including numerical values, already retained from the companion handout. Source repeats the entire question list twice."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid Topic Test Revision.docx",
+      "sourceFileSha": "326eb7c83872df5185a91ab9d141d04eb1bfff0b",
+      "sourceQuestionNumber": "8-copy2",
+      "sourceParagraphs": [
+        33
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-8",
+      "reason": "Identical chemistry revision prompt, including numerical values, already retained from the companion handout. Source repeats the entire question list twice."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid Topic Test Revision.docx",
+      "sourceFileSha": "326eb7c83872df5185a91ab9d141d04eb1bfff0b",
+      "sourceQuestionNumber": "9",
+      "sourceParagraphs": [
+        10
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-9",
+      "reason": "Identical chemistry revision prompt, including numerical values, already retained from the companion handout. Source repeats the entire question list twice."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid Topic Test Revision.docx",
+      "sourceFileSha": "326eb7c83872df5185a91ab9d141d04eb1bfff0b",
+      "sourceQuestionNumber": "9-copy2",
+      "sourceParagraphs": [
+        34
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-9",
+      "reason": "Identical chemistry revision prompt, including numerical values, already retained from the companion handout. Source repeats the entire question list twice."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid Topic Test Revision.docx",
+      "sourceFileSha": "326eb7c83872df5185a91ab9d141d04eb1bfff0b",
+      "sourceQuestionNumber": "10",
+      "sourceParagraphs": [
+        11
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-10",
+      "reason": "Identical chemistry revision prompt, including numerical values, already retained from the companion handout. Source repeats the entire question list twice."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid Topic Test Revision.docx",
+      "sourceFileSha": "326eb7c83872df5185a91ab9d141d04eb1bfff0b",
+      "sourceQuestionNumber": "10-copy2",
+      "sourceParagraphs": [
+        35
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-10",
+      "reason": "Identical chemistry revision prompt, including numerical values, already retained from the companion handout. Source repeats the entire question list twice."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid Topic Test Revision.docx",
+      "sourceFileSha": "326eb7c83872df5185a91ab9d141d04eb1bfff0b",
+      "sourceQuestionNumber": "11",
+      "sourceParagraphs": [
+        12
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-11",
+      "reason": "Identical chemistry revision prompt, including numerical values, already retained from the companion handout. Source repeats the entire question list twice."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid Topic Test Revision.docx",
+      "sourceFileSha": "326eb7c83872df5185a91ab9d141d04eb1bfff0b",
+      "sourceQuestionNumber": "11-copy2",
+      "sourceParagraphs": [
+        36
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-11",
+      "reason": "Identical chemistry revision prompt, including numerical values, already retained from the companion handout. Source repeats the entire question list twice."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid Topic Test Revision.docx",
+      "sourceFileSha": "326eb7c83872df5185a91ab9d141d04eb1bfff0b",
+      "sourceQuestionNumber": "12",
+      "sourceParagraphs": [
+        13
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-12",
+      "reason": "Identical chemistry revision prompt, including numerical values, already retained from the companion handout. Source repeats the entire question list twice."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid Topic Test Revision.docx",
+      "sourceFileSha": "326eb7c83872df5185a91ab9d141d04eb1bfff0b",
+      "sourceQuestionNumber": "12-copy2",
+      "sourceParagraphs": [
+        37
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-12",
+      "reason": "Identical chemistry revision prompt, including numerical values, already retained from the companion handout. Source repeats the entire question list twice."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid Topic Test Revision.docx",
+      "sourceFileSha": "326eb7c83872df5185a91ab9d141d04eb1bfff0b",
+      "sourceQuestionNumber": "13",
+      "sourceParagraphs": [
+        14
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-13",
+      "reason": "Identical chemistry revision prompt, including numerical values, already retained from the companion handout. Source repeats the entire question list twice."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid Topic Test Revision.docx",
+      "sourceFileSha": "326eb7c83872df5185a91ab9d141d04eb1bfff0b",
+      "sourceQuestionNumber": "13-copy2",
+      "sourceParagraphs": [
+        38
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-13",
+      "reason": "Identical chemistry revision prompt, including numerical values, already retained from the companion handout. Source repeats the entire question list twice."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid Topic Test Revision.docx",
+      "sourceFileSha": "326eb7c83872df5185a91ab9d141d04eb1bfff0b",
+      "sourceQuestionNumber": "14",
+      "sourceParagraphs": [
+        15
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-14",
+      "reason": "Identical chemistry revision prompt, including numerical values, already retained from the companion handout. Source repeats the entire question list twice."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid Topic Test Revision.docx",
+      "sourceFileSha": "326eb7c83872df5185a91ab9d141d04eb1bfff0b",
+      "sourceQuestionNumber": "14-copy2",
+      "sourceParagraphs": [
+        39
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-14",
+      "reason": "Identical chemistry revision prompt, including numerical values, already retained from the companion handout. Source repeats the entire question list twice."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid Topic Test Revision.docx",
+      "sourceFileSha": "326eb7c83872df5185a91ab9d141d04eb1bfff0b",
+      "sourceQuestionNumber": "15",
+      "sourceParagraphs": [
+        16
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-15",
+      "reason": "Identical chemistry revision prompt, including numerical values, already retained from the companion handout. Source repeats the entire question list twice."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid Topic Test Revision.docx",
+      "sourceFileSha": "326eb7c83872df5185a91ab9d141d04eb1bfff0b",
+      "sourceQuestionNumber": "15-copy2",
+      "sourceParagraphs": [
+        40
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-15",
+      "reason": "Identical chemistry revision prompt, including numerical values, already retained from the companion handout. Source repeats the entire question list twice."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid Topic Test Revision.docx",
+      "sourceFileSha": "326eb7c83872df5185a91ab9d141d04eb1bfff0b",
+      "sourceQuestionNumber": "16",
+      "sourceParagraphs": [
+        17
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-16",
+      "reason": "Identical chemistry revision prompt, including numerical values, already retained from the companion handout. Source repeats the entire question list twice."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Mid Topic Test Revision.docx",
+      "sourceFileSha": "326eb7c83872df5185a91ab9d141d04eb1bfff0b",
+      "sourceQuestionNumber": "16-copy2",
+      "sourceParagraphs": [
+        41
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-16",
+      "reason": "Identical chemistry revision prompt, including numerical values, already retained from the companion handout. Source repeats the entire question list twice."
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "reviewBasis": "Each complete Word document read, including tables. These are supporting resources, not assessment papers; no paper/question count increase.",
+  "files": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2017/Microscope image template.docx",
+      "sha": "5f94587fb449c1608e252dfc760cd96f365569f9",
+      "status": "reviewed_supporting_resource",
+      "reason": "Blank microscope drawing template with title/name/date and magnification fields; no specified specimen, assessment prompt or scored task.",
+      "sourceBodyText": [
+        [
+          0,
+          "Title: ___________________________________  Name:________________ Date: __________"
+        ],
+        [
+          34,
+          "Magnification: _____"
+        ]
+      ]
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2017/Year 7 Science animal descriptions.docx",
+      "sha": "c8565dee20381e925f1e0d6aaee2fc70628dc3a5",
+      "status": "reviewed_supporting_resource",
+      "reason": "Descriptive animal-group notes; no questions or response tasks.",
+      "sourceBodyText": [
+        [
+          0,
+          "Year 7 Science – Biology 1"
+        ],
+        [
+          2,
+          "Vertebrates (Have a backbone)"
+        ],
+        [
+          4,
+          "Reptiles – Have dry scaly skin. Lay eggs on dry land. Are cold blooded. Eg: Snake, Crocodile."
+        ],
+        [
+          6,
+          "Fish – Have scales on their bodies. Have gills for breathing. Are cold blooded. Eg: Shark, Tuna."
+        ],
+        [
+          8,
+          "Amphibians – Have moist slimy skin. Lay eggs in water. Are cold blooded. Eg: Frog"
+        ],
+        [
+          10,
+          "Birds (Aves) – Have feathers and wings. Have beaks and lay eggs. Are warm blooded. Eg: Magpie and Crow."
+        ],
+        [
+          12,
+          "Mammals – Have fur or hair. Feed young on milk. Are warm blooded. Eg: Dogs and Horses."
+        ],
+        [
+          14,
+          "Invertebrates (Have no backbone)"
+        ],
+        [
+          16,
+          "Protozoa – single cell organisms and all microscopic."
+        ],
+        [
+          18,
+          "Flatworms – Simple and soft bodied. Eg: Tape worm"
+        ],
+        [
+          20,
+          "Annelids – Segmented bodies. Eg: Earthworm"
+        ],
+        [
+          22,
+          "Echinoderms – Spiny sea creatures. Eg: Starfish and Sea Urchin"
+        ],
+        [
+          24,
+          "Coelenterates – Soft bodies and stinging cells. Eg: Jellyfish"
+        ],
+        [
+          26,
+          "Molluscs – Soft bodied and most have shells. Eg: Snails"
+        ],
+        [
+          28,
+          "Arthropods – Hard external skeleton (exoskeleton) and jointed limbs. Broken in to 4 subcategories"
+        ],
+        [
+          30,
+          "Arachnids – Eight legs, two body parts and no antennae. Eg: Spiders and Scorpions."
+        ],
+        [
+          32,
+          "Crustaceans – Mostly sea creatures. Many legs and two sets of antennae. Eg: Crabs and Lobsters."
+        ],
+        [
+          34,
+          "Insects – Wings, six legs, three body parts and one pair of antennae. Eg: Bee and Ladybird"
+        ],
+        [
+          36,
+          "Myriapods – Many legs and body segments. Eg: Centipede and Millipede"
+        ]
+      ]
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/2014/science work book mark 2014.docx",
+      "sha": "14ef0ac1a89aa486f9d5d93b506f7fcde68ed8df",
+      "status": "reviewed_supporting_resource",
+      "reason": "Workbook-completion/presentation marking slip only; no particular science question or source response task.",
+      "sourceBodyText": [
+        [
+          0,
+          "Name: _________________SCIENCE WORK BOOK Semester 1 2014 Your MarkCompleted all science concepts /5Science diagrams completed /2Neat presentation throughout /3Orderly –sequential presentation of science work /3Worksheets competed and  glued in /2Total                       /15 marks"
+        ],
+        [
+          3,
+          "Name: ___________________SCIENCE WORK BOOK Semester 1 2014MarkCompleted all science work /5Science diagrams completed /2Neat presentation throughout /3Orderly –sequential presentation of science work /3Worksheets competed and  glued in /2Total                          /15 marks"
+        ]
+      ]
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Chemistry Final Test Revision sonya.docx",
+      "sha": "dc3f78144fcf8e8e2fffedda82d025239f67409c",
+      "status": "reviewed_supporting_resource",
+      "reason": "Study-topic checklist and references to unseen textbook questions; no actual question wording supplied. Referenced exercises cannot be reconstructed from their numbers.",
+      "sourceBodyText": [
+        [
+          0,
+          "Revision for Year 7 Final Chemistry Test Name: _______________________"
+        ],
+        [
+          1,
+          "If you can answer these questions you should do well in your test."
+        ],
+        [
+          3,
+          "Three types of mixtures – solutions, suspensions and colloids (page 119-123)"
+        ],
+        [
+          4,
+          "Insoluble and soluble (page 119)"
+        ],
+        [
+          5,
+          "Solute and solvent (page 121)"
+        ],
+        [
+          6,
+          "Concentrated and dilute (page 121)"
+        ],
+        [
+          7,
+          "Suspensions (page 122)"
+        ],
+        [
+          8,
+          "Colloids – emulsion, foam, gel, sol (page 123)"
+        ],
+        [
+          9,
+          "Gravity separation (page 130)"
+        ],
+        [
+          10,
+          "Sieving (page 130)"
+        ],
+        [
+          11,
+          "Filtration (page 130)"
+        ],
+        [
+          12,
+          "Folding filter paper – conical fold, flutted fold (page 131)"
+        ],
+        [
+          13,
+          "Magnetic separation (page 132)"
+        ],
+        [
+          14,
+          "Centrifuging (page 133)"
+        ],
+        [
+          15,
+          "Electrostatic separation (page 133)"
+        ],
+        [
+          16,
+          "Chromatography (page 140)"
+        ],
+        [
+          17,
+          "Evaporation (page 141)"
+        ],
+        [
+          18,
+          "Distillation (page 142)"
+        ],
+        [
+          19,
+          "Adsorption (page 142)"
+        ],
+        [
+          20,
+          "Technique used to produce pure water for drinking – etc, desalination, waste water recycling (use assignment to help you)"
+        ],
+        [
+          22,
+          "Other Study Ideas"
+        ],
+        [
+          23,
+          "Read chapters 4.1, 4.2 and 4.3 of your text book"
+        ],
+        [
+          24,
+          "Make sure you have answered 4.1 unit review questions 1-17 (page 124)"
+        ],
+        [
+          25,
+          "Make sure you have answered 4.2 unit review questions 1-11 (page 135)"
+        ],
+        [
+          26,
+          "Make sure you have answered 4.3 unit review questions 1-7 (page 143)"
+        ],
+        [
+          27,
+          "Complete 4 chapter review questions 1, 2, 4, 5, 6, 9 (page 157)"
+        ],
+        [
+          28,
+          "Complete thinking scientifically questions 1, 2 (page 158)"
+        ],
+        [
+          29,
+          "Read over glossary words"
+        ],
+        [
+          30,
+          "Read over water assignment"
+        ],
+        [
+          31,
+          "Read over notes taken in class"
+        ]
+      ]
+    }
+  ]
+}
