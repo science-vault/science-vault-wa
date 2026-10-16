@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.16-science-source77",
+  "version": "2026.10.16-science-source82",
   "status": "in_progress",
   "scope": "Original Science assessment files in repository, Years 7–10. File counts include keys and supporting materials; they are not question counts.",
   "inventoryFiles": 2009,
@@ -11,10 +11,10 @@
     "9": 457,
     "10": 582
   },
-  "importedPapers": 203,
-  "importedQuestions": 2862,
+  "importedPapers": 215,
+  "importedQuestions": 2988,
   "multipleChoice": 793,
-  "writtenQuestions": 2069,
+  "writtenQuestions": 2195,
   "battleEligibleQuestions": 690,
   "reviewRequired": [
     {
@@ -1448,6 +1448,102 @@
     {
       "id": "SCI-REPO-Y7-NARR-2018-CHEM1-MC05",
       "note": "IntendedD:evaporation/crystallisation. The wording “one substance more soluble than another” most directly describes selective dissolving/fractional crystallisation,not every evaporation separation;teacher clarification needed."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2013-EARLOBE-independent",
+      "note": "No variable is experimentally manipulated in this observational survey. If a predictor/category is required,state earlobe classification or the actual grouping variable and explain its observational role."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-BRAINVOLUME-dependent",
+      "note": "Estimated cranial capacity measured by displaced/fill rice volume in mL or cm³,not cm²."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-BRAINVOLUME-results",
+      "note": "Accurate actual specimen volumes with unitscm³or mL. Source printedcm²is a dimensional error."
+    },
+    {
+      "id": "SCI-REPO-Y10-NARR-2019-DNARESEARCH-research",
+      "note": "Individual questions are chosen by student,not provided in source."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-GMFOOD-reading1",
+      "note": "Historicalsourcearguments include outdated/inaccurate claims;assess critical comprehension rather than repeating them as facts."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-GMFOOD-reading2",
+      "note": "Historicalsourcearguments include outdated/inaccurate claims;assess critical comprehension rather than repeating them as facts."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-GMFOOD-reading3",
+      "note": "Historicalsourcearguments include outdated/inaccurate claims;assess critical comprehension rather than repeating them as facts."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-GMFOOD-reading4",
+      "note": "Historicalsourcearguments include outdated/inaccurate claims;assess critical comprehension rather than repeating them as facts."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-GMFOOD-reading5",
+      "note": "Historicalsourcearguments include outdated/inaccurate claims;assess critical comprehension rather than repeating them as facts."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-GMFOOD-research3",
+      "note": "GMcotton and GMcanola,one each;other verified actual grown crops can be accepted with dated official evidence. Cultivation approval alone is not evidence of widespread growing."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-GMFOOD-Bt-table",
+      "note": "Examples:Bt-cotton inUSAandIndia;Bt-maize inUSAandBrazil. Proposed1percorrectcrop-country pair,4total. Verify date and specific insect-resistant trait;generic crop production or anyGEtrait is insufficient evidence."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-GMFOOD-HT-table",
+      "note": "Example rows:HTcanola inAustraliaandCanada;HTsoybeans inUSAandBrazil. Proposed1percorrectcrop-country pair,4total;require dated cultivation evidence,not merely import approval."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-GMFOOD-chosen2",
+      "note": "A supported dated milestone clearly defined as research,first approval or firstcommercial cultivation;these are different dates."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-GMFOOD-chosen5",
+      "note": "Three correct country/GMtrait cultivation examples1each,with dated evidence;trials/imports distinguished from commercial production."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-GMFOOD-organisations",
+      "note": "DatedorganisationURLs partly inaccessible;14-mark suballocation proposed and categorical answers require supplied evidence."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-DNAMICRO-V5",
+      "note": "Original14vocabulary items share7marks (0.5each). Source simplifications clarified."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-DNAMICRO-V6",
+      "note": "Original14vocabulary items share7marks (0.5each). Source simplifications clarified."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-DNAMICRO-V10",
+      "note": "Original14vocabulary items share7marks (0.5each). Source simplifications clarified."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-DNAMICRO-V11",
+      "note": "Original14vocabulary items share7marks (0.5each). Source simplifications clarified."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-DNAMICRO-V14",
+      "note": "Original14vocabulary items share7marks (0.5each). Source simplifications clarified."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-DNAMICRO-M-drawing",
+      "note": "Performance task requires actual specimen/teacher observation;source5marks lists6deduction criteria."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-DNAMICRO-M-high",
+      "note": "Numerical magnifications only appear in supplied key,not pupil prompt."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-DNAMICRO-M-size",
+      "note": "Requires actual viewed cells and field measurement."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-DNAMICRO-M-50x",
+      "note": "Key provides magnification assumptions missing from student stem."
     },
     {
       "id": "SCI-REPO-Y10-NAR-2024-UNIVERSE-MC02",
@@ -15066,6 +15162,707 @@
           "reason": "Equivalent source question already present; not added or counted again."
         }
       ]
+    },
+    {
+      "id": "repo-science-batch78",
+      "questionIds": [
+        "SCI-REPO-Y10-ARAN-2013-MONOHYBRID-1",
+        "SCI-REPO-Y10-ARAN-2013-MONOHYBRID-2",
+        "SCI-REPO-Y10-ARAN-2013-MONOHYBRID-3",
+        "SCI-REPO-Y10-ARAN-2013-MONOHYBRID-4",
+        "SCI-REPO-Y10-ARAN-2013-MONOHYBRID-5",
+        "SCI-REPO-Y10-ARAN-2013-MONOHYBRID-6",
+        "SCI-REPO-Y10-SBY-2017-GENETICS-heterozygosity",
+        "SCI-REPO-Y10-SBY-2017-GENETICS-purple-phenotypes",
+        "SCI-REPO-Y10-SBY-2017-GENETICS-brown-eyes",
+        "SCI-REPO-Y10-SBY-2017-GENETICS-round-seeds",
+        "SCI-REPO-Y10-SBY-2017-GENETICS-bobtail",
+        "SCI-REPO-Y10-SBY-2017-GENETICS-straight-genotypes",
+        "SCI-REPO-Y10-SBY-2017-GENETICS-pointed-genotypes",
+        "SCI-REPO-Y10-SBY-2017-GENETICS-cross-TTtt",
+        "SCI-REPO-Y10-SBY-2017-GENETICS-tall-percent",
+        "SCI-REPO-Y10-SBY-2017-GENETICS-short-percent",
+        "SCI-REPO-Y10-SBY-2017-GENETICS-cross-RrRR",
+        "SCI-REPO-Y10-SBY-2017-GENETICS-RR-percent",
+        "SCI-REPO-Y10-SBY-2017-GENETICS-cross-RRrr",
+        "SCI-REPO-Y10-SBY-2017-GENETICS-RRrr-parents",
+        "SCI-REPO-Y10-SBY-2017-GENETICS-RRrr-homozygous",
+        "SCI-REPO-Y10-SBY-2017-GENETICS-cross-white",
+        "SCI-REPO-Y10-SBY-2017-GENETICS-white-percent",
+        "SCI-REPO-Y10-SBY-2017-GENETICS-cross-purple",
+        "SCI-REPO-Y10-SBY-2017-GENETICS-purple-percent",
+        "SCI-REPO-Y10-SBY-2017-GENETICS-purple-white-percent",
+        "SCI-REPO-Y10-SBY-2017-GENETICS-guinea-genotypes",
+        "SCI-REPO-Y10-SBY-2017-GENETICS-cross-guinea-homo",
+        "SCI-REPO-Y10-SBY-2017-GENETICS-guinea-homo-percent",
+        "SCI-REPO-Y10-SBY-2017-GENETICS-cross-guinea-hetero",
+        "SCI-REPO-Y10-SBY-2017-GENETICS-guinea-long-percent",
+        "SCI-REPO-Y10-SBY-2017-GENETICS-cross-infer-parents"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/2013 10 INHERITANCE ACTIVITY.docx",
+          "sha": "d6baee19bfeaad978b8fa58ad8b36022490e8b9e",
+          "year": 10,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2017/1. Genetics Assignment.docx",
+          "sha": "8b7069ac0de2ccb21376073cbc27dde5ec7526d4",
+          "year": 10,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/1. Genetics  Revision.docx",
+          "sha": "2c9d841cfd5e62e075001ab79df61f1e78d7c2f1",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 32,
+      "marks": 90,
+      "imageAudit": "question-source-packs/repo-science-batch78-audit.json",
+      "notes": [
+        "Complete6cross unmarked activity and both genetics assignment/revision papers reviewed.2017section24+18+28=70;2020printed groups total43,including6heterozygosity entries sharing3marks. Equivalent prompts mapped with original sourceMarks retained in aliases,so differing revision mark allocations remain auditable. Hypothetical human trait simplifications explicitly identified."
+      ],
+      "markAudit": {
+        "activity": "Unmarked;proposed4percross",
+        "assignment2017": 70,
+        "revision2020": 43,
+        "revisionHeterozygosityPerItem": 0.5
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2017/1. Genetics Assignment.docx",
+          "sourceFileSha": "8b7069ac0de2ccb21376073cbc27dde5ec7526d4",
+          "sourceQuestionNumber": "cross-TtTt",
+          "sourceParagraphs": [
+            81
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Calculations",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-GENETICS-cross-TTtt",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2017/1. Genetics Assignment.docx",
+          "sourceFileSha": "8b7069ac0de2ccb21376073cbc27dde5ec7526d4",
+          "sourceQuestionNumber": "guinea-short-percent",
+          "sourceParagraphs": [
+            148
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-GENETICS-guinea-homo-percent",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/1. Genetics  Revision.docx",
+          "sourceFileSha": "2c9d841cfd5e62e075001ab79df61f1e78d7c2f1",
+          "sourceQuestionNumber": "heterozygosity",
+          "sourceParagraphs": [
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-GENETICS-heterozygosity",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/1. Genetics  Revision.docx",
+          "sourceFileSha": "2c9d841cfd5e62e075001ab79df61f1e78d7c2f1",
+          "sourceQuestionNumber": "purple-phenotypes",
+          "sourceParagraphs": [
+            41,
+            42,
+            43,
+            44,
+            45
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-GENETICS-purple-phenotypes",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/1. Genetics  Revision.docx",
+          "sourceFileSha": "2c9d841cfd5e62e075001ab79df61f1e78d7c2f1",
+          "sourceQuestionNumber": "straight-genotypes",
+          "sourceParagraphs": [
+            47,
+            48,
+            50,
+            51,
+            52,
+            53
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-GENETICS-straight-genotypes",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/1. Genetics  Revision.docx",
+          "sourceFileSha": "2c9d841cfd5e62e075001ab79df61f1e78d7c2f1",
+          "sourceQuestionNumber": "cross-TTtt",
+          "sourceParagraphs": [
+            54,
+            55
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Calculations",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-GENETICS-cross-TTtt",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/1. Genetics  Revision.docx",
+          "sourceFileSha": "2c9d841cfd5e62e075001ab79df61f1e78d7c2f1",
+          "sourceQuestionNumber": "tall-percent",
+          "sourceParagraphs": [
+            61
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-GENETICS-tall-percent",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/1. Genetics  Revision.docx",
+          "sourceFileSha": "2c9d841cfd5e62e075001ab79df61f1e78d7c2f1",
+          "sourceQuestionNumber": "cross-TtTt",
+          "sourceParagraphs": [
+            63
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Calculations",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-GENETICS-cross-TTtt",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/1. Genetics  Revision.docx",
+          "sourceFileSha": "2c9d841cfd5e62e075001ab79df61f1e78d7c2f1",
+          "sourceQuestionNumber": "short-percent",
+          "sourceParagraphs": [
+            68
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-GENETICS-short-percent",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/1. Genetics  Revision.docx",
+          "sourceFileSha": "2c9d841cfd5e62e075001ab79df61f1e78d7c2f1",
+          "sourceQuestionNumber": "cross-white",
+          "sourceParagraphs": [
+            70,
+            71
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Calculations",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-GENETICS-cross-white",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/1. Genetics  Revision.docx",
+          "sourceFileSha": "2c9d841cfd5e62e075001ab79df61f1e78d7c2f1",
+          "sourceQuestionNumber": "white-percent",
+          "sourceParagraphs": [
+            78
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-GENETICS-white-percent",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/1. Genetics  Revision.docx",
+          "sourceFileSha": "2c9d841cfd5e62e075001ab79df61f1e78d7c2f1",
+          "sourceQuestionNumber": "cross-purple",
+          "sourceParagraphs": [
+            70,
+            80
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Calculations",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-GENETICS-cross-purple",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/1. Genetics  Revision.docx",
+          "sourceFileSha": "2c9d841cfd5e62e075001ab79df61f1e78d7c2f1",
+          "sourceQuestionNumber": "purple-percent",
+          "sourceParagraphs": [
+            86
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-GENETICS-purple-percent",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/1. Genetics  Revision.docx",
+          "sourceFileSha": "2c9d841cfd5e62e075001ab79df61f1e78d7c2f1",
+          "sourceQuestionNumber": "purple-white-percent",
+          "sourceParagraphs": [
+            88
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-GENETICS-purple-white-percent",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/1. Genetics  Revision.docx",
+          "sourceFileSha": "2c9d841cfd5e62e075001ab79df61f1e78d7c2f1",
+          "sourceQuestionNumber": "guinea-genotypes",
+          "sourceParagraphs": [
+            90,
+            91,
+            92,
+            93,
+            94
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-GENETICS-guinea-genotypes",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/1. Genetics  Revision.docx",
+          "sourceFileSha": "2c9d841cfd5e62e075001ab79df61f1e78d7c2f1",
+          "sourceQuestionNumber": "cross-guinea-homo",
+          "sourceParagraphs": [
+            90,
+            98
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Calculations",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-GENETICS-cross-guinea-homo",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/1. Genetics  Revision.docx",
+          "sourceFileSha": "2c9d841cfd5e62e075001ab79df61f1e78d7c2f1",
+          "sourceQuestionNumber": "guinea-homo-percent",
+          "sourceParagraphs": [
+            104
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-GENETICS-guinea-homo-percent",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/1. Genetics  Revision.docx",
+          "sourceFileSha": "2c9d841cfd5e62e075001ab79df61f1e78d7c2f1",
+          "sourceQuestionNumber": "cross-guinea-hetero",
+          "sourceParagraphs": [
+            90,
+            105
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Calculations",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-GENETICS-cross-guinea-hetero",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/1. Genetics  Revision.docx",
+          "sourceFileSha": "2c9d841cfd5e62e075001ab79df61f1e78d7c2f1",
+          "sourceQuestionNumber": "guinea-short-percent",
+          "sourceParagraphs": [
+            111
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-GENETICS-guinea-homo-percent",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/1. Genetics  Revision.docx",
+          "sourceFileSha": "2c9d841cfd5e62e075001ab79df61f1e78d7c2f1",
+          "sourceQuestionNumber": "guinea-long-percent",
+          "sourceParagraphs": [
+            113
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-GENETICS-guinea-long-percent",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/1. Genetics  Revision.docx",
+          "sourceFileSha": "2c9d841cfd5e62e075001ab79df61f1e78d7c2f1",
+          "sourceQuestionNumber": "cross-infer-parents",
+          "sourceParagraphs": [
+            114,
+            121
+          ],
+          "sourceMarks": 5,
+          "sourceType": "Calculations",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-GENETICS-cross-infer-parents",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch79",
+      "questionIds": [
+        "SCI-REPO-Y10-ARAN-2013-ADAPTATION-habitat",
+        "SCI-REPO-Y10-ARAN-2013-ADAPTATION-description",
+        "SCI-REPO-Y10-ARAN-2013-ADAPTATION-adaptations",
+        "SCI-REPO-Y10-ARAN-2013-ADAPTATION-references",
+        "SCI-REPO-Y10-ARAN-2013-EARLOBE-independent",
+        "SCI-REPO-Y10-ARAN-2013-EARLOBE-dependent",
+        "SCI-REPO-Y10-ARAN-2013-EARLOBE-controls",
+        "SCI-REPO-Y10-ARAN-2013-EARLOBE-hypothesis",
+        "SCI-REPO-Y10-ARAN-2013-EARLOBE-procedure",
+        "SCI-REPO-Y10-ARAN-2013-EARLOBE-table",
+        "SCI-REPO-Y10-ARAN-2013-EARLOBE-graph-reason",
+        "SCI-REPO-Y10-ARAN-2013-EARLOBE-graph",
+        "SCI-REPO-Y10-ARAN-2013-EARLOBE-conclusion",
+        "SCI-REPO-Y10-ARAN-2013-EARLOBE-discussion",
+        "SCI-REPO-Y10-ARAN-2013-EARLOBE-improve",
+        "SCI-REPO-Y10-ARAN-BRAINVOLUME-hypothesis",
+        "SCI-REPO-Y10-ARAN-BRAINVOLUME-independent",
+        "SCI-REPO-Y10-ARAN-BRAINVOLUME-dependent",
+        "SCI-REPO-Y10-ARAN-BRAINVOLUME-controls",
+        "SCI-REPO-Y10-ARAN-BRAINVOLUME-procedure",
+        "SCI-REPO-Y10-ARAN-BRAINVOLUME-results",
+        "SCI-REPO-Y10-ARAN-BRAINVOLUME-graph",
+        "SCI-REPO-Y10-ARAN-BRAINVOLUME-conclusion",
+        "SCI-REPO-Y10-ARAN-BRAINVOLUME-discussion",
+        "SCI-REPO-Y10-NARR-2019-DNARESEARCH-research",
+        "SCI-REPO-Y10-NARR-2019-DNARESEARCH-notes",
+        "SCI-REPO-Y10-NARR-2019-DNARESEARCH-bibliography",
+        "SCI-REPO-Y10-NARR-2019-DNARESEARCH-glossary",
+        "SCI-REPO-Y10-NARR-2019-DNARESEARCH-product",
+        "SCI-REPO-Y10-NARR-2019-DNARESEARCH-diagrams"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/10 Biology assessments extention/2013 10 Extension Adaptation Assignment.docx",
+          "sha": "3598b2eaddbe4beb423850d5daea82f9e6bf7696",
+          "year": 10,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/2013 10 BIOLOGY EAR LOBE INVESTIGATION.docx",
+          "sha": "c5f00f21cebd80fffba92f0dfe0dd8da234bd04b",
+          "year": 10,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/Who Has the Biggest Brain practical ESL.docx",
+          "sha": "6a43e5df01c66655693ad42e458a8f9764fd730b",
+          "year": 10,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Narrogin/2019/Topic 2 Biology 1/Task 2 DNA Research 2018.docx",
+          "sha": "cfccac69f79fb3250387490688653ba2b6c15cda",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 30,
+      "marks": 79,
+      "imageAudit": "question-source-packs/repo-science-batch79-audit.json",
+      "notes": [
+        "Complete adaptation15,earlobe25 and cranial-capacity20assignments retained. Earlobes observational/polygenic caveat and brain-volume proxy/unit error addressed. DNAresearch25rubric preserves19content/task marks plus6layout/editing marks in audit;no student-selected factual questions invented."
+      ],
+      "markAudit": {
+        "adaptation": 15,
+        "earlobes": 25,
+        "brainCapacity": 20,
+        "DNAresearch": {
+          "total": 25,
+          "taskMarks": 19,
+          "layoutEditingOnly": 6
+        }
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch80",
+      "questionIds": [
+        "SCI-REPO-Y10-ARAN-2014-GENTECH-definition",
+        "SCI-REPO-Y10-ARAN-2014-GENTECH-benefits",
+        "SCI-REPO-Y10-ARAN-2014-GENTECH-techniques",
+        "SCI-REPO-Y10-ARAN-2014-GENTECH-concerns",
+        "SCI-REPO-Y10-ARAN-2014-GENTECH-judgement",
+        "SCI-REPO-Y10-ARAN-2014-GENTECH-references",
+        "SCI-REPO-Y10-ARAN-2014-GENTECH-diagrams",
+        "SCI-REPO-Y10-ARAN-2013-TRANSGENIC-organism",
+        "SCI-REPO-Y10-ARAN-2013-TRANSGENIC-change",
+        "SCI-REPO-Y10-ARAN-2013-TRANSGENIC-reasons",
+        "SCI-REPO-Y10-ARAN-2013-TRANSGENIC-objections",
+        "SCI-REPO-Y10-ARAN-2013-TRANSGENIC-references"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/10 Biology assessments extention/2014 Genetic Technology Assignment.docx",
+          "sha": "7af7b028eec53f3c5cf780a3b9421a09a2c820e3",
+          "year": 10,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/2013 10 GENETIC TECHNOLOGY ASSIGNMENT.docx",
+          "sha": "ccd39e199edbf108910a47b5482f5ad4a86bf3df",
+          "year": 10,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/2013 10 GMO ASSIGNMENT GEORGE VERSION.docx",
+          "sha": "125276e9627d90298d438f4cc839aac7818c39f2",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 12,
+      "marks": 41,
+      "imageAudit": "question-source-packs/repo-science-batch80-audit.json",
+      "notes": [
+        "Both genetic-technology report variants reviewed;30/26covers differ by4justification marks. Task content28/24 pluspresentation2. Equivalent prompts mapped with original sourceMarks in aliases. Fulltransgenic rubric13conflicts with12cover;worked exampleURLs/claims not treated as verified facts."
+      ],
+      "markAudit": {
+        "genTech2014": {
+          "total": 30,
+          "taskMarks": 28,
+          "presentation": 2
+        },
+        "genTech2013": {
+          "total": 26,
+          "taskMarks": 24,
+          "presentation": 2
+        },
+        "transgenic": {
+          "cover": 12,
+          "rubric": 13
+        }
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/2013 10 GENETIC TECHNOLOGY ASSIGNMENT.docx",
+          "sourceFileSha": "ccd39e199edbf108910a47b5482f5ad4a86bf3df",
+          "sourceQuestionNumber": "definition",
+          "sourceParagraphs": [
+            4,
+            5,
+            7,
+            8
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2014-GENTECH-definition",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/2013 10 GENETIC TECHNOLOGY ASSIGNMENT.docx",
+          "sourceFileSha": "ccd39e199edbf108910a47b5482f5ad4a86bf3df",
+          "sourceQuestionNumber": "benefits",
+          "sourceParagraphs": [
+            4,
+            5,
+            7,
+            8
+          ],
+          "sourceMarks": 6,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2014-GENTECH-benefits",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/2013 10 GENETIC TECHNOLOGY ASSIGNMENT.docx",
+          "sourceFileSha": "ccd39e199edbf108910a47b5482f5ad4a86bf3df",
+          "sourceQuestionNumber": "techniques",
+          "sourceParagraphs": [
+            4,
+            5,
+            7,
+            8
+          ],
+          "sourceMarks": 6,
+          "sourceType": "Extended response",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2014-GENTECH-techniques",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/2013 10 GENETIC TECHNOLOGY ASSIGNMENT.docx",
+          "sourceFileSha": "ccd39e199edbf108910a47b5482f5ad4a86bf3df",
+          "sourceQuestionNumber": "concerns",
+          "sourceParagraphs": [
+            4,
+            5,
+            7,
+            8
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2014-GENTECH-concerns",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/2013 10 GENETIC TECHNOLOGY ASSIGNMENT.docx",
+          "sourceFileSha": "ccd39e199edbf108910a47b5482f5ad4a86bf3df",
+          "sourceQuestionNumber": "judgement",
+          "sourceParagraphs": [
+            4,
+            5,
+            7,
+            8
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Extended response",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2014-GENTECH-judgement",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/2013 10 GENETIC TECHNOLOGY ASSIGNMENT.docx",
+          "sourceFileSha": "ccd39e199edbf108910a47b5482f5ad4a86bf3df",
+          "sourceQuestionNumber": "references",
+          "sourceParagraphs": [
+            4,
+            5,
+            7,
+            8
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2014-GENTECH-references",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/2013 10 GENETIC TECHNOLOGY ASSIGNMENT.docx",
+          "sourceFileSha": "ccd39e199edbf108910a47b5482f5ad4a86bf3df",
+          "sourceQuestionNumber": "diagrams",
+          "sourceParagraphs": [
+            4,
+            5,
+            7,
+            8
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2014-GENTECH-diagrams",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch81",
+      "questionIds": [
+        "SCI-REPO-Y10-ARAN-2014-GMFOOD-reading1",
+        "SCI-REPO-Y10-ARAN-2014-GMFOOD-reading2",
+        "SCI-REPO-Y10-ARAN-2014-GMFOOD-reading3",
+        "SCI-REPO-Y10-ARAN-2014-GMFOOD-reading4",
+        "SCI-REPO-Y10-ARAN-2014-GMFOOD-reading5",
+        "SCI-REPO-Y10-ARAN-2014-GMFOOD-research1",
+        "SCI-REPO-Y10-ARAN-2014-GMFOOD-research2",
+        "SCI-REPO-Y10-ARAN-2014-GMFOOD-research3",
+        "SCI-REPO-Y10-ARAN-2014-GMFOOD-Bt-table",
+        "SCI-REPO-Y10-ARAN-2014-GMFOOD-HT-table",
+        "SCI-REPO-Y10-ARAN-2014-GMFOOD-bacterium",
+        "SCI-REPO-Y10-ARAN-2014-GMFOOD-pest",
+        "SCI-REPO-Y10-ARAN-2014-GMFOOD-chosen1",
+        "SCI-REPO-Y10-ARAN-2014-GMFOOD-chosen2",
+        "SCI-REPO-Y10-ARAN-2014-GMFOOD-chosen3",
+        "SCI-REPO-Y10-ARAN-2014-GMFOOD-chosen4",
+        "SCI-REPO-Y10-ARAN-2014-GMFOOD-chosen5",
+        "SCI-REPO-Y10-ARAN-2014-GMFOOD-organisations",
+        "SCI-REPO-Y10-ARAN-2014-GMFOOD-references"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/2014 10 SCIENCE GENETICALLY MODIFIED CROPS ASSIGNMENT.docx",
+          "sha": "e5a1539e03a1c6d73edeae9d4c8180c67cce6bec",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 19,
+      "marks": 50,
+      "imageAudit": "question-source-packs/repo-science-batch81-audit.json",
+      "notes": [
+        "All50marks retained:9comprehension,16generalresearch,25chosen-crop/organisation/references. Historicalpassage preserved with explicit corrections;currentofficial crop/trait sources attached. Six-organisation14-mark task has partly inaccessible2014URLs and is manually reviewed without guessed stances."
+      ],
+      "markAudit": {
+        "comprehension": 9,
+        "generalResearch": 16,
+        "chosenCropAndOrganisationsAndReferences": 25,
+        "total": 50
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch82",
+      "questionIds": [
+        "SCI-REPO-Y10-ARAN-2014-DNAMICRO-1a",
+        "SCI-REPO-Y10-ARAN-2014-DNAMICRO-1b",
+        "SCI-REPO-Y10-ARAN-2014-DNAMICRO-1c",
+        "SCI-REPO-Y10-ARAN-2014-DNAMICRO-2a",
+        "SCI-REPO-Y10-ARAN-2014-DNAMICRO-2b",
+        "SCI-REPO-Y10-ARAN-2014-DNAMICRO-3",
+        "SCI-REPO-Y10-ARAN-2014-DNAMICRO-4a",
+        "SCI-REPO-Y10-ARAN-2014-DNAMICRO-4b",
+        "SCI-REPO-Y10-ARAN-2014-DNAMICRO-4c",
+        "SCI-REPO-Y10-ARAN-2014-DNAMICRO-4d",
+        "SCI-REPO-Y10-ARAN-2014-DNAMICRO-5a",
+        "SCI-REPO-Y10-ARAN-2014-DNAMICRO-6",
+        "SCI-REPO-Y10-ARAN-2014-DNAMICRO-7",
+        "SCI-REPO-Y10-ARAN-2014-DNAMICRO-V1",
+        "SCI-REPO-Y10-ARAN-2014-DNAMICRO-V2",
+        "SCI-REPO-Y10-ARAN-2014-DNAMICRO-V3",
+        "SCI-REPO-Y10-ARAN-2014-DNAMICRO-V4",
+        "SCI-REPO-Y10-ARAN-2014-DNAMICRO-V5",
+        "SCI-REPO-Y10-ARAN-2014-DNAMICRO-V6",
+        "SCI-REPO-Y10-ARAN-2014-DNAMICRO-V7",
+        "SCI-REPO-Y10-ARAN-2014-DNAMICRO-V8",
+        "SCI-REPO-Y10-ARAN-2014-DNAMICRO-V9",
+        "SCI-REPO-Y10-ARAN-2014-DNAMICRO-V10",
+        "SCI-REPO-Y10-ARAN-2014-DNAMICRO-V11",
+        "SCI-REPO-Y10-ARAN-2014-DNAMICRO-V12",
+        "SCI-REPO-Y10-ARAN-2014-DNAMICRO-V13",
+        "SCI-REPO-Y10-ARAN-2014-DNAMICRO-V14",
+        "SCI-REPO-Y10-ARAN-2014-DNAMICRO-M-drawing",
+        "SCI-REPO-Y10-ARAN-2014-DNAMICRO-M-stages",
+        "SCI-REPO-Y10-ARAN-2014-DNAMICRO-M-evidence",
+        "SCI-REPO-Y10-ARAN-2014-DNAMICRO-M-high",
+        "SCI-REPO-Y10-ARAN-2014-DNAMICRO-M-size",
+        "SCI-REPO-Y10-ARAN-2014-DNAMICRO-M-50x"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/10 Biology assessments extention/2014 DNA and Microscope Prac Test.docx",
+          "sha": "1c496f3b549eb093849b94eef7ad0f49b36b248b",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 33,
+      "marks": 54.0,
+      "imageAudit": "question-source-packs/repo-science-batch82-audit.json",
+      "notes": [
+        "CompleteDNA/microscope test and embedded solution pages reviewed. OriginalDNA arrows/base blanks and cell-to-DNA figure preserved.14vocabularyitems0.5each;centromere/chromatid/sex-chromosome simplifications corrected. Explicit marks54conflict with53cover. Actual cells and key-only magnification assumptions flagged;no cell dimensions invented."
+      ],
+      "markAudit": {
+        "cover": 53,
+        "DNAandDivision": 26,
+        "vocabulary": 7,
+        "microscopy": 21,
+        "explicitTotal": 54,
+        "FOVhigh_um": 420,
+        "FOV50xObjective_um": 336,
+        "drawingMarks": 5,
+        "drawingDeductionCriteria": 6
+      },
+      "duplicateQuestionAliases": []
     }
   ],
   "files": [
@@ -26551,7 +27348,7 @@
       "sha": "3598b2eaddbe4beb423850d5daea82f9e6bf7696",
       "year": 10,
       "size": 15298,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -26567,8 +27364,9 @@
       "sha": "1c496f3b549eb093849b94eef7ad0f49b36b248b",
       "year": 10,
       "size": 83874,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_incomplete_referenced_material",
+      "duplicateOf": null,
+      "reviewReason": "Source assignment explicitly refers to missing textbook method/discussion wording; recorded prompts reviewed, referenced questions not invented."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/10 Biology assessments extention/2014 Ext Biology Topic Test.docx",
@@ -26583,7 +27381,7 @@
       "sha": "7af7b028eec53f3c5cf780a3b9421a09a2c820e3",
       "year": 10,
       "size": 16350,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -26632,7 +27430,7 @@
       "sha": "c5f00f21cebd80fffba92f0dfe0dd8da234bd04b",
       "year": 10,
       "size": 30230,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -26672,7 +27470,7 @@
       "sha": "ccd39e199edbf108910a47b5482f5ad4a86bf3df",
       "year": 10,
       "size": 16107,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -26680,7 +27478,7 @@
       "sha": "125276e9627d90298d438f4cc839aac7818c39f2",
       "year": 10,
       "size": 17704,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -26688,7 +27486,7 @@
       "sha": "d6baee19bfeaad978b8fa58ad8b36022490e8b9e",
       "year": 10,
       "size": 16328,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -26768,8 +27566,9 @@
       "sha": "e5a1539e03a1c6d73edeae9d4c8180c67cce6bec",
       "year": 10,
       "size": 82106,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_incomplete_referenced_material",
+      "duplicateOf": null,
+      "reviewReason": "Source assignment explicitly refers to missing textbook method/discussion wording; recorded prompts reviewed, referenced questions not invented."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/2015 10 BIOLOGY GM CROPS ASSIGNMENT ANSWER KEY.pdf",
@@ -26944,7 +27743,7 @@
       "sha": "6a43e5df01c66655693ad42e458a8f9764fd730b",
       "year": 10,
       "size": 17569,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -27016,8 +27815,9 @@
       "sha": "cfccac69f79fb3250387490688653ba2b6c15cda",
       "year": 10,
       "size": 40271,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_incomplete_referenced_material",
+      "duplicateOf": null,
+      "reviewReason": "Source assignment explicitly refers to missing textbook method/discussion wording; recorded prompts reviewed, referenced questions not invented."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Narrogin/2019/Topic 2 Biology 1/Task 3 Biology 1 Test Inheritance 2019.doc",
@@ -27107,8 +27907,9 @@
       "sha": "cfccac69f79fb3250387490688653ba2b6c15cda",
       "year": 10,
       "size": 40271,
-      "status": "pending",
-      "duplicateOf": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Narrogin/2019/Topic 2 Biology 1/Task 2 DNA Research 2018.docx"
+      "status": "reviewed_incomplete_referenced_material",
+      "duplicateOf": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Narrogin/2019/Topic 2 Biology 1/Task 2 DNA Research 2018.docx",
+      "reviewReason": "Source assignment explicitly refers to missing textbook method/discussion wording; recorded prompts reviewed, referenced questions not invented."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Narrogin/2020/Topic 2 Biology 1/Task 3 Biology 1 Test Inheritance 2020.doc",
@@ -27310,7 +28111,7 @@
       "sha": "8b7069ac0de2ccb21376073cbc27dde5ec7526d4",
       "year": 10,
       "size": 74058,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -27366,7 +28167,7 @@
       "sha": "2c9d841cfd5e62e075001ab79df61f1e78d7c2f1",
       "year": 10,
       "size": 19986,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -31248,8 +32049,8 @@
     }
   ],
   "learningVaultCreatedKeySupplements": 924,
-  "remainingUniqueFileBlobs": 1359,
-  "learningVaultCreatedKeys": 1628,
+  "remainingUniqueFileBlobs": 1347,
+  "learningVaultCreatedKeys": 1754,
   "blockedSources": [
     {
       "sha": "49d4b7f3f8af844477b39abb856365aeb096cafd",
@@ -31461,7 +32262,7 @@
     "ocrPages": 1175,
     "ocrTextVerified": false
   },
-  "distinctSourceAndKeyReferences": 251,
+  "distinctSourceAndKeyReferences": 263,
   "unscoredQuestionsPreserved": 1,
   "activeAdditionalQuestionRequest": {
     "requestedAdditionalQuestions": 1000,
@@ -31476,12 +32277,12 @@
     "requestedAt": "2026-10-16",
     "scope": "All remaining Years 7–10 Science assessment papers; all question types, source figures, response space and marking guidance",
     "startingImportedQuestions": 1374,
-    "addedQuestions": 1488,
+    "addedQuestions": 1614,
     "status": "in_progress",
     "completionRule": "Every unique assessment paper reviewed; duplicates mapped and unreadable/protected files explicitly resolved. File-blob count is not a paper denominator.",
     "restoredQuestionsAfterDuplicateFix": 4,
-    "newlyExtractedQuestions": 1484,
-    "papersReviewedSinceRequest": 140,
+    "newlyExtractedQuestions": 1610,
+    "papersReviewedSinceRequest": 152,
     "canonicalSourceQuestionsReReviewed": 2
   },
   "sourceInventoryExclusions": {
@@ -31527,6 +32328,13 @@
       "effect": "Exact mandated conclusion components unresolved; suggested rubric supplement supplied."
     },
     {
+      "questionId": "SCI-REPO-Y10-ARAN-2014-GMFOOD-organisations",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/2014 10 SCIENCE GENETICALLY MODIFIED CROPS ASSIGNMENT.docx",
+      "sourceFileSha": "e5a1539e03a1c6d73edeae9d4c8180c67cce6bec",
+      "description": "Several historicalorganisation webpages could not be retrieved during review.",
+      "effect": "Six-organisation task retained;unverified stances not invented. Archived/current attributable statements required."
+    },
+    {
       "questionId": "SCI-REPO-Y7-SBY-2017-HEATINGWATER-diagram",
       "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling - assessment/Log Book ÔÇô Heating Water experiment-1.docx",
       "sourceFileSha": "43aefd928096f9891fd4d5f6339d7fb09a6d46fc",
@@ -31546,6 +32354,13 @@
         "Discussion question wording"
       ],
       "resolution": "Locate matching source page or teacher-provided original; do not generate replacement questions and call them extracted."
+    },
+    {
+      "questionId": "SCI-REPO-Y10-ARAN-2014-DNAMICRO-M-high",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/10 Biology assessments extention/2014 DNA and Microscope Prac Test.docx",
+      "sourceFileSha": "1c496f3b549eb093849b94eef7ad0f49b36b248b",
+      "description": "Student prompt gives4.2mm lowFOV but not the low/high magnifications;key supplies40×and400×.",
+      "effect": "Key assumptions explicitly supplied in extracted context;do not pretend unique calculation follows from pupil wording alone."
     },
     {
       "questionId": "SCI-REPO-Y7-KOLBE-2021-RESEARCH-summary",
@@ -31583,6 +32398,13 @@
       "effect": "Reference cannot be answered uniquely; no missing procedure invented."
     },
     {
+      "questionId": "SCI-REPO-Y10-NARR-2019-DNARESEARCH-research",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Narrogin/2019/Topic 2 Biology 1/Task 2 DNA Research 2018.docx",
+      "sourceFileSha": "cfccac69f79fb3250387490688653ba2b6c15cda",
+      "description": "Student-selected DNA questions are blank.",
+      "effect": "Research task/rubric retained;no unseen questions or fixed answers invented."
+    },
+    {
       "questionId": "SCI-REPO-Y8-ARAN-2013-DENSITY-method",
       "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/Density Investigation 2013.docx",
       "sourceFileSha": "b7709d4edea4a68f7e3b7537c2999cdea9ca4027",
@@ -31600,7 +32422,7 @@
       "resolution": "Locate original practical sheet; do not invent missing source directions."
     }
   ],
-  "reviewedDistinctSourceBlobs": 241,
+  "reviewedDistinctSourceBlobs": 253,
   "inventoryCountBasis": "Remaining unique file blobs counts pending or key-reference-pending identities, including protected inputs; it is not a remaining-paper or remaining-question estimate.",
   "canonicalUniverseReviewRepair": {
     "questionIds": [

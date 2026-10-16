@@ -1,0 +1,174 @@
+{
+  "batch": "repo-science-batch80",
+  "paperCount": 3,
+  "questionIds": [
+    "SCI-REPO-Y10-ARAN-2014-GENTECH-definition",
+    "SCI-REPO-Y10-ARAN-2014-GENTECH-benefits",
+    "SCI-REPO-Y10-ARAN-2014-GENTECH-techniques",
+    "SCI-REPO-Y10-ARAN-2014-GENTECH-concerns",
+    "SCI-REPO-Y10-ARAN-2014-GENTECH-judgement",
+    "SCI-REPO-Y10-ARAN-2014-GENTECH-references",
+    "SCI-REPO-Y10-ARAN-2014-GENTECH-diagrams",
+    "SCI-REPO-Y10-ARAN-2013-TRANSGENIC-organism",
+    "SCI-REPO-Y10-ARAN-2013-TRANSGENIC-change",
+    "SCI-REPO-Y10-ARAN-2013-TRANSGENIC-reasons",
+    "SCI-REPO-Y10-ARAN-2013-TRANSGENIC-objections",
+    "SCI-REPO-Y10-ARAN-2013-TRANSGENIC-references"
+  ],
+  "questions": 12,
+  "multipleChoice": 0,
+  "writtenQuestions": 12,
+  "battleEligible": 0,
+  "marks": 41,
+  "reviewRequired": [],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/10 Biology assessments extention/2014 Genetic Technology Assignment.docx",
+      "sha": "7af7b028eec53f3c5cf780a3b9421a09a2c820e3",
+      "year": 10,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/2013 10 GENETIC TECHNOLOGY ASSIGNMENT.docx",
+      "sha": "ccd39e199edbf108910a47b5482f5ad4a86bf3df",
+      "year": 10,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/2013 10 GMO ASSIGNMENT GEORGE VERSION.docx",
+      "sha": "125276e9627d90298d438f4cc839aac7818c39f2",
+      "year": 10,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 12,
+  "createdSupplements": 0,
+  "notes": [
+    "Both genetic-technology report variants reviewed;30/26covers differ by4justification marks. Task content28/24 pluspresentation2. Equivalent prompts mapped with original sourceMarks in aliases. Fulltransgenic rubric13conflicts with12cover;worked exampleURLs/claims not treated as verified facts."
+  ],
+  "markAudit": {
+    "genTech2014": {
+      "total": 30,
+      "taskMarks": 28,
+      "presentation": 2
+    },
+    "genTech2013": {
+      "total": 26,
+      "taskMarks": 24,
+      "presentation": 2
+    },
+    "transgenic": {
+      "cover": 12,
+      "rubric": 13
+    }
+  },
+  "duplicateQuestionAliases": [
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/2013 10 GENETIC TECHNOLOGY ASSIGNMENT.docx",
+      "sourceFileSha": "ccd39e199edbf108910a47b5482f5ad4a86bf3df",
+      "sourceQuestionNumber": "definition",
+      "sourceParagraphs": [
+        4,
+        5,
+        7,
+        8
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2014-GENTECH-definition",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/2013 10 GENETIC TECHNOLOGY ASSIGNMENT.docx",
+      "sourceFileSha": "ccd39e199edbf108910a47b5482f5ad4a86bf3df",
+      "sourceQuestionNumber": "benefits",
+      "sourceParagraphs": [
+        4,
+        5,
+        7,
+        8
+      ],
+      "sourceMarks": 6,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2014-GENTECH-benefits",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/2013 10 GENETIC TECHNOLOGY ASSIGNMENT.docx",
+      "sourceFileSha": "ccd39e199edbf108910a47b5482f5ad4a86bf3df",
+      "sourceQuestionNumber": "techniques",
+      "sourceParagraphs": [
+        4,
+        5,
+        7,
+        8
+      ],
+      "sourceMarks": 6,
+      "sourceType": "Extended response",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2014-GENTECH-techniques",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/2013 10 GENETIC TECHNOLOGY ASSIGNMENT.docx",
+      "sourceFileSha": "ccd39e199edbf108910a47b5482f5ad4a86bf3df",
+      "sourceQuestionNumber": "concerns",
+      "sourceParagraphs": [
+        4,
+        5,
+        7,
+        8
+      ],
+      "sourceMarks": 3,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2014-GENTECH-concerns",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/2013 10 GENETIC TECHNOLOGY ASSIGNMENT.docx",
+      "sourceFileSha": "ccd39e199edbf108910a47b5482f5ad4a86bf3df",
+      "sourceQuestionNumber": "judgement",
+      "sourceParagraphs": [
+        4,
+        5,
+        7,
+        8
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Extended response",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2014-GENTECH-judgement",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/2013 10 GENETIC TECHNOLOGY ASSIGNMENT.docx",
+      "sourceFileSha": "ccd39e199edbf108910a47b5482f5ad4a86bf3df",
+      "sourceQuestionNumber": "references",
+      "sourceParagraphs": [
+        4,
+        5,
+        7,
+        8
+      ],
+      "sourceMarks": 3,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2014-GENTECH-references",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/2013 10 GENETIC TECHNOLOGY ASSIGNMENT.docx",
+      "sourceFileSha": "ccd39e199edbf108910a47b5482f5ad4a86bf3df",
+      "sourceQuestionNumber": "diagrams",
+      "sourceParagraphs": [
+        4,
+        5,
+        7,
+        8
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2014-GENTECH-diagrams",
+      "reason": "Equivalent source question already present; not added or counted again."
+    }
+  ]
+}

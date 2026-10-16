@@ -1,0 +1,103 @@
+{
+  "batch": "repo-science-batch79",
+  "paperCount": 4,
+  "questionIds": [
+    "SCI-REPO-Y10-ARAN-2013-ADAPTATION-habitat",
+    "SCI-REPO-Y10-ARAN-2013-ADAPTATION-description",
+    "SCI-REPO-Y10-ARAN-2013-ADAPTATION-adaptations",
+    "SCI-REPO-Y10-ARAN-2013-ADAPTATION-references",
+    "SCI-REPO-Y10-ARAN-2013-EARLOBE-independent",
+    "SCI-REPO-Y10-ARAN-2013-EARLOBE-dependent",
+    "SCI-REPO-Y10-ARAN-2013-EARLOBE-controls",
+    "SCI-REPO-Y10-ARAN-2013-EARLOBE-hypothesis",
+    "SCI-REPO-Y10-ARAN-2013-EARLOBE-procedure",
+    "SCI-REPO-Y10-ARAN-2013-EARLOBE-table",
+    "SCI-REPO-Y10-ARAN-2013-EARLOBE-graph-reason",
+    "SCI-REPO-Y10-ARAN-2013-EARLOBE-graph",
+    "SCI-REPO-Y10-ARAN-2013-EARLOBE-conclusion",
+    "SCI-REPO-Y10-ARAN-2013-EARLOBE-discussion",
+    "SCI-REPO-Y10-ARAN-2013-EARLOBE-improve",
+    "SCI-REPO-Y10-ARAN-BRAINVOLUME-hypothesis",
+    "SCI-REPO-Y10-ARAN-BRAINVOLUME-independent",
+    "SCI-REPO-Y10-ARAN-BRAINVOLUME-dependent",
+    "SCI-REPO-Y10-ARAN-BRAINVOLUME-controls",
+    "SCI-REPO-Y10-ARAN-BRAINVOLUME-procedure",
+    "SCI-REPO-Y10-ARAN-BRAINVOLUME-results",
+    "SCI-REPO-Y10-ARAN-BRAINVOLUME-graph",
+    "SCI-REPO-Y10-ARAN-BRAINVOLUME-conclusion",
+    "SCI-REPO-Y10-ARAN-BRAINVOLUME-discussion",
+    "SCI-REPO-Y10-NARR-2019-DNARESEARCH-research",
+    "SCI-REPO-Y10-NARR-2019-DNARESEARCH-notes",
+    "SCI-REPO-Y10-NARR-2019-DNARESEARCH-bibliography",
+    "SCI-REPO-Y10-NARR-2019-DNARESEARCH-glossary",
+    "SCI-REPO-Y10-NARR-2019-DNARESEARCH-product",
+    "SCI-REPO-Y10-NARR-2019-DNARESEARCH-diagrams"
+  ],
+  "questions": 30,
+  "multipleChoice": 0,
+  "writtenQuestions": 30,
+  "battleEligible": 0,
+  "marks": 79,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y10-ARAN-2013-EARLOBE-independent",
+      "note": "No variable is experimentally manipulated in this observational survey. If a predictor/category is required,state earlobe classification or the actual grouping variable and explain its observational role."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-BRAINVOLUME-dependent",
+      "note": "Estimated cranial capacity measured by displaced/fill rice volume in mL or cm³,not cm²."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-BRAINVOLUME-results",
+      "note": "Accurate actual specimen volumes with unitscm³or mL. Source printedcm²is a dimensional error."
+    },
+    {
+      "id": "SCI-REPO-Y10-NARR-2019-DNARESEARCH-research",
+      "note": "Individual questions are chosen by student,not provided in source."
+    }
+  ],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/10 Biology assessments extention/2013 10 Extension Adaptation Assignment.docx",
+      "sha": "3598b2eaddbe4beb423850d5daea82f9e6bf7696",
+      "year": 10,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/2013 10 BIOLOGY EAR LOBE INVESTIGATION.docx",
+      "sha": "c5f00f21cebd80fffba92f0dfe0dd8da234bd04b",
+      "year": 10,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/Who Has the Biggest Brain practical ESL.docx",
+      "sha": "6a43e5df01c66655693ad42e458a8f9764fd730b",
+      "year": 10,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Narrogin/2019/Topic 2 Biology 1/Task 2 DNA Research 2018.docx",
+      "sha": "cfccac69f79fb3250387490688653ba2b6c15cda",
+      "year": 10,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 30,
+  "createdSupplements": 0,
+  "notes": [
+    "Complete adaptation15,earlobe25 and cranial-capacity20assignments retained. Earlobes observational/polygenic caveat and brain-volume proxy/unit error addressed. DNAresearch25rubric preserves19content/task marks plus6layout/editing marks in audit;no student-selected factual questions invented."
+  ],
+  "markAudit": {
+    "adaptation": 15,
+    "earlobes": 25,
+    "brainCapacity": 20,
+    "DNAresearch": {
+      "total": 25,
+      "taskMarks": 19,
+      "layoutEditingOnly": 6
+    }
+  },
+  "duplicateQuestionAliases": []
+}

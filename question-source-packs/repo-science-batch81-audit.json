@@ -1,0 +1,98 @@
+{
+  "batch": "repo-science-batch81",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y10-ARAN-2014-GMFOOD-reading1",
+    "SCI-REPO-Y10-ARAN-2014-GMFOOD-reading2",
+    "SCI-REPO-Y10-ARAN-2014-GMFOOD-reading3",
+    "SCI-REPO-Y10-ARAN-2014-GMFOOD-reading4",
+    "SCI-REPO-Y10-ARAN-2014-GMFOOD-reading5",
+    "SCI-REPO-Y10-ARAN-2014-GMFOOD-research1",
+    "SCI-REPO-Y10-ARAN-2014-GMFOOD-research2",
+    "SCI-REPO-Y10-ARAN-2014-GMFOOD-research3",
+    "SCI-REPO-Y10-ARAN-2014-GMFOOD-Bt-table",
+    "SCI-REPO-Y10-ARAN-2014-GMFOOD-HT-table",
+    "SCI-REPO-Y10-ARAN-2014-GMFOOD-bacterium",
+    "SCI-REPO-Y10-ARAN-2014-GMFOOD-pest",
+    "SCI-REPO-Y10-ARAN-2014-GMFOOD-chosen1",
+    "SCI-REPO-Y10-ARAN-2014-GMFOOD-chosen2",
+    "SCI-REPO-Y10-ARAN-2014-GMFOOD-chosen3",
+    "SCI-REPO-Y10-ARAN-2014-GMFOOD-chosen4",
+    "SCI-REPO-Y10-ARAN-2014-GMFOOD-chosen5",
+    "SCI-REPO-Y10-ARAN-2014-GMFOOD-organisations",
+    "SCI-REPO-Y10-ARAN-2014-GMFOOD-references"
+  ],
+  "questions": 19,
+  "multipleChoice": 0,
+  "writtenQuestions": 19,
+  "battleEligible": 0,
+  "marks": 50,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-GMFOOD-reading1",
+      "note": "Historicalsourcearguments include outdated/inaccurate claims;assess critical comprehension rather than repeating them as facts."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-GMFOOD-reading2",
+      "note": "Historicalsourcearguments include outdated/inaccurate claims;assess critical comprehension rather than repeating them as facts."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-GMFOOD-reading3",
+      "note": "Historicalsourcearguments include outdated/inaccurate claims;assess critical comprehension rather than repeating them as facts."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-GMFOOD-reading4",
+      "note": "Historicalsourcearguments include outdated/inaccurate claims;assess critical comprehension rather than repeating them as facts."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-GMFOOD-reading5",
+      "note": "Historicalsourcearguments include outdated/inaccurate claims;assess critical comprehension rather than repeating them as facts."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-GMFOOD-research3",
+      "note": "GMcotton and GMcanola,one each;other verified actual grown crops can be accepted with dated official evidence. Cultivation approval alone is not evidence of widespread growing."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-GMFOOD-Bt-table",
+      "note": "Examples:Bt-cotton inUSAandIndia;Bt-maize inUSAandBrazil. Proposed1percorrectcrop-country pair,4total. Verify date and specific insect-resistant trait;generic crop production or anyGEtrait is insufficient evidence."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-GMFOOD-HT-table",
+      "note": "Example rows:HTcanola inAustraliaandCanada;HTsoybeans inUSAandBrazil. Proposed1percorrectcrop-country pair,4total;require dated cultivation evidence,not merely import approval."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-GMFOOD-chosen2",
+      "note": "A supported dated milestone clearly defined as research,first approval or firstcommercial cultivation;these are different dates."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-GMFOOD-chosen5",
+      "note": "Three correct country/GMtrait cultivation examples1each,with dated evidence;trials/imports distinguished from commercial production."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-GMFOOD-organisations",
+      "note": "DatedorganisationURLs partly inaccessible;14-mark suballocation proposed and categorical answers require supplied evidence."
+    }
+  ],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/2014 10 SCIENCE GENETICALLY MODIFIED CROPS ASSIGNMENT.docx",
+      "sha": "e5a1539e03a1c6d73edeae9d4c8180c67cce6bec",
+      "year": 10,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 19,
+  "createdSupplements": 0,
+  "notes": [
+    "All50marks retained:9comprehension,16generalresearch,25chosen-crop/organisation/references. Historicalpassage preserved with explicit corrections;currentofficial crop/trait sources attached. Six-organisation14-mark task has partly inaccessible2014URLs and is manually reviewed without guessed stances."
+  ],
+  "markAudit": {
+    "comprehension": 9,
+    "generalResearch": 16,
+    "chosenCropAndOrganisationsAndReferences": 25,
+    "total": 50
+  },
+  "duplicateQuestionAliases": []
+}
