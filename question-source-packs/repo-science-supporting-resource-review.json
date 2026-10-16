@@ -995,6 +995,16 @@
       "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Persuasive Essay Rubric new.docx",
       "sha": "713670fcabc0afdd68d4668be071a87f555b622e",
       "reason": "Generic persuasive-writing rubric only; no assigned science topic or question."
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2017/Animal classification key.docx",
+      "sha": "5554e503617e4fb10ad9e6994c59d8bdc5d8869e",
+      "reason": "Classification reference poster only;visually inspected,no assessment prompts. Historical protozoa/coelenterate taxonomy not imported as new questions."
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2017/biomagnification 2.docx",
+      "sha": "aa0e762d902245b195056f02f39246211c2c58a2",
+      "reason": "Single biomagnification infographic only;visually inspected,no student prompts."
     }
   ]
 }

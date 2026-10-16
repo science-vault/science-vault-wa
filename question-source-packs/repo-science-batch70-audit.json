@@ -1,0 +1,63 @@
+{
+  "batch": "repo-science-batch70",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-1-chromatography",
+    "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-1-evaporation",
+    "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-1-distillation",
+    "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-2a",
+    "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-2b",
+    "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-2c",
+    "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-2d",
+    "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-2e",
+    "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-2f",
+    "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-2g",
+    "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-2h",
+    "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-2i",
+    "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-2j",
+    "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-2k",
+    "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-2l",
+    "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-2m",
+    "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-3",
+    "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-4",
+    "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-5",
+    "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-6",
+    "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-7",
+    "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-8",
+    "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-9a",
+    "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-9b",
+    "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-9c",
+    "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-9d",
+    "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-9e",
+    "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-10a",
+    "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-10b",
+    "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-10c",
+    "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-11"
+  ],
+  "questions": 31,
+  "multipleChoice": 0,
+  "writtenQuestions": 31,
+  "battleEligible": 0,
+  "marks": 57,
+  "reviewRequired": [],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Revision for Year 7 End of Topic Test.docx",
+      "sha": "fbdbfeb88ef9baf3739582336df54983073d541a",
+      "year": 7,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 31,
+  "createdSupplements": 0,
+  "notes": [
+    "Every separation description,13matching terms,states table,5state changes,definitions and particle drawing reviewed. The source’s “distil copper sulphate” wording interpreted as its aqueous solution,not distillation of the salt. All allocations proposed."
+  ],
+  "markAudit": {
+    "source": "Unmarked revision;proposed allocations",
+    "matchingTerms": 13
+  },
+  "duplicateQuestionAliases": []
+}

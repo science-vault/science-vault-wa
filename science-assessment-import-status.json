@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.16-science-source66",
+  "version": "2026.10.16-science-source72",
   "status": "in_progress",
   "scope": "Original Science assessment files in repository, Years 7–10. File counts include keys and supporting materials; they are not question counts.",
   "inventoryFiles": 2009,
@@ -11,20 +11,12 @@
     "9": 457,
     "10": 582
   },
-  "importedPapers": 184,
-  "importedQuestions": 2602,
-  "multipleChoice": 776,
-  "writtenQuestions": 1826,
+  "importedPapers": 194,
+  "importedQuestions": 2764,
+  "multipleChoice": 777,
+  "writtenQuestions": 1987,
   "battleEligibleQuestions": 679,
   "reviewRequired": [
-    {
-      "id": "SCI-REPO-Y7-NAR-2024-EARTH-MC03",
-      "note": "The 2024 question has more than one incorrect statement. The supplied older key circles D, while its filename identifies B. Teacher review required."
-    },
-    {
-      "id": "SCI-REPO-Y7-NAR-2024-EARTH-MC08",
-      "note": "The question conflates meteors and meteorites, so more than one option is problematic. Teacher review required."
-    },
     {
       "id": "SCI-REPO-Y7-NAR-2024-CHEM-WR02",
       "note": "Supplied key classifies Cloud as gas. Teacher review required."
@@ -1350,12 +1342,92 @@
       "note": "School diary reference format not embedded;teacher supplies format."
     },
     {
+      "id": "SCI-REPO-Y7-NARR-2018-BIO1-W3a",
+      "note": "The source does not clarify anatomical versus page-left convention;accept a consistently followed key path."
+    },
+    {
+      "id": "SCI-REPO-Y7-NARR-2019-BIO1-W3a",
+      "note": "The source does not clarify anatomical versus page-left convention;accept a consistently followed key path."
+    },
+    {
+      "id": "SCI-REPO-Y7-NARR-2018-ESS1-timezones",
+      "note": "Date not supplied;three-hour premise is seasonal,not permanent."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1m",
+      "note": "Match the intended word while clarifying whether saturation refers to air/solution/soil,and distinguishing infiltration from percolation."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1s",
+      "note": "Match the intended word while clarifying whether saturation refers to air/solution/soil,and distinguishing infiltration from percolation."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-3",
+      "note": "Proposed marking allocation;source unmarked.Classifications require a timescale and sustainability context."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-7c",
+      "note": "Proposed marking allocation;source unmarked."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-1e",
+      "note": "Historical matching definition is imprecise;clarification supplied rather than silently changing source."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-1f",
+      "note": "Historical matching definition is imprecise;clarification supplied rather than silently changing source."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-1h",
+      "note": "Historical matching definition is imprecise;clarification supplied rather than silently changing source."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-1j",
+      "note": "Historical matching definition is imprecise;clarification supplied rather than silently changing source."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-13-graph",
+      "note": "Data compare teaspoon volumes of different solids;mass-based solubility cannot be inferred uniquely."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-13a",
+      "note": "Data compare teaspoon volumes of different solids;mass-based solubility cannot be inferred uniquely."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-13b",
+      "note": "Data compare teaspoon volumes of different solids;mass-based solubility cannot be inferred uniquely."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-13c",
+      "note": "Data compare teaspoon volumes of different solids;mass-based solubility cannot be inferred uniquely."
+    },
+    {
+      "id": "SCI-REPO-Y7-NARR-2018-WATERFILTER-results",
+      "note": "Weighed object and kitchen/tea-towel wording need teacher clarification;no unique mass observation invented."
+    },
+    {
+      "id": "SCI-REPO-Y7-NARR-2018-WATERFILTER-dependent",
+      "note": "Use actual operational measure;filtrate appearance alone does not establish potability."
+    },
+    {
       "id": "SCI-REPO-Y10-NAR-2024-UNIVERSE-MC02",
       "note": "Classical singularity wording is not an established description of a physical zero-volume beginning."
     },
     {
       "id": "SCI-REPO-Y10-NAR-2024-UNIVERSE-MC03",
       "note": "Unspecified theoretical early-universe force timeline; the key’s intended model must be clarified."
+    },
+    {
+      "id": "SCI-REPO-Y7-NAR-2024-EARTH-MC01",
+      "note": " Additional variant review: The intended choice is A (Sol),but the option combines Sol with “Solaris”. The conventional English name is the Sun;Sol is Latin. Do not assert Solaris as an official astronomical name."
+    },
+    {
+      "id": "SCI-REPO-Y7-NAR-2024-EARTH-MC03",
+      "note": "The 2024 question has more than one incorrect statement. The supplied older key circles D, while its filename identifies B. Teacher review required. Additional variant review: B is incorrect:the sidereal orbital period is about27.3days,not21. C’s self-shadow wording is misleading;phases arise from viewing the sunlit half at changing angles. D overstates “no atmosphere” since the Moon has a tenuous exosphere. Multiple wording problems prevent automatic marking."
+    },
+    {
+      "id": "SCI-REPO-Y7-NAR-2024-EARTH-MC08",
+      "note": "The question conflates meteors and meteorites, so more than one option is problematic. Teacher review required. Additional variant review: Ambiguous:shooting stars are meteors (light phenomena),meteorites are surviving fragments reaching the ground. A and B misuse meteorite/meteor terminology,and C is not well-defined. Retain for teacher review,not automatic battles."
     }
   ],
   "batches": [
@@ -12894,6 +12966,986 @@
         "presentationOnly": 6
       },
       "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch67",
+      "questionIds": [
+        "SCI-REPO-Y7-NARR-2018-BIO1-W1",
+        "SCI-REPO-Y7-NARR-2018-BIO1-W2",
+        "SCI-REPO-Y7-NARR-2018-BIO1-W3a",
+        "SCI-REPO-Y7-NARR-2018-BIO1-W3b",
+        "SCI-REPO-Y7-NARR-2018-BIO1-W3c",
+        "SCI-REPO-Y7-NARR-2018-BIO1-W3d",
+        "SCI-REPO-Y7-NARR-2018-BIO1-W3e",
+        "SCI-REPO-Y7-NARR-2019-BIO1-W2",
+        "SCI-REPO-Y7-NARR-2019-BIO1-W3a",
+        "SCI-REPO-Y7-NARR-2019-BIO1-W3b",
+        "SCI-REPO-Y7-NARR-2019-BIO1-W3c",
+        "SCI-REPO-Y7-NARR-2019-BIO1-W3d",
+        "SCI-REPO-Y7-NARR-2019-BIO1-W3e"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2018/Biology 1 Test 2018.docx",
+          "sha": "5f1068beb65d82aecbe78047dcbfd9176747907b",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2019/Biology test.docx",
+          "sha": "da771e88064dde95c68676e840706e0687a001f0",
+          "year": 7,
+          "role": "paper"
+        }
+      ],
+      "questions": 13,
+      "marks": 33,
+      "imageAudit": "question-source-packs/repo-science-batch67-audit.json",
+      "notes": [
+        "Two complete30-mark biology test variants reviewed:10MC,7life-process marks,8matching marks,5creature identifications. Original5creature figures and full branching key retained. Left-leg convention flagged for manual review;common duplicate questions mapped.2019folder paper has2017internal heading."
+      ],
+      "markAudit": {
+        "eachPaper": 30,
+        "mc": 10,
+        "written": 20
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2018/Biology 1 Test 2018.docx",
+          "sourceFileSha": "5f1068beb65d82aecbe78047dcbfd9176747907b",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-BIO-MC01",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2018/Biology 1 Test 2018.docx",
+          "sourceFileSha": "5f1068beb65d82aecbe78047dcbfd9176747907b",
+          "sourceQuestionNumber": "2",
+          "sourceParagraphs": [
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-BIO-MC02",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2018/Biology 1 Test 2018.docx",
+          "sourceFileSha": "5f1068beb65d82aecbe78047dcbfd9176747907b",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            22,
+            23,
+            24,
+            25,
+            26
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-BIO-MC03",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2018/Biology 1 Test 2018.docx",
+          "sourceFileSha": "5f1068beb65d82aecbe78047dcbfd9176747907b",
+          "sourceQuestionNumber": "4",
+          "sourceParagraphs": [
+            28,
+            29,
+            30,
+            31,
+            32
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-BIO-MC04",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2018/Biology 1 Test 2018.docx",
+          "sourceFileSha": "5f1068beb65d82aecbe78047dcbfd9176747907b",
+          "sourceQuestionNumber": "5",
+          "sourceParagraphs": [
+            34,
+            35,
+            36,
+            37,
+            38
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-BIO-MC05",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2018/Biology 1 Test 2018.docx",
+          "sourceFileSha": "5f1068beb65d82aecbe78047dcbfd9176747907b",
+          "sourceQuestionNumber": "6",
+          "sourceParagraphs": [
+            40,
+            41,
+            42,
+            43,
+            44
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-BIO-MC06",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2018/Biology 1 Test 2018.docx",
+          "sourceFileSha": "5f1068beb65d82aecbe78047dcbfd9176747907b",
+          "sourceQuestionNumber": "7",
+          "sourceParagraphs": [
+            46,
+            47,
+            48,
+            49,
+            50
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-BIO-MC07",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2018/Biology 1 Test 2018.docx",
+          "sourceFileSha": "5f1068beb65d82aecbe78047dcbfd9176747907b",
+          "sourceQuestionNumber": "8",
+          "sourceParagraphs": [
+            52,
+            53,
+            54,
+            55,
+            56
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-BIO-MC08",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2018/Biology 1 Test 2018.docx",
+          "sourceFileSha": "5f1068beb65d82aecbe78047dcbfd9176747907b",
+          "sourceQuestionNumber": "9",
+          "sourceParagraphs": [
+            58,
+            59,
+            60,
+            61,
+            62
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-BIO-MC09",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2018/Biology 1 Test 2018.docx",
+          "sourceFileSha": "5f1068beb65d82aecbe78047dcbfd9176747907b",
+          "sourceQuestionNumber": "10",
+          "sourceParagraphs": [
+            64,
+            65,
+            66,
+            67,
+            68
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-BIO-MC10",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2019/Biology test.docx",
+          "sourceFileSha": "da771e88064dde95c68676e840706e0687a001f0",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-BIO-MC01",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2019/Biology test.docx",
+          "sourceFileSha": "da771e88064dde95c68676e840706e0687a001f0",
+          "sourceQuestionNumber": "2",
+          "sourceParagraphs": [
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-BIO-MC02",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2019/Biology test.docx",
+          "sourceFileSha": "da771e88064dde95c68676e840706e0687a001f0",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-BIO-MC03",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2019/Biology test.docx",
+          "sourceFileSha": "da771e88064dde95c68676e840706e0687a001f0",
+          "sourceQuestionNumber": "4",
+          "sourceParagraphs": [
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-BIO-MC04",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2019/Biology test.docx",
+          "sourceFileSha": "da771e88064dde95c68676e840706e0687a001f0",
+          "sourceQuestionNumber": "5",
+          "sourceParagraphs": [
+            33,
+            34,
+            35,
+            36,
+            37
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-BIO-MC05",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2019/Biology test.docx",
+          "sourceFileSha": "da771e88064dde95c68676e840706e0687a001f0",
+          "sourceQuestionNumber": "6",
+          "sourceParagraphs": [
+            39,
+            40,
+            41,
+            42,
+            43
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-BIO-MC06",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2019/Biology test.docx",
+          "sourceFileSha": "da771e88064dde95c68676e840706e0687a001f0",
+          "sourceQuestionNumber": "7",
+          "sourceParagraphs": [
+            45,
+            46,
+            47,
+            48,
+            49
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-BIO-MC07",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2019/Biology test.docx",
+          "sourceFileSha": "da771e88064dde95c68676e840706e0687a001f0",
+          "sourceQuestionNumber": "8",
+          "sourceParagraphs": [
+            51,
+            52,
+            53,
+            54,
+            55
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-BIO-MC08",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2019/Biology test.docx",
+          "sourceFileSha": "da771e88064dde95c68676e840706e0687a001f0",
+          "sourceQuestionNumber": "9",
+          "sourceParagraphs": [
+            57,
+            58,
+            59,
+            60,
+            61
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-BIO-MC09",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2019/Biology test.docx",
+          "sourceFileSha": "da771e88064dde95c68676e840706e0687a001f0",
+          "sourceQuestionNumber": "10",
+          "sourceParagraphs": [
+            63,
+            64,
+            65,
+            66,
+            67
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-BIO-MC10",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2019/Biology test.docx",
+          "sourceFileSha": "da771e88064dde95c68676e840706e0687a001f0",
+          "sourceQuestionNumber": "W1",
+          "sourceParagraphs": [
+            95
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NARR-2018-BIO1-W1",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch68",
+      "questionIds": [
+        "SCI-REPO-Y7-NARR-2018-ESS1-MC10",
+        "SCI-REPO-Y7-NARR-2018-ESS1-rotation",
+        "SCI-REPO-Y7-NARR-2018-ESS1-timezones",
+        "SCI-REPO-Y7-NARR-2018-ESS1-seasons"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2018/Year 7 Earth and Space 1 Test 2018.docx",
+          "sha": "2691e1b4a3d22fd89444e7ca8ab4be58c4574142",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2019/Year 7 Earth and Space 1 Test 2019.docx",
+          "sha": "37abd5500d1675c17eaa638961105d45332fbc0d",
+          "year": 7,
+          "role": "paper"
+        }
+      ],
+      "questions": 4,
+      "marks": 13,
+      "imageAudit": "question-source-packs/repo-science-batch68-audit.json",
+      "notes": [
+        "Both complete25-mark variants reviewed and equivalent prompts mapped to existing records. Original Orion image retained for retained questions. Source Moon-period/phases,meteor/meteorite and solar-name wording issues flagged;timezone answer conditional on Sydney daylight time."
+      ],
+      "markAudit": {
+        "eachPaper": 25,
+        "mc": 10,
+        "written": 15,
+        "ambiguousMCNumbers": [
+          1,
+          3,
+          8
+        ]
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2018/Year 7 Earth and Space 1 Test 2018.docx",
+          "sourceFileSha": "2691e1b4a3d22fd89444e7ca8ab4be58c4574142",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC01",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "The intended choice is A (Sol),but the option combines Sol with “Solaris”. The conventional English name is the Sun;Sol is Latin. Do not assert Solaris as an official astronomical name.",
+            "note": "The intended choice is A (Sol),but the option combines Sol with “Solaris”. The conventional English name is the Sun;Sol is Latin. Do not assert Solaris as an official astronomical name."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2018/Year 7 Earth and Space 1 Test 2018.docx",
+          "sourceFileSha": "2691e1b4a3d22fd89444e7ca8ab4be58c4574142",
+          "sourceQuestionNumber": "2",
+          "sourceParagraphs": [
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC02",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2018/Year 7 Earth and Space 1 Test 2018.docx",
+          "sourceFileSha": "2691e1b4a3d22fd89444e7ca8ab4be58c4574142",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC03",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "B is incorrect:the sidereal orbital period is about27.3days,not21. C’s self-shadow wording is misleading;phases arise from viewing the sunlit half at changing angles. D overstates “no atmosphere” since the Moon has a tenuous exosphere. Multiple wording problems prevent automatic marking.",
+            "note": "B is incorrect:the sidereal orbital period is about27.3days,not21. C’s self-shadow wording is misleading;phases arise from viewing the sunlit half at changing angles. D overstates “no atmosphere” since the Moon has a tenuous exosphere. Multiple wording problems prevent automatic marking."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2018/Year 7 Earth and Space 1 Test 2018.docx",
+          "sourceFileSha": "2691e1b4a3d22fd89444e7ca8ab4be58c4574142",
+          "sourceQuestionNumber": "4",
+          "sourceParagraphs": [
+            30,
+            31,
+            32,
+            33,
+            34
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC04",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2018/Year 7 Earth and Space 1 Test 2018.docx",
+          "sourceFileSha": "2691e1b4a3d22fd89444e7ca8ab4be58c4574142",
+          "sourceQuestionNumber": "5",
+          "sourceParagraphs": [
+            37,
+            38,
+            39,
+            40,
+            41
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC05",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2018/Year 7 Earth and Space 1 Test 2018.docx",
+          "sourceFileSha": "2691e1b4a3d22fd89444e7ca8ab4be58c4574142",
+          "sourceQuestionNumber": "6",
+          "sourceParagraphs": [
+            44,
+            45,
+            46,
+            47,
+            48
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC06",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2018/Year 7 Earth and Space 1 Test 2018.docx",
+          "sourceFileSha": "2691e1b4a3d22fd89444e7ca8ab4be58c4574142",
+          "sourceQuestionNumber": "7",
+          "sourceParagraphs": [
+            50,
+            51,
+            52,
+            53,
+            54
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC07",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2018/Year 7 Earth and Space 1 Test 2018.docx",
+          "sourceFileSha": "2691e1b4a3d22fd89444e7ca8ab4be58c4574142",
+          "sourceQuestionNumber": "8",
+          "sourceParagraphs": [
+            57,
+            58,
+            59,
+            60,
+            61
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC08",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "Ambiguous:shooting stars are meteors (light phenomena),meteorites are surviving fragments reaching the ground. A and B misuse meteorite/meteor terminology,and C is not well-defined. Retain for teacher review,not automatic battles.",
+            "note": "Ambiguous:shooting stars are meteors (light phenomena),meteorites are surviving fragments reaching the ground. A and B misuse meteorite/meteor terminology,and C is not well-defined. Retain for teacher review,not automatic battles."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2018/Year 7 Earth and Space 1 Test 2018.docx",
+          "sourceFileSha": "2691e1b4a3d22fd89444e7ca8ab4be58c4574142",
+          "sourceQuestionNumber": "9",
+          "sourceParagraphs": [
+            64,
+            65,
+            66,
+            67,
+            68
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC09",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2018/Year 7 Earth and Space 1 Test 2018.docx",
+          "sourceFileSha": "2691e1b4a3d22fd89444e7ca8ab4be58c4574142",
+          "sourceQuestionNumber": "eclipse",
+          "sourceParagraphs": [
+            157
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-WR04",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2019/Year 7 Earth and Space 1 Test 2019.docx",
+          "sourceFileSha": "37abd5500d1675c17eaa638961105d45332fbc0d",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC01",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "The intended choice is A (Sol),but the option combines Sol with “Solaris”. The conventional English name is the Sun;Sol is Latin. Do not assert Solaris as an official astronomical name.",
+            "note": "The intended choice is A (Sol),but the option combines Sol with “Solaris”. The conventional English name is the Sun;Sol is Latin. Do not assert Solaris as an official astronomical name."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2019/Year 7 Earth and Space 1 Test 2019.docx",
+          "sourceFileSha": "37abd5500d1675c17eaa638961105d45332fbc0d",
+          "sourceQuestionNumber": "2",
+          "sourceParagraphs": [
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC02",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2019/Year 7 Earth and Space 1 Test 2019.docx",
+          "sourceFileSha": "37abd5500d1675c17eaa638961105d45332fbc0d",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC03",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "B is incorrect:the sidereal orbital period is about27.3days,not21. C’s self-shadow wording is misleading;phases arise from viewing the sunlit half at changing angles. D overstates “no atmosphere” since the Moon has a tenuous exosphere. Multiple wording problems prevent automatic marking.",
+            "note": "B is incorrect:the sidereal orbital period is about27.3days,not21. C’s self-shadow wording is misleading;phases arise from viewing the sunlit half at changing angles. D overstates “no atmosphere” since the Moon has a tenuous exosphere. Multiple wording problems prevent automatic marking."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2019/Year 7 Earth and Space 1 Test 2019.docx",
+          "sourceFileSha": "37abd5500d1675c17eaa638961105d45332fbc0d",
+          "sourceQuestionNumber": "4",
+          "sourceParagraphs": [
+            30,
+            31,
+            32,
+            33,
+            34
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC04",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2019/Year 7 Earth and Space 1 Test 2019.docx",
+          "sourceFileSha": "37abd5500d1675c17eaa638961105d45332fbc0d",
+          "sourceQuestionNumber": "5",
+          "sourceParagraphs": [
+            37,
+            38,
+            39,
+            40,
+            41
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC05",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2019/Year 7 Earth and Space 1 Test 2019.docx",
+          "sourceFileSha": "37abd5500d1675c17eaa638961105d45332fbc0d",
+          "sourceQuestionNumber": "6",
+          "sourceParagraphs": [
+            44,
+            45,
+            46,
+            47,
+            48
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC06",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2019/Year 7 Earth and Space 1 Test 2019.docx",
+          "sourceFileSha": "37abd5500d1675c17eaa638961105d45332fbc0d",
+          "sourceQuestionNumber": "7",
+          "sourceParagraphs": [
+            50,
+            51,
+            52,
+            53,
+            54
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC07",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2019/Year 7 Earth and Space 1 Test 2019.docx",
+          "sourceFileSha": "37abd5500d1675c17eaa638961105d45332fbc0d",
+          "sourceQuestionNumber": "8",
+          "sourceParagraphs": [
+            57,
+            58,
+            59,
+            60,
+            61
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC08",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "Ambiguous:shooting stars are meteors (light phenomena),meteorites are surviving fragments reaching the ground. A and B misuse meteorite/meteor terminology,and C is not well-defined. Retain for teacher review,not automatic battles.",
+            "note": "Ambiguous:shooting stars are meteors (light phenomena),meteorites are surviving fragments reaching the ground. A and B misuse meteorite/meteor terminology,and C is not well-defined. Retain for teacher review,not automatic battles."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2019/Year 7 Earth and Space 1 Test 2019.docx",
+          "sourceFileSha": "37abd5500d1675c17eaa638961105d45332fbc0d",
+          "sourceQuestionNumber": "9",
+          "sourceParagraphs": [
+            64,
+            65,
+            66,
+            67,
+            68
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC09",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2019/Year 7 Earth and Space 1 Test 2019.docx",
+          "sourceFileSha": "37abd5500d1675c17eaa638961105d45332fbc0d",
+          "sourceQuestionNumber": "10",
+          "sourceParagraphs": [
+            76,
+            77,
+            78,
+            79,
+            80,
+            71,
+            73
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NARR-2018-ESS1-MC10",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2019/Year 7 Earth and Space 1 Test 2019.docx",
+          "sourceFileSha": "37abd5500d1675c17eaa638961105d45332fbc0d",
+          "sourceQuestionNumber": "rotation",
+          "sourceParagraphs": [
+            116
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NARR-2018-ESS1-rotation",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2019/Year 7 Earth and Space 1 Test 2019.docx",
+          "sourceFileSha": "37abd5500d1675c17eaa638961105d45332fbc0d",
+          "sourceQuestionNumber": "timezones",
+          "sourceParagraphs": [
+            137
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NARR-2018-ESS1-timezones",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2019/Year 7 Earth and Space 1 Test 2019.docx",
+          "sourceFileSha": "37abd5500d1675c17eaa638961105d45332fbc0d",
+          "sourceQuestionNumber": "seasons",
+          "sourceParagraphs": [
+            147
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NARR-2018-ESS1-seasons",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2019/Year 7 Earth and Space 1 Test 2019.docx",
+          "sourceFileSha": "37abd5500d1675c17eaa638961105d45332fbc0d",
+          "sourceQuestionNumber": "eclipse",
+          "sourceParagraphs": [
+            157
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-WR04",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch69",
+      "questionIds": [
+        "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1a",
+        "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1b",
+        "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1c",
+        "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1d",
+        "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1e",
+        "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1f",
+        "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1g",
+        "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1h",
+        "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1i",
+        "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1j",
+        "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1k",
+        "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1l",
+        "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1m",
+        "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1n",
+        "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1o",
+        "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1p",
+        "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1q",
+        "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1r",
+        "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1s",
+        "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1t",
+        "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-2",
+        "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-3",
+        "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-4",
+        "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-5",
+        "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-6",
+        "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-7a",
+        "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-7b",
+        "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-7c",
+        "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-8-independent",
+        "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-8-dependent",
+        "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-8-controlled"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Earth and Space Sciences/Revision for Mid Topic Test.docx",
+          "sha": "b2d9067a39274382f78de20a58fc4ae9fd777e59",
+          "year": 7,
+          "role": "paper"
+        }
+      ],
+      "questions": 31,
+      "marks": 55,
+      "imageAudit": "question-source-packs/repo-science-batch69-audit.json",
+      "notes": [
+        "Complete20-term matching,water cycle,resource/energy classifications,water distributions and variable definitions retained. Source unmarked;all allocations proposed. Soil renewal timescale and infiltration/percolation wording flagged;approximate water proportions identify their denominator."
+      ],
+      "markAudit": {
+        "source": "Unmarked revision;proposed allocations",
+        "matchingTerms": 20
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch70",
+      "questionIds": [
+        "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-1-chromatography",
+        "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-1-evaporation",
+        "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-1-distillation",
+        "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-2a",
+        "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-2b",
+        "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-2c",
+        "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-2d",
+        "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-2e",
+        "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-2f",
+        "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-2g",
+        "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-2h",
+        "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-2i",
+        "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-2j",
+        "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-2k",
+        "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-2l",
+        "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-2m",
+        "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-3",
+        "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-4",
+        "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-5",
+        "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-6",
+        "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-7",
+        "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-8",
+        "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-9a",
+        "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-9b",
+        "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-9c",
+        "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-9d",
+        "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-9e",
+        "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-10a",
+        "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-10b",
+        "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-10c",
+        "SCI-REPO-Y7-UNKNOWN-CHEMENDREV-11"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Revision for Year 7 End of Topic Test.docx",
+          "sha": "fbdbfeb88ef9baf3739582336df54983073d541a",
+          "year": 7,
+          "role": "paper"
+        }
+      ],
+      "questions": 31,
+      "marks": 57,
+      "imageAudit": "question-source-packs/repo-science-batch70-audit.json",
+      "notes": [
+        "Every separation description,13matching terms,states table,5state changes,definitions and particle drawing reviewed. The source’s “distil copper sulphate” wording interpreted as its aqueous solution,not distillation of the salt. All allocations proposed."
+      ],
+      "markAudit": {
+        "source": "Unmarked revision;proposed allocations",
+        "matchingTerms": 13
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch71",
+      "questionIds": [
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-1a",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-1b",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-1c",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-1d",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-1e",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-1f",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-1g",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-1h",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-1i",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-1j",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-1k",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-1l",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-1m",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-1n",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-1o",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-1p",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-2",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-3",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-4",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-5-1",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-5-2",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-5-3",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-5-4",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-5-5",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-5-6",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-5-7",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-5-8",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-5-9",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-5-10",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-6",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-7-kg",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-7-L",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-7-min",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-7-s",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-7-mm",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-7-m",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-7-g",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-7-cm",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-8-bar",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-8-pie",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-8-line",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-9",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-10",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-11",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-12-dilute",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-12-mixture",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-12-saturated",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-13-graph",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-13a",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-13b",
+        "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-13c"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Year 7 Revision for Mid Topic Test Term One.docx",
+          "sha": "22f4ea032a67e9edfaf3ad843b92f765dcc1a93f",
+          "year": 7,
+          "role": "paper"
+        }
+      ],
+      "questions": 51,
+      "marks": 75,
+      "imageAudit": "question-source-packs/repo-science-batch71-audit.json",
+      "notes": [
+        "All16matching terms,laboratory drawings,7science branches,10equipment uses,6separation methods,8unit symbols,3graph types,safety/definitions and complete solubility dataset tasks retained. Teaspoon comparison limitations flagged.5printed separation response slots differ from6requested methods;request retained."
+      ],
+      "markAudit": {
+        "source": "Unmarked revision;proposed allocations",
+        "solubilityDataset": {
+          "water_mL": 250,
+          "teaspoons": {
+            "salt": 5,
+            "sugar": 7,
+            "alum": 10,
+            "copperSulfate": 6
+          }
+        }
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch72",
+      "questionIds": [
+        "SCI-REPO-Y7-UNKNOWN-DAILYTEMP-1",
+        "SCI-REPO-Y7-UNKNOWN-DAILYTEMP-2",
+        "SCI-REPO-Y7-UNKNOWN-DAILYTEMP-3",
+        "SCI-REPO-Y7-UNKNOWN-DAILYTEMP-4",
+        "SCI-REPO-Y7-UNKNOWN-DAILYTEMP-5",
+        "SCI-REPO-Y7-UNKNOWN-DAILYTEMP-6",
+        "SCI-REPO-Y7-UNKNOWN-DAILYTEMP-7",
+        "SCI-REPO-Y7-KOLBE-2021-GRAVITYSIM-path",
+        "SCI-REPO-Y7-KOLBE-2021-GRAVITYSIM-two-forces",
+        "SCI-REPO-Y7-KOLBE-2021-GRAVITYSIM-equal",
+        "SCI-REPO-Y7-KOLBE-2021-GRAVITYSIM-direction",
+        "SCI-REPO-Y7-KOLBE-2021-GRAVITYSIM-velocity",
+        "SCI-REPO-Y7-KOLBE-2021-GRAVITYSIM-gravity-off",
+        "SCI-REPO-Y7-KOLBE-2021-GRAVITYSIM-mass",
+        "SCI-REPO-Y7-KOLBE-2021-GRAVITYSIM-summary",
+        "SCI-REPO-Y7-KOLBE-2021-GRAVITYSIM-extension-choice",
+        "SCI-REPO-Y7-KOLBE-2021-GRAVITYSIM-extension-question",
+        "SCI-REPO-Y7-KOLBE-2021-GRAVITYSIM-extension-method",
+        "SCI-REPO-Y7-KOLBE-2021-GRAVITYSIM-extension-report",
+        "SCI-REPO-Y7-NARR-2018-WATERFILTER-question",
+        "SCI-REPO-Y7-NARR-2018-WATERFILTER-hypothesis",
+        "SCI-REPO-Y7-NARR-2018-WATERFILTER-apparatus",
+        "SCI-REPO-Y7-NARR-2018-WATERFILTER-results",
+        "SCI-REPO-Y7-NARR-2018-WATERFILTER-independent",
+        "SCI-REPO-Y7-NARR-2018-WATERFILTER-dependent",
+        "SCI-REPO-Y7-NARR-2018-WATERFILTER-controls",
+        "SCI-REPO-Y7-NARR-2018-WATERFILTER-appearance",
+        "SCI-REPO-Y7-NARR-2018-WATERFILTER-difficulty",
+        "SCI-REPO-Y7-NARR-2018-WATERFILTER-improve",
+        "SCI-REPO-Y7-NARR-2018-WATERFILTER-finding",
+        "SCI-REPO-Y7-NARR-2018-WATERFILTER-prediction",
+        "SCI-REPO-Y7-NARR-2018-WATERFILTER-graph"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Unknown School/5.2 Daily Changes Numeracy Assessment.docx",
+          "sha": "c4601eb6fe631639379779fd38eeba51f7ce8108",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Kolbe/2021/2021Y07InvestigationESS.docx",
+          "sha": "24f6a40f23512aa715358de29a28455dc1adfc46",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2018/Water Treatment Investigation 2018.docx",
+          "sha": "19178390cbf8d6904bbe991187d6f00db70c89d4",
+          "year": 7,
+          "role": "paper"
+        }
+      ],
+      "questions": 32,
+      "marks": 53,
+      "imageAudit": "question-source-packs/repo-science-batch72-audit.json",
+      "notes": [
+        "All7numeracy questions checked against exact14-reading source table. FullPhET guided8prompts and4extension prompts retained with proposed numeric marks under original A–D rubric. Full20-mark filtering investigation retained;mass/weight and unspecified weighed-object issues flagged."
+      ],
+      "markAudit": {
+        "dailyTemperature": 7,
+        "gravitySimulation": "A–D rubric;numeric marks proposed",
+        "waterFiltering": 20
+      },
+      "duplicateQuestionAliases": []
     }
   ],
   "files": [
@@ -13159,8 +14211,9 @@
       "sha": "5554e503617e4fb10ad9e6994c59d8bdc5d8869e",
       "year": 7,
       "size": 100087,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Classification reference poster only;visually inspected,no assessment prompts. Historical protozoa/coelenterate taxonomy not imported as new questions."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2017/Animals identification summary activity booklet.pdf",
@@ -13316,8 +14369,9 @@
       "sha": "aa0e762d902245b195056f02f39246211c2c58a2",
       "year": 7,
       "size": 92694,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Single biomagnification infographic only;visually inspected,no student prompts."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2018/7 3 Ecosystems Research B2 2015.doc",
@@ -13340,7 +14394,7 @@
       "sha": "5f1068beb65d82aecbe78047dcbfd9176747907b",
       "year": 7,
       "size": 90548,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -13373,7 +14427,7 @@
       "sha": "da771e88064dde95c68676e840706e0687a001f0",
       "year": 7,
       "size": 81473,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -13922,7 +14976,7 @@
       "sha": "c4601eb6fe631639379779fd38eeba51f7ce8108",
       "year": 7,
       "size": 86482,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -14714,7 +15768,7 @@
       "sha": "b2d9067a39274382f78de20a58fc4ae9fd777e59",
       "year": 7,
       "size": 103549,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -14835,7 +15889,7 @@
       "sha": "fbdbfeb88ef9baf3739582336df54983073d541a",
       "year": 7,
       "size": 94197,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -14859,7 +15913,7 @@
       "sha": "22f4ea032a67e9edfaf3ad843b92f765dcc1a93f",
       "year": 7,
       "size": 91180,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -15030,7 +16084,7 @@
       "sha": "24f6a40f23512aa715358de29a28455dc1adfc46",
       "year": 7,
       "size": 95947,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -15094,7 +16148,7 @@
       "sha": "19178390cbf8d6904bbe991187d6f00db70c89d4",
       "year": 7,
       "size": 87887,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -15102,7 +16156,7 @@
       "sha": "2691e1b4a3d22fd89444e7ca8ab4be58c4574142",
       "year": 7,
       "size": 105340,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -15126,7 +16180,7 @@
       "sha": "37abd5500d1675c17eaa638961105d45332fbc0d",
       "year": 7,
       "size": 105543,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -15190,7 +16244,7 @@
       "sha": "19178390cbf8d6904bbe991187d6f00db70c89d4",
       "year": 7,
       "size": 87887,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2018/Water Treatment Investigation 2018.docx"
     },
     {
@@ -29073,8 +30127,8 @@
     }
   ],
   "learningVaultCreatedKeySupplements": 924,
-  "remainingUniqueFileBlobs": 1381,
-  "learningVaultCreatedKeys": 1368,
+  "remainingUniqueFileBlobs": 1369,
+  "learningVaultCreatedKeys": 1530,
   "blockedSources": [
     {
       "sha": "49d4b7f3f8af844477b39abb856365aeb096cafd",
@@ -29286,7 +30340,7 @@
     "ocrPages": 1175,
     "ocrTextVerified": false
   },
-  "distinctSourceAndKeyReferences": 232,
+  "distinctSourceAndKeyReferences": 242,
   "unscoredQuestionsPreserved": 1,
   "activeAdditionalQuestionRequest": {
     "requestedAdditionalQuestions": 1000,
@@ -29301,12 +30355,12 @@
     "requestedAt": "2026-10-16",
     "scope": "All remaining Years 7–10 Science assessment papers; all question types, source figures, response space and marking guidance",
     "startingImportedQuestions": 1374,
-    "addedQuestions": 1228,
+    "addedQuestions": 1390,
     "status": "in_progress",
     "completionRule": "Every unique assessment paper reviewed; duplicates mapped and unreadable/protected files explicitly resolved. File-blob count is not a paper denominator.",
     "restoredQuestionsAfterDuplicateFix": 4,
-    "newlyExtractedQuestions": 1224,
-    "papersReviewedSinceRequest": 121,
+    "newlyExtractedQuestions": 1386,
+    "papersReviewedSinceRequest": 131,
     "canonicalSourceQuestionsReReviewed": 2
   },
   "sourceInventoryExclusions": {
@@ -29316,8 +30370,8 @@
     "note": "These are file metadata records, not papers or questions; excluded from import work without increasing question or paper totals."
   },
   "supportingResourceReview": {
-    "files": 33,
-    "uniqueBlobs": 30,
+    "files": 35,
+    "uniqueBlobs": 32,
     "audit": "question-source-packs/repo-science-supporting-resource-review.json",
     "countedAsPapers": false,
     "countedAsQuestions": false
@@ -29425,7 +30479,7 @@
       "resolution": "Locate original practical sheet; do not invent missing source directions."
     }
   ],
-  "reviewedDistinctSourceBlobs": 219,
+  "reviewedDistinctSourceBlobs": 231,
   "inventoryCountBasis": "Remaining unique file blobs counts pending or key-reference-pending identities, including protected inputs; it is not a remaining-paper or remaining-question estimate.",
   "canonicalUniverseReviewRepair": {
     "questionIds": [
@@ -29435,5 +30489,15 @@
     "questionCountChange": 0,
     "retiredAutomaticBattleItems": 2,
     "audit": "question-source-packs/repo-science-legacy-universe-review.json"
+  },
+  "canonicalYear7EarthReviewRepair": {
+    "questionIds": [
+      "SCI-REPO-Y7-NAR-2024-EARTH-MC01",
+      "SCI-REPO-Y7-NAR-2024-EARTH-MC03",
+      "SCI-REPO-Y7-NAR-2024-EARTH-MC08"
+    ],
+    "questionCountChange": 0,
+    "additionalAutomaticBattleItemsRemoved": 1,
+    "audit": "question-source-packs/repo-science-legacy-y7-earth-review.json"
   }
 }

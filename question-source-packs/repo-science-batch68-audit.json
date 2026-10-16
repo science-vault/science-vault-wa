@@ -1,0 +1,434 @@
+{
+  "batch": "repo-science-batch68",
+  "paperCount": 2,
+  "questionIds": [
+    "SCI-REPO-Y7-NARR-2018-ESS1-MC10",
+    "SCI-REPO-Y7-NARR-2018-ESS1-rotation",
+    "SCI-REPO-Y7-NARR-2018-ESS1-timezones",
+    "SCI-REPO-Y7-NARR-2018-ESS1-seasons"
+  ],
+  "questions": 4,
+  "multipleChoice": 1,
+  "writtenQuestions": 3,
+  "battleEligible": 1,
+  "marks": 13,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y7-NARR-2018-ESS1-timezones",
+      "note": "Date not supplied;three-hour premise is seasonal,not permanent."
+    }
+  ],
+  "imageAudit": [
+    {
+      "id": "e216-image2",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2018/Year 7 Earth and Space 1 Test 2018.docx",
+      "embeddedImage": "word/media/image2.jpeg",
+      "sha256": "2e902d254df95f0b44bcd481ad83443e0def5cf6a1311f7711b51d67078c8109",
+      "publishedSha256": "f7f90d7ddee852b48865a6a2ba80c89d0b23dce1159c4f3765bf8c19bb73417b",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e217-image2",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2019/Year 7 Earth and Space 1 Test 2019.docx",
+      "embeddedImage": "word/media/image2.jpeg",
+      "sha256": "2e902d254df95f0b44bcd481ad83443e0def5cf6a1311f7711b51d67078c8109",
+      "publishedSha256": "f7f90d7ddee852b48865a6a2ba80c89d0b23dce1159c4f3765bf8c19bb73417b",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2018/Year 7 Earth and Space 1 Test 2018.docx",
+      "sha": "2691e1b4a3d22fd89444e7ca8ab4be58c4574142",
+      "year": 7,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2019/Year 7 Earth and Space 1 Test 2019.docx",
+      "sha": "37abd5500d1675c17eaa638961105d45332fbc0d",
+      "year": 7,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [
+    {
+      "id": "sci-repo-y7-narr-2018-ess1-mc-1",
+      "title": "Year 7 Science — Solar System and Earth motions (original source MC)",
+      "course": "Science",
+      "yearGroup": 7,
+      "unit": "Earth and Space Sciences",
+      "parent": "Solar System and Earth motions",
+      "count": 1,
+      "kind": "assessment",
+      "assessmentCount": 1,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch68.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=7&search=SCI-REPO-Y7-NARR-2018-ESS1",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    }
+  ],
+  "createdKeys": 4,
+  "createdSupplements": 0,
+  "notes": [
+    "Both complete25-mark variants reviewed and equivalent prompts mapped to existing records. Original Orion image retained for retained questions. Source Moon-period/phases,meteor/meteorite and solar-name wording issues flagged;timezone answer conditional on Sydney daylight time."
+  ],
+  "markAudit": {
+    "eachPaper": 25,
+    "mc": 10,
+    "written": 15,
+    "ambiguousMCNumbers": [
+      1,
+      3,
+      8
+    ]
+  },
+  "duplicateQuestionAliases": [
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2018/Year 7 Earth and Space 1 Test 2018.docx",
+      "sourceFileSha": "2691e1b4a3d22fd89444e7ca8ab4be58c4574142",
+      "sourceQuestionNumber": "1",
+      "sourceParagraphs": [
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC01",
+      "reason": "Equivalent source question already present; not added or counted again.",
+      "reviewSupplement": {
+        "answer": "The intended choice is A (Sol),but the option combines Sol with “Solaris”. The conventional English name is the Sun;Sol is Latin. Do not assert Solaris as an official astronomical name.",
+        "note": "The intended choice is A (Sol),but the option combines Sol with “Solaris”. The conventional English name is the Sun;Sol is Latin. Do not assert Solaris as an official astronomical name."
+      }
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2018/Year 7 Earth and Space 1 Test 2018.docx",
+      "sourceFileSha": "2691e1b4a3d22fd89444e7ca8ab4be58c4574142",
+      "sourceQuestionNumber": "2",
+      "sourceParagraphs": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC02",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2018/Year 7 Earth and Space 1 Test 2018.docx",
+      "sourceFileSha": "2691e1b4a3d22fd89444e7ca8ab4be58c4574142",
+      "sourceQuestionNumber": "3",
+      "sourceParagraphs": [
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC03",
+      "reason": "Equivalent source question already present; not added or counted again.",
+      "reviewSupplement": {
+        "answer": "B is incorrect:the sidereal orbital period is about27.3days,not21. C’s self-shadow wording is misleading;phases arise from viewing the sunlit half at changing angles. D overstates “no atmosphere” since the Moon has a tenuous exosphere. Multiple wording problems prevent automatic marking.",
+        "note": "B is incorrect:the sidereal orbital period is about27.3days,not21. C’s self-shadow wording is misleading;phases arise from viewing the sunlit half at changing angles. D overstates “no atmosphere” since the Moon has a tenuous exosphere. Multiple wording problems prevent automatic marking."
+      }
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2018/Year 7 Earth and Space 1 Test 2018.docx",
+      "sourceFileSha": "2691e1b4a3d22fd89444e7ca8ab4be58c4574142",
+      "sourceQuestionNumber": "4",
+      "sourceParagraphs": [
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC04",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2018/Year 7 Earth and Space 1 Test 2018.docx",
+      "sourceFileSha": "2691e1b4a3d22fd89444e7ca8ab4be58c4574142",
+      "sourceQuestionNumber": "5",
+      "sourceParagraphs": [
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC05",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2018/Year 7 Earth and Space 1 Test 2018.docx",
+      "sourceFileSha": "2691e1b4a3d22fd89444e7ca8ab4be58c4574142",
+      "sourceQuestionNumber": "6",
+      "sourceParagraphs": [
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC06",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2018/Year 7 Earth and Space 1 Test 2018.docx",
+      "sourceFileSha": "2691e1b4a3d22fd89444e7ca8ab4be58c4574142",
+      "sourceQuestionNumber": "7",
+      "sourceParagraphs": [
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC07",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2018/Year 7 Earth and Space 1 Test 2018.docx",
+      "sourceFileSha": "2691e1b4a3d22fd89444e7ca8ab4be58c4574142",
+      "sourceQuestionNumber": "8",
+      "sourceParagraphs": [
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC08",
+      "reason": "Equivalent source question already present; not added or counted again.",
+      "reviewSupplement": {
+        "answer": "Ambiguous:shooting stars are meteors (light phenomena),meteorites are surviving fragments reaching the ground. A and B misuse meteorite/meteor terminology,and C is not well-defined. Retain for teacher review,not automatic battles.",
+        "note": "Ambiguous:shooting stars are meteors (light phenomena),meteorites are surviving fragments reaching the ground. A and B misuse meteorite/meteor terminology,and C is not well-defined. Retain for teacher review,not automatic battles."
+      }
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2018/Year 7 Earth and Space 1 Test 2018.docx",
+      "sourceFileSha": "2691e1b4a3d22fd89444e7ca8ab4be58c4574142",
+      "sourceQuestionNumber": "9",
+      "sourceParagraphs": [
+        64,
+        65,
+        66,
+        67,
+        68
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC09",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2018/Year 7 Earth and Space 1 Test 2018.docx",
+      "sourceFileSha": "2691e1b4a3d22fd89444e7ca8ab4be58c4574142",
+      "sourceQuestionNumber": "eclipse",
+      "sourceParagraphs": [
+        157
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-WR04",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2019/Year 7 Earth and Space 1 Test 2019.docx",
+      "sourceFileSha": "37abd5500d1675c17eaa638961105d45332fbc0d",
+      "sourceQuestionNumber": "1",
+      "sourceParagraphs": [
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC01",
+      "reason": "Equivalent source question already present; not added or counted again.",
+      "reviewSupplement": {
+        "answer": "The intended choice is A (Sol),but the option combines Sol with “Solaris”. The conventional English name is the Sun;Sol is Latin. Do not assert Solaris as an official astronomical name.",
+        "note": "The intended choice is A (Sol),but the option combines Sol with “Solaris”. The conventional English name is the Sun;Sol is Latin. Do not assert Solaris as an official astronomical name."
+      }
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2019/Year 7 Earth and Space 1 Test 2019.docx",
+      "sourceFileSha": "37abd5500d1675c17eaa638961105d45332fbc0d",
+      "sourceQuestionNumber": "2",
+      "sourceParagraphs": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC02",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2019/Year 7 Earth and Space 1 Test 2019.docx",
+      "sourceFileSha": "37abd5500d1675c17eaa638961105d45332fbc0d",
+      "sourceQuestionNumber": "3",
+      "sourceParagraphs": [
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC03",
+      "reason": "Equivalent source question already present; not added or counted again.",
+      "reviewSupplement": {
+        "answer": "B is incorrect:the sidereal orbital period is about27.3days,not21. C’s self-shadow wording is misleading;phases arise from viewing the sunlit half at changing angles. D overstates “no atmosphere” since the Moon has a tenuous exosphere. Multiple wording problems prevent automatic marking.",
+        "note": "B is incorrect:the sidereal orbital period is about27.3days,not21. C’s self-shadow wording is misleading;phases arise from viewing the sunlit half at changing angles. D overstates “no atmosphere” since the Moon has a tenuous exosphere. Multiple wording problems prevent automatic marking."
+      }
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2019/Year 7 Earth and Space 1 Test 2019.docx",
+      "sourceFileSha": "37abd5500d1675c17eaa638961105d45332fbc0d",
+      "sourceQuestionNumber": "4",
+      "sourceParagraphs": [
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC04",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2019/Year 7 Earth and Space 1 Test 2019.docx",
+      "sourceFileSha": "37abd5500d1675c17eaa638961105d45332fbc0d",
+      "sourceQuestionNumber": "5",
+      "sourceParagraphs": [
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC05",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2019/Year 7 Earth and Space 1 Test 2019.docx",
+      "sourceFileSha": "37abd5500d1675c17eaa638961105d45332fbc0d",
+      "sourceQuestionNumber": "6",
+      "sourceParagraphs": [
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC06",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2019/Year 7 Earth and Space 1 Test 2019.docx",
+      "sourceFileSha": "37abd5500d1675c17eaa638961105d45332fbc0d",
+      "sourceQuestionNumber": "7",
+      "sourceParagraphs": [
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC07",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2019/Year 7 Earth and Space 1 Test 2019.docx",
+      "sourceFileSha": "37abd5500d1675c17eaa638961105d45332fbc0d",
+      "sourceQuestionNumber": "8",
+      "sourceParagraphs": [
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC08",
+      "reason": "Equivalent source question already present; not added or counted again.",
+      "reviewSupplement": {
+        "answer": "Ambiguous:shooting stars are meteors (light phenomena),meteorites are surviving fragments reaching the ground. A and B misuse meteorite/meteor terminology,and C is not well-defined. Retain for teacher review,not automatic battles.",
+        "note": "Ambiguous:shooting stars are meteors (light phenomena),meteorites are surviving fragments reaching the ground. A and B misuse meteorite/meteor terminology,and C is not well-defined. Retain for teacher review,not automatic battles."
+      }
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2019/Year 7 Earth and Space 1 Test 2019.docx",
+      "sourceFileSha": "37abd5500d1675c17eaa638961105d45332fbc0d",
+      "sourceQuestionNumber": "9",
+      "sourceParagraphs": [
+        64,
+        65,
+        66,
+        67,
+        68
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC09",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2019/Year 7 Earth and Space 1 Test 2019.docx",
+      "sourceFileSha": "37abd5500d1675c17eaa638961105d45332fbc0d",
+      "sourceQuestionNumber": "10",
+      "sourceParagraphs": [
+        76,
+        77,
+        78,
+        79,
+        80,
+        71,
+        73
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NARR-2018-ESS1-MC10",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2019/Year 7 Earth and Space 1 Test 2019.docx",
+      "sourceFileSha": "37abd5500d1675c17eaa638961105d45332fbc0d",
+      "sourceQuestionNumber": "rotation",
+      "sourceParagraphs": [
+        116
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NARR-2018-ESS1-rotation",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2019/Year 7 Earth and Space 1 Test 2019.docx",
+      "sourceFileSha": "37abd5500d1675c17eaa638961105d45332fbc0d",
+      "sourceQuestionNumber": "timezones",
+      "sourceParagraphs": [
+        137
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NARR-2018-ESS1-timezones",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2019/Year 7 Earth and Space 1 Test 2019.docx",
+      "sourceFileSha": "37abd5500d1675c17eaa638961105d45332fbc0d",
+      "sourceQuestionNumber": "seasons",
+      "sourceParagraphs": [
+        147
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NARR-2018-ESS1-seasons",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2019/Year 7 Earth and Space 1 Test 2019.docx",
+      "sourceFileSha": "37abd5500d1675c17eaa638961105d45332fbc0d",
+      "sourceQuestionNumber": "eclipse",
+      "sourceParagraphs": [
+        157
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-WR04",
+      "reason": "Equivalent source question already present; not added or counted again."
+    }
+  ]
+}

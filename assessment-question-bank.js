@@ -23,9 +23,9 @@ document.write('<script src="assessment-science-strand-normalizer.js?v=2026.24">
 
 document.write('<script src="assessment-question-bank-science-complete.js?v=2026.10.15-lower-complete1"><\/script>');
 
-document.write('<script src="assessment-question-bank-science-source-batch01.js?v=2026.10.15-science-source1"><\/script>');
+document.write('<script src="assessment-question-bank-science-source-batch01.js?v=2026.10.16-source68-review"><\/script>');
 document.write('<script src="assessment-question-bank-science-source-batch02.js?v=2026.10.15-science-source2"><\/script>');
-document.write('<script src="assessment-question-bank-science-source-batch03.js?v=2026.10.15-science-source3-review-r1"><\/script>');
+document.write('<script src="assessment-question-bank-science-source-batch03.js?v=2026.10.15-science-source3-review-r1-review-r1"><\/script>');
 document.write('<script src="assessment-question-bank-science-source-batch04.js?v=2026.10.15-science-source4"><\/script>');
 document.write('<script src="assessment-question-bank-science-source-batch05.js?v=2026.10.15-science-source5"><\/script>');
 
@@ -151,3 +151,15 @@ document.write('<script src="assessment-question-bank-science-source-batch64.js?
 document.write('<script src="assessment-question-bank-science-source-batch65.js?v=2026.10.16-science-source65"><\/script>');
 
 document.write('<script src="assessment-question-bank-science-source-batch66.js?v=2026.10.16-science-source66"><\/script>');
+
+document.write('<script src="assessment-question-bank-science-source-batch67.js?v=2026.10.16-science-source67"><\/script>');
+
+document.write('<script src="assessment-question-bank-science-source-batch68.js?v=2026.10.16-science-source68"><\/script>');
+
+document.write('<script src="assessment-question-bank-science-source-batch69.js?v=2026.10.16-science-source69"><\/script>');
+
+document.write('<script src="assessment-question-bank-science-source-batch70.js?v=2026.10.16-science-source70"><\/script>');
+
+document.write('<script src="assessment-question-bank-science-source-batch71.js?v=2026.10.16-science-source71"><\/script>');
+
+document.write('<script src="assessment-question-bank-science-source-batch72.js?v=2026.10.16-science-source72"><\/script>');

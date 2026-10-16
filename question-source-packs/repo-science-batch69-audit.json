@@ -1,0 +1,80 @@
+{
+  "batch": "repo-science-batch69",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1a",
+    "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1b",
+    "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1c",
+    "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1d",
+    "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1e",
+    "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1f",
+    "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1g",
+    "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1h",
+    "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1i",
+    "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1j",
+    "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1k",
+    "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1l",
+    "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1m",
+    "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1n",
+    "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1o",
+    "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1p",
+    "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1q",
+    "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1r",
+    "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1s",
+    "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1t",
+    "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-2",
+    "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-3",
+    "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-4",
+    "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-5",
+    "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-6",
+    "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-7a",
+    "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-7b",
+    "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-7c",
+    "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-8-independent",
+    "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-8-dependent",
+    "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-8-controlled"
+  ],
+  "questions": 31,
+  "multipleChoice": 0,
+  "writtenQuestions": 31,
+  "battleEligible": 0,
+  "marks": 55,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1m",
+      "note": "Match the intended word while clarifying whether saturation refers to air/solution/soil,and distinguishing infiltration from percolation."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-1s",
+      "note": "Match the intended word while clarifying whether saturation refers to air/solution/soil,and distinguishing infiltration from percolation."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-3",
+      "note": "Proposed marking allocation;source unmarked.Classifications require a timescale and sustainability context."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNKNOWN-EARTHMIDREV-7c",
+      "note": "Proposed marking allocation;source unmarked."
+    }
+  ],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Earth and Space Sciences/Revision for Mid Topic Test.docx",
+      "sha": "b2d9067a39274382f78de20a58fc4ae9fd777e59",
+      "year": 7,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 31,
+  "createdSupplements": 0,
+  "notes": [
+    "Complete20-term matching,water cycle,resource/energy classifications,water distributions and variable definitions retained. Source unmarked;all allocations proposed. Soil renewal timescale and infiltration/percolation wording flagged;approximate water proportions identify their denominator."
+  ],
+  "markAudit": {
+    "source": "Unmarked revision;proposed allocations",
+    "matchingTerms": 20
+  },
+  "duplicateQuestionAliases": []
+}

@@ -1,0 +1,453 @@
+{
+  "batch": "repo-science-batch67",
+  "paperCount": 2,
+  "questionIds": [
+    "SCI-REPO-Y7-NARR-2018-BIO1-W1",
+    "SCI-REPO-Y7-NARR-2018-BIO1-W2",
+    "SCI-REPO-Y7-NARR-2018-BIO1-W3a",
+    "SCI-REPO-Y7-NARR-2018-BIO1-W3b",
+    "SCI-REPO-Y7-NARR-2018-BIO1-W3c",
+    "SCI-REPO-Y7-NARR-2018-BIO1-W3d",
+    "SCI-REPO-Y7-NARR-2018-BIO1-W3e",
+    "SCI-REPO-Y7-NARR-2019-BIO1-W2",
+    "SCI-REPO-Y7-NARR-2019-BIO1-W3a",
+    "SCI-REPO-Y7-NARR-2019-BIO1-W3b",
+    "SCI-REPO-Y7-NARR-2019-BIO1-W3c",
+    "SCI-REPO-Y7-NARR-2019-BIO1-W3d",
+    "SCI-REPO-Y7-NARR-2019-BIO1-W3e"
+  ],
+  "questions": 13,
+  "multipleChoice": 0,
+  "writtenQuestions": 13,
+  "battleEligible": 0,
+  "marks": 33,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y7-NARR-2018-BIO1-W3a",
+      "note": "The source does not clarify anatomical versus page-left convention;accept a consistently followed key path."
+    },
+    {
+      "id": "SCI-REPO-Y7-NARR-2019-BIO1-W3a",
+      "note": "The source does not clarify anatomical versus page-left convention;accept a consistently followed key path."
+    }
+  ],
+  "imageAudit": [
+    {
+      "id": "e208-image2",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2018/Biology 1 Test 2018.docx",
+      "embeddedImage": "word/media/image2.png",
+      "sha256": "72439f9fdb90c2932d75191fd0c819d08d64a8cfc9d7e50fdc4fdef4d1419661",
+      "publishedSha256": "ebade12a776dd91717171bf8c418a4f6863b4d575d7477ce2ab5981c0ea1674c",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e208-image3",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2018/Biology 1 Test 2018.docx",
+      "embeddedImage": "word/media/image3.png",
+      "sha256": "7bcc9e0ee68c09642a22de7b08c111ab18475cc0706777d0bc5bc9dcc2d30d17",
+      "publishedSha256": "73cabf7de4e6bcf1498391ef32b9060234679cd4979e72d26e233487c6002f47",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e208-image4",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2018/Biology 1 Test 2018.docx",
+      "embeddedImage": "word/media/image4.png",
+      "sha256": "92acd7358112798f3b1bac5932bd3c1d12de0cbea79f37a15da2ccd0561a195c",
+      "publishedSha256": "37ba9a4fd2f5d769d5481171dffb00527e29c17fee97521a2379cfc9ed518167",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e208-image5",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2018/Biology 1 Test 2018.docx",
+      "embeddedImage": "word/media/image5.png",
+      "sha256": "19fa13e8ca5eb3aa1febdefe928f36b56c71fd11dbd38433c1afd1bd2e4c4ac4",
+      "publishedSha256": "fb59720d343c560233750be1d84d61902bcabcd218d6977382c9516c010a4458",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e208-image6",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2018/Biology 1 Test 2018.docx",
+      "embeddedImage": "word/media/image6.png",
+      "sha256": "93e04eefb800bde3b6461eebc45f79e514adfda870756331a75eb07a396e7ffe",
+      "publishedSha256": "98afbd2635b0625ee4c8cb2c3faabaef188f863564d581d8e6294f2394fc2275",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e209-image2",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2019/Biology test.docx",
+      "embeddedImage": "word/media/image2.png",
+      "sha256": "72439f9fdb90c2932d75191fd0c819d08d64a8cfc9d7e50fdc4fdef4d1419661",
+      "publishedSha256": "ebade12a776dd91717171bf8c418a4f6863b4d575d7477ce2ab5981c0ea1674c",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e209-image3",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2019/Biology test.docx",
+      "embeddedImage": "word/media/image3.png",
+      "sha256": "7bcc9e0ee68c09642a22de7b08c111ab18475cc0706777d0bc5bc9dcc2d30d17",
+      "publishedSha256": "73cabf7de4e6bcf1498391ef32b9060234679cd4979e72d26e233487c6002f47",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e209-image4",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2019/Biology test.docx",
+      "embeddedImage": "word/media/image4.png",
+      "sha256": "92acd7358112798f3b1bac5932bd3c1d12de0cbea79f37a15da2ccd0561a195c",
+      "publishedSha256": "37ba9a4fd2f5d769d5481171dffb00527e29c17fee97521a2379cfc9ed518167",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e209-image5",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2019/Biology test.docx",
+      "embeddedImage": "word/media/image5.png",
+      "sha256": "19fa13e8ca5eb3aa1febdefe928f36b56c71fd11dbd38433c1afd1bd2e4c4ac4",
+      "publishedSha256": "fb59720d343c560233750be1d84d61902bcabcd218d6977382c9516c010a4458",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e209-image6",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2019/Biology test.docx",
+      "embeddedImage": "word/media/image6.png",
+      "sha256": "93e04eefb800bde3b6461eebc45f79e514adfda870756331a75eb07a396e7ffe",
+      "publishedSha256": "98afbd2635b0625ee4c8cb2c3faabaef188f863564d581d8e6294f2394fc2275",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2018/Biology 1 Test 2018.docx",
+      "sha": "5f1068beb65d82aecbe78047dcbfd9176747907b",
+      "year": 7,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2019/Biology test.docx",
+      "sha": "da771e88064dde95c68676e840706e0687a001f0",
+      "year": 7,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 13,
+  "createdSupplements": 0,
+  "notes": [
+    "Two complete30-mark biology test variants reviewed:10MC,7life-process marks,8matching marks,5creature identifications. Original5creature figures and full branching key retained. Left-leg convention flagged for manual review;common duplicate questions mapped.2019folder paper has2017internal heading."
+  ],
+  "markAudit": {
+    "eachPaper": 30,
+    "mc": 10,
+    "written": 20
+  },
+  "duplicateQuestionAliases": [
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2018/Biology 1 Test 2018.docx",
+      "sourceFileSha": "5f1068beb65d82aecbe78047dcbfd9176747907b",
+      "sourceQuestionNumber": "1",
+      "sourceParagraphs": [
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-BIO-MC01",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2018/Biology 1 Test 2018.docx",
+      "sourceFileSha": "5f1068beb65d82aecbe78047dcbfd9176747907b",
+      "sourceQuestionNumber": "2",
+      "sourceParagraphs": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-BIO-MC02",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2018/Biology 1 Test 2018.docx",
+      "sourceFileSha": "5f1068beb65d82aecbe78047dcbfd9176747907b",
+      "sourceQuestionNumber": "3",
+      "sourceParagraphs": [
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-BIO-MC03",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2018/Biology 1 Test 2018.docx",
+      "sourceFileSha": "5f1068beb65d82aecbe78047dcbfd9176747907b",
+      "sourceQuestionNumber": "4",
+      "sourceParagraphs": [
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-BIO-MC04",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2018/Biology 1 Test 2018.docx",
+      "sourceFileSha": "5f1068beb65d82aecbe78047dcbfd9176747907b",
+      "sourceQuestionNumber": "5",
+      "sourceParagraphs": [
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-BIO-MC05",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2018/Biology 1 Test 2018.docx",
+      "sourceFileSha": "5f1068beb65d82aecbe78047dcbfd9176747907b",
+      "sourceQuestionNumber": "6",
+      "sourceParagraphs": [
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-BIO-MC06",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2018/Biology 1 Test 2018.docx",
+      "sourceFileSha": "5f1068beb65d82aecbe78047dcbfd9176747907b",
+      "sourceQuestionNumber": "7",
+      "sourceParagraphs": [
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-BIO-MC07",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2018/Biology 1 Test 2018.docx",
+      "sourceFileSha": "5f1068beb65d82aecbe78047dcbfd9176747907b",
+      "sourceQuestionNumber": "8",
+      "sourceParagraphs": [
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-BIO-MC08",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2018/Biology 1 Test 2018.docx",
+      "sourceFileSha": "5f1068beb65d82aecbe78047dcbfd9176747907b",
+      "sourceQuestionNumber": "9",
+      "sourceParagraphs": [
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-BIO-MC09",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2018/Biology 1 Test 2018.docx",
+      "sourceFileSha": "5f1068beb65d82aecbe78047dcbfd9176747907b",
+      "sourceQuestionNumber": "10",
+      "sourceParagraphs": [
+        64,
+        65,
+        66,
+        67,
+        68
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-BIO-MC10",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2019/Biology test.docx",
+      "sourceFileSha": "da771e88064dde95c68676e840706e0687a001f0",
+      "sourceQuestionNumber": "1",
+      "sourceParagraphs": [
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-BIO-MC01",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2019/Biology test.docx",
+      "sourceFileSha": "da771e88064dde95c68676e840706e0687a001f0",
+      "sourceQuestionNumber": "2",
+      "sourceParagraphs": [
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-BIO-MC02",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2019/Biology test.docx",
+      "sourceFileSha": "da771e88064dde95c68676e840706e0687a001f0",
+      "sourceQuestionNumber": "3",
+      "sourceParagraphs": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-BIO-MC03",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2019/Biology test.docx",
+      "sourceFileSha": "da771e88064dde95c68676e840706e0687a001f0",
+      "sourceQuestionNumber": "4",
+      "sourceParagraphs": [
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-BIO-MC04",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2019/Biology test.docx",
+      "sourceFileSha": "da771e88064dde95c68676e840706e0687a001f0",
+      "sourceQuestionNumber": "5",
+      "sourceParagraphs": [
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-BIO-MC05",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2019/Biology test.docx",
+      "sourceFileSha": "da771e88064dde95c68676e840706e0687a001f0",
+      "sourceQuestionNumber": "6",
+      "sourceParagraphs": [
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-BIO-MC06",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2019/Biology test.docx",
+      "sourceFileSha": "da771e88064dde95c68676e840706e0687a001f0",
+      "sourceQuestionNumber": "7",
+      "sourceParagraphs": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-BIO-MC07",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2019/Biology test.docx",
+      "sourceFileSha": "da771e88064dde95c68676e840706e0687a001f0",
+      "sourceQuestionNumber": "8",
+      "sourceParagraphs": [
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-BIO-MC08",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2019/Biology test.docx",
+      "sourceFileSha": "da771e88064dde95c68676e840706e0687a001f0",
+      "sourceQuestionNumber": "9",
+      "sourceParagraphs": [
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-BIO-MC09",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2019/Biology test.docx",
+      "sourceFileSha": "da771e88064dde95c68676e840706e0687a001f0",
+      "sourceQuestionNumber": "10",
+      "sourceParagraphs": [
+        63,
+        64,
+        65,
+        66,
+        67
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-BIO-MC10",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2019/Biology test.docx",
+      "sourceFileSha": "da771e88064dde95c68676e840706e0687a001f0",
+      "sourceQuestionNumber": "W1",
+      "sourceParagraphs": [
+        95
+      ],
+      "existingQuestionId": "SCI-REPO-Y7-NARR-2018-BIO1-W1",
+      "reason": "Equivalent source question already present; not added or counted again."
+    }
+  ]
+}

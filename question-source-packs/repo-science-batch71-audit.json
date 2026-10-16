@@ -1,0 +1,124 @@
+{
+  "batch": "repo-science-batch71",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-1a",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-1b",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-1c",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-1d",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-1e",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-1f",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-1g",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-1h",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-1i",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-1j",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-1k",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-1l",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-1m",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-1n",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-1o",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-1p",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-2",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-3",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-4",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-5-1",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-5-2",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-5-3",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-5-4",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-5-5",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-5-6",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-5-7",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-5-8",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-5-9",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-5-10",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-6",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-7-kg",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-7-L",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-7-min",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-7-s",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-7-mm",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-7-m",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-7-g",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-7-cm",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-8-bar",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-8-pie",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-8-line",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-9",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-10",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-11",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-12-dilute",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-12-mixture",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-12-saturated",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-13-graph",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-13a",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-13b",
+    "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-13c"
+  ],
+  "questions": 51,
+  "multipleChoice": 0,
+  "writtenQuestions": 51,
+  "battleEligible": 0,
+  "marks": 75,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-1e",
+      "note": "Historical matching definition is imprecise;clarification supplied rather than silently changing source."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-1f",
+      "note": "Historical matching definition is imprecise;clarification supplied rather than silently changing source."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-1h",
+      "note": "Historical matching definition is imprecise;clarification supplied rather than silently changing source."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-1j",
+      "note": "Historical matching definition is imprecise;clarification supplied rather than silently changing source."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-13-graph",
+      "note": "Data compare teaspoon volumes of different solids;mass-based solubility cannot be inferred uniquely."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-13a",
+      "note": "Data compare teaspoon volumes of different solids;mass-based solubility cannot be inferred uniquely."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-13b",
+      "note": "Data compare teaspoon volumes of different solids;mass-based solubility cannot be inferred uniquely."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNKNOWN-MIDTERMREV-13c",
+      "note": "Data compare teaspoon volumes of different solids;mass-based solubility cannot be inferred uniquely."
+    }
+  ],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Year 7 Revision for Mid Topic Test Term One.docx",
+      "sha": "22f4ea032a67e9edfaf3ad843b92f765dcc1a93f",
+      "year": 7,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 51,
+  "createdSupplements": 0,
+  "notes": [
+    "All16matching terms,laboratory drawings,7science branches,10equipment uses,6separation methods,8unit symbols,3graph types,safety/definitions and complete solubility dataset tasks retained. Teaspoon comparison limitations flagged.5printed separation response slots differ from6requested methods;request retained."
+  ],
+  "markAudit": {
+    "source": "Unmarked revision;proposed allocations",
+    "solubilityDataset": {
+      "water_mL": 250,
+      "teaspoons": {
+        "salt": 5,
+        "sugar": 7,
+        "alum": 10,
+        "copperSulfate": 6
+      }
+    }
+  },
+  "duplicateQuestionAliases": []
+}

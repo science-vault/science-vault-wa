@@ -1,0 +1,86 @@
+{
+  "batch": "repo-science-batch72",
+  "paperCount": 3,
+  "questionIds": [
+    "SCI-REPO-Y7-UNKNOWN-DAILYTEMP-1",
+    "SCI-REPO-Y7-UNKNOWN-DAILYTEMP-2",
+    "SCI-REPO-Y7-UNKNOWN-DAILYTEMP-3",
+    "SCI-REPO-Y7-UNKNOWN-DAILYTEMP-4",
+    "SCI-REPO-Y7-UNKNOWN-DAILYTEMP-5",
+    "SCI-REPO-Y7-UNKNOWN-DAILYTEMP-6",
+    "SCI-REPO-Y7-UNKNOWN-DAILYTEMP-7",
+    "SCI-REPO-Y7-KOLBE-2021-GRAVITYSIM-path",
+    "SCI-REPO-Y7-KOLBE-2021-GRAVITYSIM-two-forces",
+    "SCI-REPO-Y7-KOLBE-2021-GRAVITYSIM-equal",
+    "SCI-REPO-Y7-KOLBE-2021-GRAVITYSIM-direction",
+    "SCI-REPO-Y7-KOLBE-2021-GRAVITYSIM-velocity",
+    "SCI-REPO-Y7-KOLBE-2021-GRAVITYSIM-gravity-off",
+    "SCI-REPO-Y7-KOLBE-2021-GRAVITYSIM-mass",
+    "SCI-REPO-Y7-KOLBE-2021-GRAVITYSIM-summary",
+    "SCI-REPO-Y7-KOLBE-2021-GRAVITYSIM-extension-choice",
+    "SCI-REPO-Y7-KOLBE-2021-GRAVITYSIM-extension-question",
+    "SCI-REPO-Y7-KOLBE-2021-GRAVITYSIM-extension-method",
+    "SCI-REPO-Y7-KOLBE-2021-GRAVITYSIM-extension-report",
+    "SCI-REPO-Y7-NARR-2018-WATERFILTER-question",
+    "SCI-REPO-Y7-NARR-2018-WATERFILTER-hypothesis",
+    "SCI-REPO-Y7-NARR-2018-WATERFILTER-apparatus",
+    "SCI-REPO-Y7-NARR-2018-WATERFILTER-results",
+    "SCI-REPO-Y7-NARR-2018-WATERFILTER-independent",
+    "SCI-REPO-Y7-NARR-2018-WATERFILTER-dependent",
+    "SCI-REPO-Y7-NARR-2018-WATERFILTER-controls",
+    "SCI-REPO-Y7-NARR-2018-WATERFILTER-appearance",
+    "SCI-REPO-Y7-NARR-2018-WATERFILTER-difficulty",
+    "SCI-REPO-Y7-NARR-2018-WATERFILTER-improve",
+    "SCI-REPO-Y7-NARR-2018-WATERFILTER-finding",
+    "SCI-REPO-Y7-NARR-2018-WATERFILTER-prediction",
+    "SCI-REPO-Y7-NARR-2018-WATERFILTER-graph"
+  ],
+  "questions": 32,
+  "multipleChoice": 0,
+  "writtenQuestions": 32,
+  "battleEligible": 0,
+  "marks": 53,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y7-NARR-2018-WATERFILTER-results",
+      "note": "Weighed object and kitchen/tea-towel wording need teacher clarification;no unique mass observation invented."
+    },
+    {
+      "id": "SCI-REPO-Y7-NARR-2018-WATERFILTER-dependent",
+      "note": "Use actual operational measure;filtrate appearance alone does not establish potability."
+    }
+  ],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Unknown School/5.2 Daily Changes Numeracy Assessment.docx",
+      "sha": "c4601eb6fe631639379779fd38eeba51f7ce8108",
+      "year": 7,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Kolbe/2021/2021Y07InvestigationESS.docx",
+      "sha": "24f6a40f23512aa715358de29a28455dc1adfc46",
+      "year": 7,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2018/Water Treatment Investigation 2018.docx",
+      "sha": "19178390cbf8d6904bbe991187d6f00db70c89d4",
+      "year": 7,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 32,
+  "createdSupplements": 0,
+  "notes": [
+    "All7numeracy questions checked against exact14-reading source table. FullPhET guided8prompts and4extension prompts retained with proposed numeric marks under original A–D rubric. Full20-mark filtering investigation retained;mass/weight and unspecified weighed-object issues flagged."
+  ],
+  "markAudit": {
+    "dailyTemperature": 7,
+    "gravitySimulation": "A–D rubric;numeric marks proposed",
+    "waterFiltering": 20
+  },
+  "duplicateQuestionAliases": []
+}
