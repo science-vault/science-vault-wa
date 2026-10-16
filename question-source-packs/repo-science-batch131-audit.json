@@ -1,0 +1,208 @@
+{
+  "batch": "repo-science-batch131",
+  "paperCount": 2,
+  "questionIds": [],
+  "questions": 0,
+  "multipleChoice": 0,
+  "writtenQuestions": 0,
+  "battleEligible": 0,
+  "marks": 0,
+  "reviewRequired": [],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/test/Year 9 Ecosystems Marking key.docx",
+      "sha": "f22344ba2a2faf49da6225e33a8af246fd453566",
+      "year": 9,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/Year 9 Ecosystems Marking key.docx",
+      "sha": "3f36aad8032aaab15f87220364d93aa906520620",
+      "year": 9,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 0,
+  "createdSupplements": 0,
+  "notes": [
+    "Two additional ecosystem keys mapped to the seven already checked written tasks. MCanswerpatterns differ across keys but do not supply stems,so no MCquestions inferred. Existing diagram-dependent review flags and conditional ecological predictions retained."
+  ],
+  "markAudit": {
+    "writtenPerVersion": 35,
+    "newQuestions": 0,
+    "MC": "No recoverable stems",
+    "missingFoodwebs": true
+  },
+  "duplicateQuestionAliases": [
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/test/Year 9 Ecosystems Marking key.docx",
+      "sourceFileSha": "f22344ba2a2faf49da6225e33a8af246fd453566",
+      "sourceQuestionNumber": "1a",
+      "sourceParagraphs": [
+        11
+      ],
+      "sourceMarks": 6,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ECOSYSTEMKEY-1a",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/test/Year 9 Ecosystems Marking key.docx",
+      "sourceFileSha": "f22344ba2a2faf49da6225e33a8af246fd453566",
+      "sourceQuestionNumber": "1b",
+      "sourceParagraphs": [
+        11
+      ],
+      "sourceMarks": 5,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ECOSYSTEMKEY-1b",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/test/Year 9 Ecosystems Marking key.docx",
+      "sourceFileSha": "f22344ba2a2faf49da6225e33a8af246fd453566",
+      "sourceQuestionNumber": "1c",
+      "sourceParagraphs": [
+        11
+      ],
+      "sourceMarks": 7,
+      "sourceType": "Diagram",
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ECOSYSTEMKEY-1c",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/test/Year 9 Ecosystems Marking key.docx",
+      "sourceFileSha": "f22344ba2a2faf49da6225e33a8af246fd453566",
+      "sourceQuestionNumber": "1d",
+      "sourceParagraphs": [
+        11
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ECOSYSTEMKEY-1d",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/test/Year 9 Ecosystems Marking key.docx",
+      "sourceFileSha": "f22344ba2a2faf49da6225e33a8af246fd453566",
+      "sourceQuestionNumber": "1e",
+      "sourceParagraphs": [
+        11
+      ],
+      "sourceMarks": 4,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ECOSYSTEMKEY-1e",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/test/Year 9 Ecosystems Marking key.docx",
+      "sourceFileSha": "f22344ba2a2faf49da6225e33a8af246fd453566",
+      "sourceQuestionNumber": "1f",
+      "sourceParagraphs": [
+        11
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ECOSYSTEMKEY-1f",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/test/Year 9 Ecosystems Marking key.docx",
+      "sourceFileSha": "f22344ba2a2faf49da6225e33a8af246fd453566",
+      "sourceQuestionNumber": "2",
+      "sourceParagraphs": [
+        15
+      ],
+      "sourceMarks": 10,
+      "sourceType": "Extended response",
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ECOSYSTEMKEY-2",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/Year 9 Ecosystems Marking key.docx",
+      "sourceFileSha": "3f36aad8032aaab15f87220364d93aa906520620",
+      "sourceQuestionNumber": "1a",
+      "sourceParagraphs": [
+        11
+      ],
+      "sourceMarks": 6,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ECOSYSTEMKEY-1a",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/Year 9 Ecosystems Marking key.docx",
+      "sourceFileSha": "3f36aad8032aaab15f87220364d93aa906520620",
+      "sourceQuestionNumber": "1b",
+      "sourceParagraphs": [
+        11
+      ],
+      "sourceMarks": 5,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ECOSYSTEMKEY-1b",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/Year 9 Ecosystems Marking key.docx",
+      "sourceFileSha": "3f36aad8032aaab15f87220364d93aa906520620",
+      "sourceQuestionNumber": "1c",
+      "sourceParagraphs": [
+        11
+      ],
+      "sourceMarks": 7,
+      "sourceType": "Diagram",
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ECOSYSTEMKEY-1c",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/Year 9 Ecosystems Marking key.docx",
+      "sourceFileSha": "3f36aad8032aaab15f87220364d93aa906520620",
+      "sourceQuestionNumber": "1d",
+      "sourceParagraphs": [
+        11
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ECOSYSTEMKEY-1d",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/Year 9 Ecosystems Marking key.docx",
+      "sourceFileSha": "3f36aad8032aaab15f87220364d93aa906520620",
+      "sourceQuestionNumber": "1e",
+      "sourceParagraphs": [
+        11
+      ],
+      "sourceMarks": 4,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ECOSYSTEMKEY-1e",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/Year 9 Ecosystems Marking key.docx",
+      "sourceFileSha": "3f36aad8032aaab15f87220364d93aa906520620",
+      "sourceQuestionNumber": "1f",
+      "sourceParagraphs": [
+        11
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ECOSYSTEMKEY-1f",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/Year 9 Ecosystems Marking key.docx",
+      "sourceFileSha": "3f36aad8032aaab15f87220364d93aa906520620",
+      "sourceQuestionNumber": "2",
+      "sourceParagraphs": [
+        15
+      ],
+      "sourceMarks": 10,
+      "sourceType": "Extended response",
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ECOSYSTEMKEY-2",
+      "reason": "Equivalent source question already present; not added or counted again."
+    }
+  ]
+}

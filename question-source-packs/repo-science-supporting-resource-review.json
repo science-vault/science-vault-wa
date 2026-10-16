@@ -1106,6 +1106,41 @@
       "path": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2016 Year 10 Earth and Space Program.docx",
       "sha": "b526742da35ba763898187b5d3990eb28925bc0c",
       "reason": "Teaching program, curriculum descriptors and assessment weights; no actual assigned questions."
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/Volcanic eruptions - - Information.docx",
+      "sha": "3192a31edd69be7e2a799b754a9c5a8ac0d38c17",
+      "reason": "Explanatory volcano notes only;no student assessment prompts."
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2016 Extension Physics Program Year 10.docx",
+      "sha": "b8b83e29fe9f13cc4c90124ae61f425408d1e6c7",
+      "reason": "Teaching program,curriculum outcomes and assessment weights only;no actual questions."
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Extension Physics Program year 10.docx",
+      "sha": "3379f78bd4ae0ed1a485d6f9ca6c06a56a88bd2d",
+      "reason": "Teaching program and glossary list only;no instruction to define or match glossary terms."
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/Study Guide- Mainstream WIP.docx",
+      "sha": "26e6d2469504d217df18b627dd4dc2c1e9c1adbe",
+      "reason": "Exam structure and broad revision-topic list only;actual questions absent."
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/Study Guide- Extension WIP.docx",
+      "sha": "41875be7c138be12b3148d82a505d473eec68398",
+      "reason": "Exam structure and broad revision-topic list only;actual questions absent."
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Psychology Elective/Safety Bay/2024/Assessments/Task 4 Semester 1 Online Notes.docx",
+      "sha": "7a17557bf493f9e54288cf5fdc5a05f6c96e1398",
+      "reason": "Generic notebook completion/detail/presentation rubric;no psychology content task supplied."
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Psychology Elective/Safety Bay/2024/Assessments/Task 8 Semester 1 Online Notes.docx",
+      "sha": "db8ac9c647d812784891767db7a88ca18e1105a5",
+      "reason": "Generic notebook completion/detail/presentation rubric;no psychology content task supplied."
     }
   ]
 }

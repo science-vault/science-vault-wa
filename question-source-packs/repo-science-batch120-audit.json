@@ -1,0 +1,720 @@
+{
+  "batch": "repo-science-batch120",
+  "paperCount": 6,
+  "questionIds": [],
+  "questions": 0,
+  "multipleChoice": 0,
+  "writtenQuestions": 0,
+  "battleEligible": 0,
+  "marks": 0,
+  "reviewRequired": [],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 SCIENCE PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+      "sha": "6dadf997b138337bfe58cf9231cea8cc300fa663",
+      "year": 10,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2012 10 GENERAL PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+      "sha": "d389f2b45f336678446644f7b8135002e076e856",
+      "year": 10,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Narrogin/2019/Task 6 Chemistry 1 Test Answer Sheet version 2 7 June 2018 by JJ.docx",
+      "sha": "11999c4e82fb208a2db39f8452552bdb2be23d23",
+      "year": 8,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Narrogin/2018/Task 6 Chemistry 1 Test Answer Sheet version 2 7 June 2018 by JJ.docx",
+      "sha": "b7add559b6ed2638ff45be318ce4b6654be64ce3",
+      "year": 8,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2016 Assessment life cycle of a star term2 mark.docx",
+      "sha": "dceebd2f4aa96ae9d9dfa29095b972b718de2175",
+      "year": 10,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2014 10 SCIENCE OZONE ASSIGNMENT - Sonya's version.docx",
+      "sha": "f7e2c1370f675737af7e3ff037f144da9db0bd35",
+      "year": 10,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 0,
+  "createdSupplements": 0,
+  "notes": [
+    "Six additional variants reviewed and mapped to existing tasks. Mendeleev2014/2012rubrics say metals for noble gases/halogens and contain inconsistent totals;original brief correctly asks elements. Their listed rows sum57,printedtotal42,header50. Two partial chemistry sheets contain the same7markformula table;remaining stems absent. Star file repeats the same poster four times. Full ozone brief now found and matches the previously flagged rubric framework;review flag remains for teacher confirmation."
+  ],
+  "markAudit": {
+    "mendeleev": {
+      "header": 50,
+      "printedRubric": 42,
+      "sumRows": 57,
+      "selected": 49,
+      "notesAndPresentation": 8
+    },
+    "chemistryTable": 7,
+    "star": {
+      "total": 36,
+      "selected": 30
+    },
+    "ozone": {
+      "total": 25,
+      "selected": 16
+    }
+  },
+  "duplicateQuestionAliases": [
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 SCIENCE PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+      "sourceFileSha": "6dadf997b138337bfe58cf9231cea8cc300fa663",
+      "sourceQuestionNumber": "birth",
+      "sourceParagraphs": [
+        9,
+        10,
+        43
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-birth",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 SCIENCE PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+      "sourceFileSha": "6dadf997b138337bfe58cf9231cea8cc300fa663",
+      "sourceQuestionNumber": "birthplace",
+      "sourceParagraphs": [
+        9,
+        10,
+        43
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-birthplace",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 SCIENCE PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+      "sourceFileSha": "6dadf997b138337bfe58cf9231cea8cc300fa663",
+      "sourceQuestionNumber": "death",
+      "sourceParagraphs": [
+        9,
+        10,
+        43
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-death",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 SCIENCE PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+      "sourceFileSha": "6dadf997b138337bfe58cf9231cea8cc300fa663",
+      "sourceQuestionNumber": "named",
+      "sourceParagraphs": [
+        9,
+        10,
+        43
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-named",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 SCIENCE PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+      "sourceFileSha": "6dadf997b138337bfe58cf9231cea8cc300fa663",
+      "sourceQuestionNumber": "achievements",
+      "sourceParagraphs": [
+        9,
+        10,
+        43
+      ],
+      "sourceMarks": 4,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-achievements",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 SCIENCE PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+      "sourceFileSha": "6dadf997b138337bfe58cf9231cea8cc300fa663",
+      "sourceQuestionNumber": "gaps",
+      "sourceParagraphs": [
+        9,
+        10,
+        43
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-gaps",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 SCIENCE PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+      "sourceFileSha": "6dadf997b138337bfe58cf9231cea8cc300fa663",
+      "sourceQuestionNumber": "predictions",
+      "sourceParagraphs": [
+        9,
+        10,
+        43
+      ],
+      "sourceMarks": 3,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-predictions",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 SCIENCE PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+      "sourceFileSha": "6dadf997b138337bfe58cf9231cea8cc300fa663",
+      "sourceQuestionNumber": "facts",
+      "sourceParagraphs": [
+        9,
+        10,
+        43
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-facts",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 SCIENCE PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+      "sourceFileSha": "6dadf997b138337bfe58cf9231cea8cc300fa663",
+      "sourceQuestionNumber": "alkali",
+      "sourceParagraphs": [
+        9,
+        10,
+        43
+      ],
+      "sourceMarks": 5,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-alkali",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 SCIENCE PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+      "sourceFileSha": "6dadf997b138337bfe58cf9231cea8cc300fa663",
+      "sourceQuestionNumber": "alkaline",
+      "sourceParagraphs": [
+        9,
+        10,
+        43
+      ],
+      "sourceMarks": 5,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-alkaline",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 SCIENCE PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+      "sourceFileSha": "6dadf997b138337bfe58cf9231cea8cc300fa663",
+      "sourceQuestionNumber": "radioactive",
+      "sourceParagraphs": [
+        9,
+        10,
+        43
+      ],
+      "sourceMarks": 5,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-radioactive",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 SCIENCE PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+      "sourceFileSha": "6dadf997b138337bfe58cf9231cea8cc300fa663",
+      "sourceQuestionNumber": "noble",
+      "sourceParagraphs": [
+        9,
+        10,
+        43
+      ],
+      "sourceMarks": 5,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-noble",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 SCIENCE PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+      "sourceFileSha": "6dadf997b138337bfe58cf9231cea8cc300fa663",
+      "sourceQuestionNumber": "halogen",
+      "sourceParagraphs": [
+        9,
+        10,
+        43
+      ],
+      "sourceMarks": 5,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-halogen",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 SCIENCE PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+      "sourceFileSha": "6dadf997b138337bfe58cf9231cea8cc300fa663",
+      "sourceQuestionNumber": "transition",
+      "sourceParagraphs": [
+        9,
+        10,
+        43
+      ],
+      "sourceMarks": 5,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-transition",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 SCIENCE PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+      "sourceFileSha": "6dadf997b138337bfe58cf9231cea8cc300fa663",
+      "sourceQuestionNumber": "references",
+      "sourceParagraphs": [
+        9,
+        10,
+        43
+      ],
+      "sourceMarks": 3,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-references",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2012 10 GENERAL PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+      "sourceFileSha": "d389f2b45f336678446644f7b8135002e076e856",
+      "sourceQuestionNumber": "birth",
+      "sourceParagraphs": [
+        9,
+        10,
+        43
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-birth",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2012 10 GENERAL PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+      "sourceFileSha": "d389f2b45f336678446644f7b8135002e076e856",
+      "sourceQuestionNumber": "birthplace",
+      "sourceParagraphs": [
+        9,
+        10,
+        43
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-birthplace",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2012 10 GENERAL PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+      "sourceFileSha": "d389f2b45f336678446644f7b8135002e076e856",
+      "sourceQuestionNumber": "death",
+      "sourceParagraphs": [
+        9,
+        10,
+        43
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-death",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2012 10 GENERAL PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+      "sourceFileSha": "d389f2b45f336678446644f7b8135002e076e856",
+      "sourceQuestionNumber": "named",
+      "sourceParagraphs": [
+        9,
+        10,
+        43
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-named",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2012 10 GENERAL PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+      "sourceFileSha": "d389f2b45f336678446644f7b8135002e076e856",
+      "sourceQuestionNumber": "achievements",
+      "sourceParagraphs": [
+        9,
+        10,
+        43
+      ],
+      "sourceMarks": 4,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-achievements",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2012 10 GENERAL PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+      "sourceFileSha": "d389f2b45f336678446644f7b8135002e076e856",
+      "sourceQuestionNumber": "gaps",
+      "sourceParagraphs": [
+        9,
+        10,
+        43
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-gaps",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2012 10 GENERAL PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+      "sourceFileSha": "d389f2b45f336678446644f7b8135002e076e856",
+      "sourceQuestionNumber": "predictions",
+      "sourceParagraphs": [
+        9,
+        10,
+        43
+      ],
+      "sourceMarks": 3,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-predictions",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2012 10 GENERAL PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+      "sourceFileSha": "d389f2b45f336678446644f7b8135002e076e856",
+      "sourceQuestionNumber": "facts",
+      "sourceParagraphs": [
+        9,
+        10,
+        43
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-facts",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2012 10 GENERAL PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+      "sourceFileSha": "d389f2b45f336678446644f7b8135002e076e856",
+      "sourceQuestionNumber": "alkali",
+      "sourceParagraphs": [
+        9,
+        10,
+        43
+      ],
+      "sourceMarks": 5,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-alkali",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2012 10 GENERAL PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+      "sourceFileSha": "d389f2b45f336678446644f7b8135002e076e856",
+      "sourceQuestionNumber": "alkaline",
+      "sourceParagraphs": [
+        9,
+        10,
+        43
+      ],
+      "sourceMarks": 5,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-alkaline",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2012 10 GENERAL PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+      "sourceFileSha": "d389f2b45f336678446644f7b8135002e076e856",
+      "sourceQuestionNumber": "radioactive",
+      "sourceParagraphs": [
+        9,
+        10,
+        43
+      ],
+      "sourceMarks": 5,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-radioactive",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2012 10 GENERAL PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+      "sourceFileSha": "d389f2b45f336678446644f7b8135002e076e856",
+      "sourceQuestionNumber": "noble",
+      "sourceParagraphs": [
+        9,
+        10,
+        43
+      ],
+      "sourceMarks": 5,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-noble",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2012 10 GENERAL PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+      "sourceFileSha": "d389f2b45f336678446644f7b8135002e076e856",
+      "sourceQuestionNumber": "halogen",
+      "sourceParagraphs": [
+        9,
+        10,
+        43
+      ],
+      "sourceMarks": 5,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-halogen",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2012 10 GENERAL PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+      "sourceFileSha": "d389f2b45f336678446644f7b8135002e076e856",
+      "sourceQuestionNumber": "transition",
+      "sourceParagraphs": [
+        9,
+        10,
+        43
+      ],
+      "sourceMarks": 5,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-transition",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2012 10 GENERAL PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
+      "sourceFileSha": "d389f2b45f336678446644f7b8135002e076e856",
+      "sourceQuestionNumber": "references",
+      "sourceParagraphs": [
+        9,
+        10,
+        43
+      ],
+      "sourceMarks": 3,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-MENDELEEV-301-references",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Narrogin/2019/Task 6 Chemistry 1 Test Answer Sheet version 2 7 June 2018 by JJ.docx",
+      "sourceFileSha": "11999c4e82fb208a2db39f8452552bdb2be23d23",
+      "sourceQuestionNumber": "6",
+      "sourceParagraphs": [
+        74,
+        75
+      ],
+      "sourceMarks": 7,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y8-NARR-2018-CHEMRESPONSE-6",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Narrogin/2018/Task 6 Chemistry 1 Test Answer Sheet version 2 7 June 2018 by JJ.docx",
+      "sourceFileSha": "b7add559b6ed2638ff45be318ce4b6654be64ce3",
+      "sourceQuestionNumber": "6",
+      "sourceParagraphs": [
+        74,
+        75
+      ],
+      "sourceMarks": 7,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y8-NARR-2018-CHEMRESPONSE-6",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2016 Assessment life cycle of a star term2 mark.docx",
+      "sourceFileSha": "dceebd2f4aa96ae9d9dfa29095b972b718de2175",
+      "sourceQuestionNumber": "definition",
+      "sourceParagraphs": [
+        7,
+        10,
+        11,
+        12,
+        13,
+        16,
+        21,
+        25
+      ],
+      "sourceMarks": 3,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-STARPOSTER-306-definition",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2016 Assessment life cycle of a star term2 mark.docx",
+      "sourceFileSha": "dceebd2f4aa96ae9d9dfa29095b972b718de2175",
+      "sourceQuestionNumber": "pathdiagram",
+      "sourceParagraphs": [
+        7,
+        10,
+        11,
+        12,
+        13,
+        16,
+        21,
+        25
+      ],
+      "sourceMarks": 4,
+      "sourceType": "Diagram",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-STARPOSTER-306-pathdiagram",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2016 Assessment life cycle of a star term2 mark.docx",
+      "sourceFileSha": "dceebd2f4aa96ae9d9dfa29095b972b718de2175",
+      "sourceQuestionNumber": "pathways",
+      "sourceParagraphs": [
+        7,
+        10,
+        11,
+        12,
+        13,
+        16,
+        21,
+        25
+      ],
+      "sourceMarks": 10,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-STARPOSTER-306-pathways",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2016 Assessment life cycle of a star term2 mark.docx",
+      "sourceFileSha": "dceebd2f4aa96ae9d9dfa29095b972b718de2175",
+      "sourceQuestionNumber": "mass",
+      "sourceParagraphs": [
+        7,
+        10,
+        11,
+        12,
+        13,
+        16,
+        21,
+        25
+      ],
+      "sourceMarks": 4,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-STARPOSTER-306-mass",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2016 Assessment life cycle of a star term2 mark.docx",
+      "sourceFileSha": "dceebd2f4aa96ae9d9dfa29095b972b718de2175",
+      "sourceQuestionNumber": "death",
+      "sourceParagraphs": [
+        7,
+        10,
+        11,
+        12,
+        13,
+        16,
+        21,
+        25
+      ],
+      "sourceMarks": 4,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-STARPOSTER-306-death",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2016 Assessment life cycle of a star term2 mark.docx",
+      "sourceFileSha": "dceebd2f4aa96ae9d9dfa29095b972b718de2175",
+      "sourceQuestionNumber": "labels",
+      "sourceParagraphs": [
+        7,
+        10,
+        11,
+        12,
+        13,
+        16,
+        21,
+        25
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-STARPOSTER-306-labels",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2016 Assessment life cycle of a star term2 mark.docx",
+      "sourceFileSha": "dceebd2f4aa96ae9d9dfa29095b972b718de2175",
+      "sourceQuestionNumber": "references",
+      "sourceParagraphs": [
+        7,
+        10,
+        11,
+        12,
+        13,
+        16,
+        21,
+        25
+      ],
+      "sourceMarks": 3,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-STARPOSTER-306-references",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2014 10 SCIENCE OZONE ASSIGNMENT - Sonya's version.docx",
+      "sourceFileSha": "f7e2c1370f675737af7e3ff037f144da9db0bd35",
+      "sourceQuestionNumber": "uses",
+      "sourceParagraphs": [
+        12,
+        34
+      ],
+      "sourceMarks": 5,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2014-OZONERUBRIC-uses",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2014 10 SCIENCE OZONE ASSIGNMENT - Sonya's version.docx",
+      "sourceFileSha": "f7e2c1370f675737af7e3ff037f144da9db0bd35",
+      "sourceQuestionNumber": "protocol",
+      "sourceParagraphs": [
+        12,
+        34
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2014-OZONERUBRIC-protocol",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2014 10 SCIENCE OZONE ASSIGNMENT - Sonya's version.docx",
+      "sourceFileSha": "f7e2c1370f675737af7e3ff037f144da9db0bd35",
+      "sourceQuestionNumber": "mechanism",
+      "sourceParagraphs": [
+        12,
+        34
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2014-OZONERUBRIC-mechanism",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2014 10 SCIENCE OZONE ASSIGNMENT - Sonya's version.docx",
+      "sourceFileSha": "f7e2c1370f675737af7e3ff037f144da9db0bd35",
+      "sourceQuestionNumber": "impacts",
+      "sourceParagraphs": [
+        12,
+        34
+      ],
+      "sourceMarks": 4,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2014-OZONERUBRIC-impacts",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2014 10 SCIENCE OZONE ASSIGNMENT - Sonya's version.docx",
+      "sourceFileSha": "f7e2c1370f675737af7e3ff037f144da9db0bd35",
+      "sourceQuestionNumber": "references",
+      "sourceParagraphs": [
+        12,
+        34
+      ],
+      "sourceMarks": 3,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2014-OZONERUBRIC-references",
+      "reason": "Equivalent source question already present; not added or counted again."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "questionIds": [
+    "SCI-REPO-Y10-B10-D27-MC08",
+    "SCI-REPO-Y10-B10-D27-MC10",
+    "SCI-REPO-Y10-B10-D27-MC12"
+  ],
+  "notes": {
+    "SCI-REPO-Y10-B10-D27-MC08": {
+      "answer": "C is intended for monatomic ions,but ions also include charged groups of atoms;the source wording is incomplete.",
+      "note": "Source wording/formula defect requires teacher review."
+    },
+    "SCI-REPO-Y10-B10-D27-MC10": {
+      "answer": "K2NO3 is not the usual neutral potassium nitrate formula (KNO3). OptionAgC1 uses digit1 rather than lowercase l and is also invalid if read literally;intended AgCl is a valid formula. Do not automatically mark this defective item.",
+      "note": "Source wording/formula defect requires teacher review."
+    },
+    "SCI-REPO-Y10-B10-D27-MC12": {
+      "answer": "Hydrogen is intended under the introductory Br\u00f8nsted/aqueous acid definition. Not every Lewis acid contains hydrogen,so the unrestricted all-acids claim is false.",
+      "note": "Source wording/formula defect requires teacher review."
+    }
+  },
+  "additionalAutomaticItemsRemoved": 1,
+  "questionCountChange": 0
+}

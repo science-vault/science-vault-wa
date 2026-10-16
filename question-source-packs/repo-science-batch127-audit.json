@@ -1,0 +1,49 @@
+{
+  "batch": "repo-science-batch127",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y9-NARR-2022-DISASTER-map",
+    "SCI-REPO-Y9-NARR-2022-DISASTER-location",
+    "SCI-REPO-Y9-NARR-2022-DISASTER-spheres",
+    "SCI-REPO-Y9-NARR-2022-DISASTER-human",
+    "SCI-REPO-Y9-NARR-2022-DISASTER-cause",
+    "SCI-REPO-Y9-NARR-2022-DISASTER-glossary",
+    "SCI-REPO-Y9-NARR-2022-DISASTER-bibliography"
+  ],
+  "questions": 7,
+  "multipleChoice": 0,
+  "writtenQuestions": 7,
+  "battleEligible": 0,
+  "marks": 19,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y9-NARR-2022-DISASTER-map",
+      "note": "Map2marks proposed;other allocations taken from source rubric."
+    }
+  ],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Narrogin/2022/Year 9 Natural Disaster Research 2022.docx",
+      "sha": "b9a3e9d2a68acac542bb037d1fff6da04e1ff73d",
+      "year": 9,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 0,
+  "createdSupplements": 7,
+  "notes": [
+    "Full research/validation assignment reviewed. Four scored validation prompts11marks retained;zero-mark event-selection field is context,not a new question. Bibliography3andglossary3retained;notes organisation3tracked separately. Map2proposed because explicitly required but unmarked."
+  ],
+  "markAudit": {
+    "printedTotal": 20,
+    "validation": 11,
+    "bibliography": 3,
+    "glossary": 3,
+    "notesOrganisation": 3,
+    "mapProposed": 2,
+    "selected": 19
+  },
+  "duplicateQuestionAliases": []
+}

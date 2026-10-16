@@ -1,0 +1,60 @@
+{
+  "batch": "repo-science-batch125",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y10-ARAN-MOTIONREV-convert-a",
+    "SCI-REPO-Y10-ARAN-MOTIONREV-convert-b",
+    "SCI-REPO-Y10-ARAN-MOTIONREV-velocity-unit",
+    "SCI-REPO-Y10-ARAN-MOTIONREV-velocity-formula",
+    "SCI-REPO-Y10-ARAN-MOTIONREV-distance-formula",
+    "SCI-REPO-Y10-ARAN-MOTIONREV-car-speed",
+    "SCI-REPO-Y10-ARAN-MOTIONREV-car-kmh",
+    "SCI-REPO-Y10-ARAN-MOTIONREV-train",
+    "SCI-REPO-Y10-ARAN-MOTIONREV-accel-unit",
+    "SCI-REPO-Y10-ARAN-MOTIONREV-accel-formula",
+    "SCI-REPO-Y10-ARAN-MOTIONREV-final-formula",
+    "SCI-REPO-Y10-ARAN-MOTIONREV-car-accel",
+    "SCI-REPO-Y10-ARAN-MOTIONREV-final-car",
+    "SCI-REPO-Y10-ARAN-MOTIONREV-gravity",
+    "SCI-REPO-Y10-ARAN-MOTIONREV-force-unit",
+    "SCI-REPO-Y10-ARAN-MOTIONREV-force-formula",
+    "SCI-REPO-Y10-ARAN-MOTIONREV-force-accel",
+    "SCI-REPO-Y10-ARAN-MOTIONREV-mass60",
+    "SCI-REPO-Y10-ARAN-MOTIONREV-mass45"
+  ],
+  "questions": 19,
+  "multipleChoice": 0,
+  "writtenQuestions": 19,
+  "battleEligible": 0,
+  "marks": 26,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y10-ARAN-MOTIONREV-final-car",
+      "note": "Unmarked revision;allocation proposed. Printed acceleration unit requires correction."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-MOTIONREV-mass60",
+      "note": "Unmarked revision;allocation proposed. Printed acceleration unit requires correction."
+    }
+  ],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/Revise ch 8.1 -8.2.docx",
+      "sha": "0449070ef0b2f6c38f289055b2653de40892591c",
+      "year": 10,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 19,
+  "createdSupplements": 0,
+  "notes": [
+    "All explicit unit/conversion/formula and numerical prompts retained. Six generic headings are not expanded into unspecified essays. Incorrect acceleration units in two calculations flagged;conditional numerical keys use m/s²."
+  ],
+  "markAudit": {
+    "sourceMarks": null,
+    "proposed": 26
+  },
+  "duplicateQuestionAliases": []
+}

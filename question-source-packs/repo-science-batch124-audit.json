@@ -1,0 +1,147 @@
+{
+  "batch": "repo-science-batch124",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-MC01",
+    "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-MC02",
+    "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-MC03",
+    "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-MC04",
+    "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-MC05",
+    "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-MC06",
+    "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-MC07",
+    "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-SAa",
+    "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-SAb",
+    "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-SAc",
+    "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-heat",
+    "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-match1",
+    "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-match2",
+    "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-match3",
+    "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-match4",
+    "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-match5",
+    "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-match6",
+    "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-match7",
+    "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-match8",
+    "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-match9",
+    "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-match10",
+    "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-match11",
+    "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-match12",
+    "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-term1",
+    "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-term2",
+    "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-term3",
+    "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-term4",
+    "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-term5",
+    "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-term6",
+    "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-term7",
+    "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-term8",
+    "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-term9",
+    "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-term10",
+    "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-term11"
+  ],
+  "questions": 34,
+  "multipleChoice": 7,
+  "writtenQuestions": 27,
+  "battleEligible": 6,
+  "marks": 40,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-MC03",
+      "note": "Unmarked draft;proposed1mark. Broad magnetite wording allows more than one answer."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-SAb",
+      "note": "Unmarked draft;allocation proposed;supplied geodynamic explanation qualified."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-SAc",
+      "note": "Unmarked draft;allocation proposed;supplied geodynamic explanation qualified."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-heat",
+      "note": "Unmarked draft;allocation proposed;supplied geodynamic explanation qualified."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-match5",
+      "note": "Unmarked draft;proposed1mark per match. Historical/simplified definitions need qualification."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-match7",
+      "note": "Unmarked draft;proposed1mark per match. Historical/simplified definitions need qualification."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-match9",
+      "note": "Unmarked draft;proposed1mark per match. Historical/simplified definitions need qualification."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-match10",
+      "note": "Unmarked draft;proposed1mark per match. Historical/simplified definitions need qualification."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-term1",
+      "note": "Unmarked draft;proposed1mark per term;source definition/key defects flagged."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-term3",
+      "note": "Unmarked draft;proposed1mark per term;source definition/key defects flagged."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-term9",
+      "note": "Unmarked draft;proposed1mark per term;source definition/key defects flagged."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-term10",
+      "note": "Unmarked draft;proposed1mark per term;source definition/key defects flagged."
+    }
+  ],
+  "imageAudit": [
+    {
+      "id": "e359-image1",
+      "source": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Aranmore/2014 Geology Mid Topic Test Ch 10.1 & 10.2 draft.docx",
+      "embeddedImage": "word/media/image1.gif",
+      "sha256": "b2a4501fe3ad0570df9fa687c4e60e70289c209e0341b239381b52f4bf8ad64a",
+      "publishedSha256": "185f2d6bc190333965771e91d9ffc446673033db827b93e27ca874b200e1cf0d",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Aranmore/2014 Geology Mid Topic Test Ch 10.1 & 10.2 draft.docx",
+      "sha": "cd3ff60d6651620b8f8884c4ee805939d9788a3a",
+      "year": 9,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [
+    {
+      "id": "sci-repo-y9-aran-2014-geologydraft-mc-1",
+      "title": "Year 9 Science — Continental drift and plate tectonics draft test (original source MC)",
+      "course": "Science",
+      "yearGroup": 9,
+      "unit": "Earth and Space Sciences",
+      "parent": "Continental drift and plate tectonics draft test",
+      "count": 6,
+      "kind": "assessment",
+      "assessmentCount": 6,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch124.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=9&search=SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    }
+  ],
+  "createdKeys": 0,
+  "createdSupplements": 34,
+  "notes": [
+    "Full draft test reviewed:7MC,4written explanations,12matching rows and11definition rows. Original tectonic map visually checked and preserved. All marks proposed. Corrected upper/lower mantle,subduction melting,crust/lithosphere and ambiguous polar-current wording."
+  ],
+  "markAudit": {
+    "sourceMarks": null,
+    "MCProposed": 7,
+    "shortAnswerProposed": 10,
+    "matchingProposed": 12,
+    "termsProposed": 11,
+    "totalProposed": 40
+  },
+  "duplicateQuestionAliases": []
+}

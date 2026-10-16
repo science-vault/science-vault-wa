@@ -1,0 +1,13 @@
+{
+  "questionIds": [
+    "SCI-REPO-Y7-B09-D11-MC02"
+  ],
+  "notes": {
+    "SCI-REPO-Y7-B09-D11-MC02": {
+      "answer": "Rapid evaporation commonly gives smaller crystals by allowing less growth time,but outcome depends on conditions. A and D overlap,and no-crystal claims need conditions;this is not a unique automatic question.",
+      "note": "Overlapping rapid-evaporation choices need teacher review."
+    }
+  },
+  "additionalAutomaticItemsRemoved": 1,
+  "questionCountChange": 0
+}
