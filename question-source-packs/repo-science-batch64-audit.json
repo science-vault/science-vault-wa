@@ -1,0 +1,90 @@
+{
+  "batch": "repo-science-batch64",
+  "paperCount": 2,
+  "questionIds": [
+    "SCI-REPO-Y7-UNKNOWN-EVAPMASS-aim",
+    "SCI-REPO-Y7-UNKNOWN-EVAPMASS-prediction",
+    "SCI-REPO-Y7-UNKNOWN-EVAPMASS-hypothesis",
+    "SCI-REPO-Y7-UNKNOWN-EVAPMASS-independent",
+    "SCI-REPO-Y7-UNKNOWN-EVAPMASS-dependent",
+    "SCI-REPO-Y7-UNKNOWN-EVAPMASS-controlled",
+    "SCI-REPO-Y7-UNKNOWN-EVAPMASS-equipment",
+    "SCI-REPO-Y7-UNKNOWN-EVAPMASS-tense1",
+    "SCI-REPO-Y7-UNKNOWN-EVAPMASS-tense2",
+    "SCI-REPO-Y7-UNKNOWN-EVAPMASS-tense3",
+    "SCI-REPO-Y7-UNKNOWN-EVAPMASS-tense4",
+    "SCI-REPO-Y7-UNKNOWN-EVAPMASS-tense5",
+    "SCI-REPO-Y7-UNKNOWN-EVAPMASS-tense6",
+    "SCI-REPO-Y7-UNKNOWN-EVAPMASS-tense7",
+    "SCI-REPO-Y7-UNKNOWN-EVAPMASS-tense8",
+    "SCI-REPO-Y7-UNKNOWN-EVAPMASS-tense9",
+    "SCI-REPO-Y7-UNKNOWN-EVAPMASS-tense10",
+    "SCI-REPO-Y7-UNKNOWN-EVAPMASS-safety",
+    "SCI-REPO-Y7-UNKNOWN-EVAPMASS-results",
+    "SCI-REPO-Y7-UNKNOWN-EVAPMASS-compare",
+    "SCI-REPO-Y7-UNKNOWN-EVAPMASS-class",
+    "SCI-REPO-Y7-UNKNOWN-EVAPMASS-confounds",
+    "SCI-REPO-Y7-UNKNOWN-EVAPMASS-graph",
+    "SCI-REPO-Y7-UNKNOWN-EVAPMASS-conclusion",
+    "SCI-REPO-Y7-UNKNOWN-EVAPMASS-difficulties",
+    "SCI-REPO-Y7-UNKNOWN-EVAPMASS-improvements",
+    "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-aim",
+    "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-prediction",
+    "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-hypothesis",
+    "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-independent",
+    "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-dependent",
+    "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-controlled",
+    "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-equipment",
+    "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-tense1",
+    "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-tense2",
+    "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-tense3",
+    "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-tense4",
+    "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-tense5",
+    "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-tense6",
+    "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-tense7",
+    "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-tense8",
+    "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-tense9",
+    "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-safety",
+    "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-results",
+    "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-conclusion",
+    "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-difficulties",
+    "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-improvements"
+  ],
+  "questions": 47,
+  "multipleChoice": 0,
+  "writtenQuestions": 47,
+  "battleEligible": 0,
+  "marks": 67,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y7-UNKNOWN-EVAPMASS-results",
+      "note": "Table labels mL but starts from container+water masses; teacher must clarify quantities and scoring."
+    }
+  ],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Earth and Space Sciences/Measuring Evaporation Laboratory Assessment.docx",
+      "sha": "941bd785c11f23141e37771ea0556ce13b50f854",
+      "year": 7,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment.docx",
+      "sha": "57775cc924096313ddfb8d557959e914fe3f4d94",
+      "year": 7,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 47,
+  "createdSupplements": 0,
+  "notes": [
+    "Complete41-mark mass-loss assessment preserved:7 planning+12 tense+1 safety+4 results+6 discussion+5 graph+4 conclusion+2evaluation. Table quantity ambiguity flagged. Fast/slow evaporation worksheet preserves all9 tense items and written sections using explicitly proposed marks;no fabricated observations."
+  ],
+  "markAudit": {
+    "massLoss": 41,
+    "fastSlow": "Source unmarked; proposed allocations"
+  },
+  "duplicateQuestionAliases": []
+}

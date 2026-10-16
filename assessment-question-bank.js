@@ -135,3 +135,19 @@ document.write('<script src="assessment-question-bank-science-source-batch56.js?
 document.write('<script src="assessment-question-bank-science-source-batch57.js?v=2026.10.16-science-source57"><\/script>');
 
 document.write('<script src="assessment-question-bank-science-source-batch58.js?v=2026.10.16-science-source58"><\/script>');
+
+document.write('<script src="assessment-question-bank-science-source-batch59.js?v=2026.10.16-science-source59"><\/script>');
+
+document.write('<script src="assessment-question-bank-science-source-batch60.js?v=2026.10.16-science-source60"><\/script>');
+
+document.write('<script src="assessment-question-bank-science-source-batch61.js?v=2026.10.16-science-source61"><\/script>');
+
+document.write('<script src="assessment-question-bank-science-source-batch62.js?v=2026.10.16-science-source62"><\/script>');
+
+document.write('<script src="assessment-question-bank-science-source-batch63.js?v=2026.10.16-science-source63"><\/script>');
+
+document.write('<script src="assessment-question-bank-science-source-batch64.js?v=2026.10.16-science-source64"><\/script>');
+
+document.write('<script src="assessment-question-bank-science-source-batch65.js?v=2026.10.16-science-source65"><\/script>');
+
+document.write('<script src="assessment-question-bank-science-source-batch66.js?v=2026.10.16-science-source66"><\/script>');

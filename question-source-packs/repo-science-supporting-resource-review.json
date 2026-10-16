@@ -616,6 +616,385 @@
           "Calcium carbonate – CaCO3 Uses: Limestone"
         ]
       ]
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Narrogin/2018/Year 8 Science Crystal Investigation Experiment Report Booklet.docx",
+      "sha": "14a4551c9b5c405e41a1a4f2ab05180d3e890b1a",
+      "status": "reviewed_supporting_resource",
+      "reason": "Generic crystal-investigation report booklet with blank headings only and no stated independent/dependent conditions or actual question; supporting template pending class context.",
+      "sourceBodyText": [
+        [
+          0,
+          "Year 8 Science Crystal Investigation Experiment Report Booklet   Name: ________________"
+        ],
+        [
+          2,
+          "Title: _________________________________________________________________"
+        ],
+        [
+          4,
+          "Aim: ______________________________________________________________________________"
+        ],
+        [
+          5,
+          "__________________________________________________________________________________"
+        ],
+        [
+          6,
+          "__________________________________________________________________________________"
+        ],
+        [
+          8,
+          "Hypothesis: ________________________________________________________________________"
+        ],
+        [
+          9,
+          "__________________________________________________________________________________"
+        ],
+        [
+          10,
+          "__________________________________________________________________________________"
+        ],
+        [
+          12,
+          "Equipment:"
+        ],
+        [
+          19,
+          "Procedure:"
+        ],
+        [
+          21,
+          "Variables:"
+        ],
+        [
+          22,
+          "Independent: ____________________________________________"
+        ],
+        [
+          24,
+          "Dependent: ____________________________________________"
+        ],
+        [
+          26,
+          "Controlled variables:   ___________________________________________"
+        ],
+        [
+          27,
+          "___________________________________________"
+        ],
+        [
+          28,
+          "___________________________________________"
+        ],
+        [
+          30,
+          "Results:"
+        ],
+        [
+          48,
+          "Graph: Cut and paste here"
+        ],
+        [
+          75,
+          "Discussion: ________________________________________________________________________"
+        ],
+        [
+          76,
+          "_________________________________________________________________________________"
+        ],
+        [
+          77,
+          "_________________________________________________________________________________"
+        ],
+        [
+          78,
+          "_________________________________________________________________________________"
+        ],
+        [
+          79,
+          "_________________________________________________________________________________"
+        ],
+        [
+          80,
+          "_________________________________________________________________________________"
+        ],
+        [
+          86,
+          "Conclusion: _______________________________________________________________________"
+        ],
+        [
+          87,
+          "_________________________________________________________________________________"
+        ],
+        [
+          88,
+          "_________________________________________________________________________________"
+        ],
+        [
+          89,
+          "_________________________________________________________________________________"
+        ],
+        [
+          90,
+          "_________________________________________________________________________________"
+        ],
+        [
+          101,
+          "END OF REPORT"
+        ]
+      ]
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Unknown/Revision for Year 7 End of Topic Test.docx",
+      "sha": "849116f416d0c8a0b81cb308c0b510f25bb5fde4",
+      "status": "reviewed_supporting_resource",
+      "reason": "Verified empty Word body: one blank paragraph and section properties, no text, images, embedded objects or alternative HTML content. No recoverable question content.",
+      "sourceBodyText": []
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Investigating Sciences/Safety Bay/2018/Lower school investigation marking rubric.docx",
+      "sha": "fcc04db275ca273bcbdecae38ca11fb175bc107d",
+      "status": "reviewed_supporting_resource",
+      "reason": "Candles-and-rising-water marking rubric only; no actual experimental question, variable conditions or method supplied. Supporting scoring resource, not invented investigation questions.",
+      "sourceBodyText": [
+        [
+          0,
+          "Candles and Rising Water Marking rubric"
+        ],
+        [
+          2,
+          "OutcomeMarkInvestigation written in past tense and 3rd person1AimIncludes independent and dependent variable1HypothesisHypothesis includes both independent and dependent variable in correct format2VariablesIdentified at least 3 controlled variables 1Identified independent variable1Identified dependent variable1Equipment and methodCorrect reference from textbook1ResultsData presented in suitable table1Repeated trials0.5Averages0.5Units included in table0.5Appropriate headings0.5Graph containing title, title on axis, units on axis, correct type, correct data, pencil, ruler (deduct half mark for missing parts)5DiscussionState whether the hypothesis was supported/unsupported1Use examples from results to show if hypothesis was supported/unsupported1Use research to explain why the results obtained2EvaluationList 2 errors/difficulties experienced in investigation1Describes 2 solutions to the errors/difficulties experienced in the investigation2Total23"
+        ]
+      ]
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/Bacteria Investigation- Teacher information sheet (2).docx",
+      "sha": "e8614a9a5126a2999e8fe2cb0b69fd961efc880d",
+      "status": "reviewed_supporting_resource",
+      "reason": "Teacher-only bacteria investigation equipment/group-allocation/presentation notes; no student assessment prompts.",
+      "sourceBodyText": [
+        [
+          0,
+          "Bacteria Investigation- Teacher’s notes"
+        ],
+        [
+          1,
+          "Per group 2 agar plates are allowed to use. One without the line is for dirty hand and the one with the line is for the cleaning agent."
+        ],
+        [
+          2,
+          "10 groups per class"
+        ],
+        [
+          3,
+          "Bar of soap – 2 sets"
+        ],
+        [
+          4,
+          "Detergent - 2 sets"
+        ],
+        [
+          5,
+          "Hand wash( Dettol)- 2 sets"
+        ],
+        [
+          6,
+          "Water - 2 sets"
+        ],
+        [
+          7,
+          "Sanitiser-2 sets"
+        ],
+        [
+          8,
+          "Extra"
+        ],
+        [
+          9,
+          "Sticky tape"
+        ],
+        [
+          10,
+          "sticky labels"
+        ],
+        [
+          11,
+          "swabs"
+        ],
+        [
+          12,
+          "plastic tray"
+        ],
+        [
+          13,
+          "Plastic bags"
+        ],
+        [
+          14,
+          "Access to an incubator"
+        ],
+        [
+          15,
+          "Permanent marker for the teacher"
+        ],
+        [
+          16,
+          "For results"
+        ],
+        [
+          17,
+          "Share the class results. Take photographs and compare results."
+        ],
+        [
+          18,
+          "Presentation"
+        ],
+        [
+          19,
+          "Presentation in the form of an A3 sized poster."
+        ]
+      ]
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/Bacteria Investigation- Teacher information sheet.docx",
+      "sha": "ed987ef12bed28ee2f26722f7e95b4b466fba86e",
+      "status": "reviewed_supporting_resource",
+      "reason": "Same teacher-only bacteria equipment/group-allocation/presentation notes with title typo; no student assessment prompts.",
+      "sourceBodyText": [
+        [
+          0,
+          "oacteria Investigation- Teacher’s notes"
+        ],
+        [
+          1,
+          "Per group 2 agar plates are allowed to use. One without the line is for dirty hand and the one with the line is for the cleaning agent."
+        ],
+        [
+          2,
+          "10 groups per class"
+        ],
+        [
+          3,
+          "Bar of soap – 2 sets"
+        ],
+        [
+          4,
+          "Detergent - 2 sets"
+        ],
+        [
+          5,
+          "Hand wash( Dettol)- 2 sets"
+        ],
+        [
+          6,
+          "Water - 2 sets"
+        ],
+        [
+          7,
+          "Sanitiser-2 sets"
+        ],
+        [
+          8,
+          "Extra"
+        ],
+        [
+          9,
+          "Sticky tape"
+        ],
+        [
+          10,
+          "sticky labels"
+        ],
+        [
+          11,
+          "swabs"
+        ],
+        [
+          12,
+          "plastic tray"
+        ],
+        [
+          13,
+          "Plastic bags"
+        ],
+        [
+          14,
+          "Access to an incubator"
+        ],
+        [
+          15,
+          "Permanent marker for the teacher"
+        ],
+        [
+          16,
+          "For results"
+        ],
+        [
+          17,
+          "Share the class results. Take photographs and compare results."
+        ],
+        [
+          18,
+          "Presentation"
+        ],
+        [
+          19,
+          "Presentation in the form of an A3 sized poster."
+        ]
+      ]
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Safety Bay/2017/Investigation Edited/Assessment Geological Map.docx",
+      "sha": "a787876e420ad5a8e100e48d755a8943b325649f",
+      "status": "reviewed_supporting_resource",
+      "reason": "Companion geological map/legend used by the rock assessment, preserved in the question source pack; supporting reference, not another paper or question.",
+      "sourceBodyText": [
+        [
+          0,
+          "Sedimentary Igneous Metamorphic (Quartzite) Sedimentary Igneous (Basalt) Metamorphic (Quartzite) Igneous (Basalt) Basic Geological Map AustraliaKeySedimentary Igneous Metamorphic (Quartzite) Sedimentary Igneous (Basalt) Metamorphic (Quartzite) Igneous (Basalt) Basic Geological Map AustraliaKey"
+        ]
+      ]
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/Sample investigation on bacteria growth.docx",
+      "sha": "b40383b3555dd005c56a0ac6c13a542b2ef0f245",
+      "reason": "Reviewed supporting research text/link list; no assessment questions or student response tasks."
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/links.docx",
+      "sha": "4ffd479699dfffb05fec4afd8b6a78362477d3c9",
+      "reason": "Reviewed supporting research text/link list; no assessment questions or student response tasks."
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2017/Plant Transport System1.docx",
+      "sha": "e40fd3529e77fbf2f4af5aac51181f896040f637",
+      "reason": "Only labelled plant transport cross-section and title; no student prompt or response task."
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Narrogin/2023/Year_7_8_Energy_The_Basics_Powerpoint-Student_Worksheet.docx",
+      "sha": "c136c41009260e890839e165e2cf0b63cec3837e",
+      "reason": "Only linked Energy presentation title and branding; no worksheet questions in document body."
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Narrogin/2023/Year_7_8_Energy_The_Basics_Powerpoint-Teacher_Worksheet.docx",
+      "sha": "031ab6a196d4ef05b42c7d9894f98495ed5ee53c",
+      "reason": "Teacher energy background and linked presentation; no assessment prompts. Background claims are not converted into invented questions."
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2017/Classification list.docx",
+      "sha": "84d9845113b666bd01c72b07ab0b4094c4706a37",
+      "reason": "Two images only: classification rank list and mnemonic; visually inspected, no questions."
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2017/biomagnification 1.docx",
+      "sha": "37f9da24c94d129eda84f18ff20cb1925cd3f2f8",
+      "reason": "Single labelled biomagnification infographic; visually inspected, no student questions."
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Persuasive Essay Rubric new.docx",
+      "sha": "713670fcabc0afdd68d4668be071a87f555b622e",
+      "reason": "Generic persuasive-writing rubric only; no assigned science topic or question."
     }
   ]
 }

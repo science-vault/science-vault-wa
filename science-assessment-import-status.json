@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.16-science-source58",
+  "version": "2026.10.16-science-source66",
   "status": "in_progress",
   "scope": "Original Science assessment files in repository, Years 7–10. File counts include keys and supporting materials; they are not question counts.",
   "inventoryFiles": 2009,
@@ -11,10 +11,10 @@
     "9": 457,
     "10": 582
   },
-  "importedPapers": 163,
-  "importedQuestions": 2400,
+  "importedPapers": 184,
+  "importedQuestions": 2602,
   "multipleChoice": 776,
-  "writtenQuestions": 1624,
+  "writtenQuestions": 1826,
   "battleEligibleQuestions": 679,
   "reviewRequired": [
     {
@@ -1256,6 +1256,98 @@
     {
       "id": "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P2-draft-final",
       "note": "Part2 cover says10 but explicit4+2+4+2 allocations sum12; draft and final phase retained together to avoid inflating repeated response counts."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-conclusion",
+      "note": "Referenced lab-report instruction sheet is absent; proposed marking breakdown is explicitly identified."
+    },
+    {
+      "id": "SCI-REPO-Y7-KOLBE-2021-RESEARCH-summary",
+      "note": "Research question intentionally left blank in source; teacher must supply it before assigning or marking."
+    },
+    {
+      "id": "SCI-REPO-Y7-KOLBE-2021-RESEARCH-explain",
+      "note": "Research question intentionally left blank in source; teacher must supply it before assigning or marking."
+    },
+    {
+      "id": "SCI-REPO-Y7-KOLBE-2021-RESEARCH-references",
+      "note": "Research question intentionally left blank in source; teacher must supply it before assigning or marking."
+    },
+    {
+      "id": "SCI-REPO-Y7-KOLBE-2021-RESEARCH-notes",
+      "note": "Research question intentionally left blank in source; teacher must supply it before assigning or marking."
+    },
+    {
+      "id": "SCI-REPO-Y7-SBY-2017-HOTCOOL-SCAFFOLD-independent",
+      "note": "Actual deliberately changed drink/condition in the assigned investigation."
+    },
+    {
+      "id": "SCI-REPO-Y7-SBY-2017-HOTCOOL-SCAFFOLD-dependent",
+      "note": "Measured temperature over time/cooling rate, with suitable units and consistent comparison interval."
+    },
+    {
+      "id": "SCI-REPO-Y7-SBY-2017-HOTCOOL-SCAFFOLD-method-reference",
+      "note": "Correct actual assigned textbook and page. Not determinable from this file; teacher must supply the reference."
+    },
+    {
+      "id": "SCI-REPO-Y7-SBY-2017-HOTCOOL-KEYVARIANT-explain",
+      "note": "Additional prompt appears in key but not the matching scaffold; assign only with actual practical context."
+    },
+    {
+      "id": "SCI-REPO-Y7-SBY-2017-MACHINESREV-ma-mass",
+      "note": "All marks are proposed because revision sheet supplies no allocations. Source mass/force unit inconsistency explicitly corrected."
+    },
+    {
+      "id": "SCI-REPO-Y7-SBY-2017-MACHINESREV-jack-explain",
+      "note": "All marks are proposed because revision sheet supplies no allocations."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2017-MICROSCOPE-history",
+      "note": "History examples require verified sources; magnification table leaves objective powers unspecified."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2017-MICROSCOPE-magnification",
+      "note": "History examples require verified sources; magnification table leaves objective powers unspecified."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2018-MICROSCOPE-history",
+      "note": "History examples require verified sources; magnification table leaves objective powers unspecified."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2018-MICROSCOPE-magnification",
+      "note": "History examples require verified sources; magnification table leaves objective powers unspecified."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2013-DENSITY-method",
+      "note": "Textbook chapter6.3 and actual student-designed procedure must be supplied."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2018-ENERGYSOURCES-australia",
+      "note": "Source asks broad “resource used most”; electricity context and data year explicitly stated."
+    },
+    {
+      "id": "SCI-REPO-Y7-NARR-2022-INVERTVALID-2",
+      "note": "Student’s selected phylum and original research are required for individual marking."
+    },
+    {
+      "id": "SCI-REPO-Y7-NARR-2022-INVERTVALID-3",
+      "note": "Student’s selected phylum and original research are required for individual marking."
+    },
+    {
+      "id": "SCI-REPO-Y7-NARR-2022-INVERTVALID-4",
+      "note": "Student’s selected phylum and original research are required for individual marking."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNKNOWN-EVAPMASS-results",
+      "note": "Table labels mL but starts from container+water masses; teacher must clarify quantities and scoring."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-PERTHWATER-need",
+      "note": "Historical source introduction is outdated;use current utility information."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-PERTHWATER-bibliography",
+      "note": "School diary reference format not embedded;teacher supplies format."
     },
     {
       "id": "SCI-REPO-Y10-NAR-2024-UNIVERSE-MC02",
@@ -11934,6 +12026,874 @@
         "combinedCovers": 38
       },
       "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch59",
+      "questionIds": [
+        "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-background",
+        "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-aim",
+        "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-hypothesis",
+        "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-diagram",
+        "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-conclusion",
+        "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-results",
+        "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-variables",
+        "SCI-REPO-Y9-SBY-2017-HANDCLEAN-177-results",
+        "SCI-REPO-Y9-SBY-2017-HANDCLEAN-178-results"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/GROWING BACTERIA INVESTIGATION ( mdified).docx",
+          "sha": "46cfcedeffebd3ee923cccc946810761ac3d4eb0",
+          "year": 9,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/Bacteria investigation - marking key (2).docx",
+          "sha": "f9369e49d1e097074128ee44ac6012a71212f3f4",
+          "year": 9,
+          "role": "key_reference",
+          "reviewComplete": true
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/GROWING BACTERIA INVESTIGATION (2).docx",
+          "sha": "f5c10aa512256ecdaab49b89bb1de5c08e51cb5b",
+          "year": 9,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/Bacteria investigation - marking key.docx",
+          "sha": "d984b967c069e2a0f9788cd9f6c3078cabc089e0",
+          "year": 9,
+          "role": "key_reference",
+          "reviewComplete": true
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/GROWING BACTERIA INVESTIGATION.docx",
+          "sha": "96247c9a08541c6db81f340d8fa3d130c64b2c35",
+          "year": 9,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/MARKING GUIDE.docx",
+          "sha": "a954aec2798fa24c48dcf2a43b085cb16b922b97",
+          "year": 9,
+          "role": "key_reference",
+          "reviewComplete": true
+        }
+      ],
+      "questions": 9,
+      "marks": 26,
+      "imageAudit": "question-source-packs/repo-science-batch59-audit.json",
+      "notes": [
+        "Three full report/planner variants reviewed; identical shared prompts deduplicated while result-presentation variants retained. Original report task marks15 plus presentation2 total17; planner variables receive separately labelled proposed3 marks. Standalone15-mark rubrics have results2 rather than4 and are preserved as alternate key references, not separate papers. Research sample and link list are supporting resources, not questions. Missing lab-report guide tracked explicitly; no results invented."
+      ],
+      "markAudit": {
+        "eachReport": {
+          "taskMarks": 15,
+          "presentationOnly": 2,
+          "total": 17,
+          "plannerProposedAdditional": 3
+        },
+        "standaloneRubric": {
+          "results": 2,
+          "taskMarks": 13,
+          "presentationOnly": 2,
+          "total": 15
+        }
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/GROWING BACTERIA INVESTIGATION (2).docx",
+          "sourceFileSha": "f5c10aa512256ecdaab49b89bb1de5c08e51cb5b",
+          "sourceQuestionNumber": "background",
+          "sourceParagraphs": [
+            3,
+            6,
+            20
+          ],
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-background",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/GROWING BACTERIA INVESTIGATION (2).docx",
+          "sourceFileSha": "f5c10aa512256ecdaab49b89bb1de5c08e51cb5b",
+          "sourceQuestionNumber": "aim",
+          "sourceParagraphs": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            23
+          ],
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-aim",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/GROWING BACTERIA INVESTIGATION (2).docx",
+          "sourceFileSha": "f5c10aa512256ecdaab49b89bb1de5c08e51cb5b",
+          "sourceQuestionNumber": "hypothesis",
+          "sourceParagraphs": [
+            11,
+            12,
+            13,
+            14,
+            23
+          ],
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-hypothesis",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/GROWING BACTERIA INVESTIGATION (2).docx",
+          "sourceFileSha": "f5c10aa512256ecdaab49b89bb1de5c08e51cb5b",
+          "sourceQuestionNumber": "diagram",
+          "sourceParagraphs": [
+            30
+          ],
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-diagram",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/GROWING BACTERIA INVESTIGATION (2).docx",
+          "sourceFileSha": "f5c10aa512256ecdaab49b89bb1de5c08e51cb5b",
+          "sourceQuestionNumber": "conclusion",
+          "sourceParagraphs": [
+            30
+          ],
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-conclusion",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/GROWING BACTERIA INVESTIGATION (2).docx",
+          "sourceFileSha": "f5c10aa512256ecdaab49b89bb1de5c08e51cb5b",
+          "sourceQuestionNumber": "variables",
+          "sourceParagraphs": [
+            23
+          ],
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-variables",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/GROWING BACTERIA INVESTIGATION.docx",
+          "sourceFileSha": "96247c9a08541c6db81f340d8fa3d130c64b2c35",
+          "sourceQuestionNumber": "background",
+          "sourceParagraphs": [
+            3,
+            6,
+            20
+          ],
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-background",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/GROWING BACTERIA INVESTIGATION.docx",
+          "sourceFileSha": "96247c9a08541c6db81f340d8fa3d130c64b2c35",
+          "sourceQuestionNumber": "aim",
+          "sourceParagraphs": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            23
+          ],
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-aim",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/GROWING BACTERIA INVESTIGATION.docx",
+          "sourceFileSha": "96247c9a08541c6db81f340d8fa3d130c64b2c35",
+          "sourceQuestionNumber": "hypothesis",
+          "sourceParagraphs": [
+            11,
+            12,
+            13,
+            14,
+            23
+          ],
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-hypothesis",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/GROWING BACTERIA INVESTIGATION.docx",
+          "sourceFileSha": "96247c9a08541c6db81f340d8fa3d130c64b2c35",
+          "sourceQuestionNumber": "diagram",
+          "sourceParagraphs": [
+            30
+          ],
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-diagram",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/GROWING BACTERIA INVESTIGATION.docx",
+          "sourceFileSha": "96247c9a08541c6db81f340d8fa3d130c64b2c35",
+          "sourceQuestionNumber": "conclusion",
+          "sourceParagraphs": [
+            30
+          ],
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-conclusion",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/GROWING BACTERIA INVESTIGATION.docx",
+          "sourceFileSha": "96247c9a08541c6db81f340d8fa3d130c64b2c35",
+          "sourceQuestionNumber": "variables",
+          "sourceParagraphs": [
+            23
+          ],
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-variables",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch60",
+      "questionIds": [
+        "SCI-REPO-Y7-MLAW-2022-SUGAR-aim",
+        "SCI-REPO-Y7-MLAW-2022-SUGAR-independent",
+        "SCI-REPO-Y7-MLAW-2022-SUGAR-dependent",
+        "SCI-REPO-Y7-MLAW-2022-SUGAR-controls",
+        "SCI-REPO-Y7-MLAW-2022-SUGAR-hypothesis",
+        "SCI-REPO-Y7-MLAW-2022-SUGAR-table",
+        "SCI-REPO-Y7-MLAW-2022-SUGAR-diagram",
+        "SCI-REPO-Y7-MLAW-2022-SUGAR-pattern",
+        "SCI-REPO-Y7-MLAW-2022-SUGAR-support",
+        "SCI-REPO-Y7-MLAW-2022-SUGAR-fairness",
+        "SCI-REPO-Y7-MLAW-2022-SUGAR-improve",
+        "SCI-REPO-Y7-MLAW-2022-SUGAR-safety",
+        "SCI-REPO-Y7-KOLBE-2021-RESEARCH-summary",
+        "SCI-REPO-Y7-KOLBE-2021-RESEARCH-explain",
+        "SCI-REPO-Y7-KOLBE-2021-RESEARCH-references",
+        "SCI-REPO-Y7-KOLBE-2021-RESEARCH-notes",
+        "SCI-REPO-Y7-SBY-2017-HOTCOOL-SCAFFOLD-aim",
+        "SCI-REPO-Y7-SBY-2017-HOTCOOL-SCAFFOLD-independent",
+        "SCI-REPO-Y7-SBY-2017-HOTCOOL-SCAFFOLD-dependent",
+        "SCI-REPO-Y7-SBY-2017-HOTCOOL-SCAFFOLD-controls",
+        "SCI-REPO-Y7-SBY-2017-HOTCOOL-SCAFFOLD-hypothesis",
+        "SCI-REPO-Y7-SBY-2017-HOTCOOL-SCAFFOLD-method-reference",
+        "SCI-REPO-Y7-SBY-2017-HOTCOOL-SCAFFOLD-diagram",
+        "SCI-REPO-Y7-SBY-2017-HOTCOOL-SCAFFOLD-results",
+        "SCI-REPO-Y7-SBY-2017-HOTCOOL-SCAFFOLD-fastest",
+        "SCI-REPO-Y7-SBY-2017-HOTCOOL-SCAFFOLD-slowest",
+        "SCI-REPO-Y7-SBY-2017-HOTCOOL-SCAFFOLD-trend",
+        "SCI-REPO-Y7-SBY-2017-HOTCOOL-SCAFFOLD-improve",
+        "SCI-REPO-Y7-SBY-2017-HOTCOOL-SCAFFOLD-conclusion",
+        "SCI-REPO-Y7-SBY-2017-HOTCOOL-KEYVARIANT-explain"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Mount Lawley/2022 Sugar cube & Temp Investigation.docx",
+          "sha": "7668698c97e0edcb55f1a8be6441ca2fc24ebdce",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Kolbe/2021/Year 7 Task 2 2021 Research Summary.docx",
+          "sha": "261fb82b2361a39156dd51f70d48caa3d7834685",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling - assessment/Hot drinks cooling scaffolded report.docx",
+          "sha": "795be28b265e4db72d38620c7cd4f5b8dbcb604d",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling - assessment/Hot drinks cooling report MARKING KEY.docx",
+          "sha": "d72d1a29c97e1ce8286a871db28463de6fd1d5aa",
+          "year": 7,
+          "role": "paper"
+        }
+      ],
+      "questions": 30,
+      "marks": 64,
+      "imageAudit": "question-source-packs/repo-science-batch60-audit.json",
+      "notes": [
+        "Sugar-cube assessment12 tasks total25marks. Research14 content marks plus2 presentation total16; no unspecified research question invented. Hot-drinks scaffold23 marks, matching key adds a2-mark explanation absent from scaffold (25 total); preserved as distinct key-only task variant. Missing textbook method tracked."
+      ],
+      "markAudit": {
+        "sugar": 25,
+        "research": {
+          "content": 14,
+          "presentation": 2,
+          "total": 16
+        },
+        "hotDrinks": {
+          "scaffold": 23,
+          "keyExtra": 2,
+          "keyTotal": 25
+        }
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch61",
+      "questionIds": [
+        "SCI-REPO-Y7-SBY-2017-MACHINESREV-load",
+        "SCI-REPO-Y7-SBY-2017-MACHINESREV-effort",
+        "SCI-REPO-Y7-SBY-2017-MACHINESREV-force-magnifier",
+        "SCI-REPO-Y7-SBY-2017-MACHINESREV-fulcrum",
+        "SCI-REPO-Y7-SBY-2017-MACHINESREV-machine",
+        "SCI-REPO-Y7-SBY-2017-MACHINESREV-screw",
+        "SCI-REPO-Y7-SBY-2017-MACHINESREV-stone-tools",
+        "SCI-REPO-Y7-SBY-2017-MACHINESREV-eggbeater",
+        "SCI-REPO-Y7-SBY-2017-MACHINESREV-bottlecap",
+        "SCI-REPO-Y7-SBY-2017-MACHINESREV-wedge",
+        "SCI-REPO-Y7-SBY-2017-MACHINESREV-ma-formula",
+        "SCI-REPO-Y7-SBY-2017-MACHINESREV-ma-mass",
+        "SCI-REPO-Y7-SBY-2017-MACHINESREV-jack",
+        "SCI-REPO-Y7-SBY-2017-MACHINESREV-jack-explain",
+        "SCI-REPO-Y7-SBY-2017-MACHINESREV-examples",
+        "SCI-REPO-Y7-SBY-2017-MACHINESREV-crowbar",
+        "SCI-REPO-Y7-SBY-2017-MACHINESREV-lever-types",
+        "SCI-REPO-Y7-SBY-2017-MACHINESREV-pulley-effort",
+        "SCI-REPO-Y7-SBY-2017-MACHINESREV-pulley-ma",
+        "SCI-REPO-Y8-SBY-2017-MICROSCOPE-history",
+        "SCI-REPO-Y8-SBY-2017-MICROSCOPE-light-electron",
+        "SCI-REPO-Y8-SBY-2017-MICROSCOPE-tem-sem",
+        "SCI-REPO-Y8-SBY-2017-MICROSCOPE-uses",
+        "SCI-REPO-Y8-SBY-2017-MICROSCOPE-safety",
+        "SCI-REPO-Y8-SBY-2017-MICROSCOPE-image",
+        "SCI-REPO-Y8-SBY-2017-MICROSCOPE-magnification",
+        "SCI-REPO-Y8-SBY-2018-MICROSCOPE-history",
+        "SCI-REPO-Y8-SBY-2018-MICROSCOPE-tem-sem",
+        "SCI-REPO-Y8-SBY-2018-MICROSCOPE-uses",
+        "SCI-REPO-Y8-SBY-2018-MICROSCOPE-magnification"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Safety bay/2017/Revision questions on simple machines.docx",
+          "sha": "b92edea46bfc9f31d2e0787525a391b19cc47f29",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Biological Sciences/Safety Bay/2017/Year 8 Microscope Assessment 2017.docx",
+          "sha": "b0c874ff5b7fb7abc52ee58e178a130fdb328415",
+          "year": 8,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Biological Sciences/Safety Bay/2018/Microscope Assessment.docx",
+          "sha": "5f37ab8ff41919675f38d5b29020622b6e10a2c0",
+          "year": 8,
+          "role": "paper"
+        }
+      ],
+      "questions": 30,
+      "marks": 70,
+      "imageAudit": "question-source-packs/repo-science-batch61-audit.json",
+      "notes": [
+        "All19 simple-machines revision prompts preserved with proposed marks; original pulley figure checked visually.40kg versus10N unit mismatch flagged, not silently changed. Two complete23-mark microscope variants reviewed, original empty table structures retained, missing magnification inputs flagged. Equivalent questions deduplicated."
+      ],
+      "markAudit": {
+        "simpleMachines": "Unmarked source; allocations proposed",
+        "microscope2017": 23,
+        "microscope2018": 23
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Biological Sciences/Safety Bay/2018/Microscope Assessment.docx",
+          "sourceFileSha": "5f37ab8ff41919675f38d5b29020622b6e10a2c0",
+          "sourceQuestionNumber": "light-electron",
+          "sourceParagraphs": [
+            13
+          ],
+          "existingQuestionId": "SCI-REPO-Y8-SBY-2017-MICROSCOPE-light-electron",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Biological Sciences/Safety Bay/2018/Microscope Assessment.docx",
+          "sourceFileSha": "5f37ab8ff41919675f38d5b29020622b6e10a2c0",
+          "sourceQuestionNumber": "safety",
+          "sourceParagraphs": [
+            48
+          ],
+          "existingQuestionId": "SCI-REPO-Y8-SBY-2017-MICROSCOPE-safety",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Biological Sciences/Safety Bay/2018/Microscope Assessment.docx",
+          "sourceFileSha": "5f37ab8ff41919675f38d5b29020622b6e10a2c0",
+          "sourceQuestionNumber": "image",
+          "sourceParagraphs": [
+            62
+          ],
+          "existingQuestionId": "SCI-REPO-Y8-SBY-2017-MICROSCOPE-image",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch62",
+      "questionIds": [
+        "SCI-REPO-Y8-ARAN-2013-DENSITY-title",
+        "SCI-REPO-Y8-ARAN-2013-DENSITY-aim",
+        "SCI-REPO-Y8-ARAN-2013-DENSITY-hypothesis",
+        "SCI-REPO-Y8-ARAN-2013-DENSITY-independent",
+        "SCI-REPO-Y8-ARAN-2013-DENSITY-dependent",
+        "SCI-REPO-Y8-ARAN-2013-DENSITY-controls",
+        "SCI-REPO-Y8-ARAN-2013-DENSITY-materials",
+        "SCI-REPO-Y8-ARAN-2013-DENSITY-method",
+        "SCI-REPO-Y8-ARAN-2013-DENSITY-diagram",
+        "SCI-REPO-Y8-ARAN-2013-DENSITY-reliability",
+        "SCI-REPO-Y8-ARAN-2013-DENSITY-table",
+        "SCI-REPO-Y8-ARAN-2013-DENSITY-calculations",
+        "SCI-REPO-Y8-ARAN-2013-DENSITY-graph",
+        "SCI-REPO-Y8-ARAN-2013-DENSITY-discussion",
+        "SCI-REPO-Y8-ARAN-2013-DENSITY-finding",
+        "SCI-REPO-Y8-ARAN-2013-DENSITY-support",
+        "SCI-REPO-Y8-ARAN-2013-DENSITY-research",
+        "SCI-REPO-Y8-SBY-2018-ENERGYSOURCES-renewable",
+        "SCI-REPO-Y8-SBY-2018-ENERGYSOURCES-nonrenewable",
+        "SCI-REPO-Y8-SBY-2018-ENERGYSOURCES-five-renewables",
+        "SCI-REPO-Y8-SBY-2018-ENERGYSOURCES-three-nonrenewables",
+        "SCI-REPO-Y8-SBY-2018-ENERGYSOURCES-advantages",
+        "SCI-REPO-Y8-SBY-2018-ENERGYSOURCES-disadvantages",
+        "SCI-REPO-Y8-SBY-2018-ENERGYSOURCES-australia",
+        "SCI-REPO-Y8-SBY-2018-ENERGYSOURCES-bibliography"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/Density Investigation 2013.docx",
+          "sha": "b7709d4edea4a68f7e3b7537c2999cdea9ca4027",
+          "year": 8,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Safety Bay/2018/ENERGY SOURCES.docx",
+          "sha": "b7e45ccadc4250660fbd3e3e7ac73ecbb3fa4d0f",
+          "year": 8,
+          "role": "paper"
+        }
+      ],
+      "questions": 25,
+      "marks": 52,
+      "imageAudit": "question-source-packs/repo-science-batch62-audit.json",
+      "notes": [
+        "Complete density40-mark rubric; scaffold37 task marks plus2 presentation; original method rubric3+diagram2+reliability3 contrasts scaffold3+2+2, producing a1-mark conflict. Scaffold task allocations retained and discrepancy recorded rather than silently correcting. Energy research15 task marks plus2 presentation=17; current Australian electricity answer checked against official2025 data."
+      ],
+      "markAudit": {
+        "density": {
+          "cover": 40,
+          "scaffoldTasks": 37,
+          "presentation": 2,
+          "rubricReliability": 3,
+          "scaffoldReliability": 2,
+          "rubricSumIncludingPresentation": 40
+        },
+        "energy": {
+          "tasks": 15,
+          "presentation": 2,
+          "total": 17
+        }
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch63",
+      "questionIds": [
+        "SCI-REPO-Y7-NARR-2022-INVERTVALID-1",
+        "SCI-REPO-Y7-NARR-2022-INVERTVALID-2",
+        "SCI-REPO-Y7-NARR-2022-INVERTVALID-3",
+        "SCI-REPO-Y7-NARR-2022-INVERTVALID-4",
+        "SCI-REPO-Y7-NARR-2022-ECOSYSTEM-197-location",
+        "SCI-REPO-Y7-NARR-2022-ECOSYSTEM-197-conditions",
+        "SCI-REPO-Y7-NARR-2022-ECOSYSTEM-197-organisms",
+        "SCI-REPO-Y7-NARR-2022-ECOSYSTEM-197-foodweb",
+        "SCI-REPO-Y7-NARR-2022-ECOSYSTEM-197-human",
+        "SCI-REPO-Y7-NARR-2022-ECOSYSTEM-197-glossary",
+        "SCI-REPO-Y7-NARR-2022-ECOSYSTEM-197-diagrams",
+        "SCI-REPO-Y7-NARR-2022-ECOSYSTEM-197-bibliography",
+        "SCI-REPO-Y7-NARR-2022-ECOSYSTEM-198-poster",
+        "SCI-REPO-Y7-NARR-2022-ECOSYSTEM-198-notes"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2022/Invertebrates Validation.docx",
+          "sha": "ef0588291baf0dca33456fdb102869bba721785e",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2023/Invertebrates Validation.docx",
+          "sha": "c60d6880601a3d565536cf0ad8e1a586de219c21",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2024/Invertebrates Validation.docx",
+          "sha": "ca4219bca86a61e8cb6dc4c3626b3ceb4a4bdad8",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2022/Research Assignment and Validation 2022 simplified.docx",
+          "sha": "4d64a811589a2a6f98e45f4887611a1f0a963298",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2022/Research and validation.docx",
+          "sha": "1e43938ccfbb9fa81b4effb9f25b6afb885396c1",
+          "year": 7,
+          "role": "paper"
+        }
+      ],
+      "questions": 14,
+      "marks": 35,
+      "imageAudit": "question-source-packs/repo-science-batch63-audit.json",
+      "notes": [
+        "Three10-mark invertebrate validation papers reviewed; differing year labels retained as source aliases for equivalent prompts. Two ecosystem assignment versions reviewed: simplified17marks,full25 with extra poster/editing6 and notes2. Subject-specific answers depend on the selected organism/biome and are manually marked."
+      ],
+      "markAudit": {
+        "invertebrates": {
+          "each": 10,
+          "2022FileInternalHeading": 2020
+        },
+        "ecosystemSimplified": 17,
+        "ecosystemFull": 25
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2023/Invertebrates Validation.docx",
+          "sourceFileSha": "c60d6880601a3d565536cf0ad8e1a586de219c21",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            13
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NARR-2022-INVERTVALID-1",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2023/Invertebrates Validation.docx",
+          "sourceFileSha": "c60d6880601a3d565536cf0ad8e1a586de219c21",
+          "sourceQuestionNumber": "2",
+          "sourceParagraphs": [
+            18
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NARR-2022-INVERTVALID-2",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2023/Invertebrates Validation.docx",
+          "sourceFileSha": "c60d6880601a3d565536cf0ad8e1a586de219c21",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            28
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NARR-2022-INVERTVALID-3",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2023/Invertebrates Validation.docx",
+          "sourceFileSha": "c60d6880601a3d565536cf0ad8e1a586de219c21",
+          "sourceQuestionNumber": "4",
+          "sourceParagraphs": [
+            33
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NARR-2022-INVERTVALID-4",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2024/Invertebrates Validation.docx",
+          "sourceFileSha": "ca4219bca86a61e8cb6dc4c3626b3ceb4a4bdad8",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            13
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NARR-2022-INVERTVALID-1",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2024/Invertebrates Validation.docx",
+          "sourceFileSha": "ca4219bca86a61e8cb6dc4c3626b3ceb4a4bdad8",
+          "sourceQuestionNumber": "2",
+          "sourceParagraphs": [
+            18
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NARR-2022-INVERTVALID-2",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2024/Invertebrates Validation.docx",
+          "sourceFileSha": "ca4219bca86a61e8cb6dc4c3626b3ceb4a4bdad8",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            28
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NARR-2022-INVERTVALID-3",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2024/Invertebrates Validation.docx",
+          "sourceFileSha": "ca4219bca86a61e8cb6dc4c3626b3ceb4a4bdad8",
+          "sourceQuestionNumber": "4",
+          "sourceParagraphs": [
+            33
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NARR-2022-INVERTVALID-4",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2022/Research and validation.docx",
+          "sourceFileSha": "1e43938ccfbb9fa81b4effb9f25b6afb885396c1",
+          "sourceQuestionNumber": "location",
+          "sourceParagraphs": [
+            34
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NARR-2022-ECOSYSTEM-197-location",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2022/Research and validation.docx",
+          "sourceFileSha": "1e43938ccfbb9fa81b4effb9f25b6afb885396c1",
+          "sourceQuestionNumber": "conditions",
+          "sourceParagraphs": [
+            35
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NARR-2022-ECOSYSTEM-197-conditions",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2022/Research and validation.docx",
+          "sourceFileSha": "1e43938ccfbb9fa81b4effb9f25b6afb885396c1",
+          "sourceQuestionNumber": "organisms",
+          "sourceParagraphs": [
+            36
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NARR-2022-ECOSYSTEM-197-organisms",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2022/Research and validation.docx",
+          "sourceFileSha": "1e43938ccfbb9fa81b4effb9f25b6afb885396c1",
+          "sourceQuestionNumber": "foodweb",
+          "sourceParagraphs": [
+            37
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NARR-2022-ECOSYSTEM-197-foodweb",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2022/Research and validation.docx",
+          "sourceFileSha": "1e43938ccfbb9fa81b4effb9f25b6afb885396c1",
+          "sourceQuestionNumber": "human",
+          "sourceParagraphs": [
+            38
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NARR-2022-ECOSYSTEM-197-human",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2022/Research and validation.docx",
+          "sourceFileSha": "1e43938ccfbb9fa81b4effb9f25b6afb885396c1",
+          "sourceQuestionNumber": "glossary",
+          "sourceParagraphs": [
+            40
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NARR-2022-ECOSYSTEM-197-glossary",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2022/Research and validation.docx",
+          "sourceFileSha": "1e43938ccfbb9fa81b4effb9f25b6afb885396c1",
+          "sourceQuestionNumber": "diagrams",
+          "sourceParagraphs": [
+            42,
+            51
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NARR-2022-ECOSYSTEM-197-diagrams",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2022/Research and validation.docx",
+          "sourceFileSha": "1e43938ccfbb9fa81b4effb9f25b6afb885396c1",
+          "sourceQuestionNumber": "bibliography",
+          "sourceParagraphs": [
+            47,
+            51
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-NARR-2022-ECOSYSTEM-197-bibliography",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch64",
+      "questionIds": [
+        "SCI-REPO-Y7-UNKNOWN-EVAPMASS-aim",
+        "SCI-REPO-Y7-UNKNOWN-EVAPMASS-prediction",
+        "SCI-REPO-Y7-UNKNOWN-EVAPMASS-hypothesis",
+        "SCI-REPO-Y7-UNKNOWN-EVAPMASS-independent",
+        "SCI-REPO-Y7-UNKNOWN-EVAPMASS-dependent",
+        "SCI-REPO-Y7-UNKNOWN-EVAPMASS-controlled",
+        "SCI-REPO-Y7-UNKNOWN-EVAPMASS-equipment",
+        "SCI-REPO-Y7-UNKNOWN-EVAPMASS-tense1",
+        "SCI-REPO-Y7-UNKNOWN-EVAPMASS-tense2",
+        "SCI-REPO-Y7-UNKNOWN-EVAPMASS-tense3",
+        "SCI-REPO-Y7-UNKNOWN-EVAPMASS-tense4",
+        "SCI-REPO-Y7-UNKNOWN-EVAPMASS-tense5",
+        "SCI-REPO-Y7-UNKNOWN-EVAPMASS-tense6",
+        "SCI-REPO-Y7-UNKNOWN-EVAPMASS-tense7",
+        "SCI-REPO-Y7-UNKNOWN-EVAPMASS-tense8",
+        "SCI-REPO-Y7-UNKNOWN-EVAPMASS-tense9",
+        "SCI-REPO-Y7-UNKNOWN-EVAPMASS-tense10",
+        "SCI-REPO-Y7-UNKNOWN-EVAPMASS-safety",
+        "SCI-REPO-Y7-UNKNOWN-EVAPMASS-results",
+        "SCI-REPO-Y7-UNKNOWN-EVAPMASS-compare",
+        "SCI-REPO-Y7-UNKNOWN-EVAPMASS-class",
+        "SCI-REPO-Y7-UNKNOWN-EVAPMASS-confounds",
+        "SCI-REPO-Y7-UNKNOWN-EVAPMASS-graph",
+        "SCI-REPO-Y7-UNKNOWN-EVAPMASS-conclusion",
+        "SCI-REPO-Y7-UNKNOWN-EVAPMASS-difficulties",
+        "SCI-REPO-Y7-UNKNOWN-EVAPMASS-improvements",
+        "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-aim",
+        "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-prediction",
+        "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-hypothesis",
+        "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-independent",
+        "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-dependent",
+        "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-controlled",
+        "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-equipment",
+        "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-tense1",
+        "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-tense2",
+        "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-tense3",
+        "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-tense4",
+        "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-tense5",
+        "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-tense6",
+        "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-tense7",
+        "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-tense8",
+        "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-tense9",
+        "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-safety",
+        "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-results",
+        "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-conclusion",
+        "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-difficulties",
+        "SCI-REPO-Y7-UNKNOWN-EVAPFASTSLOW-improvements"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Earth and Space Sciences/Measuring Evaporation Laboratory Assessment.docx",
+          "sha": "941bd785c11f23141e37771ea0556ce13b50f854",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Fast and Slow Evaporation Laboratory Assessment.docx",
+          "sha": "57775cc924096313ddfb8d557959e914fe3f4d94",
+          "year": 7,
+          "role": "paper"
+        }
+      ],
+      "questions": 47,
+      "marks": 67,
+      "imageAudit": "question-source-packs/repo-science-batch64-audit.json",
+      "notes": [
+        "Complete41-mark mass-loss assessment preserved:7 planning+12 tense+1 safety+4 results+6 discussion+5 graph+4 conclusion+2evaluation. Table quantity ambiguity flagged. Fast/slow evaporation worksheet preserves all9 tense items and written sections using explicitly proposed marks;no fabricated observations."
+      ],
+      "markAudit": {
+        "massLoss": 41,
+        "fastSlow": "Source unmarked; proposed allocations"
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch65",
+      "questionIds": [
+        "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1a",
+        "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1b",
+        "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1c",
+        "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1d",
+        "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1e",
+        "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1f",
+        "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1g",
+        "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1h",
+        "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1i",
+        "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1j",
+        "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1k",
+        "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1l",
+        "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1m",
+        "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1n",
+        "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1o",
+        "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1p",
+        "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1q",
+        "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1r",
+        "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1s",
+        "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1t",
+        "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1u",
+        "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1v",
+        "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1w",
+        "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1x",
+        "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-2",
+        "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-3",
+        "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-4",
+        "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-5",
+        "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-6",
+        "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-7",
+        "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-8",
+        "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-9a",
+        "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-9b",
+        "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-9c",
+        "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-9d",
+        "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-10",
+        "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-11"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Earth and Space Sciences/Revision for Topic Test.docx",
+          "sha": "e4e8100eec4286f59478067d202d93a5fcd31707",
+          "year": 7,
+          "role": "paper"
+        }
+      ],
+      "questions": 37,
+      "marks": 56,
+      "imageAudit": "question-source-packs/repo-science-batch65-audit.json",
+      "notes": [
+        "Complete24-definition and11-question space revision sheet extracted;four tide subparts individually selectable. All marks proposed. Source folder incorrectly places astronomy under Chemical Sciences;bank correctly uses Earth and Space Sciences. Textbook wording not required for independently supplied keys."
+      ],
+      "markAudit": {
+        "originalDefinitions": 24,
+        "numberedOtherQuestions": 10,
+        "tideSubparts": 4,
+        "scoring": "Proposed;source unmarked"
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch66",
+      "questionIds": [
+        "SCI-REPO-Y7-ARAN-PERTHWATER-need",
+        "SCI-REPO-Y7-ARAN-PERTHWATER-notes-sources",
+        "SCI-REPO-Y7-ARAN-PERTHWATER-concise",
+        "SCI-REPO-Y7-ARAN-PERTHWATER-reference-types",
+        "SCI-REPO-Y7-ARAN-PERTHWATER-bibliography",
+        "SCI-REPO-Y7-ARAN-PERTHWATER-methods",
+        "SCI-REPO-Y7-ARAN-PERTHWATER-positives",
+        "SCI-REPO-Y7-ARAN-PERTHWATER-disadvantages",
+        "SCI-REPO-Y7-ARAN-PERTHWATER-terms",
+        "SCI-REPO-Y7-ARAN-PERTHWATER-pictures"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Year 7 drinking water library assignment fixed version.docx",
+          "sha": "298a000fcc2818f859eb4a5aabd04712e855178f",
+          "year": 7,
+          "role": "paper"
+        }
+      ],
+      "questions": 10,
+      "marks": 29,
+      "imageAudit": "question-source-packs/repo-science-batch66-audit.json",
+      "notes": [
+        "Full35-mark water-research assignment reviewed.29 task marks extracted;6 presentation-only marks retained in audit (heading1,organisation2,attractiveness1,legibility2). Separate notes and final explanation retained because original rubric assesses both. Historical Perth source statement flagged;current utility references supplied."
+      ],
+      "markAudit": {
+        "total": 35,
+        "taskMarks": 29,
+        "presentationOnly": 6
+      },
+      "duplicateQuestionAliases": []
     }
   ],
   "files": [
@@ -12223,8 +13183,9 @@
       "sha": "84d9845113b666bd01c72b07ab0b4094c4706a37",
       "year": 7,
       "size": 61677,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Two images only: classification rank list and mnemonic; visually inspected, no questions."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2017/Ecosystems Research B2 2017 student choices.doc",
@@ -12272,8 +13233,9 @@
       "sha": "e40fd3529e77fbf2f4af5aac51181f896040f637",
       "year": 7,
       "size": 43882,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Only labelled plant transport cross-section and title; no student prompt or response task."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2017/Plant Transport Systems.docx",
@@ -12345,8 +13307,9 @@
       "sha": "37f9da24c94d129eda84f18ff20cb1925cd3f2f8",
       "year": 7,
       "size": 56434,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Single labelled biomagnification infographic; visually inspected, no student questions."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2017/biomagnification 2.docx",
@@ -12578,7 +13541,7 @@
       "sha": "ef0588291baf0dca33456fdb102869bba721785e",
       "year": 7,
       "size": 63462,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -12586,7 +13549,7 @@
       "sha": "4d64a811589a2a6f98e45f4887611a1f0a963298",
       "year": 7,
       "size": 74633,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -12594,7 +13557,7 @@
       "sha": "1e43938ccfbb9fa81b4effb9f25b6afb885396c1",
       "year": 7,
       "size": 74821,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -12650,7 +13613,7 @@
       "sha": "c60d6880601a3d565536cf0ad8e1a586de219c21",
       "year": 7,
       "size": 64337,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -12658,7 +13621,7 @@
       "sha": "4d64a811589a2a6f98e45f4887611a1f0a963298",
       "year": 7,
       "size": 74633,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2022/Research Assignment and Validation 2022 simplified.docx"
     },
     {
@@ -12666,7 +13629,7 @@
       "sha": "1e43938ccfbb9fa81b4effb9f25b6afb885396c1",
       "year": 7,
       "size": 74821,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2022/Research and validation.docx"
     },
     {
@@ -12714,7 +13677,7 @@
       "sha": "ca4219bca86a61e8cb6dc4c3626b3ceb4a4bdad8",
       "year": 7,
       "size": 64558,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -13290,8 +14253,9 @@
       "sha": "298a000fcc2818f859eb4a5aabd04712e855178f",
       "year": 7,
       "size": 64742,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_incomplete_referenced_material",
+      "duplicateOf": null,
+      "reviewReason": "Source assignment explicitly refers to missing textbook method/discussion wording; recorded prompts reviewed, referenced questions not invented."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/science work book mark 2013.docx",
@@ -13315,7 +14279,7 @@
       "sha": "7668698c97e0edcb55f1a8be6441ca2fc24ebdce",
       "year": 7,
       "size": 35765,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -13726,7 +14690,7 @@
       "sha": "941bd785c11f23141e37771ea0556ce13b50f854",
       "year": 7,
       "size": 74733,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -13758,7 +14722,7 @@
       "sha": "e4e8100eec4286f59478067d202d93a5fcd31707",
       "year": 7,
       "size": 62543,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -13798,7 +14762,7 @@
       "sha": "57775cc924096313ddfb8d557959e914fe3f4d94",
       "year": 7,
       "size": 75243,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -13838,8 +14802,9 @@
       "sha": "713670fcabc0afdd68d4668be071a87f555b622e",
       "year": 7,
       "size": 56264,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Generic persuasive-writing rubric only; no assigned science topic or question."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Persuasive Essay Template.doc",
@@ -14665,8 +15630,9 @@
       "sha": "261fb82b2361a39156dd51f70d48caa3d7834685",
       "year": 7,
       "size": 49760,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_incomplete_referenced_material",
+      "duplicateOf": null,
+      "reviewReason": "Source assignment explicitly refers to missing textbook method/discussion wording; recorded prompts reviewed, referenced questions not invented."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Kolbe/2021/Year 7 Task 3 2021 Experiment report.docx",
@@ -15050,7 +16016,7 @@
       "sha": "d72d1a29c97e1ce8286a871db28463de6fd1d5aa",
       "year": 7,
       "size": 36560,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -15066,8 +16032,9 @@
       "sha": "795be28b265e4db72d38620c7cd4f5b8dbcb604d",
       "year": 7,
       "size": 36150,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_incomplete_referenced_material",
+      "duplicateOf": null,
+      "reviewReason": "Source assignment explicitly refers to missing textbook method/discussion wording; recorded prompts reviewed, referenced questions not invented."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling - assessment/Log Book ÔÇô Heating Water experiment-1.docx",
@@ -15677,7 +16644,7 @@
       "sha": "b92edea46bfc9f31d2e0787525a391b19cc47f29",
       "year": 7,
       "size": 37642,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -16767,8 +17734,9 @@
       "sha": "b0c874ff5b7fb7abc52ee58e178a130fdb328415",
       "year": 8,
       "size": 38893,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_incomplete_referenced_material",
+      "duplicateOf": null,
+      "reviewReason": "Source assignment explicitly refers to missing textbook method/discussion wording; recorded prompts reviewed, referenced questions not invented."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 8/Science/Biological Sciences/Safety Bay/2018/Biological Systems Presentation Assessment 2018.docx",
@@ -16799,8 +17767,9 @@
       "sha": "5f37ab8ff41919675f38d5b29020622b6e10a2c0",
       "year": 8,
       "size": 39958,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_incomplete_referenced_material",
+      "duplicateOf": null,
+      "reviewReason": "Source assignment explicitly refers to missing textbook method/discussion wording; recorded prompts reviewed, referenced questions not invented."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 8/Science/Biological Sciences/Safety Bay/2018/Microscope and Cells Test ANSWERS.docx",
@@ -17007,8 +17976,9 @@
       "sha": "b7709d4edea4a68f7e3b7537c2999cdea9ca4027",
       "year": 8,
       "size": 38129,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_incomplete_referenced_material",
+      "duplicateOf": null,
+      "reviewReason": "Source assignment explicitly refers to missing textbook method/discussion wording; recorded prompts reviewed, referenced questions not invented."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/Density Investigation Results 2013.docx",
@@ -19639,16 +20609,18 @@
       "sha": "c136c41009260e890839e165e2cf0b63cec3837e",
       "year": 8,
       "size": 38556,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Only linked Energy presentation title and branding; no worksheet questions in document body."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Narrogin/2023/Year_7_8_Energy_The_Basics_Powerpoint-Teacher_Worksheet.docx",
       "sha": "031ab6a196d4ef05b42c7d9894f98495ed5ee53c",
       "year": 8,
       "size": 35105,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Teacher energy background and linked presentation; no assessment prompts. Background claims are not converted into invented questions."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Narrogin/2023/energy word search.pdf",
@@ -19703,7 +20675,7 @@
       "sha": "b7e45ccadc4250660fbd3e3e7ac73ecbb3fa4d0f",
       "year": 8,
       "size": 45426,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -20554,7 +21526,7 @@
       "sha": "f9369e49d1e097074128ee44ac6012a71212f3f4",
       "year": 9,
       "size": 16890,
-      "status": "pending",
+      "status": "reviewed_key_reference",
       "duplicateOf": null
     },
     {
@@ -20562,7 +21534,7 @@
       "sha": "d984b967c069e2a0f9788cd9f6c3078cabc089e0",
       "year": 9,
       "size": 16896,
-      "status": "pending",
+      "status": "reviewed_key_reference",
       "duplicateOf": null
     },
     {
@@ -20610,15 +21582,16 @@
       "sha": "46cfcedeffebd3ee923cccc946810761ac3d4eb0",
       "year": 9,
       "size": 32673,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_incomplete_referenced_material",
+      "duplicateOf": null,
+      "reviewReason": "Source assignment explicitly refers to missing textbook method/discussion wording; recorded prompts reviewed, referenced questions not invented."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/GROWING BACTERIA INVESTIGATION (2).docx",
       "sha": "f5c10aa512256ecdaab49b89bb1de5c08e51cb5b",
       "year": 9,
       "size": 21328,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -20626,7 +21599,7 @@
       "sha": "96247c9a08541c6db81f340d8fa3d130c64b2c35",
       "year": 9,
       "size": 32602,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -20642,7 +21615,7 @@
       "sha": "a954aec2798fa24c48dcf2a43b085cb16b922b97",
       "year": 9,
       "size": 28834,
-      "status": "pending",
+      "status": "reviewed_key_reference",
       "duplicateOf": null
     },
     {
@@ -20650,16 +21623,18 @@
       "sha": "b40383b3555dd005c56a0ac6c13a542b2ef0f245",
       "year": 9,
       "size": 18036,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Reviewed supporting research text/link list; no assessment questions or student response tasks."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/links.docx",
       "sha": "4ffd479699dfffb05fec4afd8b6a78362477d3c9",
       "year": 9,
       "size": 15963,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Reviewed supporting research text/link list; no assessment questions or student response tasks."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/Bacteria Investigation- Teacher information sheet (2).docx",
@@ -20692,7 +21667,7 @@
       "sha": "f9369e49d1e097074128ee44ac6012a71212f3f4",
       "year": 9,
       "size": 16890,
-      "status": "pending",
+      "status": "reviewed_key_reference",
       "duplicateOf": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/Bacteria investigation - marking key (2).docx"
     },
     {
@@ -20724,7 +21699,7 @@
       "sha": "f5c10aa512256ecdaab49b89bb1de5c08e51cb5b",
       "year": 9,
       "size": 21328,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/GROWING BACTERIA INVESTIGATION (2).docx"
     },
     {
@@ -20732,7 +21707,7 @@
       "sha": "f5c10aa512256ecdaab49b89bb1de5c08e51cb5b",
       "year": 9,
       "size": 21328,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/GROWING BACTERIA INVESTIGATION (2).docx"
     },
     {
@@ -28097,9 +29072,9 @@
       "duplicateOf": null
     }
   ],
-  "learningVaultCreatedKeySupplements": 902,
-  "remainingUniqueFileBlobs": 1413,
-  "learningVaultCreatedKeys": 1188,
+  "learningVaultCreatedKeySupplements": 924,
+  "remainingUniqueFileBlobs": 1381,
+  "learningVaultCreatedKeys": 1368,
   "blockedSources": [
     {
       "sha": "49d4b7f3f8af844477b39abb856365aeb096cafd",
@@ -28311,7 +29286,7 @@
     "ocrPages": 1175,
     "ocrTextVerified": false
   },
-  "distinctSourceAndKeyReferences": 208,
+  "distinctSourceAndKeyReferences": 232,
   "unscoredQuestionsPreserved": 1,
   "activeAdditionalQuestionRequest": {
     "requestedAdditionalQuestions": 1000,
@@ -28326,12 +29301,12 @@
     "requestedAt": "2026-10-16",
     "scope": "All remaining Years 7–10 Science assessment papers; all question types, source figures, response space and marking guidance",
     "startingImportedQuestions": 1374,
-    "addedQuestions": 1026,
+    "addedQuestions": 1228,
     "status": "in_progress",
     "completionRule": "Every unique assessment paper reviewed; duplicates mapped and unreadable/protected files explicitly resolved. File-blob count is not a paper denominator.",
     "restoredQuestionsAfterDuplicateFix": 4,
-    "newlyExtractedQuestions": 1022,
-    "papersReviewedSinceRequest": 100,
+    "newlyExtractedQuestions": 1224,
+    "papersReviewedSinceRequest": 121,
     "canonicalSourceQuestionsReReviewed": 2
   },
   "sourceInventoryExclusions": {
@@ -28341,22 +29316,50 @@
     "note": "These are file metadata records, not papers or questions; excluded from import work without increasing question or paper totals."
   },
   "supportingResourceReview": {
-    "files": 25,
-    "uniqueBlobs": 22,
+    "files": 33,
+    "uniqueBlobs": 30,
     "audit": "question-source-packs/repo-science-supporting-resource-review.json",
     "countedAsPapers": false,
     "countedAsQuestions": false
   },
   "missingReferencedMaterial": [
     {
-      "questionId": "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-method",
-      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8 ESS Crystal Size Lab Report.docx",
-      "sourceFileSha": "b062e56376b2ef3613197fc903631c1eb5da4b84",
-      "reference": "Mount Lawley cooling-rate/crystal-size practical sheet",
+      "questionId": "SCI-REPO-Y8-SBY-2017-MICROSCOPE-magnification",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Biological Sciences/Safety Bay/2017/Year 8 Microscope Assessment 2017.docx",
+      "sourceFileSha": "b0c874ff5b7fb7abc52ee58e178a130fdb328415",
+      "description": "Objective lens values not printed;2017 eyepiece values also blank.",
+      "effect": "Use teacher-provided actual lens powers; generic examples labelled, no unique table invented."
+    },
+    {
+      "questionId": "SCI-REPO-Y8-SBY-2018-MICROSCOPE-magnification",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Biological Sciences/Safety Bay/2018/Microscope Assessment.docx",
+      "sourceFileSha": "5f37ab8ff41919675f38d5b29020622b6e10a2c0",
+      "description": "Objective lens values not printed;2017 eyepiece values also blank.",
+      "effect": "Use teacher-provided actual lens powers; generic examples labelled, no unique table invented."
+    },
+    {
+      "questionId": "SCI-REPO-Y7-ARAN-PERTHWATER-bibliography",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Year 7 drinking water library assignment fixed version.docx",
+      "sourceFileSha": "298a000fcc2818f859eb4a5aabd04712e855178f",
+      "description": "School diary bibliography formatting instructions absent.",
+      "effect": "Suggested marking breakdown supplied;exact prescribed style unresolved."
+    },
+    {
+      "questionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-conclusion",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/GROWING BACTERIA INVESTIGATION ( mdified).docx",
+      "sourceFileSha": "46cfcedeffebd3ee923cccc946810761ac3d4eb0",
+      "description": "Referenced How to write a lab report sheet not embedded in this document.",
+      "effect": "Exact mandated conclusion components unresolved; suggested rubric supplement supplied."
+    },
+    {
+      "questionId": "SCI-REPO-Y7-SBY-2017-HEATINGWATER-diagram",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling - assessment/Log Book ÔÇô Heating Water experiment-1.docx",
+      "sourceFileSha": "43aefd928096f9891fd4d5f6339d7fb09a6d46fc",
+      "reference": "Oxford7 textbook p173",
       "missing": [
-        "Final cooling conditions and remaining method steps7–9"
+        "Assigned heating-water method needed to verify setup"
       ],
-      "resolution": "Locate original practical sheet; do not invent missing source directions."
+      "resolution": "Locate the matching class method; do not invent a source procedure."
     },
     {
       "questionId": "SCI-REPO-Y7-ARAN-2015-SUNANGLE-assignment",
@@ -28370,17 +29373,59 @@
       "resolution": "Locate matching source page or teacher-provided original; do not generate replacement questions and call them extracted."
     },
     {
-      "questionId": "SCI-REPO-Y7-SBY-2017-HEATINGWATER-diagram",
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling - assessment/Log Book ÔÇô Heating Water experiment-1.docx",
-      "sourceFileSha": "43aefd928096f9891fd4d5f6339d7fb09a6d46fc",
-      "reference": "Oxford7 textbook p173",
+      "questionId": "SCI-REPO-Y7-KOLBE-2021-RESEARCH-summary",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Kolbe/2021/Year 7 Task 2 2021 Research Summary.docx",
+      "sourceFileSha": "261fb82b2361a39156dd51f70d48caa3d7834685",
+      "description": "Assigned research question and focus questions are blank in the source.",
+      "effect": "Task framework preserved; no unseen subject question or factual answer invented."
+    },
+    {
+      "questionId": "SCI-REPO-Y7-KOLBE-2021-RESEARCH-explain",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Kolbe/2021/Year 7 Task 2 2021 Research Summary.docx",
+      "sourceFileSha": "261fb82b2361a39156dd51f70d48caa3d7834685",
+      "description": "Assigned research question and focus questions are blank in the source.",
+      "effect": "Task framework preserved; no unseen subject question or factual answer invented."
+    },
+    {
+      "questionId": "SCI-REPO-Y7-KOLBE-2021-RESEARCH-references",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Kolbe/2021/Year 7 Task 2 2021 Research Summary.docx",
+      "sourceFileSha": "261fb82b2361a39156dd51f70d48caa3d7834685",
+      "description": "Assigned research question and focus questions are blank in the source.",
+      "effect": "Task framework preserved; no unseen subject question or factual answer invented."
+    },
+    {
+      "questionId": "SCI-REPO-Y7-KOLBE-2021-RESEARCH-notes",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Kolbe/2021/Year 7 Task 2 2021 Research Summary.docx",
+      "sourceFileSha": "261fb82b2361a39156dd51f70d48caa3d7834685",
+      "description": "Assigned research question and focus questions are blank in the source.",
+      "effect": "Task framework preserved; no unseen subject question or factual answer invented."
+    },
+    {
+      "questionId": "SCI-REPO-Y7-SBY-2017-HOTCOOL-SCAFFOLD-method-reference",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling - assessment/Hot drinks cooling scaffolded report.docx",
+      "sourceFileSha": "795be28b265e4db72d38620c7cd4f5b8dbcb604d",
+      "description": "Textbook title/page and practical method are not supplied.",
+      "effect": "Reference cannot be answered uniquely; no missing procedure invented."
+    },
+    {
+      "questionId": "SCI-REPO-Y8-ARAN-2013-DENSITY-method",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/Density Investigation 2013.docx",
+      "sourceFileSha": "b7709d4edea4a68f7e3b7537c2999cdea9ca4027",
+      "description": "Textbook chapter6.3 is referenced but absent.",
+      "effect": "No unique original method can be recovered; use actual class method."
+    },
+    {
+      "questionId": "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-method",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8 ESS Crystal Size Lab Report.docx",
+      "sourceFileSha": "b062e56376b2ef3613197fc903631c1eb5da4b84",
+      "reference": "Mount Lawley cooling-rate/crystal-size practical sheet",
       "missing": [
-        "Assigned heating-water method needed to verify setup"
+        "Final cooling conditions and remaining method steps7–9"
       ],
-      "resolution": "Locate the matching class method; do not invent a source procedure."
+      "resolution": "Locate original practical sheet; do not invent missing source directions."
     }
   ],
-  "reviewedDistinctSourceBlobs": 187,
+  "reviewedDistinctSourceBlobs": 219,
   "inventoryCountBasis": "Remaining unique file blobs counts pending or key-reference-pending identities, including protected inputs; it is not a remaining-paper or remaining-question estimate.",
   "canonicalUniverseReviewRepair": {
     "questionIds": [

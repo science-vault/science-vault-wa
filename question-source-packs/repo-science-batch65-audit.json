@@ -1,0 +1,71 @@
+{
+  "batch": "repo-science-batch65",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1a",
+    "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1b",
+    "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1c",
+    "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1d",
+    "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1e",
+    "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1f",
+    "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1g",
+    "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1h",
+    "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1i",
+    "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1j",
+    "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1k",
+    "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1l",
+    "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1m",
+    "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1n",
+    "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1o",
+    "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1p",
+    "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1q",
+    "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1r",
+    "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1s",
+    "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1t",
+    "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1u",
+    "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1v",
+    "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1w",
+    "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-1x",
+    "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-2",
+    "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-3",
+    "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-4",
+    "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-5",
+    "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-6",
+    "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-7",
+    "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-8",
+    "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-9a",
+    "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-9b",
+    "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-9c",
+    "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-9d",
+    "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-10",
+    "SCI-REPO-Y7-UNKNOWN-SPACEREVISION-11"
+  ],
+  "questions": 37,
+  "multipleChoice": 0,
+  "writtenQuestions": 37,
+  "battleEligible": 0,
+  "marks": 56,
+  "reviewRequired": [],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Earth and Space Sciences/Revision for Topic Test.docx",
+      "sha": "e4e8100eec4286f59478067d202d93a5fcd31707",
+      "year": 7,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 37,
+  "createdSupplements": 0,
+  "notes": [
+    "Complete24-definition and11-question space revision sheet extracted;four tide subparts individually selectable. All marks proposed. Source folder incorrectly places astronomy under Chemical Sciences;bank correctly uses Earth and Space Sciences. Textbook wording not required for independently supplied keys."
+  ],
+  "markAudit": {
+    "originalDefinitions": 24,
+    "numberedOtherQuestions": 10,
+    "tideSubparts": 4,
+    "scoring": "Proposed;source unmarked"
+  },
+  "duplicateQuestionAliases": []
+}

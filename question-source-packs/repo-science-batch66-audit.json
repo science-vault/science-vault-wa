@@ -1,0 +1,52 @@
+{
+  "batch": "repo-science-batch66",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y7-ARAN-PERTHWATER-need",
+    "SCI-REPO-Y7-ARAN-PERTHWATER-notes-sources",
+    "SCI-REPO-Y7-ARAN-PERTHWATER-concise",
+    "SCI-REPO-Y7-ARAN-PERTHWATER-reference-types",
+    "SCI-REPO-Y7-ARAN-PERTHWATER-bibliography",
+    "SCI-REPO-Y7-ARAN-PERTHWATER-methods",
+    "SCI-REPO-Y7-ARAN-PERTHWATER-positives",
+    "SCI-REPO-Y7-ARAN-PERTHWATER-disadvantages",
+    "SCI-REPO-Y7-ARAN-PERTHWATER-terms",
+    "SCI-REPO-Y7-ARAN-PERTHWATER-pictures"
+  ],
+  "questions": 10,
+  "multipleChoice": 0,
+  "writtenQuestions": 10,
+  "battleEligible": 0,
+  "marks": 29,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y7-ARAN-PERTHWATER-need",
+      "note": "Historical source introduction is outdated;use current utility information."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-PERTHWATER-bibliography",
+      "note": "School diary reference format not embedded;teacher supplies format."
+    }
+  ],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Year 7 drinking water library assignment fixed version.docx",
+      "sha": "298a000fcc2818f859eb4a5aabd04712e855178f",
+      "year": 7,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 10,
+  "createdSupplements": 0,
+  "notes": [
+    "Full35-mark water-research assignment reviewed.29 task marks extracted;6 presentation-only marks retained in audit (heading1,organisation2,attractiveness1,legibility2). Separate notes and final explanation retained because original rubric assesses both. Historical Perth source statement flagged;current utility references supplied."
+  ],
+  "markAudit": {
+    "total": 35,
+    "taskMarks": 29,
+    "presentationOnly": 6
+  },
+  "duplicateQuestionAliases": []
+}
