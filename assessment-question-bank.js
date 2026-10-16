@@ -127,3 +127,11 @@ document.write('<script src="assessment-question-bank-science-source-batch52.js?
 document.write('<script src="assessment-question-bank-science-source-batch53.js?v=2026.10.16-science-source53"><\/script>');
 
 document.write('<script src="assessment-question-bank-science-source-batch54.js?v=2026.10.16-science-source54"><\/script>');
+
+document.write('<script src="assessment-question-bank-science-source-batch55.js?v=2026.10.16-science-source55"><\/script>');
+
+document.write('<script src="assessment-question-bank-science-source-batch56.js?v=2026.10.16-science-source56"><\/script>');
+
+document.write('<script src="assessment-question-bank-science-source-batch57.js?v=2026.10.16-science-source57"><\/script>');
+
+document.write('<script src="assessment-question-bank-science-source-batch58.js?v=2026.10.16-science-source58"><\/script>');

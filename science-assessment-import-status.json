@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.16-science-source54",
+  "version": "2026.10.16-science-source58",
   "status": "in_progress",
   "scope": "Original Science assessment files in repository, Years 7–10. File counts include keys and supporting materials; they are not question counts.",
   "inventoryFiles": 2009,
@@ -11,10 +11,10 @@
     "9": 457,
     "10": 582
   },
-  "importedPapers": 156,
-  "importedQuestions": 2270,
+  "importedPapers": 163,
+  "importedQuestions": 2400,
   "multipleChoice": 776,
-  "writtenQuestions": 1494,
+  "writtenQuestions": 1624,
   "battleEligibleQuestions": 679,
   "reviewRequired": [
     {
@@ -1144,6 +1144,118 @@
     {
       "id": "SCI-REPO-Y8-ARAN-2013-DENSITYRESULTS-table",
       "note": "Supplied results sheet has six blank derived-mass cells and three blank average cells, so it is retained as one table-completion task rather than discarded as notes. Original units and explicit completion instruction are absent; proposed rubric clearly labelled."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-properties-4",
+      "note": "Physical in the intended nonreactive dissolution context. Source key incorrectly marks solubility chemical."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-properties-7",
+      "note": "Physical sensory descriptor in the standard property classification; key marks chemical. This is classification of a stated property, never an instruction to taste laboratory substances. Acidity as reactivity is a chemical property."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-properties-13",
+      "note": "Physical sensory descriptor: odour. Source incorrectly marks this chemical; observing an odour does not itself require forming a new substance. Do not deliberately smell unknown substances."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-A2",
+      "note": "Chemical is intended if a new gaseous substance is formed. Gas release alone could also be physical, so the observation is not conclusive without context."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-A5",
+      "note": "Chemical is intended if a reaction generates light; light emission alone is not universal proof of a new substance."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-A6",
+      "note": "Both physical melting and chemical reaction with sodium occur; the source’s single C label records only the reaction. Accept an explanation identifying both."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-A8",
+      "note": "Physical dispersion/mixing of syrup and milk in the intended context; the everyday word dissolved is imprecise for a complex mixture."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B3",
+      "note": "Matching supplied key contains unsupported or incorrect evidence; corrected guidance retained."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B4",
+      "note": "Matching supplied key contains unsupported or incorrect evidence; corrected guidance retained."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B5",
+      "note": "Matching supplied key contains unsupported or incorrect evidence; corrected guidance retained."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B6",
+      "note": "Matching supplied key contains unsupported or incorrect evidence; corrected guidance retained."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B8",
+      "note": "Matching supplied key contains unsupported or incorrect evidence; corrected guidance retained."
+    },
+    {
+      "id": "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-materials",
+      "note": "Separate practical sheet and final cooling steps are absent from this file."
+    },
+    {
+      "id": "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-method",
+      "note": "Separate practical sheet and final cooling steps are absent from this file."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2015-BURGERRING-independent",
+      "note": "The source leaves the exact experimental variable/method to the class procedure; no unique unprovided setup invented."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2015-BURGERRING-method",
+      "note": "The source leaves the exact experimental variable/method to the class procedure; no unique unprovided setup invented."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2014-TOUCH-I5",
+      "note": "The unspecified two-group taxonomy requires teacher clarification."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2014-TOUCH-method",
+      "note": "Source’s direct receptor-spacing interpretation and/or rubric grouping require corrected manual marking."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2014-TOUCH-highest",
+      "note": "Source’s direct receptor-spacing interpretation and/or rubric grouping require corrected manual marking."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2014-TOUCH-lowest",
+      "note": "Source’s direct receptor-spacing interpretation and/or rubric grouping require corrected manual marking."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2014-TOUCH-conclusion",
+      "note": "Source’s direct receptor-spacing interpretation and/or rubric grouping require corrected manual marking."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P1-hardness-results",
+      "note": "Source treats each rock as having one fixed Mohs hardness, although rocks can contain minerals with different hardnesses."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P1-hardness-inference",
+      "note": "Supplied ranges cannot be imposed as exact observations; use evidence-based comparative hardness."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P1-grains",
+      "note": "Sediment grain-size chart is applied to rocks of different origins; interpretation needs teacher moderation."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P1-identification",
+      "note": "Original table/photographs preserved; simplified fixed rock-property claims require moderation."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P2-locations",
+      "note": "Original geological map is an accompanying source file. Cultural map is referenced externally, not embedded; provide verified resource links rather than reproducing a newly sourced copyrighted map."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P2-research",
+      "note": "Use reliable museum/community sources and accurate cultural attribution."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P2-draft-final",
+      "note": "Part2 cover says10 but explicit4+2+4+2 allocations sum12; draft and final phase retained together to avoid inflating repeated response counts."
     },
     {
       "id": "SCI-REPO-Y10-NAR-2024-UNIVERSE-MC02",
@@ -11508,6 +11620,320 @@
         }
       },
       "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch55",
+      "questionIds": [
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-properties-1",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-properties-2",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-properties-3",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-properties-4",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-properties-5",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-properties-6",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-properties-7",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-properties-8",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-properties-9",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-properties-10",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-properties-11",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-properties-12",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-properties-13",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-properties-14",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-changes-1",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-changes-2",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-changes-3",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-changes-4",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-changes-5",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-changes-6",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-changes-7",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-changes-8",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-changes-9",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-changes-10",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-changes-11",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-changes-12",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-changes-13",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-changes-14",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-changes-15",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-changes-16",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-A1",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-A2",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-A3",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-A4",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-A5",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-A6",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-A7",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-A8",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-A9",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-A10",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B2",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B3",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B4",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B5",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B6",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B7",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B8",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B9",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B10",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-C1",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-C2",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-C3",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-C4",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-C5",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-C6",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-C7",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-C8",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-C9",
+        "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-C10"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Investigating Sciences/Safety Bay/2023/Formative assessment task Chemical Physical.docx",
+          "sha": "f816bc8b546c1b2be0a9f6697e193c8b57f698e3",
+          "year": 8,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Investigating Sciences/Safety Bay/2023/Formative assessment marking key.docx",
+          "sha": "a655ea954814daa280d5e65d488adb68535d47db",
+          "year": 8,
+          "role": "key_reference",
+          "reviewComplete": true
+        }
+      ],
+      "questions": 59,
+      "marks": 77,
+      "imageAudit": "question-source-packs/repo-science-batch55-audit.json",
+      "notes": [
+        "Complete59-response formative worksheet. PartB is27 printed marks, nine3-mark scenarios after one worked example; remaining fifty1-mark classifications use labelled proposed scoring. Solubility/odour/taste property errors and evaporation reversibility corrected. Ordinary silver-tarnish chemistry checked against Geoscience Australia. Mixed physical/chemical scenarios accept both processes; no unsafe practical is instructed. Matching key reviewed in full and no extra unanswered tasks identified."
+      ],
+      "markAudit": {
+        "PartB": {
+          "original": 27,
+          "workedExampleExcluded": 1,
+          "scoredScenarios": 9
+        },
+        "OtherSections": {
+          "originalMarks": null,
+          "proposed": 50
+        },
+        "KeyCorrections": [
+          "Solubility physical in stated context",
+          "Odour and taste descriptors physical in standard classification",
+          "Evaporation reversible by condensation",
+          "Silver tarnish usually sulfide",
+          "Gas/light observations alone not universally decisive",
+          "Ice-melting plus sodium reaction includes both change types"
+        ]
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch56",
+      "questionIds": [
+        "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-aim",
+        "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-hypothesis",
+        "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-variables",
+        "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-materials",
+        "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-diagram",
+        "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-method",
+        "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-results",
+        "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-observations",
+        "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-support",
+        "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-finding",
+        "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-explanation",
+        "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-evaluation",
+        "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-improve",
+        "SCI-REPO-Y8-ARAN-2011-TAPE-aim",
+        "SCI-REPO-Y8-ARAN-2011-TAPE-hypothesis",
+        "SCI-REPO-Y8-ARAN-2011-TAPE-materials",
+        "SCI-REPO-Y8-ARAN-2011-TAPE-method",
+        "SCI-REPO-Y8-ARAN-2011-TAPE-results",
+        "SCI-REPO-Y8-ARAN-2011-TAPE-independent",
+        "SCI-REPO-Y8-ARAN-2011-TAPE-dependent",
+        "SCI-REPO-Y8-ARAN-2011-TAPE-controls",
+        "SCI-REPO-Y8-ARAN-2011-TAPE-discussion",
+        "SCI-REPO-Y8-ARAN-2011-TAPE-conclusion",
+        "SCI-REPO-Y8-ARAN-2015-BURGERRING-planning",
+        "SCI-REPO-Y8-ARAN-2015-BURGERRING-background",
+        "SCI-REPO-Y8-ARAN-2015-BURGERRING-hypothesis",
+        "SCI-REPO-Y8-ARAN-2015-BURGERRING-independent",
+        "SCI-REPO-Y8-ARAN-2015-BURGERRING-dependent",
+        "SCI-REPO-Y8-ARAN-2015-BURGERRING-controls",
+        "SCI-REPO-Y8-ARAN-2015-BURGERRING-materials",
+        "SCI-REPO-Y8-ARAN-2015-BURGERRING-method",
+        "SCI-REPO-Y8-ARAN-2015-BURGERRING-calculations",
+        "SCI-REPO-Y8-ARAN-2015-BURGERRING-results",
+        "SCI-REPO-Y8-ARAN-2015-BURGERRING-graph",
+        "SCI-REPO-Y8-ARAN-2015-BURGERRING-discussion",
+        "SCI-REPO-Y8-ARAN-2015-BURGERRING-conclusion-references"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8 ESS Crystal Size Lab Report.docx",
+          "sha": "b062e56376b2ef3613197fc903631c1eb5da4b84",
+          "year": 8,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2011 8 STICKY TAPE INVESTIGATION.docx",
+          "sha": "a58de853c144d8f24cca586c73536ec2132e6890",
+          "year": 8,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Burning Burger Ring Investigation.docx",
+          "sha": "5775aa181c0bd1a69f936ce5500d354a5a31cb28",
+          "year": 8,
+          "role": "paper"
+        }
+      ],
+      "questions": 36,
+      "marks": 89,
+      "imageAudit": "question-source-packs/repo-science-batch56-audit.json",
+      "notes": [
+        "Three investigation papers reviewed. Original crystal30 and tape16 task allocations retained. Burger-ring43 task marks plus2 presentation-only marks sum to45; class mass/energy calculations included within original4-mark category. Mass is distinguished from weight, and water heat recovery from total/metabolizable food energy. Incomplete crystal practical-sheet steps explicitly unresolved."
+      ],
+      "markAudit": {
+        "Crystal": {
+          "total": 30,
+          "methodIncomplete": true
+        },
+        "Tape": {
+          "total": 16,
+          "dependentUnits": "N"
+        },
+        "BurgerRing": {
+          "cover": 45,
+          "taskMarks": 43,
+          "presentationOnly": 2,
+          "suppliedNutrition_kJ_per100g": 2200
+        }
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch57",
+      "questionIds": [
+        "SCI-REPO-Y9-ARAN-2014-TOUCH-I1",
+        "SCI-REPO-Y9-ARAN-2014-TOUCH-I2",
+        "SCI-REPO-Y9-ARAN-2014-TOUCH-I3",
+        "SCI-REPO-Y9-ARAN-2014-TOUCH-I4",
+        "SCI-REPO-Y9-ARAN-2014-TOUCH-I5",
+        "SCI-REPO-Y9-ARAN-2014-TOUCH-planning",
+        "SCI-REPO-Y9-ARAN-2014-TOUCH-materials",
+        "SCI-REPO-Y9-ARAN-2014-TOUCH-hypothesis",
+        "SCI-REPO-Y9-ARAN-2014-TOUCH-independent",
+        "SCI-REPO-Y9-ARAN-2014-TOUCH-dependent",
+        "SCI-REPO-Y9-ARAN-2014-TOUCH-controls",
+        "SCI-REPO-Y9-ARAN-2014-TOUCH-method",
+        "SCI-REPO-Y9-ARAN-2014-TOUCH-results",
+        "SCI-REPO-Y9-ARAN-2014-TOUCH-graph",
+        "SCI-REPO-Y9-ARAN-2014-TOUCH-discussion",
+        "SCI-REPO-Y9-ARAN-2014-TOUCH-highest",
+        "SCI-REPO-Y9-ARAN-2014-TOUCH-lowest",
+        "SCI-REPO-Y9-ARAN-2014-TOUCH-conclusion",
+        "SCI-REPO-Y9-ARAN-2014-TOUCH-references",
+        "SCI-REPO-Y9-NAR-2023-ABIOTICVIRTUAL-table",
+        "SCI-REPO-Y9-NAR-2023-ABIOTICVIRTUAL-J1",
+        "SCI-REPO-Y9-NAR-2023-ABIOTICVIRTUAL-J2",
+        "SCI-REPO-Y9-NAR-2023-ABIOTICVIRTUAL-J3",
+        "SCI-REPO-Y9-NAR-2023-ABIOTICVIRTUAL-J4",
+        "SCI-REPO-Y9-NAR-2023-ABIOTICVIRTUAL-J5",
+        "SCI-REPO-Y9-NAR-2023-ABIOTICVIRTUAL-J6"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Aranmore/2014 9 Sensory Receptor Assignment (Naomi Version).docx",
+          "sha": "d21cb67e7ec8268b0cfc57a596d1e59013ab9787",
+          "year": 9,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Narrogin/2023/abiotic_factors_virtual_lab.docx",
+          "sha": "dc753ee4cdaa5f250306e74a50b26df7c20f2d5e",
+          "year": 9,
+          "role": "paper"
+        }
+      ],
+      "questions": 26,
+      "marks": 61,
+      "imageAudit": "question-source-packs/repo-science-batch57-audit.json",
+      "notes": [
+        "Both complete source assignments reviewed. Sensory project preserves43 task marks plus2 presentation marks in the45-mark audit; no clinical diagnosis or literal receptor-spacing conclusion inferred from classroom thresholds. Non-injurious method requirement corrects pin-prick wording. Unspecified two-group receptor classification is teacher-reviewed. Virtual-lab results must come from the simulation; no observations invented and no live-fish procedure generated."
+      ],
+      "markAudit": {
+        "Touch": {
+          "coverTotal": 45,
+          "taskMarks": 43,
+          "presentationOnly": 2,
+          "ambiguousTwoGroupTaxonomy": true
+        },
+        "VirtualLab": {
+          "printedMarks": null,
+          "recordingTask": 1,
+          "journalQuestions": 6,
+          "providedObservations": false
+        }
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch58",
+      "questionIds": [
+        "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P1-appearance",
+        "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P1-handlens",
+        "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P1-hardness-results",
+        "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P1-hardness-inference",
+        "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P1-grains",
+        "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P1-identification",
+        "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P2-locations",
+        "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P2-research",
+        "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P2-draft-final"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Safety Bay/2017/Investigation Edited/Rocks and Minerals Assessment.docx",
+          "sha": "62b9c7886bff91848c97e4ed26fa1962513946b5",
+          "year": 8,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Safety Bay/2017/Investigation Edited/Marking Key.docx",
+          "sha": "56bf87994508452c5e687f7748e3075ce396addf",
+          "year": 8,
+          "role": "key_reference",
+          "reviewComplete": true
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Safety Bay/2017/Investigation Edited/Assessment Geological Map.docx",
+          "sha": "a787876e420ad5a8e100e48d755a8943b325649f",
+          "year": 8,
+          "role": "supporting_reference",
+          "reviewComplete": true
+        }
+      ],
+      "questions": 9,
+      "marks": 40,
+      "imageAudit": "question-source-packs/repo-science-batch58-audit.json",
+      "notes": [
+        "Full two-part rock assessment and matching rubric reviewed. Part1 explicit28marks matches cover; Part2 explicit12 differs from cover10. Original rock photos/chart/table and companion geological map with native coloured key preserved. Simplified hardness/provenance claims corrected in manual guidance. External cultural map linked to AIATSIS with its approximate-boundary context; no new cultural-map image copied."
+      ],
+      "markAudit": {
+        "Part1": {
+          "cover": 28,
+          "explicit": 28
+        },
+        "Part2": {
+          "cover": 10,
+          "explicit": 12,
+          "locations": 4,
+          "research": 2,
+          "draft": 4,
+          "finalPresentation": 2
+        },
+        "combinedExplicit": 40,
+        "combinedCovers": 38
+      },
+      "duplicateQuestionAliases": []
     }
   ],
   "files": [
@@ -17742,8 +18168,9 @@
       "sha": "b062e56376b2ef3613197fc903631c1eb5da4b84",
       "year": 8,
       "size": 22281,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_incomplete_referenced_material",
+      "duplicateOf": null,
+      "reviewReason": "Source assignment explicitly refers to missing textbook method/discussion wording; recorded prompts reviewed, referenced questions not invented."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8 ESS Crystal Size Task.docx",
@@ -17830,8 +18257,9 @@
       "sha": "14a4551c9b5c405e41a1a4f2ab05180d3e890b1a",
       "year": 8,
       "size": 12023,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Generic crystal-investigation report booklet with blank headings only and no stated independent/dependent conditions or actual question; supporting template pending class context."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Narrogin/2018/volcano structure.jpg",
@@ -18086,15 +18514,16 @@
       "sha": "a787876e420ad5a8e100e48d755a8943b325649f",
       "year": 8,
       "size": 3006246,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Companion geological map/legend used by the rock assessment, preserved in the question source pack; supporting reference, not another paper or question."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Safety Bay/2017/Investigation Edited/Marking Key.docx",
       "sha": "56bf87994508452c5e687f7748e3075ce396addf",
       "year": 8,
       "size": 16793,
-      "status": "pending",
+      "status": "reviewed_key_reference",
       "duplicateOf": null
     },
     {
@@ -18102,7 +18531,7 @@
       "sha": "62b9c7886bff91848c97e4ed26fa1962513946b5",
       "year": 8,
       "size": 840392,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -18206,8 +18635,9 @@
       "sha": "849116f416d0c8a0b81cb308c0b510f25bb5fde4",
       "year": 8,
       "size": 20888,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Verified empty Word body: one blank paragraph and section properties, no text, images, embedded objects or alternative HTML content. No recoverable question content."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Unknown/Revision for Year 8 Mid Topic Test Earth and Space Science and Investigating.docx",
@@ -18398,8 +18828,9 @@
       "sha": "fcc04db275ca273bcbdecae38ca11fb175bc107d",
       "year": 8,
       "size": 13042,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Candles-and-rising-water marking rubric only; no actual experimental question, variable conditions or method supplied. Supporting scoring resource, not invented investigation questions."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 8/Science/Investigating Sciences/Safety Bay/2019/Investigating in Science Test ANSWERS.docx",
@@ -18422,8 +18853,9 @@
       "sha": "fcc04db275ca273bcbdecae38ca11fb175bc107d",
       "year": 8,
       "size": 13042,
-      "status": "pending",
-      "duplicateOf": "resources/Assessments/Lowerschool/Year 8/Science/Investigating Sciences/Safety Bay/2018/Lower school investigation marking rubric.docx"
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": "resources/Assessments/Lowerschool/Year 8/Science/Investigating Sciences/Safety Bay/2018/Lower school investigation marking rubric.docx",
+      "reviewReason": "Candles-and-rising-water marking rubric only; no actual experimental question, variable conditions or method supplied. Supporting scoring resource, not invented investigation questions."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 8/Science/Investigating Sciences/Safety Bay/2023/Formative Assessment Marshmallow Booklet.pdf",
@@ -18438,7 +18870,7 @@
       "sha": "a655ea954814daa280d5e65d488adb68535d47db",
       "year": 8,
       "size": 25840,
-      "status": "pending",
+      "status": "reviewed_key_reference",
       "duplicateOf": null
     },
     {
@@ -18454,7 +18886,7 @@
       "sha": "f816bc8b546c1b2be0a9f6697e193c8b57f698e3",
       "year": 8,
       "size": 23458,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -18518,7 +18950,7 @@
       "sha": "a58de853c144d8f24cca586c73536ec2132e6890",
       "year": 8,
       "size": 12264,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -18598,7 +19030,7 @@
       "sha": "5775aa181c0bd1a69f936ce5500d354a5a31cb28",
       "year": 8,
       "size": 23104,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -19447,7 +19879,7 @@
       "sha": "d21cb67e7ec8268b0cfc57a596d1e59013ab9787",
       "year": 9,
       "size": 33376,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -20096,7 +20528,7 @@
       "sha": "dc753ee4cdaa5f250306e74a50b26df7c20f2d5e",
       "year": 9,
       "size": 16297,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -20104,16 +20536,18 @@
       "sha": "e8614a9a5126a2999e8fe2cb0b69fd961efc880d",
       "year": 9,
       "size": 14923,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Teacher-only bacteria investigation equipment/group-allocation/presentation notes; no student assessment prompts."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/Bacteria Investigation- Teacher information sheet.docx",
       "sha": "ed987ef12bed28ee2f26722f7e95b4b466fba86e",
       "year": 9,
       "size": 15022,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Same teacher-only bacteria equipment/group-allocation/presentation notes with title typo; no student assessment prompts."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/Bacteria investigation - marking key (2).docx",
@@ -20232,16 +20666,18 @@
       "sha": "e8614a9a5126a2999e8fe2cb0b69fd961efc880d",
       "year": 9,
       "size": 14923,
-      "status": "pending",
-      "duplicateOf": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/Bacteria Investigation- Teacher information sheet (2).docx"
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/Bacteria Investigation- Teacher information sheet (2).docx",
+      "reviewReason": "Teacher-only bacteria investigation equipment/group-allocation/presentation notes; no student assessment prompts."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/Bacteria Investigation- Teacher information sheet (3).docx",
       "sha": "e8614a9a5126a2999e8fe2cb0b69fd961efc880d",
       "year": 9,
       "size": 14923,
-      "status": "pending",
-      "duplicateOf": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/Bacteria Investigation- Teacher information sheet (2).docx"
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/Bacteria Investigation- Teacher information sheet (2).docx",
+      "reviewReason": "Teacher-only bacteria investigation equipment/group-allocation/presentation notes; no student assessment prompts."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/Bacteria Investigation- Teacher information sheet.docx",
@@ -27661,9 +28097,9 @@
       "duplicateOf": null
     }
   ],
-  "learningVaultCreatedKeySupplements": 834,
-  "remainingUniqueFileBlobs": 1428,
-  "learningVaultCreatedKeys": 1126,
+  "learningVaultCreatedKeySupplements": 902,
+  "remainingUniqueFileBlobs": 1413,
+  "learningVaultCreatedKeys": 1188,
   "blockedSources": [
     {
       "sha": "49d4b7f3f8af844477b39abb856365aeb096cafd",
@@ -27875,7 +28311,7 @@
     "ocrPages": 1175,
     "ocrTextVerified": false
   },
-  "distinctSourceAndKeyReferences": 198,
+  "distinctSourceAndKeyReferences": 208,
   "unscoredQuestionsPreserved": 1,
   "activeAdditionalQuestionRequest": {
     "requestedAdditionalQuestions": 1000,
@@ -27890,12 +28326,12 @@
     "requestedAt": "2026-10-16",
     "scope": "All remaining Years 7–10 Science assessment papers; all question types, source figures, response space and marking guidance",
     "startingImportedQuestions": 1374,
-    "addedQuestions": 896,
+    "addedQuestions": 1026,
     "status": "in_progress",
     "completionRule": "Every unique assessment paper reviewed; duplicates mapped and unreadable/protected files explicitly resolved. File-blob count is not a paper denominator.",
     "restoredQuestionsAfterDuplicateFix": 4,
-    "newlyExtractedQuestions": 892,
-    "papersReviewedSinceRequest": 93,
+    "newlyExtractedQuestions": 1022,
+    "papersReviewedSinceRequest": 100,
     "canonicalSourceQuestionsReReviewed": 2
   },
   "sourceInventoryExclusions": {
@@ -27905,13 +28341,23 @@
     "note": "These are file metadata records, not papers or questions; excluded from import work without increasing question or paper totals."
   },
   "supportingResourceReview": {
-    "files": 16,
-    "uniqueBlobs": 16,
+    "files": 25,
+    "uniqueBlobs": 22,
     "audit": "question-source-packs/repo-science-supporting-resource-review.json",
     "countedAsPapers": false,
     "countedAsQuestions": false
   },
   "missingReferencedMaterial": [
+    {
+      "questionId": "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-method",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8 ESS Crystal Size Lab Report.docx",
+      "sourceFileSha": "b062e56376b2ef3613197fc903631c1eb5da4b84",
+      "reference": "Mount Lawley cooling-rate/crystal-size practical sheet",
+      "missing": [
+        "Final cooling conditions and remaining method steps7–9"
+      ],
+      "resolution": "Locate original practical sheet; do not invent missing source directions."
+    },
     {
       "questionId": "SCI-REPO-Y7-ARAN-2015-SUNANGLE-assignment",
       "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Aranmore/Angles make a difference INVESTIGATION 2015.docx",
@@ -27934,7 +28380,7 @@
       "resolution": "Locate the matching class method; do not invent a source procedure."
     }
   ],
-  "reviewedDistinctSourceBlobs": 172,
+  "reviewedDistinctSourceBlobs": 187,
   "inventoryCountBasis": "Remaining unique file blobs counts pending or key-reference-pending identities, including protected inputs; it is not a remaining-paper or remaining-question estimate.",
   "canonicalUniverseReviewRepair": {
     "questionIds": [

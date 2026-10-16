@@ -1,0 +1,167 @@
+{
+  "batch": "repo-science-batch58",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P1-appearance",
+    "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P1-handlens",
+    "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P1-hardness-results",
+    "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P1-hardness-inference",
+    "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P1-grains",
+    "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P1-identification",
+    "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P2-locations",
+    "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P2-research",
+    "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P2-draft-final"
+  ],
+  "questions": 9,
+  "multipleChoice": 0,
+  "writtenQuestions": 9,
+  "battleEligible": 0,
+  "marks": 40,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P1-hardness-results",
+      "note": "Source treats each rock as having one fixed Mohs hardness, although rocks can contain minerals with different hardnesses."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P1-hardness-inference",
+      "note": "Supplied ranges cannot be imposed as exact observations; use evidence-based comparative hardness."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P1-grains",
+      "note": "Sediment grain-size chart is applied to rocks of different origins; interpretation needs teacher moderation."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P1-identification",
+      "note": "Original table/photographs preserved; simplified fixed rock-property claims require moderation."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P2-locations",
+      "note": "Original geological map is an accompanying source file. Cultural map is referenced externally, not embedded; provide verified resource links rather than reproducing a newly sourced copyrighted map."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P2-research",
+      "note": "Use reliable museum/community sources and accurate cultural attribution."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P2-draft-final",
+      "note": "Part2 cover says10 but explicit4+2+4+2 allocations sum12; draft and final phase retained together to avoid inflating repeated response counts."
+    }
+  ],
+  "imageAudit": [
+    {
+      "id": "e172-image2",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Safety Bay/2017/Investigation Edited/Rocks and Minerals Assessment.docx",
+      "embeddedImage": "word/media/image2.jpeg",
+      "sha256": "0b24bfd5f08aceb880153e30451613303b5ec6a390063c1e31baf1b108b134e1",
+      "publishedSha256": "6df7ff967e3be10a5aa16d064d62411072f427b27a31aa71c08986e7ba20809c",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e172-image3",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Safety Bay/2017/Investigation Edited/Rocks and Minerals Assessment.docx",
+      "embeddedImage": "word/media/image3.png",
+      "sha256": "db4e4aaad8bbaa68b6ed5b4a963f9cac6d1b2e96d1fe747a4e5144fa120af4ad",
+      "publishedSha256": "ee26e70e963036bca7806bfe15d816e3fe9fd89abf3f3d4b06f84cf36639e55e",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e172-image4",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Safety Bay/2017/Investigation Edited/Rocks and Minerals Assessment.docx",
+      "embeddedImage": "word/media/image4.png",
+      "sha256": "e81fc7fb479e0d18d9c6383c92bef165ede0c19379e88c49b458a588d3ebc017",
+      "publishedSha256": "f74bbcc2369b9337f4081c8699ad00a17f8188d90dc756055e9b08cc1d9dc131",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e172-image5",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Safety Bay/2017/Investigation Edited/Rocks and Minerals Assessment.docx",
+      "embeddedImage": "word/media/image5.png",
+      "sha256": "885d6e1f6af28eef242bd3be7a8c3f0e802eba81fc995279a05d1d62af804f25",
+      "publishedSha256": "7a3d59affada05cc8e9fe62150df9e0c59918e6b5ca54facd5feb297c79ad36d",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e172-page4-original-rock-identification-table",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Safety Bay/2017/Investigation Edited/Rocks and Minerals Assessment.docx",
+      "sourceFileSha": "62b9c7886bff91848c97e4ed26fa1962513946b5",
+      "sourcePage": 4,
+      "pdfCropPoints": [
+        60,
+        400,
+        525,
+        660
+      ],
+      "role": "original_native_Word_figure",
+      "conversion": "Original DOCX rendered by LibreOffice to PDF; bounded source figure rasterised at 216 dpi without redrawing. Native editable shapes, table borders, shading and example points retained.",
+      "publishedSha256": "e072eeac91e88628a04fbba3ead882b3dac8f88e911e07405050614cdab75d19"
+    },
+    {
+      "id": "e173-page1-original-geological-map-with-native-key",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Safety Bay/2017/Investigation Edited/Assessment Geological Map.docx",
+      "sourceFileSha": "a787876e420ad5a8e100e48d755a8943b325649f",
+      "sourcePage": 1,
+      "pdfCropPoints": [
+        150,
+        65,
+        1145,
+        750
+      ],
+      "role": "original_native_Word_figure",
+      "conversion": "Original DOCX rendered by LibreOffice to PDF; bounded source figure rasterised at 216 dpi without redrawing. Native editable shapes, table borders, shading and example points retained.",
+      "publishedSha256": "20246e0443e1a7a1af768a30b2ae8daa2995fb748c222596fbea3679618ae3e4"
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Safety Bay/2017/Investigation Edited/Rocks and Minerals Assessment.docx",
+      "sha": "62b9c7886bff91848c97e4ed26fa1962513946b5",
+      "year": 8,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Safety Bay/2017/Investigation Edited/Marking Key.docx",
+      "sha": "56bf87994508452c5e687f7748e3075ce396addf",
+      "year": 8,
+      "role": "key_reference",
+      "reviewComplete": true
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Safety Bay/2017/Investigation Edited/Assessment Geological Map.docx",
+      "sha": "a787876e420ad5a8e100e48d755a8943b325649f",
+      "year": 8,
+      "role": "supporting_reference",
+      "reviewComplete": true
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 0,
+  "createdSupplements": 9,
+  "notes": [
+    "Full two-part rock assessment and matching rubric reviewed. Part1 explicit28marks matches cover; Part2 explicit12 differs from cover10. Original rock photos/chart/table and companion geological map with native coloured key preserved. Simplified hardness/provenance claims corrected in manual guidance. External cultural map linked to AIATSIS with its approximate-boundary context; no new cultural-map image copied."
+  ],
+  "markAudit": {
+    "Part1": {
+      "cover": 28,
+      "explicit": 28
+    },
+    "Part2": {
+      "cover": 10,
+      "explicit": 12,
+      "locations": 4,
+      "research": 2,
+      "draft": 4,
+      "finalPresentation": 2
+    },
+    "combinedExplicit": 40,
+    "combinedCovers": 38
+  },
+  "duplicateQuestionAliases": []
+}

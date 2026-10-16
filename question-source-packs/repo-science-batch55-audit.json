@@ -1,0 +1,162 @@
+{
+  "batch": "repo-science-batch55",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-properties-1",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-properties-2",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-properties-3",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-properties-4",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-properties-5",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-properties-6",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-properties-7",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-properties-8",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-properties-9",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-properties-10",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-properties-11",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-properties-12",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-properties-13",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-properties-14",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-changes-1",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-changes-2",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-changes-3",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-changes-4",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-changes-5",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-changes-6",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-changes-7",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-changes-8",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-changes-9",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-changes-10",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-changes-11",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-changes-12",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-changes-13",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-changes-14",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-changes-15",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-changes-16",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-A1",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-A2",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-A3",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-A4",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-A5",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-A6",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-A7",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-A8",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-A9",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-A10",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B2",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B3",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B4",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B5",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B6",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B7",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B8",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B9",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B10",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-C1",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-C2",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-C3",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-C4",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-C5",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-C6",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-C7",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-C8",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-C9",
+    "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-C10"
+  ],
+  "questions": 59,
+  "multipleChoice": 0,
+  "writtenQuestions": 59,
+  "battleEligible": 0,
+  "marks": 77,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-properties-4",
+      "note": "Physical in the intended nonreactive dissolution context. Source key incorrectly marks solubility chemical."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-properties-7",
+      "note": "Physical sensory descriptor in the standard property classification; key marks chemical. This is classification of a stated property, never an instruction to taste laboratory substances. Acidity as reactivity is a chemical property."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-properties-13",
+      "note": "Physical sensory descriptor: odour. Source incorrectly marks this chemical; observing an odour does not itself require forming a new substance. Do not deliberately smell unknown substances."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-A2",
+      "note": "Chemical is intended if a new gaseous substance is formed. Gas release alone could also be physical, so the observation is not conclusive without context."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-A5",
+      "note": "Chemical is intended if a reaction generates light; light emission alone is not universal proof of a new substance."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-A6",
+      "note": "Both physical melting and chemical reaction with sodium occur; the source’s single C label records only the reaction. Accept an explanation identifying both."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-A8",
+      "note": "Physical dispersion/mixing of syrup and milk in the intended context; the everyday word dissolved is imprecise for a complex mixture."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B3",
+      "note": "Matching supplied key contains unsupported or incorrect evidence; corrected guidance retained."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B4",
+      "note": "Matching supplied key contains unsupported or incorrect evidence; corrected guidance retained."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B5",
+      "note": "Matching supplied key contains unsupported or incorrect evidence; corrected guidance retained."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B6",
+      "note": "Matching supplied key contains unsupported or incorrect evidence; corrected guidance retained."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B8",
+      "note": "Matching supplied key contains unsupported or incorrect evidence; corrected guidance retained."
+    }
+  ],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Investigating Sciences/Safety Bay/2023/Formative assessment task Chemical Physical.docx",
+      "sha": "f816bc8b546c1b2be0a9f6697e193c8b57f698e3",
+      "year": 8,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Investigating Sciences/Safety Bay/2023/Formative assessment marking key.docx",
+      "sha": "a655ea954814daa280d5e65d488adb68535d47db",
+      "year": 8,
+      "role": "key_reference",
+      "reviewComplete": true
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 0,
+  "createdSupplements": 59,
+  "notes": [
+    "Complete59-response formative worksheet. PartB is27 printed marks, nine3-mark scenarios after one worked example; remaining fifty1-mark classifications use labelled proposed scoring. Solubility/odour/taste property errors and evaporation reversibility corrected. Ordinary silver-tarnish chemistry checked against Geoscience Australia. Mixed physical/chemical scenarios accept both processes; no unsafe practical is instructed. Matching key reviewed in full and no extra unanswered tasks identified."
+  ],
+  "markAudit": {
+    "PartB": {
+      "original": 27,
+      "workedExampleExcluded": 1,
+      "scoredScenarios": 9
+    },
+    "OtherSections": {
+      "originalMarks": null,
+      "proposed": 50
+    },
+    "KeyCorrections": [
+      "Solubility physical in stated context",
+      "Odour and taste descriptors physical in standard classification",
+      "Evaporation reversible by condensation",
+      "Silver tarnish usually sulfide",
+      "Gas/light observations alone not universally decisive",
+      "Ice-melting plus sodium reaction includes both change types"
+    ]
+  },
+  "duplicateQuestionAliases": []
+}

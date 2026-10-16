@@ -1,0 +1,95 @@
+{
+  "batch": "repo-science-batch57",
+  "paperCount": 2,
+  "questionIds": [
+    "SCI-REPO-Y9-ARAN-2014-TOUCH-I1",
+    "SCI-REPO-Y9-ARAN-2014-TOUCH-I2",
+    "SCI-REPO-Y9-ARAN-2014-TOUCH-I3",
+    "SCI-REPO-Y9-ARAN-2014-TOUCH-I4",
+    "SCI-REPO-Y9-ARAN-2014-TOUCH-I5",
+    "SCI-REPO-Y9-ARAN-2014-TOUCH-planning",
+    "SCI-REPO-Y9-ARAN-2014-TOUCH-materials",
+    "SCI-REPO-Y9-ARAN-2014-TOUCH-hypothesis",
+    "SCI-REPO-Y9-ARAN-2014-TOUCH-independent",
+    "SCI-REPO-Y9-ARAN-2014-TOUCH-dependent",
+    "SCI-REPO-Y9-ARAN-2014-TOUCH-controls",
+    "SCI-REPO-Y9-ARAN-2014-TOUCH-method",
+    "SCI-REPO-Y9-ARAN-2014-TOUCH-results",
+    "SCI-REPO-Y9-ARAN-2014-TOUCH-graph",
+    "SCI-REPO-Y9-ARAN-2014-TOUCH-discussion",
+    "SCI-REPO-Y9-ARAN-2014-TOUCH-highest",
+    "SCI-REPO-Y9-ARAN-2014-TOUCH-lowest",
+    "SCI-REPO-Y9-ARAN-2014-TOUCH-conclusion",
+    "SCI-REPO-Y9-ARAN-2014-TOUCH-references",
+    "SCI-REPO-Y9-NAR-2023-ABIOTICVIRTUAL-table",
+    "SCI-REPO-Y9-NAR-2023-ABIOTICVIRTUAL-J1",
+    "SCI-REPO-Y9-NAR-2023-ABIOTICVIRTUAL-J2",
+    "SCI-REPO-Y9-NAR-2023-ABIOTICVIRTUAL-J3",
+    "SCI-REPO-Y9-NAR-2023-ABIOTICVIRTUAL-J4",
+    "SCI-REPO-Y9-NAR-2023-ABIOTICVIRTUAL-J5",
+    "SCI-REPO-Y9-NAR-2023-ABIOTICVIRTUAL-J6"
+  ],
+  "questions": 26,
+  "multipleChoice": 0,
+  "writtenQuestions": 26,
+  "battleEligible": 0,
+  "marks": 61,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y9-ARAN-2014-TOUCH-I5",
+      "note": "The unspecified two-group taxonomy requires teacher clarification."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2014-TOUCH-method",
+      "note": "Source’s direct receptor-spacing interpretation and/or rubric grouping require corrected manual marking."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2014-TOUCH-highest",
+      "note": "Source’s direct receptor-spacing interpretation and/or rubric grouping require corrected manual marking."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2014-TOUCH-lowest",
+      "note": "Source’s direct receptor-spacing interpretation and/or rubric grouping require corrected manual marking."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2014-TOUCH-conclusion",
+      "note": "Source’s direct receptor-spacing interpretation and/or rubric grouping require corrected manual marking."
+    }
+  ],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Aranmore/2014 9 Sensory Receptor Assignment (Naomi Version).docx",
+      "sha": "d21cb67e7ec8268b0cfc57a596d1e59013ab9787",
+      "year": 9,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Narrogin/2023/abiotic_factors_virtual_lab.docx",
+      "sha": "dc753ee4cdaa5f250306e74a50b26df7c20f2d5e",
+      "year": 9,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 26,
+  "createdSupplements": 0,
+  "notes": [
+    "Both complete source assignments reviewed. Sensory project preserves43 task marks plus2 presentation marks in the45-mark audit; no clinical diagnosis or literal receptor-spacing conclusion inferred from classroom thresholds. Non-injurious method requirement corrects pin-prick wording. Unspecified two-group receptor classification is teacher-reviewed. Virtual-lab results must come from the simulation; no observations invented and no live-fish procedure generated."
+  ],
+  "markAudit": {
+    "Touch": {
+      "coverTotal": 45,
+      "taskMarks": 43,
+      "presentationOnly": 2,
+      "ambiguousTwoGroupTaxonomy": true
+    },
+    "VirtualLab": {
+      "printedMarks": null,
+      "recordingTask": 1,
+      "journalQuestions": 6,
+      "providedObservations": false
+    }
+  },
+  "duplicateQuestionAliases": []
+}

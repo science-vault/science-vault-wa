@@ -1,0 +1,109 @@
+{
+  "batch": "repo-science-batch56",
+  "paperCount": 3,
+  "questionIds": [
+    "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-aim",
+    "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-hypothesis",
+    "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-variables",
+    "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-materials",
+    "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-diagram",
+    "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-method",
+    "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-results",
+    "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-observations",
+    "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-support",
+    "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-finding",
+    "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-explanation",
+    "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-evaluation",
+    "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-improve",
+    "SCI-REPO-Y8-ARAN-2011-TAPE-aim",
+    "SCI-REPO-Y8-ARAN-2011-TAPE-hypothesis",
+    "SCI-REPO-Y8-ARAN-2011-TAPE-materials",
+    "SCI-REPO-Y8-ARAN-2011-TAPE-method",
+    "SCI-REPO-Y8-ARAN-2011-TAPE-results",
+    "SCI-REPO-Y8-ARAN-2011-TAPE-independent",
+    "SCI-REPO-Y8-ARAN-2011-TAPE-dependent",
+    "SCI-REPO-Y8-ARAN-2011-TAPE-controls",
+    "SCI-REPO-Y8-ARAN-2011-TAPE-discussion",
+    "SCI-REPO-Y8-ARAN-2011-TAPE-conclusion",
+    "SCI-REPO-Y8-ARAN-2015-BURGERRING-planning",
+    "SCI-REPO-Y8-ARAN-2015-BURGERRING-background",
+    "SCI-REPO-Y8-ARAN-2015-BURGERRING-hypothesis",
+    "SCI-REPO-Y8-ARAN-2015-BURGERRING-independent",
+    "SCI-REPO-Y8-ARAN-2015-BURGERRING-dependent",
+    "SCI-REPO-Y8-ARAN-2015-BURGERRING-controls",
+    "SCI-REPO-Y8-ARAN-2015-BURGERRING-materials",
+    "SCI-REPO-Y8-ARAN-2015-BURGERRING-method",
+    "SCI-REPO-Y8-ARAN-2015-BURGERRING-calculations",
+    "SCI-REPO-Y8-ARAN-2015-BURGERRING-results",
+    "SCI-REPO-Y8-ARAN-2015-BURGERRING-graph",
+    "SCI-REPO-Y8-ARAN-2015-BURGERRING-discussion",
+    "SCI-REPO-Y8-ARAN-2015-BURGERRING-conclusion-references"
+  ],
+  "questions": 36,
+  "multipleChoice": 0,
+  "writtenQuestions": 36,
+  "battleEligible": 0,
+  "marks": 89,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-materials",
+      "note": "Separate practical sheet and final cooling steps are absent from this file."
+    },
+    {
+      "id": "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-method",
+      "note": "Separate practical sheet and final cooling steps are absent from this file."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2015-BURGERRING-independent",
+      "note": "The source leaves the exact experimental variable/method to the class procedure; no unique unprovided setup invented."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2015-BURGERRING-method",
+      "note": "The source leaves the exact experimental variable/method to the class procedure; no unique unprovided setup invented."
+    }
+  ],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8 ESS Crystal Size Lab Report.docx",
+      "sha": "b062e56376b2ef3613197fc903631c1eb5da4b84",
+      "year": 8,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2011 8 STICKY TAPE INVESTIGATION.docx",
+      "sha": "a58de853c144d8f24cca586c73536ec2132e6890",
+      "year": 8,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Burning Burger Ring Investigation.docx",
+      "sha": "5775aa181c0bd1a69f936ce5500d354a5a31cb28",
+      "year": 8,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 36,
+  "createdSupplements": 0,
+  "notes": [
+    "Three investigation papers reviewed. Original crystal30 and tape16 task allocations retained. Burger-ring43 task marks plus2 presentation-only marks sum to45; class mass/energy calculations included within original4-mark category. Mass is distinguished from weight, and water heat recovery from total/metabolizable food energy. Incomplete crystal practical-sheet steps explicitly unresolved."
+  ],
+  "markAudit": {
+    "Crystal": {
+      "total": 30,
+      "methodIncomplete": true
+    },
+    "Tape": {
+      "total": 16,
+      "dependentUnits": "N"
+    },
+    "BurgerRing": {
+      "cover": 45,
+      "taskMarks": 43,
+      "presentationOnly": 2,
+      "suppliedNutrition_kJ_per100g": 2200
+    }
+  },
+  "duplicateQuestionAliases": []
+}
