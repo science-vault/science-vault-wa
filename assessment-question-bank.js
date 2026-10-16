@@ -111,3 +111,5 @@ document.write('<script src="assessment-question-bank-science-source-batch44.js?
 document.write('<script src="assessment-question-bank-science-source-batch45.js?v=2026.10.16-science-source45"><\/script>');
 
 document.write('<script src="assessment-question-bank-science-source-batch46.js?v=2026.10.16-science-source46"><\/script>');
+
+document.write('<script src="assessment-question-bank-science-source-batch47.js?v=2026.10.16-science-source47"><\/script>');

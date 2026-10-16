@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.16-science-source46",
+  "version": "2026.10.16-science-source47",
   "status": "in_progress",
   "scope": "Original Science assessment files in repository, Years 7–10. File counts include keys and supporting materials; they are not question counts.",
   "inventoryFiles": 2009,
@@ -11,10 +11,10 @@
     "9": 457,
     "10": 582
   },
-  "importedPapers": 115,
-  "importedQuestions": 1978,
+  "importedPapers": 123,
+  "importedQuestions": 2032,
   "multipleChoice": 776,
-  "writtenQuestions": 1202,
+  "writtenQuestions": 1256,
   "battleEligibleQuestions": 679,
   "reviewRequired": [
     {
@@ -860,6 +860,90 @@
     {
       "id": "SCI-REPO-Y7-ARAN-CHEMMIDREV-A-14",
       "note": "Water volume is specified; final solution volume is not. The common0.7g/mL answer needs that qualification."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-VOCAB21-V2-2",
+      "note": "Brownian motion is the likely intended term: irregular motion of small suspended particles caused by collisions with surrounding molecules. “Random movement of particles” alone is ambiguous."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-VOCAB21-V2-5",
+      "note": "Plasma is intended; it need not exist only at extremely high gas temperatures. Nonthermal plasmas also exist."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-VOCAB22-V2-2",
+      "note": "Thermal energy/particle kinetic energy is intended; the source’s wording is imprecise because particles do not stop moving when a material is cold."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-VOCAB22-V2-3",
+      "note": "Atoms/molecules/ions as appropriate. “Particles” is the generic intended school term; not all matter consists only of molecules."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-VOCAB22-V2-10",
+      "note": "Plasma is intended. The claimed universal6000°C threshold is false; plasmas can occur in nonthermal conditions and have no single threshold."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-VOCAB23-V2-6",
+      "note": "Vaporisation is likely intended as the broader liquid→gas term; evaporation is a specific surface process, not a perfect synonym for every vaporisation process."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-VOCAB23-V2-8",
+      "note": "Mist/fog/visible cloud droplets. If “steam” is intended in everyday usage, distinguish visible condensed droplets from invisible gaseous water vapour."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-VOCAB23-V2-9",
+      "note": "Melting is intended for externally heated solid surfaces, but melting need not always begin at an outside edge under every heating configuration."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-VOCAB23-V2-10",
+      "note": "Vaporisation; accept evaporation where surface escape is specifically meant, or boiling where bubbles form throughout the liquid."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-SOLUBILITY-hypothesis",
+      "note": "Source cover says25marks, but explicit section allocations add to27. Original allocations retained; teacher moderation required."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-SOLUBILITY-independent",
+      "note": "Source cover says25marks, but explicit section allocations add to27. Original allocations retained; teacher moderation required."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-SOLUBILITY-dependent",
+      "note": "Source cover says25marks, but explicit section allocations add to27. Original allocations retained; teacher moderation required."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-SOLUBILITY-controls",
+      "note": "Source cover says25marks, but explicit section allocations add to27. Original allocations retained; teacher moderation required."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-SOLUBILITY-materials",
+      "note": "Source cover says25marks, but explicit section allocations add to27. Original allocations retained; teacher moderation required."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-SOLUBILITY-method",
+      "note": "Source cover says25marks, but explicit section allocations add to27. Original allocations retained; teacher moderation required."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-SOLUBILITY-diagram",
+      "note": "Source cover says25marks, but explicit section allocations add to27. Original allocations retained; teacher moderation required."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-SOLUBILITY-results",
+      "note": "Source cover says25marks, but explicit section allocations add to27. Original allocations retained; teacher moderation required."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-SOLUBILITY-graph",
+      "note": "Source cover says25marks, but explicit section allocations add to27. Original allocations retained; teacher moderation required."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-SOLUBILITY-discussion",
+      "note": "Source cover says25marks, but explicit section allocations add to27. Original allocations retained; teacher moderation required."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-SOLUBILITY-conclusion",
+      "note": "Source cover says25marks, but explicit section allocations add to27. Original allocations retained; teacher moderation required."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-2015-SUNANGLE-assignment",
+      "note": "Source refers to Pearson7 Science p353, which is absent from this file. Given method and numbered discussion questions cannot be reconstructed from a page reference. Overall30 marks follows cover; within-rubric discussion allocation needs clarification."
     },
     {
       "id": "SCI-REPO-Y10-NAR-2024-UNIVERSE-MC02",
@@ -9544,6 +9628,270 @@
           "reason": "Identical chemistry revision prompt, including numerical values, already retained from the companion handout. Source repeats the entire question list twice."
         }
       ]
+    },
+    {
+      "id": "repo-science-batch47",
+      "questionIds": [
+        "SCI-REPO-Y7-ARAN-VOCAB21-V2-1",
+        "SCI-REPO-Y7-ARAN-VOCAB21-V2-2",
+        "SCI-REPO-Y7-ARAN-VOCAB21-V2-3",
+        "SCI-REPO-Y7-ARAN-VOCAB21-V2-4",
+        "SCI-REPO-Y7-ARAN-VOCAB21-V2-5",
+        "SCI-REPO-Y7-ARAN-VOCAB21-V2-6",
+        "SCI-REPO-Y7-ARAN-VOCAB21-V2-7",
+        "SCI-REPO-Y7-ARAN-VOCAB21-V2-8",
+        "SCI-REPO-Y7-ARAN-VOCAB21-V2-9",
+        "SCI-REPO-Y7-ARAN-VOCAB21-V2-10",
+        "SCI-REPO-Y7-ARAN-VOCAB21-V2-11",
+        "SCI-REPO-Y7-ARAN-VOCAB22-V2-1",
+        "SCI-REPO-Y7-ARAN-VOCAB22-V2-2",
+        "SCI-REPO-Y7-ARAN-VOCAB22-V2-3",
+        "SCI-REPO-Y7-ARAN-VOCAB22-V2-4",
+        "SCI-REPO-Y7-ARAN-VOCAB22-V2-5",
+        "SCI-REPO-Y7-ARAN-VOCAB22-V2-6",
+        "SCI-REPO-Y7-ARAN-VOCAB22-V2-7",
+        "SCI-REPO-Y7-ARAN-VOCAB22-V2-8",
+        "SCI-REPO-Y7-ARAN-VOCAB22-V2-9",
+        "SCI-REPO-Y7-ARAN-VOCAB22-V2-10",
+        "SCI-REPO-Y7-ARAN-VOCAB23-V2-1",
+        "SCI-REPO-Y7-ARAN-VOCAB23-V2-2",
+        "SCI-REPO-Y7-ARAN-VOCAB23-V2-3",
+        "SCI-REPO-Y7-ARAN-VOCAB23-V2-4",
+        "SCI-REPO-Y7-ARAN-VOCAB23-V2-5",
+        "SCI-REPO-Y7-ARAN-VOCAB23-V2-6",
+        "SCI-REPO-Y7-ARAN-VOCAB23-V2-8",
+        "SCI-REPO-Y7-ARAN-VOCAB23-V2-9",
+        "SCI-REPO-Y7-ARAN-VOCAB23-V2-10",
+        "SCI-REPO-Y7-ARAN-SOLUBILITY-hypothesis",
+        "SCI-REPO-Y7-ARAN-SOLUBILITY-independent",
+        "SCI-REPO-Y7-ARAN-SOLUBILITY-dependent",
+        "SCI-REPO-Y7-ARAN-SOLUBILITY-controls",
+        "SCI-REPO-Y7-ARAN-SOLUBILITY-materials",
+        "SCI-REPO-Y7-ARAN-SOLUBILITY-method",
+        "SCI-REPO-Y7-ARAN-SOLUBILITY-diagram",
+        "SCI-REPO-Y7-ARAN-SOLUBILITY-results",
+        "SCI-REPO-Y7-ARAN-SOLUBILITY-graph",
+        "SCI-REPO-Y7-ARAN-SOLUBILITY-discussion",
+        "SCI-REPO-Y7-ARAN-SOLUBILITY-conclusion",
+        "SCI-REPO-Y7-NAR-2017-CHEMREV-1",
+        "SCI-REPO-Y7-NAR-2017-CHEMREV-2",
+        "SCI-REPO-Y7-NAR-2017-CHEMREV-3",
+        "SCI-REPO-Y7-NAR-2017-CHEMREV-4",
+        "SCI-REPO-Y7-NAR-2017-CHEMREV-5",
+        "SCI-REPO-Y7-NAR-2017-CHEMREV-6",
+        "SCI-REPO-Y7-NAR-2017-CHEMREV-7",
+        "SCI-REPO-Y7-NAR-2017-CHEMREV-8",
+        "SCI-REPO-Y7-NAR-2017-CHEMREV-9",
+        "SCI-REPO-Y7-NAR-2017-CHEMREV-10",
+        "SCI-REPO-Y7-NAR-2017-CHEMREV-11",
+        "SCI-REPO-Y7-NAR-2017-FILTRATION-1",
+        "SCI-REPO-Y7-ARAN-2015-SUNANGLE-assignment"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Solubility Investigation Scaffold Year 7 Chemistry.docx",
+          "sha": "fe29de1973185c99785d3648fc5fe8867e64bbed",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Vocab Test for Chapter 2.1 Version 2.docx",
+          "sha": "2ce4cc6aa5f6837e172d29af62156c9b4039de1f",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Vocab Test for Chapter 2.2 Version 2.docx",
+          "sha": "a016b485e295e2717bb04fa3f231bf4405507033",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Vocab Test for Chapter 2.3 Version 2.docx",
+          "sha": "2ab0da57138c04e1a181a34ae430faa4010b8215",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Vocab Test for Chapter 4.1 Version 2.docx",
+          "sha": "fa6dbdfa1e104eb1b1077c6c5d0b5cea7872b43b",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2017/Chemistry 1 Revision.docx",
+          "sha": "dc5f464bbe8fad2cc1d5354d222cb4a0d25c09e8",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2017/Filtration.docx",
+          "sha": "18f864c5e64a12ac9caf2252a341ff3a18c949eb",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Aranmore/Angles make a difference INVESTIGATION 2015.docx",
+          "sha": "d4158efc29b9a487a17ac1deae18cf54a7313900",
+          "year": 7,
+          "role": "paper"
+        }
+      ],
+      "questions": 54,
+      "marks": 112,
+      "imageAudit": "question-source-packs/repo-science-batch47-audit.json",
+      "notes": [
+        "Eight source papers reviewed. Three vocabulary sheets retain exact original descriptions with proposed scoring and scientific-error flags. Mixtures version maps12 duplicates. Solubility scaffold preserves27 explicit marks against erroneous25-mark cover. Filtration worked answer separated from student prompt. Sun-angle assignment retained at overall30 marks, with missing textbook material and malformed discussion marks explicitly unresolved."
+      ],
+      "markAudit": {
+        "Solubility": {
+          "cover": 25,
+          "explicitAllocations": 27
+        },
+        "Vocabulary": {
+          "marksPrinted": null,
+          "proposedItems": 31,
+          "mixturesAliases": 12
+        },
+        "Sun angles": {
+          "coverTotal": 30,
+          "explicitUnambiguousSections": 23,
+          "discussionCell": "124",
+          "textbookPageMissing": true
+        }
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Vocab Test for Chapter 4.1 Version 2.docx",
+          "sourceFileSha": "fa6dbdfa1e104eb1b1077c6c5d0b5cea7872b43b",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            5
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-VOCAB2-1",
+          "reason": "Same definition and free-recall task already imported from the2014 folder variant; source saturation typo matches and remains flagged."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Vocab Test for Chapter 4.1 Version 2.docx",
+          "sourceFileSha": "fa6dbdfa1e104eb1b1077c6c5d0b5cea7872b43b",
+          "sourceQuestionNumber": "2",
+          "sourceParagraphs": [
+            6
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-VOCAB2-2",
+          "reason": "Same definition and free-recall task already imported from the2014 folder variant; source saturation typo matches and remains flagged."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Vocab Test for Chapter 4.1 Version 2.docx",
+          "sourceFileSha": "fa6dbdfa1e104eb1b1077c6c5d0b5cea7872b43b",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            7
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-VOCAB2-3",
+          "reason": "Same definition and free-recall task already imported from the2014 folder variant; source saturation typo matches and remains flagged."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Vocab Test for Chapter 4.1 Version 2.docx",
+          "sourceFileSha": "fa6dbdfa1e104eb1b1077c6c5d0b5cea7872b43b",
+          "sourceQuestionNumber": "4",
+          "sourceParagraphs": [
+            8
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-VOCAB2-4",
+          "reason": "Same definition and free-recall task already imported from the2014 folder variant; source saturation typo matches and remains flagged."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Vocab Test for Chapter 4.1 Version 2.docx",
+          "sourceFileSha": "fa6dbdfa1e104eb1b1077c6c5d0b5cea7872b43b",
+          "sourceQuestionNumber": "5",
+          "sourceParagraphs": [
+            9
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-VOCAB2-5",
+          "reason": "Same definition and free-recall task already imported from the2014 folder variant; source saturation typo matches and remains flagged."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Vocab Test for Chapter 4.1 Version 2.docx",
+          "sourceFileSha": "fa6dbdfa1e104eb1b1077c6c5d0b5cea7872b43b",
+          "sourceQuestionNumber": "6",
+          "sourceParagraphs": [
+            10
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-VOCAB2-6",
+          "reason": "Same definition and free-recall task already imported from the2014 folder variant; source saturation typo matches and remains flagged."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Vocab Test for Chapter 4.1 Version 2.docx",
+          "sourceFileSha": "fa6dbdfa1e104eb1b1077c6c5d0b5cea7872b43b",
+          "sourceQuestionNumber": "7",
+          "sourceParagraphs": [
+            11
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-VOCAB2-7",
+          "reason": "Same definition and free-recall task already imported from the2014 folder variant; source saturation typo matches and remains flagged."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Vocab Test for Chapter 4.1 Version 2.docx",
+          "sourceFileSha": "fa6dbdfa1e104eb1b1077c6c5d0b5cea7872b43b",
+          "sourceQuestionNumber": "8",
+          "sourceParagraphs": [
+            12
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-VOCAB2-8",
+          "reason": "Same definition and free-recall task already imported from the2014 folder variant; source saturation typo matches and remains flagged."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Vocab Test for Chapter 4.1 Version 2.docx",
+          "sourceFileSha": "fa6dbdfa1e104eb1b1077c6c5d0b5cea7872b43b",
+          "sourceQuestionNumber": "9",
+          "sourceParagraphs": [
+            13
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-VOCAB2-9",
+          "reason": "Same definition and free-recall task already imported from the2014 folder variant; source saturation typo matches and remains flagged."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Vocab Test for Chapter 4.1 Version 2.docx",
+          "sourceFileSha": "fa6dbdfa1e104eb1b1077c6c5d0b5cea7872b43b",
+          "sourceQuestionNumber": "10",
+          "sourceParagraphs": [
+            14
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-VOCAB2-10",
+          "reason": "Same definition and free-recall task already imported from the2014 folder variant; source saturation typo matches and remains flagged."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Vocab Test for Chapter 4.1 Version 2.docx",
+          "sourceFileSha": "fa6dbdfa1e104eb1b1077c6c5d0b5cea7872b43b",
+          "sourceQuestionNumber": "11",
+          "sourceParagraphs": [
+            15
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-VOCAB2-11",
+          "reason": "Same definition and free-recall task already imported from the2014 folder variant; source saturation typo matches and remains flagged."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Vocab Test for Chapter 4.1 Version 2.docx",
+          "sourceFileSha": "fa6dbdfa1e104eb1b1077c6c5d0b5cea7872b43b",
+          "sourceQuestionNumber": "12",
+          "sourceParagraphs": [
+            16
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-VOCAB2-12",
+          "reason": "Same definition and free-recall task already imported from the2014 folder variant; source saturation typo matches and remains flagged."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Vocab Test for Chapter 2.3 Version 2.docx",
+          "sourceFileSha": "2ab0da57138c04e1a181a34ae430faa4010b8215",
+          "sourceQuestionNumber": "7",
+          "sourceParagraphs": [
+            10
+          ],
+          "existingQuestionId": "SCI-REPO-Y7-ARAN-VOCAB21-V2-7",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
     }
   ],
   "files": [
@@ -10820,7 +11168,7 @@
       "sha": "fe29de1973185c99785d3648fc5fe8867e64bbed",
       "year": 7,
       "size": 16628,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -10836,7 +11184,7 @@
       "sha": "2ce4cc6aa5f6837e172d29af62156c9b4039de1f",
       "year": 7,
       "size": 12541,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -10852,7 +11200,7 @@
       "sha": "a016b485e295e2717bb04fa3f231bf4405507033",
       "year": 7,
       "size": 15969,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -10868,7 +11216,7 @@
       "sha": "2ab0da57138c04e1a181a34ae430faa4010b8215",
       "year": 7,
       "size": 13937,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -10884,7 +11232,7 @@
       "sha": "fa6dbdfa1e104eb1b1077c6c5d0b5cea7872b43b",
       "year": 7,
       "size": 14157,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -10908,8 +11256,9 @@
       "sha": "235781d3771897e3bdba4c41c0d84fe28009487d",
       "year": 7,
       "size": 13937,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Workbook-completion/presentation marking slip, same form as2014 with year changed; no specific science question."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Mount Lawley/2022 Sugar cube & Temp Investigation ANSWERS.docx",
@@ -10956,7 +11305,7 @@
       "sha": "dc5f464bbe8fad2cc1d5354d222cb4a0d25c09e8",
       "year": 7,
       "size": 14480,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -10972,7 +11321,7 @@
       "sha": "18f864c5e64a12ac9caf2252a341ff3a18c949eb",
       "year": 7,
       "size": 33324,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -11156,8 +11505,9 @@
       "sha": "20188c73efeb10697553bb1f2f4c0a0fe0d57793",
       "year": 7,
       "size": 30416,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Repeated mixture-label selection cards only; materials named but no question or assessment instructions."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Safety Bay/2017/Separation Challenge.docx",
@@ -11220,16 +11570,18 @@
       "sha": "36b492bd651d42fcbda0fcc316b09f69c94fac3d",
       "year": 7,
       "size": 23979,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Teacher equipment quantities and mixture preparation list only; no student questions."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Safety Bay/2018/Separation Challenge - Mixture Selection Cards.docx",
       "sha": "85e5955845e3ae50f9187aaba5f95a20dc543223",
       "year": 7,
       "size": 30879,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Repeated mixture-label selection cards only, same four mixture types as2017; no question text."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Safety Bay/2018/Separation Challenge.docx",
@@ -11524,24 +11876,27 @@
       "sha": "d4158efc29b9a487a17ac1deae18cf54a7313900",
       "year": 7,
       "size": 14982,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_incomplete_referenced_material",
+      "duplicateOf": null,
+      "reviewReason": "Source assignment explicitly refers to missing textbook method/discussion wording; recorded prompts reviewed, referenced questions not invented."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Aranmore/HUBBLE TIMELINE DRAFT.docx",
       "sha": "5b2014e602e79fa0ea5b64372d1911b64f201814",
       "year": 7,
       "size": 13662,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Blank Hubble timeline draft table with order/year/event headers; no chosen events or assessable question text."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Aranmore/HUBBLE TIMELINE INFORMATION.docx",
       "sha": "41806e130912ae4a48a4479c78defd7c918eed28",
       "year": 7,
       "size": 18238,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Historical Hubble event-information reference table only; no questions. Claims are not verified as current science and are not converted into invented questions."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Aranmore/Hubble Telescope Handout.docx",
@@ -25684,8 +26039,8 @@
     }
   ],
   "learningVaultCreatedKeySupplements": 811,
-  "remainingUniqueFileBlobs": 1556,
-  "learningVaultCreatedKeys": 857,
+  "remainingUniqueFileBlobs": 1548,
+  "learningVaultCreatedKeys": 911,
   "blockedSources": [
     {
       "sha": "49d4b7f3f8af844477b39abb856365aeb096cafd",
@@ -25897,7 +26252,7 @@
     "ocrPages": 1175,
     "ocrTextVerified": false
   },
-  "distinctSourceAndKeyReferences": 156,
+  "distinctSourceAndKeyReferences": 164,
   "unscoredQuestionsPreserved": 1,
   "activeAdditionalQuestionRequest": {
     "requestedAdditionalQuestions": 1000,
@@ -25912,12 +26267,12 @@
     "requestedAt": "2026-10-16",
     "scope": "All remaining Years 7–10 Science assessment papers; all question types, source figures, response space and marking guidance",
     "startingImportedQuestions": 1374,
-    "addedQuestions": 604,
+    "addedQuestions": 658,
     "status": "in_progress",
     "completionRule": "Every unique assessment paper reviewed; duplicates mapped and unreadable/protected files explicitly resolved. File-blob count is not a paper denominator.",
     "restoredQuestionsAfterDuplicateFix": 4,
-    "newlyExtractedQuestions": 600,
-    "papersReviewedSinceRequest": 52,
+    "newlyExtractedQuestions": 654,
+    "papersReviewedSinceRequest": 60,
     "canonicalSourceQuestionsReReviewed": 2
   },
   "sourceInventoryExclusions": {
@@ -25927,12 +26282,25 @@
     "note": "These are file metadata records, not papers or questions; excluded from import work without increasing question or paper totals."
   },
   "supportingResourceReview": {
-    "files": 4,
-    "uniqueBlobs": 4,
+    "files": 10,
+    "uniqueBlobs": 10,
     "audit": "question-source-packs/repo-science-supporting-resource-review.json",
     "countedAsPapers": false,
     "countedAsQuestions": false
   },
+  "missingReferencedMaterial": [
+    {
+      "questionId": "SCI-REPO-Y7-ARAN-2015-SUNANGLE-assignment",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Aranmore/Angles make a difference INVESTIGATION 2015.docx",
+      "sourceFileSha": "d4158efc29b9a487a17ac1deae18cf54a7313900",
+      "reference": "Pearson7 Science textbook p353",
+      "missing": [
+        "Practical method",
+        "Discussion question wording"
+      ],
+      "resolution": "Locate matching source page or teacher-provided original; do not generate replacement questions and call them extracted."
+    }
+  ],
   "canonicalUniverseReviewRepair": {
     "questionIds": [
       "SCI-REPO-Y10-NAR-2024-UNIVERSE-MC02",
