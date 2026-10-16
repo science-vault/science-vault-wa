@@ -1,0 +1,701 @@
+{
+  "batch": "repo-science-batch50",
+  "paperCount": 10,
+  "questionIds": [
+    "SCI-REPO-Y7-SBY-2017-HOTDRINKS-FULLKEY-graph",
+    "SCI-REPO-Y7-SBY-2019-HEATINGWATER-materials",
+    "SCI-REPO-Y7-SBY-2018-BUNSENPRACTICAL-practical",
+    "SCI-REPO-Y7-ARAN-FRICTIONREPORT-planning",
+    "SCI-REPO-Y7-ARAN-FRICTIONREPORT-independent",
+    "SCI-REPO-Y7-ARAN-FRICTIONREPORT-dependent",
+    "SCI-REPO-Y7-ARAN-FRICTIONREPORT-controls",
+    "SCI-REPO-Y7-ARAN-FRICTIONREPORT-materials",
+    "SCI-REPO-Y7-ARAN-FRICTIONREPORT-method",
+    "SCI-REPO-Y7-ARAN-FRICTIONREPORT-results",
+    "SCI-REPO-Y7-ARAN-FRICTIONREPORT-graph",
+    "SCI-REPO-Y7-ARAN-FRICTIONREPORT-discussion",
+    "SCI-REPO-Y7-ARAN-FRICTIONREPORT-conclusion",
+    "SCI-REPO-Y7-ARAN-2015-TAPEREPORT-aim",
+    "SCI-REPO-Y7-ARAN-2015-TAPEREPORT-hypothesis",
+    "SCI-REPO-Y7-ARAN-2015-TAPEREPORT-independent",
+    "SCI-REPO-Y7-ARAN-2015-TAPEREPORT-dependent",
+    "SCI-REPO-Y7-ARAN-2015-TAPEREPORT-controls",
+    "SCI-REPO-Y7-ARAN-2015-TAPEREPORT-materials",
+    "SCI-REPO-Y7-ARAN-2015-TAPEREPORT-results",
+    "SCI-REPO-Y7-ARAN-2015-TAPEREPORT-graph",
+    "SCI-REPO-Y7-ARAN-2015-TAPEREPORT-discussion",
+    "SCI-REPO-Y7-ARAN-2015-TAPEREPORT-conclusion",
+    "SCI-REPO-Y7-NAR-2022-LEVERS-prediction",
+    "SCI-REPO-Y7-NAR-2022-LEVERS-diagram",
+    "SCI-REPO-Y7-NAR-2022-LEVERS-results",
+    "SCI-REPO-Y7-NAR-2022-LEVERS-graph",
+    "SCI-REPO-Y7-NAR-2022-LEVERS-independent",
+    "SCI-REPO-Y7-NAR-2022-LEVERS-dependent",
+    "SCI-REPO-Y7-NAR-2022-LEVERS-controls",
+    "SCI-REPO-Y7-NAR-2022-LEVERS-uncontrolled",
+    "SCI-REPO-Y7-NAR-2022-LEVERS-summary",
+    "SCI-REPO-Y7-NAR-2022-LEVERS-explanation",
+    "SCI-REPO-Y7-NAR-2022-LEVERS-difficulties",
+    "SCI-REPO-Y7-NAR-2022-LEVERS-improvement",
+    "SCI-REPO-Y7-NAR-2022-LEVERS-conclusion"
+  ],
+  "questions": 36,
+  "multipleChoice": 0,
+  "writtenQuestions": 36,
+  "battleEligible": 0,
+  "marks": 90,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y7-SBY-2019-HEATINGWATER-materials",
+      "note": "This version adds a separate materials response area. Exact assigned method is referenced but not reproduced."
+    },
+    {
+      "id": "SCI-REPO-Y7-SBY-2018-BUNSENPRACTICAL-practical",
+      "note": "Teacher-observed practical only. Original10-mark total; eight criteria with unspecified individual allocations. School procedure governs safe ignition/shutdown."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-2015-TAPEREPORT-results",
+      "note": "Supplied key has an allocation conflict or example-specific result; actual student data govern."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-2015-TAPEREPORT-conclusion",
+      "note": "Supplied key has an allocation conflict or example-specific result; actual student data govern."
+    }
+  ],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling report MARKING KEY.docx",
+      "sha": "61afa290548906c6e4c418775b9e09744741e37b",
+      "year": 7,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling scaffolded report.docx",
+      "sha": "fa847991e58cd692e4dfea98de7423f81704d560",
+      "year": 7,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Hot drinks cooling scaffolded report.docx",
+      "sha": "4df93291a76331a14ee97c58ae5ec3bb854c1e58",
+      "year": 7,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Log Book – Heating Water experiment.docx",
+      "sha": "4e4ff8dff42b7bc81dcc5ee365a29f6c426e9252",
+      "year": 7,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Yr 7 Bunsen Burner Assessment.docx",
+      "sha": "fc414856f650db9609f9c2dafefb080bb27dc805",
+      "year": 7,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2019/Practice Log Book – Heating Water experiment.docx",
+      "sha": "85aa285a744f1abc1da5e2c2578e8fa39b989a4b",
+      "year": 7,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Aranmore/Friction Investigation.docx",
+      "sha": "b3d1c449e59361616786fdeb0b61d96267b0eca6",
+      "year": 7,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Aranmore/Sticky Tape Practical 2015.docx",
+      "sha": "299a71d18ced6eea9af6c9b30c1404d79bd9202a",
+      "year": 7,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Aranmore/Marking Key tape.docx",
+      "sha": "5c784f7a1b7cdbe2bd9b325bf4c0f8516c1da9af",
+      "year": 7,
+      "role": "key_reference"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Narrogin/2022/Physics 1 - Prac Assessment.docx",
+      "sha": "80369528625f6c6b14343d779295a8173f32053b",
+      "year": 7,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Narrogin/2023/Physics 1 - Prac Assessment - Levers Investigation.docx",
+      "sha": "5eaea811426530dafdc85cac6c694ef45240d44f",
+      "year": 7,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 26,
+  "createdSupplements": 10,
+  "notes": [
+    "Ten additional source variants reviewed; repeated checklists/logbooks and2023 lever variant mapped. Full hot-drinks key supplies separate5-mark graph task, completing its30-mark report; earlier table task remains4marks. Original10-mark observed burner assessment is teacher-only with no invented row marks. Friction and tape original30/23 totals retained, errors/illustrative results flagged. Exact SHA duplicates in year folders are resolved through source identity."
+  ],
+  "markAudit": {
+    "HotDrinks": {
+      "fullKeyTotal": 30,
+      "newGraphAllocation": 5
+    },
+    "Burner": {
+      "total": 10,
+      "checklistRows": 8,
+      "individualMarksUnspecified": true
+    },
+    "Friction": {
+      "total": 30,
+      "aimAllocation": null
+    },
+    "Tape": {
+      "total": 23,
+      "resultsCap": 4,
+      "listedOneMarkTableFeatures": 5
+    },
+    "Levers": {
+      "2022Total": 20,
+      "2023Total": 20,
+      "equivalentTasks": 13
+    }
+  },
+  "duplicateQuestionAliases": [
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling report MARKING KEY.docx",
+      "sourceFileSha": "61afa290548906c6e4c418775b9e09744741e37b",
+      "sourceQuestionNumber": "aim",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-aim",
+      "reason": "Same report requirement; clear source132 graph5-mark part retained separately. The table component remains4 marks and source’s controlled-variable wording still needs moderation."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling report MARKING KEY.docx",
+      "sourceFileSha": "61afa290548906c6e4c418775b9e09744741e37b",
+      "sourceQuestionNumber": "independent",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-independent",
+      "reason": "Same report requirement; clear source132 graph5-mark part retained separately. The table component remains4 marks and source’s controlled-variable wording still needs moderation."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling report MARKING KEY.docx",
+      "sourceFileSha": "61afa290548906c6e4c418775b9e09744741e37b",
+      "sourceQuestionNumber": "dependent",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-dependent",
+      "reason": "Same report requirement; clear source132 graph5-mark part retained separately. The table component remains4 marks and source’s controlled-variable wording still needs moderation."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling report MARKING KEY.docx",
+      "sourceFileSha": "61afa290548906c6e4c418775b9e09744741e37b",
+      "sourceQuestionNumber": "controls",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-controls",
+      "reason": "Same report requirement; clear source132 graph5-mark part retained separately. The table component remains4 marks and source’s controlled-variable wording still needs moderation."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling report MARKING KEY.docx",
+      "sourceFileSha": "61afa290548906c6e4c418775b9e09744741e37b",
+      "sourceQuestionNumber": "hypothesis",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-hypothesis",
+      "reason": "Same report requirement; clear source132 graph5-mark part retained separately. The table component remains4 marks and source’s controlled-variable wording still needs moderation."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling report MARKING KEY.docx",
+      "sourceFileSha": "61afa290548906c6e4c418775b9e09744741e37b",
+      "sourceQuestionNumber": "method-reference",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-method-reference",
+      "reason": "Same report requirement; clear source132 graph5-mark part retained separately. The table component remains4 marks and source’s controlled-variable wording still needs moderation."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling report MARKING KEY.docx",
+      "sourceFileSha": "61afa290548906c6e4c418775b9e09744741e37b",
+      "sourceQuestionNumber": "diagram",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-diagram",
+      "reason": "Same report requirement; clear source132 graph5-mark part retained separately. The table component remains4 marks and source’s controlled-variable wording still needs moderation."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling report MARKING KEY.docx",
+      "sourceFileSha": "61afa290548906c6e4c418775b9e09744741e37b",
+      "sourceQuestionNumber": "results",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-results",
+      "reason": "Same report requirement; clear source132 graph5-mark part retained separately. The table component remains4 marks and source’s controlled-variable wording still needs moderation."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling report MARKING KEY.docx",
+      "sourceFileSha": "61afa290548906c6e4c418775b9e09744741e37b",
+      "sourceQuestionNumber": "fastest",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-fastest",
+      "reason": "Same report requirement; clear source132 graph5-mark part retained separately. The table component remains4 marks and source’s controlled-variable wording still needs moderation."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling report MARKING KEY.docx",
+      "sourceFileSha": "61afa290548906c6e4c418775b9e09744741e37b",
+      "sourceQuestionNumber": "slowest",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-slowest",
+      "reason": "Same report requirement; clear source132 graph5-mark part retained separately. The table component remains4 marks and source’s controlled-variable wording still needs moderation."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling report MARKING KEY.docx",
+      "sourceFileSha": "61afa290548906c6e4c418775b9e09744741e37b",
+      "sourceQuestionNumber": "trend",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-trend",
+      "reason": "Same report requirement; clear source132 graph5-mark part retained separately. The table component remains4 marks and source’s controlled-variable wording still needs moderation."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling report MARKING KEY.docx",
+      "sourceFileSha": "61afa290548906c6e4c418775b9e09744741e37b",
+      "sourceQuestionNumber": "improvements",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-improvements",
+      "reason": "Same report requirement; clear source132 graph5-mark part retained separately. The table component remains4 marks and source’s controlled-variable wording still needs moderation."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling report MARKING KEY.docx",
+      "sourceFileSha": "61afa290548906c6e4c418775b9e09744741e37b",
+      "sourceQuestionNumber": "conclusion",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-conclusion",
+      "reason": "Same report requirement; clear source132 graph5-mark part retained separately. The table component remains4 marks and source’s controlled-variable wording still needs moderation."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling report MARKING KEY.docx",
+      "sourceFileSha": "61afa290548906c6e4c418775b9e09744741e37b",
+      "sourceQuestionNumber": "explain-cooling",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-KEYVARIANT-explain-cooling",
+      "reason": "Same cooling-rate explanation as marked variant129, already retained at2marks."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling scaffolded report.docx",
+      "sourceFileSha": "fa847991e58cd692e4dfea98de7423f81704d560",
+      "sourceQuestionNumber": "aim",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-aim",
+      "reason": "Same report requirement; clear source132 graph5-mark part retained separately. The table component remains4 marks and source’s controlled-variable wording still needs moderation."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling scaffolded report.docx",
+      "sourceFileSha": "fa847991e58cd692e4dfea98de7423f81704d560",
+      "sourceQuestionNumber": "independent",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-independent",
+      "reason": "Same report requirement; clear source132 graph5-mark part retained separately. The table component remains4 marks and source’s controlled-variable wording still needs moderation."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling scaffolded report.docx",
+      "sourceFileSha": "fa847991e58cd692e4dfea98de7423f81704d560",
+      "sourceQuestionNumber": "dependent",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-dependent",
+      "reason": "Same report requirement; clear source132 graph5-mark part retained separately. The table component remains4 marks and source’s controlled-variable wording still needs moderation."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling scaffolded report.docx",
+      "sourceFileSha": "fa847991e58cd692e4dfea98de7423f81704d560",
+      "sourceQuestionNumber": "controls",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-controls",
+      "reason": "Same report requirement; clear source132 graph5-mark part retained separately. The table component remains4 marks and source’s controlled-variable wording still needs moderation."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling scaffolded report.docx",
+      "sourceFileSha": "fa847991e58cd692e4dfea98de7423f81704d560",
+      "sourceQuestionNumber": "hypothesis",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-hypothesis",
+      "reason": "Same report requirement; clear source132 graph5-mark part retained separately. The table component remains4 marks and source’s controlled-variable wording still needs moderation."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling scaffolded report.docx",
+      "sourceFileSha": "fa847991e58cd692e4dfea98de7423f81704d560",
+      "sourceQuestionNumber": "method-reference",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-method-reference",
+      "reason": "Same report requirement; clear source132 graph5-mark part retained separately. The table component remains4 marks and source’s controlled-variable wording still needs moderation."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling scaffolded report.docx",
+      "sourceFileSha": "fa847991e58cd692e4dfea98de7423f81704d560",
+      "sourceQuestionNumber": "diagram",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-diagram",
+      "reason": "Same report requirement; clear source132 graph5-mark part retained separately. The table component remains4 marks and source’s controlled-variable wording still needs moderation."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling scaffolded report.docx",
+      "sourceFileSha": "fa847991e58cd692e4dfea98de7423f81704d560",
+      "sourceQuestionNumber": "results",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-results",
+      "reason": "Same report requirement; clear source132 graph5-mark part retained separately. The table component remains4 marks and source’s controlled-variable wording still needs moderation."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling scaffolded report.docx",
+      "sourceFileSha": "fa847991e58cd692e4dfea98de7423f81704d560",
+      "sourceQuestionNumber": "fastest",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-fastest",
+      "reason": "Same report requirement; clear source132 graph5-mark part retained separately. The table component remains4 marks and source’s controlled-variable wording still needs moderation."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling scaffolded report.docx",
+      "sourceFileSha": "fa847991e58cd692e4dfea98de7423f81704d560",
+      "sourceQuestionNumber": "slowest",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-slowest",
+      "reason": "Same report requirement; clear source132 graph5-mark part retained separately. The table component remains4 marks and source’s controlled-variable wording still needs moderation."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling scaffolded report.docx",
+      "sourceFileSha": "fa847991e58cd692e4dfea98de7423f81704d560",
+      "sourceQuestionNumber": "trend",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-trend",
+      "reason": "Same report requirement; clear source132 graph5-mark part retained separately. The table component remains4 marks and source’s controlled-variable wording still needs moderation."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling scaffolded report.docx",
+      "sourceFileSha": "fa847991e58cd692e4dfea98de7423f81704d560",
+      "sourceQuestionNumber": "improvements",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-improvements",
+      "reason": "Same report requirement; clear source132 graph5-mark part retained separately. The table component remains4 marks and source’s controlled-variable wording still needs moderation."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling scaffolded report.docx",
+      "sourceFileSha": "fa847991e58cd692e4dfea98de7423f81704d560",
+      "sourceQuestionNumber": "conclusion",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-conclusion",
+      "reason": "Same report requirement; clear source132 graph5-mark part retained separately. The table component remains4 marks and source’s controlled-variable wording still needs moderation."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling scaffolded report.docx",
+      "sourceFileSha": "fa847991e58cd692e4dfea98de7423f81704d560",
+      "sourceQuestionNumber": "graph",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-FULLKEY-graph",
+      "reason": "Same graph required in the report; matching full marked version132 provides the5-mark graph rubric."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Hot drinks cooling scaffolded report.docx",
+      "sourceFileSha": "4df93291a76331a14ee97c58ae5ec3bb854c1e58",
+      "sourceQuestionNumber": "aim",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-aim",
+      "reason": "Same report requirement; clear source132 graph5-mark part retained separately. The table component remains4 marks and source’s controlled-variable wording still needs moderation."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Hot drinks cooling scaffolded report.docx",
+      "sourceFileSha": "4df93291a76331a14ee97c58ae5ec3bb854c1e58",
+      "sourceQuestionNumber": "independent",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-independent",
+      "reason": "Same report requirement; clear source132 graph5-mark part retained separately. The table component remains4 marks and source’s controlled-variable wording still needs moderation."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Hot drinks cooling scaffolded report.docx",
+      "sourceFileSha": "4df93291a76331a14ee97c58ae5ec3bb854c1e58",
+      "sourceQuestionNumber": "dependent",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-dependent",
+      "reason": "Same report requirement; clear source132 graph5-mark part retained separately. The table component remains4 marks and source’s controlled-variable wording still needs moderation."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Hot drinks cooling scaffolded report.docx",
+      "sourceFileSha": "4df93291a76331a14ee97c58ae5ec3bb854c1e58",
+      "sourceQuestionNumber": "controls",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-controls",
+      "reason": "Same report requirement; clear source132 graph5-mark part retained separately. The table component remains4 marks and source’s controlled-variable wording still needs moderation."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Hot drinks cooling scaffolded report.docx",
+      "sourceFileSha": "4df93291a76331a14ee97c58ae5ec3bb854c1e58",
+      "sourceQuestionNumber": "hypothesis",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-hypothesis",
+      "reason": "Same report requirement; clear source132 graph5-mark part retained separately. The table component remains4 marks and source’s controlled-variable wording still needs moderation."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Hot drinks cooling scaffolded report.docx",
+      "sourceFileSha": "4df93291a76331a14ee97c58ae5ec3bb854c1e58",
+      "sourceQuestionNumber": "method-reference",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-method-reference",
+      "reason": "Same report requirement; clear source132 graph5-mark part retained separately. The table component remains4 marks and source’s controlled-variable wording still needs moderation."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Hot drinks cooling scaffolded report.docx",
+      "sourceFileSha": "4df93291a76331a14ee97c58ae5ec3bb854c1e58",
+      "sourceQuestionNumber": "diagram",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-diagram",
+      "reason": "Same report requirement; clear source132 graph5-mark part retained separately. The table component remains4 marks and source’s controlled-variable wording still needs moderation."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Hot drinks cooling scaffolded report.docx",
+      "sourceFileSha": "4df93291a76331a14ee97c58ae5ec3bb854c1e58",
+      "sourceQuestionNumber": "results",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-results",
+      "reason": "Same report requirement; clear source132 graph5-mark part retained separately. The table component remains4 marks and source’s controlled-variable wording still needs moderation."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Hot drinks cooling scaffolded report.docx",
+      "sourceFileSha": "4df93291a76331a14ee97c58ae5ec3bb854c1e58",
+      "sourceQuestionNumber": "fastest",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-fastest",
+      "reason": "Same report requirement; clear source132 graph5-mark part retained separately. The table component remains4 marks and source’s controlled-variable wording still needs moderation."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Hot drinks cooling scaffolded report.docx",
+      "sourceFileSha": "4df93291a76331a14ee97c58ae5ec3bb854c1e58",
+      "sourceQuestionNumber": "slowest",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-slowest",
+      "reason": "Same report requirement; clear source132 graph5-mark part retained separately. The table component remains4 marks and source’s controlled-variable wording still needs moderation."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Hot drinks cooling scaffolded report.docx",
+      "sourceFileSha": "4df93291a76331a14ee97c58ae5ec3bb854c1e58",
+      "sourceQuestionNumber": "trend",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-trend",
+      "reason": "Same report requirement; clear source132 graph5-mark part retained separately. The table component remains4 marks and source’s controlled-variable wording still needs moderation."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Hot drinks cooling scaffolded report.docx",
+      "sourceFileSha": "4df93291a76331a14ee97c58ae5ec3bb854c1e58",
+      "sourceQuestionNumber": "improvements",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-improvements",
+      "reason": "Same report requirement; clear source132 graph5-mark part retained separately. The table component remains4 marks and source’s controlled-variable wording still needs moderation."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Hot drinks cooling scaffolded report.docx",
+      "sourceFileSha": "4df93291a76331a14ee97c58ae5ec3bb854c1e58",
+      "sourceQuestionNumber": "conclusion",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-conclusion",
+      "reason": "Same report requirement; clear source132 graph5-mark part retained separately. The table component remains4 marks and source’s controlled-variable wording still needs moderation."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Hot drinks cooling scaffolded report.docx",
+      "sourceFileSha": "4df93291a76331a14ee97c58ae5ec3bb854c1e58",
+      "sourceQuestionNumber": "explain-cooling",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-KEYVARIANT-explain-cooling",
+      "reason": "Same cooling-rate explanation as marked variant129, already retained at2marks."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Hot drinks cooling scaffolded report.docx",
+      "sourceFileSha": "4df93291a76331a14ee97c58ae5ec3bb854c1e58",
+      "sourceQuestionNumber": "graph",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-FULLKEY-graph",
+      "reason": "Same graph required in the report; matching full marked version132 provides the5-mark graph rubric."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Log Book – Heating Water experiment.docx",
+      "sourceFileSha": "4e4ff8dff42b7bc81dcc5ee365a29f6c426e9252",
+      "sourceQuestionNumber": "independent",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HEATINGWATER-independent",
+      "reason": "Same sugar/salt/plain-water conditions, prediction, setup and0–12minute results table; corrected editorial wording does not create a new question."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Log Book – Heating Water experiment.docx",
+      "sourceFileSha": "4e4ff8dff42b7bc81dcc5ee365a29f6c426e9252",
+      "sourceQuestionNumber": "dependent",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HEATINGWATER-dependent",
+      "reason": "Same sugar/salt/plain-water conditions, prediction, setup and0–12minute results table; corrected editorial wording does not create a new question."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Log Book – Heating Water experiment.docx",
+      "sourceFileSha": "4e4ff8dff42b7bc81dcc5ee365a29f6c426e9252",
+      "sourceQuestionNumber": "controls",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HEATINGWATER-controls",
+      "reason": "Same sugar/salt/plain-water conditions, prediction, setup and0–12minute results table; corrected editorial wording does not create a new question."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Log Book – Heating Water experiment.docx",
+      "sourceFileSha": "4e4ff8dff42b7bc81dcc5ee365a29f6c426e9252",
+      "sourceQuestionNumber": "hypothesis",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HEATINGWATER-hypothesis",
+      "reason": "Same sugar/salt/plain-water conditions, prediction, setup and0–12minute results table; corrected editorial wording does not create a new question."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Log Book – Heating Water experiment.docx",
+      "sourceFileSha": "4e4ff8dff42b7bc81dcc5ee365a29f6c426e9252",
+      "sourceQuestionNumber": "diagram",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HEATINGWATER-diagram",
+      "reason": "Same sugar/salt/plain-water conditions, prediction, setup and0–12minute results table; corrected editorial wording does not create a new question."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Log Book – Heating Water experiment.docx",
+      "sourceFileSha": "4e4ff8dff42b7bc81dcc5ee365a29f6c426e9252",
+      "sourceQuestionNumber": "results",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HEATINGWATER-results",
+      "reason": "Same sugar/salt/plain-water conditions, prediction, setup and0–12minute results table; corrected editorial wording does not create a new question."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2019/Practice Log Book – Heating Water experiment.docx",
+      "sourceFileSha": "85aa285a744f1abc1da5e2c2578e8fa39b989a4b",
+      "sourceQuestionNumber": "independent",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HEATINGWATER-independent",
+      "reason": "Same sugar/salt/plain-water conditions, prediction, setup and0–12minute results table; corrected editorial wording does not create a new question."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2019/Practice Log Book – Heating Water experiment.docx",
+      "sourceFileSha": "85aa285a744f1abc1da5e2c2578e8fa39b989a4b",
+      "sourceQuestionNumber": "dependent",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HEATINGWATER-dependent",
+      "reason": "Same sugar/salt/plain-water conditions, prediction, setup and0–12minute results table; corrected editorial wording does not create a new question."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2019/Practice Log Book – Heating Water experiment.docx",
+      "sourceFileSha": "85aa285a744f1abc1da5e2c2578e8fa39b989a4b",
+      "sourceQuestionNumber": "controls",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HEATINGWATER-controls",
+      "reason": "Same sugar/salt/plain-water conditions, prediction, setup and0–12minute results table; corrected editorial wording does not create a new question."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2019/Practice Log Book – Heating Water experiment.docx",
+      "sourceFileSha": "85aa285a744f1abc1da5e2c2578e8fa39b989a4b",
+      "sourceQuestionNumber": "hypothesis",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HEATINGWATER-hypothesis",
+      "reason": "Same sugar/salt/plain-water conditions, prediction, setup and0–12minute results table; corrected editorial wording does not create a new question."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2019/Practice Log Book – Heating Water experiment.docx",
+      "sourceFileSha": "85aa285a744f1abc1da5e2c2578e8fa39b989a4b",
+      "sourceQuestionNumber": "diagram",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HEATINGWATER-diagram",
+      "reason": "Same sugar/salt/plain-water conditions, prediction, setup and0–12minute results table; corrected editorial wording does not create a new question."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2019/Practice Log Book – Heating Water experiment.docx",
+      "sourceFileSha": "85aa285a744f1abc1da5e2c2578e8fa39b989a4b",
+      "sourceQuestionNumber": "results",
+      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HEATINGWATER-results",
+      "reason": "Same sugar/salt/plain-water conditions, prediction, setup and0–12minute results table; corrected editorial wording does not create a new question."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Narrogin/2023/Physics 1 - Prac Assessment - Levers Investigation.docx",
+      "sourceFileSha": "5eaea811426530dafdc85cac6c694ef45240d44f",
+      "sourceQuestionNumber": "prediction",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2022-LEVERS-prediction",
+      "reason": "Same lever task, response prompts, three-trial table and20-mark rubric;2023 adds only a name field and shifts later paragraph indices.",
+      "sourceParagraphs": [
+        8,
+        132
+      ]
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Narrogin/2023/Physics 1 - Prac Assessment - Levers Investigation.docx",
+      "sourceFileSha": "5eaea811426530dafdc85cac6c694ef45240d44f",
+      "sourceQuestionNumber": "diagram",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2022-LEVERS-diagram",
+      "reason": "Same lever task, response prompts, three-trial table and20-mark rubric;2023 adds only a name field and shifts later paragraph indices.",
+      "sourceParagraphs": [
+        13,
+        132
+      ]
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Narrogin/2023/Physics 1 - Prac Assessment - Levers Investigation.docx",
+      "sourceFileSha": "5eaea811426530dafdc85cac6c694ef45240d44f",
+      "sourceQuestionNumber": "results",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2022-LEVERS-results",
+      "reason": "Same lever task, response prompts, three-trial table and20-mark rubric;2023 adds only a name field and shifts later paragraph indices.",
+      "sourceParagraphs": [
+        44,
+        45,
+        46,
+        48,
+        50,
+        132
+      ]
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Narrogin/2023/Physics 1 - Prac Assessment - Levers Investigation.docx",
+      "sourceFileSha": "5eaea811426530dafdc85cac6c694ef45240d44f",
+      "sourceQuestionNumber": "graph",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2022-LEVERS-graph",
+      "reason": "Same lever task, response prompts, three-trial table and20-mark rubric;2023 adds only a name field and shifts later paragraph indices.",
+      "sourceParagraphs": [
+        91,
+        132
+      ]
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Narrogin/2023/Physics 1 - Prac Assessment - Levers Investigation.docx",
+      "sourceFileSha": "5eaea811426530dafdc85cac6c694ef45240d44f",
+      "sourceQuestionNumber": "independent",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2022-LEVERS-independent",
+      "reason": "Same lever task, response prompts, three-trial table and20-mark rubric;2023 adds only a name field and shifts later paragraph indices.",
+      "sourceParagraphs": [
+        95,
+        132
+      ]
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Narrogin/2023/Physics 1 - Prac Assessment - Levers Investigation.docx",
+      "sourceFileSha": "5eaea811426530dafdc85cac6c694ef45240d44f",
+      "sourceQuestionNumber": "dependent",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2022-LEVERS-dependent",
+      "reason": "Same lever task, response prompts, three-trial table and20-mark rubric;2023 adds only a name field and shifts later paragraph indices.",
+      "sourceParagraphs": [
+        99,
+        132
+      ]
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Narrogin/2023/Physics 1 - Prac Assessment - Levers Investigation.docx",
+      "sourceFileSha": "5eaea811426530dafdc85cac6c694ef45240d44f",
+      "sourceQuestionNumber": "controls",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2022-LEVERS-controls",
+      "reason": "Same lever task, response prompts, three-trial table and20-mark rubric;2023 adds only a name field and shifts later paragraph indices.",
+      "sourceParagraphs": [
+        103,
+        132
+      ]
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Narrogin/2023/Physics 1 - Prac Assessment - Levers Investigation.docx",
+      "sourceFileSha": "5eaea811426530dafdc85cac6c694ef45240d44f",
+      "sourceQuestionNumber": "uncontrolled",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2022-LEVERS-uncontrolled",
+      "reason": "Same lever task, response prompts, three-trial table and20-mark rubric;2023 adds only a name field and shifts later paragraph indices.",
+      "sourceParagraphs": [
+        107,
+        132
+      ]
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Narrogin/2023/Physics 1 - Prac Assessment - Levers Investigation.docx",
+      "sourceFileSha": "5eaea811426530dafdc85cac6c694ef45240d44f",
+      "sourceQuestionNumber": "summary",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2022-LEVERS-summary",
+      "reason": "Same lever task, response prompts, three-trial table and20-mark rubric;2023 adds only a name field and shifts later paragraph indices.",
+      "sourceParagraphs": [
+        111,
+        132
+      ]
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Narrogin/2023/Physics 1 - Prac Assessment - Levers Investigation.docx",
+      "sourceFileSha": "5eaea811426530dafdc85cac6c694ef45240d44f",
+      "sourceQuestionNumber": "explanation",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2022-LEVERS-explanation",
+      "reason": "Same lever task, response prompts, three-trial table and20-mark rubric;2023 adds only a name field and shifts later paragraph indices.",
+      "sourceParagraphs": [
+        115,
+        132
+      ]
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Narrogin/2023/Physics 1 - Prac Assessment - Levers Investigation.docx",
+      "sourceFileSha": "5eaea811426530dafdc85cac6c694ef45240d44f",
+      "sourceQuestionNumber": "difficulties",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2022-LEVERS-difficulties",
+      "reason": "Same lever task, response prompts, three-trial table and20-mark rubric;2023 adds only a name field and shifts later paragraph indices.",
+      "sourceParagraphs": [
+        118,
+        132
+      ]
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Narrogin/2023/Physics 1 - Prac Assessment - Levers Investigation.docx",
+      "sourceFileSha": "5eaea811426530dafdc85cac6c694ef45240d44f",
+      "sourceQuestionNumber": "improvement",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2022-LEVERS-improvement",
+      "reason": "Same lever task, response prompts, three-trial table and20-mark rubric;2023 adds only a name field and shifts later paragraph indices.",
+      "sourceParagraphs": [
+        122,
+        132
+      ]
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Narrogin/2023/Physics 1 - Prac Assessment - Levers Investigation.docx",
+      "sourceFileSha": "5eaea811426530dafdc85cac6c694ef45240d44f",
+      "sourceQuestionNumber": "conclusion",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2022-LEVERS-conclusion",
+      "reason": "Same lever task, response prompts, three-trial table and20-mark rubric;2023 adds only a name field and shifts later paragraph indices.",
+      "sourceParagraphs": [
+        126,
+        127,
+        129,
+        132
+      ]
+    }
+  ]
+}

@@ -428,6 +428,78 @@
           "Magnification: ______"
         ]
       ]
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2019/3. Report marking rubric.docx",
+      "sha": "f100f215c4a64a0f766f107795565532250d7eb4",
+      "status": "reviewed_supporting_resource",
+      "reason": "Generic investigation marking rubric, not linked to a specified experiment or question; retained as a supporting assessment resource.",
+      "sourceBodyText": [
+        [
+          0,
+          "Lower school investigation marking rubric"
+        ],
+        [
+          2,
+          "OutcomeMarkInvestigation written in past tense and 3rd person1AimIncludes independent and dependent variable1HypothesisHypothesis includes both independent and dependent variable in correct format2VariablesIdentified at least 3 controlled variables 1Identified independent variable1Identified dependent variable1Equipment and methodCorrect list of equipment1Correct procedure1Method mentions all variables1Scientific DiagramCorrect drawings with pencil and ruler1Correctly labelled 1ResultsData presented in suitable table1Units included in table0.5Appropriate headings0.5Graph containing title, title on axis, units on axis, correct type, correct data, key, pencil, ruler (deduct half mark for missing parts)5DiscussionState whether the hypothesis was supported/unsupported1Use examples from results to show if hypothesis was supported/unsupported1EvaluationList 2 errors/difficulties experienced in investigation1Describes 2 solutions to the errors/difficulties experienced in the investigation2Total25"
+        ]
+      ]
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2019/Investigation template.docx",
+      "sha": "be01d3e25feac313295f921f271d73884630de5e",
+      "status": "reviewed_supporting_resource",
+      "reason": "Blank generic investigation template with headings only; no specified investigation, question or scored task.",
+      "sourceBodyText": [
+        [
+          0,
+          "Title of Experiment"
+        ],
+        [
+          1,
+          "Name"
+        ],
+        [
+          3,
+          "Aim"
+        ],
+        [
+          5,
+          "Hypothesis"
+        ],
+        [
+          7,
+          "Variables"
+        ],
+        [
+          9,
+          "Equipment and Method"
+        ],
+        [
+          11,
+          "Scientific Diagram"
+        ],
+        [
+          12,
+          "Results"
+        ],
+        [
+          13,
+          "-Table"
+        ],
+        [
+          14,
+          "-Graph"
+        ],
+        [
+          16,
+          "Discussion"
+        ],
+        [
+          18,
+          "Evaluation"
+        ]
+      ]
     }
   ]
 }
