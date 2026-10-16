@@ -1,0 +1,143 @@
+{
+  "batch": "repo-science-batch22",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y7-SBY-2017-EARTHSPACE-MC01",
+    "SCI-REPO-Y7-SBY-2017-EARTHSPACE-MC02",
+    "SCI-REPO-Y7-SBY-2017-EARTHSPACE-MC03",
+    "SCI-REPO-Y7-SBY-2017-EARTHSPACE-MC04",
+    "SCI-REPO-Y7-SBY-2017-EARTHSPACE-MC05",
+    "SCI-REPO-Y7-SBY-2017-EARTHSPACE-MC06",
+    "SCI-REPO-Y7-SBY-2017-EARTHSPACE-MC07",
+    "SCI-REPO-Y7-SBY-2017-EARTHSPACE-MC08",
+    "SCI-REPO-Y7-SBY-2017-EARTHSPACE-MC09",
+    "SCI-REPO-Y7-SBY-2017-EARTHSPACE-MC10",
+    "SCI-REPO-Y7-SBY-2017-EARTHSPACE-MC11",
+    "SCI-REPO-Y7-SBY-2017-EARTHSPACE-MC12",
+    "SCI-REPO-Y7-SBY-2017-EARTHSPACE-MC13",
+    "SCI-REPO-Y7-SBY-2017-EARTHSPACE-MC14",
+    "SCI-REPO-Y7-SBY-2017-EARTHSPACE-MC15",
+    "SCI-REPO-Y7-SBY-2017-EARTHSPACE-MC16",
+    "SCI-REPO-Y7-SBY-2017-EARTHSPACE-17a",
+    "SCI-REPO-Y7-SBY-2017-EARTHSPACE-17b",
+    "SCI-REPO-Y7-SBY-2017-EARTHSPACE-18",
+    "SCI-REPO-Y7-SBY-2017-EARTHSPACE-19",
+    "SCI-REPO-Y7-SBY-2017-EARTHSPACE-20",
+    "SCI-REPO-Y7-SBY-2017-EARTHSPACE-21"
+  ],
+  "questions": 22,
+  "multipleChoice": 16,
+  "writtenQuestions": 6,
+  "battleEligible": 15,
+  "marks": 36,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y7-SBY-2017-EARTHSPACE-MC12",
+      "note": "Supplied key chooses night; hemisphere tilt and day/night are distinct. Teacher moderation required."
+    },
+    {
+      "id": "SCI-REPO-Y7-SBY-2017-EARTHSPACE-19",
+      "note": "“Controlled by the sun” is ambiguous because solar gravity contributes to tides. Accept justified responses, rather than automatically treating all three statements as false."
+    }
+  ],
+  "imageAudit": [
+    {
+      "id": "e53-image2",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Safety Bay/2017/YEAR 7 Earth & Space Test 2017.docx",
+      "embeddedImage": "word/media/image2.jpeg",
+      "sha256": "db565633621b2349e6ad23101d3e6b8f53f3ade47a94c3b8f485453270979644",
+      "publishedSha256": "316bdcd94c01c29411f720e5d50b52d42b7e9877e66fe24cd06de9ff9008aa6c",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e53-image3",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Safety Bay/2017/YEAR 7 Earth & Space Test 2017.docx",
+      "embeddedImage": "word/media/image3.png",
+      "sha256": "a63328567591454d75027a53f35c837b65575c389c9d0f4c6eb4f4871c9824d1",
+      "publishedSha256": "a398173e587c3b7b5bafcf65957b31df6776d9011ea1356abebd2dfbe0b22271",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e53-image4",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Safety Bay/2017/YEAR 7 Earth & Space Test 2017.docx",
+      "embeddedImage": "word/media/image4.png",
+      "sha256": "af5e1a31ae051ad792f5c2ec39a8abb37a500bfa72291b7b79db83114301ad66",
+      "publishedSha256": "07834d8f491b47b8b71672ed3fe59a655f3ba7f2986a319d811b737a1993b9ac",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e53-image5",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Safety Bay/2017/YEAR 7 Earth & Space Test 2017.docx",
+      "embeddedImage": "word/media/image5.png",
+      "sha256": "b2d301c150dd53a79762580d37212cfd74159125afcd84325979dc35dd6ab340",
+      "publishedSha256": "490cb1d0d6c5b239876810cf840e11ca3c567a187eaff1d17f458b12ae0a5f51",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e53-image6",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Safety Bay/2017/YEAR 7 Earth & Space Test 2017.docx",
+      "embeddedImage": "word/media/image6.png",
+      "sha256": "a4058c675894b49c73f11e0664cf8f68506fe95764b82d5e4ed71b80a86d39e3",
+      "publishedSha256": "70caf6b97cd83664ff9c672224acddcb86b65a300d8db0e0d00b2daff93fdf75",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e53-image7",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Safety Bay/2017/YEAR 7 Earth & Space Test 2017.docx",
+      "embeddedImage": "word/media/image7.gif",
+      "sha256": "edbcf3857eab2fea9e99e61a5636a670e70168c2b86bc5919322f057cdbbafea",
+      "publishedSha256": "893b56c70043540a7ce03593e8ba14c8bec9b78fee46d60e7f65633349c67a41",
+      "role": "source_question_or_response_figure",
+      "conversion": "Original figure rasterised; transparent background composited white; vector export blank margins trimmed."
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Safety Bay/2017/YEAR 7 Earth & Space Test 2017.docx",
+      "sha": "8f129e24cc2196daba66565fb6f3cd68d9838660",
+      "year": 7,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Safety Bay/2017/YEAR 7 Earth & Space Test ANSWERS.docx",
+      "sha": "8c5e6af7074ea06d79702bb748d572a8432ac9c5",
+      "year": 7,
+      "role": "key_reference"
+    }
+  ],
+  "gameMeta": [
+    {
+      "id": "sci-repo-y7-sby-2017-earthspace-mc-1",
+      "title": "Year 7 Science — Earth and space predictable phenomena — Safety Bay 2017 (original source MC)",
+      "course": "Science",
+      "yearGroup": 7,
+      "unit": "Earth and Space Sciences",
+      "parent": "Earth and space predictable phenomena — Safety Bay 2017",
+      "count": 15,
+      "kind": "assessment",
+      "assessmentCount": 15,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch22.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=7&search=SCI-REPO-Y7-SBY-2017-EARTHSPACE",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    }
+  ],
+  "createdKeys": 0,
+  "createdSupplements": 22,
+  "notes": [
+    "Complete Year 7 Earth and space paper with source figures and checked key supplements. Exact same source blob in the 2018 folder is resolved by SHA without recounting its questions. Confused night/season and solar-tide key statements flagged for teacher review."
+  ],
+  "markAudit": {
+    "Earth and space": {
+      "printedTotal": 36,
+      "sourceTaskMarksBeforeDeduplication": 36
+    }
+  },
+  "duplicateQuestionAliases": []
+}

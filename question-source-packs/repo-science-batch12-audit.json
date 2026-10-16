@@ -32,6 +32,9 @@
     "SCI-REPO-Y9-SBY-2017-EXT-22d",
     "SCI-REPO-Y9-SBY-2017-EXT-22e",
     "SCI-REPO-Y9-SBY-2017-EXT-23a",
+    "SCI-REPO-Y9-SBY-2017-EXT-23b",
+    "SCI-REPO-Y9-SBY-2017-EXT-23c",
+    "SCI-REPO-Y9-SBY-2017-EXT-23d",
     "SCI-REPO-Y9-SBY-2017-EXT-24a",
     "SCI-REPO-Y9-SBY-2017-EXT-24b",
     "SCI-REPO-Y9-SBY-2017-EXT-24c",
@@ -144,6 +147,7 @@
     "SCI-REPO-Y10-ARAN-2015-S1CHEM-2d",
     "SCI-REPO-Y10-ARAN-2015-S1CHEM-3",
     "SCI-REPO-Y10-ARAN-2015-S1CHEM-4a",
+    "SCI-REPO-Y10-ARAN-2015-S1CHEM-4b",
     "SCI-REPO-Y10-ARAN-2015-S1CHEM-5a",
     "SCI-REPO-Y10-ARAN-2015-S1CHEM-5b",
     "SCI-REPO-Y10-ARAN-2015-S1CHEM-5c",
@@ -153,11 +157,11 @@
     "SCI-REPO-Y10-ARAN-2015-S1CHEM-7b",
     "SCI-REPO-Y10-ARAN-2015-S1CHEM-8"
   ],
-  "questions": 150,
+  "questions": 154,
   "multipleChoice": 65,
-  "writtenQuestions": 85,
+  "writtenQuestions": 89,
   "battleEligible": 56,
-  "marks": 231,
+  "marks": 235,
   "reviewRequired": [
     {
       "id": "SCI-REPO-Y9-SBY-2017-EXT-MC02",
@@ -439,44 +443,11 @@
       "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
     }
   ],
-  "createdKeys": 33,
-  "createdSupplements": 117,
+  "createdKeys": 34,
+  "createdSupplements": 120,
   "notes": "Three source exams. Explicit separately marked question parts are selectable with their parent context. Original optional essays remain alternatives, not two required responses. Exact repeats are source aliases rather than new questions. Scientific and marking-key errors flagged.",
   "markAudit": "Year9 printed70=item70;Year10 extension section marks64+30+20=114, while cover table says110; optional essays both stored10 each but selectone in original exam. Aranmore chemistry50=item50. Original per-part marks retained;4mark atomic-number table responses grouped where no individual allocation exists.",
   "duplicateQuestionAliases": [
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/Exam/Yr 9 Extended Exam Sem2 2017.docx",
-      "sourceFileSha": "d6ea5801639d3efc921535e81c8bf66e3911e2bb",
-      "sourceQuestionNumber": "23b",
-      "sourceParagraphs": [
-        237,
-        240
-      ],
-      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-EXT-23a",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/Exam/Yr 9 Extended Exam Sem2 2017.docx",
-      "sourceFileSha": "d6ea5801639d3efc921535e81c8bf66e3911e2bb",
-      "sourceQuestionNumber": "23c",
-      "sourceParagraphs": [
-        237,
-        241
-      ],
-      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-EXT-23a",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/Exam/Yr 9 Extended Exam Sem2 2017.docx",
-      "sourceFileSha": "d6ea5801639d3efc921535e81c8bf66e3911e2bb",
-      "sourceQuestionNumber": "23d",
-      "sourceParagraphs": [
-        237,
-        242
-      ],
-      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-EXT-23a",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
     {
       "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/10ScienceL2S1Exam2015.docx",
       "sourceFileSha": "4a79cdffdfc060388665e2fd7daa4df6bbd61531",
@@ -545,17 +516,6 @@
         139
       ],
       "existingQuestionId": "SCI-REPO-Y10-B10-D24-MC08",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/10ScienceL2S1Exam2015.docx",
-      "sourceFileSha": "4a79cdffdfc060388665e2fd7daa4df6bbd61531",
-      "sourceQuestionNumber": "4b",
-      "sourceParagraphs": [
-        299,
-        308
-      ],
-      "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-S1CHEM-4a",
       "reason": "Equivalent source question already present; not added or counted again."
     }
   ]

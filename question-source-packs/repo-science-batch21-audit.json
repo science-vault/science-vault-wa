@@ -1,0 +1,162 @@
+{
+  "batch": "repo-science-batch21",
+  "paperCount": 2,
+  "questionIds": [
+    "SCI-REPO-Y8-KOL-2021-ATOMSCOMPOUNDS-1",
+    "SCI-REPO-Y8-KOL-2021-ATOMSCOMPOUNDS-2",
+    "SCI-REPO-Y8-KOL-2021-ATOMSCOMPOUNDS-3",
+    "SCI-REPO-Y8-KOL-2021-ATOMSCOMPOUNDS-4",
+    "SCI-REPO-Y8-KOL-2021-ATOMSCOMPOUNDS-5",
+    "SCI-REPO-Y8-KOL-2021-STATES-1",
+    "SCI-REPO-Y8-KOL-2021-STATES-2a",
+    "SCI-REPO-Y8-KOL-2021-STATES-2b",
+    "SCI-REPO-Y8-KOL-2021-STATES-2c",
+    "SCI-REPO-Y8-KOL-2021-STATES-2d",
+    "SCI-REPO-Y8-KOL-2021-STATES-2e"
+  ],
+  "questions": 11,
+  "multipleChoice": 0,
+  "writtenQuestions": 11,
+  "battleEligible": 0,
+  "marks": 54.5,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y8-KOL-2021-ATOMSCOMPOUNDS-4",
+      "note": "Source and key print CaOH; calcium hydroxide is Ca(OH)₂. Do not penalise a justified correction or imply BaF₂ is a discrete molecule."
+    },
+    {
+      "id": "SCI-REPO-Y8-KOL-2021-STATES-2a",
+      "note": "Source graph ends at 95°C although data reach 100°C, and its example near 8 minutes is plotted at about 60°C rather than the supplied 63°C. Extend the scale or use replacement graph paper; correct the example point. Source data begin above 0°C and do not establish a melting plateau."
+    },
+    {
+      "id": "SCI-REPO-Y8-KOL-2021-STATES-2b",
+      "note": "Source graph ends at 95°C although data reach 100°C, and its example near 8 minutes is plotted at about 60°C rather than the supplied 63°C. Extend the scale or use replacement graph paper; correct the example point. Source data begin above 0°C and do not establish a melting plateau."
+    },
+    {
+      "id": "SCI-REPO-Y8-KOL-2021-STATES-2c",
+      "note": "Source graph ends at 95°C although data reach 100°C, and its example near 8 minutes is plotted at about 60°C rather than the supplied 63°C. Extend the scale or use replacement graph paper; correct the example point. Source data begin above 0°C and do not establish a melting plateau."
+    },
+    {
+      "id": "SCI-REPO-Y8-KOL-2021-STATES-2d",
+      "note": "Source graph ends at 95°C although data reach 100°C, and its example near 8 minutes is plotted at about 60°C rather than the supplied 63°C. Extend the scale or use replacement graph paper; correct the example point. Source data begin above 0°C and do not establish a melting plateau."
+    }
+  ],
+  "imageAudit": [
+    {
+      "id": "e34-page1-particle-panels",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Kolbe/2021/Task 3.1 Chemistry Formative Assessments/2021 Year 8 Atoms and compounds Formative Test .docx",
+      "sourceFileSha": "7160b5636ebc99a95acbdfed54aa310f46f06716",
+      "sourcePage": 1,
+      "pdfCropPoints": [
+        63,
+        343,
+        530,
+        424
+      ],
+      "role": "original_native_Word_figure",
+      "conversion": "Original DOCX rendered by LibreOffice to PDF; bounded source figure rasterised at 216 dpi without redrawing. Native editable shapes, table borders, shading and example points retained.",
+      "publishedSha256": "91f3239879fb03d63a7e60a695aec47640ad34236a05fb9b88b8dba0bfd2afa1"
+    },
+    {
+      "id": "e34-page1-formula-drawing-table",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Kolbe/2021/Task 3.1 Chemistry Formative Assessments/2021 Year 8 Atoms and compounds Formative Test .docx",
+      "sourceFileSha": "7160b5636ebc99a95acbdfed54aa310f46f06716",
+      "sourcePage": 1,
+      "pdfCropPoints": [
+        63,
+        525,
+        555,
+        666
+      ],
+      "role": "original_native_Word_figure",
+      "conversion": "Original DOCX rendered by LibreOffice to PDF; bounded source figure rasterised at 216 dpi without redrawing. Native editable shapes, table borders, shading and example points retained.",
+      "publishedSha256": "ba524f6156d4fdc909757e9dbfbc3052527af62717c0a0394e1809f78657e5c6"
+    },
+    {
+      "id": "e34-page2-mini-periodic-table",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Kolbe/2021/Task 3.1 Chemistry Formative Assessments/2021 Year 8 Atoms and compounds Formative Test .docx",
+      "sourceFileSha": "7160b5636ebc99a95acbdfed54aa310f46f06716",
+      "sourcePage": 2,
+      "pdfCropPoints": [
+        61,
+        82,
+        555,
+        355
+      ],
+      "role": "original_native_Word_figure",
+      "conversion": "Original DOCX rendered by LibreOffice to PDF; bounded source figure rasterised at 216 dpi without redrawing. Native editable shapes, table borders, shading and example points retained.",
+      "publishedSha256": "fb22e7c6ba370c574716baa415b56b8155717d90c9ad85fa3ff441fe1389a85b"
+    },
+    {
+      "id": "e36-page1-heating-data-table",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Kolbe/2021/Task 3.1 Chemistry Formative Assessments/2021 Year 8 States of Matter Formative Assessment .docx",
+      "sourceFileSha": "4a11c410da724f49271d889039f7fffd5081973e",
+      "sourcePage": 1,
+      "pdfCropPoints": [
+        359,
+        407,
+        562,
+        678
+      ],
+      "role": "original_native_Word_figure",
+      "conversion": "Original DOCX rendered by LibreOffice to PDF; bounded source figure rasterised at 216 dpi without redrawing. Native editable shapes, table borders, shading and example points retained.",
+      "publishedSha256": "441b452a9f597d60543c6749f5208abb114f0eeb136a0383ce8dd8764fb0b8b8"
+    },
+    {
+      "id": "e36-page2-original-graph-grid",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Kolbe/2021/Task 3.1 Chemistry Formative Assessments/2021 Year 8 States of Matter Formative Assessment .docx",
+      "sourceFileSha": "4a11c410da724f49271d889039f7fffd5081973e",
+      "sourcePage": 2,
+      "pdfCropPoints": [
+        98,
+        140,
+        412,
+        598
+      ],
+      "role": "original_native_Word_figure",
+      "conversion": "Original DOCX rendered by LibreOffice to PDF; bounded source figure rasterised at 216 dpi without redrawing. Native editable shapes, table borders, shading and example points retained.",
+      "publishedSha256": "50b1a6b17393604f2ed9d5f2f233acc0ea9c97a7a20b39ebea09c3b3bf4a53ec"
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Kolbe/2021/Task 3.1 Chemistry Formative Assessments/2021 Year 8 Atoms and compounds Formative Test .docx",
+      "sha": "7160b5636ebc99a95acbdfed54aa310f46f06716",
+      "year": 8,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Kolbe/2021/Task 3.1 Chemistry Formative Assessments/2021 Year 8 Atoms and Compunds Formative Test Answers.docx",
+      "sha": "0c9782ccbb2741a5c7b7bcad05ade55f59889255",
+      "year": 8,
+      "role": "key_reference"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Kolbe/2021/Task 3.1 Chemistry Formative Assessments/2021 Year 8 States of Matter Formative Assessment .docx",
+      "sha": "4a11c410da724f49271d889039f7fffd5081973e",
+      "year": 8,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 6,
+  "createdSupplements": 5,
+  "notes": [
+    "Two Kolbe formative papers fully extracted, including original native Word particle diagrams, molecular examples, mini periodic table, measured-data table and graph scaffold. Figures rendered from original DOCX, not replaced by invented illustrations. The nearby states-of-matter answer document is a different worksheet and was not misapplied."
+  ],
+  "markAudit": {
+    "Atoms/compounds": {
+      "coverTotal": 23.5,
+      "printedTaskSum": 33.5,
+      "extractedMarks": 33.5,
+      "note": "Cover conflicts with task allocations 3+3+4.5+3+20; original task marks retained."
+    },
+    "States of matter": {
+      "coverTotal": 19,
+      "printedTaskSum": 21,
+      "extractedMarks": 21,
+      "note": "Printed 9+3+3+2+1+3 totals21, not19. Original graph and melting-data limitations flagged."
+    }
+  },
+  "duplicateQuestionAliases": []
+}
