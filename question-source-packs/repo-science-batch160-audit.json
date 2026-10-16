@@ -1,0 +1,34 @@
+{
+  "batch": "repo-science-batch160",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y7-ARAN-BICYCLEFRICTION-project"
+  ],
+  "questions": 1,
+  "multipleChoice": 0,
+  "writtenQuestions": 1,
+  "battleEligible": 0,
+  "marks": 32,
+  "reviewRequired": [],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Aranmore/Year 7 Forces Assignment 2015.docx",
+      "sha": "65588306082f90cb42d0c2ce0ed9e02542efc8d9",
+      "year": 7,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 0,
+  "createdSupplements": 1,
+  "notes": [
+    "Full36mark bicycle project reviewed.32content/reference/functional-diagram marks retained as one linked task;size,heading,ruler and handwriting4presentation marks logged separately. Worked chain example remains context,not a separate extra task."
+  ],
+  "markAudit": {
+    "total": 36,
+    "selected": 32,
+    "presentation": 4
+  },
+  "duplicateQuestionAliases": []
+}

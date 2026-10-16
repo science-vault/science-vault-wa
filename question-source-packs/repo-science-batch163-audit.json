@@ -1,0 +1,38 @@
+{
+  "batch": "repo-science-batch163",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y7-ARAN-FORCESSPORT-project"
+  ],
+  "questions": 1,
+  "multipleChoice": 0,
+  "writtenQuestions": 1,
+  "battleEligible": 0,
+  "marks": 33,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y7-ARAN-FORCESSPORT-project",
+      "note": "Source parenthetical implies an unbalanced force always makes an object move;correct criterion is nonzero acceleration. Balanced forces permit rest or constant velocity."
+    }
+  ],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Aranmore/Forces Asignment 2014.docx",
+      "sha": "a6c4eec7fafb5015effde4042e9b5b25ae092212",
+      "year": 7,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 0,
+  "createdSupplements": 1,
+  "notes": [
+    "Complete33mark forces-in-sport task and rubric retained as one linked project. Opening decorative Wingdings symbol excluded;all science prompts preserved. Source Newton-law oversimplification corrected."
+  ],
+  "markAudit": {
+    "total": 33,
+    "tasks": 1
+  },
+  "duplicateQuestionAliases": []
+}

@@ -1,0 +1,124 @@
+{
+  "batch": "repo-science-batch157",
+  "paperCount": 1,
+  "questionIds": [],
+  "questions": 0,
+  "multipleChoice": 0,
+  "writtenQuestions": 0,
+  "battleEligible": 0,
+  "marks": 0,
+  "reviewRequired": [],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Unknown School/5.2 Daily Changes Numeracy Assessment Answers and marking key.docx",
+      "sha": "8f5d516bc6fa3725f52ba62044c632b1c8b0b0a7",
+      "year": 7,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 0,
+  "createdSupplements": 0,
+  "notes": [
+    "Complete7question keyed variant mapped to existing temperature numeracy questions. Same14readings;correct existing means24.14,22.29,23.21retained. Largest6°Cincrease occurs both7–8amand8–9am;supplied key truncates afternoon average. No duplicate selectable questions."
+  ],
+  "markAudit": {
+    "total": 7,
+    "questions": 7,
+    "newQuestions": 0
+  },
+  "duplicateQuestionAliases": [
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Unknown School/5.2 Daily Changes Numeracy Assessment Answers and marking key.docx",
+      "sourceFileSha": "8f5d516bc6fa3725f52ba62044c632b1c8b0b0a7",
+      "sourceQuestionNumber": "1",
+      "sourceParagraphs": [
+        5,
+        8
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-DAILYTEMP-1",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Unknown School/5.2 Daily Changes Numeracy Assessment Answers and marking key.docx",
+      "sourceFileSha": "8f5d516bc6fa3725f52ba62044c632b1c8b0b0a7",
+      "sourceQuestionNumber": "2",
+      "sourceParagraphs": [
+        5,
+        11
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-DAILYTEMP-2",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Unknown School/5.2 Daily Changes Numeracy Assessment Answers and marking key.docx",
+      "sourceFileSha": "8f5d516bc6fa3725f52ba62044c632b1c8b0b0a7",
+      "sourceQuestionNumber": "3",
+      "sourceParagraphs": [
+        5,
+        14
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Calculations",
+      "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-DAILYTEMP-3",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Unknown School/5.2 Daily Changes Numeracy Assessment Answers and marking key.docx",
+      "sourceFileSha": "8f5d516bc6fa3725f52ba62044c632b1c8b0b0a7",
+      "sourceQuestionNumber": "4",
+      "sourceParagraphs": [
+        5,
+        17
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Calculations",
+      "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-DAILYTEMP-4",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Unknown School/5.2 Daily Changes Numeracy Assessment Answers and marking key.docx",
+      "sourceFileSha": "8f5d516bc6fa3725f52ba62044c632b1c8b0b0a7",
+      "sourceQuestionNumber": "5",
+      "sourceParagraphs": [
+        5,
+        21
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Calculations",
+      "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-DAILYTEMP-5",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Unknown School/5.2 Daily Changes Numeracy Assessment Answers and marking key.docx",
+      "sourceFileSha": "8f5d516bc6fa3725f52ba62044c632b1c8b0b0a7",
+      "sourceQuestionNumber": "6",
+      "sourceParagraphs": [
+        5,
+        26
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Calculations",
+      "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-DAILYTEMP-6",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Unknown School/5.2 Daily Changes Numeracy Assessment Answers and marking key.docx",
+      "sourceFileSha": "8f5d516bc6fa3725f52ba62044c632b1c8b0b0a7",
+      "sourceQuestionNumber": "7",
+      "sourceParagraphs": [
+        5,
+        29
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Calculations",
+      "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-DAILYTEMP-7",
+      "reason": "Equivalent source question already present; not added or counted again."
+    }
+  ]
+}
