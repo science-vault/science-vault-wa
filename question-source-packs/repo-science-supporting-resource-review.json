@@ -1010,6 +1010,11 @@
       "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2017/DISTILLATION.docx",
       "sha": "b6f0ba67a2cd71aa0e8fe83f34c30554130de285",
       "reason": "Distillation explanatory notes and illustrative apparatus;no student question or response task."
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Unknown/Persuasive Essay Rubric.docx",
+      "sha": "7ccf3a8ba302c0fe1ae6b7bd4babd381b3b44032",
+      "reason": "Generic persuasive-essay rubric;no science topic,question or student content task supplied."
     }
   ]
 }

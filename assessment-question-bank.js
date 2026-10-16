@@ -183,3 +183,9 @@ document.write('<script src="assessment-question-bank-science-source-batch80.js?
 document.write('<script src="assessment-question-bank-science-source-batch81.js?v=2026.10.16-science-source81"><\/script>');
 
 document.write('<script src="assessment-question-bank-science-source-batch82.js?v=2026.10.16-science-source82"><\/script>');
+
+document.write('<script src="assessment-question-bank-science-source-batch83.js?v=2026.10.16-science-source83"><\/script>');
+
+document.write('<script src="assessment-question-bank-science-source-batch84.js?v=2026.10.16-science-source84"><\/script>');
+
+document.write('<script src="assessment-question-bank-science-source-batch85.js?v=2026.10.16-science-source85"><\/script>');

@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.16-science-source82",
+  "version": "2026.10.16-science-source85",
   "status": "in_progress",
   "scope": "Original Science assessment files in repository, Years 7–10. File counts include keys and supporting materials; they are not question counts.",
   "inventoryFiles": 2009,
@@ -11,10 +11,10 @@
     "9": 457,
     "10": 582
   },
-  "importedPapers": 215,
-  "importedQuestions": 2988,
+  "importedPapers": 218,
+  "importedQuestions": 3025,
   "multipleChoice": 793,
-  "writtenQuestions": 2195,
+  "writtenQuestions": 2232,
   "battleEligibleQuestions": 690,
   "reviewRequired": [
     {
@@ -1544,6 +1544,14 @@
     {
       "id": "SCI-REPO-Y10-ARAN-2014-DNAMICRO-M-50x",
       "note": "Key provides magnification assumptions missing from student stem."
+    },
+    {
+      "id": "SCI-REPO-Y8-NARR-2023-CRYSTALS-discussion",
+      "note": "Source blanket temperature/solubility and supersaturation claims require qualification."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-HOMEEFFICIENCY-houselabels",
+      "note": "House picture must accompany this diagram task."
     },
     {
       "id": "SCI-REPO-Y10-NAR-2024-UNIVERSE-MC02",
@@ -15863,6 +15871,123 @@
         "drawingDeductionCriteria": 6
       },
       "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch83",
+      "questionIds": [
+        "SCI-REPO-Y8-NARR-2023-CRYSTALS-title",
+        "SCI-REPO-Y8-NARR-2023-CRYSTALS-aimhypothesis",
+        "SCI-REPO-Y8-NARR-2023-CRYSTALS-equipment",
+        "SCI-REPO-Y8-NARR-2023-CRYSTALS-procedure",
+        "SCI-REPO-Y8-NARR-2023-CRYSTALS-diagram",
+        "SCI-REPO-Y8-NARR-2023-CRYSTALS-independent",
+        "SCI-REPO-Y8-NARR-2023-CRYSTALS-dependent",
+        "SCI-REPO-Y8-NARR-2023-CRYSTALS-controls",
+        "SCI-REPO-Y8-NARR-2023-CRYSTALS-results",
+        "SCI-REPO-Y8-NARR-2023-CRYSTALS-graph",
+        "SCI-REPO-Y8-NARR-2023-CRYSTALS-discussion",
+        "SCI-REPO-Y8-NARR-2023-CRYSTALS-conclusion"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Narrogin/2023/Y8 crystal investigation 2024 goc.docx",
+          "sha": "f8eda90051ca97477d12e43487981616f718485c",
+          "year": 8,
+          "role": "paper"
+        }
+      ],
+      "questions": 12,
+      "marks": 18,
+      "imageAudit": "question-source-packs/repo-science-batch83-audit.json",
+      "notes": [
+        "Complete20-mark crystal investigation:18task marks plus2presentation. Actual student observations required;source universal solubility/supersaturation claims corrected.2023folder/2024filename conflict retained."
+      ],
+      "markAudit": {
+        "cover": 20,
+        "taskMarks": 18,
+        "presentationOnly": 2
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch84",
+      "questionIds": [
+        "SCI-REPO-Y8-ARAN-HOMEEFFICIENCY-meaning",
+        "SCI-REPO-Y8-ARAN-HOMEEFFICIENCY-benefits",
+        "SCI-REPO-Y8-ARAN-HOMEEFFICIENCY-roofcolour",
+        "SCI-REPO-Y8-ARAN-HOMEEFFICIENCY-roofcavity",
+        "SCI-REPO-Y8-ARAN-HOMEEFFICIENCY-doubleglazing",
+        "SCI-REPO-Y8-ARAN-HOMEEFFICIENCY-foil",
+        "SCI-REPO-Y8-ARAN-HOMEEFFICIENCY-curtains",
+        "SCI-REPO-Y8-ARAN-HOMEEFFICIENCY-trees",
+        "SCI-REPO-Y8-ARAN-HOMEEFFICIENCY-solarwater",
+        "SCI-REPO-Y8-ARAN-HOMEEFFICIENCY-behaviour",
+        "SCI-REPO-Y8-ARAN-HOMEEFFICIENCY-lighting",
+        "SCI-REPO-Y8-ARAN-HOMEEFFICIENCY-references",
+        "SCI-REPO-Y8-ARAN-HOMEEFFICIENCY-houselabels"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/Energy Efficiency Investigation for small group.docx",
+          "sha": "556a5d9748564ed7c75f9c485ee961f93371d0da",
+          "year": 8,
+          "role": "paper"
+        }
+      ],
+      "questions": 13,
+      "marks": 35,
+      "imageAudit": "question-source-packs/repo-science-batch84-audit.json",
+      "notes": [
+        "Full35-mark home-efficiency task retained with scientifically qualified heat-transfer guidance. Definition1,benefits3,table25,references2,house labelling4. Source-native house diagram retained when embedded in response area."
+      ],
+      "markAudit": {
+        "cover": 35,
+        "definition": 1,
+        "benefits": 3,
+        "featureTable": 25,
+        "references": 2,
+        "houseLabels": 4
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch85",
+      "questionIds": [
+        "SCI-REPO-Y8-KOLBE-2021-RENEWABLEINV-question",
+        "SCI-REPO-Y8-KOLBE-2021-RENEWABLEINV-background",
+        "SCI-REPO-Y8-KOLBE-2021-RENEWABLEINV-hypothesis",
+        "SCI-REPO-Y8-KOLBE-2021-RENEWABLEINV-variables",
+        "SCI-REPO-Y8-KOLBE-2021-RENEWABLEINV-procedure",
+        "SCI-REPO-Y8-KOLBE-2021-RENEWABLEINV-problems",
+        "SCI-REPO-Y8-KOLBE-2021-RENEWABLEINV-trials",
+        "SCI-REPO-Y8-KOLBE-2021-RENEWABLEINV-data",
+        "SCI-REPO-Y8-KOLBE-2021-RENEWABLEINV-conclusions",
+        "SCI-REPO-Y8-KOLBE-2021-RENEWABLEINV-presentation",
+        "SCI-REPO-Y8-KOLBE-2021-RENEWABLEINV-communication",
+        "SCI-REPO-Y8-KOLBE-2021-RENEWABLEINV-evidence"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Kolbe/2021/Task 6_Renewable energy investigation/2021Y08InvRenewables.docx",
+          "sha": "701557531ae1129dae2995c6c8560ef2e675782e",
+          "year": 8,
+          "role": "paper"
+        }
+      ],
+      "questions": 12,
+      "marks": 36,
+      "imageAudit": "question-source-packs/repo-science-batch85-audit.json",
+      "notes": [
+        "Complete36-mark investigation/planner and all12rubric criteria retained. Six suggested experimental directions preserved as alternatives in context,not counted as six assigned tasks. Output voltage distinguished frompower/energy;scale-up andcolour/intensity/gearing confounds identified."
+      ],
+      "markAudit": {
+        "designCriteria": 6,
+        "dataCriteria": 3,
+        "presentationCriteria": 3,
+        "marksPerCriterion": 3,
+        "total": 36
+      },
+      "duplicateQuestionAliases": []
     }
   ],
   "files": [
@@ -22360,7 +22485,7 @@
       "sha": "f8eda90051ca97477d12e43487981616f718485c",
       "year": 8,
       "size": 57235,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -22408,7 +22533,7 @@
       "sha": "f8eda90051ca97477d12e43487981616f718485c",
       "year": 8,
       "size": 57235,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Narrogin/2023/Y8 crystal investigation 2024 goc.docx"
     },
     {
@@ -22537,8 +22662,9 @@
       "sha": "7ccf3a8ba302c0fe1ae6b7bd4babd381b3b44032",
       "year": 8,
       "size": 56294,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Generic persuasive-essay rubric;no science topic,question or student content task supplied."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Unknown/Persuasive Essay Template.doc",
@@ -23060,7 +23186,7 @@
       "sha": "556a5d9748564ed7c75f9c485ee961f93371d0da",
       "year": 8,
       "size": 51303,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -23132,7 +23258,7 @@
       "sha": "701557531ae1129dae2995c6c8560ef2e675782e",
       "year": 8,
       "size": 56524,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -32049,8 +32175,8 @@
     }
   ],
   "learningVaultCreatedKeySupplements": 924,
-  "remainingUniqueFileBlobs": 1347,
-  "learningVaultCreatedKeys": 1754,
+  "remainingUniqueFileBlobs": 1343,
+  "learningVaultCreatedKeys": 1791,
   "blockedSources": [
     {
       "sha": "49d4b7f3f8af844477b39abb856365aeb096cafd",
@@ -32262,7 +32388,7 @@
     "ocrPages": 1175,
     "ocrTextVerified": false
   },
-  "distinctSourceAndKeyReferences": 263,
+  "distinctSourceAndKeyReferences": 266,
   "unscoredQuestionsPreserved": 1,
   "activeAdditionalQuestionRequest": {
     "requestedAdditionalQuestions": 1000,
@@ -32277,12 +32403,12 @@
     "requestedAt": "2026-10-16",
     "scope": "All remaining Years 7–10 Science assessment papers; all question types, source figures, response space and marking guidance",
     "startingImportedQuestions": 1374,
-    "addedQuestions": 1614,
+    "addedQuestions": 1651,
     "status": "in_progress",
     "completionRule": "Every unique assessment paper reviewed; duplicates mapped and unreadable/protected files explicitly resolved. File-blob count is not a paper denominator.",
     "restoredQuestionsAfterDuplicateFix": 4,
-    "newlyExtractedQuestions": 1610,
-    "papersReviewedSinceRequest": 152,
+    "newlyExtractedQuestions": 1647,
+    "papersReviewedSinceRequest": 155,
     "canonicalSourceQuestionsReReviewed": 2
   },
   "sourceInventoryExclusions": {
@@ -32292,8 +32418,8 @@
     "note": "These are file metadata records, not papers or questions; excluded from import work without increasing question or paper totals."
   },
   "supportingResourceReview": {
-    "files": 36,
-    "uniqueBlobs": 33,
+    "files": 37,
+    "uniqueBlobs": 34,
     "audit": "question-source-packs/repo-science-supporting-resource-review.json",
     "countedAsPapers": false,
     "countedAsQuestions": false
@@ -32422,7 +32548,7 @@
       "resolution": "Locate original practical sheet; do not invent missing source directions."
     }
   ],
-  "reviewedDistinctSourceBlobs": 253,
+  "reviewedDistinctSourceBlobs": 257,
   "inventoryCountBasis": "Remaining unique file blobs counts pending or key-reference-pending identities, including protected inputs; it is not a remaining-paper or remaining-question estimate.",
   "canonicalUniverseReviewRepair": {
     "questionIds": [

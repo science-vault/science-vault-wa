@@ -1,0 +1,47 @@
+{
+  "batch": "repo-science-batch85",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y8-KOLBE-2021-RENEWABLEINV-question",
+    "SCI-REPO-Y8-KOLBE-2021-RENEWABLEINV-background",
+    "SCI-REPO-Y8-KOLBE-2021-RENEWABLEINV-hypothesis",
+    "SCI-REPO-Y8-KOLBE-2021-RENEWABLEINV-variables",
+    "SCI-REPO-Y8-KOLBE-2021-RENEWABLEINV-procedure",
+    "SCI-REPO-Y8-KOLBE-2021-RENEWABLEINV-problems",
+    "SCI-REPO-Y8-KOLBE-2021-RENEWABLEINV-trials",
+    "SCI-REPO-Y8-KOLBE-2021-RENEWABLEINV-data",
+    "SCI-REPO-Y8-KOLBE-2021-RENEWABLEINV-conclusions",
+    "SCI-REPO-Y8-KOLBE-2021-RENEWABLEINV-presentation",
+    "SCI-REPO-Y8-KOLBE-2021-RENEWABLEINV-communication",
+    "SCI-REPO-Y8-KOLBE-2021-RENEWABLEINV-evidence"
+  ],
+  "questions": 12,
+  "multipleChoice": 0,
+  "writtenQuestions": 12,
+  "battleEligible": 0,
+  "marks": 36,
+  "reviewRequired": [],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Kolbe/2021/Task 6_Renewable energy investigation/2021Y08InvRenewables.docx",
+      "sha": "701557531ae1129dae2995c6c8560ef2e675782e",
+      "year": 8,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 12,
+  "createdSupplements": 0,
+  "notes": [
+    "Complete36-mark investigation/planner and all12rubric criteria retained. Six suggested experimental directions preserved as alternatives in context,not counted as six assigned tasks. Output voltage distinguished frompower/energy;scale-up andcolour/intensity/gearing confounds identified."
+  ],
+  "markAudit": {
+    "designCriteria": 6,
+    "dataCriteria": 3,
+    "presentationCriteria": 3,
+    "marksPerCriterion": 3,
+    "total": 36
+  },
+  "duplicateQuestionAliases": []
+}
