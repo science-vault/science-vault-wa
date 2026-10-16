@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.16-science-source50",
+  "version": "2026.10.16-science-source54",
   "status": "in_progress",
   "scope": "Original Science assessment files in repository, Years 7–10. File counts include keys and supporting materials; they are not question counts.",
   "inventoryFiles": 2009,
@@ -11,10 +11,10 @@
     "9": 457,
     "10": 582
   },
-  "importedPapers": 145,
-  "importedQuestions": 2132,
+  "importedPapers": 156,
+  "importedQuestions": 2270,
   "multipleChoice": 776,
-  "writtenQuestions": 1356,
+  "writtenQuestions": 1494,
   "battleEligibleQuestions": 679,
   "reviewRequired": [
     {
@@ -1064,6 +1064,86 @@
     {
       "id": "SCI-REPO-Y7-ARAN-2015-TAPEREPORT-conclusion",
       "note": "Supplied key has an allocation conflict or example-specific result; actual student data govern."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNKNOWN-PHYSREV-1h",
+      "note": "Friction is intended, but the wording only says contact force and is not unique; accept a justified normal, tension or other contact force."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNKNOWN-PHYSREV-7",
+      "note": "Source wording is scientifically incomplete; corrected manual guidance supplied."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNKNOWN-PHYSREV-11",
+      "note": "Source wording is scientifically incomplete; corrected manual guidance supplied."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2017-SYSTEMSPRESENT-assignment",
+      "note": "Open health-research project; factual clinical claims require current condition-specific primary/public-health references. The marking guide supplies criteria, not medical advice."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2013-MODELS-station-A",
+      "note": "Original physical station display is not embedded; guidance uses the explicit teacher notes. Teacher must verify the actual model and clarify source terminology."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2013-MODELS-station-B",
+      "note": "Original physical station display is not embedded; guidance uses the explicit teacher notes. Teacher must verify the actual model and clarify source terminology."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2013-MODELS-station-C",
+      "note": "Original physical station display is not embedded; guidance uses the explicit teacher notes. Teacher must verify the actual model and clarify source terminology."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2013-MODELS-station-D",
+      "note": "Original physical station display is not embedded; guidance uses the explicit teacher notes. Teacher must verify the actual model and clarify source terminology."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2013-MODELS-station-E",
+      "note": "Original physical station display is not embedded; guidance uses the explicit teacher notes. Teacher must verify the actual model and clarify source terminology."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2013-MODELS-station-E-other",
+      "note": "Original physical station display is not embedded; guidance uses the explicit teacher notes. Teacher must verify the actual model and clarify source terminology."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2013-MODELS-station-F",
+      "note": "Original physical station display is not embedded; guidance uses the explicit teacher notes. Teacher must verify the actual model and clarify source terminology."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2013-MODELS-station-G",
+      "note": "Original physical station display is not embedded; guidance uses the explicit teacher notes. Teacher must verify the actual model and clarify source terminology."
+    },
+    {
+      "id": "SCI-REPO-Y8-KOL-2021-MATTERCHOICE-R2C1",
+      "note": "Source task/rubric has an ambiguity needing teacher moderation."
+    },
+    {
+      "id": "SCI-REPO-Y8-KOL-2021-MATTERCHOICE-R2C2",
+      "note": "Source task/rubric has an ambiguity needing teacher moderation."
+    },
+    {
+      "id": "SCI-REPO-Y8-KOL-2021-MATTERCHOICE-R2C4",
+      "note": "Source task/rubric has an ambiguity needing teacher moderation."
+    },
+    {
+      "id": "SCI-REPO-Y8-KOL-2021-MATTERCHOICE-R3C3",
+      "note": "Source task/rubric has an ambiguity needing teacher moderation."
+    },
+    {
+      "id": "SCI-REPO-Y8-KOL-2021-MATTERCHOICE-R3C4",
+      "note": "Source task/rubric has an ambiguity needing teacher moderation."
+    },
+    {
+      "id": "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-B3",
+      "note": "Source forces a binary classification that needs chemical-species/solution context."
+    },
+    {
+      "id": "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-B6",
+      "note": "Source forces a binary classification that needs chemical-species/solution context."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2013-DENSITYRESULTS-table",
+      "note": "Supplied results sheet has six blank derived-mass cells and three blank average cells, so it is retained as one table-completion task rather than discarded as notes. Original units and explicit completion instruction are absent; proposed rubric clearly labelled."
     },
     {
       "id": "SCI-REPO-Y10-NAR-2024-UNIVERSE-MC02",
@@ -11075,6 +11155,359 @@
           ]
         }
       ]
+    },
+    {
+      "id": "repo-science-batch51",
+      "questionIds": [
+        "SCI-REPO-Y7-UNKNOWN-FRICTIONESSAY-essay",
+        "SCI-REPO-Y7-UNKNOWN-PHYSREV-1a",
+        "SCI-REPO-Y7-UNKNOWN-PHYSREV-1b",
+        "SCI-REPO-Y7-UNKNOWN-PHYSREV-1c",
+        "SCI-REPO-Y7-UNKNOWN-PHYSREV-1d",
+        "SCI-REPO-Y7-UNKNOWN-PHYSREV-1e",
+        "SCI-REPO-Y7-UNKNOWN-PHYSREV-1f",
+        "SCI-REPO-Y7-UNKNOWN-PHYSREV-1g",
+        "SCI-REPO-Y7-UNKNOWN-PHYSREV-1h",
+        "SCI-REPO-Y7-UNKNOWN-PHYSREV-1i",
+        "SCI-REPO-Y7-UNKNOWN-PHYSREV-1j",
+        "SCI-REPO-Y7-UNKNOWN-PHYSREV-1k",
+        "SCI-REPO-Y7-UNKNOWN-PHYSREV-1l",
+        "SCI-REPO-Y7-UNKNOWN-PHYSREV-1m",
+        "SCI-REPO-Y7-UNKNOWN-PHYSREV-1n",
+        "SCI-REPO-Y7-UNKNOWN-PHYSREV-1o",
+        "SCI-REPO-Y7-UNKNOWN-PHYSREV-1p",
+        "SCI-REPO-Y7-UNKNOWN-PHYSREV-1q",
+        "SCI-REPO-Y7-UNKNOWN-PHYSREV-1r",
+        "SCI-REPO-Y7-UNKNOWN-PHYSREV-1s",
+        "SCI-REPO-Y7-UNKNOWN-PHYSREV-1t",
+        "SCI-REPO-Y7-UNKNOWN-PHYSREV-1u",
+        "SCI-REPO-Y7-UNKNOWN-PHYSREV-1v",
+        "SCI-REPO-Y7-UNKNOWN-PHYSREV-2",
+        "SCI-REPO-Y7-UNKNOWN-PHYSREV-3",
+        "SCI-REPO-Y7-UNKNOWN-PHYSREV-4",
+        "SCI-REPO-Y7-UNKNOWN-PHYSREV-5",
+        "SCI-REPO-Y7-UNKNOWN-PHYSREV-6",
+        "SCI-REPO-Y7-UNKNOWN-PHYSREV-7",
+        "SCI-REPO-Y7-UNKNOWN-PHYSREV-8",
+        "SCI-REPO-Y7-UNKNOWN-PHYSREV-9",
+        "SCI-REPO-Y7-UNKNOWN-PHYSREV-10",
+        "SCI-REPO-Y7-UNKNOWN-PHYSREV-11",
+        "SCI-REPO-Y7-UNKNOWN-PHYSREV-12",
+        "SCI-REPO-Y7-UNKNOWN-PHYSREV-13",
+        "SCI-REPO-Y7-UNKNOWN-PHYSREV-14",
+        "SCI-REPO-Y7-UNKNOWN-PHYSREV-15",
+        "SCI-REPO-Y7-UNKNOWN-PHYSREV-16",
+        "SCI-REPO-Y7-UNKNOWN-PHYSREV-17",
+        "SCI-REPO-Y7-UNKNOWN-PHYSREV-18"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Unknown School/Persuasive Essay Research Assignment Friction.docx",
+          "sha": "5c6656cf10248b3501dc5ad6e5daddbffb0cd900",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Unknown School/Revision for Topic Test Year 7 Physical Science.docx",
+          "sha": "2c248b8b107a31c9f45707410876779361707960",
+          "year": 7,
+          "role": "paper"
+        }
+      ],
+      "questions": 40,
+      "marks": 85,
+      "imageAudit": "question-source-packs/repo-science-batch51-audit.json",
+      "notes": [
+        "Complete essay scaffold and physical-science revision prompts retained with proposed marks. Net force table predicts acceleration, not direction of motion without initial velocity. Forced fall-speed choice flagged. Source references to textbook pages are supplementary; all assessed prompt wording is present."
+      ],
+      "markAudit": {
+        "Essay": {
+          "printedMarks": null
+        },
+        "Revision": {
+          "printedMarks": null,
+          "vocabularyPrompts": 22,
+          "remainingTasks": 17
+        }
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch52",
+      "questionIds": [
+        "SCI-REPO-Y8-ARAN-2016-HEARTRATE-definition",
+        "SCI-REPO-Y8-ARAN-2016-HEARTRATE-units",
+        "SCI-REPO-Y8-ARAN-2016-HEARTRATE-aim-title",
+        "SCI-REPO-Y8-ARAN-2016-HEARTRATE-background",
+        "SCI-REPO-Y8-ARAN-2016-HEARTRATE-hypothesis",
+        "SCI-REPO-Y8-ARAN-2016-HEARTRATE-independent",
+        "SCI-REPO-Y8-ARAN-2016-HEARTRATE-dependent",
+        "SCI-REPO-Y8-ARAN-2016-HEARTRATE-controls",
+        "SCI-REPO-Y8-ARAN-2016-HEARTRATE-materials",
+        "SCI-REPO-Y8-ARAN-2016-HEARTRATE-method",
+        "SCI-REPO-Y8-ARAN-2016-HEARTRATE-results",
+        "SCI-REPO-Y8-ARAN-2016-HEARTRATE-graph",
+        "SCI-REPO-Y8-ARAN-2016-HEARTRATE-discussion",
+        "SCI-REPO-Y8-ARAN-2016-HEARTRATE-conclusion-references",
+        "SCI-REPO-Y8-SBY-2017-SYSTEMSPRESENT-assignment",
+        "SCI-REPO-Y8-ARAN-2014-REACTIONINVEST-P1-dependent",
+        "SCI-REPO-Y8-ARAN-2014-REACTIONINVEST-P1-table",
+        "SCI-REPO-Y8-ARAN-2014-REACTIONINVEST-P1-graph",
+        "SCI-REPO-Y8-ARAN-2014-REACTIONINVEST-P1-discussion",
+        "SCI-REPO-Y8-ARAN-2014-REACTIONINVEST-P1-classification",
+        "SCI-REPO-Y8-ARAN-2014-REACTIONINVEST-P1-reason",
+        "SCI-REPO-Y8-ARAN-2014-REACTIONINVEST-P2-dependent",
+        "SCI-REPO-Y8-ARAN-2014-REACTIONINVEST-P2-table",
+        "SCI-REPO-Y8-ARAN-2014-REACTIONINVEST-P2-graph",
+        "SCI-REPO-Y8-ARAN-2014-REACTIONINVEST-P2-discussion",
+        "SCI-REPO-Y8-ARAN-2014-REACTIONINVEST-P2-classification",
+        "SCI-REPO-Y8-ARAN-2014-REACTIONINVEST-P2-reason",
+        "SCI-REPO-Y8-ARAN-2013-MODELS-station-A",
+        "SCI-REPO-Y8-ARAN-2013-MODELS-station-B",
+        "SCI-REPO-Y8-ARAN-2013-MODELS-station-C",
+        "SCI-REPO-Y8-ARAN-2013-MODELS-station-D",
+        "SCI-REPO-Y8-ARAN-2013-MODELS-station-E",
+        "SCI-REPO-Y8-ARAN-2013-MODELS-station-E-other",
+        "SCI-REPO-Y8-ARAN-2013-MODELS-station-F",
+        "SCI-REPO-Y8-ARAN-2013-MODELS-station-G",
+        "SCI-REPO-Y8-ARAN-2013-MODELS-compounds",
+        "SCI-REPO-Y8-ARAN-2013-MODELS-elements",
+        "SCI-REPO-Y8-ARAN-2013-MODELS-mixture"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Biological Sciences/Aranmore/Year 8 Biology Investigation George's class 2016.docx",
+          "sha": "57560e0315accae551e7dc148da064cad90d9dfc",
+          "year": 8,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Biological Sciences/Safety Bay/2017/Biological Systems Presentation Assessment.docx",
+          "sha": "dd83268241b4096a02d0c904a4845a376736e543",
+          "year": 8,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE OBSERVING CHEMICAL REACTIONS INVESTIGATION.docx",
+          "sha": "44315f5cf76de0b56ae383acc6522fd76ad6663e",
+          "year": 8,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/Model Assessment 2013.docx",
+          "sha": "afaf21e07fa9a53fcfb9e0014c63ae4def2eb347",
+          "year": 8,
+          "role": "paper"
+        }
+      ],
+      "questions": 38,
+      "marks": 112,
+      "imageAudit": "question-source-packs/repo-science-batch52-audit.json",
+      "notes": [
+        "Four complete assessment sources reviewed. Heart-rate report36 marks plus two unallocated definition/unit prompts separately proposed. Biological-systems project retains25-mark criteria without generating clinical answers for an unchosen condition. Chemical-reaction tasks retain32 scientific marks;2 presentation marks are recorded only in the audit. Molecular model native figure preserved from the original Word page; incorrect lattice-as-molecule language flagged and actual station displays require teacher verification."
+      ],
+      "markAudit": {
+        "HeartRate": {
+          "printedTotal": 36,
+          "explicitReportAllocations": 36,
+          "unallocatedPromptsProposed": 2
+        },
+        "BiologicalSystems": {
+          "total": 25
+        },
+        "ChemicalReactions": {
+          "scientificTaskMarks": 32,
+          "presentationOnlyMarks": 2,
+          "originalTotal": 34
+        },
+        "Models": {
+          "originalTotal": 17,
+          "stations": 8,
+          "writtenTaskGroups": 3
+        }
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch53",
+      "questionIds": [
+        "SCI-REPO-Y8-KOL-2021-MATTERCHOICE-R1C1",
+        "SCI-REPO-Y8-KOL-2021-MATTERCHOICE-R1C2",
+        "SCI-REPO-Y8-KOL-2021-MATTERCHOICE-R1C3",
+        "SCI-REPO-Y8-KOL-2021-MATTERCHOICE-R1C4",
+        "SCI-REPO-Y8-KOL-2021-MATTERCHOICE-R1C5",
+        "SCI-REPO-Y8-KOL-2021-MATTERCHOICE-R2C1",
+        "SCI-REPO-Y8-KOL-2021-MATTERCHOICE-R2C2",
+        "SCI-REPO-Y8-KOL-2021-MATTERCHOICE-R2C3",
+        "SCI-REPO-Y8-KOL-2021-MATTERCHOICE-R2C4",
+        "SCI-REPO-Y8-KOL-2021-MATTERCHOICE-R3C1",
+        "SCI-REPO-Y8-KOL-2021-MATTERCHOICE-R3C2",
+        "SCI-REPO-Y8-KOL-2021-MATTERCHOICE-R3C3",
+        "SCI-REPO-Y8-KOL-2021-MATTERCHOICE-R3C4",
+        "SCI-REPO-Y8-KOL-2021-MATTERCHOICE-R3C5",
+        "SCI-REPO-Y8-NAR-2021-ELEMENTRESEARCH-assignment",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-A1",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-A2",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-A3",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-A4",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-A5",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-A6",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-A7",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-A8",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-A9",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-A10",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-A11",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-A12",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-A13",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-A14",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-B1",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-B2",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-B3",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-B4",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-B5",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-B6",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-B7",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-B8",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-B9",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-B10",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-B11",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-B12",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-B13",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-B14",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-B15",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-B16",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-C1",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-C2",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-C3",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-C4",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-C5",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-C6",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-C7",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-C8",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-C9",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-C10",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-C11",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-C12",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-C13",
+        "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-D1"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Kolbe/2021/Task 4_Matter choice board/Task Matter Choice board MK.docx",
+          "sha": "27b0c3b87c4107c4303e0211ea350dab6c096910",
+          "year": 8,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Narrogin/2021/Elements Assignment.docx",
+          "sha": "b23548ca39aa8a6fdf4100a43055c12aa2b2db02",
+          "year": 8,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Narrogin/2022/Elements Assignment.docx",
+          "sha": "26a84cf8c28f2cda9dc3efb62634fce0eb59992f",
+          "year": 8,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Narrogin/2022/Year 8 matter review.docx",
+          "sha": "7c02f59e766a740753f5d7af8a17be27ef591af5",
+          "year": 8,
+          "role": "paper"
+        }
+      ],
+      "questions": 59,
+      "marks": 141,
+      "imageAudit": "question-source-packs/repo-science-batch53-audit.json",
+      "notes": [
+        "Fifteen choice-board cells reviewed, one repeated state explanation mapped with contradictory phase-transition rubric recorded. Fourteen distinct tasks; do not count student-authored future questions as extracted source questions. Element research versions map to one25-mark project. Matter review includes14 formula-response rows,16 unfinished classification rows,13 definitions and one state diagram; completed ammonia example not counted. Binary carbonate/acid classification and common-product simplifications flagged."
+      ],
+      "markAudit": {
+        "ChoiceBoard": {
+          "cells": 15,
+          "uniqueTasks": 14,
+          "perTaskPerformanceScale": 3,
+          "notAllOptionsCompulsory": true
+        },
+        "ElementResearch": {
+          "2021Total": 25,
+          "2022Total": 25
+        },
+        "MatterReview": {
+          "printedMarks": null,
+          "workedExampleExcluded": "Ammonia NH₃ compound"
+        }
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Kolbe/2021/Task 4_Matter choice board/Task Matter Choice board MK.docx",
+          "sourceFileSha": "27b0c3b87c4107c4303e0211ea350dab6c096910",
+          "sourceQuestionNumber": "R2C5",
+          "sourceParagraphs": [
+            11
+          ],
+          "existingQuestionId": "SCI-REPO-Y8-KOL-2021-MATTERCHOICE-R1C5",
+          "reason": "Exact repeated four-states explanation prompt. Row2 rubric instead discusses phase transitions, a source mismatch; the repeated prompt is not a new question.",
+          "sourceRubricVariant": [
+            "Names the transitions through the states of matter.",
+            "Describes in simple terms the transition through the states. Diagram to support.",
+            "Description of the transition through the states refers to energy and movement of the particles and how this relates to the properties of each state. Diagram supports written description."
+          ],
+          "sourceReviewRequired": true
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Narrogin/2022/Elements Assignment.docx",
+          "sourceFileSha": "26a84cf8c28f2cda9dc3efb62634fce0eb59992f",
+          "sourceQuestionNumber": "assignment",
+          "existingQuestionId": "SCI-REPO-Y8-NAR-2021-ELEMENTRESEARCH-assignment",
+          "sourceParagraphs": [
+            1,
+            6,
+            8,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            17,
+            19,
+            38
+          ],
+          "reason": "Same element-research prompts, presentation requirements and25-mark rubric; not recounted."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch54",
+      "questionIds": [
+        "SCI-REPO-Y8-ARAN-2013-DENSITYRESULTS-table"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/Density Investigation Results 2013.docx",
+          "sha": "43ace67c93d67caa47b162a1629f07e1d01b2e38",
+          "year": 8,
+          "role": "paper"
+        }
+      ],
+      "questions": 1,
+      "marks": 9,
+      "imageAudit": "question-source-packs/repo-science-batch54-audit.json",
+      "notes": [
+        "One supplied-results worksheet retained because it has actual blank derived-mass/average response cells. Original numerical data preserved; missing units flagged. This does not add unasked density computations."
+      ],
+      "markAudit": {
+        "SuppliedResults": {
+          "printedMarks": null,
+          "proposed": 9,
+          "blankDerivedMassCells": 6,
+          "blankAverageCells": 3,
+          "unitsUnspecified": true
+        }
+      },
+      "duplicateQuestionAliases": []
     }
   ],
   "files": [
@@ -14898,8 +15331,9 @@
       "sha": "9694a2115cdcea6e147abffbcd0572ba331984b9",
       "year": 7,
       "size": 15702,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Single explanatory paragraph about rocket flight; no student prompt or response task."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Safety bay/2018/ICT week 4 - Physics Revision.docx",
@@ -15050,7 +15484,7 @@
       "sha": "5c6656cf10248b3501dc5ad6e5daddbffb0cd900",
       "year": 7,
       "size": 14902,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -15074,7 +15508,7 @@
       "sha": "2c248b8b107a31c9f45707410876779361707960",
       "year": 7,
       "size": 22311,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -15290,15 +15724,16 @@
       "sha": "f65a659e5b82a2b8f5733a4cf61777368751ab59",
       "year": 8,
       "size": 13921,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Blank resting/exercise/recovery results-recording templates without a specified research question or experiment; supporting data sheet, not a separate assessment."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 8/Science/Biological Sciences/Aranmore/Year 8 Biology Investigation George's class 2016.docx",
       "sha": "57560e0315accae551e7dc148da064cad90d9dfc",
       "year": 8,
       "size": 15678,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -15874,7 +16309,7 @@
       "sha": "dd83268241b4096a02d0c904a4845a376736e543",
       "year": 8,
       "size": 33820,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -16050,7 +16485,7 @@
       "sha": "44315f5cf76de0b56ae383acc6522fd76ad6663e",
       "year": 8,
       "size": 29341,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -16154,7 +16589,7 @@
       "sha": "43ace67c93d67caa47b162a1629f07e1d01b2e38",
       "year": 8,
       "size": 13451,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -16170,7 +16605,7 @@
       "sha": "afaf21e07fa9a53fcfb9e0014c63ae4def2eb347",
       "year": 8,
       "size": 32610,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -16322,7 +16757,7 @@
       "sha": "27b0c3b87c4107c4303e0211ea350dab6c096910",
       "year": 8,
       "size": 34250,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -16554,8 +16989,9 @@
       "sha": "0b09564a6d6b6310f02ff916eeeb6792f81ae924",
       "year": 8,
       "size": 12666,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Reference list of supplied chemical names/formulae/uses only; no questions or blank responses."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Narrogin/2018/Periodic Table.pdf",
@@ -16706,7 +17142,7 @@
       "sha": "b23548ca39aa8a6fdf4100a43055c12aa2b2db02",
       "year": 8,
       "size": 28279,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -16738,7 +17174,7 @@
       "sha": "26a84cf8c28f2cda9dc3efb62634fce0eb59992f",
       "year": 8,
       "size": 28541,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -16778,7 +17214,7 @@
       "sha": "7c02f59e766a740753f5d7af8a17be27ef591af5",
       "year": 8,
       "size": 20332,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -16826,7 +17262,7 @@
       "sha": "26a84cf8c28f2cda9dc3efb62634fce0eb59992f",
       "year": 8,
       "size": 28541,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Narrogin/2022/Elements Assignment.docx"
     },
     {
@@ -16866,7 +17302,7 @@
       "sha": "26a84cf8c28f2cda9dc3efb62634fce0eb59992f",
       "year": 8,
       "size": 28541,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Narrogin/2022/Elements Assignment.docx"
     },
     {
@@ -27226,8 +27662,8 @@
     }
   ],
   "learningVaultCreatedKeySupplements": 834,
-  "remainingUniqueFileBlobs": 1442,
-  "learningVaultCreatedKeys": 988,
+  "remainingUniqueFileBlobs": 1428,
+  "learningVaultCreatedKeys": 1126,
   "blockedSources": [
     {
       "sha": "49d4b7f3f8af844477b39abb856365aeb096cafd",
@@ -27439,7 +27875,7 @@
     "ocrPages": 1175,
     "ocrTextVerified": false
   },
-  "distinctSourceAndKeyReferences": 187,
+  "distinctSourceAndKeyReferences": 198,
   "unscoredQuestionsPreserved": 1,
   "activeAdditionalQuestionRequest": {
     "requestedAdditionalQuestions": 1000,
@@ -27454,12 +27890,12 @@
     "requestedAt": "2026-10-16",
     "scope": "All remaining Years 7–10 Science assessment papers; all question types, source figures, response space and marking guidance",
     "startingImportedQuestions": 1374,
-    "addedQuestions": 758,
+    "addedQuestions": 896,
     "status": "in_progress",
     "completionRule": "Every unique assessment paper reviewed; duplicates mapped and unreadable/protected files explicitly resolved. File-blob count is not a paper denominator.",
     "restoredQuestionsAfterDuplicateFix": 4,
-    "newlyExtractedQuestions": 754,
-    "papersReviewedSinceRequest": 82,
+    "newlyExtractedQuestions": 892,
+    "papersReviewedSinceRequest": 93,
     "canonicalSourceQuestionsReReviewed": 2
   },
   "sourceInventoryExclusions": {
@@ -27469,8 +27905,8 @@
     "note": "These are file metadata records, not papers or questions; excluded from import work without increasing question or paper totals."
   },
   "supportingResourceReview": {
-    "files": 13,
-    "uniqueBlobs": 13,
+    "files": 16,
+    "uniqueBlobs": 16,
     "audit": "question-source-packs/repo-science-supporting-resource-review.json",
     "countedAsPapers": false,
     "countedAsQuestions": false
@@ -27498,7 +27934,7 @@
       "resolution": "Locate the matching class method; do not invent a source procedure."
     }
   ],
-  "reviewedDistinctSourceBlobs": 158,
+  "reviewedDistinctSourceBlobs": 172,
   "inventoryCountBasis": "Remaining unique file blobs counts pending or key-reference-pending identities, including protected inputs; it is not a remaining-paper or remaining-question estimate.",
   "canonicalUniverseReviewRepair": {
     "questionIds": [

@@ -1,0 +1,188 @@
+{
+  "batch": "repo-science-batch53",
+  "paperCount": 4,
+  "questionIds": [
+    "SCI-REPO-Y8-KOL-2021-MATTERCHOICE-R1C1",
+    "SCI-REPO-Y8-KOL-2021-MATTERCHOICE-R1C2",
+    "SCI-REPO-Y8-KOL-2021-MATTERCHOICE-R1C3",
+    "SCI-REPO-Y8-KOL-2021-MATTERCHOICE-R1C4",
+    "SCI-REPO-Y8-KOL-2021-MATTERCHOICE-R1C5",
+    "SCI-REPO-Y8-KOL-2021-MATTERCHOICE-R2C1",
+    "SCI-REPO-Y8-KOL-2021-MATTERCHOICE-R2C2",
+    "SCI-REPO-Y8-KOL-2021-MATTERCHOICE-R2C3",
+    "SCI-REPO-Y8-KOL-2021-MATTERCHOICE-R2C4",
+    "SCI-REPO-Y8-KOL-2021-MATTERCHOICE-R3C1",
+    "SCI-REPO-Y8-KOL-2021-MATTERCHOICE-R3C2",
+    "SCI-REPO-Y8-KOL-2021-MATTERCHOICE-R3C3",
+    "SCI-REPO-Y8-KOL-2021-MATTERCHOICE-R3C4",
+    "SCI-REPO-Y8-KOL-2021-MATTERCHOICE-R3C5",
+    "SCI-REPO-Y8-NAR-2021-ELEMENTRESEARCH-assignment",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-A1",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-A2",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-A3",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-A4",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-A5",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-A6",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-A7",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-A8",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-A9",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-A10",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-A11",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-A12",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-A13",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-A14",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-B1",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-B2",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-B3",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-B4",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-B5",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-B6",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-B7",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-B8",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-B9",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-B10",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-B11",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-B12",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-B13",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-B14",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-B15",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-B16",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-C1",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-C2",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-C3",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-C4",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-C5",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-C6",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-C7",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-C8",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-C9",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-C10",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-C11",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-C12",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-C13",
+    "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-D1"
+  ],
+  "questions": 59,
+  "multipleChoice": 0,
+  "writtenQuestions": 59,
+  "battleEligible": 0,
+  "marks": 141,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y8-KOL-2021-MATTERCHOICE-R2C1",
+      "note": "Source task/rubric has an ambiguity needing teacher moderation."
+    },
+    {
+      "id": "SCI-REPO-Y8-KOL-2021-MATTERCHOICE-R2C2",
+      "note": "Source task/rubric has an ambiguity needing teacher moderation."
+    },
+    {
+      "id": "SCI-REPO-Y8-KOL-2021-MATTERCHOICE-R2C4",
+      "note": "Source task/rubric has an ambiguity needing teacher moderation."
+    },
+    {
+      "id": "SCI-REPO-Y8-KOL-2021-MATTERCHOICE-R3C3",
+      "note": "Source task/rubric has an ambiguity needing teacher moderation."
+    },
+    {
+      "id": "SCI-REPO-Y8-KOL-2021-MATTERCHOICE-R3C4",
+      "note": "Source task/rubric has an ambiguity needing teacher moderation."
+    },
+    {
+      "id": "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-B3",
+      "note": "Source forces a binary classification that needs chemical-species/solution context."
+    },
+    {
+      "id": "SCI-REPO-Y8-NAR-2022-MATTERREVIEW-B6",
+      "note": "Source forces a binary classification that needs chemical-species/solution context."
+    }
+  ],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Kolbe/2021/Task 4_Matter choice board/Task Matter Choice board MK.docx",
+      "sha": "27b0c3b87c4107c4303e0211ea350dab6c096910",
+      "year": 8,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Narrogin/2021/Elements Assignment.docx",
+      "sha": "b23548ca39aa8a6fdf4100a43055c12aa2b2db02",
+      "year": 8,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Narrogin/2022/Elements Assignment.docx",
+      "sha": "26a84cf8c28f2cda9dc3efb62634fce0eb59992f",
+      "year": 8,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Narrogin/2022/Year 8 matter review.docx",
+      "sha": "7c02f59e766a740753f5d7af8a17be27ef591af5",
+      "year": 8,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 59,
+  "createdSupplements": 0,
+  "notes": [
+    "Fifteen choice-board cells reviewed, one repeated state explanation mapped with contradictory phase-transition rubric recorded. Fourteen distinct tasks; do not count student-authored future questions as extracted source questions. Element research versions map to one25-mark project. Matter review includes14 formula-response rows,16 unfinished classification rows,13 definitions and one state diagram; completed ammonia example not counted. Binary carbonate/acid classification and common-product simplifications flagged."
+  ],
+  "markAudit": {
+    "ChoiceBoard": {
+      "cells": 15,
+      "uniqueTasks": 14,
+      "perTaskPerformanceScale": 3,
+      "notAllOptionsCompulsory": true
+    },
+    "ElementResearch": {
+      "2021Total": 25,
+      "2022Total": 25
+    },
+    "MatterReview": {
+      "printedMarks": null,
+      "workedExampleExcluded": "Ammonia NH₃ compound"
+    }
+  },
+  "duplicateQuestionAliases": [
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Kolbe/2021/Task 4_Matter choice board/Task Matter Choice board MK.docx",
+      "sourceFileSha": "27b0c3b87c4107c4303e0211ea350dab6c096910",
+      "sourceQuestionNumber": "R2C5",
+      "sourceParagraphs": [
+        11
+      ],
+      "existingQuestionId": "SCI-REPO-Y8-KOL-2021-MATTERCHOICE-R1C5",
+      "reason": "Exact repeated four-states explanation prompt. Row2 rubric instead discusses phase transitions, a source mismatch; the repeated prompt is not a new question.",
+      "sourceRubricVariant": [
+        "Names the transitions through the states of matter.",
+        "Describes in simple terms the transition through the states. Diagram to support.",
+        "Description of the transition through the states refers to energy and movement of the particles and how this relates to the properties of each state. Diagram supports written description."
+      ],
+      "sourceReviewRequired": true
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Narrogin/2022/Elements Assignment.docx",
+      "sourceFileSha": "26a84cf8c28f2cda9dc3efb62634fce0eb59992f",
+      "sourceQuestionNumber": "assignment",
+      "existingQuestionId": "SCI-REPO-Y8-NAR-2021-ELEMENTRESEARCH-assignment",
+      "sourceParagraphs": [
+        1,
+        6,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        19,
+        38
+      ],
+      "reason": "Same element-research prompts, presentation requirements and25-mark rubric; not recounted."
+    }
+  ]
+}

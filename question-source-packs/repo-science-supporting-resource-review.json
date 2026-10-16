@@ -500,6 +500,122 @@
           "Evaluation"
         ]
       ]
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Safety bay/2017/rocket flight- principle.docx",
+      "sha": "9694a2115cdcea6e147abffbcd0572ba331984b9",
+      "status": "reviewed_supporting_resource",
+      "reason": "Single explanatory paragraph about rocket flight; no student prompt or response task.",
+      "sourceBodyText": [
+        [
+          0,
+          "In rocket flight, forces become balanced and unbalanced all the time. A rocket on the launch pad is balanced. The surface of the pad pushes the rocket up while gravity tries to pull it down. As the engines are ignited, the thrust from the rocket unbalances the forces, and the rocket travels upward. Later, when the rocket runs out of fuel, it slows down, stops at the highest point of its flight, then falls back to Earth."
+        ]
+      ]
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Biological Sciences/Aranmore/RESULTS FOR HEART RATE.docx",
+      "sha": "f65a659e5b82a2b8f5733a4cf61777368751ab59",
+      "status": "reviewed_supporting_resource",
+      "reason": "Blank resting/exercise/recovery results-recording templates without a specified research question or experiment; supporting data sheet, not a separate assessment.",
+      "sourceBodyText": [
+        [
+          0,
+          "TIME MinsRestingExercisingRecovery"
+        ],
+        [
+          1,
+          "RESULTS SHEET GROUP ____________________________________________________________________________________________________________________________________________________________________"
+        ],
+        [
+          2,
+          "Trial 1"
+        ],
+        [
+          4,
+          "Trial 2"
+        ],
+        [
+          5,
+          "TIME minsRestingExercisingRecovery"
+        ],
+        [
+          7,
+          "Trial 3"
+        ],
+        [
+          8,
+          "TIME minsRestingExercisingRecovery"
+        ],
+        [
+          10,
+          "Record Breathing Rate for trial"
+        ],
+        [
+          11,
+          "Resting    Exercising   Recovery"
+        ]
+      ]
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Narrogin/2018/Formulae list.docx",
+      "sha": "0b09564a6d6b6310f02ff916eeeb6792f81ae924",
+      "status": "reviewed_supporting_resource",
+      "reason": "Reference list of supplied chemical names/formulae/uses only; no questions or blank responses.",
+      "sourceBodyText": [
+        [
+          0,
+          "Formulae/ common names of common substances:"
+        ],
+        [
+          2,
+          "Sulfuric acid – H2SO4 Uses: Car batteries - electrolyte"
+        ],
+        [
+          3,
+          "Hydrochloric acid – HCl Uses: Cleaner"
+        ],
+        [
+          4,
+          "Ammonia – NH3  Uses: Explosives, fertilisers and cleaners"
+        ],
+        [
+          5,
+          "Sodium chloride – NaCl Uses: salt for consumption"
+        ],
+        [
+          6,
+          "Sodium hydrogen carbonate – NaHCO3 Uses: Bicarb - baking"
+        ],
+        [
+          7,
+          "Carbon dioxide – CO2 Uses: Mig welding, drink carbonation"
+        ],
+        [
+          8,
+          "Sucrose – C12H22O11 Uses: natural sweetener"
+        ],
+        [
+          9,
+          "Ethanoic acid – CH3COOH Uses: in vinegar"
+        ],
+        [
+          10,
+          "Silicon dioxide – SiO2 Uses: Glass manufacturing"
+        ],
+        [
+          11,
+          "Octane – C8H18  Uses: Internal combustion engines"
+        ],
+        [
+          12,
+          "Methane – CH4  Uses: Natural gas for heating and cooking"
+        ],
+        [
+          13,
+          "Calcium carbonate – CaCO3 Uses: Limestone"
+        ]
+      ]
     }
   ]
 }
