@@ -1015,6 +1015,16 @@
       "path": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Unknown/Persuasive Essay Rubric.docx",
       "sha": "7ccf3a8ba302c0fe1ae6b7bd4babd381b3b44032",
       "reason": "Generic persuasive-essay rubric;no science topic,question or student content task supplied."
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/Bacteria Investigation- Teacher information sheet.docx",
+      "sha": "9476acf93b55049480b6e321cffd96efbdbbd8b5",
+      "reason": "Teacher equipment/group allocation and presentation notes only;no new student questions."
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/GROWING BACTERIA INVESTIGATION ( Class instruction).docx",
+      "sha": "cec6a4dca6722e99d150724b6400f509ff39b8a7",
+      "reason": "Teacher class-management instructions only;no student questions or marking allocations."
     }
   ]
 }

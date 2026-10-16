@@ -1,0 +1,97 @@
+{
+  "batch": "repo-science-batch86",
+  "paperCount": 2,
+  "questionIds": [
+    "SCI-REPO-Y9-SBY-2018-HUMANBIOREV-cerebrum",
+    "SCI-REPO-Y9-SBY-2018-HUMANBIOREV-cerebellum",
+    "SCI-REPO-Y9-SBY-2018-HUMANBIOREV-medulla",
+    "SCI-REPO-Y9-SBY-2018-HUMANBIOREV-PNS",
+    "SCI-REPO-Y9-SBY-2018-HUMANBIOREV-ANS",
+    "SCI-REPO-Y9-SBY-2018-HUMANBIOREV-CNS",
+    "SCI-REPO-Y9-SBY-2018-HUMANBIOREV-effectors",
+    "SCI-REPO-Y9-SBY-2018-HUMANBIOREV-grey",
+    "SCI-REPO-Y9-SBY-2018-HUMANBIOREV-white",
+    "SCI-REPO-Y9-NARR-2022-BRAINLABELS-lateral",
+    "SCI-REPO-Y9-NARR-2022-BRAINLABELS-section"
+  ],
+  "questions": 11,
+  "multipleChoice": 0,
+  "writtenQuestions": 11,
+  "battleEligible": 0,
+  "marks": 38,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y9-SBY-2018-HUMANBIOREV-PNS",
+      "note": "All marks proposed:source unmarked. Classification basis not specified."
+    },
+    {
+      "id": "SCI-REPO-Y9-NARR-2022-BRAINLABELS-lateral",
+      "note": "Original blank diagrams preserved. Proposed1mark per visible blank;the exact line-to-structure key remains unresolved."
+    },
+    {
+      "id": "SCI-REPO-Y9-NARR-2022-BRAINLABELS-section",
+      "note": "Original blank diagrams preserved. Proposed1mark per visible blank;the exact line-to-structure key remains unresolved."
+    }
+  ],
+  "imageAudit": [
+    {
+      "id": "e253-image1",
+      "source": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/Revision questions on Human Biology.docx",
+      "embeddedImage": "word/media/image1.jpeg",
+      "sha256": "a2505d9541802862ce9f4ee33849292ab40b1563be462facf408793fb2749b48",
+      "publishedSha256": "a1e426d95e1fd12ce32fd70fb6ebb399d06ed4a5690f545762bdf486d6f19d90",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e246-image1",
+      "source": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Narrogin/2022/Biology1 Resources/Human Brain.docx",
+      "embeddedImage": "word/media/image1.gif",
+      "sha256": "047aa7cde40828a176e559bd0438ef26978cc62ace3e6b2fd943f9d2111eac5e",
+      "publishedSha256": "78eec68e25bec4b498a844f9cbfd227fbb509c372e8a8ff26ab43fc9e8e3c41e",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e246-image2",
+      "source": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Narrogin/2022/Biology1 Resources/Human Brain.docx",
+      "embeddedImage": "word/media/image2.jpeg",
+      "sha256": "93af23da74f3f87a8cafab08731931f94cac1dc9960ca4d38ff52d7a612cdd4b",
+      "publishedSha256": "af6413fc0ee0443b91f1e44c8416a0fcc16d266d58018e0b92615e9518c0df25",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/Revision questions on Human Biology.docx",
+      "sha": "b0131efe8f6b7c760818dc79df73eab264925576",
+      "year": 9,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Narrogin/2022/Biology1 Resources/Human Brain.docx",
+      "sha": "a967c79c943c962d40759c70a2c373ec3024153e",
+      "year": 9,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 11,
+  "createdSupplements": 0,
+  "notes": [
+    "Full9prompt nervous-system revision and2blank brain-labelling diagrams reviewed. Source figures preserved;all marks proposed. PNSclassification basis and ambiguous brain leader-lines flagged rather than answered by guesswork."
+  ],
+  "markAudit": {
+    "revision": "Unmarked;proposed allocations",
+    "brainLabelDiagrams": [
+      10,
+      12
+    ],
+    "brainExactKeyStatus": "Teacher review required"
+  },
+  "duplicateQuestionAliases": []
+}

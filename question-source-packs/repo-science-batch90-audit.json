@@ -1,0 +1,49 @@
+{
+  "batch": "repo-science-batch90",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y9-SBY-2018-ECOSYSTEMKEY-1a",
+    "SCI-REPO-Y9-SBY-2018-ECOSYSTEMKEY-1b",
+    "SCI-REPO-Y9-SBY-2018-ECOSYSTEMKEY-1c",
+    "SCI-REPO-Y9-SBY-2018-ECOSYSTEMKEY-1d",
+    "SCI-REPO-Y9-SBY-2018-ECOSYSTEMKEY-1e",
+    "SCI-REPO-Y9-SBY-2018-ECOSYSTEMKEY-1f",
+    "SCI-REPO-Y9-SBY-2018-ECOSYSTEMKEY-2"
+  ],
+  "questions": 7,
+  "multipleChoice": 0,
+  "writtenQuestions": 7,
+  "battleEligible": 0,
+  "marks": 35,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y9-SBY-2018-ECOSYSTEMKEY-1c",
+      "note": "Referenced original foodweb/diagram is not supplied by this key."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2018-ECOSYSTEMKEY-2",
+      "note": "Referenced original foodweb/diagram is not supplied by this key."
+    }
+  ],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/Marking Key - Year 9 Ecosystems 2017.docx",
+      "sha": "1a73588e4cf97cdd778c70e82d44922c0c843188",
+      "year": 9,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 0,
+  "createdSupplements": 7,
+  "notes": [
+    "Seven explicit written prompts recovered from sourcekey;35written marks retained. MCanswerletters alone are not questions and were not imported. Referenced foodwebs absent;sourcepredictions and matter-conservation simplifications corrected in manual guidance."
+  ],
+  "markAudit": {
+    "written": 35,
+    "multipleChoice": "Unrecoverable:answerpatterns only,no stems",
+    "missingReferencedDiagrams": true
+  },
+  "duplicateQuestionAliases": []
+}

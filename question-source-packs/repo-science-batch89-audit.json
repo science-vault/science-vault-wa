@@ -1,0 +1,229 @@
+{
+  "batch": "repo-science-batch89",
+  "paperCount": 3,
+  "questionIds": [
+    "SCI-REPO-Y9-SBY-2018-HANDCLEAN-249-materials",
+    "SCI-REPO-Y9-SBY-2018-HANDCLEAN-249-method",
+    "SCI-REPO-Y9-SBY-2018-HANDCLEAN-249-results",
+    "SCI-REPO-Y9-SBY-2018-HANDCLEAN-249-discussion",
+    "SCI-REPO-Y9-SBY-2018-HANDCLEAN-249-conclusion",
+    "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-aim",
+    "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-independent",
+    "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-dependent",
+    "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-controls",
+    "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-hypothesis",
+    "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-abiotic-table",
+    "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-growth-observations",
+    "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-graph",
+    "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-discussion"
+  ],
+  "questions": 14,
+  "multipleChoice": 0,
+  "writtenQuestions": 14,
+  "battleEligible": 0,
+  "marks": 49,
+  "reviewRequired": [],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/GROWING BACTERIA INVESTIGATION revised 2018.docx",
+      "sha": "b3c626879c0850ba4d1c56b1d0686a31bc79d793",
+      "year": 9,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/GROWING BACTERIA INVESTIGATION.docx",
+      "sha": "415273b2543f14d0fd445b645cb2684888aedbd4",
+      "year": 9,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/Investigation - Plant growth NEW.docx",
+      "sha": "6ee5c54ffad5c36d7b098916cee3157dc974b5c9",
+      "year": 9,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 14,
+  "createdSupplements": 0,
+  "notes": [
+    "Twohand-cleaning report variants reviewed;shared tasks manually mapped to batch59canonical records with sourceMarks retained. Revised27rubric:25task+2presentation;older15rubric:13task+2presentation,unmarked variables planner alias separately proposed. Complete35markplant-growth task retained with fractional presentation marks in data rubric."
+  ],
+  "markAudit": {
+    "bacteriaRevised": {
+      "cover": 27,
+      "task": 25,
+      "presentation": 2
+    },
+    "bacteriaOlder": {
+      "cover": 15,
+      "task": 13,
+      "presentation": 2,
+      "variablesPlannerUnmarked": true
+    },
+    "plants": 35
+  },
+  "duplicateQuestionAliases": [
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/GROWING BACTERIA INVESTIGATION revised 2018.docx",
+      "sourceFileSha": "b3c626879c0850ba4d1c56b1d0686a31bc79d793",
+      "sourceQuestionNumber": "background",
+      "sourceParagraphs": [
+        20,
+        25,
+        27
+      ],
+      "sourceMarks": 4,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-background",
+      "reason": "Manually reviewed equivalent investigation task;source rubric variant retained without another question count. "
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/GROWING BACTERIA INVESTIGATION revised 2018.docx",
+      "sourceFileSha": "b3c626879c0850ba4d1c56b1d0686a31bc79d793",
+      "sourceQuestionNumber": "aim",
+      "sourceParagraphs": [
+        20,
+        25,
+        27
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-aim",
+      "reason": "Manually reviewed equivalent investigation task;source rubric variant retained without another question count. "
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/GROWING BACTERIA INVESTIGATION revised 2018.docx",
+      "sourceFileSha": "b3c626879c0850ba4d1c56b1d0686a31bc79d793",
+      "sourceQuestionNumber": "hypothesis",
+      "sourceParagraphs": [
+        20,
+        25,
+        27
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-hypothesis",
+      "reason": "Manually reviewed equivalent investigation task;source rubric variant retained without another question count. "
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/GROWING BACTERIA INVESTIGATION revised 2018.docx",
+      "sourceFileSha": "b3c626879c0850ba4d1c56b1d0686a31bc79d793",
+      "sourceQuestionNumber": "diagram",
+      "sourceParagraphs": [
+        20,
+        25,
+        27
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-diagram",
+      "reason": "Manually reviewed equivalent investigation task;source rubric variant retained without another question count. "
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/GROWING BACTERIA INVESTIGATION revised 2018.docx",
+      "sourceFileSha": "b3c626879c0850ba4d1c56b1d0686a31bc79d793",
+      "sourceQuestionNumber": "variables",
+      "sourceParagraphs": [
+        25
+      ],
+      "sourceMarks": 3,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-variables",
+      "reason": "Manually reviewed equivalent investigation task;source rubric variant retained without another question count. The2018expanded rubric explicitly scores3variables;older unmarked planner has proposed3."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/GROWING BACTERIA INVESTIGATION.docx",
+      "sourceFileSha": "415273b2543f14d0fd445b645cb2684888aedbd4",
+      "sourceQuestionNumber": "background",
+      "sourceParagraphs": [
+        20,
+        23,
+        30
+      ],
+      "sourceMarks": 4,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-background",
+      "reason": "Manually reviewed equivalent investigation task;source rubric variant retained without another question count. "
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/GROWING BACTERIA INVESTIGATION.docx",
+      "sourceFileSha": "415273b2543f14d0fd445b645cb2684888aedbd4",
+      "sourceQuestionNumber": "aim",
+      "sourceParagraphs": [
+        20,
+        23,
+        30
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-aim",
+      "reason": "Manually reviewed equivalent investigation task;source rubric variant retained without another question count. "
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/GROWING BACTERIA INVESTIGATION.docx",
+      "sourceFileSha": "415273b2543f14d0fd445b645cb2684888aedbd4",
+      "sourceQuestionNumber": "hypothesis",
+      "sourceParagraphs": [
+        20,
+        23,
+        30
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-hypothesis",
+      "reason": "Manually reviewed equivalent investigation task;source rubric variant retained without another question count. "
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/GROWING BACTERIA INVESTIGATION.docx",
+      "sourceFileSha": "415273b2543f14d0fd445b645cb2684888aedbd4",
+      "sourceQuestionNumber": "diagram",
+      "sourceParagraphs": [
+        20,
+        23,
+        30
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-diagram",
+      "reason": "Manually reviewed equivalent investigation task;source rubric variant retained without another question count. "
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/GROWING BACTERIA INVESTIGATION.docx",
+      "sourceFileSha": "415273b2543f14d0fd445b645cb2684888aedbd4",
+      "sourceQuestionNumber": "variables",
+      "sourceParagraphs": [
+        23
+      ],
+      "sourceMarks": 3,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-variables",
+      "reason": "Manually reviewed equivalent investigation task;source rubric variant retained without another question count. The2018expanded rubric explicitly scores3variables;older unmarked planner has proposed3."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/GROWING BACTERIA INVESTIGATION.docx",
+      "sourceFileSha": "415273b2543f14d0fd445b645cb2684888aedbd4",
+      "sourceQuestionNumber": "results",
+      "sourceParagraphs": [
+        30
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-results",
+      "reason": "Manually reviewed equivalent investigation task;source rubric variant retained without another question count. Source2mark result comparison versus canonical4mark variant."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/GROWING BACTERIA INVESTIGATION.docx",
+      "sourceFileSha": "415273b2543f14d0fd445b645cb2684888aedbd4",
+      "sourceQuestionNumber": "conclusion",
+      "sourceParagraphs": [
+        30
+      ],
+      "sourceMarks": 4,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-conclusion",
+      "reason": "Manually reviewed equivalent investigation task;source rubric variant retained without another question count. Same missing How to write a lab report reference;not reconstructed."
+    }
+  ]
+}

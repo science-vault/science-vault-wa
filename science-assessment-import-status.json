@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.16-science-source85",
+  "version": "2026.10.16-science-source90",
   "status": "in_progress",
   "scope": "Original Science assessment files in repository, Years 7–10. File counts include keys and supporting materials; they are not question counts.",
   "inventoryFiles": 2009,
@@ -11,10 +11,10 @@
     "9": 457,
     "10": 582
   },
-  "importedPapers": 218,
-  "importedQuestions": 3025,
+  "importedPapers": 226,
+  "importedQuestions": 3072,
   "multipleChoice": 793,
-  "writtenQuestions": 2232,
+  "writtenQuestions": 2279,
   "battleEligibleQuestions": 690,
   "reviewRequired": [
     {
@@ -1552,6 +1552,30 @@
     {
       "id": "SCI-REPO-Y8-ARAN-HOMEEFFICIENCY-houselabels",
       "note": "House picture must accompany this diagram task."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2018-HUMANBIOREV-PNS",
+      "note": "All marks proposed:source unmarked. Classification basis not specified."
+    },
+    {
+      "id": "SCI-REPO-Y9-NARR-2022-BRAINLABELS-lateral",
+      "note": "Original blank diagrams preserved. Proposed1mark per visible blank;the exact line-to-structure key remains unresolved."
+    },
+    {
+      "id": "SCI-REPO-Y9-NARR-2022-BRAINLABELS-section",
+      "note": "Original blank diagrams preserved. Proposed1mark per visible blank;the exact line-to-structure key remains unresolved."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-timeline",
+      "note": "Textbookpages8–9and activity-bookpage5not supplied;exact intended milestone set unresolved."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2018-ECOSYSTEMKEY-1c",
+      "note": "Referenced original foodweb/diagram is not supplied by this key."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2018-ECOSYSTEMKEY-2",
+      "note": "Referenced original foodweb/diagram is not supplied by this key."
     },
     {
       "id": "SCI-REPO-Y10-NAR-2024-UNIVERSE-MC02",
@@ -15988,6 +16012,621 @@
         "total": 36
       },
       "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch86",
+      "questionIds": [
+        "SCI-REPO-Y9-SBY-2018-HUMANBIOREV-cerebrum",
+        "SCI-REPO-Y9-SBY-2018-HUMANBIOREV-cerebellum",
+        "SCI-REPO-Y9-SBY-2018-HUMANBIOREV-medulla",
+        "SCI-REPO-Y9-SBY-2018-HUMANBIOREV-PNS",
+        "SCI-REPO-Y9-SBY-2018-HUMANBIOREV-ANS",
+        "SCI-REPO-Y9-SBY-2018-HUMANBIOREV-CNS",
+        "SCI-REPO-Y9-SBY-2018-HUMANBIOREV-effectors",
+        "SCI-REPO-Y9-SBY-2018-HUMANBIOREV-grey",
+        "SCI-REPO-Y9-SBY-2018-HUMANBIOREV-white",
+        "SCI-REPO-Y9-NARR-2022-BRAINLABELS-lateral",
+        "SCI-REPO-Y9-NARR-2022-BRAINLABELS-section"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/Revision questions on Human Biology.docx",
+          "sha": "b0131efe8f6b7c760818dc79df73eab264925576",
+          "year": 9,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Narrogin/2022/Biology1 Resources/Human Brain.docx",
+          "sha": "a967c79c943c962d40759c70a2c373ec3024153e",
+          "year": 9,
+          "role": "paper"
+        }
+      ],
+      "questions": 11,
+      "marks": 38,
+      "imageAudit": "question-source-packs/repo-science-batch86-audit.json",
+      "notes": [
+        "Full9prompt nervous-system revision and2blank brain-labelling diagrams reviewed. Source figures preserved;all marks proposed. PNSclassification basis and ambiguous brain leader-lines flagged rather than answered by guesswork."
+      ],
+      "markAudit": {
+        "revision": "Unmarked;proposed allocations",
+        "brainLabelDiagrams": [
+          10,
+          12
+        ],
+        "brainExactKeyStatus": "Teacher review required"
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch87",
+      "questionIds": [],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Aranmore/2014 9 SCIENCE BIOLOGY ASSIGNMENT NERVES.docx",
+          "sha": "4c8bf491a34db3e3fec145731492d3ad7a8e9516",
+          "year": 9,
+          "role": "paper"
+        }
+      ],
+      "questions": 0,
+      "marks": 0,
+      "imageAudit": "question-source-packs/repo-science-batch87-audit.json",
+      "notes": [
+        "Complete44-mark touch assignment reviewed:42task marks plus2presentation. Historicalpinprick and literal receptor-spacing inference corrected;ambiguous two-group classification flagged. Materials half-marks preserved;results not fabricated."
+      ],
+      "markAudit": {
+        "cover": 44,
+        "taskMarks": 42,
+        "presentationOnly": 2
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Aranmore/2014 9 SCIENCE BIOLOGY ASSIGNMENT NERVES.docx",
+          "sourceFileSha": "4c8bf491a34db3e3fec145731492d3ad7a8e9516",
+          "sourceQuestionNumber": "research1",
+          "sourceParagraphs": [
+            50,
+            51
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-TOUCH-I1",
+          "reason": "Manually reviewed same full touch investigation as batch57;44mark source omits the separate1mark aim compared with45mark variant. Original source marks and marking supplement retained.",
+          "markingGuidance": "Sensory structures responding to mechanical skin stimulation1;transduce stimuli into neural signalling1."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Aranmore/2014 9 SCIENCE BIOLOGY ASSIGNMENT NERVES.docx",
+          "sourceFileSha": "4c8bf491a34db3e3fec145731492d3ad7a8e9516",
+          "sourceQuestionNumber": "research2",
+          "sourceParagraphs": [
+            64
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-TOUCH-I2",
+          "reason": "Manually reviewed same full touch investigation as batch57;44mark source omits the separate1mark aim compared with45mark variant. Original source marks and marking supplement retained.",
+          "markingGuidance": "Appropriate area,e.g.fingertips1;small receptive fields/high innervation and substantial neural processing support fine discrimination1. Sensitivity is not solely receptor count."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Aranmore/2014 9 SCIENCE BIOLOGY ASSIGNMENT NERVES.docx",
+          "sourceFileSha": "4c8bf491a34db3e3fec145731492d3ad7a8e9516",
+          "sourceQuestionNumber": "research3",
+          "sourceParagraphs": [
+            81
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-TOUCH-I3",
+          "reason": "Manually reviewed same full touch investigation as batch57;44mark source omits the separate1mark aim compared with45mark variant. Original source marks and marking supplement retained.",
+          "markingGuidance": "Appropriate comparison,e.g.upper back1;larger receptive fields/lower spatial resolution than fingertips1."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Aranmore/2014 9 SCIENCE BIOLOGY ASSIGNMENT NERVES.docx",
+          "sourceFileSha": "4c8bf491a34db3e3fec145731492d3ad7a8e9516",
+          "sourceQuestionNumber": "research4",
+          "sourceParagraphs": [
+            101
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-TOUCH-I4",
+          "reason": "Manually reviewed same full touch investigation as batch57;44mark source omits the separate1mark aim compared with45mark variant. Original source marks and marking supplement retained.",
+          "markingGuidance": "Examples:light contact,pressure,skin stretch,vibration. Full2for3appropriate mechanical stimuli,partial1for2. Temperature/pain involve other somatosensory receptor classes,not automatically touch mechanoreceptors."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Aranmore/2014 9 SCIENCE BIOLOGY ASSIGNMENT NERVES.docx",
+          "sourceFileSha": "4c8bf491a34db3e3fec145731492d3ad7a8e9516",
+          "sourceQuestionNumber": "research5",
+          "sourceParagraphs": [
+            108
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-TOUCH-I5",
+          "reason": "Manually reviewed same full touch investigation as batch57;44mark source omits the separate1mark aim compared with45mark variant. Original source marks and marking supplement retained.",
+          "markingGuidance": "Question is underspecified:cutaneous mechanoreceptors have more than two recognised classes. If course means rapidly versus slowly adapting,explain changing/vibratory versus sustained contact;otherwise teacher supplies intended classification. Do not enforce an invented universal two-group scheme."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Aranmore/2014 9 SCIENCE BIOLOGY ASSIGNMENT NERVES.docx",
+          "sourceFileSha": "4c8bf491a34db3e3fec145731492d3ad7a8e9516",
+          "sourceQuestionNumber": "references",
+          "sourceParagraphs": [
+            120,
+            439
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-TOUCH-references",
+          "reason": "Manually reviewed same full touch investigation as batch57;44mark source omits the separate1mark aim compared with45mark variant. Original source marks and marking supplement retained.",
+          "markingGuidance": "Minimum2references1;minimum2source types1;correct required format1."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Aranmore/2014 9 SCIENCE BIOLOGY ASSIGNMENT NERVES.docx",
+          "sourceFileSha": "4c8bf491a34db3e3fec145731492d3ad7a8e9516",
+          "sourceQuestionNumber": "title",
+          "sourceParagraphs": [
+            160
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-TOUCH-planning",
+          "reason": "Manually reviewed same full touch investigation as batch57;44mark source omits the separate1mark aim compared with45mark variant. Original source marks and marking supplement retained.",
+          "markingGuidance": "Title identifies touch sensitivity/body-area comparison."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Aranmore/2014 9 SCIENCE BIOLOGY ASSIGNMENT NERVES.docx",
+          "sourceFileSha": "4c8bf491a34db3e3fec145731492d3ad7a8e9516",
+          "sourceQuestionNumber": "materials",
+          "sourceParagraphs": [
+            179
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-TOUCH-materials",
+          "reason": "Manually reviewed same full touch investigation as batch57;44mark source omits the separate1mark aim compared with45mark variant. Original source marks and marking supplement retained.",
+          "markingGuidance": "All actual materials0.5;specific quantities0.5,using approved non-injurious method."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Aranmore/2014 9 SCIENCE BIOLOGY ASSIGNMENT NERVES.docx",
+          "sourceFileSha": "4c8bf491a34db3e3fec145731492d3ad7a8e9516",
+          "sourceQuestionNumber": "hypothesis",
+          "sourceParagraphs": [
+            166
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-TOUCH-hypothesis",
+          "reason": "Manually reviewed same full touch investigation as batch57;44mark source omits the separate1mark aim compared with45mark variant. Original source marks and marking supplement retained.",
+          "markingGuidance": "Clear prediction linking actual variables1;objective wording1."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Aranmore/2014 9 SCIENCE BIOLOGY ASSIGNMENT NERVES.docx",
+          "sourceFileSha": "4c8bf491a34db3e3fec145731492d3ad7a8e9516",
+          "sourceQuestionNumber": "independent",
+          "sourceParagraphs": [
+            186
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-TOUCH-independent",
+          "reason": "Manually reviewed same full touch investigation as batch57;44mark source omits the separate1mark aim compared with45mark variant. Original source marks and marking supplement retained.",
+          "markingGuidance": "Skin/body area tested,or the actual controlled comparison used."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Aranmore/2014 9 SCIENCE BIOLOGY ASSIGNMENT NERVES.docx",
+          "sourceFileSha": "4c8bf491a34db3e3fec145731492d3ad7a8e9516",
+          "sourceQuestionNumber": "dependent",
+          "sourceParagraphs": [
+            191
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-TOUCH-dependent",
+          "reason": "Manually reviewed same full touch investigation as batch57;44mark source omits the separate1mark aim compared with45mark variant. Original source marks and marking supplement retained.",
+          "markingGuidance": "Operationally defined touch-discrimination threshold or proportion correctly detecting2points under specified conditions."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Aranmore/2014 9 SCIENCE BIOLOGY ASSIGNMENT NERVES.docx",
+          "sourceFileSha": "4c8bf491a34db3e3fec145731492d3ad7a8e9516",
+          "sourceQuestionNumber": "controls",
+          "sourceParagraphs": [
+            196
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-TOUCH-controls",
+          "reason": "Manually reviewed same full touch investigation as batch57;44mark source omits the separate1mark aim compared with45mark variant. Original source marks and marking supplement retained.",
+          "markingGuidance": "Two relevant controls1each,e.g.contact force/duration,tip characteristics,randomised testing,vision occluded and consistent response criteria."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Aranmore/2014 9 SCIENCE BIOLOGY ASSIGNMENT NERVES.docx",
+          "sourceFileSha": "4c8bf491a34db3e3fec145731492d3ad7a8e9516",
+          "sourceQuestionNumber": "method",
+          "sourceParagraphs": [
+            215
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-TOUCH-method",
+          "reason": "Manually reviewed same full touch investigation as batch57;44mark source omits the separate1mark aim compared with45mark variant. Original source marks and marking supplement retained.",
+          "markingGuidance": "Past tense1;numbered sequence1;complete accurate method1. Use teacher-approved non-injurious stimuli;the original receptor-spacing inference is not scientifically warranted."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Aranmore/2014 9 SCIENCE BIOLOGY ASSIGNMENT NERVES.docx",
+          "sourceFileSha": "4c8bf491a34db3e3fec145731492d3ad7a8e9516",
+          "sourceQuestionNumber": "table",
+          "sourceParagraphs": [
+            259
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-TOUCH-results",
+          "reason": "Manually reviewed same full touch investigation as batch57;44mark source omits the separate1mark aim compared with45mark variant. Original source marks and marking supplement retained.",
+          "markingGuidance": "Neat ruled table1;correct headings/units1;all collected data1."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Aranmore/2014 9 SCIENCE BIOLOGY ASSIGNMENT NERVES.docx",
+          "sourceFileSha": "4c8bf491a34db3e3fec145731492d3ad7a8e9516",
+          "sourceQuestionNumber": "graph",
+          "sourceParagraphs": [
+            323
+          ],
+          "sourceMarks": 5,
+          "sourceType": "Diagram",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-TOUCH-graph",
+          "reason": "Manually reviewed same full touch investigation as batch57;44mark source omits the separate1mark aim compared with45mark variant. Original source marks and marking supplement retained.",
+          "markingGuidance": "Appropriate title1;body-area categories1;outcome axis/units1;appropriate scale1;correct actual means and plotted data1."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Aranmore/2014 9 SCIENCE BIOLOGY ASSIGNMENT NERVES.docx",
+          "sourceFileSha": "4c8bf491a34db3e3fec145731492d3ad7a8e9516",
+          "sourceQuestionNumber": "discussion",
+          "sourceParagraphs": [
+            326
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-TOUCH-discussion",
+          "reason": "Manually reviewed same full touch investigation as batch57;44mark source omits the separate1mark aim compared with45mark variant. Original source marks and marking supplement retained.",
+          "markingGuidance": "Relevant error1;explained effect1;targeted improvement1."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Aranmore/2014 9 SCIENCE BIOLOGY ASSIGNMENT NERVES.docx",
+          "sourceFileSha": "4c8bf491a34db3e3fec145731492d3ad7a8e9516",
+          "sourceQuestionNumber": "greatest",
+          "sourceParagraphs": [
+            365
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-TOUCH-highest",
+          "reason": "Manually reviewed same full touch investigation as batch57;44mark source omits the separate1mark aim compared with45mark variant. Original source marks and marking supplement retained.",
+          "markingGuidance": "Actual area with lowest reliable two-point threshold under the chosen measure;not a unique inferred receptor concentration."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Aranmore/2014 9 SCIENCE BIOLOGY ASSIGNMENT NERVES.docx",
+          "sourceFileSha": "4c8bf491a34db3e3fec145731492d3ad7a8e9516",
+          "sourceQuestionNumber": "lowest",
+          "sourceParagraphs": [
+            371
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-TOUCH-lowest",
+          "reason": "Manually reviewed same full touch investigation as batch57;44mark source omits the separate1mark aim compared with45mark variant. Original source marks and marking supplement retained.",
+          "markingGuidance": "Actual area with highest reliable discrimination threshold under the chosen measure."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Aranmore/2014 9 SCIENCE BIOLOGY ASSIGNMENT NERVES.docx",
+          "sourceFileSha": "4c8bf491a34db3e3fec145731492d3ad7a8e9516",
+          "sourceQuestionNumber": "conclusion",
+          "sourceParagraphs": [
+            376,
+            377,
+            378
+          ],
+          "sourceMarks": 5,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-ARAN-2014-TOUCH-conclusion",
+          "reason": "Manually reviewed same full touch investigation as batch57;44mark source omits the separate1mark aim compared with45mark variant. Original source marks and marking supplement retained.",
+          "markingGuidance": "Finding1;hypothesis comparison1;reasoned scientific explanation3. Use “supported/not supported”,not proven/disproven by a small class experiment;do not convert threshold directly into exact receptor spacing."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch88",
+      "questionIds": [
+        "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-timeline",
+        "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-birthdate",
+        "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-birthplace",
+        "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-death",
+        "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-earlylife",
+        "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-education",
+        "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-worldhistory",
+        "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-model",
+        "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-diagram",
+        "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-awards",
+        "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-otherjobs",
+        "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-contributions",
+        "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-fact",
+        "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-notes",
+        "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-references"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Aranmore/9 SCIENCE CHEMISTRY ASSIGNMENT HISTORY OF THE ATOMIC MODEL 2014.docx",
+          "sha": "486599806522e1b3a3f86d058ffc9f2e0aa35c87",
+          "year": 9,
+          "role": "paper"
+        }
+      ],
+      "questions": 15,
+      "marks": 36,
+      "imageAudit": "question-source-packs/repo-science-batch88-audit.json",
+      "notes": [
+        "Complete40-mark assignment reviewed:35task marks plus5presentation. Extra education prompt has no source allocation and receives separately labelled proposed1mark (not part of40). Named-scientist research uses verifiable biography criteria;no invented model/quote attributed. Missing textbook timeline list recorded."
+      ],
+      "markAudit": {
+        "cover": 40,
+        "sourceTaskMarks": 35,
+        "presentationOnly": 5,
+        "educationProposedAdditional": 1
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch89",
+      "questionIds": [
+        "SCI-REPO-Y9-SBY-2018-HANDCLEAN-249-materials",
+        "SCI-REPO-Y9-SBY-2018-HANDCLEAN-249-method",
+        "SCI-REPO-Y9-SBY-2018-HANDCLEAN-249-results",
+        "SCI-REPO-Y9-SBY-2018-HANDCLEAN-249-discussion",
+        "SCI-REPO-Y9-SBY-2018-HANDCLEAN-249-conclusion",
+        "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-aim",
+        "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-independent",
+        "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-dependent",
+        "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-controls",
+        "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-hypothesis",
+        "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-abiotic-table",
+        "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-growth-observations",
+        "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-graph",
+        "SCI-REPO-Y9-SBY-2018-ABIOTICPLANTS-discussion"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/GROWING BACTERIA INVESTIGATION revised 2018.docx",
+          "sha": "b3c626879c0850ba4d1c56b1d0686a31bc79d793",
+          "year": 9,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/GROWING BACTERIA INVESTIGATION.docx",
+          "sha": "415273b2543f14d0fd445b645cb2684888aedbd4",
+          "year": 9,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/Investigation - Plant growth NEW.docx",
+          "sha": "6ee5c54ffad5c36d7b098916cee3157dc974b5c9",
+          "year": 9,
+          "role": "paper"
+        }
+      ],
+      "questions": 14,
+      "marks": 49,
+      "imageAudit": "question-source-packs/repo-science-batch89-audit.json",
+      "notes": [
+        "Twohand-cleaning report variants reviewed;shared tasks manually mapped to batch59canonical records with sourceMarks retained. Revised27rubric:25task+2presentation;older15rubric:13task+2presentation,unmarked variables planner alias separately proposed. Complete35markplant-growth task retained with fractional presentation marks in data rubric."
+      ],
+      "markAudit": {
+        "bacteriaRevised": {
+          "cover": 27,
+          "task": 25,
+          "presentation": 2
+        },
+        "bacteriaOlder": {
+          "cover": 15,
+          "task": 13,
+          "presentation": 2,
+          "variablesPlannerUnmarked": true
+        },
+        "plants": 35
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/GROWING BACTERIA INVESTIGATION revised 2018.docx",
+          "sourceFileSha": "b3c626879c0850ba4d1c56b1d0686a31bc79d793",
+          "sourceQuestionNumber": "background",
+          "sourceParagraphs": [
+            20,
+            25,
+            27
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-background",
+          "reason": "Manually reviewed equivalent investigation task;source rubric variant retained without another question count. "
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/GROWING BACTERIA INVESTIGATION revised 2018.docx",
+          "sourceFileSha": "b3c626879c0850ba4d1c56b1d0686a31bc79d793",
+          "sourceQuestionNumber": "aim",
+          "sourceParagraphs": [
+            20,
+            25,
+            27
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-aim",
+          "reason": "Manually reviewed equivalent investigation task;source rubric variant retained without another question count. "
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/GROWING BACTERIA INVESTIGATION revised 2018.docx",
+          "sourceFileSha": "b3c626879c0850ba4d1c56b1d0686a31bc79d793",
+          "sourceQuestionNumber": "hypothesis",
+          "sourceParagraphs": [
+            20,
+            25,
+            27
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-hypothesis",
+          "reason": "Manually reviewed equivalent investigation task;source rubric variant retained without another question count. "
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/GROWING BACTERIA INVESTIGATION revised 2018.docx",
+          "sourceFileSha": "b3c626879c0850ba4d1c56b1d0686a31bc79d793",
+          "sourceQuestionNumber": "diagram",
+          "sourceParagraphs": [
+            20,
+            25,
+            27
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-diagram",
+          "reason": "Manually reviewed equivalent investigation task;source rubric variant retained without another question count. "
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/GROWING BACTERIA INVESTIGATION revised 2018.docx",
+          "sourceFileSha": "b3c626879c0850ba4d1c56b1d0686a31bc79d793",
+          "sourceQuestionNumber": "variables",
+          "sourceParagraphs": [
+            25
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-variables",
+          "reason": "Manually reviewed equivalent investigation task;source rubric variant retained without another question count. The2018expanded rubric explicitly scores3variables;older unmarked planner has proposed3."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/GROWING BACTERIA INVESTIGATION.docx",
+          "sourceFileSha": "415273b2543f14d0fd445b645cb2684888aedbd4",
+          "sourceQuestionNumber": "background",
+          "sourceParagraphs": [
+            20,
+            23,
+            30
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-background",
+          "reason": "Manually reviewed equivalent investigation task;source rubric variant retained without another question count. "
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/GROWING BACTERIA INVESTIGATION.docx",
+          "sourceFileSha": "415273b2543f14d0fd445b645cb2684888aedbd4",
+          "sourceQuestionNumber": "aim",
+          "sourceParagraphs": [
+            20,
+            23,
+            30
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-aim",
+          "reason": "Manually reviewed equivalent investigation task;source rubric variant retained without another question count. "
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/GROWING BACTERIA INVESTIGATION.docx",
+          "sourceFileSha": "415273b2543f14d0fd445b645cb2684888aedbd4",
+          "sourceQuestionNumber": "hypothesis",
+          "sourceParagraphs": [
+            20,
+            23,
+            30
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-hypothesis",
+          "reason": "Manually reviewed equivalent investigation task;source rubric variant retained without another question count. "
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/GROWING BACTERIA INVESTIGATION.docx",
+          "sourceFileSha": "415273b2543f14d0fd445b645cb2684888aedbd4",
+          "sourceQuestionNumber": "diagram",
+          "sourceParagraphs": [
+            20,
+            23,
+            30
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-diagram",
+          "reason": "Manually reviewed equivalent investigation task;source rubric variant retained without another question count. "
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/GROWING BACTERIA INVESTIGATION.docx",
+          "sourceFileSha": "415273b2543f14d0fd445b645cb2684888aedbd4",
+          "sourceQuestionNumber": "variables",
+          "sourceParagraphs": [
+            23
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-variables",
+          "reason": "Manually reviewed equivalent investigation task;source rubric variant retained without another question count. The2018expanded rubric explicitly scores3variables;older unmarked planner has proposed3."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/GROWING BACTERIA INVESTIGATION.docx",
+          "sourceFileSha": "415273b2543f14d0fd445b645cb2684888aedbd4",
+          "sourceQuestionNumber": "results",
+          "sourceParagraphs": [
+            30
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-results",
+          "reason": "Manually reviewed equivalent investigation task;source rubric variant retained without another question count. Source2mark result comparison versus canonical4mark variant."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/GROWING BACTERIA INVESTIGATION.docx",
+          "sourceFileSha": "415273b2543f14d0fd445b645cb2684888aedbd4",
+          "sourceQuestionNumber": "conclusion",
+          "sourceParagraphs": [
+            30
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-conclusion",
+          "reason": "Manually reviewed equivalent investigation task;source rubric variant retained without another question count. Same missing How to write a lab report reference;not reconstructed."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch90",
+      "questionIds": [
+        "SCI-REPO-Y9-SBY-2018-ECOSYSTEMKEY-1a",
+        "SCI-REPO-Y9-SBY-2018-ECOSYSTEMKEY-1b",
+        "SCI-REPO-Y9-SBY-2018-ECOSYSTEMKEY-1c",
+        "SCI-REPO-Y9-SBY-2018-ECOSYSTEMKEY-1d",
+        "SCI-REPO-Y9-SBY-2018-ECOSYSTEMKEY-1e",
+        "SCI-REPO-Y9-SBY-2018-ECOSYSTEMKEY-1f",
+        "SCI-REPO-Y9-SBY-2018-ECOSYSTEMKEY-2"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/Marking Key - Year 9 Ecosystems 2017.docx",
+          "sha": "1a73588e4cf97cdd778c70e82d44922c0c843188",
+          "year": 9,
+          "role": "paper"
+        }
+      ],
+      "questions": 7,
+      "marks": 35,
+      "imageAudit": "question-source-packs/repo-science-batch90-audit.json",
+      "notes": [
+        "Seven explicit written prompts recovered from sourcekey;35written marks retained. MCanswerletters alone are not questions and were not imported. Referenced foodwebs absent;sourcepredictions and matter-conservation simplifications corrected in manual guidance."
+      ],
+      "markAudit": {
+        "written": 35,
+        "multipleChoice": "Unrecoverable:answerpatterns only,no stems",
+        "missingReferencedDiagrams": true
+      },
+      "duplicateQuestionAliases": []
     }
   ],
   "files": [
@@ -23901,7 +24540,7 @@
       "sha": "4c8bf491a34db3e3fec145731492d3ad7a8e9516",
       "year": 9,
       "size": 51286,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -24053,8 +24692,9 @@
       "sha": "486599806522e1b3a3f86d058ffc9f2e0aa35c87",
       "year": 9,
       "size": 78164,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_incomplete_referenced_material",
+      "duplicateOf": null,
+      "reviewReason": "Source assignment explicitly refers to missing textbook method/discussion wording; recorded prompts reviewed, referenced questions not invented."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Aranmore/Ecosystem Assignment 2016.docx",
@@ -24429,8 +25069,9 @@
       "sha": "a967c79c943c962d40759c70a2c373ec3024153e",
       "year": 9,
       "size": 60820,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_incomplete_referenced_material",
+      "duplicateOf": null,
+      "reviewReason": "Source assignment explicitly refers to missing textbook method/discussion wording; recorded prompts reviewed, referenced questions not invented."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Narrogin/2022/Biology1 Resources/~$man Brain.docx",
@@ -24757,8 +25398,9 @@
       "sha": "9476acf93b55049480b6e321cffd96efbdbbd8b5",
       "year": 9,
       "size": 14967,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Teacher equipment/group allocation and presentation notes only;no new student questions."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/Bacteria investigation - marking key.docx",
@@ -24789,8 +25431,9 @@
       "sha": "cec6a4dca6722e99d150724b6400f509ff39b8a7",
       "year": 9,
       "size": 16040,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Teacher class-management instructions only;no student questions or marking allocations."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/GROWING BACTERIA INVESTIGATION (2).docx",
@@ -24813,7 +25456,7 @@
       "sha": "b3c626879c0850ba4d1c56b1d0686a31bc79d793",
       "year": 9,
       "size": 22860,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -24821,7 +25464,7 @@
       "sha": "415273b2543f14d0fd445b645cb2684888aedbd4",
       "year": 9,
       "size": 27675,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -24829,7 +25472,7 @@
       "sha": "6ee5c54ffad5c36d7b098916cee3157dc974b5c9",
       "year": 9,
       "size": 39963,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -24837,8 +25480,9 @@
       "sha": "1a73588e4cf97cdd778c70e82d44922c0c843188",
       "year": 9,
       "size": 22970,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_incomplete_referenced_material",
+      "duplicateOf": null,
+      "reviewReason": "Source assignment explicitly refers to missing textbook method/discussion wording; recorded prompts reviewed, referenced questions not invented."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/New test/ANSWERS Endocrine system & Diseases test 2018.docx",
@@ -24901,7 +25545,7 @@
       "sha": "b0131efe8f6b7c760818dc79df73eab264925576",
       "year": 9,
       "size": 23681,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -24941,8 +25585,9 @@
       "sha": "1a73588e4cf97cdd778c70e82d44922c0c843188",
       "year": 9,
       "size": 22970,
-      "status": "pending",
-      "duplicateOf": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/Marking Key - Year 9 Ecosystems 2017.docx"
+      "status": "reviewed_incomplete_referenced_material",
+      "duplicateOf": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/Marking Key - Year 9 Ecosystems 2017.docx",
+      "reviewReason": "Source assignment explicitly refers to missing textbook method/discussion wording; recorded prompts reviewed, referenced questions not invented."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2019/Regulation and Control Test FINAL.docx",
@@ -32174,9 +32819,9 @@
       "duplicateOf": null
     }
   ],
-  "learningVaultCreatedKeySupplements": 924,
-  "remainingUniqueFileBlobs": 1343,
-  "learningVaultCreatedKeys": 1791,
+  "learningVaultCreatedKeySupplements": 931,
+  "remainingUniqueFileBlobs": 1333,
+  "learningVaultCreatedKeys": 1831,
   "blockedSources": [
     {
       "sha": "49d4b7f3f8af844477b39abb856365aeb096cafd",
@@ -32388,7 +33033,7 @@
     "ocrPages": 1175,
     "ocrTextVerified": false
   },
-  "distinctSourceAndKeyReferences": 266,
+  "distinctSourceAndKeyReferences": 274,
   "unscoredQuestionsPreserved": 1,
   "activeAdditionalQuestionRequest": {
     "requestedAdditionalQuestions": 1000,
@@ -32403,12 +33048,12 @@
     "requestedAt": "2026-10-16",
     "scope": "All remaining Years 7–10 Science assessment papers; all question types, source figures, response space and marking guidance",
     "startingImportedQuestions": 1374,
-    "addedQuestions": 1651,
+    "addedQuestions": 1698,
     "status": "in_progress",
     "completionRule": "Every unique assessment paper reviewed; duplicates mapped and unreadable/protected files explicitly resolved. File-blob count is not a paper denominator.",
     "restoredQuestionsAfterDuplicateFix": 4,
-    "newlyExtractedQuestions": 1647,
-    "papersReviewedSinceRequest": 155,
+    "newlyExtractedQuestions": 1694,
+    "papersReviewedSinceRequest": 163,
     "canonicalSourceQuestionsReReviewed": 2
   },
   "sourceInventoryExclusions": {
@@ -32418,13 +33063,86 @@
     "note": "These are file metadata records, not papers or questions; excluded from import work without increasing question or paper totals."
   },
   "supportingResourceReview": {
-    "files": 37,
-    "uniqueBlobs": 34,
+    "files": 39,
+    "uniqueBlobs": 36,
     "audit": "question-source-packs/repo-science-supporting-resource-review.json",
     "countedAsPapers": false,
     "countedAsQuestions": false
   },
   "missingReferencedMaterial": [
+    {
+      "questionId": "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-timeline",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Aranmore/9 SCIENCE CHEMISTRY ASSIGNMENT HISTORY OF THE ATOMIC MODEL 2014.docx",
+      "sourceFileSha": "486599806522e1b3a3f86d058ffc9f2e0aa35c87",
+      "description": "Required textbookpages8–9and activity-bookpage5are not embedded.",
+      "effect": "Timeline task/rubric retained;the specific textbook milestone list is not invented."
+    },
+    {
+      "questionId": "SCI-REPO-Y10-ARAN-2014-DNAMICRO-M-high",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/10 Biology assessments extention/2014 DNA and Microscope Prac Test.docx",
+      "sourceFileSha": "1c496f3b549eb093849b94eef7ad0f49b36b248b",
+      "description": "Student prompt gives4.2mm lowFOV but not the low/high magnifications;key supplies40×and400×.",
+      "effect": "Key assumptions explicitly supplied in extracted context;do not pretend unique calculation follows from pupil wording alone."
+    },
+    {
+      "questionId": "SCI-REPO-Y10-NARR-2019-DNARESEARCH-research",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Narrogin/2019/Topic 2 Biology 1/Task 2 DNA Research 2018.docx",
+      "sourceFileSha": "cfccac69f79fb3250387490688653ba2b6c15cda",
+      "description": "Student-selected DNA questions are blank.",
+      "effect": "Research task/rubric retained;no unseen questions or fixed answers invented."
+    },
+    {
+      "questionId": "SCI-REPO-Y7-SBY-2017-HEATINGWATER-diagram",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling - assessment/Log Book ÔÇô Heating Water experiment-1.docx",
+      "sourceFileSha": "43aefd928096f9891fd4d5f6339d7fb09a6d46fc",
+      "reference": "Oxford7 textbook p173",
+      "missing": [
+        "Assigned heating-water method needed to verify setup"
+      ],
+      "resolution": "Locate the matching class method; do not invent a source procedure."
+    },
+    {
+      "questionId": "SCI-REPO-Y9-SBY-2018-ECOSYSTEMKEY-1c",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/Marking Key - Year 9 Ecosystems 2017.docx",
+      "sourceFileSha": "1a73588e4cf97cdd778c70e82d44922c0c843188",
+      "description": "Original testMCstems and referenced forest/estuary diagrams are not present in the marking-key file.",
+      "effect": "Written prompts recovered where explicit;MCquestions not invented,and diagram-dependent conclusions require original paper."
+    },
+    {
+      "questionId": "SCI-REPO-Y9-SBY-2018-ECOSYSTEMKEY-2",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/Marking Key - Year 9 Ecosystems 2017.docx",
+      "sourceFileSha": "1a73588e4cf97cdd778c70e82d44922c0c843188",
+      "description": "Original testMCstems and referenced forest/estuary diagrams are not present in the marking-key file.",
+      "effect": "Written prompts recovered where explicit;MCquestions not invented,and diagram-dependent conclusions require original paper."
+    },
+    {
+      "questionId": "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-method",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8 ESS Crystal Size Lab Report.docx",
+      "sourceFileSha": "b062e56376b2ef3613197fc903631c1eb5da4b84",
+      "reference": "Mount Lawley cooling-rate/crystal-size practical sheet",
+      "missing": [
+        "Final cooling conditions and remaining method steps7–9"
+      ],
+      "resolution": "Locate original practical sheet; do not invent missing source directions."
+    },
+    {
+      "questionId": "SCI-REPO-Y7-ARAN-PERTHWATER-bibliography",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Year 7 drinking water library assignment fixed version.docx",
+      "sourceFileSha": "298a000fcc2818f859eb4a5aabd04712e855178f",
+      "description": "School diary bibliography formatting instructions absent.",
+      "effect": "Suggested marking breakdown supplied;exact prescribed style unresolved."
+    },
+    {
+      "questionId": "SCI-REPO-Y7-ARAN-2015-SUNANGLE-assignment",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Aranmore/Angles make a difference INVESTIGATION 2015.docx",
+      "sourceFileSha": "d4158efc29b9a487a17ac1deae18cf54a7313900",
+      "reference": "Pearson7 Science textbook p353",
+      "missing": [
+        "Practical method",
+        "Discussion question wording"
+      ],
+      "resolution": "Locate matching source page or teacher-provided original; do not generate replacement questions and call them extracted."
+    },
     {
       "questionId": "SCI-REPO-Y8-SBY-2017-MICROSCOPE-magnification",
       "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Biological Sciences/Safety Bay/2017/Year 8 Microscope Assessment 2017.docx",
@@ -32438,13 +33156,6 @@
       "sourceFileSha": "5f37ab8ff41919675f38d5b29020622b6e10a2c0",
       "description": "Objective lens values not printed;2017 eyepiece values also blank.",
       "effect": "Use teacher-provided actual lens powers; generic examples labelled, no unique table invented."
-    },
-    {
-      "questionId": "SCI-REPO-Y7-ARAN-PERTHWATER-bibliography",
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Year 7 drinking water library assignment fixed version.docx",
-      "sourceFileSha": "298a000fcc2818f859eb4a5aabd04712e855178f",
-      "description": "School diary bibliography formatting instructions absent.",
-      "effect": "Suggested marking breakdown supplied;exact prescribed style unresolved."
     },
     {
       "questionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-conclusion",
@@ -32461,32 +33172,11 @@
       "effect": "Six-organisation task retained;unverified stances not invented. Archived/current attributable statements required."
     },
     {
-      "questionId": "SCI-REPO-Y7-SBY-2017-HEATINGWATER-diagram",
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling - assessment/Log Book ÔÇô Heating Water experiment-1.docx",
-      "sourceFileSha": "43aefd928096f9891fd4d5f6339d7fb09a6d46fc",
-      "reference": "Oxford7 textbook p173",
-      "missing": [
-        "Assigned heating-water method needed to verify setup"
-      ],
-      "resolution": "Locate the matching class method; do not invent a source procedure."
-    },
-    {
-      "questionId": "SCI-REPO-Y7-ARAN-2015-SUNANGLE-assignment",
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Aranmore/Angles make a difference INVESTIGATION 2015.docx",
-      "sourceFileSha": "d4158efc29b9a487a17ac1deae18cf54a7313900",
-      "reference": "Pearson7 Science textbook p353",
-      "missing": [
-        "Practical method",
-        "Discussion question wording"
-      ],
-      "resolution": "Locate matching source page or teacher-provided original; do not generate replacement questions and call them extracted."
-    },
-    {
-      "questionId": "SCI-REPO-Y10-ARAN-2014-DNAMICRO-M-high",
-      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/10 Biology assessments extention/2014 DNA and Microscope Prac Test.docx",
-      "sourceFileSha": "1c496f3b549eb093849b94eef7ad0f49b36b248b",
-      "description": "Student prompt gives4.2mm lowFOV but not the low/high magnifications;key supplies40×and400×.",
-      "effect": "Key assumptions explicitly supplied in extracted context;do not pretend unique calculation follows from pupil wording alone."
+      "questionId": "SCI-REPO-Y8-ARAN-2013-DENSITY-method",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/Density Investigation 2013.docx",
+      "sourceFileSha": "b7709d4edea4a68f7e3b7537c2999cdea9ca4027",
+      "description": "Textbook chapter6.3 is referenced but absent.",
+      "effect": "No unique original method can be recovered; use actual class method."
     },
     {
       "questionId": "SCI-REPO-Y7-KOLBE-2021-RESEARCH-summary",
@@ -32524,31 +33214,21 @@
       "effect": "Reference cannot be answered uniquely; no missing procedure invented."
     },
     {
-      "questionId": "SCI-REPO-Y10-NARR-2019-DNARESEARCH-research",
-      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Narrogin/2019/Topic 2 Biology 1/Task 2 DNA Research 2018.docx",
-      "sourceFileSha": "cfccac69f79fb3250387490688653ba2b6c15cda",
-      "description": "Student-selected DNA questions are blank.",
-      "effect": "Research task/rubric retained;no unseen questions or fixed answers invented."
+      "questionId": "SCI-REPO-Y9-NARR-2022-BRAINLABELS-lateral",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Narrogin/2022/Biology1 Resources/Human Brain.docx",
+      "sourceFileSha": "a967c79c943c962d40759c70a2c373ec3024153e",
+      "description": "Unlabelled source brain diagram has no supplied answer list or key;fine leader-line targets partly ambiguous.",
+      "effect": "Retained as teacher-review diagram task;exact label-order key must be verified before assigning."
     },
     {
-      "questionId": "SCI-REPO-Y8-ARAN-2013-DENSITY-method",
-      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/Density Investigation 2013.docx",
-      "sourceFileSha": "b7709d4edea4a68f7e3b7537c2999cdea9ca4027",
-      "description": "Textbook chapter6.3 is referenced but absent.",
-      "effect": "No unique original method can be recovered; use actual class method."
-    },
-    {
-      "questionId": "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-method",
-      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8 ESS Crystal Size Lab Report.docx",
-      "sourceFileSha": "b062e56376b2ef3613197fc903631c1eb5da4b84",
-      "reference": "Mount Lawley cooling-rate/crystal-size practical sheet",
-      "missing": [
-        "Final cooling conditions and remaining method steps7–9"
-      ],
-      "resolution": "Locate original practical sheet; do not invent missing source directions."
+      "questionId": "SCI-REPO-Y9-NARR-2022-BRAINLABELS-section",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Narrogin/2022/Biology1 Resources/Human Brain.docx",
+      "sourceFileSha": "a967c79c943c962d40759c70a2c373ec3024153e",
+      "description": "Unlabelled source brain diagram has no supplied answer list or key;fine leader-line targets partly ambiguous.",
+      "effect": "Retained as teacher-review diagram task;exact label-order key must be verified before assigning."
     }
   ],
-  "reviewedDistinctSourceBlobs": 257,
+  "reviewedDistinctSourceBlobs": 267,
   "inventoryCountBasis": "Remaining unique file blobs counts pending or key-reference-pending identities, including protected inputs; it is not a remaining-paper or remaining-question estimate.",
   "canonicalUniverseReviewRepair": {
     "questionIds": [
