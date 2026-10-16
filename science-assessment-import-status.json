@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.16-science-source131",
+  "version": "2026.10.16-science-source136",
   "status": "in_progress",
   "scope": "Original Science assessment files in repository, Years 7–10. File counts include keys and supporting materials; they are not question counts.",
   "inventoryFiles": 2009,
@@ -11,10 +11,10 @@
     "9": 457,
     "10": 582
   },
-  "importedPapers": 305,
-  "importedQuestions": 3665,
+  "importedPapers": 310,
+  "importedQuestions": 3720,
   "multipleChoice": 832,
-  "writtenQuestions": 2833,
+  "writtenQuestions": 2888,
   "battleEligibleQuestions": 719,
   "reviewRequired": [
     {
@@ -2068,6 +2068,138 @@
     {
       "id": "SCI-REPO-Y7-UNKNOWN-CHEMINQUIRYKEY-10f",
       "note": "Source key treats travel as mass or invites unsupported prediction;teacher review required."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-NEWTONEXT-birth",
+      "note": "Historical/calendar or source-instruction inconsistency requires teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-NEWTONEXT-death",
+      "note": "Historical/calendar or source-instruction inconsistency requires teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-NEWTONEXT-recognition",
+      "note": "Historical/calendar or source-instruction inconsistency requires teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-NEWTONEXT-references",
+      "note": "Historical/calendar or source-instruction inconsistency requires teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2018-CHEMREVQUEST-5",
+      "note": "Unmarked revision;allocation proposed. Simplified source claims qualified."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2018-CHEMREVQUEST-properties",
+      "note": "Unmarked revision;allocation proposed. Simplified source claims qualified."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-CO2GRASS-growth",
+      "note": "Source gives10%grade weighting,not10marks;8marks proposed. Purpose says12days while instructions saytwo weeks. Footer saysYr8although repository routes it underYear10;teacher must confirm cohort/timing. Original apparatus diagram retained."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-depression",
+      "note": "Unmarked health-education worksheet;allocations proposed. Current clinical guidance is a checked supplement,not individual diagnosis/treatment."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-sadness",
+      "note": "Unmarked health-education worksheet;allocations proposed. Current clinical guidance is a checked supplement,not individual diagnosis/treatment."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-signs",
+      "note": "Unmarked health-education worksheet;allocations proposed. Current clinical guidance is a checked supplement,not individual diagnosis/treatment."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-chemicals",
+      "note": "Unmarked health-education worksheet;allocations proposed. Current clinical guidance is a checked supplement,not individual diagnosis/treatment."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-help",
+      "note": "Unmarked health-education worksheet;allocations proposed. Current clinical guidance is a checked supplement,not individual diagnosis/treatment."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-anxiety",
+      "note": "Unmarked health-education worksheet;allocations proposed. Current clinical guidance is a checked supplement,not individual diagnosis/treatment."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-fight-flight",
+      "note": "Unmarked health-education worksheet;allocations proposed. Current clinical guidance is a checked supplement,not individual diagnosis/treatment."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-causes-treatment",
+      "note": "Unmarked health-education worksheet;allocations proposed. Current clinical guidance is a checked supplement,not individual diagnosis/treatment."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-GAD",
+      "note": "Source groups several conditions under anxiety;current category distinctions and panic-attack/disorder distinction supplied for teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-OCD",
+      "note": "Source groups several conditions under anxiety;current category distinctions and panic-attack/disorder distinction supplied for teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-phobias",
+      "note": "Source groups several conditions under anxiety;current category distinctions and panic-attack/disorder distinction supplied for teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-social",
+      "note": "Source groups several conditions under anxiety;current category distinctions and panic-attack/disorder distinction supplied for teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-panic",
+      "note": "Source groups several conditions under anxiety;current category distinctions and panic-attack/disorder distinction supplied for teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-PTSD",
+      "note": "Source groups several conditions under anxiety;current category distinctions and panic-attack/disorder distinction supplied for teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-case-signs",
+      "note": "Referenced Rachel story is absent from the source document and original links were unavailable;case-dependent answers require teacher-supplied text."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-case-GAD",
+      "note": "Referenced Rachel story is absent from the source document and original links were unavailable;case-dependent answers require teacher-supplied text."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-case-count",
+      "note": "Referenced Rachel story is absent from the source document and original links were unavailable;case-dependent answers require teacher-supplied text."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-case-help",
+      "note": "Referenced Rachel story is absent from the source document and original links were unavailable;case-dependent answers require teacher-supplied text."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-SPORTSCAFFOLD-fitness",
+      "note": "Unmarked open sport-science scaffold;allocations proposed. Requires actual chosen sport and teacher-reviewed session suitability."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-SPORTSCAFFOLD-interval",
+      "note": "Unmarked open sport-science scaffold;allocations proposed. Requires actual chosen sport and teacher-reviewed session suitability."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-SPORTSCAFFOLD-continuous",
+      "note": "Unmarked open sport-science scaffold;allocations proposed. Requires actual chosen sport and teacher-reviewed session suitability."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-SPORTSCAFFOLD-circuit",
+      "note": "Unmarked open sport-science scaffold;allocations proposed. Requires actual chosen sport and teacher-reviewed session suitability."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-SPORTSCAFFOLD-plyometric",
+      "note": "Unmarked open sport-science scaffold;allocations proposed. Requires actual chosen sport and teacher-reviewed session suitability."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-SPORTSCAFFOLD-weight",
+      "note": "Unmarked open sport-science scaffold;allocations proposed. Requires actual chosen sport and teacher-reviewed session suitability."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-SPORTSCAFFOLD-goals",
+      "note": "Unmarked open sport-science scaffold;allocations proposed. Requires actual chosen sport and teacher-reviewed session suitability."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-SPORTSCAFFOLD-session",
+      "note": "Unmarked open sport-science scaffold;allocations proposed. Requires actual chosen sport and teacher-reviewed session suitability."
     },
     {
       "id": "SCI-REPO-Y10-NAR-2024-UNIVERSE-MC02",
@@ -24798,6 +24930,208 @@
           "reason": "Equivalent source question already present; not added or counted again."
         }
       ]
+    },
+    {
+      "id": "repo-science-batch132",
+      "questionIds": [
+        "SCI-REPO-Y10-ARAN-2014-NEWTONEXT-birth",
+        "SCI-REPO-Y10-ARAN-2014-NEWTONEXT-place",
+        "SCI-REPO-Y10-ARAN-2014-NEWTONEXT-death",
+        "SCI-REPO-Y10-ARAN-2014-NEWTONEXT-early",
+        "SCI-REPO-Y10-ARAN-2014-NEWTONEXT-education",
+        "SCI-REPO-Y10-ARAN-2014-NEWTONEXT-history",
+        "SCI-REPO-Y10-ARAN-2014-NEWTONEXT-law1",
+        "SCI-REPO-Y10-ARAN-2014-NEWTONEXT-law2",
+        "SCI-REPO-Y10-ARAN-2014-NEWTONEXT-law3",
+        "SCI-REPO-Y10-ARAN-2014-NEWTONEXT-recognition",
+        "SCI-REPO-Y10-ARAN-2014-NEWTONEXT-profession",
+        "SCI-REPO-Y10-ARAN-2014-NEWTONEXT-contributions",
+        "SCI-REPO-Y10-ARAN-2014-NEWTONEXT-fact",
+        "SCI-REPO-Y10-ARAN-2014-NEWTONEXT-references"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/2014 10 SCIENCE PHYSICS ASSIGNMENT ISAAC NEWTON.docx",
+          "sha": "0a6a98736d85ca381a31c6911b8e1995a8fc2acf",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 14,
+      "marks": 33,
+      "imageAudit": "question-source-packs/repo-science-batch132-audit.json",
+      "notes": [
+        "Complete extended Newton report reviewed.14content/reference tasks33marks;notes2andpresentation5logged separately for40total. Three illustrated laws require explanations in addition to diagrams,unlike the simpler report variant. Reference-count conflict and impossible Nobel example flagged."
+      ],
+      "markAudit": {
+        "total": 40,
+        "research": 30,
+        "references": 3,
+        "notes": 2,
+        "presentation": 5
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch133",
+      "questionIds": [
+        "SCI-REPO-Y9-SBY-2018-CHEMREVQUEST-1",
+        "SCI-REPO-Y9-SBY-2018-CHEMREVQUEST-2",
+        "SCI-REPO-Y9-SBY-2018-CHEMREVQUEST-3",
+        "SCI-REPO-Y9-SBY-2018-CHEMREVQUEST-4",
+        "SCI-REPO-Y9-SBY-2018-CHEMREVQUEST-5",
+        "SCI-REPO-Y9-SBY-2018-CHEMREVQUEST-6",
+        "SCI-REPO-Y9-SBY-2018-CHEMREVQUEST-8a",
+        "SCI-REPO-Y9-SBY-2018-CHEMREVQUEST-8c",
+        "SCI-REPO-Y9-SBY-2018-CHEMREVQUEST-properties",
+        "SCI-REPO-Y9-SBY-2018-CHEMREVQUEST-8b",
+        "SCI-REPO-Y9-SBY-2018-CHEMREVQUEST-7a",
+        "SCI-REPO-Y9-SBY-2018-CHEMREVQUEST-9a",
+        "SCI-REPO-Y9-SBY-2018-CHEMREVQUEST-9b",
+        "SCI-REPO-Y9-SBY-2018-CHEMREVQUEST-7b"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/Exam/Chemistry  Exam Revision Questions.docx",
+          "sha": "cc126386fabef46eca9c42a347fb9c8b87ccd707",
+          "year": 9,
+          "role": "paper"
+        }
+      ],
+      "questions": 14,
+      "marks": 30,
+      "imageAudit": "question-source-packs/repo-science-batch133-audit.json",
+      "notes": [
+        "Complete explicit revision questions reviewed;Word-native equations visually rendered and retained as source crops. Duplicate methane formula-skeleton request linked once. Generic reminders about pH,formula lists and a missing PowerPoint are not expanded into invented extra questions. Source weak-acid safety and universal hydrogen claims corrected."
+      ],
+      "markAudit": {
+        "sourceMarks": null,
+        "proposed": 30,
+        "missingReferencedPowerPoint": true
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/Exam/Chemistry  Exam Revision Questions.docx",
+          "sourceFileSha": "cc126386fabef46eca9c42a347fb9c8b87ccd707",
+          "sourceQuestionNumber": "8d",
+          "sourceParagraphs": [
+            12,
+            13,
+            17
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2018-CHEMREVQUEST-8b",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch134",
+      "questionIds": [
+        "SCI-REPO-Y10-SBY-2018-CO2GRASS-growth"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Safety Bay/2018/Investigation - Carbon.docx",
+          "sha": "83d7d003a9f2fe2376550ddf17414f5e54843ef3",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 1,
+      "marks": 8,
+      "imageAudit": "question-source-packs/repo-science-batch134-audit.json",
+      "notes": [
+        "Complete supplied grass-growth assignment retained as one investigation task with original apparatus image visually checked.10%grade weighting is not a pointtotal. Printed cohort/timing and unmeasured CO2exposure limitations flagged;no invented experimental data."
+      ],
+      "markAudit": {
+        "sourceWeightPercent": 10,
+        "sourceMarks": null,
+        "proposed": 8,
+        "printedCohort": 8,
+        "repositoryCohort": 10
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch135",
+      "questionIds": [
+        "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-depression",
+        "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-sadness",
+        "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-signs",
+        "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-chemicals",
+        "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-help",
+        "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-anxiety",
+        "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-fight-flight",
+        "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-causes-treatment",
+        "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-GAD",
+        "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-OCD",
+        "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-phobias",
+        "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-social",
+        "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-panic",
+        "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-PTSD",
+        "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-case-signs",
+        "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-case-GAD",
+        "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-case-count",
+        "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-case-help"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Psychology Elective/Safety Bay/2024/Resources/Worksheets/Anxiety and Depression WebQuest (1).docx",
+          "sha": "8ee4de974b5bf46fc9633992d2a108085d8ddcab",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 18,
+      "marks": 40,
+      "imageAudit": "question-source-packs/repo-science-batch135-audit.json",
+      "notes": [
+        "All18explicit WebQuest prompts retained with proposed40marks. Current primary clinical references checked;simple chemical-imbalance explanation corrected,OCD/PTSDcategory and panic-attack distinctions explicit. Four Rachel-case prompts remain flagged for missing narrative;no unrelated personal story substituted."
+      ],
+      "markAudit": {
+        "sourceMarks": null,
+        "proposed": 40,
+        "missingCaseQuestions": 4
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch136",
+      "questionIds": [
+        "SCI-REPO-Y10-SBY-2018-SPORTSCAFFOLD-fitness",
+        "SCI-REPO-Y10-SBY-2018-SPORTSCAFFOLD-interval",
+        "SCI-REPO-Y10-SBY-2018-SPORTSCAFFOLD-continuous",
+        "SCI-REPO-Y10-SBY-2018-SPORTSCAFFOLD-circuit",
+        "SCI-REPO-Y10-SBY-2018-SPORTSCAFFOLD-plyometric",
+        "SCI-REPO-Y10-SBY-2018-SPORTSCAFFOLD-weight",
+        "SCI-REPO-Y10-SBY-2018-SPORTSCAFFOLD-goals",
+        "SCI-REPO-Y10-SBY-2018-SPORTSCAFFOLD-session"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Sport Science/Safety Bay/2018/Scaffolding TASK 1 - PHYSIOLOGY.docx",
+          "sha": "f3f358a55439bbfdd578fb80100b8c6d1d3dd44e",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 8,
+      "marks": 31,
+      "imageAudit": "question-source-packs/repo-science-batch136-audit.json",
+      "notes": [
+        "All scaffold content retained as8tasks;three fitness selections and their reasons paired rather than double-counting. Five training-method prompts,three-goal set and session outline retained. Blank personal fields remain contextual;no individual exercise prescription invented."
+      ],
+      "markAudit": {
+        "sourceMarks": null,
+        "proposed": 31,
+        "fitness": 6,
+        "methods": 10,
+        "goals": 9,
+        "session": 6
+      },
+      "duplicateQuestionAliases": []
     }
   ],
   "files": [
@@ -34693,7 +35027,7 @@
       "sha": "cc126386fabef46eca9c42a347fb9c8b87ccd707",
       "year": 9,
       "size": 44872,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -39382,7 +39716,7 @@
       "sha": "83d7d003a9f2fe2376550ddf17414f5e54843ef3",
       "year": 10,
       "size": 45616,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -39922,7 +40256,7 @@
       "sha": "0a6a98736d85ca381a31c6911b8e1995a8fc2acf",
       "year": 10,
       "size": 43270,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -40868,8 +41202,9 @@
       "sha": "8ee4de974b5bf46fc9633992d2a108085d8ddcab",
       "year": 10,
       "size": 26640,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_incomplete_referenced_material",
+      "duplicateOf": null,
+      "reviewReason": "Source assignment explicitly refers to missing textbook method/discussion wording; recorded prompts reviewed, referenced questions not invented."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 10/Science/Psychology Elective/Safety Bay/2024/Resources/Worksheets/Crash Course Memory Worksheet (1).pdf",
@@ -40980,7 +41315,7 @@
       "sha": "f3f358a55439bbfdd578fb80100b8c6d1d3dd44e",
       "year": 10,
       "size": 26942,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -41016,9 +41351,9 @@
       "duplicateOf": null
     }
   ],
-  "learningVaultCreatedKeySupplements": 1242,
-  "remainingUniqueFileBlobs": 1232,
-  "learningVaultCreatedKeys": 2113,
+  "learningVaultCreatedKeySupplements": 1256,
+  "remainingUniqueFileBlobs": 1227,
+  "learningVaultCreatedKeys": 2154,
   "blockedSources": [
     {
       "sha": "49d4b7f3f8af844477b39abb856365aeb096cafd",
@@ -41230,7 +41565,7 @@
     "ocrPages": 1175,
     "ocrTextVerified": false
   },
-  "distinctSourceAndKeyReferences": 355,
+  "distinctSourceAndKeyReferences": 360,
   "unscoredQuestionsPreserved": 1,
   "activeAdditionalQuestionRequest": {
     "requestedAdditionalQuestions": 1000,
@@ -41245,12 +41580,12 @@
     "requestedAt": "2026-10-16",
     "scope": "All remaining Years 7–10 Science assessment papers; all question types, source figures, response space and marking guidance",
     "startingImportedQuestions": 1374,
-    "addedQuestions": 2291,
+    "addedQuestions": 2346,
     "status": "in_progress",
     "completionRule": "Every unique assessment paper reviewed; duplicates mapped and unreadable/protected files explicitly resolved. File-blob count is not a paper denominator.",
     "restoredQuestionsAfterDuplicateFix": 4,
-    "newlyExtractedQuestions": 2287,
-    "papersReviewedSinceRequest": 242,
+    "newlyExtractedQuestions": 2342,
+    "papersReviewedSinceRequest": 247,
     "canonicalSourceQuestionsReReviewed": 2
   },
   "sourceInventoryExclusions": {
@@ -41357,6 +41692,34 @@
       "sourceFileSha": "cfccac69f79fb3250387490688653ba2b6c15cda",
       "description": "Student-selected DNA questions are blank.",
       "effect": "Research task/rubric retained;no unseen questions or fixed answers invented."
+    },
+    {
+      "questionId": "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-case-signs",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Psychology Elective/Safety Bay/2024/Resources/Worksheets/Anxiety and Depression WebQuest (1).docx",
+      "sourceFileSha": "8ee4de974b5bf46fc9633992d2a108085d8ddcab",
+      "description": "Rachel anxiety case narrative not embedded;original Johns Hopkins/KidsHealth story links did not yield the case text.",
+      "effect": "Four explicit prompts retained,but case signs,techniques,prevalence number and help history cannot be invented."
+    },
+    {
+      "questionId": "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-case-GAD",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Psychology Elective/Safety Bay/2024/Resources/Worksheets/Anxiety and Depression WebQuest (1).docx",
+      "sourceFileSha": "8ee4de974b5bf46fc9633992d2a108085d8ddcab",
+      "description": "Rachel anxiety case narrative not embedded;original Johns Hopkins/KidsHealth story links did not yield the case text.",
+      "effect": "Four explicit prompts retained,but case signs,techniques,prevalence number and help history cannot be invented."
+    },
+    {
+      "questionId": "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-case-count",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Psychology Elective/Safety Bay/2024/Resources/Worksheets/Anxiety and Depression WebQuest (1).docx",
+      "sourceFileSha": "8ee4de974b5bf46fc9633992d2a108085d8ddcab",
+      "description": "Rachel anxiety case narrative not embedded;original Johns Hopkins/KidsHealth story links did not yield the case text.",
+      "effect": "Four explicit prompts retained,but case signs,techniques,prevalence number and help history cannot be invented."
+    },
+    {
+      "questionId": "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-case-help",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Psychology Elective/Safety Bay/2024/Resources/Worksheets/Anxiety and Depression WebQuest (1).docx",
+      "sourceFileSha": "8ee4de974b5bf46fc9633992d2a108085d8ddcab",
+      "description": "Rachel anxiety case narrative not embedded;original Johns Hopkins/KidsHealth story links did not yield the case text.",
+      "effect": "Four explicit prompts retained,but case signs,techniques,prevalence number and help history cannot be invented."
     },
     {
       "questionId": "SCI-REPO-Y9-ARAN-2013-ELEMENTNEWS-numbers",
@@ -41509,7 +41872,7 @@
       "effect": "Retained as teacher-review diagram task;exact label-order key must be verified before assigning."
     }
   ],
-  "reviewedDistinctSourceBlobs": 368,
+  "reviewedDistinctSourceBlobs": 373,
   "inventoryCountBasis": "Remaining unique file blobs counts pending or key-reference-pending identities, including protected inputs; it is not a remaining-paper or remaining-question estimate.",
   "canonicalUniverseReviewRepair": {
     "questionIds": [

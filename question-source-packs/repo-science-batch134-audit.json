@@ -1,0 +1,52 @@
+{
+  "batch": "repo-science-batch134",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y10-SBY-2018-CO2GRASS-growth"
+  ],
+  "questions": 1,
+  "multipleChoice": 0,
+  "writtenQuestions": 1,
+  "battleEligible": 0,
+  "marks": 8,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-CO2GRASS-growth",
+      "note": "Source gives10%grade weighting,not10marks;8marks proposed. Purpose says12days while instructions saytwo weeks. Footer saysYr8although repository routes it underYear10;teacher must confirm cohort/timing. Original apparatus diagram retained."
+    }
+  ],
+  "imageAudit": [
+    {
+      "id": "e357-image1",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Safety Bay/2018/Investigation - Carbon.docx",
+      "embeddedImage": "word/media/image1.png",
+      "sha256": "5fee656618d0050e2f217f317d5297d6db15a93ab24c715abf3b06a65458e9b7",
+      "publishedSha256": "95c917a11c1165d390ccc5af5e0372e9ef98feefee02207ac5f53582b40091dc",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Safety Bay/2018/Investigation - Carbon.docx",
+      "sha": "83d7d003a9f2fe2376550ddf17414f5e54843ef3",
+      "year": 10,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 1,
+  "createdSupplements": 0,
+  "notes": [
+    "Complete supplied grass-growth assignment retained as one investigation task with original apparatus image visually checked.10%grade weighting is not a pointtotal. Printed cohort/timing and unmeasured CO2exposure limitations flagged;no invented experimental data."
+  ],
+  "markAudit": {
+    "sourceWeightPercent": 10,
+    "sourceMarks": null,
+    "proposed": 8,
+    "printedCohort": 8,
+    "repositoryCohort": 10
+  },
+  "duplicateQuestionAliases": []
+}

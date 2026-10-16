@@ -1,0 +1,77 @@
+{
+  "batch": "repo-science-batch136",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y10-SBY-2018-SPORTSCAFFOLD-fitness",
+    "SCI-REPO-Y10-SBY-2018-SPORTSCAFFOLD-interval",
+    "SCI-REPO-Y10-SBY-2018-SPORTSCAFFOLD-continuous",
+    "SCI-REPO-Y10-SBY-2018-SPORTSCAFFOLD-circuit",
+    "SCI-REPO-Y10-SBY-2018-SPORTSCAFFOLD-plyometric",
+    "SCI-REPO-Y10-SBY-2018-SPORTSCAFFOLD-weight",
+    "SCI-REPO-Y10-SBY-2018-SPORTSCAFFOLD-goals",
+    "SCI-REPO-Y10-SBY-2018-SPORTSCAFFOLD-session"
+  ],
+  "questions": 8,
+  "multipleChoice": 0,
+  "writtenQuestions": 8,
+  "battleEligible": 0,
+  "marks": 31,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-SPORTSCAFFOLD-fitness",
+      "note": "Unmarked open sport-science scaffold;allocations proposed. Requires actual chosen sport and teacher-reviewed session suitability."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-SPORTSCAFFOLD-interval",
+      "note": "Unmarked open sport-science scaffold;allocations proposed. Requires actual chosen sport and teacher-reviewed session suitability."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-SPORTSCAFFOLD-continuous",
+      "note": "Unmarked open sport-science scaffold;allocations proposed. Requires actual chosen sport and teacher-reviewed session suitability."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-SPORTSCAFFOLD-circuit",
+      "note": "Unmarked open sport-science scaffold;allocations proposed. Requires actual chosen sport and teacher-reviewed session suitability."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-SPORTSCAFFOLD-plyometric",
+      "note": "Unmarked open sport-science scaffold;allocations proposed. Requires actual chosen sport and teacher-reviewed session suitability."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-SPORTSCAFFOLD-weight",
+      "note": "Unmarked open sport-science scaffold;allocations proposed. Requires actual chosen sport and teacher-reviewed session suitability."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-SPORTSCAFFOLD-goals",
+      "note": "Unmarked open sport-science scaffold;allocations proposed. Requires actual chosen sport and teacher-reviewed session suitability."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-SPORTSCAFFOLD-session",
+      "note": "Unmarked open sport-science scaffold;allocations proposed. Requires actual chosen sport and teacher-reviewed session suitability."
+    }
+  ],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Sport Science/Safety Bay/2018/Scaffolding TASK 1 - PHYSIOLOGY.docx",
+      "sha": "f3f358a55439bbfdd578fb80100b8c6d1d3dd44e",
+      "year": 10,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 8,
+  "createdSupplements": 0,
+  "notes": [
+    "All scaffold content retained as8tasks;three fitness selections and their reasons paired rather than double-counting. Five training-method prompts,three-goal set and session outline retained. Blank personal fields remain contextual;no individual exercise prescription invented."
+  ],
+  "markAudit": {
+    "sourceMarks": null,
+    "proposed": 31,
+    "fitness": 6,
+    "methods": 10,
+    "goals": 9,
+    "session": 6
+  },
+  "duplicateQuestionAliases": []
+}

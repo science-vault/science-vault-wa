@@ -1,0 +1,66 @@
+{
+  "batch": "repo-science-batch132",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y10-ARAN-2014-NEWTONEXT-birth",
+    "SCI-REPO-Y10-ARAN-2014-NEWTONEXT-place",
+    "SCI-REPO-Y10-ARAN-2014-NEWTONEXT-death",
+    "SCI-REPO-Y10-ARAN-2014-NEWTONEXT-early",
+    "SCI-REPO-Y10-ARAN-2014-NEWTONEXT-education",
+    "SCI-REPO-Y10-ARAN-2014-NEWTONEXT-history",
+    "SCI-REPO-Y10-ARAN-2014-NEWTONEXT-law1",
+    "SCI-REPO-Y10-ARAN-2014-NEWTONEXT-law2",
+    "SCI-REPO-Y10-ARAN-2014-NEWTONEXT-law3",
+    "SCI-REPO-Y10-ARAN-2014-NEWTONEXT-recognition",
+    "SCI-REPO-Y10-ARAN-2014-NEWTONEXT-profession",
+    "SCI-REPO-Y10-ARAN-2014-NEWTONEXT-contributions",
+    "SCI-REPO-Y10-ARAN-2014-NEWTONEXT-fact",
+    "SCI-REPO-Y10-ARAN-2014-NEWTONEXT-references"
+  ],
+  "questions": 14,
+  "multipleChoice": 0,
+  "writtenQuestions": 14,
+  "battleEligible": 0,
+  "marks": 33,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-NEWTONEXT-birth",
+      "note": "Historical/calendar or source-instruction inconsistency requires teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-NEWTONEXT-death",
+      "note": "Historical/calendar or source-instruction inconsistency requires teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-NEWTONEXT-recognition",
+      "note": "Historical/calendar or source-instruction inconsistency requires teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-NEWTONEXT-references",
+      "note": "Historical/calendar or source-instruction inconsistency requires teacher review."
+    }
+  ],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/2014 10 SCIENCE PHYSICS ASSIGNMENT ISAAC NEWTON.docx",
+      "sha": "0a6a98736d85ca381a31c6911b8e1995a8fc2acf",
+      "year": 10,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 0,
+  "createdSupplements": 14,
+  "notes": [
+    "Complete extended Newton report reviewed.14content/reference tasks33marks;notes2andpresentation5logged separately for40total. Three illustrated laws require explanations in addition to diagrams,unlike the simpler report variant. Reference-count conflict and impossible Nobel example flagged."
+  ],
+  "markAudit": {
+    "total": 40,
+    "research": 30,
+    "references": 3,
+    "notes": 2,
+    "presentation": 5
+  },
+  "duplicateQuestionAliases": []
+}

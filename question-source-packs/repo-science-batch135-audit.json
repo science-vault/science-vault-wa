@@ -1,0 +1,124 @@
+{
+  "batch": "repo-science-batch135",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-depression",
+    "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-sadness",
+    "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-signs",
+    "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-chemicals",
+    "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-help",
+    "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-anxiety",
+    "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-fight-flight",
+    "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-causes-treatment",
+    "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-GAD",
+    "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-OCD",
+    "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-phobias",
+    "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-social",
+    "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-panic",
+    "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-PTSD",
+    "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-case-signs",
+    "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-case-GAD",
+    "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-case-count",
+    "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-case-help"
+  ],
+  "questions": 18,
+  "multipleChoice": 0,
+  "writtenQuestions": 18,
+  "battleEligible": 0,
+  "marks": 40,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-depression",
+      "note": "Unmarked health-education worksheet;allocations proposed. Current clinical guidance is a checked supplement,not individual diagnosis/treatment."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-sadness",
+      "note": "Unmarked health-education worksheet;allocations proposed. Current clinical guidance is a checked supplement,not individual diagnosis/treatment."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-signs",
+      "note": "Unmarked health-education worksheet;allocations proposed. Current clinical guidance is a checked supplement,not individual diagnosis/treatment."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-chemicals",
+      "note": "Unmarked health-education worksheet;allocations proposed. Current clinical guidance is a checked supplement,not individual diagnosis/treatment."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-help",
+      "note": "Unmarked health-education worksheet;allocations proposed. Current clinical guidance is a checked supplement,not individual diagnosis/treatment."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-anxiety",
+      "note": "Unmarked health-education worksheet;allocations proposed. Current clinical guidance is a checked supplement,not individual diagnosis/treatment."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-fight-flight",
+      "note": "Unmarked health-education worksheet;allocations proposed. Current clinical guidance is a checked supplement,not individual diagnosis/treatment."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-causes-treatment",
+      "note": "Unmarked health-education worksheet;allocations proposed. Current clinical guidance is a checked supplement,not individual diagnosis/treatment."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-GAD",
+      "note": "Source groups several conditions under anxiety;current category distinctions and panic-attack/disorder distinction supplied for teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-OCD",
+      "note": "Source groups several conditions under anxiety;current category distinctions and panic-attack/disorder distinction supplied for teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-phobias",
+      "note": "Source groups several conditions under anxiety;current category distinctions and panic-attack/disorder distinction supplied for teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-social",
+      "note": "Source groups several conditions under anxiety;current category distinctions and panic-attack/disorder distinction supplied for teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-panic",
+      "note": "Source groups several conditions under anxiety;current category distinctions and panic-attack/disorder distinction supplied for teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-PTSD",
+      "note": "Source groups several conditions under anxiety;current category distinctions and panic-attack/disorder distinction supplied for teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-case-signs",
+      "note": "Referenced Rachel story is absent from the source document and original links were unavailable;case-dependent answers require teacher-supplied text."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-case-GAD",
+      "note": "Referenced Rachel story is absent from the source document and original links were unavailable;case-dependent answers require teacher-supplied text."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-case-count",
+      "note": "Referenced Rachel story is absent from the source document and original links were unavailable;case-dependent answers require teacher-supplied text."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-MENTALWEBQUEST-case-help",
+      "note": "Referenced Rachel story is absent from the source document and original links were unavailable;case-dependent answers require teacher-supplied text."
+    }
+  ],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Psychology Elective/Safety Bay/2024/Resources/Worksheets/Anxiety and Depression WebQuest (1).docx",
+      "sha": "8ee4de974b5bf46fc9633992d2a108085d8ddcab",
+      "year": 10,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 18,
+  "createdSupplements": 0,
+  "notes": [
+    "All18explicit WebQuest prompts retained with proposed40marks. Current primary clinical references checked;simple chemical-imbalance explanation corrected,OCD/PTSDcategory and panic-attack distinctions explicit. Four Rachel-case prompts remain flagged for missing narrative;no unrelated personal story substituted."
+  ],
+  "markAudit": {
+    "sourceMarks": null,
+    "proposed": 40,
+    "missingCaseQuestions": 4
+  },
+  "duplicateQuestionAliases": []
+}
