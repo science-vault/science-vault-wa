@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.16-science-source103",
+  "version": "2026.10.16-science-source113",
   "status": "in_progress",
   "scope": "Original Science assessment files in repository, Years 7–10. File counts include keys and supporting materials; they are not question counts.",
   "inventoryFiles": 2009,
@@ -11,10 +11,10 @@
     "9": 457,
     "10": 582
   },
-  "importedPapers": 253,
-  "importedQuestions": 3308,
+  "importedPapers": 273,
+  "importedQuestions": 3416,
   "multipleChoice": 820,
-  "writtenQuestions": 2488,
+  "writtenQuestions": 2596,
   "battleEligibleQuestions": 711,
   "reviewRequired": [
     {
@@ -1692,6 +1692,122 @@
     {
       "id": "SCI-REPO-Y9-ARAN-2015-SOUNDPROOF-review4",
       "note": "Current legal/health research task;date and authoritative sources supplied for teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y8-NARR-2018-CHEMRESPONSE-6",
+      "note": "Printed 7-mark table lacks a complete per-cell allocation and calls all compounds molecules; preserve total and review marking distribution."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2017-CERN-274-description",
+      "note": "Unmarked research assignment with dated/error-prone supplied answers; all allocations proposed. Updated reference guidance requires teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2017-CERN-274-foundation",
+      "note": "Unmarked research assignment with dated/error-prone supplied answers; all allocations proposed. Updated reference guidance requires teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2017-CERN-274-equipment",
+      "note": "Unmarked research assignment with dated/error-prone supplied answers; all allocations proposed. Updated reference guidance requires teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2017-CERN-274-discoveries",
+      "note": "Unmarked research assignment with dated/error-prone supplied answers; all allocations proposed. Updated reference guidance requires teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2017-CERN-274-experiment",
+      "note": "Unmarked research assignment with dated/error-prone supplied answers; all allocations proposed. Updated reference guidance requires teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-NEWTON-life",
+      "note": "Calendar conventions should be stated when marking historical dates."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-FORMCLASS-classification",
+      "note": "Unmarked source; proposed allocation. Substance state and aqueous acid ionisation require clarification, and aluminium is repeated."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2012-CABBAGE-results",
+      "note": "Incorrect weak-base salt classification in source table; use actual specified salt and observations."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2012-CABBAGE-1",
+      "note": "Source has 9 question marks in aggregate; proposed 3 per parallel question. Indicator does not establish chemical acid/base strength."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2012-CABBAGE-2",
+      "note": "Source has 9 question marks in aggregate; proposed 3 per parallel question. Indicator does not establish chemical acid/base strength."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2012-CABBAGE-3",
+      "note": "Source has 9 question marks in aggregate; proposed 3 per parallel question. Indicator does not establish chemical acid/base strength."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-METALSACTIVITY-297-gold",
+      "note": "Checked supplement corrects simplified or ambiguous source claims."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-METALSACTIVITY-297-tin",
+      "note": "Checked supplement corrects simplified or ambiguous source claims."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-METALSACTIVITY-297-silver",
+      "note": "Checked supplement corrects simplified or ambiguous source claims."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-METALSACTIVITY-296-paraffin",
+      "note": "Additional general-pathway research prompt; allocation proposed. Referenced anode picture is not supplied."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-METALSACTIVITY-296-colour",
+      "note": "Additional general-pathway research prompt; allocation proposed. Referenced anode picture is not supplied."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-METALSACTIVITY-296-anode-location",
+      "note": "Additional general-pathway research prompt; allocation proposed. Referenced anode picture is not supplied."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-WORDCONNECT-6",
+      "note": "One proposed mark per source vocabulary row. Checked supplement qualifies the source definition; evaporation has no supplied matching definition."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-WORDCONNECT-9",
+      "note": "One proposed mark per source vocabulary row. Checked supplement qualifies the source definition; evaporation has no supplied matching definition."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-WORDCONNECT-15",
+      "note": "One proposed mark per source vocabulary row. Checked supplement qualifies the source definition; evaporation has no supplied matching definition."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-WORDCONNECT-16",
+      "note": "One proposed mark per source vocabulary row. Checked supplement qualifies the source definition; evaporation has no supplied matching definition."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-WORDCONNECT-19",
+      "note": "One proposed mark per source vocabulary row. Checked supplement qualifies the source definition; evaporation has no supplied matching definition."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-WORDCONNECT-23",
+      "note": "One proposed mark per source vocabulary row. Checked supplement qualifies the source definition; evaporation has no supplied matching definition."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-WORDCONNECT-24",
+      "note": "One proposed mark per source vocabulary row. Checked supplement qualifies the source definition; evaporation has no supplied matching definition."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-ELECTRONMICRO-2",
+      "note": "Supplied historical/magnification statements require checked qualifications."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-ELECTRONMICRO-5",
+      "note": "Supplied historical/magnification statements require checked qualifications."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-CHEMREV-d",
+      "note": "Unmarked source;proposed3marks. Reactant proportions/oxidising nitric acid require teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-CHEMREV-e",
+      "note": "Unmarked source;proposed3marks. Reactant proportions/oxidising nitric acid require teacher review."
     },
     {
       "id": "SCI-REPO-Y10-NAR-2024-UNIVERSE-MC02",
@@ -20162,6 +20278,1220 @@
         }
       },
       "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch104",
+      "questionIds": [
+        "SCI-REPO-Y8-NARR-2018-BIORESPONSE-respiration",
+        "SCI-REPO-Y8-NARR-2018-BIORESPONSE-photosynthesis",
+        "SCI-REPO-Y8-NARR-2018-CHEMRESPONSE-6",
+        "SCI-REPO-Y8-NARR-2019-THERMALRESPONSE-heat-transfer"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Biological Sciences/Narrogin/2018/Task 4 Biology 1 Test Answer Sheet.docx",
+          "sha": "f6a7d0222e5b93a106bf5359da47ae9b06530d09",
+          "year": 8,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Narrogin/2018/Task 6 Chemistry 1 Test Answer Sheet.docx",
+          "sha": "13cc7a97c234f03b9bdc94057aa4c6f1a5e9c255",
+          "year": 8,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Narrogin/2019/Year 8 Physics 1 Topic Test Answer Sheet 2019.docx",
+          "sha": "d61dd533cdfdbf203387e4b2e7a3b98dd27eade9",
+          "year": 8,
+          "role": "paper"
+        }
+      ],
+      "questions": 4,
+      "marks": 18,
+      "imageAudit": "question-source-packs/repo-science-batch104-audit.json",
+      "notes": [
+        "Three partial response sheets reviewed. Retained only four explicit tasks (18 marks). No embedded media present; missing MC stems, labelled diagrams and numerical scenarios cannot be reconstructed from blank slots. Original paper totals do not describe the recovered subset."
+      ],
+      "markAudit": {
+        "biologyRecovered": 2,
+        "chemistryRecovered": 7,
+        "physicsRecovered": 9,
+        "partialSources": true
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch105",
+      "questionIds": [
+        "SCI-REPO-Y9-SBY-2017-CERN-274-description",
+        "SCI-REPO-Y9-SBY-2017-CERN-274-foundation",
+        "SCI-REPO-Y9-SBY-2017-CERN-274-equipment",
+        "SCI-REPO-Y9-SBY-2017-CERN-274-discoveries",
+        "SCI-REPO-Y9-SBY-2017-CERN-274-experiment"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2017/CERN Year 9 Research Assignment - answer key (Muneeba).docx",
+          "sha": "cc47c95142ef8538a4463eb08427847d1befe31c",
+          "year": 9,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2017/CERN Year 9 Research Assignment  Muneeba - answers.docx",
+          "sha": "dc0351ece2fce4cf8252789dd30f9aabd2ad6a72",
+          "year": 9,
+          "role": "paper"
+        }
+      ],
+      "questions": 5,
+      "marks": 28,
+      "imageAudit": "question-source-packs/repo-science-batch105-audit.json",
+      "notes": [
+        "Both identical CERN assignment/answer documents reviewed; duplicate version mapped without extra questions. Five explicit headings retained with proposed 28 marks. Corrected foundation date, differentiated historical equipment and current research, and retained open researched alternatives."
+      ],
+      "markAudit": {
+        "sourceMarks": null,
+        "proposedUniqueTotal": 28,
+        "versions": 2
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2017/CERN Year 9 Research Assignment  Muneeba - answers.docx",
+          "sourceFileSha": "dc0351ece2fce4cf8252789dd30f9aabd2ad6a72",
+          "sourceQuestionNumber": "description",
+          "sourceParagraphs": [
+            0
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-CERN-274-description",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2017/CERN Year 9 Research Assignment  Muneeba - answers.docx",
+          "sourceFileSha": "dc0351ece2fce4cf8252789dd30f9aabd2ad6a72",
+          "sourceQuestionNumber": "foundation",
+          "sourceParagraphs": [
+            4
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-CERN-274-foundation",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2017/CERN Year 9 Research Assignment  Muneeba - answers.docx",
+          "sourceFileSha": "dc0351ece2fce4cf8252789dd30f9aabd2ad6a72",
+          "sourceQuestionNumber": "equipment",
+          "sourceParagraphs": [
+            8
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-CERN-274-equipment",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2017/CERN Year 9 Research Assignment  Muneeba - answers.docx",
+          "sourceFileSha": "dc0351ece2fce4cf8252789dd30f9aabd2ad6a72",
+          "sourceQuestionNumber": "discoveries",
+          "sourceParagraphs": [
+            17,
+            25
+          ],
+          "sourceMarks": 12,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-CERN-274-discoveries",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2017/CERN Year 9 Research Assignment  Muneeba - answers.docx",
+          "sourceFileSha": "dc0351ece2fce4cf8252789dd30f9aabd2ad6a72",
+          "sourceQuestionNumber": "experiment",
+          "sourceParagraphs": [
+            26,
+            28
+          ],
+          "sourceMarks": 6,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-CERN-274-experiment",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch106",
+      "questionIds": [
+        "SCI-REPO-Y9-ARAN-NEWTON-life",
+        "SCI-REPO-Y9-ARAN-NEWTON-famous",
+        "SCI-REPO-Y9-ARAN-NEWTON-fact",
+        "SCI-REPO-Y9-ARAN-NEWTON-discovery",
+        "SCI-REPO-Y9-ARAN-NEWTON-method",
+        "SCI-REPO-Y9-ARAN-NEWTON-other",
+        "SCI-REPO-Y9-ARAN-NEWTON-definition",
+        "SCI-REPO-Y9-ARAN-NEWTON-diagram",
+        "SCI-REPO-Y9-ARAN-NEWTON-useful",
+        "SCI-REPO-Y9-ARAN-NEWTON-references"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Physics/Aranmore/Sir Isaac Newton Assignment.docx",
+          "sha": "19354e72aa4a39cd46307878d474bca7f9293d37",
+          "year": 9,
+          "role": "paper"
+        }
+      ],
+      "questions": 10,
+      "marks": 29,
+      "imageAudit": "question-source-packs/repo-science-batch106-audit.json",
+      "notes": [
+        "Complete Newton research assignment reviewed against shaded rubric. Retained ten content/reference tasks,29marks. Cover2 and generalpresentation4 logged separately:35total. Historical-calendar alternatives made explicit; no invented references or single wavelength assigned to a colour band."
+      ],
+      "markAudit": {
+        "rubricTotal": 35,
+        "selectedContentAndReferences": 29,
+        "cover": 2,
+        "presentation": 4
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch107",
+      "questionIds": [
+        "SCI-REPO-Y10-SBY-2017-FORMCLASS-classification",
+        "SCI-REPO-Y10-ARAN-2012-CABBAGE-results",
+        "SCI-REPO-Y10-ARAN-2012-CABBAGE-1",
+        "SCI-REPO-Y10-ARAN-2012-CABBAGE-2",
+        "SCI-REPO-Y10-ARAN-2012-CABBAGE-3",
+        "SCI-REPO-Y10-ARAN-POPBRIDGE-hypothesis",
+        "SCI-REPO-Y10-ARAN-POPBRIDGE-research",
+        "SCI-REPO-Y10-ARAN-POPBRIDGE-features",
+        "SCI-REPO-Y10-ARAN-POPBRIDGE-design",
+        "SCI-REPO-Y10-ARAN-POPBRIDGE-failure",
+        "SCI-REPO-Y10-ARAN-POPBRIDGE-comparison"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2017/Chemistry Extension/ATAR Chemistry/Classification of substances from their formula.docx",
+          "sha": "093d5f9decbf60de8db01d6d302c4a105ee4db01",
+          "year": 10,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2012 10 GENERAL RED CABBAGE INDICATOR EXPERIMENT ASSESSMENT.docx",
+          "sha": "6a1d52c071bd0cadecf9bf2b3b472dca986cff09",
+          "year": 10,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2012 10 GENERAL RED CABBAGE INDICATOR EXPERIMENT ASSESSMENT ANWER KEY.docx",
+          "sha": "680ac472cfd5bb79399985e57e67e19d5b69a10d",
+          "year": 10,
+          "role": "key_reference"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/Pop Stick Bridge Investigation.docx",
+          "sha": "11f724290f95520e503b1899f7c837db64cc023a",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 11,
+      "marks": 50,
+      "imageAudit": "question-source-packs/repo-science-batch107-audit.json",
+      "notes": [
+        "Classifying-formula worksheet, complete cabbage task and bridge investigation reviewed. Corrected salt/indicator-strength assumptions; raw readings and failure loads not invented. Bridge behaviour/teamwork/time6 tracked separately from18printed content marks and1proposed hypothesis mark."
+      ],
+      "markAudit": {
+        "formulaClassification": "20 proposed unique formula marks; Al repeated",
+        "cabbage": {
+          "results": 2,
+          "questions": 9,
+          "behaviour": 25,
+          "total": 36
+        },
+        "bridge": {
+          "printedContent": 18,
+          "behaviour": 6,
+          "proposedHypothesis": 1
+        }
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch108",
+      "questionIds": [
+        "SCI-REPO-Y10-ARAN-STARPOSTER-306-definition",
+        "SCI-REPO-Y10-ARAN-STARPOSTER-306-pathdiagram",
+        "SCI-REPO-Y10-ARAN-STARPOSTER-306-pathways",
+        "SCI-REPO-Y10-ARAN-STARPOSTER-306-mass",
+        "SCI-REPO-Y10-ARAN-STARPOSTER-306-death",
+        "SCI-REPO-Y10-ARAN-STARPOSTER-306-labels",
+        "SCI-REPO-Y10-ARAN-STARPOSTER-306-references"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/poster assessment life cycle of a star.docx",
+          "sha": "3a64d2b0b145a43c8f6439dd218b8f5433d6f490",
+          "year": 10,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2015 poster assessment life cycle of a star.docx",
+          "sha": "b5d30088a45d098e8d457b1c981934795b549900",
+          "year": 10,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2016 Assessment life cycle of a star.docx",
+          "sha": "7944b2e233be3cf5bcf4e9437e4db52b5770e047",
+          "year": 10,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2016 Assessment life cycle of a star term2.docx",
+          "sha": "dd95459d0952f8068b88bef6cf297e31bd2b5e99",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 7,
+      "marks": 29,
+      "imageAudit": "question-source-packs/repo-science-batch108-audit.json",
+      "notes": [
+        "Four stellar poster variants reviewed; seven equivalent core tasks retained once,with source-specific marks mapped. Two older rubrics have totals one mark below their listed rows. Stage diagrams kept independently from explanatory text."
+      ],
+      "markAudit": {
+        "306": {
+          "printed": 36,
+          "sumRows": 37,
+          "selected": 29,
+          "presentation": 8
+        },
+        "307": {
+          "printed": 38,
+          "sumRows": 39,
+          "selected": 29,
+          "presentationAndDraft": 10
+        },
+        "323": {
+          "printed": 26,
+          "sumRows": 26,
+          "selected": 18,
+          "presentation": 8
+        },
+        "324": {
+          "printed": 36,
+          "sumRows": 36,
+          "selected": 30,
+          "presentation": 6
+        }
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2015 poster assessment life cycle of a star.docx",
+          "sourceFileSha": "b5d30088a45d098e8d457b1c981934795b549900",
+          "sourceQuestionNumber": "definition",
+          "sourceParagraphs": [
+            7
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-STARPOSTER-306-definition",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2015 poster assessment life cycle of a star.docx",
+          "sourceFileSha": "b5d30088a45d098e8d457b1c981934795b549900",
+          "sourceQuestionNumber": "pathdiagram",
+          "sourceParagraphs": [
+            10,
+            21
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Diagram",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-STARPOSTER-306-pathdiagram",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2015 poster assessment life cycle of a star.docx",
+          "sourceFileSha": "b5d30088a45d098e8d457b1c981934795b549900",
+          "sourceQuestionNumber": "pathways",
+          "sourceParagraphs": [
+            10,
+            11
+          ],
+          "sourceMarks": 10,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-STARPOSTER-306-pathways",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2015 poster assessment life cycle of a star.docx",
+          "sourceFileSha": "b5d30088a45d098e8d457b1c981934795b549900",
+          "sourceQuestionNumber": "mass",
+          "sourceParagraphs": [
+            12
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-STARPOSTER-306-mass",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2015 poster assessment life cycle of a star.docx",
+          "sourceFileSha": "b5d30088a45d098e8d457b1c981934795b549900",
+          "sourceQuestionNumber": "death",
+          "sourceParagraphs": [
+            13
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-STARPOSTER-306-death",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2015 poster assessment life cycle of a star.docx",
+          "sourceFileSha": "b5d30088a45d098e8d457b1c981934795b549900",
+          "sourceQuestionNumber": "labels",
+          "sourceParagraphs": [
+            21
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-STARPOSTER-306-labels",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2015 poster assessment life cycle of a star.docx",
+          "sourceFileSha": "b5d30088a45d098e8d457b1c981934795b549900",
+          "sourceQuestionNumber": "references",
+          "sourceParagraphs": [
+            16
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-STARPOSTER-306-references",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2016 Assessment life cycle of a star.docx",
+          "sourceFileSha": "7944b2e233be3cf5bcf4e9437e4db52b5770e047",
+          "sourceQuestionNumber": "definition",
+          "sourceParagraphs": [
+            7
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-STARPOSTER-306-definition",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2016 Assessment life cycle of a star.docx",
+          "sourceFileSha": "7944b2e233be3cf5bcf4e9437e4db52b5770e047",
+          "sourceQuestionNumber": "pathdiagram",
+          "sourceParagraphs": [
+            10,
+            21
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Diagram",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-STARPOSTER-306-pathdiagram",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2016 Assessment life cycle of a star.docx",
+          "sourceFileSha": "7944b2e233be3cf5bcf4e9437e4db52b5770e047",
+          "sourceQuestionNumber": "pathways",
+          "sourceParagraphs": [
+            10,
+            11
+          ],
+          "sourceMarks": 6,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-STARPOSTER-306-pathways",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2016 Assessment life cycle of a star.docx",
+          "sourceFileSha": "7944b2e233be3cf5bcf4e9437e4db52b5770e047",
+          "sourceQuestionNumber": "mass",
+          "sourceParagraphs": [
+            12
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-STARPOSTER-306-mass",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2016 Assessment life cycle of a star.docx",
+          "sourceFileSha": "7944b2e233be3cf5bcf4e9437e4db52b5770e047",
+          "sourceQuestionNumber": "death",
+          "sourceParagraphs": [
+            13
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-STARPOSTER-306-death",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2016 Assessment life cycle of a star.docx",
+          "sourceFileSha": "7944b2e233be3cf5bcf4e9437e4db52b5770e047",
+          "sourceQuestionNumber": "labels",
+          "sourceParagraphs": [
+            21
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-STARPOSTER-306-labels",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2016 Assessment life cycle of a star.docx",
+          "sourceFileSha": "7944b2e233be3cf5bcf4e9437e4db52b5770e047",
+          "sourceQuestionNumber": "references",
+          "sourceParagraphs": [
+            16
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-STARPOSTER-306-references",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2016 Assessment life cycle of a star term2.docx",
+          "sourceFileSha": "dd95459d0952f8068b88bef6cf297e31bd2b5e99",
+          "sourceQuestionNumber": "definition",
+          "sourceParagraphs": [
+            7
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-STARPOSTER-306-definition",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2016 Assessment life cycle of a star term2.docx",
+          "sourceFileSha": "dd95459d0952f8068b88bef6cf297e31bd2b5e99",
+          "sourceQuestionNumber": "pathdiagram",
+          "sourceParagraphs": [
+            10,
+            21
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Diagram",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-STARPOSTER-306-pathdiagram",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2016 Assessment life cycle of a star term2.docx",
+          "sourceFileSha": "dd95459d0952f8068b88bef6cf297e31bd2b5e99",
+          "sourceQuestionNumber": "pathways",
+          "sourceParagraphs": [
+            10,
+            11
+          ],
+          "sourceMarks": 10,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-STARPOSTER-306-pathways",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2016 Assessment life cycle of a star term2.docx",
+          "sourceFileSha": "dd95459d0952f8068b88bef6cf297e31bd2b5e99",
+          "sourceQuestionNumber": "mass",
+          "sourceParagraphs": [
+            12
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-STARPOSTER-306-mass",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2016 Assessment life cycle of a star term2.docx",
+          "sourceFileSha": "dd95459d0952f8068b88bef6cf297e31bd2b5e99",
+          "sourceQuestionNumber": "death",
+          "sourceParagraphs": [
+            13
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-STARPOSTER-306-death",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2016 Assessment life cycle of a star term2.docx",
+          "sourceFileSha": "dd95459d0952f8068b88bef6cf297e31bd2b5e99",
+          "sourceQuestionNumber": "labels",
+          "sourceParagraphs": [
+            21
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-STARPOSTER-306-labels",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2016 Assessment life cycle of a star term2.docx",
+          "sourceFileSha": "dd95459d0952f8068b88bef6cf297e31bd2b5e99",
+          "sourceQuestionNumber": "references",
+          "sourceParagraphs": [
+            16
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-STARPOSTER-306-references",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch109",
+      "questionIds": [
+        "SCI-REPO-Y10-SBY-METALSACTIVITY-297-gold",
+        "SCI-REPO-Y10-SBY-METALSACTIVITY-297-calcium",
+        "SCI-REPO-Y10-SBY-METALSACTIVITY-297-zinc",
+        "SCI-REPO-Y10-SBY-METALSACTIVITY-297-tin",
+        "SCI-REPO-Y10-SBY-METALSACTIVITY-297-sodium",
+        "SCI-REPO-Y10-SBY-METALSACTIVITY-297-copper",
+        "SCI-REPO-Y10-SBY-METALSACTIVITY-297-anode-a",
+        "SCI-REPO-Y10-SBY-METALSACTIVITY-297-anode-b",
+        "SCI-REPO-Y10-SBY-METALSACTIVITY-297-silver",
+        "SCI-REPO-Y10-SBY-METALSACTIVITY-297-references",
+        "SCI-REPO-Y10-SBY-METALSACTIVITY-296-paraffin",
+        "SCI-REPO-Y10-SBY-METALSACTIVITY-296-colour",
+        "SCI-REPO-Y10-SBY-METALSACTIVITY-296-anode-location"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2019/ATAR Pathway/Research Assignment ANSWERS - Activity Series of Metals.docx",
+          "sha": "f80458466c5ae881a0252fb6a6d8ebf9a1d468ee",
+          "year": 10,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2019/GENERAL Pathway/Research Assignment - Activity Series of Metals 2020.docx",
+          "sha": "30001973bff7ce7e5a35eaf3094b371b1c0fed87",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 13,
+      "marks": 23,
+      "imageAudit": "question-source-packs/repo-science-batch109-audit.json",
+      "notes": [
+        "Both activity-series documents reviewed. Ten common tasks linked across versions; three expanded general-pathway research tasks retained. Corrected zinc/tin protection, gold strength and silver-ion assumptions. No missing anode picture reconstructed."
+      ],
+      "markAudit": {
+        "commonPrintedTotal": 15,
+        "additionalGeneralProposed": 8
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2019/GENERAL Pathway/Research Assignment - Activity Series of Metals 2020.docx",
+          "sourceFileSha": "30001973bff7ce7e5a35eaf3094b371b1c0fed87",
+          "sourceQuestionNumber": "gold",
+          "sourceParagraphs": [
+            4
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-METALSACTIVITY-297-gold",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2019/GENERAL Pathway/Research Assignment - Activity Series of Metals 2020.docx",
+          "sourceFileSha": "30001973bff7ce7e5a35eaf3094b371b1c0fed87",
+          "sourceQuestionNumber": "calcium",
+          "sourceParagraphs": [
+            7,
+            9
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-METALSACTIVITY-297-calcium",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2019/GENERAL Pathway/Research Assignment - Activity Series of Metals 2020.docx",
+          "sourceFileSha": "30001973bff7ce7e5a35eaf3094b371b1c0fed87",
+          "sourceQuestionNumber": "zinc",
+          "sourceParagraphs": [
+            11
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-METALSACTIVITY-297-zinc",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2019/GENERAL Pathway/Research Assignment - Activity Series of Metals 2020.docx",
+          "sourceFileSha": "30001973bff7ce7e5a35eaf3094b371b1c0fed87",
+          "sourceQuestionNumber": "tin",
+          "sourceParagraphs": [
+            13,
+            14
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-METALSACTIVITY-297-tin",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2019/GENERAL Pathway/Research Assignment - Activity Series of Metals 2020.docx",
+          "sourceFileSha": "30001973bff7ce7e5a35eaf3094b371b1c0fed87",
+          "sourceQuestionNumber": "sodium",
+          "sourceParagraphs": [
+            16
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-METALSACTIVITY-297-sodium",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2019/GENERAL Pathway/Research Assignment - Activity Series of Metals 2020.docx",
+          "sourceFileSha": "30001973bff7ce7e5a35eaf3094b371b1c0fed87",
+          "sourceQuestionNumber": "copper",
+          "sourceParagraphs": [
+            18,
+            19
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-METALSACTIVITY-297-copper",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2019/GENERAL Pathway/Research Assignment - Activity Series of Metals 2020.docx",
+          "sourceFileSha": "30001973bff7ce7e5a35eaf3094b371b1c0fed87",
+          "sourceQuestionNumber": "anode-a",
+          "sourceParagraphs": [
+            21,
+            22
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-METALSACTIVITY-297-anode-a",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2019/GENERAL Pathway/Research Assignment - Activity Series of Metals 2020.docx",
+          "sourceFileSha": "30001973bff7ce7e5a35eaf3094b371b1c0fed87",
+          "sourceQuestionNumber": "anode-b",
+          "sourceParagraphs": [
+            21,
+            23
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-METALSACTIVITY-297-anode-b",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2019/GENERAL Pathway/Research Assignment - Activity Series of Metals 2020.docx",
+          "sourceFileSha": "30001973bff7ce7e5a35eaf3094b371b1c0fed87",
+          "sourceQuestionNumber": "silver",
+          "sourceParagraphs": [
+            25
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-METALSACTIVITY-297-silver",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2019/GENERAL Pathway/Research Assignment - Activity Series of Metals 2020.docx",
+          "sourceFileSha": "30001973bff7ce7e5a35eaf3094b371b1c0fed87",
+          "sourceQuestionNumber": "references",
+          "sourceParagraphs": [
+            27
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-METALSACTIVITY-297-references",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch110",
+      "questionIds": [
+        "SCI-REPO-Y10-ARAN-WORDCONNECT-1",
+        "SCI-REPO-Y10-ARAN-WORDCONNECT-2",
+        "SCI-REPO-Y10-ARAN-WORDCONNECT-3",
+        "SCI-REPO-Y10-ARAN-WORDCONNECT-4",
+        "SCI-REPO-Y10-ARAN-WORDCONNECT-5",
+        "SCI-REPO-Y10-ARAN-WORDCONNECT-6",
+        "SCI-REPO-Y10-ARAN-WORDCONNECT-7",
+        "SCI-REPO-Y10-ARAN-WORDCONNECT-8",
+        "SCI-REPO-Y10-ARAN-WORDCONNECT-9",
+        "SCI-REPO-Y10-ARAN-WORDCONNECT-10",
+        "SCI-REPO-Y10-ARAN-WORDCONNECT-11",
+        "SCI-REPO-Y10-ARAN-WORDCONNECT-12",
+        "SCI-REPO-Y10-ARAN-WORDCONNECT-13",
+        "SCI-REPO-Y10-ARAN-WORDCONNECT-14",
+        "SCI-REPO-Y10-ARAN-WORDCONNECT-15",
+        "SCI-REPO-Y10-ARAN-WORDCONNECT-16",
+        "SCI-REPO-Y10-ARAN-WORDCONNECT-17",
+        "SCI-REPO-Y10-ARAN-WORDCONNECT-18",
+        "SCI-REPO-Y10-ARAN-WORDCONNECT-19",
+        "SCI-REPO-Y10-ARAN-WORDCONNECT-20",
+        "SCI-REPO-Y10-ARAN-WORDCONNECT-21",
+        "SCI-REPO-Y10-ARAN-WORDCONNECT-22",
+        "SCI-REPO-Y10-ARAN-WORDCONNECT-23",
+        "SCI-REPO-Y10-ARAN-WORDCONNECT-24",
+        "SCI-REPO-Y10-ARAN-WORDCONNECT-25",
+        "SCI-REPO-Y10-ARAN-WORDCONNECT-26"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/Word conection revision.docx",
+          "sha": "a8b9aed61e259326e235c538be2d5a3fd9550bf8",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 26,
+      "marks": 26,
+      "imageAudit": "question-source-packs/repo-science-batch110-audit.json",
+      "notes": [
+        "All26vocabulary rows retained. Unused vibration-transfer fragment not counted as another question. Source definition for evaporation absent; supplement provided. Inertia/firstlaw,supernova,respiration andbuckling distinctions made explicit."
+      ],
+      "markAudit": {
+        "printedMarks": null,
+        "proposed": 26
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch111",
+      "questionIds": [
+        "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-title",
+        "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-aim",
+        "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-intro",
+        "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-hypothesis",
+        "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-independent",
+        "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-dependent",
+        "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-controls",
+        "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-materials",
+        "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-method",
+        "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-diagram",
+        "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-reliability",
+        "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-results",
+        "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-calculations",
+        "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-graphs",
+        "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-discussion",
+        "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-conclusion",
+        "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-references"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2016 Speed Ticker Tape Inv.docx",
+          "sha": "fb376624b0449cde93650aa4143a41757bee6df7",
+          "year": 10,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Speed Ticker Tape Inv.docx",
+          "sha": "e41f39394de756a3224290f11dc3256d5a791b52",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 17,
+      "marks": 41,
+      "imageAudit": "question-source-packs/repo-science-batch111-audit.json",
+      "notes": [
+        "Both ticker-tape surface investigations reviewed. Equivalent17core tasks linked across years without new question inflation. Printed43includes2presentation;41task marks retained. Actual ticker frequency,readings and missing textbook method not invented."
+      ],
+      "markAudit": {
+        "printedTotal": 43,
+        "taskMarks": 41,
+        "presentation": 2,
+        "versions": 2
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Speed Ticker Tape Inv.docx",
+          "sourceFileSha": "e41f39394de756a3224290f11dc3256d5a791b52",
+          "sourceQuestionNumber": "title",
+          "sourceParagraphs": [
+            3,
+            5,
+            6,
+            7,
+            8,
+            9,
+            14
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-title",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Speed Ticker Tape Inv.docx",
+          "sourceFileSha": "e41f39394de756a3224290f11dc3256d5a791b52",
+          "sourceQuestionNumber": "aim",
+          "sourceParagraphs": [
+            3,
+            5,
+            6,
+            7,
+            8,
+            9,
+            14
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-aim",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Speed Ticker Tape Inv.docx",
+          "sourceFileSha": "e41f39394de756a3224290f11dc3256d5a791b52",
+          "sourceQuestionNumber": "intro",
+          "sourceParagraphs": [
+            3,
+            5,
+            6,
+            7,
+            8,
+            9,
+            14
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-intro",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Speed Ticker Tape Inv.docx",
+          "sourceFileSha": "e41f39394de756a3224290f11dc3256d5a791b52",
+          "sourceQuestionNumber": "hypothesis",
+          "sourceParagraphs": [
+            3,
+            5,
+            6,
+            7,
+            8,
+            9,
+            14
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-hypothesis",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Speed Ticker Tape Inv.docx",
+          "sourceFileSha": "e41f39394de756a3224290f11dc3256d5a791b52",
+          "sourceQuestionNumber": "independent",
+          "sourceParagraphs": [
+            3,
+            5,
+            6,
+            7,
+            8,
+            9,
+            14
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-independent",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Speed Ticker Tape Inv.docx",
+          "sourceFileSha": "e41f39394de756a3224290f11dc3256d5a791b52",
+          "sourceQuestionNumber": "dependent",
+          "sourceParagraphs": [
+            3,
+            5,
+            6,
+            7,
+            8,
+            9,
+            14
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-dependent",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Speed Ticker Tape Inv.docx",
+          "sourceFileSha": "e41f39394de756a3224290f11dc3256d5a791b52",
+          "sourceQuestionNumber": "controls",
+          "sourceParagraphs": [
+            3,
+            5,
+            6,
+            7,
+            8,
+            9,
+            14
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-controls",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Speed Ticker Tape Inv.docx",
+          "sourceFileSha": "e41f39394de756a3224290f11dc3256d5a791b52",
+          "sourceQuestionNumber": "materials",
+          "sourceParagraphs": [
+            3,
+            5,
+            6,
+            7,
+            8,
+            9,
+            14
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-materials",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Speed Ticker Tape Inv.docx",
+          "sourceFileSha": "e41f39394de756a3224290f11dc3256d5a791b52",
+          "sourceQuestionNumber": "method",
+          "sourceParagraphs": [
+            3,
+            5,
+            6,
+            7,
+            8,
+            9,
+            14
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-method",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Speed Ticker Tape Inv.docx",
+          "sourceFileSha": "e41f39394de756a3224290f11dc3256d5a791b52",
+          "sourceQuestionNumber": "diagram",
+          "sourceParagraphs": [
+            3,
+            5,
+            6,
+            7,
+            8,
+            9,
+            14
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Diagram",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-diagram",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Speed Ticker Tape Inv.docx",
+          "sourceFileSha": "e41f39394de756a3224290f11dc3256d5a791b52",
+          "sourceQuestionNumber": "reliability",
+          "sourceParagraphs": [
+            3,
+            5,
+            6,
+            7,
+            8,
+            9,
+            14
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-reliability",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Speed Ticker Tape Inv.docx",
+          "sourceFileSha": "e41f39394de756a3224290f11dc3256d5a791b52",
+          "sourceQuestionNumber": "results",
+          "sourceParagraphs": [
+            3,
+            5,
+            6,
+            7,
+            8,
+            9,
+            14
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-results",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Speed Ticker Tape Inv.docx",
+          "sourceFileSha": "e41f39394de756a3224290f11dc3256d5a791b52",
+          "sourceQuestionNumber": "calculations",
+          "sourceParagraphs": [
+            3,
+            5,
+            6,
+            7,
+            8,
+            9,
+            14
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-calculations",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Speed Ticker Tape Inv.docx",
+          "sourceFileSha": "e41f39394de756a3224290f11dc3256d5a791b52",
+          "sourceQuestionNumber": "graphs",
+          "sourceParagraphs": [
+            3,
+            5,
+            6,
+            7,
+            8,
+            9,
+            14
+          ],
+          "sourceMarks": 5,
+          "sourceType": "Diagram",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-graphs",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Speed Ticker Tape Inv.docx",
+          "sourceFileSha": "e41f39394de756a3224290f11dc3256d5a791b52",
+          "sourceQuestionNumber": "discussion",
+          "sourceParagraphs": [
+            3,
+            5,
+            6,
+            7,
+            8,
+            9,
+            14
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-discussion",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Speed Ticker Tape Inv.docx",
+          "sourceFileSha": "e41f39394de756a3224290f11dc3256d5a791b52",
+          "sourceQuestionNumber": "conclusion",
+          "sourceParagraphs": [
+            3,
+            5,
+            6,
+            7,
+            8,
+            9,
+            14
+          ],
+          "sourceMarks": 5,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-conclusion",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Speed Ticker Tape Inv.docx",
+          "sourceFileSha": "e41f39394de756a3224290f11dc3256d5a791b52",
+          "sourceQuestionNumber": "references",
+          "sourceParagraphs": [
+            3,
+            5,
+            6,
+            7,
+            8,
+            9,
+            14
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-references",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch112",
+      "questionIds": [
+        "SCI-REPO-Y10-SBY-2017-ELECTRONMICRO-1",
+        "SCI-REPO-Y10-SBY-2017-ELECTRONMICRO-2",
+        "SCI-REPO-Y10-SBY-2017-ELECTRONMICRO-3",
+        "SCI-REPO-Y10-SBY-2017-ELECTRONMICRO-4",
+        "SCI-REPO-Y10-SBY-2017-ELECTRONMICRO-5",
+        "SCI-REPO-Y10-SBY-2017-ELECTRONMICRO-6",
+        "SCI-REPO-Y10-SBY-2017-ELECTRONMICRO-7",
+        "SCI-REPO-Y10-SBY-2017-ELECTRONMICRO-8"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Forensic Science/Safety Bay/2017/Year 10- Research Assignment - Electron microscope.docx",
+          "sha": "7dfa9a31b1129b4c6eb3ec348202e3373a0cf5ca",
+          "year": 10,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Forensic Science/Safety Bay/2017/Research assignment - Electron microscope (Answers).docx",
+          "sha": "4ea49bf461f8f1a38ddcce98d83c5d06e36727de",
+          "year": 10,
+          "role": "key_reference"
+        }
+      ],
+      "questions": 8,
+      "marks": 25,
+      "imageAudit": "question-source-packs/repo-science-batch112-audit.json",
+      "notes": [
+        "Complete8task25mark electron-microscope assignment reviewed with paired key. Distinguishes1931prototype and1933resolution milestone,TEM/SEM imaging and magnification/resolution. No universal current instrument maximum invented."
+      ],
+      "markAudit": {
+        "printed": 25,
+        "selected": 25
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch113",
+      "questionIds": [
+        "SCI-REPO-Y10-SBY-2017-CHEMREV-a",
+        "SCI-REPO-Y10-SBY-2017-CHEMREV-b",
+        "SCI-REPO-Y10-SBY-2017-CHEMREV-c",
+        "SCI-REPO-Y10-SBY-2017-CHEMREV-d",
+        "SCI-REPO-Y10-SBY-2017-CHEMREV-e",
+        "SCI-REPO-Y10-SBY-2017-CHEMREV-bonding",
+        "SCI-REPO-Y10-SBY-2017-CHEMREV-precipitate"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2017/Chemistry Extension/ATAR Chemistry/Year 10 Revision for Chemistry 2017 Sem 2.docx",
+          "sha": "413f0f2cbb81372fbafa68fa86601764ee34833f",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 7,
+      "marks": 23,
+      "imageAudit": "question-source-packs/repo-science-batch113-audit.json",
+      "notes": [
+        "Five explicit equation exercises and two complete conceptual prompts retained. Nitric-acid/calcium item flagged as chemically underspecified;source’s blanket acid–metal hydrogen rule not carried into key. Missing formula/element lists and solubility data not fabricated."
+      ],
+      "markAudit": {
+        "printed": null,
+        "proposed": 23
+      },
+      "duplicateQuestionAliases": []
     }
   ],
   "files": [
@@ -22349,8 +23679,9 @@
       "sha": "db5670fbd3b43e5bd57531e1ffe89e4520eaaef2",
       "year": 7,
       "size": 13375,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_key_reference",
+      "duplicateOf": null,
+      "reviewReason": "Duplicate answer-only key: original question stems and experimental context absent."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2018/Earth and space system 2.docx",
@@ -22493,8 +23824,9 @@
       "sha": "4b513a25f7250f195827f763810c6b80df8a40ca",
       "year": 7,
       "size": 12980,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_key_reference",
+      "duplicateOf": null,
+      "reviewReason": "Answer-only key: no original question stems or experimental diagrams supplied. Retained as reference pending a matching paper."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2022/ESS2 Test.docx",
@@ -22549,8 +23881,9 @@
       "sha": "4b513a25f7250f195827f763810c6b80df8a40ca",
       "year": 7,
       "size": 12980,
-      "status": "pending",
-      "duplicateOf": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2022/ESS2 Test Answers.docx"
+      "status": "reviewed_key_reference",
+      "duplicateOf": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2022/ESS2 Test Answers.docx",
+      "reviewReason": "Answer-only key: no original question stems or experimental diagrams supplied. Retained as reference pending a matching paper."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2023/ESS2 Test.docx",
@@ -24645,7 +25978,7 @@
       "sha": "f6a7d0222e5b93a106bf5359da47ae9b06530d09",
       "year": 8,
       "size": 19990,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -25689,7 +27022,7 @@
       "sha": "13cc7a97c234f03b9bdc94057aa4c6f1a5e9c255",
       "year": 8,
       "size": 21123,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -27641,8 +28974,9 @@
       "sha": "545a70b4f22019d0ef1724a234a123e424405e78",
       "year": 8,
       "size": 20331,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Blank response slots without original Physics questions, numerical scenarios or diagrams."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Narrogin/2018/Year 8 Physics 2 Test Heat 2018.doc",
@@ -27705,7 +29039,7 @@
       "sha": "d61dd533cdfdbf203387e4b2e7a3b98dd27eade9",
       "year": 8,
       "size": 21339,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -28686,8 +30020,9 @@
       "sha": "72e68987d1c37e8f6f1ce77e3037f2e82db36820",
       "year": 9,
       "size": 18213,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Blank multiple-choice answer grid; no stems or alternatives."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Narrogin/2022/Validation for Toolibin Excursion.docx",
@@ -29867,7 +31202,7 @@
       "sha": "dc0351ece2fce4cf8252789dd30f9aabd2ad6a72",
       "year": 9,
       "size": 17723,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -29875,7 +31210,7 @@
       "sha": "cc47c95142ef8538a4463eb08427847d1befe31c",
       "year": 9,
       "size": 17716,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -30100,8 +31435,9 @@
       "sha": "94067fd00937bf391427978ed2fb15ae2e74b6a0",
       "year": 9,
       "size": 20604,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Equipment list only, without an experimental question or student task."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/Year 9 Semester 2 Exam 901 902 .docx",
@@ -30606,8 +31942,9 @@
       "sha": "75c75e5f29aeeb270440fe154c3f638c294a7ffa",
       "year": 9,
       "size": 15176,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Single external papier-mache volcano URL; no assessment prompt or marking criteria."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2018/NEW - Volcano Model and Report Marking Key.docx",
@@ -30974,7 +32311,7 @@
       "sha": "19354e72aa4a39cd46307878d474bca7f9293d37",
       "year": 9,
       "size": 16763,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -32644,8 +33981,9 @@
       "sha": "bd906272d4299718537d9d3b1f4b12e308057323",
       "year": 10,
       "size": 14687,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Safety/participation observation tally only; no science assessment questions."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2012 10 GENERAL PERIODIC TABLE RESEARCH ASSIGNMENT.docx",
@@ -32660,15 +33998,16 @@
       "sha": "680ac472cfd5bb79399985e57e67e19d5b69a10d",
       "year": 10,
       "size": 14464,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Cabbage experiment scoring summary only; associated complete task reviewed separately in batch107."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2012 10 GENERAL RED CABBAGE INDICATOR EXPERIMENT ASSESSMENT.docx",
       "sha": "6a1d52c071bd0cadecf9bf2b3b472dca986cff09",
       "year": 10,
       "size": 16122,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -32716,8 +34055,9 @@
       "sha": "094d3351163f97b1d4199a0f7968e35f10b4634b",
       "year": 10,
       "size": 15846,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Cover page only: research-report title/name/due date; no task content."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2013 10 ELEMENTS TEST.docx",
@@ -33020,8 +34360,9 @@
       "sha": "985172ba40c5e7c625ad639e37ff448c9c48b036",
       "year": 10,
       "size": 13085,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Blank multiple-choice answer grid; original question stems absent."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/esl chem topic test 1 2015.docx",
@@ -33566,7 +34907,7 @@
       "sha": "093d5f9decbf60de8db01d6d302c4a105ee4db01",
       "year": 10,
       "size": 13497,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -33823,7 +35164,7 @@
       "sha": "413f0f2cbb81372fbafa68fa86601764ee34833f",
       "year": 10,
       "size": 15430,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -33960,7 +35301,7 @@
       "sha": "f80458466c5ae881a0252fb6a6d8ebf9a1d468ee",
       "year": 10,
       "size": 14353,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -34001,7 +35342,7 @@
       "sha": "30001973bff7ce7e5a35eaf3094b371b1c0fed87",
       "year": 10,
       "size": 14167,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -34009,7 +35350,7 @@
       "sha": "f80458466c5ae881a0252fb6a6d8ebf9a1d468ee",
       "year": 10,
       "size": 14353,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2019/ATAR Pathway/Research Assignment ANSWERS - Activity Series of Metals.docx"
     },
     {
@@ -34292,7 +35633,7 @@
       "sha": "b5d30088a45d098e8d457b1c981934795b549900",
       "year": 10,
       "size": 15172,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -34308,7 +35649,7 @@
       "sha": "dd95459d0952f8068b88bef6cf297e31bd2b5e99",
       "year": 10,
       "size": 20730,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -34316,7 +35657,7 @@
       "sha": "7944b2e233be3cf5bcf4e9437e4db52b5770e047",
       "year": 10,
       "size": 20726,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -34324,8 +35665,9 @@
       "sha": "b526742da35ba763898187b5d3990eb28925bc0c",
       "year": 10,
       "size": 19381,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Teaching program, curriculum descriptors and assessment weights; no actual assigned questions."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2016 Year 10 Term 1 Earth Test One - solution.docx",
@@ -34397,7 +35739,7 @@
       "sha": "a8b9aed61e259326e235c538be2d5a3fd9550bf8",
       "year": 10,
       "size": 16869,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -34413,7 +35755,7 @@
       "sha": "3a64d2b0b145a43c8f6439dd218b8f5433d6f490",
       "year": 10,
       "size": 15134,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -34901,16 +36243,18 @@
       "sha": "c2ff7515ea0265f051ed03bc49d1e8f5f3684409",
       "year": 10,
       "size": 15060,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Exam administration instructions only; no question content."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/Year 10 Science Mainstream Exam 1hr instructions to students.docx",
       "sha": "f097a7aa82e73a231de39638b0e962b6f61bd354",
       "year": 10,
       "size": 14954,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Exam administration instructions only; no question content."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/Year 10 science exam  inc cover page.doc",
@@ -34973,7 +36317,7 @@
       "sha": "4ea49bf461f8f1a38ddcce98d83c5d06e36727de",
       "year": 10,
       "size": 20465,
-      "status": "pending",
+      "status": "key_reference_pending_variant_review",
       "duplicateOf": null
     },
     {
@@ -34997,7 +36341,7 @@
       "sha": "7dfa9a31b1129b4c6eb3ec348202e3373a0cf5ca",
       "year": 10,
       "size": 17847,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -35021,7 +36365,7 @@
       "sha": "7dfa9a31b1129b4c6eb3ec348202e3373a0cf5ca",
       "year": 10,
       "size": 17847,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": "resources/Assessments/Lowerschool/Year 10/Science/Forensic Science/Safety Bay/2017/Year 10- Research Assignment - Electron microscope.docx"
     },
     {
@@ -35029,7 +36373,7 @@
       "sha": "4ea49bf461f8f1a38ddcce98d83c5d06e36727de",
       "year": 10,
       "size": 20465,
-      "status": "pending",
+      "status": "key_reference_pending_variant_review",
       "duplicateOf": "resources/Assessments/Lowerschool/Year 10/Science/Forensic Science/Safety Bay/2017/Research assignment - Electron microscope (Answers).docx"
     },
     {
@@ -35125,7 +36469,7 @@
       "sha": "e41f39394de756a3224290f11dc3256d5a791b52",
       "year": 10,
       "size": 20352,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -35157,7 +36501,7 @@
       "sha": "fb376624b0449cde93650aa4143a41757bee6df7",
       "year": 10,
       "size": 20205,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -35459,7 +36803,7 @@
       "sha": "11f724290f95520e503b1899f7c837db64cc023a",
       "year": 10,
       "size": 14367,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -35483,8 +36827,9 @@
       "sha": "47414600a672ed8d4c7cbcd53cbd1f9afa7b670c",
       "year": 10,
       "size": 16670,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Repeated instruction to draw a graph, without data, axes or scenario; no recoverable assessment question."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Narrogin/2018/10 2 Physics 1 Test Motion 2018.doc",
@@ -35921,8 +37266,9 @@
       "sha": "0ad8aa3a833f4e9fd6e768bf05fd79bacb8dbd12",
       "year": 10,
       "size": 12569,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_supporting_resource",
+      "duplicateOf": null,
+      "reviewReason": "Observation rubric for participation, control, safety, data recording and teamwork; no specific experiment procedure or question supplied."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2020/Physics Investigation Validation Test 2020 - answers.docx",
@@ -36357,9 +37703,9 @@
       "duplicateOf": null
     }
   ],
-  "learningVaultCreatedKeySupplements": 998,
-  "remainingUniqueFileBlobs": 1306,
-  "learningVaultCreatedKeys": 2000,
+  "learningVaultCreatedKeySupplements": 1088,
+  "remainingUniqueFileBlobs": 1271,
+  "learningVaultCreatedKeys": 2018,
   "blockedSources": [
     {
       "sha": "49d4b7f3f8af844477b39abb856365aeb096cafd",
@@ -36571,7 +37917,7 @@
     "ocrPages": 1175,
     "ocrTextVerified": false
   },
-  "distinctSourceAndKeyReferences": 301,
+  "distinctSourceAndKeyReferences": 323,
   "unscoredQuestionsPreserved": 1,
   "activeAdditionalQuestionRequest": {
     "requestedAdditionalQuestions": 1000,
@@ -36586,12 +37932,12 @@
     "requestedAt": "2026-10-16",
     "scope": "All remaining Years 7–10 Science assessment papers; all question types, source figures, response space and marking guidance",
     "startingImportedQuestions": 1374,
-    "addedQuestions": 1934,
+    "addedQuestions": 2042,
     "status": "in_progress",
     "completionRule": "Every unique assessment paper reviewed; duplicates mapped and unreadable/protected files explicitly resolved. File-blob count is not a paper denominator.",
     "restoredQuestionsAfterDuplicateFix": 4,
-    "newlyExtractedQuestions": 1930,
-    "papersReviewedSinceRequest": 190,
+    "newlyExtractedQuestions": 2038,
+    "papersReviewedSinceRequest": 210,
     "canonicalSourceQuestionsReReviewed": 2
   },
   "sourceInventoryExclusions": {
@@ -36601,8 +37947,8 @@
     "note": "These are file metadata records, not papers or questions; excluded from import work without increasing question or paper totals."
   },
   "supportingResourceReview": {
-    "files": 39,
-    "uniqueBlobs": 36,
+    "files": 55,
+    "uniqueBlobs": 51,
     "audit": "question-source-packs/repo-science-supporting-resource-review.json",
     "countedAsPapers": false,
     "countedAsQuestions": false
@@ -36850,7 +38196,7 @@
       "effect": "Retained as teacher-review diagram task;exact label-order key must be verified before assigning."
     }
   ],
-  "reviewedDistinctSourceBlobs": 294,
+  "reviewedDistinctSourceBlobs": 329,
   "inventoryCountBasis": "Remaining unique file blobs counts pending or key-reference-pending identities, including protected inputs; it is not a remaining-paper or remaining-question estimate.",
   "canonicalUniverseReviewRepair": {
     "questionIds": [

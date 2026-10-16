@@ -1,0 +1,49 @@
+{
+  "batch": "repo-science-batch106",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y9-ARAN-NEWTON-life",
+    "SCI-REPO-Y9-ARAN-NEWTON-famous",
+    "SCI-REPO-Y9-ARAN-NEWTON-fact",
+    "SCI-REPO-Y9-ARAN-NEWTON-discovery",
+    "SCI-REPO-Y9-ARAN-NEWTON-method",
+    "SCI-REPO-Y9-ARAN-NEWTON-other",
+    "SCI-REPO-Y9-ARAN-NEWTON-definition",
+    "SCI-REPO-Y9-ARAN-NEWTON-diagram",
+    "SCI-REPO-Y9-ARAN-NEWTON-useful",
+    "SCI-REPO-Y9-ARAN-NEWTON-references"
+  ],
+  "questions": 10,
+  "multipleChoice": 0,
+  "writtenQuestions": 10,
+  "battleEligible": 0,
+  "marks": 29,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y9-ARAN-NEWTON-life",
+      "note": "Calendar conventions should be stated when marking historical dates."
+    }
+  ],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Physics/Aranmore/Sir Isaac Newton Assignment.docx",
+      "sha": "19354e72aa4a39cd46307878d474bca7f9293d37",
+      "year": 9,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 0,
+  "createdSupplements": 10,
+  "notes": [
+    "Complete Newton research assignment reviewed against shaded rubric. Retained ten content/reference tasks,29marks. Cover2 and generalpresentation4 logged separately:35total. Historical-calendar alternatives made explicit; no invented references or single wavelength assigned to a colour band."
+  ],
+  "markAudit": {
+    "rubricTotal": 35,
+    "selectedContentAndReferences": 29,
+    "cover": 2,
+    "presentation": 4
+  },
+  "duplicateQuestionAliases": []
+}

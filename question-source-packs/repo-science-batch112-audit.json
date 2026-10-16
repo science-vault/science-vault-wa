@@ -1,0 +1,55 @@
+{
+  "batch": "repo-science-batch112",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y10-SBY-2017-ELECTRONMICRO-1",
+    "SCI-REPO-Y10-SBY-2017-ELECTRONMICRO-2",
+    "SCI-REPO-Y10-SBY-2017-ELECTRONMICRO-3",
+    "SCI-REPO-Y10-SBY-2017-ELECTRONMICRO-4",
+    "SCI-REPO-Y10-SBY-2017-ELECTRONMICRO-5",
+    "SCI-REPO-Y10-SBY-2017-ELECTRONMICRO-6",
+    "SCI-REPO-Y10-SBY-2017-ELECTRONMICRO-7",
+    "SCI-REPO-Y10-SBY-2017-ELECTRONMICRO-8"
+  ],
+  "questions": 8,
+  "multipleChoice": 0,
+  "writtenQuestions": 8,
+  "battleEligible": 0,
+  "marks": 25,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-ELECTRONMICRO-2",
+      "note": "Supplied historical/magnification statements require checked qualifications."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-ELECTRONMICRO-5",
+      "note": "Supplied historical/magnification statements require checked qualifications."
+    }
+  ],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Forensic Science/Safety Bay/2017/Year 10- Research Assignment - Electron microscope.docx",
+      "sha": "7dfa9a31b1129b4c6eb3ec348202e3373a0cf5ca",
+      "year": 10,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Forensic Science/Safety Bay/2017/Research assignment - Electron microscope (Answers).docx",
+      "sha": "4ea49bf461f8f1a38ddcce98d83c5d06e36727de",
+      "year": 10,
+      "role": "key_reference"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 0,
+  "createdSupplements": 8,
+  "notes": [
+    "Complete8task25mark electron-microscope assignment reviewed with paired key. Distinguishes1931prototype and1933resolution milestone,TEM/SEM imaging and magnification/resolution. No universal current instrument maximum invented."
+  ],
+  "markAudit": {
+    "printed": 25,
+    "selected": 25
+  },
+  "duplicateQuestionAliases": []
+}

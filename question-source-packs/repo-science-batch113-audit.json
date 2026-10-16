@@ -1,0 +1,48 @@
+{
+  "batch": "repo-science-batch113",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y10-SBY-2017-CHEMREV-a",
+    "SCI-REPO-Y10-SBY-2017-CHEMREV-b",
+    "SCI-REPO-Y10-SBY-2017-CHEMREV-c",
+    "SCI-REPO-Y10-SBY-2017-CHEMREV-d",
+    "SCI-REPO-Y10-SBY-2017-CHEMREV-e",
+    "SCI-REPO-Y10-SBY-2017-CHEMREV-bonding",
+    "SCI-REPO-Y10-SBY-2017-CHEMREV-precipitate"
+  ],
+  "questions": 7,
+  "multipleChoice": 0,
+  "writtenQuestions": 7,
+  "battleEligible": 0,
+  "marks": 23,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-CHEMREV-d",
+      "note": "Unmarked source;proposed3marks. Reactant proportions/oxidising nitric acid require teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-CHEMREV-e",
+      "note": "Unmarked source;proposed3marks. Reactant proportions/oxidising nitric acid require teacher review."
+    }
+  ],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2017/Chemistry Extension/ATAR Chemistry/Year 10 Revision for Chemistry 2017 Sem 2.docx",
+      "sha": "413f0f2cbb81372fbafa68fa86601764ee34833f",
+      "year": 10,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 7,
+  "createdSupplements": 0,
+  "notes": [
+    "Five explicit equation exercises and two complete conceptual prompts retained. Nitric-acid/calcium item flagged as chemically underspecified;source’s blanket acid–metal hydrogen rule not carried into key. Missing formula/element lists and solubility data not fabricated."
+  ],
+  "markAudit": {
+    "printed": null,
+    "proposed": 23
+  },
+  "duplicateQuestionAliases": []
+}

@@ -1,0 +1,202 @@
+{
+  "batch": "repo-science-batch109",
+  "paperCount": 2,
+  "questionIds": [
+    "SCI-REPO-Y10-SBY-METALSACTIVITY-297-gold",
+    "SCI-REPO-Y10-SBY-METALSACTIVITY-297-calcium",
+    "SCI-REPO-Y10-SBY-METALSACTIVITY-297-zinc",
+    "SCI-REPO-Y10-SBY-METALSACTIVITY-297-tin",
+    "SCI-REPO-Y10-SBY-METALSACTIVITY-297-sodium",
+    "SCI-REPO-Y10-SBY-METALSACTIVITY-297-copper",
+    "SCI-REPO-Y10-SBY-METALSACTIVITY-297-anode-a",
+    "SCI-REPO-Y10-SBY-METALSACTIVITY-297-anode-b",
+    "SCI-REPO-Y10-SBY-METALSACTIVITY-297-silver",
+    "SCI-REPO-Y10-SBY-METALSACTIVITY-297-references",
+    "SCI-REPO-Y10-SBY-METALSACTIVITY-296-paraffin",
+    "SCI-REPO-Y10-SBY-METALSACTIVITY-296-colour",
+    "SCI-REPO-Y10-SBY-METALSACTIVITY-296-anode-location"
+  ],
+  "questions": 13,
+  "multipleChoice": 0,
+  "writtenQuestions": 13,
+  "battleEligible": 0,
+  "marks": 23,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y10-SBY-METALSACTIVITY-297-gold",
+      "note": "Checked supplement corrects simplified or ambiguous source claims."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-METALSACTIVITY-297-tin",
+      "note": "Checked supplement corrects simplified or ambiguous source claims."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-METALSACTIVITY-297-silver",
+      "note": "Checked supplement corrects simplified or ambiguous source claims."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-METALSACTIVITY-296-paraffin",
+      "note": "Additional general-pathway research prompt; allocation proposed. Referenced anode picture is not supplied."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-METALSACTIVITY-296-colour",
+      "note": "Additional general-pathway research prompt; allocation proposed. Referenced anode picture is not supplied."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-METALSACTIVITY-296-anode-location",
+      "note": "Additional general-pathway research prompt; allocation proposed. Referenced anode picture is not supplied."
+    }
+  ],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2019/ATAR Pathway/Research Assignment ANSWERS - Activity Series of Metals.docx",
+      "sha": "f80458466c5ae881a0252fb6a6d8ebf9a1d468ee",
+      "year": 10,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2019/GENERAL Pathway/Research Assignment - Activity Series of Metals 2020.docx",
+      "sha": "30001973bff7ce7e5a35eaf3094b371b1c0fed87",
+      "year": 10,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 0,
+  "createdSupplements": 13,
+  "notes": [
+    "Both activity-series documents reviewed. Ten common tasks linked across versions; three expanded general-pathway research tasks retained. Corrected zinc/tin protection, gold strength and silver-ion assumptions. No missing anode picture reconstructed."
+  ],
+  "markAudit": {
+    "commonPrintedTotal": 15,
+    "additionalGeneralProposed": 8
+  },
+  "duplicateQuestionAliases": [
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2019/GENERAL Pathway/Research Assignment - Activity Series of Metals 2020.docx",
+      "sourceFileSha": "30001973bff7ce7e5a35eaf3094b371b1c0fed87",
+      "sourceQuestionNumber": "gold",
+      "sourceParagraphs": [
+        4
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-METALSACTIVITY-297-gold",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2019/GENERAL Pathway/Research Assignment - Activity Series of Metals 2020.docx",
+      "sourceFileSha": "30001973bff7ce7e5a35eaf3094b371b1c0fed87",
+      "sourceQuestionNumber": "calcium",
+      "sourceParagraphs": [
+        7,
+        9
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-METALSACTIVITY-297-calcium",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2019/GENERAL Pathway/Research Assignment - Activity Series of Metals 2020.docx",
+      "sourceFileSha": "30001973bff7ce7e5a35eaf3094b371b1c0fed87",
+      "sourceQuestionNumber": "zinc",
+      "sourceParagraphs": [
+        11
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-METALSACTIVITY-297-zinc",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2019/GENERAL Pathway/Research Assignment - Activity Series of Metals 2020.docx",
+      "sourceFileSha": "30001973bff7ce7e5a35eaf3094b371b1c0fed87",
+      "sourceQuestionNumber": "tin",
+      "sourceParagraphs": [
+        13,
+        14
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-METALSACTIVITY-297-tin",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2019/GENERAL Pathway/Research Assignment - Activity Series of Metals 2020.docx",
+      "sourceFileSha": "30001973bff7ce7e5a35eaf3094b371b1c0fed87",
+      "sourceQuestionNumber": "sodium",
+      "sourceParagraphs": [
+        16
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-METALSACTIVITY-297-sodium",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2019/GENERAL Pathway/Research Assignment - Activity Series of Metals 2020.docx",
+      "sourceFileSha": "30001973bff7ce7e5a35eaf3094b371b1c0fed87",
+      "sourceQuestionNumber": "copper",
+      "sourceParagraphs": [
+        18,
+        19
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-METALSACTIVITY-297-copper",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2019/GENERAL Pathway/Research Assignment - Activity Series of Metals 2020.docx",
+      "sourceFileSha": "30001973bff7ce7e5a35eaf3094b371b1c0fed87",
+      "sourceQuestionNumber": "anode-a",
+      "sourceParagraphs": [
+        21,
+        22
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-METALSACTIVITY-297-anode-a",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2019/GENERAL Pathway/Research Assignment - Activity Series of Metals 2020.docx",
+      "sourceFileSha": "30001973bff7ce7e5a35eaf3094b371b1c0fed87",
+      "sourceQuestionNumber": "anode-b",
+      "sourceParagraphs": [
+        21,
+        23
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-METALSACTIVITY-297-anode-b",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2019/GENERAL Pathway/Research Assignment - Activity Series of Metals 2020.docx",
+      "sourceFileSha": "30001973bff7ce7e5a35eaf3094b371b1c0fed87",
+      "sourceQuestionNumber": "silver",
+      "sourceParagraphs": [
+        25
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-METALSACTIVITY-297-silver",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2019/GENERAL Pathway/Research Assignment - Activity Series of Metals 2020.docx",
+      "sourceFileSha": "30001973bff7ce7e5a35eaf3094b371b1c0fed87",
+      "sourceQuestionNumber": "references",
+      "sourceParagraphs": [
+        27
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-METALSACTIVITY-297-references",
+      "reason": "Equivalent source question already present; not added or counted again."
+    }
+  ]
+}

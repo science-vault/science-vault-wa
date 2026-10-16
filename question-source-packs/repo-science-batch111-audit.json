@@ -1,0 +1,364 @@
+{
+  "batch": "repo-science-batch111",
+  "paperCount": 2,
+  "questionIds": [
+    "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-title",
+    "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-aim",
+    "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-intro",
+    "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-hypothesis",
+    "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-independent",
+    "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-dependent",
+    "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-controls",
+    "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-materials",
+    "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-method",
+    "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-diagram",
+    "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-reliability",
+    "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-results",
+    "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-calculations",
+    "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-graphs",
+    "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-discussion",
+    "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-conclusion",
+    "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-references"
+  ],
+  "questions": 17,
+  "multipleChoice": 0,
+  "writtenQuestions": 17,
+  "battleEligible": 0,
+  "marks": 41,
+  "reviewRequired": [],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2016 Speed Ticker Tape Inv.docx",
+      "sha": "fb376624b0449cde93650aa4143a41757bee6df7",
+      "year": 10,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Speed Ticker Tape Inv.docx",
+      "sha": "e41f39394de756a3224290f11dc3256d5a791b52",
+      "year": 10,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 0,
+  "createdSupplements": 17,
+  "notes": [
+    "Both ticker-tape surface investigations reviewed. Equivalent17core tasks linked across years without new question inflation. Printed43includes2presentation;41task marks retained. Actual ticker frequency,readings and missing textbook method not invented."
+  ],
+  "markAudit": {
+    "printedTotal": 43,
+    "taskMarks": 41,
+    "presentation": 2,
+    "versions": 2
+  },
+  "duplicateQuestionAliases": [
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Speed Ticker Tape Inv.docx",
+      "sourceFileSha": "e41f39394de756a3224290f11dc3256d5a791b52",
+      "sourceQuestionNumber": "title",
+      "sourceParagraphs": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-title",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Speed Ticker Tape Inv.docx",
+      "sourceFileSha": "e41f39394de756a3224290f11dc3256d5a791b52",
+      "sourceQuestionNumber": "aim",
+      "sourceParagraphs": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-aim",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Speed Ticker Tape Inv.docx",
+      "sourceFileSha": "e41f39394de756a3224290f11dc3256d5a791b52",
+      "sourceQuestionNumber": "intro",
+      "sourceParagraphs": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-intro",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Speed Ticker Tape Inv.docx",
+      "sourceFileSha": "e41f39394de756a3224290f11dc3256d5a791b52",
+      "sourceQuestionNumber": "hypothesis",
+      "sourceParagraphs": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-hypothesis",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Speed Ticker Tape Inv.docx",
+      "sourceFileSha": "e41f39394de756a3224290f11dc3256d5a791b52",
+      "sourceQuestionNumber": "independent",
+      "sourceParagraphs": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-independent",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Speed Ticker Tape Inv.docx",
+      "sourceFileSha": "e41f39394de756a3224290f11dc3256d5a791b52",
+      "sourceQuestionNumber": "dependent",
+      "sourceParagraphs": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-dependent",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Speed Ticker Tape Inv.docx",
+      "sourceFileSha": "e41f39394de756a3224290f11dc3256d5a791b52",
+      "sourceQuestionNumber": "controls",
+      "sourceParagraphs": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-controls",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Speed Ticker Tape Inv.docx",
+      "sourceFileSha": "e41f39394de756a3224290f11dc3256d5a791b52",
+      "sourceQuestionNumber": "materials",
+      "sourceParagraphs": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-materials",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Speed Ticker Tape Inv.docx",
+      "sourceFileSha": "e41f39394de756a3224290f11dc3256d5a791b52",
+      "sourceQuestionNumber": "method",
+      "sourceParagraphs": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "sourceMarks": 3,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-method",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Speed Ticker Tape Inv.docx",
+      "sourceFileSha": "e41f39394de756a3224290f11dc3256d5a791b52",
+      "sourceQuestionNumber": "diagram",
+      "sourceParagraphs": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Diagram",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-diagram",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Speed Ticker Tape Inv.docx",
+      "sourceFileSha": "e41f39394de756a3224290f11dc3256d5a791b52",
+      "sourceQuestionNumber": "reliability",
+      "sourceParagraphs": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "sourceMarks": 3,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-reliability",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Speed Ticker Tape Inv.docx",
+      "sourceFileSha": "e41f39394de756a3224290f11dc3256d5a791b52",
+      "sourceQuestionNumber": "results",
+      "sourceParagraphs": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "sourceMarks": 3,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-results",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Speed Ticker Tape Inv.docx",
+      "sourceFileSha": "e41f39394de756a3224290f11dc3256d5a791b52",
+      "sourceQuestionNumber": "calculations",
+      "sourceParagraphs": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "sourceMarks": 3,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-calculations",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Speed Ticker Tape Inv.docx",
+      "sourceFileSha": "e41f39394de756a3224290f11dc3256d5a791b52",
+      "sourceQuestionNumber": "graphs",
+      "sourceParagraphs": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "sourceMarks": 5,
+      "sourceType": "Diagram",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-graphs",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Speed Ticker Tape Inv.docx",
+      "sourceFileSha": "e41f39394de756a3224290f11dc3256d5a791b52",
+      "sourceQuestionNumber": "discussion",
+      "sourceParagraphs": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "sourceMarks": 4,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-discussion",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Speed Ticker Tape Inv.docx",
+      "sourceFileSha": "e41f39394de756a3224290f11dc3256d5a791b52",
+      "sourceQuestionNumber": "conclusion",
+      "sourceParagraphs": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "sourceMarks": 5,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-conclusion",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/10 Extension Science/2015 Speed Ticker Tape Inv.docx",
+      "sourceFileSha": "e41f39394de756a3224290f11dc3256d5a791b52",
+      "sourceQuestionNumber": "references",
+      "sourceParagraphs": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-references",
+      "reason": "Equivalent source question already present; not added or counted again."
+    }
+  ]
+}
