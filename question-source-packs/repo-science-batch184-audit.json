@@ -1,0 +1,120 @@
+{
+  "batch": "repo-science-batch184",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y10-ARAN-2014-GENTECH-report",
+    "SCI-REPO-Y10-ARAN-2014-GENTECH-promoter",
+    "SCI-REPO-Y10-ARAN-2014-GENTECH-marker",
+    "SCI-REPO-Y10-ARAN-2014-GENTECH-biodiversity",
+    "SCI-REPO-Y10-ARAN-2014-GENTECH-herbicide",
+    "SCI-REPO-Y10-ARAN-2014-GENTECH-bt",
+    "SCI-REPO-Y10-ARAN-2014-GENTECH-native"
+  ],
+  "questions": 7,
+  "multipleChoice": 0,
+  "writtenQuestions": 7,
+  "battleEligible": 0,
+  "marks": 42,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-GENTECH-report",
+      "note": "Mixed2014packet contains unrelated atomic-model fragments/rubric and an unreliable worked-example bibliography. These are flagged,not treated as verified science or extraGMtasks."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-GENTECH-promoter",
+      "note": "Unmarked critical-research prompt;3marks proposed. Accept supported case-specific reasoning rather than blanket claims."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-GENTECH-marker",
+      "note": "Unmarked critical-research prompt;3marks proposed. Accept supported case-specific reasoning rather than blanket claims."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-GENTECH-biodiversity",
+      "note": "Unmarked critical-research prompt;3marks proposed. Accept supported case-specific reasoning rather than blanket claims."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-GENTECH-herbicide",
+      "note": "Unmarked critical-research prompt;3marks proposed. Accept supported case-specific reasoning rather than blanket claims."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-GENTECH-bt",
+      "note": "Unmarked critical-research prompt;3marks proposed. Accept supported case-specific reasoning rather than blanket claims."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-GENTECH-native",
+      "note": "Unmarked critical-research prompt;3marks proposed. Accept supported case-specific reasoning rather than blanket claims."
+    }
+  ],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/2014 10 SCIENCE BIOLOGY ASSIGNMENT GENETIC TECHNOLOGY.docx",
+      "sha": "96e4e2f49d555df6f61703ffcdd952cdfa1a477d",
+      "year": 10,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 0,
+  "createdSupplements": 7,
+  "notes": [
+    "Complete mixed genetic-technology packet reviewed. One24mark content report and six unmarked3markcritical-appraisal prompts retained. Repeated transgenic table linked to report;13row marks versus12heading recorded. Incomplete atomic-model fragments and unrelated40markatomic-modelrubric logged as copied-template inconsistency,not fabricatedGMquestions. Historical crop/status/percentage claims not promoted to current facts;case-by-case safety and marker alternatives checked against regulatory/primaryresearch sources."
+  ],
+  "markAudit": {
+    "mainReport": {
+      "total": 26,
+      "selected": 24,
+      "presentation": 2
+    },
+    "criticalPrompts": {
+      "sourceMarks": null,
+      "proposedTotal": 18,
+      "questions": 6
+    },
+    "transgenicTemplate": {
+      "heading": 12,
+      "rowSum": 13,
+      "duplicateLinked": true
+    },
+    "unrelatedAtomicRubric": {
+      "printed": 40,
+      "reason": "No matching complete atomic-model assignment in this mixedGMpacket;stale fragments conflict with title/topic."
+    },
+    "selectedTotal": 42
+  },
+  "duplicateQuestionAliases": [
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/2014 10 SCIENCE BIOLOGY ASSIGNMENT GENETIC TECHNOLOGY.docx",
+      "sourceFileSha": "96e4e2f49d555df6f61703ffcdd952cdfa1a477d",
+      "sourceQuestionNumber": "transgenic-template",
+      "sourceParagraphs": [
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109
+      ],
+      "sourceMarks": 13,
+      "sourceType": "Extended response",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2014-GENTECH-report",
+      "reason": "Repeated research summary asks the same chosen-organism/change/purpose/concerns/reference requirements already covered in the main report;not a second overlapping selectable project. Template rows sum13despite12mark heading. Worked Glofish example and its illustrative/unverifiableURLs are not authoritative evidence.",
+      "sourceLocalRubric": {
+        "chosenOrganism": 1,
+        "describeModification": 3,
+        "reasons": 3,
+        "concerns": 4,
+        "references": 2,
+        "sum": 13,
+        "heading": 12
+      }
+    }
+  ]
+}

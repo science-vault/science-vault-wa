@@ -1,0 +1,18 @@
+{
+  "questionIds": [
+    "SCI-REPO-Y9-NAR-2023-REACTIONS-MC12",
+    "SCI-REPO-Y9-NAR-2023-REACTIONS-MC14"
+  ],
+  "reviews": {
+    "SCI-REPO-Y9-NAR-2023-REACTIONS-MC12": {
+      "answer": "Formal balance requires2NaF+Br₂→2NaBr+F₂. Bromine cannot ordinarily displace fluoride;formal balancing is not evidence of a feasible spontaneous reaction.",
+      "note": "Formal balance requires2NaF+Br₂→2NaBr+F₂. Bromine cannot ordinarily displace fluoride;formal balancing is not evidence of a feasible spontaneous reaction."
+    },
+    "SCI-REPO-Y9-NAR-2023-REACTIONS-MC14": {
+      "answer": "Photosynthesis is intended:oxygen is produced,not required as an input to its simplified net equation. Corrosion need not universally consume molecular oxygen,so the unqualified alternatives are scientifically too broad.",
+      "note": "Photosynthesis is intended:oxygen is produced,not required as an input to its simplified net equation. Corrosion need not universally consume molecular oxygen,so the unqualified alternatives are scientifically too broad."
+    }
+  },
+  "questionCountChange": 0,
+  "additionalAutomaticBattleItemsRemoved": 1
+}

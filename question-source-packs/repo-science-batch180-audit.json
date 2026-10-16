@@ -1,0 +1,118 @@
+{
+  "batch": "repo-science-batch180",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y7-SBY-2023-FRICTIONDRAFT-1",
+    "SCI-REPO-Y7-SBY-2023-FRICTIONDRAFT-2",
+    "SCI-REPO-Y7-SBY-2023-FRICTIONDRAFT-3",
+    "SCI-REPO-Y7-SBY-2023-FRICTIONDRAFT-4",
+    "SCI-REPO-Y7-SBY-2023-FRICTIONDRAFT-5",
+    "SCI-REPO-Y7-SBY-2023-FRICTIONDRAFT-6",
+    "SCI-REPO-Y7-SBY-2023-FRICTIONDRAFT-7",
+    "SCI-REPO-Y7-SBY-2023-FRICTIONDRAFT-8",
+    "SCI-REPO-Y7-SBY-2023-FRICTIONDRAFT-9"
+  ],
+  "questions": 9,
+  "multipleChoice": 0,
+  "writtenQuestions": 9,
+  "battleEligible": 0,
+  "marks": 20,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y7-SBY-2023-FRICTIONDRAFT-1",
+      "note": "Original file explicitly labelled DO NOT USE. Retained for moderated source review only;all marks proposed and no automatic battle eligibility."
+    },
+    {
+      "id": "SCI-REPO-Y7-SBY-2023-FRICTIONDRAFT-2",
+      "note": "Original file explicitly labelled DO NOT USE. Retained for moderated source review only;all marks proposed and no automatic battle eligibility."
+    },
+    {
+      "id": "SCI-REPO-Y7-SBY-2023-FRICTIONDRAFT-3",
+      "note": "Original file explicitly labelled DO NOT USE. Retained for moderated source review only;all marks proposed and no automatic battle eligibility."
+    },
+    {
+      "id": "SCI-REPO-Y7-SBY-2023-FRICTIONDRAFT-4",
+      "note": "Original file explicitly labelled DO NOT USE. Retained for moderated source review only;all marks proposed and no automatic battle eligibility."
+    },
+    {
+      "id": "SCI-REPO-Y7-SBY-2023-FRICTIONDRAFT-5",
+      "note": "Original file explicitly labelled DO NOT USE. Retained for moderated source review only;all marks proposed and no automatic battle eligibility."
+    },
+    {
+      "id": "SCI-REPO-Y7-SBY-2023-FRICTIONDRAFT-6",
+      "note": "Original file explicitly labelled DO NOT USE. Retained for moderated source review only;all marks proposed and no automatic battle eligibility."
+    },
+    {
+      "id": "SCI-REPO-Y7-SBY-2023-FRICTIONDRAFT-7",
+      "note": "Original file explicitly labelled DO NOT USE. Retained for moderated source review only;all marks proposed and no automatic battle eligibility."
+    },
+    {
+      "id": "SCI-REPO-Y7-SBY-2023-FRICTIONDRAFT-8",
+      "note": "Original file explicitly labelled DO NOT USE. Retained for moderated source review only;all marks proposed and no automatic battle eligibility."
+    },
+    {
+      "id": "SCI-REPO-Y7-SBY-2023-FRICTIONDRAFT-9",
+      "note": "Original file explicitly labelled DO NOT USE. Retained for moderated source review only;all marks proposed and no automatic battle eligibility."
+    }
+  ],
+  "imageAudit": [
+    {
+      "id": "e408-page1-bob-box-force",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Safety bay/2023/Teacher mark task - DO NOT USE.docx",
+      "sourceFileSha": "c1725814debc1afe77ef00595164387f1f346ba1",
+      "sourcePage": 1,
+      "pdfCropPoints": [
+        112,
+        392,
+        545,
+        520
+      ],
+      "role": "original_native_Word_figure",
+      "conversion": "Original DOCX rendered by LibreOffice to PDF; bounded source figure rasterised at 216 dpi without redrawing. Native editable shapes, table borders, shading and example points retained.",
+      "publishedSha256": "703780db636b780b33fc4ea0b4eb1f6cf64a4bb7a48dcd8172dba1b089ae04bd"
+    },
+    {
+      "id": "e408-image2-crop-9c7b8bfe",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Safety bay/2023/Teacher mark task - DO NOT USE.docx",
+      "embeddedImage": "word/media/image2.gif",
+      "sha256": "8466f60abd823f436b6ba7ef0532cacd73f9870628685f14e047dde346e62611",
+      "publishedSha256": "49099a9c83237e33a9e999fe5117c9d3e26d41a352410e4068fce0dda737fc9b",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {
+        "t": 34924
+      },
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e408-image3",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Safety bay/2023/Teacher mark task - DO NOT USE.docx",
+      "embeddedImage": "word/media/image3.png",
+      "sha256": "ec03679691b300ce29602a9dc203aadf3dc47eca9f0539f6def968eced8e087e",
+      "publishedSha256": "d9e616ba24d641f95032a6d7107ef142819615a3ebd98259af2bf98092d1ad40",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Safety bay/2023/Teacher mark task - DO NOT USE.docx",
+      "sha": "c1725814debc1afe77ef00595164387f1f346ba1",
+      "year": 7,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 9,
+  "createdSupplements": 0,
+  "notes": [
+    "All9friction draft prompts retained with original box-force figure cropped from rendered source. FilenameDO NOT USEexplicitly preserved;manual review required throughout. Underdetermined force comparison,ideal frictionless model and unverified coefficient inputs qualified. All20marks proposed."
+  ],
+  "markAudit": {
+    "sourceMarks": null,
+    "proposedTotal": 20,
+    "tasks": 9,
+    "sourceDraftStatus": "DO NOT USE"
+  },
+  "duplicateQuestionAliases": []
+}

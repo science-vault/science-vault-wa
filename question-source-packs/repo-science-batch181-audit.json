@@ -1,0 +1,93 @@
+{
+  "batch": "repo-science-batch181",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y8-ARAN-ROCKPRACT33-station1",
+    "SCI-REPO-Y8-ARAN-ROCKPRACT33-station2",
+    "SCI-REPO-Y8-ARAN-ROCKPRACT33-station3",
+    "SCI-REPO-Y8-ARAN-ROCKPRACT33-station4",
+    "SCI-REPO-Y8-ARAN-ROCKPRACT33-station5",
+    "SCI-REPO-Y8-ARAN-ROCKPRACT33-seated1",
+    "SCI-REPO-Y8-ARAN-ROCKPRACT33-seated2",
+    "SCI-REPO-Y8-ARAN-ROCKPRACT33-seated3"
+  ],
+  "questions": 8,
+  "multipleChoice": 0,
+  "writtenQuestions": 8,
+  "battleEligible": 0,
+  "marks": 33,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y8-ARAN-ROCKPRACT33-station1",
+      "note": "Original classroom specimen missing. Teacher notes give intended category but no numbered sample photographs."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-ROCKPRACT33-station2",
+      "note": "Original classroom specimen missing. Teacher notes give intended category but no numbered sample photographs."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-ROCKPRACT33-station3",
+      "note": "Original classroom specimen missing. Teacher notes give intended category but no numbered sample photographs."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-ROCKPRACT33-station4",
+      "note": "Original classroom specimen missing. Teacher notes give intended category but no numbered sample photographs."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-ROCKPRACT33-station5",
+      "note": "Original classroom specimen missing. Teacher notes give intended category but no numbered sample photographs."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-ROCKPRACT33-seated1",
+      "note": "Two source definitions are overgeneralised:hardestrocktype and unique gemstone-bearing rocktype. Accept scientifically supported qualified answers."
+    }
+  ],
+  "imageAudit": [
+    {
+      "id": "e424-image1",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Aranmore/Rocks Practical.docx",
+      "embeddedImage": "word/media/image1.jpeg",
+      "sha256": "a255dc3cded29a021a2529d7e9ba84aacaea1cb93ba8015aed2eb183201575c9",
+      "publishedSha256": "8e7992d409e06640a96377a43ceeda48d17472504fb1b354205ee4bd04fb1515",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e424-page4-original-six-arrow-rock-cycle",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Aranmore/Rocks Practical.docx",
+      "sourceFileSha": "6bd5b585d01b77f1c4b6745b1b5206ef5c226def",
+      "sourcePage": 4,
+      "pdfCropPoints": [
+        20,
+        105,
+        551,
+        647
+      ],
+      "role": "original_native_Word_figure",
+      "conversion": "Original DOCX rendered by LibreOffice to PDF; bounded source figure rasterised at 216 dpi without redrawing. Native editable shapes, table borders, shading and example points retained.",
+      "publishedSha256": "3f93e5d07f91bd2c065c3b204068417ff7e8d84e5d34f1067a78e66c90018cc0"
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Aranmore/Rocks Practical.docx",
+      "sha": "6bd5b585d01b77f1c4b6745b1b5206ef5c226def",
+      "year": 8,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 0,
+  "createdSupplements": 8,
+  "notes": [
+    "Complete33mark rock practical:five3markstations plus7definition,5use and6cycle marks. Original crystal micrograph retained and native editable-shape rockcycle rasterised without redrawing. Five physical specimens missing and explicitly required. Universal hardest/gemstone claims qualified."
+  ],
+  "markAudit": {
+    "total": 33,
+    "stations": 15,
+    "seated": 18,
+    "tasks": 8
+  },
+  "duplicateQuestionAliases": []
+}

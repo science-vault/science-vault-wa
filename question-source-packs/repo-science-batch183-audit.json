@@ -1,0 +1,477 @@
+{
+  "batch": "repo-science-batch183",
+  "paperCount": 1,
+  "questionIds": [],
+  "questions": 0,
+  "multipleChoice": 0,
+  "writtenQuestions": 0,
+  "battleEligible": 0,
+  "marks": 0,
+  "reviewRequired": [],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Earth and Space Sciences/Mid topic test Earth Science Year 7 Answers.docx",
+      "sha": "2f05469c4ea0f4ee050453af83437c2731f39baa",
+      "year": 7,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 0,
+  "createdSupplements": 0,
+  "notes": [
+    "Full20question75mark keyed mid-topic variant mapped to existing resource/water-cycle test. Distinct from76mark astronomy topic test despite similar filename. Existing corrections for polar-water route,sustainable resource use,fair dam comparison and dated energy table retained. No overlapping subparts added."
+  ],
+  "markAudit": {
+    "total": 75,
+    "MC": 10,
+    "written": 65,
+    "questionsReviewed": 20,
+    "newQuestions": 0
+  },
+  "duplicateQuestionAliases": [
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Earth and Space Sciences/Mid topic test Earth Science Year 7 Answers.docx",
+      "sourceFileSha": "2f05469c4ea0f4ee050453af83437c2731f39baa",
+      "sourceQuestionNumber": "MC01",
+      "sourceParagraphs": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-B09-D09-MC01",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Earth and Space Sciences/Mid topic test Earth Science Year 7 Answers.docx",
+      "sourceFileSha": "2f05469c4ea0f4ee050453af83437c2731f39baa",
+      "sourceQuestionNumber": "MC02",
+      "sourceParagraphs": [
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-B09-D09-MC02",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Earth and Space Sciences/Mid topic test Earth Science Year 7 Answers.docx",
+      "sourceFileSha": "2f05469c4ea0f4ee050453af83437c2731f39baa",
+      "sourceQuestionNumber": "MC03",
+      "sourceParagraphs": [
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-B09-D09-MC03",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Earth and Space Sciences/Mid topic test Earth Science Year 7 Answers.docx",
+      "sourceFileSha": "2f05469c4ea0f4ee050453af83437c2731f39baa",
+      "sourceQuestionNumber": "MC04",
+      "sourceParagraphs": [
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-B09-D09-MC04",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Earth and Space Sciences/Mid topic test Earth Science Year 7 Answers.docx",
+      "sourceFileSha": "2f05469c4ea0f4ee050453af83437c2731f39baa",
+      "sourceQuestionNumber": "MC05",
+      "sourceParagraphs": [
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-B09-D09-MC05",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Earth and Space Sciences/Mid topic test Earth Science Year 7 Answers.docx",
+      "sourceFileSha": "2f05469c4ea0f4ee050453af83437c2731f39baa",
+      "sourceQuestionNumber": "MC06",
+      "sourceParagraphs": [
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-B09-D09-MC06",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Earth and Space Sciences/Mid topic test Earth Science Year 7 Answers.docx",
+      "sourceFileSha": "2f05469c4ea0f4ee050453af83437c2731f39baa",
+      "sourceQuestionNumber": "MC07",
+      "sourceParagraphs": [
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-B09-D09-MC07",
+      "reason": "Equivalent source question already present; not added or counted again.",
+      "reviewSupplement": {
+        "answer": "B is the intended broad climatic answer, but sites vary substantially with wind patterns, coastlines and local conditions.",
+        "note": "Overgeneralised wind/wave siting claim; exact sites depend on climate, geography and coastlines. Teacher review before automatic scoring."
+      }
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Earth and Space Sciences/Mid topic test Earth Science Year 7 Answers.docx",
+      "sourceFileSha": "2f05469c4ea0f4ee050453af83437c2731f39baa",
+      "sourceQuestionNumber": "MC08",
+      "sourceParagraphs": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-B09-D09-MC08",
+      "reason": "Equivalent source question already present; not added or counted again.",
+      "reviewSupplement": {
+        "answer": "C is the intended general historical tendency. This is not a universal rule; no dated dataset is supplied in the item.",
+        "note": "Undated “rich/poor” generalisation without a supplied dataset; retain for contextual teacher discussion rather than automatic scoring."
+      }
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Earth and Space Sciences/Mid topic test Earth Science Year 7 Answers.docx",
+      "sourceFileSha": "2f05469c4ea0f4ee050453af83437c2731f39baa",
+      "sourceQuestionNumber": "MC09",
+      "sourceParagraphs": [
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-B09-D09-MC09",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Earth and Space Sciences/Mid topic test Earth Science Year 7 Answers.docx",
+      "sourceFileSha": "2f05469c4ea0f4ee050453af83437c2731f39baa",
+      "sourceQuestionNumber": "MC10",
+      "sourceParagraphs": [
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-B09-D09-MC10",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Earth and Space Sciences/Mid topic test Earth Science Year 7 Answers.docx",
+      "sourceFileSha": "2f05469c4ea0f4ee050453af83437c2731f39baa",
+      "sourceQuestionNumber": "WR01",
+      "sourceParagraphs": [
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101
+      ],
+      "sourceMarks": 10,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-B09-D09-WR01",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Earth and Space Sciences/Mid topic test Earth Science Year 7 Answers.docx",
+      "sourceFileSha": "2f05469c4ea0f4ee050453af83437c2731f39baa",
+      "sourceQuestionNumber": "WR02",
+      "sourceParagraphs": [
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118
+      ],
+      "sourceMarks": 9,
+      "sourceType": "Diagram",
+      "existingQuestionId": "SCI-REPO-Y7-B09-D09-WR02",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Earth and Space Sciences/Mid topic test Earth Science Year 7 Answers.docx",
+      "sourceFileSha": "2f05469c4ea0f4ee050453af83437c2731f39baa",
+      "sourceQuestionNumber": "WR03",
+      "sourceParagraphs": [
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128
+      ],
+      "sourceMarks": 4,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-B09-D09-WR03",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Earth and Space Sciences/Mid topic test Earth Science Year 7 Answers.docx",
+      "sourceFileSha": "2f05469c4ea0f4ee050453af83437c2731f39baa",
+      "sourceQuestionNumber": "WR04",
+      "sourceParagraphs": [
+        130,
+        132,
+        134,
+        136
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-B09-D09-WR04",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Earth and Space Sciences/Mid topic test Earth Science Year 7 Answers.docx",
+      "sourceFileSha": "2f05469c4ea0f4ee050453af83437c2731f39baa",
+      "sourceQuestionNumber": "WR05",
+      "sourceParagraphs": [
+        138,
+        140,
+        142
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-B09-D09-WR05",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Earth and Space Sciences/Mid topic test Earth Science Year 7 Answers.docx",
+      "sourceFileSha": "2f05469c4ea0f4ee050453af83437c2731f39baa",
+      "sourceQuestionNumber": "WR06",
+      "sourceParagraphs": [
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150
+      ],
+      "sourceMarks": 4,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-B09-D09-WR06",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Earth and Space Sciences/Mid topic test Earth Science Year 7 Answers.docx",
+      "sourceFileSha": "2f05469c4ea0f4ee050453af83437c2731f39baa",
+      "sourceQuestionNumber": "WR07",
+      "sourceParagraphs": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "sourceMarks": 5,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-B09-D09-WR07",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Earth and Space Sciences/Mid topic test Earth Science Year 7 Answers.docx",
+      "sourceFileSha": "2f05469c4ea0f4ee050453af83437c2731f39baa",
+      "sourceQuestionNumber": "WR08",
+      "sourceParagraphs": [
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188
+      ],
+      "sourceMarks": 10,
+      "sourceType": "Extended response",
+      "existingQuestionId": "SCI-REPO-Y7-B09-D09-WR08",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Earth and Space Sciences/Mid topic test Earth Science Year 7 Answers.docx",
+      "sourceFileSha": "2f05469c4ea0f4ee050453af83437c2731f39baa",
+      "sourceQuestionNumber": "WR09",
+      "sourceParagraphs": [
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247
+      ],
+      "sourceMarks": 14,
+      "sourceType": "Calculations",
+      "existingQuestionId": "SCI-REPO-Y7-B09-D09-WR09",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Unknown School/Earth and Space Sciences/Mid topic test Earth Science Year 7 Answers.docx",
+      "sourceFileSha": "2f05469c4ea0f4ee050453af83437c2731f39baa",
+      "sourceQuestionNumber": "WR10",
+      "sourceParagraphs": [
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264
+      ],
+      "sourceMarks": 5,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-B09-D09-WR10",
+      "reason": "Equivalent source question already present; not added or counted again."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "batch": "repo-science-batch179",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y8-UNKNOWN-END-EARTHREV-1",
+    "SCI-REPO-Y8-UNKNOWN-END-EARTHREV-2",
+    "SCI-REPO-Y8-UNKNOWN-END-EARTHREV-3",
+    "SCI-REPO-Y8-UNKNOWN-END-EARTHREV-4",
+    "SCI-REPO-Y8-UNKNOWN-END-EARTHREV-5",
+    "SCI-REPO-Y8-UNKNOWN-END-EARTHREV-6",
+    "SCI-REPO-Y8-UNKNOWN-END-EARTHREV-7",
+    "SCI-REPO-Y8-UNKNOWN-END-EARTHREV-8",
+    "SCI-REPO-Y8-UNKNOWN-END-EARTHREV-9"
+  ],
+  "questions": 9,
+  "multipleChoice": 0,
+  "writtenQuestions": 9,
+  "battleEligible": 0,
+  "marks": 55,
+  "reviewRequired": [],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Unknown/Revision for End of Topic Test.docx",
+      "sha": "a31247ae823f2cae50a210181bf739fdfe41dc54",
+      "year": 8,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 9,
+  "createdSupplements": 0,
+  "notes": [
+    "Complete9numbered Earth Science revision tasks,including18term matching responses and all7equipment uses.55marks proposed explicitly;source has no printed marks. Cyclic rock pathways,variable mineral composition and nonlinear Mohs scale correctly qualified. No unseen textbook exercises invented."
+  ],
+  "markAudit": {
+    "sourceMarks": null,
+    "proposedTotal": 55,
+    "questions": 9
+  },
+  "duplicateQuestionAliases": []
+}
