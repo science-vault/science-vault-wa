@@ -1,0 +1,23 @@
+name: Batch 2 and 3 teacher reporting checks
+on:
+  push:
+    branches:
+      - feature/teacher-reporting-batch2-3
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate JavaScript
+        run: |
+          node --check teacher-reporting-core.mjs
+          node --check teacher-classes.mjs
+          node --check lesson-game-links.mjs
+      - name: Run Batch 1-3 unit tests
+        run: node --test tests/lesson-practice-core.test.mjs tests/lesson-written-practice.test.mjs tests/teacher-reporting-core.test.mjs
