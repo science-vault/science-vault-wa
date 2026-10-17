@@ -1,0 +1,13 @@
+/* Optional focus mode for existing lesson players. Scoped to Topic Hub only. */
+body.vault-focus-mode{overflow:hidden}
+body.vault-focus-mode #lesson{position:fixed!important;inset:0!important;z-index:9999;margin:0!important;padding:16px!important;border-radius:0!important;overflow:auto!important;background:#edf3f5!important;display:block!important}
+body.vault-focus-mode #lessonContent{height:calc(100dvh - 75px);min-height:450px}
+body.vault-focus-mode #lessonContent .sv-lms,
+body.vault-focus-mode #lessonContent .y7-lms,
+body.vault-focus-mode #lessonContent .y8-lms,
+body.vault-focus-mode #lessonContent .ms-lms{height:100%;min-height:0;max-width:none}
+body.vault-focus-mode #lessonContent .sv-stage{overflow-y:auto}
+body.vault-focus-mode #lessonContent .sv-course{overflow-y:auto}
+#vaultFocusToggle{margin-left:10px;background:#0c766b;color:#fff;border:0;border-radius:9px;padding:10px 15px;font:inherit;font-weight:750;cursor:pointer}
+#vaultFocusToggle:focus-visible{outline:3px solid #f4b942;outline-offset:3px}
+@media(max-width:850px){body.vault-focus-mode #lesson{padding:10px!important}body.vault-focus-mode #lessonContent{height:auto;min-height:calc(100dvh - 85px)}body.vault-focus-mode #lessonContent .sv-lms,body.vault-focus-mode #lessonContent .y7-lms,body.vault-focus-mode #lessonContent .y8-lms,body.vault-focus-mode #lessonContent .ms-lms{height:auto;min-height:calc(100dvh - 85px)}}
