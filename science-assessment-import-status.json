@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.17-tests-only-v1-b191",
+  "version": "2026.10.17-tests-only-v1-b202",
   "status": "in_progress",
   "scope": "Original Science assessment files in repository, Years 7–10. File counts include keys and supporting materials; they are not question counts.",
   "inventoryFiles": 2009,
@@ -11,11 +11,11 @@
     "9": 457,
     "10": 582
   },
-  "importedPapers": 150,
-  "importedQuestions": 2152,
-  "multipleChoice": 904,
-  "writtenQuestions": 1248,
-  "battleEligibleQuestions": 783,
+  "importedPapers": 166,
+  "importedQuestions": 2323,
+  "multipleChoice": 979,
+  "writtenQuestions": 1344,
+  "battleEligibleQuestions": 851,
   "reviewRequired": [
     {
       "id": "SCI-REPO-Y7-NAR-2024-EARTH-MC01",
@@ -174,6 +174,26 @@
       "note": "Date not supplied;three-hour premise is seasonal,not permanent."
     },
     {
+      "id": "SCI-REPO-Y10-SBY-2018-CHEM-469-WR6",
+      "note": "Question conflates bonding within substances with forces between molecules."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-CHEM-469-WR8",
+      "note": "Source mixes legacygroup7withmodern1/17/18numbering."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-CHEM-469-EXTc",
+      "note": "Source overstates noble-gas inertness."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-CHEM-477-MC04",
+      "note": "Ambiguous demand:diagram shows neutralMgwith2,8,2electrons,soMg(optionA)represents the pictured atom;Mg²⁺(B)is its common ion,but valence configuration is neither formula. Teacher review;do not force an ion answer to a neutral-atom diagram."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-CHEM-477-EXT1",
+      "note": "Source historical anecdote is not treated as established evidence;scientific mechanism supplemented from Royal Society of Chemistry."
+    },
+    {
       "id": "SCI-REPO-Y10-NAR-2022-DNAVALID-2",
       "note": "Source asks “Who found DNA?” with two blank lines but supplies no key. Discovery of the substance and discovery of its double-helical structure are different historical questions."
     },
@@ -238,6 +258,18 @@
       "note": "The source uses corrosion broadly for metal oxidation. Accept a scientifically justified distinction from rapid combustion."
     },
     {
+      "id": "SCI-REPO-Y10-ARAN-2015-CHEM2ESL-WR1e",
+      "note": "Source product isH₂,notH₂O;preserve prompt and moderate likely transcription error."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2015-CHEM2ESL-WR5a",
+      "note": "Source omits metal oxidation state;accept a valid stated oxide consistently."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2015-CHEM2ESL-WR5b",
+      "note": "Source omits metal oxidation state;accept a valid stated oxide consistently."
+    },
+    {
       "id": "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-MC09",
       "note": "Universal acid wording needs qualification;exclude from automatic battles."
     },
@@ -254,15 +286,7 @@
       "note": "History examples require verified sources; magnification table leaves objective powers unspecified."
     },
     {
-      "id": "SCI-REPO-Y8-SBY-2017-MICROSCOPE-magnification",
-      "note": "History examples require verified sources; magnification table leaves objective powers unspecified."
-    },
-    {
       "id": "SCI-REPO-Y8-SBY-2018-MICROSCOPE-history",
-      "note": "History examples require verified sources; magnification table leaves objective powers unspecified."
-    },
-    {
-      "id": "SCI-REPO-Y8-SBY-2018-MICROSCOPE-magnification",
       "note": "History examples require verified sources; magnification table leaves objective powers unspecified."
     },
     {
@@ -284,6 +308,10 @@
     {
       "id": "SCI-REPO-Y8-KOL-2021-STATES-2d",
       "note": "Source graph ends at 95°C although data reach 100°C, and its example near 8 minutes is plotted at about 60°C rather than the supplied 63°C. Extend the scale or use replacement graph paper; correct the example point. Source data begin above 0°C and do not establish a melting plateau."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-PSYCHQUIZ-7",
+      "note": "Source asks for a single-lobe consequence of concussion;use a plausible functional link and moderate the oversimplified localisation. Marking guidance supplemented from CDC concussion explanation."
     },
     {
       "id": "SCI-REPO-Y8-ARAN-2015-CHEMEND-W1",
@@ -622,6 +650,18 @@
       "note": "Treat receding chin as the source’s hypothetical fully penetrant autosomal one-gene model. Human facial traits are not established here to follow this simple inheritance pattern."
     },
     {
+      "id": "SCI-REPO-Y10-ARAN-2013-EVOLUTION-1b",
+      "note": "Student prompt3marks;keylabel2marks but gives3criteria. Prompt3marks retained;moderate against original version."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2013-EVOLUTION-5a",
+      "note": "Student prompt2marks;solutionheading1mark. Prompt2marks retained;moderate difference."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2013-EVOLUTION-7-2",
+      "note": "Definition conflates evolution and speciation;teacherreviewrequired."
+    },
+    {
       "id": "SCI-REPO-Y8-KOL-2021-PHYSCHEMCHANGE-3",
       "note": "Five classification/reason pairs are supplied but only8 marks; no original cell-level rubric identified."
     },
@@ -678,32 +718,20 @@
       "note": "Supplied equation does not correspond to the asked reactants; corrected equation explicitly provided."
     },
     {
-      "id": "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-1",
-      "note": "Numbered physical rock set/photos not included. Reuse requires the original matching specimens or replacement images with remapped numbers. Printed section41differs from34marks across its listed groups."
-    },
-    {
-      "id": "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-2",
-      "note": "Numbered physical rock set/photos not included. Reuse requires the original matching specimens or replacement images with remapped numbers. Printed section41differs from34marks across its listed groups."
-    },
-    {
-      "id": "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-3",
-      "note": "Numbered physical rock set/photos not included. Reuse requires the original matching specimens or replacement images with remapped numbers. Printed section41differs from34marks across its listed groups."
-    },
-    {
-      "id": "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-4",
-      "note": "Numbered physical rock set/photos not included. Reuse requires the original matching specimens or replacement images with remapped numbers. Printed section41differs from34marks across its listed groups."
-    },
-    {
-      "id": "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-5",
-      "note": "Numbered physical rock set/photos not included. Reuse requires the original matching specimens or replacement images with remapped numbers. Printed section41differs from34marks across its listed groups."
-    },
-    {
       "id": "SCI-REPO-Y8-B11-D33-WR01",
       "note": "The source concludes expenditure from later food intake, which is not sufficient evidence. Accept critique: intake, stored energy and other activities are not controlled; scale resolution is not necessarily a systematic bias."
     },
     {
       "id": "SCI-REPO-Y8-B11-D33-WR05",
       "note": "Play count measures endurance under tested conditions, not energy efficiency without measuring energy input and useful output. Equal charging time does not guarantee equal stored charge; accept critique."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-CHEMTERM1-MC19",
+      "note": "D(group8)is the intended legacy main-groupVIII answer,but modern group8is not noble gases. Modern group18is absent;teacher review required."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-CHEMTERM1-MC20",
+      "note": "C(group7)is intended legacy VII;modern halogens are group17,which is absent. Teacher review required."
     },
     {
       "id": "SCI-REPO-Y7-NARR-2018-BIO1-W3a",
@@ -720,26 +748,6 @@
     {
       "id": "SCI-REPO-Y10-ARAN-2016-CHEM2ACC-W6",
       "note": "Source gives oxygen rather than hydrogen valence information for methane;oxygen is not part of CH₄."
-    },
-    {
-      "id": "SCI-REPO-Y8-ARAN-ROCKPRACT33-station1",
-      "note": "Original classroom specimen missing. Teacher notes give intended category but no numbered sample photographs."
-    },
-    {
-      "id": "SCI-REPO-Y8-ARAN-ROCKPRACT33-station2",
-      "note": "Original classroom specimen missing. Teacher notes give intended category but no numbered sample photographs."
-    },
-    {
-      "id": "SCI-REPO-Y8-ARAN-ROCKPRACT33-station3",
-      "note": "Original classroom specimen missing. Teacher notes give intended category but no numbered sample photographs."
-    },
-    {
-      "id": "SCI-REPO-Y8-ARAN-ROCKPRACT33-station4",
-      "note": "Original classroom specimen missing. Teacher notes give intended category but no numbered sample photographs."
-    },
-    {
-      "id": "SCI-REPO-Y8-ARAN-ROCKPRACT33-station5",
-      "note": "Original classroom specimen missing. Teacher notes give intended category but no numbered sample photographs."
     },
     {
       "id": "SCI-REPO-Y8-ARAN-ROCKPRACT33-seated1",
@@ -914,6 +922,22 @@
       "note": "Source typo Na20 requires teacher correction to Na₂O."
     },
     {
+      "id": "SCI-REPO-Y10-NAR-2021-PHYS-449-MC07",
+      "note": "No valid unique answer:forces can change speed,direction,size and shape. Source must be manually moderated."
+    },
+    {
+      "id": "SCI-REPO-Y10-NAR-2021-PHYS-449-MC08",
+      "note": "D states the complete balance condition,but C is also true:drag balances thrust and lift balances weight at constant velocity. Accept C or D;not a unique-answer battle item."
+    },
+    {
+      "id": "SCI-REPO-Y10-NAR-2021-PHYS-450-MC04",
+      "note": "No dimensionally correct option:55kg is a mass,not a force. At g=10m/s² a55kg object has weight550N(optionD),but55kg is not the same quantity as550N. Teacher review required."
+    },
+    {
+      "id": "SCI-REPO-Y10-NAR-2021-PHYS-450-WR4",
+      "note": "Question requests final velocity but supplies final speed20m/s;likely intended acceleration. Preserve original question and5marks;teacher must confirm intended demand."
+    },
+    {
       "id": "SCI-REPO-Y8-SBY-2018-SYSTEMS-MC03",
       "note": "Supplied key incorrectly selects platelets for haemophilia; plasma clotting-factor deficiency is the relevant mechanism. See CDChttps://www.cdc.gov/hemophilia/about/."
     },
@@ -1034,10 +1058,6 @@
       "note": "Performance task requires actual specimen/teacher observation;source5marks lists6deduction criteria."
     },
     {
-      "id": "SCI-REPO-Y10-ARAN-2014-DNAMICRO-M-high",
-      "note": "Numerical magnifications only appear in supplied key,not pupil prompt."
-    },
-    {
       "id": "SCI-REPO-Y10-ARAN-2014-DNAMICRO-M-size",
       "note": "Requires actual viewed cells and field measurement."
     },
@@ -1124,6 +1144,10 @@
     {
       "id": "SCI-REPO-Y9-ARAN-2013-CHEM2-W5",
       "note": "Source has fifteen blank cells but only six marks, without an allocation. Retained as the original grouped six-mark task."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-2015-S2EXAM-MC13",
+      "note": "D:early morning is likely intended for Perth near the illumination boundary,but the diagram lacks a marked Perth location or a clear rotation arrow. Accept justified interpretation and moderate manually."
     },
     {
       "id": "SCI-REPO-Y7-ARAN-2015-BIO-MC06",
@@ -9655,11 +9679,9 @@
         "SCI-REPO-Y8-SBY-2017-MICROSCOPE-uses",
         "SCI-REPO-Y8-SBY-2017-MICROSCOPE-safety",
         "SCI-REPO-Y8-SBY-2017-MICROSCOPE-image",
-        "SCI-REPO-Y8-SBY-2017-MICROSCOPE-magnification",
         "SCI-REPO-Y8-SBY-2018-MICROSCOPE-history",
         "SCI-REPO-Y8-SBY-2018-MICROSCOPE-tem-sem",
-        "SCI-REPO-Y8-SBY-2018-MICROSCOPE-uses",
-        "SCI-REPO-Y8-SBY-2018-MICROSCOPE-magnification"
+        "SCI-REPO-Y8-SBY-2018-MICROSCOPE-uses"
       ],
       "sources": [
         {
@@ -9675,8 +9697,8 @@
           "role": "paper"
         }
       ],
-      "questions": 11,
-      "marks": 39,
+      "questions": 9,
+      "marks": 27,
       "imageAudit": "question-source-packs/repo-science-batch61-audit.json",
       "notes": [
         "All19 simple-machines revision prompts preserved with proposed marks; original pulley figure checked visually.40kg versus10N unit mismatch flagged, not silently changed. Two complete23-mark microscope variants reviewed, original empty table structures retained, missing magnification inputs flagged. Equivalent questions deduplicated."
@@ -11766,7 +11788,6 @@
         "SCI-REPO-Y10-ARAN-2014-DNAMICRO-M-drawing",
         "SCI-REPO-Y10-ARAN-2014-DNAMICRO-M-stages",
         "SCI-REPO-Y10-ARAN-2014-DNAMICRO-M-evidence",
-        "SCI-REPO-Y10-ARAN-2014-DNAMICRO-M-high",
         "SCI-REPO-Y10-ARAN-2014-DNAMICRO-M-size",
         "SCI-REPO-Y10-ARAN-2014-DNAMICRO-M-50x"
       ],
@@ -11778,8 +11799,8 @@
           "role": "paper"
         }
       ],
-      "questions": 33,
-      "marks": 54.0,
+      "questions": 32,
+      "marks": 50.0,
       "imageAudit": "question-source-packs/repo-science-batch82-audit.json",
       "notes": [
         "CompleteDNA/microscope test and embedded solution pages reviewed. OriginalDNA arrows/base blanks and cell-to-DNA figure preserved.14vocabularyitems0.5each;centromere/chromatid/sex-chromosome simplifications corrected. Explicit marks54conflict with53cover. Actual cells and key-only magnification assumptions flagged;no cell dimensions invented."
@@ -13939,7 +13960,8 @@
         "SCI-REPO-Y10-SBY-2017-CHEMTEST-W7b",
         "SCI-REPO-Y10-SBY-2017-CHEMTEST-W7c",
         "SCI-REPO-Y10-SBY-2017-CHEMTEST-W8a",
-        "SCI-REPO-Y10-SBY-2017-CHEMTEST-W8b"
+        "SCI-REPO-Y10-SBY-2017-CHEMTEST-W8b",
+        "SCI-REPO-Y10-SBY-2018-CHEMEXTRAS-MC02"
       ],
       "sources": [
         {
@@ -13947,10 +13969,16 @@
           "sha": "f97cb4c9d6fd48301be7e539cf60da5da2cba7d9",
           "year": 10,
           "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Draft.docx",
+          "sha": "21d4640c5860d0bbfea5a10a470ce2c96df44e27",
+          "year": 10,
+          "role": "paper"
         }
       ],
-      "questions": 7,
-      "marks": 11,
+      "questions": 8,
+      "marks": 12,
       "imageAudit": "question-source-packs/repo-science-batch122-audit.json",
       "notes": [
         "Complete15MC+35written-mark chemistry test and5extra items reviewed. Original CO2graph and magnesium diagram visually checked and retained. Manual exclusions preserve malformed AgC1formula,unrestricted acid definition,ion-definition omission andMgvalence/ion mismatch. Impossible Na2O/H2O equation flagged rather than silently balancing a different reaction."
@@ -17728,13 +17756,7 @@
     },
     {
       "id": "repo-science-batch169",
-      "questionIds": [
-        "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-1",
-        "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-2",
-        "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-3",
-        "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-4",
-        "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-5"
-      ],
+      "questionIds": [],
       "sources": [
         {
           "path": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8ESS Practical Rock ANSWERS.docx",
@@ -17743,8 +17765,8 @@
           "role": "paper"
         }
       ],
-      "questions": 5,
-      "marks": 34,
+      "questions": 0,
+      "marks": 0,
       "imageAudit": "question-source-packs/repo-science-batch169-audit.json",
       "notes": [
         "Full one-page rock practical key visually checked. Five complete question groups retained;their labelled allocations sum34rather than printed41. First group4marks covers3numbered IDs plus unmarked fossil prompt with proposed internal split. Obsidian underwater requirement corrected;shale fossil alternative accepted. Numbered specimens unavailable and explicitly required,not replaced with invented figures."
@@ -18424,11 +18446,6 @@
     {
       "id": "repo-science-batch181",
       "questionIds": [
-        "SCI-REPO-Y8-ARAN-ROCKPRACT33-station1",
-        "SCI-REPO-Y8-ARAN-ROCKPRACT33-station2",
-        "SCI-REPO-Y8-ARAN-ROCKPRACT33-station3",
-        "SCI-REPO-Y8-ARAN-ROCKPRACT33-station4",
-        "SCI-REPO-Y8-ARAN-ROCKPRACT33-station5",
         "SCI-REPO-Y8-ARAN-ROCKPRACT33-seated1",
         "SCI-REPO-Y8-ARAN-ROCKPRACT33-seated2",
         "SCI-REPO-Y8-ARAN-ROCKPRACT33-seated3"
@@ -18441,8 +18458,8 @@
           "role": "paper"
         }
       ],
-      "questions": 8,
-      "marks": 33,
+      "questions": 3,
+      "marks": 18,
       "imageAudit": "question-source-packs/repo-science-batch181-audit.json",
       "notes": [
         "Complete33mark rock practical:five3markstations plus7definition,5use and6cycle marks. Original crystal micrograph retained and native editable-shape rockcycle rasterised without redrawing. Five physical specimens missing and explicitly required. Universal hardest/gemstone claims qualified."
@@ -20067,6 +20084,3462 @@
         "written": 32
       },
       "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch192",
+      "questionIds": [
+        "SCI-REPO-Y10-NAR-2021-CHEM-452-MC15",
+        "SCI-REPO-Y10-NAR-2021-CHEM-452-MC16",
+        "SCI-REPO-Y10-NAR-2021-CHEM-452-WR1",
+        "SCI-REPO-Y10-NAR-2021-CHEM-452-WR2",
+        "SCI-REPO-Y10-NAR-2021-CHEM-452-WR3a",
+        "SCI-REPO-Y10-NAR-2021-CHEM-452-WR3b",
+        "SCI-REPO-Y10-NAR-2021-CHEM-452-WR4",
+        "SCI-REPO-Y10-NAR-2021-CHEM-452-WR51",
+        "SCI-REPO-Y10-NAR-2021-CHEM-452-WR52",
+        "SCI-REPO-Y10-NAR-2021-CHEM-452-WR53",
+        "SCI-REPO-Y10-NAR-2021-CHEM-452-WR54",
+        "SCI-REPO-Y10-NAR-2021-CHEM-454-WR51",
+        "SCI-REPO-Y10-NAR-2021-CHEM-454-WR52",
+        "SCI-REPO-Y10-NAR-2021-CHEM-454-WR6a",
+        "SCI-REPO-Y10-NAR-2021-CHEM-454-WR6b",
+        "SCI-REPO-Y10-NAR-2020-CHEM-461-WR1",
+        "SCI-REPO-Y10-NAR-2020-CHEM-461-WR2",
+        "SCI-REPO-Y10-NAR-2020-CHEM-461-WR3a",
+        "SCI-REPO-Y10-NAR-2020-CHEM-461-WR3b",
+        "SCI-REPO-Y10-NAR-2020-CHEM-461-WR3c"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 PreATAR Test Elements and the PT 2021.docx",
+          "sha": "599d99de9d68dc131558263d7969c7c857e7fd47",
+          "year": 10,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+          "sha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+          "year": 10,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+          "sha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+          "year": 10,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+          "sha": "26c56ca25787188dfd3d006f21485dcf256235d5",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 20,
+      "marks": 39,
+      "imageAudit": "question-source-packs/repo-science-batch192-audit.json",
+      "notes": [
+        "Four complete periodic-table tests reviewed. All original isotope notations and particle figures retained.2020cover contains stale16MC/20written split;actual20MC+16written=36.2021/2023papers20MC+17written=37. Identical questions retained once with aliases."
+      ],
+      "markAudit": {
+        "papers": 4,
+        "sourceTotals": [
+          37,
+          37,
+          37,
+          36
+        ],
+        "sourceMarks": 147
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 PreATAR Test Elements and the PT 2021.docx",
+          "sourceFileSha": "599d99de9d68dc131558263d7969c7c857e7fd47",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC01",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 PreATAR Test Elements and the PT 2021.docx",
+          "sourceFileSha": "599d99de9d68dc131558263d7969c7c857e7fd47",
+          "sourceQuestionNumber": "2",
+          "sourceParagraphs": [
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC02",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 PreATAR Test Elements and the PT 2021.docx",
+          "sourceFileSha": "599d99de9d68dc131558263d7969c7c857e7fd47",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC03",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 PreATAR Test Elements and the PT 2021.docx",
+          "sourceFileSha": "599d99de9d68dc131558263d7969c7c857e7fd47",
+          "sourceQuestionNumber": "4",
+          "sourceParagraphs": [
+            29,
+            30,
+            31,
+            32,
+            33
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC04",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 PreATAR Test Elements and the PT 2021.docx",
+          "sourceFileSha": "599d99de9d68dc131558263d7969c7c857e7fd47",
+          "sourceQuestionNumber": "5",
+          "sourceParagraphs": [
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC05",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 PreATAR Test Elements and the PT 2021.docx",
+          "sourceFileSha": "599d99de9d68dc131558263d7969c7c857e7fd47",
+          "sourceQuestionNumber": "6",
+          "sourceParagraphs": [
+            41,
+            42,
+            43,
+            44,
+            45
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC06",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 PreATAR Test Elements and the PT 2021.docx",
+          "sourceFileSha": "599d99de9d68dc131558263d7969c7c857e7fd47",
+          "sourceQuestionNumber": "7",
+          "sourceParagraphs": [
+            47,
+            48,
+            49,
+            50,
+            51
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC07",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 PreATAR Test Elements and the PT 2021.docx",
+          "sourceFileSha": "599d99de9d68dc131558263d7969c7c857e7fd47",
+          "sourceQuestionNumber": "8",
+          "sourceParagraphs": [
+            56,
+            57,
+            58,
+            59,
+            60
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC08",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 PreATAR Test Elements and the PT 2021.docx",
+          "sourceFileSha": "599d99de9d68dc131558263d7969c7c857e7fd47",
+          "sourceQuestionNumber": "9",
+          "sourceParagraphs": [
+            62,
+            63,
+            64,
+            65,
+            66
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC09",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 PreATAR Test Elements and the PT 2021.docx",
+          "sourceFileSha": "599d99de9d68dc131558263d7969c7c857e7fd47",
+          "sourceQuestionNumber": "10",
+          "sourceParagraphs": [
+            69,
+            70,
+            71,
+            72,
+            73
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC10",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 PreATAR Test Elements and the PT 2021.docx",
+          "sourceFileSha": "599d99de9d68dc131558263d7969c7c857e7fd47",
+          "sourceQuestionNumber": "11",
+          "sourceParagraphs": [
+            75,
+            76,
+            77,
+            78,
+            79
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC11",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 PreATAR Test Elements and the PT 2021.docx",
+          "sourceFileSha": "599d99de9d68dc131558263d7969c7c857e7fd47",
+          "sourceQuestionNumber": "12",
+          "sourceParagraphs": [
+            81,
+            82,
+            83,
+            84,
+            85
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC12",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 PreATAR Test Elements and the PT 2021.docx",
+          "sourceFileSha": "599d99de9d68dc131558263d7969c7c857e7fd47",
+          "sourceQuestionNumber": "13",
+          "sourceParagraphs": [
+            87,
+            88,
+            89,
+            90,
+            91
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC13",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 PreATAR Test Elements and the PT 2021.docx",
+          "sourceFileSha": "599d99de9d68dc131558263d7969c7c857e7fd47",
+          "sourceQuestionNumber": "14",
+          "sourceParagraphs": [
+            93,
+            94,
+            95,
+            96,
+            97
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC14",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 PreATAR Test Elements and the PT 2021.docx",
+          "sourceFileSha": "599d99de9d68dc131558263d7969c7c857e7fd47",
+          "sourceQuestionNumber": "17",
+          "sourceParagraphs": [
+            117,
+            118,
+            119,
+            120,
+            121
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC17",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 PreATAR Test Elements and the PT 2021.docx",
+          "sourceFileSha": "599d99de9d68dc131558263d7969c7c857e7fd47",
+          "sourceQuestionNumber": "18",
+          "sourceParagraphs": [
+            123,
+            124,
+            125,
+            126,
+            127
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC18",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 PreATAR Test Elements and the PT 2021.docx",
+          "sourceFileSha": "599d99de9d68dc131558263d7969c7c857e7fd47",
+          "sourceQuestionNumber": "19",
+          "sourceParagraphs": [
+            129,
+            130,
+            131,
+            132,
+            133
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC19",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 PreATAR Test Elements and the PT 2021.docx",
+          "sourceFileSha": "599d99de9d68dc131558263d7969c7c857e7fd47",
+          "sourceQuestionNumber": "20",
+          "sourceParagraphs": [
+            135,
+            136,
+            137,
+            138,
+            139
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC20",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+          "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC01",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+          "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+          "sourceQuestionNumber": "2",
+          "sourceParagraphs": [
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC02",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+          "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC03",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+          "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+          "sourceQuestionNumber": "4",
+          "sourceParagraphs": [
+            29,
+            30,
+            31,
+            32,
+            33
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC04",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+          "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+          "sourceQuestionNumber": "5",
+          "sourceParagraphs": [
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC05",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+          "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+          "sourceQuestionNumber": "6",
+          "sourceParagraphs": [
+            41,
+            42,
+            43,
+            44,
+            45
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC06",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+          "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+          "sourceQuestionNumber": "7",
+          "sourceParagraphs": [
+            47,
+            48,
+            49,
+            50,
+            51
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC07",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+          "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+          "sourceQuestionNumber": "8",
+          "sourceParagraphs": [
+            56,
+            57,
+            58,
+            59,
+            60
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC08",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+          "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+          "sourceQuestionNumber": "9",
+          "sourceParagraphs": [
+            62,
+            63,
+            64,
+            65,
+            66
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC09",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+          "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+          "sourceQuestionNumber": "10",
+          "sourceParagraphs": [
+            69,
+            70,
+            71,
+            72,
+            73
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC10",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+          "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+          "sourceQuestionNumber": "11",
+          "sourceParagraphs": [
+            75,
+            76,
+            77,
+            78,
+            79
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC11",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+          "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+          "sourceQuestionNumber": "12",
+          "sourceParagraphs": [
+            81,
+            82,
+            83,
+            84,
+            85
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC12",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+          "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+          "sourceQuestionNumber": "13",
+          "sourceParagraphs": [
+            87,
+            88,
+            89,
+            90,
+            91
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC13",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+          "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+          "sourceQuestionNumber": "14",
+          "sourceParagraphs": [
+            93,
+            94,
+            95,
+            96,
+            97
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC14",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+          "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+          "sourceQuestionNumber": "15",
+          "sourceParagraphs": [
+            105,
+            106,
+            107,
+            108,
+            109,
+            103
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2021-CHEM-452-MC15",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+          "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+          "sourceQuestionNumber": "16",
+          "sourceParagraphs": [
+            111,
+            112,
+            113,
+            114,
+            115,
+            103
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2021-CHEM-452-MC16",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+          "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+          "sourceQuestionNumber": "17",
+          "sourceParagraphs": [
+            117,
+            118,
+            119,
+            120,
+            121
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC17",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+          "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+          "sourceQuestionNumber": "18",
+          "sourceParagraphs": [
+            123,
+            124,
+            125,
+            126,
+            127
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC18",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+          "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+          "sourceQuestionNumber": "19",
+          "sourceParagraphs": [
+            129,
+            130,
+            131,
+            132,
+            133
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC19",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+          "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+          "sourceQuestionNumber": "20",
+          "sourceParagraphs": [
+            135,
+            136,
+            137,
+            138,
+            139
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC20",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+          "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+          "sourceQuestionNumber": "WR1",
+          "sourceParagraphs": [
+            146
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Diagram",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2021-CHEM-452-WR1",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+          "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+          "sourceQuestionNumber": "WR2",
+          "sourceParagraphs": [
+            163,
+            164
+          ],
+          "sourceMarks": 5,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2021-CHEM-452-WR2",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+          "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+          "sourceQuestionNumber": "WR3a",
+          "sourceParagraphs": [
+            170,
+            173
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2021-CHEM-452-WR3a",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+          "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+          "sourceQuestionNumber": "WR3b",
+          "sourceParagraphs": [
+            170,
+            177
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2021-CHEM-452-WR3b",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+          "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+          "sourceQuestionNumber": "WR4",
+          "sourceParagraphs": [
+            185
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2021-CHEM-452-WR4",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+          "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC01",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+          "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+          "sourceQuestionNumber": "2",
+          "sourceParagraphs": [
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC02",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+          "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC03",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+          "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+          "sourceQuestionNumber": "4",
+          "sourceParagraphs": [
+            29,
+            30,
+            31,
+            32,
+            33
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC04",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+          "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+          "sourceQuestionNumber": "5",
+          "sourceParagraphs": [
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC05",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+          "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+          "sourceQuestionNumber": "6",
+          "sourceParagraphs": [
+            41,
+            42,
+            43,
+            44,
+            45
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC06",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+          "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+          "sourceQuestionNumber": "7",
+          "sourceParagraphs": [
+            47,
+            48,
+            49,
+            50,
+            51
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC07",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+          "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+          "sourceQuestionNumber": "8",
+          "sourceParagraphs": [
+            56,
+            57,
+            58,
+            59,
+            60
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC08",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+          "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+          "sourceQuestionNumber": "9",
+          "sourceParagraphs": [
+            62,
+            63,
+            64,
+            65,
+            66
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC09",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+          "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+          "sourceQuestionNumber": "10",
+          "sourceParagraphs": [
+            69,
+            70,
+            71,
+            72,
+            73
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC10",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+          "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+          "sourceQuestionNumber": "11",
+          "sourceParagraphs": [
+            75,
+            76,
+            77,
+            78,
+            79
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC11",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+          "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+          "sourceQuestionNumber": "12",
+          "sourceParagraphs": [
+            81,
+            82,
+            83,
+            84,
+            85
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC12",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+          "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+          "sourceQuestionNumber": "13",
+          "sourceParagraphs": [
+            87,
+            88,
+            89,
+            90,
+            91
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC13",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+          "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+          "sourceQuestionNumber": "14",
+          "sourceParagraphs": [
+            93,
+            94,
+            95,
+            96,
+            97
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC14",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+          "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+          "sourceQuestionNumber": "15",
+          "sourceParagraphs": [
+            105,
+            106,
+            107,
+            108,
+            109,
+            103
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2021-CHEM-452-MC15",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+          "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+          "sourceQuestionNumber": "16",
+          "sourceParagraphs": [
+            111,
+            112,
+            113,
+            114,
+            115,
+            103
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2021-CHEM-452-MC16",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+          "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+          "sourceQuestionNumber": "17",
+          "sourceParagraphs": [
+            117,
+            118,
+            119,
+            120,
+            121
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC17",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+          "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+          "sourceQuestionNumber": "18",
+          "sourceParagraphs": [
+            123,
+            124,
+            125,
+            126,
+            127
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC18",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+          "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+          "sourceQuestionNumber": "19",
+          "sourceParagraphs": [
+            129,
+            130,
+            131,
+            132,
+            133
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC19",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+          "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+          "sourceQuestionNumber": "20",
+          "sourceParagraphs": [
+            135,
+            136,
+            137,
+            138,
+            139
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC20",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+          "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+          "sourceQuestionNumber": "WR1",
+          "sourceParagraphs": [
+            146
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Diagram",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2021-CHEM-452-WR1",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+          "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+          "sourceQuestionNumber": "WR2",
+          "sourceParagraphs": [
+            163,
+            164
+          ],
+          "sourceMarks": 5,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2021-CHEM-452-WR2",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+          "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+          "sourceQuestionNumber": "WR3a",
+          "sourceParagraphs": [
+            170,
+            173
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2021-CHEM-452-WR3a",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+          "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+          "sourceQuestionNumber": "WR3b",
+          "sourceParagraphs": [
+            170,
+            177
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2021-CHEM-452-WR3b",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+          "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+          "sourceQuestionNumber": "WR4",
+          "sourceParagraphs": [
+            185
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2021-CHEM-452-WR4",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+          "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+          "sourceQuestionNumber": "WR51",
+          "sourceParagraphs": [
+            192,
+            194
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2021-CHEM-452-WR51",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+          "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+          "sourceQuestionNumber": "WR52",
+          "sourceParagraphs": [
+            192,
+            197
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2021-CHEM-452-WR52",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+          "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+          "sourceQuestionNumber": "WR53",
+          "sourceParagraphs": [
+            192,
+            200
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2021-CHEM-452-WR53",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+          "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+          "sourceQuestionNumber": "WR54",
+          "sourceParagraphs": [
+            192,
+            203
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2021-CHEM-452-WR54",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+          "sourceFileSha": "26c56ca25787188dfd3d006f21485dcf256235d5",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC01",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+          "sourceFileSha": "26c56ca25787188dfd3d006f21485dcf256235d5",
+          "sourceQuestionNumber": "2",
+          "sourceParagraphs": [
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC02",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+          "sourceFileSha": "26c56ca25787188dfd3d006f21485dcf256235d5",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC03",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+          "sourceFileSha": "26c56ca25787188dfd3d006f21485dcf256235d5",
+          "sourceQuestionNumber": "4",
+          "sourceParagraphs": [
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC04",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+          "sourceFileSha": "26c56ca25787188dfd3d006f21485dcf256235d5",
+          "sourceQuestionNumber": "5",
+          "sourceParagraphs": [
+            33,
+            34,
+            35,
+            36,
+            37
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC05",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+          "sourceFileSha": "26c56ca25787188dfd3d006f21485dcf256235d5",
+          "sourceQuestionNumber": "6",
+          "sourceParagraphs": [
+            39,
+            40,
+            41,
+            42,
+            43
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC06",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+          "sourceFileSha": "26c56ca25787188dfd3d006f21485dcf256235d5",
+          "sourceQuestionNumber": "7",
+          "sourceParagraphs": [
+            45,
+            46,
+            47,
+            48,
+            49
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC07",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+          "sourceFileSha": "26c56ca25787188dfd3d006f21485dcf256235d5",
+          "sourceQuestionNumber": "8",
+          "sourceParagraphs": [
+            54,
+            55,
+            56,
+            57,
+            58
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC08",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+          "sourceFileSha": "26c56ca25787188dfd3d006f21485dcf256235d5",
+          "sourceQuestionNumber": "9",
+          "sourceParagraphs": [
+            60,
+            61,
+            62,
+            63,
+            64
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC09",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+          "sourceFileSha": "26c56ca25787188dfd3d006f21485dcf256235d5",
+          "sourceQuestionNumber": "10",
+          "sourceParagraphs": [
+            67,
+            68,
+            69,
+            70,
+            71
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC10",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+          "sourceFileSha": "26c56ca25787188dfd3d006f21485dcf256235d5",
+          "sourceQuestionNumber": "11",
+          "sourceParagraphs": [
+            73,
+            74,
+            75,
+            76,
+            77
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC11",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+          "sourceFileSha": "26c56ca25787188dfd3d006f21485dcf256235d5",
+          "sourceQuestionNumber": "12",
+          "sourceParagraphs": [
+            79,
+            80,
+            81,
+            82,
+            83
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC12",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+          "sourceFileSha": "26c56ca25787188dfd3d006f21485dcf256235d5",
+          "sourceQuestionNumber": "13",
+          "sourceParagraphs": [
+            85,
+            86,
+            87,
+            88,
+            89
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC13",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+          "sourceFileSha": "26c56ca25787188dfd3d006f21485dcf256235d5",
+          "sourceQuestionNumber": "14",
+          "sourceParagraphs": [
+            91,
+            92,
+            93,
+            94,
+            95
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC14",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+          "sourceFileSha": "26c56ca25787188dfd3d006f21485dcf256235d5",
+          "sourceQuestionNumber": "15",
+          "sourceParagraphs": [
+            103,
+            104,
+            105,
+            106,
+            107,
+            101
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2021-CHEM-452-MC15",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+          "sourceFileSha": "26c56ca25787188dfd3d006f21485dcf256235d5",
+          "sourceQuestionNumber": "16",
+          "sourceParagraphs": [
+            109,
+            110,
+            111,
+            112,
+            113,
+            101
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2021-CHEM-452-MC16",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+          "sourceFileSha": "26c56ca25787188dfd3d006f21485dcf256235d5",
+          "sourceQuestionNumber": "17",
+          "sourceParagraphs": [
+            115,
+            116,
+            117,
+            118,
+            119
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC17",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+          "sourceFileSha": "26c56ca25787188dfd3d006f21485dcf256235d5",
+          "sourceQuestionNumber": "18",
+          "sourceParagraphs": [
+            121,
+            122,
+            123,
+            124,
+            125
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC18",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+          "sourceFileSha": "26c56ca25787188dfd3d006f21485dcf256235d5",
+          "sourceQuestionNumber": "19",
+          "sourceParagraphs": [
+            127,
+            128,
+            129,
+            130,
+            131
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC19",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+          "sourceFileSha": "26c56ca25787188dfd3d006f21485dcf256235d5",
+          "sourceQuestionNumber": "20",
+          "sourceParagraphs": [
+            133,
+            134,
+            135,
+            136,
+            137
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC20",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch193",
+      "questionIds": [
+        "SCI-REPO-Y7-NAR-2019-CHEM-MC01",
+        "SCI-REPO-Y7-NAR-2019-CHEM-MC08",
+        "SCI-REPO-Y7-NAR-2019-CHEM-MC12",
+        "SCI-REPO-Y7-NAR-2019-CHEM-WR1",
+        "SCI-REPO-Y7-NAR-2019-CHEM-WR4",
+        "SCI-REPO-Y7-NAR-2019-CHEM-WR5"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2019/Year 7 Chemistry test 2019.docx",
+          "sha": "5c9fe761a2aaf3a94c311d353f1408eeb7f06591",
+          "year": 7,
+          "role": "paper"
+        }
+      ],
+      "questions": 6,
+      "marks": 12,
+      "imageAudit": "question-source-packs/repo-science-batch193-audit.json",
+      "notes": [
+        "Complete30mark test reviewed:15MC+15written. Source states/decantation images retained with explicit A–Dlabels. Poorly defined physical-change and liquid-separation MC manually moderated;not added to automatic battles."
+      ],
+      "markAudit": {
+        "sourceTotal": 30,
+        "multipleChoice": 15,
+        "written": 15
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2019/Year 7 Chemistry test 2019.docx",
+          "sourceFileSha": "5c9fe761a2aaf3a94c311d353f1408eeb7f06591",
+          "sourceQuestionNumber": "2",
+          "sourceParagraphs": [
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC02",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2019/Year 7 Chemistry test 2019.docx",
+          "sourceFileSha": "5c9fe761a2aaf3a94c311d353f1408eeb7f06591",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC03",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2019/Year 7 Chemistry test 2019.docx",
+          "sourceFileSha": "5c9fe761a2aaf3a94c311d353f1408eeb7f06591",
+          "sourceQuestionNumber": "4",
+          "sourceParagraphs": [
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC04",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2019/Year 7 Chemistry test 2019.docx",
+          "sourceFileSha": "5c9fe761a2aaf3a94c311d353f1408eeb7f06591",
+          "sourceQuestionNumber": "5",
+          "sourceParagraphs": [
+            33,
+            34,
+            35,
+            36,
+            37
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC05",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2019/Year 7 Chemistry test 2019.docx",
+          "sourceFileSha": "5c9fe761a2aaf3a94c311d353f1408eeb7f06591",
+          "sourceQuestionNumber": "6",
+          "sourceParagraphs": [
+            47,
+            48,
+            49,
+            50,
+            51
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC06",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "B is intended but not a sound universal definition:physical changes do not form new chemical substances and are not necessarily easily reversed. No fully accurate option;teacher moderation required.",
+            "note": "B is intended but not a sound universal definition:physical changes do not form new chemical substances and are not necessarily easily reversed. No fully accurate option;teacher moderation required."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2019/Year 7 Chemistry test 2019.docx",
+          "sourceFileSha": "5c9fe761a2aaf3a94c311d353f1408eeb7f06591",
+          "sourceQuestionNumber": "7",
+          "sourceParagraphs": [
+            53,
+            54,
+            55,
+            56,
+            57
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NARR-2018-CHEM1-MC02",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2019/Year 7 Chemistry test 2019.docx",
+          "sourceFileSha": "5c9fe761a2aaf3a94c311d353f1408eeb7f06591",
+          "sourceQuestionNumber": "9",
+          "sourceParagraphs": [
+            65,
+            66,
+            67,
+            68,
+            69
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC08",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2019/Year 7 Chemistry test 2019.docx",
+          "sourceFileSha": "5c9fe761a2aaf3a94c311d353f1408eeb7f06591",
+          "sourceQuestionNumber": "10",
+          "sourceParagraphs": [
+            71,
+            72,
+            73,
+            74,
+            75
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC09",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2019/Year 7 Chemistry test 2019.docx",
+          "sourceFileSha": "5c9fe761a2aaf3a94c311d353f1408eeb7f06591",
+          "sourceQuestionNumber": "11",
+          "sourceParagraphs": [
+            77,
+            78,
+            79,
+            80,
+            81
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC10",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "A(distillation)is intended for miscible liquids with different boiling points. Chromatography can separate some liquid components;without specifying mixture properties,the source is too broad. Accept a justified alternative;manual review.",
+            "note": "A(distillation)is intended for miscible liquids with different boiling points. Chromatography can separate some liquid components;without specifying mixture properties,the source is too broad. Accept a justified alternative;manual review."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2019/Year 7 Chemistry test 2019.docx",
+          "sourceFileSha": "5c9fe761a2aaf3a94c311d353f1408eeb7f06591",
+          "sourceQuestionNumber": "13",
+          "sourceParagraphs": [
+            118,
+            119,
+            120,
+            121,
+            122
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC12",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "D:evaporation/crystallisation collects salt;distillation is used primarily to collect solvent in this context. Salt also remains as residue after distillation,so the absolute wording is oversimplified;accept justified critique.",
+            "note": "D:evaporation/crystallisation collects salt;distillation is used primarily to collect solvent in this context. Salt also remains as residue after distillation,so the absolute wording is oversimplified;accept justified critique."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2019/Year 7 Chemistry test 2019.docx",
+          "sourceFileSha": "5c9fe761a2aaf3a94c311d353f1408eeb7f06591",
+          "sourceQuestionNumber": "14",
+          "sourceParagraphs": [
+            124,
+            125,
+            126,
+            127,
+            128
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC13",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2019/Year 7 Chemistry test 2019.docx",
+          "sourceFileSha": "5c9fe761a2aaf3a94c311d353f1408eeb7f06591",
+          "sourceQuestionNumber": "15",
+          "sourceParagraphs": [
+            130,
+            131,
+            132,
+            133,
+            134
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC14",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2019/Year 7 Chemistry test 2019.docx",
+          "sourceFileSha": "5c9fe761a2aaf3a94c311d353f1408eeb7f06591",
+          "sourceQuestionNumber": "WR2",
+          "sourceParagraphs": [
+            200
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-NARR-2018-CHEM1-W2",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2019/Year 7 Chemistry test 2019.docx",
+          "sourceFileSha": "5c9fe761a2aaf3a94c311d353f1408eeb7f06591",
+          "sourceQuestionNumber": "WR3",
+          "sourceParagraphs": [
+            210
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-NARR-2018-CHEM1-W3",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch194",
+      "questionIds": [
+        "SCI-REPO-Y10-NAR-2021-PHYS-449-MC02",
+        "SCI-REPO-Y10-NAR-2021-PHYS-449-MC03",
+        "SCI-REPO-Y10-NAR-2021-PHYS-449-MC04",
+        "SCI-REPO-Y10-NAR-2021-PHYS-449-MC05",
+        "SCI-REPO-Y10-NAR-2021-PHYS-449-MC06",
+        "SCI-REPO-Y10-NAR-2021-PHYS-449-MC07",
+        "SCI-REPO-Y10-NAR-2021-PHYS-449-MC08",
+        "SCI-REPO-Y10-NAR-2021-PHYS-449-MC10",
+        "SCI-REPO-Y10-NAR-2021-PHYS-449-WR3",
+        "SCI-REPO-Y10-NAR-2021-PHYS-449-WR4a",
+        "SCI-REPO-Y10-NAR-2021-PHYS-449-WR4b",
+        "SCI-REPO-Y10-NAR-2021-PHYS-450-MC04",
+        "SCI-REPO-Y10-NAR-2021-PHYS-450-MC05",
+        "SCI-REPO-Y10-NAR-2021-PHYS-450-WR1",
+        "SCI-REPO-Y10-NAR-2021-PHYS-450-WR2",
+        "SCI-REPO-Y10-NAR-2021-PHYS-450-WR3",
+        "SCI-REPO-Y10-NAR-2021-PHYS-450-WR4",
+        "SCI-REPO-Y10-NAR-2022-PHYS-451-WR1",
+        "SCI-REPO-Y10-NAR-2022-PHYS-451-WR4"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Narrogin/2021/Task 6 Physics 1 PREATAR Test 1 Motion and Energy.docx",
+          "sha": "a324bf628f47ffc36232a63980d3d1e0dbe5db29",
+          "year": 10,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Narrogin/2021/Task 6 Physics 1 General Test Motion and energy.docx",
+          "sha": "be68cd37a88b624849393f70a7d007e9a0905ae6",
+          "year": 10,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Narrogin/2022/Task 6 Physics 1 General Test Motion and energy.docx",
+          "sha": "fe5dcb6cd1d4618a029efcf5f102e098899d88c2",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 19,
+      "marks": 37,
+      "imageAudit": "question-source-packs/repo-science-batch194-audit.json",
+      "notes": [
+        "Three complete motion tests reviewed,with original embedded graph and source-native force arrows retained. No unique correct option in force-effects/balanced-flight MC;mass-vs-weight error in general tests manually flagged.2022general individual marks total25 despite26footer. PreATAR usesg9.8,generaluses10."
+      ],
+      "markAudit": {
+        "papers": 3,
+        "printedTotals": [
+          26,
+          26,
+          26
+        ],
+        "actualTotals": [
+          26,
+          26,
+          25
+        ]
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Narrogin/2021/Task 6 Physics 1 PREATAR Test 1 Motion and Energy.docx",
+          "sourceFileSha": "a324bf628f47ffc36232a63980d3d1e0dbe5db29",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2023-MOTION-MC01",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Narrogin/2021/Task 6 Physics 1 PREATAR Test 1 Motion and Energy.docx",
+          "sourceFileSha": "a324bf628f47ffc36232a63980d3d1e0dbe5db29",
+          "sourceQuestionNumber": "9",
+          "sourceParagraphs": [
+            75,
+            77,
+            78,
+            79,
+            80,
+            76
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2023-MOTION-MC09",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Narrogin/2021/Task 6 Physics 1 PREATAR Test 1 Motion and Energy.docx",
+          "sourceFileSha": "a324bf628f47ffc36232a63980d3d1e0dbe5db29",
+          "sourceQuestionNumber": "WR1",
+          "sourceParagraphs": [
+            102
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Calculation",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2023-MOTION-11",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Narrogin/2021/Task 6 Physics 1 PREATAR Test 1 Motion and Energy.docx",
+          "sourceFileSha": "a324bf628f47ffc36232a63980d3d1e0dbe5db29",
+          "sourceQuestionNumber": "WR2",
+          "sourceParagraphs": [
+            118
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Calculation",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2023-MOTION-12",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Narrogin/2021/Task 6 Physics 1 PREATAR Test 1 Motion and Energy.docx",
+          "sourceFileSha": "a324bf628f47ffc36232a63980d3d1e0dbe5db29",
+          "sourceQuestionNumber": "WR5",
+          "sourceParagraphs": [
+            180,
+            181
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Calculation",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2023-MOTION-15",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Narrogin/2021/Task 6 Physics 1 General Test Motion and energy.docx",
+          "sourceFileSha": "be68cd37a88b624849393f70a7d007e9a0905ae6",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2023-MOTION-MC01",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Narrogin/2021/Task 6 Physics 1 General Test Motion and energy.docx",
+          "sourceFileSha": "be68cd37a88b624849393f70a7d007e9a0905ae6",
+          "sourceQuestionNumber": "2",
+          "sourceParagraphs": [
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2021-PHYS-449-MC02",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Narrogin/2021/Task 6 Physics 1 General Test Motion and energy.docx",
+          "sourceFileSha": "be68cd37a88b624849393f70a7d007e9a0905ae6",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            34,
+            35,
+            36,
+            37,
+            38,
+            23
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2021-PHYS-449-MC03",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Narrogin/2021/Task 6 Physics 1 General Test Motion and energy.docx",
+          "sourceFileSha": "be68cd37a88b624849393f70a7d007e9a0905ae6",
+          "sourceQuestionNumber": "6",
+          "sourceParagraphs": [
+            53,
+            54,
+            55,
+            56,
+            57
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2021-PHYS-449-MC06",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Narrogin/2021/Task 6 Physics 1 General Test Motion and energy.docx",
+          "sourceFileSha": "be68cd37a88b624849393f70a7d007e9a0905ae6",
+          "sourceQuestionNumber": "7",
+          "sourceParagraphs": [
+            59,
+            60,
+            61,
+            62,
+            63
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2021-PHYS-449-MC07",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "No valid unique answer:forces can change speed,direction,size and shape. Source must be manually moderated.",
+            "note": "No valid unique answer:forces can change speed,direction,size and shape. Source must be manually moderated."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Narrogin/2021/Task 6 Physics 1 General Test Motion and energy.docx",
+          "sourceFileSha": "be68cd37a88b624849393f70a7d007e9a0905ae6",
+          "sourceQuestionNumber": "8",
+          "sourceParagraphs": [
+            67,
+            68,
+            69,
+            70,
+            71
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2021-PHYS-449-MC08",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "D states the complete balance condition,but C is also true:drag balances thrust and lift balances weight at constant velocity. Accept C or D;not a unique-answer battle item.",
+            "note": "D states the complete balance condition,but C is also true:drag balances thrust and lift balances weight at constant velocity. Accept C or D;not a unique-answer battle item."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Narrogin/2021/Task 6 Physics 1 General Test Motion and energy.docx",
+          "sourceFileSha": "be68cd37a88b624849393f70a7d007e9a0905ae6",
+          "sourceQuestionNumber": "9",
+          "sourceParagraphs": [
+            73,
+            75,
+            76,
+            77,
+            78,
+            74
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2023-MOTION-MC09",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Narrogin/2021/Task 6 Physics 1 General Test Motion and energy.docx",
+          "sourceFileSha": "be68cd37a88b624849393f70a7d007e9a0905ae6",
+          "sourceQuestionNumber": "10",
+          "sourceParagraphs": [
+            80,
+            82,
+            83,
+            84,
+            85
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2021-PHYS-449-MC10",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Narrogin/2021/Task 6 Physics 1 General Test Motion and energy.docx",
+          "sourceFileSha": "be68cd37a88b624849393f70a7d007e9a0905ae6",
+          "sourceQuestionNumber": "WR5",
+          "sourceParagraphs": [
+            188
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Calculation",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2023-MOTION-15",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Narrogin/2022/Task 6 Physics 1 General Test Motion and energy.docx",
+          "sourceFileSha": "fe5dcb6cd1d4618a029efcf5f102e098899d88c2",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2023-MOTION-MC01",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Narrogin/2022/Task 6 Physics 1 General Test Motion and energy.docx",
+          "sourceFileSha": "fe5dcb6cd1d4618a029efcf5f102e098899d88c2",
+          "sourceQuestionNumber": "2",
+          "sourceParagraphs": [
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2021-PHYS-449-MC02",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Narrogin/2022/Task 6 Physics 1 General Test Motion and energy.docx",
+          "sourceFileSha": "fe5dcb6cd1d4618a029efcf5f102e098899d88c2",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            34,
+            35,
+            36,
+            37,
+            38,
+            23
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2021-PHYS-449-MC03",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Narrogin/2022/Task 6 Physics 1 General Test Motion and energy.docx",
+          "sourceFileSha": "fe5dcb6cd1d4618a029efcf5f102e098899d88c2",
+          "sourceQuestionNumber": "4",
+          "sourceParagraphs": [
+            41,
+            42,
+            43,
+            44,
+            45
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2021-PHYS-450-MC04",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "No dimensionally correct option:55kg is a mass,not a force. At g=10m/s² a55kg object has weight550N(optionD),but55kg is not the same quantity as550N. Teacher review required.",
+            "note": "No dimensionally correct option:55kg is a mass,not a force. At g=10m/s² a55kg object has weight550N(optionD),but55kg is not the same quantity as550N. Teacher review required."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Narrogin/2022/Task 6 Physics 1 General Test Motion and energy.docx",
+          "sourceFileSha": "fe5dcb6cd1d4618a029efcf5f102e098899d88c2",
+          "sourceQuestionNumber": "5",
+          "sourceParagraphs": [
+            47,
+            48,
+            49,
+            50,
+            51
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2021-PHYS-450-MC05",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Narrogin/2022/Task 6 Physics 1 General Test Motion and energy.docx",
+          "sourceFileSha": "fe5dcb6cd1d4618a029efcf5f102e098899d88c2",
+          "sourceQuestionNumber": "6",
+          "sourceParagraphs": [
+            53,
+            54,
+            55,
+            56,
+            57
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2021-PHYS-449-MC06",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Narrogin/2022/Task 6 Physics 1 General Test Motion and energy.docx",
+          "sourceFileSha": "fe5dcb6cd1d4618a029efcf5f102e098899d88c2",
+          "sourceQuestionNumber": "7",
+          "sourceParagraphs": [
+            59,
+            60,
+            61,
+            62,
+            63
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2021-PHYS-449-MC07",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "No valid unique answer:forces can change speed,direction,size and shape. Source must be manually moderated.",
+            "note": "No valid unique answer:forces can change speed,direction,size and shape. Source must be manually moderated."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Narrogin/2022/Task 6 Physics 1 General Test Motion and energy.docx",
+          "sourceFileSha": "fe5dcb6cd1d4618a029efcf5f102e098899d88c2",
+          "sourceQuestionNumber": "8",
+          "sourceParagraphs": [
+            67,
+            68,
+            69,
+            70,
+            71
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2021-PHYS-449-MC08",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "D states the complete balance condition,but C is also true:drag balances thrust and lift balances weight at constant velocity. Accept C or D;not a unique-answer battle item.",
+            "note": "D states the complete balance condition,but C is also true:drag balances thrust and lift balances weight at constant velocity. Accept C or D;not a unique-answer battle item."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Narrogin/2022/Task 6 Physics 1 General Test Motion and energy.docx",
+          "sourceFileSha": "fe5dcb6cd1d4618a029efcf5f102e098899d88c2",
+          "sourceQuestionNumber": "9",
+          "sourceParagraphs": [
+            73,
+            75,
+            76,
+            77,
+            78,
+            74
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2023-MOTION-MC09",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Narrogin/2022/Task 6 Physics 1 General Test Motion and energy.docx",
+          "sourceFileSha": "fe5dcb6cd1d4618a029efcf5f102e098899d88c2",
+          "sourceQuestionNumber": "10",
+          "sourceParagraphs": [
+            80,
+            82,
+            83,
+            84,
+            85
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2021-PHYS-449-MC10",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Narrogin/2022/Task 6 Physics 1 General Test Motion and energy.docx",
+          "sourceFileSha": "fe5dcb6cd1d4618a029efcf5f102e098899d88c2",
+          "sourceQuestionNumber": "WR2",
+          "sourceParagraphs": [
+            116
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Calculation",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2021-PHYS-450-WR2",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Narrogin/2022/Task 6 Physics 1 General Test Motion and energy.docx",
+          "sourceFileSha": "fe5dcb6cd1d4618a029efcf5f102e098899d88c2",
+          "sourceQuestionNumber": "WR3",
+          "sourceParagraphs": [
+            132,
+            134,
+            136,
+            138,
+            141,
+            145,
+            152
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Calculation",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2021-PHYS-450-WR3",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Narrogin/2022/Task 6 Physics 1 General Test Motion and energy.docx",
+          "sourceFileSha": "fe5dcb6cd1d4618a029efcf5f102e098899d88c2",
+          "sourceQuestionNumber": "WR5",
+          "sourceParagraphs": [
+            187
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Calculation",
+          "existingQuestionId": "SCI-REPO-Y10-NAR-2023-MOTION-15",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch195",
+      "questionIds": [
+        "SCI-REPO-Y7-ARAN-2015-S2EXAM-MC01",
+        "SCI-REPO-Y7-ARAN-2015-S2EXAM-MC02",
+        "SCI-REPO-Y7-ARAN-2015-S2EXAM-MC03",
+        "SCI-REPO-Y7-ARAN-2015-S2EXAM-MC04",
+        "SCI-REPO-Y7-ARAN-2015-S2EXAM-MC05",
+        "SCI-REPO-Y7-ARAN-2015-S2EXAM-MC06",
+        "SCI-REPO-Y7-ARAN-2015-S2EXAM-MC07",
+        "SCI-REPO-Y7-ARAN-2015-S2EXAM-MC08",
+        "SCI-REPO-Y7-ARAN-2015-S2EXAM-MC09",
+        "SCI-REPO-Y7-ARAN-2015-S2EXAM-MC10",
+        "SCI-REPO-Y7-ARAN-2015-S2EXAM-MC11",
+        "SCI-REPO-Y7-ARAN-2015-S2EXAM-MC12",
+        "SCI-REPO-Y7-ARAN-2015-S2EXAM-MC13",
+        "SCI-REPO-Y7-ARAN-2015-S2EXAM-MC14",
+        "SCI-REPO-Y7-ARAN-2015-S2EXAM-MC15",
+        "SCI-REPO-Y7-ARAN-2015-S2EXAM-MC16",
+        "SCI-REPO-Y7-ARAN-2015-S2EXAM-MC17",
+        "SCI-REPO-Y7-ARAN-2015-S2EXAM-MC18",
+        "SCI-REPO-Y7-ARAN-2015-S2EXAM-MC19",
+        "SCI-REPO-Y7-ARAN-2015-S2EXAM-MC20",
+        "SCI-REPO-Y7-ARAN-2015-S2EXAM-WR1",
+        "SCI-REPO-Y7-ARAN-2015-S2EXAM-WR2a",
+        "SCI-REPO-Y7-ARAN-2015-S2EXAM-WR2b",
+        "SCI-REPO-Y7-ARAN-2015-S2EXAM-WR2c",
+        "SCI-REPO-Y7-ARAN-2015-S2EXAM-WR3a",
+        "SCI-REPO-Y7-ARAN-2015-S2EXAM-WR3b",
+        "SCI-REPO-Y7-ARAN-2015-S2EXAM-WR4",
+        "SCI-REPO-Y7-ARAN-2015-S2EXAM-WR5a",
+        "SCI-REPO-Y7-ARAN-2015-S2EXAM-WR5b"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Aranmore/YEAR 7 SEMESTER 2 EXAM 2015.docx",
+          "sha": "bb31b581028b4b140328c7bbe9bb2af97f639ee3",
+          "year": 7,
+          "role": "paper"
+        }
+      ],
+      "questions": 29,
+      "marks": 40,
+      "imageAudit": "question-source-packs/repo-science-batch195-audit.json",
+      "notes": [
+        "Complete40mark exam reviewed:20MC+20written. All20MC recovered from original table cells with row/cell locators. Moon phase/tide/torch/climate diagrams retained;Q13time-of-day ambiguity manually flagged. Linked torch context copied into both dependent questions."
+      ],
+      "markAudit": {
+        "sourceTotal": 40,
+        "multipleChoice": 20,
+        "written": 20
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch196",
+      "questionIds": [
+        "SCI-REPO-Y10-ARAN-2015-CHEM2ESL-MC01",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2ESL-MC02",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2ESL-MC03",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2ESL-MC04",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2ESL-MC05",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2ESL-MC06",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2ESL-MC07",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2ESL-MC08",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2ESL-MC09",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2ESL-MC10",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2ESL-MC11",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2ESL-MC12",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2ESL-MC13",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2ESL-MC14",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2ESL-MC15",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2ESL-WR1a",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2ESL-WR1b",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2ESL-WR1c",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2ESL-WR1d",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2ESL-WR1e",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2ESL-WR1f",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2ESL-WR1g",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2ESL-WR1h",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2ESL-WR2",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2ESL-WR3",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2ESL-WR4",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2ESL-WR5a",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2ESL-WR5b",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2ESL-WR5c",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2ESL-WR5d"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2015 ESL 10 SCIENCE topic test 2.docx",
+          "sha": "263d0df023edc657450d07445ea838012acbccdd",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 30,
+      "marks": 50,
+      "imageAudit": "question-source-packs/repo-science-batch196-audit.json",
+      "notes": [
+        "Complete50mark ESL chemistry test reviewed. Original sulfate figure retained. Formula-unit vs molecule language corrected in marking guidance without changing prompts. Missing oxide oxidation states and likely H₂/H₂Otypo flagged."
+      ],
+      "markAudit": {
+        "sourceTotal": 50,
+        "multipleChoice": 15,
+        "written": 35
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch197",
+      "questionIds": [
+        "SCI-REPO-Y10-ARAN-2013-EVOLUTION-1a",
+        "SCI-REPO-Y10-ARAN-2013-EVOLUTION-1b",
+        "SCI-REPO-Y10-ARAN-2013-EVOLUTION-1c",
+        "SCI-REPO-Y10-ARAN-2013-EVOLUTION-2a",
+        "SCI-REPO-Y10-ARAN-2013-EVOLUTION-2b",
+        "SCI-REPO-Y10-ARAN-2013-EVOLUTION-3a",
+        "SCI-REPO-Y10-ARAN-2013-EVOLUTION-3b",
+        "SCI-REPO-Y10-ARAN-2013-EVOLUTION-3c",
+        "SCI-REPO-Y10-ARAN-2013-EVOLUTION-3d",
+        "SCI-REPO-Y10-ARAN-2013-EVOLUTION-4",
+        "SCI-REPO-Y10-ARAN-2013-EVOLUTION-5a",
+        "SCI-REPO-Y10-ARAN-2013-EVOLUTION-5b",
+        "SCI-REPO-Y10-ARAN-2013-EVOLUTION-6",
+        "SCI-REPO-Y10-ARAN-2013-EVOLUTION-7-1",
+        "SCI-REPO-Y10-ARAN-2013-EVOLUTION-7-2",
+        "SCI-REPO-Y10-ARAN-2013-EVOLUTION-7-3",
+        "SCI-REPO-Y10-ARAN-2013-EVOLUTION-7-4",
+        "SCI-REPO-Y10-ARAN-2013-EVOLUTION-7-5",
+        "SCI-REPO-Y10-ARAN-2013-EVOLUTION-7-6",
+        "SCI-REPO-Y10-ARAN-2013-EVOLUTION-7-7",
+        "SCI-REPO-Y10-ARAN-2013-EVOLUTION-7-8",
+        "SCI-REPO-Y10-ARAN-2013-EVOLUTION-7-9",
+        "SCI-REPO-Y10-ARAN-2013-EVOLUTION-7-10"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/2013 10 EVOLUTION & NATURAL SELECTION TEST.docx",
+          "sha": "bbeade063b6e655e3835f7787c11aa2169095fd8",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 23,
+      "marks": 38,
+      "imageAudit": "question-source-packs/repo-science-batch197-audit.json",
+      "notes": [
+        "Complete keyed evolution test reviewed;all original relevant figures retained. Cover37marks but student subparts total38,keylabels36. Preserve explicit student marks;flag1b/5adiscrepancies. Correct evolution/speciation conflation in marking guidance;original prompt retained."
+      ],
+      "markAudit": {
+        "cover": 37,
+        "studentSubparts": 38,
+        "keyLabelTotal": 36,
+        "multipleChoice": 0
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch198",
+      "questionIds": [
+        "SCI-REPO-Y10-SBY-2024-PSYCHQUIZ-1",
+        "SCI-REPO-Y10-SBY-2024-PSYCHQUIZ-2",
+        "SCI-REPO-Y10-SBY-2024-PSYCHQUIZ-3",
+        "SCI-REPO-Y10-SBY-2024-PSYCHQUIZ-4",
+        "SCI-REPO-Y10-SBY-2024-PSYCHQUIZ-5",
+        "SCI-REPO-Y10-SBY-2024-PSYCHQUIZ-6",
+        "SCI-REPO-Y10-SBY-2024-PSYCHQUIZ-7"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Psychology Elective/Safety Bay/2024/Assessments/Task 1 Introduction to Psychology Quiz (WIP).docx",
+          "sha": "545c3b403a23596edd6042894b5f91dbef7a43e4",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 7,
+      "marks": 20,
+      "imageAudit": "question-source-packs/repo-science-batch198-audit.json",
+      "notes": [
+        "Complete20mark original psychology quiz reviewed. Source-native brain leader lines preserved by bounded PDFcrop,not omitted from embedded image alone. Two objective selections eligible for battles;concussion localisation task manually reviewed."
+      ],
+      "markAudit": {
+        "sourceTotal": 20,
+        "multipleChoice": 2,
+        "written": 18
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch199",
+      "questionIds": [],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Sport Science/Safety Bay/2018/YEAR 10 SPORT SCIENCE TEST.docx",
+          "sha": "240e180e393dc21369826f4c71c3f176ac9462e9",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 0,
+      "marks": 0,
+      "imageAudit": "question-source-packs/repo-science-batch199-audit.json",
+      "notes": [
+        "Full50mark SportScience test verified as an unchanged source variant.23existing selectable records linked without inflation."
+      ],
+      "markAudit": {
+        "sourceTotal": 50,
+        "mappedRecords": 23,
+        "newQuestions": 0
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Sport Science/Safety Bay/2018/YEAR 10 SPORT SCIENCE TEST.docx",
+          "sourceFileSha": "240e180e393dc21369826f4c71c3f176ac9462e9",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            18,
+            20,
+            21,
+            22,
+            23
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-SPORT-MC01",
+          "reason": "Complete source body text and all embedded media match reviewed SportScience test;only one blank paragraph inserted. All nonempty question locators mapped. No question counted twice."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Sport Science/Safety Bay/2018/YEAR 10 SPORT SCIENCE TEST.docx",
+          "sourceFileSha": "240e180e393dc21369826f4c71c3f176ac9462e9",
+          "sourceQuestionNumber": "2",
+          "sourceParagraphs": [
+            25,
+            26,
+            27,
+            28,
+            29
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-SPORT-MC02",
+          "reason": "Complete source body text and all embedded media match reviewed SportScience test;only one blank paragraph inserted. All nonempty question locators mapped. No question counted twice."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Sport Science/Safety Bay/2018/YEAR 10 SPORT SCIENCE TEST.docx",
+          "sourceFileSha": "240e180e393dc21369826f4c71c3f176ac9462e9",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            31,
+            33,
+            34,
+            35,
+            36
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-SPORT-MC03",
+          "reason": "Complete source body text and all embedded media match reviewed SportScience test;only one blank paragraph inserted. All nonempty question locators mapped. No question counted twice."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Sport Science/Safety Bay/2018/YEAR 10 SPORT SCIENCE TEST.docx",
+          "sourceFileSha": "240e180e393dc21369826f4c71c3f176ac9462e9",
+          "sourceQuestionNumber": "4",
+          "sourceParagraphs": [
+            38,
+            40,
+            41,
+            42,
+            43
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-SPORT-MC04",
+          "reason": "Complete source body text and all embedded media match reviewed SportScience test;only one blank paragraph inserted. All nonempty question locators mapped. No question counted twice."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Sport Science/Safety Bay/2018/YEAR 10 SPORT SCIENCE TEST.docx",
+          "sourceFileSha": "240e180e393dc21369826f4c71c3f176ac9462e9",
+          "sourceQuestionNumber": "5",
+          "sourceParagraphs": [
+            45,
+            47,
+            48,
+            49,
+            50
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-SPORT-MC05",
+          "reason": "Complete source body text and all embedded media match reviewed SportScience test;only one blank paragraph inserted. All nonempty question locators mapped. No question counted twice."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Sport Science/Safety Bay/2018/YEAR 10 SPORT SCIENCE TEST.docx",
+          "sourceFileSha": "240e180e393dc21369826f4c71c3f176ac9462e9",
+          "sourceQuestionNumber": "6",
+          "sourceParagraphs": [
+            52,
+            54,
+            55,
+            56,
+            57
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-SPORT-MC06",
+          "reason": "Complete source body text and all embedded media match reviewed SportScience test;only one blank paragraph inserted. All nonempty question locators mapped. No question counted twice."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Sport Science/Safety Bay/2018/YEAR 10 SPORT SCIENCE TEST.docx",
+          "sourceFileSha": "240e180e393dc21369826f4c71c3f176ac9462e9",
+          "sourceQuestionNumber": "7",
+          "sourceParagraphs": [
+            60,
+            62,
+            63,
+            64,
+            65
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-SPORT-MC07",
+          "reason": "Complete source body text and all embedded media match reviewed SportScience test;only one blank paragraph inserted. All nonempty question locators mapped. No question counted twice."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Sport Science/Safety Bay/2018/YEAR 10 SPORT SCIENCE TEST.docx",
+          "sourceFileSha": "240e180e393dc21369826f4c71c3f176ac9462e9",
+          "sourceQuestionNumber": "8",
+          "sourceParagraphs": [
+            67,
+            69,
+            70,
+            71,
+            72
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-SPORT-MC08",
+          "reason": "Complete source body text and all embedded media match reviewed SportScience test;only one blank paragraph inserted. All nonempty question locators mapped. No question counted twice."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Sport Science/Safety Bay/2018/YEAR 10 SPORT SCIENCE TEST.docx",
+          "sourceFileSha": "240e180e393dc21369826f4c71c3f176ac9462e9",
+          "sourceQuestionNumber": "9",
+          "sourceParagraphs": [
+            74,
+            75,
+            76,
+            77,
+            78
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-SPORT-MC09",
+          "reason": "Complete source body text and all embedded media match reviewed SportScience test;only one blank paragraph inserted. All nonempty question locators mapped. No question counted twice."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Sport Science/Safety Bay/2018/YEAR 10 SPORT SCIENCE TEST.docx",
+          "sourceFileSha": "240e180e393dc21369826f4c71c3f176ac9462e9",
+          "sourceQuestionNumber": "10",
+          "sourceParagraphs": [
+            80,
+            82,
+            83,
+            84,
+            85
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-SPORT-MC10",
+          "reason": "Complete source body text and all embedded media match reviewed SportScience test;only one blank paragraph inserted. All nonempty question locators mapped. No question counted twice."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Sport Science/Safety Bay/2018/YEAR 10 SPORT SCIENCE TEST.docx",
+          "sourceFileSha": "240e180e393dc21369826f4c71c3f176ac9462e9",
+          "sourceQuestionNumber": "11S",
+          "sourceParagraphs": [
+            156,
+            158
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-SPORT-11S",
+          "reason": "Complete source body text and all embedded media match reviewed SportScience test;only one blank paragraph inserted. All nonempty question locators mapped. No question counted twice."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Sport Science/Safety Bay/2018/YEAR 10 SPORT SCIENCE TEST.docx",
+          "sourceFileSha": "240e180e393dc21369826f4c71c3f176ac9462e9",
+          "sourceQuestionNumber": "11M",
+          "sourceParagraphs": [
+            156,
+            160
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-SPORT-11M",
+          "reason": "Complete source body text and all embedded media match reviewed SportScience test;only one blank paragraph inserted. All nonempty question locators mapped. No question counted twice."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Sport Science/Safety Bay/2018/YEAR 10 SPORT SCIENCE TEST.docx",
+          "sourceFileSha": "240e180e393dc21369826f4c71c3f176ac9462e9",
+          "sourceQuestionNumber": "11A",
+          "sourceParagraphs": [
+            156,
+            162
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-SPORT-11A",
+          "reason": "Complete source body text and all embedded media match reviewed SportScience test;only one blank paragraph inserted. All nonempty question locators mapped. No question counted twice."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Sport Science/Safety Bay/2018/YEAR 10 SPORT SCIENCE TEST.docx",
+          "sourceFileSha": "240e180e393dc21369826f4c71c3f176ac9462e9",
+          "sourceQuestionNumber": "11R",
+          "sourceParagraphs": [
+            156,
+            164
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-SPORT-11R",
+          "reason": "Complete source body text and all embedded media match reviewed SportScience test;only one blank paragraph inserted. All nonempty question locators mapped. No question counted twice."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Sport Science/Safety Bay/2018/YEAR 10 SPORT SCIENCE TEST.docx",
+          "sourceFileSha": "240e180e393dc21369826f4c71c3f176ac9462e9",
+          "sourceQuestionNumber": "11T",
+          "sourceParagraphs": [
+            156,
+            166
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-SPORT-11T",
+          "reason": "Complete source body text and all embedded media match reviewed SportScience test;only one blank paragraph inserted. All nonempty question locators mapped. No question counted twice."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Sport Science/Safety Bay/2018/YEAR 10 SPORT SCIENCE TEST.docx",
+          "sourceFileSha": "240e180e393dc21369826f4c71c3f176ac9462e9",
+          "sourceQuestionNumber": "12",
+          "sourceParagraphs": [
+            169
+          ],
+          "sourceMarks": 6,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-SPORT-12",
+          "reason": "Complete source body text and all embedded media match reviewed SportScience test;only one blank paragraph inserted. All nonempty question locators mapped. No question counted twice."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Sport Science/Safety Bay/2018/YEAR 10 SPORT SCIENCE TEST.docx",
+          "sourceFileSha": "240e180e393dc21369826f4c71c3f176ac9462e9",
+          "sourceQuestionNumber": "13",
+          "sourceParagraphs": [
+            180
+          ],
+          "sourceMarks": 5,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-SPORT-13",
+          "reason": "Complete source body text and all embedded media match reviewed SportScience test;only one blank paragraph inserted. All nonempty question locators mapped. No question counted twice."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Sport Science/Safety Bay/2018/YEAR 10 SPORT SCIENCE TEST.docx",
+          "sourceFileSha": "240e180e393dc21369826f4c71c3f176ac9462e9",
+          "sourceQuestionNumber": "14a",
+          "sourceParagraphs": [
+            188,
+            189
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-SPORT-14a",
+          "reason": "Complete source body text and all embedded media match reviewed SportScience test;only one blank paragraph inserted. All nonempty question locators mapped. No question counted twice."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Sport Science/Safety Bay/2018/YEAR 10 SPORT SCIENCE TEST.docx",
+          "sourceFileSha": "240e180e393dc21369826f4c71c3f176ac9462e9",
+          "sourceQuestionNumber": "14b",
+          "sourceParagraphs": [
+            188,
+            194
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-SPORT-14b",
+          "reason": "Complete source body text and all embedded media match reviewed SportScience test;only one blank paragraph inserted. All nonempty question locators mapped. No question counted twice."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Sport Science/Safety Bay/2018/YEAR 10 SPORT SCIENCE TEST.docx",
+          "sourceFileSha": "240e180e393dc21369826f4c71c3f176ac9462e9",
+          "sourceQuestionNumber": "15a",
+          "sourceParagraphs": [
+            200,
+            202
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-SPORT-15a",
+          "reason": "Complete source body text and all embedded media match reviewed SportScience test;only one blank paragraph inserted. All nonempty question locators mapped. No question counted twice."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Sport Science/Safety Bay/2018/YEAR 10 SPORT SCIENCE TEST.docx",
+          "sourceFileSha": "240e180e393dc21369826f4c71c3f176ac9462e9",
+          "sourceQuestionNumber": "15b",
+          "sourceParagraphs": [
+            200,
+            206
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-SPORT-15b",
+          "reason": "Complete source body text and all embedded media match reviewed SportScience test;only one blank paragraph inserted. All nonempty question locators mapped. No question counted twice."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Sport Science/Safety Bay/2018/YEAR 10 SPORT SCIENCE TEST.docx",
+          "sourceFileSha": "240e180e393dc21369826f4c71c3f176ac9462e9",
+          "sourceQuestionNumber": "16",
+          "sourceParagraphs": [
+            211
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-SPORT-16",
+          "reason": "Complete source body text and all embedded media match reviewed SportScience test;only one blank paragraph inserted. All nonempty question locators mapped. No question counted twice."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Sport Science/Safety Bay/2018/YEAR 10 SPORT SCIENCE TEST.docx",
+          "sourceFileSha": "240e180e393dc21369826f4c71c3f176ac9462e9",
+          "sourceQuestionNumber": "17",
+          "sourceParagraphs": [
+            222,
+            223,
+            224,
+            225,
+            226,
+            227,
+            228
+          ],
+          "sourceMarks": 12,
+          "sourceType": "Extended response",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-SPORT-17",
+          "reason": "Complete source body text and all embedded media match reviewed SportScience test;only one blank paragraph inserted. All nonempty question locators mapped. No question counted twice."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch200",
+      "questionIds": [
+        "SCI-REPO-Y10-SBY-2018-CHEM-469-MC01",
+        "SCI-REPO-Y10-SBY-2018-CHEM-469-MC02",
+        "SCI-REPO-Y10-SBY-2018-CHEM-469-MC03",
+        "SCI-REPO-Y10-SBY-2018-CHEM-469-MC04",
+        "SCI-REPO-Y10-SBY-2018-CHEM-469-MC06",
+        "SCI-REPO-Y10-SBY-2018-CHEM-469-MC08",
+        "SCI-REPO-Y10-SBY-2018-CHEM-469-MC09",
+        "SCI-REPO-Y10-SBY-2018-CHEM-469-MC10",
+        "SCI-REPO-Y10-SBY-2018-CHEM-469-MC11",
+        "SCI-REPO-Y10-SBY-2018-CHEM-469-MC12",
+        "SCI-REPO-Y10-SBY-2018-CHEM-469-MC14",
+        "SCI-REPO-Y10-SBY-2018-CHEM-469-WR1",
+        "SCI-REPO-Y10-SBY-2018-CHEM-469-WR2",
+        "SCI-REPO-Y10-SBY-2018-CHEM-469-WR3",
+        "SCI-REPO-Y10-SBY-2018-CHEM-469-WR4",
+        "SCI-REPO-Y10-SBY-2018-CHEM-469-WR5",
+        "SCI-REPO-Y10-SBY-2018-CHEM-469-WR6",
+        "SCI-REPO-Y10-SBY-2018-CHEM-469-WR7",
+        "SCI-REPO-Y10-SBY-2018-CHEM-469-WR8",
+        "SCI-REPO-Y10-SBY-2018-CHEM-469-WR9",
+        "SCI-REPO-Y10-SBY-2018-CHEM-469-EXTa",
+        "SCI-REPO-Y10-SBY-2018-CHEM-469-EXTb",
+        "SCI-REPO-Y10-SBY-2018-CHEM-469-EXTc",
+        "SCI-REPO-Y10-SBY-2018-CHEM-477-MC04",
+        "SCI-REPO-Y10-SBY-2018-CHEM-477-MC15",
+        "SCI-REPO-Y10-SBY-2018-CHEM-477-WR4",
+        "SCI-REPO-Y10-SBY-2018-CHEM-477-WR7a",
+        "SCI-REPO-Y10-SBY-2018-CHEM-477-WR7b",
+        "SCI-REPO-Y10-SBY-2018-CHEM-477-WR7c",
+        "SCI-REPO-Y10-SBY-2018-CHEM-477-WR8",
+        "SCI-REPO-Y10-SBY-2018-CHEM-477-EXT1"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Draft.docx",
+          "sha": "21d4640c5860d0bbfea5a10a470ce2c96df44e27",
+          "year": 10,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Final.docx",
+          "sha": "0ca8e10a348fce8b0a8b1a33d5500db9dd4df6c6",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 31,
+      "marks": 84,
+      "imageAudit": "question-source-packs/repo-science-batch200-audit.json",
+      "notes": [
+        "Draftandfinal2018chemistrytestsreviewed. DraftomitsMC4:14actualMC,not15. Final15MC+43written+4extended=62. OriginalMgdiagram retained withambiguousvalence-demandflag. Fractional source allocations preserved."
+      ],
+      "markAudit": {
+        "draftPrinted": 64,
+        "draftActual": 63,
+        "final": 62
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Draft.docx",
+          "sourceFileSha": "21d4640c5860d0bbfea5a10a470ce2c96df44e27",
+          "sourceQuestionNumber": "6",
+          "sourceParagraphs": [
+            70,
+            72,
+            73,
+            74,
+            75
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-B10-D27-MC09",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Draft.docx",
+          "sourceFileSha": "21d4640c5860d0bbfea5a10a470ce2c96df44e27",
+          "sourceQuestionNumber": "8",
+          "sourceParagraphs": [
+            84,
+            86,
+            87,
+            88,
+            89
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-S1CHEM-MC11",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Draft.docx",
+          "sourceFileSha": "21d4640c5860d0bbfea5a10a470ce2c96df44e27",
+          "sourceQuestionNumber": "14",
+          "sourceParagraphs": [
+            146,
+            148,
+            149,
+            150,
+            151
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEMEXTRAS-MC02",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Final.docx",
+          "sourceFileSha": "0ca8e10a348fce8b0a8b1a33d5500db9dd4df6c6",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            35,
+            37,
+            38,
+            39,
+            40
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEM-469-MC01",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Final.docx",
+          "sourceFileSha": "0ca8e10a348fce8b0a8b1a33d5500db9dd4df6c6",
+          "sourceQuestionNumber": "2",
+          "sourceParagraphs": [
+            42,
+            44,
+            45,
+            46,
+            47
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEM-469-MC02",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Final.docx",
+          "sourceFileSha": "0ca8e10a348fce8b0a8b1a33d5500db9dd4df6c6",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            49,
+            51,
+            52,
+            53,
+            54
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEM-469-MC03",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Final.docx",
+          "sourceFileSha": "0ca8e10a348fce8b0a8b1a33d5500db9dd4df6c6",
+          "sourceQuestionNumber": "5",
+          "sourceParagraphs": [
+            82,
+            84,
+            85,
+            86,
+            87
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEM-469-MC04",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Final.docx",
+          "sourceFileSha": "0ca8e10a348fce8b0a8b1a33d5500db9dd4df6c6",
+          "sourceQuestionNumber": "6",
+          "sourceParagraphs": [
+            89,
+            91,
+            92,
+            93,
+            94
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-B10-D27-MC09",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Final.docx",
+          "sourceFileSha": "0ca8e10a348fce8b0a8b1a33d5500db9dd4df6c6",
+          "sourceQuestionNumber": "7",
+          "sourceParagraphs": [
+            96,
+            98,
+            99,
+            100,
+            101
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEM-469-MC06",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Final.docx",
+          "sourceFileSha": "0ca8e10a348fce8b0a8b1a33d5500db9dd4df6c6",
+          "sourceQuestionNumber": "8",
+          "sourceParagraphs": [
+            102,
+            104,
+            105,
+            106,
+            107
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-S1CHEM-MC11",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Final.docx",
+          "sourceFileSha": "0ca8e10a348fce8b0a8b1a33d5500db9dd4df6c6",
+          "sourceQuestionNumber": "9",
+          "sourceParagraphs": [
+            109,
+            110,
+            111,
+            112,
+            114,
+            116,
+            117,
+            118,
+            119
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEM-469-MC08",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Final.docx",
+          "sourceFileSha": "0ca8e10a348fce8b0a8b1a33d5500db9dd4df6c6",
+          "sourceQuestionNumber": "10",
+          "sourceParagraphs": [
+            131,
+            133,
+            134,
+            135,
+            136,
+            121,
+            124
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEM-469-MC09",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Final.docx",
+          "sourceFileSha": "0ca8e10a348fce8b0a8b1a33d5500db9dd4df6c6",
+          "sourceQuestionNumber": "11",
+          "sourceParagraphs": [
+            138,
+            140,
+            141,
+            142,
+            143
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEM-469-MC10",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Final.docx",
+          "sourceFileSha": "0ca8e10a348fce8b0a8b1a33d5500db9dd4df6c6",
+          "sourceQuestionNumber": "12",
+          "sourceParagraphs": [
+            145,
+            147,
+            148,
+            149,
+            150
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEM-469-MC11",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Final.docx",
+          "sourceFileSha": "0ca8e10a348fce8b0a8b1a33d5500db9dd4df6c6",
+          "sourceQuestionNumber": "13",
+          "sourceParagraphs": [
+            153,
+            155,
+            156,
+            157,
+            158
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEM-469-MC12",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Final.docx",
+          "sourceFileSha": "0ca8e10a348fce8b0a8b1a33d5500db9dd4df6c6",
+          "sourceQuestionNumber": "14",
+          "sourceParagraphs": [
+            160,
+            162,
+            163,
+            164,
+            165
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEMEXTRAS-MC02",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Final.docx",
+          "sourceFileSha": "0ca8e10a348fce8b0a8b1a33d5500db9dd4df6c6",
+          "sourceQuestionNumber": "WR1",
+          "sourceParagraphs": [
+            210,
+            212,
+            214,
+            216,
+            218,
+            220
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEM-469-WR1",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Final.docx",
+          "sourceFileSha": "0ca8e10a348fce8b0a8b1a33d5500db9dd4df6c6",
+          "sourceQuestionNumber": "WR2",
+          "sourceParagraphs": [
+            224,
+            226
+          ],
+          "sourceMarks": 8,
+          "sourceType": "Diagram",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEM-469-WR2",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Final.docx",
+          "sourceFileSha": "0ca8e10a348fce8b0a8b1a33d5500db9dd4df6c6",
+          "sourceQuestionNumber": "WR3",
+          "sourceParagraphs": [
+            230,
+            232
+          ],
+          "sourceMarks": 8,
+          "sourceType": "Diagram",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEM-469-WR3",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Final.docx",
+          "sourceFileSha": "0ca8e10a348fce8b0a8b1a33d5500db9dd4df6c6",
+          "sourceQuestionNumber": "WR5",
+          "sourceParagraphs": [
+            240,
+            241
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEM-469-WR5",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Final.docx",
+          "sourceFileSha": "0ca8e10a348fce8b0a8b1a33d5500db9dd4df6c6",
+          "sourceQuestionNumber": "WR6",
+          "sourceParagraphs": [
+            245,
+            246,
+            247,
+            249,
+            251
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEM-469-WR6",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch201",
+      "questionIds": [
+        "SCI-REPO-Y10-SBY-2017-CHEMTERM1-MC01",
+        "SCI-REPO-Y10-SBY-2017-CHEMTERM1-MC02",
+        "SCI-REPO-Y10-SBY-2017-CHEMTERM1-MC08",
+        "SCI-REPO-Y10-SBY-2017-CHEMTERM1-MC13",
+        "SCI-REPO-Y10-SBY-2017-CHEMTERM1-MC15",
+        "SCI-REPO-Y10-SBY-2017-CHEMTERM1-MC16",
+        "SCI-REPO-Y10-SBY-2017-CHEMTERM1-MC18",
+        "SCI-REPO-Y10-SBY-2017-CHEMTERM1-MC19",
+        "SCI-REPO-Y10-SBY-2017-CHEMTERM1-MC20",
+        "SCI-REPO-Y10-SBY-2017-CHEMTERM1-WR1",
+        "SCI-REPO-Y10-SBY-2017-CHEMTERM1-WR2",
+        "SCI-REPO-Y10-SBY-2017-CHEMTERM1-WR3",
+        "SCI-REPO-Y10-SBY-2017-CHEMTERM1-WR4-catalyst",
+        "SCI-REPO-Y10-SBY-2017-CHEMTERM1-WR4-table",
+        "SCI-REPO-Y10-SBY-2017-CHEMTERM1-WR5",
+        "SCI-REPO-Y10-SBY-2017-CHEMTERM1-WR6",
+        "SCI-REPO-Y10-SBY-2017-CHEMTERM1-EXT1",
+        "SCI-REPO-Y10-SBY-2017-CHEMTERM1-EXT2"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2017/Chemistry test Term 1.docx",
+          "sha": "c1caa9c5d2c36b12610388fede5073e9b04ad11d",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 18,
+      "marks": 39,
+      "imageAudit": "question-source-packs/repo-science-batch201-audit.json",
+      "notes": [
+        "Complete2017chemistry test reviewed:20MC+20short+10extended=50;cover totals stale30. Modern/legacy group numbering and duplicate sulfate-formula options flagged;excluded from automatic battles.0.5mark source allocations retained."
+      ],
+      "markAudit": {
+        "actualTotal": 50,
+        "multipleChoice": 20,
+        "short": 20,
+        "extended": 10
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2017/Chemistry test Term 1.docx",
+          "sourceFileSha": "c1caa9c5d2c36b12610388fede5073e9b04ad11d",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            52,
+            54,
+            55,
+            56,
+            57
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEM-469-MC02",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2017/Chemistry test Term 1.docx",
+          "sourceFileSha": "c1caa9c5d2c36b12610388fede5073e9b04ad11d",
+          "sourceQuestionNumber": "4",
+          "sourceParagraphs": [
+            59,
+            61,
+            62,
+            63,
+            64
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEM-469-MC03",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2017/Chemistry test Term 1.docx",
+          "sourceFileSha": "c1caa9c5d2c36b12610388fede5073e9b04ad11d",
+          "sourceQuestionNumber": "5",
+          "sourceParagraphs": [
+            67,
+            69,
+            70,
+            71,
+            72
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEM-469-MC04",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2017/Chemistry test Term 1.docx",
+          "sourceFileSha": "c1caa9c5d2c36b12610388fede5073e9b04ad11d",
+          "sourceQuestionNumber": "6",
+          "sourceParagraphs": [
+            75,
+            77,
+            78,
+            79,
+            80
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-B10-D27-MC09",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2017/Chemistry test Term 1.docx",
+          "sourceFileSha": "c1caa9c5d2c36b12610388fede5073e9b04ad11d",
+          "sourceQuestionNumber": "7",
+          "sourceParagraphs": [
+            85,
+            87,
+            88,
+            89,
+            90
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEM-469-MC06",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2017/Chemistry test Term 1.docx",
+          "sourceFileSha": "c1caa9c5d2c36b12610388fede5073e9b04ad11d",
+          "sourceQuestionNumber": "9",
+          "sourceParagraphs": [
+            112,
+            114,
+            115,
+            116,
+            117
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-S1CHEM-MC11",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2017/Chemistry test Term 1.docx",
+          "sourceFileSha": "c1caa9c5d2c36b12610388fede5073e9b04ad11d",
+          "sourceQuestionNumber": "10",
+          "sourceParagraphs": [
+            120,
+            122,
+            123,
+            124,
+            125
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-PREATAR-MODULE-MC02",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2017/Chemistry test Term 1.docx",
+          "sourceFileSha": "c1caa9c5d2c36b12610388fede5073e9b04ad11d",
+          "sourceQuestionNumber": "11",
+          "sourceParagraphs": [
+            128,
+            130,
+            131,
+            132,
+            133
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-PREATAR-MODULE-MC03",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2017/Chemistry test Term 1.docx",
+          "sourceFileSha": "c1caa9c5d2c36b12610388fede5073e9b04ad11d",
+          "sourceQuestionNumber": "12",
+          "sourceParagraphs": [
+            138,
+            139,
+            140,
+            141,
+            143,
+            145,
+            146,
+            147,
+            148
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEM-469-MC08",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2017/Chemistry test Term 1.docx",
+          "sourceFileSha": "c1caa9c5d2c36b12610388fede5073e9b04ad11d",
+          "sourceQuestionNumber": "14",
+          "sourceParagraphs": [
+            166,
+            167,
+            169,
+            170,
+            171,
+            172
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-PREATAR-MODULE-MC04",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "A:MSO₄ is simplest notation,but M(SO₄)in C represents the same single sulfate group. Two chemically equivalent options;teacher moderation required.",
+            "note": "A:MSO₄ is simplest notation,but M(SO₄)in C represents the same single sulfate group. Two chemically equivalent options;teacher moderation required."
+          }
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2017/Chemistry test Term 1.docx",
+          "sourceFileSha": "c1caa9c5d2c36b12610388fede5073e9b04ad11d",
+          "sourceQuestionNumber": "17",
+          "sourceParagraphs": [
+            192,
+            194,
+            195,
+            196,
+            197
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEM-469-MC10",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch202",
+      "questionIds": [],
+      "sources": [],
+      "questions": 0,
+      "marks": 0,
+      "imageAudit": "question-source-packs/repo-science-batch202-audit.json",
+      "notes": [
+        "Four original source visuals restored in existing database records,without adding questions:photosynthesis option arrows,energy matching lines,reaction arrow anddichotomouskey. SourceWordrendering retained;no invented replacement diagrams."
+      ],
+      "markAudit": {
+        "restoredQuestionIds": [
+          "SCI-REPO-Y9-SBY-REACTIONTYPES-MC09",
+          "SCI-REPO-Y8-ARAN-2015-ENERGY-11",
+          "SCI-REPO-Y9-ARAN-2013-CHEM2-MC02",
+          "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-MC12"
+        ],
+        "newQuestions": 0
+      },
+      "duplicateQuestionAliases": []
     }
   ],
   "files": [
@@ -21674,7 +25147,7 @@
       "sha": "5c9fe761a2aaf3a94c311d353f1408eeb7f06591",
       "year": 7,
       "size": 142039,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -22246,7 +25719,7 @@
       "sha": "bb31b581028b4b140328c7bbe9bb2af97f639ee3",
       "year": 7,
       "size": 114041,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -32507,7 +35980,7 @@
       "sha": "bbeade063b6e655e3835f7787c11aa2169095fd8",
       "year": 10,
       "size": 158992,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -33741,7 +37214,7 @@
       "sha": "263d0df023edc657450d07445ea838012acbccdd",
       "year": 10,
       "size": 152658,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -34004,7 +37477,7 @@
       "sha": "26c56ca25787188dfd3d006f21485dcf256235d5",
       "year": 10,
       "size": 141053,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -34178,7 +37651,7 @@
       "sha": "186d9b60e82ea3843a05be6365094a6ae379c705",
       "year": 10,
       "size": 131285,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -34186,7 +37659,7 @@
       "sha": "599d99de9d68dc131558263d7969c7c857e7fd47",
       "year": 10,
       "size": 130784,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -34218,7 +37691,7 @@
       "sha": "186d9b60e82ea3843a05be6365094a6ae379c705",
       "year": 10,
       "size": 131285,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx"
     },
     {
@@ -34226,7 +37699,7 @@
       "sha": "599d99de9d68dc131558263d7969c7c857e7fd47",
       "year": 10,
       "size": 130784,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 PreATAR Test Elements and the PT 2021.docx"
     },
     {
@@ -34267,7 +37740,7 @@
       "sha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
       "year": 10,
       "size": 133757,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -34725,7 +38198,7 @@
       "sha": "c1caa9c5d2c36b12610388fede5073e9b04ad11d",
       "year": 10,
       "size": 160932,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -34788,7 +38261,7 @@
       "sha": "21d4640c5860d0bbfea5a10a470ce2c96df44e27",
       "year": 10,
       "size": 160528,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -34796,7 +38269,7 @@
       "sha": "0ca8e10a348fce8b0a8b1a33d5500db9dd4df6c6",
       "year": 10,
       "size": 185394,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -36630,7 +40103,7 @@
       "sha": "be68cd37a88b624849393f70a7d007e9a0905ae6",
       "year": 10,
       "size": 128969,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -36638,7 +40111,7 @@
       "sha": "a324bf628f47ffc36232a63980d3d1e0dbe5db29",
       "year": 10,
       "size": 128256,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -36671,7 +40144,7 @@
       "sha": "fe5dcb6cd1d4618a029efcf5f102e098899d88c2",
       "year": 10,
       "size": 129201,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -36679,7 +40152,7 @@
       "sha": "a324bf628f47ffc36232a63980d3d1e0dbe5db29",
       "year": 10,
       "size": 128256,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Narrogin/2021/Task 6 Physics 1 PREATAR Test 1 Motion and Energy.docx"
     },
     {
@@ -36948,7 +40421,7 @@
       "sha": "545c3b403a23596edd6042894b5f91dbef7a43e4",
       "year": 10,
       "size": 154837,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -37391,13 +40864,13 @@
       "sha": "240e180e393dc21369826f4c71c3f176ac9462e9",
       "year": 10,
       "size": 160105,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     }
   ],
-  "learningVaultCreatedKeySupplements": 1421,
-  "remainingUniqueFileBlobs": 566,
-  "learningVaultCreatedKeys": 2419,
+  "learningVaultCreatedKeySupplements": 1444,
+  "remainingUniqueFileBlobs": 550,
+  "learningVaultCreatedKeys": 2579,
   "blockedSources": [
     {
       "sha": "49d4b7f3f8af844477b39abb856365aeb096cafd",
@@ -37609,7 +41082,7 @@
     "ocrPages": 1175,
     "ocrTextVerified": false
   },
-  "distinctSourceAndKeyReferences": 434,
+  "distinctSourceAndKeyReferences": 450,
   "unscoredQuestionsPreserved": 1,
   "activeAdditionalQuestionRequest": {
     "requestedAdditionalQuestions": 1000,
@@ -37625,9 +41098,9 @@
     "requestedAt": "2026-10-17",
     "scope": "Years7–10Science quizzes,tests and exams only. No investigation/experiment reports,assignments,revision worksheets or standalone marking rubrics.",
     "status": "in_progress",
-    "retainedImportedQuestions": 2152,
+    "retainedImportedQuestions": 2323,
     "startingImportedQuestions": 2117,
-    "addedQuestions": 35,
+    "addedQuestions": 206,
     "completionRule": "Every eligible quiz,test and exam reviewed;unverified source types require review before admission."
   },
   "sourceInventoryExclusions": {
@@ -37643,100 +41116,8 @@
     "countedAsPapers": false,
     "countedAsQuestions": false
   },
-  "missingReferencedMaterial": [
-    {
-      "questionId": "SCI-REPO-Y8-SBY-2017-MICROSCOPE-magnification",
-      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Biological Sciences/Safety Bay/2017/Year 8 Microscope Assessment 2017.docx",
-      "sourceFileSha": "b0c874ff5b7fb7abc52ee58e178a130fdb328415",
-      "description": "Objective lens values not printed;2017 eyepiece values also blank.",
-      "effect": "Use teacher-provided actual lens powers; generic examples labelled, no unique table invented."
-    },
-    {
-      "questionId": "SCI-REPO-Y8-SBY-2018-MICROSCOPE-magnification",
-      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Biological Sciences/Safety Bay/2018/Microscope Assessment.docx",
-      "sourceFileSha": "5f37ab8ff41919675f38d5b29020622b6e10a2c0",
-      "description": "Objective lens values not printed;2017 eyepiece values also blank.",
-      "effect": "Use teacher-provided actual lens powers; generic examples labelled, no unique table invented."
-    },
-    {
-      "questionId": "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-1",
-      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8ESS Practical Rock ANSWERS.docx",
-      "sourceFileSha": "6858bd5e6ce3eada22939fe4d28eaa8c5874e932",
-      "reference": "Original Mount Lawley numbered rock specimen set",
-      "resolution": "Teacher must provide matching specimens or explicitly remap numbered questions;do not invent specimen photos."
-    },
-    {
-      "questionId": "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-2",
-      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8ESS Practical Rock ANSWERS.docx",
-      "sourceFileSha": "6858bd5e6ce3eada22939fe4d28eaa8c5874e932",
-      "reference": "Original Mount Lawley numbered rock specimen set",
-      "resolution": "Teacher must provide matching specimens or explicitly remap numbered questions;do not invent specimen photos."
-    },
-    {
-      "questionId": "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-3",
-      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8ESS Practical Rock ANSWERS.docx",
-      "sourceFileSha": "6858bd5e6ce3eada22939fe4d28eaa8c5874e932",
-      "reference": "Original Mount Lawley numbered rock specimen set",
-      "resolution": "Teacher must provide matching specimens or explicitly remap numbered questions;do not invent specimen photos."
-    },
-    {
-      "questionId": "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-4",
-      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8ESS Practical Rock ANSWERS.docx",
-      "sourceFileSha": "6858bd5e6ce3eada22939fe4d28eaa8c5874e932",
-      "reference": "Original Mount Lawley numbered rock specimen set",
-      "resolution": "Teacher must provide matching specimens or explicitly remap numbered questions;do not invent specimen photos."
-    },
-    {
-      "questionId": "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-5",
-      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8ESS Practical Rock ANSWERS.docx",
-      "sourceFileSha": "6858bd5e6ce3eada22939fe4d28eaa8c5874e932",
-      "reference": "Original Mount Lawley numbered rock specimen set",
-      "resolution": "Teacher must provide matching specimens or explicitly remap numbered questions;do not invent specimen photos."
-    },
-    {
-      "questionId": "SCI-REPO-Y8-ARAN-ROCKPRACT33-station1",
-      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Aranmore/Rocks Practical.docx",
-      "sourceFileSha": "6bd5b585d01b77f1c4b6745b1b5206ef5c226def",
-      "reference": "Original station1rock specimen",
-      "resolution": "Provide matching actual specimen or an explicitly identified replacement before reuse."
-    },
-    {
-      "questionId": "SCI-REPO-Y8-ARAN-ROCKPRACT33-station2",
-      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Aranmore/Rocks Practical.docx",
-      "sourceFileSha": "6bd5b585d01b77f1c4b6745b1b5206ef5c226def",
-      "reference": "Original station2rock specimen",
-      "resolution": "Provide matching actual specimen or an explicitly identified replacement before reuse."
-    },
-    {
-      "questionId": "SCI-REPO-Y8-ARAN-ROCKPRACT33-station3",
-      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Aranmore/Rocks Practical.docx",
-      "sourceFileSha": "6bd5b585d01b77f1c4b6745b1b5206ef5c226def",
-      "reference": "Original station3rock specimen",
-      "resolution": "Provide matching actual specimen or an explicitly identified replacement before reuse."
-    },
-    {
-      "questionId": "SCI-REPO-Y8-ARAN-ROCKPRACT33-station4",
-      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Aranmore/Rocks Practical.docx",
-      "sourceFileSha": "6bd5b585d01b77f1c4b6745b1b5206ef5c226def",
-      "reference": "Original station4rock specimen",
-      "resolution": "Provide matching actual specimen or an explicitly identified replacement before reuse."
-    },
-    {
-      "questionId": "SCI-REPO-Y8-ARAN-ROCKPRACT33-station5",
-      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Aranmore/Rocks Practical.docx",
-      "sourceFileSha": "6bd5b585d01b77f1c4b6745b1b5206ef5c226def",
-      "reference": "Original station5rock specimen",
-      "resolution": "Provide matching actual specimen or an explicitly identified replacement before reuse."
-    },
-    {
-      "questionId": "SCI-REPO-Y10-ARAN-2014-DNAMICRO-M-high",
-      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/10 Biology assessments extention/2014 DNA and Microscope Prac Test.docx",
-      "sourceFileSha": "1c496f3b549eb093849b94eef7ad0f49b36b248b",
-      "description": "Student prompt gives4.2mm lowFOV but not the low/high magnifications;key supplies40×and400×.",
-      "effect": "Key assumptions explicitly supplied in extracted context;do not pretend unique calculation follows from pupil wording alone."
-    }
-  ],
-  "reviewedDistinctSourceBlobs": 459,
+  "missingReferencedMaterial": [],
+  "reviewedDistinctSourceBlobs": 475,
   "inventoryCountBasis": "Remaining unique file blobs counts pending or key-reference-pending identities, including protected inputs; it is not a remaining-paper or remaining-question estimate.",
   "canonicalUniverseReviewRepair": {
     "questionIds": [
@@ -37800,13 +41181,22 @@
     "audit": "question-source-packs/repo-science-legacy-reaction-review.json"
   },
   "sourceTypeCleanup": {
-    "version": "2026.10.17-tests-only-v1-b191",
-    "questionsBefore": 4150,
-    "questionsRemoved": 1998,
-    "questionsRetained": 2152,
-    "equivalentTestQuestionsPreserved": 20,
-    "battleQuestionSlotsRemoved": 12,
+    "version": "2026.10.17-tests-only-v1-b202",
+    "questionsBefore": 4333,
+    "questionsRemoved": 2010,
+    "questionsRetained": 2323,
+    "equivalentTestQuestionsPreserved": 21,
+    "battleQuestionSlotsRemoved": 11,
     "audit": "question-source-packs/science-test-only-cleanup-20261017.json",
     "databaseStorage": "Actual records removed from the static question-bank database files;no Firestore question collection is used by the database page."
+  },
+  "visualQualityAudit": {
+    "date": "2026-10-17",
+    "restoredOriginalVisuals": 4,
+    "removedMissingRequiredMaterial": 13,
+    "checkedUniqueImageAssets": 376,
+    "brokenImages": 0,
+    "blankImages": 0,
+    "audit": "question-source-packs/science-question-visual-audit-20261017.json"
   }
 }

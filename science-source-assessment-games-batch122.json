@@ -43,6 +43,37 @@
           "sourceQuestionId": "SCI-REPO-Y10-SBY-2017-CHEMTEST-MC15"
         }
       ]
+    },
+    "sci-repo-y10-sby-2018-chemextras-mc-1": {
+      "id": "sci-repo-y10-sby-2018-chemextras-mc-1",
+      "title": "Year 10 Science — Atomic structure additional test items (original source MC)",
+      "course": "Science",
+      "yearGroup": 10,
+      "unit": "Chemical Sciences",
+      "parent": "Atomic structure additional test items",
+      "count": 1,
+      "kind": "assessment",
+      "assessmentCount": 1,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch122.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=10&search=SCI-REPO-Y10-SBY-2018-CHEMEXTRAS",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles.",
+      "questions": [
+        {
+          "id": "SCI-REPO-Y10-SBY-2018-CHEMEXTRAS-MC02",
+          "prompt": "Which of these are ALL non-metals?",
+          "options": [
+            "zinc, carbon, phosphorous",
+            "iron, nickel, aluminium",
+            "sulfur, iodine, argon",
+            "tin, gold, mercury"
+          ],
+          "correct": 2,
+          "explanation": "Sulfur,iodine and argon are all nonmetals.",
+          "sourceQuestionId": "SCI-REPO-Y10-SBY-2018-CHEMEXTRAS-MC02"
+        }
+      ]
     }
   }
 }

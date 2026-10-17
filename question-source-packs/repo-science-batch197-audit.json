@@ -1,0 +1,126 @@
+{
+  "batch": "repo-science-batch197",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y10-ARAN-2013-EVOLUTION-1a",
+    "SCI-REPO-Y10-ARAN-2013-EVOLUTION-1b",
+    "SCI-REPO-Y10-ARAN-2013-EVOLUTION-1c",
+    "SCI-REPO-Y10-ARAN-2013-EVOLUTION-2a",
+    "SCI-REPO-Y10-ARAN-2013-EVOLUTION-2b",
+    "SCI-REPO-Y10-ARAN-2013-EVOLUTION-3a",
+    "SCI-REPO-Y10-ARAN-2013-EVOLUTION-3b",
+    "SCI-REPO-Y10-ARAN-2013-EVOLUTION-3c",
+    "SCI-REPO-Y10-ARAN-2013-EVOLUTION-3d",
+    "SCI-REPO-Y10-ARAN-2013-EVOLUTION-4",
+    "SCI-REPO-Y10-ARAN-2013-EVOLUTION-5a",
+    "SCI-REPO-Y10-ARAN-2013-EVOLUTION-5b",
+    "SCI-REPO-Y10-ARAN-2013-EVOLUTION-6",
+    "SCI-REPO-Y10-ARAN-2013-EVOLUTION-7-1",
+    "SCI-REPO-Y10-ARAN-2013-EVOLUTION-7-2",
+    "SCI-REPO-Y10-ARAN-2013-EVOLUTION-7-3",
+    "SCI-REPO-Y10-ARAN-2013-EVOLUTION-7-4",
+    "SCI-REPO-Y10-ARAN-2013-EVOLUTION-7-5",
+    "SCI-REPO-Y10-ARAN-2013-EVOLUTION-7-6",
+    "SCI-REPO-Y10-ARAN-2013-EVOLUTION-7-7",
+    "SCI-REPO-Y10-ARAN-2013-EVOLUTION-7-8",
+    "SCI-REPO-Y10-ARAN-2013-EVOLUTION-7-9",
+    "SCI-REPO-Y10-ARAN-2013-EVOLUTION-7-10"
+  ],
+  "questions": 23,
+  "multipleChoice": 0,
+  "writtenQuestions": 23,
+  "battleEligible": 0,
+  "marks": 38,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y10-ARAN-2013-EVOLUTION-1b",
+      "note": "Student prompt3marks;keylabel2marks but gives3criteria. Prompt3marks retained;moderate against original version."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2013-EVOLUTION-5a",
+      "note": "Student prompt2marks;solutionheading1mark. Prompt2marks retained;moderate difference."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2013-EVOLUTION-7-2",
+      "note": "Definition conflates evolution and speciation;teacherreviewrequired."
+    }
+  ],
+  "imageAudit": [
+    {
+      "id": "e467-image1",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/2013 10 EVOLUTION & NATURAL SELECTION TEST.docx",
+      "embeddedImage": "word/media/image1.jpeg",
+      "sha256": "f720839af1242bf28fc9b37912cbc3eae20f862f96421eac0750b17611110414",
+      "publishedSha256": "f144ca599c4008948d036e4c4be28469d1425ab7c0f6a4d7db3d43da6811c4aa",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e467-image2-crop-f3350db6",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/2013 10 EVOLUTION & NATURAL SELECTION TEST.docx",
+      "embeddedImage": "word/media/image2.jpeg",
+      "sha256": "b63d141138092ea5efb83cc87d1af5dc0cf10fd97172914a75445e11b9607cb1",
+      "publishedSha256": "142adfdf1b2e2f3b1cefa27a57122aeb6c3e75ae0e7eccc44eba82998caed49d",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {
+        "b": 8510
+      },
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e467-image3-crop-5c94448c",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/2013 10 EVOLUTION & NATURAL SELECTION TEST.docx",
+      "embeddedImage": "word/media/image3.jpeg",
+      "sha256": "eb77953c6848db050cd7d5ac6b127a71d6a57c6d7c8a13a6938e4b9d03e828dd",
+      "publishedSha256": "698aa3873ce53ae6ff052a148296ba0f413f4917975368d3460688b876ee7cff",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {
+        "r": 46857
+      },
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e467-image4",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/2013 10 EVOLUTION & NATURAL SELECTION TEST.docx",
+      "embeddedImage": "word/media/image4.gif",
+      "sha256": "c2cc2ae7f1cc7ecd235a6ca9c748112a144a34fcc24e29c537bf03c997c3ef04",
+      "publishedSha256": "6576832f466f10e2c93200b133485f20df80593926ee777462abc80e99d13f91",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e467-image5",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/2013 10 EVOLUTION & NATURAL SELECTION TEST.docx",
+      "embeddedImage": "word/media/image5.jpeg",
+      "sha256": "2834fbbeefc10b0876db1028b5a6ebdc12100950e8433a93dcd94ab22de03a3e",
+      "publishedSha256": "1f9c929d2119d67376a60448d85241353c520d99fba0192761a6db9c057b7ec8",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/2013 10 EVOLUTION & NATURAL SELECTION TEST.docx",
+      "sha": "bbeade063b6e655e3835f7787c11aa2169095fd8",
+      "year": 10,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 0,
+  "createdSupplements": 23,
+  "notes": [
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
+  ],
+  "markAudit": {
+    "cover": 37,
+    "studentSubparts": 38,
+    "keyLabelTotal": 36,
+    "multipleChoice": 0
+  },
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b202"
+}

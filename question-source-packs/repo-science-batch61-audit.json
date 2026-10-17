@@ -8,32 +8,22 @@
     "SCI-REPO-Y8-SBY-2017-MICROSCOPE-uses",
     "SCI-REPO-Y8-SBY-2017-MICROSCOPE-safety",
     "SCI-REPO-Y8-SBY-2017-MICROSCOPE-image",
-    "SCI-REPO-Y8-SBY-2017-MICROSCOPE-magnification",
     "SCI-REPO-Y8-SBY-2018-MICROSCOPE-history",
     "SCI-REPO-Y8-SBY-2018-MICROSCOPE-tem-sem",
-    "SCI-REPO-Y8-SBY-2018-MICROSCOPE-uses",
-    "SCI-REPO-Y8-SBY-2018-MICROSCOPE-magnification"
+    "SCI-REPO-Y8-SBY-2018-MICROSCOPE-uses"
   ],
-  "questions": 11,
+  "questions": 9,
   "multipleChoice": 0,
-  "writtenQuestions": 11,
+  "writtenQuestions": 9,
   "battleEligible": 0,
-  "marks": 39,
+  "marks": 27,
   "reviewRequired": [
     {
       "id": "SCI-REPO-Y8-SBY-2017-MICROSCOPE-history",
       "note": "History examples require verified sources; magnification table leaves objective powers unspecified."
     },
     {
-      "id": "SCI-REPO-Y8-SBY-2017-MICROSCOPE-magnification",
-      "note": "History examples require verified sources; magnification table leaves objective powers unspecified."
-    },
-    {
       "id": "SCI-REPO-Y8-SBY-2018-MICROSCOPE-history",
-      "note": "History examples require verified sources; magnification table leaves objective powers unspecified."
-    },
-    {
-      "id": "SCI-REPO-Y8-SBY-2018-MICROSCOPE-magnification",
       "note": "History examples require verified sources; magnification table leaves objective powers unspecified."
     }
   ],
@@ -106,5 +96,5 @@
       "reason": "Equivalent source question already present; not added or counted again."
     }
   ],
-  "sourceScope": "2026.10.17-tests-only-v1-b191"
+  "sourceScope": "2026.10.17-tests-only-v1-b202"
 }

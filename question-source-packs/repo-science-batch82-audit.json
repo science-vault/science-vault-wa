@@ -32,15 +32,14 @@
     "SCI-REPO-Y10-ARAN-2014-DNAMICRO-M-drawing",
     "SCI-REPO-Y10-ARAN-2014-DNAMICRO-M-stages",
     "SCI-REPO-Y10-ARAN-2014-DNAMICRO-M-evidence",
-    "SCI-REPO-Y10-ARAN-2014-DNAMICRO-M-high",
     "SCI-REPO-Y10-ARAN-2014-DNAMICRO-M-size",
     "SCI-REPO-Y10-ARAN-2014-DNAMICRO-M-50x"
   ],
-  "questions": 33,
+  "questions": 32,
   "multipleChoice": 0,
-  "writtenQuestions": 33,
+  "writtenQuestions": 32,
   "battleEligible": 0,
-  "marks": 54.0,
+  "marks": 50.0,
   "reviewRequired": [
     {
       "id": "SCI-REPO-Y10-ARAN-2014-DNAMICRO-V5",
@@ -65,10 +64,6 @@
     {
       "id": "SCI-REPO-Y10-ARAN-2014-DNAMICRO-M-drawing",
       "note": "Performance task requires actual specimen/teacher observation;source5marks lists6deduction criteria."
-    },
-    {
-      "id": "SCI-REPO-Y10-ARAN-2014-DNAMICRO-M-high",
-      "note": "Numerical magnifications only appear in supplied key,not pupil prompt."
     },
     {
       "id": "SCI-REPO-Y10-ARAN-2014-DNAMICRO-M-size",
@@ -137,5 +132,5 @@
     "drawingDeductionCriteria": 6
   },
   "duplicateQuestionAliases": [],
-  "sourceScope": "2026.10.17-tests-only-v1-b191"
+  "sourceScope": "2026.10.17-tests-only-v1-b202"
 }

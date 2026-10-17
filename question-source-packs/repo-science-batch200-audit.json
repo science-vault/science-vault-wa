@@ -1,0 +1,476 @@
+{
+  "batch": "repo-science-batch200",
+  "paperCount": 2,
+  "questionIds": [
+    "SCI-REPO-Y10-SBY-2018-CHEM-469-MC01",
+    "SCI-REPO-Y10-SBY-2018-CHEM-469-MC02",
+    "SCI-REPO-Y10-SBY-2018-CHEM-469-MC03",
+    "SCI-REPO-Y10-SBY-2018-CHEM-469-MC04",
+    "SCI-REPO-Y10-SBY-2018-CHEM-469-MC06",
+    "SCI-REPO-Y10-SBY-2018-CHEM-469-MC08",
+    "SCI-REPO-Y10-SBY-2018-CHEM-469-MC09",
+    "SCI-REPO-Y10-SBY-2018-CHEM-469-MC10",
+    "SCI-REPO-Y10-SBY-2018-CHEM-469-MC11",
+    "SCI-REPO-Y10-SBY-2018-CHEM-469-MC12",
+    "SCI-REPO-Y10-SBY-2018-CHEM-469-MC14",
+    "SCI-REPO-Y10-SBY-2018-CHEM-469-WR1",
+    "SCI-REPO-Y10-SBY-2018-CHEM-469-WR2",
+    "SCI-REPO-Y10-SBY-2018-CHEM-469-WR3",
+    "SCI-REPO-Y10-SBY-2018-CHEM-469-WR4",
+    "SCI-REPO-Y10-SBY-2018-CHEM-469-WR5",
+    "SCI-REPO-Y10-SBY-2018-CHEM-469-WR6",
+    "SCI-REPO-Y10-SBY-2018-CHEM-469-WR7",
+    "SCI-REPO-Y10-SBY-2018-CHEM-469-WR8",
+    "SCI-REPO-Y10-SBY-2018-CHEM-469-WR9",
+    "SCI-REPO-Y10-SBY-2018-CHEM-469-EXTa",
+    "SCI-REPO-Y10-SBY-2018-CHEM-469-EXTb",
+    "SCI-REPO-Y10-SBY-2018-CHEM-469-EXTc",
+    "SCI-REPO-Y10-SBY-2018-CHEM-477-MC04",
+    "SCI-REPO-Y10-SBY-2018-CHEM-477-MC15",
+    "SCI-REPO-Y10-SBY-2018-CHEM-477-WR4",
+    "SCI-REPO-Y10-SBY-2018-CHEM-477-WR7a",
+    "SCI-REPO-Y10-SBY-2018-CHEM-477-WR7b",
+    "SCI-REPO-Y10-SBY-2018-CHEM-477-WR7c",
+    "SCI-REPO-Y10-SBY-2018-CHEM-477-WR8",
+    "SCI-REPO-Y10-SBY-2018-CHEM-477-EXT1"
+  ],
+  "questions": 31,
+  "multipleChoice": 13,
+  "writtenQuestions": 18,
+  "battleEligible": 12,
+  "marks": 84,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-CHEM-469-WR6",
+      "note": "Question conflates bonding within substances with forces between molecules."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-CHEM-469-WR8",
+      "note": "Source mixes legacygroup7withmodern1/17/18numbering."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-CHEM-469-EXTc",
+      "note": "Source overstates noble-gas inertness."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-CHEM-477-MC04",
+      "note": "Ambiguous demand:diagram shows neutralMgwith2,8,2electrons,soMg(optionA)represents the pictured atom;Mg²⁺(B)is its common ion,but valence configuration is neither formula. Teacher review;do not force an ion answer to a neutral-atom diagram."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-CHEM-477-EXT1",
+      "note": "Source historical anecdote is not treated as established evidence;scientific mechanism supplemented from Royal Society of Chemistry."
+    }
+  ],
+  "imageAudit": [
+    {
+      "id": "e477-page2-magnesium-shell-diagram",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Final.docx",
+      "sourceFileSha": "0ca8e10a348fce8b0a8b1a33d5500db9dd4df6c6",
+      "sourcePage": 2,
+      "pdfCropPoints": [
+        190,
+        480,
+        380,
+        610
+      ],
+      "role": "original_native_Word_figure",
+      "conversion": "Original DOCX rendered by LibreOffice to PDF; bounded source figure rasterised at 216 dpi without redrawing. Native editable shapes, table borders, shading and example points retained.",
+      "publishedSha256": "6c7d58f5fc70a073a99c58d94e4b4099e4a253b6c8abf6d75d508eb958420763"
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Draft.docx",
+      "sha": "21d4640c5860d0bbfea5a10a470ce2c96df44e27",
+      "year": 10,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Final.docx",
+      "sha": "0ca8e10a348fce8b0a8b1a33d5500db9dd4df6c6",
+      "year": 10,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [
+    {
+      "id": "sci-repo-y10-sby-2018-chem-469-mc-1",
+      "title": "Year 10 Science — Atomic structure, bonding and periodic trends (original source MC)",
+      "course": "Science",
+      "yearGroup": 10,
+      "unit": "Chemical Sciences",
+      "parent": "Atomic structure, bonding and periodic trends",
+      "count": 11,
+      "kind": "assessment",
+      "assessmentCount": 11,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch200.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=10&search=SCI-REPO-Y10-SBY-2018-CHEM-469",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    },
+    {
+      "id": "sci-repo-y10-sby-2018-chem-477-mc-1",
+      "title": "Year 10 Science — Atomic structure, bonding and periodic trends (original source MC)",
+      "course": "Science",
+      "yearGroup": 10,
+      "unit": "Chemical Sciences",
+      "parent": "Atomic structure, bonding and periodic trends",
+      "count": 1,
+      "kind": "assessment",
+      "assessmentCount": 1,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch200.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=10&search=SCI-REPO-Y10-SBY-2018-CHEM-477",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    }
+  ],
+  "createdKeys": 31,
+  "createdSupplements": 0,
+  "notes": [
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
+  ],
+  "markAudit": {
+    "draftPrinted": 64,
+    "draftActual": 63,
+    "final": 62
+  },
+  "duplicateQuestionAliases": [
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Draft.docx",
+      "sourceFileSha": "21d4640c5860d0bbfea5a10a470ce2c96df44e27",
+      "sourceQuestionNumber": "6",
+      "sourceParagraphs": [
+        70,
+        72,
+        73,
+        74,
+        75
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-B10-D27-MC09",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Draft.docx",
+      "sourceFileSha": "21d4640c5860d0bbfea5a10a470ce2c96df44e27",
+      "sourceQuestionNumber": "8",
+      "sourceParagraphs": [
+        84,
+        86,
+        87,
+        88,
+        89
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-S1CHEM-MC11",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Draft.docx",
+      "sourceFileSha": "21d4640c5860d0bbfea5a10a470ce2c96df44e27",
+      "sourceQuestionNumber": "14",
+      "sourceParagraphs": [
+        146,
+        148,
+        149,
+        150,
+        151
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEMEXTRAS-MC02",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Final.docx",
+      "sourceFileSha": "0ca8e10a348fce8b0a8b1a33d5500db9dd4df6c6",
+      "sourceQuestionNumber": "1",
+      "sourceParagraphs": [
+        35,
+        37,
+        38,
+        39,
+        40
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEM-469-MC01",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Final.docx",
+      "sourceFileSha": "0ca8e10a348fce8b0a8b1a33d5500db9dd4df6c6",
+      "sourceQuestionNumber": "2",
+      "sourceParagraphs": [
+        42,
+        44,
+        45,
+        46,
+        47
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEM-469-MC02",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Final.docx",
+      "sourceFileSha": "0ca8e10a348fce8b0a8b1a33d5500db9dd4df6c6",
+      "sourceQuestionNumber": "3",
+      "sourceParagraphs": [
+        49,
+        51,
+        52,
+        53,
+        54
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEM-469-MC03",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Final.docx",
+      "sourceFileSha": "0ca8e10a348fce8b0a8b1a33d5500db9dd4df6c6",
+      "sourceQuestionNumber": "5",
+      "sourceParagraphs": [
+        82,
+        84,
+        85,
+        86,
+        87
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEM-469-MC04",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Final.docx",
+      "sourceFileSha": "0ca8e10a348fce8b0a8b1a33d5500db9dd4df6c6",
+      "sourceQuestionNumber": "6",
+      "sourceParagraphs": [
+        89,
+        91,
+        92,
+        93,
+        94
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-B10-D27-MC09",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Final.docx",
+      "sourceFileSha": "0ca8e10a348fce8b0a8b1a33d5500db9dd4df6c6",
+      "sourceQuestionNumber": "7",
+      "sourceParagraphs": [
+        96,
+        98,
+        99,
+        100,
+        101
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEM-469-MC06",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Final.docx",
+      "sourceFileSha": "0ca8e10a348fce8b0a8b1a33d5500db9dd4df6c6",
+      "sourceQuestionNumber": "8",
+      "sourceParagraphs": [
+        102,
+        104,
+        105,
+        106,
+        107
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-S1CHEM-MC11",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Final.docx",
+      "sourceFileSha": "0ca8e10a348fce8b0a8b1a33d5500db9dd4df6c6",
+      "sourceQuestionNumber": "9",
+      "sourceParagraphs": [
+        109,
+        110,
+        111,
+        112,
+        114,
+        116,
+        117,
+        118,
+        119
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEM-469-MC08",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Final.docx",
+      "sourceFileSha": "0ca8e10a348fce8b0a8b1a33d5500db9dd4df6c6",
+      "sourceQuestionNumber": "10",
+      "sourceParagraphs": [
+        131,
+        133,
+        134,
+        135,
+        136,
+        121,
+        124
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEM-469-MC09",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Final.docx",
+      "sourceFileSha": "0ca8e10a348fce8b0a8b1a33d5500db9dd4df6c6",
+      "sourceQuestionNumber": "11",
+      "sourceParagraphs": [
+        138,
+        140,
+        141,
+        142,
+        143
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEM-469-MC10",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Final.docx",
+      "sourceFileSha": "0ca8e10a348fce8b0a8b1a33d5500db9dd4df6c6",
+      "sourceQuestionNumber": "12",
+      "sourceParagraphs": [
+        145,
+        147,
+        148,
+        149,
+        150
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEM-469-MC11",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Final.docx",
+      "sourceFileSha": "0ca8e10a348fce8b0a8b1a33d5500db9dd4df6c6",
+      "sourceQuestionNumber": "13",
+      "sourceParagraphs": [
+        153,
+        155,
+        156,
+        157,
+        158
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEM-469-MC12",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Final.docx",
+      "sourceFileSha": "0ca8e10a348fce8b0a8b1a33d5500db9dd4df6c6",
+      "sourceQuestionNumber": "14",
+      "sourceParagraphs": [
+        160,
+        162,
+        163,
+        164,
+        165
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEMEXTRAS-MC02",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Final.docx",
+      "sourceFileSha": "0ca8e10a348fce8b0a8b1a33d5500db9dd4df6c6",
+      "sourceQuestionNumber": "WR1",
+      "sourceParagraphs": [
+        210,
+        212,
+        214,
+        216,
+        218,
+        220
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEM-469-WR1",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Final.docx",
+      "sourceFileSha": "0ca8e10a348fce8b0a8b1a33d5500db9dd4df6c6",
+      "sourceQuestionNumber": "WR2",
+      "sourceParagraphs": [
+        224,
+        226
+      ],
+      "sourceMarks": 8,
+      "sourceType": "Diagram",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEM-469-WR2",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Final.docx",
+      "sourceFileSha": "0ca8e10a348fce8b0a8b1a33d5500db9dd4df6c6",
+      "sourceQuestionNumber": "WR3",
+      "sourceParagraphs": [
+        230,
+        232
+      ],
+      "sourceMarks": 8,
+      "sourceType": "Diagram",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEM-469-WR3",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Final.docx",
+      "sourceFileSha": "0ca8e10a348fce8b0a8b1a33d5500db9dd4df6c6",
+      "sourceQuestionNumber": "WR5",
+      "sourceParagraphs": [
+        240,
+        241
+      ],
+      "sourceMarks": 4,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEM-469-WR5",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Final.docx",
+      "sourceFileSha": "0ca8e10a348fce8b0a8b1a33d5500db9dd4df6c6",
+      "sourceQuestionNumber": "WR6",
+      "sourceParagraphs": [
+        245,
+        246,
+        247,
+        249,
+        251
+      ],
+      "sourceMarks": 3,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEM-469-WR6",
+      "reason": "Equivalent source question already present; not added or counted again."
+    }
+  ],
+  "sourceScope": "2026.10.17-tests-only-v1-b202"
+}

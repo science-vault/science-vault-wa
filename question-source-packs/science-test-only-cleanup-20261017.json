@@ -1,10 +1,16 @@
 {
   "policy": "Only verified quizzes,tests and examinations. Source material files remain unchanged;extracted question records are removed from the database and battle packs.",
-  "version": "2026.10.17-tests-only-v1-b191",
-  "before": 4150,
-  "removed": 1998,
-  "retained": 2152,
+  "version": "2026.10.17-tests-only-v1-b202",
+  "before": 4333,
+  "removed": 2010,
+  "retained": 2323,
   "promotedFromVerifiedTestEquivalents": [
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-CHEMEXTRAS-MC02",
+      "oldSource": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Extras to consider Yr10 Chem test.docx",
+      "testSource": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Draft.docx",
+      "marks": 1
+    },
     {
       "id": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B2",
       "oldSource": "resources/Assessments/Lowerschool/Year 8/Science/Investigating Sciences/Safety Bay/2023/Formative assessment task Chemical Physical.docx",
@@ -2696,6 +2702,22 @@
       "formerBatch": "repo-science-batch61"
     },
     {
+      "id": "SCI-REPO-Y8-SBY-2017-MICROSCOPE-magnification",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Biological Sciences/Safety Bay/2017/Year 8 Microscope Assessment 2017.docx",
+      "sourceFileSha": "b0c874ff5b7fb7abc52ee58e178a130fdb328415",
+      "reason": "Required source visual, specimen or data unavailable;removed by user instruction2026-10-17.",
+      "kind": "missing_required_material",
+      "formerBatch": "repo-science-batch61"
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2018-MICROSCOPE-magnification",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Biological Sciences/Safety Bay/2018/Microscope Assessment.docx",
+      "sourceFileSha": "5f37ab8ff41919675f38d5b29020622b6e10a2c0",
+      "reason": "Required source visual, specimen or data unavailable;removed by user instruction2026-10-17.",
+      "kind": "missing_required_material",
+      "formerBatch": "repo-science-batch61"
+    },
+    {
       "id": "SCI-REPO-Y8-MUSCLEFATIGUE-aim",
       "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Biological Sciences/2.4 Muscles Get Tired Lab assessment.docx..docx",
       "sourceFileSha": "d56ce0af32a3ee658688342ff29a66115f85c070",
@@ -5224,14 +5246,6 @@
       "formerBatch": "repo-science-batch122"
     },
     {
-      "id": "SCI-REPO-Y10-SBY-2018-CHEMEXTRAS-MC02",
-      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Extras to consider Yr10 Chem test.docx",
-      "sourceFileSha": "1b6eecb03d5f4b990854eff026497003f63e0847",
-      "reason": "Unverified extra question pool,not an identified quiz,test or exam paper.",
-      "kind": "excluded_task",
-      "formerBatch": "repo-science-batch122"
-    },
-    {
       "id": "SCI-REPO-Y10-SBY-2018-CHEMEXTRAS-MC03",
       "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Extras to consider Yr10 Chem test.docx",
       "sourceFileSha": "1b6eecb03d5f4b990854eff026497003f63e0847",
@@ -7576,6 +7590,46 @@
       "formerBatch": "repo-science-batch79"
     },
     {
+      "id": "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-1",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8ESS Practical Rock ANSWERS.docx",
+      "sourceFileSha": "6858bd5e6ce3eada22939fe4d28eaa8c5874e932",
+      "reason": "Required source visual, specimen or data unavailable;removed by user instruction2026-10-17.",
+      "kind": "missing_required_material",
+      "formerBatch": "repo-science-batch169"
+    },
+    {
+      "id": "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-2",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8ESS Practical Rock ANSWERS.docx",
+      "sourceFileSha": "6858bd5e6ce3eada22939fe4d28eaa8c5874e932",
+      "reason": "Required source visual, specimen or data unavailable;removed by user instruction2026-10-17.",
+      "kind": "missing_required_material",
+      "formerBatch": "repo-science-batch169"
+    },
+    {
+      "id": "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-3",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8ESS Practical Rock ANSWERS.docx",
+      "sourceFileSha": "6858bd5e6ce3eada22939fe4d28eaa8c5874e932",
+      "reason": "Required source visual, specimen or data unavailable;removed by user instruction2026-10-17.",
+      "kind": "missing_required_material",
+      "formerBatch": "repo-science-batch169"
+    },
+    {
+      "id": "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-4",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8ESS Practical Rock ANSWERS.docx",
+      "sourceFileSha": "6858bd5e6ce3eada22939fe4d28eaa8c5874e932",
+      "reason": "Required source visual, specimen or data unavailable;removed by user instruction2026-10-17.",
+      "kind": "missing_required_material",
+      "formerBatch": "repo-science-batch169"
+    },
+    {
+      "id": "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-5",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8ESS Practical Rock ANSWERS.docx",
+      "sourceFileSha": "6858bd5e6ce3eada22939fe4d28eaa8c5874e932",
+      "reason": "Required source visual, specimen or data unavailable;removed by user instruction2026-10-17.",
+      "kind": "missing_required_material",
+      "formerBatch": "repo-science-batch169"
+    },
+    {
       "id": "SCI-REPO-Y9-B11-D34-WR01",
       "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Physics/Aranmore/Chapter 4.1 Vocabulary.docx",
       "sourceFileSha": "631c83613bfe7afb1b74a97b3547f8e7d48699f3",
@@ -9278,6 +9332,46 @@
       "reason": "Investigation,experiment,practical task,assignment,worksheet or standalone marking rubric;excluded by user scope.",
       "kind": "excluded_task",
       "formerBatch": "repo-science-batch112"
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-ROCKPRACT33-station1",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Aranmore/Rocks Practical.docx",
+      "sourceFileSha": "6bd5b585d01b77f1c4b6745b1b5206ef5c226def",
+      "reason": "Required source visual, specimen or data unavailable;removed by user instruction2026-10-17.",
+      "kind": "missing_required_material",
+      "formerBatch": "repo-science-batch181"
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-ROCKPRACT33-station2",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Aranmore/Rocks Practical.docx",
+      "sourceFileSha": "6bd5b585d01b77f1c4b6745b1b5206ef5c226def",
+      "reason": "Required source visual, specimen or data unavailable;removed by user instruction2026-10-17.",
+      "kind": "missing_required_material",
+      "formerBatch": "repo-science-batch181"
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-ROCKPRACT33-station3",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Aranmore/Rocks Practical.docx",
+      "sourceFileSha": "6bd5b585d01b77f1c4b6745b1b5206ef5c226def",
+      "reason": "Required source visual, specimen or data unavailable;removed by user instruction2026-10-17.",
+      "kind": "missing_required_material",
+      "formerBatch": "repo-science-batch181"
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-ROCKPRACT33-station4",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Aranmore/Rocks Practical.docx",
+      "sourceFileSha": "6bd5b585d01b77f1c4b6745b1b5206ef5c226def",
+      "reason": "Required source visual, specimen or data unavailable;removed by user instruction2026-10-17.",
+      "kind": "missing_required_material",
+      "formerBatch": "repo-science-batch181"
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-ROCKPRACT33-station5",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Aranmore/Rocks Practical.docx",
+      "sourceFileSha": "6bd5b585d01b77f1c4b6745b1b5206ef5c226def",
+      "reason": "Required source visual, specimen or data unavailable;removed by user instruction2026-10-17.",
+      "kind": "missing_required_material",
+      "formerBatch": "repo-science-batch181"
     },
     {
       "id": "SCI-REPO-Y10-ARAN-MOTIONREV-convert-a",
@@ -13584,6 +13678,14 @@
       "formerBatch": "repo-science-batch73"
     },
     {
+      "id": "SCI-REPO-Y10-ARAN-2014-DNAMICRO-M-high",
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Aranmore/10 Biology assessments extention/2014 DNA and Microscope Prac Test.docx",
+      "sourceFileSha": "1c496f3b549eb093849b94eef7ad0f49b36b248b",
+      "reason": "Required source visual, specimen or data unavailable;removed by user instruction2026-10-17.",
+      "kind": "missing_required_material",
+      "formerBatch": "repo-science-batch82"
+    },
+    {
       "id": "SCI-REPO-Y7-ARAN-HUBBLETIMELINE-assignment",
       "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Aranmore/Hubble Timeline Assessment Sonya.docx",
       "sourceFileSha": "b5a3d6ab71be7341b428c6610ee975967fdeed44",
@@ -16112,6 +16214,6 @@
       "formerBatch": "repo-science-batch142"
     }
   ],
-  "battleQuestionSlotsRemoved": 12,
-  "removedEmptyBattleSets": 3
+  "battleQuestionSlotsRemoved": 11,
+  "removedEmptyBattleSets": 2
 }

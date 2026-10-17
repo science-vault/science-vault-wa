@@ -1,6 +1,6 @@
 {
   "batch": "repo-science-batch122",
-  "paperCount": 1,
+  "paperCount": 2,
   "questionIds": [
     "SCI-REPO-Y10-SBY-2017-CHEMTEST-MC14",
     "SCI-REPO-Y10-SBY-2017-CHEMTEST-MC15",
@@ -8,13 +8,14 @@
     "SCI-REPO-Y10-SBY-2017-CHEMTEST-W7b",
     "SCI-REPO-Y10-SBY-2017-CHEMTEST-W7c",
     "SCI-REPO-Y10-SBY-2017-CHEMTEST-W8a",
-    "SCI-REPO-Y10-SBY-2017-CHEMTEST-W8b"
+    "SCI-REPO-Y10-SBY-2017-CHEMTEST-W8b",
+    "SCI-REPO-Y10-SBY-2018-CHEMEXTRAS-MC02"
   ],
-  "questions": 7,
-  "multipleChoice": 2,
+  "questions": 8,
+  "multipleChoice": 3,
   "writtenQuestions": 5,
-  "battleEligible": 2,
-  "marks": 11,
+  "battleEligible": 3,
+  "marks": 12,
   "reviewRequired": [],
   "imageAudit": [
     {
@@ -45,6 +46,12 @@
     {
       "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2017/Chemistry Extension/This one. Semester 2 Chemistry test.docx",
       "sha": "f97cb4c9d6fd48301be7e539cf60da5da2cba7d9",
+      "year": 10,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Chemistry Test Term 1 Draft.docx",
+      "sha": "21d4640c5860d0bbfea5a10a470ce2c96df44e27",
       "year": 10,
       "role": "paper"
     }
@@ -732,5 +739,5 @@
       "reason": "Equivalent source question already present; not added or counted again."
     }
   ],
-  "sourceScope": "2026.10.17-tests-only-v1-b191"
+  "sourceScope": "2026.10.17-tests-only-v1-b202"
 }

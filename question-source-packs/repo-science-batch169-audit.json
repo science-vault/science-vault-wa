@@ -1,40 +1,13 @@
 {
   "batch": "repo-science-batch169",
   "paperCount": 1,
-  "questionIds": [
-    "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-1",
-    "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-2",
-    "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-3",
-    "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-4",
-    "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-5"
-  ],
-  "questions": 5,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 5,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 34,
-  "reviewRequired": [
-    {
-      "id": "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-1",
-      "note": "Numbered physical rock set/photos not included. Reuse requires the original matching specimens or replacement images with remapped numbers. Printed section41differs from34marks across its listed groups."
-    },
-    {
-      "id": "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-2",
-      "note": "Numbered physical rock set/photos not included. Reuse requires the original matching specimens or replacement images with remapped numbers. Printed section41differs from34marks across its listed groups."
-    },
-    {
-      "id": "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-3",
-      "note": "Numbered physical rock set/photos not included. Reuse requires the original matching specimens or replacement images with remapped numbers. Printed section41differs from34marks across its listed groups."
-    },
-    {
-      "id": "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-4",
-      "note": "Numbered physical rock set/photos not included. Reuse requires the original matching specimens or replacement images with remapped numbers. Printed section41differs from34marks across its listed groups."
-    },
-    {
-      "id": "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-5",
-      "note": "Numbered physical rock set/photos not included. Reuse requires the original matching specimens or replacement images with remapped numbers. Printed section41differs from34marks across its listed groups."
-    }
-  ],
+  "marks": 0,
+  "reviewRequired": [],
   "imageAudit": [],
   "sources": [
     {
@@ -58,5 +31,5 @@
     "firstGroupInternalSplitProposed": true
   },
   "duplicateQuestionAliases": [],
-  "sourceScope": "2026.10.17-tests-only-v1-b191"
+  "sourceScope": "2026.10.17-tests-only-v1-b202"
 }

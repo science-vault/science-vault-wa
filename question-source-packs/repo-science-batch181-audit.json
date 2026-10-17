@@ -2,41 +2,16 @@
   "batch": "repo-science-batch181",
   "paperCount": 1,
   "questionIds": [
-    "SCI-REPO-Y8-ARAN-ROCKPRACT33-station1",
-    "SCI-REPO-Y8-ARAN-ROCKPRACT33-station2",
-    "SCI-REPO-Y8-ARAN-ROCKPRACT33-station3",
-    "SCI-REPO-Y8-ARAN-ROCKPRACT33-station4",
-    "SCI-REPO-Y8-ARAN-ROCKPRACT33-station5",
     "SCI-REPO-Y8-ARAN-ROCKPRACT33-seated1",
     "SCI-REPO-Y8-ARAN-ROCKPRACT33-seated2",
     "SCI-REPO-Y8-ARAN-ROCKPRACT33-seated3"
   ],
-  "questions": 8,
+  "questions": 3,
   "multipleChoice": 0,
-  "writtenQuestions": 8,
+  "writtenQuestions": 3,
   "battleEligible": 0,
-  "marks": 33,
+  "marks": 18,
   "reviewRequired": [
-    {
-      "id": "SCI-REPO-Y8-ARAN-ROCKPRACT33-station1",
-      "note": "Original classroom specimen missing. Teacher notes give intended category but no numbered sample photographs."
-    },
-    {
-      "id": "SCI-REPO-Y8-ARAN-ROCKPRACT33-station2",
-      "note": "Original classroom specimen missing. Teacher notes give intended category but no numbered sample photographs."
-    },
-    {
-      "id": "SCI-REPO-Y8-ARAN-ROCKPRACT33-station3",
-      "note": "Original classroom specimen missing. Teacher notes give intended category but no numbered sample photographs."
-    },
-    {
-      "id": "SCI-REPO-Y8-ARAN-ROCKPRACT33-station4",
-      "note": "Original classroom specimen missing. Teacher notes give intended category but no numbered sample photographs."
-    },
-    {
-      "id": "SCI-REPO-Y8-ARAN-ROCKPRACT33-station5",
-      "note": "Original classroom specimen missing. Teacher notes give intended category but no numbered sample photographs."
-    },
     {
       "id": "SCI-REPO-Y8-ARAN-ROCKPRACT33-seated1",
       "note": "Two source definitions are overgeneralised:hardestrocktype and unique gemstone-bearing rocktype. Accept scientifically supported qualified answers."
@@ -90,5 +65,5 @@
     "tasks": 8
   },
   "duplicateQuestionAliases": [],
-  "sourceScope": "2026.10.17-tests-only-v1-b191"
+  "sourceScope": "2026.10.17-tests-only-v1-b202"
 }

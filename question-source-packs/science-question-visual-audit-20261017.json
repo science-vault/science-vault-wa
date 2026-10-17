@@ -1,0 +1,31 @@
+{
+  "questionCountAudited": 2323,
+  "uniqueImageAssetsChecked": 376,
+  "referencedImageSlots": 513,
+  "brokenImages": [],
+  "blankImages": [],
+  "unavailableRequiredMaterial": [],
+  "rule": "Required source visual/material must be present;otherwise question is removed. Drawing-a-diagram questions and source data tables do not require a pre-existing picture.",
+  "restoredQuestionIds": [
+    "SCI-REPO-Y9-SBY-REACTIONTYPES-MC09",
+    "SCI-REPO-Y8-ARAN-2015-ENERGY-11",
+    "SCI-REPO-Y9-ARAN-2013-CHEM2-MC02",
+    "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-MC12"
+  ],
+  "removedQuestionIds": [
+    "SCI-REPO-Y8-SBY-2017-MICROSCOPE-magnification",
+    "SCI-REPO-Y8-SBY-2018-MICROSCOPE-magnification",
+    "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-1",
+    "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-2",
+    "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-3",
+    "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-4",
+    "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-5",
+    "SCI-REPO-Y8-ARAN-ROCKPRACT33-station1",
+    "SCI-REPO-Y8-ARAN-ROCKPRACT33-station2",
+    "SCI-REPO-Y8-ARAN-ROCKPRACT33-station3",
+    "SCI-REPO-Y8-ARAN-ROCKPRACT33-station4",
+    "SCI-REPO-Y8-ARAN-ROCKPRACT33-station5",
+    "SCI-REPO-Y10-ARAN-2014-DNAMICRO-M-high"
+  ],
+  "status": "passed"
+}

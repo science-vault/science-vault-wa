@@ -1,0 +1,79 @@
+{
+  "batch": "repo-science-batch198",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y10-SBY-2024-PSYCHQUIZ-1",
+    "SCI-REPO-Y10-SBY-2024-PSYCHQUIZ-2",
+    "SCI-REPO-Y10-SBY-2024-PSYCHQUIZ-3",
+    "SCI-REPO-Y10-SBY-2024-PSYCHQUIZ-4",
+    "SCI-REPO-Y10-SBY-2024-PSYCHQUIZ-5",
+    "SCI-REPO-Y10-SBY-2024-PSYCHQUIZ-6",
+    "SCI-REPO-Y10-SBY-2024-PSYCHQUIZ-7"
+  ],
+  "questions": 7,
+  "multipleChoice": 2,
+  "writtenQuestions": 5,
+  "battleEligible": 2,
+  "marks": 20,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y10-SBY-2024-PSYCHQUIZ-7",
+      "note": "Source asks for a single-lobe consequence of concussion;use a plausible functional link and moderate the oversimplified localisation. Marking guidance supplemented from CDC concussion explanation."
+    }
+  ],
+  "imageAudit": [
+    {
+      "id": "e466-page1-brain-labelling-leader-lines",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Psychology Elective/Safety Bay/2024/Assessments/Task 1 Introduction to Psychology Quiz (WIP).docx",
+      "sourceFileSha": "545c3b403a23596edd6042894b5f91dbef7a43e4",
+      "sourcePage": 1,
+      "pdfCropPoints": [
+        90,
+        350,
+        490,
+        650
+      ],
+      "role": "original_native_Word_figure",
+      "conversion": "Original DOCX rendered by LibreOffice to PDF; bounded source figure rasterised at 216 dpi without redrawing. Native editable shapes, table borders, shading and example points retained.",
+      "publishedSha256": "435a06bf56575753b4a5fee7f08ef8d2eb1c7c6c22c706e35516667740f80fd7"
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Psychology Elective/Safety Bay/2024/Assessments/Task 1 Introduction to Psychology Quiz (WIP).docx",
+      "sha": "545c3b403a23596edd6042894b5f91dbef7a43e4",
+      "year": 10,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [
+    {
+      "id": "sci-repo-y10-sby-2024-psychquiz-mc-1",
+      "title": "Year 10 Science — Brain function and psychology (original source MC)",
+      "course": "Science",
+      "yearGroup": 10,
+      "unit": "Biological Sciences",
+      "parent": "Brain function and psychology",
+      "count": 2,
+      "kind": "assessment",
+      "assessmentCount": 2,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch198.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=10&search=SCI-REPO-Y10-SBY-2024-PSYCHQUIZ",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    }
+  ],
+  "createdKeys": 7,
+  "createdSupplements": 0,
+  "notes": [
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
+  ],
+  "markAudit": {
+    "sourceTotal": 20,
+    "multipleChoice": 2,
+    "written": 18
+  },
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b202"
+}

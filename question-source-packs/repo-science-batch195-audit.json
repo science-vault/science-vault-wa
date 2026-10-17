@@ -1,0 +1,126 @@
+{
+  "batch": "repo-science-batch195",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y7-ARAN-2015-S2EXAM-MC01",
+    "SCI-REPO-Y7-ARAN-2015-S2EXAM-MC02",
+    "SCI-REPO-Y7-ARAN-2015-S2EXAM-MC03",
+    "SCI-REPO-Y7-ARAN-2015-S2EXAM-MC04",
+    "SCI-REPO-Y7-ARAN-2015-S2EXAM-MC05",
+    "SCI-REPO-Y7-ARAN-2015-S2EXAM-MC06",
+    "SCI-REPO-Y7-ARAN-2015-S2EXAM-MC07",
+    "SCI-REPO-Y7-ARAN-2015-S2EXAM-MC08",
+    "SCI-REPO-Y7-ARAN-2015-S2EXAM-MC09",
+    "SCI-REPO-Y7-ARAN-2015-S2EXAM-MC10",
+    "SCI-REPO-Y7-ARAN-2015-S2EXAM-MC11",
+    "SCI-REPO-Y7-ARAN-2015-S2EXAM-MC12",
+    "SCI-REPO-Y7-ARAN-2015-S2EXAM-MC13",
+    "SCI-REPO-Y7-ARAN-2015-S2EXAM-MC14",
+    "SCI-REPO-Y7-ARAN-2015-S2EXAM-MC15",
+    "SCI-REPO-Y7-ARAN-2015-S2EXAM-MC16",
+    "SCI-REPO-Y7-ARAN-2015-S2EXAM-MC17",
+    "SCI-REPO-Y7-ARAN-2015-S2EXAM-MC18",
+    "SCI-REPO-Y7-ARAN-2015-S2EXAM-MC19",
+    "SCI-REPO-Y7-ARAN-2015-S2EXAM-MC20",
+    "SCI-REPO-Y7-ARAN-2015-S2EXAM-WR1",
+    "SCI-REPO-Y7-ARAN-2015-S2EXAM-WR2a",
+    "SCI-REPO-Y7-ARAN-2015-S2EXAM-WR2b",
+    "SCI-REPO-Y7-ARAN-2015-S2EXAM-WR2c",
+    "SCI-REPO-Y7-ARAN-2015-S2EXAM-WR3a",
+    "SCI-REPO-Y7-ARAN-2015-S2EXAM-WR3b",
+    "SCI-REPO-Y7-ARAN-2015-S2EXAM-WR4",
+    "SCI-REPO-Y7-ARAN-2015-S2EXAM-WR5a",
+    "SCI-REPO-Y7-ARAN-2015-S2EXAM-WR5b"
+  ],
+  "questions": 29,
+  "multipleChoice": 20,
+  "writtenQuestions": 9,
+  "battleEligible": 19,
+  "marks": 40,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y7-ARAN-2015-S2EXAM-MC13",
+      "note": "D:early morning is likely intended for Perth near the illumination boundary,but the diagram lacks a marked Perth location or a clear rotation arrow. Accept justified interpretation and moderate manually."
+    }
+  ],
+  "imageAudit": [
+    {
+      "id": "e439-image2",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Aranmore/YEAR 7 SEMESTER 2 EXAM 2015.docx",
+      "embeddedImage": "word/media/image2.jpeg",
+      "sha256": "d9cbcb13579767b301997be39b9f6621d76269d58637d79032222a0022d5de40",
+      "publishedSha256": "6c46cd8d7271301ee9c662448503e6fbba13aeadfd5c0e4196a968ede38a38a4",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e439-image3",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Aranmore/YEAR 7 SEMESTER 2 EXAM 2015.docx",
+      "embeddedImage": "word/media/image3.jpeg",
+      "sha256": "b5e519b6018105d55bf634d258d61db661a6fb6fe7dae8877717fd5004f2da91",
+      "publishedSha256": "8743815d429864b1f74f606076192ec7ffea31e6973ba8c72789df14c99f5459",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e439-image4",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Aranmore/YEAR 7 SEMESTER 2 EXAM 2015.docx",
+      "embeddedImage": "word/media/image4.jpeg",
+      "sha256": "ffd49f41de9d74ef730d0d89d86b2c28d8e94feb7aaab73ad38d60b69323fb7a",
+      "publishedSha256": "b7692a18626ea0b8cf014543e52e649150dec5c2fe1a7280039c5e7559ecdb12",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e439-image5",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Aranmore/YEAR 7 SEMESTER 2 EXAM 2015.docx",
+      "embeddedImage": "word/media/image5.jpeg",
+      "sha256": "06901c13a6ec056ed78e93702e7dde498b9acf1a4403ce8d07a2afbba95b0560",
+      "publishedSha256": "a8ca93aeea169060f4ce55cee7b6381f170bf6a38436542b452009046b5b0223",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Aranmore/YEAR 7 SEMESTER 2 EXAM 2015.docx",
+      "sha": "bb31b581028b4b140328c7bbe9bb2af97f639ee3",
+      "year": 7,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [
+    {
+      "id": "sci-repo-y7-aran-2015-s2exam-mc-1",
+      "title": "Year 7 Science — Earth, space and astronomical models (original source MC)",
+      "course": "Science",
+      "yearGroup": 7,
+      "unit": "Earth and Space Sciences",
+      "parent": "Earth, space and astronomical models",
+      "count": 19,
+      "kind": "assessment",
+      "assessmentCount": 19,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch195.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=7&search=SCI-REPO-Y7-ARAN-2015-S2EXAM",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    }
+  ],
+  "createdKeys": 29,
+  "createdSupplements": 0,
+  "notes": [
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
+  ],
+  "markAudit": {
+    "sourceTotal": 40,
+    "multipleChoice": 20,
+    "written": 20
+  },
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b202"
+}

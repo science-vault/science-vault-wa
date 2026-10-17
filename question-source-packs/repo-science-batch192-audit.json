@@ -1,0 +1,1658 @@
+{
+  "batch": "repo-science-batch192",
+  "paperCount": 4,
+  "questionIds": [
+    "SCI-REPO-Y10-NAR-2021-CHEM-452-MC15",
+    "SCI-REPO-Y10-NAR-2021-CHEM-452-MC16",
+    "SCI-REPO-Y10-NAR-2021-CHEM-452-WR1",
+    "SCI-REPO-Y10-NAR-2021-CHEM-452-WR2",
+    "SCI-REPO-Y10-NAR-2021-CHEM-452-WR3a",
+    "SCI-REPO-Y10-NAR-2021-CHEM-452-WR3b",
+    "SCI-REPO-Y10-NAR-2021-CHEM-452-WR4",
+    "SCI-REPO-Y10-NAR-2021-CHEM-452-WR51",
+    "SCI-REPO-Y10-NAR-2021-CHEM-452-WR52",
+    "SCI-REPO-Y10-NAR-2021-CHEM-452-WR53",
+    "SCI-REPO-Y10-NAR-2021-CHEM-452-WR54",
+    "SCI-REPO-Y10-NAR-2021-CHEM-454-WR51",
+    "SCI-REPO-Y10-NAR-2021-CHEM-454-WR52",
+    "SCI-REPO-Y10-NAR-2021-CHEM-454-WR6a",
+    "SCI-REPO-Y10-NAR-2021-CHEM-454-WR6b",
+    "SCI-REPO-Y10-NAR-2020-CHEM-461-WR1",
+    "SCI-REPO-Y10-NAR-2020-CHEM-461-WR2",
+    "SCI-REPO-Y10-NAR-2020-CHEM-461-WR3a",
+    "SCI-REPO-Y10-NAR-2020-CHEM-461-WR3b",
+    "SCI-REPO-Y10-NAR-2020-CHEM-461-WR3c"
+  ],
+  "questions": 20,
+  "multipleChoice": 2,
+  "writtenQuestions": 18,
+  "battleEligible": 2,
+  "marks": 39,
+  "reviewRequired": [],
+  "imageAudit": [
+    {
+      "id": "e452-image2",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 PreATAR Test Elements and the PT 2021.docx",
+      "embeddedImage": "word/media/image2.jpeg",
+      "sha256": "22b7ec24749926311076592eb8feed4c9810b15496486ff4ddbd3fb5923f420f",
+      "publishedSha256": "ce318a47a4e4eb19c4b265f284bf37056f06bb48e95c67d31b6700df667d21b9",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e452-image3",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 PreATAR Test Elements and the PT 2021.docx",
+      "embeddedImage": "word/media/image3.png",
+      "sha256": "ae797b416ceae25611dde5f9e1c41007b64a74e41b4c8bcab292f0ff4218c8d4",
+      "publishedSha256": "af42c50b79c0360cc6863fd1097bbbf2c6a5770a7c748215c9737415607af828",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e452-image4",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 PreATAR Test Elements and the PT 2021.docx",
+      "embeddedImage": "word/media/image4.jpeg",
+      "sha256": "616cfcf29152b050d9083045e054298d99c5ba2ac8532534d640d2a8afd44861",
+      "publishedSha256": "672c19bee395c494accbe58e80b036ef62562c506435e69e650b5cdb5d3d4ec5",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e454-image2",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+      "embeddedImage": "word/media/image2.jpeg",
+      "sha256": "22b7ec24749926311076592eb8feed4c9810b15496486ff4ddbd3fb5923f420f",
+      "publishedSha256": "ce318a47a4e4eb19c4b265f284bf37056f06bb48e95c67d31b6700df667d21b9",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e454-image3",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+      "embeddedImage": "word/media/image3.png",
+      "sha256": "ae797b416ceae25611dde5f9e1c41007b64a74e41b4c8bcab292f0ff4218c8d4",
+      "publishedSha256": "af42c50b79c0360cc6863fd1097bbbf2c6a5770a7c748215c9737415607af828",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e454-image4",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+      "embeddedImage": "word/media/image4.jpeg",
+      "sha256": "616cfcf29152b050d9083045e054298d99c5ba2ac8532534d640d2a8afd44861",
+      "publishedSha256": "672c19bee395c494accbe58e80b036ef62562c506435e69e650b5cdb5d3d4ec5",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e456-image2",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+      "embeddedImage": "word/media/image2.jpeg",
+      "sha256": "22b7ec24749926311076592eb8feed4c9810b15496486ff4ddbd3fb5923f420f",
+      "publishedSha256": "ce318a47a4e4eb19c4b265f284bf37056f06bb48e95c67d31b6700df667d21b9",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e456-image3",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+      "embeddedImage": "word/media/image3.png",
+      "sha256": "ae797b416ceae25611dde5f9e1c41007b64a74e41b4c8bcab292f0ff4218c8d4",
+      "publishedSha256": "af42c50b79c0360cc6863fd1097bbbf2c6a5770a7c748215c9737415607af828",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e456-image4",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+      "embeddedImage": "word/media/image4.jpeg",
+      "sha256": "616cfcf29152b050d9083045e054298d99c5ba2ac8532534d640d2a8afd44861",
+      "publishedSha256": "672c19bee395c494accbe58e80b036ef62562c506435e69e650b5cdb5d3d4ec5",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e461-image2",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+      "embeddedImage": "word/media/image2.jpeg",
+      "sha256": "22b7ec24749926311076592eb8feed4c9810b15496486ff4ddbd3fb5923f420f",
+      "publishedSha256": "ce318a47a4e4eb19c4b265f284bf37056f06bb48e95c67d31b6700df667d21b9",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e461-image3",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+      "embeddedImage": "word/media/image3.png",
+      "sha256": "ae797b416ceae25611dde5f9e1c41007b64a74e41b4c8bcab292f0ff4218c8d4",
+      "publishedSha256": "af42c50b79c0360cc6863fd1097bbbf2c6a5770a7c748215c9737415607af828",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e461-image4",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+      "embeddedImage": "word/media/image4.jpeg",
+      "sha256": "616cfcf29152b050d9083045e054298d99c5ba2ac8532534d640d2a8afd44861",
+      "publishedSha256": "672c19bee395c494accbe58e80b036ef62562c506435e69e650b5cdb5d3d4ec5",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e461-image5",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+      "embeddedImage": "word/media/image5.png",
+      "sha256": "5491eb463a00945c22795224b3cb40d5632578fd77523d5c8b8777c9ff405a35",
+      "publishedSha256": "21ecad55bb15e93808a4de5dc164d5965aee0498f7b1b1a2ea4d3141467b1a6e",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 PreATAR Test Elements and the PT 2021.docx",
+      "sha": "599d99de9d68dc131558263d7969c7c857e7fd47",
+      "year": 10,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+      "sha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+      "year": 10,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+      "sha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+      "year": 10,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+      "sha": "26c56ca25787188dfd3d006f21485dcf256235d5",
+      "year": 10,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [
+    {
+      "id": "sci-repo-y10-nar-2021-chem-452-mc-1",
+      "title": "Year 10 Science — Atoms, periodic table and compounds (original source MC)",
+      "course": "Science",
+      "yearGroup": 10,
+      "unit": "Chemical Sciences",
+      "parent": "Atoms, periodic table and compounds",
+      "count": 2,
+      "kind": "assessment",
+      "assessmentCount": 2,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch192.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=10&search=SCI-REPO-Y10-NAR-2021-CHEM-452",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    }
+  ],
+  "createdKeys": 20,
+  "createdSupplements": 0,
+  "notes": [
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
+  ],
+  "markAudit": {
+    "papers": 4,
+    "sourceTotals": [
+      37,
+      37,
+      37,
+      36
+    ],
+    "sourceMarks": 147
+  },
+  "duplicateQuestionAliases": [
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 PreATAR Test Elements and the PT 2021.docx",
+      "sourceFileSha": "599d99de9d68dc131558263d7969c7c857e7fd47",
+      "sourceQuestionNumber": "1",
+      "sourceParagraphs": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC01",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 PreATAR Test Elements and the PT 2021.docx",
+      "sourceFileSha": "599d99de9d68dc131558263d7969c7c857e7fd47",
+      "sourceQuestionNumber": "2",
+      "sourceParagraphs": [
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC02",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 PreATAR Test Elements and the PT 2021.docx",
+      "sourceFileSha": "599d99de9d68dc131558263d7969c7c857e7fd47",
+      "sourceQuestionNumber": "3",
+      "sourceParagraphs": [
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC03",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 PreATAR Test Elements and the PT 2021.docx",
+      "sourceFileSha": "599d99de9d68dc131558263d7969c7c857e7fd47",
+      "sourceQuestionNumber": "4",
+      "sourceParagraphs": [
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC04",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 PreATAR Test Elements and the PT 2021.docx",
+      "sourceFileSha": "599d99de9d68dc131558263d7969c7c857e7fd47",
+      "sourceQuestionNumber": "5",
+      "sourceParagraphs": [
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC05",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 PreATAR Test Elements and the PT 2021.docx",
+      "sourceFileSha": "599d99de9d68dc131558263d7969c7c857e7fd47",
+      "sourceQuestionNumber": "6",
+      "sourceParagraphs": [
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC06",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 PreATAR Test Elements and the PT 2021.docx",
+      "sourceFileSha": "599d99de9d68dc131558263d7969c7c857e7fd47",
+      "sourceQuestionNumber": "7",
+      "sourceParagraphs": [
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC07",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 PreATAR Test Elements and the PT 2021.docx",
+      "sourceFileSha": "599d99de9d68dc131558263d7969c7c857e7fd47",
+      "sourceQuestionNumber": "8",
+      "sourceParagraphs": [
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC08",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 PreATAR Test Elements and the PT 2021.docx",
+      "sourceFileSha": "599d99de9d68dc131558263d7969c7c857e7fd47",
+      "sourceQuestionNumber": "9",
+      "sourceParagraphs": [
+        62,
+        63,
+        64,
+        65,
+        66
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC09",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 PreATAR Test Elements and the PT 2021.docx",
+      "sourceFileSha": "599d99de9d68dc131558263d7969c7c857e7fd47",
+      "sourceQuestionNumber": "10",
+      "sourceParagraphs": [
+        69,
+        70,
+        71,
+        72,
+        73
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC10",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 PreATAR Test Elements and the PT 2021.docx",
+      "sourceFileSha": "599d99de9d68dc131558263d7969c7c857e7fd47",
+      "sourceQuestionNumber": "11",
+      "sourceParagraphs": [
+        75,
+        76,
+        77,
+        78,
+        79
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC11",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 PreATAR Test Elements and the PT 2021.docx",
+      "sourceFileSha": "599d99de9d68dc131558263d7969c7c857e7fd47",
+      "sourceQuestionNumber": "12",
+      "sourceParagraphs": [
+        81,
+        82,
+        83,
+        84,
+        85
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC12",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 PreATAR Test Elements and the PT 2021.docx",
+      "sourceFileSha": "599d99de9d68dc131558263d7969c7c857e7fd47",
+      "sourceQuestionNumber": "13",
+      "sourceParagraphs": [
+        87,
+        88,
+        89,
+        90,
+        91
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC13",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 PreATAR Test Elements and the PT 2021.docx",
+      "sourceFileSha": "599d99de9d68dc131558263d7969c7c857e7fd47",
+      "sourceQuestionNumber": "14",
+      "sourceParagraphs": [
+        93,
+        94,
+        95,
+        96,
+        97
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC14",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 PreATAR Test Elements and the PT 2021.docx",
+      "sourceFileSha": "599d99de9d68dc131558263d7969c7c857e7fd47",
+      "sourceQuestionNumber": "17",
+      "sourceParagraphs": [
+        117,
+        118,
+        119,
+        120,
+        121
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC17",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 PreATAR Test Elements and the PT 2021.docx",
+      "sourceFileSha": "599d99de9d68dc131558263d7969c7c857e7fd47",
+      "sourceQuestionNumber": "18",
+      "sourceParagraphs": [
+        123,
+        124,
+        125,
+        126,
+        127
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC18",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 PreATAR Test Elements and the PT 2021.docx",
+      "sourceFileSha": "599d99de9d68dc131558263d7969c7c857e7fd47",
+      "sourceQuestionNumber": "19",
+      "sourceParagraphs": [
+        129,
+        130,
+        131,
+        132,
+        133
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC19",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 PreATAR Test Elements and the PT 2021.docx",
+      "sourceFileSha": "599d99de9d68dc131558263d7969c7c857e7fd47",
+      "sourceQuestionNumber": "20",
+      "sourceParagraphs": [
+        135,
+        136,
+        137,
+        138,
+        139
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC20",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+      "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+      "sourceQuestionNumber": "1",
+      "sourceParagraphs": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC01",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+      "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+      "sourceQuestionNumber": "2",
+      "sourceParagraphs": [
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC02",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+      "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+      "sourceQuestionNumber": "3",
+      "sourceParagraphs": [
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC03",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+      "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+      "sourceQuestionNumber": "4",
+      "sourceParagraphs": [
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC04",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+      "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+      "sourceQuestionNumber": "5",
+      "sourceParagraphs": [
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC05",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+      "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+      "sourceQuestionNumber": "6",
+      "sourceParagraphs": [
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC06",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+      "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+      "sourceQuestionNumber": "7",
+      "sourceParagraphs": [
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC07",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+      "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+      "sourceQuestionNumber": "8",
+      "sourceParagraphs": [
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC08",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+      "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+      "sourceQuestionNumber": "9",
+      "sourceParagraphs": [
+        62,
+        63,
+        64,
+        65,
+        66
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC09",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+      "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+      "sourceQuestionNumber": "10",
+      "sourceParagraphs": [
+        69,
+        70,
+        71,
+        72,
+        73
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC10",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+      "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+      "sourceQuestionNumber": "11",
+      "sourceParagraphs": [
+        75,
+        76,
+        77,
+        78,
+        79
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC11",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+      "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+      "sourceQuestionNumber": "12",
+      "sourceParagraphs": [
+        81,
+        82,
+        83,
+        84,
+        85
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC12",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+      "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+      "sourceQuestionNumber": "13",
+      "sourceParagraphs": [
+        87,
+        88,
+        89,
+        90,
+        91
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC13",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+      "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+      "sourceQuestionNumber": "14",
+      "sourceParagraphs": [
+        93,
+        94,
+        95,
+        96,
+        97
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC14",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+      "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+      "sourceQuestionNumber": "15",
+      "sourceParagraphs": [
+        105,
+        106,
+        107,
+        108,
+        109,
+        103
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2021-CHEM-452-MC15",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+      "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+      "sourceQuestionNumber": "16",
+      "sourceParagraphs": [
+        111,
+        112,
+        113,
+        114,
+        115,
+        103
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2021-CHEM-452-MC16",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+      "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+      "sourceQuestionNumber": "17",
+      "sourceParagraphs": [
+        117,
+        118,
+        119,
+        120,
+        121
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC17",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+      "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+      "sourceQuestionNumber": "18",
+      "sourceParagraphs": [
+        123,
+        124,
+        125,
+        126,
+        127
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC18",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+      "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+      "sourceQuestionNumber": "19",
+      "sourceParagraphs": [
+        129,
+        130,
+        131,
+        132,
+        133
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC19",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+      "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+      "sourceQuestionNumber": "20",
+      "sourceParagraphs": [
+        135,
+        136,
+        137,
+        138,
+        139
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC20",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+      "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+      "sourceQuestionNumber": "WR1",
+      "sourceParagraphs": [
+        146
+      ],
+      "sourceMarks": 3,
+      "sourceType": "Diagram",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2021-CHEM-452-WR1",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+      "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+      "sourceQuestionNumber": "WR2",
+      "sourceParagraphs": [
+        163,
+        164
+      ],
+      "sourceMarks": 5,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2021-CHEM-452-WR2",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+      "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+      "sourceQuestionNumber": "WR3a",
+      "sourceParagraphs": [
+        170,
+        173
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2021-CHEM-452-WR3a",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+      "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+      "sourceQuestionNumber": "WR3b",
+      "sourceParagraphs": [
+        170,
+        177
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2021-CHEM-452-WR3b",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2021/Task 4 Chemistry 1 General Test Elements and the PT 2021.docx",
+      "sourceFileSha": "186d9b60e82ea3843a05be6365094a6ae379c705",
+      "sourceQuestionNumber": "WR4",
+      "sourceParagraphs": [
+        185
+      ],
+      "sourceMarks": 3,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2021-CHEM-452-WR4",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+      "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+      "sourceQuestionNumber": "1",
+      "sourceParagraphs": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC01",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+      "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+      "sourceQuestionNumber": "2",
+      "sourceParagraphs": [
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC02",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+      "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+      "sourceQuestionNumber": "3",
+      "sourceParagraphs": [
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC03",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+      "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+      "sourceQuestionNumber": "4",
+      "sourceParagraphs": [
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC04",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+      "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+      "sourceQuestionNumber": "5",
+      "sourceParagraphs": [
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC05",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+      "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+      "sourceQuestionNumber": "6",
+      "sourceParagraphs": [
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC06",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+      "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+      "sourceQuestionNumber": "7",
+      "sourceParagraphs": [
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC07",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+      "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+      "sourceQuestionNumber": "8",
+      "sourceParagraphs": [
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC08",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+      "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+      "sourceQuestionNumber": "9",
+      "sourceParagraphs": [
+        62,
+        63,
+        64,
+        65,
+        66
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC09",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+      "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+      "sourceQuestionNumber": "10",
+      "sourceParagraphs": [
+        69,
+        70,
+        71,
+        72,
+        73
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC10",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+      "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+      "sourceQuestionNumber": "11",
+      "sourceParagraphs": [
+        75,
+        76,
+        77,
+        78,
+        79
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC11",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+      "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+      "sourceQuestionNumber": "12",
+      "sourceParagraphs": [
+        81,
+        82,
+        83,
+        84,
+        85
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC12",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+      "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+      "sourceQuestionNumber": "13",
+      "sourceParagraphs": [
+        87,
+        88,
+        89,
+        90,
+        91
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC13",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+      "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+      "sourceQuestionNumber": "14",
+      "sourceParagraphs": [
+        93,
+        94,
+        95,
+        96,
+        97
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC14",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+      "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+      "sourceQuestionNumber": "15",
+      "sourceParagraphs": [
+        105,
+        106,
+        107,
+        108,
+        109,
+        103
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2021-CHEM-452-MC15",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+      "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+      "sourceQuestionNumber": "16",
+      "sourceParagraphs": [
+        111,
+        112,
+        113,
+        114,
+        115,
+        103
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2021-CHEM-452-MC16",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+      "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+      "sourceQuestionNumber": "17",
+      "sourceParagraphs": [
+        117,
+        118,
+        119,
+        120,
+        121
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC17",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+      "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+      "sourceQuestionNumber": "18",
+      "sourceParagraphs": [
+        123,
+        124,
+        125,
+        126,
+        127
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC18",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+      "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+      "sourceQuestionNumber": "19",
+      "sourceParagraphs": [
+        129,
+        130,
+        131,
+        132,
+        133
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC19",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+      "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+      "sourceQuestionNumber": "20",
+      "sourceParagraphs": [
+        135,
+        136,
+        137,
+        138,
+        139
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC20",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+      "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+      "sourceQuestionNumber": "WR1",
+      "sourceParagraphs": [
+        146
+      ],
+      "sourceMarks": 3,
+      "sourceType": "Diagram",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2021-CHEM-452-WR1",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+      "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+      "sourceQuestionNumber": "WR2",
+      "sourceParagraphs": [
+        163,
+        164
+      ],
+      "sourceMarks": 5,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2021-CHEM-452-WR2",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+      "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+      "sourceQuestionNumber": "WR3a",
+      "sourceParagraphs": [
+        170,
+        173
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2021-CHEM-452-WR3a",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+      "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+      "sourceQuestionNumber": "WR3b",
+      "sourceParagraphs": [
+        170,
+        177
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2021-CHEM-452-WR3b",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+      "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+      "sourceQuestionNumber": "WR4",
+      "sourceParagraphs": [
+        185
+      ],
+      "sourceMarks": 3,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2021-CHEM-452-WR4",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+      "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+      "sourceQuestionNumber": "WR51",
+      "sourceParagraphs": [
+        192,
+        194
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2021-CHEM-452-WR51",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+      "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+      "sourceQuestionNumber": "WR52",
+      "sourceParagraphs": [
+        192,
+        197
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2021-CHEM-452-WR52",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+      "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+      "sourceQuestionNumber": "WR53",
+      "sourceParagraphs": [
+        192,
+        200
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2021-CHEM-452-WR53",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2023/Task 2 Chemistry 1 Elements and the PT Test 2023.docx",
+      "sourceFileSha": "9e7d955091ceed1b4d6c4b7c728d4d24010159f9",
+      "sourceQuestionNumber": "WR54",
+      "sourceParagraphs": [
+        192,
+        203
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2021-CHEM-452-WR54",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+      "sourceFileSha": "26c56ca25787188dfd3d006f21485dcf256235d5",
+      "sourceQuestionNumber": "1",
+      "sourceParagraphs": [
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC01",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+      "sourceFileSha": "26c56ca25787188dfd3d006f21485dcf256235d5",
+      "sourceQuestionNumber": "2",
+      "sourceParagraphs": [
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC02",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+      "sourceFileSha": "26c56ca25787188dfd3d006f21485dcf256235d5",
+      "sourceQuestionNumber": "3",
+      "sourceParagraphs": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC03",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+      "sourceFileSha": "26c56ca25787188dfd3d006f21485dcf256235d5",
+      "sourceQuestionNumber": "4",
+      "sourceParagraphs": [
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC04",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+      "sourceFileSha": "26c56ca25787188dfd3d006f21485dcf256235d5",
+      "sourceQuestionNumber": "5",
+      "sourceParagraphs": [
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC05",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+      "sourceFileSha": "26c56ca25787188dfd3d006f21485dcf256235d5",
+      "sourceQuestionNumber": "6",
+      "sourceParagraphs": [
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC06",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+      "sourceFileSha": "26c56ca25787188dfd3d006f21485dcf256235d5",
+      "sourceQuestionNumber": "7",
+      "sourceParagraphs": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC07",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+      "sourceFileSha": "26c56ca25787188dfd3d006f21485dcf256235d5",
+      "sourceQuestionNumber": "8",
+      "sourceParagraphs": [
+        54,
+        55,
+        56,
+        57,
+        58
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC08",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+      "sourceFileSha": "26c56ca25787188dfd3d006f21485dcf256235d5",
+      "sourceQuestionNumber": "9",
+      "sourceParagraphs": [
+        60,
+        61,
+        62,
+        63,
+        64
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC09",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+      "sourceFileSha": "26c56ca25787188dfd3d006f21485dcf256235d5",
+      "sourceQuestionNumber": "10",
+      "sourceParagraphs": [
+        67,
+        68,
+        69,
+        70,
+        71
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC10",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+      "sourceFileSha": "26c56ca25787188dfd3d006f21485dcf256235d5",
+      "sourceQuestionNumber": "11",
+      "sourceParagraphs": [
+        73,
+        74,
+        75,
+        76,
+        77
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC11",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+      "sourceFileSha": "26c56ca25787188dfd3d006f21485dcf256235d5",
+      "sourceQuestionNumber": "12",
+      "sourceParagraphs": [
+        79,
+        80,
+        81,
+        82,
+        83
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC12",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+      "sourceFileSha": "26c56ca25787188dfd3d006f21485dcf256235d5",
+      "sourceQuestionNumber": "13",
+      "sourceParagraphs": [
+        85,
+        86,
+        87,
+        88,
+        89
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC13",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+      "sourceFileSha": "26c56ca25787188dfd3d006f21485dcf256235d5",
+      "sourceQuestionNumber": "14",
+      "sourceParagraphs": [
+        91,
+        92,
+        93,
+        94,
+        95
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC14",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+      "sourceFileSha": "26c56ca25787188dfd3d006f21485dcf256235d5",
+      "sourceQuestionNumber": "15",
+      "sourceParagraphs": [
+        103,
+        104,
+        105,
+        106,
+        107,
+        101
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2021-CHEM-452-MC15",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+      "sourceFileSha": "26c56ca25787188dfd3d006f21485dcf256235d5",
+      "sourceQuestionNumber": "16",
+      "sourceParagraphs": [
+        109,
+        110,
+        111,
+        112,
+        113,
+        101
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2021-CHEM-452-MC16",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+      "sourceFileSha": "26c56ca25787188dfd3d006f21485dcf256235d5",
+      "sourceQuestionNumber": "17",
+      "sourceParagraphs": [
+        115,
+        116,
+        117,
+        118,
+        119
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC17",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+      "sourceFileSha": "26c56ca25787188dfd3d006f21485dcf256235d5",
+      "sourceQuestionNumber": "18",
+      "sourceParagraphs": [
+        121,
+        122,
+        123,
+        124,
+        125
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC18",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+      "sourceFileSha": "26c56ca25787188dfd3d006f21485dcf256235d5",
+      "sourceQuestionNumber": "19",
+      "sourceParagraphs": [
+        127,
+        128,
+        129,
+        130,
+        131
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC19",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
+      "sourceFileSha": "26c56ca25787188dfd3d006f21485dcf256235d5",
+      "sourceQuestionNumber": "20",
+      "sourceParagraphs": [
+        133,
+        134,
+        135,
+        136,
+        137
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-NAR-2024-ELEMENTS-MC20",
+      "reason": "Equivalent source question already present; not added or counted again."
+    }
+  ],
+  "sourceScope": "2026.10.17-tests-only-v1-b202"
+}
