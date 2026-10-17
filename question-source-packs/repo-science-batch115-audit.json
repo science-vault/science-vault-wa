@@ -1,52 +1,26 @@
 {
   "batch": "repo-science-batch115",
-  "paperCount": 1,
-  "questionIds": [
-    "SCI-REPO-Y10-ARAN-NEWTONLAWS-born",
-    "SCI-REPO-Y10-ARAN-NEWTONLAWS-died",
-    "SCI-REPO-Y10-ARAN-NEWTONLAWS-early",
-    "SCI-REPO-Y10-ARAN-NEWTONLAWS-education",
-    "SCI-REPO-Y10-ARAN-NEWTONLAWS-profession",
-    "SCI-REPO-Y10-ARAN-NEWTONLAWS-contribution",
-    "SCI-REPO-Y10-ARAN-NEWTONLAWS-law1",
-    "SCI-REPO-Y10-ARAN-NEWTONLAWS-law2",
-    "SCI-REPO-Y10-ARAN-NEWTONLAWS-law3",
-    "SCI-REPO-Y10-ARAN-NEWTONLAWS-references"
-  ],
-  "questions": 10,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 10,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 29,
-  "reviewRequired": [
-    {
-      "id": "SCI-REPO-Y10-ARAN-NEWTONLAWS-born",
-      "note": "Historical dates require stated calendar conventions."
-    },
-    {
-      "id": "SCI-REPO-Y10-ARAN-NEWTONLAWS-died",
-      "note": "Historical dates require stated calendar conventions."
-    }
-  ],
+  "marks": 0,
+  "reviewRequired": [],
   "imageAudit": [],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/George's ex IEC Isaac Newton.docx",
-      "sha": "eef1ba6414dbb5b03b3c5714d897d9fbd65b3cde",
-      "year": 10,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 0,
   "createdSupplements": 10,
   "notes": [
-    "Complete Newton biography/motion report reviewed. Ten science/reference tasks29marks retained;title/introduction/general writing and presentation7logged separately for36total. Calendar conventions and action/reaction on separate bodies explicit."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "total": 36,
     "selected": 29,
     "generalWritingPresentation": 7
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

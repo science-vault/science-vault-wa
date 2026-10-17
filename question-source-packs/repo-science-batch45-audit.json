@@ -1,19 +1,7 @@
 {
   "batch": "repo-science-batch45",
-  "paperCount": 4,
+  "paperCount": 1,
   "questionIds": [
-    "SCI-REPO-Y7-ARAN-2014-VOCAB1-1",
-    "SCI-REPO-Y7-ARAN-2014-VOCAB1-2",
-    "SCI-REPO-Y7-ARAN-2014-VOCAB1-3",
-    "SCI-REPO-Y7-ARAN-2014-VOCAB1-4",
-    "SCI-REPO-Y7-ARAN-2014-VOCAB1-5",
-    "SCI-REPO-Y7-ARAN-2014-VOCAB1-6",
-    "SCI-REPO-Y7-ARAN-2014-VOCAB1-7",
-    "SCI-REPO-Y7-ARAN-2014-VOCAB1-8",
-    "SCI-REPO-Y7-ARAN-2014-VOCAB1-9",
-    "SCI-REPO-Y7-ARAN-2014-VOCAB1-10",
-    "SCI-REPO-Y7-ARAN-2014-VOCAB1-11",
-    "SCI-REPO-Y7-ARAN-2014-VOCAB1-12",
     "SCI-REPO-Y7-ARAN-2014-VOCAB2-1",
     "SCI-REPO-Y7-ARAN-2014-VOCAB2-2",
     "SCI-REPO-Y7-ARAN-2014-VOCAB2-3",
@@ -25,26 +13,13 @@
     "SCI-REPO-Y7-ARAN-2014-VOCAB2-9",
     "SCI-REPO-Y7-ARAN-2014-VOCAB2-10",
     "SCI-REPO-Y7-ARAN-2014-VOCAB2-11",
-    "SCI-REPO-Y7-ARAN-2014-VOCAB2-12",
-    "SCI-REPO-Y7-ARAN-2015-COOLING-aim",
-    "SCI-REPO-Y7-ARAN-2015-COOLING-hypothesis",
-    "SCI-REPO-Y7-ARAN-2015-COOLING-independent",
-    "SCI-REPO-Y7-ARAN-2015-COOLING-dependent",
-    "SCI-REPO-Y7-ARAN-2015-COOLING-controls",
-    "SCI-REPO-Y7-ARAN-2015-COOLING-materials",
-    "SCI-REPO-Y7-ARAN-2015-COOLING-results",
-    "SCI-REPO-Y7-ARAN-2015-COOLING-graph",
-    "SCI-REPO-Y7-ARAN-2015-COOLING-discussion",
-    "SCI-REPO-Y7-ARAN-2015-COOLING-conclusion",
-    "SCI-REPO-Y7-SBY-2019-CLEANINGVARIABLES-independent",
-    "SCI-REPO-Y7-SBY-2019-CLEANINGVARIABLES-dependent",
-    "SCI-REPO-Y7-SBY-2019-CLEANINGVARIABLES-controls"
+    "SCI-REPO-Y7-ARAN-2014-VOCAB2-12"
   ],
-  "questions": 37,
+  "questions": 12,
   "multipleChoice": 0,
-  "writtenQuestions": 37,
+  "writtenQuestions": 12,
   "battleEligible": 0,
-  "marks": 48,
+  "marks": 12,
   "reviewRequired": [
     {
       "id": "SCI-REPO-Y7-ARAN-2014-VOCAB2-11",
@@ -54,26 +29,8 @@
   "imageAudit": [],
   "sources": [
     {
-      "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/2014/4.1 vocab 1.docx",
-      "sha": "bb4bdd476e6073b22736828b8fd1f22544e9750e",
-      "year": 7,
-      "role": "paper"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/2014/4.1vocab 2.docx",
-      "sha": "b9ecb942e52c4dd49b7eaf3b8691e4fd7ec7f4d1",
-      "year": 7,
-      "role": "paper"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/2015/Cooling Practical.docx",
-      "sha": "5a94427ae05c624e287e2176bf7b173f682e0942",
-      "year": 7,
-      "role": "paper"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Safety Bay/2019/Bacteria Growth Investigation method.docx",
-      "sha": "63d7a235463d456c39872e1f6f6ceb068920012a",
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Vocab Test for Chapter 4.1 Version 2.docx",
+      "sha": "fa6dbdfa1e104eb1b1077c6c5d0b5cea7872b43b",
       "year": 7,
       "role": "paper"
     }
@@ -82,7 +39,7 @@
   "createdKeys": 37,
   "createdSupplements": 0,
   "notes": [
-    "Two vocabulary versions: original matching list versus free-recall definitions; proposed marks clearly labelled. Source2 saturation typo flagged. Complete21-mark cooling report: supplied method and preparation guidance not recounted. Hand-cleaning document contributes only its three explicit variable-identification prompts; procedural culture instructions are not question-bank content."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "Vocabulary1": {
@@ -102,5 +59,6 @@
       "proposed": 3
     }
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

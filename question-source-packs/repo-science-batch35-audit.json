@@ -48,7 +48,7 @@
   "createdKeys": 4,
   "createdSupplements": 0,
   "notes": [
-    "Complete DNA validation source reviewed. Four distinct prompts added; the identical DNA-name question is an explicit alias with its different original mark value preserved. Historical discovery versus double-helix attribution clarified using NHGRI primary educational sources."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "DNA validation": {
@@ -71,5 +71,6 @@
       "existingQuestionId": "SCI-REPO-Y10-ARAN-2013-DNAMINI-2b",
       "reason": "Same DNA full-name prompt already imported. This source allocates2 marks, whereas the existing bank version allocates1; source mark variation preserved here rather than counting a duplicate prompt."
     }
-  ]
+  ],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

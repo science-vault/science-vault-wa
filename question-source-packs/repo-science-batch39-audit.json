@@ -1,27 +1,13 @@
 {
   "batch": "repo-science-batch39",
-  "paperCount": 1,
-  "questionIds": [
-    "SCI-REPO-Y8-KOL-2021-SALTBOILING-hypotheses",
-    "SCI-REPO-Y8-KOL-2021-SALTBOILING-risk",
-    "SCI-REPO-Y8-KOL-2021-SALTBOILING-results",
-    "SCI-REPO-Y8-KOL-2021-SALTBOILING-graph",
-    "SCI-REPO-Y8-KOL-2021-SALTBOILING-analysis-boiling",
-    "SCI-REPO-Y8-KOL-2021-SALTBOILING-analysis-rate",
-    "SCI-REPO-Y8-KOL-2021-SALTBOILING-errors",
-    "SCI-REPO-Y8-KOL-2021-SALTBOILING-conclusion"
-  ],
-  "questions": 8,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 8,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 26,
-  "reviewRequired": [
-    {
-      "id": "SCI-REPO-Y8-KOL-2021-SALTBOILING-conclusion",
-      "note": "Source incorrectly equates little error with validity. Corrected guidance accepts scientifically justified evaluation."
-    }
-  ],
+  "marks": 0,
+  "reviewRequired": [],
   "imageAudit": [
     {
       "id": "e79-image1",
@@ -59,19 +45,12 @@
       "publishedSha256": "88531455d7f4e6c47341c8c58c549f5d59f344bf7d35e0543c8eb025c811a2c5"
     }
   ],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Kolbe/2021/Task 3.1 Chemistry Formative Assessments/2021 Year 8 Formative Assessment The Effect of Salt concentration and boiling pint.docx",
-      "sha": "4d2ffa060f549495db4eac4d199871335ee9959c",
-      "year": 8,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 8,
   "createdSupplements": 0,
   "notes": [
-    "All eight task groups retained. No original marks: proposed26-mark rubric clearly identified. Original setup and native graph scaffold preserved. Repeated Word fallback tables do not create extra trials. Third legend blank does not create an unperformed condition."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "Salt practical": {
@@ -84,5 +63,6 @@
       "waterVolume_mL": 100
     }
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

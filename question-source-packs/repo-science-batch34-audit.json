@@ -26,19 +26,13 @@
       "sha": "3687865d14882985c170d0546804b8823b4dc38b",
       "year": 10,
       "role": "paper"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Narrogin/2020/Topic 8 EES 2/EES 2 PREATAR Test The Universe marking key.docx",
-      "sha": "a90f7fd10065132b415163e7828fa3ecd7640aef",
-      "year": 10,
-      "role": "key_reference"
     }
   ],
   "gameMeta": [],
   "createdKeys": 0,
   "createdSupplements": 0,
   "notes": [
-    "Complete15-item Universe test reviewed; all fifteen prompts map to the already imported2024 variant, including the same Hertzsprung–Russell diagram. The15-item earlier-folder key matches the actual sequence, including its explicitly dual-correct spectral-class question. Uncertain singularity/force-timeline items are manual; scientific context checked against NASA and CERN primary information."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "Universe": {
@@ -265,5 +259,6 @@
       "existingQuestionId": "SCI-REPO-Y10-NAR-2024-UNIVERSE-MC12",
       "reason": "Equivalent source question already present; not added or counted again."
     }
-  ]
+  ],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

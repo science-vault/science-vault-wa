@@ -1,37 +1,13 @@
 {
   "batch": "repo-science-batch133",
-  "paperCount": 1,
-  "questionIds": [
-    "SCI-REPO-Y9-SBY-2018-CHEMREVQUEST-1",
-    "SCI-REPO-Y9-SBY-2018-CHEMREVQUEST-2",
-    "SCI-REPO-Y9-SBY-2018-CHEMREVQUEST-3",
-    "SCI-REPO-Y9-SBY-2018-CHEMREVQUEST-4",
-    "SCI-REPO-Y9-SBY-2018-CHEMREVQUEST-5",
-    "SCI-REPO-Y9-SBY-2018-CHEMREVQUEST-6",
-    "SCI-REPO-Y9-SBY-2018-CHEMREVQUEST-8a",
-    "SCI-REPO-Y9-SBY-2018-CHEMREVQUEST-8c",
-    "SCI-REPO-Y9-SBY-2018-CHEMREVQUEST-properties",
-    "SCI-REPO-Y9-SBY-2018-CHEMREVQUEST-8b",
-    "SCI-REPO-Y9-SBY-2018-CHEMREVQUEST-7a",
-    "SCI-REPO-Y9-SBY-2018-CHEMREVQUEST-9a",
-    "SCI-REPO-Y9-SBY-2018-CHEMREVQUEST-9b",
-    "SCI-REPO-Y9-SBY-2018-CHEMREVQUEST-7b"
-  ],
-  "questions": 14,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 14,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 30,
-  "reviewRequired": [
-    {
-      "id": "SCI-REPO-Y9-SBY-2018-CHEMREVQUEST-5",
-      "note": "Unmarked revision;allocation proposed. Simplified source claims qualified."
-    },
-    {
-      "id": "SCI-REPO-Y9-SBY-2018-CHEMREVQUEST-properties",
-      "note": "Unmarked revision;allocation proposed. Simplified source claims qualified."
-    }
-  ],
+  "marks": 0,
+  "reviewRequired": [],
   "imageAudit": [
     {
       "id": "e356-page1-7a",
@@ -79,39 +55,18 @@
       "publishedSha256": "2bb4d83cf7fcd7df06fd838536ee0c0b85fa9d8135b2188549850585d5fa9fcf"
     }
   ],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/Exam/Chemistry  Exam Revision Questions.docx",
-      "sha": "cc126386fabef46eca9c42a347fb9c8b87ccd707",
-      "year": 9,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 14,
   "createdSupplements": 0,
   "notes": [
-    "Complete explicit revision questions reviewed;Word-native equations visually rendered and retained as source crops. Duplicate methane formula-skeleton request linked once. Generic reminders about pH,formula lists and a missing PowerPoint are not expanded into invented extra questions. Source weak-acid safety and universal hydrogen claims corrected."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "sourceMarks": null,
     "proposed": 30,
     "missingReferencedPowerPoint": true
   },
-  "duplicateQuestionAliases": [
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/Exam/Chemistry  Exam Revision Questions.docx",
-      "sourceFileSha": "cc126386fabef46eca9c42a347fb9c8b87ccd707",
-      "sourceQuestionNumber": "8d",
-      "sourceParagraphs": [
-        12,
-        13,
-        17
-      ],
-      "sourceMarks": 1,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y9-SBY-2018-CHEMREVQUEST-8b",
-      "reason": "Equivalent source question already present; not added or counted again."
-    }
-  ]
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

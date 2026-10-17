@@ -81,7 +81,7 @@
   "createdKeys": 12,
   "createdSupplements": 0,
   "notes": [
-    "Complete54mark accelerated test reviewed. Six identical MCmapped to general test. Common eight compound rows,seven balances,four word-equations and iron graph linked rather than duplicated. Four new compound cells retained as one4mark extension. Original sulfur and water figures inspected/preserved. Radical-ion terminology and methane oxygen distractor flagged."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "total": 54,
@@ -252,5 +252,6 @@
       "existingQuestionId": "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-MC07",
       "reason": "Equivalent source question already present; not added or counted again."
     }
-  ]
+  ],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

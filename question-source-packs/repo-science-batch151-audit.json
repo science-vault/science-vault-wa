@@ -1,20 +1,13 @@
 {
   "batch": "repo-science-batch151",
-  "paperCount": 1,
-  "questionIds": [
-    "SCI-REPO-Y9-NARR-2024-HOUSEHOLDPH-table"
-  ],
-  "questions": 1,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 1,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 33,
-  "reviewRequired": [
-    {
-      "id": "SCI-REPO-Y9-NARR-2024-HOUSEHOLDPH-table",
-      "note": "Unmarked practical table;33marks proposed. Actual sample identity/preparation/measurements required. Binary acid/base heading omits neutral,and printed pHrange is oversimplified."
-    }
-  ],
+  "marks": 0,
+  "reviewRequired": [],
   "imageAudit": [
     {
       "id": "e378-image1",
@@ -27,19 +20,12 @@
       "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
     }
   ],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2024/Acids Bases Y9 science4fun p68 goc.docx",
-      "sha": "d3499613b893876919f802d6af6a09c916fa1f89",
-      "year": 9,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 1,
   "createdSupplements": 0,
   "notes": [
-    "Complete one-page indicator chart/11sample table visually checked and retained. One consolidated33proposed-mark task avoids creating separate questions for empty cells. No household-productpHvalues or mixing procedure invented;neutral andrange limitations flagged."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "sourceMarks": null,
@@ -47,5 +33,6 @@
     "proposedPerSample": 3,
     "proposedTotal": 33
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

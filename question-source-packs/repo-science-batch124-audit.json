@@ -133,7 +133,7 @@
   "createdKeys": 0,
   "createdSupplements": 34,
   "notes": [
-    "Full draft test reviewed:7MC,4written explanations,12matching rows and11definition rows. Original tectonic map visually checked and preserved. All marks proposed. Corrected upper/lower mantle,subduction melting,crust/lithosphere and ambiguous polar-current wording."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "sourceMarks": null,
@@ -143,5 +143,6 @@
     "termsProposed": 11,
     "totalProposed": 40
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

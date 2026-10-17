@@ -531,7 +531,10 @@
   ],
   "createdKeys": 29,
   "createdSupplements": 111,
-  "notes": "Six source assessments:one evolution draft,microscopes,two energy tests,motion,andDNAinheritance. All original unscored examples and duplicate answer sections excluded from the added count. Marks and figures preserved;native force arrows redrawn as vectors. Created guidance differentiates historical/classroom models from scientific facts.",
+  "notes": [
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
+  ],
   "markAudit": "EvolutionWIPitemtotal31 differsfrom47cover and32sectionheader;printed per-item marks retained. Microscope12+18+10=40 differsfrom42cover. Aranmore2013energy47,2015energy40,Narrogin26,DNAmini32. Source tables with grouped marks stay grouped;fractional marks retained,not rounded toinflate counts.",
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

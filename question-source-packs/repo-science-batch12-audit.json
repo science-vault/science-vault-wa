@@ -396,12 +396,6 @@
       "role": "paper"
     },
     {
-      "path": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/MARKING KEY 2017 Sem 2 Exam Yr 10 Ext.docx",
-      "sha": "29a9dbdd96d564bbf7d0132d7e2a839fae701dbd",
-      "year": 10,
-      "role": "key_reference"
-    },
-    {
       "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/10ScienceL2S1Exam2015.docx",
       "sha": "4a79cdffdfc060388665e2fd7daa4df6bbd61531",
       "year": 10,
@@ -460,7 +454,9 @@
   ],
   "createdKeys": 34,
   "createdSupplements": 120,
-  "notes": "Three source exams. Explicit separately marked question parts are selectable with their parent context. Original optional essays remain alternatives, not two required responses. Exact repeats are source aliases rather than new questions. Scientific and marking-key errors flagged.",
+  "notes": [
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
+  ],
   "markAudit": "Year9 printed70=item70;Year10 extension section marks64+30+20=114, while cover table says110; optional essays both stored10 each but selectone in original exam. Aranmore chemistry50=item50. Original per-part marks retained;4mark atomic-number table responses grouped where no individual allocation exists.",
   "duplicateQuestionAliases": [
     {
@@ -533,5 +529,6 @@
       "existingQuestionId": "SCI-REPO-Y10-B10-D24-MC08",
       "reason": "Equivalent source question already present; not added or counted again."
     }
-  ]
+  ],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

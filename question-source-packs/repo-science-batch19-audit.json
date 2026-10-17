@@ -77,7 +77,7 @@
   "createdKeys": 2,
   "createdSupplements": 11,
   "notes": [
-    "Reaction types paper completed with explicit aliases to repeated extended-exam tasks; ambiguous source MC excluded from battles. Complete elements-table test retained in two source task groups. Source header says semester one 2016 despite repository 2018 folder; no unsupported exact year assigned."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "Reaction types": {
@@ -292,5 +292,6 @@
       "existingQuestionId": "SCI-REPO-Y9-SBY-2017-EXT-27e",
       "reason": "Same independently prompted task and source context in previously imported extended exam; retained as source alias, not counted again."
     }
-  ]
+  ],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

@@ -21,7 +21,7 @@
   "createdKeys": 0,
   "createdSupplements": 0,
   "notes": [
-    "Full20question75mark keyed mid-topic variant mapped to existing resource/water-cycle test. Distinct from76mark astronomy topic test despite similar filename. Existing corrections for polar-water route,sustainable resource use,fair dam comparison and dated energy table retained. No overlapping subparts added."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "total": 75,
@@ -473,5 +473,6 @@
       "existingQuestionId": "SCI-REPO-Y7-B09-D09-WR10",
       "reason": "Equivalent source question already present; not added or counted again."
     }
-  ]
+  ],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

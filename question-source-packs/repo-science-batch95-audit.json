@@ -161,7 +161,7 @@
   "createdKeys": 38,
   "createdSupplements": 0,
   "notes": [
-    "ThreecompleteReactionTypespapers reviewed.2018cover35=20MC+15written;2019/2020add6balancing/classificationmarks,total41.2018MC13has5options,all retained and excluded from battles.2018MC20has no valid combustion answer. NaF/Br2formal balance preserved but infeasible reaction flagged. Source observation image retained."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "2018": 35,
@@ -1114,5 +1114,6 @@
       "existingQuestionId": "SCI-REPO-Y9-NARR-2019-REACTIONTYPES-observations-b",
       "reason": "Equivalent source question already present; not added or counted again."
     }
-  ]
+  ],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

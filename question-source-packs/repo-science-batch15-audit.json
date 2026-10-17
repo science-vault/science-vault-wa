@@ -338,7 +338,9 @@
   ],
   "createdKeys": 0,
   "createdSupplements": 76,
-  "notes": "Two source exams with original genetic,pedigree,nuclide and plate-map figures. Duplicate MC reused across the2017papers are aliased,not counted again. Supplied keys contain arithmetic and science errors;corrections explicit. The2019labelled key for2020WIP is matched item-by-item rather than assuming identical numbering.",
+  "notes": [
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
+  ],
   "markAudit": "Year10 original90marks=30MC+60written;some duplicate MC stored only as aliases. Year9 original68=20+42+6;retain2020per-part marks rather than olderkeyallocations. Guessed missing questions are not created.",
   "duplicateQuestionAliases": [
     {
@@ -554,5 +556,6 @@
       "existingQuestionId": "SCI-REPO-Y9-SBY-2017-TECTONICS-MC01",
       "reason": "Equivalent source question already present; not added or counted again."
     }
-  ]
+  ],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

@@ -137,7 +137,7 @@
   "createdKeys": 0,
   "createdSupplements": 22,
   "notes": [
-    "Complete Year 7 Earth and space paper with source figures and checked key supplements. Exact same source blob in the 2018 folder is resolved by SHA without recounting its questions. Confused night/season and solar-tide key statements flagged for teacher review."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "Earth and space": {
@@ -145,5 +145,6 @@
       "sourceTaskMarksBeforeDeduplication": 36
     }
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

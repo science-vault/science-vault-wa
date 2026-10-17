@@ -63,12 +63,13 @@
   "createdKeys": 19,
   "createdSupplements": 0,
   "notes": [
-    "Complete30mark chemical-reactions test reviewed.10MCand20written marks retained,including a manually marked6statement multiple-select task. Amount/rate MC flagged;cooling alone not treated as proof of chemical reaction. No experimental conditions or readings invented."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "MC": 10,
     "written": 20,
     "total": 30
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

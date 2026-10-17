@@ -103,7 +103,7 @@
   "createdKeys": 14,
   "createdSupplements": 0,
   "notes": [
-    "Complete25-mark chemistry test reviewed. Original four-picture MC layout and distillation apparatus retained. Physical-change reversibility definition and comparative-solubility wording flagged. All filtration diagram,separation sequence,saturation and muddy-seawater written parts preserved."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "total": 25,
@@ -139,5 +139,6 @@
       "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC15",
       "reason": "Equivalent source question already present; not added or counted again."
     }
-  ]
+  ],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

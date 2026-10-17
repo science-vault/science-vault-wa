@@ -1,78 +1,20 @@
 {
   "batch": "repo-science-batch107",
-  "paperCount": 3,
-  "questionIds": [
-    "SCI-REPO-Y10-SBY-2017-FORMCLASS-classification",
-    "SCI-REPO-Y10-ARAN-2012-CABBAGE-results",
-    "SCI-REPO-Y10-ARAN-2012-CABBAGE-1",
-    "SCI-REPO-Y10-ARAN-2012-CABBAGE-2",
-    "SCI-REPO-Y10-ARAN-2012-CABBAGE-3",
-    "SCI-REPO-Y10-ARAN-POPBRIDGE-hypothesis",
-    "SCI-REPO-Y10-ARAN-POPBRIDGE-research",
-    "SCI-REPO-Y10-ARAN-POPBRIDGE-features",
-    "SCI-REPO-Y10-ARAN-POPBRIDGE-design",
-    "SCI-REPO-Y10-ARAN-POPBRIDGE-failure",
-    "SCI-REPO-Y10-ARAN-POPBRIDGE-comparison"
-  ],
-  "questions": 11,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 11,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 50,
-  "reviewRequired": [
-    {
-      "id": "SCI-REPO-Y10-SBY-2017-FORMCLASS-classification",
-      "note": "Unmarked source; proposed allocation. Substance state and aqueous acid ionisation require clarification, and aluminium is repeated."
-    },
-    {
-      "id": "SCI-REPO-Y10-ARAN-2012-CABBAGE-results",
-      "note": "Incorrect weak-base salt classification in source table; use actual specified salt and observations."
-    },
-    {
-      "id": "SCI-REPO-Y10-ARAN-2012-CABBAGE-1",
-      "note": "Source has 9 question marks in aggregate; proposed 3 per parallel question. Indicator does not establish chemical acid/base strength."
-    },
-    {
-      "id": "SCI-REPO-Y10-ARAN-2012-CABBAGE-2",
-      "note": "Source has 9 question marks in aggregate; proposed 3 per parallel question. Indicator does not establish chemical acid/base strength."
-    },
-    {
-      "id": "SCI-REPO-Y10-ARAN-2012-CABBAGE-3",
-      "note": "Source has 9 question marks in aggregate; proposed 3 per parallel question. Indicator does not establish chemical acid/base strength."
-    }
-  ],
+  "marks": 0,
+  "reviewRequired": [],
   "imageAudit": [],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2017/Chemistry Extension/ATAR Chemistry/Classification of substances from their formula.docx",
-      "sha": "093d5f9decbf60de8db01d6d302c4a105ee4db01",
-      "year": 10,
-      "role": "paper"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2012 10 GENERAL RED CABBAGE INDICATOR EXPERIMENT ASSESSMENT.docx",
-      "sha": "6a1d52c071bd0cadecf9bf2b3b472dca986cff09",
-      "year": 10,
-      "role": "paper"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2012 10 GENERAL RED CABBAGE INDICATOR EXPERIMENT ASSESSMENT ANWER KEY.docx",
-      "sha": "680ac472cfd5bb79399985e57e67e19d5b69a10d",
-      "year": 10,
-      "role": "key_reference"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/Pop Stick Bridge Investigation.docx",
-      "sha": "11f724290f95520e503b1899f7c837db64cc023a",
-      "year": 10,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 7,
   "createdSupplements": 4,
   "notes": [
-    "Classifying-formula worksheet, complete cabbage task and bridge investigation reviewed. Corrected salt/indicator-strength assumptions; raw readings and failure loads not invented. Bridge behaviour/teamwork/time6 tracked separately from18printed content marks and1proposed hypothesis mark."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "formulaClassification": "20 proposed unique formula marks; Al repeated",
@@ -88,5 +30,6 @@
       "proposedHypothesis": 1
     }
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

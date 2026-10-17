@@ -1,38 +1,13 @@
 {
   "batch": "repo-science-batch86",
-  "paperCount": 2,
-  "questionIds": [
-    "SCI-REPO-Y9-SBY-2018-HUMANBIOREV-cerebrum",
-    "SCI-REPO-Y9-SBY-2018-HUMANBIOREV-cerebellum",
-    "SCI-REPO-Y9-SBY-2018-HUMANBIOREV-medulla",
-    "SCI-REPO-Y9-SBY-2018-HUMANBIOREV-PNS",
-    "SCI-REPO-Y9-SBY-2018-HUMANBIOREV-ANS",
-    "SCI-REPO-Y9-SBY-2018-HUMANBIOREV-CNS",
-    "SCI-REPO-Y9-SBY-2018-HUMANBIOREV-effectors",
-    "SCI-REPO-Y9-SBY-2018-HUMANBIOREV-grey",
-    "SCI-REPO-Y9-SBY-2018-HUMANBIOREV-white",
-    "SCI-REPO-Y9-NARR-2022-BRAINLABELS-lateral",
-    "SCI-REPO-Y9-NARR-2022-BRAINLABELS-section"
-  ],
-  "questions": 11,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 11,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 38,
-  "reviewRequired": [
-    {
-      "id": "SCI-REPO-Y9-SBY-2018-HUMANBIOREV-PNS",
-      "note": "All marks proposed:source unmarked. Classification basis not specified."
-    },
-    {
-      "id": "SCI-REPO-Y9-NARR-2022-BRAINLABELS-lateral",
-      "note": "Original blank diagrams preserved. Proposed1mark per visible blank;the exact line-to-structure key remains unresolved."
-    },
-    {
-      "id": "SCI-REPO-Y9-NARR-2022-BRAINLABELS-section",
-      "note": "Original blank diagrams preserved. Proposed1mark per visible blank;the exact line-to-structure key remains unresolved."
-    }
-  ],
+  "marks": 0,
+  "reviewRequired": [],
   "imageAudit": [
     {
       "id": "e253-image1",
@@ -65,25 +40,12 @@
       "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
     }
   ],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/Revision questions on Human Biology.docx",
-      "sha": "b0131efe8f6b7c760818dc79df73eab264925576",
-      "year": 9,
-      "role": "paper"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Narrogin/2022/Biology1 Resources/Human Brain.docx",
-      "sha": "a967c79c943c962d40759c70a2c373ec3024153e",
-      "year": 9,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 11,
   "createdSupplements": 0,
   "notes": [
-    "Full9prompt nervous-system revision and2blank brain-labelling diagrams reviewed. Source figures preserved;all marks proposed. PNSclassification basis and ambiguous brain leader-lines flagged rather than answered by guesswork."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "revision": "Unmarked;proposed allocations",
@@ -93,5 +55,6 @@
     ],
     "brainExactKeyStatus": "Teacher review required"
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

@@ -362,7 +362,7 @@
   "createdKeys": 48,
   "createdSupplements": 0,
   "notes": [
-    "Both complete2013 answered and2015 unfilled tests reviewed. Student prompts exclude inline source answers. Incorrect mutualism answer corrected; consumers are not restricted to eating producers. Ambiguous universal-sun, fixed-trophic-level and model-unspecified kingdom questions excluded from automatic battles. Original classification key/food webs/bird photos/species chart preserved."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "2015": {
@@ -463,5 +463,6 @@
       "existingQuestionId": "SCI-REPO-Y7-ARAN-2015-BIO-MC14",
       "reason": "Equivalent source question already present; not added or counted again."
     }
-  ]
+  ],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

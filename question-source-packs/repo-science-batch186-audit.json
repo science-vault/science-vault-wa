@@ -1,6 +1,6 @@
 {
   "batch": "repo-science-batch186",
-  "paperCount": 3,
+  "paperCount": 0,
   "questionIds": [],
   "questions": 0,
   "multipleChoice": 0,
@@ -9,31 +9,12 @@
   "marks": 0,
   "reviewRequired": [],
   "imageAudit": [],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Unknown School/Year 7 Persuasive Essay Marking Guide.docx",
-      "sha": "0f6adf206bb5ebf190c9e3840a3b0367fb5cd5e0",
-      "year": 7,
-      "role": "paper"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/NEW - Volcano Model and Report Marking Key.docx",
-      "sha": "449bd4f29125e0b7122021a6ad92b2cddb8fa2bc",
-      "year": 9,
-      "role": "paper"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 9/Science/Physics/Aranmore/2013 Insulators Investigation (with scaffolding).docx",
-      "sha": "7330d46df7aa794430e24d2bf484b31040f25e2e",
-      "year": 9,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 0,
   "createdSupplements": 0,
   "notes": [
-    "Three full sources reviewed:friction essay18explicit science marks despite21heading/31overall;updated volcano variant linked with29science marks plus7style;34markinsulator scaffold mapped to existing complete project. Original essay statement located and existing canonical task updated."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "friction": {
@@ -52,83 +33,6 @@
       "newQuestions": 0
     }
   },
-  "duplicateQuestionAliases": [
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Unknown School/Year 7 Persuasive Essay Marking Guide.docx",
-      "sourceFileSha": "0f6adf206bb5ebf190c9e3840a3b0367fb5cd5e0",
-      "sourceQuestionNumber": "essay",
-      "sourceParagraphs": [
-        0,
-        2,
-        3,
-        5,
-        6,
-        7
-      ],
-      "sourceMarks": 18,
-      "sourceType": "Extended response",
-      "existingQuestionId": "SCI-REPO-Y7-UNKNOWN-FRICTIONESSAY-essay",
-      "reason": "Matched teacher rubric for existing essay scaffold. Original claim located in companion paper:reducing friction is difficult and offers little benefit. Canonical essay updated from proposed10to detailed18science maxima;science21heading andoverall31conflict with18+10language."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/NEW - Volcano Model and Report Marking Key.docx",
-      "sourceFileSha": "449bd4f29125e0b7122021a6ad92b2cddb8fa2bc",
-      "sourceQuestionNumber": "project",
-      "sourceParagraphs": [
-        0,
-        2,
-        4
-      ],
-      "sourceMarks": 29,
-      "sourceType": "Extended response",
-      "existingQuestionId": "SCI-REPO-Y9-SBY-2018-VOLCANOMODELRUBRIC-project",
-      "reason": "Same complete model/report task already imported. This version explicitly requires at least3controlled variables3marks plus independent/dependent1each,raising science/function selection to29andtotal to36;source-specific allocation retained.",
-      "reviewSupplement": {
-        "answer": "Apply this version’s29science/function marks,including3controlled variables3andcorrect independent/dependent variables1each. Other science requirements match the existing model/report task;7style/aesthetic marks remain separate.",
-        "note": "2017updated rubric totals36versus2018version35;do not substitute one version’s marks for the other."
-      }
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Physics/Aranmore/2013 Insulators Investigation (with scaffolding).docx",
-      "sourceFileSha": "7330d46df7aa794430e24d2bf484b31040f25e2e",
-      "sourceQuestionNumber": "project",
-      "sourceParagraphs": [
-        19,
-        21,
-        22,
-        25,
-        37,
-        42,
-        54,
-        55,
-        56,
-        59,
-        62,
-        67,
-        70,
-        77,
-        95,
-        107,
-        120,
-        121,
-        138,
-        140,
-        142,
-        143,
-        158,
-        160,
-        163,
-        166,
-        169,
-        170,
-        175,
-        180,
-        181
-      ],
-      "sourceMarks": 34,
-      "sourceType": "Extended response",
-      "existingQuestionId": "SCI-REPO-Y9-ARAN-2013-INSULATOR-project",
-      "reason": "Same two-material thermos investigation and full34mark rubric already imported from unscaffolded version. Scaffold adds response spaces/headings,but no additional science task or mark allocation."
-    }
-  ]
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

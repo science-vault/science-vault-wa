@@ -21,7 +21,7 @@
   "createdKeys": 0,
   "createdSupplements": 0,
   "notes": [
-    "Complete keyed topic test reviewed;answer text removed from student prompts/tables. Source totals conflict:header75,MC10,short heading60,but listed written criteria66andwhole76. Chromatography distance does not determine particle mass;jelly setting is not freezing. Missing textbook distillation diagram not fabricated."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "header": 75,
@@ -849,5 +849,6 @@
       "existingQuestionId": "SCI-REPO-Y7-B09-D11-MC10",
       "reason": "Equivalent source question already present; not added or counted again."
     }
-  ]
+  ],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

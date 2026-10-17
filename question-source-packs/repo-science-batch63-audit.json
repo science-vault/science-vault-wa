@@ -1,27 +1,17 @@
 {
   "batch": "repo-science-batch63",
-  "paperCount": 5,
+  "paperCount": 1,
   "questionIds": [
     "SCI-REPO-Y7-NARR-2022-INVERTVALID-1",
     "SCI-REPO-Y7-NARR-2022-INVERTVALID-2",
     "SCI-REPO-Y7-NARR-2022-INVERTVALID-3",
-    "SCI-REPO-Y7-NARR-2022-INVERTVALID-4",
-    "SCI-REPO-Y7-NARR-2022-ECOSYSTEM-197-location",
-    "SCI-REPO-Y7-NARR-2022-ECOSYSTEM-197-conditions",
-    "SCI-REPO-Y7-NARR-2022-ECOSYSTEM-197-organisms",
-    "SCI-REPO-Y7-NARR-2022-ECOSYSTEM-197-foodweb",
-    "SCI-REPO-Y7-NARR-2022-ECOSYSTEM-197-human",
-    "SCI-REPO-Y7-NARR-2022-ECOSYSTEM-197-glossary",
-    "SCI-REPO-Y7-NARR-2022-ECOSYSTEM-197-diagrams",
-    "SCI-REPO-Y7-NARR-2022-ECOSYSTEM-197-bibliography",
-    "SCI-REPO-Y7-NARR-2022-ECOSYSTEM-198-poster",
-    "SCI-REPO-Y7-NARR-2022-ECOSYSTEM-198-notes"
+    "SCI-REPO-Y7-NARR-2022-INVERTVALID-4"
   ],
-  "questions": 14,
+  "questions": 4,
   "multipleChoice": 0,
-  "writtenQuestions": 14,
+  "writtenQuestions": 4,
   "battleEligible": 0,
-  "marks": 35,
+  "marks": 10,
   "reviewRequired": [
     {
       "id": "SCI-REPO-Y7-NARR-2022-INVERTVALID-2",
@@ -43,37 +33,13 @@
       "sha": "ef0588291baf0dca33456fdb102869bba721785e",
       "year": 7,
       "role": "paper"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2023/Invertebrates Validation.docx",
-      "sha": "c60d6880601a3d565536cf0ad8e1a586de219c21",
-      "year": 7,
-      "role": "paper"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2024/Invertebrates Validation.docx",
-      "sha": "ca4219bca86a61e8cb6dc4c3626b3ceb4a4bdad8",
-      "year": 7,
-      "role": "paper"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2022/Research Assignment and Validation 2022 simplified.docx",
-      "sha": "4d64a811589a2a6f98e45f4887611a1f0a963298",
-      "year": 7,
-      "role": "paper"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2022/Research and validation.docx",
-      "sha": "1e43938ccfbb9fa81b4effb9f25b6afb885396c1",
-      "year": 7,
-      "role": "paper"
     }
   ],
   "gameMeta": [],
   "createdKeys": 14,
   "createdSupplements": 0,
   "notes": [
-    "Three10-mark invertebrate validation papers reviewed; differing year labels retained as source aliases for equivalent prompts. Two ecosystem assignment versions reviewed: simplified17marks,full25 with extra poster/editing6 and notes2. Subject-specific answers depend on the selected organism/biome and are manually marked."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "invertebrates": {
@@ -83,168 +49,6 @@
     "ecosystemSimplified": 17,
     "ecosystemFull": 25
   },
-  "duplicateQuestionAliases": [
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2023/Invertebrates Validation.docx",
-      "sourceFileSha": "c60d6880601a3d565536cf0ad8e1a586de219c21",
-      "sourceQuestionNumber": "1",
-      "sourceParagraphs": [
-        13
-      ],
-      "existingQuestionId": "SCI-REPO-Y7-NARR-2022-INVERTVALID-1",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2023/Invertebrates Validation.docx",
-      "sourceFileSha": "c60d6880601a3d565536cf0ad8e1a586de219c21",
-      "sourceQuestionNumber": "2",
-      "sourceParagraphs": [
-        18
-      ],
-      "existingQuestionId": "SCI-REPO-Y7-NARR-2022-INVERTVALID-2",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2023/Invertebrates Validation.docx",
-      "sourceFileSha": "c60d6880601a3d565536cf0ad8e1a586de219c21",
-      "sourceQuestionNumber": "3",
-      "sourceParagraphs": [
-        28
-      ],
-      "existingQuestionId": "SCI-REPO-Y7-NARR-2022-INVERTVALID-3",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2023/Invertebrates Validation.docx",
-      "sourceFileSha": "c60d6880601a3d565536cf0ad8e1a586de219c21",
-      "sourceQuestionNumber": "4",
-      "sourceParagraphs": [
-        33
-      ],
-      "existingQuestionId": "SCI-REPO-Y7-NARR-2022-INVERTVALID-4",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2024/Invertebrates Validation.docx",
-      "sourceFileSha": "ca4219bca86a61e8cb6dc4c3626b3ceb4a4bdad8",
-      "sourceQuestionNumber": "1",
-      "sourceParagraphs": [
-        13
-      ],
-      "existingQuestionId": "SCI-REPO-Y7-NARR-2022-INVERTVALID-1",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2024/Invertebrates Validation.docx",
-      "sourceFileSha": "ca4219bca86a61e8cb6dc4c3626b3ceb4a4bdad8",
-      "sourceQuestionNumber": "2",
-      "sourceParagraphs": [
-        18
-      ],
-      "existingQuestionId": "SCI-REPO-Y7-NARR-2022-INVERTVALID-2",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2024/Invertebrates Validation.docx",
-      "sourceFileSha": "ca4219bca86a61e8cb6dc4c3626b3ceb4a4bdad8",
-      "sourceQuestionNumber": "3",
-      "sourceParagraphs": [
-        28
-      ],
-      "existingQuestionId": "SCI-REPO-Y7-NARR-2022-INVERTVALID-3",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2024/Invertebrates Validation.docx",
-      "sourceFileSha": "ca4219bca86a61e8cb6dc4c3626b3ceb4a4bdad8",
-      "sourceQuestionNumber": "4",
-      "sourceParagraphs": [
-        33
-      ],
-      "existingQuestionId": "SCI-REPO-Y7-NARR-2022-INVERTVALID-4",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2022/Research and validation.docx",
-      "sourceFileSha": "1e43938ccfbb9fa81b4effb9f25b6afb885396c1",
-      "sourceQuestionNumber": "location",
-      "sourceParagraphs": [
-        34
-      ],
-      "existingQuestionId": "SCI-REPO-Y7-NARR-2022-ECOSYSTEM-197-location",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2022/Research and validation.docx",
-      "sourceFileSha": "1e43938ccfbb9fa81b4effb9f25b6afb885396c1",
-      "sourceQuestionNumber": "conditions",
-      "sourceParagraphs": [
-        35
-      ],
-      "existingQuestionId": "SCI-REPO-Y7-NARR-2022-ECOSYSTEM-197-conditions",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2022/Research and validation.docx",
-      "sourceFileSha": "1e43938ccfbb9fa81b4effb9f25b6afb885396c1",
-      "sourceQuestionNumber": "organisms",
-      "sourceParagraphs": [
-        36
-      ],
-      "existingQuestionId": "SCI-REPO-Y7-NARR-2022-ECOSYSTEM-197-organisms",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2022/Research and validation.docx",
-      "sourceFileSha": "1e43938ccfbb9fa81b4effb9f25b6afb885396c1",
-      "sourceQuestionNumber": "foodweb",
-      "sourceParagraphs": [
-        37
-      ],
-      "existingQuestionId": "SCI-REPO-Y7-NARR-2022-ECOSYSTEM-197-foodweb",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2022/Research and validation.docx",
-      "sourceFileSha": "1e43938ccfbb9fa81b4effb9f25b6afb885396c1",
-      "sourceQuestionNumber": "human",
-      "sourceParagraphs": [
-        38
-      ],
-      "existingQuestionId": "SCI-REPO-Y7-NARR-2022-ECOSYSTEM-197-human",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2022/Research and validation.docx",
-      "sourceFileSha": "1e43938ccfbb9fa81b4effb9f25b6afb885396c1",
-      "sourceQuestionNumber": "glossary",
-      "sourceParagraphs": [
-        40
-      ],
-      "existingQuestionId": "SCI-REPO-Y7-NARR-2022-ECOSYSTEM-197-glossary",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2022/Research and validation.docx",
-      "sourceFileSha": "1e43938ccfbb9fa81b4effb9f25b6afb885396c1",
-      "sourceQuestionNumber": "diagrams",
-      "sourceParagraphs": [
-        42,
-        51
-      ],
-      "existingQuestionId": "SCI-REPO-Y7-NARR-2022-ECOSYSTEM-197-diagrams",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Biological Sciences/Narrogin/2022/Research and validation.docx",
-      "sourceFileSha": "1e43938ccfbb9fa81b4effb9f25b6afb885396c1",
-      "sourceQuestionNumber": "bibliography",
-      "sourceParagraphs": [
-        47,
-        51
-      ],
-      "existingQuestionId": "SCI-REPO-Y7-NARR-2022-ECOSYSTEM-197-bibliography",
-      "reason": "Equivalent source question already present; not added or counted again."
-    }
-  ]
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

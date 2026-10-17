@@ -1,6 +1,6 @@
 {
   "batch": "repo-science-batch47",
-  "paperCount": 8,
+  "paperCount": 4,
   "questionIds": [
     "SCI-REPO-Y7-ARAN-VOCAB21-V2-1",
     "SCI-REPO-Y7-ARAN-VOCAB21-V2-2",
@@ -31,37 +31,13 @@
     "SCI-REPO-Y7-ARAN-VOCAB23-V2-6",
     "SCI-REPO-Y7-ARAN-VOCAB23-V2-8",
     "SCI-REPO-Y7-ARAN-VOCAB23-V2-9",
-    "SCI-REPO-Y7-ARAN-VOCAB23-V2-10",
-    "SCI-REPO-Y7-ARAN-SOLUBILITY-hypothesis",
-    "SCI-REPO-Y7-ARAN-SOLUBILITY-independent",
-    "SCI-REPO-Y7-ARAN-SOLUBILITY-dependent",
-    "SCI-REPO-Y7-ARAN-SOLUBILITY-controls",
-    "SCI-REPO-Y7-ARAN-SOLUBILITY-materials",
-    "SCI-REPO-Y7-ARAN-SOLUBILITY-method",
-    "SCI-REPO-Y7-ARAN-SOLUBILITY-diagram",
-    "SCI-REPO-Y7-ARAN-SOLUBILITY-results",
-    "SCI-REPO-Y7-ARAN-SOLUBILITY-graph",
-    "SCI-REPO-Y7-ARAN-SOLUBILITY-discussion",
-    "SCI-REPO-Y7-ARAN-SOLUBILITY-conclusion",
-    "SCI-REPO-Y7-NAR-2017-CHEMREV-1",
-    "SCI-REPO-Y7-NAR-2017-CHEMREV-2",
-    "SCI-REPO-Y7-NAR-2017-CHEMREV-3",
-    "SCI-REPO-Y7-NAR-2017-CHEMREV-4",
-    "SCI-REPO-Y7-NAR-2017-CHEMREV-5",
-    "SCI-REPO-Y7-NAR-2017-CHEMREV-6",
-    "SCI-REPO-Y7-NAR-2017-CHEMREV-7",
-    "SCI-REPO-Y7-NAR-2017-CHEMREV-8",
-    "SCI-REPO-Y7-NAR-2017-CHEMREV-9",
-    "SCI-REPO-Y7-NAR-2017-CHEMREV-10",
-    "SCI-REPO-Y7-NAR-2017-CHEMREV-11",
-    "SCI-REPO-Y7-NAR-2017-FILTRATION-1",
-    "SCI-REPO-Y7-ARAN-2015-SUNANGLE-assignment"
+    "SCI-REPO-Y7-ARAN-VOCAB23-V2-10"
   ],
-  "questions": 54,
+  "questions": 30,
   "multipleChoice": 0,
-  "writtenQuestions": 54,
+  "writtenQuestions": 30,
   "battleEligible": 0,
-  "marks": 112,
+  "marks": 30,
   "reviewRequired": [
     {
       "id": "SCI-REPO-Y7-ARAN-VOCAB21-V2-2",
@@ -98,64 +74,10 @@
     {
       "id": "SCI-REPO-Y7-ARAN-VOCAB23-V2-10",
       "note": "Vaporisation; accept evaporation where surface escape is specifically meant, or boiling where bubbles form throughout the liquid."
-    },
-    {
-      "id": "SCI-REPO-Y7-ARAN-SOLUBILITY-hypothesis",
-      "note": "Source cover says25marks, but explicit section allocations add to27. Original allocations retained; teacher moderation required."
-    },
-    {
-      "id": "SCI-REPO-Y7-ARAN-SOLUBILITY-independent",
-      "note": "Source cover says25marks, but explicit section allocations add to27. Original allocations retained; teacher moderation required."
-    },
-    {
-      "id": "SCI-REPO-Y7-ARAN-SOLUBILITY-dependent",
-      "note": "Source cover says25marks, but explicit section allocations add to27. Original allocations retained; teacher moderation required."
-    },
-    {
-      "id": "SCI-REPO-Y7-ARAN-SOLUBILITY-controls",
-      "note": "Source cover says25marks, but explicit section allocations add to27. Original allocations retained; teacher moderation required."
-    },
-    {
-      "id": "SCI-REPO-Y7-ARAN-SOLUBILITY-materials",
-      "note": "Source cover says25marks, but explicit section allocations add to27. Original allocations retained; teacher moderation required."
-    },
-    {
-      "id": "SCI-REPO-Y7-ARAN-SOLUBILITY-method",
-      "note": "Source cover says25marks, but explicit section allocations add to27. Original allocations retained; teacher moderation required."
-    },
-    {
-      "id": "SCI-REPO-Y7-ARAN-SOLUBILITY-diagram",
-      "note": "Source cover says25marks, but explicit section allocations add to27. Original allocations retained; teacher moderation required."
-    },
-    {
-      "id": "SCI-REPO-Y7-ARAN-SOLUBILITY-results",
-      "note": "Source cover says25marks, but explicit section allocations add to27. Original allocations retained; teacher moderation required."
-    },
-    {
-      "id": "SCI-REPO-Y7-ARAN-SOLUBILITY-graph",
-      "note": "Source cover says25marks, but explicit section allocations add to27. Original allocations retained; teacher moderation required."
-    },
-    {
-      "id": "SCI-REPO-Y7-ARAN-SOLUBILITY-discussion",
-      "note": "Source cover says25marks, but explicit section allocations add to27. Original allocations retained; teacher moderation required."
-    },
-    {
-      "id": "SCI-REPO-Y7-ARAN-SOLUBILITY-conclusion",
-      "note": "Source cover says25marks, but explicit section allocations add to27. Original allocations retained; teacher moderation required."
-    },
-    {
-      "id": "SCI-REPO-Y7-ARAN-2015-SUNANGLE-assignment",
-      "note": "Source refers to Pearson7 Science p353, which is absent from this file. Given method and numbered discussion questions cannot be reconstructed from a page reference. Overall30 marks follows cover; within-rubric discussion allocation needs clarification."
     }
   ],
   "imageAudit": [],
   "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Solubility Investigation Scaffold Year 7 Chemistry.docx",
-      "sha": "fe29de1973185c99785d3648fc5fe8867e64bbed",
-      "year": 7,
-      "role": "paper"
-    },
     {
       "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Vocab Test for Chapter 2.1 Version 2.docx",
       "sha": "2ce4cc6aa5f6837e172d29af62156c9b4039de1f",
@@ -179,31 +101,13 @@
       "sha": "fa6dbdfa1e104eb1b1077c6c5d0b5cea7872b43b",
       "year": 7,
       "role": "paper"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2017/Chemistry 1 Revision.docx",
-      "sha": "dc5f464bbe8fad2cc1d5354d222cb4a0d25c09e8",
-      "year": 7,
-      "role": "paper"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2017/Filtration.docx",
-      "sha": "18f864c5e64a12ac9caf2252a341ff3a18c949eb",
-      "year": 7,
-      "role": "paper"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Aranmore/Angles make a difference INVESTIGATION 2015.docx",
-      "sha": "d4158efc29b9a487a17ac1deae18cf54a7313900",
-      "year": 7,
-      "role": "paper"
     }
   ],
   "gameMeta": [],
   "createdKeys": 54,
   "createdSupplements": 0,
   "notes": [
-    "Eight source papers reviewed. Three vocabulary sheets retain exact original descriptions with proposed scoring and scientific-error flags. Mixtures version maps12 duplicates. Solubility scaffold preserves27 explicit marks against erroneous25-mark cover. Filtration worked answer separated from student prompt. Sun-angle assignment retained at overall30 marks, with missing textbook material and malformed discussion marks explicitly unresolved."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "Solubility": {
@@ -353,5 +257,6 @@
       "existingQuestionId": "SCI-REPO-Y7-ARAN-VOCAB21-V2-7",
       "reason": "Equivalent source question already present; not added or counted again."
     }
-  ]
+  ],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

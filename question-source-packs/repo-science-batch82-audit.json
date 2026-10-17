@@ -123,7 +123,7 @@
   "createdKeys": 33,
   "createdSupplements": 0,
   "notes": [
-    "CompleteDNA/microscope test and embedded solution pages reviewed. OriginalDNA arrows/base blanks and cell-to-DNA figure preserved.14vocabularyitems0.5each;centromere/chromatid/sex-chromosome simplifications corrected. Explicit marks54conflict with53cover. Actual cells and key-only magnification assumptions flagged;no cell dimensions invented."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "cover": 53,
@@ -136,5 +136,6 @@
     "drawingMarks": 5,
     "drawingDeductionCriteria": 6
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

@@ -81,7 +81,7 @@
   "createdKeys": 0,
   "createdSupplements": 8,
   "notes": [
-    "Complete33mark rock practical:five3markstations plus7definition,5use and6cycle marks. Original crystal micrograph retained and native editable-shape rockcycle rasterised without redrawing. Five physical specimens missing and explicitly required. Universal hardest/gemstone claims qualified."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "total": 33,
@@ -89,5 +89,6 @@
     "seated": 18,
     "tasks": 8
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

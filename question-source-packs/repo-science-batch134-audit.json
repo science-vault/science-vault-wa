@@ -1,20 +1,13 @@
 {
   "batch": "repo-science-batch134",
-  "paperCount": 1,
-  "questionIds": [
-    "SCI-REPO-Y10-SBY-2018-CO2GRASS-growth"
-  ],
-  "questions": 1,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 1,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 8,
-  "reviewRequired": [
-    {
-      "id": "SCI-REPO-Y10-SBY-2018-CO2GRASS-growth",
-      "note": "Source gives10%grade weighting,not10marks;8marks proposed. Purpose says12days while instructions saytwo weeks. Footer saysYr8although repository routes it underYear10;teacher must confirm cohort/timing. Original apparatus diagram retained."
-    }
-  ],
+  "marks": 0,
+  "reviewRequired": [],
   "imageAudit": [
     {
       "id": "e357-image1",
@@ -27,19 +20,12 @@
       "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
     }
   ],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Safety Bay/2018/Investigation - Carbon.docx",
-      "sha": "83d7d003a9f2fe2376550ddf17414f5e54843ef3",
-      "year": 10,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 1,
   "createdSupplements": 0,
   "notes": [
-    "Complete supplied grass-growth assignment retained as one investigation task with original apparatus image visually checked.10%grade weighting is not a pointtotal. Printed cohort/timing and unmeasured CO2exposure limitations flagged;no invented experimental data."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "sourceWeightPercent": 10,
@@ -48,5 +34,6 @@
     "printedCohort": 8,
     "repositoryCohort": 10
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

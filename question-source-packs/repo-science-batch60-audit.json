@@ -1,109 +1,20 @@
 {
   "batch": "repo-science-batch60",
-  "paperCount": 4,
-  "questionIds": [
-    "SCI-REPO-Y7-MLAW-2022-SUGAR-aim",
-    "SCI-REPO-Y7-MLAW-2022-SUGAR-independent",
-    "SCI-REPO-Y7-MLAW-2022-SUGAR-dependent",
-    "SCI-REPO-Y7-MLAW-2022-SUGAR-controls",
-    "SCI-REPO-Y7-MLAW-2022-SUGAR-hypothesis",
-    "SCI-REPO-Y7-MLAW-2022-SUGAR-table",
-    "SCI-REPO-Y7-MLAW-2022-SUGAR-diagram",
-    "SCI-REPO-Y7-MLAW-2022-SUGAR-pattern",
-    "SCI-REPO-Y7-MLAW-2022-SUGAR-support",
-    "SCI-REPO-Y7-MLAW-2022-SUGAR-fairness",
-    "SCI-REPO-Y7-MLAW-2022-SUGAR-improve",
-    "SCI-REPO-Y7-MLAW-2022-SUGAR-safety",
-    "SCI-REPO-Y7-KOLBE-2021-RESEARCH-summary",
-    "SCI-REPO-Y7-KOLBE-2021-RESEARCH-explain",
-    "SCI-REPO-Y7-KOLBE-2021-RESEARCH-references",
-    "SCI-REPO-Y7-KOLBE-2021-RESEARCH-notes",
-    "SCI-REPO-Y7-SBY-2017-HOTCOOL-SCAFFOLD-aim",
-    "SCI-REPO-Y7-SBY-2017-HOTCOOL-SCAFFOLD-independent",
-    "SCI-REPO-Y7-SBY-2017-HOTCOOL-SCAFFOLD-dependent",
-    "SCI-REPO-Y7-SBY-2017-HOTCOOL-SCAFFOLD-controls",
-    "SCI-REPO-Y7-SBY-2017-HOTCOOL-SCAFFOLD-hypothesis",
-    "SCI-REPO-Y7-SBY-2017-HOTCOOL-SCAFFOLD-method-reference",
-    "SCI-REPO-Y7-SBY-2017-HOTCOOL-SCAFFOLD-diagram",
-    "SCI-REPO-Y7-SBY-2017-HOTCOOL-SCAFFOLD-results",
-    "SCI-REPO-Y7-SBY-2017-HOTCOOL-SCAFFOLD-fastest",
-    "SCI-REPO-Y7-SBY-2017-HOTCOOL-SCAFFOLD-slowest",
-    "SCI-REPO-Y7-SBY-2017-HOTCOOL-SCAFFOLD-trend",
-    "SCI-REPO-Y7-SBY-2017-HOTCOOL-SCAFFOLD-improve",
-    "SCI-REPO-Y7-SBY-2017-HOTCOOL-SCAFFOLD-conclusion",
-    "SCI-REPO-Y7-SBY-2017-HOTCOOL-KEYVARIANT-explain"
-  ],
-  "questions": 30,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 30,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 64,
-  "reviewRequired": [
-    {
-      "id": "SCI-REPO-Y7-KOLBE-2021-RESEARCH-summary",
-      "note": "Research question intentionally left blank in source; teacher must supply it before assigning or marking."
-    },
-    {
-      "id": "SCI-REPO-Y7-KOLBE-2021-RESEARCH-explain",
-      "note": "Research question intentionally left blank in source; teacher must supply it before assigning or marking."
-    },
-    {
-      "id": "SCI-REPO-Y7-KOLBE-2021-RESEARCH-references",
-      "note": "Research question intentionally left blank in source; teacher must supply it before assigning or marking."
-    },
-    {
-      "id": "SCI-REPO-Y7-KOLBE-2021-RESEARCH-notes",
-      "note": "Research question intentionally left blank in source; teacher must supply it before assigning or marking."
-    },
-    {
-      "id": "SCI-REPO-Y7-SBY-2017-HOTCOOL-SCAFFOLD-independent",
-      "note": "Actual deliberately changed drink/condition in the assigned investigation."
-    },
-    {
-      "id": "SCI-REPO-Y7-SBY-2017-HOTCOOL-SCAFFOLD-dependent",
-      "note": "Measured temperature over time/cooling rate, with suitable units and consistent comparison interval."
-    },
-    {
-      "id": "SCI-REPO-Y7-SBY-2017-HOTCOOL-SCAFFOLD-method-reference",
-      "note": "Correct actual assigned textbook and page. Not determinable from this file; teacher must supply the reference."
-    },
-    {
-      "id": "SCI-REPO-Y7-SBY-2017-HOTCOOL-KEYVARIANT-explain",
-      "note": "Additional prompt appears in key but not the matching scaffold; assign only with actual practical context."
-    }
-  ],
+  "marks": 0,
+  "reviewRequired": [],
   "imageAudit": [],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Mount Lawley/2022 Sugar cube & Temp Investigation.docx",
-      "sha": "7668698c97e0edcb55f1a8be6441ca2fc24ebdce",
-      "year": 7,
-      "role": "paper"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Kolbe/2021/Year 7 Task 2 2021 Research Summary.docx",
-      "sha": "261fb82b2361a39156dd51f70d48caa3d7834685",
-      "year": 7,
-      "role": "paper"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling - assessment/Hot drinks cooling scaffolded report.docx",
-      "sha": "795be28b265e4db72d38620c7cd4f5b8dbcb604d",
-      "year": 7,
-      "role": "paper"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling - assessment/Hot drinks cooling report MARKING KEY.docx",
-      "sha": "d72d1a29c97e1ce8286a871db28463de6fd1d5aa",
-      "year": 7,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 17,
   "createdSupplements": 13,
   "notes": [
-    "Sugar-cube assessment12 tasks total25marks. Research14 content marks plus2 presentation total16; no unspecified research question invented. Hot-drinks scaffold23 marks, matching key adds a2-mark explanation absent from scaffold (25 total); preserved as distinct key-only task variant. Missing textbook method tracked."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "sugar": 25,
@@ -118,5 +29,6 @@
       "keyTotal": 25
     }
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

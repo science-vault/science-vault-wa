@@ -1,145 +1,26 @@
 {
   "batch": "repo-science-batch101",
-  "paperCount": 2,
-  "questionIds": [
-    "SCI-REPO-Y9-SBY-2018-SEM2REV-282-matterenergy",
-    "SCI-REPO-Y9-SBY-2018-SEM2REV-282-decomposers",
-    "SCI-REPO-Y9-SBY-2018-SEM2REV-282-resistance",
-    "SCI-REPO-Y9-SBY-2018-SEM2REV-282-current",
-    "SCI-REPO-Y9-SBY-2018-SEM2REV-282-voltage",
-    "SCI-REPO-Y9-SBY-2018-SEM2REV-282-thermos",
-    "SCI-REPO-Y9-SBY-2018-SEM2REV-282-parallel",
-    "SCI-REPO-Y9-SBY-2018-SEM2REV-282-acidsbases"
-  ],
-  "questions": 8,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 8,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 26,
+  "marks": 0,
   "reviewRequired": [],
   "imageAudit": [],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/exam revison.docx",
-      "sha": "6b748098ef39af248f100744405eec10bd320d62",
-      "year": 9,
-      "role": "paper"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/exam revision.docx",
-      "sha": "66ae25301e5cd7b55d60674bb2d436a33c3d4234",
-      "year": 9,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 8,
   "createdSupplements": 0,
   "notes": [
-    "Bothidenticalrevisionlists reviewed;all explicitconcepts retained and duplicatefilemapped to existingrecords.8tasks cover biology,electricity,thermalinsulation andacid/baseproperties with strand-specific tags. No unspecified definition list invented."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "sourceMarks": null,
     "proposedPerUniqueSet": 26,
     "identicalVersions": 2
   },
-  "duplicateQuestionAliases": [
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/exam revision.docx",
-      "sourceFileSha": "66ae25301e5cd7b55d60674bb2d436a33c3d4234",
-      "sourceQuestionNumber": "matterenergy",
-      "sourceParagraphs": [
-        0
-      ],
-      "sourceMarks": 4,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y9-SBY-2018-SEM2REV-282-matterenergy",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/exam revision.docx",
-      "sourceFileSha": "66ae25301e5cd7b55d60674bb2d436a33c3d4234",
-      "sourceQuestionNumber": "decomposers",
-      "sourceParagraphs": [
-        1
-      ],
-      "sourceMarks": 3,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y9-SBY-2018-SEM2REV-282-decomposers",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/exam revision.docx",
-      "sourceFileSha": "66ae25301e5cd7b55d60674bb2d436a33c3d4234",
-      "sourceQuestionNumber": "resistance",
-      "sourceParagraphs": [
-        2
-      ],
-      "sourceMarks": 2,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y9-SBY-2018-SEM2REV-282-resistance",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/exam revision.docx",
-      "sourceFileSha": "66ae25301e5cd7b55d60674bb2d436a33c3d4234",
-      "sourceQuestionNumber": "current",
-      "sourceParagraphs": [
-        2
-      ],
-      "sourceMarks": 2,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y9-SBY-2018-SEM2REV-282-current",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/exam revision.docx",
-      "sourceFileSha": "66ae25301e5cd7b55d60674bb2d436a33c3d4234",
-      "sourceQuestionNumber": "voltage",
-      "sourceParagraphs": [
-        2
-      ],
-      "sourceMarks": 2,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y9-SBY-2018-SEM2REV-282-voltage",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/exam revision.docx",
-      "sourceFileSha": "66ae25301e5cd7b55d60674bb2d436a33c3d4234",
-      "sourceQuestionNumber": "thermos",
-      "sourceParagraphs": [
-        3,
-        4
-      ],
-      "sourceMarks": 6,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y9-SBY-2018-SEM2REV-282-thermos",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/exam revision.docx",
-      "sourceFileSha": "66ae25301e5cd7b55d60674bb2d436a33c3d4234",
-      "sourceQuestionNumber": "parallel",
-      "sourceParagraphs": [
-        5
-      ],
-      "sourceMarks": 3,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y9-SBY-2018-SEM2REV-282-parallel",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Safety Bay/2018/exam revision.docx",
-      "sourceFileSha": "66ae25301e5cd7b55d60674bb2d436a33c3d4234",
-      "sourceQuestionNumber": "acidsbases",
-      "sourceParagraphs": [
-        6
-      ],
-      "sourceMarks": 4,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y9-SBY-2018-SEM2REV-282-acidsbases",
-      "reason": "Equivalent source question already present; not added or counted again."
-    }
-  ]
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

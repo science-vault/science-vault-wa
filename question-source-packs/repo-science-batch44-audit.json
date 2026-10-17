@@ -160,7 +160,7 @@
   "createdKeys": 27,
   "createdSupplements": 0,
   "notes": [
-    "Complete end-of-topic test (cover52marks; explicit task allocations51marks),17 MC plus11 written tasks. Original leaf key transcribed once instead of duplicated Word fallback text. Original leaf/animal/insect-key figures preserved. MC14 has no correct option and is manual, excluded from battles. Historical classification labels retained with contextual guidance."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "End topic": {
@@ -187,5 +187,6 @@
       "existingQuestionId": "SCI-REPO-Y7-SBY-2018-CLASSIFICATION-MC01",
       "reason": "Equivalent source question already present; not added or counted again."
     }
-  ]
+  ],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

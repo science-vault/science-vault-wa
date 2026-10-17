@@ -1,34 +1,26 @@
 {
   "batch": "repo-science-batch162",
-  "paperCount": 1,
-  "questionIds": [
-    "SCI-REPO-Y10-NAR-DNARESEARCH-project"
-  ],
-  "questions": 1,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 1,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 25,
+  "marks": 0,
   "reviewRequired": [],
   "imageAudit": [],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Narrogin/2022/Task 2 DNA Research.docx",
-      "sha": "9d531c4127a8320d0d1b09a3cb96d72356de4a9e",
-      "year": 10,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 0,
   "createdSupplements": 1,
   "notes": [
-    "Complete25mark DNA project retained as one linked task,including audience,five researched questions,notes,glossary,references and chosen product. Full performance rubric preserved. Classroom communication options do not instruct external sending."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "total": 25,
     "weightingPercent": 10,
     "tasks": 1
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

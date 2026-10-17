@@ -79,7 +79,7 @@
   "createdKeys": 21,
   "createdSupplements": 0,
   "notes": [
-    "Two complete source papers: DNA mini test and Newton investigation validation. Original diagrams and measured data retained. Created marking guidance identifies source ambiguities; no invented questions."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "DNA mini test": {
@@ -91,5 +91,6 @@
       "extractedMarks": 26
     }
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

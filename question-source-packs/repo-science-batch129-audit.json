@@ -34,7 +34,7 @@
   "createdKeys": 0,
   "createdSupplements": 3,
   "notes": [
-    "Complete7task22mark keyed microscope assessment reviewed. Only embedded image is school logo,not a missing question diagram. Red keyed answers removed from student magnification table;objective underdetermination flagged. Historical claims checked against earlier primary Ruska references."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "total": 22,
@@ -89,5 +89,6 @@
       "existingQuestionId": "SCI-REPO-Y8-SBY-2017-MICROSCOPE-safety",
       "reason": "Equivalent source question already present; not added or counted again."
     }
-  ]
+  ],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

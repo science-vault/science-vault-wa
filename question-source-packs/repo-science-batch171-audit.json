@@ -1,32 +1,13 @@
 {
   "batch": "repo-science-batch171",
-  "paperCount": 1,
-  "questionIds": [
-    "SCI-REPO-Y7-SBY-2023-SUNANGLEKEY-independent",
-    "SCI-REPO-Y7-SBY-2023-SUNANGLEKEY-dependent",
-    "SCI-REPO-Y7-SBY-2023-SUNANGLEKEY-controls",
-    "SCI-REPO-Y7-SBY-2023-SUNANGLEKEY-hypothesis",
-    "SCI-REPO-Y7-SBY-2023-SUNANGLEKEY-table",
-    "SCI-REPO-Y7-SBY-2023-SUNANGLEKEY-graph",
-    "SCI-REPO-Y7-SBY-2023-SUNANGLEKEY-increase",
-    "SCI-REPO-Y7-SBY-2023-SUNANGLEKEY-locations",
-    "SCI-REPO-Y7-SBY-2023-SUNANGLEKEY-explain"
-  ],
-  "questions": 9,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 9,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 24,
-  "reviewRequired": [
-    {
-      "id": "SCI-REPO-Y7-SBY-2023-SUNANGLEKEY-hypothesis",
-      "note": "Source angle convention and universal geographical wording require qualification."
-    },
-    {
-      "id": "SCI-REPO-Y7-SBY-2023-SUNANGLEKEY-explain",
-      "note": "Source angle convention and universal geographical wording require qualification."
-    }
-  ],
+  "marks": 0,
+  "reviewRequired": [],
   "imageAudit": [
     {
       "id": "e403-image2",
@@ -39,24 +20,18 @@
       "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
     }
   ],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Safety Bay/2023/Year 7 Angles make a difference ANSWERS.docx",
-      "sha": "fd94e45e4f8b35397cd76286797cb19071c259e5",
-      "year": 7,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 0,
   "createdSupplements": 9,
   "notes": [
-    "Full24mark keyed version retained in9tasks,with exact original setup figure and five time-paired data points. Inline answers removed from student prompts. Angle convention,seasonality and drifting iceberg exceptions qualified. Distinct supplied24mark dataset task is not the older30mark textbook-page-dependent report."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "total": 24,
     "tasks": 9,
     "weightingPercent": 20
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

@@ -1,54 +1,20 @@
 {
   "batch": "repo-science-batch119",
-  "paperCount": 1,
-  "questionIds": [
-    "SCI-REPO-Y10-ARAN-2014-OZONERUBRIC-uses",
-    "SCI-REPO-Y10-ARAN-2014-OZONERUBRIC-protocol",
-    "SCI-REPO-Y10-ARAN-2014-OZONERUBRIC-mechanism",
-    "SCI-REPO-Y10-ARAN-2014-OZONERUBRIC-impacts",
-    "SCI-REPO-Y10-ARAN-2014-OZONERUBRIC-references"
-  ],
-  "questions": 5,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 5,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 16,
-  "reviewRequired": [
-    {
-      "id": "SCI-REPO-Y10-ARAN-2014-OZONERUBRIC-uses",
-      "note": "Recovered explicit content criteria from a teacher rubric;original assigned essay brief not supplied. Teacher must confirm this task framework and allocation before use."
-    },
-    {
-      "id": "SCI-REPO-Y10-ARAN-2014-OZONERUBRIC-protocol",
-      "note": "Recovered explicit content criteria from a teacher rubric;original assigned essay brief not supplied. Teacher must confirm this task framework and allocation before use."
-    },
-    {
-      "id": "SCI-REPO-Y10-ARAN-2014-OZONERUBRIC-mechanism",
-      "note": "Recovered explicit content criteria from a teacher rubric;original assigned essay brief not supplied. Teacher must confirm this task framework and allocation before use."
-    },
-    {
-      "id": "SCI-REPO-Y10-ARAN-2014-OZONERUBRIC-impacts",
-      "note": "Recovered explicit content criteria from a teacher rubric;original assigned essay brief not supplied. Teacher must confirm this task framework and allocation before use."
-    },
-    {
-      "id": "SCI-REPO-Y10-ARAN-2014-OZONERUBRIC-references",
-      "note": "Recovered explicit content criteria from a teacher rubric;original assigned essay brief not supplied. Teacher must confirm this task framework and allocation before use."
-    }
-  ],
+  "marks": 0,
+  "reviewRequired": [],
   "imageAudit": [],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/2014 OZONE ASSIGNMENT TEACHER MARKING KEY sonya's version.docx",
-      "sha": "097eea018fd173fd7d583caaa262dc8c4079cb17",
-      "year": 10,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 0,
   "createdSupplements": 5,
   "notes": [
-    "Teacher ozone essay rubric reviewed. Five recoverable content/reference criteria16marks retained as flagged task framework;missing original essay brief not reconstructed as verbatim source. Intro/conclusion4andpresentation5logged separately."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "total": 25,
@@ -58,5 +24,6 @@
     "presentation": 5,
     "originalBriefMissing": true
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

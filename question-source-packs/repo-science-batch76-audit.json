@@ -237,7 +237,7 @@
   "createdKeys": 23,
   "createdSupplements": 0,
   "notes": [
-    "Both complete25-mark diagram/vocabulary tests reviewed. All source-native leader lines and apparatus preserved. Six diagram tasks use proposed13-mark allocation;12matching items1each. Input-mixture label for filtration requires manual clarification."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "eachPaper": 25,
@@ -521,5 +521,6 @@
       "existingQuestionId": "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-match12",
       "reason": "Equivalent source question already present; not added or counted again."
     }
-  ]
+  ],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

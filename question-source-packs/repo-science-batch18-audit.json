@@ -1,18 +1,7 @@
 {
   "batch": "repo-science-batch18",
-  "paperCount": 2,
+  "paperCount": 1,
   "questionIds": [
-    "SCI-REPO-Y9-ARAN-INSULATORS-materials",
-    "SCI-REPO-Y9-ARAN-INSULATORS-hypothesis",
-    "SCI-REPO-Y9-ARAN-INSULATORS-independent",
-    "SCI-REPO-Y9-ARAN-INSULATORS-dependent",
-    "SCI-REPO-Y9-ARAN-INSULATORS-controls",
-    "SCI-REPO-Y9-ARAN-INSULATORS-table",
-    "SCI-REPO-Y9-ARAN-INSULATORS-graph",
-    "SCI-REPO-Y9-ARAN-INSULATORS-discussion",
-    "SCI-REPO-Y9-ARAN-INSULATORS-discussion1",
-    "SCI-REPO-Y9-ARAN-INSULATORS-discussion2",
-    "SCI-REPO-Y9-ARAN-INSULATORS-conclusion",
     "SCI-REPO-Y10-ARAN-2011-CHEM-MC01",
     "SCI-REPO-Y10-ARAN-2011-CHEM-MC03",
     "SCI-REPO-Y10-ARAN-2011-CHEM-MC04",
@@ -30,11 +19,11 @@
     "SCI-REPO-Y10-ARAN-2011-CHEM-7a",
     "SCI-REPO-Y10-ARAN-2011-CHEM-7b"
   ],
-  "questions": 27,
+  "questions": 16,
   "multipleChoice": 4,
-  "writtenQuestions": 23,
+  "writtenQuestions": 12,
   "battleEligible": 4,
-  "marks": 68,
+  "marks": 40,
   "reviewRequired": [
     {
       "id": "SCI-REPO-Y10-ARAN-2011-CHEM-5",
@@ -60,12 +49,6 @@
     }
   ],
   "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 9/Science/Physics/Aranmore/2014 9 SCIENCE TESTING INSULATORS INVESTIGATION.docx",
-      "sha": "ec64a86dbe8aa0b096c1de844ef44aaddd82413d",
-      "year": 9,
-      "role": "paper"
-    },
     {
       "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2011 10 GENERAL CHEMISTRY TEST.docx",
       "sha": "399a3f281765ad7b6e6aba2ff47a3c1c447ba3be",
@@ -94,7 +77,7 @@
   "createdKeys": 16,
   "createdSupplements": 11,
   "notes": [
-    "Complete insulator investigation and 2011 chemistry test. Presentation-only marks are not counted as science questions. Exact repeated questions are mapped to existing records."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "Insulator investigation": {
@@ -123,5 +106,6 @@
       "existingQuestionId": "SCI-REPO-Y10-B10-D24-MC03",
       "reason": "Equivalent source question already present; not added or counted again."
     }
-  ]
+  ],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

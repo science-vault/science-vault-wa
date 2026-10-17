@@ -1,53 +1,13 @@
 {
   "batch": "repo-science-batch91",
-  "paperCount": 1,
-  "questionIds": [
-    "SCI-REPO-Y9-NARR-2023-FOODCHAINS-A",
-    "SCI-REPO-Y9-NARR-2023-FOODCHAINS-1-hawk",
-    "SCI-REPO-Y9-NARR-2023-FOODCHAINS-1-earthworm",
-    "SCI-REPO-Y9-NARR-2023-FOODCHAINS-1-fox",
-    "SCI-REPO-Y9-NARR-2023-FOODCHAINS-1-owl",
-    "SCI-REPO-Y9-NARR-2023-FOODCHAINS-1-snake",
-    "SCI-REPO-Y9-NARR-2023-FOODCHAINS-1-small-insects",
-    "SCI-REPO-Y9-NARR-2023-FOODCHAINS-2",
-    "SCI-REPO-Y9-NARR-2023-FOODCHAINS-3",
-    "SCI-REPO-Y9-NARR-2023-FOODCHAINS-4",
-    "SCI-REPO-Y9-NARR-2023-FOODCHAINS-5",
-    "SCI-REPO-Y9-NARR-2023-FOODCHAINS-6",
-    "SCI-REPO-Y9-NARR-2023-FOODCHAINS-7",
-    "SCI-REPO-Y9-NARR-2023-FOODCHAINS-8",
-    "SCI-REPO-Y9-NARR-2023-FOODCHAINS-9",
-    "SCI-REPO-Y9-NARR-2023-FOODCHAINS-10",
-    "SCI-REPO-Y9-NARR-2023-FOODCHAINS-11",
-    "SCI-REPO-Y9-NARR-2023-FOODCHAINS-12"
-  ],
-  "questions": 18,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 18,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 37,
-  "reviewRequired": [
-    {
-      "id": "SCI-REPO-Y9-NARR-2023-FOODCHAINS-A",
-      "note": "Missing grid;proposed allocation only."
-    },
-    {
-      "id": "SCI-REPO-Y9-NARR-2023-FOODCHAINS-3",
-      "note": "Only generic “plant parts”are identified in the provided chains;no3producer species are named. Credit producer plants with suitable scientifically justified examples only if teacher explicitly permits examples outside the supplied list. Do not invent3specific source species."
-    },
-    {
-      "id": "SCI-REPO-Y9-NARR-2023-FOODCHAINS-4",
-      "note": "From the supplied chains:land snail,sparrow,rabbit,earthworm,small insects,cricket (six at0.5each is proposed interpretation of3marks). These are roles in the simplified web;earthworms actually consume detritus and microorganisms too."
-    },
-    {
-      "id": "SCI-REPO-Y9-NARR-2023-FOODCHAINS-6",
-      "note": "If “only”means exactlysecond trophic consumer position in every listed chain,robin is the only clear fit. Snake,hawk,fox,owl andraccoon occupy other positions too. If intended as exclusively animal-eating consumers,the category is carnivores at multiple levels. Source3-mark premise needs clarification;do not force3incorrect names."
-    },
-    {
-      "id": "SCI-REPO-Y9-NARR-2023-FOODCHAINS-8",
-      "note": "Mouse andraccoon are the only explicit plant-and-animal feeders in the supplied chains. Printed5marks does not establish5correctorganisms;teacher must moderate. Fox/others may be omnivorous in reality,but no plantfeeding link for them is shown here."
-    }
-  ],
+  "marks": 0,
+  "reviewRequired": [],
   "imageAudit": [
     {
       "id": "e254-image2",
@@ -60,19 +20,12 @@
       "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
     }
   ],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Narrogin/2023/In class validation.docx",
-      "sha": "4524f5d4d5297b7ed81c26aa17d82945ce7001ce",
-      "year": 9,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 18,
   "createdSupplements": 0,
   "notes": [
-    "AllPartBinstructions and original14chainfigure retained. Counts computed from the actual image;no guessedproducer species or5omnivores added. Source explicitPartBmarks31,cover35;backyardchains unmarked proposed4could reconcile cover but remains labelledproposed. MissingPartAgrid separately proposed2. Trophiclevel/carnivorediet ambiguity flagged."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "cover": 35,
@@ -89,5 +42,6 @@
       "small-insects": 1
     }
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

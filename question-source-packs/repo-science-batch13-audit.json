@@ -443,7 +443,10 @@
   ],
   "createdKeys": 45,
   "createdSupplements": 143,
-  "notes": "Four source topic tests with original diagrams,tables and separately prompted subparts. Matching word-bank items retain their shared source terms. Supplied key errors corrected explicitly;ambiguous items remain manual. No generated practice.",
+  "notes": [
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
+  ],
   "markAudit": "Biology65,chemistry69,physical65 andEarth70 original item totals retained. Multi-list tasks with a grouped mark allocation remain grouped. Worked example cylinder14mL unscored;no source number11 invented forEarth test.",
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

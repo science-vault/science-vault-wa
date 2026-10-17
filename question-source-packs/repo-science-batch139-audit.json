@@ -1,74 +1,20 @@
 {
   "batch": "repo-science-batch139",
-  "paperCount": 1,
-  "questionIds": [
-    "SCI-REPO-Y10-SBY-2024-AMNESIA-memory",
-    "SCI-REPO-Y10-SBY-2024-AMNESIA-stages",
-    "SCI-REPO-Y10-SBY-2024-AMNESIA-processes",
-    "SCI-REPO-Y10-SBY-2024-AMNESIA-recall",
-    "SCI-REPO-Y10-SBY-2024-AMNESIA-amnesia",
-    "SCI-REPO-Y10-SBY-2024-AMNESIA-types",
-    "SCI-REPO-Y10-SBY-2024-AMNESIA-causes",
-    "SCI-REPO-Y10-SBY-2024-AMNESIA-treatments",
-    "SCI-REPO-Y10-SBY-2024-AMNESIA-references"
-  ],
-  "questions": 9,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 9,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 30,
-  "reviewRequired": [
-    {
-      "id": "SCI-REPO-Y10-SBY-2024-AMNESIA-memory",
-      "note": "Source rubric is copied from another task and does not align with its amnesia requirements;these allocations are proposed,not original marks. Educational guidance is not an individual diagnosis/treatment."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2024-AMNESIA-stages",
-      "note": "Source rubric is copied from another task and does not align with its amnesia requirements;these allocations are proposed,not original marks. Educational guidance is not an individual diagnosis/treatment."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2024-AMNESIA-processes",
-      "note": "Source rubric is copied from another task and does not align with its amnesia requirements;these allocations are proposed,not original marks. Educational guidance is not an individual diagnosis/treatment."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2024-AMNESIA-recall",
-      "note": "Source rubric is copied from another task and does not align with its amnesia requirements;these allocations are proposed,not original marks. Educational guidance is not an individual diagnosis/treatment."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2024-AMNESIA-amnesia",
-      "note": "Source rubric is copied from another task and does not align with its amnesia requirements;these allocations are proposed,not original marks. Educational guidance is not an individual diagnosis/treatment."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2024-AMNESIA-types",
-      "note": "Source rubric is copied from another task and does not align with its amnesia requirements;these allocations are proposed,not original marks. Educational guidance is not an individual diagnosis/treatment."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2024-AMNESIA-causes",
-      "note": "Source rubric is copied from another task and does not align with its amnesia requirements;these allocations are proposed,not original marks. Educational guidance is not an individual diagnosis/treatment."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2024-AMNESIA-treatments",
-      "note": "Source rubric is copied from another task and does not align with its amnesia requirements;these allocations are proposed,not original marks. Educational guidance is not an individual diagnosis/treatment."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2024-AMNESIA-references",
-      "note": "Source rubric is copied from another task and does not align with its amnesia requirements;these allocations are proposed,not original marks. Educational guidance is not an individual diagnosis/treatment."
-    }
-  ],
+  "marks": 0,
+  "reviewRequired": [],
   "imageAudit": [],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 10/Science/Psychology Elective/Safety Bay/2024/Assessments/Task 5 Amnesia Research Task.docx",
-      "sha": "7a6b86680faaedf2083bb54ad2a774b69155a940",
-      "year": 10,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 0,
   "createdSupplements": 9,
   "notes": [
-    "Complete nine-prompt amnesia task reviewed. Printed20mark rubric incorrectly retains unrelated disorder-statistics/case-study rows and calls memory stages symptoms. Explicit brief retained with proposed30mark scheme;unassigned copied rubric topics not invented as extra questions.15%is course weighting."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "printedRubricTotal": 20,
@@ -76,5 +22,6 @@
     "proposedBriefTotal": 30,
     "courseWeightPercent": 15
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

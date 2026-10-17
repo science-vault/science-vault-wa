@@ -1,105 +1,20 @@
 {
   "batch": "repo-science-batch49",
-  "paperCount": 4,
-  "questionIds": [
-    "SCI-REPO-Y7-NAR-2017-INVESTREV-1",
-    "SCI-REPO-Y7-NAR-2017-INVESTREV-2",
-    "SCI-REPO-Y7-NAR-2017-INVESTREV-3",
-    "SCI-REPO-Y7-NAR-2017-INVESTREV-4",
-    "SCI-REPO-Y7-NAR-2017-INVESTREV-5",
-    "SCI-REPO-Y7-NAR-2017-INVESTREV-6",
-    "SCI-REPO-Y7-NAR-2017-INVESTREV-7",
-    "SCI-REPO-Y7-NAR-2017-INVESTREV-8",
-    "SCI-REPO-Y7-NAR-2017-INVESTREV-9",
-    "SCI-REPO-Y7-NAR-2017-INVESTREV-10",
-    "SCI-REPO-Y7-NAR-2017-INVESTREV-11",
-    "SCI-REPO-Y7-NAR-2017-INVESTREV-12",
-    "SCI-REPO-Y7-NAR-2017-INVESTREV-13",
-    "SCI-REPO-Y7-NAR-2017-INVESTREV-14",
-    "SCI-REPO-Y7-SBY-2017-HOTDRINKS-aim",
-    "SCI-REPO-Y7-SBY-2017-HOTDRINKS-independent",
-    "SCI-REPO-Y7-SBY-2017-HOTDRINKS-dependent",
-    "SCI-REPO-Y7-SBY-2017-HOTDRINKS-controls",
-    "SCI-REPO-Y7-SBY-2017-HOTDRINKS-hypothesis",
-    "SCI-REPO-Y7-SBY-2017-HOTDRINKS-method-reference",
-    "SCI-REPO-Y7-SBY-2017-HOTDRINKS-diagram",
-    "SCI-REPO-Y7-SBY-2017-HOTDRINKS-results",
-    "SCI-REPO-Y7-SBY-2017-HOTDRINKS-fastest",
-    "SCI-REPO-Y7-SBY-2017-HOTDRINKS-slowest",
-    "SCI-REPO-Y7-SBY-2017-HOTDRINKS-trend",
-    "SCI-REPO-Y7-SBY-2017-HOTDRINKS-improvements",
-    "SCI-REPO-Y7-SBY-2017-HOTDRINKS-conclusion",
-    "SCI-REPO-Y7-SBY-2017-HOTDRINKS-KEYVARIANT-explain-cooling",
-    "SCI-REPO-Y7-SBY-2017-HEATINGWATER-independent",
-    "SCI-REPO-Y7-SBY-2017-HEATINGWATER-dependent",
-    "SCI-REPO-Y7-SBY-2017-HEATINGWATER-controls",
-    "SCI-REPO-Y7-SBY-2017-HEATINGWATER-hypothesis",
-    "SCI-REPO-Y7-SBY-2017-HEATINGWATER-diagram",
-    "SCI-REPO-Y7-SBY-2017-HEATINGWATER-results"
-  ],
-  "questions": 34,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 34,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 68,
-  "reviewRequired": [
-    {
-      "id": "SCI-REPO-Y7-NAR-2017-INVESTREV-2",
-      "note": "Context-dependent school wording/procedure; teacher moderation required."
-    },
-    {
-      "id": "SCI-REPO-Y7-NAR-2017-INVESTREV-4",
-      "note": "Context-dependent school wording/procedure; teacher moderation required."
-    },
-    {
-      "id": "SCI-REPO-Y7-NAR-2017-INVESTREV-6",
-      "note": "Context-dependent school wording/procedure; teacher moderation required."
-    },
-    {
-      "id": "SCI-REPO-Y7-NAR-2017-INVESTREV-12",
-      "note": "Context-dependent school wording/procedure; teacher moderation required."
-    },
-    {
-      "id": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-controls",
-      "note": "Source allocation ambiguous; teacher moderation required."
-    },
-    {
-      "id": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-results",
-      "note": "Source allocation ambiguous; teacher moderation required."
-    }
-  ],
+  "marks": 0,
+  "reviewRequired": [],
   "imageAudit": [],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Narrogin/2017/Revision for test.docx",
-      "sha": "308d5ed73a3881c9c99668aa48a9b217bfb0e803",
-      "year": 7,
-      "role": "paper"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling - assessment/Hot drinks cooling scaffolded report-1.docx",
-      "sha": "e9bb045cda8746811506baf801e38aba921cc375",
-      "year": 7,
-      "role": "paper"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling - assessment/Hot drinks cooling report MARKING KEY -.docx",
-      "sha": "70a410165308fb6ab6a019fa6ba7b05b0ed1fd2f",
-      "year": 7,
-      "role": "paper"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling - assessment/Log Book ÔÇô Heating Water experiment-1.docx",
-      "sha": "43aefd928096f9891fd4d5f6339d7fb09a6d46fc",
-      "year": 7,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 21,
   "createdSupplements": 13,
   "notes": [
-    "Four source variants reviewed. Laboratory revision uses proposed marks with school-procedure moderation and primary safety references. Matching hot-drinks marked/unfilled scaffolds checked task by task; extra explanation question in the marked variant retained. Editorial comments removed from student wording and noted in provenance. Graph request is now separately retained with the full marked variant132 allocation; table remains4marks. Heating-water logbook retains three conditions and actual measurements; absent Oxford method recorded."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "Revision": {
@@ -117,158 +32,6 @@
       "methodReferenceMissing": "Oxford7 p173"
     }
   },
-  "duplicateQuestionAliases": [
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling - assessment/Hot drinks cooling report MARKING KEY -.docx",
-      "sourceFileSha": "70a410165308fb6ab6a019fa6ba7b05b0ed1fd2f",
-      "sourceQuestionNumber": "aim",
-      "sourceParagraphs": [
-        22,
-        23,
-        25
-      ],
-      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-aim",
-      "reason": "Same marked scaffold task retained from the unfilled report; matching marks linked as key paragraphs. The extra cooling-explanation question is separately preserved."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling - assessment/Hot drinks cooling report MARKING KEY -.docx",
-      "sourceFileSha": "70a410165308fb6ab6a019fa6ba7b05b0ed1fd2f",
-      "sourceQuestionNumber": "independent",
-      "sourceParagraphs": [
-        27,
-        28
-      ],
-      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-independent",
-      "reason": "Same marked scaffold task retained from the unfilled report; matching marks linked as key paragraphs. The extra cooling-explanation question is separately preserved."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling - assessment/Hot drinks cooling report MARKING KEY -.docx",
-      "sourceFileSha": "70a410165308fb6ab6a019fa6ba7b05b0ed1fd2f",
-      "sourceQuestionNumber": "dependent",
-      "sourceParagraphs": [
-        30,
-        31
-      ],
-      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-dependent",
-      "reason": "Same marked scaffold task retained from the unfilled report; matching marks linked as key paragraphs. The extra cooling-explanation question is separately preserved."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling - assessment/Hot drinks cooling report MARKING KEY -.docx",
-      "sourceFileSha": "70a410165308fb6ab6a019fa6ba7b05b0ed1fd2f",
-      "sourceQuestionNumber": "controls",
-      "sourceParagraphs": [
-        33,
-        34
-      ],
-      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-controls",
-      "reason": "Same marked scaffold task retained from the unfilled report; matching marks linked as key paragraphs. The extra cooling-explanation question is separately preserved."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling - assessment/Hot drinks cooling report MARKING KEY -.docx",
-      "sourceFileSha": "70a410165308fb6ab6a019fa6ba7b05b0ed1fd2f",
-      "sourceQuestionNumber": "hypothesis",
-      "sourceParagraphs": [
-        36,
-        37,
-        38
-      ],
-      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-hypothesis",
-      "reason": "Same marked scaffold task retained from the unfilled report; matching marks linked as key paragraphs. The extra cooling-explanation question is separately preserved."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling - assessment/Hot drinks cooling report MARKING KEY -.docx",
-      "sourceFileSha": "70a410165308fb6ab6a019fa6ba7b05b0ed1fd2f",
-      "sourceQuestionNumber": "method-reference",
-      "sourceParagraphs": [
-        40,
-        43
-      ],
-      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-method-reference",
-      "reason": "Same marked scaffold task retained from the unfilled report; matching marks linked as key paragraphs. The extra cooling-explanation question is separately preserved."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling - assessment/Hot drinks cooling report MARKING KEY -.docx",
-      "sourceFileSha": "70a410165308fb6ab6a019fa6ba7b05b0ed1fd2f",
-      "sourceQuestionNumber": "diagram",
-      "sourceParagraphs": [
-        45,
-        46,
-        57
-      ],
-      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-diagram",
-      "reason": "Same marked scaffold task retained from the unfilled report; matching marks linked as key paragraphs. The extra cooling-explanation question is separately preserved."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling - assessment/Hot drinks cooling report MARKING KEY -.docx",
-      "sourceFileSha": "70a410165308fb6ab6a019fa6ba7b05b0ed1fd2f",
-      "sourceQuestionNumber": "results",
-      "sourceParagraphs": [
-        60,
-        61,
-        62
-      ],
-      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-results",
-      "reason": "Same marked scaffold task retained from the unfilled report; matching marks linked as key paragraphs. The extra cooling-explanation question is separately preserved."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling - assessment/Hot drinks cooling report MARKING KEY -.docx",
-      "sourceFileSha": "70a410165308fb6ab6a019fa6ba7b05b0ed1fd2f",
-      "sourceQuestionNumber": "fastest",
-      "sourceParagraphs": [
-        64,
-        65,
-        66
-      ],
-      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-fastest",
-      "reason": "Same marked scaffold task retained from the unfilled report; matching marks linked as key paragraphs. The extra cooling-explanation question is separately preserved."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling - assessment/Hot drinks cooling report MARKING KEY -.docx",
-      "sourceFileSha": "70a410165308fb6ab6a019fa6ba7b05b0ed1fd2f",
-      "sourceQuestionNumber": "slowest",
-      "sourceParagraphs": [
-        64,
-        68,
-        69
-      ],
-      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-slowest",
-      "reason": "Same marked scaffold task retained from the unfilled report; matching marks linked as key paragraphs. The extra cooling-explanation question is separately preserved."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling - assessment/Hot drinks cooling report MARKING KEY -.docx",
-      "sourceFileSha": "70a410165308fb6ab6a019fa6ba7b05b0ed1fd2f",
-      "sourceQuestionNumber": "trend",
-      "sourceParagraphs": [
-        64,
-        71,
-        72
-      ],
-      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-trend",
-      "reason": "Same marked scaffold task retained from the unfilled report; matching marks linked as key paragraphs. The extra cooling-explanation question is separately preserved."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling - assessment/Hot drinks cooling report MARKING KEY -.docx",
-      "sourceFileSha": "70a410165308fb6ab6a019fa6ba7b05b0ed1fd2f",
-      "sourceQuestionNumber": "improvements",
-      "sourceParagraphs": [
-        64,
-        78,
-        79
-      ],
-      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-improvements",
-      "reason": "Same marked scaffold task retained from the unfilled report; matching marks linked as key paragraphs. The extra cooling-explanation question is separately preserved."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2017/Hot drinks cooling - assessment/Hot drinks cooling report MARKING KEY -.docx",
-      "sourceFileSha": "70a410165308fb6ab6a019fa6ba7b05b0ed1fd2f",
-      "sourceQuestionNumber": "conclusion",
-      "sourceParagraphs": [
-        82,
-        83,
-        84
-      ],
-      "existingQuestionId": "SCI-REPO-Y7-SBY-2017-HOTDRINKS-conclusion",
-      "reason": "Same marked scaffold task retained from the unfilled report; matching marks linked as key paragraphs. The extra cooling-explanation question is separately preserved."
-    }
-  ]
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

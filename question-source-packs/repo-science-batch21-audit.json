@@ -142,7 +142,7 @@
   "createdKeys": 6,
   "createdSupplements": 5,
   "notes": [
-    "Two Kolbe formative papers fully extracted, including original native Word particle diagrams, molecular examples, mini periodic table, measured-data table and graph scaffold. Figures rendered from original DOCX, not replaced by invented illustrations. The nearby states-of-matter answer document is a different worksheet and was not misapplied."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "Atoms/compounds": {
@@ -158,5 +158,6 @@
       "note": "Printed 9+3+3+2+1+3 totals21, not19. Original graph and melting-data limitations flagged."
     }
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

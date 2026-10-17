@@ -1,67 +1,20 @@
 {
   "batch": "repo-science-batch150",
-  "paperCount": 1,
-  "questionIds": [
-    "SCI-REPO-Y8-MUSCLEFATIGUE-aim",
-    "SCI-REPO-Y8-MUSCLEFATIGUE-prediction",
-    "SCI-REPO-Y8-MUSCLEFATIGUE-hypothesis",
-    "SCI-REPO-Y8-MUSCLEFATIGUE-independent",
-    "SCI-REPO-Y8-MUSCLEFATIGUE-dependent",
-    "SCI-REPO-Y8-MUSCLEFATIGUE-control",
-    "SCI-REPO-Y8-MUSCLEFATIGUE-equipment",
-    "SCI-REPO-Y8-MUSCLEFATIGUE-tense1",
-    "SCI-REPO-Y8-MUSCLEFATIGUE-tense2",
-    "SCI-REPO-Y8-MUSCLEFATIGUE-tense3",
-    "SCI-REPO-Y8-MUSCLEFATIGUE-tense4",
-    "SCI-REPO-Y8-MUSCLEFATIGUE-tense5",
-    "SCI-REPO-Y8-MUSCLEFATIGUE-safety",
-    "SCI-REPO-Y8-MUSCLEFATIGUE-table",
-    "SCI-REPO-Y8-MUSCLEFATIGUE-graph",
-    "SCI-REPO-Y8-MUSCLEFATIGUE-analysis",
-    "SCI-REPO-Y8-MUSCLEFATIGUE-compare",
-    "SCI-REPO-Y8-MUSCLEFATIGUE-blood-oxygen",
-    "SCI-REPO-Y8-MUSCLEFATIGUE-importance",
-    "SCI-REPO-Y8-MUSCLEFATIGUE-links",
-    "SCI-REPO-Y8-MUSCLEFATIGUE-difficulty",
-    "SCI-REPO-Y8-MUSCLEFATIGUE-improve"
-  ],
-  "questions": 22,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 22,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 42,
-  "reviewRequired": [
-    {
-      "id": "SCI-REPO-Y8-MUSCLEFATIGUE-safety",
-      "note": "Unmarked safety field;1proposed mark."
-    },
-    {
-      "id": "SCI-REPO-Y8-MUSCLEFATIGUE-table",
-      "note": "Source timing/physiological inference needs qualification."
-    },
-    {
-      "id": "SCI-REPO-Y8-MUSCLEFATIGUE-blood-oxygen",
-      "note": "Source timing/physiological inference needs qualification."
-    },
-    {
-      "id": "SCI-REPO-Y8-MUSCLEFATIGUE-links",
-      "note": "Source timing/physiological inference needs qualification."
-    }
-  ],
+  "marks": 0,
+  "reviewRequired": [],
   "imageAudit": [],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 8/Science/Biological Sciences/2.4 Muscles Get Tired Lab assessment.docx..docx",
-      "sha": "d56ce0af32a3ee658688342ff29a66115f85c070",
-      "year": 8,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 22,
   "createdSupplements": 0,
   "notes": [
-    "Complete muscle-fatigue worksheet reviewed. Seven planning marks,eight tense marks and26other explicit marks sum41;unmarked safety field receives1proposed mark rather than being claimed as printed. Header42retained. Table’s minute label conflicts with actual protocol;blood/oxygen mechanisms are not measured and must remain qualified."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "header": 42,
@@ -70,5 +23,6 @@
     "supplementedTotal": 42,
     "timeUnitConflict": true
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

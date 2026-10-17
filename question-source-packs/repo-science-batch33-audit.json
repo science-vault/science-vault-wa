@@ -92,7 +92,7 @@
   "createdKeys": 20,
   "createdSupplements": 0,
   "notes": [
-    "Complete source mini test: ten MC prompts and ten vocabulary prompts. No original marks supplied; proposed one-mark allocations explicitly labelled. Four periodic-area MC retained for teacher clarification rather than inventing a unique letter or allowing automatic battle marking. Original floating-marker diagram preserved from rendered DOCX."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "Atoms mini test": {
@@ -102,5 +102,6 @@
       "areaQuestionsRequireClarification": 4
     }
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

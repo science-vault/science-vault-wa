@@ -80,12 +80,13 @@
   "createdKeys": 17,
   "createdSupplements": 0,
   "notes": [
-    "Complete51mark general Chemistry Test Two:10MCand7written groups. Original graph grid and supplied ion table retained. Universal acid wording,ionic molecule terminology,and silver/HCl/nitric-acid reaction assumptions flagged. Primary chemistry sources checked;formal balancing distinguished from reaction validity."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "total": 51,
     "MC": 10,
     "written": 41
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

@@ -1,97 +1,20 @@
 {
   "batch": "repo-science-batch51",
-  "paperCount": 2,
-  "questionIds": [
-    "SCI-REPO-Y7-UNKNOWN-FRICTIONESSAY-essay",
-    "SCI-REPO-Y7-UNKNOWN-PHYSREV-1a",
-    "SCI-REPO-Y7-UNKNOWN-PHYSREV-1b",
-    "SCI-REPO-Y7-UNKNOWN-PHYSREV-1c",
-    "SCI-REPO-Y7-UNKNOWN-PHYSREV-1d",
-    "SCI-REPO-Y7-UNKNOWN-PHYSREV-1e",
-    "SCI-REPO-Y7-UNKNOWN-PHYSREV-1f",
-    "SCI-REPO-Y7-UNKNOWN-PHYSREV-1g",
-    "SCI-REPO-Y7-UNKNOWN-PHYSREV-1h",
-    "SCI-REPO-Y7-UNKNOWN-PHYSREV-1i",
-    "SCI-REPO-Y7-UNKNOWN-PHYSREV-1j",
-    "SCI-REPO-Y7-UNKNOWN-PHYSREV-1k",
-    "SCI-REPO-Y7-UNKNOWN-PHYSREV-1l",
-    "SCI-REPO-Y7-UNKNOWN-PHYSREV-1m",
-    "SCI-REPO-Y7-UNKNOWN-PHYSREV-1n",
-    "SCI-REPO-Y7-UNKNOWN-PHYSREV-1o",
-    "SCI-REPO-Y7-UNKNOWN-PHYSREV-1p",
-    "SCI-REPO-Y7-UNKNOWN-PHYSREV-1q",
-    "SCI-REPO-Y7-UNKNOWN-PHYSREV-1r",
-    "SCI-REPO-Y7-UNKNOWN-PHYSREV-1s",
-    "SCI-REPO-Y7-UNKNOWN-PHYSREV-1t",
-    "SCI-REPO-Y7-UNKNOWN-PHYSREV-1u",
-    "SCI-REPO-Y7-UNKNOWN-PHYSREV-1v",
-    "SCI-REPO-Y7-UNKNOWN-PHYSREV-2",
-    "SCI-REPO-Y7-UNKNOWN-PHYSREV-3",
-    "SCI-REPO-Y7-UNKNOWN-PHYSREV-4",
-    "SCI-REPO-Y7-UNKNOWN-PHYSREV-5",
-    "SCI-REPO-Y7-UNKNOWN-PHYSREV-6",
-    "SCI-REPO-Y7-UNKNOWN-PHYSREV-7",
-    "SCI-REPO-Y7-UNKNOWN-PHYSREV-8",
-    "SCI-REPO-Y7-UNKNOWN-PHYSREV-9",
-    "SCI-REPO-Y7-UNKNOWN-PHYSREV-10",
-    "SCI-REPO-Y7-UNKNOWN-PHYSREV-11",
-    "SCI-REPO-Y7-UNKNOWN-PHYSREV-12",
-    "SCI-REPO-Y7-UNKNOWN-PHYSREV-13",
-    "SCI-REPO-Y7-UNKNOWN-PHYSREV-14",
-    "SCI-REPO-Y7-UNKNOWN-PHYSREV-15",
-    "SCI-REPO-Y7-UNKNOWN-PHYSREV-16",
-    "SCI-REPO-Y7-UNKNOWN-PHYSREV-17",
-    "SCI-REPO-Y7-UNKNOWN-PHYSREV-18"
-  ],
-  "questions": 40,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 40,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 93,
-  "reviewRequired": [
-    {
-      "id": "SCI-REPO-Y7-UNKNOWN-FRICTIONESSAY-essay",
-      "note": "Matching teacher rubric now located. Explicit science maxima18replace the earlier proposed10;heading21andcover31conflict with their detailed cells."
-    },
-    {
-      "id": "SCI-REPO-Y7-UNKNOWN-PHYSREV-1h",
-      "note": "Friction is intended, but the wording only says contact force and is not unique; accept a justified normal, tension or other contact force."
-    },
-    {
-      "id": "SCI-REPO-Y7-UNKNOWN-PHYSREV-7",
-      "note": "Source wording is scientifically incomplete; corrected manual guidance supplied."
-    },
-    {
-      "id": "SCI-REPO-Y7-UNKNOWN-PHYSREV-11",
-      "note": "Source wording is scientifically incomplete; corrected manual guidance supplied."
-    }
-  ],
+  "marks": 0,
+  "reviewRequired": [],
   "imageAudit": [],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Unknown School/Persuasive Essay Research Assignment Friction.docx",
-      "sha": "5c6656cf10248b3501dc5ad6e5daddbffb0cd900",
-      "year": 7,
-      "role": "paper"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Unknown School/Year 7 Persuasive Essay Marking Guide.docx",
-      "sha": "0f6adf206bb5ebf190c9e3840a3b0367fb5cd5e0",
-      "year": 7,
-      "role": "key_reference"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Unknown School/Revision for Topic Test Year 7 Physical Science.docx",
-      "sha": "2c248b8b107a31c9f45707410876779361707960",
-      "year": 7,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 39,
   "createdSupplements": 1,
   "notes": [
-    "Complete essay scaffold and physical-science revision prompts retained. Matched essay rubric now supplies18explicit science maxima;revision marks remain proposed. Net force table predicts acceleration, not direction of motion without initial velocity. Forced fall-speed choice flagged. Source references to textbook pages are supplementary; all assessed prompt wording is present."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "Essay": {
@@ -106,5 +29,6 @@
       "remainingTasks": 17
     }
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

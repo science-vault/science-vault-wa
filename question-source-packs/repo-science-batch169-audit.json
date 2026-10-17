@@ -48,7 +48,7 @@
   "createdKeys": 0,
   "createdSupplements": 5,
   "notes": [
-    "Full one-page rock practical key visually checked. Five complete question groups retained;their labelled allocations sum34rather than printed41. First group4marks covers3numbered IDs plus unmarked fossil prompt with proposed internal split. Obsidian underwater requirement corrected;shale fossil alternative accepted. Numbered specimens unavailable and explicitly required,not replaced with invented figures."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "printedSection": 41,
@@ -57,5 +57,6 @@
     "groups": 5,
     "firstGroupInternalSplitProposed": true
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

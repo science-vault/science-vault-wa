@@ -1,56 +1,20 @@
 {
   "batch": "repo-science-batch185",
-  "paperCount": 1,
-  "questionIds": [
-    "SCI-REPO-Y8-KOLBE-2021-MATTERCHOICE-R1C1",
-    "SCI-REPO-Y8-KOLBE-2021-MATTERCHOICE-R1C2",
-    "SCI-REPO-Y8-KOLBE-2021-MATTERCHOICE-R1C3",
-    "SCI-REPO-Y8-KOLBE-2021-MATTERCHOICE-R1C4",
-    "SCI-REPO-Y8-KOLBE-2021-MATTERCHOICE-R1C5",
-    "SCI-REPO-Y8-KOLBE-2021-MATTERCHOICE-R2C1",
-    "SCI-REPO-Y8-KOLBE-2021-MATTERCHOICE-R2C2",
-    "SCI-REPO-Y8-KOLBE-2021-MATTERCHOICE-R2C3",
-    "SCI-REPO-Y8-KOLBE-2021-MATTERCHOICE-R2C4",
-    "SCI-REPO-Y8-KOLBE-2021-MATTERCHOICE-R2C5",
-    "SCI-REPO-Y8-KOLBE-2021-MATTERCHOICE-R3C1",
-    "SCI-REPO-Y8-KOLBE-2021-MATTERCHOICE-R3C2",
-    "SCI-REPO-Y8-KOLBE-2021-MATTERCHOICE-R3C3",
-    "SCI-REPO-Y8-KOLBE-2021-MATTERCHOICE-R3C4",
-    "SCI-REPO-Y8-KOLBE-2021-MATTERCHOICE-R3C5"
-  ],
-  "questions": 15,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 15,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 93,
-  "reviewRequired": [
-    {
-      "id": "SCI-REPO-Y8-KOLBE-2021-MATTERCHOICE-R2C1",
-      "note": "Source gives choices but no numeric rubric;all marks proposed. Isotope/classification/phase-change limitations noted."
-    },
-    {
-      "id": "SCI-REPO-Y8-KOLBE-2021-MATTERCHOICE-R2C2",
-      "note": "Source gives choices but no numeric rubric;all marks proposed. Isotope/classification/phase-change limitations noted."
-    },
-    {
-      "id": "SCI-REPO-Y8-KOLBE-2021-MATTERCHOICE-R3C5",
-      "note": "Source gives choices but no numeric rubric;all marks proposed. Isotope/classification/phase-change limitations noted."
-    }
-  ],
+  "marks": 0,
+  "reviewRequired": [],
   "imageAudit": [],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Kolbe/2021/Task 4_Matter choice board/Task Matter choice board.docx",
-      "sha": "c02fab519136e5a9ee1813a4aa192d5ffca4f390",
-      "year": 8,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 15,
   "createdSupplements": 0,
   "notes": [
-    "All15choice-board options retained;student selects6under source row/column constraints,not all15. All93available-option marks proposed and no single required student total invented. Isotopes,metalloid counts,pure-food assumptions and four phase changes qualified. Student-created questions/tweets/videos are outputs,not new original questions or publishing actions."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "sourceMarks": null,
@@ -58,5 +22,6 @@
     "options": 15,
     "requiredSelection": 6
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

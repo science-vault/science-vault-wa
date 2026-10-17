@@ -1,25 +1,12 @@
 {
   "batch": "repo-science-batch187",
-  "paperCount": 3,
-  "questionIds": [
-    "SCI-REPO-Y8-ARAN-2014-PENDULUM-hypothesis",
-    "SCI-REPO-Y8-ARAN-2014-PENDULUM-independent",
-    "SCI-REPO-Y8-ARAN-2014-PENDULUM-dependent",
-    "SCI-REPO-Y8-ARAN-2014-PENDULUM-controls",
-    "SCI-REPO-Y8-ARAN-2014-PENDULUM-materials",
-    "SCI-REPO-Y8-ARAN-2014-PENDULUM-method",
-    "SCI-REPO-Y8-ARAN-2014-PENDULUM-results",
-    "SCI-REPO-Y8-ARAN-2014-PENDULUM-diagram",
-    "SCI-REPO-Y8-ARAN-2014-PENDULUM-graph",
-    "SCI-REPO-Y8-ARAN-2014-PENDULUM-discussion",
-    "SCI-REPO-Y8-ARAN-2014-PENDULUM-conclusion",
-    "SCI-REPO-Y10-NAR-2021-PENDULUM-project"
-  ],
-  "questions": 12,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 12,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 51,
+  "marks": 0,
   "reviewRequired": [],
   "imageAudit": [
     {
@@ -56,31 +43,12 @@
       "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
     }
   ],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2014 8 SCIENCE PENDULUM INVESTIGATION.docx",
-      "sha": "eb8aa104c5d2ef25d78dc4d6eea309d0662f37dd",
-      "year": 8,
-      "role": "paper"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2016 8 Science Physics Pendulum Investigation.docx",
-      "sha": "7e108a3f175d455cb41c69b4609b9f868d2175e2",
-      "year": 8,
-      "role": "paper"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 10/Science/Investigating/Narrogin/2021/Task 1 Pendulums INV.docx",
-      "sha": "59a56fb8d629c855170736a992cf31575a40afeb",
-      "year": 10,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 0,
   "createdSupplements": 12,
   "notes": [
-    "Three full pendulum investigations reviewed. Year8eleven26markscience tasks retained once across2014and2016versions;presentation2versus3anddiscussion-count differences logged. SeparateYear10student-design25marktask includes amplitude choice and references. Original apparatus figure and revised-source graph grid preserved. Checkbox-only source symbols excluded from prompt rendering;choice stated explicitly in the aim/context."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "Year8_2014": {
@@ -99,205 +67,6 @@
     },
     "newQuestions": 12
   },
-  "duplicateQuestionAliases": [
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2016 8 Science Physics Pendulum Investigation.docx",
-      "sourceFileSha": "7e108a3f175d455cb41c69b4609b9f868d2175e2",
-      "sourceQuestionNumber": "hypothesis",
-      "sourceParagraphs": [
-        42,
-        51,
-        56,
-        69,
-        71,
-        74
-      ],
-      "sourceMarks": 2,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y8-ARAN-2014-PENDULUM-hypothesis",
-      "reason": "Same26mark pendulum science investigation.2016adds one science-language/style mark to presentation(3versus2),making29overall rather than28;discussion specifies one error rather than two,within the same3markcategory.",
-      "sourceLocalDiscussionRequirement": "2016requires one error with effect and improvement;2014requires two limitations collectively within3marks."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2016 8 Science Physics Pendulum Investigation.docx",
-      "sourceFileSha": "7e108a3f175d455cb41c69b4609b9f868d2175e2",
-      "sourceQuestionNumber": "independent",
-      "sourceParagraphs": [
-        42,
-        51,
-        56,
-        69,
-        71,
-        90
-      ],
-      "sourceMarks": 1,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y8-ARAN-2014-PENDULUM-independent",
-      "reason": "Same26mark pendulum science investigation.2016adds one science-language/style mark to presentation(3versus2),making29overall rather than28;discussion specifies one error rather than two,within the same3markcategory.",
-      "sourceLocalDiscussionRequirement": "2016requires one error with effect and improvement;2014requires two limitations collectively within3marks."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2016 8 Science Physics Pendulum Investigation.docx",
-      "sourceFileSha": "7e108a3f175d455cb41c69b4609b9f868d2175e2",
-      "sourceQuestionNumber": "dependent",
-      "sourceParagraphs": [
-        42,
-        51,
-        56,
-        69,
-        71,
-        96
-      ],
-      "sourceMarks": 1,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y8-ARAN-2014-PENDULUM-dependent",
-      "reason": "Same26mark pendulum science investigation.2016adds one science-language/style mark to presentation(3versus2),making29overall rather than28;discussion specifies one error rather than two,within the same3markcategory.",
-      "sourceLocalDiscussionRequirement": "2016requires one error with effect and improvement;2014requires two limitations collectively within3marks."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2016 8 Science Physics Pendulum Investigation.docx",
-      "sourceFileSha": "7e108a3f175d455cb41c69b4609b9f868d2175e2",
-      "sourceQuestionNumber": "controls",
-      "sourceParagraphs": [
-        42,
-        51,
-        56,
-        69,
-        71,
-        102
-      ],
-      "sourceMarks": 2,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y8-ARAN-2014-PENDULUM-controls",
-      "reason": "Same26mark pendulum science investigation.2016adds one science-language/style mark to presentation(3versus2),making29overall rather than28;discussion specifies one error rather than two,within the same3markcategory.",
-      "sourceLocalDiscussionRequirement": "2016requires one error with effect and improvement;2014requires two limitations collectively within3marks."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2016 8 Science Physics Pendulum Investigation.docx",
-      "sourceFileSha": "7e108a3f175d455cb41c69b4609b9f868d2175e2",
-      "sourceQuestionNumber": "materials",
-      "sourceParagraphs": [
-        42,
-        51,
-        56,
-        69,
-        71,
-        110
-      ],
-      "sourceMarks": 2,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y8-ARAN-2014-PENDULUM-materials",
-      "reason": "Same26mark pendulum science investigation.2016adds one science-language/style mark to presentation(3versus2),making29overall rather than28;discussion specifies one error rather than two,within the same3markcategory.",
-      "sourceLocalDiscussionRequirement": "2016requires one error with effect and improvement;2014requires two limitations collectively within3marks."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2016 8 Science Physics Pendulum Investigation.docx",
-      "sourceFileSha": "7e108a3f175d455cb41c69b4609b9f868d2175e2",
-      "sourceQuestionNumber": "method",
-      "sourceParagraphs": [
-        42,
-        51,
-        56,
-        69,
-        71,
-        124
-      ],
-      "sourceMarks": 3,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y8-ARAN-2014-PENDULUM-method",
-      "reason": "Same26mark pendulum science investigation.2016adds one science-language/style mark to presentation(3versus2),making29overall rather than28;discussion specifies one error rather than two,within the same3markcategory.",
-      "sourceLocalDiscussionRequirement": "2016requires one error with effect and improvement;2014requires two limitations collectively within3marks."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2016 8 Science Physics Pendulum Investigation.docx",
-      "sourceFileSha": "7e108a3f175d455cb41c69b4609b9f868d2175e2",
-      "sourceQuestionNumber": "results",
-      "sourceParagraphs": [
-        42,
-        51,
-        56,
-        69,
-        71,
-        172,
-        174
-      ],
-      "sourceMarks": 3,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y8-ARAN-2014-PENDULUM-results",
-      "reason": "Same26mark pendulum science investigation.2016adds one science-language/style mark to presentation(3versus2),making29overall rather than28;discussion specifies one error rather than two,within the same3markcategory.",
-      "sourceLocalDiscussionRequirement": "2016requires one error with effect and improvement;2014requires two limitations collectively within3marks."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2016 8 Science Physics Pendulum Investigation.docx",
-      "sourceFileSha": "7e108a3f175d455cb41c69b4609b9f868d2175e2",
-      "sourceQuestionNumber": "diagram",
-      "sourceParagraphs": [
-        42,
-        51,
-        56,
-        69,
-        71,
-        209
-      ],
-      "sourceMarks": 2,
-      "sourceType": "Diagram",
-      "existingQuestionId": "SCI-REPO-Y8-ARAN-2014-PENDULUM-diagram",
-      "reason": "Same26mark pendulum science investigation.2016adds one science-language/style mark to presentation(3versus2),making29overall rather than28;discussion specifies one error rather than two,within the same3markcategory.",
-      "sourceLocalDiscussionRequirement": "2016requires one error with effect and improvement;2014requires two limitations collectively within3marks."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2016 8 Science Physics Pendulum Investigation.docx",
-      "sourceFileSha": "7e108a3f175d455cb41c69b4609b9f868d2175e2",
-      "sourceQuestionNumber": "graph",
-      "sourceParagraphs": [
-        42,
-        51,
-        56,
-        69,
-        71,
-        234
-      ],
-      "sourceMarks": 5,
-      "sourceType": "Diagram",
-      "existingQuestionId": "SCI-REPO-Y8-ARAN-2014-PENDULUM-graph",
-      "reason": "Same26mark pendulum science investigation.2016adds one science-language/style mark to presentation(3versus2),making29overall rather than28;discussion specifies one error rather than two,within the same3markcategory.",
-      "sourceLocalDiscussionRequirement": "2016requires one error with effect and improvement;2014requires two limitations collectively within3marks."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2016 8 Science Physics Pendulum Investigation.docx",
-      "sourceFileSha": "7e108a3f175d455cb41c69b4609b9f868d2175e2",
-      "sourceQuestionNumber": "discussion",
-      "sourceParagraphs": [
-        42,
-        51,
-        56,
-        69,
-        71,
-        293
-      ],
-      "sourceMarks": 3,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y8-ARAN-2014-PENDULUM-discussion",
-      "reason": "Same26mark pendulum science investigation.2016adds one science-language/style mark to presentation(3versus2),making29overall rather than28;discussion specifies one error rather than two,within the same3markcategory.",
-      "sourceLocalDiscussionRequirement": "2016requires one error with effect and improvement;2014requires two limitations collectively within3marks."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2016 8 Science Physics Pendulum Investigation.docx",
-      "sourceFileSha": "7e108a3f175d455cb41c69b4609b9f868d2175e2",
-      "sourceQuestionNumber": "conclusion",
-      "sourceParagraphs": [
-        42,
-        51,
-        56,
-        69,
-        71,
-        322
-      ],
-      "sourceMarks": 2,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y8-ARAN-2014-PENDULUM-conclusion",
-      "reason": "Same26mark pendulum science investigation.2016adds one science-language/style mark to presentation(3versus2),making29overall rather than28;discussion specifies one error rather than two,within the same3markcategory.",
-      "sourceLocalDiscussionRequirement": "2016requires one error with effect and improvement;2014requires two limitations collectively within3marks."
-    }
-  ]
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

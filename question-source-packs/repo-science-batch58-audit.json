@@ -1,52 +1,13 @@
 {
   "batch": "repo-science-batch58",
-  "paperCount": 1,
-  "questionIds": [
-    "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P1-appearance",
-    "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P1-handlens",
-    "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P1-hardness-results",
-    "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P1-hardness-inference",
-    "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P1-grains",
-    "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P1-identification",
-    "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P2-locations",
-    "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P2-research",
-    "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P2-draft-final"
-  ],
-  "questions": 9,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 9,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 40,
-  "reviewRequired": [
-    {
-      "id": "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P1-hardness-results",
-      "note": "Source treats each rock as having one fixed Mohs hardness, although rocks can contain minerals with different hardnesses."
-    },
-    {
-      "id": "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P1-hardness-inference",
-      "note": "Supplied ranges cannot be imposed as exact observations; use evidence-based comparative hardness."
-    },
-    {
-      "id": "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P1-grains",
-      "note": "Sediment grain-size chart is applied to rocks of different origins; interpretation needs teacher moderation."
-    },
-    {
-      "id": "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P1-identification",
-      "note": "Original table/photographs preserved; simplified fixed rock-property claims require moderation."
-    },
-    {
-      "id": "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P2-locations",
-      "note": "Original geological map is an accompanying source file. Cultural map is referenced externally, not embedded; provide verified resource links rather than reproducing a newly sourced copyrighted map."
-    },
-    {
-      "id": "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P2-research",
-      "note": "Use reliable museum/community sources and accurate cultural attribution."
-    },
-    {
-      "id": "SCI-REPO-Y8-SBY-2017-ROCKCULTURE-P2-draft-final",
-      "note": "Part2 cover says10 but explicit4+2+4+2 allocations sum12; draft and final phase retained together to avoid inflating repeated response counts."
-    }
-  ],
+  "marks": 0,
+  "reviewRequired": [],
   "imageAudit": [
     {
       "id": "e172-image2",
@@ -119,33 +80,12 @@
       "publishedSha256": "20246e0443e1a7a1af768a30b2ae8daa2995fb748c222596fbea3679618ae3e4"
     }
   ],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Safety Bay/2017/Investigation Edited/Rocks and Minerals Assessment.docx",
-      "sha": "62b9c7886bff91848c97e4ed26fa1962513946b5",
-      "year": 8,
-      "role": "paper"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Safety Bay/2017/Investigation Edited/Marking Key.docx",
-      "sha": "56bf87994508452c5e687f7748e3075ce396addf",
-      "year": 8,
-      "role": "key_reference",
-      "reviewComplete": true
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Safety Bay/2017/Investigation Edited/Assessment Geological Map.docx",
-      "sha": "a787876e420ad5a8e100e48d755a8943b325649f",
-      "year": 8,
-      "role": "supporting_reference",
-      "reviewComplete": true
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 0,
   "createdSupplements": 9,
   "notes": [
-    "Full two-part rock assessment and matching rubric reviewed. Part1 explicit28marks matches cover; Part2 explicit12 differs from cover10. Original rock photos/chart/table and companion geological map with native coloured key preserved. Simplified hardness/provenance claims corrected in manual guidance. External cultural map linked to AIATSIS with its approximate-boundary context; no new cultural-map image copied."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "Part1": {
@@ -163,5 +103,6 @@
     "combinedExplicit": 40,
     "combinedCovers": 38
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

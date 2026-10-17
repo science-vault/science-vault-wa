@@ -1,6 +1,6 @@
 {
   "batch": "repo-science-batch122",
-  "paperCount": 2,
+  "paperCount": 1,
   "questionIds": [
     "SCI-REPO-Y10-SBY-2017-CHEMTEST-MC14",
     "SCI-REPO-Y10-SBY-2017-CHEMTEST-MC15",
@@ -8,24 +8,14 @@
     "SCI-REPO-Y10-SBY-2017-CHEMTEST-W7b",
     "SCI-REPO-Y10-SBY-2017-CHEMTEST-W7c",
     "SCI-REPO-Y10-SBY-2017-CHEMTEST-W8a",
-    "SCI-REPO-Y10-SBY-2017-CHEMTEST-W8b",
-    "SCI-REPO-Y10-SBY-2018-CHEMEXTRAS-MC01",
-    "SCI-REPO-Y10-SBY-2018-CHEMEXTRAS-MC02",
-    "SCI-REPO-Y10-SBY-2018-CHEMEXTRAS-MC03",
-    "SCI-REPO-Y10-SBY-2018-CHEMEXTRAS-charge-a",
-    "SCI-REPO-Y10-SBY-2018-CHEMEXTRAS-charge-b"
+    "SCI-REPO-Y10-SBY-2017-CHEMTEST-W8b"
   ],
-  "questions": 12,
-  "multipleChoice": 5,
-  "writtenQuestions": 7,
-  "battleEligible": 4,
-  "marks": 16,
-  "reviewRequired": [
-    {
-      "id": "SCI-REPO-Y10-SBY-2018-CHEMEXTRAS-MC01",
-      "note": "Valence configuration and ion symbol are different concepts;stem/options mismatch."
-    }
-  ],
+  "questions": 7,
+  "multipleChoice": 2,
+  "writtenQuestions": 5,
+  "battleEligible": 2,
+  "marks": 11,
+  "reviewRequired": [],
   "imageAudit": [
     {
       "id": "e344-image1",
@@ -55,12 +45,6 @@
     {
       "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2017/Chemistry Extension/This one. Semester 2 Chemistry test.docx",
       "sha": "f97cb4c9d6fd48301be7e539cf60da5da2cba7d9",
-      "year": 10,
-      "role": "paper"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2018/Extras to consider Yr10 Chem test.docx",
-      "sha": "1b6eecb03d5f4b990854eff026497003f63e0847",
       "year": 10,
       "role": "paper"
     }
@@ -102,7 +86,7 @@
   "createdKeys": 12,
   "createdSupplements": 0,
   "notes": [
-    "Complete15MC+35written-mark chemistry test and5extra items reviewed. Original CO2graph and magnesium diagram visually checked and retained. Manual exclusions preserve malformed AgC1formula,unrestricted acid definition,ion-definition omission andMgvalence/ion mismatch. Impossible Na2O/H2O equation flagged rather than silently balancing a different reaction."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "test": {
@@ -747,5 +731,6 @@
       "existingQuestionId": "SCI-REPO-Y10-B10-D27-WR01",
       "reason": "Equivalent source question already present; not added or counted again."
     }
-  ]
+  ],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

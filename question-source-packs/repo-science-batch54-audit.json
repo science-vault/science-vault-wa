@@ -1,34 +1,20 @@
 {
   "batch": "repo-science-batch54",
-  "paperCount": 1,
-  "questionIds": [
-    "SCI-REPO-Y8-ARAN-2013-DENSITYRESULTS-table"
-  ],
-  "questions": 1,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 1,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 9,
-  "reviewRequired": [
-    {
-      "id": "SCI-REPO-Y8-ARAN-2013-DENSITYRESULTS-table",
-      "note": "Supplied results sheet has six blank derived-mass cells and three blank average cells, so it is retained as one table-completion task rather than discarded as notes. Original units and explicit completion instruction are absent; proposed rubric clearly labelled."
-    }
-  ],
+  "marks": 0,
+  "reviewRequired": [],
   "imageAudit": [],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/Density Investigation Results 2013.docx",
-      "sha": "43ace67c93d67caa47b162a1629f07e1d01b2e38",
-      "year": 8,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 1,
   "createdSupplements": 0,
   "notes": [
-    "One supplied-results worksheet retained because it has actual blank derived-mass/average response cells. Original numerical data preserved; missing units flagged. This does not add unasked density computations."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "SuppliedResults": {
@@ -39,5 +25,6 @@
       "unitsUnspecified": true
     }
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

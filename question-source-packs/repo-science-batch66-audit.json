@@ -1,52 +1,26 @@
 {
   "batch": "repo-science-batch66",
-  "paperCount": 1,
-  "questionIds": [
-    "SCI-REPO-Y7-ARAN-PERTHWATER-need",
-    "SCI-REPO-Y7-ARAN-PERTHWATER-notes-sources",
-    "SCI-REPO-Y7-ARAN-PERTHWATER-concise",
-    "SCI-REPO-Y7-ARAN-PERTHWATER-reference-types",
-    "SCI-REPO-Y7-ARAN-PERTHWATER-bibliography",
-    "SCI-REPO-Y7-ARAN-PERTHWATER-methods",
-    "SCI-REPO-Y7-ARAN-PERTHWATER-positives",
-    "SCI-REPO-Y7-ARAN-PERTHWATER-disadvantages",
-    "SCI-REPO-Y7-ARAN-PERTHWATER-terms",
-    "SCI-REPO-Y7-ARAN-PERTHWATER-pictures"
-  ],
-  "questions": 10,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 10,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 29,
-  "reviewRequired": [
-    {
-      "id": "SCI-REPO-Y7-ARAN-PERTHWATER-need",
-      "note": "Historical source introduction is outdated;use current utility information."
-    },
-    {
-      "id": "SCI-REPO-Y7-ARAN-PERTHWATER-bibliography",
-      "note": "School diary reference format not embedded;teacher supplies format."
-    }
-  ],
+  "marks": 0,
+  "reviewRequired": [],
   "imageAudit": [],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Aranmore/Year 7 drinking water library assignment fixed version.docx",
-      "sha": "298a000fcc2818f859eb4a5aabd04712e855178f",
-      "year": 7,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 10,
   "createdSupplements": 0,
   "notes": [
-    "Full35-mark water-research assignment reviewed.29 task marks extracted;6 presentation-only marks retained in audit (heading1,organisation2,attractiveness1,legibility2). Separate notes and final explanation retained because original rubric assesses both. Historical Perth source statement flagged;current utility references supplied."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "total": 35,
     "taskMarks": 29,
     "presentationOnly": 6
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

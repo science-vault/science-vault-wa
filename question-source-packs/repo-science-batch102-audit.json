@@ -1,85 +1,20 @@
 {
   "batch": "repo-science-batch102",
-  "paperCount": 2,
-  "questionIds": [
-    "SCI-REPO-Y9-ARAN-2013-TRAVELSCIENCE-concepts",
-    "SCI-REPO-Y9-ARAN-2013-TRAVELSCIENCE-terms",
-    "SCI-REPO-Y9-ARAN-2013-TRAVELSCIENCE-diagrams",
-    "SCI-REPO-Y9-ARAN-2013-TRAVELSCIENCE-product",
-    "SCI-REPO-Y9-ARAN-2013-TRAVELSCIENCE-individual",
-    "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-plan",
-    "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-diagram",
-    "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-materials",
-    "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-variables",
-    "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-model",
-    "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-introduction",
-    "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-method",
-    "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-results",
-    "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-discussion"
-  ],
-  "questions": 14,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 14,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 44,
-  "reviewRequired": [
-    {
-      "id": "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-plan",
-      "note": "Fullprojectbriefnotcontainedinrubric;teacher mustsupplycontext."
-    },
-    {
-      "id": "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-diagram",
-      "note": "Fullprojectbriefnotcontainedinrubric;teacher mustsupplycontext."
-    },
-    {
-      "id": "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-materials",
-      "note": "Fullprojectbriefnotcontainedinrubric;teacher mustsupplycontext."
-    },
-    {
-      "id": "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-variables",
-      "note": "Fullprojectbriefnotcontainedinrubric;teacher mustsupplycontext."
-    },
-    {
-      "id": "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-model",
-      "note": "Fullprojectbriefnotcontainedinrubric;teacher mustsupplycontext."
-    },
-    {
-      "id": "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-introduction",
-      "note": "Fullprojectbriefnotcontainedinrubric;teacher mustsupplycontext."
-    },
-    {
-      "id": "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-method",
-      "note": "Fullprojectbriefnotcontainedinrubric;teacher mustsupplycontext."
-    },
-    {
-      "id": "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-results",
-      "note": "Fullprojectbriefnotcontainedinrubric;teacher mustsupplycontext."
-    },
-    {
-      "id": "SCI-REPO-Y9-SBY-2017-VOLCANORUBRIC-discussion",
-      "note": "Fullprojectbriefnotcontainedinrubric;teacher mustsupplycontext."
-    }
-  ],
+  "marks": 0,
+  "reviewRequired": [],
   "imageAudit": [],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 9/Science/Physics/Aranmore/Overseas Work.docx",
-      "sha": "885f8751d208b8ccc4a79e6e83e7aae4973333d6",
-      "year": 9,
-      "role": "paper"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2017/Volcano marking key.docx",
-      "sha": "47a4ec1491d22501500d6f1a633c9b2042c05da5",
-      "year": 9,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 5,
   "createdSupplements": 9,
   "notes": [
-    "Complete travelproject requirements retained with proposed18points;50%termweightnotconvertedto50marks. Volcano29rubric retained as26content/task+3grammar/spelling;maximums derived from rubriccolumns,includingmaterials2. Missingfullvolcanobriefexplicitlyflagged."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "travel": "No sourcepointtotal;proposed18",
@@ -90,5 +25,6 @@
       "grammarSpelling": 3
     }
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

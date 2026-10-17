@@ -1,54 +1,20 @@
 {
   "batch": "repo-science-batch121",
-  "paperCount": 2,
-  "questionIds": [
-    "SCI-REPO-Y10-ARAN-PRACTICAL-331-materials",
-    "SCI-REPO-Y10-ARAN-PRACTICAL-331-hypothesis",
-    "SCI-REPO-Y10-ARAN-PRACTICAL-331-independent",
-    "SCI-REPO-Y10-ARAN-PRACTICAL-331-dependent",
-    "SCI-REPO-Y10-ARAN-PRACTICAL-331-controls",
-    "SCI-REPO-Y10-ARAN-PRACTICAL-331-method",
-    "SCI-REPO-Y10-ARAN-PRACTICAL-331-table",
-    "SCI-REPO-Y10-ARAN-PRACTICAL-331-graph",
-    "SCI-REPO-Y10-ARAN-PRACTICAL-331-discussion",
-    "SCI-REPO-Y10-ARAN-PRACTICAL-331-conclusion",
-    "SCI-REPO-Y10-ARAN-PRACTICAL-345-materials",
-    "SCI-REPO-Y10-ARAN-PRACTICAL-345-hypothesis",
-    "SCI-REPO-Y10-ARAN-PRACTICAL-345-independent",
-    "SCI-REPO-Y10-ARAN-PRACTICAL-345-dependent",
-    "SCI-REPO-Y10-ARAN-PRACTICAL-345-controls",
-    "SCI-REPO-Y10-ARAN-PRACTICAL-345-method",
-    "SCI-REPO-Y10-ARAN-PRACTICAL-345-table",
-    "SCI-REPO-Y10-ARAN-PRACTICAL-345-graph",
-    "SCI-REPO-Y10-ARAN-PRACTICAL-345-discussion",
-    "SCI-REPO-Y10-ARAN-PRACTICAL-345-conclusion"
-  ],
-  "questions": 20,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 20,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 61,
+  "marks": 0,
   "reviewRequired": [],
   "imageAudit": [],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2015 YR10 L2 SCIENCE RATE OF REACTION INVESTIGATION.docx",
-      "sha": "0fe233cd7fe4686f64948cc2d1a329b03af71f03",
-      "year": 10,
-      "role": "paper"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/2014 10 SCIENCE SQUASH BALL INVESTIGATION.docx",
-      "sha": "8f602f1a9aea337aa3a412578e21093fd735c5d4",
-      "year": 10,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 0,
   "createdSupplements": 20,
   "notes": [
-    "Both full practical write-ups reviewed. Reaction-rate task33science+2presentation=35. Squash-ball task28science+2presentation=30. No experimental data,ticker assumptions or textbook methods invented."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "reactionRate": {
@@ -62,5 +28,6 @@
       "presentation": 2
     }
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

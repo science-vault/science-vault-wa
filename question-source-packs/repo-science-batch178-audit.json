@@ -1,64 +1,26 @@
 {
   "batch": "repo-science-batch178",
-  "paperCount": 1,
-  "questionIds": [
-    "SCI-REPO-Y8-UNKNOWN-MID-EARTHREV-1",
-    "SCI-REPO-Y8-UNKNOWN-MID-EARTHREV-2",
-    "SCI-REPO-Y8-UNKNOWN-MID-EARTHREV-3",
-    "SCI-REPO-Y8-UNKNOWN-MID-EARTHREV-4",
-    "SCI-REPO-Y8-UNKNOWN-MID-EARTHREV-5",
-    "SCI-REPO-Y8-UNKNOWN-MID-EARTHREV-6",
-    "SCI-REPO-Y8-UNKNOWN-MID-EARTHREV-7",
-    "SCI-REPO-Y8-UNKNOWN-MID-EARTHREV-8",
-    "SCI-REPO-Y8-UNKNOWN-MID-EARTHREV-9",
-    "SCI-REPO-Y8-UNKNOWN-MID-EARTHREV-10",
-    "SCI-REPO-Y8-UNKNOWN-MID-EARTHREV-11",
-    "SCI-REPO-Y8-UNKNOWN-MID-EARTHREV-12",
-    "SCI-REPO-Y8-UNKNOWN-MID-EARTHREV-13",
-    "SCI-REPO-Y8-UNKNOWN-MID-EARTHREV-14"
-  ],
-  "questions": 14,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 14,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 79,
-  "reviewRequired": [
-    {
-      "id": "SCI-REPO-Y8-UNKNOWN-MID-EARTHREV-1",
-      "note": "Unmarked revision;numeric allocations proposed. Source terminology or oversimplified classification requires qualified marking."
-    },
-    {
-      "id": "SCI-REPO-Y8-UNKNOWN-MID-EARTHREV-8",
-      "note": "Unmarked revision;numeric allocations proposed. Source terminology or oversimplified classification requires qualified marking."
-    },
-    {
-      "id": "SCI-REPO-Y8-UNKNOWN-MID-EARTHREV-12",
-      "note": "Unmarked revision;numeric allocations proposed. Source terminology or oversimplified classification requires qualified marking."
-    },
-    {
-      "id": "SCI-REPO-Y8-UNKNOWN-MID-EARTHREV-14",
-      "note": "Unmarked revision;numeric allocations proposed. Source terminology or oversimplified classification requires qualified marking."
-    }
-  ],
+  "marks": 0,
+  "reviewRequired": [],
   "imageAudit": [],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Unknown/Revision for Year 8 Mid Topic Test Earth and Space Science and Investigating.docx",
-      "sha": "c05f5e969e6bc261bcd633357b0afceeb2510eaa",
-      "year": 8,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 14,
   "createdSupplements": 0,
   "notes": [
-    "All14numbered revision questions retained,including15matching responses,unit symbols,rock properties and exact four-point pebble graph. All79marks explicitly proposed;none claimed printed. Colour/vesicles do not universally distinguish intrusive/extrusive rocks;outermost-layer wording and grams-as-size corrected."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "sourceMarks": null,
     "proposedTotal": 79,
     "questions": 14
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

@@ -1,14 +1,12 @@
 {
   "batch": "repo-science-batch161",
-  "paperCount": 2,
-  "questionIds": [
-    "SCI-REPO-Y8-ARAN-ENERGYEFF-2015-project"
-  ],
-  "questions": 1,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 1,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 24,
+  "marks": 0,
   "reviewRequired": [],
   "imageAudit": [
     {
@@ -32,25 +30,12 @@
       "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
     }
   ],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2015 Energy Efficiency Assignment.docx",
-      "sha": "0240f75ef34d9dd48e400c5176ad11a551fa730e",
-      "year": 8,
-      "role": "paper"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/Year 8 Physics Energy Efficiency Assignment 2013.docx",
-      "sha": "10348ee55cce446cf827f2b173fe687d3a755092",
-      "year": 8,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 0,
   "createdSupplements": 1,
   "notes": [
-    "Both2013and2015versions reviewed;identical full research tasks/rubrics linked without duplicates.24content/reference marks selected from26total;2general presentation marks excluded. Efficiency distinguished from conservation by source instruction."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "totalPerVersion": 26,
@@ -58,24 +43,6 @@
     "presentationPerVersion": 2,
     "versions": 2
   },
-  "duplicateQuestionAliases": [
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/Year 8 Physics Energy Efficiency Assignment 2013.docx",
-      "sourceFileSha": "10348ee55cce446cf827f2b173fe687d3a755092",
-      "sourceQuestionNumber": "project",
-      "sourceParagraphs": [
-        4,
-        5,
-        6,
-        8,
-        9,
-        10,
-        11
-      ],
-      "sourceMarks": 24,
-      "sourceType": "Extended response",
-      "existingQuestionId": "SCI-REPO-Y8-ARAN-ENERGYEFF-2015-project",
-      "reason": "Equivalent source question already present; not added or counted again."
-    }
-  ]
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

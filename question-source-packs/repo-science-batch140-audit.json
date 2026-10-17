@@ -21,7 +21,7 @@
   "createdKeys": 0,
   "createdSupplements": 0,
   "notes": [
-    "Complete21question Earth Science keyed variant mapped to already reviewed grouped questions;no overlapping subparts added. All76source marks accounted for. Existing canonical keys already correct source’s Perth tide count,seasons,distance-based heating,spring-tide alignment,Crux visibility and Moon jump rounding. Generic six-hour tide predictions remain conditional classroom models,not local forecasts."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "total": 76,
@@ -380,5 +380,6 @@
       "existingQuestionId": "SCI-REPO-Y7-B09-D10-WR11",
       "reason": "Equivalent source question already present; not added or counted again."
     }
-  ]
+  ],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

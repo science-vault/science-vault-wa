@@ -1,89 +1,13 @@
 {
   "batch": "repo-science-batch52",
-  "paperCount": 4,
-  "questionIds": [
-    "SCI-REPO-Y8-ARAN-2016-HEARTRATE-definition",
-    "SCI-REPO-Y8-ARAN-2016-HEARTRATE-units",
-    "SCI-REPO-Y8-ARAN-2016-HEARTRATE-aim-title",
-    "SCI-REPO-Y8-ARAN-2016-HEARTRATE-background",
-    "SCI-REPO-Y8-ARAN-2016-HEARTRATE-hypothesis",
-    "SCI-REPO-Y8-ARAN-2016-HEARTRATE-independent",
-    "SCI-REPO-Y8-ARAN-2016-HEARTRATE-dependent",
-    "SCI-REPO-Y8-ARAN-2016-HEARTRATE-controls",
-    "SCI-REPO-Y8-ARAN-2016-HEARTRATE-materials",
-    "SCI-REPO-Y8-ARAN-2016-HEARTRATE-method",
-    "SCI-REPO-Y8-ARAN-2016-HEARTRATE-results",
-    "SCI-REPO-Y8-ARAN-2016-HEARTRATE-graph",
-    "SCI-REPO-Y8-ARAN-2016-HEARTRATE-discussion",
-    "SCI-REPO-Y8-ARAN-2016-HEARTRATE-conclusion-references",
-    "SCI-REPO-Y8-SBY-2017-SYSTEMSPRESENT-assignment",
-    "SCI-REPO-Y8-ARAN-2014-REACTIONINVEST-P1-dependent",
-    "SCI-REPO-Y8-ARAN-2014-REACTIONINVEST-P1-table",
-    "SCI-REPO-Y8-ARAN-2014-REACTIONINVEST-P1-graph",
-    "SCI-REPO-Y8-ARAN-2014-REACTIONINVEST-P1-discussion",
-    "SCI-REPO-Y8-ARAN-2014-REACTIONINVEST-P1-classification",
-    "SCI-REPO-Y8-ARAN-2014-REACTIONINVEST-P1-reason",
-    "SCI-REPO-Y8-ARAN-2014-REACTIONINVEST-P2-dependent",
-    "SCI-REPO-Y8-ARAN-2014-REACTIONINVEST-P2-table",
-    "SCI-REPO-Y8-ARAN-2014-REACTIONINVEST-P2-graph",
-    "SCI-REPO-Y8-ARAN-2014-REACTIONINVEST-P2-discussion",
-    "SCI-REPO-Y8-ARAN-2014-REACTIONINVEST-P2-classification",
-    "SCI-REPO-Y8-ARAN-2014-REACTIONINVEST-P2-reason",
-    "SCI-REPO-Y8-ARAN-2013-MODELS-station-A",
-    "SCI-REPO-Y8-ARAN-2013-MODELS-station-B",
-    "SCI-REPO-Y8-ARAN-2013-MODELS-station-C",
-    "SCI-REPO-Y8-ARAN-2013-MODELS-station-D",
-    "SCI-REPO-Y8-ARAN-2013-MODELS-station-E",
-    "SCI-REPO-Y8-ARAN-2013-MODELS-station-E-other",
-    "SCI-REPO-Y8-ARAN-2013-MODELS-station-F",
-    "SCI-REPO-Y8-ARAN-2013-MODELS-station-G",
-    "SCI-REPO-Y8-ARAN-2013-MODELS-compounds",
-    "SCI-REPO-Y8-ARAN-2013-MODELS-elements",
-    "SCI-REPO-Y8-ARAN-2013-MODELS-mixture"
-  ],
-  "questions": 38,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 38,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 112,
-  "reviewRequired": [
-    {
-      "id": "SCI-REPO-Y8-SBY-2017-SYSTEMSPRESENT-assignment",
-      "note": "Open health-research project; factual clinical claims require current condition-specific primary/public-health references. The marking guide supplies criteria, not medical advice."
-    },
-    {
-      "id": "SCI-REPO-Y8-ARAN-2013-MODELS-station-A",
-      "note": "Original physical station display is not embedded; guidance uses the explicit teacher notes. Teacher must verify the actual model and clarify source terminology."
-    },
-    {
-      "id": "SCI-REPO-Y8-ARAN-2013-MODELS-station-B",
-      "note": "Original physical station display is not embedded; guidance uses the explicit teacher notes. Teacher must verify the actual model and clarify source terminology."
-    },
-    {
-      "id": "SCI-REPO-Y8-ARAN-2013-MODELS-station-C",
-      "note": "Original physical station display is not embedded; guidance uses the explicit teacher notes. Teacher must verify the actual model and clarify source terminology."
-    },
-    {
-      "id": "SCI-REPO-Y8-ARAN-2013-MODELS-station-D",
-      "note": "Original physical station display is not embedded; guidance uses the explicit teacher notes. Teacher must verify the actual model and clarify source terminology."
-    },
-    {
-      "id": "SCI-REPO-Y8-ARAN-2013-MODELS-station-E",
-      "note": "Original physical station display is not embedded; guidance uses the explicit teacher notes. Teacher must verify the actual model and clarify source terminology."
-    },
-    {
-      "id": "SCI-REPO-Y8-ARAN-2013-MODELS-station-E-other",
-      "note": "Original physical station display is not embedded; guidance uses the explicit teacher notes. Teacher must verify the actual model and clarify source terminology."
-    },
-    {
-      "id": "SCI-REPO-Y8-ARAN-2013-MODELS-station-F",
-      "note": "Original physical station display is not embedded; guidance uses the explicit teacher notes. Teacher must verify the actual model and clarify source terminology."
-    },
-    {
-      "id": "SCI-REPO-Y8-ARAN-2013-MODELS-station-G",
-      "note": "Original physical station display is not embedded; guidance uses the explicit teacher notes. Teacher must verify the actual model and clarify source terminology."
-    }
-  ],
+  "marks": 0,
+  "reviewRequired": [],
   "imageAudit": [
     {
       "id": "e153-page3-original-molecular-model-table",
@@ -101,37 +25,12 @@
       "publishedSha256": "0779065d49013a6f296371d07c47c4da80c4dcd1ac331affa65fcb21769e066d"
     }
   ],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 8/Science/Biological Sciences/Aranmore/Year 8 Biology Investigation George's class 2016.docx",
-      "sha": "57560e0315accae551e7dc148da064cad90d9dfc",
-      "year": 8,
-      "role": "paper"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 8/Science/Biological Sciences/Safety Bay/2017/Biological Systems Presentation Assessment.docx",
-      "sha": "dd83268241b4096a02d0c904a4845a376736e543",
-      "year": 8,
-      "role": "paper"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE OBSERVING CHEMICAL REACTIONS INVESTIGATION.docx",
-      "sha": "44315f5cf76de0b56ae383acc6522fd76ad6663e",
-      "year": 8,
-      "role": "paper"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/Model Assessment 2013.docx",
-      "sha": "afaf21e07fa9a53fcfb9e0014c63ae4def2eb347",
-      "year": 8,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 38,
   "createdSupplements": 0,
   "notes": [
-    "Four complete assessment sources reviewed. Heart-rate report36 marks plus two unallocated definition/unit prompts separately proposed. Biological-systems project retains25-mark criteria without generating clinical answers for an unchosen condition. Chemical-reaction tasks retain32 scientific marks;2 presentation marks are recorded only in the audit. Molecular model native figure preserved from the original Word page; incorrect lattice-as-molecule language flagged and actual station displays require teacher verification."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "HeartRate": {
@@ -153,5 +52,6 @@
       "writtenTaskGroups": 3
     }
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

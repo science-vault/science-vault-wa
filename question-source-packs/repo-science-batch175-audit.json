@@ -95,7 +95,7 @@
   "createdKeys": 20,
   "createdSupplements": 0,
   "notes": [
-    "Complete15MCandall5written groups reviewed. Three ambiguous MCexcluded from battles. Original impossible hydrogen-creation equation retained and flagged,not silently corrected.10mark six-pair reaction task kept grouped. Solubility table typos qualified;unmarked precipitation3marks proposed."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "proposedMC": 15,
@@ -104,5 +104,6 @@
     "selectedTotal": 38,
     "noPrintedOverallTotal": true
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

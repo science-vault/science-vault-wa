@@ -1,50 +1,15 @@
 {
   "batch": "repo-science-batch98",
-  "paperCount": 2,
-  "questionIds": [
-    "SCI-REPO-Y10-SBY-2020-EVOMC-MC02",
-    "SCI-REPO-Y10-SBY-2020-EVOMC-MC03",
-    "SCI-REPO-Y10-SBY-2020-EVOMC-MC04",
-    "SCI-REPO-Y10-SBY-2020-GENEXTRA-generation",
-    "SCI-REPO-Y10-SBY-2020-GENEXTRA-homologous",
-    "SCI-REPO-Y10-SBY-2020-GENEXTRA-artificial",
-    "SCI-REPO-Y10-SBY-2020-GENEXTRA-MC01",
-    "SCI-REPO-Y10-SBY-2020-GENEXTRA-MC02",
-    "SCI-REPO-Y10-SBY-2020-GENEXTRA-MC03",
-    "SCI-REPO-Y10-SBY-2020-GENEXTRA-MC04",
-    "SCI-REPO-Y10-SBY-2020-GENEXTRA-MC05",
-    "SCI-REPO-Y10-SBY-2020-GENEXTRA-MC06",
-    "SCI-REPO-Y10-SBY-2020-GENEXTRA-MC07",
-    "SCI-REPO-Y10-SBY-2020-GENEXTRA-MC08",
-    "SCI-REPO-Y10-SBY-2020-GENEXTRA-growth",
-    "SCI-REPO-Y10-SBY-2020-GENEXTRA-gametes"
-  ],
-  "questions": 16,
-  "multipleChoice": 11,
-  "writtenQuestions": 5,
-  "battleEligible": 10,
-  "marks": 19,
-  "reviewRequired": [
-    {
-      "id": "SCI-REPO-Y10-SBY-2020-GENEXTRA-MC04",
-      "note": "Dominant is the intended option,but “more strongly inherited”is not the definition. Dominance concerns heterozygote expression,not inheritance frequency,strength or superiority."
-    }
-  ],
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
+  "multipleChoice": 0,
+  "writtenQuestions": 0,
+  "battleEligible": 0,
+  "marks": 0,
+  "reviewRequired": [],
   "imageAudit": [],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/Extras/M choice questions.docx",
-      "sha": "50163185ef58247762941f458f5e48edcdf67048",
-      "year": 10,
-      "role": "paper"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/extra questions.docx",
-      "sha": "689f64bac95071a406945d1c7c9c07c36c4e0147",
-      "year": 10,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [
     {
       "id": "sci-repo-y10-sby-2020-evomc-mc-1",
@@ -82,7 +47,7 @@
   "createdKeys": 16,
   "createdSupplements": 0,
   "notes": [
-    "All4selection/fossilMC and completeextra-genetics sheet reviewed. Source declares10MCmarks but prints9items,one repeated phenotype question;no10thstem invented. Definitions6marks and2writtenmarks retained. Misleading “strongerinheritance”dominance wording manuallyreviewed."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "evolutionMC": "4items;marksproposed",
@@ -92,38 +57,6 @@
     "extraMCRepeatedPhenotype": true,
     "extraWritten": 2
   },
-  "duplicateQuestionAliases": [
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/Extras/M choice questions.docx",
-      "sourceFileSha": "50163185ef58247762941f458f5e48edcdf67048",
-      "sourceQuestionNumber": "1",
-      "sourceParagraphs": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "sourceMarks": 1,
-      "sourceType": "Multiple choice",
-      "existingQuestionId": "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-MC01",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/extra questions.docx",
-      "sourceFileSha": "689f64bac95071a406945d1c7c9c07c36c4e0147",
-      "sourceQuestionNumber": "9",
-      "sourceParagraphs": [
-        48,
-        49,
-        50,
-        51,
-        52
-      ],
-      "sourceMarks": 1,
-      "sourceType": "Multiple choice",
-      "existingQuestionId": "SCI-REPO-Y10-SBY-2020-GENEXTRA-MC08",
-      "reason": "Equivalent source question already present; not added or counted again."
-    }
-  ]
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

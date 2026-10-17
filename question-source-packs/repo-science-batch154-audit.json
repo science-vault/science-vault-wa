@@ -108,7 +108,7 @@
   "createdKeys": 19,
   "createdSupplements": 0,
   "notes": [
-    "Complete45mark small-group physics test reviewed:15MC+30written. Original archer,thermos,house-insulation and graph-grid figures visually checked/preserved. Corrected three/four-brand wording and flagged falling-boy/lid MCambiguities. Supplied temperature data retained exactly;no current product recommendation implied."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "MC": 15,
@@ -148,5 +148,6 @@
       "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC03",
       "reason": "Equivalent source question already present; not added or counted again."
     }
-  ]
+  ],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

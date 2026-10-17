@@ -1,26 +1,7 @@
 {
   "batch": "repo-science-batch61",
-  "paperCount": 3,
+  "paperCount": 2,
   "questionIds": [
-    "SCI-REPO-Y7-SBY-2017-MACHINESREV-load",
-    "SCI-REPO-Y7-SBY-2017-MACHINESREV-effort",
-    "SCI-REPO-Y7-SBY-2017-MACHINESREV-force-magnifier",
-    "SCI-REPO-Y7-SBY-2017-MACHINESREV-fulcrum",
-    "SCI-REPO-Y7-SBY-2017-MACHINESREV-machine",
-    "SCI-REPO-Y7-SBY-2017-MACHINESREV-screw",
-    "SCI-REPO-Y7-SBY-2017-MACHINESREV-stone-tools",
-    "SCI-REPO-Y7-SBY-2017-MACHINESREV-eggbeater",
-    "SCI-REPO-Y7-SBY-2017-MACHINESREV-bottlecap",
-    "SCI-REPO-Y7-SBY-2017-MACHINESREV-wedge",
-    "SCI-REPO-Y7-SBY-2017-MACHINESREV-ma-formula",
-    "SCI-REPO-Y7-SBY-2017-MACHINESREV-ma-mass",
-    "SCI-REPO-Y7-SBY-2017-MACHINESREV-jack",
-    "SCI-REPO-Y7-SBY-2017-MACHINESREV-jack-explain",
-    "SCI-REPO-Y7-SBY-2017-MACHINESREV-examples",
-    "SCI-REPO-Y7-SBY-2017-MACHINESREV-crowbar",
-    "SCI-REPO-Y7-SBY-2017-MACHINESREV-lever-types",
-    "SCI-REPO-Y7-SBY-2017-MACHINESREV-pulley-effort",
-    "SCI-REPO-Y7-SBY-2017-MACHINESREV-pulley-ma",
     "SCI-REPO-Y8-SBY-2017-MICROSCOPE-history",
     "SCI-REPO-Y8-SBY-2017-MICROSCOPE-light-electron",
     "SCI-REPO-Y8-SBY-2017-MICROSCOPE-tem-sem",
@@ -33,20 +14,12 @@
     "SCI-REPO-Y8-SBY-2018-MICROSCOPE-uses",
     "SCI-REPO-Y8-SBY-2018-MICROSCOPE-magnification"
   ],
-  "questions": 30,
+  "questions": 11,
   "multipleChoice": 0,
-  "writtenQuestions": 30,
+  "writtenQuestions": 11,
   "battleEligible": 0,
-  "marks": 70,
+  "marks": 39,
   "reviewRequired": [
-    {
-      "id": "SCI-REPO-Y7-SBY-2017-MACHINESREV-ma-mass",
-      "note": "All marks are proposed because revision sheet supplies no allocations. Source mass/force unit inconsistency explicitly corrected."
-    },
-    {
-      "id": "SCI-REPO-Y7-SBY-2017-MACHINESREV-jack-explain",
-      "note": "All marks are proposed because revision sheet supplies no allocations."
-    },
     {
       "id": "SCI-REPO-Y8-SBY-2017-MICROSCOPE-history",
       "note": "History examples require verified sources; magnification table leaves objective powers unspecified."
@@ -78,12 +51,6 @@
   ],
   "sources": [
     {
-      "path": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Safety bay/2017/Revision questions on simple machines.docx",
-      "sha": "b92edea46bfc9f31d2e0787525a391b19cc47f29",
-      "year": 7,
-      "role": "paper"
-    },
-    {
       "path": "resources/Assessments/Lowerschool/Year 8/Science/Biological Sciences/Safety Bay/2017/Year 8 Microscope Assessment 2017.docx",
       "sha": "b0c874ff5b7fb7abc52ee58e178a130fdb328415",
       "year": 8,
@@ -100,7 +67,7 @@
   "createdKeys": 30,
   "createdSupplements": 0,
   "notes": [
-    "All19 simple-machines revision prompts preserved with proposed marks; original pulley figure checked visually.40kg versus10N unit mismatch flagged, not silently changed. Two complete23-mark microscope variants reviewed, original empty table structures retained, missing magnification inputs flagged. Equivalent questions deduplicated."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "simpleMachines": "Unmarked source; allocations proposed",
@@ -138,5 +105,6 @@
       "existingQuestionId": "SCI-REPO-Y8-SBY-2017-MICROSCOPE-image",
       "reason": "Equivalent source question already present; not added or counted again."
     }
-  ]
+  ],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

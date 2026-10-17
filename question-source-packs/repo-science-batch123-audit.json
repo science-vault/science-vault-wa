@@ -1,42 +1,13 @@
 {
   "batch": "repo-science-batch123",
-  "paperCount": 1,
-  "questionIds": [
-    "SCI-REPO-Y10-SBY-2020-EVOLUTIONSA-evolution",
-    "SCI-REPO-Y10-SBY-2020-EVOLUTIONSA-generation",
-    "SCI-REPO-Y10-SBY-2020-EVOLUTIONSA-homologous",
-    "SCI-REPO-Y10-SBY-2020-EVOLUTIONSA-artificial",
-    "SCI-REPO-Y10-SBY-2020-EVOLUTIONSA-gene-pool",
-    "SCI-REPO-Y10-SBY-2020-EVOLUTIONSA-pool-change",
-    "SCI-REPO-Y10-SBY-2020-EVOLUTIONSA-resistance",
-    "SCI-REPO-Y10-SBY-2020-EVOLUTIONSA-examples",
-    "SCI-REPO-Y10-SBY-2020-EVOLUTIONSA-fittest",
-    "SCI-REPO-Y10-SBY-2020-EVOLUTIONSA-steps",
-    "SCI-REPO-Y10-SBY-2020-EVOLUTIONSA-fossils",
-    "SCI-REPO-Y10-SBY-2020-EVOLUTIONSA-19",
-    "SCI-REPO-Y10-SBY-2020-EVOLUTIONSA-20",
-    "SCI-REPO-Y10-SBY-2020-EVOLUTIONSA-21",
-    "SCI-REPO-Y10-SBY-2020-EVOLUTIONSA-22a",
-    "SCI-REPO-Y10-SBY-2020-EVOLUTIONSA-22b",
-    "SCI-REPO-Y10-SBY-2020-EVOLUTIONSA-23",
-    "SCI-REPO-Y10-SBY-2020-EVOLUTIONSA-24",
-    "SCI-REPO-Y10-SBY-2020-EVOLUTIONSA-25"
-  ],
-  "questions": 19,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 19,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 51,
-  "reviewRequired": [
-    {
-      "id": "SCI-REPO-Y10-SBY-2020-EVOLUTIONSA-19",
-      "note": "Source historical/constant-population wording needs qualification."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2020-EVOLUTIONSA-25",
-      "note": "Source historical/constant-population wording needs qualification."
-    }
-  ],
+  "marks": 0,
+  "reviewRequired": [],
   "imageAudit": [
     {
       "id": "e355-image1",
@@ -49,24 +20,18 @@
       "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
     }
   ],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/Extras/SA questions.docx",
-      "sha": "98e498209a3d90e8205bce745c7903cb4a294ea4",
-      "year": 10,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 19,
   "createdSupplements": 0,
   "notes": [
-    "Complete evolution short/extended-answer resource reviewed;all supplied moth counts checked. Historical first-observation claims qualified. Definition8marks split2each;two unmarked gene-pool prompts2each proposed. No population counts invented."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "printedTaskMarks": 47,
     "genePoolProposed": 4,
     "selectedTotal": 51
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

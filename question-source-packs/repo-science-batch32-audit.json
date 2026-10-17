@@ -116,7 +116,7 @@
   "createdKeys": 21,
   "createdSupplements": 0,
   "notes": [
-    "Complete40-mark chemistry paper with supplied atom and periodic-reference figures retained. Source oversimplifications about argon shell capacity, corrosivity and valence trends explicitly moderated. Shampoo data kept with precision/design limitations."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "Chemical sciences test2": {
@@ -126,5 +126,6 @@
       "finalTableResponseCells": 15
     }
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

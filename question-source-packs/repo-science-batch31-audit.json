@@ -40,19 +40,13 @@
       "sha": "050e42ba17e6dc61f7714f60a8073599f827ce08",
       "year": 9,
       "role": "paper"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Narrogin/2022/9Sc1Response to Infection TestExtended Answers5 mark1-Marking Guide.docx",
-      "sha": "27b1a9a6412887b8ebfdfbf5d5f1ac9b84aaac3e",
-      "year": 9,
-      "role": "key_reference"
     }
   ],
   "gameMeta": [],
   "createdKeys": 5,
   "createdSupplements": 4,
   "notes": [
-    "Toolibin excursion validation checked against primary Australian/WA government sources. Four optional infection extension prompts retained individually; supplied vaccine/immune-memory/T-cell key errors explicitly corrected. No automatic battle questions."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "Toolibin validation": {
@@ -66,5 +60,6 @@
       "sourceInstruction": "Complete one fully, then attempt a second if appropriate."
     }
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

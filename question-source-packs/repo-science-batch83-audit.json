@@ -1,50 +1,26 @@
 {
   "batch": "repo-science-batch83",
-  "paperCount": 1,
-  "questionIds": [
-    "SCI-REPO-Y8-NARR-2023-CRYSTALS-title",
-    "SCI-REPO-Y8-NARR-2023-CRYSTALS-aimhypothesis",
-    "SCI-REPO-Y8-NARR-2023-CRYSTALS-equipment",
-    "SCI-REPO-Y8-NARR-2023-CRYSTALS-procedure",
-    "SCI-REPO-Y8-NARR-2023-CRYSTALS-diagram",
-    "SCI-REPO-Y8-NARR-2023-CRYSTALS-independent",
-    "SCI-REPO-Y8-NARR-2023-CRYSTALS-dependent",
-    "SCI-REPO-Y8-NARR-2023-CRYSTALS-controls",
-    "SCI-REPO-Y8-NARR-2023-CRYSTALS-results",
-    "SCI-REPO-Y8-NARR-2023-CRYSTALS-graph",
-    "SCI-REPO-Y8-NARR-2023-CRYSTALS-discussion",
-    "SCI-REPO-Y8-NARR-2023-CRYSTALS-conclusion"
-  ],
-  "questions": 12,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 12,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 18,
-  "reviewRequired": [
-    {
-      "id": "SCI-REPO-Y8-NARR-2023-CRYSTALS-discussion",
-      "note": "Source blanket temperature/solubility and supersaturation claims require qualification."
-    }
-  ],
+  "marks": 0,
+  "reviewRequired": [],
   "imageAudit": [],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Narrogin/2023/Y8 crystal investigation 2024 goc.docx",
-      "sha": "f8eda90051ca97477d12e43487981616f718485c",
-      "year": 8,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 12,
   "createdSupplements": 0,
   "notes": [
-    "Complete20-mark crystal investigation:18task marks plus2presentation. Actual student observations required;source universal solubility/supersaturation claims corrected.2023folder/2024filename conflict retained."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "cover": 20,
     "taskMarks": 18,
     "presentationOnly": 2
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

@@ -21,7 +21,7 @@
   "createdKeys": 0,
   "createdSupplements": 0,
   "notes": [
-    "Entire undated mid-topic test checked against its2013 answered counterpart: sixteen MC and thirteen written prompts including the unallocated introductory response. No questions recounted. Diagrams verified from embedded originals; only mouse/cattle photographs differ in image encoding/crop without changing the assessed task. Incorrect mutualism inline answer is absent in this unfilled variant; canonical corrected guidance remains."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "Mid-topic": {
@@ -264,5 +264,6 @@
       "reason": "Same complete question/answer choices as the2013 answered test, with inline answers removed. Food-web diagrams and most photographs are byte-identical; hopping-mouse and cattle-egret photo variants visually checked and depict the same features/relationships.",
       "sourceLocatorBasis": "MC1–16; written1a/1b, unallocated2intro and2T/F,3a/3b,4a/4b/4c,5,6,7a/7b match the reviewed2013 counterpart in order."
     }
-  ]
+  ],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

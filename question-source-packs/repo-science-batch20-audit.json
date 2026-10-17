@@ -86,7 +86,7 @@
   "createdKeys": 9,
   "createdSupplements": 1,
   "notes": [
-    "Three remaining chemical-reaction variants reviewed in full. Repeated extended-exam and reaction-type tasks mapped explicitly; 2018 acid-rain extension retained as its original grouped five-mark task. Source-native equation images visually checked against existing equations before aliasing."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "2018 variant": {
@@ -1112,5 +1112,6 @@
       "existingQuestionId": "SCI-REPO-Y9-SBY-2017-EXT-28c",
       "reason": "Equivalent task and response context already imported; original numbering retained as source alias."
     }
-  ]
+  ],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

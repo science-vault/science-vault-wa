@@ -1,80 +1,20 @@
 {
   "batch": "repo-science-batch103",
-  "paperCount": 2,
-  "questionIds": [
-    "SCI-REPO-Y9-ARAN-2015-SOUNDPROOF-intro",
-    "SCI-REPO-Y9-ARAN-2015-SOUNDPROOF-hypothesis",
-    "SCI-REPO-Y9-ARAN-2015-SOUNDPROOF-independent",
-    "SCI-REPO-Y9-ARAN-2015-SOUNDPROOF-dependent",
-    "SCI-REPO-Y9-ARAN-2015-SOUNDPROOF-controls",
-    "SCI-REPO-Y9-ARAN-2015-SOUNDPROOF-methodcost",
-    "SCI-REPO-Y9-ARAN-2015-SOUNDPROOF-table",
-    "SCI-REPO-Y9-ARAN-2015-SOUNDPROOF-graph",
-    "SCI-REPO-Y9-ARAN-2015-SOUNDPROOF-conclusion",
-    "SCI-REPO-Y9-ARAN-2015-SOUNDPROOF-review1",
-    "SCI-REPO-Y9-ARAN-2015-SOUNDPROOF-review2",
-    "SCI-REPO-Y9-ARAN-2015-SOUNDPROOF-review3",
-    "SCI-REPO-Y9-ARAN-2015-SOUNDPROOF-review4",
-    "SCI-REPO-Y9-ARAN-2014-BASEISOLATION-title",
-    "SCI-REPO-Y9-ARAN-2014-BASEISOLATION-intro",
-    "SCI-REPO-Y9-ARAN-2014-BASEISOLATION-aim",
-    "SCI-REPO-Y9-ARAN-2014-BASEISOLATION-hypothesis",
-    "SCI-REPO-Y9-ARAN-2014-BASEISOLATION-independent",
-    "SCI-REPO-Y9-ARAN-2014-BASEISOLATION-dependent",
-    "SCI-REPO-Y9-ARAN-2014-BASEISOLATION-controls",
-    "SCI-REPO-Y9-ARAN-2014-BASEISOLATION-materials",
-    "SCI-REPO-Y9-ARAN-2014-BASEISOLATION-method",
-    "SCI-REPO-Y9-ARAN-2014-BASEISOLATION-diagrams",
-    "SCI-REPO-Y9-ARAN-2014-BASEISOLATION-reliability",
-    "SCI-REPO-Y9-ARAN-2014-BASEISOLATION-table",
-    "SCI-REPO-Y9-ARAN-2014-BASEISOLATION-graph",
-    "SCI-REPO-Y9-ARAN-2014-BASEISOLATION-discussion",
-    "SCI-REPO-Y9-ARAN-2014-BASEISOLATION-conclusion",
-    "SCI-REPO-Y9-ARAN-2014-BASEISOLATION-references"
-  ],
-  "questions": 29,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 29,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 82,
-  "reviewRequired": [
-    {
-      "id": "SCI-REPO-Y9-ARAN-2015-SOUNDPROOF-review1",
-      "note": "Current legal/health research task;date and authoritative sources supplied for teacher review."
-    },
-    {
-      "id": "SCI-REPO-Y9-ARAN-2015-SOUNDPROOF-review2",
-      "note": "Current legal/health research task;date and authoritative sources supplied for teacher review."
-    },
-    {
-      "id": "SCI-REPO-Y9-ARAN-2015-SOUNDPROOF-review3",
-      "note": "Current legal/health research task;date and authoritative sources supplied for teacher review."
-    },
-    {
-      "id": "SCI-REPO-Y9-ARAN-2015-SOUNDPROOF-review4",
-      "note": "Current legal/health research task;date and authoritative sources supplied for teacher review."
-    }
-  ],
+  "marks": 0,
+  "reviewRequired": [],
   "imageAudit": [],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 9/Science/Physics/Aranmore/2015 Soundproofing Investigation.docx",
-      "sha": "1ddb402bc1a6c86af12483f0a815e19a35532806",
-      "year": 9,
-      "role": "paper"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Aranmore/2014 Base Isolation Investigation.docx",
-      "sha": "9267c0c43d9bb267ec068c385c5c54ced61e85e3",
-      "year": 9,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 0,
   "createdSupplements": 29,
   "notes": [
-    "Bothcomplete design investigations reviewed. Soundproofing practical23includes1review-completion mark;reviewquestions21so printed23+21=43is inconsistent(arithmetic44). Selectedscience tasks22+21=43with completion1logged separately. CurrentWAnoise and hearing-management guidance checked against official sources. Baseisolation42=39task+3presentation."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "sound": {
@@ -91,5 +31,6 @@
       "presentation": 3
     }
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

@@ -42,7 +42,7 @@
   "createdKeys": 0,
   "createdSupplements": 3,
   "notes": [
-    "Full 2015 physics variant reviewed, including its embedded solutions. Seventeen repeated MC and eighteen repeated written parts explicitly mapped to existing 2013 source records. Only the three distinct MC prompts are added. Matching cooling-data tables checked directly, and worked solution section is not counted as questions."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "Physics end-topic": {
@@ -453,5 +453,6 @@
       "existingQuestionId": "SCI-REPO-Y8-ARAN-2013-PHYSEND-8e",
       "reason": "Same source task and context in the 2013 end-topic paper; not added or counted again."
     }
-  ]
+  ],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

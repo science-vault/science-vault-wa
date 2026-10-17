@@ -1,29 +1,20 @@
 {
   "batch": "repo-science-batch182",
-  "paperCount": 1,
-  "questionIds": [
-    "SCI-REPO-Y9-SBY-2018-VOLCANOMODELRUBRIC-project"
-  ],
-  "questions": 1,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 1,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 28,
+  "marks": 0,
   "reviewRequired": [],
   "imageAudit": [],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 9/Science/Earth and Space/Safety Bay/2018/Volcano Model and Report Marking Key.docx",
-      "sha": "e0497c0dd5eee1f8f83508d6d299f00b42bb2ff7",
-      "year": 9,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 0,
   "createdSupplements": 1,
   "notes": [
-    "Full35mark volcano model/report rubric reviewed. One linked28mark science/function task preserves all content requirements without overlapping subparts;7style/aesthetic marks logged separately. No source recipe,diagram or measurements invented."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "total": 35,
@@ -31,5 +22,6 @@
     "styleAesthetics": 7,
     "tasks": 1
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

@@ -1,35 +1,13 @@
 {
   "batch": "repo-science-batch177",
-  "paperCount": 1,
-  "questionIds": [
-    "SCI-REPO-Y8-ARAN-CRYSTALCOOL-SCAFFOLD-title-aim",
-    "SCI-REPO-Y8-ARAN-CRYSTALCOOL-SCAFFOLD-background",
-    "SCI-REPO-Y8-ARAN-CRYSTALCOOL-SCAFFOLD-hypothesis",
-    "SCI-REPO-Y8-ARAN-CRYSTALCOOL-SCAFFOLD-variables",
-    "SCI-REPO-Y8-ARAN-CRYSTALCOOL-SCAFFOLD-materials",
-    "SCI-REPO-Y8-ARAN-CRYSTALCOOL-SCAFFOLD-method",
-    "SCI-REPO-Y8-ARAN-CRYSTALCOOL-SCAFFOLD-diagram",
-    "SCI-REPO-Y8-ARAN-CRYSTALCOOL-SCAFFOLD-reliability",
-    "SCI-REPO-Y8-ARAN-CRYSTALCOOL-SCAFFOLD-results",
-    "SCI-REPO-Y8-ARAN-CRYSTALCOOL-SCAFFOLD-graph",
-    "SCI-REPO-Y8-ARAN-CRYSTALCOOL-SCAFFOLD-discussion",
-    "SCI-REPO-Y8-ARAN-CRYSTALCOOL-SCAFFOLD-conclusion"
-  ],
-  "questions": 12,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 12,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 37,
-  "reviewRequired": [
-    {
-      "id": "SCI-REPO-Y8-ARAN-CRYSTALCOOL-SCAFFOLD-reliability",
-      "note": "Prompt/rubric reliability mismatch and required graph type need teacher moderation."
-    },
-    {
-      "id": "SCI-REPO-Y8-ARAN-CRYSTALCOOL-SCAFFOLD-graph",
-      "note": "Prompt/rubric reliability mismatch and required graph type need teacher moderation."
-    }
-  ],
+  "marks": 0,
+  "reviewRequired": [],
   "imageAudit": [
     {
       "id": "e415-image2",
@@ -42,19 +20,12 @@
       "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
     }
   ],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Aranmore/Crystal Cooling Investigation with scaffold.docx",
-      "sha": "3e4b3f985c02489fd9800bb035123e37bfd881fa",
-      "year": 8,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 0,
   "createdSupplements": 12,
   "notes": [
-    "All scaffolded report requirements retained in12linked tasks. Prompt allocations sum37versus rubric38:reliability2onprompt/3inrubric. Actual copper-sulfate investigation distinguished from other alum practicals. Graph instruction qualified for data type;actual experiment/data required."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "printedRubric": 38,
@@ -66,5 +37,6 @@
     },
     "tasks": 12
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

@@ -118,7 +118,7 @@
   "createdKeys": 18,
   "createdSupplements": 0,
   "notes": [
-    "Complete 43-mark practical-skills quiz. Word crop settings respected: the measurement figure shows the intended eye diagram rather than uncropped answer annotations outside its display window. Created guidance separates food intake from measured energy expenditure and playback endurance from strict energy efficiency."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "Practical skills mini quiz": {
@@ -127,5 +127,6 @@
       "conversionTableAllocation": "Three unit/symbol blanks at1 each; three conversion rows at1 each, split over their two converted blanks."
     }
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

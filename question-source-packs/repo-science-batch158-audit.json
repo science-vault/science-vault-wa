@@ -1,65 +1,25 @@
 {
   "batch": "repo-science-batch158",
-  "paperCount": 2,
-  "questionIds": [
-    "SCI-REPO-Y8-ELEMENTPOSTER-2018-project"
-  ],
-  "questions": 1,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 1,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 20,
+  "marks": 0,
   "reviewRequired": [],
   "imageAudit": [],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Safety Bay/2018/Year 8 Science Element research assignment.docx",
-      "sha": "cfd479869f604923e377669340cdc5fee1591d1d",
-      "year": 8,
-      "role": "paper"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Safety Bay/2017/Year 8 Science Element research assignment.docx",
-      "sha": "cb4d786ee69ec41926413579867a26b030998277",
-      "year": 8,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 0,
   "createdSupplements": 1,
   "notes": [
-    "Both2017and2018versions reviewed against identical20mark rubrics. One linked poster task preserves all12requirements and avoids overlapping component questions. Wording/spacing changes do not create duplicate selectable records."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "totalPerVersion": 20,
     "versions": 2
   },
-  "duplicateQuestionAliases": [
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Safety Bay/2017/Year 8 Science Element research assignment.docx",
-      "sourceFileSha": "cb4d786ee69ec41926413579867a26b030998277",
-      "sourceQuestionNumber": "project",
-      "sourceParagraphs": [
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17
-      ],
-      "sourceMarks": 20,
-      "sourceType": "Extended response",
-      "existingQuestionId": "SCI-REPO-Y8-ELEMENTPOSTER-2018-project",
-      "reason": "Equivalent source question already present; not added or counted again."
-    }
-  ]
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

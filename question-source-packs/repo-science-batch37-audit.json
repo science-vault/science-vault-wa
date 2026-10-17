@@ -68,7 +68,7 @@
   "createdKeys": 18,
   "createdSupplements": 0,
   "notes": [
-    "Two complete Kolbe formative papers. Particle-model source supplies no marks: proposed scoring clearly labelled. Physical/chemical-change source keeps its28-mark total and grouped eight-mark table despite an unexplained five-row allocation. Nearby states-of-matter answer document is a different worksheet and was not misapplied."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "Particle model": {
@@ -80,5 +80,6 @@
       "sourceTaskMarksBeforeDeduplication": 28
     }
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

@@ -1,87 +1,25 @@
 {
   "batch": "repo-science-batch110",
-  "paperCount": 1,
-  "questionIds": [
-    "SCI-REPO-Y10-ARAN-WORDCONNECT-1",
-    "SCI-REPO-Y10-ARAN-WORDCONNECT-2",
-    "SCI-REPO-Y10-ARAN-WORDCONNECT-3",
-    "SCI-REPO-Y10-ARAN-WORDCONNECT-4",
-    "SCI-REPO-Y10-ARAN-WORDCONNECT-5",
-    "SCI-REPO-Y10-ARAN-WORDCONNECT-6",
-    "SCI-REPO-Y10-ARAN-WORDCONNECT-7",
-    "SCI-REPO-Y10-ARAN-WORDCONNECT-8",
-    "SCI-REPO-Y10-ARAN-WORDCONNECT-9",
-    "SCI-REPO-Y10-ARAN-WORDCONNECT-10",
-    "SCI-REPO-Y10-ARAN-WORDCONNECT-11",
-    "SCI-REPO-Y10-ARAN-WORDCONNECT-12",
-    "SCI-REPO-Y10-ARAN-WORDCONNECT-13",
-    "SCI-REPO-Y10-ARAN-WORDCONNECT-14",
-    "SCI-REPO-Y10-ARAN-WORDCONNECT-15",
-    "SCI-REPO-Y10-ARAN-WORDCONNECT-16",
-    "SCI-REPO-Y10-ARAN-WORDCONNECT-17",
-    "SCI-REPO-Y10-ARAN-WORDCONNECT-18",
-    "SCI-REPO-Y10-ARAN-WORDCONNECT-19",
-    "SCI-REPO-Y10-ARAN-WORDCONNECT-20",
-    "SCI-REPO-Y10-ARAN-WORDCONNECT-21",
-    "SCI-REPO-Y10-ARAN-WORDCONNECT-22",
-    "SCI-REPO-Y10-ARAN-WORDCONNECT-23",
-    "SCI-REPO-Y10-ARAN-WORDCONNECT-24",
-    "SCI-REPO-Y10-ARAN-WORDCONNECT-25",
-    "SCI-REPO-Y10-ARAN-WORDCONNECT-26"
-  ],
-  "questions": 26,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 26,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 26,
-  "reviewRequired": [
-    {
-      "id": "SCI-REPO-Y10-ARAN-WORDCONNECT-6",
-      "note": "One proposed mark per source vocabulary row. Checked supplement qualifies the source definition; evaporation has no supplied matching definition."
-    },
-    {
-      "id": "SCI-REPO-Y10-ARAN-WORDCONNECT-9",
-      "note": "One proposed mark per source vocabulary row. Checked supplement qualifies the source definition; evaporation has no supplied matching definition."
-    },
-    {
-      "id": "SCI-REPO-Y10-ARAN-WORDCONNECT-15",
-      "note": "One proposed mark per source vocabulary row. Checked supplement qualifies the source definition; evaporation has no supplied matching definition."
-    },
-    {
-      "id": "SCI-REPO-Y10-ARAN-WORDCONNECT-16",
-      "note": "One proposed mark per source vocabulary row. Checked supplement qualifies the source definition; evaporation has no supplied matching definition."
-    },
-    {
-      "id": "SCI-REPO-Y10-ARAN-WORDCONNECT-19",
-      "note": "One proposed mark per source vocabulary row. Checked supplement qualifies the source definition; evaporation has no supplied matching definition."
-    },
-    {
-      "id": "SCI-REPO-Y10-ARAN-WORDCONNECT-23",
-      "note": "One proposed mark per source vocabulary row. Checked supplement qualifies the source definition; evaporation has no supplied matching definition."
-    },
-    {
-      "id": "SCI-REPO-Y10-ARAN-WORDCONNECT-24",
-      "note": "One proposed mark per source vocabulary row. Checked supplement qualifies the source definition; evaporation has no supplied matching definition."
-    }
-  ],
+  "marks": 0,
+  "reviewRequired": [],
   "imageAudit": [],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/Word conection revision.docx",
-      "sha": "a8b9aed61e259326e235c538be2d5a3fd9550bf8",
-      "year": 10,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 0,
   "createdSupplements": 26,
   "notes": [
-    "All26vocabulary rows retained. Unused vibration-transfer fragment not counted as another question. Source definition for evaporation absent; supplement provided. Inertia/firstlaw,supernova,respiration andbuckling distinctions made explicit."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "printedMarks": null,
     "proposed": 26
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

@@ -1,23 +1,12 @@
 {
   "batch": "repo-science-batch96",
-  "paperCount": 1,
-  "questionIds": [
-    "SCI-REPO-Y9-NARR-2021-PRECIP-prediction",
-    "SCI-REPO-Y9-NARR-2021-PRECIP-observation",
-    "SCI-REPO-Y9-NARR-2021-PRECIP-precipitate",
-    "SCI-REPO-Y9-NARR-2021-PRECIP-chemical",
-    "SCI-REPO-Y9-NARR-2021-PRECIP-products",
-    "SCI-REPO-Y9-NARR-2021-PRECIP-gas",
-    "SCI-REPO-Y9-NARR-2021-PRECIP-solid",
-    "SCI-REPO-Y9-NARR-2021-PRECIP-reactant-atoms",
-    "SCI-REPO-Y9-NARR-2021-PRECIP-product-atoms",
-    "SCI-REPO-Y9-NARR-2021-PRECIP-balanced"
-  ],
-  "questions": 10,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 10,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 20,
+  "marks": 0,
   "reviewRequired": [],
   "imageAudit": [
     {
@@ -31,19 +20,12 @@
       "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
     }
   ],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 9/Science/Chemistry/Narrogin/2021/chemical reactns prac.docx",
-      "sha": "aff7a14f0ba51c3179086d44329ea31f121ff911",
-      "year": 9,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 0,
   "createdSupplements": 10,
   "notes": [
-    "All10distinct pupil prompts extracted;matching teacher section used as supplied key rather than imported again. Original particle/equation image preserved. Atom totals verified both sides;source unmarked,proposed20marks explicitly labelled."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "sourceMarks": null,
@@ -51,5 +33,6 @@
     "distinctPupilPrompts": 10,
     "teacherDuplicateCounted": false
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

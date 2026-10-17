@@ -307,7 +307,7 @@
   "createdKeys": 24,
   "createdSupplements": 0,
   "notes": [
-    "Four complete35-mark chemistry tests reviewed with source-native diagram crops and all11state-change labels retained. MCplasma,bond terminology and concentration denominator issues flagged. Modified word bank omits sublimation. Steam/mist and solute/solvent definition errors explicitly corrected in manual guidance;duplicate MC reviews recorded for canonical follow-through."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "eachPaper": 35,
@@ -831,5 +831,6 @@
       "existingQuestionId": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-V5",
       "reason": "Equivalent source question already present; not added or counted again."
     }
-  ]
+  ],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

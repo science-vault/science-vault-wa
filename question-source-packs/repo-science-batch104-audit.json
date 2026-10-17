@@ -43,7 +43,7 @@
   "createdKeys": 4,
   "createdSupplements": 0,
   "notes": [
-    "Three partial response sheets reviewed. Retained only four explicit tasks (18 marks). No embedded media present; missing MC stems, labelled diagrams and numerical scenarios cannot be reconstructed from blank slots. Original paper totals do not describe the recovered subset."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "biologyRecovered": 2,
@@ -51,5 +51,6 @@
     "physicsRecovered": 9,
     "partialSources": true
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

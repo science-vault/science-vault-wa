@@ -1,68 +1,20 @@
 {
   "batch": "repo-science-batch62",
-  "paperCount": 2,
-  "questionIds": [
-    "SCI-REPO-Y8-ARAN-2013-DENSITY-title",
-    "SCI-REPO-Y8-ARAN-2013-DENSITY-aim",
-    "SCI-REPO-Y8-ARAN-2013-DENSITY-hypothesis",
-    "SCI-REPO-Y8-ARAN-2013-DENSITY-independent",
-    "SCI-REPO-Y8-ARAN-2013-DENSITY-dependent",
-    "SCI-REPO-Y8-ARAN-2013-DENSITY-controls",
-    "SCI-REPO-Y8-ARAN-2013-DENSITY-materials",
-    "SCI-REPO-Y8-ARAN-2013-DENSITY-method",
-    "SCI-REPO-Y8-ARAN-2013-DENSITY-diagram",
-    "SCI-REPO-Y8-ARAN-2013-DENSITY-reliability",
-    "SCI-REPO-Y8-ARAN-2013-DENSITY-table",
-    "SCI-REPO-Y8-ARAN-2013-DENSITY-calculations",
-    "SCI-REPO-Y8-ARAN-2013-DENSITY-graph",
-    "SCI-REPO-Y8-ARAN-2013-DENSITY-discussion",
-    "SCI-REPO-Y8-ARAN-2013-DENSITY-finding",
-    "SCI-REPO-Y8-ARAN-2013-DENSITY-support",
-    "SCI-REPO-Y8-ARAN-2013-DENSITY-research",
-    "SCI-REPO-Y8-SBY-2018-ENERGYSOURCES-renewable",
-    "SCI-REPO-Y8-SBY-2018-ENERGYSOURCES-nonrenewable",
-    "SCI-REPO-Y8-SBY-2018-ENERGYSOURCES-five-renewables",
-    "SCI-REPO-Y8-SBY-2018-ENERGYSOURCES-three-nonrenewables",
-    "SCI-REPO-Y8-SBY-2018-ENERGYSOURCES-advantages",
-    "SCI-REPO-Y8-SBY-2018-ENERGYSOURCES-disadvantages",
-    "SCI-REPO-Y8-SBY-2018-ENERGYSOURCES-australia",
-    "SCI-REPO-Y8-SBY-2018-ENERGYSOURCES-bibliography"
-  ],
-  "questions": 25,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 25,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 52,
-  "reviewRequired": [
-    {
-      "id": "SCI-REPO-Y8-ARAN-2013-DENSITY-method",
-      "note": "Textbook chapter6.3 and actual student-designed procedure must be supplied."
-    },
-    {
-      "id": "SCI-REPO-Y8-SBY-2018-ENERGYSOURCES-australia",
-      "note": "Source asks broad “resource used most”; electricity context and data year explicitly stated."
-    }
-  ],
+  "marks": 0,
+  "reviewRequired": [],
   "imageAudit": [],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/Density Investigation 2013.docx",
-      "sha": "b7709d4edea4a68f7e3b7537c2999cdea9ca4027",
-      "year": 8,
-      "role": "paper"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Safety Bay/2018/ENERGY SOURCES.docx",
-      "sha": "b7e45ccadc4250660fbd3e3e7ac73ecbb3fa4d0f",
-      "year": 8,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 25,
   "createdSupplements": 0,
   "notes": [
-    "Complete density40-mark rubric; scaffold37 task marks plus2 presentation; original method rubric3+diagram2+reliability3 contrasts scaffold3+2+2, producing a1-mark conflict. Scaffold task allocations retained and discrepancy recorded rather than silently correcting. Energy research15 task marks plus2 presentation=17; current Australian electricity answer checked against official2025 data."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "density": {
@@ -79,5 +31,6 @@
       "total": 17
     }
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

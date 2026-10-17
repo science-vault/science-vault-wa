@@ -134,7 +134,7 @@
   "createdKeys": 24,
   "createdSupplements": 0,
   "notes": [
-    "Complete10MC+44written-mark physics ESL test reviewed;15markMCheading conflicts with10stems and54total. Original skateboard,bullet,gazelle,equation,force-triangle andgraph-grid figures visually checked and retained. Acceleration answers correctly convert km/h;car figures treated as supplied exercise data,not current specifications."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "headerTotal": 54,
@@ -160,5 +160,6 @@
       "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC27",
       "reason": "Equivalent source question already present; not added or counted again."
     }
-  ]
+  ],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

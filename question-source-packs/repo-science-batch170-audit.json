@@ -1,45 +1,20 @@
 {
   "batch": "repo-science-batch170",
-  "paperCount": 2,
-  "questionIds": [
-    "SCI-REPO-Y10-ARAN-SURFACERATE-2015-materials",
-    "SCI-REPO-Y10-ARAN-SURFACERATE-2015-hypothesis",
-    "SCI-REPO-Y10-ARAN-SURFACERATE-2015-independent",
-    "SCI-REPO-Y10-ARAN-SURFACERATE-2015-dependent",
-    "SCI-REPO-Y10-ARAN-SURFACERATE-2015-controls",
-    "SCI-REPO-Y10-ARAN-SURFACERATE-2015-method",
-    "SCI-REPO-Y10-ARAN-SURFACERATE-2015-results",
-    "SCI-REPO-Y10-ARAN-SURFACERATE-2015-graph",
-    "SCI-REPO-Y10-ARAN-SURFACERATE-2015-discussion",
-    "SCI-REPO-Y10-ARAN-SURFACERATE-2015-explain",
-    "SCI-REPO-Y10-ARAN-SURFACERATE-2015-conclusion"
-  ],
-  "questions": 11,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 11,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 38,
+  "marks": 0,
   "reviewRequired": [],
   "imageAudit": [],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2015 YR10 SCIENCE RATE OF REACTION INVESTIGATION.docx",
-      "sha": "99c7ebc216fe1193f55b3ad95688bc5ba119931f",
-      "year": 10,
-      "role": "paper"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 SCIENCE RATE OF REACTION INVESTIGATION.docx",
-      "sha": "1ae3a327aaa53359b6fc8975e651ebe0d3faaa5b",
-      "year": 10,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 0,
   "createdSupplements": 11,
   "notes": [
-    "Complete2014and2015surface-area investigation versions reviewed.11science tasks retained once:2015has38content+2presentation=40;2014has30content+2presentation=32. Same report tasks linked across versions. Planning hints are context,not duplicate questions. Source proven/disproven wording moderated to support/not support;actual reaction and data required."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "2015": {
@@ -54,181 +29,6 @@
     },
     "tasksPerVersion": 11
   },
-  "duplicateQuestionAliases": [
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 SCIENCE RATE OF REACTION INVESTIGATION.docx",
-      "sourceFileSha": "1ae3a327aaa53359b6fc8975e651ebe0d3faaa5b",
-      "sourceQuestionNumber": "materials",
-      "sourceParagraphs": [
-        0,
-        2,
-        56,
-        67
-      ],
-      "sourceMarks": 2,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y10-ARAN-SURFACERATE-2015-materials",
-      "reason": "Same surface-area investigation task,with different2014mark allocation. Local30content+2presentation=32;2015uses38+2=40. Do not apply2015suballocations to2014without moderation."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 SCIENCE RATE OF REACTION INVESTIGATION.docx",
-      "sourceFileSha": "1ae3a327aaa53359b6fc8975e651ebe0d3faaa5b",
-      "sourceQuestionNumber": "hypothesis",
-      "sourceParagraphs": [
-        0,
-        2,
-        56,
-        76
-      ],
-      "sourceMarks": 2,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y10-ARAN-SURFACERATE-2015-hypothesis",
-      "reason": "Same surface-area investigation task,with different2014mark allocation. Local30content+2presentation=32;2015uses38+2=40. Do not apply2015suballocations to2014without moderation."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 SCIENCE RATE OF REACTION INVESTIGATION.docx",
-      "sourceFileSha": "1ae3a327aaa53359b6fc8975e651ebe0d3faaa5b",
-      "sourceQuestionNumber": "independent",
-      "sourceParagraphs": [
-        0,
-        2,
-        56,
-        89
-      ],
-      "sourceMarks": 1,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y10-ARAN-SURFACERATE-2015-independent",
-      "reason": "Same surface-area investigation task,with different2014mark allocation. Local30content+2presentation=32;2015uses38+2=40. Do not apply2015suballocations to2014without moderation."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 SCIENCE RATE OF REACTION INVESTIGATION.docx",
-      "sourceFileSha": "1ae3a327aaa53359b6fc8975e651ebe0d3faaa5b",
-      "sourceQuestionNumber": "dependent",
-      "sourceParagraphs": [
-        0,
-        2,
-        56,
-        94
-      ],
-      "sourceMarks": 1,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y10-ARAN-SURFACERATE-2015-dependent",
-      "reason": "Same surface-area investigation task,with different2014mark allocation. Local30content+2presentation=32;2015uses38+2=40. Do not apply2015suballocations to2014without moderation."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 SCIENCE RATE OF REACTION INVESTIGATION.docx",
-      "sourceFileSha": "1ae3a327aaa53359b6fc8975e651ebe0d3faaa5b",
-      "sourceQuestionNumber": "controls",
-      "sourceParagraphs": [
-        0,
-        2,
-        56,
-        99
-      ],
-      "sourceMarks": 2,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y10-ARAN-SURFACERATE-2015-controls",
-      "reason": "Same surface-area investigation task,with different2014mark allocation. Local30content+2presentation=32;2015uses38+2=40. Do not apply2015suballocations to2014without moderation."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 SCIENCE RATE OF REACTION INVESTIGATION.docx",
-      "sourceFileSha": "1ae3a327aaa53359b6fc8975e651ebe0d3faaa5b",
-      "sourceQuestionNumber": "method",
-      "sourceParagraphs": [
-        0,
-        2,
-        56,
-        116
-      ],
-      "sourceMarks": 3,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y10-ARAN-SURFACERATE-2015-method",
-      "reason": "Same surface-area investigation task,with different2014mark allocation. Local30content+2presentation=32;2015uses38+2=40. Do not apply2015suballocations to2014without moderation."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 SCIENCE RATE OF REACTION INVESTIGATION.docx",
-      "sourceFileSha": "1ae3a327aaa53359b6fc8975e651ebe0d3faaa5b",
-      "sourceQuestionNumber": "results",
-      "sourceParagraphs": [
-        0,
-        2,
-        56,
-        178,
-        179
-      ],
-      "sourceMarks": 3,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y10-ARAN-SURFACERATE-2015-results",
-      "reason": "Same surface-area investigation task,with different2014mark allocation. Local30content+2presentation=32;2015uses38+2=40. Do not apply2015suballocations to2014without moderation."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 SCIENCE RATE OF REACTION INVESTIGATION.docx",
-      "sourceFileSha": "1ae3a327aaa53359b6fc8975e651ebe0d3faaa5b",
-      "sourceQuestionNumber": "graph",
-      "sourceParagraphs": [
-        0,
-        2,
-        56,
-        231,
-        233,
-        234,
-        235,
-        236,
-        237,
-        238,
-        239,
-        240
-      ],
-      "sourceMarks": 6,
-      "sourceType": "Diagram",
-      "existingQuestionId": "SCI-REPO-Y10-ARAN-SURFACERATE-2015-graph",
-      "reason": "Same surface-area investigation task,with different2014mark allocation. Local30content+2presentation=32;2015uses38+2=40. Do not apply2015suballocations to2014without moderation."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 SCIENCE RATE OF REACTION INVESTIGATION.docx",
-      "sourceFileSha": "1ae3a327aaa53359b6fc8975e651ebe0d3faaa5b",
-      "sourceQuestionNumber": "discussion",
-      "sourceParagraphs": [
-        0,
-        2,
-        56,
-        241,
-        242
-      ],
-      "sourceMarks": 6,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y10-ARAN-SURFACERATE-2015-discussion",
-      "reason": "Same surface-area investigation task,with different2014mark allocation. Local30content+2presentation=32;2015uses38+2=40. Do not apply2015suballocations to2014without moderation."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 SCIENCE RATE OF REACTION INVESTIGATION.docx",
-      "sourceFileSha": "1ae3a327aaa53359b6fc8975e651ebe0d3faaa5b",
-      "sourceQuestionNumber": "explain",
-      "sourceParagraphs": [
-        0,
-        2,
-        56,
-        279
-      ],
-      "sourceMarks": 2,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y10-ARAN-SURFACERATE-2015-explain",
-      "reason": "Same surface-area investigation task,with different2014mark allocation. Local30content+2presentation=32;2015uses38+2=40. Do not apply2015suballocations to2014without moderation."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 SCIENCE RATE OF REACTION INVESTIGATION.docx",
-      "sourceFileSha": "1ae3a327aaa53359b6fc8975e651ebe0d3faaa5b",
-      "sourceQuestionNumber": "conclusion",
-      "sourceParagraphs": [
-        0,
-        2,
-        56,
-        299
-      ],
-      "sourceMarks": 2,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y10-ARAN-SURFACERATE-2015-conclusion",
-      "reason": "Same surface-area investigation task,with different2014mark allocation. Local30content+2presentation=32;2015uses38+2=40. Do not apply2015suballocations to2014without moderation."
-    }
-  ]
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

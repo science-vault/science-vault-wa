@@ -1,75 +1,20 @@
 {
   "batch": "repo-science-batch100",
-  "paperCount": 1,
-  "questionIds": [
-    "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-1",
-    "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-2",
-    "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-3",
-    "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-4",
-    "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-5",
-    "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-6",
-    "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-7",
-    "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-8",
-    "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-9",
-    "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-10",
-    "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-11",
-    "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-12",
-    "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-13",
-    "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-14",
-    "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-15",
-    "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-16",
-    "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-17",
-    "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-18",
-    "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-19",
-    "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-20",
-    "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-21",
-    "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-22",
-    "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-23",
-    "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-24",
-    "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-25",
-    "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-26",
-    "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-27",
-    "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-28",
-    "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-29",
-    "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-30",
-    "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-31",
-    "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-32",
-    "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-33",
-    "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-34",
-    "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-35",
-    "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-36",
-    "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-37",
-    "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-38"
-  ],
-  "questions": 38,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 38,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 38,
-  "reviewRequired": [
-    {
-      "id": "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-25",
-      "note": "Unmarked source;proposed1mark. Original erroneous definition retained and corrected in guidance."
-    },
-    {
-      "id": "SCI-REPO-Y9-ARAN-HEATLIGHTSOUNDVOCAB-29",
-      "note": "Unmarked source;proposed1mark. Original erroneous definition retained and corrected in guidance."
-    }
-  ],
+  "marks": 0,
+  "reviewRequired": [],
   "imageAudit": [],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 9/Science/Physics/Aranmore/Chapter 4 Vocabulary Mixed.docx",
-      "sha": "a5e554c4b5de889362fc202e9e0d6d1dcc04563a",
-      "year": 9,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 38,
   "createdSupplements": 0,
   "notes": [
-    "All38vocabularyblanks reviewed. Sourceopacity violates energy accounting;sourceeye-length/short-sightedness definition is contradictory. Both flagged rather than automatically marked. Other optical/thermal definitions qualified without changing source numbering."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "sourceMarks": null,
@@ -79,5 +24,6 @@
       29
     ]
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

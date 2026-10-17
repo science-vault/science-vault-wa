@@ -1,75 +1,20 @@
 {
   "batch": "repo-science-batch59",
-  "paperCount": 3,
-  "questionIds": [
-    "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-background",
-    "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-aim",
-    "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-hypothesis",
-    "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-diagram",
-    "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-conclusion",
-    "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-results",
-    "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-variables",
-    "SCI-REPO-Y9-SBY-2017-HANDCLEAN-177-results",
-    "SCI-REPO-Y9-SBY-2017-HANDCLEAN-178-results"
-  ],
-  "questions": 9,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 9,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 26,
-  "reviewRequired": [
-    {
-      "id": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-conclusion",
-      "note": "Referenced lab-report instruction sheet is absent; proposed marking breakdown is explicitly identified."
-    }
-  ],
+  "marks": 0,
+  "reviewRequired": [],
   "imageAudit": [],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/GROWING BACTERIA INVESTIGATION ( mdified).docx",
-      "sha": "46cfcedeffebd3ee923cccc946810761ac3d4eb0",
-      "year": 9,
-      "role": "paper"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/Bacteria investigation - marking key (2).docx",
-      "sha": "f9369e49d1e097074128ee44ac6012a71212f3f4",
-      "year": 9,
-      "role": "key_reference",
-      "reviewComplete": true
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/GROWING BACTERIA INVESTIGATION (2).docx",
-      "sha": "f5c10aa512256ecdaab49b89bb1de5c08e51cb5b",
-      "year": 9,
-      "role": "paper"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/Bacteria investigation - marking key.docx",
-      "sha": "d984b967c069e2a0f9788cd9f6c3078cabc089e0",
-      "year": 9,
-      "role": "key_reference",
-      "reviewComplete": true
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/GROWING BACTERIA INVESTIGATION.docx",
-      "sha": "96247c9a08541c6db81f340d8fa3d130c64b2c35",
-      "year": 9,
-      "role": "paper"
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/MARKING GUIDE.docx",
-      "sha": "a954aec2798fa24c48dcf2a43b085cb16b922b97",
-      "year": 9,
-      "role": "key_reference",
-      "reviewComplete": true
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 0,
   "createdSupplements": 9,
   "notes": [
-    "Three full report/planner variants reviewed; identical shared prompts deduplicated while result-presentation variants retained. Original report task marks15 plus presentation2 total17; planner variables receive separately labelled proposed3 marks. Standalone15-mark rubrics have results2 rather than4 and are preserved as alternate key references, not separate papers. Research sample and link list are supporting resources, not questions. Missing lab-report guide tracked explicitly; no results invented."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "eachReport": {
@@ -85,148 +30,6 @@
       "total": 15
     }
   },
-  "duplicateQuestionAliases": [
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/GROWING BACTERIA INVESTIGATION (2).docx",
-      "sourceFileSha": "f5c10aa512256ecdaab49b89bb1de5c08e51cb5b",
-      "sourceQuestionNumber": "background",
-      "sourceParagraphs": [
-        3,
-        6,
-        20
-      ],
-      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-background",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/GROWING BACTERIA INVESTIGATION (2).docx",
-      "sourceFileSha": "f5c10aa512256ecdaab49b89bb1de5c08e51cb5b",
-      "sourceQuestionNumber": "aim",
-      "sourceParagraphs": [
-        6,
-        7,
-        8,
-        9,
-        10,
-        23
-      ],
-      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-aim",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/GROWING BACTERIA INVESTIGATION (2).docx",
-      "sourceFileSha": "f5c10aa512256ecdaab49b89bb1de5c08e51cb5b",
-      "sourceQuestionNumber": "hypothesis",
-      "sourceParagraphs": [
-        11,
-        12,
-        13,
-        14,
-        23
-      ],
-      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-hypothesis",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/GROWING BACTERIA INVESTIGATION (2).docx",
-      "sourceFileSha": "f5c10aa512256ecdaab49b89bb1de5c08e51cb5b",
-      "sourceQuestionNumber": "diagram",
-      "sourceParagraphs": [
-        30
-      ],
-      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-diagram",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/GROWING BACTERIA INVESTIGATION (2).docx",
-      "sourceFileSha": "f5c10aa512256ecdaab49b89bb1de5c08e51cb5b",
-      "sourceQuestionNumber": "conclusion",
-      "sourceParagraphs": [
-        30
-      ],
-      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-conclusion",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/GROWING BACTERIA INVESTIGATION (2).docx",
-      "sourceFileSha": "f5c10aa512256ecdaab49b89bb1de5c08e51cb5b",
-      "sourceQuestionNumber": "variables",
-      "sourceParagraphs": [
-        23
-      ],
-      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-variables",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/GROWING BACTERIA INVESTIGATION.docx",
-      "sourceFileSha": "96247c9a08541c6db81f340d8fa3d130c64b2c35",
-      "sourceQuestionNumber": "background",
-      "sourceParagraphs": [
-        3,
-        6,
-        20
-      ],
-      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-background",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/GROWING BACTERIA INVESTIGATION.docx",
-      "sourceFileSha": "96247c9a08541c6db81f340d8fa3d130c64b2c35",
-      "sourceQuestionNumber": "aim",
-      "sourceParagraphs": [
-        6,
-        7,
-        8,
-        9,
-        10,
-        23
-      ],
-      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-aim",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/GROWING BACTERIA INVESTIGATION.docx",
-      "sourceFileSha": "96247c9a08541c6db81f340d8fa3d130c64b2c35",
-      "sourceQuestionNumber": "hypothesis",
-      "sourceParagraphs": [
-        11,
-        12,
-        13,
-        14,
-        23
-      ],
-      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-hypothesis",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/GROWING BACTERIA INVESTIGATION.docx",
-      "sourceFileSha": "96247c9a08541c6db81f340d8fa3d130c64b2c35",
-      "sourceQuestionNumber": "diagram",
-      "sourceParagraphs": [
-        30
-      ],
-      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-diagram",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/GROWING BACTERIA INVESTIGATION.docx",
-      "sourceFileSha": "96247c9a08541c6db81f340d8fa3d130c64b2c35",
-      "sourceQuestionNumber": "conclusion",
-      "sourceParagraphs": [
-        30
-      ],
-      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-conclusion",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/GROWING BACTERIA INVESTIGATION.docx",
-      "sourceFileSha": "96247c9a08541c6db81f340d8fa3d130c64b2c35",
-      "sourceQuestionNumber": "variables",
-      "sourceParagraphs": [
-        23
-      ],
-      "existingQuestionId": "SCI-REPO-Y9-SBY-2017-HANDCLEAN-176-variables",
-      "reason": "Equivalent source question already present; not added or counted again."
-    }
-  ]
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

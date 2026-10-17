@@ -257,7 +257,7 @@
   "createdKeys": 0,
   "createdSupplements": 32,
   "notes": [
-    "Complete general end-topic paper and two-problem mid-topic paper. Source option tables and diagram-only choices converted into explicit selectable choices without changing meaning. Uniquely ambiguous MC retained for manual marking and excluded from battles. Repeated worked mid-topic problem not counted."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "General end-topic": {
@@ -290,5 +290,6 @@
       "existingQuestionId": "SCI-REPO-Y10-ARAN-GENERALMID2-1",
       "reason": "Repeated first problem with worked solution; used as marking guidance, not counted as a new question."
     }
-  ]
+  ],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

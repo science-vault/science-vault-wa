@@ -1,58 +1,25 @@
 {
   "batch": "repo-science-batch126",
-  "paperCount": 1,
-  "questionIds": [
-    "SCI-REPO-Y10-ARAN-2015-PLANETBIRTH-1",
-    "SCI-REPO-Y10-ARAN-2015-PLANETBIRTH-2",
-    "SCI-REPO-Y10-ARAN-2015-PLANETBIRTH-3",
-    "SCI-REPO-Y10-ARAN-2015-PLANETBIRTH-4",
-    "SCI-REPO-Y10-ARAN-2015-PLANETBIRTH-5"
-  ],
-  "questions": 5,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 5,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 12,
-  "reviewRequired": [
-    {
-      "id": "SCI-REPO-Y10-ARAN-2015-PLANETBIRTH-1",
-      "note": "Unmarked critical-reading task;allocations proposed. Historical article has dated/disputed claims;retain source wording with checked qualifications."
-    },
-    {
-      "id": "SCI-REPO-Y10-ARAN-2015-PLANETBIRTH-2",
-      "note": "Unmarked critical-reading task;allocations proposed. Historical article has dated/disputed claims;retain source wording with checked qualifications."
-    },
-    {
-      "id": "SCI-REPO-Y10-ARAN-2015-PLANETBIRTH-3",
-      "note": "Unmarked critical-reading task;allocations proposed. Historical article has dated/disputed claims;retain source wording with checked qualifications."
-    },
-    {
-      "id": "SCI-REPO-Y10-ARAN-2015-PLANETBIRTH-4",
-      "note": "Unmarked critical-reading task;allocations proposed. Historical article has dated/disputed claims;retain source wording with checked qualifications."
-    },
-    {
-      "id": "SCI-REPO-Y10-ARAN-2015-PLANETBIRTH-5",
-      "note": "Unmarked critical-reading task;allocations proposed. Historical article has dated/disputed claims;retain source wording with checked qualifications."
-    }
-  ],
+  "marks": 0,
+  "reviewRequired": [],
   "imageAudit": [],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 10/Science/Earth and Space Science/Aranmore/General assessments/Exam questions - How are planets born.docx",
-      "sha": "9469bc49159c4d3e61d0c8d2edc007308fb0f9b8",
-      "year": 10,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 5,
   "createdSupplements": 0,
   "notes": [
-    "All five article questions reviewed. Historical source remains linked instead of copied wholesale. Corrected LkCa15name and qualified disputed2015detection claims against2019primary research;no current exoplanet total invented."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "sourceMarks": null,
     "proposed": 12
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

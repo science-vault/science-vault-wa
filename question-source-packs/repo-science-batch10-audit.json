@@ -137,7 +137,7 @@
   "multipleChoice": 50,
   "writtenQuestions": 80,
   "marks": 263,
-  "battleEligible": 45,
+  "battleEligible": 44,
   "reviewRequired": [
     {
       "id": "SCI-REPO-Y7-B10-D12-MC04",
@@ -180,20 +180,32 @@
       "note": "Worked Ca example has18 electrons while neutral calcium has20. No charge is stated for the rows, so accept a consistently stated neutral-atom or common-ion interpretation; teacher must clarify."
     },
     {
+      "id": "SCI-REPO-Y10-B10-D27-MC08",
+      "note": "Source wording/formula defect requires teacher review."
+    },
+    {
       "id": "SCI-REPO-Y10-B10-D27-MC10",
-      "note": "Printed AgC1 may be a digit/letter typo, creating a second invalid formula. Clarify before scoring."
+      "note": "Source wording/formula defect requires teacher review."
     },
     {
       "id": "SCI-REPO-Y10-B10-D27-MC12",
-      "note": "The claim “all acids contain hydrogen” is limited to the intended school acid model and is false for Lewis acids generally."
+      "note": "Source wording/formula defect requires teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y10-B10-D27-WR02",
+      "note": "Existing grouped question rechecked against the keyed source;subpart guidance consolidated without counting duplicates."
+    },
+    {
+      "id": "SCI-REPO-Y10-B10-D27-WR04",
+      "note": "Existing grouped question rechecked against the keyed source;subpart guidance consolidated without counting duplicates."
     },
     {
       "id": "SCI-REPO-Y10-B10-D27-WR05",
-      "note": "Subpart d is unbalanceable as printed with oxygen gas as a product. Retain the original and award a correct diagnosis; teacher repair needed."
+      "note": "Existing grouped question rechecked against the keyed source;subpart guidance consolidated without counting duplicates."
     },
     {
       "id": "SCI-REPO-Y10-B10-D27-WR06",
-      "note": "Subpartd depends on the preceding erroneous equation and must be clarified. Accept accurate redox/acid-base classifications as well as the source’s broad pattern categories."
+      "note": "Existing grouped question rechecked against the keyed source;subpart guidance consolidated without counting duplicates."
     }
   ],
   "createdKeys": 106,
@@ -347,7 +359,9 @@
     "10": 34
   },
   "markAudit": "Forces: printed42=item42. Biology: printed68=item68. Density: printed10=item10. Chemistry2011: printed35=item35. Chemistry2017:15MC+26written=41 from item allocations. Unmarked vocabulary and Light/Sound use explicitly identified created marks. Tectonics embedded supplied answers retained with three flagged scientific/wording supplements. Repeated response/answer sheets not counted again.",
-  "notes": "Eight papers; major numbered multipart tasks kept together. Independent vocabulary/definition responses remain separate. Four original diagrams/graphs preserved. Source errors remain visible with correct marking guidance; ambiguous MC excluded from battles.",
+  "notes": [
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
+  ],
   "duplicateQuestionAliases": [
     {
       "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Physics/Safety Bay/2018/Practice Test - Light and sound.docx",
@@ -360,5 +374,6 @@
       "existingQuestionId": "SCI-REPO-Y9-NAR-2022-WAVES-WR01",
       "reason": "Exact same source question already imported; not added or counted again."
     }
-  ]
+  ],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

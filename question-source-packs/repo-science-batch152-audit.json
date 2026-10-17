@@ -1,6 +1,6 @@
 {
   "batch": "repo-science-batch152",
-  "paperCount": 2,
+  "paperCount": 1,
   "questionIds": [],
   "questions": 0,
   "multipleChoice": 0,
@@ -10,12 +10,6 @@
   "reviewRequired": [],
   "imageAudit": [],
   "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Mount Lawley/2022 Sugar cube & Temp Investigation ANSWERS.docx",
-      "sha": "799a89b6b407b6f1438c036c6b37f38f778e1508",
-      "year": 7,
-      "role": "paper"
-    },
     {
       "path": "resources/Assessments/Lowerschool/Year 8/Science/Biological Sciences/Mid Topic Test Biological Science Year 8 ANSWERS.docx",
       "sha": "e9dda7f97e06f76bebecbd306d41928243673eac",
@@ -27,7 +21,7 @@
   "createdKeys": 0,
   "createdSupplements": 0,
   "notes": [
-    "Two full teacher-key variants mapped to existing questions. Sugar-cube12tasks25marks retain original80mLthree-temperature context and actual-data requirement;duplicated answer textboxes not counted twice. Biology21questions68marks reviewed against key,including original respiratory diagram;existing manual review for liver MC and ambiguous Bpointer retained. No overlapping grouped/subpart questions added."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "sugar": {
@@ -43,161 +37,6 @@
     "newQuestions": 0
   },
   "duplicateQuestionAliases": [
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Mount Lawley/2022 Sugar cube & Temp Investigation ANSWERS.docx",
-      "sourceFileSha": "799a89b6b407b6f1438c036c6b37f38f778e1508",
-      "sourceQuestionNumber": "aim",
-      "sourceParagraphs": [
-        47
-      ],
-      "sourceMarks": 1,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y7-MLAW-2022-SUGAR-aim",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Mount Lawley/2022 Sugar cube & Temp Investigation ANSWERS.docx",
-      "sourceFileSha": "799a89b6b407b6f1438c036c6b37f38f778e1508",
-      "sourceQuestionNumber": "independent",
-      "sourceParagraphs": [
-        55
-      ],
-      "sourceMarks": 1,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y7-MLAW-2022-SUGAR-independent",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Mount Lawley/2022 Sugar cube & Temp Investigation ANSWERS.docx",
-      "sourceFileSha": "799a89b6b407b6f1438c036c6b37f38f778e1508",
-      "sourceQuestionNumber": "dependent",
-      "sourceParagraphs": [
-        57
-      ],
-      "sourceMarks": 1,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y7-MLAW-2022-SUGAR-dependent",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Mount Lawley/2022 Sugar cube & Temp Investigation ANSWERS.docx",
-      "sourceFileSha": "799a89b6b407b6f1438c036c6b37f38f778e1508",
-      "sourceQuestionNumber": "controls",
-      "sourceParagraphs": [
-        59
-      ],
-      "sourceMarks": 2,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y7-MLAW-2022-SUGAR-controls",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Mount Lawley/2022 Sugar cube & Temp Investigation ANSWERS.docx",
-      "sourceFileSha": "799a89b6b407b6f1438c036c6b37f38f778e1508",
-      "sourceQuestionNumber": "hypothesis",
-      "sourceParagraphs": [
-        66,
-        67
-      ],
-      "sourceMarks": 3,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y7-MLAW-2022-SUGAR-hypothesis",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Mount Lawley/2022 Sugar cube & Temp Investigation ANSWERS.docx",
-      "sourceFileSha": "799a89b6b407b6f1438c036c6b37f38f778e1508",
-      "sourceQuestionNumber": "table",
-      "sourceParagraphs": [
-        127,
-        128,
-        130,
-        132
-      ],
-      "sourceMarks": 4,
-      "sourceType": "Diagram",
-      "existingQuestionId": "SCI-REPO-Y7-MLAW-2022-SUGAR-table",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Mount Lawley/2022 Sugar cube & Temp Investigation ANSWERS.docx",
-      "sourceFileSha": "799a89b6b407b6f1438c036c6b37f38f778e1508",
-      "sourceQuestionNumber": "diagram",
-      "sourceParagraphs": [
-        175,
-        176
-      ],
-      "sourceMarks": 3,
-      "sourceType": "Diagram",
-      "existingQuestionId": "SCI-REPO-Y7-MLAW-2022-SUGAR-diagram",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Mount Lawley/2022 Sugar cube & Temp Investigation ANSWERS.docx",
-      "sourceFileSha": "799a89b6b407b6f1438c036c6b37f38f778e1508",
-      "sourceQuestionNumber": "pattern",
-      "sourceParagraphs": [
-        199,
-        201
-      ],
-      "sourceMarks": 2,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y7-MLAW-2022-SUGAR-pattern",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Mount Lawley/2022 Sugar cube & Temp Investigation ANSWERS.docx",
-      "sourceFileSha": "799a89b6b407b6f1438c036c6b37f38f778e1508",
-      "sourceQuestionNumber": "support",
-      "sourceParagraphs": [
-        208,
-        209
-      ],
-      "sourceMarks": 2,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y7-MLAW-2022-SUGAR-support",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Mount Lawley/2022 Sugar cube & Temp Investigation ANSWERS.docx",
-      "sourceFileSha": "799a89b6b407b6f1438c036c6b37f38f778e1508",
-      "sourceQuestionNumber": "fairness",
-      "sourceParagraphs": [
-        216,
-        217
-      ],
-      "sourceMarks": 2,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y7-MLAW-2022-SUGAR-fairness",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Mount Lawley/2022 Sugar cube & Temp Investigation ANSWERS.docx",
-      "sourceFileSha": "799a89b6b407b6f1438c036c6b37f38f778e1508",
-      "sourceQuestionNumber": "improve",
-      "sourceParagraphs": [
-        224,
-        225
-      ],
-      "sourceMarks": 2,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y7-MLAW-2022-SUGAR-improve",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Mount Lawley/2022 Sugar cube & Temp Investigation ANSWERS.docx",
-      "sourceFileSha": "799a89b6b407b6f1438c036c6b37f38f778e1508",
-      "sourceQuestionNumber": "safety",
-      "sourceParagraphs": [
-        232,
-        233,
-        234
-      ],
-      "sourceMarks": 2,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y7-MLAW-2022-SUGAR-safety",
-      "reason": "Equivalent source question already present; not added or counted again."
-    },
     {
       "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Biological Sciences/Mid Topic Test Biological Science Year 8 ANSWERS.docx",
       "sourceFileSha": "e9dda7f97e06f76bebecbd306d41928243673eac",
@@ -649,5 +488,6 @@
       "existingQuestionId": "SCI-REPO-Y8-B10-D13-WR11",
       "reason": "Equivalent source question already present; not added or counted again."
     }
-  ]
+  ],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

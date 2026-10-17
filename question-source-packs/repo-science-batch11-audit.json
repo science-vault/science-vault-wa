@@ -1,6 +1,6 @@
 {
   "batch": "repo-science-batch11",
-  "paperCount": 8,
+  "paperCount": 3,
   "questionIds": [
     "SCI-REPO-Y7-B11-D31-WR01",
     "SCI-REPO-Y7-B11-D31-WR02",
@@ -25,69 +25,13 @@
     "SCI-REPO-Y8-B11-D33-WR02",
     "SCI-REPO-Y8-B11-D33-WR03",
     "SCI-REPO-Y8-B11-D33-WR04",
-    "SCI-REPO-Y8-B11-D33-WR05",
-    "SCI-REPO-Y9-B11-D34-WR01",
-    "SCI-REPO-Y9-B11-D34-WR02",
-    "SCI-REPO-Y9-B11-D34-WR03",
-    "SCI-REPO-Y9-B11-D34-WR04",
-    "SCI-REPO-Y9-B11-D34-WR05",
-    "SCI-REPO-Y9-B11-D34-WR06",
-    "SCI-REPO-Y9-B11-D34-WR07",
-    "SCI-REPO-Y9-B11-D34-WR08",
-    "SCI-REPO-Y9-B11-D34-WR09",
-    "SCI-REPO-Y9-B11-D34-WR10",
-    "SCI-REPO-Y9-B11-D34-WR11",
-    "SCI-REPO-Y9-B11-D34-WR12",
-    "SCI-REPO-Y9-B11-D35-WR01",
-    "SCI-REPO-Y9-B11-D35-WR02",
-    "SCI-REPO-Y9-B11-D35-WR03",
-    "SCI-REPO-Y9-B11-D35-WR04",
-    "SCI-REPO-Y9-B11-D35-WR05",
-    "SCI-REPO-Y9-B11-D35-WR06",
-    "SCI-REPO-Y9-B11-D35-WR07",
-    "SCI-REPO-Y9-B11-D35-WR08",
-    "SCI-REPO-Y9-B11-D35-WR09",
-    "SCI-REPO-Y9-B11-D35-WR10",
-    "SCI-REPO-Y9-B11-D35-WR11",
-    "SCI-REPO-Y9-B11-D35-WR12",
-    "SCI-REPO-Y9-B11-D36-WR01",
-    "SCI-REPO-Y9-B11-D36-WR02",
-    "SCI-REPO-Y9-B11-D36-WR03",
-    "SCI-REPO-Y9-B11-D36-WR04",
-    "SCI-REPO-Y9-B11-D36-WR05",
-    "SCI-REPO-Y9-B11-D36-WR06",
-    "SCI-REPO-Y9-B11-D36-WR07",
-    "SCI-REPO-Y9-B11-D36-WR08",
-    "SCI-REPO-Y9-B11-D36-WR09",
-    "SCI-REPO-Y9-B11-D36-WR10",
-    "SCI-REPO-Y9-B11-D36-WR11",
-    "SCI-REPO-Y9-B11-D36-WR12",
-    "SCI-REPO-Y9-B11-D37-WR01",
-    "SCI-REPO-Y9-B11-D37-WR02",
-    "SCI-REPO-Y9-B11-D37-WR03",
-    "SCI-REPO-Y9-B11-D37-WR04",
-    "SCI-REPO-Y9-B11-D37-WR05",
-    "SCI-REPO-Y9-B11-D37-WR06",
-    "SCI-REPO-Y9-B11-D37-WR07",
-    "SCI-REPO-Y9-B11-D37-WR08",
-    "SCI-REPO-Y9-B11-D37-WR09",
-    "SCI-REPO-Y9-B11-D37-WR10",
-    "SCI-REPO-Y9-B11-D37-WR11",
-    "SCI-REPO-Y9-B11-D37-WR12",
-    "SCI-REPO-Y10-B11-D38-WR01",
-    "SCI-REPO-Y10-B11-D38-WR02",
-    "SCI-REPO-Y10-B11-D38-WR03",
-    "SCI-REPO-Y10-B11-D38-WR04",
-    "SCI-REPO-Y10-B11-D38-WR05",
-    "SCI-REPO-Y10-B11-D38-WR06",
-    "SCI-REPO-Y10-B11-D38-WR07",
-    "SCI-REPO-Y10-B11-D38-WR08"
+    "SCI-REPO-Y8-B11-D33-WR05"
   ],
-  "questions": 80,
+  "questions": 24,
   "multipleChoice": 0,
-  "writtenQuestions": 80,
+  "writtenQuestions": 24,
   "battleEligible": 0,
-  "marks": 123,
+  "marks": 67,
   "reviewRequired": [
     {
       "id": "SCI-REPO-Y8-B11-D33-WR01",
@@ -96,38 +40,6 @@
     {
       "id": "SCI-REPO-Y8-B11-D33-WR05",
       "note": "Play count measures endurance under tested conditions, not energy efficiency without measuring energy input and useful output. Equal charging time does not guarantee equal stored charge; accept critique."
-    },
-    {
-      "id": "SCI-REPO-Y9-B11-D34-WR02",
-      "note": "One created mark per independent source term. Repeated response and embedded answer tables are not separately imported. Source uses absolute “does not allow heat to pass”."
-    },
-    {
-      "id": "SCI-REPO-Y9-B11-D34-WR05",
-      "note": "One created mark per independent source term. Repeated response and embedded answer tables are not separately imported. Supplied matching key has wrong radiation number9; correct is8."
-    },
-    {
-      "id": "SCI-REPO-Y9-B11-D34-WR09",
-      "note": "One created mark per independent source term. Repeated response and embedded answer tables are not separately imported. Source rounds to−273°C and implies all particle kinetic energy is lost."
-    },
-    {
-      "id": "SCI-REPO-Y9-B11-D34-WR12",
-      "note": "One created mark per independent source term. Repeated response and embedded answer tables are not separately imported. Source incorrectly calls stored thermal energy “heat”."
-    },
-    {
-      "id": "SCI-REPO-Y9-B11-D36-WR03",
-      "note": "One created mark per independent source term. Repeated response and embedded answer tables are not separately imported. Opaque definition is scientifically false as printed."
-    },
-    {
-      "id": "SCI-REPO-Y9-B11-D36-WR10",
-      "note": "One created mark per independent source term. Repeated response and embedded answer tables are not separately imported. Source omits the necessary refractive-index and incidence-angle conditions."
-    },
-    {
-      "id": "SCI-REPO-Y9-B11-D37-WR09",
-      "note": "One created mark per independent source term. Repeated response and embedded answer tables are not separately imported. Source reverses eye-length explanation of myopia."
-    },
-    {
-      "id": "SCI-REPO-Y10-B11-D38-WR02",
-      "note": "One created mark per independent source term. Repeated response and embedded answer tables are not separately imported. Source says “all forces are equal”, which is not the general condition."
     }
   ],
   "createdKeys": 24,
@@ -173,34 +85,13 @@
       "path": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2013 Scientific Method & Measurement Mini Quiz-reformatted.docx",
       "sha": "ae72adea58cf9eca81b4665d1d4da0c76601e6ec",
       "year": 8
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 9/Science/Physics/Aranmore/Chapter 4.1 Vocabulary.docx",
-      "sha": "631c83613bfe7afb1b74a97b3547f8e7d48699f3",
-      "year": 9
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 9/Science/Physics/Aranmore/Chapter 4.2 Vocabulary.docx",
-      "sha": "42cecc59aca6593af1f2ffa9ba34934287427280",
-      "year": 9
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 9/Science/Physics/Aranmore/Chapter 4.3 Vocabulary.docx",
-      "sha": "2d5ab861e7424d41465b94aca793a07825db9032",
-      "year": 9
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 9/Science/Physics/Aranmore/Chapter 4.4 Vocabulary.docx",
-      "sha": "e9c93fdd61c0cb18ee95c7c17cead5298e7cec1b",
-      "year": 9
-    },
-    {
-      "path": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Aranmore/Chapter 9.1 Vocabulary.docx",
-      "sha": "134cf85372b2645181e02c40691fc1fe4e736c4d",
-      "year": 10
     }
   ],
   "gameMeta": [],
   "markAudit": "Cells printed23 preserved (3+11+8+1). Scientific method cover29 preserved:Q4 heading6 conflicts with subparts2+5=7, so retain7 as item total; other8+2+6+6. Unmarked vocabulary uses one created mark per independent response. No repeated answer/response-table variants counted.",
-  "notes": "Eight source tests/quiz sheets, all written matching, calculations or diagrams. Five vocabulary sheets include supplied embedded keys; erroneous radiation number, heat definition, opacity, myopia and other issues corrected explicitly in marking guidance, with teacher-review flags. Three original diagrams/grids preserved. No new practice questions and no automatic battle items."
+  "notes": [
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
+  ],
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

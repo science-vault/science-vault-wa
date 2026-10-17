@@ -298,7 +298,7 @@
   "createdKeys": 0,
   "createdSupplements": 16,
   "notes": [
-    "Complete classification paper with original character/circular/invertebrate/smiley figures. Native plant flowchart labels and branches transcribed after rendered original exposed floating-label displacement. Supplied worked smiley excluded from response count while preserving the original grouped ten-mark rubric."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "Classification": {
@@ -308,5 +308,6 @@
       "note": "Five main written questions include two separately prompted parts in question1; W2 remains one grouped two-mark comparison."
     }
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

@@ -28,7 +28,7 @@
   "createdKeys": 1,
   "createdSupplements": 0,
   "notes": [
-    "Complete2022reaction test reviewed:20MC+15written marks. Same matching,word-equation and observed-reaction tasks linked to earlier versions;new5markclassification group retained. ChangedHClname,photosynthesis and exothermic observations checked. NaF/Br₂feasibility and broad corrosion alternative flagged. Original observation image visually verified."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "total": 35,
@@ -457,5 +457,6 @@
       "existingQuestionId": "SCI-REPO-Y9-NAR-2023-REACTIONS-MC20",
       "reason": "Equivalent source question already present; not added or counted again."
     }
-  ]
+  ],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

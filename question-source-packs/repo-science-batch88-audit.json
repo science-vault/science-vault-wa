@@ -1,48 +1,20 @@
 {
   "batch": "repo-science-batch88",
-  "paperCount": 1,
-  "questionIds": [
-    "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-timeline",
-    "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-birthdate",
-    "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-birthplace",
-    "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-death",
-    "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-earlylife",
-    "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-education",
-    "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-worldhistory",
-    "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-model",
-    "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-diagram",
-    "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-awards",
-    "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-otherjobs",
-    "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-contributions",
-    "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-fact",
-    "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-notes",
-    "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-references"
-  ],
-  "questions": 15,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 15,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 36,
-  "reviewRequired": [
-    {
-      "id": "SCI-REPO-Y9-ARAN-2014-ATOMHISTORY-timeline",
-      "note": "Textbookpages8–9and activity-bookpage5not supplied;exact intended milestone set unresolved."
-    }
-  ],
+  "marks": 0,
+  "reviewRequired": [],
   "imageAudit": [],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Aranmore/9 SCIENCE CHEMISTRY ASSIGNMENT HISTORY OF THE ATOMIC MODEL 2014.docx",
-      "sha": "486599806522e1b3a3f86d058ffc9f2e0aa35c87",
-      "year": 9,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 15,
   "createdSupplements": 0,
   "notes": [
-    "Complete40-mark assignment reviewed:35task marks plus5presentation. Extra education prompt has no source allocation and receives separately labelled proposed1mark (not part of40). Named-scientist research uses verifiable biography criteria;no invented model/quote attributed. Missing textbook timeline list recorded."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "cover": 40,
@@ -50,5 +22,6 @@
     "presentationOnly": 5,
     "educationProposedAdditional": 1
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

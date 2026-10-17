@@ -1,34 +1,20 @@
 {
   "batch": "repo-science-batch164",
-  "paperCount": 1,
-  "questionIds": [
-    "SCI-REPO-Y8-MLAW-CRYSTALKEY-graph"
-  ],
-  "questions": 1,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 1,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 6,
-  "reviewRequired": [
-    {
-      "id": "SCI-REPO-Y8-MLAW-CRYSTALKEY-graph",
-      "note": "Additional6mark graph is absent from original30mark lab report. Key’s complete listed allocations sum36despite printed30. Source range examples do not define exact trial averages."
-    }
-  ],
+  "marks": 0,
+  "reviewRequired": [],
   "imageAudit": [],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8 ESS Crystal Size ANSWERS.docx",
-      "sha": "20ee967e6c45c28244aef34fb75b62a2dbfacd2d",
-      "year": 8,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 0,
   "createdSupplements": 1,
   "notes": [
-    "Complete teacher key reviewed:13existing report tasks linked,one additional6mark graph extracted. Key allocations36versusprinted30;original report30has no graph. Separate practical sheet located;50mL/10gmethod conflicts with key75mL/25gmaterials. Sample findings not invented as student observations."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "printed": 30,
@@ -40,224 +26,6 @@
       "method50mLwater/10galum"
     ]
   },
-  "duplicateQuestionAliases": [
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8 ESS Crystal Size ANSWERS.docx",
-      "sourceFileSha": "20ee967e6c45c28244aef34fb75b62a2dbfacd2d",
-      "sourceQuestionNumber": "aim",
-      "sourceParagraphs": [
-        5
-      ],
-      "sourceMarks": 2,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-aim",
-      "reason": "Same report task already selectable;teacher key supplies method and example findings. Separate additional graph prompt extracted once.",
-      "reviewSupplement": {
-        "answer": "Cooling-rate condition1 and crystal-size outcome1.",
-        "note": "Key materials75mL/25g conflict with method50mL/10g and separate practical50mL/10g;teacher must select consistent quantities. Supplied examples <1mm versus3–5mm are not guaranteed student results."
-      }
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8 ESS Crystal Size ANSWERS.docx",
-      "sourceFileSha": "20ee967e6c45c28244aef34fb75b62a2dbfacd2d",
-      "sourceQuestionNumber": "hypothesis",
-      "sourceParagraphs": [
-        9,
-        10
-      ],
-      "sourceMarks": 3,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-hypothesis",
-      "reason": "Same report task already selectable;teacher key supplies method and example findings. Separate additional graph prompt extracted once.",
-      "reviewSupplement": {
-        "answer": "Testable prediction1, correctly identifies input1 and outcome1. Slower cooling often allows larger crystals, but actual experimental evidence determines support.",
-        "note": "Key materials75mL/25g conflict with method50mL/10g and separate practical50mL/10g;teacher must select consistent quantities. Supplied examples <1mm versus3–5mm are not guaranteed student results."
-      }
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8 ESS Crystal Size ANSWERS.docx",
-      "sourceFileSha": "20ee967e6c45c28244aef34fb75b62a2dbfacd2d",
-      "sourceQuestionNumber": "variables",
-      "sourceParagraphs": [
-        14,
-        15,
-        17,
-        19
-      ],
-      "sourceMarks": 3,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-variables",
-      "reason": "Same report task already selectable;teacher key supplies method and example findings. Separate additional graph prompt extracted once.",
-      "reviewSupplement": {
-        "answer": "Cooling condition/rate1; crystal size with a defined measurement1; two relevant controls together1, e.g. initial solution concentration/volume, vessel and observation period.",
-        "note": "Key materials75mL/25g conflict with method50mL/10g and separate practical50mL/10g;teacher must select consistent quantities. Supplied examples <1mm versus3–5mm are not guaranteed student results."
-      }
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8 ESS Crystal Size ANSWERS.docx",
-      "sourceFileSha": "20ee967e6c45c28244aef34fb75b62a2dbfacd2d",
-      "sourceQuestionNumber": "materials",
-      "sourceParagraphs": [
-        23
-      ],
-      "sourceMarks": 1,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-materials",
-      "reason": "Same report task already selectable;teacher key supplies method and example findings. Separate additional graph prompt extracted once.",
-      "reviewSupplement": {
-        "answer": "Use the located companion practical:prepare alum solution with the teacher-approved consistent quantities,divide equally between tubes,compare ice cooling with cotton insulation,and leave overnight under otherwise matched conditions. Key materials75mL/25gconflict with method/practical50mL/10g;resolve with teacher. Appropriate missing equipment/materials consistent with the actual practical, such as alum, measurement/stirring/transfer apparatus and the assigned cooling arrangements. ",
-        "note": "Key materials75mL/25g conflict with method50mL/10g and separate practical50mL/10g;teacher must select consistent quantities. Supplied examples <1mm versus3–5mm are not guaranteed student results."
-      }
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8 ESS Crystal Size ANSWERS.docx",
-      "sourceFileSha": "20ee967e6c45c28244aef34fb75b62a2dbfacd2d",
-      "sourceQuestionNumber": "diagram",
-      "sourceParagraphs": [
-        24,
-        25,
-        26
-      ],
-      "sourceMarks": 2,
-      "sourceType": "Diagram",
-      "existingQuestionId": "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-diagram",
-      "reason": "Same report task already selectable;teacher key supplies method and example findings. Separate additional graph prompt extracted once.",
-      "reviewSupplement": {
-        "answer": "Coherent actual arrangement1; correct labels1.",
-        "note": "Key materials75mL/25g conflict with method50mL/10g and separate practical50mL/10g;teacher must select consistent quantities. Supplied examples <1mm versus3–5mm are not guaranteed student results."
-      }
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8 ESS Crystal Size ANSWERS.docx",
-      "sourceFileSha": "20ee967e6c45c28244aef34fb75b62a2dbfacd2d",
-      "sourceQuestionNumber": "method",
-      "sourceParagraphs": [
-        38
-      ],
-      "sourceMarks": 2,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-method",
-      "reason": "Same report task already selectable;teacher key supplies method and example findings. Separate additional graph prompt extracted once.",
-      "reviewSupplement": {
-        "answer": "Use the located companion practical:prepare alum solution with the teacher-approved consistent quantities,divide equally between tubes,compare ice cooling with cotton insulation,and leave overnight under otherwise matched conditions. Key materials75mL/25gconflict with method/practical50mL/10g;resolve with teacher. Reproducible procedure1; explains actual contrasting cooling conditions and consistent endpoint1. ",
-        "note": "Key materials75mL/25g conflict with method50mL/10g and separate practical50mL/10g;teacher must select consistent quantities. Supplied examples <1mm versus3–5mm are not guaranteed student results."
-      }
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8 ESS Crystal Size ANSWERS.docx",
-      "sourceFileSha": "20ee967e6c45c28244aef34fb75b62a2dbfacd2d",
-      "sourceQuestionNumber": "results",
-      "sourceParagraphs": [
-        54,
-        56
-      ],
-      "sourceMarks": 4,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-results",
-      "reason": "Same report task already selectable;teacher key supplies method and example findings. Separate additional graph prompt extracted once.",
-      "reviewSupplement": {
-        "answer": "Condition headings1, size measure/units1, actual observations1, clear complete presentation/repetition where performed1.",
-        "note": "Key materials75mL/25g conflict with method50mL/10g and separate practical50mL/10g;teacher must select consistent quantities. Supplied examples <1mm versus3–5mm are not guaranteed student results."
-      }
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8 ESS Crystal Size ANSWERS.docx",
-      "sourceFileSha": "20ee967e6c45c28244aef34fb75b62a2dbfacd2d",
-      "sourceQuestionNumber": "observations",
-      "sourceParagraphs": [
-        66
-      ],
-      "sourceMarks": 3,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-observations",
-      "reason": "Same report task already selectable;teacher key supplies method and example findings. Separate additional graph prompt extracted once.",
-      "reviewSupplement": {
-        "answer": "Accurate trend1, numerical/qualitative comparison1, distinguishes observation from causal explanation1.",
-        "note": "Key materials75mL/25g conflict with method50mL/10g and separate practical50mL/10g;teacher must select consistent quantities. Supplied examples <1mm versus3–5mm are not guaranteed student results."
-      }
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8 ESS Crystal Size ANSWERS.docx",
-      "sourceFileSha": "20ee967e6c45c28244aef34fb75b62a2dbfacd2d",
-      "sourceQuestionNumber": "support",
-      "sourceParagraphs": [
-        72
-      ],
-      "sourceMarks": 2,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-support",
-      "reason": "Same report task already selectable;teacher key supplies method and example findings. Separate additional graph prompt extracted once.",
-      "reviewSupplement": {
-        "answer": "Correct support/non-support judgement1 and actual evidence1; not proof from one experiment.",
-        "note": "Key materials75mL/25g conflict with method50mL/10g and separate practical50mL/10g;teacher must select consistent quantities. Supplied examples <1mm versus3–5mm are not guaranteed student results."
-      }
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8 ESS Crystal Size ANSWERS.docx",
-      "sourceFileSha": "20ee967e6c45c28244aef34fb75b62a2dbfacd2d",
-      "sourceQuestionNumber": "finding",
-      "sourceParagraphs": [
-        77
-      ],
-      "sourceMarks": 2,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-finding",
-      "reason": "Same report task already selectable;teacher key supplies method and example findings. Separate additional graph prompt extracted once.",
-      "reviewSupplement": {
-        "answer": "Evidence-based relationship1 with appropriate qualification1.",
-        "note": "Key materials75mL/25g conflict with method50mL/10g and separate practical50mL/10g;teacher must select consistent quantities. Supplied examples <1mm versus3–5mm are not guaranteed student results."
-      }
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8 ESS Crystal Size ANSWERS.docx",
-      "sourceFileSha": "20ee967e6c45c28244aef34fb75b62a2dbfacd2d",
-      "sourceQuestionNumber": "explanation",
-      "sourceParagraphs": [
-        83
-      ],
-      "sourceMarks": 2,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-explanation",
-      "reason": "Same report task already selectable;teacher key supplies method and example findings. Separate additional graph prompt extracted once.",
-      "reviewSupplement": {
-        "answer": "Relates cooling/crystallisation time to particle arrangement/crystal growth1; explains the measured size pattern with possible nucleation/condition effects1.",
-        "note": "Key materials75mL/25g conflict with method50mL/10g and separate practical50mL/10g;teacher must select consistent quantities. Supplied examples <1mm versus3–5mm are not guaranteed student results."
-      }
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8 ESS Crystal Size ANSWERS.docx",
-      "sourceFileSha": "20ee967e6c45c28244aef34fb75b62a2dbfacd2d",
-      "sourceQuestionNumber": "evaluation",
-      "sourceParagraphs": [
-        90,
-        91,
-        94,
-        97
-      ],
-      "sourceMarks": 3,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-evaluation",
-      "reason": "Same report task already selectable;teacher key supplies method and example findings. Separate additional graph prompt extracted once.",
-      "reviewSupplement": {
-        "answer": "Fair test/control design1; accuracy requires a suitable reference or justified measurement appraisal1; reliability/repeatability assessed from repeats/consistency1. A smooth pattern alone does not prove accuracy.",
-        "note": "Key materials75mL/25g conflict with method50mL/10g and separate practical50mL/10g;teacher must select consistent quantities. Supplied examples <1mm versus3–5mm are not guaranteed student results."
-      }
-    },
-    {
-      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Earth and Space Sciences/Mount Lawley/8 ESS Crystal Size ANSWERS.docx",
-      "sourceFileSha": "20ee967e6c45c28244aef34fb75b62a2dbfacd2d",
-      "sourceQuestionNumber": "improve",
-      "sourceParagraphs": [
-        101
-      ],
-      "sourceMarks": 1,
-      "sourceType": "Short answer",
-      "existingQuestionId": "SCI-REPO-Y8-MLAW-2019-CRYSTALSIZE-improve",
-      "reason": "Same report task already selectable;teacher key supplies method and example findings. Separate additional graph prompt extracted once.",
-      "reviewSupplement": {
-        "answer": "Specific justified modification addressing an identified limitation.",
-        "note": "Key materials75mL/25g conflict with method50mL/10g and separate practical50mL/10g;teacher must select consistent quantities. Supplied examples <1mm versus3–5mm are not guaranteed student results."
-      }
-    }
-  ]
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

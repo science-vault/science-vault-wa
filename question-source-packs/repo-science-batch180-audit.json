@@ -1,60 +1,13 @@
 {
   "batch": "repo-science-batch180",
-  "paperCount": 1,
-  "questionIds": [
-    "SCI-REPO-Y7-SBY-2023-FRICTIONDRAFT-1",
-    "SCI-REPO-Y7-SBY-2023-FRICTIONDRAFT-2",
-    "SCI-REPO-Y7-SBY-2023-FRICTIONDRAFT-3",
-    "SCI-REPO-Y7-SBY-2023-FRICTIONDRAFT-4",
-    "SCI-REPO-Y7-SBY-2023-FRICTIONDRAFT-5",
-    "SCI-REPO-Y7-SBY-2023-FRICTIONDRAFT-6",
-    "SCI-REPO-Y7-SBY-2023-FRICTIONDRAFT-7",
-    "SCI-REPO-Y7-SBY-2023-FRICTIONDRAFT-8",
-    "SCI-REPO-Y7-SBY-2023-FRICTIONDRAFT-9"
-  ],
-  "questions": 9,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 9,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 20,
-  "reviewRequired": [
-    {
-      "id": "SCI-REPO-Y7-SBY-2023-FRICTIONDRAFT-1",
-      "note": "Original file explicitly labelled DO NOT USE. Retained for moderated source review only;all marks proposed and no automatic battle eligibility."
-    },
-    {
-      "id": "SCI-REPO-Y7-SBY-2023-FRICTIONDRAFT-2",
-      "note": "Original file explicitly labelled DO NOT USE. Retained for moderated source review only;all marks proposed and no automatic battle eligibility."
-    },
-    {
-      "id": "SCI-REPO-Y7-SBY-2023-FRICTIONDRAFT-3",
-      "note": "Original file explicitly labelled DO NOT USE. Retained for moderated source review only;all marks proposed and no automatic battle eligibility."
-    },
-    {
-      "id": "SCI-REPO-Y7-SBY-2023-FRICTIONDRAFT-4",
-      "note": "Original file explicitly labelled DO NOT USE. Retained for moderated source review only;all marks proposed and no automatic battle eligibility."
-    },
-    {
-      "id": "SCI-REPO-Y7-SBY-2023-FRICTIONDRAFT-5",
-      "note": "Original file explicitly labelled DO NOT USE. Retained for moderated source review only;all marks proposed and no automatic battle eligibility."
-    },
-    {
-      "id": "SCI-REPO-Y7-SBY-2023-FRICTIONDRAFT-6",
-      "note": "Original file explicitly labelled DO NOT USE. Retained for moderated source review only;all marks proposed and no automatic battle eligibility."
-    },
-    {
-      "id": "SCI-REPO-Y7-SBY-2023-FRICTIONDRAFT-7",
-      "note": "Original file explicitly labelled DO NOT USE. Retained for moderated source review only;all marks proposed and no automatic battle eligibility."
-    },
-    {
-      "id": "SCI-REPO-Y7-SBY-2023-FRICTIONDRAFT-8",
-      "note": "Original file explicitly labelled DO NOT USE. Retained for moderated source review only;all marks proposed and no automatic battle eligibility."
-    },
-    {
-      "id": "SCI-REPO-Y7-SBY-2023-FRICTIONDRAFT-9",
-      "note": "Original file explicitly labelled DO NOT USE. Retained for moderated source review only;all marks proposed and no automatic battle eligibility."
-    }
-  ],
+  "marks": 0,
+  "reviewRequired": [],
   "imageAudit": [
     {
       "id": "e408-page1-bob-box-force",
@@ -94,19 +47,12 @@
       "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
     }
   ],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Safety bay/2023/Teacher mark task - DO NOT USE.docx",
-      "sha": "c1725814debc1afe77ef00595164387f1f346ba1",
-      "year": 7,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 9,
   "createdSupplements": 0,
   "notes": [
-    "All9friction draft prompts retained with original box-force figure cropped from rendered source. FilenameDO NOT USEexplicitly preserved;manual review required throughout. Underdetermined force comparison,ideal frictionless model and unverified coefficient inputs qualified. All20marks proposed."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "sourceMarks": null,
@@ -114,5 +60,6 @@
     "tasks": 9,
     "sourceDraftStatus": "DO NOT USE"
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

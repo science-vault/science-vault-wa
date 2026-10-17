@@ -1,40 +1,20 @@
 {
   "batch": "repo-science-batch85",
-  "paperCount": 1,
-  "questionIds": [
-    "SCI-REPO-Y8-KOLBE-2021-RENEWABLEINV-question",
-    "SCI-REPO-Y8-KOLBE-2021-RENEWABLEINV-background",
-    "SCI-REPO-Y8-KOLBE-2021-RENEWABLEINV-hypothesis",
-    "SCI-REPO-Y8-KOLBE-2021-RENEWABLEINV-variables",
-    "SCI-REPO-Y8-KOLBE-2021-RENEWABLEINV-procedure",
-    "SCI-REPO-Y8-KOLBE-2021-RENEWABLEINV-problems",
-    "SCI-REPO-Y8-KOLBE-2021-RENEWABLEINV-trials",
-    "SCI-REPO-Y8-KOLBE-2021-RENEWABLEINV-data",
-    "SCI-REPO-Y8-KOLBE-2021-RENEWABLEINV-conclusions",
-    "SCI-REPO-Y8-KOLBE-2021-RENEWABLEINV-presentation",
-    "SCI-REPO-Y8-KOLBE-2021-RENEWABLEINV-communication",
-    "SCI-REPO-Y8-KOLBE-2021-RENEWABLEINV-evidence"
-  ],
-  "questions": 12,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 12,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 36,
+  "marks": 0,
   "reviewRequired": [],
   "imageAudit": [],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Kolbe/2021/Task 6_Renewable energy investigation/2021Y08InvRenewables.docx",
-      "sha": "701557531ae1129dae2995c6c8560ef2e675782e",
-      "year": 8,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 12,
   "createdSupplements": 0,
   "notes": [
-    "Complete36-mark investigation/planner and all12rubric criteria retained. Six suggested experimental directions preserved as alternatives in context,not counted as six assigned tasks. Output voltage distinguished frompower/energy;scale-up andcolour/intensity/gearing confounds identified."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "designCriteria": 6,
@@ -43,5 +23,6 @@
     "marksPerCriterion": 3,
     "total": 36
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }

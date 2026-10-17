@@ -1,50 +1,20 @@
 {
   "batch": "repo-science-batch116",
-  "paperCount": 1,
-  "questionIds": [
-    "SCI-REPO-Y10-ARAN-MENDELEEVESL-birth",
-    "SCI-REPO-Y10-ARAN-MENDELEEVESL-death",
-    "SCI-REPO-Y10-ARAN-MENDELEEVESL-family",
-    "SCI-REPO-Y10-ARAN-MENDELEEVESL-school",
-    "SCI-REPO-Y10-ARAN-MENDELEEVESL-university",
-    "SCI-REPO-Y10-ARAN-MENDELEEVESL-famous",
-    "SCI-REPO-Y10-ARAN-MENDELEEVESL-element-one",
-    "SCI-REPO-Y10-ARAN-MENDELEEVESL-element-two",
-    "SCI-REPO-Y10-ARAN-MENDELEEVESL-references"
-  ],
-  "questions": 9,
+  "paperCount": 0,
+  "questionIds": [],
+  "questions": 0,
   "multipleChoice": 0,
-  "writtenQuestions": 9,
+  "writtenQuestions": 0,
   "battleEligible": 0,
-  "marks": 32,
-  "reviewRequired": [
-    {
-      "id": "SCI-REPO-Y10-ARAN-MENDELEEVESL-birth",
-      "note": "Historical calendar/family-detail conventions require source checking."
-    },
-    {
-      "id": "SCI-REPO-Y10-ARAN-MENDELEEVESL-death",
-      "note": "Historical calendar/family-detail conventions require source checking."
-    },
-    {
-      "id": "SCI-REPO-Y10-ARAN-MENDELEEVESL-family",
-      "note": "Historical calendar/family-detail conventions require source checking."
-    }
-  ],
+  "marks": 0,
+  "reviewRequired": [],
   "imageAudit": [],
-  "sources": [
-    {
-      "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/ESL SCIENCE CHEMISTRY ASSIGNMENT.docx",
-      "sha": "59950e1e9f97ee2523d09072ed50f62d52c83632",
-      "year": 10,
-      "role": "paper"
-    }
-  ],
+  "sources": [],
   "gameMeta": [],
   "createdKeys": 0,
   "createdSupplements": 9,
   "notes": [
-    "Complete ESL Mendeleev report reviewed. Nine content/reference tasks32marks;notes1andessayform2logged separately for35total. Two distinct chosen-element reports retained,not two copies of one unspecified answer."
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
   ],
   "markAudit": {
     "total": 35,
@@ -52,5 +22,6 @@
     "notes": 1,
     "essayForm": 2
   },
-  "duplicateQuestionAliases": []
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b188"
 }
