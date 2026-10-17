@@ -160,7 +160,7 @@
   "questions": 154,
   "multipleChoice": 65,
   "writtenQuestions": 89,
-  "battleEligible": 56,
+  "battleEligible": 55,
   "marks": 235,
   "reviewRequired": [
     {
@@ -197,11 +197,15 @@
     },
     {
       "id": "SCI-REPO-Y10-SBY-2017-EXT-MC23",
-      "note": "Direction convention is unstated; negative acceleration need not mean slowing."
+      "note": "C is intended if velocity is positive in the chosen coordinate system. Slowing means acceleration opposite to velocity;it is not necessarily negative. Accept a justified explanation of the missing direction convention."
     },
     {
       "id": "SCI-REPO-Y10-SBY-2017-EXT-MC28",
       "note": "Original optionB has no numerical value; teacher must repair incomplete distractor."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-EXT-MC30",
+      "note": "B is the nearest intended statement,but only describes energy transformation. A complete conservation law says total energy of an isolated system is constant;energy cannot be created or destroyed. No option states that law fully."
     },
     {
       "id": "SCI-REPO-Y10-SBY-2017-EXT-19",

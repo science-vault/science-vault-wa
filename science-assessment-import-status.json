@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.17-tests-only-v1-b213",
+  "version": "2026.10.17-tests-only-v1-b218",
   "status": "in_progress",
   "scope": "Original Science assessment files in repository, Years 7–10. File counts include keys and supporting materials; they are not question counts.",
   "inventoryFiles": 2009,
@@ -11,303 +11,35 @@
     "9": 457,
     "10": 582
   },
-  "importedPapers": 185,
-  "importedQuestions": 2589,
-  "multipleChoice": 1088,
-  "writtenQuestions": 1501,
-  "battleEligibleQuestions": 939,
+  "importedPapers": 189,
+  "importedQuestions": 2670,
+  "multipleChoice": 1113,
+  "writtenQuestions": 1557,
+  "battleEligibleQuestions": 961,
   "reviewRequired": [
     {
-      "id": "SCI-REPO-Y8-ARAN-BIOEND-ELISA-MC16",
-      "note": "BandCare both correct:7labels trachea and9labels bronchus. Source asks for a single correct statement but offers two;manual moderation."
+      "id": "SCI-REPO-Y8-ARAN-2015-CHEM1-MC08",
+      "note": "D is intended for simple nonreacting mixing,but mixing can cause chemical reactions. No universally correct classification without specifying substances;manual moderation."
     },
     {
-      "id": "SCI-REPO-Y8-ARAN-BIOEND-ELISA-MC18",
-      "note": "C is the most direct physiological explanation:the left ventricle generates greater systemic pressure. A also gives a broadly valid systemic-distance rationale. Accept a justified answer;not a unique-answer battle item."
+      "id": "SCI-REPO-Y8-ARAN-2015-CHEM1-MC12",
+      "note": "B is intended,but gas evolution can also occur in a physical change such as boiling. No universally nonphysical option as worded;manual moderation."
     },
     {
-      "id": "SCI-REPO-Y7-NAR-2024-CHEM-MC06",
-      "note": "B is intended,but physical changes need not be easily reversible. The defining criterion is no new chemical substance;no fully accurate option."
+      "id": "SCI-REPO-Y8-ARAN-2015-CHEM1-8b",
+      "note": "Given density equals water;do not require the stereotyped answer that wood must float."
     },
     {
-      "id": "SCI-REPO-Y7-NAR-2024-CHEM-MC07",
-      "note": "D is likely intended for crystallisation based on solubility differences;selective dissolution followed by filtration also relies on solubility differences. The wording omits the mixture and conditions;moderate a justified interpretation."
+      "id": "SCI-REPO-Y10-SBY-PREATAR-MODULE-MC04",
+      "note": "A and C are chemically equivalent formulae; no unique answer."
     },
     {
-      "id": "SCI-REPO-Y7-NAR-2024-CHEM-MC10",
-      "note": "A is intended for suitable liquids of different boiling points,but chromatography can also separate some liquid-mixture components. Mixture properties are missing;manual review."
+      "id": "SCI-REPO-Y10-SBY-PREATAR-MODULE-MC12",
+      "note": "Supplied key D and general mechanism A are both defensible under the “can” wording; teacher moderation required."
     },
     {
-      "id": "SCI-REPO-Y7-NAR-2024-CHEM-MC12",
-      "note": "D is intended when collecting dissolved salt by evaporation/crystallisation. Distillation also leaves salt residue,so the absolute not useful wording needs moderation."
-    },
-    {
-      "id": "SCI-REPO-Y7-NAR-2024-EARTH-MC01",
-      "note": " Additional variant review: The intended choice is A (Sol),but the option combines Sol with “Solaris”. The conventional English name is the Sun;Sol is Latin. Do not assert Solaris as an official astronomical name."
-    },
-    {
-      "id": "SCI-REPO-Y7-NAR-2024-EARTH-MC03",
-      "note": "The 2024 question has more than one incorrect statement. The supplied older key circles D, while its filename identifies B. Teacher review required. Additional variant review: B is incorrect:the sidereal orbital period is about27.3days,not21. C’s self-shadow wording is misleading;phases arise from viewing the sunlit half at changing angles. D overstates “no atmosphere” since the Moon has a tenuous exosphere. Multiple wording problems prevent automatic marking."
-    },
-    {
-      "id": "SCI-REPO-Y7-NAR-2024-EARTH-MC08",
-      "note": "The question conflates meteors and meteorites, so more than one option is problematic. Teacher review required. Additional variant review: Ambiguous:shooting stars are meteors (light phenomena),meteorites are surviving fragments reaching the ground. A and B misuse meteorite/meteor terminology,and C is not well-defined. Retain for teacher review,not automatic battles."
-    },
-    {
-      "id": "SCI-REPO-Y7-NAR-2024-CHEM-WR02",
-      "note": "Supplied key classifies Cloud as gas. Teacher review required."
-    },
-    {
-      "id": "SCI-REPO-Y7-NAR-2024-CHEM-WR08",
-      "note": "The supplied diagram labels and handwritten key need teacher review before marking."
-    },
-    {
-      "id": "SCI-REPO-Y7-NAR-2024-EARTH-WR02",
-      "note": "Student paper specifies 2pm; supplied older key specifies 3pm. Teacher review required."
-    },
-    {
-      "id": "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-MC03",
-      "note": "Unmarked draft;proposed1mark. Broad magnetite wording allows more than one answer."
-    },
-    {
-      "id": "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-SAb",
-      "note": "Unmarked draft;allocation proposed;supplied geodynamic explanation qualified."
-    },
-    {
-      "id": "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-SAc",
-      "note": "Unmarked draft;allocation proposed;supplied geodynamic explanation qualified."
-    },
-    {
-      "id": "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-heat",
-      "note": "Unmarked draft;allocation proposed;supplied geodynamic explanation qualified."
-    },
-    {
-      "id": "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-match5",
-      "note": "Unmarked draft;proposed1mark per match. Historical/simplified definitions need qualification."
-    },
-    {
-      "id": "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-match7",
-      "note": "Unmarked draft;proposed1mark per match. Historical/simplified definitions need qualification."
-    },
-    {
-      "id": "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-match9",
-      "note": "Unmarked draft;proposed1mark per match. Historical/simplified definitions need qualification."
-    },
-    {
-      "id": "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-match10",
-      "note": "Unmarked draft;proposed1mark per match. Historical/simplified definitions need qualification."
-    },
-    {
-      "id": "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-term1",
-      "note": "Unmarked draft;proposed1mark per term;source definition/key defects flagged."
-    },
-    {
-      "id": "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-term3",
-      "note": "Unmarked draft;proposed1mark per term;source definition/key defects flagged."
-    },
-    {
-      "id": "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-term9",
-      "note": "Unmarked draft;proposed1mark per term;source definition/key defects flagged."
-    },
-    {
-      "id": "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-term10",
-      "note": "Unmarked draft;proposed1mark per term;source definition/key defects flagged."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2017-S1EXAM-MC21",
-      "note": "The question omits whether the chromosome has replicated;two chromatids is not always true."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2017-S1EXAM-2b",
-      "note": "Corrected supplied key:meiosis normally gives four products,not three;gametes are products,not the site of meiosis."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2017-S1EXAM-4e",
-      "note": "Supplied key gives25% for dimples;corrected to75% under the stated dominant model."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2017-S1EXAM-5a",
-      "note": "Source confuses band extension/variable force with the distance the released band travels. Do not present25J as uniquely inferable."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2017-S1EXAM-5e",
-      "note": "Supplied key uses firefighter mass for cat;correct answer75J."
-    },
-    {
-      "id": "SCI-REPO-Y9-SBY-2020-S2EXAM-MC17",
-      "note": "All options falsely say S-waves travel through solids,liquids and gases;teacher review required."
-    },
-    {
-      "id": "SCI-REPO-Y9-SBY-2020-S2EXAM-21e",
-      "note": "Supplied key gives−1 despite showing11protons and10electrons;corrected to+1."
-    },
-    {
-      "id": "SCI-REPO-Y9-SBY-2020-S2EXAM-28",
-      "note": "Older supplied key says no earthquakes/volcanoes at convergence;that is false and corrected."
-    },
-    {
-      "id": "SCI-REPO-Y7-UNK-BIO-END-MC03",
-      "note": "Incomplete commensalism definition means other interactions can fitC."
-    },
-    {
-      "id": "SCI-REPO-Y7-UNK-BIO-END-MC10",
-      "note": "Options omit indirect effects across the food web."
-    },
-    {
-      "id": "SCI-REPO-Y7-UNK-BIO-END-1h",
-      "note": "Source definition omits the host being harmed; parasitism cannot be inferred merely from living on another organism."
-    },
-    {
-      "id": "SCI-REPO-Y7-UNK-BIO-END-9f",
-      "note": "The premise about animal activity is not evidenced by the supplied temperature table;accept a justified limitation."
-    },
-    {
-      "id": "SCI-REPO-Y7-UNK-BIO-END-10ii",
-      "note": "Supplied guide incorrectly defines extinct by a50-year absence and confuses extinction in the wild;corrected."
-    },
-    {
-      "id": "SCI-REPO-Y7-UNK-CHEM-MID-9e",
-      "note": "Supplied key assumes solubility halves with Celsius temperature,which is unsupported."
-    },
-    {
-      "id": "SCI-REPO-Y7-UNK-CHEM-MID-10iii",
-      "note": "Supplied key defines insoluble as able to dissolve—the opposite;corrected."
-    },
-    {
-      "id": "SCI-REPO-Y7-UNK-PHYS-END-MC01",
-      "note": "All listed actions can involve force;not uniquely single-answer as phrased."
-    },
-    {
-      "id": "SCI-REPO-Y7-UNK-PHYS-END-MC09",
-      "note": "Forces determine acceleration,not necessarily current direction of motion without initial conditions."
-    },
-    {
-      "id": "SCI-REPO-Y7-UNK-PHYS-END-9d",
-      "note": "Supplied text wrongly says200g has10N more while its own values show less;corrected."
-    },
-    {
-      "id": "SCI-REPO-Y7-UNK-PHYS-END-10iv",
-      "note": "Supplied key defines acceleration only as speeding up;corrected to velocity change."
-    },
-    {
-      "id": "SCI-REPO-Y8-UNK-EARTH-END-MC10",
-      "note": "Pie charts can also represent categorical preferences,so the item is not uniquely answered as phrased."
-    },
-    {
-      "id": "SCI-REPO-Y7-NARR-2018-ESS1-timezones",
-      "note": "Date not supplied;three-hour premise is seasonal,not permanent."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2018-CHEM-469-WR6",
-      "note": "Question conflates bonding within substances with forces between molecules."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2018-CHEM-469-WR8",
-      "note": "Source mixes legacygroup7withmodern1/17/18numbering."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2018-CHEM-469-EXTc",
-      "note": "Source overstates noble-gas inertness."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2018-CHEM-477-MC04",
-      "note": "Ambiguous demand:diagram shows neutralMgwith2,8,2electrons,soMg(optionA)represents the pictured atom;Mg²⁺(B)is its common ion,but valence configuration is neither formula. Teacher review;do not force an ion answer to a neutral-atom diagram."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2018-CHEM-477-EXT1",
-      "note": "Source historical anecdote is not treated as established evidence;scientific mechanism supplemented from Royal Society of Chemistry."
-    },
-    {
-      "id": "SCI-REPO-Y10-NAR-2022-DNAVALID-2",
-      "note": "Source asks “Who found DNA?” with two blank lines but supplies no key. Discovery of the substance and discovery of its double-helical structure are different historical questions."
-    },
-    {
-      "id": "SCI-REPO-Y9-NAR-2024-TECTONICS-MC10",
-      "note": "source terminology problem. Tsunamis are not caused by tides; “tidal wave” is an inaccurate historical name. Accept D only as recognition of that old usage, or a correct explanation rejecting it. Retain manual marking."
-    },
-    {
-      "id": "SCI-REPO-Y9-NAR-2024-TECTONICS-MC12",
-      "note": "multiple false statements. D is the intended source answer, but C incorrectly calls Richter magnitude an intensity scale; B also overstates maximum intensity at the epicentre. Accept a scientifically justified identification of these flaws. Retain manual marking."
-    },
-    {
-      "id": "SCI-REPO-Y9-NAR-2024-TECTONICS-MC15",
-      "note": "ambiguous historical question. The supplied key selects C, but its key copy says 1972 while this paper says 1952. Discovery of mid-ocean ridges/rifts and magnetic stripes all contributed; option D incorrectly calls ridges trenches. Accept a justified B/C response; require teacher review."
-    },
-    {
-      "id": "SCI-REPO-Y9-NAR-2024-TECTONICS-MC18",
-      "note": "location 2 lies on the Mid-Atlantic Ridge. B (mid-ocean ridge), C (volcanism) and D (earthquakes, supplied key) can all occur there. Accept justified B/C/D; there is no unique best option as worded."
-    },
-    {
-      "id": "SCI-REPO-Y9-SBY-2018-ENDO-472-MC02",
-      "note": "B is the intended standard gland pair in the final version,but heart/hypothalamus(A)and heart/adrenal(C)also have endocrine functions. In the draft, B contains blood. Source lacks a unique correct answer under its broad wording."
-    },
-    {
-      "id": "SCI-REPO-Y9-SBY-2018-ENDO-472-MC09",
-      "note": "A is intended,but infected people undergo isolation;quarantine normally concerns exposed people."
-    },
-    {
-      "id": "SCI-REPO-Y9-SBY-2018-ENDO-472-case",
-      "note": "Scenario lacks diagnostic evidence;do not treat the student report as a confirmed diagnosis. Key supplemented from current CDC information."
-    },
-    {
-      "id": "SCI-REPO-Y9-SBY-2018-ENDO-476-MC04",
-      "note": "A is intended,but visible white-cell activity is vague;white cells have normal functions without proving a breached barrier. Clarify the observation."
-    },
-    {
-      "id": "SCI-REPO-Y9-SBY-2018-ENDO-476-case",
-      "note": "Scenario lacks diagnostic evidence;do not treat the student report as a confirmed diagnosis. Key supplemented from current CDC information."
-    },
-    {
-      "id": "SCI-REPO-Y9-SBY-2018-ENDO-479-MC02",
-      "note": "B is the intended standard gland pair in the final version,but heart/hypothalamus(A)and heart/adrenal(C)also have endocrine functions. In the draft, B contains blood. Source lacks a unique correct answer under its broad wording."
-    },
-    {
-      "id": "SCI-REPO-Y9-SBY-2018-ENDO-479-MC04",
-      "note": "A is intended,but visible white-cell activity is vague;white cells have normal functions without proving a breached barrier. Clarify the observation."
-    },
-    {
-      "id": "SCI-REPO-Y9-SBY-2018-ENDO-479-data2",
-      "note": "Source table gives an anomalous concentration response and does not distinguish killing from growth inhibition."
-    },
-    {
-      "id": "SCI-REPO-Y9-SBY-2018-ENDO-479-data4",
-      "note": "Source table gives an anomalous concentration response and does not distinguish killing from growth inhibition."
-    },
-    {
-      "id": "SCI-REPO-Y9-SBY-2018-ENDO-479-case",
-      "note": "Scenario lacks diagnostic evidence;do not treat the student report as a confirmed diagnosis. Key supplemented from current CDC information."
-    },
-    {
-      "id": "SCI-REPO-Y7-NAR-2023-FORCES-MC03",
-      "note": "The original diagram marks one end of each magnet with a dot but gives no pole legend. A is expected only if dots identify the same pole. Teacher review required."
-    },
-    {
-      "id": "SCI-REPO-Y8-NAR-2023-ENERGY-MC07",
-      "note": "The claim that all energy on Earth comes from the Sun is overbroad; geothermal energy is a counterexample. No option is universally correct."
-    },
-    {
-      "id": "SCI-REPO-Y8-NAR-2023-ENERGY-WR02",
-      "note": "The stem limits answers to Q1 types, omitting electrical/light, and the source key gives engine heat as the output. Created guidance accepts scientifically justified outputs."
-    },
-    {
-      "id": "SCI-REPO-Y8-NAR-2023-ENERGY-WR07",
-      "note": "The printed table and supplied key confuse radiation with conduction and make absolute claims by state. Use the created guidance and accept justified explanations."
-    },
-    {
-      "id": "SCI-REPO-Y10-ARAN-2014-PHYS1-MC19",
-      "note": "No correct option. Efficiency=useful energy output/total energy input×100%(or corresponding power ratio). B is not a scientific definition. Manually moderate;do not force an incorrect keyed answer."
-    },
-    {
-      "id": "SCI-REPO-Y10-ARAN-2014-PHYS1-6",
-      "note": "Original diagram gives75kg mass with100N downward force. This is inconsistent if the downward force is weight near Earth. Original figure retained;no invented correction."
-    },
-    {
-      "id": "SCI-REPO-Y8-ARAN-2016-PHYSICSTWO-MC10",
-      "note": "Source wording admits an incomplete/multiple answer;teacher review."
-    },
-    {
-      "id": "SCI-REPO-Y8-ARAN-2016-PHYSICSTWO-MC13",
-      "note": "Source wording admits an incomplete/multiple answer;teacher review."
+      "id": "SCI-REPO-Y10-SBY-PREATAR-MODULE-17b",
+      "note": "Supplied equation does not correspond to the asked reactants; corrected equation explicitly provided."
     },
     {
       "id": "SCI-REPO-Y9-SBY-REACTIONTYPES-MC05",
@@ -322,36 +54,160 @@
       "note": "The source uses corrosion broadly for metal oxidation. Accept a scientifically justified distinction from rapid combustion."
     },
     {
-      "id": "SCI-REPO-Y10-ARAN-2015-CHEM2ESL-WR1e",
-      "note": "Source product isH₂,notH₂O;preserve prompt and moderate likely transcription error."
+      "id": "SCI-REPO-Y10-NAR-2024-DNA-MC17",
+      "note": "The supplied key selects non-standard term scrambling; insertions and deletions can both disrupt a reading frame. No unique valid answer is supplied."
     },
     {
-      "id": "SCI-REPO-Y10-ARAN-2015-CHEM2ESL-WR5a",
-      "note": "Source omits metal oxidation state;accept a valid stated oxide consistently."
+      "id": "SCI-REPO-Y10-NAR-2024-DNA-MC20",
+      "note": "The source strand is ACGAT top to bottom; the complementary sequence TGCTA is absent from the pictured options. The supplied key B conflicts with the image."
     },
     {
-      "id": "SCI-REPO-Y10-ARAN-2015-CHEM2ESL-WR5b",
-      "note": "Source omits metal oxidation state;accept a valid stated oxide consistently."
+      "id": "SCI-REPO-Y10-NAR-2024-UNIVERSE-MC02",
+      "note": "Classical singularity wording is not an established description of a physical zero-volume beginning."
     },
     {
-      "id": "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-MC09",
-      "note": "Universal acid wording needs qualification;exclude from automatic battles."
+      "id": "SCI-REPO-Y10-NAR-2024-UNIVERSE-MC03",
+      "note": "Unspecified theoretical early-universe force timeline; the key’s intended model must be clarified."
     },
     {
-      "id": "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-W2",
-      "note": "Element types versus atom counts and molecule terminology require clarification."
+      "id": "SCI-REPO-Y10-NAR-2024-UNIVERSE-MC14",
+      "note": "Both Proxima Centauri and Betelgeuse are M-class stars. Supplied key selects B, but C is also defensible. Source spelling Betelgeux retained."
     },
     {
-      "id": "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-W6",
-      "note": "Silver/HClpremise is chemically invalid in ordinary bulk-metal classroom context;nitric acid product specification is condition-dependent. Manual marking must accept scientifically correct objections."
+      "id": "SCI-REPO-Y9-SBY-2018-CHEMVAR-MC10",
+      "note": "No option states the general redox definition; teacher review required for the source’s broad “any reaction” wording."
     },
     {
-      "id": "SCI-REPO-Y8-SBY-2017-MICROSCOPE-history",
-      "note": "History examples require verified sources; magnification table leaves objective powers unspecified."
+      "id": "SCI-REPO-Y9-SBY-2017-CHEMVAR-7b",
+      "note": "The supplied key calls cellular respiration combustion. Distinguish controlled biochemical oxidation from burning."
     },
     {
-      "id": "SCI-REPO-Y8-SBY-2018-MICROSCOPE-history",
-      "note": "History examples require verified sources; magnification table leaves objective powers unspecified."
+      "id": "SCI-REPO-Y9-SBY-2018-CHEMVAR-extended",
+      "note": "Created five-mark rubric; common supplied variant key incorrectly equates strength with danger. This variant’s acid-rain component is not present in that key."
+    },
+    {
+      "id": "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-4b",
+      "note": "Original cylinder graphic has no explicit unit label;mL is assumed from the laboratory context."
+    },
+    {
+      "id": "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-5e",
+      "note": "Evidence for hot is unspecified;supplied older key assumes direct sensory observation."
+    },
+    {
+      "id": "SCI-REPO-Y7-NARR-2018-ESS1-timezones",
+      "note": "Date not supplied;three-hour premise is seasonal,not permanent."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2018-SYSTEMS-MC03",
+      "note": "Supplied key incorrectly selects platelets for haemophilia; plasma clotting-factor deficiency is the relevant mechanism. See CDChttps://www.cdc.gov/hemophilia/about/."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2018-SYSTEMS-MC07",
+      "note": "Two correct options A and D are explicitly marked in supplied key."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2018-SYSTEMS-MC08",
+      "note": "Definition in terms of parent count is incomplete and excludes self-fertilisation."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2017-ENDOCRINE-MC05",
+      "note": "Supplied key confuses first-line breach with second-line response."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2017-ENDOCRINE-MC09",
+      "note": "A is intended,but infected people are isolated;quarantine usually refers to exposed people who may become infectious. Accept the intended prevention principle with correct terminology."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2017-ENDOCRINE-MC10",
+      "note": "Influenza(A)was intended historically;Ebola(D)also has approved vaccines now. Not uniquely correct for current reuse."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2017-ENDOCRINE-14",
+      "note": "Historical drug list is not a current prescribing guide. Assess conceptual severity-appropriate examples; reviewed against NHShttps://www.nhs.uk/conditions/allergies/ andhttps://www.nhs.uk/conditions/anaphylaxis/."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2017-TECTONICS-MC04",
+      "note": "No dated reconstruction map provided; India’s neighbours depend on reconstruction."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2017-TECTONICS-MC06",
+      "note": "Imprecise heat-generation premise; teacher clarification needed."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2017-TECTONICS-MC07",
+      "note": "Supplied key A contradicts valid magnetic-striping evidence, and Bwording is ambiguous."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2017-TECTONICS-11b",
+      "note": "Supplied key says patterns of magnesium; corrected to remanent magnetic polarity."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2017-TECTONICS-12",
+      "note": "Supplied guide mixes lithosphere(mechanical layer)with mantle/core(compositional layers)."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2017-TECTONICS-13",
+      "note": "Task asks ten major plates, while guide accepts major/minor; clarify convention and do not require ten universally classified major plates."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-EARTH-MC07",
+      "note": "No option precisely defines global warming; Bdescribes a cause rather than the definition."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-EARTH-MC08",
+      "note": "Option Bcontains false claim that photosynthesis traps heat; key corrects CO₂roles."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-EARTH-MC09",
+      "note": "B and C can both describe ocean heat transport."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-EARTH-B1",
+      "note": "Historical word bank retained; the“single point”andunchangingsteadystatewording are simplified and must not be taught as necessary current cosmology."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-EARTH-B5b",
+      "note": "Supplied key omits the two consecutive years criterion for permafrost."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2016-FORENSIC-MC04",
+      "note": "Legal procedure depends on jurisdiction/context; historical curriculum item retained manual."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2016-FORENSIC-MC14",
+      "note": "Absolute claim about DNA in every cell nucleus is false."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2016-FORENSIC-MC15",
+      "note": "Multiple listed types of evidence can help identify a body."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2016-FORENSIC-MC17",
+      "note": "Und ated population general isa tion; not appropriate for automatic current-facts coring."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-SPORT-MC03",
+      "note": "Source compares whole blood with one of its own components; correct formed-elements/plasma interpretation provided."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-SPORT-MC05",
+      "note": "Historical clinical reference with context-dependent thresholds; retained manual."
+    },
+    {
+      "id": "SCI-REPO-Y10-NAR-2021-PHYS-449-MC07",
+      "note": "No valid unique answer:forces can change speed,direction,size and shape. Source must be manually moderated."
+    },
+    {
+      "id": "SCI-REPO-Y10-NAR-2021-PHYS-449-MC08",
+      "note": "D states the complete balance condition,but C is also true:drag balances thrust and lift balances weight at constant velocity. Accept C or D;not a unique-answer battle item."
+    },
+    {
+      "id": "SCI-REPO-Y10-NAR-2021-PHYS-450-MC04",
+      "note": "No dimensionally correct option:55kg is a mass,not a force. At g=10m/s² a55kg object has weight550N(optionD),but55kg is not the same quantity as550N. Teacher review required."
+    },
+    {
+      "id": "SCI-REPO-Y10-NAR-2021-PHYS-450-WR4",
+      "note": "Question requests final velocity but supplies final speed20m/s;likely intended acceleration. Preserve original question and5marks;teacher must confirm intended demand."
     },
     {
       "id": "SCI-REPO-Y8-KOL-2021-ATOMSCOMPOUNDS-4",
@@ -374,28 +230,44 @@
       "note": "Source graph ends at 95°C although data reach 100°C, and its example near 8 minutes is plotted at about 60°C rather than the supplied 63°C. Extend the scale or use replacement graph paper; correct the example point. Source data begin above 0°C and do not establish a melting plateau."
     },
     {
-      "id": "SCI-REPO-Y10-SBY-2024-PSYCHQUIZ-7",
-      "note": "Source asks for a single-lobe consequence of concussion;use a plausible functional link and moderate the oversimplified localisation. Marking guidance supplemented from CDC concussion explanation."
+      "id": "SCI-REPO-Y10-ARAN-2014-DNAMICRO-V5",
+      "note": "Original14vocabulary items share7marks (0.5each). Source simplifications clarified."
     },
     {
-      "id": "SCI-REPO-Y8-ARAN-2015-CHEMEND-W1",
-      "note": "Mass numbers/neutron counts are not uniquely determined by element identity. Do not require an unspecified isotope or confuse average relative atomic mass with mass number."
+      "id": "SCI-REPO-Y10-ARAN-2014-DNAMICRO-V6",
+      "note": "Original14vocabulary items share7marks (0.5each). Source simplifications clarified."
     },
     {
-      "id": "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-MC04",
-      "note": "Area labels are floating points rather than clearly bounded regions; rendered source can support multiple interpretations. Teacher must clarify the diagram/letter mapping before using this item."
+      "id": "SCI-REPO-Y10-ARAN-2014-DNAMICRO-V10",
+      "note": "Original14vocabulary items share7marks (0.5each). Source simplifications clarified."
     },
     {
-      "id": "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-MC05",
-      "note": "Area labels are floating points rather than clearly bounded regions; rendered source can support multiple interpretations. Teacher must clarify the diagram/letter mapping before using this item."
+      "id": "SCI-REPO-Y10-ARAN-2014-DNAMICRO-V11",
+      "note": "Original14vocabulary items share7marks (0.5each). Source simplifications clarified."
     },
     {
-      "id": "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-MC06",
-      "note": "Area labels are floating points rather than clearly bounded regions; rendered source can support multiple interpretations. Teacher must clarify the diagram/letter mapping before using this item."
+      "id": "SCI-REPO-Y10-ARAN-2014-DNAMICRO-V14",
+      "note": "Original14vocabulary items share7marks (0.5each). Source simplifications clarified."
     },
     {
-      "id": "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-MC07",
-      "note": "Area labels are floating points rather than clearly bounded regions; rendered source can support multiple interpretations. Teacher must clarify the diagram/letter mapping before using this item."
+      "id": "SCI-REPO-Y10-ARAN-2014-DNAMICRO-M-drawing",
+      "note": "Performance task requires actual specimen/teacher observation;source5marks lists6deduction criteria."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-DNAMICRO-M-size",
+      "note": "Requires actual viewed cells and field measurement."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-DNAMICRO-M-50x",
+      "note": "Key provides magnification assumptions missing from student stem."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2011-CHEM-5",
+      "note": "The source table gives no isotope mass numbers. Created guidance must not treat common isotope assumptions as uniquely supplied facts."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2011-CHEM-6c",
+      "note": "Source typo Na20 requires teacher correction to Na₂O."
     },
     {
       "id": "SCI-REPO-Y7-NARR-2018-CHEM1-MC01",
@@ -406,40 +278,60 @@
       "note": "D is likely intended for crystallisation based on solubility differences;selective dissolution followed by filtration also relies on solubility differences. The wording omits the mixture and conditions;moderate a justified interpretation."
     },
     {
-      "id": "SCI-REPO-Y7-ARAN-VOCAB21-V2-2",
-      "note": "Brownian motion is the likely intended term: irregular motion of small suspended particles caused by collisions with surrounding molecules. “Random movement of particles” alone is ambiguous."
+      "id": "SCI-REPO-Y9-ARAN-2013-CHEM2-MC04",
+      "note": "Closed valence shell is not the same as every electron shell filled to its full theoretical capacity."
     },
     {
-      "id": "SCI-REPO-Y7-ARAN-VOCAB21-V2-5",
-      "note": "Plasma is intended; it need not exist only at extremely high gas temperatures. Nonthermal plasmas also exist."
+      "id": "SCI-REPO-Y9-ARAN-2013-CHEM2-MC06",
+      "note": "Corrosivity is conditional, not shared universally by all acids and bases."
     },
     {
-      "id": "SCI-REPO-Y7-ARAN-VOCAB22-V2-2",
-      "note": "Thermal energy/particle kinetic energy is intended; the source’s wording is imprecise because particles do not stop moving when a material is cold."
+      "id": "SCI-REPO-Y9-ARAN-2013-CHEM2-MC08",
+      "note": "The absolute same-column valence rule has exceptions, notably helium and transition metals."
     },
     {
-      "id": "SCI-REPO-Y7-ARAN-VOCAB22-V2-3",
-      "note": "Atoms/molecules/ions as appropriate. “Particles” is the generic intended school term; not all matter consists only of molecules."
+      "id": "SCI-REPO-Y9-ARAN-2013-CHEM2-W2",
+      "note": "Universal-indicator colour varies with pH and corrosivity is conditional. The table’s binary format oversimplifies both."
     },
     {
-      "id": "SCI-REPO-Y7-ARAN-VOCAB22-V2-10",
-      "note": "Plasma is intended. The claimed universal6000°C threshold is false; plasmas can occur in nonthermal conditions and have no single threshold."
+      "id": "SCI-REPO-Y9-ARAN-2013-CHEM2-W4c",
+      "note": "Universal indicator normally does not justify the printed decimal precision; single samples do not establish a general causal rule."
     },
     {
-      "id": "SCI-REPO-Y7-ARAN-VOCAB23-V2-6",
-      "note": "Vaporisation is likely intended as the broader liquid→gas term; evaporation is a specific surface process, not a perfect synonym for every vaporisation process."
+      "id": "SCI-REPO-Y9-ARAN-2013-CHEM2-W5",
+      "note": "Source has fifteen blank cells but only six marks, without an allocation. Retained as the original grouped six-mark task."
     },
     {
-      "id": "SCI-REPO-Y7-ARAN-VOCAB23-V2-8",
-      "note": "Mist/fog/visible cloud droplets. If “steam” is intended in everyday usage, distinguish visible condensed droplets from invisible gaseous water vapour."
+      "id": "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-MC10",
+      "note": "All source options use a speed unit for kinetic energy."
     },
     {
-      "id": "SCI-REPO-Y7-ARAN-VOCAB23-V2-9",
-      "note": "Melting is intended for externally heated solid surfaces, but melting need not always begin at an outside edge under every heating configuration."
+      "id": "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-31",
+      "note": "Evolution module option. Last supplied evidence statement incorrectly treats similar structures in unrelated organisms as sufficient evidence of common ancestry."
     },
     {
-      "id": "SCI-REPO-Y7-ARAN-VOCAB23-V2-10",
-      "note": "Vaporisation; accept evaporation where surface escape is specifically meant, or boiling where bubbles form throughout the liquid."
+      "id": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-14",
+      "note": "Classification of “the soup is hot” depends on how it was established; source gives no sensory context. Do not require touching hot soup. Visible “steam” wording is colloquial."
+    },
+    {
+      "id": "SCI-REPO-Y8-B11-D33-WR01",
+      "note": "The source concludes expenditure from later food intake, which is not sufficient evidence. Accept critique: intake, stored energy and other activities are not controlled; scale resolution is not necessarily a systematic bias."
+    },
+    {
+      "id": "SCI-REPO-Y8-B11-D33-WR05",
+      "note": "Play count measures endurance under tested conditions, not energy efficiency without measuring energy input and useful output. Equal charging time does not guarantee equal stored charge; accept critique."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2023-ELEMENTS-WR19",
+      "note": "Office Math XML has superscript 4 and subscript 9 before Be; these are reversed for intended beryllium-9. Preserve the printed source and flag for teacher clarification rather than silently swapping the numbers."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2023-ELEMENTS-WR20",
+      "note": "“Iron oxide” does not specify the oxidation state; the supplied FeO answer is not an appropriate general formula for rust. Teacher review must accept justified formula assumptions. The printed question marks total 37, while the section header says 10+28=38."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2015-CHEMEND-W1",
+      "note": "Mass numbers/neutron counts are not uniquely determined by element identity. Do not require an unspecified isotope or confuse average relative atomic mass with mass number."
     },
     {
       "id": "SCI-REPO-Y10-ARAN-2013-DNAMINI-1a",
@@ -450,20 +342,128 @@
       "note": "The source omits total moving mass and friction information; accept justified limitations rather than a forced confirmation."
     },
     {
-      "id": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-14",
-      "note": "Classification of “the soup is hot” depends on how it was established; source gives no sensory context. Do not require touching hot soup. Visible “steam” wording is colloquial."
+      "id": "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-filtration",
+      "note": "Proposed distribution of13diagram marks under original25-mark cover;12matching marks separately explicit by items.Input label ambiguity flagged."
     },
     {
-      "id": "SCI-REPO-Y7-NARR-2022-INVERTVALID-2",
-      "note": "Student’s selected phylum and original research are required for individual marking."
+      "id": "SCI-REPO-Y9-SBY-2017-EXT-MC02",
+      "note": "More than one description can be correct, and supplied keys disagree across variants."
     },
     {
-      "id": "SCI-REPO-Y7-NARR-2022-INVERTVALID-3",
-      "note": "Student’s selected phylum and original research are required for individual marking."
+      "id": "SCI-REPO-Y9-SBY-2017-EXT-MC07",
+      "note": "At least two statements are false; not a valid single-answer MC."
     },
     {
-      "id": "SCI-REPO-Y7-NARR-2022-INVERTVALID-4",
-      "note": "Student’s selected phylum and original research are required for individual marking."
+      "id": "SCI-REPO-Y9-SBY-2017-EXT-MC12",
+      "note": "Both C and D describe a community."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2017-EXT-MC15",
+      "note": "Supplied key confuses heat with temperature; correct energy-transfer explanation provided."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2017-EXT-MC18",
+      "note": "Charge carriers depend on medium; electrons in metal wires and ions in electrolytes."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2017-EXT-26b",
+      "note": "Supplied key incorrectly defines strength using danger and edibility. Replaced with ionisation-based guidance."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2017-EXT-33",
+      "note": "Supplied key wrongly calls the vacuum a layer of air. Figure text already explains reflection; original figure preserved and answer is manually marked."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-EXT-MC10",
+      "note": "Supplied key marks sons only, but question asks allele inheritance: all children inherit maternal allele."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-EXT-MC23",
+      "note": "C is intended if velocity is positive in the chosen coordinate system. Slowing means acceleration opposite to velocity;it is not necessarily negative. Accept a justified explanation of the missing direction convention."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-EXT-MC28",
+      "note": "Original optionB has no numerical value; teacher must repair incomplete distractor."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-EXT-MC30",
+      "note": "B is the nearest intended statement,but only describes energy transformation. A complete conservation law says total energy of an isolated system is constant;energy cannot be created or destroyed. No option states that law fully."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-EXT-19",
+      "note": "Source and key ignore the downhill gravitational component. Accept−1.8m/s² only under the stated friction-only/resultant-force assumption; accept a correct underdetermination explanation."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-EXT-20b",
+      "note": "Supplied key substitutes inconsistent values and reports20J. Original task gives2kg,9.8N/kg and2m, yielding39.2J."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-EXT-24b",
+      "note": "Supplied key incorrectly namesCO as carbon dioxide; corrected to carbon monoxide."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-EXT-28option1",
+      "note": "Original optional10mark response retained separately. Supplied key wrongly generalises all covalent solids as malleable, soft and low-melting; correct molecular/network distinction accepted."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2015-S1CHEM-MC18",
+      "note": "A is universally valid; D includes mechanism-specific claims that are not general. Teacher review required."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B3",
+      "note": "Matching supplied key contains unsupported or incorrect evidence; corrected guidance retained."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B4",
+      "note": "Matching supplied key contains unsupported or incorrect evidence; corrected guidance retained."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B5",
+      "note": "Matching supplied key contains unsupported or incorrect evidence; corrected guidance retained."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B6",
+      "note": "Matching supplied key contains unsupported or incorrect evidence; corrected guidance retained."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B8",
+      "note": "Matching supplied key contains unsupported or incorrect evidence; corrected guidance retained."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-MC01",
+      "note": "Ambiguous:no universal6000°Cminimum applies to all plasmas;low-temperature plasmas exist. “Plasma found deep in ocean” is also not a generally supported ordinary-state description. More than one problematic choice;manual moderation required."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-MC05",
+      "note": "A is the intended false statement:liquid particles retain interactions despite moving past each other. “Bonds between particles” conflates intermolecular attraction and chemical bonds;gas molecules can contain strong chemical bonds. Manual moderation required."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-MC06",
+      "note": "Question gives initial water volume,not final solution volume."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-V1",
+      "note": "Imprecise original definition requires teacher clarification."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-V3",
+      "note": "Imprecise original definition requires teacher clarification."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-2016-CHEMMID-221-V3",
+      "note": "Imprecise original definition requires teacher clarification."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-2012-CHEMMID-223-W4",
+      "note": "Modified word bank omits sublimation although solid-to-gas arrow remains;allow correct term outside supplied bank."
+    },
+    {
+      "id": "SCI-REPO-Y10-NAR-2022-DNAVALID-2",
+      "note": "Source asks “Who found DNA?” with two blank lines but supplies no key. Discovery of the substance and discovery of its double-helical structure are different historical questions."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2014-SCIMETHOD-W7",
+      "note": "Definition b does not uniquely establish second-hand provenance. Accept a justified correction of the source definition."
     },
     {
       "id": "SCI-REPO-Y7-B10-D12-MC04",
@@ -534,188 +534,56 @@
       "note": "Existing grouped question rechecked against the keyed source;subpart guidance consolidated without counting duplicates."
     },
     {
-      "id": "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-MC04",
-      "note": "B:evolution is intended,but evolution need not produce a new species. The definition wrongly makes speciation necessary;teacher moderation."
+      "id": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR2",
+      "note": "Cloud/steam terminology needs phase clarification;accept scientifically accurate explanations."
     },
     {
-      "id": "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-MC08",
-      "note": "Source draft option includes“WEEK4Content-Not assessed”;retain teacher review rather than auto-assess."
+      "id": "SCI-REPO-Y10-SBY-2020-EVOLUTIONATAR-15a",
+      "note": "Question implies a historical chronology without evidence. Distinguish random mutation from selection;do not teach that mutations must always predate environmental changes."
     },
     {
-      "id": "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-MC09",
-      "note": "A(environmental resistance)is likely intended,but speciation can also involve genetic drift rather than selection pressure(D). Mechanisms vary;the source does not define a unique necessary-step framework."
+      "id": "SCI-REPO-Y10-ARAN-PHYS89GENERAL-MC13",
+      "note": "Sydney Harbour Bridge is not precisely a bowstring/tied arch; closest source option is A."
     },
     {
-      "id": "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC13",
-      "note": "Equal masses/initial temperatures are unstated;answer conditional on them."
+      "id": "SCI-REPO-Y10-ARAN-PHYS89GENERAL-MC15",
+      "note": "Both running child and moving wings of hovering bee have kinetic energy."
     },
     {
-      "id": "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC14",
-      "note": "Thermal conductivity alone does not determine actual temperature or touch sensation after sunshine exposure."
+      "id": "SCI-REPO-Y10-ARAN-PHYS89GENERAL-MC16",
+      "note": "Force magnitudes and initial velocity are unspecified; movement is not uniquely determined."
     },
     {
-      "id": "SCI-REPO-Y8-ARAN-2015-ENERGY-MC04",
-      "note": "Course-specific recall with no curriculum list provided."
+      "id": "SCI-REPO-Y10-ARAN-PHYS89GENERAL-MC20",
+      "note": "Two choices (B and C) are incorrect, so this is not single-answer MC."
     },
     {
-      "id": "SCI-REPO-Y8-ARAN-2015-ENERGY-MC07",
-      "note": "A generic flow diagram can also represent energy transformations;answers overlap."
+      "id": "SCI-REPO-Y10-ARAN-PHYS89GENERAL-MC22",
+      "note": "Moving down a hill does not exclude gravitational potential energy."
     },
     {
-      "id": "SCI-REPO-Y8-ARAN-2015-ENERGY-12",
-      "note": "Word-bank item conflates energy with power;retained for teacher correction."
+      "id": "SCI-REPO-Y10-ARAN-GENERALMID2-1",
+      "note": "Source figure says700N and50kg, whereas written problem says400N and20kg. Accept a consistent interpretation; supplied worked solution uses the written values."
     },
     {
-      "id": "SCI-REPO-Y8-ARAN-2015-ENERGY-15",
-      "note": "Corrected supplied key’s missing kinetic energy of the moving balloon/air."
+      "id": "SCI-REPO-Y8-SBY-2024-MATTER-MC10",
+      "note": "No option is fully correct. During melting of a pure substance at constant pressure the temperature and mean kinetic energy remain approximately constant while added energy changes particle interactions. Particles leave fixed positions; they do not expand. Volume change is substance-dependent. Retain teacher review; do not automatically credit B."
     },
     {
-      "id": "SCI-REPO-Y10-NAR-2023-MOTION-MC08",
-      "note": "BothC andD are true."
+      "id": "SCI-REPO-Y10-ARAN-2014-PHYS1-MC19",
+      "note": "No correct option. Efficiency=useful energy output/total energy input×100%(or corresponding power ratio). B is not a scientific definition. Manually moderate;do not force an incorrect keyed answer."
     },
     {
-      "id": "SCI-REPO-Y10-NAR-2023-MOTION-MC09",
-      "note": "Resultant direction is known but speed change requires velocity direction."
+      "id": "SCI-REPO-Y10-ARAN-2014-PHYS1-6",
+      "note": "Original diagram gives75kg mass with100N downward force. This is inconsistent if the downward force is weight near Earth. Original figure retained;no invented correction."
     },
     {
-      "id": "SCI-REPO-Y10-NAR-2023-MOTION-MC10",
-      "note": "Multiple ticker tapes shown without identifying the target."
+      "id": "SCI-REPO-Y9-NAR-2022-INFECTION-EXT-2",
+      "note": "Source introduction incorrectly generalises all viral vaccines as attenuated; supplied key also implies mild illness is required. Created guidance corrects both."
     },
     {
-      "id": "SCI-REPO-Y10-ARAN-2013-DNAINHERIT-10",
-      "note": "This is the source’s stipulated single-gene Mendelian model;real earlobe attachment and tongue rolling are not reliably described as simple one-gene dominant traits."
-    },
-    {
-      "id": "SCI-REPO-Y9-SBY-2017-EXT-MC02",
-      "note": "More than one description can be correct, and supplied keys disagree across variants."
-    },
-    {
-      "id": "SCI-REPO-Y9-SBY-2017-EXT-MC07",
-      "note": "At least two statements are false; not a valid single-answer MC."
-    },
-    {
-      "id": "SCI-REPO-Y9-SBY-2017-EXT-MC12",
-      "note": "Both C and D describe a community."
-    },
-    {
-      "id": "SCI-REPO-Y9-SBY-2017-EXT-MC15",
-      "note": "Supplied key confuses heat with temperature; correct energy-transfer explanation provided."
-    },
-    {
-      "id": "SCI-REPO-Y9-SBY-2017-EXT-MC18",
-      "note": "Charge carriers depend on medium; electrons in metal wires and ions in electrolytes."
-    },
-    {
-      "id": "SCI-REPO-Y9-SBY-2017-EXT-26b",
-      "note": "Supplied key incorrectly defines strength using danger and edibility. Replaced with ionisation-based guidance."
-    },
-    {
-      "id": "SCI-REPO-Y9-SBY-2017-EXT-33",
-      "note": "Supplied key wrongly calls the vacuum a layer of air. Figure text already explains reflection; original figure preserved and answer is manually marked."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2017-EXT-MC10",
-      "note": "Supplied key marks sons only, but question asks allele inheritance: all children inherit maternal allele."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2017-EXT-MC23",
-      "note": "Direction convention is unstated; negative acceleration need not mean slowing."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2017-EXT-MC28",
-      "note": "Original optionB has no numerical value; teacher must repair incomplete distractor."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2017-EXT-19",
-      "note": "Source and key ignore the downhill gravitational component. Accept−1.8m/s² only under the stated friction-only/resultant-force assumption; accept a correct underdetermination explanation."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2017-EXT-20b",
-      "note": "Supplied key substitutes inconsistent values and reports20J. Original task gives2kg,9.8N/kg and2m, yielding39.2J."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2017-EXT-24b",
-      "note": "Supplied key incorrectly namesCO as carbon dioxide; corrected to carbon monoxide."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2017-EXT-28option1",
-      "note": "Original optional10mark response retained separately. Supplied key wrongly generalises all covalent solids as malleable, soft and low-melting; correct molecular/network distinction accepted."
-    },
-    {
-      "id": "SCI-REPO-Y10-ARAN-2015-S1CHEM-MC18",
-      "note": "A is universally valid; D includes mechanism-specific claims that are not general. Teacher review required."
-    },
-    {
-      "id": "SCI-REPO-Y10-NAR-2024-DNA-MC17",
-      "note": "The supplied key selects non-standard term scrambling; insertions and deletions can both disrupt a reading frame. No unique valid answer is supplied."
-    },
-    {
-      "id": "SCI-REPO-Y10-NAR-2024-DNA-MC20",
-      "note": "The source strand is ACGAT top to bottom; the complementary sequence TGCTA is absent from the pictured options. The supplied key B conflicts with the image."
-    },
-    {
-      "id": "SCI-REPO-Y10-NAR-2024-UNIVERSE-MC02",
-      "note": "Classical singularity wording is not an established description of a physical zero-volume beginning."
-    },
-    {
-      "id": "SCI-REPO-Y10-NAR-2024-UNIVERSE-MC03",
-      "note": "Unspecified theoretical early-universe force timeline; the key’s intended model must be clarified."
-    },
-    {
-      "id": "SCI-REPO-Y10-NAR-2024-UNIVERSE-MC14",
-      "note": "Both Proxima Centauri and Betelgeuse are M-class stars. Supplied key selects B, but C is also defensible. Source spelling Betelgeux retained."
-    },
-    {
-      "id": "SCI-REPO-Y8-SBY-2023-ELEMENTS-WR19",
-      "note": "Office Math XML has superscript 4 and subscript 9 before Be; these are reversed for intended beryllium-9. Preserve the printed source and flag for teacher clarification rather than silently swapping the numbers."
-    },
-    {
-      "id": "SCI-REPO-Y8-SBY-2023-ELEMENTS-WR20",
-      "note": "“Iron oxide” does not specify the oxidation state; the supplied FeO answer is not an appropriate general formula for rust. Teacher review must accept justified formula assumptions. The printed question marks total 37, while the section header says 10+28=38."
-    },
-    {
-      "id": "SCI-REPO-Y10-NARR-2020-CHEMREACTIONS-MC07",
-      "note": "Source amount-versus-rate distinction is underspecified;manual teacher review."
-    },
-    {
-      "id": "SCI-REPO-Y9-NAR-2023-REACTIONS-MC12",
-      "note": "Formal balance requires2NaF+Br₂→2NaBr+F₂. Bromine cannot ordinarily displace fluoride;formal balancing is not evidence of a feasible spontaneous reaction."
-    },
-    {
-      "id": "SCI-REPO-Y9-NAR-2023-REACTIONS-MC14",
-      "note": "Photosynthesis is intended:oxygen is produced,not required as an input to its simplified net equation. Corrosion need not universally consume molecular oxygen,so the unqualified alternatives are scientifically too broad."
-    },
-    {
-      "id": "SCI-REPO-Y9-NAR-2022-WAVES-MC03",
-      "note": "unit correction: the supplied key selects B, lumens, which measure luminous flux. Luminous intensity is measured in candela; irradiance/radiant intensity use other units. No option unambiguously states the requested intensity unit. Accept a correct explanation and retain manual marking."
-    },
-    {
-      "id": "SCI-REPO-Y9-NAR-2022-WAVES-MC08",
-      "note": "the source key A overgeneralises density. The table supplies no densities, and sound speed depends on stiffness/compressibility as well as density; wood can transmit sound faster than denser water. The table supports faster sound in the listed solids and warmer air, but no universally valid density rule. Retain manual marking."
-    },
-    {
-      "id": "SCI-REPO-Y9-NAR-2022-WAVES-MC10",
-      "note": "frequency × wavelength equals wave speed. C applies to sound waves, but the stem does not specify sound; the surrounding paper also discusses light. Accept C with the sound context or a correct general wave-speed response. Source typo “Speed of money” retained. Manual marking."
-    },
-    {
-      "id": "SCI-REPO-Y9-NAR-2022-WAVES-MC15",
-      "note": "source option A contradicts itself by saying all visible light is absorbed while green is reflected. A green object under white light reflects green wavelengths and absorbs much of the other visible light. Accept the intended A with that correction, or a correct explanation rejecting the wording. Manual marking."
-    },
-    {
-      "id": "SCI-REPO-Y10-ARAN-2013-CELLREPRO-1c",
-      "note": "Source conflates a displayed replicated state with the time when replication occurs. Accept a correct S-phase clarification."
-    },
-    {
-      "id": "SCI-REPO-Y10-ARAN-2013-CELLREPRO-7c",
-      "note": "Treat receding chin as the source’s hypothetical fully penetrant autosomal one-gene model. Human facial traits are not established here to follow this simple inheritance pattern."
-    },
-    {
-      "id": "SCI-REPO-Y10-ARAN-2013-CELLREPRO-7d",
-      "note": "Treat receding chin as the source’s hypothetical fully penetrant autosomal one-gene model. Human facial traits are not established here to follow this simple inheritance pattern."
-    },
-    {
-      "id": "SCI-REPO-Y10-ARAN-2013-CELLREPRO-7e",
-      "note": "Treat receding chin as the source’s hypothetical fully penetrant autosomal one-gene model. Human facial traits are not established here to follow this simple inheritance pattern."
+      "id": "SCI-REPO-Y9-NAR-2022-INFECTION-EXT-4",
+      "note": "Source wrongly guarantees no future disease and supplied key assigns phagocytosis to killer T cells. These errors are corrected; item requires teacher moderation."
     },
     {
       "id": "SCI-REPO-Y10-ARAN-2013-EVOLUTION-1b",
@@ -730,88 +598,208 @@
       "note": "Definition conflates evolution and speciation;teacherreviewrequired."
     },
     {
+      "id": "SCI-REPO-Y9-NAR-2024-TECTONICS-MC10",
+      "note": "source terminology problem. Tsunamis are not caused by tides; “tidal wave” is an inaccurate historical name. Accept D only as recognition of that old usage, or a correct explanation rejecting it. Retain manual marking."
+    },
+    {
+      "id": "SCI-REPO-Y9-NAR-2024-TECTONICS-MC12",
+      "note": "multiple false statements. D is the intended source answer, but C incorrectly calls Richter magnitude an intensity scale; B also overstates maximum intensity at the epicentre. Accept a scientifically justified identification of these flaws. Retain manual marking."
+    },
+    {
+      "id": "SCI-REPO-Y9-NAR-2024-TECTONICS-MC15",
+      "note": "ambiguous historical question. The supplied key selects C, but its key copy says 1972 while this paper says 1952. Discovery of mid-ocean ridges/rifts and magnetic stripes all contributed; option D incorrectly calls ridges trenches. Accept a justified B/C response; require teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y9-NAR-2024-TECTONICS-MC18",
+      "note": "location 2 lies on the Mid-Atlantic Ridge. B (mid-ocean ridge), C (volcanism) and D (earthquakes, supplied key) can all occur there. Accept justified B/C/D; there is no unique best option as worded."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2014-PHYS-MC04",
+      "note": "C is intended,but D is also false:photosynthesis uses light rather than heat from sunlight. Two incorrect choices;manual moderation required."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-BIOEND-ELISA-MC16",
+      "note": "BandCare both correct:7labels trachea and9labels bronchus. Source asks for a single correct statement but offers two;manual moderation."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-BIOEND-ELISA-MC18",
+      "note": "C is the most direct physiological explanation:the left ventricle generates greater systemic pressure. A also gives a broadly valid systemic-distance rationale. Accept a justified answer;not a unique-answer battle item."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2017-MICROSCOPE-history",
+      "note": "History examples require verified sources; magnification table leaves objective powers unspecified."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2018-MICROSCOPE-history",
+      "note": "History examples require verified sources; magnification table leaves objective powers unspecified."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-MC04",
+      "note": "Area labels are floating points rather than clearly bounded regions; rendered source can support multiple interpretations. Teacher must clarify the diagram/letter mapping before using this item."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-MC05",
+      "note": "Area labels are floating points rather than clearly bounded regions; rendered source can support multiple interpretations. Teacher must clarify the diagram/letter mapping before using this item."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-MC06",
+      "note": "Area labels are floating points rather than clearly bounded regions; rendered source can support multiple interpretations. Teacher must clarify the diagram/letter mapping before using this item."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2013-ATOMSMINI-MC07",
+      "note": "Area labels are floating points rather than clearly bounded regions; rendered source can support multiple interpretations. Teacher must clarify the diagram/letter mapping before using this item."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-VOCAB21-V2-2",
+      "note": "Brownian motion is the likely intended term: irregular motion of small suspended particles caused by collisions with surrounding molecules. “Random movement of particles” alone is ambiguous."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-VOCAB21-V2-5",
+      "note": "Plasma is intended; it need not exist only at extremely high gas temperatures. Nonthermal plasmas also exist."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-VOCAB22-V2-2",
+      "note": "Thermal energy/particle kinetic energy is intended; the source’s wording is imprecise because particles do not stop moving when a material is cold."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-VOCAB22-V2-3",
+      "note": "Atoms/molecules/ions as appropriate. “Particles” is the generic intended school term; not all matter consists only of molecules."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-VOCAB22-V2-10",
+      "note": "Plasma is intended. The claimed universal6000°C threshold is false; plasmas can occur in nonthermal conditions and have no single threshold."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-VOCAB23-V2-6",
+      "note": "Vaporisation is likely intended as the broader liquid→gas term; evaporation is a specific surface process, not a perfect synonym for every vaporisation process."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-VOCAB23-V2-8",
+      "note": "Mist/fog/visible cloud droplets. If “steam” is intended in everyday usage, distinguish visible condensed droplets from invisible gaseous water vapour."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-VOCAB23-V2-9",
+      "note": "Melting is intended for externally heated solid surfaces, but melting need not always begin at an outside edge under every heating configuration."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-VOCAB23-V2-10",
+      "note": "Vaporisation; accept evaporation where surface escape is specifically meant, or boiling where bubbles form throughout the liquid."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2024-ENERGY-WR16",
+      "note": "The source treats kinetic energy as useful output. The 66% is only for that supplied conversion model, not the refrigerator’s overall cooling performance. Refrigerators transfer heat; coefficient of performance is a different measure. Do not infer a running-cost comparison from these data alone."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2024-ENERGY-WR17",
+      "note": "The source supplies no explicit potential-energy zero, initial speed or loss assumption. A unique equal-KE/PE position is therefore underdetermined; teacher clarification or a scientifically justified conditional answer is required."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2024-ENERGY-WR18",
+      "note": "The claim that all solar cars are necessarily more efficient than petrol cars lacks a defined boundary and numerical data. Accept a qualified comparison; do not assume photovoltaic conversion and electric motors are lossless."
+    },
+    {
+      "id": "SCI-REPO-Y7-NAR-2023-FORCES-MC03",
+      "note": "The original diagram marks one end of each magnet with a dot but gives no pole legend. A is expected only if dots identify the same pole. Teacher review required."
+    },
+    {
+      "id": "SCI-REPO-Y8-NAR-2023-ENERGY-MC07",
+      "note": "The claim that all energy on Earth comes from the Sun is overbroad; geothermal energy is a counterexample. No option is universally correct."
+    },
+    {
+      "id": "SCI-REPO-Y8-NAR-2023-ENERGY-WR02",
+      "note": "The stem limits answers to Q1 types, omitting electrical/light, and the source key gives engine heat as the output. Created guidance accepts scientifically justified outputs."
+    },
+    {
+      "id": "SCI-REPO-Y8-NAR-2023-ENERGY-WR07",
+      "note": "The printed table and supplied key confuse radiation with conduction and make absolute claims by state. Use the created guidance and accept justified explanations."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-2015-BIO-MC06",
+      "note": "The Sun is the intended source for this photosynthesis-based classroom web. “All food webs” is too broad: some are based on chemosynthesis."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-2015-BIO-MC13",
+      "note": "A is intended: silver perch, trout and pelican can occupy third-consumer positions along appropriate paths. The omnivorous network allows more than one trophic position; do not treat each organism as having one fixed level."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-2015-BIO-MC16",
+      "note": "B is intended in the historical five-kingdom model. Classification systems differ; the model must be specified."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-2013-BIO-MC03",
+      "note": "C is the narrow intended effect: foxes eat introduced rabbits. This does not establish a net ecological benefit of fox introduction; native predation can outweigh it."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-2013-BIO-MC06",
+      "note": "The Sun is the intended source for this photosynthesis-based classroom web. “All food webs” is too broad: some are based on chemosynthesis."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-2013-BIO-MC15",
+      "note": "B is intended as least specifically linked to cold or fast swimming, but swallowing prey whole can still aid feeding/survival; comparison is subjective."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-2013-BIO-W2-intro",
+      "note": "An additional open-response sentence precedes the true/false task but has no printed mark allocation. Proposed2-mark rubric is clearly separate from the printed42-mark paper total."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-2013-BIO-W2",
+      "note": "Source includes inline T/F answers. These are removed from the student prompt; itemd uses simplified conservation-category wording."
+    },
+    {
+      "id": "SCI-REPO-Y7-ARAN-2013-BIO-W7a",
+      "note": "Inline source answer MUTUALISM contradicts its own stem. Corrected to commensalism; retain manual review."
+    },
+    {
       "id": "SCI-REPO-Y8-KOL-2021-PHYSCHEMCHANGE-3",
       "note": "Five classification/reason pairs are supplied but only8 marks; no original cell-level rubric identified."
     },
     {
-      "id": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR2",
-      "note": "Cloud/steam terminology needs phase clarification;accept scientifically accurate explanations."
+      "id": "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-MC03",
+      "note": "Unmarked draft;proposed1mark. Broad magnetite wording allows more than one answer."
     },
     {
-      "id": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B3",
-      "note": "Matching supplied key contains unsupported or incorrect evidence; corrected guidance retained."
+      "id": "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-SAb",
+      "note": "Unmarked draft;allocation proposed;supplied geodynamic explanation qualified."
     },
     {
-      "id": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B4",
-      "note": "Matching supplied key contains unsupported or incorrect evidence; corrected guidance retained."
+      "id": "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-SAc",
+      "note": "Unmarked draft;allocation proposed;supplied geodynamic explanation qualified."
     },
     {
-      "id": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B5",
-      "note": "Matching supplied key contains unsupported or incorrect evidence; corrected guidance retained."
+      "id": "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-heat",
+      "note": "Unmarked draft;allocation proposed;supplied geodynamic explanation qualified."
     },
     {
-      "id": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B6",
-      "note": "Matching supplied key contains unsupported or incorrect evidence; corrected guidance retained."
+      "id": "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-match5",
+      "note": "Unmarked draft;proposed1mark per match. Historical/simplified definitions need qualification."
     },
     {
-      "id": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B8",
-      "note": "Matching supplied key contains unsupported or incorrect evidence; corrected guidance retained."
+      "id": "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-match7",
+      "note": "Unmarked draft;proposed1mark per match. Historical/simplified definitions need qualification."
     },
     {
-      "id": "SCI-REPO-Y9-SBY-2018-CHEMVAR-MC10",
-      "note": "No option states the general redox definition; teacher review required for the source’s broad “any reaction” wording."
+      "id": "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-match9",
+      "note": "Unmarked draft;proposed1mark per match. Historical/simplified definitions need qualification."
     },
     {
-      "id": "SCI-REPO-Y9-SBY-2017-CHEMVAR-7b",
-      "note": "The supplied key calls cellular respiration combustion. Distinguish controlled biochemical oxidation from burning."
+      "id": "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-match10",
+      "note": "Unmarked draft;proposed1mark per match. Historical/simplified definitions need qualification."
     },
     {
-      "id": "SCI-REPO-Y9-SBY-2018-CHEMVAR-extended",
-      "note": "Created five-mark rubric; common supplied variant key incorrectly equates strength with danger. This variant’s acid-rain component is not present in that key."
+      "id": "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-term1",
+      "note": "Unmarked draft;proposed1mark per term;source definition/key defects flagged."
     },
     {
-      "id": "SCI-REPO-Y9-NAR-2022-INFECTION-EXT-2",
-      "note": "Source introduction incorrectly generalises all viral vaccines as attenuated; supplied key also implies mild illness is required. Created guidance corrects both."
+      "id": "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-term3",
+      "note": "Unmarked draft;proposed1mark per term;source definition/key defects flagged."
     },
     {
-      "id": "SCI-REPO-Y9-NAR-2022-INFECTION-EXT-4",
-      "note": "Source wrongly guarantees no future disease and supplied key assigns phagocytosis to killer T cells. These errors are corrected; item requires teacher moderation."
+      "id": "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-term9",
+      "note": "Unmarked draft;proposed1mark per term;source definition/key defects flagged."
     },
     {
-      "id": "SCI-REPO-Y10-SBY-PREATAR-MODULE-MC04",
-      "note": "A and C are chemically equivalent formulae; no unique answer."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-PREATAR-MODULE-MC12",
-      "note": "Supplied key D and general mechanism A are both defensible under the “can” wording; teacher moderation required."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-PREATAR-MODULE-17b",
-      "note": "Supplied equation does not correspond to the asked reactants; corrected equation explicitly provided."
-    },
-    {
-      "id": "SCI-REPO-Y8-B11-D33-WR01",
-      "note": "The source concludes expenditure from later food intake, which is not sufficient evidence. Accept critique: intake, stored energy and other activities are not controlled; scale resolution is not necessarily a systematic bias."
-    },
-    {
-      "id": "SCI-REPO-Y8-B11-D33-WR05",
-      "note": "Play count measures endurance under tested conditions, not energy efficiency without measuring energy input and useful output. Equal charging time does not guarantee equal stored charge; accept critique."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2017-CHEMTERM1-MC19",
-      "note": "D(group8)is the intended legacy main-groupVIII answer,but modern group8is not noble gases. Modern group18is absent;teacher review required."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2017-CHEMTERM1-MC20",
-      "note": "C(group7)is intended legacy VII;modern halogens are group17,which is absent. Teacher review required."
-    },
-    {
-      "id": "SCI-REPO-Y7-NARR-2018-BIO1-W3a",
-      "note": "The source does not clarify anatomical versus page-left convention;accept a consistently followed key path."
-    },
-    {
-      "id": "SCI-REPO-Y7-NARR-2019-BIO1-W3a",
-      "note": "The source does not clarify anatomical versus page-left convention;accept a consistently followed key path."
+      "id": "SCI-REPO-Y9-ARAN-2014-GEOLOGYDRAFT-term10",
+      "note": "Unmarked draft;proposed1mark per term;source definition/key defects flagged."
     },
     {
       "id": "SCI-REPO-Y8-ARAN-2016-PHYS1-MC08",
@@ -830,16 +818,36 @@
       "note": "Ambiguous:avoidable mistakes can be prevented,but not every source of random/systematic measurement error can be eliminated. Accept a justified answer;teacher moderation required."
     },
     {
-      "id": "SCI-REPO-Y10-SBY-2020-EVOLUTIONATAR-15a",
-      "note": "Question implies a historical chronology without evidence. Distinguish random mutation from selection;do not teach that mutations must always predate environmental changes."
+      "id": "SCI-REPO-Y10-SBY-2017-S1EXAM-MC21",
+      "note": "The question omits whether the chromosome has replicated;two chromatids is not always true."
     },
     {
-      "id": "SCI-REPO-Y10-ARAN-2016-CHEM2ACC-MC09",
-      "note": "Source radical-ion term means polyatomic ion here;modern radical ions have an unpaired electron. Ambiguous terminology excluded from automatic battles."
+      "id": "SCI-REPO-Y10-SBY-2017-S1EXAM-2b",
+      "note": "Corrected supplied key:meiosis normally gives four products,not three;gametes are products,not the site of meiosis."
     },
     {
-      "id": "SCI-REPO-Y10-ARAN-2016-CHEM2ACC-W6",
-      "note": "Source gives oxygen rather than hydrogen valence information for methane;oxygen is not part of CH₄."
+      "id": "SCI-REPO-Y10-SBY-2017-S1EXAM-4e",
+      "note": "Supplied key gives25% for dimples;corrected to75% under the stated dominant model."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-S1EXAM-5a",
+      "note": "Source confuses band extension/variable force with the distance the released band travels. Do not present25J as uniquely inferable."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-S1EXAM-5e",
+      "note": "Supplied key uses firefighter mass for cat;correct answer75J."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2020-S2EXAM-MC17",
+      "note": "All options falsely say S-waves travel through solids,liquids and gases;teacher review required."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2020-S2EXAM-21e",
+      "note": "Supplied key gives−1 despite showing11protons and10electrons;corrected to+1."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2020-S2EXAM-28",
+      "note": "Older supplied key says no earthquakes/volcanoes at convergence;that is false and corrected."
     },
     {
       "id": "SCI-REPO-Y8-ARAN-ROCKPRACT33-seated1",
@@ -950,6 +958,74 @@
       "note": "Existing grouped question rechecked against the keyed source;subpart guidance consolidated without counting duplicates."
     },
     {
+      "id": "SCI-REPO-Y9-NAR-2022-REACTIONTYPES-W3",
+      "note": "Source category carbonate is a subtype of salt;overlapping labels require moderation."
+    },
+    {
+      "id": "SCI-REPO-Y7-SBY-2017-EARTHSPACE-MC12",
+      "note": "Supplied key chooses night; hemisphere tilt and day/night are distinct. Teacher moderation required."
+    },
+    {
+      "id": "SCI-REPO-Y7-SBY-2017-EARTHSPACE-19",
+      "note": "“Controlled by the sun” is ambiguous because solar gravity contributes to tides. Accept justified responses, rather than automatically treating all three statements as false."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-MC04",
+      "note": "B:evolution is intended,but evolution need not produce a new species. The definition wrongly makes speciation necessary;teacher moderation."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-MC08",
+      "note": "Source draft option includes“WEEK4Content-Not assessed”;retain teacher review rather than auto-assess."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-MC09",
+      "note": "A(environmental resistance)is likely intended,but speciation can also involve genetic drift rather than selection pressure(D). Mechanisms vary;the source does not define a unique necessary-step framework."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC13",
+      "note": "Equal masses/initial temperatures are unstated;answer conditional on them."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC14",
+      "note": "Thermal conductivity alone does not determine actual temperature or touch sensation after sunshine exposure."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2015-ENERGY-MC04",
+      "note": "Course-specific recall with no curriculum list provided."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2015-ENERGY-MC07",
+      "note": "A generic flow diagram can also represent energy transformations;answers overlap."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2015-ENERGY-12",
+      "note": "Word-bank item conflates energy with power;retained for teacher correction."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2015-ENERGY-15",
+      "note": "Corrected supplied key’s missing kinetic energy of the moving balloon/air."
+    },
+    {
+      "id": "SCI-REPO-Y10-NAR-2023-MOTION-MC08",
+      "note": "BothC andD are true."
+    },
+    {
+      "id": "SCI-REPO-Y10-NAR-2023-MOTION-MC09",
+      "note": "Resultant direction is known but speed change requires velocity direction."
+    },
+    {
+      "id": "SCI-REPO-Y10-NAR-2023-MOTION-MC10",
+      "note": "Multiple ticker tapes shown without identifying the target."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2013-DNAINHERIT-10",
+      "note": "This is the source’s stipulated single-gene Mendelian model;real earlobe attachment and tongue rolling are not reliably described as simple one-gene dominant traits."
+    },
+    {
+      "id": "SCI-REPO-Y10-NARR-2020-CHEMREACTIONS-MC07",
+      "note": "Source amount-versus-rate distinction is underspecified;manual teacher review."
+    },
+    {
       "id": "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-MC14",
       "note": "No correct answer choice. Original images checked: hand-shaped undivided blade A, palmate compound leaf B."
     },
@@ -962,274 +1038,6 @@
       "note": "Historical classification model and oversimplified descriptors; manual contextual marking."
     },
     {
-      "id": "SCI-REPO-Y7-ARAN-2014-VOCAB2-11",
-      "note": "Typographical source error: solvent should refer to additional solute."
-    },
-    {
-      "id": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-MC01",
-      "note": "Ambiguous:no universal6000°Cminimum applies to all plasmas;low-temperature plasmas exist. “Plasma found deep in ocean” is also not a generally supported ordinary-state description. More than one problematic choice;manual moderation required."
-    },
-    {
-      "id": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-MC05",
-      "note": "A is the intended false statement:liquid particles retain interactions despite moving past each other. “Bonds between particles” conflates intermolecular attraction and chemical bonds;gas molecules can contain strong chemical bonds. Manual moderation required."
-    },
-    {
-      "id": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-MC06",
-      "note": "Question gives initial water volume,not final solution volume."
-    },
-    {
-      "id": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-V1",
-      "note": "Imprecise original definition requires teacher clarification."
-    },
-    {
-      "id": "SCI-REPO-Y7-ARAN-2014-CHEMMID-220-V3",
-      "note": "Imprecise original definition requires teacher clarification."
-    },
-    {
-      "id": "SCI-REPO-Y7-ARAN-2016-CHEMMID-221-V3",
-      "note": "Imprecise original definition requires teacher clarification."
-    },
-    {
-      "id": "SCI-REPO-Y7-ARAN-2012-CHEMMID-223-W4",
-      "note": "Modified word bank omits sublimation although solid-to-gas arrow remains;allow correct term outside supplied bank."
-    },
-    {
-      "id": "SCI-REPO-Y8-SBY-2024-ENERGY-WR16",
-      "note": "The source treats kinetic energy as useful output. The 66% is only for that supplied conversion model, not the refrigerator’s overall cooling performance. Refrigerators transfer heat; coefficient of performance is a different measure. Do not infer a running-cost comparison from these data alone."
-    },
-    {
-      "id": "SCI-REPO-Y8-SBY-2024-ENERGY-WR17",
-      "note": "The source supplies no explicit potential-energy zero, initial speed or loss assumption. A unique equal-KE/PE position is therefore underdetermined; teacher clarification or a scientifically justified conditional answer is required."
-    },
-    {
-      "id": "SCI-REPO-Y8-SBY-2024-ENERGY-WR18",
-      "note": "The claim that all solar cars are necessarily more efficient than petrol cars lacks a defined boundary and numerical data. Accept a qualified comparison; do not assume photovoltaic conversion and electric motors are lossless."
-    },
-    {
-      "id": "SCI-REPO-Y10-ARAN-2011-CHEM-5",
-      "note": "The source table gives no isotope mass numbers. Created guidance must not treat common isotope assumptions as uniquely supplied facts."
-    },
-    {
-      "id": "SCI-REPO-Y10-ARAN-2011-CHEM-6c",
-      "note": "Source typo Na20 requires teacher correction to Na₂O."
-    },
-    {
-      "id": "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-4b",
-      "note": "Original cylinder graphic has no explicit unit label;mL is assumed from the laboratory context."
-    },
-    {
-      "id": "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-5e",
-      "note": "Evidence for hot is unspecified;supplied older key assumes direct sensory observation."
-    },
-    {
-      "id": "SCI-REPO-Y10-NAR-2021-PHYS-449-MC07",
-      "note": "No valid unique answer:forces can change speed,direction,size and shape. Source must be manually moderated."
-    },
-    {
-      "id": "SCI-REPO-Y10-NAR-2021-PHYS-449-MC08",
-      "note": "D states the complete balance condition,but C is also true:drag balances thrust and lift balances weight at constant velocity. Accept C or D;not a unique-answer battle item."
-    },
-    {
-      "id": "SCI-REPO-Y10-NAR-2021-PHYS-450-MC04",
-      "note": "No dimensionally correct option:55kg is a mass,not a force. At g=10m/s² a55kg object has weight550N(optionD),but55kg is not the same quantity as550N. Teacher review required."
-    },
-    {
-      "id": "SCI-REPO-Y10-NAR-2021-PHYS-450-WR4",
-      "note": "Question requests final velocity but supplies final speed20m/s;likely intended acceleration. Preserve original question and5marks;teacher must confirm intended demand."
-    },
-    {
-      "id": "SCI-REPO-Y8-SBY-2018-SYSTEMS-MC03",
-      "note": "Supplied key incorrectly selects platelets for haemophilia; plasma clotting-factor deficiency is the relevant mechanism. See CDChttps://www.cdc.gov/hemophilia/about/."
-    },
-    {
-      "id": "SCI-REPO-Y8-SBY-2018-SYSTEMS-MC07",
-      "note": "Two correct options A and D are explicitly marked in supplied key."
-    },
-    {
-      "id": "SCI-REPO-Y8-SBY-2018-SYSTEMS-MC08",
-      "note": "Definition in terms of parent count is incomplete and excludes self-fertilisation."
-    },
-    {
-      "id": "SCI-REPO-Y9-SBY-2017-ENDOCRINE-MC05",
-      "note": "Supplied key confuses first-line breach with second-line response."
-    },
-    {
-      "id": "SCI-REPO-Y9-SBY-2017-ENDOCRINE-MC09",
-      "note": "A is intended,but infected people are isolated;quarantine usually refers to exposed people who may become infectious. Accept the intended prevention principle with correct terminology."
-    },
-    {
-      "id": "SCI-REPO-Y9-SBY-2017-ENDOCRINE-MC10",
-      "note": "Influenza(A)was intended historically;Ebola(D)also has approved vaccines now. Not uniquely correct for current reuse."
-    },
-    {
-      "id": "SCI-REPO-Y9-SBY-2017-ENDOCRINE-14",
-      "note": "Historical drug list is not a current prescribing guide. Assess conceptual severity-appropriate examples; reviewed against NHShttps://www.nhs.uk/conditions/allergies/ andhttps://www.nhs.uk/conditions/anaphylaxis/."
-    },
-    {
-      "id": "SCI-REPO-Y9-SBY-2017-TECTONICS-MC04",
-      "note": "No dated reconstruction map provided; India’s neighbours depend on reconstruction."
-    },
-    {
-      "id": "SCI-REPO-Y9-SBY-2017-TECTONICS-MC06",
-      "note": "Imprecise heat-generation premise; teacher clarification needed."
-    },
-    {
-      "id": "SCI-REPO-Y9-SBY-2017-TECTONICS-MC07",
-      "note": "Supplied key A contradicts valid magnetic-striping evidence, and Bwording is ambiguous."
-    },
-    {
-      "id": "SCI-REPO-Y9-SBY-2017-TECTONICS-11b",
-      "note": "Supplied key says patterns of magnesium; corrected to remanent magnetic polarity."
-    },
-    {
-      "id": "SCI-REPO-Y9-SBY-2017-TECTONICS-12",
-      "note": "Supplied guide mixes lithosphere(mechanical layer)with mantle/core(compositional layers)."
-    },
-    {
-      "id": "SCI-REPO-Y9-SBY-2017-TECTONICS-13",
-      "note": "Task asks ten major plates, while guide accepts major/minor; clarify convention and do not require ten universally classified major plates."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2018-EARTH-MC07",
-      "note": "No option precisely defines global warming; Bdescribes a cause rather than the definition."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2018-EARTH-MC08",
-      "note": "Option Bcontains false claim that photosynthesis traps heat; key corrects CO₂roles."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2018-EARTH-MC09",
-      "note": "B and C can both describe ocean heat transport."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2018-EARTH-B1",
-      "note": "Historical word bank retained; the“single point”andunchangingsteadystatewording are simplified and must not be taught as necessary current cosmology."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2018-EARTH-B5b",
-      "note": "Supplied key omits the two consecutive years criterion for permafrost."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2016-FORENSIC-MC04",
-      "note": "Legal procedure depends on jurisdiction/context; historical curriculum item retained manual."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2016-FORENSIC-MC14",
-      "note": "Absolute claim about DNA in every cell nucleus is false."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2016-FORENSIC-MC15",
-      "note": "Multiple listed types of evidence can help identify a body."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2016-FORENSIC-MC17",
-      "note": "Und ated population general isa tion; not appropriate for automatic current-facts coring."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2017-SPORT-MC03",
-      "note": "Source compares whole blood with one of its own components; correct formed-elements/plasma interpretation provided."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2017-SPORT-MC05",
-      "note": "Historical clinical reference with context-dependent thresholds; retained manual."
-    },
-    {
-      "id": "SCI-REPO-Y8-ARAN-2015-CHEM1-MC08",
-      "note": "D is intended for simple nonreacting mixing,but mixing can cause chemical reactions. No universally correct classification without specifying substances;manual moderation."
-    },
-    {
-      "id": "SCI-REPO-Y8-ARAN-2015-CHEM1-MC12",
-      "note": "B is intended,but gas evolution can also occur in a physical change such as boiling. No universally nonphysical option as worded;manual moderation."
-    },
-    {
-      "id": "SCI-REPO-Y8-ARAN-2015-CHEM1-8b",
-      "note": "Given density equals water;do not require the stereotyped answer that wood must float."
-    },
-    {
-      "id": "SCI-REPO-Y10-ARAN-2014-DNAMICRO-V5",
-      "note": "Original14vocabulary items share7marks (0.5each). Source simplifications clarified."
-    },
-    {
-      "id": "SCI-REPO-Y10-ARAN-2014-DNAMICRO-V6",
-      "note": "Original14vocabulary items share7marks (0.5each). Source simplifications clarified."
-    },
-    {
-      "id": "SCI-REPO-Y10-ARAN-2014-DNAMICRO-V10",
-      "note": "Original14vocabulary items share7marks (0.5each). Source simplifications clarified."
-    },
-    {
-      "id": "SCI-REPO-Y10-ARAN-2014-DNAMICRO-V11",
-      "note": "Original14vocabulary items share7marks (0.5each). Source simplifications clarified."
-    },
-    {
-      "id": "SCI-REPO-Y10-ARAN-2014-DNAMICRO-V14",
-      "note": "Original14vocabulary items share7marks (0.5each). Source simplifications clarified."
-    },
-    {
-      "id": "SCI-REPO-Y10-ARAN-2014-DNAMICRO-M-drawing",
-      "note": "Performance task requires actual specimen/teacher observation;source5marks lists6deduction criteria."
-    },
-    {
-      "id": "SCI-REPO-Y10-ARAN-2014-DNAMICRO-M-size",
-      "note": "Requires actual viewed cells and field measurement."
-    },
-    {
-      "id": "SCI-REPO-Y10-ARAN-2014-DNAMICRO-M-50x",
-      "note": "Key provides magnification assumptions missing from student stem."
-    },
-    {
-      "id": "SCI-REPO-Y7-SBY-2017-EARTHSPACE-MC12",
-      "note": "Supplied key chooses night; hemisphere tilt and day/night are distinct. Teacher moderation required."
-    },
-    {
-      "id": "SCI-REPO-Y7-SBY-2017-EARTHSPACE-19",
-      "note": "“Controlled by the sun” is ambiguous because solar gravity contributes to tides. Accept justified responses, rather than automatically treating all three statements as false."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2017-CHEMEXTEND-MC07",
-      "note": "Hydrogen is intended for common proton-donating acids;Lewis acids need not contain hydrogen,so universal wording needs qualification."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2017-CHEMEXTEND-MC09",
-      "note": "Ionic is the intended introductory metal/nonmetal classification. The universal wording is too broad:some metal–nonmetal compounds have substantial covalent bonding."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2017-CHEMEXTEND-MC13",
-      "note": "Both gaining an electron to formCl⁻andsharing in covalent bonds can complete an octet. Without an ionic context bothBandCare defensible;manual marking."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2017-CHEMEXTEND-W3",
-      "note": "Final source equation creates hydrogen from no hydrogen-containing reactant;requires correction before use."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2017-CHEMEXTEND-W4",
-      "note": "Six word/formula pairs share only10printed marks;individual weighting unspecified. General acid-metal pattern applies only under suitable reaction conditions,not every metal/acid combination."
-    },
-    {
-      "id": "SCI-REPO-Y10-SBY-2017-CHEMEXTEND-precipitation",
-      "note": "Final precipitation section has no printed marks;3proposed. Supplied solubility reference contains ion-charge/formula errors and simplifications."
-    },
-    {
-      "id": "SCI-REPO-Y9-NAR-2022-REACTIONTYPES-W3",
-      "note": "Source category carbonate is a subtype of salt;overlapping labels require moderation."
-    },
-    {
-      "id": "SCI-REPO-Y8-ARAN-2014-PHYS-MC04",
-      "note": "C is intended,but D is also false:photosynthesis uses light rather than heat from sunlight. Two incorrect choices;manual moderation required."
-    },
-    {
-      "id": "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-filtration",
-      "note": "Proposed distribution of13diagram marks under original25-mark cover;12matching marks separately explicit by items.Input label ambiguity flagged."
-    },
-    {
-      "id": "SCI-REPO-Y8-SBY-2024-MATTER-MC10",
-      "note": "No option is fully correct. During melting of a pure substance at constant pressure the temperature and mean kinetic energy remain approximately constant while added energy changes particle interactions. Particles leave fixed positions; they do not expand. Volume change is substance-dependent. Retain teacher review; do not automatically credit B."
-    },
-    {
-      "id": "SCI-REPO-Y8-NARR-2018-CHEMRESPONSE-6",
-      "note": "Printed 7-mark table lacks a complete per-cell allocation and calls all compounds molecules; preserve total and review marking distribution."
-    },
-    {
       "id": "SCI-REPO-Y8-SBY-2018-MICROSCOPEKEY-history",
       "note": "Supplied historical first-microscope/date claims require qualification."
     },
@@ -1238,120 +1046,132 @@
       "note": "Source red answers removed from student table. Actual objective set is needed to determine unique values."
     },
     {
-      "id": "SCI-REPO-Y10-SBY-2020-CHEMATARPATH-MC09",
-      "note": "B is the intended broad school answer,but physical properties can vary substantially within a group,e.g.group14includes carbon and metallic tin/lead. Similar valence configurations mainly explain related chemical properties. No fully precise option;manual review."
+      "id": "SCI-REPO-Y8-NARR-2018-CHEMRESPONSE-6",
+      "note": "Printed 7-mark table lacks a complete per-cell allocation and calls all compounds molecules; preserve total and review marking distribution."
     },
     {
-      "id": "SCI-REPO-Y10-SBY-2020-CHEMATARPATH-13",
-      "note": "Source uses a periodic-table tile with average mass126.9,but asks isotope-specific values.127is the intended rounded school assumption,not information explicitly given."
+      "id": "SCI-REPO-Y10-ARAN-2016-CHEM2ACC-MC09",
+      "note": "Source radical-ion term means polyatomic ion here;modern radical ions have an unpaired electron. Ambiguous terminology excluded from automatic battles."
     },
     {
-      "id": "SCI-REPO-Y10-SBY-2020-CHEMATARPATH-15",
-      "note": "Source mixes legacy and modern group numbers;carbon group is14today,not modern group4."
+      "id": "SCI-REPO-Y10-ARAN-2016-CHEM2ACC-W6",
+      "note": "Source gives oxygen rather than hydrogen valence information for methane;oxygen is not part of CH₄."
     },
     {
-      "id": "SCI-REPO-Y10-SBY-2020-CHEMATARPATH-20",
-      "note": "Original chart finalx-label68is inconsistent with the apparent noble-gas series(should86for radon). Original chart retained;teacher moderation required."
+      "id": "SCI-REPO-Y7-ARAN-2014-VOCAB2-11",
+      "note": "Typographical source error: solvent should refer to additional solute."
     },
     {
-      "id": "SCI-REPO-Y10-SBY-2020-CHEMATARPATH-21",
-      "note": "Noble-gas inertness is overstated and final electron-count label is wrong;accept a scientific qualification."
+      "id": "SCI-REPO-Y9-SBY-2018-ENDO-472-MC02",
+      "note": "B is the intended standard gland pair in the final version,but heart/hypothalamus(A)and heart/adrenal(C)also have endocrine functions. In the draft, B contains blood. Source lacks a unique correct answer under its broad wording."
     },
     {
-      "id": "SCI-REPO-Y9-ARAN-2013-CHEM2-MC04",
-      "note": "Closed valence shell is not the same as every electron shell filled to its full theoretical capacity."
+      "id": "SCI-REPO-Y9-SBY-2018-ENDO-472-MC09",
+      "note": "A is intended,but infected people undergo isolation;quarantine normally concerns exposed people."
     },
     {
-      "id": "SCI-REPO-Y9-ARAN-2013-CHEM2-MC06",
-      "note": "Corrosivity is conditional, not shared universally by all acids and bases."
+      "id": "SCI-REPO-Y9-SBY-2018-ENDO-472-case",
+      "note": "Scenario lacks diagnostic evidence;do not treat the student report as a confirmed diagnosis. Key supplemented from current CDC information."
     },
     {
-      "id": "SCI-REPO-Y9-ARAN-2013-CHEM2-MC08",
-      "note": "The absolute same-column valence rule has exceptions, notably helium and transition metals."
+      "id": "SCI-REPO-Y9-SBY-2018-ENDO-476-MC04",
+      "note": "A is intended,but visible white-cell activity is vague;white cells have normal functions without proving a breached barrier. Clarify the observation."
     },
     {
-      "id": "SCI-REPO-Y9-ARAN-2013-CHEM2-W2",
-      "note": "Universal-indicator colour varies with pH and corrosivity is conditional. The table’s binary format oversimplifies both."
+      "id": "SCI-REPO-Y9-SBY-2018-ENDO-476-case",
+      "note": "Scenario lacks diagnostic evidence;do not treat the student report as a confirmed diagnosis. Key supplemented from current CDC information."
     },
     {
-      "id": "SCI-REPO-Y9-ARAN-2013-CHEM2-W4c",
-      "note": "Universal indicator normally does not justify the printed decimal precision; single samples do not establish a general causal rule."
+      "id": "SCI-REPO-Y9-SBY-2018-ENDO-479-MC02",
+      "note": "B is the intended standard gland pair in the final version,but heart/hypothalamus(A)and heart/adrenal(C)also have endocrine functions. In the draft, B contains blood. Source lacks a unique correct answer under its broad wording."
     },
     {
-      "id": "SCI-REPO-Y9-ARAN-2013-CHEM2-W5",
-      "note": "Source has fifteen blank cells but only six marks, without an allocation. Retained as the original grouped six-mark task."
+      "id": "SCI-REPO-Y9-SBY-2018-ENDO-479-MC04",
+      "note": "A is intended,but visible white-cell activity is vague;white cells have normal functions without proving a breached barrier. Clarify the observation."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2018-ENDO-479-data2",
+      "note": "Source table gives an anomalous concentration response and does not distinguish killing from growth inhibition."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2018-ENDO-479-data4",
+      "note": "Source table gives an anomalous concentration response and does not distinguish killing from growth inhibition."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2018-ENDO-479-case",
+      "note": "Scenario lacks diagnostic evidence;do not treat the student report as a confirmed diagnosis. Key supplemented from current CDC information."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2013-CELLREPRO-1c",
+      "note": "Source conflates a displayed replicated state with the time when replication occurs. Accept a correct S-phase clarification."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2013-CELLREPRO-7c",
+      "note": "Treat receding chin as the source’s hypothetical fully penetrant autosomal one-gene model. Human facial traits are not established here to follow this simple inheritance pattern."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2013-CELLREPRO-7d",
+      "note": "Treat receding chin as the source’s hypothetical fully penetrant autosomal one-gene model. Human facial traits are not established here to follow this simple inheritance pattern."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2013-CELLREPRO-7e",
+      "note": "Treat receding chin as the source’s hypothetical fully penetrant autosomal one-gene model. Human facial traits are not established here to follow this simple inheritance pattern."
     },
     {
       "id": "SCI-REPO-Y7-ARAN-2015-S2EXAM-MC13",
       "note": "D:early morning is likely intended for Perth near the illumination boundary,but the diagram lacks a marked Perth location or a clear rotation arrow. Accept justified interpretation and moderate manually."
     },
     {
-      "id": "SCI-REPO-Y7-ARAN-2015-BIO-MC06",
-      "note": "The Sun is the intended source for this photosynthesis-based classroom web. “All food webs” is too broad: some are based on chemosynthesis."
+      "id": "SCI-REPO-Y7-NAR-2024-CHEM-MC06",
+      "note": "B is intended,but physical changes need not be easily reversible. The defining criterion is no new chemical substance;no fully accurate option."
     },
     {
-      "id": "SCI-REPO-Y7-ARAN-2015-BIO-MC13",
-      "note": "A is intended: silver perch, trout and pelican can occupy third-consumer positions along appropriate paths. The omnivorous network allows more than one trophic position; do not treat each organism as having one fixed level."
+      "id": "SCI-REPO-Y7-NAR-2024-CHEM-MC07",
+      "note": "D is likely intended for crystallisation based on solubility differences;selective dissolution followed by filtration also relies on solubility differences. The wording omits the mixture and conditions;moderate a justified interpretation."
     },
     {
-      "id": "SCI-REPO-Y7-ARAN-2015-BIO-MC16",
-      "note": "B is intended in the historical five-kingdom model. Classification systems differ; the model must be specified."
+      "id": "SCI-REPO-Y7-NAR-2024-CHEM-MC10",
+      "note": "A is intended for suitable liquids of different boiling points,but chromatography can also separate some liquid-mixture components. Mixture properties are missing;manual review."
     },
     {
-      "id": "SCI-REPO-Y7-ARAN-2013-BIO-MC03",
-      "note": "C is the narrow intended effect: foxes eat introduced rabbits. This does not establish a net ecological benefit of fox introduction; native predation can outweigh it."
+      "id": "SCI-REPO-Y7-NAR-2024-CHEM-MC12",
+      "note": "D is intended when collecting dissolved salt by evaporation/crystallisation. Distillation also leaves salt residue,so the absolute not useful wording needs moderation."
     },
     {
-      "id": "SCI-REPO-Y7-ARAN-2013-BIO-MC06",
-      "note": "The Sun is the intended source for this photosynthesis-based classroom web. “All food webs” is too broad: some are based on chemosynthesis."
+      "id": "SCI-REPO-Y7-NAR-2024-EARTH-MC01",
+      "note": " Additional variant review: The intended choice is A (Sol),but the option combines Sol with “Solaris”. The conventional English name is the Sun;Sol is Latin. Do not assert Solaris as an official astronomical name."
     },
     {
-      "id": "SCI-REPO-Y7-ARAN-2013-BIO-MC15",
-      "note": "B is intended as least specifically linked to cold or fast swimming, but swallowing prey whole can still aid feeding/survival; comparison is subjective."
+      "id": "SCI-REPO-Y7-NAR-2024-EARTH-MC03",
+      "note": "The 2024 question has more than one incorrect statement. The supplied older key circles D, while its filename identifies B. Teacher review required. Additional variant review: B is incorrect:the sidereal orbital period is about27.3days,not21. C’s self-shadow wording is misleading;phases arise from viewing the sunlit half at changing angles. D overstates “no atmosphere” since the Moon has a tenuous exosphere. Multiple wording problems prevent automatic marking."
     },
     {
-      "id": "SCI-REPO-Y7-ARAN-2013-BIO-W2-intro",
-      "note": "An additional open-response sentence precedes the true/false task but has no printed mark allocation. Proposed2-mark rubric is clearly separate from the printed42-mark paper total."
+      "id": "SCI-REPO-Y7-NAR-2024-EARTH-MC08",
+      "note": "The question conflates meteors and meteorites, so more than one option is problematic. Teacher review required. Additional variant review: Ambiguous:shooting stars are meteors (light phenomena),meteorites are surviving fragments reaching the ground. A and B misuse meteorite/meteor terminology,and C is not well-defined. Retain for teacher review,not automatic battles."
     },
     {
-      "id": "SCI-REPO-Y7-ARAN-2013-BIO-W2",
-      "note": "Source includes inline T/F answers. These are removed from the student prompt; itemd uses simplified conservation-category wording."
+      "id": "SCI-REPO-Y7-NAR-2024-CHEM-WR02",
+      "note": "Supplied key classifies Cloud as gas. Teacher review required."
     },
     {
-      "id": "SCI-REPO-Y7-ARAN-2013-BIO-W7a",
-      "note": "Inline source answer MUTUALISM contradicts its own stem. Corrected to commensalism; retain manual review."
+      "id": "SCI-REPO-Y7-NAR-2024-CHEM-WR08",
+      "note": "The supplied diagram labels and handwritten key need teacher review before marking."
     },
     {
-      "id": "SCI-REPO-Y10-ARAN-PHYS89GENERAL-MC13",
-      "note": "Sydney Harbour Bridge is not precisely a bowstring/tied arch; closest source option is A."
+      "id": "SCI-REPO-Y7-NAR-2024-EARTH-WR02",
+      "note": "Student paper specifies 2pm; supplied older key specifies 3pm. Teacher review required."
     },
     {
-      "id": "SCI-REPO-Y10-ARAN-PHYS89GENERAL-MC15",
-      "note": "Both running child and moving wings of hovering bee have kinetic energy."
+      "id": "SCI-REPO-Y7-NARR-2022-INVERTVALID-2",
+      "note": "Student’s selected phylum and original research are required for individual marking."
     },
     {
-      "id": "SCI-REPO-Y10-ARAN-PHYS89GENERAL-MC16",
-      "note": "Force magnitudes and initial velocity are unspecified; movement is not uniquely determined."
+      "id": "SCI-REPO-Y7-NARR-2022-INVERTVALID-3",
+      "note": "Student’s selected phylum and original research are required for individual marking."
     },
     {
-      "id": "SCI-REPO-Y10-ARAN-PHYS89GENERAL-MC20",
-      "note": "Two choices (B and C) are incorrect, so this is not single-answer MC."
-    },
-    {
-      "id": "SCI-REPO-Y10-ARAN-PHYS89GENERAL-MC22",
-      "note": "Moving down a hill does not exclude gravitational potential energy."
-    },
-    {
-      "id": "SCI-REPO-Y10-ARAN-GENERALMID2-1",
-      "note": "Source figure says700N and50kg, whereas written problem says400N and20kg. Accept a consistent interpretation; supplied worked solution uses the written values."
-    },
-    {
-      "id": "SCI-REPO-Y8-SBY-2017-PHYSCHEM-1b",
-      "note": "Supplied key incorrectly makes irreversibility a defining requirement."
-    },
-    {
-      "id": "SCI-REPO-Y8-ARAN-2014-SCIMETHOD-W7",
-      "note": "Definition b does not uniquely establish second-hand provenance. Accept a justified correction of the source definition."
+      "id": "SCI-REPO-Y7-NARR-2022-INVERTVALID-4",
+      "note": "Student’s selected phylum and original research are required for individual marking."
     },
     {
       "id": "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-MC06",
@@ -1378,6 +1198,58 @@
       "note": "Provided classification list is narrower than the scientifically precise description."
     },
     {
+      "id": "SCI-REPO-Y10-SBY-2024-PSYCHQUIZ-7",
+      "note": "Source asks for a single-lobe consequence of concussion;use a plausible functional link and moderate the oversimplified localisation. Marking guidance supplemented from CDC concussion explanation."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2020-CHEMATARPATH-MC09",
+      "note": "B is the intended broad school answer,but physical properties can vary substantially within a group,e.g.group14includes carbon and metallic tin/lead. Similar valence configurations mainly explain related chemical properties. No fully precise option;manual review."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2020-CHEMATARPATH-13",
+      "note": "Source uses a periodic-table tile with average mass126.9,but asks isotope-specific values.127is the intended rounded school assumption,not information explicitly given."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2020-CHEMATARPATH-15",
+      "note": "Source mixes legacy and modern group numbers;carbon group is14today,not modern group4."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2020-CHEMATARPATH-20",
+      "note": "Original chart finalx-label68is inconsistent with the apparent noble-gas series(should86for radon). Original chart retained;teacher moderation required."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2020-CHEMATARPATH-21",
+      "note": "Noble-gas inertness is overstated and final electron-count label is wrong;accept a scientific qualification."
+    },
+    {
+      "id": "SCI-REPO-Y7-NARR-2018-BIO1-W3a",
+      "note": "The source does not clarify anatomical versus page-left convention;accept a consistently followed key path."
+    },
+    {
+      "id": "SCI-REPO-Y7-NARR-2019-BIO1-W3a",
+      "note": "The source does not clarify anatomical versus page-left convention;accept a consistently followed key path."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2018-HEATELECTRICITY-1a",
+      "note": "Insufficient context for a unique heat-transfer mechanism."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2018-HEATELECTRICITY-1d",
+      "note": "Insufficient context for a unique heat-transfer mechanism."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-SEM1-MAINSTREAM-2b",
+      "note": "Source pedigree omits an explicit coat-colour shading legend. Intended mapping is inferred from the later carrier statement."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-SEM1-MAINSTREAM-6a",
+      "note": "The question confuses flight distance with displacement while the pulling force acts.25J is conditional on an unstated constant-force displacement assumption."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-SEM1-MAINSTREAM-6b",
+      "note": "Source gives7m ladder length but no inclination.6174J assumes a vertical height of7m."
+    },
+    {
       "id": "SCI-REPO-Y9-ARAN-2016-BIO1-MC04",
       "note": "C is intended,but pathogens are not limited to unicellular organisms:viruses and multicellular parasites can cause disease too. No complete definition is offered."
     },
@@ -1392,6 +1264,166 @@
     {
       "id": "SCI-REPO-Y9-ARAN-2016-BIO1-WR25",
       "note": "The source conflates lymphatic transport and all white cells with the adaptive third line;accept a precise immune-system explanation."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2016-PHYSICSTWO-MC10",
+      "note": "Source wording admits an incomplete/multiple answer;teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2016-PHYSICSTWO-MC13",
+      "note": "Source wording admits an incomplete/multiple answer;teacher review."
+    },
+    {
+      "id": "SCI-REPO-Y9-NAR-2023-REACTIONS-MC12",
+      "note": "Formal balance requires2NaF+Br₂→2NaBr+F₂. Bromine cannot ordinarily displace fluoride;formal balancing is not evidence of a feasible spontaneous reaction."
+    },
+    {
+      "id": "SCI-REPO-Y9-NAR-2023-REACTIONS-MC14",
+      "note": "Photosynthesis is intended:oxygen is produced,not required as an input to its simplified net equation. Corrosion need not universally consume molecular oxygen,so the unqualified alternatives are scientifically too broad."
+    },
+    {
+      "id": "SCI-REPO-Y9-NAR-2022-WAVES-MC03",
+      "note": "unit correction: the supplied key selects B, lumens, which measure luminous flux. Luminous intensity is measured in candela; irradiance/radiant intensity use other units. No option unambiguously states the requested intensity unit. Accept a correct explanation and retain manual marking."
+    },
+    {
+      "id": "SCI-REPO-Y9-NAR-2022-WAVES-MC08",
+      "note": "the source key A overgeneralises density. The table supplies no densities, and sound speed depends on stiffness/compressibility as well as density; wood can transmit sound faster than denser water. The table supports faster sound in the listed solids and warmer air, but no universally valid density rule. Retain manual marking."
+    },
+    {
+      "id": "SCI-REPO-Y9-NAR-2022-WAVES-MC10",
+      "note": "frequency × wavelength equals wave speed. C applies to sound waves, but the stem does not specify sound; the surrounding paper also discusses light. Accept C with the sound context or a correct general wave-speed response. Source typo “Speed of money” retained. Manual marking."
+    },
+    {
+      "id": "SCI-REPO-Y9-NAR-2022-WAVES-MC15",
+      "note": "source option A contradicts itself by saying all visible light is absorbed while green is reflected. A green object under white light reflects green wavelengths and absorbs much of the other visible light. Accept the intended A with that correction, or a correct explanation rejecting the wording. Manual marking."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-CHEMTERM1-MC19",
+      "note": "D(group8)is the intended legacy main-groupVIII answer,but modern group8is not noble gases. Modern group18is absent;teacher review required."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-CHEMTERM1-MC20",
+      "note": "C(group7)is intended legacy VII;modern halogens are group17,which is absent. Teacher review required."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2015-CHEM2ESL-WR1e",
+      "note": "Source product isH₂,notH₂O;preserve prompt and moderate likely transcription error."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2015-CHEM2ESL-WR5a",
+      "note": "Source omits metal oxidation state;accept a valid stated oxide consistently."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2015-CHEM2ESL-WR5b",
+      "note": "Source omits metal oxidation state;accept a valid stated oxide consistently."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-CHEM-469-WR6",
+      "note": "Question conflates bonding within substances with forces between molecules."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-CHEM-469-WR8",
+      "note": "Source mixes legacygroup7withmodern1/17/18numbering."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-CHEM-469-EXTc",
+      "note": "Source overstates noble-gas inertness."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-CHEM-477-MC04",
+      "note": "Ambiguous demand:diagram shows neutralMgwith2,8,2electrons,soMg(optionA)represents the pictured atom;Mg²⁺(B)is its common ion,but valence configuration is neither formula. Teacher review;do not force an ion answer to a neutral-atom diagram."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-CHEM-477-EXT1",
+      "note": "Source historical anecdote is not treated as established evidence;scientific mechanism supplemented from Royal Society of Chemistry."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNK-BIO-END-MC03",
+      "note": "Incomplete commensalism definition means other interactions can fitC."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNK-BIO-END-MC10",
+      "note": "Options omit indirect effects across the food web."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNK-BIO-END-1h",
+      "note": "Source definition omits the host being harmed; parasitism cannot be inferred merely from living on another organism."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNK-BIO-END-9f",
+      "note": "The premise about animal activity is not evidenced by the supplied temperature table;accept a justified limitation."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNK-BIO-END-10ii",
+      "note": "Supplied guide incorrectly defines extinct by a50-year absence and confuses extinction in the wild;corrected."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNK-CHEM-MID-9e",
+      "note": "Supplied key assumes solubility halves with Celsius temperature,which is unsupported."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNK-CHEM-MID-10iii",
+      "note": "Supplied key defines insoluble as able to dissolve—the opposite;corrected."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNK-PHYS-END-MC01",
+      "note": "All listed actions can involve force;not uniquely single-answer as phrased."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNK-PHYS-END-MC09",
+      "note": "Forces determine acceleration,not necessarily current direction of motion without initial conditions."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNK-PHYS-END-9d",
+      "note": "Supplied text wrongly says200g has10N more while its own values show less;corrected."
+    },
+    {
+      "id": "SCI-REPO-Y7-UNK-PHYS-END-10iv",
+      "note": "Supplied key defines acceleration only as speeding up;corrected to velocity change."
+    },
+    {
+      "id": "SCI-REPO-Y8-UNK-EARTH-END-MC10",
+      "note": "Pie charts can also represent categorical preferences,so the item is not uniquely answered as phrased."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-MC09",
+      "note": "Universal acid wording needs qualification;exclude from automatic battles."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-W2",
+      "note": "Element types versus atom counts and molecule terminology require clarification."
+    },
+    {
+      "id": "SCI-REPO-Y10-ARAN-2016-CHEM2GEN-W6",
+      "note": "Silver/HClpremise is chemically invalid in ordinary bulk-metal classroom context;nitric acid product specification is condition-dependent. Manual marking must accept scientifically correct objections."
+    },
+    {
+      "id": "SCI-REPO-Y8-SBY-2017-PHYSCHEM-1b",
+      "note": "Supplied key incorrectly makes irreversibility a defining requirement."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-CHEMEXTEND-MC07",
+      "note": "Hydrogen is intended for common proton-donating acids;Lewis acids need not contain hydrogen,so universal wording needs qualification."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-CHEMEXTEND-MC09",
+      "note": "Ionic is the intended introductory metal/nonmetal classification. The universal wording is too broad:some metal–nonmetal compounds have substantial covalent bonding."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-CHEMEXTEND-MC13",
+      "note": "Both gaining an electron to formCl⁻andsharing in covalent bonds can complete an octet. Without an ionic context bothBandCare defensible;manual marking."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-CHEMEXTEND-W3",
+      "note": "Final source equation creates hydrogen from no hydrogen-containing reactant;requires correction before use."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-CHEMEXTEND-W4",
+      "note": "Six word/formula pairs share only10printed marks;individual weighting unspecified. General acid-metal pattern applies only under suitable reaction conditions,not every metal/acid combination."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-CHEMEXTEND-precipitation",
+      "note": "Final precipitation section has no printed marks;3proposed. Supplied solubility reference contains ion-charge/formula errors and simplifications."
     }
   ],
   "batches": [
@@ -27778,6 +27810,1271 @@
           "reason": "Equivalent source question already present; not added or counted again."
         }
       ]
+    },
+    {
+      "id": "repo-science-batch214",
+      "questionIds": [
+        "SCI-REPO-Y10-SBY-2018-SEM1-MAINSTREAM-MC11",
+        "SCI-REPO-Y10-SBY-2018-SEM1-MAINSTREAM-MC12",
+        "SCI-REPO-Y10-SBY-2018-SEM1-MAINSTREAM-MC13",
+        "SCI-REPO-Y10-SBY-2018-SEM1-MAINSTREAM-MC14",
+        "SCI-REPO-Y10-SBY-2018-SEM1-MAINSTREAM-MC15",
+        "SCI-REPO-Y10-SBY-2018-SEM1-MAINSTREAM-1a",
+        "SCI-REPO-Y10-SBY-2018-SEM1-MAINSTREAM-2b",
+        "SCI-REPO-Y10-SBY-2018-SEM1-MAINSTREAM-3a",
+        "SCI-REPO-Y10-SBY-2018-SEM1-MAINSTREAM-3b",
+        "SCI-REPO-Y10-SBY-2018-SEM1-MAINSTREAM-3c",
+        "SCI-REPO-Y10-SBY-2018-SEM1-MAINSTREAM-4a",
+        "SCI-REPO-Y10-SBY-2018-SEM1-MAINSTREAM-4b",
+        "SCI-REPO-Y10-SBY-2018-SEM1-MAINSTREAM-4c",
+        "SCI-REPO-Y10-SBY-2018-SEM1-MAINSTREAM-4d",
+        "SCI-REPO-Y10-SBY-2018-SEM1-MAINSTREAM-5",
+        "SCI-REPO-Y10-SBY-2018-SEM1-MAINSTREAM-6a",
+        "SCI-REPO-Y10-SBY-2018-SEM1-MAINSTREAM-6b"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/Sem 1 Exam  Mainstream FINAL.docx",
+          "sha": "633d61b78ee72dd1e533c01c91208bdd58134c2b",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 17,
+      "marks": 26,
+      "imageAudit": "question-source-packs/repo-science-batch214-audit.json",
+      "notes": [
+        "All44marks reviewed:15MC+29written. Original rollercoaster,pedigree,displacement graph and native Word lap-time chart preserved. Pedigree lacks a colour legend;elastic-band work and ladder-height assumptions require teacher moderation. Six oxygen-table response cells allocated across the printed4marks."
+      ],
+      "markAudit": {
+        "sourceTotal": 44,
+        "multipleChoice": 15,
+        "written": 29
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/Sem 1 Exam  Mainstream FINAL.docx",
+          "sourceFileSha": "633d61b78ee72dd1e533c01c91208bdd58134c2b",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            38,
+            39,
+            40,
+            41,
+            42
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-S1EXAM-MC01",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/Sem 1 Exam  Mainstream FINAL.docx",
+          "sourceFileSha": "633d61b78ee72dd1e533c01c91208bdd58134c2b",
+          "sourceQuestionNumber": "2",
+          "sourceParagraphs": [
+            43,
+            44,
+            45,
+            46,
+            47
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC08",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/Sem 1 Exam  Mainstream FINAL.docx",
+          "sourceFileSha": "633d61b78ee72dd1e533c01c91208bdd58134c2b",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            48,
+            49,
+            50,
+            51,
+            52
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-S1EXAM-MC10",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/Sem 1 Exam  Mainstream FINAL.docx",
+          "sourceFileSha": "633d61b78ee72dd1e533c01c91208bdd58134c2b",
+          "sourceQuestionNumber": "4",
+          "sourceParagraphs": [
+            53,
+            54,
+            55,
+            56,
+            57
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-S1EXAM-MC30",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/Sem 1 Exam  Mainstream FINAL.docx",
+          "sourceFileSha": "633d61b78ee72dd1e533c01c91208bdd58134c2b",
+          "sourceQuestionNumber": "5",
+          "sourceParagraphs": [
+            59,
+            60,
+            61,
+            62,
+            63
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-S1EXAM-MC16",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/Sem 1 Exam  Mainstream FINAL.docx",
+          "sourceFileSha": "633d61b78ee72dd1e533c01c91208bdd58134c2b",
+          "sourceQuestionNumber": "6",
+          "sourceParagraphs": [
+            64,
+            65,
+            66,
+            67,
+            68
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-S1EXAM-MC03",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/Sem 1 Exam  Mainstream FINAL.docx",
+          "sourceFileSha": "633d61b78ee72dd1e533c01c91208bdd58134c2b",
+          "sourceQuestionNumber": "7",
+          "sourceParagraphs": [
+            71,
+            72,
+            73,
+            74,
+            75
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC02",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/Sem 1 Exam  Mainstream FINAL.docx",
+          "sourceFileSha": "633d61b78ee72dd1e533c01c91208bdd58134c2b",
+          "sourceQuestionNumber": "8",
+          "sourceParagraphs": [
+            76,
+            77,
+            78,
+            79,
+            80
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-S1EXAM-MC09",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/Sem 1 Exam  Mainstream FINAL.docx",
+          "sourceFileSha": "633d61b78ee72dd1e533c01c91208bdd58134c2b",
+          "sourceQuestionNumber": "9",
+          "sourceParagraphs": [
+            81,
+            82,
+            83,
+            84,
+            85
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-S1EXAM-MC12",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/Sem 1 Exam  Mainstream FINAL.docx",
+          "sourceFileSha": "633d61b78ee72dd1e533c01c91208bdd58134c2b",
+          "sourceQuestionNumber": "10",
+          "sourceParagraphs": [
+            86,
+            87,
+            88,
+            89,
+            90
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC05",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/Sem 1 Exam  Mainstream FINAL.docx",
+          "sourceFileSha": "633d61b78ee72dd1e533c01c91208bdd58134c2b",
+          "sourceQuestionNumber": "1b",
+          "sourceParagraphs": [
+            172,
+            173,
+            174
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-S1EXAM-1b",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/Sem 1 Exam  Mainstream FINAL.docx",
+          "sourceFileSha": "633d61b78ee72dd1e533c01c91208bdd58134c2b",
+          "sourceQuestionNumber": "2a",
+          "sourceParagraphs": [
+            178,
+            180,
+            183,
+            188
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-S1EXAM-3a",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/Sem 1 Exam  Mainstream FINAL.docx",
+          "sourceFileSha": "633d61b78ee72dd1e533c01c91208bdd58134c2b",
+          "sourceQuestionNumber": "2c",
+          "sourceParagraphs": [
+            178,
+            180,
+            183,
+            192
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-S1EXAM-3c",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/Sem 1 Exam  Mainstream FINAL.docx",
+          "sourceFileSha": "633d61b78ee72dd1e533c01c91208bdd58134c2b",
+          "sourceQuestionNumber": "2d",
+          "sourceParagraphs": [
+            178,
+            180,
+            183,
+            194,
+            195
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-S1EXAM-3d",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch215",
+      "questionIds": [
+        "SCI-REPO-Y10-SBY-2017-SEM2-EXT-MC12",
+        "SCI-REPO-Y10-SBY-2017-SEM2-EXT-MC13",
+        "SCI-REPO-Y10-SBY-2017-SEM2-EXT-MC19",
+        "SCI-REPO-Y10-SBY-2017-SEM2-EXT-MC20",
+        "SCI-REPO-Y10-SBY-2017-SEM2-EXT-24",
+        "SCI-REPO-Y10-SBY-2017-SEM2-EXT-25",
+        "SCI-REPO-Y10-SBY-2017-SEM2-EXT-26",
+        "SCI-REPO-Y10-SBY-2017-SEM2-EXT-27a",
+        "SCI-REPO-Y10-SBY-2017-SEM2-EXT-27b",
+        "SCI-REPO-Y10-SBY-2017-SEM2-EXT-28-CHEM",
+        "SCI-REPO-Y10-SBY-2017-SEM2-EXT-28-EVOL"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sha": "1b85f679b4c9fe6e7ecf6607fc6ed519da0f74f3",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 11,
+      "marks": 45,
+      "imageAudit": "question-source-packs/repo-science-batch215-audit.json",
+      "notes": [
+        "Complete2017extension exam reviewed. MC28excluded because original optionB contains no number,confirmed in rendered source. Printed short-answer parts total60,matching the structure table,but section heading incorrectly says64. Both10mark alternative essays retained as individually selectable options;student exam attempted total110marks,bank offered total120before the one-point exclusion. Original rollercoaster figure retained."
+      ],
+      "markAudit": {
+        "studentAttemptedTotal": 110,
+        "allOfferedTotal": 120,
+        "sourceMC": 30,
+        "usableMC": 29,
+        "written": 60,
+        "extendedOffered": 30,
+        "extendedAttempted": 20,
+        "excludedIncompleteQuestions": [
+          {
+            "sourceQuestionNumber": "MC28",
+            "marks": 1,
+            "reason": "Numerical value absent from option B in the original DOCX and rendered PDF."
+          }
+        ]
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sourceFileSha": "1b85f679b4c9fe6e7ecf6607fc6ed519da0f74f3",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            79,
+            81,
+            82,
+            83,
+            84
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC01",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sourceFileSha": "1b85f679b4c9fe6e7ecf6607fc6ed519da0f74f3",
+          "sourceQuestionNumber": "2",
+          "sourceParagraphs": [
+            87,
+            89,
+            90,
+            91,
+            92
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC02",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sourceFileSha": "1b85f679b4c9fe6e7ecf6607fc6ed519da0f74f3",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            94,
+            95,
+            97,
+            98,
+            99,
+            100
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC03",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sourceFileSha": "1b85f679b4c9fe6e7ecf6607fc6ed519da0f74f3",
+          "sourceQuestionNumber": "4",
+          "sourceParagraphs": [
+            103,
+            105,
+            106,
+            107,
+            108
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC04",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sourceFileSha": "1b85f679b4c9fe6e7ecf6607fc6ed519da0f74f3",
+          "sourceQuestionNumber": "5",
+          "sourceParagraphs": [
+            111,
+            113,
+            114,
+            115,
+            116
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC05",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sourceFileSha": "1b85f679b4c9fe6e7ecf6607fc6ed519da0f74f3",
+          "sourceQuestionNumber": "6",
+          "sourceParagraphs": [
+            119,
+            121,
+            122,
+            123,
+            124
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC06",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sourceFileSha": "1b85f679b4c9fe6e7ecf6607fc6ed519da0f74f3",
+          "sourceQuestionNumber": "7",
+          "sourceParagraphs": [
+            126,
+            128,
+            129,
+            130,
+            131
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC07",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sourceFileSha": "1b85f679b4c9fe6e7ecf6607fc6ed519da0f74f3",
+          "sourceQuestionNumber": "8",
+          "sourceParagraphs": [
+            133,
+            135,
+            136,
+            137,
+            138
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC08",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sourceFileSha": "1b85f679b4c9fe6e7ecf6607fc6ed519da0f74f3",
+          "sourceQuestionNumber": "9",
+          "sourceParagraphs": [
+            140,
+            142,
+            143,
+            144,
+            145
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC09",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sourceFileSha": "1b85f679b4c9fe6e7ecf6607fc6ed519da0f74f3",
+          "sourceQuestionNumber": "10",
+          "sourceParagraphs": [
+            148,
+            150,
+            151,
+            152,
+            153
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC10",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sourceFileSha": "1b85f679b4c9fe6e7ecf6607fc6ed519da0f74f3",
+          "sourceQuestionNumber": "11",
+          "sourceParagraphs": [
+            156,
+            158,
+            159,
+            160,
+            161
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC11",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sourceFileSha": "1b85f679b4c9fe6e7ecf6607fc6ed519da0f74f3",
+          "sourceQuestionNumber": "14",
+          "sourceParagraphs": [
+            193,
+            195,
+            196,
+            197,
+            198
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC14",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sourceFileSha": "1b85f679b4c9fe6e7ecf6607fc6ed519da0f74f3",
+          "sourceQuestionNumber": "15",
+          "sourceParagraphs": [
+            200,
+            201,
+            202,
+            203,
+            204
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC15",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sourceFileSha": "1b85f679b4c9fe6e7ecf6607fc6ed519da0f74f3",
+          "sourceQuestionNumber": "16",
+          "sourceParagraphs": [
+            208,
+            210,
+            211,
+            212,
+            213
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC16",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sourceFileSha": "1b85f679b4c9fe6e7ecf6607fc6ed519da0f74f3",
+          "sourceQuestionNumber": "17",
+          "sourceParagraphs": [
+            216,
+            218,
+            219,
+            220,
+            221
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC17",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sourceFileSha": "1b85f679b4c9fe6e7ecf6607fc6ed519da0f74f3",
+          "sourceQuestionNumber": "18",
+          "sourceParagraphs": [
+            224,
+            226,
+            227,
+            228,
+            229
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC18",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sourceFileSha": "1b85f679b4c9fe6e7ecf6607fc6ed519da0f74f3",
+          "sourceQuestionNumber": "21",
+          "sourceParagraphs": [
+            253,
+            255,
+            256,
+            257,
+            258
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC21",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sourceFileSha": "1b85f679b4c9fe6e7ecf6607fc6ed519da0f74f3",
+          "sourceQuestionNumber": "22",
+          "sourceParagraphs": [
+            260,
+            262,
+            263,
+            264,
+            265
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC22",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sourceFileSha": "1b85f679b4c9fe6e7ecf6607fc6ed519da0f74f3",
+          "sourceQuestionNumber": "23",
+          "sourceParagraphs": [
+            268,
+            270,
+            271,
+            272,
+            273
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC23",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "C is intended if velocity is positive in the chosen coordinate system. Slowing means acceleration opposite to velocity;it is not necessarily negative. Accept a justified explanation of the missing direction convention.",
+            "note": "C is intended if velocity is positive in the chosen coordinate system. Slowing means acceleration opposite to velocity;it is not necessarily negative. Accept a justified explanation of the missing direction convention."
+          },
+          "requiresManualReview": true
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sourceFileSha": "1b85f679b4c9fe6e7ecf6607fc6ed519da0f74f3",
+          "sourceQuestionNumber": "24",
+          "sourceParagraphs": [
+            276,
+            278,
+            279,
+            280,
+            281
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC24",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sourceFileSha": "1b85f679b4c9fe6e7ecf6607fc6ed519da0f74f3",
+          "sourceQuestionNumber": "25",
+          "sourceParagraphs": [
+            284,
+            286,
+            287,
+            288,
+            289
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC25",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sourceFileSha": "1b85f679b4c9fe6e7ecf6607fc6ed519da0f74f3",
+          "sourceQuestionNumber": "26",
+          "sourceParagraphs": [
+            292,
+            294,
+            295,
+            296,
+            297
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC26",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sourceFileSha": "1b85f679b4c9fe6e7ecf6607fc6ed519da0f74f3",
+          "sourceQuestionNumber": "27",
+          "sourceParagraphs": [
+            300,
+            302,
+            303,
+            304,
+            305
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC27",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sourceFileSha": "1b85f679b4c9fe6e7ecf6607fc6ed519da0f74f3",
+          "sourceQuestionNumber": "29",
+          "sourceParagraphs": [
+            317,
+            319,
+            321,
+            323,
+            325
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC29",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sourceFileSha": "1b85f679b4c9fe6e7ecf6607fc6ed519da0f74f3",
+          "sourceQuestionNumber": "30",
+          "sourceParagraphs": [
+            328,
+            330,
+            331,
+            332,
+            333
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC30",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "B is the nearest intended statement,but only describes energy transformation. A complete conservation law says total energy of an isolated system is constant;energy cannot be created or destroyed. No option states that law fully.",
+            "note": "B is the nearest intended statement,but only describes energy transformation. A complete conservation law says total energy of an isolated system is constant;energy cannot be created or destroyed. No option states that law fully."
+          },
+          "requiresManualReview": true
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sourceFileSha": "1b85f679b4c9fe6e7ecf6607fc6ed519da0f74f3",
+          "sourceQuestionNumber": "16a",
+          "sourceParagraphs": [
+            388,
+            390
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-16a",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sourceFileSha": "1b85f679b4c9fe6e7ecf6607fc6ed519da0f74f3",
+          "sourceQuestionNumber": "16b",
+          "sourceParagraphs": [
+            388,
+            394
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-16b",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sourceFileSha": "1b85f679b4c9fe6e7ecf6607fc6ed519da0f74f3",
+          "sourceQuestionNumber": "17",
+          "sourceParagraphs": [
+            405
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-17",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sourceFileSha": "1b85f679b4c9fe6e7ecf6607fc6ed519da0f74f3",
+          "sourceQuestionNumber": "18i",
+          "sourceParagraphs": [
+            415,
+            417
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-18i",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sourceFileSha": "1b85f679b4c9fe6e7ecf6607fc6ed519da0f74f3",
+          "sourceQuestionNumber": "18ii",
+          "sourceParagraphs": [
+            415,
+            426
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-18ii",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sourceFileSha": "1b85f679b4c9fe6e7ecf6607fc6ed519da0f74f3",
+          "sourceQuestionNumber": "19",
+          "sourceParagraphs": [
+            432,
+            433
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-19",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sourceFileSha": "1b85f679b4c9fe6e7ecf6607fc6ed519da0f74f3",
+          "sourceQuestionNumber": "20a",
+          "sourceParagraphs": [
+            449,
+            451,
+            452
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-20a",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sourceFileSha": "1b85f679b4c9fe6e7ecf6607fc6ed519da0f74f3",
+          "sourceQuestionNumber": "20b",
+          "sourceParagraphs": [
+            449,
+            451,
+            468
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-20b",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sourceFileSha": "1b85f679b4c9fe6e7ecf6607fc6ed519da0f74f3",
+          "sourceQuestionNumber": "21a",
+          "sourceParagraphs": [
+            481,
+            483
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-21a",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sourceFileSha": "1b85f679b4c9fe6e7ecf6607fc6ed519da0f74f3",
+          "sourceQuestionNumber": "21b",
+          "sourceParagraphs": [
+            481,
+            492
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-21b",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sourceFileSha": "1b85f679b4c9fe6e7ecf6607fc6ed519da0f74f3",
+          "sourceQuestionNumber": "21c",
+          "sourceParagraphs": [
+            481,
+            500
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-21c",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sourceFileSha": "1b85f679b4c9fe6e7ecf6607fc6ed519da0f74f3",
+          "sourceQuestionNumber": "22a",
+          "sourceParagraphs": [
+            512,
+            513
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-22a",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sourceFileSha": "1b85f679b4c9fe6e7ecf6607fc6ed519da0f74f3",
+          "sourceQuestionNumber": "22b",
+          "sourceParagraphs": [
+            512,
+            521
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-22b",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sourceFileSha": "1b85f679b4c9fe6e7ecf6607fc6ed519da0f74f3",
+          "sourceQuestionNumber": "23a",
+          "sourceParagraphs": [
+            529,
+            531
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-23a",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sourceFileSha": "1b85f679b4c9fe6e7ecf6607fc6ed519da0f74f3",
+          "sourceQuestionNumber": "23b",
+          "sourceParagraphs": [
+            529,
+            539
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-23b",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Ext.docx",
+          "sourceFileSha": "1b85f679b4c9fe6e7ecf6607fc6ed519da0f74f3",
+          "sourceQuestionNumber": "27c",
+          "sourceParagraphs": [
+            632,
+            634,
+            680
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-27c",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch216",
+      "questionIds": [
+        "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-MC07",
+        "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-MC08",
+        "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-MC10",
+        "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-MC11",
+        "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-MC13",
+        "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-MC14",
+        "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-MC15",
+        "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-20",
+        "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-21",
+        "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-22",
+        "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-23",
+        "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-24",
+        "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-25",
+        "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-26",
+        "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-27",
+        "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-28",
+        "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-29",
+        "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-30a",
+        "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-30b",
+        "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-30c",
+        "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-31",
+        "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-32a",
+        "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-32b",
+        "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-32c",
+        "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-33-SPORT",
+        "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-33-FORENSIC",
+        "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-33-EVOL",
+        "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-33-COSMETIC"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Mainstream.docx",
+          "sha": "e22e28e0cf2945be2d69633f68e288e9c34d6394",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 28,
+      "marks": 105,
+      "imageAudit": "question-source-packs/repo-science-batch216-audit.json",
+      "notes": [
+        "All mainstream exam module/essay options reviewed. Student attempted total64marks:15MC+13common short+16selected module+10cheetah+10selected essay. All offered material totals126marks;do not sum alternative options as a required exam score. Original phylogenetic tree and graph response grid retained. Incorrect kinetic-energy option units and misleading ancestry row flagged."
+      ],
+      "markAudit": {
+        "studentAttemptedTotal": 64,
+        "allOfferedTotal": 126,
+        "multipleChoice": 15,
+        "commonShort": 13,
+        "moduleOptionsOffered": 48,
+        "moduleAttempted": 16,
+        "extendedOffered": 50,
+        "extendedAttempted": 20
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Mainstream.docx",
+          "sourceFileSha": "e22e28e0cf2945be2d69633f68e288e9c34d6394",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            70,
+            72,
+            73,
+            74,
+            75
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC01",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Mainstream.docx",
+          "sourceFileSha": "e22e28e0cf2945be2d69633f68e288e9c34d6394",
+          "sourceQuestionNumber": "2",
+          "sourceParagraphs": [
+            78,
+            80,
+            81,
+            82,
+            83
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC02",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Mainstream.docx",
+          "sourceFileSha": "e22e28e0cf2945be2d69633f68e288e9c34d6394",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            85,
+            87,
+            88,
+            89,
+            90
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC06",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Mainstream.docx",
+          "sourceFileSha": "e22e28e0cf2945be2d69633f68e288e9c34d6394",
+          "sourceQuestionNumber": "4",
+          "sourceParagraphs": [
+            92,
+            94,
+            95,
+            96,
+            97
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC07",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Mainstream.docx",
+          "sourceFileSha": "e22e28e0cf2945be2d69633f68e288e9c34d6394",
+          "sourceQuestionNumber": "5",
+          "sourceParagraphs": [
+            99,
+            101,
+            102,
+            103,
+            104
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC08",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Mainstream.docx",
+          "sourceFileSha": "e22e28e0cf2945be2d69633f68e288e9c34d6394",
+          "sourceQuestionNumber": "6",
+          "sourceParagraphs": [
+            106,
+            108,
+            109,
+            110,
+            111
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC11",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Mainstream.docx",
+          "sourceFileSha": "e22e28e0cf2945be2d69633f68e288e9c34d6394",
+          "sourceQuestionNumber": "9",
+          "sourceParagraphs": [
+            143,
+            145,
+            146,
+            147,
+            148
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC14",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Mainstream.docx",
+          "sourceFileSha": "e22e28e0cf2945be2d69633f68e288e9c34d6394",
+          "sourceQuestionNumber": "12",
+          "sourceParagraphs": [
+            165,
+            167,
+            168,
+            169,
+            170
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC17",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Mainstream.docx",
+          "sourceFileSha": "e22e28e0cf2945be2d69633f68e288e9c34d6394",
+          "sourceQuestionNumber": "16a",
+          "sourceParagraphs": [
+            239,
+            241
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-16a",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Mainstream.docx",
+          "sourceFileSha": "e22e28e0cf2945be2d69633f68e288e9c34d6394",
+          "sourceQuestionNumber": "16b",
+          "sourceParagraphs": [
+            239,
+            245
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-16b",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Mainstream.docx",
+          "sourceFileSha": "e22e28e0cf2945be2d69633f68e288e9c34d6394",
+          "sourceQuestionNumber": "17",
+          "sourceParagraphs": [
+            256
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-17",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Mainstream.docx",
+          "sourceFileSha": "e22e28e0cf2945be2d69633f68e288e9c34d6394",
+          "sourceQuestionNumber": "18i",
+          "sourceParagraphs": [
+            266,
+            268
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-18i",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Mainstream.docx",
+          "sourceFileSha": "e22e28e0cf2945be2d69633f68e288e9c34d6394",
+          "sourceQuestionNumber": "18ii",
+          "sourceParagraphs": [
+            266,
+            278
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-18ii",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Mainstream.docx",
+          "sourceFileSha": "e22e28e0cf2945be2d69633f68e288e9c34d6394",
+          "sourceQuestionNumber": "19",
+          "sourceParagraphs": [
+            284,
+            285
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-19",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch218",
+      "questionIds": [
+        "SCI-REPO-Y9-SBY-2018-HEATELECTRICITY-MC01",
+        "SCI-REPO-Y9-SBY-2018-HEATELECTRICITY-MC02",
+        "SCI-REPO-Y9-SBY-2018-HEATELECTRICITY-MC04",
+        "SCI-REPO-Y9-SBY-2018-HEATELECTRICITY-MC05",
+        "SCI-REPO-Y9-SBY-2018-HEATELECTRICITY-MC06",
+        "SCI-REPO-Y9-SBY-2018-HEATELECTRICITY-MC07",
+        "SCI-REPO-Y9-SBY-2018-HEATELECTRICITY-MC08",
+        "SCI-REPO-Y9-SBY-2018-HEATELECTRICITY-MC09",
+        "SCI-REPO-Y9-SBY-2018-HEATELECTRICITY-MC10",
+        "SCI-REPO-Y9-SBY-2018-HEATELECTRICITY-1a",
+        "SCI-REPO-Y9-SBY-2018-HEATELECTRICITY-1b",
+        "SCI-REPO-Y9-SBY-2018-HEATELECTRICITY-1c",
+        "SCI-REPO-Y9-SBY-2018-HEATELECTRICITY-1d",
+        "SCI-REPO-Y9-SBY-2018-HEATELECTRICITY-2",
+        "SCI-REPO-Y9-SBY-2018-HEATELECTRICITY-3",
+        "SCI-REPO-Y9-SBY-2018-HEATELECTRICITY-4a",
+        "SCI-REPO-Y9-SBY-2018-HEATELECTRICITY-4b",
+        "SCI-REPO-Y9-SBY-2018-HEATELECTRICITY-5a",
+        "SCI-REPO-Y9-SBY-2018-HEATELECTRICITY-5b",
+        "SCI-REPO-Y9-SBY-2018-HEATELECTRICITY-6",
+        "SCI-REPO-Y9-SBY-2018-HEATELECTRICITY-7a",
+        "SCI-REPO-Y9-SBY-2018-HEATELECTRICITY-7b",
+        "SCI-REPO-Y9-SBY-2018-HEATELECTRICITY-EXTa",
+        "SCI-REPO-Y9-SBY-2018-HEATELECTRICITY-EXTb",
+        "SCI-REPO-Y9-SBY-2018-HEATELECTRICITY-EXTc"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Physics/Safety Bay/2018/Year 9 Test Electricity 2018 answers.docx",
+          "sha": "0eaae3008fba669239f514a605184077de9e4762",
+          "year": 9,
+          "role": "paper"
+        }
+      ],
+      "questions": 25,
+      "marks": 40,
+      "imageAudit": "question-source-packs/repo-science-batch218-audit.json",
+      "notes": [
+        "Full written Heat and Electricity test reviewed,including integrated answer booklet. Actual explicit marks total41:10MC+26short+5extended,despite stale30mark cover/20mark section title. Original saucepan figure and supplied circuit exemplars retained;answer annotations are excluded from student prompts. Jacket heat-loss classification flagged as ambiguous."
+      ],
+      "markAudit": {
+        "actualTotal": 41,
+        "multipleChoice": 10,
+        "written": 26,
+        "extended": 5,
+        "coverStaleTotal": 30
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Physics/Safety Bay/2018/Year 9 Test Electricity 2018 answers.docx",
+          "sourceFileSha": "0eaae3008fba669239f514a605184077de9e4762",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            32,
+            33,
+            34,
+            35,
+            36
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-EXT-MC16",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
     }
   ],
   "files": [
@@ -31228,8 +32525,9 @@
       "sha": "49f1193733077abfb5694e28fbf873a7fef0ec5b",
       "year": 7,
       "size": 181687,
-      "status": "pending",
-      "duplicateOf": null
+      "status": "reviewed_key_reference",
+      "duplicateOf": null,
+      "reviewReason": "Full original Word body text and every embedded image are identical to source56,the reviewed2017test answer booklet linked in batch23.2018folder is a duplicate key location;printed2017year retained. No new questions."
     },
     {
       "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Answers midtopic.tif",
@@ -40049,7 +41347,7 @@
       "sha": "0eaae3008fba669239f514a605184077de9e4762",
       "year": 9,
       "size": 185814,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -43400,7 +44698,7 @@
       "sha": "1b85f679b4c9fe6e7ecf6607fc6ed519da0f74f3",
       "year": 10,
       "size": 214046,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -43408,7 +44706,7 @@
       "sha": "e22e28e0cf2945be2d69633f68e288e9c34d6394",
       "year": 10,
       "size": 216794,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -44539,7 +45837,7 @@
       "sha": "633d61b78ee72dd1e533c01c91208bdd58134c2b",
       "year": 10,
       "size": 223321,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -45106,9 +46404,9 @@
       "duplicateOf": null
     }
   ],
-  "learningVaultCreatedKeySupplements": 1455,
-  "remainingUniqueFileBlobs": 529,
-  "learningVaultCreatedKeys": 2834,
+  "learningVaultCreatedKeySupplements": 1480,
+  "remainingUniqueFileBlobs": 524,
+  "learningVaultCreatedKeys": 2890,
   "blockedSources": [
     {
       "sha": "49d4b7f3f8af844477b39abb856365aeb096cafd",
@@ -45320,7 +46618,7 @@
     "ocrPages": 1175,
     "ocrTextVerified": false
   },
-  "distinctSourceAndKeyReferences": 471,
+  "distinctSourceAndKeyReferences": 475,
   "unscoredQuestionsPreserved": 1,
   "activeAdditionalQuestionRequest": {
     "requestedAdditionalQuestions": 1000,
@@ -45336,9 +46634,9 @@
     "requestedAt": "2026-10-17",
     "scope": "Years7–10Science quizzes,tests and exams only. No investigation/experiment reports,assignments,revision worksheets or standalone marking rubrics.",
     "status": "in_progress",
-    "retainedImportedQuestions": 2589,
+    "retainedImportedQuestions": 2670,
     "startingImportedQuestions": 2117,
-    "addedQuestions": 472,
+    "addedQuestions": 553,
     "completionRule": "Every eligible quiz,test and exam reviewed;unverified source types require review before admission."
   },
   "sourceInventoryExclusions": {
@@ -45348,14 +46646,14 @@
     "note": "These are file metadata records, not papers or questions; excluded from import work without increasing question or paper totals."
   },
   "supportingResourceReview": {
-    "files": 78,
-    "uniqueBlobs": 70,
+    "files": 79,
+    "uniqueBlobs": 71,
     "audit": "question-source-packs/repo-science-supporting-resource-review.json",
     "countedAsPapers": false,
     "countedAsQuestions": false
   },
   "missingReferencedMaterial": [],
-  "reviewedDistinctSourceBlobs": 496,
+  "reviewedDistinctSourceBlobs": 501,
   "inventoryCountBasis": "Remaining unique file blobs counts pending or key-reference-pending identities, including protected inputs; it is not a remaining-paper or remaining-question estimate.",
   "canonicalUniverseReviewRepair": {
     "questionIds": [
@@ -45419,12 +46717,12 @@
     "audit": "question-source-packs/repo-science-legacy-reaction-review.json"
   },
   "sourceTypeCleanup": {
-    "version": "2026.10.17-tests-only-v1-b213",
-    "questionsBefore": 4599,
+    "version": "2026.10.17-tests-only-v1-b218",
+    "questionsBefore": 4680,
     "questionsRemoved": 2010,
-    "questionsRetained": 2589,
+    "questionsRetained": 2670,
     "equivalentTestQuestionsPreserved": 21,
-    "battleQuestionSlotsRemoved": 16,
+    "battleQuestionSlotsRemoved": 17,
     "audit": "question-source-packs/science-test-only-cleanup-20261017.json",
     "databaseStorage": "Actual records removed from the static question-bank database files;no Firestore question collection is used by the database page."
   },
@@ -45432,7 +46730,7 @@
     "date": "2026-10-17",
     "restoredOriginalVisuals": 4,
     "removedMissingRequiredMaterial": 13,
-    "checkedUniqueImageAssets": 415,
+    "checkedUniqueImageAssets": 426,
     "brokenImages": 0,
     "blankImages": 0,
     "audit": "question-source-packs/science-question-visual-audit-20261017.json"

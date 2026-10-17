@@ -1,0 +1,348 @@
+{
+  "batch": "repo-science-batch214",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y10-SBY-2018-SEM1-MAINSTREAM-MC11",
+    "SCI-REPO-Y10-SBY-2018-SEM1-MAINSTREAM-MC12",
+    "SCI-REPO-Y10-SBY-2018-SEM1-MAINSTREAM-MC13",
+    "SCI-REPO-Y10-SBY-2018-SEM1-MAINSTREAM-MC14",
+    "SCI-REPO-Y10-SBY-2018-SEM1-MAINSTREAM-MC15",
+    "SCI-REPO-Y10-SBY-2018-SEM1-MAINSTREAM-1a",
+    "SCI-REPO-Y10-SBY-2018-SEM1-MAINSTREAM-2b",
+    "SCI-REPO-Y10-SBY-2018-SEM1-MAINSTREAM-3a",
+    "SCI-REPO-Y10-SBY-2018-SEM1-MAINSTREAM-3b",
+    "SCI-REPO-Y10-SBY-2018-SEM1-MAINSTREAM-3c",
+    "SCI-REPO-Y10-SBY-2018-SEM1-MAINSTREAM-4a",
+    "SCI-REPO-Y10-SBY-2018-SEM1-MAINSTREAM-4b",
+    "SCI-REPO-Y10-SBY-2018-SEM1-MAINSTREAM-4c",
+    "SCI-REPO-Y10-SBY-2018-SEM1-MAINSTREAM-4d",
+    "SCI-REPO-Y10-SBY-2018-SEM1-MAINSTREAM-5",
+    "SCI-REPO-Y10-SBY-2018-SEM1-MAINSTREAM-6a",
+    "SCI-REPO-Y10-SBY-2018-SEM1-MAINSTREAM-6b"
+  ],
+  "questions": 17,
+  "multipleChoice": 5,
+  "writtenQuestions": 12,
+  "battleEligible": 5,
+  "marks": 26,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-SEM1-MAINSTREAM-2b",
+      "note": "Source pedigree omits an explicit coat-colour shading legend. Intended mapping is inferred from the later carrier statement."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-SEM1-MAINSTREAM-6a",
+      "note": "The question confuses flight distance with displacement while the pulling force acts.25J is conditional on an unstated constant-force displacement assumption."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2018-SEM1-MAINSTREAM-6b",
+      "note": "Source gives7m ladder length but no inclination.6174J assumes a vertical height of7m."
+    }
+  ],
+  "imageAudit": [
+    {
+      "id": "e496-image3",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/Sem 1 Exam  Mainstream FINAL.docx",
+      "embeddedImage": "word/media/image3.gif",
+      "sha256": "3a1956a7cc7a7bcf646ec9e8c907b8163587cfa1bb7e4e104d2d558332635dfa",
+      "publishedSha256": "d013619a8e9a680c89502fd2e50b4698486b887d97f5dfba6409dcf6dcacae02",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e496-image4",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/Sem 1 Exam  Mainstream FINAL.docx",
+      "embeddedImage": "word/media/image4.png",
+      "sha256": "96d5ae0a53a7312d40c1184d24b615dd3f44d55dd722ba33ff751045f161ea8e",
+      "publishedSha256": "48dfcd2fba8323e4c3fcb28fdb3169f15b26f7e31464df13c0e16a9ca1351d59",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e496-image5",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/Sem 1 Exam  Mainstream FINAL.docx",
+      "embeddedImage": "word/media/image5.wmf",
+      "sha256": "8ef38f2ff8f75c86d9bf46f877f1b3686341956fe3c4ddd902b0353d86c68f90",
+      "publishedSha256": "f3195402071986df9b7ce11d24e02be7b34a1e40f25309e0d1c35a11d0e44bfc",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e496-page10-original-laps-time-chart",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/Sem 1 Exam  Mainstream FINAL.docx",
+      "sourceFileSha": "633d61b78ee72dd1e533c01c91208bdd58134c2b",
+      "sourcePage": 10,
+      "pdfCropPoints": [
+        60,
+        378,
+        525,
+        631
+      ],
+      "role": "original_native_Word_figure",
+      "conversion": "Original DOCX rendered by LibreOffice to PDF; bounded source figure rasterised at 216 dpi without redrawing. Native editable shapes, table borders, shading and example points retained.",
+      "publishedSha256": "56a736b645dc4ec3d247f1d7d4d3f2553988f14b88fd936f6e3b49d5766e90d5"
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/Sem 1 Exam  Mainstream FINAL.docx",
+      "sha": "633d61b78ee72dd1e533c01c91208bdd58134c2b",
+      "year": 10,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [
+    {
+      "id": "sci-repo-y10-sby-2018-sem1-mainstream-mc-1",
+      "title": "Year 10 Science — Semester 1 mixed science exam (original source MC)",
+      "course": "Science",
+      "yearGroup": 10,
+      "unit": "Science",
+      "parent": "Semester 1 mixed science exam",
+      "count": 5,
+      "kind": "assessment",
+      "assessmentCount": 5,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch214.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=10&search=SCI-REPO-Y10-SBY-2018-SEM1-MAINSTREAM",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    }
+  ],
+  "createdKeys": 17,
+  "createdSupplements": 0,
+  "notes": [
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
+  ],
+  "markAudit": {
+    "sourceTotal": 44,
+    "multipleChoice": 15,
+    "written": 29
+  },
+  "duplicateQuestionAliases": [
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/Sem 1 Exam  Mainstream FINAL.docx",
+      "sourceFileSha": "633d61b78ee72dd1e533c01c91208bdd58134c2b",
+      "sourceQuestionNumber": "1",
+      "sourceParagraphs": [
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-S1EXAM-MC01",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/Sem 1 Exam  Mainstream FINAL.docx",
+      "sourceFileSha": "633d61b78ee72dd1e533c01c91208bdd58134c2b",
+      "sourceQuestionNumber": "2",
+      "sourceParagraphs": [
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC08",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/Sem 1 Exam  Mainstream FINAL.docx",
+      "sourceFileSha": "633d61b78ee72dd1e533c01c91208bdd58134c2b",
+      "sourceQuestionNumber": "3",
+      "sourceParagraphs": [
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-S1EXAM-MC10",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/Sem 1 Exam  Mainstream FINAL.docx",
+      "sourceFileSha": "633d61b78ee72dd1e533c01c91208bdd58134c2b",
+      "sourceQuestionNumber": "4",
+      "sourceParagraphs": [
+        53,
+        54,
+        55,
+        56,
+        57
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-S1EXAM-MC30",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/Sem 1 Exam  Mainstream FINAL.docx",
+      "sourceFileSha": "633d61b78ee72dd1e533c01c91208bdd58134c2b",
+      "sourceQuestionNumber": "5",
+      "sourceParagraphs": [
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-S1EXAM-MC16",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/Sem 1 Exam  Mainstream FINAL.docx",
+      "sourceFileSha": "633d61b78ee72dd1e533c01c91208bdd58134c2b",
+      "sourceQuestionNumber": "6",
+      "sourceParagraphs": [
+        64,
+        65,
+        66,
+        67,
+        68
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-S1EXAM-MC03",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/Sem 1 Exam  Mainstream FINAL.docx",
+      "sourceFileSha": "633d61b78ee72dd1e533c01c91208bdd58134c2b",
+      "sourceQuestionNumber": "7",
+      "sourceParagraphs": [
+        71,
+        72,
+        73,
+        74,
+        75
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC02",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/Sem 1 Exam  Mainstream FINAL.docx",
+      "sourceFileSha": "633d61b78ee72dd1e533c01c91208bdd58134c2b",
+      "sourceQuestionNumber": "8",
+      "sourceParagraphs": [
+        76,
+        77,
+        78,
+        79,
+        80
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-S1EXAM-MC09",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/Sem 1 Exam  Mainstream FINAL.docx",
+      "sourceFileSha": "633d61b78ee72dd1e533c01c91208bdd58134c2b",
+      "sourceQuestionNumber": "9",
+      "sourceParagraphs": [
+        81,
+        82,
+        83,
+        84,
+        85
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-S1EXAM-MC12",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/Sem 1 Exam  Mainstream FINAL.docx",
+      "sourceFileSha": "633d61b78ee72dd1e533c01c91208bdd58134c2b",
+      "sourceQuestionNumber": "10",
+      "sourceParagraphs": [
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC05",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/Sem 1 Exam  Mainstream FINAL.docx",
+      "sourceFileSha": "633d61b78ee72dd1e533c01c91208bdd58134c2b",
+      "sourceQuestionNumber": "1b",
+      "sourceParagraphs": [
+        172,
+        173,
+        174
+      ],
+      "sourceMarks": 4,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-S1EXAM-1b",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/Sem 1 Exam  Mainstream FINAL.docx",
+      "sourceFileSha": "633d61b78ee72dd1e533c01c91208bdd58134c2b",
+      "sourceQuestionNumber": "2a",
+      "sourceParagraphs": [
+        178,
+        180,
+        183,
+        188
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-S1EXAM-3a",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/Sem 1 Exam  Mainstream FINAL.docx",
+      "sourceFileSha": "633d61b78ee72dd1e533c01c91208bdd58134c2b",
+      "sourceQuestionNumber": "2c",
+      "sourceParagraphs": [
+        178,
+        180,
+        183,
+        192
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-S1EXAM-3c",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/Sem 1 Exam  Mainstream FINAL.docx",
+      "sourceFileSha": "633d61b78ee72dd1e533c01c91208bdd58134c2b",
+      "sourceQuestionNumber": "2d",
+      "sourceParagraphs": [
+        178,
+        180,
+        183,
+        194,
+        195
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-S1EXAM-3d",
+      "reason": "Equivalent source question already present; not added or counted again."
+    }
+  ],
+  "sourceScope": "2026.10.17-tests-only-v1-b202"
+}

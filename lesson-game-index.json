@@ -1,12 +1,12 @@
 {
-  "version": "2026.10.17-tests-only-v1-b213",
-  "setCount": 1729,
+  "version": "2026.10.17-tests-only-v1-b218",
+  "setCount": 1733,
   "focusedLessons": 1293,
   "referenceTopics": 44,
   "examSets": 25,
   "questionsPerLessonSet": 20,
-  "uniqueQuestions": 7413,
-  "totalQuestionSlots": 29819,
+  "uniqueQuestions": 7435,
+  "totalQuestionSlots": 29841,
   "courses": [
     {
       "name": "Accounting and Finance ATAR",
@@ -160,7 +160,7 @@
       "lessonSets": 146,
       "referenceSets": 0,
       "examSets": 0,
-      "assessmentSets": 367
+      "assessmentSets": 371
     }
   ],
   "sets": [
@@ -26369,9 +26369,9 @@
       "yearGroup": 10,
       "unit": "Science inquiry and understanding",
       "parent": "Semester 2 extension chemistry, inheritance and mechanics",
-      "count": 27,
+      "count": 26,
       "kind": "assessment",
-      "assessmentCount": 27,
+      "assessmentCount": 26,
       "focusCount": 0,
       "revisionCount": 0,
       "pack": "science-source-assessment-games-batch12.json",
@@ -27561,8 +27561,72 @@
       "pack": "science-source-assessment-games-batch213.json",
       "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=10&search=SCI-REPO-Y10-SBY-2018-SEM1-PART2",
       "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    },
+    {
+      "id": "sci-repo-y10-sby-2018-sem1-mainstream-mc-1",
+      "title": "Year 10 Science — Semester 1 mixed science exam (original source MC)",
+      "course": "Science",
+      "yearGroup": 10,
+      "unit": "Science",
+      "parent": "Semester 1 mixed science exam",
+      "count": 5,
+      "kind": "assessment",
+      "assessmentCount": 5,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch214.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=10&search=SCI-REPO-Y10-SBY-2018-SEM1-MAINSTREAM",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    },
+    {
+      "id": "sci-repo-y10-sby-2017-sem2-ext-mc-1",
+      "title": "Year 10 Science — Semester 2 extension science exam (original source MC)",
+      "course": "Science",
+      "yearGroup": 10,
+      "unit": "Science",
+      "parent": "Semester 2 extension science exam",
+      "count": 4,
+      "kind": "assessment",
+      "assessmentCount": 4,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch215.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=10&search=SCI-REPO-Y10-SBY-2017-SEM2-EXT",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    },
+    {
+      "id": "sci-repo-y10-sby-2017-sem2-mainstream-mc-1",
+      "title": "Year 10 Science — Semester 2 mainstream science exam and module options (original source MC)",
+      "course": "Science",
+      "yearGroup": 10,
+      "unit": "Science",
+      "parent": "Semester 2 mainstream science exam and module options",
+      "count": 5,
+      "kind": "assessment",
+      "assessmentCount": 5,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch216.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=10&search=SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    },
+    {
+      "id": "sci-repo-y9-sby-2018-heatelectricity-mc-1",
+      "title": "Year 9 Science — Heat and electricity (original source MC)",
+      "course": "Science",
+      "yearGroup": 9,
+      "unit": "Physical Sciences",
+      "parent": "Heat and electricity",
+      "count": 9,
+      "kind": "assessment",
+      "assessmentCount": 9,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch218.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=9&search=SCI-REPO-Y9-SBY-2018-HEATELECTRICITY",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
     }
   ],
-  "assessmentSets": 367,
-  "assessmentQuestions": 2348
+  "assessmentSets": 371,
+  "assessmentQuestions": 2370
 }

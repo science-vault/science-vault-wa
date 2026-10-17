@@ -1,0 +1,330 @@
+{
+  "batch": "repo-science-batch216",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-MC07",
+    "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-MC08",
+    "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-MC10",
+    "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-MC11",
+    "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-MC13",
+    "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-MC14",
+    "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-MC15",
+    "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-20",
+    "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-21",
+    "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-22",
+    "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-23",
+    "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-24",
+    "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-25",
+    "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-26",
+    "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-27",
+    "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-28",
+    "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-29",
+    "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-30a",
+    "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-30b",
+    "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-30c",
+    "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-31",
+    "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-32a",
+    "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-32b",
+    "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-32c",
+    "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-33-SPORT",
+    "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-33-FORENSIC",
+    "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-33-EVOL",
+    "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-33-COSMETIC"
+  ],
+  "questions": 28,
+  "multipleChoice": 7,
+  "writtenQuestions": 21,
+  "battleEligible": 5,
+  "marks": 105,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-MC10",
+      "note": "All source options use a speed unit for kinetic energy."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM-31",
+      "note": "Evolution module option. Last supplied evidence statement incorrectly treats similar structures in unrelated organisms as sufficient evidence of common ancestry."
+    }
+  ],
+  "imageAudit": [
+    {
+      "id": "e493-image2",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Mainstream.docx",
+      "embeddedImage": "word/media/image2.gif",
+      "sha256": "3a1956a7cc7a7bcf646ec9e8c907b8163587cfa1bb7e4e104d2d558332635dfa",
+      "publishedSha256": "d013619a8e9a680c89502fd2e50b4698486b887d97f5dfba6409dcf6dcacae02",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e493-image4",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Mainstream.docx",
+      "embeddedImage": "word/media/image4.gif",
+      "sha256": "d985b347da9fdc2bfd3f3f5b316e73e801424bc1623cd9c28725c67ca88060fb",
+      "publishedSha256": "32499e5db47809309758d257a2085c20219a147ae207721be27d8a84574a9b39",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e493-image5",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Mainstream.docx",
+      "embeddedImage": "word/media/image5.wmf",
+      "sha256": "c13ecc411a2ed2ff289092c909ecc501f0c0d9ae8f19d0ec062c9d04842a3e9b",
+      "publishedSha256": "f82403091147e50c579ef9730e2dc38e3277bc452983d723a2ac36fad21f5c65",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Mainstream.docx",
+      "sha": "e22e28e0cf2945be2d69633f68e288e9c34d6394",
+      "year": 10,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [
+    {
+      "id": "sci-repo-y10-sby-2017-sem2-mainstream-mc-1",
+      "title": "Year 10 Science — Semester 2 mainstream science exam and module options (original source MC)",
+      "course": "Science",
+      "yearGroup": 10,
+      "unit": "Science",
+      "parent": "Semester 2 mainstream science exam and module options",
+      "count": 5,
+      "kind": "assessment",
+      "assessmentCount": 5,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch216.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=10&search=SCI-REPO-Y10-SBY-2017-SEM2-MAINSTREAM",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    }
+  ],
+  "createdKeys": 28,
+  "createdSupplements": 0,
+  "notes": [
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
+  ],
+  "markAudit": {
+    "studentAttemptedTotal": 64,
+    "allOfferedTotal": 126,
+    "multipleChoice": 15,
+    "commonShort": 13,
+    "moduleOptionsOffered": 48,
+    "moduleAttempted": 16,
+    "extendedOffered": 50,
+    "extendedAttempted": 20
+  },
+  "duplicateQuestionAliases": [
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Mainstream.docx",
+      "sourceFileSha": "e22e28e0cf2945be2d69633f68e288e9c34d6394",
+      "sourceQuestionNumber": "1",
+      "sourceParagraphs": [
+        70,
+        72,
+        73,
+        74,
+        75
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC01",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Mainstream.docx",
+      "sourceFileSha": "e22e28e0cf2945be2d69633f68e288e9c34d6394",
+      "sourceQuestionNumber": "2",
+      "sourceParagraphs": [
+        78,
+        80,
+        81,
+        82,
+        83
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC02",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Mainstream.docx",
+      "sourceFileSha": "e22e28e0cf2945be2d69633f68e288e9c34d6394",
+      "sourceQuestionNumber": "3",
+      "sourceParagraphs": [
+        85,
+        87,
+        88,
+        89,
+        90
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC06",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Mainstream.docx",
+      "sourceFileSha": "e22e28e0cf2945be2d69633f68e288e9c34d6394",
+      "sourceQuestionNumber": "4",
+      "sourceParagraphs": [
+        92,
+        94,
+        95,
+        96,
+        97
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC07",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Mainstream.docx",
+      "sourceFileSha": "e22e28e0cf2945be2d69633f68e288e9c34d6394",
+      "sourceQuestionNumber": "5",
+      "sourceParagraphs": [
+        99,
+        101,
+        102,
+        103,
+        104
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC08",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Mainstream.docx",
+      "sourceFileSha": "e22e28e0cf2945be2d69633f68e288e9c34d6394",
+      "sourceQuestionNumber": "6",
+      "sourceParagraphs": [
+        106,
+        108,
+        109,
+        110,
+        111
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC11",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Mainstream.docx",
+      "sourceFileSha": "e22e28e0cf2945be2d69633f68e288e9c34d6394",
+      "sourceQuestionNumber": "9",
+      "sourceParagraphs": [
+        143,
+        145,
+        146,
+        147,
+        148
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC14",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Mainstream.docx",
+      "sourceFileSha": "e22e28e0cf2945be2d69633f68e288e9c34d6394",
+      "sourceQuestionNumber": "12",
+      "sourceParagraphs": [
+        165,
+        167,
+        168,
+        169,
+        170
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC17",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Mainstream.docx",
+      "sourceFileSha": "e22e28e0cf2945be2d69633f68e288e9c34d6394",
+      "sourceQuestionNumber": "16a",
+      "sourceParagraphs": [
+        239,
+        241
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-16a",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Mainstream.docx",
+      "sourceFileSha": "e22e28e0cf2945be2d69633f68e288e9c34d6394",
+      "sourceQuestionNumber": "16b",
+      "sourceParagraphs": [
+        239,
+        245
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-16b",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Mainstream.docx",
+      "sourceFileSha": "e22e28e0cf2945be2d69633f68e288e9c34d6394",
+      "sourceQuestionNumber": "17",
+      "sourceParagraphs": [
+        256
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-17",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Mainstream.docx",
+      "sourceFileSha": "e22e28e0cf2945be2d69633f68e288e9c34d6394",
+      "sourceQuestionNumber": "18i",
+      "sourceParagraphs": [
+        266,
+        268
+      ],
+      "sourceMarks": 4,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-18i",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Mainstream.docx",
+      "sourceFileSha": "e22e28e0cf2945be2d69633f68e288e9c34d6394",
+      "sourceQuestionNumber": "18ii",
+      "sourceParagraphs": [
+        266,
+        278
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-18ii",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Exam/Safety Bay/2017/2017 Sem 2 Exam Yr 10 Mainstream.docx",
+      "sourceFileSha": "e22e28e0cf2945be2d69633f68e288e9c34d6394",
+      "sourceQuestionNumber": "19",
+      "sourceParagraphs": [
+        284,
+        285
+      ],
+      "sourceMarks": 4,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-19",
+      "reason": "Equivalent source question already present; not added or counted again."
+    }
+  ],
+  "sourceScope": "2026.10.17-tests-only-v1-b202"
+}

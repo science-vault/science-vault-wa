@@ -1,7 +1,7 @@
 {
-  "questionCountAudited": 2589,
-  "uniqueImageAssetsChecked": 415,
-  "referencedImageSlots": 587,
+  "questionCountAudited": 2670,
+  "uniqueImageAssetsChecked": 426,
+  "referencedImageSlots": 603,
   "brokenImages": [],
   "blankImages": [],
   "unavailableRequiredMaterial": [],
@@ -13,19 +13,19 @@
     "SCI-REPO-Y7-ARAN-UNDATED-BIOEND-MC12"
   ],
   "removedQuestionIds": [
+    "SCI-REPO-Y10-ARAN-2014-DNAMICRO-M-high",
     "SCI-REPO-Y8-SBY-2017-MICROSCOPE-magnification",
     "SCI-REPO-Y8-SBY-2018-MICROSCOPE-magnification",
-    "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-1",
-    "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-2",
-    "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-3",
-    "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-4",
-    "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-5",
     "SCI-REPO-Y8-ARAN-ROCKPRACT33-station1",
     "SCI-REPO-Y8-ARAN-ROCKPRACT33-station2",
     "SCI-REPO-Y8-ARAN-ROCKPRACT33-station3",
     "SCI-REPO-Y8-ARAN-ROCKPRACT33-station4",
     "SCI-REPO-Y8-ARAN-ROCKPRACT33-station5",
-    "SCI-REPO-Y10-ARAN-2014-DNAMICRO-M-high"
+    "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-1",
+    "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-2",
+    "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-3",
+    "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-4",
+    "SCI-REPO-Y8-MLAW-2019-ROCKPRACTKEY-5"
   ],
   "status": "passed"
 }

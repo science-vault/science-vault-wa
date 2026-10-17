@@ -1432,6 +1432,20 @@
           "TOPICOBJECTIVE✓MatterState that all matter is made up of particlesIdentify that there are three states of matterSolidsLiquidsGases Explain the following properties of each state of matter using the Particle Model Theory:Kinetic EnergyArrangementAttraction of ParticlesMovement Compare and contrast the physical properties of the three states of matterDefine the following properties of matter:StrengthHardnessViscosityCompressibilityDensityCalculate the mass and volume of an object and then use the following formula to calculate density: density gcm3 =mass (g)volume (cm3)Explain how materials with the same volume can have different masses and relate this to particle spacing and density.Explain how adding or removing heat(energy) can cause a change in the state of matter.Use diagrams to represent changing states of matter using the following terms (with examples):Melting (melting point)FreezingEvaporation (boiling point)CondensationSublimationUse the particle model theory to explain the changes of state between solids, liquids and gases.Use the particle model theory to explain expansion and contraction in solids, liquids and gases."
         ]
       ]
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/4. ANSWERS Test - Observations, Inferences and Variables.docx",
+      "sha": "49f1193733077abfb5694e28fbf873a7fef0ec5b",
+      "kind": "answer_key_only",
+      "status": "reviewed_key_reference",
+      "reason": "Full original Word body text and every embedded image are identical to source56,the reviewed2017test answer booklet linked in batch23.2018folder is a duplicate key location;printed2017year retained. No new questions.",
+      "matchingReviewedSourceSha": "22fafd67f5ef5110776efd9e680c742311e7b396",
+      "matchingQuestionPaperSha": "9e7de534a33a4ee97d61a18431122ae262adadfa",
+      "comparison": {
+        "all179BodyElementsEqual": true,
+        "nonemptyTextElements": 106,
+        "allEmbeddedImageDigestsEqual": true
+      }
     }
   ]
 }
