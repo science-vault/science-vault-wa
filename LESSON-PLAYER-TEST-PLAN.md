@@ -33,3 +33,20 @@ Open `lesson-player-preview.html` on a hosted preview of this branch.
 - [ ] Obtain approval before merging to main.
 
 Current state: code committed; these manual and browser tests have **not** been executed.
+
+## Batch 1 embedded practice checks
+
+- [ ] Open a lesson with a matching lesson-game set; verify three multiple-choice questions load.
+- [ ] Answer each question once; feedback and final score should appear.
+- [ ] Switch to another lesson while questions load; old lesson content must not appear.
+- [ ] Change between multiple-choice, written and calculation practice without stale results.
+- [ ] Written self-check requires an answer before revealing the suggested answer; it is not automatically graded.
+- [ ] A lesson with a suitable numeric calculation displays the numerical input and correct feedback.
+- [ ] A lesson without a suitable calculation reports that none is available.
+- [ ] Optional practice never changes lesson mastery or completion percentages.
+- [ ] Focus Mode's exit button remains visible while the overlay is active.
+- [ ] Refresh or reopen the lesson; verify account progress is not confused with optional practice.
+
+## Test environment
+
+GitHub Pages serves the production branch, not this development branch. Use an isolated branch deployment or a local HTTP server for the browser checks. Test signed-in Firebase sync only against an authorised configured environment. No production merge is authorised by this checklist.
