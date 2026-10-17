@@ -18,5 +18,6 @@ jobs:
         run: |
           node --check practice-workspace.js
           node --check practice-topic-workspace-core.mjs
+          node --check practice-reference-tools.mjs
       - name: Test practice navigation
-        run: node --test tests/practice-topic-workspace.test.mjs
+        run: node --test tests/practice-topic-workspace.test.mjs tests/practice-reference-tools.test.mjs
