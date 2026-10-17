@@ -13,3 +13,8 @@ export async function classReport(code){const [students,results]=await Promise.a
 export async function saveProgress(values){const state=getAccessState();if(!state.ready||state.member?.role!=='student'||state.member.status!=='active'||state.member.registrationVersion!==2)return false;if(!canStudy(state.member,values.course,values.yearGroup))return false;window.dispatchEvent(new CustomEvent('vault-learning-activity',{detail:values}));const params=new URLSearchParams(location.search),taskId=params.get('task')||'',taskClass=params.get('class')||'';const rooms=taskClass?[{code:taskClass}]:await myClasses(state);if(!rooms.length)return false;const eventId=crypto.randomUUID();let failures=0;await Promise.all(rooms.map(async room=>{try{await setDoc(doc(db,'classes',room.code,'progress',eventId),{...values,studentUid:state.user.uid,taskId,createdAt:serverTimestamp()})}catch{failures++}}));if(failures===rooms.length)throw Error('Progress could not be saved. Your account and class teacher need approval, and Firestore rules must be published.');return true}
 export function stageAssessment(draft){if(!draft.questionIds?.length)throw Error('Build an assessment first.');if(draft.questionIds.length>50)throw Error('Choose no more than 50 questions per assigned task.');sessionStorage.setItem('vault-assignment-draft',JSON.stringify(draft));location.href='teacher-classes.html'}
 
+
+export async function classLessonSummaries(code){
+ const snap=await getDocs(query(collection(db,'classes',code,'lessonSummaries'),orderBy('updatedAt','desc'),limit(500)));
+ return snap.docs.map(d=>({id:d.id,...d.data()}));
+}
