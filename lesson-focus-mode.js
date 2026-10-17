@@ -4,7 +4,7 @@
 const lesson=document.getElementById('lesson'),back=document.getElementById('backTopics');
 if(!lesson||!back)return;
 const toggle=document.createElement('button');toggle.type='button';toggle.id='vaultFocusToggle';toggle.textContent='⛶ Focus mode';toggle.setAttribute('aria-pressed','false');back.insertAdjacentElement('afterend',toggle);
-function setFocus(on){document.body.classList.toggle('vault-focus-mode',on);toggle.setAttribute('aria-pressed',String(on));toggle.textContent=on?'↙ Exit focus mode':'⛶ Focus mode';if(on)lesson.scrollTop=0;document.dispatchEvent(new CustomEvent('vault-focus-changed',{detail:{enabled:on}}))}
+function setFocus(on){document.body.classList.toggle('vault-focus-mode',on);toggle.setAttribute('aria-pressed',String(on));toggle.textContent=on?'↙ Exit focus mode':'⛶ Focus mode';if(on){lesson.prepend(toggle);lesson.scrollTop=0}else{back.insertAdjacentElement('afterend',toggle)}document.dispatchEvent(new CustomEvent('vault-focus-changed',{detail:{enabled:on}}))}
 toggle.addEventListener('click',()=>setFocus(!document.body.classList.contains('vault-focus-mode')));
 back.addEventListener('click',()=>setFocus(false));
 window.addEventListener('popstate',()=>setFocus(false));
