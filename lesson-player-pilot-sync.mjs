@@ -1,6 +1,6 @@
 // Pilot bridge to the existing authenticated lesson-journey storage.
 // Uses the same identity, merge and Firestore rules as the production players.
-import {access,load,saveLocal,saveCloud,fresh,merge} from './lesson-journey-store.mjs?v=2026.10.15-journey1';
+import {access,load,saveLocal,saveCloud,fresh} from './lesson-journey-store.mjs?v=2026.10.15-journey1';
 const meta={course:'Science',year:10,unit:'Earth and Space Sciences',topic:'pilot-features-universe-v1',title:'Features of the Universe'};
 const total=5;
 const status=document.getElementById('cloudStatus');
@@ -21,7 +21,6 @@ try{
  if(state.user&&state.member?.status==='active'&&state.member?.role==='student'){
  uid=state.user.uid;
  const remote=await load(uid,meta,total);
- const current=window.ScienceVaultPilot?.getState?.();
  // Cloud/account progress takes precedence; anonymous device progress must not leak between users.
  const combined=remote.state;
  window.ScienceVaultPilot?.restore?.(toPreview(combined));
@@ -36,7 +35,7 @@ window.addEventListener('sv-pilot-progress',event=>{
  const prior=window.__pilotJourneyState;
  if(prior){next.attempt=prior.attempt+(event.detail?.reset===true?1:0);next.completedOnce=prior.completedOnce||next.completedOnce;}
  window.__pilotJourneyState=next;
- const signature=JSON.stringify([next.index,next.completed,next.masterPassed]);
+ const signature=JSON.stringify([next.attempt,next.index,next.completed,next.masterPassed]);
  if(signature===lastSaved)return;
  lastSaved=signature;saveLocal(uid,meta,next);
  queue=queue.then(async()=>{try{await saveCloud(uid,meta,next);announce('Progress synced to your account.')}catch(error){announce('Saved on this device. Cloud sync could not complete.');console.warn('Pilot sync failed',error)}})
