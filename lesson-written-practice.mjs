@@ -19,3 +19,13 @@ export function makeWrittenReview(question){
  if(typeof answer!=='string')return null;
  return {prompt:question.prompt,expected:answer,explanation:String(question.explanation||'')};
 }
+
+export function calculationFromMultipleChoice(question){
+ if(!question||typeof question.prompt!=='string'||!Array.isArray(question.options)||!Number.isInteger(question.correct))return null;
+ const selected=question.options[question.correct];
+ if(typeof selected!=='string')return null;
+ const match=selected.trim().match(/^([+-]?(?:\d+(?:\.\d*)?|\.\d+)(?:e[+-]?\d+)?)(?:\s+(.+))?$/i);
+ if(!match||!Number.isFinite(Number(match[1])))return null;
+ if(!/(?:calculate|determine|work out|how (?:many|much|fast|far|long)|what is the (?:speed|velocity|acceleration|distance|time|mass|force|energy|power|frequency|wavelength|voltage|current|resistance|density|pressure))/i.test(question.prompt))return null;
+ return {prompt:question.prompt,expected:Number(match[1]),unit:match[2]||'',explanation:String(question.explanation||'')};
+}
