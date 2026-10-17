@@ -6,7 +6,7 @@
 </style></head><body><header><a href="index.html"><strong>Learning Vault WA</strong></a><span>Lesson player preview · account progress pilot</span></header>
 <main><div class="top"><div><div class="eyebrow">Year 10 · Earth and Space Sciences</div><h1>Features of the Universe</h1></div><a href="topic-hub.html">← Back to topics</a></div>
 <div class="layout"><section class="panel"><div class="eyebrow" id="stepLabel"></div><div id="content" class="stage" aria-live="polite"></div><p id="feedback" role="status" aria-live="polite"></p><div class="controls"><button class="secondary" id="previous">← Previous</button><button id="next">Next →</button></div></section>
-<aside class="panel"><h2>My progress</h2><strong id="percent">0%</strong><progress id="progress" max="100" value="0"></progress><p id="status" class="note"></p><h3>Lesson slides</h3><div class="slides" id="slides"></div><h3>Learning intentions</h3><p>Identify key objects in the universe and distinguish between galaxies and solar systems.</p><h3>Success criteria</h3><p>I can identify galaxies, stars and planets and explain how they relate.</p><p class="note" id="cloudStatus" role="status">Checking student account progress…</p><p class="note">Pilot only: teacher reporting is not enabled. Cloud sync requires an approved student account.</p><button class="secondary" id="reset">Reset preview</button></aside></div></main>
+<aside class="panel"><h2>My progress</h2><strong id="percent">0%</strong><progress id="progress" max="100" value="0"></progress><p id="status" class="note"></p><h3>Lesson slides</h3><div class="slides" id="slides"></div><h3>Suggested lesson time</h3><p>15–20 minutes</p><h3>Learning intentions</h3><p>Identify key objects in the universe and distinguish between galaxies and solar systems.</p><h3>Success criteria</h3><p>I can identify galaxies, stars and planets and explain how they relate.</p><p class="note" id="cloudStatus" role="status">Checking student account progress…</p><p class="note">Pilot only: teacher reporting is not enabled. Cloud sync requires an approved student account.</p><button class="secondary" id="reset">Reset preview</button></aside></div></main>
 <script>
 'use strict';
 const lessonId='lv-preview-universe-v1';
@@ -29,7 +29,7 @@ if(item.question){const options=document.createElement('div');options.className=
 $('feedback').textContent=item.question&&state.answered?item.explanation:'';
 $('previous').disabled=state.index===0;$('next').disabled=!!item.question&&!state.answered;$('next').textContent=state.index===lesson.length-1?'Finish lesson':'Next →';
 const completed=state.finished===true;const percentage=completed?100:Math.round((state.unlocked/lesson.length)*100);
-$('percent').textContent=percentage+'%';$('progress').value=percentage;$('status').textContent=completed?'Lesson completed. You may revisit any slide.':'Progress saved locally. Complete the question to unlock the final slide.';
+$('percent').textContent=percentage+'%';$('progress').value=percentage;$('status').textContent=completed?'Lesson completed. You may revisit any slide.':'Progress saved on this device. Work through each slide and answer the check-for-understanding question.';
 $('slides').replaceChildren();lesson.forEach((slide,i)=>{const b=document.createElement('button');b.textContent=i+1;b.title=slide.title;b.disabled=i>state.unlocked;b.className=i===state.index?'active':'';b.onclick=()=>{state.index=i;save();render()};$('slides').append(b)});
 }
 $('previous').onclick=()=>{state.index=Math.max(0,state.index-1);save();render()};
