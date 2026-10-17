@@ -1,7 +1,7 @@
 /* Focused practice, per-account browser drafts and reviewed weak-topic history. */
 (()=>{'use strict';
 const el=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-let uid='',index=0,weak=false,active=false,saving=false,flags=new Set();const prefix='vault-practice-v1:';
+let uid='',index=0,weak=false,active=false,saving=false,flags=new Set(),referenceTools=null;import('./practice-reference-tools.mjs?v=1').then(m=>{referenceTools=m}).catch(()=>{});const prefix='vault-practice-v1:';
 function read(kind,fallback){try{return JSON.parse(localStorage.getItem(prefix+uid+':'+kind))||fallback}catch{return fallback}}
 function write(kind,data){try{localStorage.setItem(prefix+uid+':'+kind,JSON.stringify(data));return true}catch{return false}}
 function remove(kind){try{localStorage.removeItem(prefix+uid+':'+kind)}catch{}}
@@ -35,6 +35,14 @@ function renderNavigator(){
 }
 const sidebar=document.createElement('aside');sidebar.id='practiceSidebar';sidebar.className='practice-sidebar';sidebar.innerHTML='<h3>Question navigator</h3><p id="practiceAnswered" role="status"></p><div class="practice-track"><div id="practiceBar"></div></div><p id="practiceFlagCount"></p><div id="practiceQuestionGrid" class="practice-question-grid"></div><div class="practice-legend">Answered · Flagged · Not answered</div><button id="flagQuestion" type="button" class="secondary">Flag for review</button><button id="reviewBeforeSubmit" type="button" class="secondary">Review &amp; submit</button><p class="practice-note">Answers are saved in this browser. Flagged questions are not automatically marked incorrect.</p>';
  el('questions').after(sidebar);
+ const toolsPanel=document.createElement('div');toolsPanel.className='practice-tools';toolsPanel.innerHTML='<div class="practice-tools-actions"><button type="button" id="openFormula" class="secondary">Formula sheet</button><button type="button" id="openCalculator" class="secondary">Calculator</button></div><section id="formulaPanel" hidden><h4>Quick formula reference</h4><p class="practice-note">General revision formulas; verify the formula sheet permitted for your assessment.</p><div id="formulaContent"></div></section><section id="calculatorPanel" hidden><h4>Quick calculator</h4><div class="practice-calculator"><input id="calcA" type="number" step="any" aria-label="First number" placeholder="Number"><select id="calcOperator" aria-label="Operation"><option>+</option><option>−</option><option>×</option><option>÷</option><option>^</option></select><input id="calcB" type="number" step="any" aria-label="Second number" placeholder="Number"><button type="button" id="calcGo" class="secondary">=</button></div><output id="calcResult" aria-live="polite"></output></section></div>';
+ sidebar.prepend(toolsPanel);
+ el('openFormula').onclick=()=>{const panel=el('formulaPanel');panel.hidden=!panel.hidden;if(panel.hidden)return;const groups=referenceTools?.formulasFor?.(selected[index]?.course||el('course').value)||[];const root=el('formulaContent');root.replaceChildren();for(const [heading,...formulas] of groups){const h=document.createElement('h5');h.textContent=heading;root.append(h);for(const formula of formulas){const p=document.createElement('p');p.textContent=formula;root.append(p)}}};
+ el('openCalculator').onclick=()=>{el('calculatorPanel').hidden=!el('calculatorPanel').hidden};
+ el('calcGo').onclick=()=>{try{el('calcResult').textContent=String(referenceTools.calculate(el('calcA').value,el('calcOperator').value,el('calcB').value))}catch(e){el('calcResult').textContent=e.message||'Invalid calculation'}};
+ function syncTools(){const q=selected[index];const permitted=referenceTools?.calculatorPermitted?.(q?.course||el('course').value,el('calculatorMode').value)??false;el('openCalculator').disabled=!permitted;el('openCalculator').title=permitted?'Open quick calculator':'Calculator unavailable for calculator-free maths questions';if(!permitted)el('calculatorPanel').hidden=true;el('formulaPanel').hidden=true}
+ const baseShowTools=show;show=function(i){baseShowTools(i);syncTools()};
+
  el('quiz').classList.add('practice-test-layout');
  el('flagQuestion').onclick=()=>{if(flags.has(index))flags.delete(index);else flags.add(index);renderNavigator();save()};
  el('reviewBeforeSubmit').onclick=()=>{const unanswered=selected.filter((_,i)=>!questionAnswered(i)).length;const message='Review: '+(selected.length-unanswered)+' answered, '+unanswered+' unanswered, '+flags.size+' flagged. Submit your test now?';if(confirm(message))submitQuiz()};
