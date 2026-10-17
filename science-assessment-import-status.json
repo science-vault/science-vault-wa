@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.17-tests-only-v1-b202",
+  "version": "2026.10.17-tests-only-v1-b203",
   "status": "in_progress",
   "scope": "Original Science assessment files in repository, Years 7–10. File counts include keys and supporting materials; they are not question counts.",
   "inventoryFiles": 2009,
@@ -11,11 +11,11 @@
     "9": 457,
     "10": 582
   },
-  "importedPapers": 166,
-  "importedQuestions": 2323,
-  "multipleChoice": 979,
-  "writtenQuestions": 1344,
-  "battleEligibleQuestions": 851,
+  "importedPapers": 170,
+  "importedQuestions": 2352,
+  "multipleChoice": 989,
+  "writtenQuestions": 1363,
+  "battleEligibleQuestions": 856,
   "reviewRequired": [
     {
       "id": "SCI-REPO-Y7-NAR-2024-EARTH-MC01",
@@ -212,6 +212,46 @@
     {
       "id": "SCI-REPO-Y9-NAR-2024-TECTONICS-MC18",
       "note": "location 2 lies on the Mid-Atlantic Ridge. B (mid-ocean ridge), C (volcanism) and D (earthquakes, supplied key) can all occur there. Accept justified B/C/D; there is no unique best option as worded."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2018-ENDO-472-MC02",
+      "note": "B is the intended standard gland pair in the final version,but heart/hypothalamus(A)and heart/adrenal(C)also have endocrine functions. In the draft, B contains blood. Source lacks a unique correct answer under its broad wording."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2018-ENDO-472-MC09",
+      "note": "A is intended,but infected people undergo isolation;quarantine normally concerns exposed people."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2018-ENDO-472-case",
+      "note": "Scenario lacks diagnostic evidence;do not treat the student report as a confirmed diagnosis. Key supplemented from current CDC information."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2018-ENDO-476-MC04",
+      "note": "A is intended,but visible white-cell activity is vague;white cells have normal functions without proving a breached barrier. Clarify the observation."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2018-ENDO-476-case",
+      "note": "Scenario lacks diagnostic evidence;do not treat the student report as a confirmed diagnosis. Key supplemented from current CDC information."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2018-ENDO-479-MC02",
+      "note": "B is the intended standard gland pair in the final version,but heart/hypothalamus(A)and heart/adrenal(C)also have endocrine functions. In the draft, B contains blood. Source lacks a unique correct answer under its broad wording."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2018-ENDO-479-MC04",
+      "note": "A is intended,but visible white-cell activity is vague;white cells have normal functions without proving a breached barrier. Clarify the observation."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2018-ENDO-479-data2",
+      "note": "Source table gives an anomalous concentration response and does not distinguish killing from growth inhibition."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2018-ENDO-479-data4",
+      "note": "Source table gives an anomalous concentration response and does not distinguish killing from growth inhibition."
+    },
+    {
+      "id": "SCI-REPO-Y9-SBY-2018-ENDO-479-case",
+      "note": "Scenario lacks diagnostic evidence;do not treat the student report as a confirmed diagnosis. Key supplemented from current CDC information."
     },
     {
       "id": "SCI-REPO-Y7-NAR-2023-FORCES-MC03",
@@ -955,11 +995,11 @@
     },
     {
       "id": "SCI-REPO-Y9-SBY-2017-ENDOCRINE-MC09",
-      "note": "Source uses quarantine for known infection; isolation is the appropriate general distinction."
+      "note": "A is intended,but infected people are isolated;quarantine usually refers to exposed people who may become infectious. Accept the intended prevention principle with correct terminology."
     },
     {
       "id": "SCI-REPO-Y9-SBY-2017-ENDOCRINE-MC10",
-      "note": "Vaccine availability is date-dependent; influenza and Ebola both have vaccines now. Historical source retained manually."
+      "note": "Influenza(A)was intended historically;Ebola(D)also has approved vaccines now. Not uniquely correct for current reuse."
     },
     {
       "id": "SCI-REPO-Y9-SBY-2017-ENDOCRINE-14",
@@ -23540,6 +23580,734 @@
         "newQuestions": 0
       },
       "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch203",
+      "questionIds": [
+        "SCI-REPO-Y9-SBY-2017-ENDO-471-glands",
+        "SCI-REPO-Y9-SBY-2018-ENDO-472-MC02",
+        "SCI-REPO-Y9-SBY-2018-ENDO-472-MC09",
+        "SCI-REPO-Y9-SBY-2018-ENDO-472-glands",
+        "SCI-REPO-Y9-SBY-2018-ENDO-472-antibiotics-vaccines",
+        "SCI-REPO-Y9-SBY-2018-ENDO-472-hormone",
+        "SCI-REPO-Y9-SBY-2018-ENDO-472-defences",
+        "SCI-REPO-Y9-SBY-2018-ENDO-472-vaccines",
+        "SCI-REPO-Y9-SBY-2018-ENDO-472-case",
+        "SCI-REPO-Y9-SBY-2018-ENDO-476-MC04",
+        "SCI-REPO-Y9-SBY-2018-ENDO-476-MC08",
+        "SCI-REPO-Y9-SBY-2018-ENDO-476-MC09",
+        "SCI-REPO-Y9-SBY-2018-ENDO-476-MC10",
+        "SCI-REPO-Y9-SBY-2018-ENDO-476-hormone",
+        "SCI-REPO-Y9-SBY-2018-ENDO-476-defences",
+        "SCI-REPO-Y9-SBY-2018-ENDO-476-case",
+        "SCI-REPO-Y9-SBY-2018-ENDO-479-MC02",
+        "SCI-REPO-Y9-SBY-2018-ENDO-479-MC03",
+        "SCI-REPO-Y9-SBY-2018-ENDO-479-MC04",
+        "SCI-REPO-Y9-SBY-2018-ENDO-479-MC10",
+        "SCI-REPO-Y9-SBY-2018-ENDO-479-hormone",
+        "SCI-REPO-Y9-SBY-2018-ENDO-479-defences",
+        "SCI-REPO-Y9-SBY-2018-ENDO-479-vaccines",
+        "SCI-REPO-Y9-SBY-2018-ENDO-479-data1",
+        "SCI-REPO-Y9-SBY-2018-ENDO-479-data2",
+        "SCI-REPO-Y9-SBY-2018-ENDO-479-data3",
+        "SCI-REPO-Y9-SBY-2018-ENDO-479-data4",
+        "SCI-REPO-Y9-SBY-2018-ENDO-479-data5",
+        "SCI-REPO-Y9-SBY-2018-ENDO-479-case"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/Endocrine system & Diseases test (2).docx",
+          "sha": "cbb4361f07e584b471af5d0cfd6f02e3cf753eb7",
+          "year": 9,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/Endocrine system & Diseases test- Answers (2).docx",
+          "sha": "bb142c23871316bb48216e7cf682c2dbcedd60d5",
+          "year": 9,
+          "role": "key_reference",
+          "reviewComplete": true
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/New test/Endocrine system & Diseases test 2018.docx",
+          "sha": "7a5904522a2ca9fa3e0ffe7167d57ab649fd4058",
+          "year": 9,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/New test/Endocrine system & Diseases test 2018 suggested changes - Daph.docx",
+          "sha": "021bd241a3fbc76380d603260f0271889faf4981",
+          "year": 9,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/New test/Endocrine system & Diseases test 2018 FINAL .docx",
+          "sha": "9622fa870e8aacf7b658e7f7ff99fb1a6886fe5c",
+          "year": 9,
+          "role": "paper"
+        }
+      ],
+      "questions": 29,
+      "marks": 72,
+      "imageAudit": "question-source-packs/repo-science-batch203-audit.json",
+      "notes": [
+        "Four complete endocrine/disease test variants plus matching2017fulltestkey reviewed. All gland figures retained. Historical Ebola-vaccine item,current quarantine terminology and endocrine-heart ambiguity manually moderated. Source immune-key errors corrected;clinical scenarios remain teacherreview-only.2018draftshortsection17marks despite18label;final40marks."
+      ],
+      "markAudit": {
+        "sourceTotals": [
+          28,
+          32,
+          32,
+          40
+        ],
+        "papers": 4,
+        "keyReferences": 1
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/Endocrine system & Diseases test (2).docx",
+          "sourceFileSha": "cbb4361f07e584b471af5d0cfd6f02e3cf753eb7",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            24,
+            25,
+            26,
+            27,
+            28
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-ENDOCRINE-MC01",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/Endocrine system & Diseases test (2).docx",
+          "sourceFileSha": "cbb4361f07e584b471af5d0cfd6f02e3cf753eb7",
+          "sourceQuestionNumber": "2",
+          "sourceParagraphs": [
+            30,
+            31,
+            32,
+            33,
+            34
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-ENDOCRINE-MC02",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/Endocrine system & Diseases test (2).docx",
+          "sourceFileSha": "cbb4361f07e584b471af5d0cfd6f02e3cf753eb7",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            36,
+            37,
+            38,
+            39,
+            40
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-ENDOCRINE-MC03",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/Endocrine system & Diseases test (2).docx",
+          "sourceFileSha": "cbb4361f07e584b471af5d0cfd6f02e3cf753eb7",
+          "sourceQuestionNumber": "4",
+          "sourceParagraphs": [
+            42,
+            43,
+            44,
+            45,
+            46
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-ENDOCRINE-MC04",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/Endocrine system & Diseases test (2).docx",
+          "sourceFileSha": "cbb4361f07e584b471af5d0cfd6f02e3cf753eb7",
+          "sourceQuestionNumber": "5",
+          "sourceParagraphs": [
+            48,
+            49,
+            50,
+            51,
+            52
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-ENDOCRINE-MC05",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/Endocrine system & Diseases test (2).docx",
+          "sourceFileSha": "cbb4361f07e584b471af5d0cfd6f02e3cf753eb7",
+          "sourceQuestionNumber": "6",
+          "sourceParagraphs": [
+            55,
+            56,
+            57,
+            58,
+            59
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-ENDOCRINE-MC06",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/Endocrine system & Diseases test (2).docx",
+          "sourceFileSha": "cbb4361f07e584b471af5d0cfd6f02e3cf753eb7",
+          "sourceQuestionNumber": "7",
+          "sourceParagraphs": [
+            60,
+            61,
+            62,
+            63,
+            64
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-ENDOCRINE-MC07",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/Endocrine system & Diseases test (2).docx",
+          "sourceFileSha": "cbb4361f07e584b471af5d0cfd6f02e3cf753eb7",
+          "sourceQuestionNumber": "8",
+          "sourceParagraphs": [
+            66,
+            67,
+            68,
+            69,
+            70
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-ENDOCRINE-MC08",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/Endocrine system & Diseases test (2).docx",
+          "sourceFileSha": "cbb4361f07e584b471af5d0cfd6f02e3cf753eb7",
+          "sourceQuestionNumber": "9",
+          "sourceParagraphs": [
+            72,
+            73,
+            74,
+            75,
+            76
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-ENDOCRINE-MC09",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "A is intended,but infected people are isolated;quarantine usually refers to exposed people who may become infectious. Accept the intended prevention principle with correct terminology.",
+            "note": "A is intended,but infected people are isolated;quarantine usually refers to exposed people who may become infectious. Accept the intended prevention principle with correct terminology."
+          },
+          "requiresManualReview": true
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/Endocrine system & Diseases test (2).docx",
+          "sourceFileSha": "cbb4361f07e584b471af5d0cfd6f02e3cf753eb7",
+          "sourceQuestionNumber": "10",
+          "sourceParagraphs": [
+            78,
+            79,
+            80,
+            81,
+            82
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-ENDOCRINE-MC10",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "Influenza(A)is the historical intended answer,but Ebola(D)also has approved vaccines now. Ervebo was approved in2019. Not a unique-answer question for current reuse.",
+            "note": "Influenza(A)is the historical intended answer,but Ebola(D)also has approved vaccines now. Ervebo was approved in2019. Not a unique-answer question for current reuse.",
+            "evidenceUrls": [
+              "https://www.fda.gov/emergency-preparedness-and-response/medical-countermeasure-mcm-issues/ebola"
+            ]
+          },
+          "requiresManualReview": true
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/Endocrine system & Diseases test (2).docx",
+          "sourceFileSha": "cbb4361f07e584b471af5d0cfd6f02e3cf753eb7",
+          "sourceQuestionNumber": "antibiotics-vaccines",
+          "sourceParagraphs": [
+            118
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-ENDOCRINE-12",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/Endocrine system & Diseases test (2).docx",
+          "sourceFileSha": "cbb4361f07e584b471af5d0cfd6f02e3cf753eb7",
+          "sourceQuestionNumber": "defences",
+          "sourceParagraphs": [
+            121,
+            122
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-ENDOCRINE-13",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/Endocrine system & Diseases test (2).docx",
+          "sourceFileSha": "cbb4361f07e584b471af5d0cfd6f02e3cf753eb7",
+          "sourceQuestionNumber": "allergy",
+          "sourceParagraphs": [
+            125
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-ENDOCRINE-14",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/Endocrine system & Diseases test (2).docx",
+          "sourceFileSha": "cbb4361f07e584b471af5d0cfd6f02e3cf753eb7",
+          "sourceQuestionNumber": "vaccines",
+          "sourceParagraphs": [
+            128,
+            129
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-ENDOCRINE-15",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/New test/Endocrine system & Diseases test 2018.docx",
+          "sourceFileSha": "7a5904522a2ca9fa3e0ffe7167d57ab649fd4058",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-ENDOCRINE-MC01",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/New test/Endocrine system & Diseases test 2018.docx",
+          "sourceFileSha": "7a5904522a2ca9fa3e0ffe7167d57ab649fd4058",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-ENDOCRINE-MC03",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/New test/Endocrine system & Diseases test 2018.docx",
+          "sourceFileSha": "7a5904522a2ca9fa3e0ffe7167d57ab649fd4058",
+          "sourceQuestionNumber": "4",
+          "sourceParagraphs": [
+            41,
+            42,
+            43,
+            44,
+            45
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-ENDOCRINE-MC04",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/New test/Endocrine system & Diseases test 2018.docx",
+          "sourceFileSha": "7a5904522a2ca9fa3e0ffe7167d57ab649fd4058",
+          "sourceQuestionNumber": "5",
+          "sourceParagraphs": [
+            47,
+            48,
+            49,
+            50,
+            51
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-ENDOCRINE-MC05",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/New test/Endocrine system & Diseases test 2018.docx",
+          "sourceFileSha": "7a5904522a2ca9fa3e0ffe7167d57ab649fd4058",
+          "sourceQuestionNumber": "6",
+          "sourceParagraphs": [
+            58,
+            59,
+            60,
+            61,
+            62
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-ENDOCRINE-MC06",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/New test/Endocrine system & Diseases test 2018.docx",
+          "sourceFileSha": "7a5904522a2ca9fa3e0ffe7167d57ab649fd4058",
+          "sourceQuestionNumber": "7",
+          "sourceParagraphs": [
+            64,
+            65,
+            66,
+            67,
+            68
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-ENDOCRINE-MC07",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/New test/Endocrine system & Diseases test 2018.docx",
+          "sourceFileSha": "7a5904522a2ca9fa3e0ffe7167d57ab649fd4058",
+          "sourceQuestionNumber": "8",
+          "sourceParagraphs": [
+            70,
+            71,
+            72,
+            73,
+            74
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-ENDOCRINE-MC08",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/New test/Endocrine system & Diseases test 2018.docx",
+          "sourceFileSha": "7a5904522a2ca9fa3e0ffe7167d57ab649fd4058",
+          "sourceQuestionNumber": "10",
+          "sourceParagraphs": [
+            82,
+            83,
+            84,
+            85,
+            86
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-ENDOCRINE-MC10",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "Influenza(A)was intended;Ebola(D)also has approved vaccines now. Ervebo approved2019. Teacher review required.",
+            "note": "Influenza(A)was intended;Ebola(D)also has approved vaccines now. Ervebo approved2019. Teacher review required.",
+            "evidenceUrls": [
+              "https://www.fda.gov/emergency-preparedness-and-response/medical-countermeasure-mcm-issues/ebola"
+            ]
+          },
+          "requiresManualReview": true
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/New test/Endocrine system & Diseases test 2018 suggested changes - Daph.docx",
+          "sourceFileSha": "021bd241a3fbc76380d603260f0271889faf4981",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-ENDOCRINE-MC01",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/New test/Endocrine system & Diseases test 2018 suggested changes - Daph.docx",
+          "sourceFileSha": "021bd241a3fbc76380d603260f0271889faf4981",
+          "sourceQuestionNumber": "2",
+          "sourceParagraphs": [
+            29,
+            30,
+            31,
+            32,
+            33
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ENDO-472-MC02",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "B is the intended standard gland pair in the final version,but heart/hypothalamus(A)and heart/adrenal(C)also have endocrine functions. In the draft, B contains blood. Source lacks a unique correct answer under its broad wording.",
+            "note": "B is the intended standard gland pair in the final version,but heart/hypothalamus(A)and heart/adrenal(C)also have endocrine functions. In the draft, B contains blood. Source lacks a unique correct answer under its broad wording.",
+            "evidenceUrls": [
+              "https://pubmed.ncbi.nlm.nih.gov/2941367/"
+            ]
+          },
+          "requiresManualReview": true
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/New test/Endocrine system & Diseases test 2018 suggested changes - Daph.docx",
+          "sourceFileSha": "021bd241a3fbc76380d603260f0271889faf4981",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            35,
+            37,
+            38,
+            39,
+            40
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-ENDOCRINE-MC03",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/New test/Endocrine system & Diseases test 2018 suggested changes - Daph.docx",
+          "sourceFileSha": "021bd241a3fbc76380d603260f0271889faf4981",
+          "sourceQuestionNumber": "5",
+          "sourceParagraphs": [
+            50,
+            52,
+            53,
+            54,
+            55
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-ENDOCRINE-MC06",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/New test/Endocrine system & Diseases test 2018 suggested changes - Daph.docx",
+          "sourceFileSha": "021bd241a3fbc76380d603260f0271889faf4981",
+          "sourceQuestionNumber": "6",
+          "sourceParagraphs": [
+            59,
+            61,
+            62,
+            63,
+            64
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ENDO-472-MC09",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "A is intended,but infected people undergo isolation;quarantine normally concerns exposed people.",
+            "note": "A is intended,but infected people undergo isolation;quarantine normally concerns exposed people."
+          },
+          "requiresManualReview": true
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/New test/Endocrine system & Diseases test 2018 suggested changes - Daph.docx",
+          "sourceFileSha": "021bd241a3fbc76380d603260f0271889faf4981",
+          "sourceQuestionNumber": "7",
+          "sourceParagraphs": [
+            66,
+            68,
+            69,
+            70,
+            71
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-ENDOCRINE-MC10",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "Influenza(A)was intended historically;Ebola(D)also has approved vaccines now. Not uniquely correct for current reuse.",
+            "note": "Influenza(A)was intended historically;Ebola(D)also has approved vaccines now. Not uniquely correct for current reuse.",
+            "evidenceUrls": [
+              "https://www.fda.gov/emergency-preparedness-and-response/medical-countermeasure-mcm-issues/ebola"
+            ]
+          },
+          "requiresManualReview": true
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/New test/Endocrine system & Diseases test 2018 suggested changes - Daph.docx",
+          "sourceFileSha": "021bd241a3fbc76380d603260f0271889faf4981",
+          "sourceQuestionNumber": "glands",
+          "sourceParagraphs": [
+            109,
+            111,
+            113
+          ],
+          "sourceMarks": 5,
+          "sourceType": "Diagram",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ENDO-472-glands",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/New test/Endocrine system & Diseases test 2018 suggested changes - Daph.docx",
+          "sourceFileSha": "021bd241a3fbc76380d603260f0271889faf4981",
+          "sourceQuestionNumber": "antibiotics-vaccines",
+          "sourceParagraphs": [
+            115
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ENDO-472-antibiotics-vaccines",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/New test/Endocrine system & Diseases test 2018 suggested changes - Daph.docx",
+          "sourceFileSha": "021bd241a3fbc76380d603260f0271889faf4981",
+          "sourceQuestionNumber": "vaccines",
+          "sourceParagraphs": [
+            127
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ENDO-472-vaccines",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/New test/Endocrine system & Diseases test 2018 FINAL .docx",
+          "sourceFileSha": "9622fa870e8aacf7b658e7f7ff99fb1a6886fe5c",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-ENDOCRINE-MC01",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/New test/Endocrine system & Diseases test 2018 FINAL .docx",
+          "sourceFileSha": "9622fa870e8aacf7b658e7f7ff99fb1a6886fe5c",
+          "sourceQuestionNumber": "5",
+          "sourceParagraphs": [
+            50,
+            52,
+            53,
+            54,
+            55
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-ENDOCRINE-MC06",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/New test/Endocrine system & Diseases test 2018 FINAL .docx",
+          "sourceFileSha": "9622fa870e8aacf7b658e7f7ff99fb1a6886fe5c",
+          "sourceQuestionNumber": "6",
+          "sourceParagraphs": [
+            59,
+            61,
+            62,
+            63,
+            64
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ENDO-472-MC09",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "A is intended,but infected people undergo isolation;quarantine normally concerns exposed people.",
+            "note": "A is intended,but infected people undergo isolation;quarantine normally concerns exposed people."
+          },
+          "requiresManualReview": true
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/New test/Endocrine system & Diseases test 2018 FINAL .docx",
+          "sourceFileSha": "9622fa870e8aacf7b658e7f7ff99fb1a6886fe5c",
+          "sourceQuestionNumber": "7",
+          "sourceParagraphs": [
+            65,
+            67,
+            68,
+            69,
+            70
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2017-ENDOCRINE-MC10",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "Influenza(A)was intended historically;Ebola(D)also has approved vaccines now. Not uniquely correct for current reuse.",
+            "note": "Influenza(A)was intended historically;Ebola(D)also has approved vaccines now. Not uniquely correct for current reuse.",
+            "evidenceUrls": [
+              "https://www.fda.gov/emergency-preparedness-and-response/medical-countermeasure-mcm-issues/ebola"
+            ]
+          },
+          "requiresManualReview": true
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/New test/Endocrine system & Diseases test 2018 FINAL .docx",
+          "sourceFileSha": "9622fa870e8aacf7b658e7f7ff99fb1a6886fe5c",
+          "sourceQuestionNumber": "MC08",
+          "sourceParagraphs": [
+            71,
+            72
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ENDO-476-MC08",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/New test/Endocrine system & Diseases test 2018 FINAL .docx",
+          "sourceFileSha": "9622fa870e8aacf7b658e7f7ff99fb1a6886fe5c",
+          "sourceQuestionNumber": "MC09",
+          "sourceParagraphs": [
+            73,
+            74
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ENDO-476-MC09",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/New test/Endocrine system & Diseases test 2018 FINAL .docx",
+          "sourceFileSha": "9622fa870e8aacf7b658e7f7ff99fb1a6886fe5c",
+          "sourceQuestionNumber": "glands",
+          "sourceParagraphs": [
+            108,
+            109,
+            118
+          ],
+          "sourceMarks": 5,
+          "sourceType": "Diagram",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ENDO-472-glands",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2018/New test/Endocrine system & Diseases test 2018 FINAL .docx",
+          "sourceFileSha": "9622fa870e8aacf7b658e7f7ff99fb1a6886fe5c",
+          "sourceQuestionNumber": "antibiotics-vaccines",
+          "sourceParagraphs": [
+            122
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y9-SBY-2018-ENDO-472-antibiotics-vaccines",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
     }
   ],
   "files": [
@@ -32825,7 +33593,7 @@
       "sha": "cbb4361f07e584b471af5d0cfd6f02e3cf753eb7",
       "year": 9,
       "size": 173362,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -32833,7 +33601,7 @@
       "sha": "bb142c23871316bb48216e7cf682c2dbcedd60d5",
       "year": 9,
       "size": 178265,
-      "status": "pending",
+      "status": "reviewed_key_reference",
       "duplicateOf": null
     },
     {
@@ -32962,7 +33730,7 @@
       "sha": "bb142c23871316bb48216e7cf682c2dbcedd60d5",
       "year": 9,
       "size": 178265,
-      "status": "pending",
+      "status": "reviewed_key_reference",
       "duplicateOf": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/Endocrine system & Diseases test- Answers (2).docx"
     },
     {
@@ -32970,7 +33738,7 @@
       "sha": "cbb4361f07e584b471af5d0cfd6f02e3cf753eb7",
       "year": 9,
       "size": 173362,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Safety Bay/2017/Endocrine system & Diseases test (2).docx"
     },
     {
@@ -33051,7 +33819,7 @@
       "sha": "9622fa870e8aacf7b658e7f7ff99fb1a6886fe5c",
       "year": 9,
       "size": 186190,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -33059,7 +33827,7 @@
       "sha": "021bd241a3fbc76380d603260f0271889faf4981",
       "year": 9,
       "size": 181899,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -33067,7 +33835,7 @@
       "sha": "7a5904522a2ca9fa3e0ffe7167d57ab649fd4058",
       "year": 9,
       "size": 175136,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -40868,9 +41636,9 @@
       "duplicateOf": null
     }
   ],
-  "learningVaultCreatedKeySupplements": 1444,
-  "remainingUniqueFileBlobs": 550,
-  "learningVaultCreatedKeys": 2579,
+  "learningVaultCreatedKeySupplements": 1445,
+  "remainingUniqueFileBlobs": 545,
+  "learningVaultCreatedKeys": 2607,
   "blockedSources": [
     {
       "sha": "49d4b7f3f8af844477b39abb856365aeb096cafd",
@@ -41082,7 +41850,7 @@
     "ocrPages": 1175,
     "ocrTextVerified": false
   },
-  "distinctSourceAndKeyReferences": 450,
+  "distinctSourceAndKeyReferences": 455,
   "unscoredQuestionsPreserved": 1,
   "activeAdditionalQuestionRequest": {
     "requestedAdditionalQuestions": 1000,
@@ -41098,9 +41866,9 @@
     "requestedAt": "2026-10-17",
     "scope": "Years7–10Science quizzes,tests and exams only. No investigation/experiment reports,assignments,revision worksheets or standalone marking rubrics.",
     "status": "in_progress",
-    "retainedImportedQuestions": 2323,
+    "retainedImportedQuestions": 2352,
     "startingImportedQuestions": 2117,
-    "addedQuestions": 206,
+    "addedQuestions": 235,
     "completionRule": "Every eligible quiz,test and exam reviewed;unverified source types require review before admission."
   },
   "sourceInventoryExclusions": {
@@ -41117,7 +41885,7 @@
     "countedAsQuestions": false
   },
   "missingReferencedMaterial": [],
-  "reviewedDistinctSourceBlobs": 475,
+  "reviewedDistinctSourceBlobs": 480,
   "inventoryCountBasis": "Remaining unique file blobs counts pending or key-reference-pending identities, including protected inputs; it is not a remaining-paper or remaining-question estimate.",
   "canonicalUniverseReviewRepair": {
     "questionIds": [
@@ -41181,10 +41949,10 @@
     "audit": "question-source-packs/repo-science-legacy-reaction-review.json"
   },
   "sourceTypeCleanup": {
-    "version": "2026.10.17-tests-only-v1-b202",
-    "questionsBefore": 4333,
+    "version": "2026.10.17-tests-only-v1-b203",
+    "questionsBefore": 4362,
     "questionsRemoved": 2010,
-    "questionsRetained": 2323,
+    "questionsRetained": 2352,
     "equivalentTestQuestionsPreserved": 21,
     "battleQuestionSlotsRemoved": 11,
     "audit": "question-source-packs/science-test-only-cleanup-20261017.json",
@@ -41194,7 +41962,7 @@
     "date": "2026-10-17",
     "restoredOriginalVisuals": 4,
     "removedMissingRequiredMaterial": 13,
-    "checkedUniqueImageAssets": 376,
+    "checkedUniqueImageAssets": 378,
     "brokenImages": 0,
     "blankImages": 0,
     "audit": "question-source-packs/science-question-visual-audit-20261017.json"

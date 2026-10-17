@@ -1,12 +1,12 @@
 {
-  "version": "2026.10.17-tests-only-v1-b202",
-  "setCount": 1717,
+  "version": "2026.10.17-tests-only-v1-b203",
+  "setCount": 1719,
   "focusedLessons": 1293,
   "referenceTopics": 44,
   "examSets": 25,
   "questionsPerLessonSet": 20,
-  "uniqueQuestions": 7325,
-  "totalQuestionSlots": 29731,
+  "uniqueQuestions": 7330,
+  "totalQuestionSlots": 29736,
   "courses": [
     {
       "name": "Accounting and Finance ATAR",
@@ -160,7 +160,7 @@
       "lessonSets": 146,
       "referenceSets": 0,
       "examSets": 0,
-      "assessmentSets": 355
+      "assessmentSets": 357
     }
   ],
   "sets": [
@@ -27369,8 +27369,40 @@
       "pack": "science-source-assessment-games-batch201.json",
       "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=10&search=SCI-REPO-Y10-SBY-2017-CHEMTERM1",
       "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    },
+    {
+      "id": "sci-repo-y9-sby-2018-endo-476-mc-1",
+      "title": "Year 9 Science — Endocrine system, immunity and disease (original source MC)",
+      "course": "Science",
+      "yearGroup": 9,
+      "unit": "Biological Sciences",
+      "parent": "Endocrine system, immunity and disease",
+      "count": 3,
+      "kind": "assessment",
+      "assessmentCount": 3,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch203.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=9&search=SCI-REPO-Y9-SBY-2018-ENDO-476",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    },
+    {
+      "id": "sci-repo-y9-sby-2018-endo-479-mc-1",
+      "title": "Year 9 Science — Endocrine system, immunity and disease (original source MC)",
+      "course": "Science",
+      "yearGroup": 9,
+      "unit": "Biological Sciences",
+      "parent": "Endocrine system, immunity and disease",
+      "count": 2,
+      "kind": "assessment",
+      "assessmentCount": 2,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch203.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=9&search=SCI-REPO-Y9-SBY-2018-ENDO-479",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
     }
   ],
-  "assessmentSets": 355,
-  "assessmentQuestions": 2260
+  "assessmentSets": 357,
+  "assessmentQuestions": 2265
 }
