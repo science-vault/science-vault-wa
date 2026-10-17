@@ -1,0 +1,1823 @@
+{
+  "batch": "repo-science-batch207",
+  "paperCount": 4,
+  "questionIds": [
+    "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR1",
+    "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR2",
+    "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR3",
+    "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR4",
+    "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR5",
+    "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR6a",
+    "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR6b",
+    "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR6c",
+    "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR7",
+    "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR8"
+  ],
+  "questions": 10,
+  "multipleChoice": 0,
+  "writtenQuestions": 10,
+  "battleEligible": 0,
+  "marks": 30,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR2",
+      "note": "Cloud/steam terminology needs phase clarification;accept scientifically accurate explanations."
+    }
+  ],
+  "imageAudit": [
+    {
+      "id": "e487-image2",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2020/Chem test 2020.docx",
+      "embeddedImage": "word/media/image2.png",
+      "sha256": "4f83d60cb92145b531e18672a651391153fc4a314b39a4fa1fc4806b2ac641f9",
+      "publishedSha256": "d9a803161c507fa4e75203186d3fa3c18eb0abdb9c6d0657d1d718dc30b85693",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e487-image3",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2020/Chem test 2020.docx",
+      "embeddedImage": "word/media/image3.jpeg",
+      "sha256": "b670b4a87a7f076fdb45bdce409dfab1da664ae29b23c85cfbeec6d900693f8d",
+      "publishedSha256": "7a54517dca436ec799daf4a918116e4647e14f6ba7b9396c74e29092ca6354d1",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e487-image4",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2020/Chem test 2020.docx",
+      "embeddedImage": "word/media/image4.png",
+      "sha256": "8e8a9b5c7d062a6c9ab5436b4d0d43d3d4edfafaf69f2d98179ad881813d4b28",
+      "publishedSha256": "aa44ea8b4afec0bcea4279d1dd0e07d8e07191444223c25493d5d7a1470b93d8",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e487-image5",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2020/Chem test 2020.docx",
+      "embeddedImage": "word/media/image5.png",
+      "sha256": "5dc1610d651a2bc346dda2f7250deb047a4b13fb32f0757f453007067a70e66f",
+      "publishedSha256": "a0db9b1529cff7f53a9ecd87b4c09794ba8feb9607cc12201eee0080f47a013c",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e487-image6",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2020/Chem test 2020.docx",
+      "embeddedImage": "word/media/image6.png",
+      "sha256": "08a9a78d702f924982ca2a8ad8d4f4837919017539604eeee88ae5e28316af19",
+      "publishedSha256": "e452e0678dea2f529b82c5d8d4dd7b54019baaed9bd1e1a8fc8a0227a711287c",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e487-image7",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2020/Chem test 2020.docx",
+      "embeddedImage": "word/media/image7.png",
+      "sha256": "89d4f81b1220d6c66852ee4f6e15d84d4643739c693ea96906ea14519ea8b93c",
+      "publishedSha256": "4ef243ec856e0ed29407d1247b98576cbb39acd1dd1c3bc8e72e9cd3e7c1c645",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e487-page8-filtration-apparatus-with-ABCD-labels",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2020/Chem test 2020.docx",
+      "sourceFileSha": "71a4f055b31f44e9026d782686b4ba168ff32001",
+      "sourcePage": 8,
+      "pdfCropPoints": [
+        120,
+        155,
+        340,
+        430
+      ],
+      "role": "original_native_Word_figure",
+      "conversion": "Original DOCX rendered by LibreOffice to PDF; bounded source figure rasterised at 216 dpi without redrawing. Native editable shapes, table borders, shading and example points retained.",
+      "publishedSha256": "f4bcefc0c962eba25e7067ebcaca3ed5c74a698aae41fed1270af8cd666addde"
+    },
+    {
+      "id": "e488-image2",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+      "embeddedImage": "word/media/image2.png",
+      "sha256": "4f83d60cb92145b531e18672a651391153fc4a314b39a4fa1fc4806b2ac641f9",
+      "publishedSha256": "d9a803161c507fa4e75203186d3fa3c18eb0abdb9c6d0657d1d718dc30b85693",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e488-image3",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+      "embeddedImage": "word/media/image3.jpeg",
+      "sha256": "b670b4a87a7f076fdb45bdce409dfab1da664ae29b23c85cfbeec6d900693f8d",
+      "publishedSha256": "7a54517dca436ec799daf4a918116e4647e14f6ba7b9396c74e29092ca6354d1",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e488-image4",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+      "embeddedImage": "word/media/image4.png",
+      "sha256": "8e8a9b5c7d062a6c9ab5436b4d0d43d3d4edfafaf69f2d98179ad881813d4b28",
+      "publishedSha256": "aa44ea8b4afec0bcea4279d1dd0e07d8e07191444223c25493d5d7a1470b93d8",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e488-image5",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+      "embeddedImage": "word/media/image5.png",
+      "sha256": "5dc1610d651a2bc346dda2f7250deb047a4b13fb32f0757f453007067a70e66f",
+      "publishedSha256": "a0db9b1529cff7f53a9ecd87b4c09794ba8feb9607cc12201eee0080f47a013c",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e488-image6",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+      "embeddedImage": "word/media/image6.png",
+      "sha256": "08a9a78d702f924982ca2a8ad8d4f4837919017539604eeee88ae5e28316af19",
+      "publishedSha256": "e452e0678dea2f529b82c5d8d4dd7b54019baaed9bd1e1a8fc8a0227a711287c",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e488-image7",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+      "embeddedImage": "word/media/image7.png",
+      "sha256": "89d4f81b1220d6c66852ee4f6e15d84d4643739c693ea96906ea14519ea8b93c",
+      "publishedSha256": "4ef243ec856e0ed29407d1247b98576cbb39acd1dd1c3bc8e72e9cd3e7c1c645",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e488-page8-filtration-apparatus-with-ABCD-labels",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+      "sourcePage": 8,
+      "pdfCropPoints": [
+        120,
+        155,
+        340,
+        430
+      ],
+      "role": "original_native_Word_figure",
+      "conversion": "Original DOCX rendered by LibreOffice to PDF; bounded source figure rasterised at 216 dpi without redrawing. Native editable shapes, table borders, shading and example points retained.",
+      "publishedSha256": "f4bcefc0c962eba25e7067ebcaca3ed5c74a698aae41fed1270af8cd666addde"
+    },
+    {
+      "id": "e489-image2",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+      "embeddedImage": "word/media/image2.png",
+      "sha256": "4f83d60cb92145b531e18672a651391153fc4a314b39a4fa1fc4806b2ac641f9",
+      "publishedSha256": "d9a803161c507fa4e75203186d3fa3c18eb0abdb9c6d0657d1d718dc30b85693",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e489-image3",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+      "embeddedImage": "word/media/image3.jpeg",
+      "sha256": "b670b4a87a7f076fdb45bdce409dfab1da664ae29b23c85cfbeec6d900693f8d",
+      "publishedSha256": "7a54517dca436ec799daf4a918116e4647e14f6ba7b9396c74e29092ca6354d1",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e489-image4",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+      "embeddedImage": "word/media/image4.png",
+      "sha256": "8e8a9b5c7d062a6c9ab5436b4d0d43d3d4edfafaf69f2d98179ad881813d4b28",
+      "publishedSha256": "aa44ea8b4afec0bcea4279d1dd0e07d8e07191444223c25493d5d7a1470b93d8",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e489-image5",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+      "embeddedImage": "word/media/image5.png",
+      "sha256": "5dc1610d651a2bc346dda2f7250deb047a4b13fb32f0757f453007067a70e66f",
+      "publishedSha256": "a0db9b1529cff7f53a9ecd87b4c09794ba8feb9607cc12201eee0080f47a013c",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e489-image6",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+      "embeddedImage": "word/media/image6.png",
+      "sha256": "08a9a78d702f924982ca2a8ad8d4f4837919017539604eeee88ae5e28316af19",
+      "publishedSha256": "e452e0678dea2f529b82c5d8d4dd7b54019baaed9bd1e1a8fc8a0227a711287c",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e489-image7",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+      "embeddedImage": "word/media/image7.png",
+      "sha256": "89d4f81b1220d6c66852ee4f6e15d84d4643739c693ea96906ea14519ea8b93c",
+      "publishedSha256": "4ef243ec856e0ed29407d1247b98576cbb39acd1dd1c3bc8e72e9cd3e7c1c645",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e489-page8-filtration-apparatus-with-ABCD-labels",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+      "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+      "sourcePage": 8,
+      "pdfCropPoints": [
+        120,
+        155,
+        340,
+        430
+      ],
+      "role": "original_native_Word_figure",
+      "conversion": "Original DOCX rendered by LibreOffice to PDF; bounded source figure rasterised at 216 dpi without redrawing. Native editable shapes, table borders, shading and example points retained.",
+      "publishedSha256": "f4bcefc0c962eba25e7067ebcaca3ed5c74a698aae41fed1270af8cd666addde"
+    },
+    {
+      "id": "e492-image2",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+      "embeddedImage": "word/media/image2.png",
+      "sha256": "4f83d60cb92145b531e18672a651391153fc4a314b39a4fa1fc4806b2ac641f9",
+      "publishedSha256": "d9a803161c507fa4e75203186d3fa3c18eb0abdb9c6d0657d1d718dc30b85693",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e492-image3",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+      "embeddedImage": "word/media/image3.jpeg",
+      "sha256": "b670b4a87a7f076fdb45bdce409dfab1da664ae29b23c85cfbeec6d900693f8d",
+      "publishedSha256": "7a54517dca436ec799daf4a918116e4647e14f6ba7b9396c74e29092ca6354d1",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e492-image4",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+      "embeddedImage": "word/media/image4.png",
+      "sha256": "8e8a9b5c7d062a6c9ab5436b4d0d43d3d4edfafaf69f2d98179ad881813d4b28",
+      "publishedSha256": "aa44ea8b4afec0bcea4279d1dd0e07d8e07191444223c25493d5d7a1470b93d8",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e492-image5",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+      "embeddedImage": "word/media/image5.png",
+      "sha256": "5dc1610d651a2bc346dda2f7250deb047a4b13fb32f0757f453007067a70e66f",
+      "publishedSha256": "a0db9b1529cff7f53a9ecd87b4c09794ba8feb9607cc12201eee0080f47a013c",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e492-image6",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+      "embeddedImage": "word/media/image6.png",
+      "sha256": "08a9a78d702f924982ca2a8ad8d4f4837919017539604eeee88ae5e28316af19",
+      "publishedSha256": "e452e0678dea2f529b82c5d8d4dd7b54019baaed9bd1e1a8fc8a0227a711287c",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e492-image7",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+      "embeddedImage": "word/media/image7.png",
+      "sha256": "89d4f81b1220d6c66852ee4f6e15d84d4643739c693ea96906ea14519ea8b93c",
+      "publishedSha256": "4ef243ec856e0ed29407d1247b98576cbb39acd1dd1c3bc8e72e9cd3e7c1c645",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e492-page8-filtration-apparatus-with-ABCD-labels",
+      "source": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+      "sourcePage": 8,
+      "pdfCropPoints": [
+        120,
+        155,
+        340,
+        430
+      ],
+      "role": "original_native_Word_figure",
+      "conversion": "Original DOCX rendered by LibreOffice to PDF; bounded source figure rasterised at 216 dpi without redrawing. Native editable shapes, table borders, shading and example points retained.",
+      "publishedSha256": "f4bcefc0c962eba25e7067ebcaca3ed5c74a698aae41fed1270af8cd666addde"
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2020/Chem test 2020.docx",
+      "sha": "71a4f055b31f44e9026d782686b4ba168ff32001",
+      "year": 7,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+      "sha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+      "year": 7,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+      "sha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+      "year": 7,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+      "sha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+      "year": 7,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 10,
+  "createdSupplements": 0,
+  "notes": [
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
+  ],
+  "markAudit": {
+    "sourceTotals": [
+      45,
+      45,
+      45,
+      45
+    ],
+    "multipleChoicePerPaper": 15,
+    "writtenPerPaper": 30
+  },
+  "duplicateQuestionAliases": [
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2020/Chem test 2020.docx",
+      "sourceFileSha": "71a4f055b31f44e9026d782686b4ba168ff32001",
+      "sourceQuestionNumber": "1",
+      "sourceParagraphs": [
+        7,
+        10,
+        11,
+        12,
+        13,
+        9
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2019-CHEM-MC01",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2020/Chem test 2020.docx",
+      "sourceFileSha": "71a4f055b31f44e9026d782686b4ba168ff32001",
+      "sourceQuestionNumber": "2",
+      "sourceParagraphs": [
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC02",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2020/Chem test 2020.docx",
+      "sourceFileSha": "71a4f055b31f44e9026d782686b4ba168ff32001",
+      "sourceQuestionNumber": "3",
+      "sourceParagraphs": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC03",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2020/Chem test 2020.docx",
+      "sourceFileSha": "71a4f055b31f44e9026d782686b4ba168ff32001",
+      "sourceQuestionNumber": "4",
+      "sourceParagraphs": [
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC04",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2020/Chem test 2020.docx",
+      "sourceFileSha": "71a4f055b31f44e9026d782686b4ba168ff32001",
+      "sourceQuestionNumber": "5",
+      "sourceParagraphs": [
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC05",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2020/Chem test 2020.docx",
+      "sourceFileSha": "71a4f055b31f44e9026d782686b4ba168ff32001",
+      "sourceQuestionNumber": "6",
+      "sourceParagraphs": [
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC06",
+      "reason": "Equivalent source question already present; not added or counted again.",
+      "reviewSupplement": {
+        "answer": "B is intended,but physical changes need not be easily reversible. The defining criterion is no new chemical substance;no fully accurate option.",
+        "note": "B is intended,but physical changes need not be easily reversible. The defining criterion is no new chemical substance;no fully accurate option."
+      },
+      "requiresManualReview": true
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2020/Chem test 2020.docx",
+      "sourceFileSha": "71a4f055b31f44e9026d782686b4ba168ff32001",
+      "sourceQuestionNumber": "7",
+      "sourceParagraphs": [
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NARR-2018-CHEM1-MC05",
+      "reason": "Equivalent source question already present; not added or counted again.",
+      "reviewSupplement": {
+        "answer": "D is likely intended for crystallisation based on solubility differences;selective dissolution followed by filtration also relies on solubility differences. The wording omits the mixture and conditions;moderate a justified interpretation.",
+        "note": "D is likely intended for crystallisation based on solubility differences;selective dissolution followed by filtration also relies on solubility differences. The wording omits the mixture and conditions;moderate a justified interpretation."
+      },
+      "requiresManualReview": true
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2020/Chem test 2020.docx",
+      "sourceFileSha": "71a4f055b31f44e9026d782686b4ba168ff32001",
+      "sourceQuestionNumber": "8",
+      "sourceParagraphs": [
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC08",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2020/Chem test 2020.docx",
+      "sourceFileSha": "71a4f055b31f44e9026d782686b4ba168ff32001",
+      "sourceQuestionNumber": "9",
+      "sourceParagraphs": [
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC09",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2020/Chem test 2020.docx",
+      "sourceFileSha": "71a4f055b31f44e9026d782686b4ba168ff32001",
+      "sourceQuestionNumber": "10",
+      "sourceParagraphs": [
+        64,
+        65,
+        66,
+        67,
+        68
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC10",
+      "reason": "Equivalent source question already present; not added or counted again.",
+      "reviewSupplement": {
+        "answer": "A is intended for suitable liquids of different boiling points,but chromatography can also separate some liquid-mixture components. Mixture properties are missing;manual review.",
+        "note": "A is intended for suitable liquids of different boiling points,but chromatography can also separate some liquid-mixture components. Mixture properties are missing;manual review."
+      },
+      "requiresManualReview": true
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2020/Chem test 2020.docx",
+      "sourceFileSha": "71a4f055b31f44e9026d782686b4ba168ff32001",
+      "sourceQuestionNumber": "11",
+      "sourceParagraphs": [
+        70,
+        71,
+        71,
+        84,
+        84
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2019-CHEM-MC12",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2020/Chem test 2020.docx",
+      "sourceFileSha": "71a4f055b31f44e9026d782686b4ba168ff32001",
+      "sourceQuestionNumber": "12",
+      "sourceParagraphs": [
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC12",
+      "reason": "Equivalent source question already present; not added or counted again.",
+      "reviewSupplement": {
+        "answer": "D is intended when collecting dissolved salt by evaporation/crystallisation. Distillation also leaves salt residue,so the absolute not useful wording needs moderation.",
+        "note": "D is intended when collecting dissolved salt by evaporation/crystallisation. Distillation also leaves salt residue,so the absolute not useful wording needs moderation."
+      },
+      "requiresManualReview": true
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2020/Chem test 2020.docx",
+      "sourceFileSha": "71a4f055b31f44e9026d782686b4ba168ff32001",
+      "sourceQuestionNumber": "13",
+      "sourceParagraphs": [
+        92,
+        93,
+        94,
+        95,
+        96
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC13",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2020/Chem test 2020.docx",
+      "sourceFileSha": "71a4f055b31f44e9026d782686b4ba168ff32001",
+      "sourceQuestionNumber": "14",
+      "sourceParagraphs": [
+        98,
+        99,
+        100,
+        101,
+        102
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC14",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2020/Chem test 2020.docx",
+      "sourceFileSha": "71a4f055b31f44e9026d782686b4ba168ff32001",
+      "sourceQuestionNumber": "15",
+      "sourceParagraphs": [
+        104,
+        105,
+        106,
+        107,
+        108
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC15",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+      "sourceQuestionNumber": "1",
+      "sourceParagraphs": [
+        7,
+        10,
+        11,
+        12,
+        13,
+        9
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2019-CHEM-MC01",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+      "sourceQuestionNumber": "2",
+      "sourceParagraphs": [
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC02",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+      "sourceQuestionNumber": "3",
+      "sourceParagraphs": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC03",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+      "sourceQuestionNumber": "4",
+      "sourceParagraphs": [
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC04",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+      "sourceQuestionNumber": "5",
+      "sourceParagraphs": [
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC05",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+      "sourceQuestionNumber": "6",
+      "sourceParagraphs": [
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC06",
+      "reason": "Equivalent source question already present; not added or counted again.",
+      "reviewSupplement": {
+        "answer": "B is intended,but physical changes need not be easily reversible. The defining criterion is no new chemical substance;no fully accurate option.",
+        "note": "B is intended,but physical changes need not be easily reversible. The defining criterion is no new chemical substance;no fully accurate option."
+      },
+      "requiresManualReview": true
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+      "sourceQuestionNumber": "7",
+      "sourceParagraphs": [
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC07",
+      "reason": "Equivalent source question already present; not added or counted again.",
+      "reviewSupplement": {
+        "answer": "D is likely intended for crystallisation based on solubility differences;selective dissolution followed by filtration also relies on solubility differences. The wording omits the mixture and conditions;moderate a justified interpretation.",
+        "note": "D is likely intended for crystallisation based on solubility differences;selective dissolution followed by filtration also relies on solubility differences. The wording omits the mixture and conditions;moderate a justified interpretation."
+      },
+      "requiresManualReview": true
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+      "sourceQuestionNumber": "8",
+      "sourceParagraphs": [
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC08",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+      "sourceQuestionNumber": "9",
+      "sourceParagraphs": [
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC09",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+      "sourceQuestionNumber": "10",
+      "sourceParagraphs": [
+        64,
+        65,
+        66,
+        67,
+        68
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC10",
+      "reason": "Equivalent source question already present; not added or counted again.",
+      "reviewSupplement": {
+        "answer": "A is intended for suitable liquids of different boiling points,but chromatography can also separate some liquid-mixture components. Mixture properties are missing;manual review.",
+        "note": "A is intended for suitable liquids of different boiling points,but chromatography can also separate some liquid-mixture components. Mixture properties are missing;manual review."
+      },
+      "requiresManualReview": true
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+      "sourceQuestionNumber": "11",
+      "sourceParagraphs": [
+        70,
+        71,
+        71,
+        84,
+        84
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2019-CHEM-MC12",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+      "sourceQuestionNumber": "12",
+      "sourceParagraphs": [
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC12",
+      "reason": "Equivalent source question already present; not added or counted again.",
+      "reviewSupplement": {
+        "answer": "D is intended when collecting dissolved salt by evaporation/crystallisation. Distillation also leaves salt residue,so the absolute not useful wording needs moderation.",
+        "note": "D is intended when collecting dissolved salt by evaporation/crystallisation. Distillation also leaves salt residue,so the absolute not useful wording needs moderation."
+      },
+      "requiresManualReview": true
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+      "sourceQuestionNumber": "13",
+      "sourceParagraphs": [
+        92,
+        93,
+        94,
+        95,
+        96
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC13",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+      "sourceQuestionNumber": "14",
+      "sourceParagraphs": [
+        98,
+        99,
+        100,
+        101,
+        102
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC14",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+      "sourceQuestionNumber": "15",
+      "sourceParagraphs": [
+        104,
+        105,
+        106,
+        107,
+        108
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC15",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+      "sourceQuestionNumber": "WR1",
+      "sourceParagraphs": [
+        152,
+        154
+      ],
+      "sourceMarks": 6,
+      "sourceType": "Diagram",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR1",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+      "sourceQuestionNumber": "WR2",
+      "sourceParagraphs": [
+        157,
+        159,
+        161
+      ],
+      "sourceMarks": 6,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR2",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+      "sourceQuestionNumber": "WR3",
+      "sourceParagraphs": [
+        172
+      ],
+      "sourceMarks": 4,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR3",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+      "sourceQuestionNumber": "WR4",
+      "sourceParagraphs": [
+        176,
+        177,
+        178
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR4",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+      "sourceQuestionNumber": "WR5",
+      "sourceParagraphs": [
+        179,
+        180
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR5",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+      "sourceQuestionNumber": "WR6a",
+      "sourceParagraphs": [
+        201,
+        202,
+        204
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR6a",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+      "sourceQuestionNumber": "WR6b",
+      "sourceParagraphs": [
+        201,
+        202,
+        207
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR6b",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+      "sourceQuestionNumber": "WR6c",
+      "sourceParagraphs": [
+        201,
+        202,
+        209
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR6c",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+      "sourceQuestionNumber": "WR7",
+      "sourceParagraphs": [
+        212,
+        214
+      ],
+      "sourceMarks": 6,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR7",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+      "sourceQuestionNumber": "WR8",
+      "sourceParagraphs": [
+        235,
+        237,
+        236
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Diagram",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR8",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+      "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+      "sourceQuestionNumber": "1",
+      "sourceParagraphs": [
+        7,
+        10,
+        11,
+        12,
+        13,
+        9
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2019-CHEM-MC01",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+      "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+      "sourceQuestionNumber": "2",
+      "sourceParagraphs": [
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC02",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+      "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+      "sourceQuestionNumber": "3",
+      "sourceParagraphs": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC03",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+      "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+      "sourceQuestionNumber": "4",
+      "sourceParagraphs": [
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC04",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+      "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+      "sourceQuestionNumber": "5",
+      "sourceParagraphs": [
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC05",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+      "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+      "sourceQuestionNumber": "6",
+      "sourceParagraphs": [
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC06",
+      "reason": "Equivalent source question already present; not added or counted again.",
+      "reviewSupplement": {
+        "answer": "B is intended,but physical changes need not be easily reversible. The defining criterion is no new chemical substance;no fully accurate option.",
+        "note": "B is intended,but physical changes need not be easily reversible. The defining criterion is no new chemical substance;no fully accurate option."
+      },
+      "requiresManualReview": true
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+      "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+      "sourceQuestionNumber": "7",
+      "sourceParagraphs": [
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC07",
+      "reason": "Equivalent source question already present; not added or counted again.",
+      "reviewSupplement": {
+        "answer": "D is likely intended for crystallisation based on solubility differences;selective dissolution followed by filtration also relies on solubility differences. The wording omits the mixture and conditions;moderate a justified interpretation.",
+        "note": "D is likely intended for crystallisation based on solubility differences;selective dissolution followed by filtration also relies on solubility differences. The wording omits the mixture and conditions;moderate a justified interpretation."
+      },
+      "requiresManualReview": true
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+      "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+      "sourceQuestionNumber": "8",
+      "sourceParagraphs": [
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC08",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+      "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+      "sourceQuestionNumber": "9",
+      "sourceParagraphs": [
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC09",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+      "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+      "sourceQuestionNumber": "10",
+      "sourceParagraphs": [
+        64,
+        65,
+        66,
+        67,
+        68
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC10",
+      "reason": "Equivalent source question already present; not added or counted again.",
+      "reviewSupplement": {
+        "answer": "A is intended for suitable liquids of different boiling points,but chromatography can also separate some liquid-mixture components. Mixture properties are missing;manual review.",
+        "note": "A is intended for suitable liquids of different boiling points,but chromatography can also separate some liquid-mixture components. Mixture properties are missing;manual review."
+      },
+      "requiresManualReview": true
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+      "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+      "sourceQuestionNumber": "11",
+      "sourceParagraphs": [
+        70,
+        71,
+        71,
+        84,
+        84
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2019-CHEM-MC12",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+      "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+      "sourceQuestionNumber": "12",
+      "sourceParagraphs": [
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC12",
+      "reason": "Equivalent source question already present; not added or counted again.",
+      "reviewSupplement": {
+        "answer": "D is intended when collecting dissolved salt by evaporation/crystallisation. Distillation also leaves salt residue,so the absolute not useful wording needs moderation.",
+        "note": "D is intended when collecting dissolved salt by evaporation/crystallisation. Distillation also leaves salt residue,so the absolute not useful wording needs moderation."
+      },
+      "requiresManualReview": true
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+      "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+      "sourceQuestionNumber": "13",
+      "sourceParagraphs": [
+        92,
+        93,
+        94,
+        95,
+        96
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC13",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+      "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+      "sourceQuestionNumber": "14",
+      "sourceParagraphs": [
+        98,
+        99,
+        100,
+        101,
+        102
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC14",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+      "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+      "sourceQuestionNumber": "15",
+      "sourceParagraphs": [
+        104,
+        105,
+        106,
+        107,
+        108
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC15",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+      "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+      "sourceQuestionNumber": "WR1",
+      "sourceParagraphs": [
+        152,
+        154
+      ],
+      "sourceMarks": 6,
+      "sourceType": "Diagram",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR1",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+      "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+      "sourceQuestionNumber": "WR2",
+      "sourceParagraphs": [
+        157,
+        159,
+        161
+      ],
+      "sourceMarks": 6,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR2",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+      "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+      "sourceQuestionNumber": "WR3",
+      "sourceParagraphs": [
+        172
+      ],
+      "sourceMarks": 4,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR3",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+      "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+      "sourceQuestionNumber": "WR4",
+      "sourceParagraphs": [
+        176,
+        177,
+        178
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR4",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+      "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+      "sourceQuestionNumber": "WR5",
+      "sourceParagraphs": [
+        179,
+        180
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR5",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+      "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+      "sourceQuestionNumber": "WR6a",
+      "sourceParagraphs": [
+        201,
+        202,
+        204
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR6a",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+      "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+      "sourceQuestionNumber": "WR6b",
+      "sourceParagraphs": [
+        201,
+        202,
+        207
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR6b",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+      "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+      "sourceQuestionNumber": "WR6c",
+      "sourceParagraphs": [
+        201,
+        202,
+        209
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR6c",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+      "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+      "sourceQuestionNumber": "WR7",
+      "sourceParagraphs": [
+        212,
+        214
+      ],
+      "sourceMarks": 6,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR7",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+      "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+      "sourceQuestionNumber": "WR8",
+      "sourceParagraphs": [
+        235,
+        237,
+        236
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Diagram",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR8",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+      "sourceQuestionNumber": "1",
+      "sourceParagraphs": [
+        7,
+        10,
+        11,
+        12,
+        13,
+        9
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2019-CHEM-MC01",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+      "sourceQuestionNumber": "2",
+      "sourceParagraphs": [
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC02",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+      "sourceQuestionNumber": "3",
+      "sourceParagraphs": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC03",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+      "sourceQuestionNumber": "4",
+      "sourceParagraphs": [
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC04",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+      "sourceQuestionNumber": "5",
+      "sourceParagraphs": [
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC05",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+      "sourceQuestionNumber": "6",
+      "sourceParagraphs": [
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC06",
+      "reason": "Equivalent source question already present; not added or counted again.",
+      "reviewSupplement": {
+        "answer": "B is intended,but physical changes need not be easily reversible. The defining criterion is no new chemical substance;no fully accurate option.",
+        "note": "B is intended,but physical changes need not be easily reversible. The defining criterion is no new chemical substance;no fully accurate option."
+      },
+      "requiresManualReview": true
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+      "sourceQuestionNumber": "7",
+      "sourceParagraphs": [
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC07",
+      "reason": "Equivalent source question already present; not added or counted again.",
+      "reviewSupplement": {
+        "answer": "D is likely intended for crystallisation based on solubility differences;selective dissolution followed by filtration also relies on solubility differences. The wording omits the mixture and conditions;moderate a justified interpretation.",
+        "note": "D is likely intended for crystallisation based on solubility differences;selective dissolution followed by filtration also relies on solubility differences. The wording omits the mixture and conditions;moderate a justified interpretation."
+      },
+      "requiresManualReview": true
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+      "sourceQuestionNumber": "8",
+      "sourceParagraphs": [
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC08",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+      "sourceQuestionNumber": "9",
+      "sourceParagraphs": [
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC09",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+      "sourceQuestionNumber": "10",
+      "sourceParagraphs": [
+        64,
+        65,
+        66,
+        67,
+        68
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC10",
+      "reason": "Equivalent source question already present; not added or counted again.",
+      "reviewSupplement": {
+        "answer": "A is intended for suitable liquids of different boiling points,but chromatography can also separate some liquid-mixture components. Mixture properties are missing;manual review.",
+        "note": "A is intended for suitable liquids of different boiling points,but chromatography can also separate some liquid-mixture components. Mixture properties are missing;manual review."
+      },
+      "requiresManualReview": true
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+      "sourceQuestionNumber": "11",
+      "sourceParagraphs": [
+        70,
+        71,
+        71,
+        84,
+        84
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2019-CHEM-MC12",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+      "sourceQuestionNumber": "12",
+      "sourceParagraphs": [
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC12",
+      "reason": "Equivalent source question already present; not added or counted again.",
+      "reviewSupplement": {
+        "answer": "D is intended when collecting dissolved salt by evaporation/crystallisation. Distillation also leaves salt residue,so the absolute not useful wording needs moderation.",
+        "note": "D is intended when collecting dissolved salt by evaporation/crystallisation. Distillation also leaves salt residue,so the absolute not useful wording needs moderation."
+      },
+      "requiresManualReview": true
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+      "sourceQuestionNumber": "13",
+      "sourceParagraphs": [
+        92,
+        93,
+        94,
+        95,
+        96
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC13",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+      "sourceQuestionNumber": "14",
+      "sourceParagraphs": [
+        98,
+        99,
+        100,
+        101,
+        102
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC14",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+      "sourceQuestionNumber": "15",
+      "sourceParagraphs": [
+        104,
+        105,
+        106,
+        107,
+        108
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC15",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+      "sourceQuestionNumber": "WR1",
+      "sourceParagraphs": [
+        152,
+        154
+      ],
+      "sourceMarks": 6,
+      "sourceType": "Diagram",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR1",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+      "sourceQuestionNumber": "WR2",
+      "sourceParagraphs": [
+        157,
+        159,
+        161
+      ],
+      "sourceMarks": 6,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR2",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+      "sourceQuestionNumber": "WR3",
+      "sourceParagraphs": [
+        172
+      ],
+      "sourceMarks": 4,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR3",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+      "sourceQuestionNumber": "WR4",
+      "sourceParagraphs": [
+        176,
+        177,
+        178
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR4",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+      "sourceQuestionNumber": "WR5",
+      "sourceParagraphs": [
+        179,
+        180
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR5",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+      "sourceQuestionNumber": "WR6a",
+      "sourceParagraphs": [
+        201,
+        202,
+        204
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR6a",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+      "sourceQuestionNumber": "WR6b",
+      "sourceParagraphs": [
+        201,
+        202,
+        207
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR6b",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+      "sourceQuestionNumber": "WR6c",
+      "sourceParagraphs": [
+        201,
+        202,
+        209
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR6c",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+      "sourceQuestionNumber": "WR7",
+      "sourceParagraphs": [
+        212,
+        214
+      ],
+      "sourceMarks": 6,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR7",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+      "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+      "sourceQuestionNumber": "WR8",
+      "sourceParagraphs": [
+        235,
+        237,
+        236
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Diagram",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR8",
+      "reason": "Equivalent source question already present; not added or counted again."
+    }
+  ],
+  "sourceScope": "2026.10.17-tests-only-v1-b202"
+}

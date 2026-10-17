@@ -146,16 +146,20 @@
   "questions": 140,
   "multipleChoice": 62,
   "writtenQuestions": 78,
-  "battleEligible": 53,
+  "battleEligible": 52,
   "marks": 216.0,
   "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-MC04",
+      "note": "B:evolution is intended,but evolution need not produce a new species. The definition wrongly makes speciation necessary;teacher moderation."
+    },
     {
       "id": "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-MC08",
       "note": "Source draft option includes“WEEK4Content-Not assessed”;retain teacher review rather than auto-assess."
     },
     {
       "id": "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-MC09",
-      "note": "Speciation can involve drift as well as selection,so the requirement list is not uniquely discriminating."
+      "note": "A(environmental resistance)is likely intended,but speciation can also involve genetic drift rather than selection pressure(D). Mechanisms vary;the source does not define a unique necessary-step framework."
     },
     {
       "id": "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC13",

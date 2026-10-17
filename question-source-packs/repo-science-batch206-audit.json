@@ -1,0 +1,162 @@
+{
+  "batch": "repo-science-batch206",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y8-ARAN-2016-PHYS1-MC01",
+    "SCI-REPO-Y8-ARAN-2016-PHYS1-MC02",
+    "SCI-REPO-Y8-ARAN-2016-PHYS1-MC03",
+    "SCI-REPO-Y8-ARAN-2016-PHYS1-MC04",
+    "SCI-REPO-Y8-ARAN-2016-PHYS1-MC05",
+    "SCI-REPO-Y8-ARAN-2016-PHYS1-MC06",
+    "SCI-REPO-Y8-ARAN-2016-PHYS1-MC07",
+    "SCI-REPO-Y8-ARAN-2016-PHYS1-MC08",
+    "SCI-REPO-Y8-ARAN-2016-PHYS1-MC09",
+    "SCI-REPO-Y8-ARAN-2016-PHYS1-MC10",
+    "SCI-REPO-Y8-ARAN-2016-PHYS1-MC11",
+    "SCI-REPO-Y8-ARAN-2016-PHYS1-MC12",
+    "SCI-REPO-Y8-ARAN-2016-PHYS1-MC13",
+    "SCI-REPO-Y8-ARAN-2016-PHYS1-MC14",
+    "SCI-REPO-Y8-ARAN-2016-PHYS1-MC15",
+    "SCI-REPO-Y8-ARAN-2016-PHYS1-1a",
+    "SCI-REPO-Y8-ARAN-2016-PHYS1-1b",
+    "SCI-REPO-Y8-ARAN-2016-PHYS1-2",
+    "SCI-REPO-Y8-ARAN-2016-PHYS1-3a",
+    "SCI-REPO-Y8-ARAN-2016-PHYS1-3b",
+    "SCI-REPO-Y8-ARAN-2016-PHYS1-4a",
+    "SCI-REPO-Y8-ARAN-2016-PHYS1-4b",
+    "SCI-REPO-Y8-ARAN-2016-PHYS1-4c",
+    "SCI-REPO-Y8-ARAN-2016-PHYS1-4d",
+    "SCI-REPO-Y8-ARAN-2016-PHYS1-4e",
+    "SCI-REPO-Y8-ARAN-2016-PHYS1-4f",
+    "SCI-REPO-Y8-ARAN-2016-PHYS1-4g",
+    "SCI-REPO-Y8-ARAN-2016-PHYS1-4h",
+    "SCI-REPO-Y8-ARAN-2016-PHYS1-5",
+    "SCI-REPO-Y8-ARAN-2016-PHYS1-6a",
+    "SCI-REPO-Y8-ARAN-2016-PHYS1-6b",
+    "SCI-REPO-Y8-ARAN-2016-PHYS1-6c",
+    "SCI-REPO-Y8-ARAN-2016-PHYS1-6d",
+    "SCI-REPO-Y8-ARAN-2016-PHYS1-7"
+  ],
+  "questions": 34,
+  "multipleChoice": 15,
+  "writtenQuestions": 19,
+  "battleEligible": 13,
+  "marks": 48,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y8-ARAN-2016-PHYS1-MC08",
+      "note": "C is the least informative title,but the question asks most incorrect while all titles have varying descriptive merit. Teacher moderation;do not force a precise scientific distinction from title wording alone."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2016-PHYS1-MC12",
+      "note": "A,BandDare quantitative;onlyCis qualitative. The question asks NOT qualitative and therefore has three valid options."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2016-PHYS1-4g",
+      "note": "True if the spill changed the intended delivered water volume (1). A spill not affecting the plant dose need not alter the experimental variable;accept a justified qualification."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2016-PHYS1-4h",
+      "note": "Ambiguous:avoidable mistakes can be prevented,but not every source of random/systematic measurement error can be eliminated. Accept a justified answer;teacher moderation required."
+    }
+  ],
+  "imageAudit": [
+    {
+      "id": "e498-image1",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2016 8 Science Physics Test One.docx",
+      "embeddedImage": "word/media/image1.png",
+      "sha256": "075bb70da2ff01b58e2729f6234f2eb1a780adb29a048dc7a740c9e8d7543e83",
+      "publishedSha256": "bd145085748bbe14927e295fef5507bf661b40b011a432928a8982006c18cf70",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e498-image2-crop-4933dba4",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2016 8 Science Physics Test One.docx",
+      "embeddedImage": "word/media/image2.png",
+      "sha256": "9c1b0ae78c4a096b4f32a8c015769ae715a6f698e8801180b398a7a02645fd44",
+      "publishedSha256": "ec15111d16429b72e2a33c6721f6b8a98f4f68b7528d2c132ba894d4c7c27212",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {
+        "t": 6819
+      },
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e498-image3-crop-9b989fac",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2016 8 Science Physics Test One.docx",
+      "embeddedImage": "word/media/image3.jpeg",
+      "sha256": "2ded71a72fb6bd93d14716a36343c9d7bb64c81672c9d81026de783b327fcc06",
+      "publishedSha256": "7139eeb86a0073977feb76527275d62084d17749ab6074817b0afc2fb73dcdce",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {
+        "r": 14445
+      },
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e498-image4-crop-ea49679b",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2016 8 Science Physics Test One.docx",
+      "embeddedImage": "word/media/image4.png",
+      "sha256": "9024eb7b1b3f81b3711df7c7c75912347dbd0398e9caae51902df84de3e9a83f",
+      "publishedSha256": "1f2e16b4cf6032b7b7c1d09ae15438d286211f6cbc5dddd6029c75819b9f9819",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {
+        "l": 1881,
+        "r": -1
+      },
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e498-image5-crop-458679e1",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2016 8 Science Physics Test One.docx",
+      "embeddedImage": "word/media/image5.png",
+      "sha256": "50b44f366eb21f97168ee504ec98ad58a0d983badac7097b12f2f0ca178928a7",
+      "publishedSha256": "251119d623e8b367fd3e3cb1d1bede7cb860cb2c9d553407f4a19eb227000666",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {
+        "t": 3108
+      },
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2016 8 Science Physics Test One.docx",
+      "sha": "ac0f4d54448c53a9cfc8f257a2aa62a284be20ba",
+      "year": 8,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [
+    {
+      "id": "sci-repo-y8-aran-2016-phys1-mc-1",
+      "title": "Year 8 Science — Graphs, measurement and variables (original source MC)",
+      "course": "Science",
+      "yearGroup": 8,
+      "unit": "Science Inquiry Skills",
+      "parent": "Graphs, measurement and variables",
+      "count": 13,
+      "kind": "assessment",
+      "assessmentCount": 13,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch206.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=8&search=SCI-REPO-Y8-ARAN-2016-PHYS1",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    }
+  ],
+  "createdKeys": 34,
+  "createdSupplements": 0,
+  "notes": [
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
+  ],
+  "markAudit": {
+    "sourceTotal": 48,
+    "multipleChoice": 15,
+    "written": 33
+  },
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b202"
+}

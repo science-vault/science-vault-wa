@@ -1,0 +1,654 @@
+{
+  "batch": "repo-science-batch205",
+  "paperCount": 2,
+  "questionIds": [
+    "SCI-REPO-Y8-ARAN-2015-CHEM1-MC01",
+    "SCI-REPO-Y8-ARAN-2015-CHEM1-MC02",
+    "SCI-REPO-Y8-ARAN-2015-CHEM1-MC03",
+    "SCI-REPO-Y8-ARAN-2015-CHEM1-MC04",
+    "SCI-REPO-Y8-ARAN-2015-CHEM1-MC05",
+    "SCI-REPO-Y8-ARAN-2015-CHEM1-MC06",
+    "SCI-REPO-Y8-ARAN-2015-CHEM1-MC07",
+    "SCI-REPO-Y8-ARAN-2015-CHEM1-MC08",
+    "SCI-REPO-Y8-ARAN-2015-CHEM1-MC09",
+    "SCI-REPO-Y8-ARAN-2015-CHEM1-MC10",
+    "SCI-REPO-Y8-ARAN-2015-CHEM1-MC11",
+    "SCI-REPO-Y8-ARAN-2015-CHEM1-MC12",
+    "SCI-REPO-Y8-ARAN-2015-CHEM1-MC13",
+    "SCI-REPO-Y8-ARAN-2015-CHEM1-MC14",
+    "SCI-REPO-Y8-ARAN-2015-CHEM1-MC15",
+    "SCI-REPO-Y8-ARAN-2015-CHEM1-1",
+    "SCI-REPO-Y8-ARAN-2015-CHEM1-2",
+    "SCI-REPO-Y8-ARAN-2015-CHEM1-3",
+    "SCI-REPO-Y8-ARAN-2015-CHEM1-4",
+    "SCI-REPO-Y8-ARAN-2015-CHEM1-5",
+    "SCI-REPO-Y8-ARAN-2015-CHEM1-6",
+    "SCI-REPO-Y8-ARAN-2015-CHEM1-7",
+    "SCI-REPO-Y8-ARAN-2015-CHEM1-8a",
+    "SCI-REPO-Y8-ARAN-2015-CHEM1-8b",
+    "SCI-REPO-Y8-ARAN-2015-CHEM1-9",
+    "SCI-REPO-Y8-ARAN-2015-CHEM1-10",
+    "SCI-REPO-Y8-ARAN-2015-CHEM1-11",
+    "SCI-REPO-Y8-ARAN-2014-CHEM1-MC02",
+    "SCI-REPO-Y8-ARAN-2014-CHEM1-MC04",
+    "SCI-REPO-Y8-ARAN-2014-CHEM1-8"
+  ],
+  "questions": 30,
+  "multipleChoice": 17,
+  "writtenQuestions": 13,
+  "battleEligible": 15,
+  "marks": 45,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y8-ARAN-2015-CHEM1-MC08",
+      "note": "D is intended for simple nonreacting mixing,but mixing can cause chemical reactions. No universally correct classification without specifying substances;manual moderation."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2015-CHEM1-MC12",
+      "note": "B is intended,but gas evolution can also occur in a physical change such as boiling. No universally nonphysical option as worded;manual moderation."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2015-CHEM1-8b",
+      "note": "Given density equals water;do not require the stereotyped answer that wood must float."
+    }
+  ],
+  "imageAudit": [
+    {
+      "id": "e485-image1",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2015 8 SCIENCE CHEMISTRY TEST ONE.docx",
+      "embeddedImage": "word/media/image1.jpeg",
+      "sha256": "1b538adfb21178f39779e983b298ef253e85a69f0cef9b284ad549f64c606923",
+      "publishedSha256": "613b66c7a92926d89a7d502fb7f146e828ae574b059c601bccf033ca0af275c7",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e485-image2",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2015 8 SCIENCE CHEMISTRY TEST ONE.docx",
+      "embeddedImage": "word/media/image2.png",
+      "sha256": "88a0d7d9bcacf2d2ff587b7bdc5f22a8b9f4ff4c0ff4dcee090479e2373c36e2",
+      "publishedSha256": "1500d4c9156159c12269b8c41c8a2ac78ecde6d92ea8c29a10292e0f41a9b960",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e485-image3",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2015 8 SCIENCE CHEMISTRY TEST ONE.docx",
+      "embeddedImage": "word/media/image3.png",
+      "sha256": "2169daf6c91c799212a837757134449f2daf8933fd479a3315fc89f6b014fe74",
+      "publishedSha256": "7c2e48ff68c4541b833bf639b84408545384a177dd3e94eaf2f05fae9b634efc",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e485-image4-crop-9cc0564b",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2015 8 SCIENCE CHEMISTRY TEST ONE.docx",
+      "embeddedImage": "word/media/image4.jpeg",
+      "sha256": "8c1be9cd8ffdc6dbe6e25380073ff016c261ae497e19fdf820b11e3398b8a057",
+      "publishedSha256": "277963fca2479608d415cfa7e424c0324f7d19fc65d8649e43e931e8f9af266c",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {
+        "t": 1869,
+        "b": 2893
+      },
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e485-image5-crop-08704cb6",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2015 8 SCIENCE CHEMISTRY TEST ONE.docx",
+      "embeddedImage": "word/media/image5.jpeg",
+      "sha256": "b65f301e7d4b47c50b6ca1813858ef233796071909586b010716310085d37e7a",
+      "publishedSha256": "21a78922379e376d88d09e96b2595371db957ef20d3aa4853a57ede297471eef",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {
+        "l": 75962,
+        "b": 14147
+      },
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e485-image5-crop-4271faf4",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2015 8 SCIENCE CHEMISTRY TEST ONE.docx",
+      "embeddedImage": "word/media/image5.jpeg",
+      "sha256": "b65f301e7d4b47c50b6ca1813858ef233796071909586b010716310085d37e7a",
+      "publishedSha256": "c1b84fd5a1f10332cc2eaac019945bf5fb23cb833e82e256afbe3da6a2f3c7bd",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {
+        "l": 35577,
+        "t": 1,
+        "r": 35577,
+        "b": 11846
+      },
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e485-image5-crop-a68f6d85",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2015 8 SCIENCE CHEMISTRY TEST ONE.docx",
+      "embeddedImage": "word/media/image5.jpeg",
+      "sha256": "b65f301e7d4b47c50b6ca1813858ef233796071909586b010716310085d37e7a",
+      "publishedSha256": "13c4e799e5927e83e42381f7b49f5fc4e4906959adfdfe10f2989f802cad8b7b",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {
+        "r": 73814,
+        "b": 10354
+      },
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e495-image1",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+      "embeddedImage": "word/media/image1.jpeg",
+      "sha256": "1b538adfb21178f39779e983b298ef253e85a69f0cef9b284ad549f64c606923",
+      "publishedSha256": "613b66c7a92926d89a7d502fb7f146e828ae574b059c601bccf033ca0af275c7",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e495-image2",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+      "embeddedImage": "word/media/image2.png",
+      "sha256": "88a0d7d9bcacf2d2ff587b7bdc5f22a8b9f4ff4c0ff4dcee090479e2373c36e2",
+      "publishedSha256": "1500d4c9156159c12269b8c41c8a2ac78ecde6d92ea8c29a10292e0f41a9b960",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e495-image3",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+      "embeddedImage": "word/media/image3.png",
+      "sha256": "2169daf6c91c799212a837757134449f2daf8933fd479a3315fc89f6b014fe74",
+      "publishedSha256": "7c2e48ff68c4541b833bf639b84408545384a177dd3e94eaf2f05fae9b634efc",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e495-image4-crop-9cc0564b",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+      "embeddedImage": "word/media/image4.jpeg",
+      "sha256": "8c1be9cd8ffdc6dbe6e25380073ff016c261ae497e19fdf820b11e3398b8a057",
+      "publishedSha256": "277963fca2479608d415cfa7e424c0324f7d19fc65d8649e43e931e8f9af266c",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {
+        "t": 1869,
+        "b": 2893
+      },
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e495-image5-crop-03980ead",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+      "embeddedImage": "word/media/image5.png",
+      "sha256": "712b25beb63d04163506b1af66d2677b0240a9f79683f8970d9a071f642fb152",
+      "publishedSha256": "75a05d10e6c51cd8327e543c78c35c1aba56b3d4829472c6c4fc034094fd0be1",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {
+        "l": 19684,
+        "t": 15761,
+        "r": 17962,
+        "b": 16001
+      },
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e495-image6-crop-08704cb6",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+      "embeddedImage": "word/media/image6.jpeg",
+      "sha256": "b65f301e7d4b47c50b6ca1813858ef233796071909586b010716310085d37e7a",
+      "publishedSha256": "21a78922379e376d88d09e96b2595371db957ef20d3aa4853a57ede297471eef",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {
+        "l": 75962,
+        "b": 14147
+      },
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e495-image6-crop-4271faf4",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+      "embeddedImage": "word/media/image6.jpeg",
+      "sha256": "b65f301e7d4b47c50b6ca1813858ef233796071909586b010716310085d37e7a",
+      "publishedSha256": "c1b84fd5a1f10332cc2eaac019945bf5fb23cb833e82e256afbe3da6a2f3c7bd",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {
+        "l": 35577,
+        "t": 1,
+        "r": 35577,
+        "b": 11846
+      },
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e495-image6-crop-a68f6d85",
+      "source": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+      "embeddedImage": "word/media/image6.jpeg",
+      "sha256": "b65f301e7d4b47c50b6ca1813858ef233796071909586b010716310085d37e7a",
+      "publishedSha256": "13c4e799e5927e83e42381f7b49f5fc4e4906959adfdfe10f2989f802cad8b7b",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {
+        "r": 73814,
+        "b": 10354
+      },
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2015 8 SCIENCE CHEMISTRY TEST ONE.docx",
+      "sha": "cded3d5d96fc2ad4c917edef8baa052770f4d431",
+      "year": 8,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+      "sha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+      "year": 8,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [
+    {
+      "id": "sci-repo-y8-aran-2015-chem1-mc-1",
+      "title": "Year 8 Science — Particle model, changes and density (original source MC)",
+      "course": "Science",
+      "yearGroup": 8,
+      "unit": "Chemical Sciences",
+      "parent": "Particle model, changes and density",
+      "count": 13,
+      "kind": "assessment",
+      "assessmentCount": 13,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch205.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=8&search=SCI-REPO-Y8-ARAN-2015-CHEM1",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    },
+    {
+      "id": "sci-repo-y8-aran-2014-chem1-mc-1",
+      "title": "Year 8 Science — Particle model, changes and density (original source MC)",
+      "course": "Science",
+      "yearGroup": 8,
+      "unit": "Chemical Sciences",
+      "parent": "Particle model, changes and density",
+      "count": 2,
+      "kind": "assessment",
+      "assessmentCount": 2,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch205.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=8&search=SCI-REPO-Y8-ARAN-2014-CHEM1",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    }
+  ],
+  "createdKeys": 30,
+  "createdSupplements": 0,
+  "notes": [
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
+  ],
+  "markAudit": {
+    "sourceTotals": [
+      41,
+      38
+    ],
+    "printed2014Cover": 48,
+    "papers": 2
+  },
+  "duplicateQuestionAliases": [
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+      "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+      "sourceQuestionNumber": "1",
+      "sourceParagraphs": [
+        14,
+        16,
+        18,
+        19,
+        20,
+        21
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-MC01",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+      "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+      "sourceQuestionNumber": "3",
+      "sourceParagraphs": [
+        32,
+        34,
+        36,
+        37,
+        38,
+        39
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-MC03",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+      "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+      "sourceQuestionNumber": "5",
+      "sourceParagraphs": [
+        51,
+        53,
+        54,
+        55,
+        56
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-MC05",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+      "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+      "sourceQuestionNumber": "6",
+      "sourceParagraphs": [
+        59,
+        61,
+        62,
+        63,
+        64
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-MC06",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+      "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+      "sourceQuestionNumber": "7",
+      "sourceParagraphs": [
+        67,
+        71,
+        72,
+        73,
+        74,
+        70
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-MC07",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+      "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+      "sourceQuestionNumber": "8",
+      "sourceParagraphs": [
+        80,
+        82,
+        83,
+        84,
+        85
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-MC08",
+      "reason": "Equivalent source question already present; not added or counted again.",
+      "reviewSupplement": {
+        "answer": "D is intended for simple nonreacting mixing,but mixing can cause chemical reactions. No universally correct classification without specifying substances;manual moderation.",
+        "note": "D is intended for simple nonreacting mixing,but mixing can cause chemical reactions. No universally correct classification without specifying substances;manual moderation."
+      },
+      "requiresManualReview": true
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+      "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+      "sourceQuestionNumber": "9",
+      "sourceParagraphs": [
+        91,
+        93,
+        94,
+        95,
+        96
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-MC09",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+      "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+      "sourceQuestionNumber": "10",
+      "sourceParagraphs": [
+        99,
+        101,
+        102,
+        103,
+        104
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-MC10",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+      "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+      "sourceQuestionNumber": "11",
+      "sourceParagraphs": [
+        112,
+        123,
+        124,
+        125,
+        126,
+        113
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-MC11",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+      "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+      "sourceQuestionNumber": "12",
+      "sourceParagraphs": [
+        135,
+        137,
+        138,
+        139,
+        140
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-MC12",
+      "reason": "Equivalent source question already present; not added or counted again.",
+      "reviewSupplement": {
+        "answer": "B is intended,but gas evolution can also occur in a physical change such as boiling. No universally nonphysical option as worded;manual moderation.",
+        "note": "B is intended,but gas evolution can also occur in a physical change such as boiling. No universally nonphysical option as worded;manual moderation."
+      },
+      "requiresManualReview": true
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+      "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+      "sourceQuestionNumber": "13",
+      "sourceParagraphs": [
+        143,
+        159,
+        160,
+        161,
+        162,
+        145
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-MC13",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+      "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+      "sourceQuestionNumber": "14",
+      "sourceParagraphs": [
+        166,
+        168,
+        169,
+        170,
+        171
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-MC14",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+      "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+      "sourceQuestionNumber": "15",
+      "sourceParagraphs": [
+        174,
+        176,
+        177,
+        178,
+        179
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-MC15",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+      "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+      "sourceQuestionNumber": "1",
+      "sourceParagraphs": [
+        198
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-1",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+      "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+      "sourceQuestionNumber": "2",
+      "sourceParagraphs": [
+        207,
+        208
+      ],
+      "sourceMarks": 3,
+      "sourceType": "Diagram",
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-2",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+      "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+      "sourceQuestionNumber": "3",
+      "sourceParagraphs": [
+        229
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Diagram",
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-3",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+      "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+      "sourceQuestionNumber": "4",
+      "sourceParagraphs": [
+        239,
+        243
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-4",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+      "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+      "sourceQuestionNumber": "5",
+      "sourceParagraphs": [
+        248,
+        251
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-5",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+      "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+      "sourceQuestionNumber": "6",
+      "sourceParagraphs": [
+        261,
+        264
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-6",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+      "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+      "sourceQuestionNumber": "7",
+      "sourceParagraphs": [
+        274,
+        276
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-7",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+      "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+      "sourceQuestionNumber": "9",
+      "sourceParagraphs": [
+        300,
+        302
+      ],
+      "sourceMarks": 5,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-9",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+      "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+      "sourceQuestionNumber": "10",
+      "sourceParagraphs": [
+        306
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-10",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+      "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+      "sourceQuestionNumber": "11",
+      "sourceParagraphs": [
+        329,
+        331
+      ],
+      "sourceMarks": 4,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-11",
+      "reason": "Equivalent source question already present; not added or counted again."
+    }
+  ],
+  "sourceScope": "2026.10.17-tests-only-v1-b202"
+}

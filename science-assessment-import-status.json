@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.17-tests-only-v1-b203",
+  "version": "2026.10.17-tests-only-v1-b212",
   "status": "in_progress",
   "scope": "Original Science assessment files in repository, Years 7–10. File counts include keys and supporting materials; they are not question counts.",
   "inventoryFiles": 2009,
@@ -11,12 +11,36 @@
     "9": 457,
     "10": 582
   },
-  "importedPapers": 170,
-  "importedQuestions": 2352,
-  "multipleChoice": 989,
-  "writtenQuestions": 1363,
-  "battleEligibleQuestions": 856,
+  "importedPapers": 184,
+  "importedQuestions": 2579,
+  "multipleChoice": 1085,
+  "writtenQuestions": 1494,
+  "battleEligibleQuestions": 936,
   "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y8-ARAN-BIOEND-ELISA-MC16",
+      "note": "BandCare both correct:7labels trachea and9labels bronchus. Source asks for a single correct statement but offers two;manual moderation."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-BIOEND-ELISA-MC18",
+      "note": "C is the most direct physiological explanation:the left ventricle generates greater systemic pressure. A also gives a broadly valid systemic-distance rationale. Accept a justified answer;not a unique-answer battle item."
+    },
+    {
+      "id": "SCI-REPO-Y7-NAR-2024-CHEM-MC06",
+      "note": "B is intended,but physical changes need not be easily reversible. The defining criterion is no new chemical substance;no fully accurate option."
+    },
+    {
+      "id": "SCI-REPO-Y7-NAR-2024-CHEM-MC07",
+      "note": "D is likely intended for crystallisation based on solubility differences;selective dissolution followed by filtration also relies on solubility differences. The wording omits the mixture and conditions;moderate a justified interpretation."
+    },
+    {
+      "id": "SCI-REPO-Y7-NAR-2024-CHEM-MC10",
+      "note": "A is intended for suitable liquids of different boiling points,but chromatography can also separate some liquid-mixture components. Mixture properties are missing;manual review."
+    },
+    {
+      "id": "SCI-REPO-Y7-NAR-2024-CHEM-MC12",
+      "note": "D is intended when collecting dissolved salt by evaporation/crystallisation. Distillation also leaves salt residue,so the absolute not useful wording needs moderation."
+    },
     {
       "id": "SCI-REPO-Y7-NAR-2024-EARTH-MC01",
       "note": " Additional variant review: The intended choice is A (Sol),but the option combines Sol with “Solaris”. The conventional English name is the Sun;Sol is Latin. Do not assert Solaris as an official astronomical name."
@@ -379,7 +403,7 @@
     },
     {
       "id": "SCI-REPO-Y7-NARR-2018-CHEM1-MC05",
-      "note": "IntendedD:evaporation/crystallisation. The wording “one substance more soluble than another” most directly describes selective dissolving/fractional crystallisation,not every evaporation separation;teacher clarification needed."
+      "note": "D is likely intended for crystallisation based on solubility differences;selective dissolution followed by filtration also relies on solubility differences. The wording omits the mixture and conditions;moderate a justified interpretation."
     },
     {
       "id": "SCI-REPO-Y7-ARAN-VOCAB21-V2-2",
@@ -510,12 +534,16 @@
       "note": "Existing grouped question rechecked against the keyed source;subpart guidance consolidated without counting duplicates."
     },
     {
+      "id": "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-MC04",
+      "note": "B:evolution is intended,but evolution need not produce a new species. The definition wrongly makes speciation necessary;teacher moderation."
+    },
+    {
       "id": "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-MC08",
       "note": "Source draft option includes“WEEK4Content-Not assessed”;retain teacher review rather than auto-assess."
     },
     {
       "id": "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-MC09",
-      "note": "Speciation can involve drift as well as selection,so the requirement list is not uniquely discriminating."
+      "note": "A(environmental resistance)is likely intended,but speciation can also involve genetic drift rather than selection pressure(D). Mechanisms vary;the source does not define a unique necessary-step framework."
     },
     {
       "id": "SCI-REPO-Y8-ARAN-2013-PHYSEND-MC13",
@@ -706,6 +734,10 @@
       "note": "Five classification/reason pairs are supplied but only8 marks; no original cell-level rubric identified."
     },
     {
+      "id": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR2",
+      "note": "Cloud/steam terminology needs phase clarification;accept scientifically accurate explanations."
+    },
+    {
       "id": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B3",
       "note": "Matching supplied key contains unsupported or incorrect evidence; corrected guidance retained."
     },
@@ -780,6 +812,26 @@
     {
       "id": "SCI-REPO-Y7-NARR-2019-BIO1-W3a",
       "note": "The source does not clarify anatomical versus page-left convention;accept a consistently followed key path."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2016-PHYS1-MC08",
+      "note": "C is the least informative title,but the question asks most incorrect while all titles have varying descriptive merit. Teacher moderation;do not force a precise scientific distinction from title wording alone."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2016-PHYS1-MC12",
+      "note": "A,BandDare quantitative;onlyCis qualitative. The question asks NOT qualitative and therefore has three valid options."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2016-PHYS1-4g",
+      "note": "True if the spill changed the intended delivered water volume (1). A spill not affecting the plant dose need not alter the experimental variable;accept a justified qualification."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2016-PHYS1-4h",
+      "note": "Ambiguous:avoidable mistakes can be prevented,but not every source of random/systematic measurement error can be eliminated. Accept a justified answer;teacher moderation required."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2020-EVOLUTIONATAR-15a",
+      "note": "Question implies a historical chronology without evidence. Distinguish random mutation from selection;do not teach that mutations must always predate environmental changes."
     },
     {
       "id": "SCI-REPO-Y10-ARAN-2016-CHEM2ACC-MC09",
@@ -962,6 +1014,14 @@
       "note": "Source typo Na20 requires teacher correction to Na₂O."
     },
     {
+      "id": "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-4b",
+      "note": "Original cylinder graphic has no explicit unit label;mL is assumed from the laboratory context."
+    },
+    {
+      "id": "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-5e",
+      "note": "Evidence for hot is unspecified;supplied older key assumes direct sensory observation."
+    },
+    {
       "id": "SCI-REPO-Y10-NAR-2021-PHYS-449-MC07",
       "note": "No valid unique answer:forces can change speed,direction,size and shape. Source must be manually moderated."
     },
@@ -1074,6 +1134,18 @@
       "note": "Historical clinical reference with context-dependent thresholds; retained manual."
     },
     {
+      "id": "SCI-REPO-Y8-ARAN-2015-CHEM1-MC08",
+      "note": "D is intended for simple nonreacting mixing,but mixing can cause chemical reactions. No universally correct classification without specifying substances;manual moderation."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2015-CHEM1-MC12",
+      "note": "B is intended,but gas evolution can also occur in a physical change such as boiling. No universally nonphysical option as worded;manual moderation."
+    },
+    {
+      "id": "SCI-REPO-Y8-ARAN-2015-CHEM1-8b",
+      "note": "Given density equals water;do not require the stereotyped answer that wood must float."
+    },
+    {
       "id": "SCI-REPO-Y10-ARAN-2014-DNAMICRO-V5",
       "note": "Original14vocabulary items share7marks (0.5each). Source simplifications clarified."
     },
@@ -1142,6 +1214,10 @@
       "note": "Source category carbonate is a subtype of salt;overlapping labels require moderation."
     },
     {
+      "id": "SCI-REPO-Y8-ARAN-2014-PHYS-MC04",
+      "note": "C is intended,but D is also false:photosynthesis uses light rather than heat from sunlight. Two incorrect choices;manual moderation required."
+    },
+    {
       "id": "SCI-REPO-Y7-ARAN-CHEMVOCAB-222-filtration",
       "note": "Proposed distribution of13diagram marks under original25-mark cover;12matching marks separately explicit by items.Input label ambiguity flagged."
     },
@@ -1160,6 +1236,26 @@
     {
       "id": "SCI-REPO-Y8-SBY-2018-MICROSCOPEKEY-magnification",
       "note": "Source red answers removed from student table. Actual objective set is needed to determine unique values."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2020-CHEMATARPATH-MC09",
+      "note": "B is the intended broad school answer,but physical properties can vary substantially within a group,e.g.group14includes carbon and metallic tin/lead. Similar valence configurations mainly explain related chemical properties. No fully precise option;manual review."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2020-CHEMATARPATH-13",
+      "note": "Source uses a periodic-table tile with average mass126.9,but asks isotope-specific values.127is the intended rounded school assumption,not information explicitly given."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2020-CHEMATARPATH-15",
+      "note": "Source mixes legacy and modern group numbers;carbon group is14today,not modern group4."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2020-CHEMATARPATH-20",
+      "note": "Original chart finalx-label68is inconsistent with the apparent noble-gas series(should86for radon). Original chart retained;teacher moderation required."
+    },
+    {
+      "id": "SCI-REPO-Y10-SBY-2020-CHEMATARPATH-21",
+      "note": "Noble-gas inertness is overstated and final electron-count label is wrong;accept a scientific qualification."
     },
     {
       "id": "SCI-REPO-Y9-ARAN-2013-CHEM2-MC04",
@@ -1280,6 +1376,22 @@
     {
       "id": "SCI-REPO-Y9-NARR-2019-REACTIONTYPES-W3b",
       "note": "Provided classification list is narrower than the scientifically precise description."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2016-BIO1-MC04",
+      "note": "C is intended,but pathogens are not limited to unicellular organisms:viruses and multicellular parasites can cause disease too. No complete definition is offered."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2016-BIO1-MC06",
+      "note": "A is intended for hormone-secreting glands,but not all glands are endocrine:exocrine glands also exist. No valid answer covers all glands as worded."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2016-BIO1-MC25",
+      "note": "AandDare both valid lists of endocrine/neuroendocrine structures. Kidneys inBalso have endocrine functions although not usually listed as a discrete gland. Source lacks a unique answer."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2016-BIO1-WR25",
+      "note": "The source conflates lymphatic transport and all white cells with the adaptive third line;accept a precise immune-system explanation."
     }
   ],
   "batches": [
@@ -24308,6 +24420,3288 @@
           "reason": "Equivalent source question already present; not added or counted again."
         }
       ]
+    },
+    {
+      "id": "repo-science-batch204",
+      "questionIds": [
+        "SCI-REPO-Y8-ARAN-2014-PHYS-MC01",
+        "SCI-REPO-Y8-ARAN-2014-PHYS-MC02",
+        "SCI-REPO-Y8-ARAN-2014-PHYS-MC03",
+        "SCI-REPO-Y8-ARAN-2014-PHYS-MC04",
+        "SCI-REPO-Y8-ARAN-2014-PHYS-MC05",
+        "SCI-REPO-Y8-ARAN-2014-PHYS-1a",
+        "SCI-REPO-Y8-ARAN-2014-PHYS-1b",
+        "SCI-REPO-Y8-ARAN-2014-PHYS-1c",
+        "SCI-REPO-Y8-ARAN-2014-PHYS-1d",
+        "SCI-REPO-Y8-ARAN-2014-PHYS-2a",
+        "SCI-REPO-Y8-ARAN-2014-PHYS-2b",
+        "SCI-REPO-Y8-ARAN-2014-PHYS-3",
+        "SCI-REPO-Y8-ARAN-2014-PHYS-4a",
+        "SCI-REPO-Y8-ARAN-2014-PHYS-4b",
+        "SCI-REPO-Y8-ARAN-2014-PHYS-4c",
+        "SCI-REPO-Y8-ARAN-2014-PHYS-4d",
+        "SCI-REPO-Y8-ARAN-2014-PHYS-4e",
+        "SCI-REPO-Y8-ARAN-2014-PHYS-4f",
+        "SCI-REPO-Y8-ARAN-2014-PHYS-4g",
+        "SCI-REPO-Y8-ARAN-2014-PHYS-5a",
+        "SCI-REPO-Y8-ARAN-2014-PHYS-5b",
+        "SCI-REPO-Y8-ARAN-2014-PHYS-5c",
+        "SCI-REPO-Y8-ARAN-2014-PHYS-6",
+        "SCI-REPO-Y8-ARAN-2014-PHYS-7",
+        "SCI-REPO-Y8-ARAN-2014-PHYS-8",
+        "SCI-REPO-Y8-ARAN-2014-PHYS-9",
+        "SCI-REPO-Y8-ARAN-2014-PHYS-10a",
+        "SCI-REPO-Y8-ARAN-2014-PHYS-10b",
+        "SCI-REPO-Y8-ARAN-2014-PHYS-11-1",
+        "SCI-REPO-Y8-ARAN-2014-PHYS-11-2",
+        "SCI-REPO-Y8-ARAN-2014-PHYS-11-3",
+        "SCI-REPO-Y8-ARAN-2014-PHYS-11-4",
+        "SCI-REPO-Y8-ARAN-2014-PHYS-11-5",
+        "SCI-REPO-Y8-ARAN-2014-PHYS-11-6",
+        "SCI-REPO-Y8-ARAN-2014-PHYS-11-7",
+        "SCI-REPO-Y8-ARAN-2014-PHYS-11-8",
+        "SCI-REPO-Y8-ARAN-2014-PHYS-11-9",
+        "SCI-REPO-Y8-ARAN-2014-PHYS-11-10",
+        "SCI-REPO-Y8-ARAN-2014-PHYS-12",
+        "SCI-REPO-Y8-ARAN-2014-PHYS-13",
+        "SCI-REPO-Y8-ARAN-2014-PHYS-14",
+        "SCI-REPO-Y8-ARAN-2014-PHYS-15"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2014 8 SCIENCE PHYSICS TEST.docx",
+          "sha": "8354cdbd8f7878fc4195969294ad7a21ebe408ee",
+          "year": 8,
+          "role": "paper"
+        }
+      ],
+      "questions": 42,
+      "marks": 46.0,
+      "imageAudit": "question-source-packs/repo-science-batch204-audit.json",
+      "notes": [
+        "Complete46mark original physics test reviewed:5MC+41written. Solar/wind/hydro and Sun-energy blank diagrams retained. Ambiguous photosynthesisMC has two false options and is manually moderated. All fractional allocations and numerical calculations checked."
+      ],
+      "markAudit": {
+        "sourceTotal": 46,
+        "multipleChoice": 5,
+        "written": 41
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch205",
+      "questionIds": [
+        "SCI-REPO-Y8-ARAN-2015-CHEM1-MC01",
+        "SCI-REPO-Y8-ARAN-2015-CHEM1-MC02",
+        "SCI-REPO-Y8-ARAN-2015-CHEM1-MC03",
+        "SCI-REPO-Y8-ARAN-2015-CHEM1-MC04",
+        "SCI-REPO-Y8-ARAN-2015-CHEM1-MC05",
+        "SCI-REPO-Y8-ARAN-2015-CHEM1-MC06",
+        "SCI-REPO-Y8-ARAN-2015-CHEM1-MC07",
+        "SCI-REPO-Y8-ARAN-2015-CHEM1-MC08",
+        "SCI-REPO-Y8-ARAN-2015-CHEM1-MC09",
+        "SCI-REPO-Y8-ARAN-2015-CHEM1-MC10",
+        "SCI-REPO-Y8-ARAN-2015-CHEM1-MC11",
+        "SCI-REPO-Y8-ARAN-2015-CHEM1-MC12",
+        "SCI-REPO-Y8-ARAN-2015-CHEM1-MC13",
+        "SCI-REPO-Y8-ARAN-2015-CHEM1-MC14",
+        "SCI-REPO-Y8-ARAN-2015-CHEM1-MC15",
+        "SCI-REPO-Y8-ARAN-2015-CHEM1-1",
+        "SCI-REPO-Y8-ARAN-2015-CHEM1-2",
+        "SCI-REPO-Y8-ARAN-2015-CHEM1-3",
+        "SCI-REPO-Y8-ARAN-2015-CHEM1-4",
+        "SCI-REPO-Y8-ARAN-2015-CHEM1-5",
+        "SCI-REPO-Y8-ARAN-2015-CHEM1-6",
+        "SCI-REPO-Y8-ARAN-2015-CHEM1-7",
+        "SCI-REPO-Y8-ARAN-2015-CHEM1-8a",
+        "SCI-REPO-Y8-ARAN-2015-CHEM1-8b",
+        "SCI-REPO-Y8-ARAN-2015-CHEM1-9",
+        "SCI-REPO-Y8-ARAN-2015-CHEM1-10",
+        "SCI-REPO-Y8-ARAN-2015-CHEM1-11",
+        "SCI-REPO-Y8-ARAN-2014-CHEM1-MC02",
+        "SCI-REPO-Y8-ARAN-2014-CHEM1-MC04",
+        "SCI-REPO-Y8-ARAN-2014-CHEM1-8"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2015 8 SCIENCE CHEMISTRY TEST ONE.docx",
+          "sha": "cded3d5d96fc2ad4c917edef8baa052770f4d431",
+          "year": 8,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+          "sha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+          "year": 8,
+          "role": "paper"
+        }
+      ],
+      "questions": 30,
+      "marks": 45,
+      "imageAudit": "question-source-packs/repo-science-batch205-audit.json",
+      "notes": [
+        "Two full particle-model tests reviewed,including original water/oxygen molecules,density cylinders,state-change arrows andglass.2015total41;2014cover48is stale:15MC+23written=38. Mixing/gas-evolutionMC andequal-density flotation task manually moderated."
+      ],
+      "markAudit": {
+        "sourceTotals": [
+          41,
+          38
+        ],
+        "printed2014Cover": 48,
+        "papers": 2
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+          "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            14,
+            16,
+            18,
+            19,
+            20,
+            21
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-MC01",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+          "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            32,
+            34,
+            36,
+            37,
+            38,
+            39
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-MC03",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+          "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+          "sourceQuestionNumber": "5",
+          "sourceParagraphs": [
+            51,
+            53,
+            54,
+            55,
+            56
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-MC05",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+          "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+          "sourceQuestionNumber": "6",
+          "sourceParagraphs": [
+            59,
+            61,
+            62,
+            63,
+            64
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-MC06",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+          "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+          "sourceQuestionNumber": "7",
+          "sourceParagraphs": [
+            67,
+            71,
+            72,
+            73,
+            74,
+            70
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-MC07",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+          "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+          "sourceQuestionNumber": "8",
+          "sourceParagraphs": [
+            80,
+            82,
+            83,
+            84,
+            85
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-MC08",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "D is intended for simple nonreacting mixing,but mixing can cause chemical reactions. No universally correct classification without specifying substances;manual moderation.",
+            "note": "D is intended for simple nonreacting mixing,but mixing can cause chemical reactions. No universally correct classification without specifying substances;manual moderation."
+          },
+          "requiresManualReview": true
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+          "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+          "sourceQuestionNumber": "9",
+          "sourceParagraphs": [
+            91,
+            93,
+            94,
+            95,
+            96
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-MC09",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+          "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+          "sourceQuestionNumber": "10",
+          "sourceParagraphs": [
+            99,
+            101,
+            102,
+            103,
+            104
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-MC10",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+          "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+          "sourceQuestionNumber": "11",
+          "sourceParagraphs": [
+            112,
+            123,
+            124,
+            125,
+            126,
+            113
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-MC11",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+          "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+          "sourceQuestionNumber": "12",
+          "sourceParagraphs": [
+            135,
+            137,
+            138,
+            139,
+            140
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-MC12",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "B is intended,but gas evolution can also occur in a physical change such as boiling. No universally nonphysical option as worded;manual moderation.",
+            "note": "B is intended,but gas evolution can also occur in a physical change such as boiling. No universally nonphysical option as worded;manual moderation."
+          },
+          "requiresManualReview": true
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+          "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+          "sourceQuestionNumber": "13",
+          "sourceParagraphs": [
+            143,
+            159,
+            160,
+            161,
+            162,
+            145
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-MC13",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+          "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+          "sourceQuestionNumber": "14",
+          "sourceParagraphs": [
+            166,
+            168,
+            169,
+            170,
+            171
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-MC14",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+          "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+          "sourceQuestionNumber": "15",
+          "sourceParagraphs": [
+            174,
+            176,
+            177,
+            178,
+            179
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-MC15",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+          "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            198
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-1",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+          "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+          "sourceQuestionNumber": "2",
+          "sourceParagraphs": [
+            207,
+            208
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Diagram",
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-2",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+          "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            229
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Diagram",
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-3",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+          "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+          "sourceQuestionNumber": "4",
+          "sourceParagraphs": [
+            239,
+            243
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-4",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+          "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+          "sourceQuestionNumber": "5",
+          "sourceParagraphs": [
+            248,
+            251
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-5",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+          "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+          "sourceQuestionNumber": "6",
+          "sourceParagraphs": [
+            261,
+            264
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-6",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+          "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+          "sourceQuestionNumber": "7",
+          "sourceParagraphs": [
+            274,
+            276
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-7",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+          "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+          "sourceQuestionNumber": "9",
+          "sourceParagraphs": [
+            300,
+            302
+          ],
+          "sourceMarks": 5,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-9",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+          "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+          "sourceQuestionNumber": "10",
+          "sourceParagraphs": [
+            306
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-10",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 8/Science/Chemical Sciences/Aranmore/2014 8 SCIENCE CHEMISTRY TEST ONE.docx",
+          "sourceFileSha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
+          "sourceQuestionNumber": "11",
+          "sourceParagraphs": [
+            329,
+            331
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y8-ARAN-2015-CHEM1-11",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch206",
+      "questionIds": [
+        "SCI-REPO-Y8-ARAN-2016-PHYS1-MC01",
+        "SCI-REPO-Y8-ARAN-2016-PHYS1-MC02",
+        "SCI-REPO-Y8-ARAN-2016-PHYS1-MC03",
+        "SCI-REPO-Y8-ARAN-2016-PHYS1-MC04",
+        "SCI-REPO-Y8-ARAN-2016-PHYS1-MC05",
+        "SCI-REPO-Y8-ARAN-2016-PHYS1-MC06",
+        "SCI-REPO-Y8-ARAN-2016-PHYS1-MC07",
+        "SCI-REPO-Y8-ARAN-2016-PHYS1-MC08",
+        "SCI-REPO-Y8-ARAN-2016-PHYS1-MC09",
+        "SCI-REPO-Y8-ARAN-2016-PHYS1-MC10",
+        "SCI-REPO-Y8-ARAN-2016-PHYS1-MC11",
+        "SCI-REPO-Y8-ARAN-2016-PHYS1-MC12",
+        "SCI-REPO-Y8-ARAN-2016-PHYS1-MC13",
+        "SCI-REPO-Y8-ARAN-2016-PHYS1-MC14",
+        "SCI-REPO-Y8-ARAN-2016-PHYS1-MC15",
+        "SCI-REPO-Y8-ARAN-2016-PHYS1-1a",
+        "SCI-REPO-Y8-ARAN-2016-PHYS1-1b",
+        "SCI-REPO-Y8-ARAN-2016-PHYS1-2",
+        "SCI-REPO-Y8-ARAN-2016-PHYS1-3a",
+        "SCI-REPO-Y8-ARAN-2016-PHYS1-3b",
+        "SCI-REPO-Y8-ARAN-2016-PHYS1-4a",
+        "SCI-REPO-Y8-ARAN-2016-PHYS1-4b",
+        "SCI-REPO-Y8-ARAN-2016-PHYS1-4c",
+        "SCI-REPO-Y8-ARAN-2016-PHYS1-4d",
+        "SCI-REPO-Y8-ARAN-2016-PHYS1-4e",
+        "SCI-REPO-Y8-ARAN-2016-PHYS1-4f",
+        "SCI-REPO-Y8-ARAN-2016-PHYS1-4g",
+        "SCI-REPO-Y8-ARAN-2016-PHYS1-4h",
+        "SCI-REPO-Y8-ARAN-2016-PHYS1-5",
+        "SCI-REPO-Y8-ARAN-2016-PHYS1-6a",
+        "SCI-REPO-Y8-ARAN-2016-PHYS1-6b",
+        "SCI-REPO-Y8-ARAN-2016-PHYS1-6c",
+        "SCI-REPO-Y8-ARAN-2016-PHYS1-6d",
+        "SCI-REPO-Y8-ARAN-2016-PHYS1-7"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Physical Sciences/Aranmore/2016 8 Science Physics Test One.docx",
+          "sha": "ac0f4d54448c53a9cfc8f257a2aa62a284be20ba",
+          "year": 8,
+          "role": "paper"
+        }
+      ],
+      "questions": 34,
+      "marks": 48,
+      "imageAudit": "question-source-packs/repo-science-batch206-audit.json",
+      "notes": [
+        "Complete48mark written test reviewed:15MC+33written. Original equipment,pet survey,parallax/eye-position and distance-time figures retained. NOTqualitative item has three correct choices;title and error-wording ambiguities moderated. Survey variables distinguished from a manipulated experiment."
+      ],
+      "markAudit": {
+        "sourceTotal": 48,
+        "multipleChoice": 15,
+        "written": 33
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch207",
+      "questionIds": [
+        "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR1",
+        "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR2",
+        "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR3",
+        "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR4",
+        "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR5",
+        "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR6a",
+        "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR6b",
+        "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR6c",
+        "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR7",
+        "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR8"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2020/Chem test 2020.docx",
+          "sha": "71a4f055b31f44e9026d782686b4ba168ff32001",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+          "sha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+          "sha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+          "sha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+          "year": 7,
+          "role": "paper"
+        }
+      ],
+      "questions": 10,
+      "marks": 30,
+      "imageAudit": "question-source-packs/repo-science-batch207-audit.json",
+      "notes": [
+        "Four complete45mark chemistry test variants reviewed. All phase/decantation images retained;A–Dfiltration labels are nativeWordtextboxes,so full labelled source figures were rendered rather than publishing an unlabelled embedded image. Overlaps linked without duplicate counts. Several poorly specifiedMC andcloud/steam wording manually moderated."
+      ],
+      "markAudit": {
+        "sourceTotals": [
+          45,
+          45,
+          45,
+          45
+        ],
+        "multipleChoicePerPaper": 15,
+        "writtenPerPaper": 30
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2020/Chem test 2020.docx",
+          "sourceFileSha": "71a4f055b31f44e9026d782686b4ba168ff32001",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            7,
+            10,
+            11,
+            12,
+            13,
+            9
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2019-CHEM-MC01",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2020/Chem test 2020.docx",
+          "sourceFileSha": "71a4f055b31f44e9026d782686b4ba168ff32001",
+          "sourceQuestionNumber": "2",
+          "sourceParagraphs": [
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC02",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2020/Chem test 2020.docx",
+          "sourceFileSha": "71a4f055b31f44e9026d782686b4ba168ff32001",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC03",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2020/Chem test 2020.docx",
+          "sourceFileSha": "71a4f055b31f44e9026d782686b4ba168ff32001",
+          "sourceQuestionNumber": "4",
+          "sourceParagraphs": [
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC04",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2020/Chem test 2020.docx",
+          "sourceFileSha": "71a4f055b31f44e9026d782686b4ba168ff32001",
+          "sourceQuestionNumber": "5",
+          "sourceParagraphs": [
+            33,
+            34,
+            35,
+            36,
+            37
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC05",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2020/Chem test 2020.docx",
+          "sourceFileSha": "71a4f055b31f44e9026d782686b4ba168ff32001",
+          "sourceQuestionNumber": "6",
+          "sourceParagraphs": [
+            39,
+            40,
+            41,
+            42,
+            43
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC06",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "B is intended,but physical changes need not be easily reversible. The defining criterion is no new chemical substance;no fully accurate option.",
+            "note": "B is intended,but physical changes need not be easily reversible. The defining criterion is no new chemical substance;no fully accurate option."
+          },
+          "requiresManualReview": true
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2020/Chem test 2020.docx",
+          "sourceFileSha": "71a4f055b31f44e9026d782686b4ba168ff32001",
+          "sourceQuestionNumber": "7",
+          "sourceParagraphs": [
+            46,
+            47,
+            48,
+            49,
+            50
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NARR-2018-CHEM1-MC05",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "D is likely intended for crystallisation based on solubility differences;selective dissolution followed by filtration also relies on solubility differences. The wording omits the mixture and conditions;moderate a justified interpretation.",
+            "note": "D is likely intended for crystallisation based on solubility differences;selective dissolution followed by filtration also relies on solubility differences. The wording omits the mixture and conditions;moderate a justified interpretation."
+          },
+          "requiresManualReview": true
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2020/Chem test 2020.docx",
+          "sourceFileSha": "71a4f055b31f44e9026d782686b4ba168ff32001",
+          "sourceQuestionNumber": "8",
+          "sourceParagraphs": [
+            52,
+            53,
+            54,
+            55,
+            56
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC08",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2020/Chem test 2020.docx",
+          "sourceFileSha": "71a4f055b31f44e9026d782686b4ba168ff32001",
+          "sourceQuestionNumber": "9",
+          "sourceParagraphs": [
+            58,
+            59,
+            60,
+            61,
+            62
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC09",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2020/Chem test 2020.docx",
+          "sourceFileSha": "71a4f055b31f44e9026d782686b4ba168ff32001",
+          "sourceQuestionNumber": "10",
+          "sourceParagraphs": [
+            64,
+            65,
+            66,
+            67,
+            68
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC10",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "A is intended for suitable liquids of different boiling points,but chromatography can also separate some liquid-mixture components. Mixture properties are missing;manual review.",
+            "note": "A is intended for suitable liquids of different boiling points,but chromatography can also separate some liquid-mixture components. Mixture properties are missing;manual review."
+          },
+          "requiresManualReview": true
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2020/Chem test 2020.docx",
+          "sourceFileSha": "71a4f055b31f44e9026d782686b4ba168ff32001",
+          "sourceQuestionNumber": "11",
+          "sourceParagraphs": [
+            70,
+            71,
+            71,
+            84,
+            84
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2019-CHEM-MC12",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2020/Chem test 2020.docx",
+          "sourceFileSha": "71a4f055b31f44e9026d782686b4ba168ff32001",
+          "sourceQuestionNumber": "12",
+          "sourceParagraphs": [
+            86,
+            87,
+            88,
+            89,
+            90
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC12",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "D is intended when collecting dissolved salt by evaporation/crystallisation. Distillation also leaves salt residue,so the absolute not useful wording needs moderation.",
+            "note": "D is intended when collecting dissolved salt by evaporation/crystallisation. Distillation also leaves salt residue,so the absolute not useful wording needs moderation."
+          },
+          "requiresManualReview": true
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2020/Chem test 2020.docx",
+          "sourceFileSha": "71a4f055b31f44e9026d782686b4ba168ff32001",
+          "sourceQuestionNumber": "13",
+          "sourceParagraphs": [
+            92,
+            93,
+            94,
+            95,
+            96
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC13",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2020/Chem test 2020.docx",
+          "sourceFileSha": "71a4f055b31f44e9026d782686b4ba168ff32001",
+          "sourceQuestionNumber": "14",
+          "sourceParagraphs": [
+            98,
+            99,
+            100,
+            101,
+            102
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC14",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2020/Chem test 2020.docx",
+          "sourceFileSha": "71a4f055b31f44e9026d782686b4ba168ff32001",
+          "sourceQuestionNumber": "15",
+          "sourceParagraphs": [
+            104,
+            105,
+            106,
+            107,
+            108
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC15",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            7,
+            10,
+            11,
+            12,
+            13,
+            9
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2019-CHEM-MC01",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+          "sourceQuestionNumber": "2",
+          "sourceParagraphs": [
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC02",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC03",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+          "sourceQuestionNumber": "4",
+          "sourceParagraphs": [
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC04",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+          "sourceQuestionNumber": "5",
+          "sourceParagraphs": [
+            33,
+            34,
+            35,
+            36,
+            37
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC05",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+          "sourceQuestionNumber": "6",
+          "sourceParagraphs": [
+            39,
+            40,
+            41,
+            42,
+            43
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC06",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "B is intended,but physical changes need not be easily reversible. The defining criterion is no new chemical substance;no fully accurate option.",
+            "note": "B is intended,but physical changes need not be easily reversible. The defining criterion is no new chemical substance;no fully accurate option."
+          },
+          "requiresManualReview": true
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+          "sourceQuestionNumber": "7",
+          "sourceParagraphs": [
+            46,
+            47,
+            48,
+            49,
+            50
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC07",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "D is likely intended for crystallisation based on solubility differences;selective dissolution followed by filtration also relies on solubility differences. The wording omits the mixture and conditions;moderate a justified interpretation.",
+            "note": "D is likely intended for crystallisation based on solubility differences;selective dissolution followed by filtration also relies on solubility differences. The wording omits the mixture and conditions;moderate a justified interpretation."
+          },
+          "requiresManualReview": true
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+          "sourceQuestionNumber": "8",
+          "sourceParagraphs": [
+            52,
+            53,
+            54,
+            55,
+            56
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC08",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+          "sourceQuestionNumber": "9",
+          "sourceParagraphs": [
+            58,
+            59,
+            60,
+            61,
+            62
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC09",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+          "sourceQuestionNumber": "10",
+          "sourceParagraphs": [
+            64,
+            65,
+            66,
+            67,
+            68
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC10",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "A is intended for suitable liquids of different boiling points,but chromatography can also separate some liquid-mixture components. Mixture properties are missing;manual review.",
+            "note": "A is intended for suitable liquids of different boiling points,but chromatography can also separate some liquid-mixture components. Mixture properties are missing;manual review."
+          },
+          "requiresManualReview": true
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+          "sourceQuestionNumber": "11",
+          "sourceParagraphs": [
+            70,
+            71,
+            71,
+            84,
+            84
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2019-CHEM-MC12",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+          "sourceQuestionNumber": "12",
+          "sourceParagraphs": [
+            86,
+            87,
+            88,
+            89,
+            90
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC12",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "D is intended when collecting dissolved salt by evaporation/crystallisation. Distillation also leaves salt residue,so the absolute not useful wording needs moderation.",
+            "note": "D is intended when collecting dissolved salt by evaporation/crystallisation. Distillation also leaves salt residue,so the absolute not useful wording needs moderation."
+          },
+          "requiresManualReview": true
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+          "sourceQuestionNumber": "13",
+          "sourceParagraphs": [
+            92,
+            93,
+            94,
+            95,
+            96
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC13",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+          "sourceQuestionNumber": "14",
+          "sourceParagraphs": [
+            98,
+            99,
+            100,
+            101,
+            102
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC14",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+          "sourceQuestionNumber": "15",
+          "sourceParagraphs": [
+            104,
+            105,
+            106,
+            107,
+            108
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC15",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+          "sourceQuestionNumber": "WR1",
+          "sourceParagraphs": [
+            152,
+            154
+          ],
+          "sourceMarks": 6,
+          "sourceType": "Diagram",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR1",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+          "sourceQuestionNumber": "WR2",
+          "sourceParagraphs": [
+            157,
+            159,
+            161
+          ],
+          "sourceMarks": 6,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR2",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+          "sourceQuestionNumber": "WR3",
+          "sourceParagraphs": [
+            172
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR3",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+          "sourceQuestionNumber": "WR4",
+          "sourceParagraphs": [
+            176,
+            177,
+            178
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR4",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+          "sourceQuestionNumber": "WR5",
+          "sourceParagraphs": [
+            179,
+            180
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR5",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+          "sourceQuestionNumber": "WR6a",
+          "sourceParagraphs": [
+            201,
+            202,
+            204
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR6a",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+          "sourceQuestionNumber": "WR6b",
+          "sourceParagraphs": [
+            201,
+            202,
+            207
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR6b",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+          "sourceQuestionNumber": "WR6c",
+          "sourceParagraphs": [
+            201,
+            202,
+            209
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR6c",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+          "sourceQuestionNumber": "WR7",
+          "sourceParagraphs": [
+            212,
+            214
+          ],
+          "sourceMarks": 6,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR7",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2022/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
+          "sourceQuestionNumber": "WR8",
+          "sourceParagraphs": [
+            235,
+            237,
+            236
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Diagram",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR8",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+          "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            7,
+            10,
+            11,
+            12,
+            13,
+            9
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2019-CHEM-MC01",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+          "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+          "sourceQuestionNumber": "2",
+          "sourceParagraphs": [
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC02",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+          "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC03",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+          "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+          "sourceQuestionNumber": "4",
+          "sourceParagraphs": [
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC04",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+          "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+          "sourceQuestionNumber": "5",
+          "sourceParagraphs": [
+            33,
+            34,
+            35,
+            36,
+            37
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC05",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+          "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+          "sourceQuestionNumber": "6",
+          "sourceParagraphs": [
+            39,
+            40,
+            41,
+            42,
+            43
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC06",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "B is intended,but physical changes need not be easily reversible. The defining criterion is no new chemical substance;no fully accurate option.",
+            "note": "B is intended,but physical changes need not be easily reversible. The defining criterion is no new chemical substance;no fully accurate option."
+          },
+          "requiresManualReview": true
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+          "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+          "sourceQuestionNumber": "7",
+          "sourceParagraphs": [
+            46,
+            47,
+            48,
+            49,
+            50
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC07",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "D is likely intended for crystallisation based on solubility differences;selective dissolution followed by filtration also relies on solubility differences. The wording omits the mixture and conditions;moderate a justified interpretation.",
+            "note": "D is likely intended for crystallisation based on solubility differences;selective dissolution followed by filtration also relies on solubility differences. The wording omits the mixture and conditions;moderate a justified interpretation."
+          },
+          "requiresManualReview": true
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+          "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+          "sourceQuestionNumber": "8",
+          "sourceParagraphs": [
+            52,
+            53,
+            54,
+            55,
+            56
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC08",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+          "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+          "sourceQuestionNumber": "9",
+          "sourceParagraphs": [
+            58,
+            59,
+            60,
+            61,
+            62
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC09",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+          "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+          "sourceQuestionNumber": "10",
+          "sourceParagraphs": [
+            64,
+            65,
+            66,
+            67,
+            68
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC10",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "A is intended for suitable liquids of different boiling points,but chromatography can also separate some liquid-mixture components. Mixture properties are missing;manual review.",
+            "note": "A is intended for suitable liquids of different boiling points,but chromatography can also separate some liquid-mixture components. Mixture properties are missing;manual review."
+          },
+          "requiresManualReview": true
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+          "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+          "sourceQuestionNumber": "11",
+          "sourceParagraphs": [
+            70,
+            71,
+            71,
+            84,
+            84
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2019-CHEM-MC12",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+          "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+          "sourceQuestionNumber": "12",
+          "sourceParagraphs": [
+            86,
+            87,
+            88,
+            89,
+            90
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC12",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "D is intended when collecting dissolved salt by evaporation/crystallisation. Distillation also leaves salt residue,so the absolute not useful wording needs moderation.",
+            "note": "D is intended when collecting dissolved salt by evaporation/crystallisation. Distillation also leaves salt residue,so the absolute not useful wording needs moderation."
+          },
+          "requiresManualReview": true
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+          "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+          "sourceQuestionNumber": "13",
+          "sourceParagraphs": [
+            92,
+            93,
+            94,
+            95,
+            96
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC13",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+          "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+          "sourceQuestionNumber": "14",
+          "sourceParagraphs": [
+            98,
+            99,
+            100,
+            101,
+            102
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC14",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+          "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+          "sourceQuestionNumber": "15",
+          "sourceParagraphs": [
+            104,
+            105,
+            106,
+            107,
+            108
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC15",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+          "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+          "sourceQuestionNumber": "WR1",
+          "sourceParagraphs": [
+            152,
+            154
+          ],
+          "sourceMarks": 6,
+          "sourceType": "Diagram",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR1",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+          "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+          "sourceQuestionNumber": "WR2",
+          "sourceParagraphs": [
+            157,
+            159,
+            161
+          ],
+          "sourceMarks": 6,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR2",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+          "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+          "sourceQuestionNumber": "WR3",
+          "sourceParagraphs": [
+            172
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR3",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+          "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+          "sourceQuestionNumber": "WR4",
+          "sourceParagraphs": [
+            176,
+            177,
+            178
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR4",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+          "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+          "sourceQuestionNumber": "WR5",
+          "sourceParagraphs": [
+            179,
+            180
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR5",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+          "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+          "sourceQuestionNumber": "WR6a",
+          "sourceParagraphs": [
+            201,
+            202,
+            204
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR6a",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+          "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+          "sourceQuestionNumber": "WR6b",
+          "sourceParagraphs": [
+            201,
+            202,
+            207
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR6b",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+          "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+          "sourceQuestionNumber": "WR6c",
+          "sourceParagraphs": [
+            201,
+            202,
+            209
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR6c",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+          "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+          "sourceQuestionNumber": "WR7",
+          "sourceParagraphs": [
+            212,
+            214
+          ],
+          "sourceMarks": 6,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR7",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2021/Chemistry 1 Topic Test 2021.docx",
+          "sourceFileSha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
+          "sourceQuestionNumber": "WR8",
+          "sourceParagraphs": [
+            235,
+            237,
+            236
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Diagram",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR8",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            7,
+            10,
+            11,
+            12,
+            13,
+            9
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2019-CHEM-MC01",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+          "sourceQuestionNumber": "2",
+          "sourceParagraphs": [
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC02",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC03",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+          "sourceQuestionNumber": "4",
+          "sourceParagraphs": [
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC04",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+          "sourceQuestionNumber": "5",
+          "sourceParagraphs": [
+            33,
+            34,
+            35,
+            36,
+            37
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC05",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+          "sourceQuestionNumber": "6",
+          "sourceParagraphs": [
+            39,
+            40,
+            41,
+            42,
+            43
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC06",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "B is intended,but physical changes need not be easily reversible. The defining criterion is no new chemical substance;no fully accurate option.",
+            "note": "B is intended,but physical changes need not be easily reversible. The defining criterion is no new chemical substance;no fully accurate option."
+          },
+          "requiresManualReview": true
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+          "sourceQuestionNumber": "7",
+          "sourceParagraphs": [
+            46,
+            47,
+            48,
+            49,
+            50
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC07",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "D is likely intended for crystallisation based on solubility differences;selective dissolution followed by filtration also relies on solubility differences. The wording omits the mixture and conditions;moderate a justified interpretation.",
+            "note": "D is likely intended for crystallisation based on solubility differences;selective dissolution followed by filtration also relies on solubility differences. The wording omits the mixture and conditions;moderate a justified interpretation."
+          },
+          "requiresManualReview": true
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+          "sourceQuestionNumber": "8",
+          "sourceParagraphs": [
+            52,
+            53,
+            54,
+            55,
+            56
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC08",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+          "sourceQuestionNumber": "9",
+          "sourceParagraphs": [
+            58,
+            59,
+            60,
+            61,
+            62
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC09",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+          "sourceQuestionNumber": "10",
+          "sourceParagraphs": [
+            64,
+            65,
+            66,
+            67,
+            68
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC10",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "A is intended for suitable liquids of different boiling points,but chromatography can also separate some liquid-mixture components. Mixture properties are missing;manual review.",
+            "note": "A is intended for suitable liquids of different boiling points,but chromatography can also separate some liquid-mixture components. Mixture properties are missing;manual review."
+          },
+          "requiresManualReview": true
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+          "sourceQuestionNumber": "11",
+          "sourceParagraphs": [
+            70,
+            71,
+            71,
+            84,
+            84
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2019-CHEM-MC12",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+          "sourceQuestionNumber": "12",
+          "sourceParagraphs": [
+            86,
+            87,
+            88,
+            89,
+            90
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC12",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "D is intended when collecting dissolved salt by evaporation/crystallisation. Distillation also leaves salt residue,so the absolute not useful wording needs moderation.",
+            "note": "D is intended when collecting dissolved salt by evaporation/crystallisation. Distillation also leaves salt residue,so the absolute not useful wording needs moderation."
+          },
+          "requiresManualReview": true
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+          "sourceQuestionNumber": "13",
+          "sourceParagraphs": [
+            92,
+            93,
+            94,
+            95,
+            96
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC13",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+          "sourceQuestionNumber": "14",
+          "sourceParagraphs": [
+            98,
+            99,
+            100,
+            101,
+            102
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC14",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+          "sourceQuestionNumber": "15",
+          "sourceParagraphs": [
+            104,
+            105,
+            106,
+            107,
+            108
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2024-CHEM-MC15",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+          "sourceQuestionNumber": "WR1",
+          "sourceParagraphs": [
+            152,
+            154
+          ],
+          "sourceMarks": 6,
+          "sourceType": "Diagram",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR1",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+          "sourceQuestionNumber": "WR2",
+          "sourceParagraphs": [
+            157,
+            159,
+            161
+          ],
+          "sourceMarks": 6,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR2",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+          "sourceQuestionNumber": "WR3",
+          "sourceParagraphs": [
+            172
+          ],
+          "sourceMarks": 4,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR3",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+          "sourceQuestionNumber": "WR4",
+          "sourceParagraphs": [
+            176,
+            177,
+            178
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR4",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+          "sourceQuestionNumber": "WR5",
+          "sourceParagraphs": [
+            179,
+            180
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR5",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+          "sourceQuestionNumber": "WR6a",
+          "sourceParagraphs": [
+            201,
+            202,
+            204
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR6a",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+          "sourceQuestionNumber": "WR6b",
+          "sourceParagraphs": [
+            201,
+            202,
+            207
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR6b",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+          "sourceQuestionNumber": "WR6c",
+          "sourceParagraphs": [
+            201,
+            202,
+            209
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR6c",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+          "sourceQuestionNumber": "WR7",
+          "sourceParagraphs": [
+            212,
+            214
+          ],
+          "sourceMarks": 6,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR7",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Chemical Sciences/Narrogin/Chemical Sciences/2023/Chemistry 1 Topic Test 2022.docx",
+          "sourceFileSha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
+          "sourceQuestionNumber": "WR8",
+          "sourceParagraphs": [
+            235,
+            237,
+            236
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Diagram",
+          "existingQuestionId": "SCI-REPO-Y7-NAR-2020-CHEM1-487-WR8",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch208",
+      "questionIds": [
+        "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-MC08",
+        "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-MC09",
+        "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-MC10",
+        "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-MC11",
+        "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-MC12",
+        "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-MC13",
+        "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-MC14",
+        "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-MC15",
+        "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-1",
+        "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-2a",
+        "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-2b",
+        "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-2c",
+        "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-4a",
+        "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-4b",
+        "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-4c",
+        "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-5a",
+        "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-5b",
+        "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-5c",
+        "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-5d",
+        "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-5e",
+        "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-5f",
+        "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-6a",
+        "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-6b",
+        "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-6c",
+        "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-6d",
+        "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-7",
+        "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-8a",
+        "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-8b"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic.docx",
+          "sha": "394059a46a6b8f2e787954bc8622317eb5933180",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic WIP.docx",
+          "sha": "07be2de9d37fe7ec071e9aecfddbcf8b7098b1eb",
+          "year": 7,
+          "role": "paper"
+        }
+      ],
+      "questions": 28,
+      "marks": 46,
+      "imageAudit": "question-source-packs/repo-science-batch208-audit.json",
+      "notes": [
+        "Complete61mark final inquiry test extracted with original apparatus,cylinder,ruler andthermometer figures. Draft reviewed as a matching source variant;its differing/absent mark allocations are retained in aliases,not counted as new questions. Final actuallyhas15MCdespite stale10MCsectioninstructions."
+      ],
+      "markAudit": {
+        "finalTotal": 61,
+        "multipleChoice": 15,
+        "written": 46,
+        "draftTotalUnspecified": true
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic.docx",
+          "sourceFileSha": "394059a46a6b8f2e787954bc8622317eb5933180",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            25,
+            27,
+            28,
+            29,
+            30
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-MC01",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic.docx",
+          "sourceFileSha": "394059a46a6b8f2e787954bc8622317eb5933180",
+          "sourceQuestionNumber": "2",
+          "sourceParagraphs": [
+            33,
+            35,
+            36,
+            37,
+            38
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-MC02",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic.docx",
+          "sourceFileSha": "394059a46a6b8f2e787954bc8622317eb5933180",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            41,
+            44,
+            45,
+            46,
+            47,
+            43
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-MC03",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic.docx",
+          "sourceFileSha": "394059a46a6b8f2e787954bc8622317eb5933180",
+          "sourceQuestionNumber": "4",
+          "sourceParagraphs": [
+            49,
+            50,
+            52,
+            53,
+            54,
+            55
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-MC04",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic.docx",
+          "sourceFileSha": "394059a46a6b8f2e787954bc8622317eb5933180",
+          "sourceQuestionNumber": "5",
+          "sourceParagraphs": [
+            58,
+            59,
+            65,
+            66,
+            67,
+            68,
+            63
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-MC05",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic.docx",
+          "sourceFileSha": "394059a46a6b8f2e787954bc8622317eb5933180",
+          "sourceQuestionNumber": "6",
+          "sourceParagraphs": [
+            71,
+            73,
+            74,
+            75,
+            76
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-MC06",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic.docx",
+          "sourceFileSha": "394059a46a6b8f2e787954bc8622317eb5933180",
+          "sourceQuestionNumber": "7",
+          "sourceParagraphs": [
+            79,
+            81,
+            82,
+            83,
+            84
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-MC07",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic.docx",
+          "sourceFileSha": "394059a46a6b8f2e787954bc8622317eb5933180",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            210
+          ],
+          "sourceMarks": 8,
+          "sourceType": "Diagram",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-13",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic WIP.docx",
+          "sourceFileSha": "07be2de9d37fe7ec071e9aecfddbcf8b7098b1eb",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            25,
+            27,
+            28,
+            29,
+            30
+          ],
+          "sourceMarks": 6,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-MC01",
+          "reason": "Full draft task compared with final. Same task content and source figures;PPEdraft6vsfinal4marks,qualitative/quantitativedraft5vsfinal6. Other unprinted draft marks leftnull. No duplicated question count."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic WIP.docx",
+          "sourceFileSha": "07be2de9d37fe7ec071e9aecfddbcf8b7098b1eb",
+          "sourceQuestionNumber": "2",
+          "sourceParagraphs": [
+            33,
+            35,
+            36,
+            37,
+            38
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-MC02",
+          "reason": "Full draft task compared with final. Same task content and source figures;PPEdraft6vsfinal4marks,qualitative/quantitativedraft5vsfinal6. Other unprinted draft marks leftnull. No duplicated question count."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic WIP.docx",
+          "sourceFileSha": "07be2de9d37fe7ec071e9aecfddbcf8b7098b1eb",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            41,
+            44,
+            45,
+            46,
+            47,
+            43
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-MC03",
+          "reason": "Full draft task compared with final. Same task content and source figures;PPEdraft6vsfinal4marks,qualitative/quantitativedraft5vsfinal6. Other unprinted draft marks leftnull. No duplicated question count."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic WIP.docx",
+          "sourceFileSha": "07be2de9d37fe7ec071e9aecfddbcf8b7098b1eb",
+          "sourceQuestionNumber": "4",
+          "sourceParagraphs": [
+            49,
+            50,
+            52,
+            53,
+            54,
+            55
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-MC04",
+          "reason": "Full draft task compared with final. Same task content and source figures;PPEdraft6vsfinal4marks,qualitative/quantitativedraft5vsfinal6. Other unprinted draft marks leftnull. No duplicated question count."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic WIP.docx",
+          "sourceFileSha": "07be2de9d37fe7ec071e9aecfddbcf8b7098b1eb",
+          "sourceQuestionNumber": "5",
+          "sourceParagraphs": [
+            58,
+            59,
+            65,
+            66,
+            67,
+            68,
+            63
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-MC05",
+          "reason": "Full draft task compared with final. Same task content and source figures;PPEdraft6vsfinal4marks,qualitative/quantitativedraft5vsfinal6. Other unprinted draft marks leftnull. No duplicated question count."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic WIP.docx",
+          "sourceFileSha": "07be2de9d37fe7ec071e9aecfddbcf8b7098b1eb",
+          "sourceQuestionNumber": "6",
+          "sourceParagraphs": [
+            71,
+            73,
+            74,
+            75,
+            76
+          ],
+          "sourceMarks": null,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-MC06",
+          "reason": "Full draft task compared with final. Same task content and source figures;PPEdraft6vsfinal4marks,qualitative/quantitativedraft5vsfinal6. Other unprinted draft marks leftnull. No duplicated question count."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic WIP.docx",
+          "sourceFileSha": "07be2de9d37fe7ec071e9aecfddbcf8b7098b1eb",
+          "sourceQuestionNumber": "7",
+          "sourceParagraphs": [
+            79,
+            81,
+            82,
+            83,
+            84
+          ],
+          "sourceMarks": 5,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-MC07",
+          "reason": "Full draft task compared with final. Same task content and source figures;PPEdraft6vsfinal4marks,qualitative/quantitativedraft5vsfinal6. Other unprinted draft marks leftnull. No duplicated question count."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic WIP.docx",
+          "sourceFileSha": "07be2de9d37fe7ec071e9aecfddbcf8b7098b1eb",
+          "sourceQuestionNumber": "8",
+          "sourceParagraphs": [
+            101,
+            103,
+            104,
+            105,
+            106,
+            97,
+            99
+          ],
+          "sourceMarks": null,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-MC08",
+          "reason": "Full draft task compared with final. Same task content and source figures;PPEdraft6vsfinal4marks,qualitative/quantitativedraft5vsfinal6. Other unprinted draft marks leftnull. No duplicated question count."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic WIP.docx",
+          "sourceFileSha": "07be2de9d37fe7ec071e9aecfddbcf8b7098b1eb",
+          "sourceQuestionNumber": "9",
+          "sourceParagraphs": [
+            109,
+            111,
+            112,
+            113,
+            114,
+            97,
+            99
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-MC09",
+          "reason": "Full draft task compared with final. Same task content and source figures;PPEdraft6vsfinal4marks,qualitative/quantitativedraft5vsfinal6. Other unprinted draft marks leftnull. No duplicated question count."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic WIP.docx",
+          "sourceFileSha": "07be2de9d37fe7ec071e9aecfddbcf8b7098b1eb",
+          "sourceQuestionNumber": "10",
+          "sourceParagraphs": [
+            117,
+            119,
+            120,
+            121,
+            122,
+            97,
+            99
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-MC10",
+          "reason": "Full draft task compared with final. Same task content and source figures;PPEdraft6vsfinal4marks,qualitative/quantitativedraft5vsfinal6. Other unprinted draft marks leftnull. No duplicated question count."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic WIP.docx",
+          "sourceFileSha": "07be2de9d37fe7ec071e9aecfddbcf8b7098b1eb",
+          "sourceQuestionNumber": "11",
+          "sourceParagraphs": [
+            125,
+            127,
+            128,
+            129,
+            130
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-MC11",
+          "reason": "Full draft task compared with final. Same task content and source figures;PPEdraft6vsfinal4marks,qualitative/quantitativedraft5vsfinal6. Other unprinted draft marks leftnull. No duplicated question count."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic WIP.docx",
+          "sourceFileSha": "07be2de9d37fe7ec071e9aecfddbcf8b7098b1eb",
+          "sourceQuestionNumber": "12",
+          "sourceParagraphs": [
+            133,
+            135,
+            136,
+            137,
+            138
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-MC12",
+          "reason": "Full draft task compared with final. Same task content and source figures;PPEdraft6vsfinal4marks,qualitative/quantitativedraft5vsfinal6. Other unprinted draft marks leftnull. No duplicated question count."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic WIP.docx",
+          "sourceFileSha": "07be2de9d37fe7ec071e9aecfddbcf8b7098b1eb",
+          "sourceQuestionNumber": "13",
+          "sourceParagraphs": [
+            142,
+            144,
+            145,
+            146,
+            147
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-MC13",
+          "reason": "Full draft task compared with final. Same task content and source figures;PPEdraft6vsfinal4marks,qualitative/quantitativedraft5vsfinal6. Other unprinted draft marks leftnull. No duplicated question count."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic WIP.docx",
+          "sourceFileSha": "07be2de9d37fe7ec071e9aecfddbcf8b7098b1eb",
+          "sourceQuestionNumber": "14",
+          "sourceParagraphs": [
+            151,
+            153,
+            154,
+            155,
+            156
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-MC14",
+          "reason": "Full draft task compared with final. Same task content and source figures;PPEdraft6vsfinal4marks,qualitative/quantitativedraft5vsfinal6. Other unprinted draft marks leftnull. No duplicated question count."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic WIP.docx",
+          "sourceFileSha": "07be2de9d37fe7ec071e9aecfddbcf8b7098b1eb",
+          "sourceQuestionNumber": "15",
+          "sourceParagraphs": [
+            159,
+            160,
+            161,
+            162,
+            163
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-MC15",
+          "reason": "Full draft task compared with final. Same task content and source figures;PPEdraft6vsfinal4marks,qualitative/quantitativedraft5vsfinal6. Other unprinted draft marks leftnull. No duplicated question count."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic WIP.docx",
+          "sourceFileSha": "07be2de9d37fe7ec071e9aecfddbcf8b7098b1eb",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            203,
+            204
+          ],
+          "sourceMarks": 6,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-1",
+          "reason": "Full draft task compared with final. Same task content and source figures;PPEdraft6vsfinal4marks,qualitative/quantitativedraft5vsfinal6. Other unprinted draft marks leftnull. No duplicated question count."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic WIP.docx",
+          "sourceFileSha": "07be2de9d37fe7ec071e9aecfddbcf8b7098b1eb",
+          "sourceQuestionNumber": "2a",
+          "sourceParagraphs": [
+            206,
+            207
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-2a",
+          "reason": "Full draft task compared with final. Same task content and source figures;PPEdraft6vsfinal4marks,qualitative/quantitativedraft5vsfinal6. Other unprinted draft marks leftnull. No duplicated question count."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic WIP.docx",
+          "sourceFileSha": "07be2de9d37fe7ec071e9aecfddbcf8b7098b1eb",
+          "sourceQuestionNumber": "2b",
+          "sourceParagraphs": [
+            206,
+            208
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-2b",
+          "reason": "Full draft task compared with final. Same task content and source figures;PPEdraft6vsfinal4marks,qualitative/quantitativedraft5vsfinal6. Other unprinted draft marks leftnull. No duplicated question count."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic WIP.docx",
+          "sourceFileSha": "07be2de9d37fe7ec071e9aecfddbcf8b7098b1eb",
+          "sourceQuestionNumber": "2c",
+          "sourceParagraphs": [
+            206,
+            209
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-2c",
+          "reason": "Full draft task compared with final. Same task content and source figures;PPEdraft6vsfinal4marks,qualitative/quantitativedraft5vsfinal6. Other unprinted draft marks leftnull. No duplicated question count."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic WIP.docx",
+          "sourceFileSha": "07be2de9d37fe7ec071e9aecfddbcf8b7098b1eb",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            210
+          ],
+          "sourceMarks": 8,
+          "sourceType": "Diagram",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2017-OBSERVATIONS-13",
+          "reason": "Full draft task compared with final. Same task content and source figures;PPEdraft6vsfinal4marks,qualitative/quantitativedraft5vsfinal6. Other unprinted draft marks leftnull. No duplicated question count."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic WIP.docx",
+          "sourceFileSha": "07be2de9d37fe7ec071e9aecfddbcf8b7098b1eb",
+          "sourceQuestionNumber": "4a",
+          "sourceParagraphs": [
+            214,
+            216,
+            217
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-4a",
+          "reason": "Full draft task compared with final. Same task content and source figures;PPEdraft6vsfinal4marks,qualitative/quantitativedraft5vsfinal6. Other unprinted draft marks leftnull. No duplicated question count."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic WIP.docx",
+          "sourceFileSha": "07be2de9d37fe7ec071e9aecfddbcf8b7098b1eb",
+          "sourceQuestionNumber": "4b",
+          "sourceParagraphs": [
+            214,
+            224,
+            226,
+            227
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-4b",
+          "reason": "Full draft task compared with final. Same task content and source figures;PPEdraft6vsfinal4marks,qualitative/quantitativedraft5vsfinal6. Other unprinted draft marks leftnull. No duplicated question count."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic WIP.docx",
+          "sourceFileSha": "07be2de9d37fe7ec071e9aecfddbcf8b7098b1eb",
+          "sourceQuestionNumber": "4c",
+          "sourceParagraphs": [
+            214,
+            222,
+            223
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-4c",
+          "reason": "Full draft task compared with final. Same task content and source figures;PPEdraft6vsfinal4marks,qualitative/quantitativedraft5vsfinal6. Other unprinted draft marks leftnull. No duplicated question count."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic WIP.docx",
+          "sourceFileSha": "07be2de9d37fe7ec071e9aecfddbcf8b7098b1eb",
+          "sourceQuestionNumber": "5a",
+          "sourceParagraphs": [
+            239,
+            240
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-5a",
+          "reason": "Full draft task compared with final. Same task content and source figures;PPEdraft6vsfinal4marks,qualitative/quantitativedraft5vsfinal6. Other unprinted draft marks leftnull. No duplicated question count."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic WIP.docx",
+          "sourceFileSha": "07be2de9d37fe7ec071e9aecfddbcf8b7098b1eb",
+          "sourceQuestionNumber": "5b",
+          "sourceParagraphs": [
+            239,
+            241
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-5b",
+          "reason": "Full draft task compared with final. Same task content and source figures;PPEdraft6vsfinal4marks,qualitative/quantitativedraft5vsfinal6. Other unprinted draft marks leftnull. No duplicated question count."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic WIP.docx",
+          "sourceFileSha": "07be2de9d37fe7ec071e9aecfddbcf8b7098b1eb",
+          "sourceQuestionNumber": "5c",
+          "sourceParagraphs": [
+            239,
+            242
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-5c",
+          "reason": "Full draft task compared with final. Same task content and source figures;PPEdraft6vsfinal4marks,qualitative/quantitativedraft5vsfinal6. Other unprinted draft marks leftnull. No duplicated question count."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic WIP.docx",
+          "sourceFileSha": "07be2de9d37fe7ec071e9aecfddbcf8b7098b1eb",
+          "sourceQuestionNumber": "5d",
+          "sourceParagraphs": [
+            239,
+            243
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-5d",
+          "reason": "Full draft task compared with final. Same task content and source figures;PPEdraft6vsfinal4marks,qualitative/quantitativedraft5vsfinal6. Other unprinted draft marks leftnull. No duplicated question count."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic WIP.docx",
+          "sourceFileSha": "07be2de9d37fe7ec071e9aecfddbcf8b7098b1eb",
+          "sourceQuestionNumber": "5e",
+          "sourceParagraphs": [
+            239,
+            244
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-5e",
+          "reason": "Full draft task compared with final. Same task content and source figures;PPEdraft6vsfinal4marks,qualitative/quantitativedraft5vsfinal6. Other unprinted draft marks leftnull. No duplicated question count."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic WIP.docx",
+          "sourceFileSha": "07be2de9d37fe7ec071e9aecfddbcf8b7098b1eb",
+          "sourceQuestionNumber": "5f",
+          "sourceParagraphs": [
+            239,
+            245
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-5f",
+          "reason": "Full draft task compared with final. Same task content and source figures;PPEdraft6vsfinal4marks,qualitative/quantitativedraft5vsfinal6. Other unprinted draft marks leftnull. No duplicated question count."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic WIP.docx",
+          "sourceFileSha": "07be2de9d37fe7ec071e9aecfddbcf8b7098b1eb",
+          "sourceQuestionNumber": "6a",
+          "sourceParagraphs": [
+            247,
+            249,
+            250,
+            251,
+            252,
+            254
+          ],
+          "sourceMarks": null,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-6a",
+          "reason": "Full draft task compared with final. Same task content and source figures;PPEdraft6vsfinal4marks,qualitative/quantitativedraft5vsfinal6. Other unprinted draft marks leftnull. No duplicated question count."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic WIP.docx",
+          "sourceFileSha": "07be2de9d37fe7ec071e9aecfddbcf8b7098b1eb",
+          "sourceQuestionNumber": "6b",
+          "sourceParagraphs": [
+            247,
+            249,
+            250,
+            251,
+            252,
+            258
+          ],
+          "sourceMarks": null,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-6b",
+          "reason": "Full draft task compared with final. Same task content and source figures;PPEdraft6vsfinal4marks,qualitative/quantitativedraft5vsfinal6. Other unprinted draft marks leftnull. No duplicated question count."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic WIP.docx",
+          "sourceFileSha": "07be2de9d37fe7ec071e9aecfddbcf8b7098b1eb",
+          "sourceQuestionNumber": "6c",
+          "sourceParagraphs": [
+            247,
+            249,
+            250,
+            251,
+            252,
+            262
+          ],
+          "sourceMarks": null,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-6c",
+          "reason": "Full draft task compared with final. Same task content and source figures;PPEdraft6vsfinal4marks,qualitative/quantitativedraft5vsfinal6. Other unprinted draft marks leftnull. No duplicated question count."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic WIP.docx",
+          "sourceFileSha": "07be2de9d37fe7ec071e9aecfddbcf8b7098b1eb",
+          "sourceQuestionNumber": "6d",
+          "sourceParagraphs": [
+            247,
+            249,
+            250,
+            251,
+            252,
+            269
+          ],
+          "sourceMarks": null,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-6d",
+          "reason": "Full draft task compared with final. Same task content and source figures;PPEdraft6vsfinal4marks,qualitative/quantitativedraft5vsfinal6. Other unprinted draft marks leftnull. No duplicated question count."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic WIP.docx",
+          "sourceFileSha": "07be2de9d37fe7ec071e9aecfddbcf8b7098b1eb",
+          "sourceQuestionNumber": "7",
+          "sourceParagraphs": [
+            273
+          ],
+          "sourceMarks": 5,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-7",
+          "reason": "Full draft task compared with final. Same task content and source figures;PPEdraft6vsfinal4marks,qualitative/quantitativedraft5vsfinal6. Other unprinted draft marks leftnull. No duplicated question count."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic WIP.docx",
+          "sourceFileSha": "07be2de9d37fe7ec071e9aecfddbcf8b7098b1eb",
+          "sourceQuestionNumber": "8a",
+          "sourceParagraphs": [
+            278
+          ],
+          "sourceMarks": null,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-2018-INQUIRYFINAL-8a",
+          "reason": "Full draft task compared with final. Same task content and source figures;PPEdraft6vsfinal4marks,qualitative/quantitativedraft5vsfinal6. Other unprinted draft marks leftnull. No duplicated question count."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch209",
+      "questionIds": [
+        "SCI-REPO-Y10-SBY-2020-CHEMATARPATH-MC04",
+        "SCI-REPO-Y10-SBY-2020-CHEMATARPATH-MC06",
+        "SCI-REPO-Y10-SBY-2020-CHEMATARPATH-MC09",
+        "SCI-REPO-Y10-SBY-2020-CHEMATARPATH-MC10",
+        "SCI-REPO-Y10-SBY-2020-CHEMATARPATH-11",
+        "SCI-REPO-Y10-SBY-2020-CHEMATARPATH-12",
+        "SCI-REPO-Y10-SBY-2020-CHEMATARPATH-13",
+        "SCI-REPO-Y10-SBY-2020-CHEMATARPATH-14",
+        "SCI-REPO-Y10-SBY-2020-CHEMATARPATH-15",
+        "SCI-REPO-Y10-SBY-2020-CHEMATARPATH-16",
+        "SCI-REPO-Y10-SBY-2020-CHEMATARPATH-17",
+        "SCI-REPO-Y10-SBY-2020-CHEMATARPATH-18",
+        "SCI-REPO-Y10-SBY-2020-CHEMATARPATH-19",
+        "SCI-REPO-Y10-SBY-2020-CHEMATARPATH-20",
+        "SCI-REPO-Y10-SBY-2020-CHEMATARPATH-21"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2020/Test 1 -  2020 Chemistry ATAR Pathway.docx",
+          "sha": "57fec2d258270c536fca3fc3b8c2db9f8452fb8e",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 15,
+      "marks": 44.5,
+      "imageAudit": "question-source-packs/repo-science-batch209-audit.json",
+      "notes": [
+        "Complete2020ATARpathwaytest reviewed with original atom leaders,iodine tile andnativeWordchart. Printedcover52.5andshortsection43disagree with explicit responses:10MC+35.5short+5extended=50.5. Original chart68/86typo andisotope-average-mass ambiguity retained withmanualreview."
+      ],
+      "markAudit": {
+        "printedCover": 52.5,
+        "printedShortHeading": 43,
+        "actualTotal": 50.5,
+        "multipleChoice": 10,
+        "short": 35.5,
+        "extended": 5
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2020/Test 1 -  2020 Chemistry ATAR Pathway.docx",
+          "sourceFileSha": "57fec2d258270c536fca3fc3b8c2db9f8452fb8e",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            30,
+            32,
+            33,
+            34,
+            35
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEM-469-MC10",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2020/Test 1 -  2020 Chemistry ATAR Pathway.docx",
+          "sourceFileSha": "57fec2d258270c536fca3fc3b8c2db9f8452fb8e",
+          "sourceQuestionNumber": "2",
+          "sourceParagraphs": [
+            37,
+            39,
+            40,
+            41,
+            42
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEM-469-MC02",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2020/Test 1 -  2020 Chemistry ATAR Pathway.docx",
+          "sourceFileSha": "57fec2d258270c536fca3fc3b8c2db9f8452fb8e",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            45,
+            47,
+            48,
+            49,
+            50
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEM-469-MC04",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2020/Test 1 -  2020 Chemistry ATAR Pathway.docx",
+          "sourceFileSha": "57fec2d258270c536fca3fc3b8c2db9f8452fb8e",
+          "sourceQuestionNumber": "5",
+          "sourceParagraphs": [
+            64,
+            66,
+            67,
+            68,
+            69
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-B10-D27-MC09",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2020/Test 1 -  2020 Chemistry ATAR Pathway.docx",
+          "sourceFileSha": "57fec2d258270c536fca3fc3b8c2db9f8452fb8e",
+          "sourceQuestionNumber": "7",
+          "sourceParagraphs": [
+            85,
+            87,
+            88,
+            89,
+            90
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEM-469-MC11",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Safety Bay/2020/Test 1 -  2020 Chemistry ATAR Pathway.docx",
+          "sourceFileSha": "57fec2d258270c536fca3fc3b8c2db9f8452fb8e",
+          "sourceQuestionNumber": "8",
+          "sourceParagraphs": [
+            93,
+            95,
+            96,
+            97,
+            98
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2018-CHEM-469-MC12",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch210",
+      "questionIds": [
+        "SCI-REPO-Y10-SBY-2020-EVOLUTIONATAR-MC03",
+        "SCI-REPO-Y10-SBY-2020-EVOLUTIONATAR-MC08",
+        "SCI-REPO-Y10-SBY-2020-EVOLUTIONATAR-MC10",
+        "SCI-REPO-Y10-SBY-2020-EVOLUTIONATAR-11",
+        "SCI-REPO-Y10-SBY-2020-EVOLUTIONATAR-14",
+        "SCI-REPO-Y10-SBY-2020-EVOLUTIONATAR-15a",
+        "SCI-REPO-Y10-SBY-2020-EVOLUTIONATAR-15b",
+        "SCI-REPO-Y10-SBY-2020-EVOLUTIONATAR-16a",
+        "SCI-REPO-Y10-SBY-2020-EVOLUTIONATAR-16b",
+        "SCI-REPO-Y10-SBY-2020-EVOLUTIONATAR-17"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/Evolution Test ATAR 2020 FEEDBACK REQUIRED.docx",
+          "sha": "5a820d514b85a6b8c966434de1e6ab392cf6c7b1",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 10,
+      "marks": 25,
+      "imageAudit": "question-source-packs/repo-science-batch210-audit.json",
+      "notes": [
+        "Complete38mark evolution test reviewed:10MC+19short+9extended. Original peacock mating chart retained without inventing numerical values. Evolution/speciation wording andunsupported moth chronology manually flagged."
+      ],
+      "markAudit": {
+        "sourceTotal": 38,
+        "multipleChoice": 10,
+        "written": 19,
+        "extended": 9
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/Evolution Test ATAR 2020 FEEDBACK REQUIRED.docx",
+          "sourceFileSha": "5a820d514b85a6b8c966434de1e6ab392cf6c7b1",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            31,
+            33,
+            34,
+            35,
+            36
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-MC01",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/Evolution Test ATAR 2020 FEEDBACK REQUIRED.docx",
+          "sourceFileSha": "5a820d514b85a6b8c966434de1e6ab392cf6c7b1",
+          "sourceQuestionNumber": "2",
+          "sourceParagraphs": [
+            39,
+            41,
+            42,
+            43,
+            44
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-MC02",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/Evolution Test ATAR 2020 FEEDBACK REQUIRED.docx",
+          "sourceFileSha": "5a820d514b85a6b8c966434de1e6ab392cf6c7b1",
+          "sourceQuestionNumber": "4",
+          "sourceParagraphs": [
+            55,
+            57,
+            58,
+            59,
+            60
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-MC04",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "B:evolution is intended,but evolution need not produce a new species. The definition wrongly makes speciation necessary;teacher moderation.",
+            "note": "B:evolution is intended,but evolution need not produce a new species. The definition wrongly makes speciation necessary;teacher moderation."
+          },
+          "requiresManualReview": true
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/Evolution Test ATAR 2020 FEEDBACK REQUIRED.docx",
+          "sourceFileSha": "5a820d514b85a6b8c966434de1e6ab392cf6c7b1",
+          "sourceQuestionNumber": "5",
+          "sourceParagraphs": [
+            63,
+            65,
+            66,
+            67,
+            68
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-MC05",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/Evolution Test ATAR 2020 FEEDBACK REQUIRED.docx",
+          "sourceFileSha": "5a820d514b85a6b8c966434de1e6ab392cf6c7b1",
+          "sourceQuestionNumber": "6",
+          "sourceParagraphs": [
+            71,
+            73,
+            74,
+            75,
+            76
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-MC06",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/Evolution Test ATAR 2020 FEEDBACK REQUIRED.docx",
+          "sourceFileSha": "5a820d514b85a6b8c966434de1e6ab392cf6c7b1",
+          "sourceQuestionNumber": "7",
+          "sourceParagraphs": [
+            80,
+            82,
+            83,
+            84,
+            85
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-MC07",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/Evolution Test ATAR 2020 FEEDBACK REQUIRED.docx",
+          "sourceFileSha": "5a820d514b85a6b8c966434de1e6ab392cf6c7b1",
+          "sourceQuestionNumber": "9",
+          "sourceParagraphs": [
+            97,
+            98,
+            99,
+            100,
+            101
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-MC09",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "A(environmental resistance)is likely intended,but speciation can also involve genetic drift rather than selection pressure(D). Mechanisms vary;the source does not define a unique necessary-step framework.",
+            "note": "A(environmental resistance)is likely intended,but speciation can also involve genetic drift rather than selection pressure(D). Mechanisms vary;the source does not define a unique necessary-step framework."
+          },
+          "requiresManualReview": true
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/Evolution Test ATAR 2020 FEEDBACK REQUIRED.docx",
+          "sourceFileSha": "5a820d514b85a6b8c966434de1e6ab392cf6c7b1",
+          "sourceQuestionNumber": "12a",
+          "sourceParagraphs": [
+            157,
+            159,
+            161,
+            165,
+            167
+          ],
+          "sourceMarks": 0.5,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-12a",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/Evolution Test ATAR 2020 FEEDBACK REQUIRED.docx",
+          "sourceFileSha": "5a820d514b85a6b8c966434de1e6ab392cf6c7b1",
+          "sourceQuestionNumber": "12b",
+          "sourceParagraphs": [
+            157,
+            159,
+            161,
+            165,
+            169
+          ],
+          "sourceMarks": 0.5,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-12b",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/Evolution Test ATAR 2020 FEEDBACK REQUIRED.docx",
+          "sourceFileSha": "5a820d514b85a6b8c966434de1e6ab392cf6c7b1",
+          "sourceQuestionNumber": "12c",
+          "sourceParagraphs": [
+            157,
+            159,
+            161,
+            165,
+            171
+          ],
+          "sourceMarks": 0.5,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-12c",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/Evolution Test ATAR 2020 FEEDBACK REQUIRED.docx",
+          "sourceFileSha": "5a820d514b85a6b8c966434de1e6ab392cf6c7b1",
+          "sourceQuestionNumber": "12d",
+          "sourceParagraphs": [
+            157,
+            159,
+            161,
+            165,
+            173
+          ],
+          "sourceMarks": 0.5,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-12d",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/Evolution Test ATAR 2020 FEEDBACK REQUIRED.docx",
+          "sourceFileSha": "5a820d514b85a6b8c966434de1e6ab392cf6c7b1",
+          "sourceQuestionNumber": "12e",
+          "sourceParagraphs": [
+            157,
+            159,
+            161,
+            165,
+            175
+          ],
+          "sourceMarks": 0.5,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-12e",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/Evolution Test ATAR 2020 FEEDBACK REQUIRED.docx",
+          "sourceFileSha": "5a820d514b85a6b8c966434de1e6ab392cf6c7b1",
+          "sourceQuestionNumber": "12f",
+          "sourceParagraphs": [
+            157,
+            159,
+            161,
+            165,
+            177
+          ],
+          "sourceMarks": 0.5,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-12f",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Biology/Safety Bay/2020/Evolution Test ATAR 2020 FEEDBACK REQUIRED.docx",
+          "sourceFileSha": "5a820d514b85a6b8c966434de1e6ab392cf6c7b1",
+          "sourceQuestionNumber": "13",
+          "sourceParagraphs": [
+            185,
+            187
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2020-EVOLUTION-WIP-13",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch211",
+      "questionIds": [
+        "SCI-REPO-Y9-ARAN-2016-BIO1-MC01",
+        "SCI-REPO-Y9-ARAN-2016-BIO1-MC02",
+        "SCI-REPO-Y9-ARAN-2016-BIO1-MC03",
+        "SCI-REPO-Y9-ARAN-2016-BIO1-MC04",
+        "SCI-REPO-Y9-ARAN-2016-BIO1-MC05",
+        "SCI-REPO-Y9-ARAN-2016-BIO1-MC06",
+        "SCI-REPO-Y9-ARAN-2016-BIO1-MC07",
+        "SCI-REPO-Y9-ARAN-2016-BIO1-MC08",
+        "SCI-REPO-Y9-ARAN-2016-BIO1-MC09",
+        "SCI-REPO-Y9-ARAN-2016-BIO1-MC10",
+        "SCI-REPO-Y9-ARAN-2016-BIO1-MC11",
+        "SCI-REPO-Y9-ARAN-2016-BIO1-MC12",
+        "SCI-REPO-Y9-ARAN-2016-BIO1-MC13",
+        "SCI-REPO-Y9-ARAN-2016-BIO1-MC14",
+        "SCI-REPO-Y9-ARAN-2016-BIO1-MC15",
+        "SCI-REPO-Y9-ARAN-2016-BIO1-MC16",
+        "SCI-REPO-Y9-ARAN-2016-BIO1-MC17",
+        "SCI-REPO-Y9-ARAN-2016-BIO1-MC18",
+        "SCI-REPO-Y9-ARAN-2016-BIO1-MC19",
+        "SCI-REPO-Y9-ARAN-2016-BIO1-MC20",
+        "SCI-REPO-Y9-ARAN-2016-BIO1-MC21",
+        "SCI-REPO-Y9-ARAN-2016-BIO1-MC22",
+        "SCI-REPO-Y9-ARAN-2016-BIO1-MC23",
+        "SCI-REPO-Y9-ARAN-2016-BIO1-MC24",
+        "SCI-REPO-Y9-ARAN-2016-BIO1-MC25",
+        "SCI-REPO-Y9-ARAN-2016-BIO1-WR21",
+        "SCI-REPO-Y9-ARAN-2016-BIO1-WR22",
+        "SCI-REPO-Y9-ARAN-2016-BIO1-WR23",
+        "SCI-REPO-Y9-ARAN-2016-BIO1-WR24",
+        "SCI-REPO-Y9-ARAN-2016-BIO1-WR25",
+        "SCI-REPO-Y9-ARAN-2016-BIO1-WR26a",
+        "SCI-REPO-Y9-ARAN-2016-BIO1-WR26b",
+        "SCI-REPO-Y9-ARAN-2016-BIO1-WR26c",
+        "SCI-REPO-Y9-ARAN-2016-BIO1-WR26d"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Aranmore/2016 9 Science Biology Test One Term 3.docx",
+          "sha": "af67a148f9effad6c9ed04ecb0fe22bcb175363a",
+          "year": 9,
+          "role": "paper"
+        }
+      ],
+      "questions": 34,
+      "marks": 44,
+      "imageAudit": "question-source-packs/repo-science-batch211-audit.json",
+      "notes": [
+        "Complete44mark biology test reviewed:25MC+19written. All synapse/neuron/brain/diffusion andwaterbath images retain original labels. Pathogen/endocrine-allglands definitions andmultiple valid endocrine lists manually flagged. Source firstshort question numbering21overlapsMC;section-specificIDs retained."
+      ],
+      "markAudit": {
+        "sourceTotal": 44,
+        "multipleChoice": 25,
+        "written": 19
+      },
+      "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch212",
+      "questionIds": [
+        "SCI-REPO-Y8-ARAN-BIOEND-ELISA-MC01",
+        "SCI-REPO-Y8-ARAN-BIOEND-ELISA-MC02",
+        "SCI-REPO-Y8-ARAN-BIOEND-ELISA-MC03",
+        "SCI-REPO-Y8-ARAN-BIOEND-ELISA-MC05",
+        "SCI-REPO-Y8-ARAN-BIOEND-ELISA-MC06",
+        "SCI-REPO-Y8-ARAN-BIOEND-ELISA-MC07",
+        "SCI-REPO-Y8-ARAN-BIOEND-ELISA-MC08",
+        "SCI-REPO-Y8-ARAN-BIOEND-ELISA-MC09",
+        "SCI-REPO-Y8-ARAN-BIOEND-ELISA-MC10",
+        "SCI-REPO-Y8-ARAN-BIOEND-ELISA-MC11",
+        "SCI-REPO-Y8-ARAN-BIOEND-ELISA-MC12",
+        "SCI-REPO-Y8-ARAN-BIOEND-ELISA-MC13",
+        "SCI-REPO-Y8-ARAN-BIOEND-ELISA-MC14",
+        "SCI-REPO-Y8-ARAN-BIOEND-ELISA-MC15",
+        "SCI-REPO-Y8-ARAN-BIOEND-ELISA-MC16",
+        "SCI-REPO-Y8-ARAN-BIOEND-ELISA-MC17",
+        "SCI-REPO-Y8-ARAN-BIOEND-ELISA-MC18",
+        "SCI-REPO-Y8-ARAN-BIOEND-ELISA-MC19",
+        "SCI-REPO-Y8-ARAN-BIOEND-ELISA-MC20",
+        "SCI-REPO-Y8-ARAN-BIOEND-ELISA-WR1a",
+        "SCI-REPO-Y8-ARAN-BIOEND-ELISA-WR1b",
+        "SCI-REPO-Y8-ARAN-BIOEND-ELISA-WR2",
+        "SCI-REPO-Y8-ARAN-BIOEND-ELISA-WR3a",
+        "SCI-REPO-Y8-ARAN-BIOEND-ELISA-WR3b"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 8/Science/Biological Sciences/Aranmore/End of Topic Test Year 8 Biology V2 - Elisa.docx",
+          "sha": "e8ba6d07b63c2e0c5e3ad12cd6d4c3473221954c",
+          "year": 8,
+          "role": "paper"
+        }
+      ],
+      "questions": 24,
+      "marks": 37,
+      "imageAudit": "question-source-packs/repo-science-batch212-audit.json",
+      "notes": [
+        "Completebiology end-topic test reviewed. Actual19MC:printedquestion4is missing despite20-answer grid. Shortsection18marks includes4mark blood-flow arrows and7mark hearttable;derived total37. All original respiratory,digestive andheart labels retained. RespiratoryMC16has two true choices;ventricle wall MC is manually moderated."
+      ],
+      "markAudit": {
+        "multipleChoice": 19,
+        "written": 18,
+        "actualTotal": 37,
+        "missingPrintedQuestion": 4
+      },
+      "duplicateQuestionAliases": []
     }
   ],
   "files": [
@@ -25932,7 +29326,7 @@
       "sha": "71a4f055b31f44e9026d782686b4ba168ff32001",
       "year": 7,
       "size": 210184,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -25940,7 +29334,7 @@
       "sha": "717c0662f5ae5ef22265f40186d32891770ad2f6",
       "year": 7,
       "size": 210299,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -25957,7 +29351,7 @@
       "sha": "651b96b2c869fcf5c7ab880d1583d2506eb326e1",
       "year": 7,
       "size": 210298,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -25974,7 +29368,7 @@
       "sha": "f3ecbba1881f5cbb514c511130a8a4b27bb8cd6d",
       "year": 7,
       "size": 214340,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -27819,7 +31213,7 @@
       "sha": "07be2de9d37fe7ec071e9aecfddbcf8b7098b1eb",
       "year": 7,
       "size": 204242,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -27827,7 +31221,7 @@
       "sha": "394059a46a6b8f2e787954bc8622317eb5933180",
       "year": 7,
       "size": 204640,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -27862,7 +31256,7 @@
       "sha": "394059a46a6b8f2e787954bc8622317eb5933180",
       "year": 7,
       "size": 204640,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic.docx"
     },
     {
@@ -28810,7 +32204,7 @@
       "sha": "e8ba6d07b63c2e0c5e3ad12cd6d4c3473221954c",
       "year": 8,
       "size": 223530,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -29632,7 +33026,7 @@
       "sha": "d24215fd6b866098bd8903399ca1be9c11eb05b5",
       "year": 8,
       "size": 222981,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -29681,7 +33075,7 @@
       "sha": "cded3d5d96fc2ad4c917edef8baa052770f4d431",
       "year": 8,
       "size": 209045,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -31906,7 +35300,7 @@
       "sha": "8354cdbd8f7878fc4195969294ad7a21ebe408ee",
       "year": 8,
       "size": 186298,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -31999,7 +35393,7 @@
       "sha": "ac0f4d54448c53a9cfc8f257a2aa62a284be20ba",
       "year": 8,
       "size": 228714,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -32924,7 +36318,7 @@
       "sha": "af67a148f9effad6c9ed04ecb0fe22bcb175363a",
       "year": 9,
       "size": 229322,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -37508,7 +40902,7 @@
       "sha": "5a820d514b85a6b8c966434de1e6ab392cf6c7b1",
       "year": 10,
       "size": 210760,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -39221,7 +42615,7 @@
       "sha": "57fec2d258270c536fca3fc3b8c2db9f8452fb8e",
       "year": 10,
       "size": 189646,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -41637,8 +45031,8 @@
     }
   ],
   "learningVaultCreatedKeySupplements": 1445,
-  "remainingUniqueFileBlobs": 545,
-  "learningVaultCreatedKeys": 2607,
+  "remainingUniqueFileBlobs": 531,
+  "learningVaultCreatedKeys": 2834,
   "blockedSources": [
     {
       "sha": "49d4b7f3f8af844477b39abb856365aeb096cafd",
@@ -41850,7 +45244,7 @@
     "ocrPages": 1175,
     "ocrTextVerified": false
   },
-  "distinctSourceAndKeyReferences": 455,
+  "distinctSourceAndKeyReferences": 469,
   "unscoredQuestionsPreserved": 1,
   "activeAdditionalQuestionRequest": {
     "requestedAdditionalQuestions": 1000,
@@ -41866,9 +45260,9 @@
     "requestedAt": "2026-10-17",
     "scope": "Years7–10Science quizzes,tests and exams only. No investigation/experiment reports,assignments,revision worksheets or standalone marking rubrics.",
     "status": "in_progress",
-    "retainedImportedQuestions": 2352,
+    "retainedImportedQuestions": 2579,
     "startingImportedQuestions": 2117,
-    "addedQuestions": 235,
+    "addedQuestions": 462,
     "completionRule": "Every eligible quiz,test and exam reviewed;unverified source types require review before admission."
   },
   "sourceInventoryExclusions": {
@@ -41885,7 +45279,7 @@
     "countedAsQuestions": false
   },
   "missingReferencedMaterial": [],
-  "reviewedDistinctSourceBlobs": 480,
+  "reviewedDistinctSourceBlobs": 494,
   "inventoryCountBasis": "Remaining unique file blobs counts pending or key-reference-pending identities, including protected inputs; it is not a remaining-paper or remaining-question estimate.",
   "canonicalUniverseReviewRepair": {
     "questionIds": [
@@ -41949,12 +45343,12 @@
     "audit": "question-source-packs/repo-science-legacy-reaction-review.json"
   },
   "sourceTypeCleanup": {
-    "version": "2026.10.17-tests-only-v1-b203",
-    "questionsBefore": 4362,
+    "version": "2026.10.17-tests-only-v1-b212",
+    "questionsBefore": 4589,
     "questionsRemoved": 2010,
-    "questionsRetained": 2352,
+    "questionsRetained": 2579,
     "equivalentTestQuestionsPreserved": 21,
-    "battleQuestionSlotsRemoved": 11,
+    "battleQuestionSlotsRemoved": 16,
     "audit": "question-source-packs/science-test-only-cleanup-20261017.json",
     "databaseStorage": "Actual records removed from the static question-bank database files;no Firestore question collection is used by the database page."
   },
@@ -41962,7 +45356,7 @@
     "date": "2026-10-17",
     "restoredOriginalVisuals": 4,
     "removedMissingRequiredMaterial": 13,
-    "checkedUniqueImageAssets": 378,
+    "checkedUniqueImageAssets": 414,
     "brokenImages": 0,
     "blankImages": 0,
     "audit": "question-source-packs/science-question-visual-audit-20261017.json"

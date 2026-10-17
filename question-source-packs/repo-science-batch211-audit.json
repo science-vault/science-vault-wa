@@ -1,0 +1,172 @@
+{
+  "batch": "repo-science-batch211",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y9-ARAN-2016-BIO1-MC01",
+    "SCI-REPO-Y9-ARAN-2016-BIO1-MC02",
+    "SCI-REPO-Y9-ARAN-2016-BIO1-MC03",
+    "SCI-REPO-Y9-ARAN-2016-BIO1-MC04",
+    "SCI-REPO-Y9-ARAN-2016-BIO1-MC05",
+    "SCI-REPO-Y9-ARAN-2016-BIO1-MC06",
+    "SCI-REPO-Y9-ARAN-2016-BIO1-MC07",
+    "SCI-REPO-Y9-ARAN-2016-BIO1-MC08",
+    "SCI-REPO-Y9-ARAN-2016-BIO1-MC09",
+    "SCI-REPO-Y9-ARAN-2016-BIO1-MC10",
+    "SCI-REPO-Y9-ARAN-2016-BIO1-MC11",
+    "SCI-REPO-Y9-ARAN-2016-BIO1-MC12",
+    "SCI-REPO-Y9-ARAN-2016-BIO1-MC13",
+    "SCI-REPO-Y9-ARAN-2016-BIO1-MC14",
+    "SCI-REPO-Y9-ARAN-2016-BIO1-MC15",
+    "SCI-REPO-Y9-ARAN-2016-BIO1-MC16",
+    "SCI-REPO-Y9-ARAN-2016-BIO1-MC17",
+    "SCI-REPO-Y9-ARAN-2016-BIO1-MC18",
+    "SCI-REPO-Y9-ARAN-2016-BIO1-MC19",
+    "SCI-REPO-Y9-ARAN-2016-BIO1-MC20",
+    "SCI-REPO-Y9-ARAN-2016-BIO1-MC21",
+    "SCI-REPO-Y9-ARAN-2016-BIO1-MC22",
+    "SCI-REPO-Y9-ARAN-2016-BIO1-MC23",
+    "SCI-REPO-Y9-ARAN-2016-BIO1-MC24",
+    "SCI-REPO-Y9-ARAN-2016-BIO1-MC25",
+    "SCI-REPO-Y9-ARAN-2016-BIO1-WR21",
+    "SCI-REPO-Y9-ARAN-2016-BIO1-WR22",
+    "SCI-REPO-Y9-ARAN-2016-BIO1-WR23",
+    "SCI-REPO-Y9-ARAN-2016-BIO1-WR24",
+    "SCI-REPO-Y9-ARAN-2016-BIO1-WR25",
+    "SCI-REPO-Y9-ARAN-2016-BIO1-WR26a",
+    "SCI-REPO-Y9-ARAN-2016-BIO1-WR26b",
+    "SCI-REPO-Y9-ARAN-2016-BIO1-WR26c",
+    "SCI-REPO-Y9-ARAN-2016-BIO1-WR26d"
+  ],
+  "questions": 34,
+  "multipleChoice": 25,
+  "writtenQuestions": 9,
+  "battleEligible": 22,
+  "marks": 44,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y9-ARAN-2016-BIO1-MC04",
+      "note": "C is intended,but pathogens are not limited to unicellular organisms:viruses and multicellular parasites can cause disease too. No complete definition is offered."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2016-BIO1-MC06",
+      "note": "A is intended for hormone-secreting glands,but not all glands are endocrine:exocrine glands also exist. No valid answer covers all glands as worded."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2016-BIO1-MC25",
+      "note": "AandDare both valid lists of endocrine/neuroendocrine structures. Kidneys inBalso have endocrine functions although not usually listed as a discrete gland. Source lacks a unique answer."
+    },
+    {
+      "id": "SCI-REPO-Y9-ARAN-2016-BIO1-WR25",
+      "note": "The source conflates lymphatic transport and all white cells with the adaptive third line;accept a precise immune-system explanation."
+    }
+  ],
+  "imageAudit": [
+    {
+      "id": "e499-image1",
+      "source": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Aranmore/2016 9 Science Biology Test One Term 3.docx",
+      "embeddedImage": "word/media/image1.jpeg",
+      "sha256": "70515d35a649c0b411ace12332d706b1513db7495116f51af9231596d4cc0c77",
+      "publishedSha256": "4ac52c8be2f4b1e8864ae7246b4bdabaf63109453222cedd840dd6614b5e7d39",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e499-image2",
+      "source": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Aranmore/2016 9 Science Biology Test One Term 3.docx",
+      "embeddedImage": "word/media/image2.png",
+      "sha256": "af7717a5ee61eabd28be28e3c3554d2b4a2a662c5181392f18eafd95eb0b0059",
+      "publishedSha256": "5b1f920ebcaeb5c914cf45bd65f474463519d72cfe9c7841c3c7f222b831e116",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e499-image3-crop-cb4d42c3",
+      "source": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Aranmore/2016 9 Science Biology Test One Term 3.docx",
+      "embeddedImage": "word/media/image3.png",
+      "sha256": "ab42d4d1baae4d4e8d2a854b72a1538d3c95f39b5397d43efd5af821f8063ccc",
+      "publishedSha256": "0f3bf2ea30b2a72087ad526a209c56fd1d5b7a507aea548e34c23bd832d58a58",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {
+        "l": 8470,
+        "t": 2084,
+        "b": 4167
+      },
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e499-image4",
+      "source": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Aranmore/2016 9 Science Biology Test One Term 3.docx",
+      "embeddedImage": "word/media/image4.png",
+      "sha256": "016495edee03046784fab395fa80369114e555c9ff5469f94f8cc98290bd93f4",
+      "publishedSha256": "2efac7da97a8c9b1ddbd3c26204c5e3aea0539bbff47a0a271e0762ae66857b8",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e499-image5-crop-781a5cb6",
+      "source": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Aranmore/2016 9 Science Biology Test One Term 3.docx",
+      "embeddedImage": "word/media/image5.png",
+      "sha256": "c2e3dd35765c6bcf6b11133db03917512cfb4891def4b47574b3d15ecba3954d",
+      "publishedSha256": "0d1b50988107827770615ca6ed5a9d1483bfa5053ea78ec782f42c18e3ff8489",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {
+        "t": 4691,
+        "b": 6211
+      },
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e499-image6-crop-663b27bf",
+      "source": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Aranmore/2016 9 Science Biology Test One Term 3.docx",
+      "embeddedImage": "word/media/image6.png",
+      "sha256": "3ca9fe587bbdce74302ff362998eb265ef3b650af2773d3ba65dbb6bbd2c54e1",
+      "publishedSha256": "fd985cae55bc8fdafacd11ace4ac92161fe5edec4a77c9069e224e9e31363f91",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {
+        "t": 7922
+      },
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 9/Science/Biology/Aranmore/2016 9 Science Biology Test One Term 3.docx",
+      "sha": "af67a148f9effad6c9ed04ecb0fe22bcb175363a",
+      "year": 9,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [
+    {
+      "id": "sci-repo-y9-aran-2016-bio1-mc-1",
+      "title": "Year 9 Science — Nervous and endocrine systems, immunity and diffusion (original source MC)",
+      "course": "Science",
+      "yearGroup": 9,
+      "unit": "Biological Sciences",
+      "parent": "Nervous and endocrine systems, immunity and diffusion",
+      "count": 22,
+      "kind": "assessment",
+      "assessmentCount": 22,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch211.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=9&search=SCI-REPO-Y9-ARAN-2016-BIO1",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    }
+  ],
+  "createdKeys": 34,
+  "createdSupplements": 0,
+  "notes": [
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
+  ],
+  "markAudit": {
+    "sourceTotal": 44,
+    "multipleChoice": 25,
+    "written": 19
+  },
+  "duplicateQuestionAliases": [],
+  "sourceScope": "2026.10.17-tests-only-v1-b202"
+}
