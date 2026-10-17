@@ -81,6 +81,22 @@ service cloud.firestore {
      && request.resource.data.displayName == member().displayName && request.resource.data.yearGroup == member().yearGroup && request.resource.data.joinedAt == request.time;
     allow delete: if false;
    }
+   // Student-controlled lesson summary shared only with the owning teacher and the student.
+   // No drafts, answers, browsing events, or email addresses are stored here.
+   match /lessonSummaries/{summaryId} {
+    allow read: if owner(code) || isAdmin() || (enrolled(code) && resource.data.studentUid == request.auth.uid);
+    allow create, update: if enrolled(code) && request.resource.data.keys().hasOnly(['studentUid','title','course','year','unit','topic','completed','total','completedOnce','updatedAt'])
+     && request.resource.data.studentUid == request.auth.uid
+     && request.resource.data.title is string && request.resource.data.title.size() <= 180
+     && request.resource.data.course is string && request.resource.data.course.size() <= 120
+     && request.resource.data.year == member().yearGroup
+     && request.resource.data.unit is string && request.resource.data.unit.size() <= 160
+     && request.resource.data.topic is string && request.resource.data.topic.size() <= 160
+     && request.resource.data.total is int && request.resource.data.total > 0 && request.resource.data.total <= 2000
+     && request.resource.data.completed is int && request.resource.data.completed >= 0 && request.resource.data.completed <= request.resource.data.total
+     && request.resource.data.completedOnce is bool && request.resource.data.updatedAt == request.time;
+    allow delete: if false;
+   }
    // Class-only participation leaderboard. No email, answers or school marks are shared.
    match /leaderboard/{uid} {
     allow read: if owner(code) || enrolled(code) || isAdmin();
