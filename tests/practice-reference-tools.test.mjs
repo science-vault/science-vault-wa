@@ -1,0 +1,4 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {calculate,calculatorPermitted,formulasFor} from '../practice-reference-tools.mjs';
+test('calculator arithmetic and error handling',()=>{assert.equal(calculate(12,'÷',4),3);assert.equal(calculate(3,'^',2),9);assert.throws(()=>calculate(2,'÷',0));assert.throws(()=>calculate('abc','+',3))});
+test('maths calculator-free sections disallow calculator',()=>{assert.equal(calculatorPermitted('Mathematics Applications','free'),false);assert.equal(calculatorPermitted('Mathematics Methods','allowed'),true);assert.equal(calculatorPermitted('Physics','free'),true)});
+test('subject formulas are present',()=>{assert.ok(formulasFor('ATAR Physics').flat().some(x=>x.includes('Kinetic energy')));assert.ok(formulasFor('Chemistry').flat().some(x=>x.includes('pH')))});
