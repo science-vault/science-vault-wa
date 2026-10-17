@@ -1,0 +1,24 @@
+name: Signup subject selection checks
+on:
+  push:
+    branches:
+      - feature/signup-subject-approval
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Syntax
+        run: |
+          node --check registration-options.mjs
+          node --check admin-access.mjs
+          node --check account.mjs
+          node --check access-client.mjs
+      - name: Signup rules
+        run: node --test tests/signup-subject-request.test.mjs
