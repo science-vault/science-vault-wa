@@ -114,7 +114,7 @@
     {
       "type": "Assessments",
       "file": "vault-index-assessments-23.json",
-      "count": 149
+      "count": 192
     },
     {
       "type": "Exams",
@@ -144,12 +144,12 @@
     {
       "type": "Exams",
       "file": "vault-index-exams-6.json",
-      "count": 66
+      "count": 73
     },
     {
       "type": "Notes",
       "file": "vault-index-notes-1.json",
-      "count": 29
+      "count": 53
     },
     {
       "type": "Other Resources",
@@ -159,7 +159,7 @@
     {
       "type": "Other Resources",
       "file": "vault-index-other-resources-2.json",
-      "count": 375
+      "count": 406
     },
     {
       "type": "PowerPoints",
@@ -174,17 +174,17 @@
     {
       "type": "PowerPoints",
       "file": "vault-index-powerpoints-3.json",
-      "count": 360
+      "count": 637
     },
     {
       "type": "Practicals",
       "file": "vault-index-practicals-1.json",
-      "count": 96
+      "count": 130
     },
     {
       "type": "Revision",
       "file": "vault-index-revision-1.json",
-      "count": 101
+      "count": 137
     },
     {
       "type": "Textbooks",
@@ -204,23 +204,23 @@
     {
       "type": "Worksheets",
       "file": "vault-index-worksheets-2.json",
-      "count": 82
+      "count": 163
     }
   ],
   "counts": {
-    "Assessments": 15549,
-    "Exams": 3566,
-    "Notes": 29,
-    "Other Resources": 1075,
-    "PowerPoints": 1760,
-    "Practicals": 96,
-    "Revision": 101,
+    "Assessments": 15592,
+    "Exams": 3573,
+    "Notes": 53,
+    "Other Resources": 1106,
+    "PowerPoints": 2037,
+    "Practicals": 130,
+    "Revision": 137,
     "Textbooks": 274,
     "Videos": 66,
-    "Worksheets": 782
+    "Worksheets": 863
   },
-  "uniqueFiles": 23298,
-  "excludedEmpty": 284,
-  "excludedJunk": 2005,
-  "duplicateCopies": 4741
+  "uniqueFiles": 23831,
+  "excludedEmpty": 285,
+  "excludedJunk": 2123,
+  "duplicateCopies": 4959
 }

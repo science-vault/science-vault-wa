@@ -1,8 +1,8 @@
 {
-  "trackedResourceFiles": 30534,
-  "supportedFiles": 28039,
-  "uniqueContentFiles": 23298,
-  "duplicateCopies": 4741,
+  "trackedResourceFiles": 31412,
+  "supportedFiles": 28790,
+  "uniqueContentFiles": 23831,
+  "duplicateCopies": 4959,
   "emptyFiles": [
     "exams/Year 10/.keep",
     "exams/Year 7/.keep",
@@ -179,6 +179,7 @@
     "resources/Year 10/Science Inquiry/Notes/.keep",
     "resources/Year 10/Science Inquiry/Other Resources/.keep",
     "resources/Year 10/Science Inquiry/PowerPoints/.keep",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/3_Physical Science/Energy Revision/calculating energy efficiency and wasted energy key.pdf",
     "resources/Year 10/Science Inquiry/Practicals/.keep",
     "resources/Year 10/Science Inquiry/Revision/.keep",
     "resources/Year 10/Science Inquiry/Tests/.keep",
@@ -538,14 +539,14 @@
     "resources/ATAR/Chemistry/Assessments/12/Safety Bay/Equilibrium/Equilibrium test 2020/~$st 1 - Equilibrium -Questions.docx",
     "resources/ATAR/Chemistry/Assessments/12/Southern River College/2023 Assessments/~$sk 5 - Semester One Exam.docx",
     "resources/ATAR/English ATAR/12/WAEP/~$EP 2020 YR12 ENG U34 Q ONLY.docx",
-    "resources/ATAR/Physics/Year 12/Kennedy/~$2021 Electromagnetism.pptx",
-    "resources/ATAR/Physics/Year 12/Kennedy/~$2021 Gravity and motion.pptx",
-    "resources/ATAR/Physics/Year 12/Kennedy/~$2021 Special Relativity.pptx",
-    "resources/ATAR/Physics/Year 12/Kennedy/~$2021 Wave particle duality and the quantum theory.pptx",
     "resources/ATAR/Physics/Year 12/Powerpoints/Electromagnetism/~$02 Work in an electric field.pptx",
     "resources/ATAR/Physics/Year 12/Powerpoints/Electromagnetism/~$04 Motion in magnetic fields.pptx",
     "resources/ATAR/Physics/Year 12/Powerpoints/Electromagnetism/~$05 DC motors.pptx",
     "resources/ATAR/Physics/Year 12/Powerpoints/Electromagnetism/~$06 DC motor questions.pptx",
+    "resources/ATAR/Physics/Year 12/Powerpoints/Kennedy/~$2021 Electromagnetism.pptx",
+    "resources/ATAR/Physics/Year 12/Powerpoints/Kennedy/~$2021 Gravity and motion.pptx",
+    "resources/ATAR/Physics/Year 12/Powerpoints/Kennedy/~$2021 Special Relativity.pptx",
+    "resources/ATAR/Physics/Year 12/Powerpoints/Kennedy/~$2021 Wave particle duality and the quantum theory.pptx",
     "resources/ATAR/Physics/Year 12/Powerpoints/Special Relativity/~$Special relativity.pptx",
     "resources/ATAR/Physics/Year 12/Powerpoints/WPD and Quantum/~$WAVE-PARTICLE DUALITY Pt 1.pptx",
     "resources/Assessments/Biology General/Safety Bay/12/2022/Unit 3 Assessments/.DS_Store",
@@ -1987,6 +1988,124 @@
     "resources/Year 10/Physical Sciences/PowerPoints/Physics 1/~$PPT-(EP) Newton’s Second Law.pptx",
     "resources/Year 10/Physical Sciences/PowerPoints/Physics 1/~$PPT-(EP) Speed.pptx",
     "resources/Year 10/Physical Sciences/PowerPoints/Physics 1/~$PPT-(EP) Types of Energy.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Bio/Mitosis-Meiosis/~$tosis card sort.docx",
+    "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/Weeks 9 & 10/Week 9/Thumbs.db",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology I/~$PPT-(EP) Alleles.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology I/~$PPT-(EP) Basics of DNA.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology I/~$PPT-(EP) DNA Replication.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology I/~$PPT-(EP) Homologous Chromosomes.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology I/~$PPT-(EP) Nitrogenous Bases.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology I/~$PPT-(EP) Pedigrees.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology I/~$PPT-(EP) Sex-Linkage, Punnett Squares and Pedigrees.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology I/~$PPT-(EP) Structure of DNA.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology II/~$PPT-(EP) Artificial Selection.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology II/~$PPT-(EP) Darwin’s Theory of Evolution.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology II/~$PPT-(EP) Dating Techniques.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology II/~$PPT-(EP) Geographical Distribution.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology II/~$PPT-(EP) Geological Time.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology II/~$PPT-(EP) Mechanisms of Evolution.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology II/~$PPT-(EP) Natural Selection.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology II/~$PPT-(EP) Theories and Evidence.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Chemistry 1/~$PPT-(EP) Atomic Symbols.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Chemistry 1/~$PPT-(EP) Covalent Bonding.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Chemistry 1/~$PPT-(EP) Electron Configuration.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Chemistry 1/~$PPT-(EP) Group 1 and 2.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Chemistry 1/~$PPT-(EP) Group 14.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Chemistry 1/~$PPT-(EP) Introduction to Ions.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Chemistry 1/~$PPT-(EP) Ionic Compounds.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Chemistry 1/~$PPT-(EP) Metallic Bonding.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Chemistry 1/~$PPT-(EP) The Periodic Table.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Chemistry 1/~$PPT-(EP) The structure of an atom.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Chemistry 1/~$PPT-(EP) Trends in the Periodic Table.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Chemistry 1/~$PPT-(EP) What are atoms, elements and compounds.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Chemistry II/~$PPT-(EP) Acid Reactions.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Chemistry II/~$PPT-(EP) Activation Energy, Temperature and Catalysts.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Chemistry II/~$PPT-(EP) Agitation, Concentration and Surface Area.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Chemistry II/~$PPT-(EP) Alloys and Their Uses.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Chemistry II/~$PPT-(EP) Chemical reactions.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Chemistry II/~$PPT-(EP) Rate Of Reaction.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space 1/~$PPT-(EP) Climate and Weather.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space 1/~$PPT-(EP) El Niño and La Niña.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space 1/~$PPT-(EP) Ocean Currents.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space 1/~$PPT-(EP) Spheres.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space 1/~$PPT-(EP) The Greenhouse Effect.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space 1/~$PPT-(EP) The Nitrogen Cycle.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space 1/~$PPT-(EP) The Water Cycle.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space II/~$PPT-(EP) Gravity.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space II/~$PPT-(EP) Properties of Stars.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space II/~$PPT-(EP) Reading Hertzsprung-Russell Diagrams.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space II/~$PPT-(EP) The Lifecycle of Stars.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Physics 1/~$PPT-(EP) Acceleration.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Physics 1/~$PPT-(EP) Car Safety Systems.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Physics 1/~$PPT-(EP) Distance and Time.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Physics 1/~$PPT-(EP) Newton’s First Law.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Physics 1/~$PPT-(EP) Newton’s Second Law.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Physics 1/~$PPT-(EP) Speed.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Physics 1/~$PPT-(EP) Types of Energy.pptx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Oxford Science 10 WA/._.DS_Store",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Oxford Science 10 WA/Class Tests Answers/._SCI10WA+Chapter+7+Class+test+answers.docx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Oxford Science 10 WA/Class Tests/._SCI10WA+Chapter+7+Class+test.docx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Oxford Science 10 WA/Class Tests/~$I10WA+Chapter+7+Class+test.docx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Oxford Science 10 WA/Experiment Worksheets Answers/._.DS_Store",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Oxford Science 10 WA/Experiment Worksheets Answers/._SCI10WA+Chapter+2+Experiment+worksheet+answers.docx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Oxford Science 10 WA/Experiment Worksheets Answers/._SCI10WA+Chapter+3+Experiment+worksheet+answers.docx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Oxford Science 10 WA/Literacy Support Worksheets Answers/._SCI10WA+Chapter+7+Literacy+support+worksheet+answers.docx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Oxford Science 10 WA/Literacy Support Worksheets/._SCI10WA+Chapter+7+Literacy+support+worksheet.docx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Oxford Science 10 WA/STEM Projects/._SCI10WA+Chapter+7+STEM+project+Energy+transformation+toy.pdf",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Oxford Science 10 WA/Student Book Answers/._SCI10WA+Chapter+7+Student+book+answers.docx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Oxford Science 10 WA/Student Worksheets Answers/._.DS_Store",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Oxford Science 10 WA/Student Worksheets Answers/._SCI10WA+Chapter+1+Student+worksheet+answers.docx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Oxford Science 10 WA/Student Worksheets Answers/._SCI10WA+Chapter+3+Student+worksheet+answers.docx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Oxford Science 10 WA/Student Worksheets Answers/._SCI10WA+Chapter+7+Student+worksheet+answers.docx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Oxford Science 10 WA/Student Worksheets Answers/~$I10WA+Chapter+7+Student+worksheet+answers.docx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Oxford Science 10 WA/Student Worksheets/._.DS_Store",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Oxford Science 10 WA/Student Worksheets/._SCI10WA+Chapter+1+Student+worksheet.docx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Oxford Science 10 WA/Student Worksheets/._SCI10WA+Chapter+3+Student+worksheet.docx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Oxford Science 10 WA/Student Worksheets/._SCI10WA+Chapter+7+Student+worksheet.docx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Oxford Science 10 WA/Student Worksheets/._Year 12 Newtons three laws worksheets.docx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Oxford Science 10 WA/Student Worksheets/._Year 12 Newtons three laws worksheets.pdf",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Oxford Science 10 WA/Student Worksheets/._Year 9 resistance ohms law.docx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Oxford Science 10 WA/Student Worksheets/~$I10WA+Chapter+1+Student+worksheet.docx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Oxford Science 10 WA/Student Worksheets/~$I10WA+Chapter+2+Student+worksheet.docx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Oxford Science 10 WA/Student Worksheets/~$I10WA+Chapter+4+Student+worksheet.docx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Oxford Science 10 WA/Student Worksheets/~$I10WA+Chapter+7+Student+worksheet.docx",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Pearson Yr 10 Science Text Book/._10 Sci Pearsons Answers and Tests",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Pearson Yr 10 Science Text Book/._Chapter 1 DNA and Genetics.pdf",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Pearson Yr 10 Science Text Book/._Chapter 1 Unit 1.2 practical activities.pdf",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Pearson Yr 10 Science Text Book/._Chapter 10 Forensic Science.pdf",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Pearson Yr 10 Science Text Book/._Chapter 10 Unit 10.2 Victims and suspects.pdf",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Pearson Yr 10 Science Text Book/._Chapter 2 Geological time.pdf",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Pearson Yr 10 Science Text Book/._Chapter 2 Unit 2.3 Geological Time Scale.pdf",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Pearson Yr 10 Science Text Book/._Chapter 3 Natural Selection and Evolution.pdf",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Pearson Yr 10 Science Text Book/._Chapter 3 Unit 3.3 Speciation and evolution.pdf",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Pearson Yr 10 Science Text Book/._Chapter 4 The Periodic Table.pdf",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Pearson Yr 10 Science Text Book/._Chapter 4 Unit 4.2 Arranging the elements.pdf",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Pearson Yr 10 Science Text Book/._Chapter 5 Chemical Reactions.pdf",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Pearson Yr 10 Science Text Book/._Chapter 5 Unit 5.3 Rates of chemical reactions.pdf",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Pearson Yr 10 Science Text Book/._Chapter 6 Global Systems.pdf",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Pearson Yr 10 Science Text Book/._Chapter 6 Unit 6.3 Human influence on climate.pdf",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Pearson Yr 10 Science Text Book/._Chapter 7 The Universe.pdf",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Pearson Yr 10 Science Text Book/._Chapter 7 Unit 7.2 Cosmology.pdf",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Pearson Yr 10 Science Text Book/._Chapter 7 Unit 7.3 Earth and Life.pdf",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Pearson Yr 10 Science Text Book/._Chapter 8 Motion and Energy.pdf",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Pearson Yr 10 Science Text Book/._Chapter 8 Unit 8.3 Newton's Laws of Motion.pdf",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Pearson Yr 10 Science Text Book/._Chapter 9 Structures.pdf",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Pearson Yr 10 Science Text Book/._Chapter 9 Unit 9.2 Taller and taller.pdf",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Pearson Yr 10 Science Text Book/._Cover and prelims.pdf",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Pearson Yr 10 Science Text Book/._Index.pdf",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Pearson Yr 10 Science Text Book/10 Sci Pearsons Answers and Tests/._Activity Book Yr 10Ans.pdf",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Pearson Yr 10 Science Text Book/10 Sci Pearsons Answers and Tests/._ESL Activity Book Year 10_answers.pdf",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Pearson Yr 10 Science Text Book/10 Sci Pearsons Answers and Tests/._Student Book Year 10Ans.pdf",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Pearson Yr 10 Science Text Book/10 Sci Pearsons Answers and Tests/._test_c01.doc",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Pearson Yr 10 Science Text Book/10 Sci Pearsons Answers and Tests/._test_c02.doc",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Pearson Yr 10 Science Text Book/10 Sci Pearsons Answers and Tests/._test_c03.doc",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Pearson Yr 10 Science Text Book/10 Sci Pearsons Answers and Tests/._test_c04.doc",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Pearson Yr 10 Science Text Book/10 Sci Pearsons Answers and Tests/._test_c05.doc",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Pearson Yr 10 Science Text Book/10 Sci Pearsons Answers and Tests/._test_c06.doc",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Pearson Yr 10 Science Text Book/10 Sci Pearsons Answers and Tests/._test_c07.doc",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Pearson Yr 10 Science Text Book/10 Sci Pearsons Answers and Tests/._test_c08.doc",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Pearson Yr 10 Science Text Book/10 Sci Pearsons Answers and Tests/._test_c09.doc",
+    "resources/Year 10/Science Inquiry/PowerPoints/Southern River/Pearson Yr 10 Science Text Book/10 Sci Pearsons Answers and Tests/._test_c10.doc",
     "resources/Year 7/Biological Sciences/Tests/Aranmore/~$15 Year 7 Biology  Topic Test.docx",
     "resources/Year 7/Biological Sciences/Tests/Narrogin/2018/~$ology 1 Test 2018.docx",
     "resources/Year 7/Biological Sciences/Tests/Narrogin/2024/~$ar 7 Biology 1 Test 2024.docx",
@@ -30076,58 +30195,1201 @@
       "sha": "1dd3cb0c89202a6ab8a88e8d538cf9ccd8a423e4"
     },
     {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/1.5 Cells Alive Webquest.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Bio/1.5 Cells Alive Webquest.docx"
+      ],
+      "sha": "60da0258cfd241b9e39c836f5cb096ba9eccb9a9"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/1024px-DNA_replication_split_horizontal_svg.png",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Bio/1024px-DNA_replication_split_horizontal_svg.png"
+      ],
+      "sha": "ce185e918387ac46785e13443acd0a14da68b965"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/11 Mitosis card sort.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Bio/11 Mitosis card sort.docx"
+      ],
+      "sha": "0d13a35bdc07058e64588cfc3b20dbd3d5714bad"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/12 Meiosis Worksheet (Word Version).docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Bio/12 Meiosis Worksheet (Word Version).docx"
+      ],
+      "sha": "223fa92265cd2c84a960b47b65c027be907f1311"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/13 Alternative video for independent assortment and crossing over.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Bio/13 Alternative video for independent assortment and crossing over.docx"
+      ],
+      "sha": "2e4dfbe854c836504b035cd41d9759d326de9a0f"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/19a Make an Alien Prac (plasticine instead of marshmallows).pdf",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Bio/19a Make an Alien Prac (plasticine instead of marshmallows).pdf"
+      ],
+      "sha": "650fbef17d18fec32b656818a6ed8413bd2cdd44"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/19b Incomplete and codominance worksheet.pdf",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Bio/19b Incomplete and codominance worksheet.pdf"
+      ],
+      "sha": "fff81e46ca24851a491e75bbfda460780cfa8d69"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/19b incomplete dominance  answers.pdf",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Bio/19b incomplete dominance  answers.pdf"
+      ],
+      "sha": "246e6bff0bfed11f15910483a3daf0b1de92725a"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/2 Build a DNA interactive.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Bio/2 Build a DNA interactive.docx"
+      ],
+      "sha": "796ae695b8bed1ba1d05fec13020d7dc749234d1"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/20 Pedigree Worksheet.rtf",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Bio/20 Pedigree Worksheet.rtf"
+      ],
+      "sha": "bb9e2b1818eaf6f993186975e77848e7ba5972a6"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/20 Pedigree worksheet 2 (includes sex linked).pdf",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Bio/20 Pedigree worksheet 2 (includes sex linked).pdf"
+      ],
+      "sha": "cf21274847e84bb7344f56ec8146af663fce9336"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/21 Mutation and Variation.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Bio/21 Mutation and Variation.pptx"
+      ],
+      "sha": "834c4e87b28eb5e042074a1cbdfd8d4391377b2a"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/22 Natural Selection Worksheet (alternative option).docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Bio/22 Natural Selection Worksheet (alternative option).docx"
+      ],
+      "sha": "9b403f571524d6dfdb1c2a1d5adb1a0e90563d1e"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/23 Bean Counter (Natural Selection Prac).docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Bio/23 Bean Counter (Natural Selection Prac).docx"
+      ],
+      "sha": "58c2b41b59eae229a9540586a848cc090104a192"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/25 Evidence for Evolution Worksheet.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Bio/25 Evidence for Evolution Worksheet.docx"
+      ],
+      "sha": "5fa68eb228ccba515239d9778c852d5e5169345b"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/25 Evidence for Evolution.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Bio/25 Evidence for Evolution.pptx"
+      ],
+      "sha": "f2be6afd47e4c9bf89eab1f58418fe253c24156c"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/26 Genetics test 2 Revision.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Bio/26 Genetics test 2 Revision.docx"
+      ],
+      "sha": "ace08ba6502b6b652e017c70f20e53eca46f0414"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/4 DNA extraction experiment.pdf",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Bio/4 DNA extraction experiment.pdf"
+      ],
+      "sha": "d440f83f92f26f511eeb54b09c964eb4915b7cd9"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/5 History of DNA video links.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Bio/5 History of DNA video links.docx"
+      ],
+      "sha": "110fe42e98f8034ca99f345ee9520cd086832a84"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/6  Chromosomes and Genes.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Bio/6  Chromosomes and Genes.pptx"
+      ],
+      "sha": "11e4193251bad83dd294ae54a65160e03507e445"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/6 Chromosomes and Genes worksheet Updated.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Bio/6 Chromosomes and Genes worksheet Updated.docx"
+      ],
+      "sha": "e7b63a603c75576d840b725ddf80ffc877542988"
+    },
+    {
       "canonical": "resources/Year 10/Biological Sciences/PowerPoints/6. Chromosomes and Genes ANSWERS.docx",
       "copies": [
-        "resources/Year 10/Biological Sciences/PowerPoints/6. Chromosomes and Genes ANSWERS - Copy.docx"
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Bio/6. Chromosomes and Genes ANSWERS.docx",
+        "resources/Year 10/Biological Sciences/PowerPoints/6. Chromosomes and Genes ANSWERS - Copy.docx",
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Bio/6. Chromosomes and Genes ANSWERS - Copy.docx"
       ],
       "sha": "f7a45f379481e3a85fbc6186f3e78b1a6049d718"
     },
     {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/7. DNA replication game.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Bio/7. DNA replication game.docx"
+      ],
+      "sha": "85961c5e2b4c2efa187f7342865452b28d4a1f62"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/8 DNA Replication prac.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Bio/8 DNA Replication prac.docx"
+      ],
+      "sha": "6ba062b9cabf3c946496ae62d87cbc669ebd881a"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/9 Mitosis Worksheet (Word Version).docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Bio/9 Mitosis Worksheet (Word Version).docx"
+      ],
+      "sha": "dda1df5b29af1567bbedafd99e3fba25450b2de0"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Biology I/PPT-(EP) Alleles.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology I/PPT-(EP) Alleles.pptx"
+      ],
+      "sha": "beaab2f59af3ccd0c2e7dd4727286320b3ce0266"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Biology I/PPT-(EP) Basics of DNA.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology I/PPT-(EP) Basics of DNA.pptx"
+      ],
+      "sha": "1d7343e3290f8557af834c8e7eaafb90de30dd61"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Biology I/PPT-(EP) Codominance.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology I/PPT-(EP) Codominance.pptx"
+      ],
+      "sha": "284c3ef66fda9d78d802a33a717f814898dfcaa3"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Biology I/PPT-(EP) DNA Replication.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology I/PPT-(EP) DNA Replication.pptx"
+      ],
+      "sha": "382840517efd86d35fde767fe69b9a1387a307c5"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Biology I/PPT-(EP) Dominant- Recessive Interactions.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology I/PPT-(EP) Dominant- Recessive Interactions.pptx"
+      ],
+      "sha": "3b6538e8861693ed19d37912394978a686782ce3"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Biology I/PPT-(EP) Gametes and Fertilisation.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology I/PPT-(EP) Gametes and Fertilisation.pptx"
+      ],
+      "sha": "b6a4127d71048110d95518bbb3c74dc89260e33a"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Biology I/PPT-(EP) Genes and Genetic Information.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology I/PPT-(EP) Genes and Genetic Information.pptx"
+      ],
+      "sha": "2ede22e1c60c63749ee144f1c7826ccd6841018a"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Biology I/PPT-(EP) Homologous Chromosomes.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology I/PPT-(EP) Homologous Chromosomes.pptx"
+      ],
+      "sha": "ca4febe4770b2271f2521505d3384f66ad9df32a"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Biology I/PPT-(EP) Incomplete Dominance.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology I/PPT-(EP) Incomplete Dominance.pptx"
+      ],
+      "sha": "a5835a8bafa7daa04bd221a74b8b4907a56a994c"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Biology I/PPT-(EP) Inheriting Alleles and Punnett Squares.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology I/PPT-(EP) Inheriting Alleles and Punnett Squares.pptx"
+      ],
+      "sha": "86df1b91c30c8e1dd6f3780e8fb5cdc92398062e"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Biology I/PPT-(EP) Making Punnett Squares.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology I/PPT-(EP) Making Punnett Squares.pptx"
+      ],
+      "sha": "0ad2002f8ee5e69623f0d2f47099ffac2cd14801"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Biology I/PPT-(EP) Meiosis.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology I/PPT-(EP) Meiosis.pptx"
+      ],
+      "sha": "140a63246bf0cfd6d064d8c658076b61bbb4ba12"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Biology I/PPT-(EP) Mitosis vs Meiosis.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology I/PPT-(EP) Mitosis vs Meiosis.pptx"
+      ],
+      "sha": "34ae979d1718b457ba31a3c215e3f2802c655b5a"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Biology I/PPT-(EP) Mitosis.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology I/PPT-(EP) Mitosis.pptx"
+      ],
+      "sha": "eaf7e74c6e175c77f1e04c977e929624ffd959c1"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Biology I/PPT-(EP) Nitrogenous Bases.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology I/PPT-(EP) Nitrogenous Bases.pptx"
+      ],
+      "sha": "b050cb9711d87a15addd8041506daa7350d9870e"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Biology I/PPT-(EP) Pedigrees.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology I/PPT-(EP) Pedigrees.pptx"
+      ],
+      "sha": "1a5a86798953e9fcd950d97d8e09bf7ab8c6942f"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Biology I/PPT-(EP) Sex Chromosomes.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology I/PPT-(EP) Sex Chromosomes.pptx"
+      ],
+      "sha": "2bb3339f3d9830abb1368faef6227311927b8092"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Biology I/PPT-(EP) Sex-Linkage, Punnett Squares and Pedigrees.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology I/PPT-(EP) Sex-Linkage, Punnett Squares and Pedigrees.pptx"
+      ],
+      "sha": "834d41d3d2456b788a7edc9ffe8b000cc4564008"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Biology I/PPT-(EP) Sex-Linkage.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology I/PPT-(EP) Sex-Linkage.pptx"
+      ],
+      "sha": "d728ed1d9c5bce1a4d44efcc312571378dfd2b73"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Biology I/PPT-(EP) Structure of DNA.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology I/PPT-(EP) Structure of DNA.pptx"
+      ],
+      "sha": "6b70dcf53655564469c7ead02bf12d5fcd1cfcfe"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Biology II/PPT-(EP) Artificial Selection.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology II/PPT-(EP) Artificial Selection.pptx"
+      ],
+      "sha": "071178924a30ed85e9632040e9cb2f86d81d9e4e"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Biology II/PPT-(EP) Biodiversity (2).pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology II/PPT-(EP) Biodiversity (2).pptx"
+      ],
+      "sha": "f98e4d4a330cb73c42bee7ef22a27b8f3b6f92c2"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Biology II/PPT-(EP) Darwin’s Theory of Evolution.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology II/PPT-(EP) Darwin’s Theory of Evolution.pptx"
+      ],
+      "sha": "37370983cf97471ab2e81becc74ccb7c5e1682cf"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Biology II/PPT-(EP) Dating Techniques.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology II/PPT-(EP) Dating Techniques.pptx"
+      ],
+      "sha": "3ec2bfa9f3a96656132a18c6326fd79aae86bdf4"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Biology II/PPT-(EP) Evidence for Living Species.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology II/PPT-(EP) Evidence for Living Species.pptx"
+      ],
+      "sha": "dedabb757bb13ae07d8a1417eabbb2a52d667720"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Biology II/PPT-(EP) Fossils and The Fossil Record.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology II/PPT-(EP) Fossils and The Fossil Record.pptx"
+      ],
+      "sha": "ce007b334b942e39adabc3e6396e1887d41c3f38"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Biology II/PPT-(EP) Geographical Distribution.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology II/PPT-(EP) Geographical Distribution.pptx"
+      ],
+      "sha": "24d8896924a08c721a958d39e2a543dd15451135"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Biology II/PPT-(EP) Geological Time.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology II/PPT-(EP) Geological Time.pptx"
+      ],
+      "sha": "99ff171a2adeb718a4b6475e4783b5f4fdff6fd9"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Biology II/PPT-(EP) Hominid Biological Evolution.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology II/PPT-(EP) Hominid Biological Evolution.pptx"
+      ],
+      "sha": "0404d36fcf1d418005cb3b41aa5c91687a8ff74a"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Biology II/PPT-(EP) Hominid Evolutionary Pathways.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology II/PPT-(EP) Hominid Evolutionary Pathways.pptx"
+      ],
+      "sha": "5bbd9798e241e54ac2a607a0f69f21ba6a938aae"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Biology II/PPT-(EP) Mechanisms of Evolution.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology II/PPT-(EP) Mechanisms of Evolution.pptx"
+      ],
+      "sha": "b569b57697d01a2ed21d60c46b8c9772b70defb4"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Biology II/PPT-(EP) Natural Selection.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology II/PPT-(EP) Natural Selection.pptx"
+      ],
+      "sha": "191c74242b1ce6abf502f00958f112691faa7d74"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Biology II/PPT-(EP) Our Evolution.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology II/PPT-(EP) Our Evolution.pptx"
+      ],
+      "sha": "7887329be088a013e3f15f8fb20c5387c399dcd9"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Biology II/PPT-(EP) The Wallace Line.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology II/PPT-(EP) The Wallace Line.pptx"
+      ],
+      "sha": "69f98f0abe0a07002e659826d8dd58b6861256a8"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Biology II/PPT-(EP) Theories and Evidence.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Biology II/PPT-(EP) Theories and Evidence.pptx"
+      ],
+      "sha": "c63b90741e898c820e1c4f2f215f758209a6398d"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Biology PowerPoint template.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Bio/Biology PowerPoint template.pptx"
+      ],
+      "sha": "14b43be10e573833276e2f372b7c0df19eb518a1"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Mitosis-Meiosis/Comparison of Mitosis and Meiosis.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Bio/Mitosis-Meiosis/Comparison of Mitosis and Meiosis.docx"
+      ],
+      "sha": "ecb36dee04db67ae38661c8c7cc64dd639e30d4b"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Mitosis-Meiosis/Mitosis card sort.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Bio/Mitosis-Meiosis/Mitosis card sort.docx"
+      ],
+      "sha": "828e749975de4dbdfaf4853de7eb9a9d3cfbae09"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Mitosis-Meiosis/Plant Cell Division.mp4",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Bio/Mitosis-Meiosis/Plant Cell Division.mp4"
+      ],
+      "sha": "3d77193871191c56365136e7e1deb299680a0751"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Mitosis-Meiosis/cell division on contrast microscope.mp4",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Bio/Mitosis-Meiosis/cell division on contrast microscope.mp4"
+      ],
+      "sha": "083e158b70fb04ff524ab25b8c7131cf36be7ca2"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Oxford 10 All Chapter 1 Worksheets.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Bio/Oxford 10 All Chapter 1 Worksheets.docx"
+      ],
+      "sha": "0ea1a53bf68dff290d95e92a373450697e6ce373"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Oxford 10 All Chapter 2 Worksheets.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Bio/Oxford 10 All Chapter 2 Worksheets.docx"
+      ],
+      "sha": "1f4b4d723644915dc054d7b58a089d5cef23a203"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Revision - Genetic material worksheet Answers.doc",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Bio/Revision - Genetic material worksheet Answers.doc"
+      ],
+      "sha": "4f953d7022b5bf8d29e6603ae47087a65656a686"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Revision - Genetic material worksheet.doc",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Bio/Revision - Genetic material worksheet.doc"
+      ],
+      "sha": "7ae9e5ddd8842f401188e8e38376d984248be562"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Revision Mitosis vs Meiosis.pdf",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Bio/Revision Mitosis vs Meiosis.pdf"
+      ],
+      "sha": "feae449d6a4d045cab8d0dff8821a81b094a1414"
+    },
+    {
+      "canonical": "resources/Year 10/Biological Sciences/PowerPoints/Revision Worksheet.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Bio/Revision Worksheet.docx"
+      ],
+      "sha": "8f7933dccba9f466186afd791782665df409c6a7"
+    },
+    {
+      "canonical": "resources/Year 10/Chemical Sciences/PowerPoints/Chemistry 1/PPT-(EP) Atomic Symbols.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Chemistry 1/PPT-(EP) Atomic Symbols.pptx"
+      ],
+      "sha": "8e9f5ac37d78b53803080c700d4220e93af21081"
+    },
+    {
+      "canonical": "resources/Year 10/Chemical Sciences/PowerPoints/Chemistry 1/PPT-(EP) Covalent Bonding.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Chemistry 1/PPT-(EP) Covalent Bonding.pptx"
+      ],
+      "sha": "af14809a6077fc69c13a4884dab0b1aead191832"
+    },
+    {
+      "canonical": "resources/Year 10/Chemical Sciences/PowerPoints/Chemistry 1/PPT-(EP) Electron Configuration.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Chemistry 1/PPT-(EP) Electron Configuration.pptx"
+      ],
+      "sha": "1410242a50a0b074a9a7527f2393aefe333121de"
+    },
+    {
+      "canonical": "resources/Year 10/Chemical Sciences/PowerPoints/Chemistry 1/PPT-(EP) Group 1 and 2.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Chemistry 1/PPT-(EP) Group 1 and 2.pptx"
+      ],
+      "sha": "8dff499c92bb94c1afc8b539f8e27e28852c719e"
+    },
+    {
+      "canonical": "resources/Year 10/Chemical Sciences/PowerPoints/Chemistry 1/PPT-(EP) Group 14.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Chemistry 1/PPT-(EP) Group 14.pptx"
+      ],
+      "sha": "836ae93a9fc058250f33da5a2c97b47982fbcb4c"
+    },
+    {
+      "canonical": "resources/Year 10/Chemical Sciences/PowerPoints/Chemistry 1/PPT-(EP) Introduction to Ions.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Chemistry 1/PPT-(EP) Introduction to Ions.pptx"
+      ],
+      "sha": "3ed109ff256b76baec4cb08c18745c6640306e97"
+    },
+    {
+      "canonical": "resources/Year 10/Chemical Sciences/PowerPoints/Chemistry 1/PPT-(EP) Ionic Compounds.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Chemistry 1/PPT-(EP) Ionic Compounds.pptx"
+      ],
+      "sha": "d3be9eae2d92e1518c82e6f861844f7a8c5e79ee"
+    },
+    {
+      "canonical": "resources/Year 10/Chemical Sciences/PowerPoints/Chemistry 1/PPT-(EP) Metallic Bonding.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Chemistry 1/PPT-(EP) Metallic Bonding.pptx"
+      ],
+      "sha": "f1b1aa530b3b7c7579d1b4dad179d34732115420"
+    },
+    {
+      "canonical": "resources/Year 10/Chemical Sciences/PowerPoints/Chemistry 1/PPT-(EP) The Periodic Table.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Chemistry 1/PPT-(EP) The Periodic Table.pptx"
+      ],
+      "sha": "6ed352779a4173336d53d1328278dfbb0f3e6c58"
+    },
+    {
+      "canonical": "resources/Year 10/Chemical Sciences/PowerPoints/Chemistry 1/PPT-(EP) The structure of an atom.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Chemistry 1/PPT-(EP) The structure of an atom.pptx"
+      ],
+      "sha": "74ed9d4441bb25ef4b58cb45950513ab819abe2a"
+    },
+    {
+      "canonical": "resources/Year 10/Chemical Sciences/PowerPoints/Chemistry 1/PPT-(EP) Trends in the Periodic Table.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Chemistry 1/PPT-(EP) Trends in the Periodic Table.pptx"
+      ],
+      "sha": "1ba7a0df134f021fdff6c273807e9dc9189b19a2"
+    },
+    {
+      "canonical": "resources/Year 10/Chemical Sciences/PowerPoints/Chemistry 1/PPT-(EP) What are atoms, elements and compounds.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Chemistry 1/PPT-(EP) What are atoms, elements and compounds.pptx"
+      ],
+      "sha": "4ca864a064d65df3b7414c41e98fa6b59f126509"
+    },
+    {
       "canonical": "resources/Year 9/Chemical Sciences/PowerPoints/Chemistry II/PPT-(EP) Acid Reactions.pptx",
       "copies": [
-        "resources/Year 10/Chemical Sciences/PowerPoints/Chemistry II/PPT-(EP) Acid Reactions.pptx"
+        "resources/Year 10/Chemical Sciences/PowerPoints/Chemistry II/PPT-(EP) Acid Reactions.pptx",
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Chemistry II/PPT-(EP) Acid Reactions.pptx"
       ],
       "sha": "2daa0d841e790c5f6096a92332d1f49462144c96"
     },
     {
+      "canonical": "resources/Year 10/Chemical Sciences/PowerPoints/Chemistry II/PPT-(EP) Activation Energy, Temperature and Catalysts.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Chemistry II/PPT-(EP) Activation Energy, Temperature and Catalysts.pptx"
+      ],
+      "sha": "b1c36718fd372f8cfd7cd2783c36b825a5b3aaab"
+    },
+    {
+      "canonical": "resources/Year 10/Chemical Sciences/PowerPoints/Chemistry II/PPT-(EP) Agitation, Concentration and Surface Area.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Chemistry II/PPT-(EP) Agitation, Concentration and Surface Area.pptx"
+      ],
+      "sha": "6aaf97d82116d24a8f98865f3a9164a6cab46fe9"
+    },
+    {
+      "canonical": "resources/Year 10/Chemical Sciences/PowerPoints/Chemistry II/PPT-(EP) Alloys and Their Uses.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Chemistry II/PPT-(EP) Alloys and Their Uses.pptx"
+      ],
+      "sha": "1c3793beca4d868c945a58a7c42935eb1b8bcc69"
+    },
+    {
+      "canonical": "resources/Year 10/Chemical Sciences/PowerPoints/Chemistry II/PPT-(EP) Chemical Properties of Metals.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Chemistry II/PPT-(EP) Chemical Properties of Metals.pptx"
+      ],
+      "sha": "0ad725bc73accde3fa1a8a353dbb8c032675585b"
+    },
+    {
+      "canonical": "resources/Year 10/Chemical Sciences/PowerPoints/Chemistry II/PPT-(EP) Chemical reactions.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Chemistry II/PPT-(EP) Chemical reactions.pptx"
+      ],
+      "sha": "0d69172ad8a914c0abf13ca2d24c52b5f3192bdc"
+    },
+    {
+      "canonical": "resources/Year 10/Chemical Sciences/PowerPoints/Chemistry II/PPT-(EP) Metal Reactions with Acid.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Chemistry II/PPT-(EP) Metal Reactions with Acid.pptx"
+      ],
+      "sha": "a9014dfc7a52a539fb59cf27b0bd9d0a4c8c219b"
+    },
+    {
+      "canonical": "resources/Year 10/Chemical Sciences/PowerPoints/Chemistry II/PPT-(EP) Metal Reactions.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Chemistry II/PPT-(EP) Metal Reactions.pptx"
+      ],
+      "sha": "3dc2d88c449b673501552af8acfa4de1b7c88c9a"
+    },
+    {
+      "canonical": "resources/Year 10/Chemical Sciences/PowerPoints/Chemistry II/PPT-(EP) Rate Of Reaction.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Chemistry II/PPT-(EP) Rate Of Reaction.pptx"
+      ],
+      "sha": "f0fbb471d399fc2cb9b6cc94ab6bd239b45ec860"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/ESS/1. Big Bang.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/ESS/1. Big Bang.pptx"
+      ],
+      "sha": "339947ba53cf6bbb77dab1c87094f695f354fa6b"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/ESS/1. Evidence for the Big bang worksheet.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/ESS/1. Evidence for the Big bang worksheet.docx"
+      ],
+      "sha": "2feb44a22ae1a53cb7bb5961895a1aeed3acccf3"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/ESS/2. Celestial Bodies.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/ESS/2. Celestial Bodies.pptx"
+      ],
+      "sha": "3513a77d147daab7438e7907ae39abeef7e2fa64"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/ESS/3. Stars worksheet.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/ESS/3. Stars worksheet.docx"
+      ],
+      "sha": "349736af2e34daddceb02a56c952160c76be4d98"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/ESS/3. Stars worksheet.pdf",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/ESS/3. Stars worksheet.pdf",
+        "resources/Year 10/Science Inquiry/PowerPoints/Southern River/4_Earth and Space Science/Life Cycle of Stars/life cycle of a star.pdf"
+      ],
+      "sha": "4e5cbde02bceae79b5e7f66cbd8d1e2cd033e60d"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/ESS/3. Stars.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/ESS/3. Stars.pptx"
+      ],
+      "sha": "eb19aa95fe9dbb2061f5e4db9488348f6f6be1a4"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/ESS/4. Solar System Research Task Marking Checklist.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/ESS/4. Solar System Research Task Marking Checklist.docx"
+      ],
+      "sha": "585d07f013b2ac575ee0081e2ffac8a387119f73"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/ESS/4. Solar System Research Task.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/ESS/4. Solar System Research Task.docx"
+      ],
+      "sha": "b1af921b31f2e37804d04e71a2d73716e6095066"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/ESS/5. Earth systems worksheet.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/ESS/5. Earth systems worksheet.docx"
+      ],
+      "sha": "45e6fc9d5121c403a0318959e75f298d0be900db"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/ESS/Pearson Year 10 Activity Book Worksheets.pdf",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/ESS/Pearson Year 10 Activity Book Worksheets.pdf"
+      ],
+      "sha": "753513ee14b718c3f12bc66325ed73a2fcec6f23"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/ESS/Test 2 Revision Questions.doc",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/ESS/Test 2 Revision Questions.doc"
+      ],
+      "sha": "35add669d294f6bc0077702da55db6219a86aae8"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space 1/Article for q3 Climate and Weather.pdf",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space 1/Article for q3 Climate and Weather.pdf"
+      ],
+      "sha": "ad53e39a8b66dadb70aec8964de4cdfc0f885e72"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space 1/Climate and Weather.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space 1/Climate and Weather.docx"
+      ],
+      "sha": "18ab860c26a86ed29652a9c0483b242c9cf794fb"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space 1/Global Warming You can make the difference.doc",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space 1/Global Warming You can make the difference.doc"
+      ],
+      "sha": "9334238495edb2bc65260c464ab3cd263f18949e"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space 1/PPT-(EP) CFCs and the Ozone Layer.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space 1/PPT-(EP) CFCs and the Ozone Layer.docx"
+      ],
+      "sha": "fae1f076e92761dd1847c3f22e0e8305661e4c36"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space 1/PPT-(EP) CFCs and the Ozone Layer.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space 1/PPT-(EP) CFCs and the Ozone Layer.pptx"
+      ],
+      "sha": "b63bda728b0e7f827fc9867cb9846716b3f13932"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space 1/PPT-(EP) Carbon Cycle.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space 1/PPT-(EP) Carbon Cycle.docx"
+      ],
+      "sha": "498ea48cdb08ac75529574a8737be3a8add1c80e"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space 1/PPT-(EP) Carbon Cycle.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space 1/PPT-(EP) Carbon Cycle.pptx"
+      ],
+      "sha": "9c1e266364626bc7582b9480701fccdaae522206"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space 1/PPT-(EP) Climate Change and Biodiversity.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space 1/PPT-(EP) Climate Change and Biodiversity.docx"
+      ],
+      "sha": "e3a6f687d118b018e03d9329867f289310b14cac"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space 1/PPT-(EP) Climate Change and Biodiversity.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space 1/PPT-(EP) Climate Change and Biodiversity.pptx"
+      ],
+      "sha": "2e477b95bc04b2032a83471c6e45b61ed9ee6e02"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space 1/PPT-(EP) Climate and Weather.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space 1/PPT-(EP) Climate and Weather.docx"
+      ],
+      "sha": "456d2c5631909927e5e54371828e6524a91f8e57"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space 1/PPT-(EP) Climate and Weather.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space 1/PPT-(EP) Climate and Weather.pptx"
+      ],
+      "sha": "158ec27dc6128c9ae1f905ae40683be49e2ff7a3"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space 1/PPT-(EP) Disappearing Polar Ice.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space 1/PPT-(EP) Disappearing Polar Ice.docx"
+      ],
+      "sha": "1daa47722f46f2ce9adde0941e0f6940168d3562"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space 1/PPT-(EP) Disappearing Polar Ice.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space 1/PPT-(EP) Disappearing Polar Ice.pptx"
+      ],
+      "sha": "a0399fac6a0463ae90311140d4861e22cf90797f"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space 1/PPT-(EP) El Niño and La Niña.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space 1/PPT-(EP) El Niño and La Niña.docx"
+      ],
+      "sha": "1b9f4c7bf06ad05eb4934e1c684475148671ee22"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space 1/PPT-(EP) El Niño and La Niña.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space 1/PPT-(EP) El Niño and La Niña.pptx"
+      ],
+      "sha": "83bf5f4ebffed65c7bc363937db84887b304e47a"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space 1/PPT-(EP) Human Influences on Climate.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space 1/PPT-(EP) Human Influences on Climate.docx"
+      ],
+      "sha": "3124e4aca3570f49b334eafb95dee3b6a416c675"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space 1/PPT-(EP) Human Influences on Climate.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space 1/PPT-(EP) Human Influences on Climate.pptx"
+      ],
+      "sha": "7cb1c36d03f53fb5dec2e533a8346e6db47ad53c"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space 1/PPT-(EP) It's Getting Hot in Here.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space 1/PPT-(EP) It's Getting Hot in Here.docx"
+      ],
+      "sha": "2e7d64c0b5e041176bab8863749fbb95212056ea"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space 1/PPT-(EP) It’s Getting Hot in Here.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space 1/PPT-(EP) It’s Getting Hot in Here.pptx"
+      ],
+      "sha": "0cb508fe73b0cf52d77746af3221c49f9029ad9c"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space 1/PPT-(EP) Ocean Currents.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space 1/PPT-(EP) Ocean Currents.docx"
+      ],
+      "sha": "b680b932994f04ecde3a041c5269b9b19bc95d36"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space 1/PPT-(EP) Ocean Currents.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space 1/PPT-(EP) Ocean Currents.pptx"
+      ],
+      "sha": "7fda010d61db96638a739dcec268b4059b59c5d9"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space 1/PPT-(EP) Spheres.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space 1/PPT-(EP) Spheres.docx"
+      ],
+      "sha": "6ecda2fb44c42ea7000bdc7a7072733c1b66bd35"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space 1/PPT-(EP) Spheres.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space 1/PPT-(EP) Spheres.pptx"
+      ],
+      "sha": "c676effed1509fd49bcc3f60c9f444ee63cc1b9c"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space 1/PPT-(EP) The Enhanced Greenhouse Effect.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space 1/PPT-(EP) The Enhanced Greenhouse Effect.docx"
+      ],
+      "sha": "91bb39ab1efb65f97a655fa62c2148256e537790"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space 1/PPT-(EP) The Enhanced Greenhouse Effect.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space 1/PPT-(EP) The Enhanced Greenhouse Effect.pptx"
+      ],
+      "sha": "b4d89a3d52d3954f380457afc3c324cc70600d4d"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space 1/PPT-(EP) The Greenhouse Effect.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space 1/PPT-(EP) The Greenhouse Effect.docx"
+      ],
+      "sha": "f3c548162431d470eb9a5e11473f11baea14274f"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space 1/PPT-(EP) The Greenhouse Effect.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space 1/PPT-(EP) The Greenhouse Effect.pptx"
+      ],
+      "sha": "5b4e1e865547138cff3989270a31948717fe871a"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space 1/PPT-(EP) The Nitrogen Cycle.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space 1/PPT-(EP) The Nitrogen Cycle.docx"
+      ],
+      "sha": "3fb9d09ac054be5c72b139dec98fe7bff0ef172d"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space 1/PPT-(EP) The Nitrogen Cycle.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space 1/PPT-(EP) The Nitrogen Cycle.pptx"
+      ],
+      "sha": "fd1e3bb124032fa1757328bd823953f14121f70e"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space 1/PPT-(EP) The Water Cycle.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space 1/PPT-(EP) The Water Cycle.docx"
+      ],
+      "sha": "00790e32d83b0258045691560bba9ac4ecb26303"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space 1/PPT-(EP) The Water Cycle.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space 1/PPT-(EP) The Water Cycle.pptx"
+      ],
+      "sha": "67f257a470b2cdfbce00ce327b11e59ad16f09fc"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space 1/Spheres.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space 1/Spheres.docx"
+      ],
+      "sha": "313716e1af028e3c8e8492130c40a826e9ad7b79"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space 1/The Carbon Cycle.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space 1/The Carbon Cycle.docx"
+      ],
+      "sha": "82894ed22e698974ea6a628fd614f8102b422f39"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space 1/The Nitrogen Cycle.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space 1/The Nitrogen Cycle.docx"
+      ],
+      "sha": "9d18608793cfc19cdc1b5158192c8c394da3667c"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space 1/Water Cycle.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space 1/Water Cycle.docx"
+      ],
+      "sha": "42c24b97e1f8b59c1aabddf0c2d9df3af1fb2c0b"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space II/PPT-(EP) Comprehension- Black Holes.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space II/PPT-(EP) Comprehension- Black Holes.pptx"
+      ],
+      "sha": "4097e434f0275290741e4a6eb2097729cbf42120"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space II/PPT-(EP) Cosmic Background Radiation.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space II/PPT-(EP) Cosmic Background Radiation.pptx"
+      ],
+      "sha": "548996dd327b50bc19e288b0e9379a5d60f35b3e"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space II/PPT-(EP) End of the Universe.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space II/PPT-(EP) End of the Universe.pptx"
+      ],
+      "sha": "5c2d5c2f3d050b772ed138dfe832d4bb052e1b41"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space II/PPT-(EP) Gravity.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space II/PPT-(EP) Gravity.pptx"
+      ],
+      "sha": "ab95c1bf68b9893b2f283e190ac9bc8f7f6c081e"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space II/PPT-(EP) Heat and the Cosmic Microwave Background.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space II/PPT-(EP) Heat and the Cosmic Microwave Background.pptx"
+      ],
+      "sha": "112fbabb67747863bb586282edd0fd3a48e65504"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space II/PPT-(EP) Light Speed.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space II/PPT-(EP) Light Speed.pptx"
+      ],
+      "sha": "290662a58fd0bcb65c95a91ee94675f345966a2f"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space II/PPT-(EP) Parallax and Distance Between Stars.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space II/PPT-(EP) Parallax and Distance Between Stars.pptx"
+      ],
+      "sha": "0677c0fe0f4ab734c4e1279cf79ebbe7e062ff8e"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space II/PPT-(EP) Properties of Stars.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space II/PPT-(EP) Properties of Stars.pptx"
+      ],
+      "sha": "e9de03f81acfdfba714ade1d228eb108afeec5a6"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space II/PPT-(EP) Reading Hertzsprung-Russell Diagrams.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space II/PPT-(EP) Reading Hertzsprung-Russell Diagrams.pptx"
+      ],
+      "sha": "d8de657415a54c411d5543d95b2128af89cf9c3e"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space II/PPT-(EP) Red Shift.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space II/PPT-(EP) Red Shift.pptx"
+      ],
+      "sha": "70f121c873f7c799ec44569decc489761fbc8e96"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space II/PPT-(EP) The Big Bang Theory.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space II/PPT-(EP) The Big Bang Theory.pptx"
+      ],
+      "sha": "8a1480b66bef5fd6b0fe276db88f689481e5a731"
+    },
+    {
+      "canonical": "resources/Year 10/Earth and Space Sciences/PowerPoints/Earth and Space II/PPT-(EP) The Lifecycle of Stars.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Earth and Space II/PPT-(EP) The Lifecycle of Stars.pptx"
+      ],
+      "sha": "b9ef6c4d3811e3595a0e9088435bc33c20e5773b"
+    },
+    {
+      "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Phys/13 Experiment 7.5B Accelerating masses (only one set of equipment available).docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/13 Experiment 7.5B Accelerating masses (only one set of equipment available).docx"
+      ],
+      "sha": "e7e3c79de6f6f4a5d63af32fcc92e17cd7256f6f"
+    },
+    {
+      "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Phys/14 Newton's 3rd Law.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/14 Newton's 3rd Law.pptx"
+      ],
+      "sha": "3ef18d485976ec1a048a5882727396a7a611f705"
+    },
+    {
       "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Phys/15 Newtons Laws of Motion Questions (shortened) ANSWERS.docx",
       "copies": [
-        "resources/Year 10/Physical Sciences/PowerPoints/Phys/15 Newtons Laws of Motion Questions (shortened) ANSWERS - Copy.docx"
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/15 Newtons Laws of Motion Questions (shortened) ANSWERS.docx",
+        "resources/Year 10/Physical Sciences/PowerPoints/Phys/15 Newtons Laws of Motion Questions (shortened) ANSWERS - Copy.docx",
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/15 Newtons Laws of Motion Questions (shortened) ANSWERS - Copy.docx"
       ],
       "sha": "1159646465268e5292881bd4c7ad014f185eae09"
     },
     {
+      "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Phys/15 Newtons Laws of Motion Questions (shortened).docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/15 Newtons Laws of Motion Questions (shortened).docx"
+      ],
+      "sha": "70591c4ab4d1d1d412ae238b187ff5cc35dd690d"
+    },
+    {
+      "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Phys/15 Newtons Laws of Motion Questions.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/15 Newtons Laws of Motion Questions.docx"
+      ],
+      "sha": "3bb39dacdf3fe4ae39cad088b6a9536dd4c6ce12"
+    },
+    {
+      "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Phys/16 Year 10 revision booklet v2.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/16 Year 10 revision booklet v2.docx"
+      ],
+      "sha": "78a8e3da73561525f3f5d975611a6c3bc87a1e83"
+    },
+    {
+      "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Phys/16 Year 10 revision booklet.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/16 Year 10 revision booklet.docx"
+      ],
+      "sha": "60adda32d6698908a8e71b7a6e780eda664227f0"
+    },
+    {
       "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Phys/17 Potential and Kinetic Energy.pptx",
       "copies": [
-        "resources/Year 10/Physical Sciences/PowerPoints/Phys/17 Momentum is conserved in a collision.pptx"
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/17 Potential and Kinetic Energy.pptx",
+        "resources/Year 10/Physical Sciences/PowerPoints/Phys/17 Momentum is conserved in a collision.pptx",
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/17 Momentum is conserved in a collision.pptx"
       ],
       "sha": "33a4f48b057cc0cd359e63f8a2ba6f69d715923e"
     },
     {
+      "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Phys/17 Momentum is conserved in a collision1.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/17 Momentum is conserved in a collision1.pptx"
+      ],
+      "sha": "99737db0def63531840ff35143d2b95946d9d5b3"
+    },
+    {
       "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Phys/Energy is Always Conserved.pptx",
       "copies": [
-        "resources/Year 10/Physical Sciences/PowerPoints/Phys/18 Potential and Kinetic Energy Calculations Part 1.pptx"
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/Energy is Always Conserved.pptx",
+        "resources/Year 10/Physical Sciences/PowerPoints/Phys/18 Potential and Kinetic Energy Calculations Part 1.pptx",
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/18 Potential and Kinetic Energy Calculations Part 1.pptx"
       ],
       "sha": "982ce209e15d6823825eeeab62d05f4b6e1746ba"
     },
     {
+      "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Phys/18 Potential and Kinetic Energy Calculations Worksheet.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/18 Potential and Kinetic Energy Calculations Worksheet.docx"
+      ],
+      "sha": "638bad096e77465d76d36ed03c869f8928850193"
+    },
+    {
+      "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Phys/19 Extension Challenge Questions.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/19 Extension Challenge Questions.docx"
+      ],
+      "sha": "bcc02fcda6b5f85f1065c61d0fc58e3d90c8d5b5"
+    },
+    {
+      "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Phys/19 KE and PE calculation worksheet 2.pdf",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/19 KE and PE calculation worksheet 2.pdf"
+      ],
+      "sha": "1ad0d6b774b7ea066cee8df56c70bb6ba19661d6"
+    },
+    {
+      "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Phys/19 KE and PE calculation worksheet 3.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/19 KE and PE calculation worksheet 3.docx"
+      ],
+      "sha": "f2066df789c0d7f37998693acc8a1f754e8407c7"
+    },
+    {
+      "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Phys/19 KE and PE calculation worksheet 3.pdf",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/19 KE and PE calculation worksheet 3.pdf"
+      ],
+      "sha": "f43898108f43fbb662ad7758db6f0a92797d6ab6"
+    },
+    {
       "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Phys/19 Kinetic and Gravitational Potential Energy Problems.docx",
       "copies": [
-        "resources/Year 10/Physical Sciences/PowerPoints/Phys/Weeks 9 & 10/Week 9/19 Kinetic and Gravitational Potential Energy Problems.docx"
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/19 Kinetic and Gravitational Potential Energy Problems.docx",
+        "resources/Year 10/Physical Sciences/PowerPoints/Phys/Weeks 9 & 10/Week 9/19 Kinetic and Gravitational Potential Energy Problems.docx",
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/Weeks 9 & 10/Week 9/19 Kinetic and Gravitational Potential Energy Problems.docx"
       ],
       "sha": "0f93cc72b1c439a180faa8c0a297c794bfe4ef28"
     },
     {
       "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Phys/19 Potential and Kinetic Energy Calculations Part 2.pptx",
       "copies": [
-        "resources/Year 10/Physical Sciences/PowerPoints/Phys/Weeks 9 & 10/Week 9/19 Potential and Kinetic Energy Calculations Part 2.pptx"
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/19 Potential and Kinetic Energy Calculations Part 2.pptx",
+        "resources/Year 10/Physical Sciences/PowerPoints/Phys/Weeks 9 & 10/Week 9/19 Potential and Kinetic Energy Calculations Part 2.pptx",
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/Weeks 9 & 10/Week 9/19 Potential and Kinetic Energy Calculations Part 2.pptx"
       ],
       "sha": "bb25c955bc9959fc6bad7354b270413a55c1bada"
     },
     {
+      "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Phys/20 Work and Power Problems  ANSWERS(1).docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/20 Work and Power Problems  ANSWERS(1).docx"
+      ],
+      "sha": "56e6ce207c1a81209261c211fbe87908cfa0906c"
+    },
+    {
       "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Phys/20 Work and Power Problems.docx",
       "copies": [
-        "resources/Year 10/Physical Sciences/PowerPoints/Phys/Weeks 9 & 10/Week 9/20 Work and Power Problems.docx"
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/20 Work and Power Problems.docx",
+        "resources/Year 10/Physical Sciences/PowerPoints/Phys/Weeks 9 & 10/Week 9/20 Work and Power Problems.docx",
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/Weeks 9 & 10/Week 9/20 Work and Power Problems.docx"
       ],
       "sha": "fe8fd0ce28b6df5a266bcfe20c4035f39a6bfffd"
     },
@@ -30135,37 +31397,258 @@
       "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Phys/Work and Energy.pptx",
       "copies": [
         "resources/Year 10/Physical Sciences/PowerPoints/Phys/20 Work and Power.pptx",
-        "resources/Year 10/Physical Sciences/PowerPoints/Phys/Weeks 9 & 10/Week 9/20 Work and Power.pptx"
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/Work and Energy.pptx",
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/20 Work and Power.pptx",
+        "resources/Year 10/Physical Sciences/PowerPoints/Phys/Weeks 9 & 10/Week 9/20 Work and Power.pptx",
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/Weeks 9 & 10/Week 9/20 Work and Power.pptx"
       ],
       "sha": "8441ca6006cd3bada8a41e33d0b145f8939267ed"
     },
     {
+      "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Phys/20 Work and Power.zip",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/20 Work and Power.zip"
+      ],
+      "sha": "21f72c4d82a6370f1dc4004f78ed4cd57757012f"
+    },
+    {
+      "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Phys/20 Work worksheet.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/20 Work worksheet.docx"
+      ],
+      "sha": "b29ec89702475525615c2849aa10dd81e3348b22"
+    },
+    {
+      "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Phys/20 Work worksheet.pdf",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/20 Work worksheet.pdf"
+      ],
+      "sha": "a538ef843ef71ab999af30ce68c4e5fe5d10f8cd"
+    },
+    {
       "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Phys/21 Energy, Work and Power Worksheets.pdf",
       "copies": [
-        "resources/Year 10/Physical Sciences/PowerPoints/Phys/Weeks 9 & 10/Week 10/21 Energy, Work and Power Worksheets.pdf"
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/21 Energy, Work and Power Worksheets.pdf",
+        "resources/Year 10/Physical Sciences/PowerPoints/Phys/Weeks 9 & 10/Week 10/21 Energy, Work and Power Worksheets.pdf",
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/Weeks 9 & 10/Week 10/21 Energy, Work and Power Worksheets.pdf"
       ],
       "sha": "fa87db6d633b7f5d59fe3dba517ace65c5c7fae6"
     },
     {
       "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Phys/22 Road Statistics Graph Analysis.pdf",
       "copies": [
-        "resources/Year 10/Physical Sciences/PowerPoints/Phys/Weeks 9 & 10/Week 10/22 Road Statistics Graph Analysis.pdf"
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/22 Road Statistics Graph Analysis.pdf",
+        "resources/Year 10/Physical Sciences/PowerPoints/Phys/Weeks 9 & 10/Week 10/22 Road Statistics Graph Analysis.pdf",
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/Weeks 9 & 10/Week 10/22 Road Statistics Graph Analysis.pdf"
       ],
       "sha": "91f8ddc23b977ae86c9b2cd83f359649c3e63d2b"
     },
     {
+      "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Phys/6 Acceleration Calculation Answers.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/6 Acceleration Calculation Answers.docx"
+      ],
+      "sha": "39f6a14e3b463ed9e1caa3c1bf6265d10b983e9d"
+    },
+    {
+      "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Phys/8 Velocity Time Graphs.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/8 Velocity Time Graphs.pptx"
+      ],
+      "sha": "01303604902d79b6ff27bc8b2712f61ffb2546b1"
+    },
+    {
+      "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Phys/9 Motion Equations and Graphs Revision.docx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/9 Motion Equations and Graphs Revision.docx"
+      ],
+      "sha": "b93f24803e655ea0d003f146ad48fbdb4645a507"
+    },
+    {
+      "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Phys/9 Revision Worksheets - Motion Graphs.pdf",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/9 Revision Worksheets - Motion Graphs.pdf"
+      ],
+      "sha": "6357f536ba8e3fe72260c9e3dba1c3625bf8f781"
+    },
+    {
       "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Phys/Paper Rollercoasters short construction video.docx",
       "copies": [
-        "resources/Year 10/Physical Sciences/PowerPoints/Phys/Weeks 9 & 10/Week 10/Paper Rollercoasters short construction video.docx"
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/Paper Rollercoasters short construction video.docx",
+        "resources/Year 10/Physical Sciences/PowerPoints/Phys/Weeks 9 & 10/Week 10/Paper Rollercoasters short construction video.docx",
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/Weeks 9 & 10/Week 10/Paper Rollercoasters short construction video.docx"
       ],
       "sha": "54263055a7ea1f510a2c1198f544d366a3b54e92"
     },
     {
       "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Phys/paper-roller-coaster-template-v2.pdf",
       "copies": [
-        "resources/Year 10/Physical Sciences/PowerPoints/Phys/Weeks 9 & 10/Week 10/paper-roller-coaster-template-v2.pdf"
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/paper-roller-coaster-template-v2.pdf",
+        "resources/Year 10/Physical Sciences/PowerPoints/Phys/Weeks 9 & 10/Week 10/paper-roller-coaster-template-v2.pdf",
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/Weeks 9 & 10/Week 10/paper-roller-coaster-template-v2.pdf"
       ],
       "sha": "5be04c37852f9f17dcdcc50f50b7546cdbaa366c"
+    },
+    {
+      "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Phys/Weeks 9 & 10/Week 9/19 ANSWERS - Kinetic and Gravitational Potential Energy Problems.pdf",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/Weeks 9 & 10/Week 9/19 ANSWERS - Kinetic and Gravitational Potential Energy Problems.pdf"
+      ],
+      "sha": "08cc2400884fdf0480e2ccc7e675551da174fe76"
+    },
+    {
+      "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Phys/Weeks 9 & 10/Week 9/20 ANSWERS - Work and Power Problems.pdf",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/EDI Full/Phys/Weeks 9 & 10/Week 9/20 ANSWERS - Work and Power Problems.pdf"
+      ],
+      "sha": "26d533431e0cff6d3ee6e8350027a3b247c0379e"
+    },
+    {
+      "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Physics 1/CFU- Acceleration.pdf",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Physics 1/CFU- Acceleration.pdf"
+      ],
+      "sha": "81ea010e11ac8b796b313162561b4f66dd3aa24e"
+    },
+    {
+      "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Physics 1/CFU- Displacement.pdf",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Physics 1/CFU- Displacement.pdf"
+      ],
+      "sha": "effc84406f539b827d38afabcc552c147160abfd"
+    },
+    {
+      "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Physics 1/CFU- Motion Graphs.pdf",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Physics 1/CFU- Motion Graphs.pdf"
+      ],
+      "sha": "ec4bcd6bb1198effda166b1b4af827b1d17c06c6"
+    },
+    {
+      "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Physics 1/CFU- Newton's First Law.pdf",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Physics 1/CFU- Newton's First Law.pdf"
+      ],
+      "sha": "adcde1c9b4cac32cb50be59d43f69a979988fb61"
+    },
+    {
+      "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Physics 1/CFU- Newton's Second Law.pdf",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Physics 1/CFU- Newton's Second Law.pdf"
+      ],
+      "sha": "e117dfbbb66d1c3e100d626579502c0c044358b4"
+    },
+    {
+      "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Physics 1/CFU- Newton's Third Law.pdf",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Physics 1/CFU- Newton's Third Law.pdf"
+      ],
+      "sha": "2f82095f8e2f21568e5cdc3ffac2f8d3cc625fef"
+    },
+    {
+      "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Physics 1/CFU- Speed.pdf",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Physics 1/CFU- Speed.pdf"
+      ],
+      "sha": "5d623d6c7d9fdc46c368c93978bdc9733c5ca0f6"
+    },
+    {
+      "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Physics 1/PPT-(EP) Acceleration.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Physics 1/PPT-(EP) Acceleration.pptx"
+      ],
+      "sha": "ccf537807915a36f1d74d62fb835839815eba6db"
+    },
+    {
+      "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Physics 1/PPT-(EP) Calculating Displacement.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Physics 1/PPT-(EP) Calculating Displacement.pptx"
+      ],
+      "sha": "a990367f7d77e6532a6a6e6b1e427422e8af75ef"
+    },
+    {
+      "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Physics 1/PPT-(EP) Car Safety Systems.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Physics 1/PPT-(EP) Car Safety Systems.pptx"
+      ],
+      "sha": "d11b27bc64d61d911493e5faf1fad3cc291f23f6"
+    },
+    {
+      "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Physics 1/PPT-(EP) Displacement and Compasses.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Physics 1/PPT-(EP) Displacement and Compasses.pptx"
+      ],
+      "sha": "a0c337eef1f58a33ad527a4ab2fa28e7c7bd710e"
+    },
+    {
+      "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Physics 1/PPT-(EP) Distance and Time.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Physics 1/PPT-(EP) Distance and Time.pptx"
+      ],
+      "sha": "3e811077e56567c2771b0376684b01f06ae23bd4"
+    },
+    {
+      "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Physics 1/PPT-(EP) Motion Graphs.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Physics 1/PPT-(EP) Motion Graphs.pptx"
+      ],
+      "sha": "f120b41bbecb177447e65cd7b929f1a47fedaab0"
+    },
+    {
+      "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Physics 1/PPT-(EP) Newton’s First Law.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Physics 1/PPT-(EP) Newton’s First Law.pptx"
+      ],
+      "sha": "91b24f59573d6ad0cc4a47fa5938e0c9f54b51bd"
+    },
+    {
+      "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Physics 1/PPT-(EP) Newton’s Second Law.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Physics 1/PPT-(EP) Newton’s Second Law.pptx"
+      ],
+      "sha": "a084b4426250167b34468b65f44dbfdc9bbc106a"
+    },
+    {
+      "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Physics 1/PPT-(EP) Newton’s Third Law.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Physics 1/PPT-(EP) Newton’s Third Law.pptx"
+      ],
+      "sha": "69f81c37a0fe18cc719bdfca387c298e914cd23d"
+    },
+    {
+      "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Physics 1/PPT-(EP) Speed.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Physics 1/PPT-(EP) Speed.pptx"
+      ],
+      "sha": "04e5a649c428dc3c9b7ef2ec3829e721d2137d8c"
+    },
+    {
+      "canonical": "resources/Year 10/Physical Sciences/PowerPoints/Physics 1/PPT-(EP) Types of Energy.pptx",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Education Perfect/Physics 1/PPT-(EP) Types of Energy.pptx"
+      ],
+      "sha": "f04cc237b64b94e5e9e8d007982ea43e1a29b7b4"
+    },
+    {
+      "canonical": "resources/Year 10/Science Inquiry/PowerPoints/Southern River/1_Chemical Science/chemical bonding doodle notes.pdf",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Southern River/1_Chemical Science/bonding doodles/chemical bonding doodle notes.pdf"
+      ],
+      "sha": "9c566be48cf902be51cfb2501f6d4236a7fd5ee4"
+    },
+    {
+      "canonical": "resources/Year 10/Science Inquiry/PowerPoints/Southern River/1_Chemical Science/chemical bonding quiz.pdf",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Southern River/1_Chemical Science/bonding doodles/chemical bonding quiz.pdf"
+      ],
+      "sha": "2a7e1501e534941ac50003e841279fdba21b080c"
+    },
+    {
+      "canonical": "resources/Year 10/Science Inquiry/PowerPoints/Southern River/3_Physical Science/Energy Revision/Efficiency calculations worksheet.pdf",
+      "copies": [
+        "resources/Year 10/Science Inquiry/PowerPoints/Southern River/3_Physical Science/Energy Revision/Efficiency calculations worksheet key.pdf"
+      ],
+      "sha": "1899dd879efafdb80e3ab2231c3ed99cb92f7ff7"
     },
     {
       "canonical": "resources/Year 7/Biological Sciences/PowerPoints/PPT-(EP) MRS GREN.pptx",
@@ -34439,16 +35922,16 @@
     }
   ],
   "categories": {
-    "Assessments": 15549,
-    "Exams": 3566,
-    "Notes": 29,
-    "Other Resources": 1075,
-    "PowerPoints": 1760,
-    "Practicals": 96,
-    "Revision": 101,
+    "Assessments": 15592,
+    "Exams": 3573,
+    "Notes": 53,
+    "Other Resources": 1106,
+    "PowerPoints": 2037,
+    "Practicals": 130,
+    "Revision": 137,
     "Textbooks": 274,
     "Videos": 66,
-    "Worksheets": 782
+    "Worksheets": 863
   },
   "preservation": "Usable source paths are preserved. Exact duplicates display once; alternate contexts remain searchable. Zero-byte and temporary files are excluded. Original files are not renamed, so existing question-bank and download URLs continue working."
 }
