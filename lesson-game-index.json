@@ -1,12 +1,12 @@
 {
-  "version": "2026.10.17-tests-only-v1-b188",
-  "setCount": 1705,
+  "version": "2026.10.17-tests-only-v1-b191",
+  "setCount": 1706,
   "focusedLessons": 1293,
   "referenceTopics": 44,
   "examSets": 25,
   "questionsPerLessonSet": 20,
-  "uniqueQuestions": 7238,
-  "totalQuestionSlots": 29644,
+  "uniqueQuestions": 7257,
+  "totalQuestionSlots": 29663,
   "courses": [
     {
       "name": "Accounting and Finance ATAR",
@@ -160,7 +160,7 @@
       "lessonSets": 146,
       "referenceSets": 0,
       "examSets": 0,
-      "assessmentSets": 343
+      "assessmentSets": 344
     }
   ],
   "sets": [
@@ -27177,8 +27177,24 @@
       "pack": "science-source-assessment-games-batch175.json",
       "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=10&search=SCI-REPO-Y10-SBY-2017-CHEMEXTEND",
       "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    },
+    {
+      "id": "sci-repo-y10-aran-2014-phys1-mc-1",
+      "title": "Year 10 Science — Forces, work, energy and power (original source MC)",
+      "course": "Science",
+      "yearGroup": 10,
+      "unit": "Physical Sciences",
+      "parent": "Forces, work, energy and power",
+      "count": 19,
+      "kind": "assessment",
+      "assessmentCount": 19,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch191.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=10&search=SCI-REPO-Y10-ARAN-2014-PHYS1",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
     }
   ],
-  "assessmentSets": 343,
-  "assessmentQuestions": 2173
+  "assessmentSets": 344,
+  "assessmentQuestions": 2192
 }

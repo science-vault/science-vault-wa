@@ -1,0 +1,703 @@
+{
+  "batch": "repo-science-batch190",
+  "paperCount": 3,
+  "questionIds": [],
+  "questions": 0,
+  "multipleChoice": 0,
+  "writtenQuestions": 0,
+  "battleEligible": 0,
+  "marks": 0,
+  "reviewRequired": [],
+  "imageAudit": [],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2021/Year 7 Earth and Space 1 Test 2022.docx",
+      "sha": "40a9ab1ab1ec2ece106a4db6d12be984b60de936",
+      "year": 7,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2022/Year 7 Earth and Space 1 Test 2022.docx",
+      "sha": "4b077a4fe5dd4c96e9fc8e89f6a01faafe7b795d",
+      "year": 7,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2023/Year 7 Earth and Space 1 Test 2023.docx",
+      "sha": "721e58c11e154919547f604686529a1ae0124583",
+      "year": 7,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [],
+  "createdKeys": 0,
+  "createdSupplements": 0,
+  "notes": [
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
+  ],
+  "markAudit": {
+    "papers": 3,
+    "sourceMarks": 75,
+    "mappedResponses": 42
+  },
+  "duplicateQuestionAliases": [
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2021/Year 7 Earth and Space 1 Test 2022.docx",
+      "sourceFileSha": "40a9ab1ab1ec2ece106a4db6d12be984b60de936",
+      "sourceQuestionNumber": "WR01",
+      "sourceParagraphs": [
+        116
+      ],
+      "sourceMarks": 4,
+      "sourceType": "Diagram",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-WR01",
+      "reason": "Every Word body element compared with reviewed test;all embedded media hashes identical. Printed year and explicitly checked Sydney time variant only. No duplicate question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2021/Year 7 Earth and Space 1 Test 2022.docx",
+      "sourceFileSha": "40a9ab1ab1ec2ece106a4db6d12be984b60de936",
+      "sourceQuestionNumber": "WR03",
+      "sourceParagraphs": [
+        147
+      ],
+      "sourceMarks": 4,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-WR03",
+      "reason": "Every Word body element compared with reviewed test;all embedded media hashes identical. Printed year and explicitly checked Sydney time variant only. No duplicate question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2021/Year 7 Earth and Space 1 Test 2022.docx",
+      "sourceFileSha": "40a9ab1ab1ec2ece106a4db6d12be984b60de936",
+      "sourceQuestionNumber": "WR04",
+      "sourceParagraphs": [
+        157,
+        158
+      ],
+      "sourceMarks": 3,
+      "sourceType": "Diagram",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-WR04",
+      "reason": "Every Word body element compared with reviewed test;all embedded media hashes identical. Printed year and explicitly checked Sydney time variant only. No duplicate question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2021/Year 7 Earth and Space 1 Test 2022.docx",
+      "sourceFileSha": "40a9ab1ab1ec2ece106a4db6d12be984b60de936",
+      "sourceQuestionNumber": "1",
+      "sourceParagraphs": [
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC01",
+      "reason": "Every Word body element compared with reviewed test;all embedded media hashes identical. Printed year and explicitly checked Sydney time variant only. No duplicate question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2021/Year 7 Earth and Space 1 Test 2022.docx",
+      "sourceFileSha": "40a9ab1ab1ec2ece106a4db6d12be984b60de936",
+      "sourceQuestionNumber": "2",
+      "sourceParagraphs": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC02",
+      "reason": "Every Word body element compared with reviewed test;all embedded media hashes identical. Printed year and explicitly checked Sydney time variant only. No duplicate question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2021/Year 7 Earth and Space 1 Test 2022.docx",
+      "sourceFileSha": "40a9ab1ab1ec2ece106a4db6d12be984b60de936",
+      "sourceQuestionNumber": "3",
+      "sourceParagraphs": [
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC03",
+      "reason": "Every Word body element compared with reviewed test;all embedded media hashes identical. Printed year and explicitly checked Sydney time variant only. No duplicate question counted.",
+      "reviewSupplement": {
+        "answer": "Ambiguous source: B is false (sidereal orbit about27.3days; phases repeat about29.5days). C is also misleading: phases result from viewing different portions of the sunlit half. D overstates atmospheric protection against impacts. Teacher review required; accept justified corrections.",
+        "note": "Ambiguous source: B is false (sidereal orbit about27.3days; phases repeat about29.5days). C is also misleading: phases result from viewing different portions of the sunlit half. D overstates atmospheric protection against impacts. Teacher review required; accept justified corrections."
+      }
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2021/Year 7 Earth and Space 1 Test 2022.docx",
+      "sourceFileSha": "40a9ab1ab1ec2ece106a4db6d12be984b60de936",
+      "sourceQuestionNumber": "4",
+      "sourceParagraphs": [
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC04",
+      "reason": "Every Word body element compared with reviewed test;all embedded media hashes identical. Printed year and explicitly checked Sydney time variant only. No duplicate question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2021/Year 7 Earth and Space 1 Test 2022.docx",
+      "sourceFileSha": "40a9ab1ab1ec2ece106a4db6d12be984b60de936",
+      "sourceQuestionNumber": "5",
+      "sourceParagraphs": [
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC05",
+      "reason": "Every Word body element compared with reviewed test;all embedded media hashes identical. Printed year and explicitly checked Sydney time variant only. No duplicate question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2021/Year 7 Earth and Space 1 Test 2022.docx",
+      "sourceFileSha": "40a9ab1ab1ec2ece106a4db6d12be984b60de936",
+      "sourceQuestionNumber": "6",
+      "sourceParagraphs": [
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC06",
+      "reason": "Every Word body element compared with reviewed test;all embedded media hashes identical. Printed year and explicitly checked Sydney time variant only. No duplicate question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2021/Year 7 Earth and Space 1 Test 2022.docx",
+      "sourceFileSha": "40a9ab1ab1ec2ece106a4db6d12be984b60de936",
+      "sourceQuestionNumber": "7",
+      "sourceParagraphs": [
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC07",
+      "reason": "Every Word body element compared with reviewed test;all embedded media hashes identical. Printed year and explicitly checked Sydney time variant only. No duplicate question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2021/Year 7 Earth and Space 1 Test 2022.docx",
+      "sourceFileSha": "40a9ab1ab1ec2ece106a4db6d12be984b60de936",
+      "sourceQuestionNumber": "8",
+      "sourceParagraphs": [
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC08",
+      "reason": "Every Word body element compared with reviewed test;all embedded media hashes identical. Printed year and explicitly checked Sydney time variant only. No duplicate question counted.",
+      "reviewSupplement": {
+        "answer": "Source confuses meteorites with meteors. A and B describe meteors; meteorites are surviving material reaching the ground. More than one problematic option; manually moderate.",
+        "note": "Source confuses meteorites with meteors. A and B describe meteors; meteorites are surviving material reaching the ground. More than one problematic option; manually moderate."
+      }
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2021/Year 7 Earth and Space 1 Test 2022.docx",
+      "sourceFileSha": "40a9ab1ab1ec2ece106a4db6d12be984b60de936",
+      "sourceQuestionNumber": "9",
+      "sourceParagraphs": [
+        64,
+        65,
+        66,
+        67,
+        68
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC09",
+      "reason": "Every Word body element compared with reviewed test;all embedded media hashes identical. Printed year and explicitly checked Sydney time variant only. No duplicate question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2021/Year 7 Earth and Space 1 Test 2022.docx",
+      "sourceFileSha": "40a9ab1ab1ec2ece106a4db6d12be984b60de936",
+      "sourceQuestionNumber": "10",
+      "sourceParagraphs": [
+        76,
+        77,
+        78,
+        79,
+        80,
+        71,
+        73
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NARR-2018-ESS1-MC10",
+      "reason": "Every Word body element compared with reviewed test;all embedded media hashes identical. Printed year and explicitly checked Sydney time variant only. No duplicate question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2021/Year 7 Earth and Space 1 Test 2022.docx",
+      "sourceFileSha": "40a9ab1ab1ec2ece106a4db6d12be984b60de936",
+      "sourceQuestionNumber": "WR02",
+      "sourceParagraphs": [
+        137
+      ],
+      "sourceMarks": 4,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-NARR-2018-ESS1-timezones",
+      "reason": "Every Word body element compared with reviewed test;all embedded media hashes identical. Printed year and explicitly checked Sydney time variant only. No duplicate question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2022/Year 7 Earth and Space 1 Test 2022.docx",
+      "sourceFileSha": "4b077a4fe5dd4c96e9fc8e89f6a01faafe7b795d",
+      "sourceQuestionNumber": "WR01",
+      "sourceParagraphs": [
+        116
+      ],
+      "sourceMarks": 4,
+      "sourceType": "Diagram",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-WR01",
+      "reason": "Every Word body element compared with reviewed test;all embedded media hashes identical. Printed year and explicitly checked Sydney time variant only. No duplicate question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2022/Year 7 Earth and Space 1 Test 2022.docx",
+      "sourceFileSha": "4b077a4fe5dd4c96e9fc8e89f6a01faafe7b795d",
+      "sourceQuestionNumber": "WR03",
+      "sourceParagraphs": [
+        147
+      ],
+      "sourceMarks": 4,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-WR03",
+      "reason": "Every Word body element compared with reviewed test;all embedded media hashes identical. Printed year and explicitly checked Sydney time variant only. No duplicate question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2022/Year 7 Earth and Space 1 Test 2022.docx",
+      "sourceFileSha": "4b077a4fe5dd4c96e9fc8e89f6a01faafe7b795d",
+      "sourceQuestionNumber": "WR04",
+      "sourceParagraphs": [
+        157,
+        158
+      ],
+      "sourceMarks": 3,
+      "sourceType": "Diagram",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-WR04",
+      "reason": "Every Word body element compared with reviewed test;all embedded media hashes identical. Printed year and explicitly checked Sydney time variant only. No duplicate question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2022/Year 7 Earth and Space 1 Test 2022.docx",
+      "sourceFileSha": "4b077a4fe5dd4c96e9fc8e89f6a01faafe7b795d",
+      "sourceQuestionNumber": "1",
+      "sourceParagraphs": [
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC01",
+      "reason": "Every Word body element compared with reviewed test;all embedded media hashes identical. Printed year and explicitly checked Sydney time variant only. No duplicate question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2022/Year 7 Earth and Space 1 Test 2022.docx",
+      "sourceFileSha": "4b077a4fe5dd4c96e9fc8e89f6a01faafe7b795d",
+      "sourceQuestionNumber": "2",
+      "sourceParagraphs": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC02",
+      "reason": "Every Word body element compared with reviewed test;all embedded media hashes identical. Printed year and explicitly checked Sydney time variant only. No duplicate question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2022/Year 7 Earth and Space 1 Test 2022.docx",
+      "sourceFileSha": "4b077a4fe5dd4c96e9fc8e89f6a01faafe7b795d",
+      "sourceQuestionNumber": "3",
+      "sourceParagraphs": [
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC03",
+      "reason": "Every Word body element compared with reviewed test;all embedded media hashes identical. Printed year and explicitly checked Sydney time variant only. No duplicate question counted.",
+      "reviewSupplement": {
+        "answer": "Ambiguous source: B is false (sidereal orbit about27.3days; phases repeat about29.5days). C is also misleading: phases result from viewing different portions of the sunlit half. D overstates atmospheric protection against impacts. Teacher review required; accept justified corrections.",
+        "note": "Ambiguous source: B is false (sidereal orbit about27.3days; phases repeat about29.5days). C is also misleading: phases result from viewing different portions of the sunlit half. D overstates atmospheric protection against impacts. Teacher review required; accept justified corrections."
+      }
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2022/Year 7 Earth and Space 1 Test 2022.docx",
+      "sourceFileSha": "4b077a4fe5dd4c96e9fc8e89f6a01faafe7b795d",
+      "sourceQuestionNumber": "4",
+      "sourceParagraphs": [
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC04",
+      "reason": "Every Word body element compared with reviewed test;all embedded media hashes identical. Printed year and explicitly checked Sydney time variant only. No duplicate question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2022/Year 7 Earth and Space 1 Test 2022.docx",
+      "sourceFileSha": "4b077a4fe5dd4c96e9fc8e89f6a01faafe7b795d",
+      "sourceQuestionNumber": "5",
+      "sourceParagraphs": [
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC05",
+      "reason": "Every Word body element compared with reviewed test;all embedded media hashes identical. Printed year and explicitly checked Sydney time variant only. No duplicate question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2022/Year 7 Earth and Space 1 Test 2022.docx",
+      "sourceFileSha": "4b077a4fe5dd4c96e9fc8e89f6a01faafe7b795d",
+      "sourceQuestionNumber": "6",
+      "sourceParagraphs": [
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC06",
+      "reason": "Every Word body element compared with reviewed test;all embedded media hashes identical. Printed year and explicitly checked Sydney time variant only. No duplicate question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2022/Year 7 Earth and Space 1 Test 2022.docx",
+      "sourceFileSha": "4b077a4fe5dd4c96e9fc8e89f6a01faafe7b795d",
+      "sourceQuestionNumber": "7",
+      "sourceParagraphs": [
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC07",
+      "reason": "Every Word body element compared with reviewed test;all embedded media hashes identical. Printed year and explicitly checked Sydney time variant only. No duplicate question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2022/Year 7 Earth and Space 1 Test 2022.docx",
+      "sourceFileSha": "4b077a4fe5dd4c96e9fc8e89f6a01faafe7b795d",
+      "sourceQuestionNumber": "8",
+      "sourceParagraphs": [
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC08",
+      "reason": "Every Word body element compared with reviewed test;all embedded media hashes identical. Printed year and explicitly checked Sydney time variant only. No duplicate question counted.",
+      "reviewSupplement": {
+        "answer": "Source confuses meteorites with meteors. A and B describe meteors; meteorites are surviving material reaching the ground. More than one problematic option; manually moderate.",
+        "note": "Source confuses meteorites with meteors. A and B describe meteors; meteorites are surviving material reaching the ground. More than one problematic option; manually moderate."
+      }
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2022/Year 7 Earth and Space 1 Test 2022.docx",
+      "sourceFileSha": "4b077a4fe5dd4c96e9fc8e89f6a01faafe7b795d",
+      "sourceQuestionNumber": "9",
+      "sourceParagraphs": [
+        64,
+        65,
+        66,
+        67,
+        68
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC09",
+      "reason": "Every Word body element compared with reviewed test;all embedded media hashes identical. Printed year and explicitly checked Sydney time variant only. No duplicate question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2022/Year 7 Earth and Space 1 Test 2022.docx",
+      "sourceFileSha": "4b077a4fe5dd4c96e9fc8e89f6a01faafe7b795d",
+      "sourceQuestionNumber": "10",
+      "sourceParagraphs": [
+        76,
+        77,
+        78,
+        79,
+        80,
+        71,
+        73
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NARR-2018-ESS1-MC10",
+      "reason": "Every Word body element compared with reviewed test;all embedded media hashes identical. Printed year and explicitly checked Sydney time variant only. No duplicate question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2022/Year 7 Earth and Space 1 Test 2022.docx",
+      "sourceFileSha": "4b077a4fe5dd4c96e9fc8e89f6a01faafe7b795d",
+      "sourceQuestionNumber": "WR02",
+      "sourceParagraphs": [
+        137
+      ],
+      "sourceMarks": 4,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-WR02",
+      "reason": "Every Word body element compared with reviewed test;all embedded media hashes identical. Printed year and explicitly checked Sydney time variant only. No duplicate question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2023/Year 7 Earth and Space 1 Test 2023.docx",
+      "sourceFileSha": "721e58c11e154919547f604686529a1ae0124583",
+      "sourceQuestionNumber": "WR01",
+      "sourceParagraphs": [
+        116
+      ],
+      "sourceMarks": 4,
+      "sourceType": "Diagram",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-WR01",
+      "reason": "Every Word body element compared with reviewed test;all embedded media hashes identical. Printed year and explicitly checked Sydney time variant only. No duplicate question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2023/Year 7 Earth and Space 1 Test 2023.docx",
+      "sourceFileSha": "721e58c11e154919547f604686529a1ae0124583",
+      "sourceQuestionNumber": "WR03",
+      "sourceParagraphs": [
+        147
+      ],
+      "sourceMarks": 4,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-WR03",
+      "reason": "Every Word body element compared with reviewed test;all embedded media hashes identical. Printed year and explicitly checked Sydney time variant only. No duplicate question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2023/Year 7 Earth and Space 1 Test 2023.docx",
+      "sourceFileSha": "721e58c11e154919547f604686529a1ae0124583",
+      "sourceQuestionNumber": "WR04",
+      "sourceParagraphs": [
+        157,
+        158
+      ],
+      "sourceMarks": 3,
+      "sourceType": "Diagram",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-WR04",
+      "reason": "Every Word body element compared with reviewed test;all embedded media hashes identical. Printed year and explicitly checked Sydney time variant only. No duplicate question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2023/Year 7 Earth and Space 1 Test 2023.docx",
+      "sourceFileSha": "721e58c11e154919547f604686529a1ae0124583",
+      "sourceQuestionNumber": "1",
+      "sourceParagraphs": [
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC01",
+      "reason": "Every Word body element compared with reviewed test;all embedded media hashes identical. Printed year and explicitly checked Sydney time variant only. No duplicate question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2023/Year 7 Earth and Space 1 Test 2023.docx",
+      "sourceFileSha": "721e58c11e154919547f604686529a1ae0124583",
+      "sourceQuestionNumber": "2",
+      "sourceParagraphs": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC02",
+      "reason": "Every Word body element compared with reviewed test;all embedded media hashes identical. Printed year and explicitly checked Sydney time variant only. No duplicate question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2023/Year 7 Earth and Space 1 Test 2023.docx",
+      "sourceFileSha": "721e58c11e154919547f604686529a1ae0124583",
+      "sourceQuestionNumber": "3",
+      "sourceParagraphs": [
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC03",
+      "reason": "Every Word body element compared with reviewed test;all embedded media hashes identical. Printed year and explicitly checked Sydney time variant only. No duplicate question counted.",
+      "reviewSupplement": {
+        "answer": "Ambiguous source: B is false (sidereal orbit about27.3days; phases repeat about29.5days). C is also misleading: phases result from viewing different portions of the sunlit half. D overstates atmospheric protection against impacts. Teacher review required; accept justified corrections.",
+        "note": "Ambiguous source: B is false (sidereal orbit about27.3days; phases repeat about29.5days). C is also misleading: phases result from viewing different portions of the sunlit half. D overstates atmospheric protection against impacts. Teacher review required; accept justified corrections."
+      }
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2023/Year 7 Earth and Space 1 Test 2023.docx",
+      "sourceFileSha": "721e58c11e154919547f604686529a1ae0124583",
+      "sourceQuestionNumber": "4",
+      "sourceParagraphs": [
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC04",
+      "reason": "Every Word body element compared with reviewed test;all embedded media hashes identical. Printed year and explicitly checked Sydney time variant only. No duplicate question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2023/Year 7 Earth and Space 1 Test 2023.docx",
+      "sourceFileSha": "721e58c11e154919547f604686529a1ae0124583",
+      "sourceQuestionNumber": "5",
+      "sourceParagraphs": [
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC05",
+      "reason": "Every Word body element compared with reviewed test;all embedded media hashes identical. Printed year and explicitly checked Sydney time variant only. No duplicate question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2023/Year 7 Earth and Space 1 Test 2023.docx",
+      "sourceFileSha": "721e58c11e154919547f604686529a1ae0124583",
+      "sourceQuestionNumber": "6",
+      "sourceParagraphs": [
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC06",
+      "reason": "Every Word body element compared with reviewed test;all embedded media hashes identical. Printed year and explicitly checked Sydney time variant only. No duplicate question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2023/Year 7 Earth and Space 1 Test 2023.docx",
+      "sourceFileSha": "721e58c11e154919547f604686529a1ae0124583",
+      "sourceQuestionNumber": "7",
+      "sourceParagraphs": [
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC07",
+      "reason": "Every Word body element compared with reviewed test;all embedded media hashes identical. Printed year and explicitly checked Sydney time variant only. No duplicate question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2023/Year 7 Earth and Space 1 Test 2023.docx",
+      "sourceFileSha": "721e58c11e154919547f604686529a1ae0124583",
+      "sourceQuestionNumber": "8",
+      "sourceParagraphs": [
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC08",
+      "reason": "Every Word body element compared with reviewed test;all embedded media hashes identical. Printed year and explicitly checked Sydney time variant only. No duplicate question counted.",
+      "reviewSupplement": {
+        "answer": "Source confuses meteorites with meteors. A and B describe meteors; meteorites are surviving material reaching the ground. More than one problematic option; manually moderate.",
+        "note": "Source confuses meteorites with meteors. A and B describe meteors; meteorites are surviving material reaching the ground. More than one problematic option; manually moderate."
+      }
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2023/Year 7 Earth and Space 1 Test 2023.docx",
+      "sourceFileSha": "721e58c11e154919547f604686529a1ae0124583",
+      "sourceQuestionNumber": "9",
+      "sourceParagraphs": [
+        64,
+        65,
+        66,
+        67,
+        68
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-MC09",
+      "reason": "Every Word body element compared with reviewed test;all embedded media hashes identical. Printed year and explicitly checked Sydney time variant only. No duplicate question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2023/Year 7 Earth and Space 1 Test 2023.docx",
+      "sourceFileSha": "721e58c11e154919547f604686529a1ae0124583",
+      "sourceQuestionNumber": "10",
+      "sourceParagraphs": [
+        76,
+        77,
+        78,
+        79,
+        80,
+        71,
+        73
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y7-NARR-2018-ESS1-MC10",
+      "reason": "Every Word body element compared with reviewed test;all embedded media hashes identical. Printed year and explicitly checked Sydney time variant only. No duplicate question counted."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Earth and Space Sciences/Narrogin/2023/Year 7 Earth and Space 1 Test 2023.docx",
+      "sourceFileSha": "721e58c11e154919547f604686529a1ae0124583",
+      "sourceQuestionNumber": "WR02",
+      "sourceParagraphs": [
+        137
+      ],
+      "sourceMarks": 4,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y7-NAR-2024-EARTH-WR02",
+      "reason": "Every Word body element compared with reviewed test;all embedded media hashes identical. Printed year and explicitly checked Sydney time variant only. No duplicate question counted."
+    }
+  ],
+  "sourceScope": "2026.10.17-tests-only-v1-b191"
+}

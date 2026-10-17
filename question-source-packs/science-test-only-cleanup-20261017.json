@@ -1,9 +1,9 @@
 {
   "policy": "Only verified quizzes,tests and examinations. Source material files remain unchanged;extracted question records are removed from the database and battle packs.",
-  "version": "2026.10.17-tests-only-v1-b188",
-  "before": 4115,
+  "version": "2026.10.17-tests-only-v1-b191",
+  "before": 4150,
   "removed": 1998,
-  "retained": 2117,
+  "retained": 2152,
   "promotedFromVerifiedTestEquivalents": [
     {
       "id": "SCI-REPO-Y8-SBY-2023-PHYSCHEMFORM-B2",

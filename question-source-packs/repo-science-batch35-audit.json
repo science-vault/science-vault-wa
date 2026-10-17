@@ -72,5 +72,5 @@
       "reason": "Same DNA full-name prompt already imported. This source allocates2 marks, whereas the existing bank version allocates1; source mark variation preserved here rather than counting a duplicate prompt."
     }
   ],
-  "sourceScope": "2026.10.17-tests-only-v1-b188"
+  "sourceScope": "2026.10.17-tests-only-v1-b191"
 }

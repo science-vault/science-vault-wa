@@ -292,5 +292,5 @@
       "reason": "Strict complete-content equivalence verified,including text,table shading/structure,images,native drawings andmath;allnonempty source locators mapped. No extra question counted."
     }
   ],
-  "sourceScope": "2026.10.17-tests-only-v1-b188"
+  "sourceScope": "2026.10.17-tests-only-v1-b191"
 }
