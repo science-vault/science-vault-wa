@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.17-tests-only-v1-b212",
+  "version": "2026.10.17-tests-only-v1-b213",
   "scope": "Quizzes,tests and exams only",
   "excludedQuestionIds": [
     "SCI-REPO-Y7-ARAN-BICYCLEFRICTION-project",
@@ -2056,6 +2056,7 @@
     "resources/Assessments/Lowerschool/Year 10/Science/Physics/Narrogin/2021/Task 6 Physics 1 PREATAR Test 1 Motion and Energy.docx",
     "resources/Assessments/Lowerschool/Year 10/Science/Physics/Narrogin/2022/Task 6 Physics 1 General Test Motion and energy.docx",
     "resources/Assessments/Lowerschool/Year 10/Science/Physics/Narrogin/2023/Task 5 Forces Motion and Energy TEST.docx",
+    "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/Year 10 Exam  10.3-10.7 Part 2.docx",
     "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2020/Physics Investigation Validation Test 2020.docx",
     "resources/Assessments/Lowerschool/Year 10/Science/Psychology Elective/Safety Bay/2024/Assessments/Task 1 Introduction to Psychology Quiz (WIP).docx",
     "resources/Assessments/Lowerschool/Year 10/Science/Sport Science/Safety Bay/2017/YEAR 10 SPORT SCIENCE TEST.docx",

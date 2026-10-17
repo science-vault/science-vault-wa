@@ -1,12 +1,12 @@
 {
-  "version": "2026.10.17-tests-only-v1-b212",
-  "setCount": 1728,
+  "version": "2026.10.17-tests-only-v1-b213",
+  "setCount": 1729,
   "focusedLessons": 1293,
   "referenceTopics": 44,
   "examSets": 25,
   "questionsPerLessonSet": 20,
-  "uniqueQuestions": 7410,
-  "totalQuestionSlots": 29816,
+  "uniqueQuestions": 7413,
+  "totalQuestionSlots": 29819,
   "courses": [
     {
       "name": "Accounting and Finance ATAR",
@@ -160,7 +160,7 @@
       "lessonSets": 146,
       "referenceSets": 0,
       "examSets": 0,
-      "assessmentSets": 366
+      "assessmentSets": 367
     }
   ],
   "sets": [
@@ -27545,8 +27545,24 @@
       "pack": "science-source-assessment-games-batch212.json",
       "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=8&search=SCI-REPO-Y8-ARAN-BIOEND-ELISA",
       "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    },
+    {
+      "id": "sci-repo-y10-sby-2018-sem1-part2-mc-1",
+      "title": "Year 10 Science — Semester 1 mixed science exam, Part 2 (original source MC)",
+      "course": "Science",
+      "yearGroup": 10,
+      "unit": "Science",
+      "parent": "Semester 1 mixed science exam, Part 2",
+      "count": 3,
+      "kind": "assessment",
+      "assessmentCount": 3,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch213.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=10&search=SCI-REPO-Y10-SBY-2018-SEM1-PART2",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
     }
   ],
-  "assessmentSets": 366,
-  "assessmentQuestions": 2345
+  "assessmentSets": 367,
+  "assessmentQuestions": 2348
 }

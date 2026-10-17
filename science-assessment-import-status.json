@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.17-tests-only-v1-b212",
+  "version": "2026.10.17-tests-only-v1-b213",
   "status": "in_progress",
   "scope": "Original Science assessment files in repository, Years 7–10. File counts include keys and supporting materials; they are not question counts.",
   "inventoryFiles": 2009,
@@ -11,11 +11,11 @@
     "9": 457,
     "10": 582
   },
-  "importedPapers": 184,
-  "importedQuestions": 2579,
-  "multipleChoice": 1085,
-  "writtenQuestions": 1494,
-  "battleEligibleQuestions": 936,
+  "importedPapers": 185,
+  "importedQuestions": 2589,
+  "multipleChoice": 1088,
+  "writtenQuestions": 1501,
+  "battleEligibleQuestions": 939,
   "reviewRequired": [
     {
       "id": "SCI-REPO-Y8-ARAN-BIOEND-ELISA-MC16",
@@ -27702,6 +27702,82 @@
         "missingPrintedQuestion": 4
       },
       "duplicateQuestionAliases": []
+    },
+    {
+      "id": "repo-science-batch213",
+      "questionIds": [
+        "SCI-REPO-Y10-SBY-2018-SEM1-PART2-MC03",
+        "SCI-REPO-Y10-SBY-2018-SEM1-PART2-MC04",
+        "SCI-REPO-Y10-SBY-2018-SEM1-PART2-MC05",
+        "SCI-REPO-Y10-SBY-2018-SEM1-PART2-1",
+        "SCI-REPO-Y10-SBY-2018-SEM1-PART2-2a",
+        "SCI-REPO-Y10-SBY-2018-SEM1-PART2-2b",
+        "SCI-REPO-Y10-SBY-2018-SEM1-PART2-3a",
+        "SCI-REPO-Y10-SBY-2018-SEM1-PART2-3b",
+        "SCI-REPO-Y10-SBY-2018-SEM1-PART2-4a",
+        "SCI-REPO-Y10-SBY-2018-SEM1-PART2-4b"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/Year 10 Exam  10.3-10.7 Part 2.docx",
+          "sha": "ce33cf3f78718d02cd1a578557eb961c66e42c5d",
+          "year": 10,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/ANSWERS Year 10 Exam  10.3-10.7 Part 2.docx",
+          "sha": "536c4042e9a14d9b0886a0edfedd4a1134e3e80e",
+          "year": 10,
+          "role": "key_reference",
+          "reviewComplete": true
+        }
+      ],
+      "questions": 10,
+      "marks": 25,
+      "imageAudit": "question-source-packs/repo-science-batch213-audit.json",
+      "notes": [
+        "Complete27mark mixed science examination reviewed against its matching supplied key. Original sprint displacement graph retained. Correct source graph axes followed rather than the reversed key illustration;unit-conversion marking error qualified. Four tabulated balls,not five as stated in the source."
+      ],
+      "markAudit": {
+        "sourceTotal": 27,
+        "multipleChoice": 5,
+        "written": 22,
+        "matchingKeyReviewed": true
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/Year 10 Exam  10.3-10.7 Part 2.docx",
+          "sourceFileSha": "ce33cf3f78718d02cd1a578557eb961c66e42c5d",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            40,
+            41,
+            42,
+            43,
+            44
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC10",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/Year 10 Exam  10.3-10.7 Part 2.docx",
+          "sourceFileSha": "ce33cf3f78718d02cd1a578557eb961c66e42c5d",
+          "sourceQuestionNumber": "2",
+          "sourceParagraphs": [
+            46,
+            47,
+            48,
+            49,
+            50
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC04",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
     }
   ],
   "files": [
@@ -44430,7 +44506,7 @@
       "sha": "536c4042e9a14d9b0886a0edfedd4a1134e3e80e",
       "year": 10,
       "size": 209327,
-      "status": "pending",
+      "status": "reviewed_key_reference",
       "duplicateOf": null
     },
     {
@@ -44504,7 +44580,7 @@
       "sha": "ce33cf3f78718d02cd1a578557eb961c66e42c5d",
       "year": 10,
       "size": 216823,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -45030,8 +45106,8 @@
       "duplicateOf": null
     }
   ],
-  "learningVaultCreatedKeySupplements": 1445,
-  "remainingUniqueFileBlobs": 531,
+  "learningVaultCreatedKeySupplements": 1455,
+  "remainingUniqueFileBlobs": 529,
   "learningVaultCreatedKeys": 2834,
   "blockedSources": [
     {
@@ -45244,7 +45320,7 @@
     "ocrPages": 1175,
     "ocrTextVerified": false
   },
-  "distinctSourceAndKeyReferences": 469,
+  "distinctSourceAndKeyReferences": 471,
   "unscoredQuestionsPreserved": 1,
   "activeAdditionalQuestionRequest": {
     "requestedAdditionalQuestions": 1000,
@@ -45260,9 +45336,9 @@
     "requestedAt": "2026-10-17",
     "scope": "Years7–10Science quizzes,tests and exams only. No investigation/experiment reports,assignments,revision worksheets or standalone marking rubrics.",
     "status": "in_progress",
-    "retainedImportedQuestions": 2579,
+    "retainedImportedQuestions": 2589,
     "startingImportedQuestions": 2117,
-    "addedQuestions": 462,
+    "addedQuestions": 472,
     "completionRule": "Every eligible quiz,test and exam reviewed;unverified source types require review before admission."
   },
   "sourceInventoryExclusions": {
@@ -45279,7 +45355,7 @@
     "countedAsQuestions": false
   },
   "missingReferencedMaterial": [],
-  "reviewedDistinctSourceBlobs": 494,
+  "reviewedDistinctSourceBlobs": 496,
   "inventoryCountBasis": "Remaining unique file blobs counts pending or key-reference-pending identities, including protected inputs; it is not a remaining-paper or remaining-question estimate.",
   "canonicalUniverseReviewRepair": {
     "questionIds": [
@@ -45343,10 +45419,10 @@
     "audit": "question-source-packs/repo-science-legacy-reaction-review.json"
   },
   "sourceTypeCleanup": {
-    "version": "2026.10.17-tests-only-v1-b212",
-    "questionsBefore": 4589,
+    "version": "2026.10.17-tests-only-v1-b213",
+    "questionsBefore": 4599,
     "questionsRemoved": 2010,
-    "questionsRetained": 2579,
+    "questionsRetained": 2589,
     "equivalentTestQuestionsPreserved": 21,
     "battleQuestionSlotsRemoved": 16,
     "audit": "question-source-packs/science-test-only-cleanup-20261017.json",
@@ -45356,7 +45432,7 @@
     "date": "2026-10-17",
     "restoredOriginalVisuals": 4,
     "removedMissingRequiredMaterial": 13,
-    "checkedUniqueImageAssets": 414,
+    "checkedUniqueImageAssets": 415,
     "brokenImages": 0,
     "blankImages": 0,
     "audit": "question-source-packs/science-question-visual-audit-20261017.json"

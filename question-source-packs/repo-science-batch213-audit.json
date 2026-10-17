@@ -1,0 +1,113 @@
+{
+  "batch": "repo-science-batch213",
+  "paperCount": 1,
+  "questionIds": [
+    "SCI-REPO-Y10-SBY-2018-SEM1-PART2-MC03",
+    "SCI-REPO-Y10-SBY-2018-SEM1-PART2-MC04",
+    "SCI-REPO-Y10-SBY-2018-SEM1-PART2-MC05",
+    "SCI-REPO-Y10-SBY-2018-SEM1-PART2-1",
+    "SCI-REPO-Y10-SBY-2018-SEM1-PART2-2a",
+    "SCI-REPO-Y10-SBY-2018-SEM1-PART2-2b",
+    "SCI-REPO-Y10-SBY-2018-SEM1-PART2-3a",
+    "SCI-REPO-Y10-SBY-2018-SEM1-PART2-3b",
+    "SCI-REPO-Y10-SBY-2018-SEM1-PART2-4a",
+    "SCI-REPO-Y10-SBY-2018-SEM1-PART2-4b"
+  ],
+  "questions": 10,
+  "multipleChoice": 3,
+  "writtenQuestions": 7,
+  "battleEligible": 3,
+  "marks": 25,
+  "reviewRequired": [],
+  "imageAudit": [
+    {
+      "id": "e494-image3",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/Year 10 Exam  10.3-10.7 Part 2.docx",
+      "embeddedImage": "word/media/image3.jpeg",
+      "sha256": "f715679a3d48a79f886cf88314d323715041f9e76a8f3553bfbe938f36ab93f4",
+      "publishedSha256": "0db45d0450d48963f767c9e4bfb5b9e74b93d8b1d0a408c4eab9d74c1fe8f29d",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/Year 10 Exam  10.3-10.7 Part 2.docx",
+      "sha": "ce33cf3f78718d02cd1a578557eb961c66e42c5d",
+      "year": 10,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/ANSWERS Year 10 Exam  10.3-10.7 Part 2.docx",
+      "sha": "536c4042e9a14d9b0886a0edfedd4a1134e3e80e",
+      "year": 10,
+      "role": "key_reference",
+      "reviewComplete": true
+    }
+  ],
+  "gameMeta": [
+    {
+      "id": "sci-repo-y10-sby-2018-sem1-part2-mc-1",
+      "title": "Year 10 Science — Semester 1 mixed science exam, Part 2 (original source MC)",
+      "course": "Science",
+      "yearGroup": 10,
+      "unit": "Science",
+      "parent": "Semester 1 mixed science exam, Part 2",
+      "count": 3,
+      "kind": "assessment",
+      "assessmentCount": 3,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch213.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=10&search=SCI-REPO-Y10-SBY-2018-SEM1-PART2",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    }
+  ],
+  "createdKeys": 0,
+  "createdSupplements": 10,
+  "notes": [
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
+  ],
+  "markAudit": {
+    "sourceTotal": 27,
+    "multipleChoice": 5,
+    "written": 22,
+    "matchingKeyReviewed": true
+  },
+  "duplicateQuestionAliases": [
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/Year 10 Exam  10.3-10.7 Part 2.docx",
+      "sourceFileSha": "ce33cf3f78718d02cd1a578557eb961c66e42c5d",
+      "sourceQuestionNumber": "1",
+      "sourceParagraphs": [
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC10",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Physics/Safety Bay/2018/Year 10 Exam  10.3-10.7 Part 2.docx",
+      "sourceFileSha": "ce33cf3f78718d02cd1a578557eb961c66e42c5d",
+      "sourceQuestionNumber": "2",
+      "sourceParagraphs": [
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-SBY-2017-EXT-MC04",
+      "reason": "Equivalent source question already present; not added or counted again."
+    }
+  ],
+  "sourceScope": "2026.10.17-tests-only-v1-b202"
+}

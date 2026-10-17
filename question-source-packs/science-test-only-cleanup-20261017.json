@@ -1,9 +1,9 @@
 {
   "policy": "Only verified quizzes,tests and examinations. Source material files remain unchanged;extracted question records are removed from the database and battle packs.",
-  "version": "2026.10.17-tests-only-v1-b212",
-  "before": 4589,
+  "version": "2026.10.17-tests-only-v1-b213",
+  "before": 4599,
   "removed": 2010,
-  "retained": 2579,
+  "retained": 2589,
   "promotedFromVerifiedTestEquivalents": [
     {
       "id": "SCI-REPO-Y10-SBY-2018-CHEMEXTRAS-MC02",
