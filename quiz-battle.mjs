@@ -3,7 +3,7 @@ import {canOpenPage} from './access-policy.mjs?v=2026.10.9-classes';
 import {myClasses} from './class-client.mjs?v=2026.10.14-league1';
 import {STARTERS,TEAMS,esc,validateDeck,parsePaste,points,teamScores,questionContent} from './quiz-battle-core.mjs?v=2026.10.15-lower-complete1';
 import {mediaMarkup,prepareMedia,preloadQuestionMedia,preloadSetMedia} from './quiz-battle-media.mjs?v=2026.10.15-lower-complete1';
-import {mountLessonGames,lessonGameIndex,lessonGameSet} from './lesson-game-library.mjs?v=2026.10.17-tests-only-v1-b218';
+import {mountLessonGames,lessonGameIndex,lessonGameSet} from './lesson-game-library.mjs?v=2026.10.17-tests-only-v1-b220';
 import * as cloud from './quiz-battle-cloud.mjs?v=2026.10.15-lower-complete1';
 const $=id=>document.getElementById(id),arena=$('arena'),status=$('battleStatus');
 const SUBJECTS=['Science','Physics ATAR','Chemistry ATAR','Biology ATAR','Human Biology ATAR','Psychology ATAR','Geography ATAR','Mathematics Methods ATAR','Mathematics Applications ATAR','Mathematics Specialist ATAR','Business Management and Enterprise ATAR','Accounting and Finance ATAR','English ATAR','Physical Education Studies ATAR'];

@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.17-tests-only-v1-b218",
+  "version": "2026.10.17-tests-only-v1-b220",
   "scope": "Quizzes,tests and exams only",
   "excludedQuestionIds": [
     "SCI-REPO-Y10-ARAN-TICKERSURFACE-320-title",
@@ -2029,6 +2029,8 @@
     "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2011 10 GENERAL CHEMISTRY TEST.docx",
     "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2011 10 GENERAL CHEMISTRY TOPIC TEST.docx",
     "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2013 10 ELEMENTS TEST.docx",
+    "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+    "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2015 10 GENERAL SCIENCE CHEMISTRY L2 TEST TWO.docx",
     "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2015 ESL 10 SCIENCE topic test 2.docx",
     "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 3 Chemistry 1/Task 4 Chemistry 1 Test Reformatted for general 2020.docx",
     "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Narrogin/2020/Topic 6 Chemistry 2/10 7 Chemistry 2 GENERAL Test Chemical reactions 2020.docx",
@@ -2103,6 +2105,7 @@
     "resources/Assessments/Lowerschool/Year 7/Science/Investigating Science/Safety Bay/2018/Test - midtopic.docx",
     "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Aranmore/Forces Test.docx",
     "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Narrogin/2023/Physics 1 - Test Forces+Simple Machines.docx",
+    "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Safety bay/2018/YEAR 7 SIMPLE MACHINES TEST.docx",
     "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Unknown School/End topic test Physical Science Year 7.docx",
     "resources/Assessments/Lowerschool/Year 8/Science/Biological Sciences/Aranmore/Cell Vocab Mini Test.docx",
     "resources/Assessments/Lowerschool/Year 8/Science/Biological Sciences/Aranmore/End of Topic Test Year 8 Biology V2 - Elisa.docx",

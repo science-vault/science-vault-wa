@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.17-tests-only-v1-b218",
+  "version": "2026.10.17-tests-only-v1-b220",
   "status": "in_progress",
   "scope": "Original Science assessment files in repository, Years 7–10. File counts include keys and supporting materials; they are not question counts.",
   "inventoryFiles": 2009,
@@ -11,11 +11,11 @@
     "9": 457,
     "10": 582
   },
-  "importedPapers": 189,
-  "importedQuestions": 2670,
-  "multipleChoice": 1113,
-  "writtenQuestions": 1557,
-  "battleEligibleQuestions": 961,
+  "importedPapers": 193,
+  "importedQuestions": 2720,
+  "multipleChoice": 1136,
+  "writtenQuestions": 1584,
+  "battleEligibleQuestions": 981,
   "reviewRequired": [
     {
       "id": "SCI-REPO-Y8-ARAN-2015-CHEM1-MC08",
@@ -1022,6 +1022,10 @@
       "note": "This is the source’s stipulated single-gene Mendelian model;real earlobe attachment and tongue rolling are not reliably described as simple one-gene dominant traits."
     },
     {
+      "id": "SCI-REPO-Y10-ARAN-2014-CHEM2-GENERAL-MC09",
+      "note": "C and D express equivalent conservation principles in the context of ordinary chemical reactions. The two listed names are both acceptable;teacher moderation."
+    },
+    {
       "id": "SCI-REPO-Y10-NARR-2020-CHEMREACTIONS-MC07",
       "note": "Source amount-versus-rate distinction is underspecified;manual teacher review."
     },
@@ -1172,6 +1176,14 @@
     {
       "id": "SCI-REPO-Y7-NARR-2022-INVERTVALID-4",
       "note": "Student’s selected phylum and original research are required for individual marking."
+    },
+    {
+      "id": "SCI-REPO-Y7-SBY-SIMPLEMACHINES-FOLDER2018-MC08",
+      "note": "Source gives32kg,a mass,but divides it by8N,a force. No option is physically correct as written:load force≈32×9.8=313.6N gives mechanical advantage≈39.2. The matching key changes32kg to32N and selectsC=4. Accept a justified correction;do not automatically mark4correct for the original wording."
+    },
+    {
+      "id": "SCI-REPO-Y7-SBY-SIMPLEMACHINES-FOLDER2018-12",
+      "note": "Machine names alone do not uniquely specify lever-arm geometry;source expects wheelbarrow,nutcracker,scissors."
     },
     {
       "id": "SCI-REPO-Y9-NARR-2018-REACTIONTYPES-MC06",
@@ -29075,6 +29087,782 @@
           "reason": "Equivalent source question already present; not added or counted again."
         }
       ]
+    },
+    {
+      "id": "repo-science-batch219",
+      "questionIds": [
+        "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-MC01",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-MC02",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-MC04",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-MC05",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-MC06",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-MC07",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-MC08",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-MC09",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-MC10",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-2",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-3a",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-3b",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-4",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-5a",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-5b",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-5c",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-5d",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-5e",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-5f",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-5g",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-6",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-7a",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-7b",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-8a",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-8b",
+        "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-9",
+        "SCI-REPO-Y10-ARAN-2014-CHEM2-GENERAL-MC02",
+        "SCI-REPO-Y10-ARAN-2014-CHEM2-GENERAL-MC08",
+        "SCI-REPO-Y10-ARAN-2014-CHEM2-GENERAL-MC09",
+        "SCI-REPO-Y10-ARAN-2014-CHEM2-GENERAL-MC10",
+        "SCI-REPO-Y10-ARAN-2014-CHEM2-GENERAL-7a"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2015 10 GENERAL SCIENCE CHEMISTRY L2 TEST TWO.docx",
+          "sha": "2d4a0fec693115eb361fe24f96cb8baae4965c0b",
+          "year": 10,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+          "sha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+          "year": 10,
+          "role": "paper"
+        }
+      ],
+      "questions": 31,
+      "marks": 52,
+      "imageAudit": "question-source-packs/repo-science-batch219-audit.json",
+      "notes": [
+        "Both50mark2014/2015Chemistry tests reviewed. Original heater picture and graph-response grid retained. Same-data graph tables have reversed column order,handled using their actual headings.2014mass/matter conservation MC has two valid answers and is manually moderated.2014word equation2marks and reaction examples0.5each differ from2015allocations."
+      ],
+      "markAudit": {
+        "papers": {
+          "2014": 50,
+          "2015": 50
+        },
+        "eachMC": 10,
+        "eachWritten": 40
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2015 10 GENERAL SCIENCE CHEMISTRY L2 TEST TWO.docx",
+          "sourceFileSha": "2d4a0fec693115eb361fe24f96cb8baae4965c0b",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            46,
+            48,
+            49,
+            50,
+            51
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2ESL-MC03",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2015 10 GENERAL SCIENCE CHEMISTRY L2 TEST TWO.docx",
+          "sourceFileSha": "2d4a0fec693115eb361fe24f96cb8baae4965c0b",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            108
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2016-CHEM2ACC-W1",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+          "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            28,
+            30,
+            31,
+            32,
+            33
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-MC01",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+          "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            46,
+            48,
+            49,
+            50,
+            51
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2ESL-MC03",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+          "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+          "sourceQuestionNumber": "4",
+          "sourceParagraphs": [
+            52,
+            54,
+            55,
+            56,
+            57
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-MC04",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+          "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+          "sourceQuestionNumber": "5",
+          "sourceParagraphs": [
+            60,
+            62,
+            63,
+            64,
+            65
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-MC05",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+          "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+          "sourceQuestionNumber": "6",
+          "sourceParagraphs": [
+            68,
+            70,
+            71,
+            72,
+            73
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-MC06",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+          "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+          "sourceQuestionNumber": "7",
+          "sourceParagraphs": [
+            76,
+            78,
+            79,
+            80,
+            81
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-MC07",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+          "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            108
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2016-CHEM2ACC-W1",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+          "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+          "sourceQuestionNumber": "2",
+          "sourceParagraphs": [
+            116
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-2",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+          "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+          "sourceQuestionNumber": "3a",
+          "sourceParagraphs": [
+            125,
+            127
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-3a",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+          "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+          "sourceQuestionNumber": "3b",
+          "sourceParagraphs": [
+            125,
+            139
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-3b",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+          "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+          "sourceQuestionNumber": "4",
+          "sourceParagraphs": [
+            156
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-4",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+          "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+          "sourceQuestionNumber": "5a",
+          "sourceParagraphs": [
+            159,
+            161
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-5a",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+          "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+          "sourceQuestionNumber": "5b",
+          "sourceParagraphs": [
+            159,
+            172
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-5b",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+          "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+          "sourceQuestionNumber": "5c",
+          "sourceParagraphs": [
+            159,
+            183
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-5c",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+          "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+          "sourceQuestionNumber": "5d",
+          "sourceParagraphs": [
+            159,
+            194
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-5d",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+          "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+          "sourceQuestionNumber": "5e",
+          "sourceParagraphs": [
+            159,
+            205
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-5e",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+          "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+          "sourceQuestionNumber": "5f",
+          "sourceParagraphs": [
+            159,
+            212
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-5f",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+          "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+          "sourceQuestionNumber": "5g",
+          "sourceParagraphs": [
+            159,
+            223
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-5g",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+          "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+          "sourceQuestionNumber": "6",
+          "sourceParagraphs": [
+            234,
+            236,
+            241,
+            246,
+            251,
+            256,
+            261
+          ],
+          "sourceMarks": 6,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-6",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+          "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+          "sourceQuestionNumber": "7b",
+          "sourceParagraphs": [
+            264,
+            274
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-7b",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+          "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+          "sourceQuestionNumber": "8a",
+          "sourceParagraphs": [
+            283
+          ],
+          "sourceMarks": 0.5,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-8a",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+          "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+          "sourceQuestionNumber": "8b",
+          "sourceParagraphs": [
+            288
+          ],
+          "sourceMarks": 0.5,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-8b",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+          "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+          "sourceQuestionNumber": "9",
+          "sourceParagraphs": [
+            314,
+            316,
+            317,
+            319,
+            331
+          ],
+          "sourceMarks": 5,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-9",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
+    },
+    {
+      "id": "repo-science-batch220",
+      "questionIds": [
+        "SCI-REPO-Y7-SBY-SIMPLEMACHINES-FOLDER2018-MC01",
+        "SCI-REPO-Y7-SBY-SIMPLEMACHINES-FOLDER2018-MC02",
+        "SCI-REPO-Y7-SBY-SIMPLEMACHINES-FOLDER2018-MC03",
+        "SCI-REPO-Y7-SBY-SIMPLEMACHINES-FOLDER2018-MC04",
+        "SCI-REPO-Y7-SBY-SIMPLEMACHINES-FOLDER2018-MC05",
+        "SCI-REPO-Y7-SBY-SIMPLEMACHINES-FOLDER2018-MC06",
+        "SCI-REPO-Y7-SBY-SIMPLEMACHINES-FOLDER2018-MC07",
+        "SCI-REPO-Y7-SBY-SIMPLEMACHINES-FOLDER2018-MC08",
+        "SCI-REPO-Y7-SBY-SIMPLEMACHINES-FOLDER2018-MC09",
+        "SCI-REPO-Y7-SBY-SIMPLEMACHINES-FOLDER2018-MC10",
+        "SCI-REPO-Y7-SBY-SIMPLEMACHINES-FOLDER2018-11a",
+        "SCI-REPO-Y7-SBY-SIMPLEMACHINES-FOLDER2018-11b",
+        "SCI-REPO-Y7-SBY-SIMPLEMACHINES-FOLDER2018-12",
+        "SCI-REPO-Y7-SBY-SIMPLEMACHINES-FOLDER2018-13a",
+        "SCI-REPO-Y7-SBY-SIMPLEMACHINES-FOLDER2018-13b",
+        "SCI-REPO-Y7-SBY-SIMPLEMACHINES-FOLDER2018-14",
+        "SCI-REPO-Y7-SBY-SIMPLEMACHINES-FOLDER2018-15a",
+        "SCI-REPO-Y7-SBY-SIMPLEMACHINES-FOLDER2018-15b",
+        "SCI-REPO-Y7-SBY-SIMPLEMACHINES-FOLDER2018-15c"
+      ],
+      "sources": [
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Safety bay/2018/YEAR 7 SIMPLE MACHINES TEST.docx",
+          "sha": "3b53ac78841243908f962da10dd03bbfc27bcb98",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Safety bay/2018/YEAR 7 SIMPLE MACHINES TEST ANSWERS.docx",
+          "sha": "534ebbeb2345fb16fa0f9d36917e9c7b5c47ee2e",
+          "year": 7,
+          "role": "key_reference",
+          "reviewComplete": true
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Safety bay/2017/YEAR 7 SIMPLE MACHINES TEST.docx",
+          "sha": "2e9359bb17b6590d13aadf84c151aa3ef9fbca24",
+          "year": 7,
+          "role": "paper"
+        },
+        {
+          "path": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Safety bay/2017/YEAR 7 SIMPLE MACHINES TEST ANSWERS.docx",
+          "sha": "979c5192fe28a6b2c1a4f4dc89ebfd29ac9ec238",
+          "year": 7,
+          "role": "key_reference",
+          "reviewComplete": true
+        }
+      ],
+      "questions": 19,
+      "marks": 28,
+      "imageAudit": "question-source-packs/repo-science-batch220-audit.json",
+      "notes": [
+        "Both student papers and matching keys reviewed. Both print2017inside despite one2018folder. Equivalent tasks linked without duplicate counts. Original load/lever,gears,unequal-mass pulley,car jack,three lever devices and two pulley systems retained.32kg versus8N question has no valid listed result;key silently changeskgtoN,so manually flagged. Key written heading17is stale;explicit written tasks sum18."
+      ],
+      "markAudit": {
+        "eachTotal": 28,
+        "multipleChoice": 10,
+        "written": 18,
+        "keyUnitMismatch": "StudentMC8load32kg;key32N"
+      },
+      "duplicateQuestionAliases": [
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Safety bay/2017/YEAR 7 SIMPLE MACHINES TEST.docx",
+          "sourceFileSha": "2e9359bb17b6590d13aadf84c151aa3ef9fbca24",
+          "sourceQuestionNumber": "1",
+          "sourceParagraphs": [
+            19,
+            21,
+            22,
+            23,
+            24
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-SIMPLEMACHINES-FOLDER2018-MC01",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Safety bay/2017/YEAR 7 SIMPLE MACHINES TEST.docx",
+          "sourceFileSha": "2e9359bb17b6590d13aadf84c151aa3ef9fbca24",
+          "sourceQuestionNumber": "2",
+          "sourceParagraphs": [
+            27,
+            29,
+            30,
+            31,
+            32
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-SIMPLEMACHINES-FOLDER2018-MC02",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Safety bay/2017/YEAR 7 SIMPLE MACHINES TEST.docx",
+          "sourceFileSha": "2e9359bb17b6590d13aadf84c151aa3ef9fbca24",
+          "sourceQuestionNumber": "3",
+          "sourceParagraphs": [
+            35,
+            37,
+            38,
+            39,
+            40
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-SIMPLEMACHINES-FOLDER2018-MC03",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Safety bay/2017/YEAR 7 SIMPLE MACHINES TEST.docx",
+          "sourceFileSha": "2e9359bb17b6590d13aadf84c151aa3ef9fbca24",
+          "sourceQuestionNumber": "4",
+          "sourceParagraphs": [
+            43,
+            45,
+            46,
+            47,
+            48
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-SIMPLEMACHINES-FOLDER2018-MC04",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Safety bay/2017/YEAR 7 SIMPLE MACHINES TEST.docx",
+          "sourceFileSha": "2e9359bb17b6590d13aadf84c151aa3ef9fbca24",
+          "sourceQuestionNumber": "5",
+          "sourceParagraphs": [
+            51,
+            53,
+            54,
+            55,
+            56
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-SIMPLEMACHINES-FOLDER2018-MC05",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Safety bay/2017/YEAR 7 SIMPLE MACHINES TEST.docx",
+          "sourceFileSha": "2e9359bb17b6590d13aadf84c151aa3ef9fbca24",
+          "sourceQuestionNumber": "6",
+          "sourceParagraphs": [
+            58,
+            60,
+            61,
+            62,
+            63
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-SIMPLEMACHINES-FOLDER2018-MC06",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Safety bay/2017/YEAR 7 SIMPLE MACHINES TEST.docx",
+          "sourceFileSha": "2e9359bb17b6590d13aadf84c151aa3ef9fbca24",
+          "sourceQuestionNumber": "7",
+          "sourceParagraphs": [
+            66,
+            68,
+            69,
+            70,
+            71
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-SIMPLEMACHINES-FOLDER2018-MC07",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Safety bay/2017/YEAR 7 SIMPLE MACHINES TEST.docx",
+          "sourceFileSha": "2e9359bb17b6590d13aadf84c151aa3ef9fbca24",
+          "sourceQuestionNumber": "8",
+          "sourceParagraphs": [
+            75,
+            81,
+            83,
+            84,
+            85,
+            86,
+            79
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-SIMPLEMACHINES-FOLDER2018-MC08",
+          "reason": "Equivalent source question already present; not added or counted again.",
+          "reviewSupplement": {
+            "answer": "Source gives32kg,a mass,but divides it by8N,a force. No option is physically correct as written:load force≈32×9.8=313.6N gives mechanical advantage≈39.2. The matching key changes32kg to32N and selectsC=4. Accept a justified correction;do not automatically mark4correct for the original wording.",
+            "note": "Source gives32kg,a mass,but divides it by8N,a force. No option is physically correct as written:load force≈32×9.8=313.6N gives mechanical advantage≈39.2. The matching key changes32kg to32N and selectsC=4. Accept a justified correction;do not automatically mark4correct for the original wording."
+          },
+          "requiresManualReview": true
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Safety bay/2017/YEAR 7 SIMPLE MACHINES TEST.docx",
+          "sourceFileSha": "2e9359bb17b6590d13aadf84c151aa3ef9fbca24",
+          "sourceQuestionNumber": "9",
+          "sourceParagraphs": [
+            89,
+            93,
+            95,
+            96,
+            97,
+            98,
+            91
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-SIMPLEMACHINES-FOLDER2018-MC09",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Safety bay/2017/YEAR 7 SIMPLE MACHINES TEST.docx",
+          "sourceFileSha": "2e9359bb17b6590d13aadf84c151aa3ef9fbca24",
+          "sourceQuestionNumber": "10",
+          "sourceParagraphs": [
+            100,
+            101,
+            105,
+            107,
+            108,
+            109,
+            110,
+            103
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Multiple choice",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-SIMPLEMACHINES-FOLDER2018-MC10",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Safety bay/2017/YEAR 7 SIMPLE MACHINES TEST.docx",
+          "sourceFileSha": "2e9359bb17b6590d13aadf84c151aa3ef9fbca24",
+          "sourceQuestionNumber": "11a",
+          "sourceParagraphs": [
+            130,
+            132,
+            133
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-SIMPLEMACHINES-FOLDER2018-11a",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Safety bay/2017/YEAR 7 SIMPLE MACHINES TEST.docx",
+          "sourceFileSha": "2e9359bb17b6590d13aadf84c151aa3ef9fbca24",
+          "sourceQuestionNumber": "11b",
+          "sourceParagraphs": [
+            130,
+            132,
+            136
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-SIMPLEMACHINES-FOLDER2018-11b",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Safety bay/2017/YEAR 7 SIMPLE MACHINES TEST.docx",
+          "sourceFileSha": "2e9359bb17b6590d13aadf84c151aa3ef9fbca24",
+          "sourceQuestionNumber": "12",
+          "sourceParagraphs": [
+            139,
+            141
+          ],
+          "sourceMarks": 3,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-SIMPLEMACHINES-FOLDER2018-12",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Safety bay/2017/YEAR 7 SIMPLE MACHINES TEST.docx",
+          "sourceFileSha": "2e9359bb17b6590d13aadf84c151aa3ef9fbca24",
+          "sourceQuestionNumber": "13a",
+          "sourceParagraphs": [
+            143,
+            145
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-SIMPLEMACHINES-FOLDER2018-13a",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Safety bay/2017/YEAR 7 SIMPLE MACHINES TEST.docx",
+          "sourceFileSha": "2e9359bb17b6590d13aadf84c151aa3ef9fbca24",
+          "sourceQuestionNumber": "13b",
+          "sourceParagraphs": [
+            143,
+            148
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-SIMPLEMACHINES-FOLDER2018-13b",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Safety bay/2017/YEAR 7 SIMPLE MACHINES TEST.docx",
+          "sourceFileSha": "2e9359bb17b6590d13aadf84c151aa3ef9fbca24",
+          "sourceQuestionNumber": "14",
+          "sourceParagraphs": [
+            152,
+            154,
+            157,
+            159
+          ],
+          "sourceMarks": 6,
+          "sourceType": "Diagram",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-SIMPLEMACHINES-FOLDER2018-14",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Safety bay/2017/YEAR 7 SIMPLE MACHINES TEST.docx",
+          "sourceFileSha": "2e9359bb17b6590d13aadf84c151aa3ef9fbca24",
+          "sourceQuestionNumber": "15a",
+          "sourceParagraphs": [
+            163,
+            165,
+            167
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-SIMPLEMACHINES-FOLDER2018-15a",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Safety bay/2017/YEAR 7 SIMPLE MACHINES TEST.docx",
+          "sourceFileSha": "2e9359bb17b6590d13aadf84c151aa3ef9fbca24",
+          "sourceQuestionNumber": "15b",
+          "sourceParagraphs": [
+            163,
+            165,
+            170
+          ],
+          "sourceMarks": 1,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-SIMPLEMACHINES-FOLDER2018-15b",
+          "reason": "Equivalent source question already present; not added or counted again."
+        },
+        {
+          "sourceFile": "resources/Assessments/Lowerschool/Year 7/Science/Physical Sciences/Safety bay/2017/YEAR 7 SIMPLE MACHINES TEST.docx",
+          "sourceFileSha": "2e9359bb17b6590d13aadf84c151aa3ef9fbca24",
+          "sourceQuestionNumber": "15c",
+          "sourceParagraphs": [
+            163,
+            165,
+            173
+          ],
+          "sourceMarks": 2,
+          "sourceType": "Short answer",
+          "existingQuestionId": "SCI-REPO-Y7-SBY-SIMPLEMACHINES-FOLDER2018-15c",
+          "reason": "Equivalent source question already present; not added or counted again."
+        }
+      ]
     }
   ],
   "files": [
@@ -33136,7 +33924,7 @@
       "sha": "979c5192fe28a6b2c1a4f4dc89ebfd29ac9ec238",
       "year": 7,
       "size": 262536,
-      "status": "pending",
+      "status": "reviewed_key_reference",
       "duplicateOf": null
     },
     {
@@ -33144,7 +33932,7 @@
       "sha": "2e9359bb17b6590d13aadf84c151aa3ef9fbca24",
       "year": 7,
       "size": 256093,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -33222,7 +34010,7 @@
       "sha": "534ebbeb2345fb16fa0f9d36917e9c7b5c47ee2e",
       "year": 7,
       "size": 262982,
-      "status": "pending",
+      "status": "reviewed_key_reference",
       "duplicateOf": null
     },
     {
@@ -33230,7 +34018,7 @@
       "sha": "3b53ac78841243908f962da10dd03bbfc27bcb98",
       "year": 7,
       "size": 256059,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -42598,7 +43386,7 @@
       "sha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
       "year": 10,
       "size": 241580,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -42708,7 +43496,7 @@
       "sha": "2d4a0fec693115eb361fe24f96cb8baae4965c0b",
       "year": 10,
       "size": 232244,
-      "status": "pending",
+      "status": "imported",
       "duplicateOf": null
     },
     {
@@ -46404,9 +47192,9 @@
       "duplicateOf": null
     }
   ],
-  "learningVaultCreatedKeySupplements": 1480,
-  "remainingUniqueFileBlobs": 524,
-  "learningVaultCreatedKeys": 2890,
+  "learningVaultCreatedKeySupplements": 1499,
+  "remainingUniqueFileBlobs": 518,
+  "learningVaultCreatedKeys": 2921,
   "blockedSources": [
     {
       "sha": "49d4b7f3f8af844477b39abb856365aeb096cafd",
@@ -46618,7 +47406,7 @@
     "ocrPages": 1175,
     "ocrTextVerified": false
   },
-  "distinctSourceAndKeyReferences": 475,
+  "distinctSourceAndKeyReferences": 481,
   "unscoredQuestionsPreserved": 1,
   "activeAdditionalQuestionRequest": {
     "requestedAdditionalQuestions": 1000,
@@ -46634,9 +47422,9 @@
     "requestedAt": "2026-10-17",
     "scope": "Years7–10Science quizzes,tests and exams only. No investigation/experiment reports,assignments,revision worksheets or standalone marking rubrics.",
     "status": "in_progress",
-    "retainedImportedQuestions": 2670,
+    "retainedImportedQuestions": 2720,
     "startingImportedQuestions": 2117,
-    "addedQuestions": 553,
+    "addedQuestions": 603,
     "completionRule": "Every eligible quiz,test and exam reviewed;unverified source types require review before admission."
   },
   "sourceInventoryExclusions": {
@@ -46653,7 +47441,7 @@
     "countedAsQuestions": false
   },
   "missingReferencedMaterial": [],
-  "reviewedDistinctSourceBlobs": 501,
+  "reviewedDistinctSourceBlobs": 507,
   "inventoryCountBasis": "Remaining unique file blobs counts pending or key-reference-pending identities, including protected inputs; it is not a remaining-paper or remaining-question estimate.",
   "canonicalUniverseReviewRepair": {
     "questionIds": [
@@ -46717,10 +47505,10 @@
     "audit": "question-source-packs/repo-science-legacy-reaction-review.json"
   },
   "sourceTypeCleanup": {
-    "version": "2026.10.17-tests-only-v1-b218",
-    "questionsBefore": 4680,
+    "version": "2026.10.17-tests-only-v1-b220",
+    "questionsBefore": 4730,
     "questionsRemoved": 2010,
-    "questionsRetained": 2670,
+    "questionsRetained": 2720,
     "equivalentTestQuestionsPreserved": 21,
     "battleQuestionSlotsRemoved": 17,
     "audit": "question-source-packs/science-test-only-cleanup-20261017.json",
@@ -46730,7 +47518,7 @@
     "date": "2026-10-17",
     "restoredOriginalVisuals": 4,
     "removedMissingRequiredMaterial": 13,
-    "checkedUniqueImageAssets": 426,
+    "checkedUniqueImageAssets": 434,
     "brokenImages": 0,
     "blankImages": 0,
     "audit": "question-source-packs/science-question-visual-audit-20261017.json"

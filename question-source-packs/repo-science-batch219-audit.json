@@ -1,0 +1,508 @@
+{
+  "batch": "repo-science-batch219",
+  "paperCount": 2,
+  "questionIds": [
+    "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-MC01",
+    "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-MC02",
+    "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-MC04",
+    "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-MC05",
+    "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-MC06",
+    "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-MC07",
+    "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-MC08",
+    "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-MC09",
+    "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-MC10",
+    "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-2",
+    "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-3a",
+    "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-3b",
+    "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-4",
+    "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-5a",
+    "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-5b",
+    "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-5c",
+    "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-5d",
+    "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-5e",
+    "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-5f",
+    "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-5g",
+    "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-6",
+    "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-7a",
+    "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-7b",
+    "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-8a",
+    "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-8b",
+    "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-9",
+    "SCI-REPO-Y10-ARAN-2014-CHEM2-GENERAL-MC02",
+    "SCI-REPO-Y10-ARAN-2014-CHEM2-GENERAL-MC08",
+    "SCI-REPO-Y10-ARAN-2014-CHEM2-GENERAL-MC09",
+    "SCI-REPO-Y10-ARAN-2014-CHEM2-GENERAL-MC10",
+    "SCI-REPO-Y10-ARAN-2014-CHEM2-GENERAL-7a"
+  ],
+  "questions": 31,
+  "multipleChoice": 13,
+  "writtenQuestions": 18,
+  "battleEligible": 11,
+  "marks": 52,
+  "reviewRequired": [
+    {
+      "id": "SCI-REPO-Y10-ARAN-2014-CHEM2-GENERAL-MC09",
+      "note": "C and D express equivalent conservation principles in the context of ordinary chemical reactions. The two listed names are both acceptable;teacher moderation."
+    }
+  ],
+  "imageAudit": [
+    {
+      "id": "e500-image2-crop-cbb85f6e",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2015 10 GENERAL SCIENCE CHEMISTRY L2 TEST TWO.docx",
+      "embeddedImage": "word/media/image2.png",
+      "sha256": "85b1ff84ca279c022a39cdd41f43666b4caf6e20987797b6d4c6dc14405e1476",
+      "publishedSha256": "68e6823c12c0956a82b3e7f827df3922daabe489f8804d7356c5737f9779f609",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {
+        "l": 7166,
+        "r": 3908
+      },
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e500-image3",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2015 10 GENERAL SCIENCE CHEMISTRY L2 TEST TWO.docx",
+      "embeddedImage": "word/media/image3.png",
+      "sha256": "08c6dd6e2fd9f08bb333fbc458eec24c35fe1837ee15b1e9f14a802d06001163",
+      "publishedSha256": "dd1ed13f67abad207b4fd4db59157284057a572c715e269e0ecd5d3b0610f5aa",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e502-image2-crop-cbb85f6e",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+      "embeddedImage": "word/media/image2.png",
+      "sha256": "85b1ff84ca279c022a39cdd41f43666b4caf6e20987797b6d4c6dc14405e1476",
+      "publishedSha256": "68e6823c12c0956a82b3e7f827df3922daabe489f8804d7356c5737f9779f609",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {
+        "l": 7166,
+        "r": 3908
+      },
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    },
+    {
+      "id": "e502-image3",
+      "source": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+      "embeddedImage": "word/media/image3.png",
+      "sha256": "08c6dd6e2fd9f08bb333fbc458eec24c35fe1837ee15b1e9f14a802d06001163",
+      "publishedSha256": "dd1ed13f67abad207b4fd4db59157284057a572c715e269e0ecd5d3b0610f5aa",
+      "role": "source_question_or_response_figure",
+      "wordSourceCrop100000ths": {},
+      "conversion": "Original figure rasterised; source Word crop applied before display, including white padding for negative crops; transparent background composited white; vector export blank margins trimmed."
+    }
+  ],
+  "sources": [
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2015 10 GENERAL SCIENCE CHEMISTRY L2 TEST TWO.docx",
+      "sha": "2d4a0fec693115eb361fe24f96cb8baae4965c0b",
+      "year": 10,
+      "role": "paper"
+    },
+    {
+      "path": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+      "sha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+      "year": 10,
+      "role": "paper"
+    }
+  ],
+  "gameMeta": [
+    {
+      "id": "sci-repo-y10-aran-2015-chem2-general-mc-1",
+      "title": "Year 10 Science — Reaction rates,chemical equations and formulae (original source MC)",
+      "course": "Science",
+      "yearGroup": 10,
+      "unit": "Chemical Sciences",
+      "parent": "Reaction rates,chemical equations and formulae",
+      "count": 9,
+      "kind": "assessment",
+      "assessmentCount": 9,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch219.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=10&search=SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    },
+    {
+      "id": "sci-repo-y10-aran-2014-chem2-general-mc-1",
+      "title": "Year 10 Science — Reaction rates,chemical equations and formulae (original source MC)",
+      "course": "Science",
+      "yearGroup": 10,
+      "unit": "Chemical Sciences",
+      "parent": "Reaction rates,chemical equations and formulae",
+      "count": 2,
+      "kind": "assessment",
+      "assessmentCount": 2,
+      "focusCount": 0,
+      "revisionCount": 0,
+      "pack": "science-source-assessment-games-batch219.json",
+      "lessonUrl": "assessment-question-browser.html?level=lower&subject=Science&year=10&search=SCI-REPO-Y10-ARAN-2014-CHEM2-GENERAL",
+      "coverage": "Original assessment questions with source figures. Written parts remain in the bank with marks and parent context. Review-required items excluded from automatic battles."
+    }
+  ],
+  "createdKeys": 31,
+  "createdSupplements": 0,
+  "notes": [
+    "Active question catalogue restricted to quizzes,tests and exams by user instruction on2026-10-17. Historical extraction scope is superseded."
+  ],
+  "markAudit": {
+    "papers": {
+      "2014": 50,
+      "2015": 50
+    },
+    "eachMC": 10,
+    "eachWritten": 40
+  },
+  "duplicateQuestionAliases": [
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2015 10 GENERAL SCIENCE CHEMISTRY L2 TEST TWO.docx",
+      "sourceFileSha": "2d4a0fec693115eb361fe24f96cb8baae4965c0b",
+      "sourceQuestionNumber": "3",
+      "sourceParagraphs": [
+        46,
+        48,
+        49,
+        50,
+        51
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2ESL-MC03",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2015 10 GENERAL SCIENCE CHEMISTRY L2 TEST TWO.docx",
+      "sourceFileSha": "2d4a0fec693115eb361fe24f96cb8baae4965c0b",
+      "sourceQuestionNumber": "1",
+      "sourceParagraphs": [
+        108
+      ],
+      "sourceMarks": 3,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2016-CHEM2ACC-W1",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+      "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+      "sourceQuestionNumber": "1",
+      "sourceParagraphs": [
+        28,
+        30,
+        31,
+        32,
+        33
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-MC01",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+      "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+      "sourceQuestionNumber": "3",
+      "sourceParagraphs": [
+        46,
+        48,
+        49,
+        50,
+        51
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2ESL-MC03",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+      "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+      "sourceQuestionNumber": "4",
+      "sourceParagraphs": [
+        52,
+        54,
+        55,
+        56,
+        57
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-MC04",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+      "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+      "sourceQuestionNumber": "5",
+      "sourceParagraphs": [
+        60,
+        62,
+        63,
+        64,
+        65
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-MC05",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+      "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+      "sourceQuestionNumber": "6",
+      "sourceParagraphs": [
+        68,
+        70,
+        71,
+        72,
+        73
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-MC06",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+      "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+      "sourceQuestionNumber": "7",
+      "sourceParagraphs": [
+        76,
+        78,
+        79,
+        80,
+        81
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Multiple choice",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-MC07",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+      "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+      "sourceQuestionNumber": "1",
+      "sourceParagraphs": [
+        108
+      ],
+      "sourceMarks": 3,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2016-CHEM2ACC-W1",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+      "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+      "sourceQuestionNumber": "2",
+      "sourceParagraphs": [
+        116
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-2",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+      "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+      "sourceQuestionNumber": "3a",
+      "sourceParagraphs": [
+        125,
+        127
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-3a",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+      "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+      "sourceQuestionNumber": "3b",
+      "sourceParagraphs": [
+        125,
+        139
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-3b",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+      "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+      "sourceQuestionNumber": "4",
+      "sourceParagraphs": [
+        156
+      ],
+      "sourceMarks": 1,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-4",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+      "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+      "sourceQuestionNumber": "5a",
+      "sourceParagraphs": [
+        159,
+        161
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-5a",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+      "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+      "sourceQuestionNumber": "5b",
+      "sourceParagraphs": [
+        159,
+        172
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-5b",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+      "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+      "sourceQuestionNumber": "5c",
+      "sourceParagraphs": [
+        159,
+        183
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-5c",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+      "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+      "sourceQuestionNumber": "5d",
+      "sourceParagraphs": [
+        159,
+        194
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-5d",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+      "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+      "sourceQuestionNumber": "5e",
+      "sourceParagraphs": [
+        159,
+        205
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-5e",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+      "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+      "sourceQuestionNumber": "5f",
+      "sourceParagraphs": [
+        159,
+        212
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-5f",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+      "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+      "sourceQuestionNumber": "5g",
+      "sourceParagraphs": [
+        159,
+        223
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-5g",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+      "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+      "sourceQuestionNumber": "6",
+      "sourceParagraphs": [
+        234,
+        236,
+        241,
+        246,
+        251,
+        256,
+        261
+      ],
+      "sourceMarks": 6,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-6",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+      "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+      "sourceQuestionNumber": "7b",
+      "sourceParagraphs": [
+        264,
+        274
+      ],
+      "sourceMarks": 2,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-7b",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+      "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+      "sourceQuestionNumber": "8a",
+      "sourceParagraphs": [
+        283
+      ],
+      "sourceMarks": 0.5,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-8a",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+      "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+      "sourceQuestionNumber": "8b",
+      "sourceParagraphs": [
+        288
+      ],
+      "sourceMarks": 0.5,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-8b",
+      "reason": "Equivalent source question already present; not added or counted again."
+    },
+    {
+      "sourceFile": "resources/Assessments/Lowerschool/Year 10/Science/Chemistry/Aranmore/2014 10 GENERAL SCIENCE CHEMISTRY TEST TWO.docx",
+      "sourceFileSha": "12c2ee0303f19eb4a9ca93605d8ad6badb45b8a7",
+      "sourceQuestionNumber": "9",
+      "sourceParagraphs": [
+        314,
+        316,
+        317,
+        319,
+        331
+      ],
+      "sourceMarks": 5,
+      "sourceType": "Short answer",
+      "existingQuestionId": "SCI-REPO-Y10-ARAN-2015-CHEM2-GENERAL-9",
+      "reason": "Equivalent source question already present; not added or counted again."
+    }
+  ],
+  "sourceScope": "2026.10.17-tests-only-v1-b202"
+}
