@@ -63,3 +63,8 @@ body:has(#quiz:not(.hidden)) .quiz-shell{width:100%;max-width:1760px;margin-inli
 #quiz .response-part{margin:16px 0 24px}
 #quiz .response-part label{display:block;font-weight:650;margin-bottom:10px}
 #quiz .response-part textarea{width:100%;box-sizing:border-box}
+
+#quiz .practice-data-table{width:100%;max-width:850px;border-collapse:collapse;margin:20px 0 26px;font-size:clamp(14px,1.3vw,18px)}
+#quiz .practice-data-table th,#quiz .practice-data-table td{border:1px solid #aebfc9;padding:12px 14px;text-align:left}
+#quiz .practice-data-table th{background:#eef4f5;font-weight:700}
+@media(max-width:600px){#quiz .practice-data-table th,#quiz .practice-data-table td{padding:8px 5px;font-size:12px}}
