@@ -39,3 +39,16 @@ body:has(#quiz:not(.hidden)) .quiz-shell{width:100%;max-width:1760px;margin-inli
 .practice-mc-option:has(input:checked){background:#e7f5eb;border-color:#187842;box-shadow:inset 0 0 0 1px #187842}
 .practice-mc-option input{width:20px;height:20px;min-width:20px;accent-color:#187842;margin-top:3px}
 #quiz .practice-mc-value{position:absolute!important;width:1px!important;height:1px!important;min-height:0!important;padding:0!important;opacity:0;pointer-events:none}
+
+/* Unified practice question layout: one interactive answer area. */
+#quiz .practice-multiple-choice .answer-pane{background:#fff;border:0;padding-top:0;margin-top:0}
+#quiz .practice-multiple-choice .response-help{font-size:16px;color:#38576a;margin:0 0 14px}
+#quiz .practice-multiple-choice .practice-mc-options{margin:0;padding:0;border:0}
+#quiz .practice-multiple-choice .practice-mc-options legend{font-size:16px;font-weight:700;margin-bottom:10px}
+#quiz .practice-multiple-choice .practice-mc-option{display:inline-flex!important;min-width:110px;align-items:center;justify-content:flex-start;margin:5px 8px 5px 0;padding:12px 16px;border-radius:12px;font-size:18px;vertical-align:top}
+#quiz .practice-multiple-choice .draft-status{font-size:12px;margin:12px 0 0}
+#quiz .practice-multiple-choice .question-content{margin-bottom:8px}
+#quiz .practice-multiple-choice .question-content .practice-scanned-image{border:0;padding:0;overflow:visible}
+#quiz .practice-multiple-choice .question-content .practice-scanned-note{font-size:13px;margin:4px 0}
+#quiz .practice-multiple-choice .practice-mc-value{position:absolute!important;width:1px!important;height:1px!important;min-height:0!important;opacity:0;pointer-events:none}
+@media(max-width:600px){#quiz .practice-multiple-choice .practice-mc-option{width:calc(50% - 12px);min-width:0;box-sizing:border-box}}
