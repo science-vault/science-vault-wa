@@ -39,7 +39,33 @@ function writtenTranscription(q){
  return withoutHeader.length>70?withoutHeader:'';
 }
 const originalRender=renderQuestion;
-renderQuestion=function(q,i){const choice=lowerScienceChoice(q);const recovered=structuredChoice(q);const isMC=/multiple\s*choice/i.test(String(q.type||''));const options=recovered?.options||(Array.isArray(q.mcOptions)?q.mcOptions:(Array.isArray(q.options)?q.options:null));const stem=String(recovered?.stem||q.stem||q.questionText||q.transcription||'').trim();const digitalMC=isMC&&options&&options.length>=2&&options.length<=5&&stem&&!/<img\b/i.test(stem);let question=choice?'<p>'+esc(choice.stem)+'</p>'+sourceFigures(q):digitalMC?'<p class="practice-digital-stem">'+esc(stem)+'</p><details class="practice-scanned"><summary>View original examination image</summary>'+String(q.question||'')+'</details>':String(q.question||'');const text=String(q.questionText||q.transcription||q.plainText||'').trim();const written=writtenTranscription(q);const sourceScan=/<img\b/i.test(String(q.question||''));if(!isMC&&sourceScan&&written){question='<div class="practice-transcribed practice-written-text">'+esc(written).replace(/\r?\n/g,'<br>')+'</div><details class="practice-scanned"><summary>View original exam page and diagrams</summary>'+String(q.question||'')+'</details>';}const scanned=/<img\b/i.test(question)&&question.replace(/<[^>]*>/g,'').replace(/&(?:nbsp|#160);/gi,' ').trim().length<65;if(!written&&scanned&&text){question='<div class="practice-transcribed">'+esc(text) .replace(/\n/g,'<br>')+'</div><details class="practice-scanned"><summary>View original examination page</summary>'+question+'</details>'}else if(!written&&scanned){question='<div class="practice-scanned-note">Original exam scan — tap the image to enlarge or scroll sideways to read. Text conversion is pending verification.</div><div class="practice-scanned-image">'+question+'</div>'}let response='';if(q.parts?.length){response=q.parts.map((p,j)=>`<div class="response-part"><label for="a-${i}-${j}">${esc(p.label||'')} ${p.text||''} <span>${p.marks} marks</span></label>${answerBox(`a-${i}-${j}`)}</div>`).join('')}else if(choice||digitalMC||isMC){const opts=choice?.options||(digitalMC?options:['A','B','C','D']);response=`<fieldset class="practice-mc-options"><legend>Choose one answer</legend>${opts.map((o,n)=>`<label class="practice-mc-option"><input type="radio" name="practice-choice-${i}" value="${'ABCDE'[n]}" data-target="a-${i}"><span>${digitalMC||choice?`${'ABCDE'[n]}. ${esc(o)}`:`${'ABCDE'[n]}`}</span></label>`).join('')}<select class="answer practice-mc-value" id="a-${i}" aria-label="Selected answer"><option value="">Not answered</option>${opts.map((o,n)=>`<option value="${'ABCDE'[n]}">${'ABCDE'[n]}</option>`).join('')}</select></fieldset>`;}else response=answerBox(`a-${i}`,choice);return `<article class="q focus-question ${isMC?'practice-multiple-choice':''}" data-question-index="${i}" aria-label="Question ${i+1}"><div class="question-pane"><div class="question-heading"><h3>Question ${i+1}</h3><span class="marks-tag">${q.marks} marks</span></div><div class="meta">${esc(q.course)} · ${esc(QuestionBankCategories.label(q))} · ${esc(q.type)}</div><div class="question-content">${question}${q.diagram||''}</div></div><div class="answer-pane">${isMC?'':'<h3>Your response</h3>'}<p class="response-help">${isMC?(digitalMC||choice?'Choose the correct option.':'Choose A, B, C or D using the original examination question above.'):'Show your working. You can move between questions before finishing.'}</p>${response}<p class="draft-status" aria-live="polite">Answers save in this browser on this device.</p></div></article>`};
+renderQuestion=function(q,i){
+ const m=window.PracticeQuestionModel?.model(q);
+ if(!m)return originalRender(q,i);
+ const choice=lowerScienceChoice(q);
+ const mc=m.isMC;
+ const options=choice?.options||m.structured?.options||null;
+ const stem=choice?.stem||m.structured?.stem||'';
+ const original=m.original;
+ const originalView=m.scan?'<details class="practice-scanned"><summary>View original examination page</summary>'+original+'</details>':'';
+ let question='';
+ if(mc&&stem){
+  question='<div class="practice-readable">'+esc(stem)+'</div>'+originalView;
+ }else if(m.written){
+  question='<div class="practice-readable practice-written-text">'+esc(m.written).replace(/\r?\n/g,'<br>')+'</div>'+originalView;
+ }else if(m.scan){
+  question='<div class="practice-scan-fallback"><p>Original examination question (text conversion not yet verified).</p>'+original+'</div>';
+ }else question=original;
+ const diagram=m.diagrams||'';
+ let response='';
+ if(m.parts.length){
+  response=m.parts.map((p,j)=>'<div class="response-part"><label for="a-'+i+'-'+j+'">'+esc(p.label||'')+' '+esc(p.text||'')+' ('+Number(p.marks||0)+' marks)</label>'+answerBox('a-'+i+'-'+j)+'</div>').join('');
+ }else if(mc){
+  const opts=options?.length>=2?options:['A','B','C','D'];
+  response='<fieldset class="practice-mc-options"><legend>Select one answer</legend>'+opts.map((o,n)=>'<label class="practice-mc-option"><input type="radio" name="practice-choice-'+i+'" value="'+ 'ABCDE'[n]+'" data-target="a-'+i+'"><span>'+('ABCDE'[n])+(options?'. '+esc(o):'')+'</span></label>').join('')+'<select class="answer practice-mc-value" id="a-'+i+'" aria-label="Selected answer"><option value="">Not answered</option>'+opts.map((o,n)=>'<option value="'+ 'ABCDE'[n]+'">'+ 'ABCDE'[n]+'</option>').join('')+'</select></fieldset>';
+ }else response=answerBox('a-'+i);
+ return '<article class="q focus-question '+(mc?'practice-multiple-choice':'')+'" data-question-index="'+i+'"><div class="question-pane"><div class="question-heading"><h3>Question '+(i+1)+'</h3><span class="marks-tag">'+Number(q.marks||1)+' marks</span></div><div class="meta">'+esc(q.course)+' · '+esc(QuestionBankCategories.label(q))+' · '+esc(q.type)+'</div><div class="question-content">'+question+diagram+'</div></div><div class="answer-pane">'+(mc?'':'<h3>Your response</h3>')+response+'<p class="draft-status" aria-live="polite">Answers save on this device.</p></div></article>';
+};
 document.getElementById('questions').addEventListener('change',event=>{const radio=event.target.closest('input[data-target]');if(!radio)return;const select=document.getElementById(radio.dataset.target);if(select){select.value=radio.value;select.dispatchEvent(new Event('input',{bubbles:true}));}});
 const originalReview=reviewCard;
 reviewCard=function(r,i){return originalReview(r,i).replace('<h2>Question ',`<p class="key-origin">${esc(keyKind(r.q))}</p><h2>Question `)};
