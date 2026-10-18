@@ -36,9 +36,39 @@ label{display:block;font-weight:700;font-size:13px;margin-bottom:6px}select{widt
 <section id="session" class="hidden" style="margin-top:25px"><div class="panel"><div style="display:flex;justify-content:space-between;gap:12px;align-items:center"><span id="tag" class="pill">Practice</span><span id="counter" class="muted">Question 1 of 5</span></div><div class="progressbar" style="margin:18px 0"><div id="bar"></div></div><div id="prompt" class="question"></div><div id="choices" role="radiogroup" aria-label="Answer options"></div><div id="feedback" class="feedback hidden" aria-live="polite"></div><div class="actions"><button id="check" class="primary">Check answer</button><button id="previous" class="secondary">← Previous</button><button id="next" class="secondary">Next →</button><button id="finish" class="secondary">Finish session</button></div></div></section>
 <section id="results" class="panel hidden" style="margin-top:25px"><div class="eyebrow">Session complete</div><h2>Your practice summary</h2><div class="result" id="score"></div><p id="summary" class="muted"></p><div class="actions"><button class="primary" id="retry">Retry questions</button><button class="secondary" id="newsession">Choose another subject</button></div></section>
 </main><aside class="right"><div class="eyebrow">Your dashboard</div><h2 style="margin-top:7px">Session overview</h2><div class="stat"><span>Subject</span><strong id="dashcourse">—</strong></div><div class="stat"><span>Questions</span><strong id="dashtotal">0</strong></div><div class="stat"><span>Answered</span><strong id="dashanswered">0</strong></div><div class="stat"><span>Correct</span><strong id="dashcorrect">0</strong></div><h3 style="margin-top:26px">Question navigator</h3><div id="nav" class="dotgrid"></div><p class="muted" style="font-size:13px">Your responses are saved in this browser so you can return to the session.</p><div id="notice" class="empty hidden"></div></aside></div>
+<script src="upper-school-assessment-bank-chemistry-repository-2024-unit1.js?v=2026.10.9.chem1"></script>
+<script src="upper-school-assessment-bank-chemistry-repository-2023.js?v=2026.10.9.chem2023"></script>
+<script src="upper-school-assessment-bank-chemistry-repository-2021.js?v=2026.10.9.chem2021"></script>
+<script src="upper-school-assessment-bank-science.js"></script>
+<script src="upper-school-assessment-question-bank-core2.js"></script>
+<script src="upper-school-assessment-question-bank-core3.js"></script>
+<script src="upper-school-assessment-bank-year12-science-2026.js"></script>
+<script src="upper-school-assessment-bank-human-biology-2026-expansion-1.js"></script>
+<script src="upper-school-assessment-bank-human-biology-2026-expansion-2.js"></script>
+<script src="upper-school-assessment-bank-human-biology-2026-expansion-3.js"></script>
+<script src="upper-school-assessment-bank-human-biology-2026-expansion-4.js"></script>
+<script src="upper-school-assessment-bank-human-biology-2026-expansion-5.js"></script>
+<script src="upper-school-assessment-bank-human-biology-2026-expansion-6.js"></script>
+<script src="upper-school-assessment-bank-human-biology-2026-expansion-7.js"></script>
+<script src="upper-school-assessment-bank-human-biology-2026-expansion-8.js"></script>
+<script src="upper-school-assessment-bank-human-biology-2026-expansion-9.js"></script>
+<script src="upper-school-assessment-bank-physics-2026-expansion-1.js"></script>
+<script src="upper-school-assessment-bank-physics-2026-expansion-2.js"></script>
+<script src="upper-school-assessment-bank-physics-repository-sample.js"></script>
+<script src="upper-school-assessment-bank-physics-repository-2024-full.js"></script>
+<script src="upper-school-assessment-bank-physics-repository-2023-next12.js"></script>
+<script src="upper-school-assessment-bank-physics-exam-book-2020-2023.js?v=2026.10.9.book134"></script>
+<script src="upper-school-assessment-bank-physics-scsa-import.js?v=2026.10.13-scsa"></script>
+<script src="upper-school-assessment-bank-scsa-chemistry-human-biology.js?v=2026.10.13-scsa-chb"></script>
+<script src="upper-school-assessment-bank-scsa-all-atar.js?v=ec27191be85f2f1b"></script>
+<script src="upper-school-assessment-bank-physics-wace-vault.js?v=2026.10.13-wv1"></script>
+<script src="upper-school-assessment-bank-wace-vault-science.js?v=2026.10.13-wvs1"></script>
+<script src="upper-school-assessment-bank-wace-vault-maths-1.js?v=2026.10.14-maths1"></script>
+<script src="upper-school-assessment-bank-wace-vault-maths-2.js?v=2026.10.14-maths2"></script>
+<script src="upper-school-assessment-bank-wace-vault-maths-3.js?v=2026.10.14-maths3"></script>
 <script src="practice-quiz-sample-questions.js?v=2026.10.18-samples-v1"></script>
 <script src="practice-quiz-bank.js?v=2026.10.18-mc-import-v3"></script>
-<script src="student-quiz-bank-loader.js?v=2026.10.18-mc-import-v3"></script>
+<script src="student-quiz-bank-loader.js?v=2026.10.18-mc-raw-v4"></script>
 <script>
 (()=>{'use strict';
 const $=id=>document.getElementById(id), esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -70,6 +100,6 @@ function finish(){const correct=Object.values(graded).filter(Boolean).length;$('
 $('finish').onclick=finish;$('retry').onclick=()=>{answers={};graded={};index=0;$('results').classList.add('hidden');$('session').classList.remove('hidden');render()};$('newsession').onclick=()=>{$('results').classList.add('hidden');$('setup').classList.remove('hidden');session=[];answers={};graded={};availability()};
 $('course').onchange=refreshYears;$('year').onchange=refreshTopics;$('topic').onchange=availability;$('start').onclick=start;
 if(!all.length){$('notice').textContent='The digital question bank is unavailable. Refresh the page.';$('notice').classList.remove('hidden');$('start').disabled=true;return}
-refreshCourses();restore();(async()=>{try{const migrated=await window.StudentQuizBankLoader.load();const ready=window.PracticeQuizBank.ingestMultipleChoice(migrated);const seen=new Set(all.map(q=>String(q.id)));for(const q of ready){if(!seen.has(String(q.id))){all.push(q);seen.add(String(q.id))}}if(!session.length)refreshCourses();$('notice').textContent=ready.length+' existing multiple-choice questions converted for digital practice. Questions without a verified answer or clean question text are held for review.';$('notice').classList.remove('hidden')}catch(error){console.warn('Question bank import:',error);$('notice').textContent='Sample questions are available. The larger question bank could not be loaded.';$('notice').classList.remove('hidden')}})();
+refreshCourses();restore();(async()=>{try{const migrated=await window.StudentQuizBankLoader.loadRaw();const ready=window.PracticeQuizBank.ingestMultipleChoice(migrated);const seen=new Set(all.map(q=>String(q.id)));for(const q of ready){if(!seen.has(String(q.id))){all.push(q);seen.add(String(q.id))}}if(!session.length)refreshCourses();$('notice').textContent=ready.length+' existing multiple-choice questions converted for digital practice. Questions without a verified answer or clean question text are held for review.';$('notice').classList.remove('hidden')}catch(error){console.warn('Question bank import:',error);$('notice').textContent='Sample questions are available. The larger question bank could not be loaded.';$('notice').classList.remove('hidden')}})();
 })();
 </script></body></html>
