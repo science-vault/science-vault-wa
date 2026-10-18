@@ -96,7 +96,7 @@ function mcConvert(source){
  // A source-page screenshot is not a clean diagram: keep it out of the digital view.
  const sourcePage=/source-page-images/i.test(String(q.questionFormat||''))||/source-(?:image|layout)/i.test(raw);
  const embedded=[...raw.matchAll(/<img\b[^>]*\bsrc=["']([^"']+)["'][^>]*>/gi)].map(m=>m[1]);
- const images=diagram?[diagram]:!sourcePage&&embedded.length&&strip(raw).length>=15?embedded:[];
+ const diagramSrc=[...diagram.matchAll(/<img\b[^>]*\bsrc=["']([^"']+)["'][^>]*>/gi)].map(m=>m[1]);const images=diagramSrc.length?diagramSrc:diagram&&/^(?:assets\/|images\/|assessment-builder\/|https:\/\/)/i.test(diagram)?[diagram]:!sourcePage&&embedded.length&&strip(raw).length>=15?embedded:[];
  return {...q,id:q.id||'imported-'+Math.abs(hash(stem+options.join('|'))),stem,questionText:stem,mcOptions:options.map(strip),correctLetter,practiceImages:images,practiceBankStatus:'ready',practiceBankSourceId:q.id||'',practiceBankVersion:2};
 }
 function hash(s){let n=0;for(let i=0;i<s.length;i++)n=(Math.imul(31,n)+s.charCodeAt(i))|0;return n}
