@@ -88,7 +88,7 @@ function mcConvert(source){
   Array.isArray(q.options)&&q.options.length===4?q.options:parsed?.options;
  const stem=clean(q.stem||parsed?.stem||(!/<img\b/i.test(raw)?strip(raw):''));
  if(!options||options.length!==4||stem.length<15)return null;
- const answer=clean(q.correctLetter||q.correctAnswer||q.answer);
+ const answer=strip(q.correctLetter||q.correctAnswer||q.answer);
  const m=answer.match(/(?:^|correct\s*answer\s*[:\-]?\s*|answer\s*[:\-]?\s*)([A-D])(?=[.)\s<]|$)/i);
  const correctLetter=m?.[1]?.toUpperCase()||(Number.isInteger(q.correctIndex)&&q.correctIndex>=0&&q.correctIndex<4?'ABCD'[q.correctIndex]:null);
  if(!correctLetter)return null;
