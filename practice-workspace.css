@@ -17,3 +17,17 @@ body{background:#f8faf8}.quiz-shell{max-width:1260px}.quiz-shell .card{box-shado
 .response-part label{font-size:18px;line-height:1.5}
 .answer-pane textarea{font-size:18px;line-height:1.7}
 @media(min-width:900px){.quiz-shell{max-width:1480px}.focus-question{max-width:1180px}}
+
+/* Full-width practice reader: responsive at normal browser zoom. */
+body:has(#quiz:not(.hidden)) .quiz-shell{width:100%;max-width:1760px;margin-inline:auto;box-sizing:border-box}
+#quiz .focus-question{width:100%;max-width:none;margin:0;grid-template-columns:minmax(0,1fr)!important}
+#quiz .question-pane,#quiz .answer-pane{width:100%;box-sizing:border-box}
+#quiz .question-content{font-size:clamp(18px,1.45vw,22px);line-height:1.75}
+#quiz .question-content .practice-scanned-image{width:100%;overflow-x:auto}
+#quiz .question-content .practice-scanned-image img{width:100%;min-width:0;max-width:100%;height:auto;object-fit:contain}
+#quiz .answer-pane textarea{width:100%;min-height:170px;font-size:18px}
+#quiz .response-part{padding:16px 0;border-top:1px solid #e2e9e4}
+#quiz .response-part label{font-size:18px}
+#workspaceNav{position:sticky;top:0;z-index:30;background:#f8faf8;box-shadow:0 6px 14px #122b1910}
+@media(min-width:1100px){#quiz .question-content .practice-scanned-image img{max-width:1100px;margin-inline:auto;display:block}}
+@media(max-width:760px){body:has(#quiz:not(.hidden)) .quiz-shell{padding-inline:10px}#quiz .question-pane,#quiz .answer-pane{padding:18px 12px}#workspaceNav{top:0}}
