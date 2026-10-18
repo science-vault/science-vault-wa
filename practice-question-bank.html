@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Practice Question Bank | Science Vault WA</title>
+<style>
+:root{font-family:system-ui,-apple-system,Segoe UI,Arial,sans-serif;color:#162638;background:#f5f8fb}*{box-sizing:border-box}body{margin:0}a{color:#127f79}header{background:#102c38;color:white;padding:18px clamp(18px,4vw,60px);display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}header a{color:#c4f3e9;text-decoration:none}header strong{font-size:20px}main{max-width:1520px;margin:auto;padding:28px clamp(16px,3vw,44px)}h1{font-size:clamp(26px,3vw,38px);margin:0 0 8px}p{color:#657787}.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:24px 0}.stat{background:white;border:1px solid #dce6eb;border-radius:13px;padding:17px}.stat b{font-size:28px;display:block;color:#127f79}.stat small{color:#647588}.toolbar{background:white;border:1px solid #dce6eb;border-radius:15px;padding:18px;display:grid;grid-template-columns:minmax(220px,2fr) repeat(3,minmax(125px,1fr));gap:12px}label{font-size:12px;font-weight:700;color:#425568}input,select{display:block;width:100%;margin-top:5px;padding:11px;border:1px solid #cbd9e1;border-radius:9px;font:inherit;background:white}.content{display:grid;grid-template-columns:minmax(280px,.82fr) minmax(0,1.18fr);gap:18px;margin-top:18px}.panel{background:white;border:1px solid #dce6eb;border-radius:15px;overflow:hidden}.panelhead{padding:15px 18px;border-bottom:1px solid #e2e9ed;display:flex;justify-content:space-between;gap:12px}.scroll{max-height:68vh;overflow:auto}.item{display:block;width:100%;text-align:left;border:0;border-bottom:1px solid #edf1f4;background:white;padding:14px 18px;cursor:pointer;font:inherit;color:#1b3345}.item:hover,.item.active{background:#eaf7f4}.item strong{display:block;font-size:14px;margin:5px 0}.item small{color:#657787}.tag{font-size:11px;background:#e7f5f1;color:#126b64;padding:4px 8px;border-radius:20px}.preview{padding:24px;min-height:300px}.preview h2{font-size:21px;line-height:1.5}.choice{border:1px solid #dce5ea;border-radius:11px;padding:12px 14px;margin:10px 0}.choice.correct{border-color:#15936b;background:#e9f7f1}.letter{display:inline-grid;place-items:center;width:27px;height:27px;border:1px solid #c7d5dd;border-radius:50%;margin-right:10px;font-weight:700}.meta{color:#657787;font-size:13px}.figures img{max-width:100%;max-height:500px;object-fit:contain;display:block;margin:16px 0;border:1px solid #e2e9ed;border-radius:8px}.buttons{display:flex;align-items:center;gap:10px;padding:16px 18px;border-top:1px solid #e2e9ed}button.action{background:#127f79;color:white;border:0;padding:10px 15px;border-radius:9px;cursor:pointer}button.action:disabled{opacity:.4;cursor:default}.status{font-size:13px;color:#657787}.empty{padding:30px;color:#657787}@media(max-width:900px){.toolbar{grid-template-columns:repeat(2,minmax(0,1fr))}.content{grid-template-columns:1fr}.scroll{max-height:350px}}@media(max-width:550px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.toolbar{grid-template-columns:1fr}}
+</style></head><body>
+<header><strong>Science <span style="color:#76d5c6">Vault WA</span> · Practice Bank</strong><nav><a href="student-quiz.html">Practice Tests</a> &nbsp; · &nbsp; <a href="index.html">Home</a></nav></header>
+<main><h1>Practice question bank</h1><p>Browse the multiple-choice questions available in Practice Tests. View the question, answer choices, correct answer and source. Read-only preview.</p>
+<div class="stats"><div class="stat"><b id="total">—</b><small>Available questions</small></div><div class="stat"><b id="shown">—</b><small>Matching filters</small></div><div class="stat"><b id="subjects">—</b><small>Subjects</small></div><div class="stat"><b id="held">—</b><small>Dynamic imports awaiting conversion</small></div></div>
+<div class="toolbar"><label>Search questions or ID<input id="search" type="search" placeholder="Search question text, topic, source or ID"></label><label>Subject<select id="course"><option value="">All subjects</option></select></label><label>Year<select id="year"><option value="">All years</option></select></label><label>Topic<select id="topic"><option value="">All topics</option></select></label></div>
+<div class="content"><section class="panel"><div class="panelhead"><strong>Questions</strong><span class="status" id="status">Loading...</span></div><div class="scroll" id="list"></div><div class="buttons"><button class="action" id="more">Load more</button><span class="status" id="paging"></span></div></section>
+<section class="panel"><div class="panelhead"><strong>Question preview</strong><span class="tag" id="qid">Select a question</span></div><div class="preview" id="preview"><p>Choose a question from the list to inspect its answers.</p></div></section></div>
+</main>
+<script src="upper-school-assessment-bank-chemistry-repository-2024-unit1.js?v=2026.10.9.chem1"></script>
+<script src="upper-school-assessment-bank-chemistry-repository-2023.js?v=2026.10.9.chem2023"></script>
+<script src="upper-school-assessment-bank-chemistry-repository-2021.js?v=2026.10.9.chem2021"></script>
+<script src="upper-school-assessment-bank-science.js"></script>
+<script src="upper-school-assessment-question-bank-core2.js"></script>
+<script src="upper-school-assessment-question-bank-core3.js"></script>
+<script src="upper-school-assessment-bank-year12-science-2026.js"></script>
+<script src="upper-school-assessment-bank-human-biology-2026-expansion-1.js"></script>
+<script src="upper-school-assessment-bank-human-biology-2026-expansion-2.js"></script>
+<script src="upper-school-assessment-bank-human-biology-2026-expansion-3.js"></script>
+<script src="upper-school-assessment-bank-human-biology-2026-expansion-4.js"></script>
+<script src="upper-school-assessment-bank-human-biology-2026-expansion-5.js"></script>
+<script src="upper-school-assessment-bank-human-biology-2026-expansion-6.js"></script>
+<script src="upper-school-assessment-bank-human-biology-2026-expansion-7.js"></script>
+<script src="upper-school-assessment-bank-human-biology-2026-expansion-8.js"></script>
+<script src="upper-school-assessment-bank-human-biology-2026-expansion-9.js"></script>
+<script src="upper-school-assessment-bank-physics-2026-expansion-1.js"></script>
+<script src="upper-school-assessment-bank-physics-2026-expansion-2.js"></script>
+<script src="upper-school-assessment-bank-physics-repository-sample.js"></script>
+<script src="upper-school-assessment-bank-physics-repository-2024-full.js"></script>
+<script src="upper-school-assessment-bank-physics-repository-2023-next12.js"></script>
+<script src="upper-school-assessment-bank-physics-exam-book-2020-2023.js?v=2026.10.9.book134"></script>
+<script src="upper-school-assessment-bank-physics-scsa-import.js?v=2026.10.13-scsa"></script>
+<script src="upper-school-assessment-bank-scsa-chemistry-human-biology.js?v=2026.10.13-scsa-chb"></script>
+<script src="upper-school-assessment-bank-scsa-all-atar.js?v=ec27191be85f2f1b"></script>
+<script src="upper-school-assessment-bank-physics-wace-vault.js?v=2026.10.13-wv1"></script>
+<script src="upper-school-assessment-bank-wace-vault-science.js?v=2026.10.13-wvs1"></script>
+<script src="upper-school-assessment-bank-wace-vault-maths-1.js?v=2026.10.14-maths1"></script>
+<script src="upper-school-assessment-bank-wace-vault-maths-2.js?v=2026.10.14-maths2"></script>
+<script src="upper-school-assessment-bank-wace-vault-maths-3.js?v=2026.10.14-maths3"></script>
+<script src="practice-quiz-sample-questions.js?v=2026.10.18-samples-v1"></script>
+<script src="practice-quiz-extra-questions.js?v=2026.10.18-extra70-v1"></script>
+<script src="practice-quiz-imported-core.js?v=2026.10.18-import-core-v1"></script>
+<script src="practice-quiz-imported-science-expansion.js"></script>
+<script src="practice-quiz-imported-science-2026.js?v=20261018"></script>
+<script src="practice-quiz-imported-repo-01.js?v=20261018b"></script>
+<script src="practice-quiz-imported-repo-02.js?v=20261018b"></script>
+<script src="practice-quiz-imported-repo-03.js?v=20261018b"></script>
+<script src="practice-quiz-imported-repo-04.js?v=20261018b"></script>
+<script src="practice-quiz-imported-repo-05.js?v=20261018b"></script>
+<script src="practice-quiz-imported-repo-06.js?v=20261018b"></script>
+<script src="practice-quiz-bank.js?v=2026.10.18-mc-import-v3"></script>
+<script src="student-quiz-bank-loader.js?v=2026.10.18-mc-raw-v4"></script>
+<script>
+(function(){'use strict';
+const $=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const source=[...(window.PracticeQuizSampleQuestions||[]),...(window.PracticeQuizExtraQuestions||[]),...(window.PracticeQuizImportedCore||[]),...(window.PracticeQuizImportedScienceExpansion||[]),...(window.PracticeQuizImportedScience2026||[]),...(window.PracticeQuizImportedRepo01||[]),...(window.PracticeQuizImportedRepo02||[]),...(window.PracticeQuizImportedRepo03||[]),...(window.PracticeQuizImportedRepo04||[]),...(window.PracticeQuizImportedRepo05||[]),...(window.PracticeQuizImportedRepo06||[])];
+let questions=[],filtered=[],selected='',limit=60,held=0;
+const ready=q=>q&&Array.isArray(q.mcOptions)&&q.mcOptions.length===4&&/^[A-D]$/.test(String(q.correctLetter||''))&&String(q.stem||q.questionText||'').trim().length>=10;
+function merge(items){const ids=new Set(questions.map(q=>String(q.id)));for(const q of items){if(!ready(q))continue;const id=String(q.id||'');if(!id||ids.has(id))continue;questions.push(q);ids.add(id)}questions.sort((a,b)=>String(a.course).localeCompare(String(b.course))||Number(a.year)-Number(b.year)||String(a.topic).localeCompare(String(b.topic)))}
+function fill(id,values){const el=$(id),prev=el.value,all=id==='course'?'All subjects':id==='year'?'All years':'All topics';el.innerHTML='<option value="">'+all+'</option>'+values.map(v=>'<option value="'+esc(v)+'">'+esc(v)+'</option>').join('');if(values.includes(prev))el.value=prev}
+function refreshFilters(){fill('course',[...new Set(questions.map(q=>String(q.course||'Science')))].sort());const byCourse=questions.filter(q=>!$('course').value||q.course===$('course').value);fill('year',[...new Set(byCourse.map(q=>String(q.year)))].sort((a,b)=>Number(a)-Number(b)));const byYear=byCourse.filter(q=>!$('year').value||String(q.year)===$('year').value);fill('topic',[...new Set(byYear.map(q=>String(q.topic||'General')))].sort())}
+function apply(){const term=$('search').value.toLowerCase().trim();filtered=questions.filter(q=>(!$('course').value||q.course===$('course').value)&&(!$('year').value||String(q.year)===$('year').value)&&(!$('topic').value||String(q.topic||'General')===$('topic').value)&&(!term||[q.id,q.stem,q.questionText,q.topic,q.source,q.sourceFile].some(v=>String(v||'').toLowerCase().includes(term))));limit=60;renderList();$('total').textContent=questions.length.toLocaleString();$('shown').textContent=filtered.length.toLocaleString();$('subjects').textContent=new Set(questions.map(q=>q.course)).size;$('held').textContent=held.toLocaleString();if(!filtered.some(q=>String(q.id)===selected))selected=filtered[0]?.id||'';preview()}
+function renderList(){const visible=filtered.slice(0,limit);$('list').innerHTML=visible.length?visible.map(q=>'<button class="item '+(String(q.id)===selected?'active':'')+'" data-id="'+esc(q.id)+'"><small>'+esc(q.course)+' · Year '+esc(q.year)+' · '+esc(q.topic||'General')+'</small><strong>'+esc(q.stem||q.questionText)+'</strong><small>'+esc(q.id)+'</small></button>').join(''):'<div class="empty">No questions match these filters.</div>';$('paging').textContent=visible.length+' of '+filtered.length;$('more').disabled=limit>=filtered.length;$('status').textContent=filtered.length+' questions'}
+function preview(){const q=questions.find(x=>String(x.id)===String(selected));if(!q){$('qid').textContent='No question';$('preview').innerHTML='<p>No question selected.</p>';return}$('qid').textContent=q.id;const imgs=(q.practiceImages||[]).filter(s=>/^(?:assets\/|images\/|assessment-builder\/|https:\/\/)/i.test(s));$('preview').innerHTML='<div class="meta">'+esc(q.course)+' · Year '+esc(q.year)+' · '+esc(q.topic||'General')+' · '+esc(q.difficulty||'Mixed')+'</div><h2>'+esc(q.stem||q.questionText)+'</h2><div class="figures">'+imgs.map(src=>'<img src="'+esc(src)+'" alt="Question diagram" loading="lazy">').join('')+'</div>'+q.mcOptions.map((o,i)=>'<div class="choice '+('ABCD'[i]===q.correctLetter?'correct':'')+'"><span class="letter">'+ 'ABCD'[i]+'</span>'+esc(o)+('ABCD'[i]===q.correctLetter?' ✓':'')+'</div>').join('')+'<p class="meta"><strong>Correct answer:</strong> '+esc(q.correctLetter)+'</p><p class="meta"><strong>Source:</strong> '+esc(q.source||'Practice bank')+'</p>'+(q.sourceFile?'<p class="meta"><strong>Original file:</strong> '+esc(q.sourceFile)+'</p>':'')}
+$('list').onclick=e=>{const el=e.target.closest('[data-id]');if(!el)return;selected=el.dataset.id;renderList();preview()};$('more').onclick=()=>{limit+=60;renderList()};$('search').oninput=apply;$('course').onchange=()=>{refreshFilters();apply()};$('year').onchange=()=>{refreshFilters();apply()};$('topic').onchange=apply;
+merge(source);refreshFilters();apply();
+(async()=>{try{const raw=await window.StudentQuizBankLoader.loadRaw();const converted=window.PracticeQuizBank.ingestMultipleChoice(raw);held=(window.PracticeQuizBank.mcStats?.unparsed||0);merge(converted);refreshFilters();apply();$('status').textContent=filtered.length+' questions loaded'}catch(err){console.warn('Additional bank loading failed',err);$('status').textContent='Core questions loaded; additional imports unavailable'}})();
+})();
+</script></body></html>
