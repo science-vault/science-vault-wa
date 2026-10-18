@@ -75,7 +75,7 @@ label{display:block;font-weight:700;font-size:13px;margin-bottom:6px}select{widt
 <script>
 (()=>{'use strict';
 const $=id=>document.getElementById(id), esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const source=[...(window.PracticeQuizSampleQuestions||[]),...(window.PracticeQuizExtraQuestions||[]),...(window.PracticeQuizImportedCore||[]),...(window.PracticeQuizImportedScienceExpansion||[])];
+const source=[...(window.PracticeQuizSampleQuestions||[]),...(window.PracticeQuizExtraQuestions||[]),...(window.PracticeQuizImportedCore||[]),...(window.PracticeQuizImportedScienceExpansion||[]),...(window.PracticeQuizImportedScience2026||[])];
 let all=(window.PracticeQuizBank?.ingest(source)||source).filter(q=>q.practiceBankStatus==='ready'&&Array.isArray(q.mcOptions)&&q.mcOptions.length===4);
 let session=[],answers={},graded={},index=0;
 const key='science-vault-practice-v2';
