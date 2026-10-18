@@ -51,6 +51,8 @@ renderQuestion=function(q,i){
  let question='';
  if(m.known){
   const k=m.known;
+  q.parts=k.parts;
+  q.marks=7;
   const table='<table class="practice-data-table"><thead><tr>'+k.table[0].map(x=>'<th>'+esc(x)+'</th>').join('')+'</tr></thead><tbody>'+k.table.slice(1).map(row=>'<tr>'+row.map(x=>'<td>'+esc(x)+'</td>').join('')+'</tr>').join('')+'</tbody></table>';
   question='<p class="practice-readable">'+esc(k.intro)+'</p>'+table;
  }else if(mc&&stem){
