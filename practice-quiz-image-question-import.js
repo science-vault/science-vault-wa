@@ -24,7 +24,7 @@ function collect(existing){
   if(!/multiple[\s-]*choice/i.test(String(q.type||''))||seen.has(String(q.id)))continue;
   const item=prepare(q);
   if(!item){skipped++;continue}
-  if(item.practiceImageRefs.length&&!window.ScsaSourceImagePacks&&!window.ScsaSourceImagePackResolver){unresolved++;continue}
+  if(item.practiceImageRefs.length){unresolved++;continue}
   ready.push(item);seen.add(String(q.id));
  }
  return {questions:ready,stats:{ready:ready.length,unresolved,skipped}};
