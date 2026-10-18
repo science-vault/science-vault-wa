@@ -18,7 +18,7 @@ label{display:block;font-weight:700;font-size:13px;margin-bottom:6px}select{widt
 .question{font-size:clamp(18px,1.6vw,23px);line-height:1.6;margin:18px 0 25px;font-weight:650}
 .option{display:flex;align-items:center;gap:14px;border:1.5px solid #d8e3e9;border-radius:12px;padding:14px 17px;margin:10px 0;cursor:pointer;transition:background .12s}
 .option:hover{background:#f4faf9}.option.selected{border-color:var(--teal);background:#e9f7f4}.option.correct{border-color:#168459;background:#e9f7ee}.option.wrong{border-color:#d95a56;background:#fff0ef}
-.option input{accent-color:var(--teal)}.letter{display:inline-grid;place-items:center;flex:none;width:33px;height:33px;border-radius:8px;background:#edf2f5;font-weight:800}
+.option input{accent-color:var(--teal)}.practice-figures{display:flex;flex-wrap:wrap;gap:14px;margin:14px 0 24px}.practice-figures img{max-width:100%;max-height:480px;object-fit:contain;border:1px solid var(--line);border-radius:10px}.letter{display:inline-grid;place-items:center;flex:none;width:33px;height:33px;border-radius:8px;background:#edf2f5;font-weight:800}
 .feedback{border-left:4px solid var(--teal);background:#f2faf7;padding:16px 19px;border-radius:8px;margin-top:20px}
 .progressbar{height:9px;background:#e4edf0;border-radius:99px;overflow:hidden}.progressbar>div{height:100%;background:var(--teal);transition:width .2s}
 .right{border-left:1px solid var(--line);background:white;padding:32px 23px;position:sticky;top:0;height:100vh;overflow:auto}
@@ -37,26 +37,27 @@ label{display:block;font-weight:700;font-size:13px;margin-bottom:6px}select{widt
 <section id="results" class="panel hidden" style="margin-top:25px"><div class="eyebrow">Session complete</div><h2>Your practice summary</h2><div class="result" id="score"></div><p id="summary" class="muted"></p><div class="actions"><button class="primary" id="retry">Retry questions</button><button class="secondary" id="newsession">Choose another subject</button></div></section>
 </main><aside class="right"><div class="eyebrow">Your dashboard</div><h2 style="margin-top:7px">Session overview</h2><div class="stat"><span>Subject</span><strong id="dashcourse">—</strong></div><div class="stat"><span>Questions</span><strong id="dashtotal">0</strong></div><div class="stat"><span>Answered</span><strong id="dashanswered">0</strong></div><div class="stat"><span>Correct</span><strong id="dashcorrect">0</strong></div><h3 style="margin-top:26px">Question navigator</h3><div id="nav" class="dotgrid"></div><p class="muted" style="font-size:13px">Your responses are saved in this browser so you can return to the session.</p><div id="notice" class="empty hidden"></div></aside></div>
 <script src="practice-quiz-sample-questions.js?v=2026.10.18-samples-v1"></script>
-<script src="practice-quiz-bank.js?v=2026.10.18-bank-v1"></script>
+<script src="practice-quiz-bank.js?v=2026.10.18-mc-import-v3"></script>
+<script src="student-quiz-bank-loader.js?v=2026.10.18-mc-import-v3"></script>
 <script>
 (()=>{'use strict';
 const $=id=>document.getElementById(id), esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const source=window.PracticeQuizSampleQuestions||[];
-const all=(window.PracticeQuizBank?.ingest(source)||source).filter(q=>q.practiceBankStatus==='ready'&&Array.isArray(q.mcOptions)&&q.mcOptions.length===4);
+let all=(window.PracticeQuizBank?.ingest(source)||source).filter(q=>q.practiceBankStatus==='ready'&&Array.isArray(q.mcOptions)&&q.mcOptions.length===4);
 let session=[],answers={},graded={},index=0;
 const key='science-vault-practice-v2';
 const opts=(id,values,allLabel)=>{const el=$(id);el.innerHTML=(allLabel?'<option value="all">All topics</option>':'')+values.map(v=>'<option value="'+esc(v)+'">'+esc(v)+'</option>').join('')};
 const unique=values=>[...new Set(values)].sort((a,b)=>String(a).localeCompare(String(b),undefined,{numeric:true}));
-function refreshCourses(){opts('course',unique(all.map(q=>q.course)));refreshYears()}
-function refreshYears(){const c=$('course').value;opts('year',unique(all.filter(q=>q.course===c).map(q=>String(q.year))));refreshTopics()}
+function refreshCourses(){const previous=$('course').value;opts('course',unique(all.map(q=>q.course)));if(unique(all.map(q=>q.course)).includes(previous))$('course').value=previous;refreshYears()}
+function refreshYears(){const c=$('course').value,previous=$('year').value;opts('year',unique(all.filter(q=>q.course===c).map(q=>String(q.year))));if(unique(all.filter(q=>q.course===c).map(q=>String(q.year))).includes(previous))$('year').value=previous;refreshTopics()}
 function pool(){return all.filter(q=>q.course===$('course').value&&String(q.year)===$('year').value&&($('topic').value==='all'||q.topic===$('topic').value))}
 function refreshTopics(){opts('topic',unique(all.filter(q=>q.course===$('course').value&&String(q.year)===$('year').value).map(q=>q.topic)),true);availability()}
 function availability(){$('availability').textContent=pool().length+' digital questions available in this selection.';$('start').disabled=!pool().length}
 function save(){try{localStorage.setItem(key,JSON.stringify({ids:session.map(q=>q.id),answers,graded,index}))}catch(e){}}
 function restore(){try{const saved=JSON.parse(localStorage.getItem(key)||'null');if(!saved?.ids?.length)return;const found=saved.ids.map(id=>all.find(q=>q.id===id));if(found.some(q=>!q))return;session=found;answers=saved.answers||{};graded=saved.graded||{};index=Math.max(0,Math.min(session.length-1,saved.index||0));$('setup').classList.add('hidden');$('session').classList.remove('hidden');render()}catch(e){}}
-function start(){session=pool();answers={};graded={};index=0;$('setup').classList.add('hidden');$('results').classList.add('hidden');$('session').classList.remove('hidden');render()}
+function start(){session=pool().slice(0,20);answers={};graded={};index=0;$('setup').classList.add('hidden');$('results').classList.add('hidden');$('session').classList.remove('hidden');render()}
 function render(){const q=session[index];if(!q)return;const choice=answers[q.id];$('tag').textContent=q.course+' • '+q.topic;$('counter').textContent='Question '+(index+1)+' of '+session.length;$('prompt').textContent=q.stem||q.questionText||q.question;
-$('choices').innerHTML=q.mcOptions.map((option,i)=>{const letter='ABCD'[i],selected=choice===letter,done=Object.hasOwn(graded,q.id);return '<label class="option '+(selected?'selected ':'')+(done&&letter===q.correctLetter?'correct ':done&&selected&&letter!==q.correctLetter?'wrong ':'')+'"><input type="radio" name="answer" value="'+letter+'" '+(selected?'checked ':'')+(done?'disabled ':'')+'><span class="letter">'+letter+'</span><span>'+esc(option)+'</span></label>'}).join('');
+const figures=(q.practiceImages||[]).filter(src=>/^(?:assets\/|images\/|assessment-builder\/|https:\/\/)/i.test(src));$('prompt').insertAdjacentHTML('afterend','');document.getElementById('practice-figures')?.remove();if(figures.length){const container=document.createElement('div');container.id='practice-figures';container.className='practice-figures';figures.forEach(src=>{const img=document.createElement('img');img.src=src;img.alt='Question diagram';img.loading='lazy';container.appendChild(img)});$('prompt').after(container)}$('choices').innerHTML=q.mcOptions.map((option,i)=>{const letter='ABCD'[i],selected=choice===letter,done=Object.hasOwn(graded,q.id);return '<label class="option '+(selected?'selected ':'')+(done&&letter===q.correctLetter?'correct ':done&&selected&&letter!==q.correctLetter?'wrong ':'')+'"><input type="radio" name="answer" value="'+letter+'" '+(selected?'checked ':'')+(done?'disabled ':'')+'><span class="letter">'+letter+'</span><span>'+esc(option)+'</span></label>'}).join('');
 $('feedback').classList.toggle('hidden',!Object.hasOwn(graded,q.id));if(Object.hasOwn(graded,q.id))$('feedback').innerHTML='<strong>'+(graded[q.id]?'Correct answer!':'Not quite — correct answer: '+esc(q.correctLetter))+'</strong><p>'+esc(q.mcOptions['ABCD'.indexOf(q.correctLetter)])+'</p>';else $('feedback').textContent='';
 $('check').disabled=!choice||Object.hasOwn(graded,q.id);$('previous').disabled=index===0;$('next').disabled=index===session.length-1;$('bar').style.width=((index+1)/session.length*100)+'%';
 $('dashcourse').textContent=q.course;$('dashtotal').textContent=session.length;$('dashanswered').textContent=Object.keys(answers).length;$('dashcorrect').textContent=Object.values(graded).filter(Boolean).length;
@@ -69,6 +70,6 @@ function finish(){const correct=Object.values(graded).filter(Boolean).length;$('
 $('finish').onclick=finish;$('retry').onclick=()=>{answers={};graded={};index=0;$('results').classList.add('hidden');$('session').classList.remove('hidden');render()};$('newsession').onclick=()=>{$('results').classList.add('hidden');$('setup').classList.remove('hidden');session=[];answers={};graded={};availability()};
 $('course').onchange=refreshYears;$('year').onchange=refreshTopics;$('topic').onchange=availability;$('start').onclick=start;
 if(!all.length){$('notice').textContent='The digital question bank is unavailable. Refresh the page.';$('notice').classList.remove('hidden');$('start').disabled=true;return}
-refreshCourses();restore();
+refreshCourses();restore();(async()=>{try{const migrated=await window.StudentQuizBankLoader.load();const ready=window.PracticeQuizBank.ingestMultipleChoice(migrated);const seen=new Set(all.map(q=>String(q.id)));for(const q of ready){if(!seen.has(String(q.id))){all.push(q);seen.add(String(q.id))}}if(!session.length)refreshCourses();$('notice').textContent=ready.length+' existing multiple-choice questions converted for digital practice. Questions without a verified answer or clean question text are held for review.';$('notice').classList.remove('hidden')}catch(error){console.warn('Question bank import:',error);$('notice').textContent='Sample questions are available. The larger question bank could not be loaded.';$('notice').classList.remove('hidden')}})();
 })();
 </script></body></html>
