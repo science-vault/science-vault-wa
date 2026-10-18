@@ -457,3 +457,6 @@ document.write('<script src="assessment-question-bank-science-source-batch218.js
 document.write('<script src="assessment-question-bank-science-source-batch219.js?v=2026.10.17-tests-only-v1-b220"><\/script>');
 
 document.write('<script src="assessment-question-bank-science-source-batch220.js?v=2026.10.17-tests-only-v1-b220"><\/script>');
+
+// 500-question MCQ import API, available after the existing source batches load.
+document.write('<script src="science-vault-mcq-importer.js?v=2026.10.18-500"><\/script>');
