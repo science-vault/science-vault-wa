@@ -52,3 +52,14 @@ body:has(#quiz:not(.hidden)) .quiz-shell{width:100%;max-width:1760px;margin-inli
 #quiz .practice-multiple-choice .question-content .practice-scanned-note{font-size:13px;margin:4px 0}
 #quiz .practice-multiple-choice .practice-mc-value{position:absolute!important;width:1px!important;height:1px!important;min-height:0!important;opacity:0;pointer-events:none}
 @media(max-width:600px){#quiz .practice-multiple-choice .practice-mc-option{width:calc(50% - 12px);min-width:0;box-sizing:border-box}}
+
+/* Unified digital question reader */
+#quiz .practice-readable{font-size:clamp(18px,1.55vw,23px);line-height:1.7;white-space:normal;overflow-wrap:anywhere;margin:12px 0 24px;max-width:100ch}
+#quiz .practice-written-text{white-space:normal}
+#quiz .practice-scanned{margin:18px 0;padding:12px 16px;border:1px solid #d4e1e0;border-radius:12px;background:#f7faf9}
+#quiz .practice-scanned summary{font-weight:700;cursor:pointer}
+#quiz .practice-scanned img{max-width:100%;height:auto}
+#quiz .practice-scan-fallback{font-size:16px;line-height:1.6}
+#quiz .response-part{margin:16px 0 24px}
+#quiz .response-part label{display:block;font-weight:650;margin-bottom:10px}
+#quiz .response-part textarea{width:100%;box-sizing:border-box}
