@@ -83,6 +83,7 @@ label{display:block;font-weight:700;font-size:13px;margin-bottom:6px}select{widt
 <script src="practice-quiz-bank.js?v=2026.10.18-mc-import-v3"></script>
 <script src="student-quiz-bank-loader.js?v=2026.10.18-mc-raw-v4"></script>
 <script src="practice-quiz-leftover-text-only-batch.js?v=20261018"></script>
+<script src="practice-quiz-image-question-import.js?v=20261018"></script>
 <script>
 (()=>{'use strict';
 const $=id=>document.getElementById(id), esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -114,6 +115,6 @@ function finish(){const correct=Object.values(graded).filter(Boolean).length;$('
 $('finish').onclick=finish;$('retry').onclick=()=>{answers={};graded={};index=0;$('results').classList.add('hidden');$('session').classList.remove('hidden');render()};$('newsession').onclick=()=>{$('results').classList.add('hidden');$('setup').classList.remove('hidden');session=[];answers={};graded={};availability()};
 $('course').onchange=refreshYears;$('year').onchange=refreshTopics;$('topic').onchange=availability;$('start').onclick=start;
 if(!all.length){$('notice').textContent='The digital question bank is unavailable. Refresh the page.';$('notice').classList.remove('hidden');$('start').disabled=true;return}
-refreshCourses();restore();(async()=>{try{const batch=await window.PracticeQuizLeftoverTextOnly.load(all);const ready=batch.questions;const seen=new Set(all.map(q=>String(q.id)));for(const q of ready){if(!seen.has(String(q.id))){all.push(q);seen.add(String(q.id))}}if(!session.length)refreshCourses();$('notice').textContent=batch.stats.added+' additional text-only multiple-choice questions imported in one batch. Questions without a verified answer or clean question text are held for review.';$('notice').classList.remove('hidden')}catch(error){console.warn('Question bank import:',error);$('notice').textContent='Sample questions are available. The larger question bank could not be loaded.';$('notice').classList.remove('hidden')}})();
+refreshCourses();restore();(async()=>{try{const batch=await window.PracticeQuizLeftoverTextOnly.load(all);const imageBatch=window.PracticeQuizImageImporter.collect(all.concat(batch.questions));const ready=batch.questions.concat(imageBatch.questions);const seen=new Set(all.map(q=>String(q.id)));for(const q of ready){if(!seen.has(String(q.id))){all.push(q);seen.add(String(q.id))}}if(!session.length)refreshCourses();$('notice').textContent=batch.stats.added+' additional text-only multiple-choice questions imported in one batch. Questions without a verified answer or clean question text are held for review.';$('notice').classList.remove('hidden')}catch(error){console.warn('Question bank import:',error);$('notice').textContent='Sample questions are available. The larger question bank could not be loaded.';$('notice').classList.remove('hidden')}})();
 })();
 </script></body></html>
