@@ -49,17 +49,22 @@ renderQuestion=function(q,i){
  const original=m.original;
  const originalView=m.scan?'<details class="practice-scanned"><summary>View original examination page</summary>'+original+'</details>':'';
  let question='';
- if(mc&&stem){
+ if(m.known){
+  const k=m.known;
+  const table='<table class="practice-data-table"><thead><tr>'+k.table[0].map(x=>'<th>'+esc(x)+'</th>').join('')+'</tr></thead><tbody>'+k.table.slice(1).map(row=>'<tr>'+row.map(x=>'<td>'+esc(x)+'</td>').join('')+'</tr>').join('')+'</tbody></table>';
+  question='<p class="practice-readable">'+esc(k.intro)+'</p>'+table;
+ }else if(mc&&stem){
   question='<div class="practice-readable">'+esc(stem)+'</div>'+originalView;
  }else if(m.written){
   question='<div class="practice-readable practice-written-text">'+esc(m.written).replace(/\r?\n/g,'<br>')+'</div>'+originalView;
  }else if(m.scan){
   question='<div class="practice-scan-fallback"><p>Original examination question (text conversion not yet verified).</p>'+original+'</div>';
  }else question=original;
- const diagram=m.diagrams||'';
+ const diagram=m.known?'':m.diagrams||'';
  let response='';
- if(m.parts.length){
-  response=m.parts.map((p,j)=>'<div class="response-part"><label for="a-'+i+'-'+j+'">'+esc(p.label||'')+' '+esc(p.text||'')+' ('+Number(p.marks||0)+' marks)</label>'+answerBox('a-'+i+'-'+j)+'</div>').join('');
+ const parts=m.known?.parts||m.parts;
+ if(parts.length){
+  response=parts.map((p,j)=>'<div class="response-part"><label for="a-'+i+'-'+j+'">'+esc(p.label||'')+' '+esc(p.text||'')+' ('+Number(p.marks||0)+' marks)</label>'+answerBox('a-'+i+'-'+j)+'</div>').join('');
  }else if(mc){
   const opts=options?.length>=2?options:['A','B','C','D'];
   response='<fieldset class="practice-mc-options"><legend>Select one answer</legend>'+opts.map((o,n)=>'<label class="practice-mc-option"><input type="radio" name="practice-choice-'+i+'" value="'+ 'ABCDE'[n]+'" data-target="a-'+i+'"><span>'+('ABCDE'[n])+(options?'. '+esc(o):'')+'</span></label>').join('')+'<select class="answer practice-mc-value" id="a-'+i+'" aria-label="Selected answer"><option value="">Not answered</option>'+opts.map((o,n)=>'<option value="'+ 'ABCDE'[n]+'">'+ 'ABCDE'[n]+'</option>').join('')+'</select></fieldset>';
