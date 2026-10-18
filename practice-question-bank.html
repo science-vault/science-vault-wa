@@ -56,6 +56,7 @@
 <script src="practice-quiz-imported-upper-02.js?v=20261018"></script>
 <script src="practice-quiz-bank.js?v=2026.10.18-mc-import-v3"></script>
 <script src="student-quiz-bank-loader.js?v=2026.10.18-mc-raw-v4"></script>
+<script src="practice-quiz-leftover-text-only-batch.js?v=20261018"></script>
 <script>
 (function(){'use strict';
 const $=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -70,6 +71,6 @@ function renderList(){const visible=filtered.slice(0,limit);$('list').innerHTML=
 function preview(){const q=questions.find(x=>String(x.id)===String(selected));if(!q){$('qid').textContent='No question';$('preview').innerHTML='<p>No question selected.</p>';return}$('qid').textContent=q.id;const imgs=(q.practiceImages||[]).filter(s=>/^(?:assets\/|images\/|assessment-builder\/|https:\/\/)/i.test(s));$('preview').innerHTML='<div class="meta">'+esc(q.course)+' · Year '+esc(q.year)+' · '+esc(q.topic||'General')+' · '+esc(q.difficulty||'Mixed')+'</div><h2>'+esc(q.stem||q.questionText)+'</h2><div class="figures">'+imgs.map(src=>'<img src="'+esc(src)+'" alt="Question diagram" loading="lazy">').join('')+'</div>'+q.mcOptions.map((o,i)=>'<div class="choice '+('ABCD'[i]===q.correctLetter?'correct':'')+'"><span class="letter">'+ 'ABCD'[i]+'</span>'+esc(o)+('ABCD'[i]===q.correctLetter?' ✓':'')+'</div>').join('')+'<p class="meta"><strong>Correct answer:</strong> '+esc(q.correctLetter)+'</p><p class="meta"><strong>Source:</strong> '+esc(q.source||'Practice bank')+'</p>'+(q.sourceFile?'<p class="meta"><strong>Original file:</strong> '+esc(q.sourceFile)+'</p>':'')}
 $('list').onclick=e=>{const el=e.target.closest('[data-id]');if(!el)return;selected=el.dataset.id;renderList();preview()};$('more').onclick=()=>{limit+=60;renderList()};$('search').oninput=apply;$('course').onchange=()=>{refreshFilters();apply()};$('year').onchange=()=>{refreshFilters();apply()};$('topic').onchange=apply;$('sort').onchange=apply;
 merge(source);refreshFilters();apply();
-(async()=>{try{const raw=await window.StudentQuizBankLoader.loadRaw();const converted=window.PracticeQuizBank.ingestMultipleChoice(raw);held=(window.PracticeQuizBank.mcStats?.unparsed||0);merge(converted);refreshFilters();apply();$('status').textContent=filtered.length+' questions loaded'}catch(err){console.warn('Additional bank loading failed',err);$('status').textContent='Core questions loaded; additional imports unavailable'}})();
+(async()=>{try{const batch=await window.PracticeQuizLeftoverTextOnly.load(questions);const converted=batch.questions;held=(window.PracticeQuizBank.mcStats?.unparsed||0)+batch.stats.imageHeld;merge(converted);refreshFilters();apply();$('status').textContent=filtered.length+' questions loaded'}catch(err){console.warn('Additional bank loading failed',err);$('status').textContent='Core questions loaded; additional imports unavailable'}})();
 })();
 </script></body></html>
