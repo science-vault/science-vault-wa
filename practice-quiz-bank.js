@@ -70,5 +70,47 @@ function ingest(items){
  window.PracticeQuizBank.stats=stats;
  return all;
 }
-window.PracticeQuizBank={convert,ingest,lookup:id=>registry.get(String(id)),stats:{}};
+
+/* Multiple-choice migration: source questions remain untouched. */
+function mcConvert(source){
+ const q={...source},raw=clean(q.question),text=clean(q.questionText||q.transcription||q.plainText||q.searchText||strip(raw));
+ if(!/multiple[\s-]*choice/i.test(String(q.type||'')))return null;
+ const matches=[...text.matchAll(/(?:^|\s|\n)(?:\(?([A-Da-d])\)|([A-Da-d])[.)])\s+/g)];
+ let parsed=null;
+ for(let i=0;i<=matches.length-4;i++){
+  const four=matches.slice(i,i+4);
+  if(four.map(m=>(m[1]||m[2]).toUpperCase()).join('')!=='ABCD')continue;
+  const stem=text.slice(0,four[0].index).replace(/^(?:SCSA WACE official\s*)+/i,'').trim();
+  const options=four.map((m,j)=>text.slice(m.index+m[0].length, matches[i+j+1]?.index??text.length).trim());
+  if(stem.length>=15&&options.every(x=>x.length>0&&x.length<800)){parsed={stem,options};break}
+ }
+ const options=Array.isArray(q.mcOptions)&&q.mcOptions.length===4?q.mcOptions:
+  Array.isArray(q.options)&&q.options.length===4?q.options:parsed?.options;
+ const stem=clean(q.stem||parsed?.stem||(!/<img\b/i.test(raw)?strip(raw):''));
+ if(!options||options.length!==4||stem.length<15)return null;
+ const answer=clean(q.correctLetter||q.correctAnswer||q.answer);
+ const m=answer.match(/(?:^|correct\s*answer\s*[:\-]?\s*|answer\s*[:\-]?\s*)([A-D])(?=[.)\s<]|$)/i);
+ const correctLetter=m?.[1]?.toUpperCase()||(Number.isInteger(q.correctIndex)&&q.correctIndex>=0&&q.correctIndex<4?'ABCD'[q.correctIndex]:null);
+ if(!correctLetter)return null;
+ const diagram=clean(q.diagram||q.practiceDiagram);
+ // A source-page screenshot is not a clean diagram: keep it out of the digital view.
+ const sourcePage=/source-page-images/i.test(String(q.questionFormat||''))||/source-(?:image|layout)/i.test(raw);
+ const embedded=[...raw.matchAll(/<img\b[^>]*\bsrc=["']([^"']+)["'][^>]*>/gi)].map(m=>m[1]);
+ const images=diagram?[diagram]:!sourcePage&&embedded.length&&strip(raw).length>=15?embedded:[];
+ return {...q,id:q.id||'imported-'+Math.abs(hash(stem+options.join('|'))),stem,questionText:stem,mcOptions:options.map(strip),correctLetter,practiceImages:images,practiceBankStatus:'ready',practiceBankSourceId:q.id||'',practiceBankVersion:2};
+}
+function hash(s){let n=0;for(let i=0;i<s.length;i++)n=(Math.imul(31,n)+s.charCodeAt(i))|0;return n}
+function ingestMultipleChoice(items){
+ const ready=[],held={unparsed:0,missingKey:0};
+ for(const q of items||[]){
+  if(!/multiple[\s-]*choice/i.test(String(q.type||'')))continue;
+  const v=mcConvert(q);
+  if(v){ready.push(v);if(v.id)registry.set(String(v.id),v)}
+  else held.unparsed++;
+ }
+ window.PracticeQuizBank.mcStats={ready:ready.length,...held};
+ return ready;
+}
+
+window.PracticeQuizBank={convert,ingest,ingestMultipleChoice,lookup:id=>registry.get(String(id)),stats:{},mcStats:{}};
 })();
