@@ -32,10 +32,10 @@ function structuredChoice(q){
  return {stem,options};
 }
 function writtenTranscription(q){
- if(/multiple\\s*choice/i.test(String(q.type||'')))return '';
+ if(/multiple\s*choice/i.test(String(q.type||'')))return '';
  const raw=String(q.questionText||q.transcription||q.plainText||q.searchText||'').trim();
- if(raw.length<90||/<(?:img|svg)\\b/i.test(raw))return '';
- const withoutHeader=raw.replace(/^(?:SCSA WACE official[^\\n]*\\n?){1,2}/i,'').trim();
+ if(raw.length<90||/<(?:img|svg)\b/i.test(raw))return '';
+ const withoutHeader=raw.replace(/^(?:SCSA WACE official[^\n]*\n?){1,2}/i,'').trim();
  return withoutHeader.length>70?withoutHeader:'';
 }
 const originalRender=renderQuestion;
