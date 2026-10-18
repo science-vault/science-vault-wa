@@ -30,7 +30,7 @@ label{display:block;font-weight:700;font-size:13px;margin-bottom:6px}select{widt
 </style></head><body><div class="app">
 <aside class="sidebar"><div class="brand">SCIENCE <span>VAULT</span></div><small>WA • Digital practice</small><nav aria-label="Main navigation"><a class="navlink" href="index.html">⌂ Home</a><a class="navlink active" href="student-quiz.html">◉ Practice questions</a><a class="navlink" href="index.html">▤ Resource library</a></nav><p class="hint">Practise one question at a time. Learn from feedback. Revisit your weaker topics.</p></aside>
 <main class="main"><div class="eyebrow">Question bank / Practice workspace</div><h1>Practice with purpose.</h1><p class="muted">Choose your subject and topic. Digital questions only — no scanned writing lines.</p>
-<section id="setup" class="panel" style="margin-top:25px"><h2>Build a practice session</h2><p class="muted">Start with five questions per subject. More validated questions can be added to the dedicated bank.</p>
+<section id="setup" class="panel" style="margin-top:25px"><h2>Build a practice session</h2><p class="muted">Practise with our growing digital question bank. Choose a subject, year and topic.</p>
 <div class="filters"><div><label for="course">Subject</label><select id="course"></select></div><div><label for="year">Year</label><select id="year"></select></div><div><label for="topic">Topic</label><select id="topic"></select></div></div>
 <p id="availability" class="muted" aria-live="polite"></p><div class="actions"><button id="start" class="primary">Start practice →</button></div></section>
 <section id="session" class="hidden" style="margin-top:25px"><div class="panel"><div style="display:flex;justify-content:space-between;gap:12px;align-items:center"><span id="tag" class="pill">Practice</span><span id="counter" class="muted">Question 1 of 5</span></div><div class="progressbar" style="margin:18px 0"><div id="bar"></div></div><div id="prompt" class="question"></div><div id="choices" role="radiogroup" aria-label="Answer options"></div><div id="feedback" class="feedback hidden" aria-live="polite"></div><div class="actions"><button id="check" class="primary">Check answer</button><button id="previous" class="secondary">← Previous</button><button id="next" class="secondary">Next →</button><button id="finish" class="secondary">Finish session</button></div></div></section>
@@ -67,12 +67,13 @@ label{display:block;font-weight:700;font-size:13px;margin-bottom:6px}select{widt
 <script src="upper-school-assessment-bank-wace-vault-maths-2.js?v=2026.10.14-maths2"></script>
 <script src="upper-school-assessment-bank-wace-vault-maths-3.js?v=2026.10.14-maths3"></script>
 <script src="practice-quiz-sample-questions.js?v=2026.10.18-samples-v1"></script>
+<script src="practice-quiz-extra-questions.js?v=2026.10.18-extra70-v1"></script>
 <script src="practice-quiz-bank.js?v=2026.10.18-mc-import-v3"></script>
 <script src="student-quiz-bank-loader.js?v=2026.10.18-mc-raw-v4"></script>
 <script>
 (()=>{'use strict';
 const $=id=>document.getElementById(id), esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const source=window.PracticeQuizSampleQuestions||[];
+const source=[...(window.PracticeQuizSampleQuestions||[]),...(window.PracticeQuizExtraQuestions||[])];
 let all=(window.PracticeQuizBank?.ingest(source)||source).filter(q=>q.practiceBankStatus==='ready'&&Array.isArray(q.mcOptions)&&q.mcOptions.length===4);
 let session=[],answers={},graded={},index=0;
 const key='science-vault-practice-v2';
