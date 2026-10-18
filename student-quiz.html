@@ -69,12 +69,13 @@ label{display:block;font-weight:700;font-size:13px;margin-bottom:6px}select{widt
 <script src="practice-quiz-sample-questions.js?v=2026.10.18-samples-v1"></script>
 <script src="practice-quiz-extra-questions.js?v=2026.10.18-extra70-v1"></script>
 <script src="practice-quiz-imported-core.js?v=2026.10.18-import-core-v1"></script>
+<script src="practice-quiz-imported-science-expansion.js"></script>
 <script src="practice-quiz-bank.js?v=2026.10.18-mc-import-v3"></script>
 <script src="student-quiz-bank-loader.js?v=2026.10.18-mc-raw-v4"></script>
 <script>
 (()=>{'use strict';
 const $=id=>document.getElementById(id), esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const source=[...(window.PracticeQuizSampleQuestions||[]),...(window.PracticeQuizExtraQuestions||[]),...(window.PracticeQuizImportedCore||[])];
+const source=[...(window.PracticeQuizSampleQuestions||[]),...(window.PracticeQuizExtraQuestions||[]),...(window.PracticeQuizImportedCore||[]),...(window.PracticeQuizImportedScienceExpansion||[])];
 let all=(window.PracticeQuizBank?.ingest(source)||source).filter(q=>q.practiceBankStatus==='ready'&&Array.isArray(q.mcOptions)&&q.mcOptions.length===4);
 let session=[],answers={},graded={},index=0;
 const key='science-vault-practice-v2';
