@@ -31,3 +31,11 @@ body:has(#quiz:not(.hidden)) .quiz-shell{width:100%;max-width:1760px;margin-inli
 #workspaceNav{position:sticky;top:0;z-index:30;background:#f8faf8;box-shadow:0 6px 14px #122b1910}
 @media(min-width:1100px){#quiz .question-content .practice-scanned-image img{max-width:1100px;margin-inline:auto;display:block}}
 @media(max-width:760px){body:has(#quiz:not(.hidden)) .quiz-shell{padding-inline:10px}#quiz .question-pane,#quiz .answer-pane{padding:18px 12px}#workspaceNav{top:0}}
+
+/* Accessible digital multiple-choice selections */
+.practice-mc-options{border:0;padding:0;margin:12px 0}
+.practice-mc-options legend{font-weight:750;font-size:17px;margin-bottom:12px}
+.practice-mc-option{display:flex!important;align-items:flex-start;gap:14px;padding:16px;margin:10px 0;border:1px solid #cadbd0;border-radius:12px;background:white;cursor:pointer;font-size:18px;line-height:1.5}
+.practice-mc-option:has(input:checked){background:#e7f5eb;border-color:#187842;box-shadow:inset 0 0 0 1px #187842}
+.practice-mc-option input{width:20px;height:20px;min-width:20px;accent-color:#187842;margin-top:3px}
+#quiz .practice-mc-value{position:absolute!important;width:1px!important;height:1px!important;min-height:0!important;padding:0!important;opacity:0;pointer-events:none}
