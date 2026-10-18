@@ -77,12 +77,15 @@ label{display:block;font-weight:700;font-size:13px;margin-bottom:6px}select{widt
 <script src="practice-quiz-imported-repo-04.js?v=20261018b"></script>
 <script src="practice-quiz-imported-repo-05.js?v=20261018b"></script>
 <script src="practice-quiz-imported-repo-06.js?v=20261018b"></script>
+<script src="practice-quiz-imported-repo-07.js?v=20261018"></script>
+<script src="practice-quiz-imported-upper-01.js?v=20261018"></script>
+<script src="practice-quiz-imported-upper-02.js?v=20261018"></script>
 <script src="practice-quiz-bank.js?v=2026.10.18-mc-import-v3"></script>
 <script src="student-quiz-bank-loader.js?v=2026.10.18-mc-raw-v4"></script>
 <script>
 (()=>{'use strict';
 const $=id=>document.getElementById(id), esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const source=[...(window.PracticeQuizSampleQuestions||[]),...(window.PracticeQuizExtraQuestions||[]),...(window.PracticeQuizImportedCore||[]),...(window.PracticeQuizImportedScienceExpansion||[]),...(window.PracticeQuizImportedScience2026||[]),...(window.PracticeQuizImportedRepo01||[]),...(window.PracticeQuizImportedRepo02||[]),...(window.PracticeQuizImportedRepo03||[]),...(window.PracticeQuizImportedRepo04||[]),...(window.PracticeQuizImportedRepo05||[]),...(window.PracticeQuizImportedRepo06||[])];
+const source=[...(window.PracticeQuizSampleQuestions||[]),...(window.PracticeQuizExtraQuestions||[]),...(window.PracticeQuizImportedCore||[]),...(window.PracticeQuizImportedScienceExpansion||[]),...(window.PracticeQuizImportedScience2026||[]),...(window.PracticeQuizImportedRepo01||[]),...(window.PracticeQuizImportedRepo02||[]),...(window.PracticeQuizImportedRepo03||[]),...(window.PracticeQuizImportedRepo04||[]),...(window.PracticeQuizImportedRepo05||[]),...(window.PracticeQuizImportedRepo06||[]),...(window.PracticeQuizImportedRepo07||[]),...(window.PracticeQuizImportedUpper01||[]),...(window.PracticeQuizImportedUpper02||[])];
 let all=(window.PracticeQuizBank?.ingest(source)||source).filter(q=>q.practiceBankStatus==='ready'&&Array.isArray(q.mcOptions)&&q.mcOptions.length===4);
 let session=[],answers={},graded={},index=0;
 const key='science-vault-practice-v2';
