@@ -462,3 +462,5 @@ document.write('<script src="assessment-question-bank-science-source-batch220.js
 document.write('<script src="science-vault-mcq-importer.js?v=2026.10.18-500"><\/script>');
 
 document.write('<script src="biology-2021-unit3-verified-mcq.js?v=20261019"><\/script>');
+
+document.write('<script src="biology-2021-unit3-diagram-mcq.js?v=20261019b"><\/script>');
