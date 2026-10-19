@@ -464,3 +464,7 @@ document.write('<script src="science-vault-mcq-importer.js?v=2026.10.18-500"><\/
 document.write('<script src="biology-2021-unit3-verified-mcq.js?v=20261019"><\/script>');
 
 document.write('<script src="biology-2021-unit3-diagram-mcq.js?v=20261019b"><\/script>');
+
+// WATP 2021 Biology Unit 3 written-response sections.
+document.write('<script src="biology-2021-unit3-short-answer.js?v=20261019"><\/script>');
+document.write('<script src="biology-2021-unit3-extended-response.js?v=20261019"><\/script>');
