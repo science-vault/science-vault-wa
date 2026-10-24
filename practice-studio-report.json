@@ -1,0 +1,86 @@
+{
+  "exams": [
+    {
+      "source": "2020_physics_unit_3_exam.docx",
+      "key": "2020_physics_unit_3_marking_guide.docx",
+      "imported": 18,
+      "questionsDetected": 18,
+      "answerSections": 18,
+      "pdfRenditionHash": "44fc1fe36a938f2bc1902012436e429a1c5d0bee40c200cc29a3987b93e4544b"
+    },
+    {
+      "source": "2021_unit_3_exam.docx",
+      "key": "2021_physics_unit_3_exam_marking_key.docx",
+      "imported": 20,
+      "questionsDetected": 20,
+      "answerSections": 20,
+      "pdfRenditionHash": "29b7de6ebed53b1dc28cb871df4154f7fba7b130d15e443b16e6464723b51438"
+    },
+    {
+      "source": "2021_physics_units_3_4_exam.docx",
+      "key": "2021_physics_units_3_4_marking_guide.docx",
+      "imported": 19,
+      "questionsDetected": 19,
+      "answerSections": 19,
+      "pdfRenditionHash": "aadcc28e55877a63dbe751b82963e2d3781a2de9987fbe61c7b0596c1ad8cfa8"
+    },
+    {
+      "source": "2022_physics_unit_3_exam.docx",
+      "key": "2022_physics_unit_3_marking_guide.docx",
+      "imported": 20,
+      "questionsDetected": 20,
+      "answerSections": 20,
+      "pdfRenditionHash": "e60d9399f5bca142cbb01c177d6c33905eada926a92fcedc6f8dedf2352655e3"
+    },
+    {
+      "source": "2022_physics_units_34_exam.docx",
+      "key": "2022_physics_units_34_marking_guide.docx",
+      "imported": 18,
+      "questionsDetected": 18,
+      "answerSections": 18,
+      "pdfRenditionHash": "14bb9425b9236b83a38945c6133f32eda848a08179fdc4472d61ff933c7ba348"
+    },
+    {
+      "source": "2023_physics_unit_3_exam.docx",
+      "key": "2023_physics_unit_3_marking_guide.docx",
+      "imported": 20,
+      "questionsDetected": 20,
+      "answerSections": 20,
+      "pdfRenditionHash": "13556d3104b1ff0cf0e8b239998bd09054523b2271091576351408aab0e6318a"
+    },
+    {
+      "source": "2023_physics_units_34_exam (1).docx",
+      "key": "2023_physics_units_34_marking_guide.docx",
+      "imported": 19,
+      "questionsDetected": 19,
+      "answerSections": 19,
+      "pdfRenditionHash": "1d1d30b6f24171912a3bf5ba4fad8108e691f8a3e94ad2562aeceaf044f4f105"
+    },
+    {
+      "source": "2024_physics_units_3_exam(1).docx",
+      "key": "2024_physics_units_3_marking_guide (1)(1).docx",
+      "imported": 21,
+      "questionsDetected": 21,
+      "answerSections": 21,
+      "pdfRenditionHash": "f69f9958be7539c0a7ad45a2785c52c91814d410f987bda60eded43293fcf409"
+    },
+    {
+      "source": "2024_physics_units_34_exam (1)(1).docx",
+      "key": "2024_physics_units_34_marking_guide (4)(1).docx",
+      "imported": 18,
+      "questionsDetected": 18,
+      "answerSections": 18,
+      "pdfRenditionHash": "859b4cf3b5a515542f03a8ad69d41324c44a7ca3908c79aca53d034779118b75"
+    }
+  ],
+  "duplicates": [],
+  "review": [],
+  "total": 173,
+  "types": {
+    "Calculation": 147,
+    "Short answer": 121,
+    "Extended response": 18,
+    "Multiple choice": 2
+  },
+  "figures": 303
+}
