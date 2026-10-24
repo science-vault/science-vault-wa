@@ -1,4 +1,4 @@
-// Content-page access catalogue. Retired question-browser routes redirect to Practice Studio.
+// Learning Vault content-page access catalogue.
 export const PAGES=[
   {
     "id": "file-directory.html",
@@ -377,6 +377,20 @@ export const PAGES=[
     "label": "Upper School Assessment Builder",
     "group": "Teacher tools",
     "studentDefault": false,
+    "teacherDefault": true
+  },
+  {
+    "id": "interactive-lab.html",
+    "label": "Interactive Lab",
+    "group": "Discovery and adventure",
+    "studentDefault": true,
+    "teacherDefault": true
+  },
+  {
+    "id": "learning-quest.html",
+    "label": "Learning Quest",
+    "group": "Discovery and adventure",
+    "studentDefault": true,
     "teacherDefault": true
   }
 ];
