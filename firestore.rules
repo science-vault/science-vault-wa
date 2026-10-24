@@ -20,7 +20,7 @@ service cloud.firestore {
     && d.subjects is list && d.subjects.toSet().size() == d.subjects.size()
     && ((d.role == 'teacher' && d.yearGroup == 0 && d.subjects == [] && d.classCode.size() == 8)
      || (d.role == 'student' && d.yearGroup in [7,8,9,10,11,12]
-      && ((d.yearGroup <= 10 && d.subjects == []) || (d.yearGroup >= 11 && d.subjects.size() >= 4 && d.subjects.size() <= 5
+      && ((d.yearGroup <= 10 && d.subjects.size() >= 1 && d.subjects.size() <= 4 && d.subjects.hasOnly(['Science','Mathematics','English','Humanities and Social Sciences'])) || (d.yearGroup >= 11 && d.subjects.size() >= 1 && d.subjects.size() <= 5
        && d.subjects.hasOnly(['Geography ATAR','Business Management and Enterprise ATAR','Accounting and Finance ATAR','Physics ATAR','Chemistry ATAR','Biology ATAR','Human Biology ATAR','Psychology ATAR','Mathematics Methods ATAR','Mathematics Specialist ATAR','Mathematics Applications ATAR','English ATAR','Physical Education Studies ATAR'])))))
     && d.updatedAt == request.time;
   }
