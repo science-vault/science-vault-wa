@@ -1,0 +1,134 @@
+{
+  "exams": [
+    {
+      "source": "2020_chemistry_unit_1_exam.docx",
+      "key": "2020_chemistry_unit_1_marking_guide_final (2).docx",
+      "questionsDetected": 36,
+      "imported": 35,
+      "mcqKeysVerified": 25,
+      "file": "practice-studio-chemistry-2020-u1.json"
+    },
+    {
+      "source": "2020_chemistry_units_1_2.docx",
+      "key": "2020_chemistry_units_1_2_marking_guide.docx",
+      "questionsDetected": 40,
+      "imported": 40,
+      "mcqKeysVerified": 25,
+      "file": "practice-studio-chemistry-2020-u12.json"
+    },
+    {
+      "source": "2021_chemistry_unit_1_exam(1).docx",
+      "key": "2021_chemistry_unit_1_marking_guide(1).docx",
+      "questionsDetected": 41,
+      "imported": 41,
+      "mcqKeysVerified": 25,
+      "file": "practice-studio-chemistry-2021-u1.json"
+    },
+    {
+      "source": "2021_chemistry_units_12_exam(1).docx",
+      "key": "2021_chemistry_units_12_marking_guide(1).docx",
+      "questionsDetected": 40,
+      "imported": 40,
+      "mcqKeysVerified": 25,
+      "file": "practice-studio-chemistry-2021-u12.json"
+    },
+    {
+      "source": "2022_chemistry_unit_1_exam_.docx",
+      "key": "2022_chemistry_unit_1_marking_guide.docx",
+      "questionsDetected": 40,
+      "imported": 40,
+      "mcqKeysVerified": 25,
+      "file": "practice-studio-chemistry-2022-u1.json"
+    },
+    {
+      "source": "2022_chemistry_units_12_exam.docx",
+      "key": "2022_chemistry_units_12_marking_guide.docx",
+      "questionsDetected": 40,
+      "imported": 40,
+      "mcqKeysVerified": 25,
+      "file": "practice-studio-chemistry-2022-u12.json"
+    },
+    {
+      "source": "2023_chemistry_unit_1_exam(1).docx",
+      "key": "2023_chemistry_unit_1_marking_guide(1).docx",
+      "questionsDetected": 39,
+      "imported": 39,
+      "mcqKeysVerified": 25,
+      "file": "practice-studio-chemistry-2023-u1.json"
+    },
+    {
+      "source": "2023_chemistry_units_12_exam(1).docx",
+      "key": "2023_chemistry_units_12_marking_guide(1).docx",
+      "questionsDetected": 39,
+      "imported": 39,
+      "mcqKeysVerified": 25,
+      "file": "practice-studio-chemistry-2023-u12.json"
+    },
+    {
+      "source": "2024_chemistry_unit_1_exam(1).docx",
+      "key": "2024_chemistry_unit_1_marking_guide(1).docx",
+      "questionsDetected": 39,
+      "imported": 39,
+      "mcqKeysVerified": 25,
+      "file": "practice-studio-chemistry-2024-u1.json"
+    }
+  ],
+  "held": [
+    {
+      "source": "2020_chemistry_unit_1_exam.docx",
+      "number": 34,
+      "guideNumber": 36,
+      "reason": "Question/key marks disagree",
+      "paperMarks": 15,
+      "keyMarks": 19
+    }
+  ],
+  "duplicates": [],
+  "corrections": [
+    {
+      "source": "2020_chemistry_unit_1_exam.docx",
+      "number": 30,
+      "guideNumber": 31,
+      "reason": "Matched question by text; source marking guide uses different numbering"
+    },
+    {
+      "source": "2020_chemistry_unit_1_exam.docx",
+      "number": 31,
+      "guideNumber": 33,
+      "reason": "Matched question by text; source marking guide uses different numbering"
+    },
+    {
+      "source": "2020_chemistry_unit_1_exam.docx",
+      "number": 32,
+      "guideNumber": 34,
+      "reason": "Matched question by text; source marking guide uses different numbering"
+    },
+    {
+      "source": "2020_chemistry_unit_1_exam.docx",
+      "number": 33,
+      "guideNumber": 35,
+      "reason": "Matched question by text; source marking guide uses different numbering"
+    },
+    {
+      "source": "2020_chemistry_unit_1_exam.docx",
+      "number": 35,
+      "guideNumber": 38,
+      "reason": "Matched question by text; source marking guide uses different numbering"
+    },
+    {
+      "source": "2020_chemistry_unit_1_exam.docx",
+      "number": 36,
+      "guideNumber": 39,
+      "reason": "Matched question by text; source marking guide uses different numbering"
+    }
+  ],
+  "totalImported": 353,
+  "types": {
+    "Multiple choice": 225,
+    "Short answer": 85,
+    "Extended answer": 43
+  },
+  "marking": "Multiple choice is checked against the supplied answer tables. Written questions use self-review with the original marking guide.",
+  "uniqueDiagrams": 221,
+  "formatting": "Chemical subscripts, superscripts, Symbol-font glyphs and MathML preserved; MCQ choices use formatted HTML."
+}
