@@ -1,0 +1,1968 @@
+[
+  {
+    "id": "hb-u4-41",
+    "chapter": 41,
+    "title": "The Primates",
+    "sourcePages": [
+      54,
+      55
+    ],
+    "objectives": [
+      "Identify primates using a combination of shared features.",
+      "Distinguish major living primate groups without treating evolution as a ladder.",
+      "Relate sensory, grasping and developmental features to function."
+    ],
+    "glossary": [
+      {
+        "term": "Primate",
+        "definition": "A mammal belonging to the order Primates, which includes humans, other apes, monkeys, tarsiers, lemurs and lorises."
+      },
+      {
+        "term": "Stereoscopic vision",
+        "definition": "Depth perception using information from the overlapping views of two eyes."
+      },
+      {
+        "term": "Hominoid",
+        "definition": "A member of the ape superfamily, including gibbons, great apes and humans."
+      }
+    ],
+    "slides": [
+      {
+        "title": "Recognising a primate",
+        "html": "<p>Primates are a diverse order of placental mammals. Humans belong within this order rather than standing outside it. Classification uses a combination of inherited features, including aspects of the hands, feet, eyes, skull and development. No single feature, such as grasping or a large brain, uniquely identifies every primate or separates all primates from every other mammal.</p>",
+        "diagram": {
+          "type": "anatomy",
+          "view": "hand",
+          "labels": [
+            "Digits for grasping",
+            "Sensitive fingertip pads",
+            "Nails in many primates"
+          ],
+          "caption": "A schematic primate hand highlights a common functional pattern. Thumb size, opposability and the presence of specialised claws vary among species."
+        }
+      },
+      {
+        "title": "Grasping and movement",
+        "html": "<p>Many primates have mobile digits and a thumb or big toe that can oppose other digits. This arrangement helps an animal grip supports and manipulate food. Mobile shoulder and limb joints permit varied movement. These features are modified in different lineages: humans have an aligned, non-opposable big toe, while some monkeys have a reduced thumb.</p>"
+      },
+      {
+        "title": "Eyes, touch and smell",
+        "html": "<p>Forward-directed eyes commonly create overlapping visual fields. The nervous system can use differences between the two images to estimate depth, supporting accurate reaching and movement. Fingertip touch also helps control a grip. Smell remains important, especially in many lemurs and lorises; primate evolution did not simply eliminate olfaction or give every species identical colour vision.</p>"
+      },
+      {
+        "title": "Development and learning",
+        "html": "<p>Compared with many mammals, primates tend to invest heavily in relatively few offspring. Extended care and slow maturation provide opportunities to practise movement, recognise social partners and learn foraging skills. These are broad patterns rather than fixed rules: species differ in gestation, number of young, social organisation and the balance between learned and inherited behaviour.</p>"
+      },
+      {
+        "title": "Major living branches",
+        "html": "<p>A useful modern distinction is between strepsirrhines, including lemurs and lorises, and haplorhines, including tarsiers, monkeys and apes. Tarsiers are not monkeys, but belong on the haplorhine branch. Terms such as “primitive” can mislead when applied to living species: each living lineage has continued evolving since its common ancestors with other primates.</p>",
+        "diagram": {
+          "type": "tree",
+          "outgroup": "Strepsirrhines",
+          "sisters": [
+            "Tarsiers",
+            "Monkeys and apes"
+          ],
+          "caption": "A simplified branching diagram shows the haplorhine relationship of tarsiers to monkeys and apes. It omits many subdivisions and is not a ranking of living species."
+        }
+      },
+      {
+        "title": "New World and Old World monkeys",
+        "html": "<p>New World monkeys are native to Central and South America; Old World monkeys are native to Africa and Asia. Nostril orientation and dental patterns help distinguish these broad groups. Some New World monkeys have prehensile tails, but many do not. Old World monkey tails are not prehensile. Geographic labels describe evolutionary groups, not a sequence from inferior to superior.</p>"
+      },
+      {
+        "title": "Apes and humans",
+        "html": "<p>Apes lack an external tail. The ape superfamily includes gibbons as well as the great apes; gibbons are not great apes. Humans are great apes. Limb proportions vary markedly: longer arms suit the suspensory movement of some apes, whereas modern humans have relatively long legs. Therefore, “all apes have arms longer than legs” incorrectly excludes human anatomy.</p>"
+      },
+      {
+        "title": "Classifying from several observations",
+        "html": "<p>A fossil hand with grasping digits, a skull with forward-directed eye sockets and a characteristic tooth pattern together provide stronger evidence of primate affinities than any feature alone. Preservation may be incomplete and similar functions can evolve independently. Classification is most convincing when several anatomical characters and, for living groups, molecular evidence support the same relationship.</p>"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq",
+        "prompt": "Which statement correctly places humans in primate classification?",
+        "options": [
+          "Humans are mammals but are outside Primates.",
+          "Humans are primates and members of the great apes.",
+          "Humans are Old World monkeys because they live in Africa.",
+          "Humans are gibbons because both lack tails."
+        ],
+        "answer": 1,
+        "feedback": [
+          "Humans belong within the order Primates.",
+          "Correct. Humans are nested within Primates, apes and the great-ape family.",
+          "Geographic occurrence alone does not make a species an Old World monkey.",
+          "Gibbons and humans are different ape lineages."
+        ],
+        "explanation": "Correct. Humans are nested within Primates, apes and the great-ape family.",
+        "id": "hb-u4-41-q1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which observation most directly supports stereoscopic depth perception?",
+        "options": [
+          "A long external tail",
+          "A prolonged gestation period",
+          "A moist nose",
+          "Overlapping visual fields from two forward-directed eyes"
+        ],
+        "answer": 3,
+        "feedback": [
+          "Tail length does not establish binocular depth perception.",
+          "Gestation concerns development, not overlap of visual fields.",
+          "A moist nose is associated with olfaction, not binocular overlap.",
+          "Correct. Overlap permits comparison of the two eye images."
+        ],
+        "explanation": "Correct. Overlap permits comparison of the two eye images.",
+        "id": "hb-u4-41-q2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which generalisation should be rejected?",
+        "options": [
+          "All New World monkeys have prehensile tails.",
+          "Some primates have specialised claws.",
+          "Tarsiers belong to the haplorhine branch.",
+          "Different primate lineages have different limb proportions."
+        ],
+        "answer": 0,
+        "feedback": [
+          "Correct. Prehensile tails occur in some, not all, New World monkeys.",
+          "Specialised claws are genuine exceptions to the usual nail pattern.",
+          "Tarsiers are haplorhines rather than strepsirrhines.",
+          "Primate limb proportions do vary with lineage and locomotion."
+        ],
+        "explanation": "Correct. Prehensile tails occur in some, not all, New World monkeys.",
+        "id": "hb-u4-41-q3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "A fossil has several primate-like hand, skull and tooth characters. Why consider them together?",
+        "options": [
+          "Every primate character is unique to primates.",
+          "The oldest character is always the most important.",
+          "Agreement among several characters strengthens the classification.",
+          "A single hand bone directly reveals every social behaviour."
+        ],
+        "answer": 2,
+        "feedback": [
+          "Some characters also occur outside primates or vary within the order.",
+          "Age alone does not make a character decisive.",
+          "Correct. Multiple independent observations reduce reliance on one ambiguous feature.",
+          "Hand anatomy constrains function but cannot reveal every behaviour."
+        ],
+        "explanation": "Correct. Multiple independent observations reduce reliance on one ambiguous feature.",
+        "id": "hb-u4-41-q4"
+      },
+      {
+        "type": "written",
+        "prompt": "Explain how grasping extremities and overlapping visual fields can work together during movement in trees.",
+        "model": "Overlapping views from forward-directed eyes help the animal judge the position and distance of a support. Mobile digits and an opposing thumb or toe can then secure a grip on that support. Sensory feedback and coordinated movement link the two functions. The combination can assist arboreal movement, but individual primate species differ in both anatomy and their use of trees.",
+        "criteria": [
+          "Link overlapping visual fields to depth estimation.",
+          "Link digit arrangement to gripping supports.",
+          "Describe coordination and recognise variation among species."
+        ],
+        "id": "hb-u4-41-q5"
+      },
+      {
+        "type": "written",
+        "prompt": "A student describes living lemurs as “unfinished humans”. Explain why this is an incorrect account of primate evolution.",
+        "model": "Lemurs and humans belong to different branches of the primate tree. Both descend from shared ancestors, but neither living group is an incomplete version of the other. Each lineage has accumulated its own adaptations and evolutionary changes. Some anatomical states may resemble ancestral conditions, yet that does not mean an entire living species stopped evolving or represents an inevitable stage on a human-directed ladder.",
+        "criteria": [
+          "Use branching common ancestry rather than a ladder.",
+          "State that both living lineages have evolved.",
+          "Distinguish an ancestral character from an unevolved species."
+        ],
+        "id": "hb-u4-41-q6"
+      }
+    ],
+    "summary": [
+      "Primates are identified by combinations of features, with important exceptions.",
+      "Grasping, sensory coordination and extended development support varied lifestyles.",
+      "Humans are great apes; gibbons belong to the ape superfamily but not Hominidae.",
+      "Modern groups represent branches, not stages towards humans."
+    ],
+    "sourceNotes": [
+      "Original lesson based on the scope of Surfing WACE Human Biology Unit 4, Chapter 41. Textbook wording and questions are not reproduced.",
+      "Clarification: qualified the source’s blanket claims about tails, colour vision, limb proportions and “primitive” living primates."
+    ]
+  },
+  {
+    "id": "hb-u4-42",
+    "chapter": 42,
+    "title": "Primate Hands and Feet",
+    "sourcePages": [
+      56
+    ],
+    "objectives": [
+      "Relate hand and foot structures to gripping and locomotion.",
+      "Distinguish power and precision grips.",
+      "Explain human foot specialisations and anatomical variation."
+    ],
+    "glossary": [
+      {
+        "term": "Opposition",
+        "definition": "Movement of a digit across the palm or sole towards other digits."
+      },
+      {
+        "term": "Power grip",
+        "definition": "A grip in which the fingers and palm hold an object, often reinforced by the thumb."
+      },
+      {
+        "term": "Precision grip",
+        "definition": "Fine control of an object between opposing digits, often thumb and fingertip."
+      }
+    ],
+    "slides": [
+      {
+        "title": "Structure and function of extremities",
+        "html": "<p>Primate hands and feet reveal how an animal interacts with supports and objects. A broadly five-digit limb pattern has been retained, but digit lengths, joint mobility and the size of the thumb or big toe vary. The relevant question is not whether a hand is “better”, but how its particular structure supports the movements that the animal uses.</p>"
+      },
+      {
+        "title": "Opposition and control",
+        "html": "<p>An opposable thumb can move towards the palm or other digits, increasing the variety of possible grips. Opposition depends on joint shape, muscles and digit proportions rather than simply the presence of a thumb. Different primates achieve different degrees of opposition. A reduced thumb can be compatible with effective hook-like grasping during specialised suspensory movement.</p>",
+        "diagram": {
+          "type": "anatomy",
+          "view": "hand",
+          "labels": [
+            "Thumb opposition",
+            "Finger joints",
+            "Tactile fingertip pads"
+          ],
+          "caption": "A schematic hand indicates structures relevant to grasping. It is not a species-specific fossil reconstruction or a scale comparison of primate hands."
+        }
+      },
+      {
+        "title": "Power grips",
+        "html": "<p>During a power grip, flexed fingers and the palm support an object; the thumb may reinforce the hold. Holding a branch or a cylindrical handle are examples. Force is distributed across several contact surfaces. Curved digits can maintain a hook grip, although the exact grip depends on the animal, the object and how body weight is supported.</p>"
+      },
+      {
+        "title": "Precision grips",
+        "html": "<p>A precision grip uses controlled contact between opposing digits to manipulate an object accurately. The human thumb’s proportions and mobility support many fine grips, such as a pad-to-pad hold. Other primates also perform skilled manipulation and precision-like grips. Human fine control is a difference in anatomical and neural capabilities, not proof that all other primates lack dexterity.</p>"
+      },
+      {
+        "title": "Nails and touch",
+        "html": "<p>Broad nails protect the dorsal surface of many primate fingertips while leaving a sensitive pad available for contact. Tactile receptors provide information about pressure and slipping, allowing muscle activity to adjust a grip. Some primates retain specialised claws, so nails are a common pattern rather than an absolute rule. Skin ridges also influence contact between a digit and a surface.</p>"
+      },
+      {
+        "title": "Grasping feet",
+        "html": "<p>In many non-human primates, a divergent big toe contributes to grasping branches. This can make the foot a useful support during climbing. The degree and mechanics of grasping vary, so not every non-human primate foot should be described as identical. Hand and foot adaptations need to be considered alongside limb joints, body size and habitual locomotion.</p>"
+      },
+      {
+        "title": "The human foot",
+        "html": "<p>In modern humans, the big toe is aligned with the other toes rather than opposed across the sole. The heel, arches and forefoot help support body weight and transfer force during bipedal walking. The foot alternates between absorbing and transmitting loads. Its reduced grasping capacity is therefore a functional specialisation, not simply the loss of a useful feature.</p>",
+        "diagram": {
+          "type": "anatomy",
+          "view": "foot",
+          "labels": [
+            "Aligned big toe",
+            "Heel support",
+            "Longitudinal arch"
+          ],
+          "caption": "A schematic human foot highlights support and propulsion features. Soft tissues and movement also contribute to arch function."
+        }
+      },
+      {
+        "title": "Interpreting fossil extremities",
+        "html": "<p>A curved finger bone may support an inference about grasping or climbing, while an aligned big toe can contribute to evidence of bipedal function. Neither observation provides a complete behavioural account. Fossils are often incomplete and may combine traits useful in different settings. Strong conclusions combine multiple bones, joint surfaces, limb proportions and the wider fossil context.</p>"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq",
+        "prompt": "Which description best identifies a power grip?",
+        "options": [
+          "An object is supported mainly between flexed fingers and the palm.",
+          "Only the tips of the index finger and thumb touch a tiny object.",
+          "The foot has no contact with a support.",
+          "The thumb must always be absent."
+        ],
+        "answer": 0,
+        "feedback": [
+          "Correct. A power grip spreads contact across the fingers and palm.",
+          "This describes a precision grip rather than a power grip.",
+          "Foot contact does not define a hand power grip.",
+          "A thumb can reinforce a power grip."
+        ],
+        "explanation": "Correct. A power grip spreads contact across the fingers and palm.",
+        "id": "hb-u4-42-q1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "What is a functional consequence of an aligned human big toe?",
+        "options": [
+          "It makes human feet specialised for opposing a branch.",
+          "It proves humans cannot ever climb.",
+          "It contributes to support and push-off during bipedal walking.",
+          "It directly increases the number of toe bones."
+        ],
+        "answer": 2,
+        "feedback": [
+          "Human big-toe alignment reduces opposition across the sole.",
+          "Anatomical specialisation does not make climbing impossible.",
+          "Correct. The aligned toe contributes to forefoot function during walking.",
+          "Alignment is not an increase in bone number."
+        ],
+        "explanation": "Correct. The aligned toe contributes to forefoot function during walking.",
+        "id": "hb-u4-42-q2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Why are tactile fingertip pads useful during manipulation?",
+        "options": [
+          "They replace all muscle control.",
+          "They transmit pressure and slipping information for grip adjustment.",
+          "They make all primates have identical grips.",
+          "They demonstrate that nails are present on every primate digit."
+        ],
+        "answer": 1,
+        "feedback": [
+          "Sensory feedback works with, not instead of, motor control.",
+          "Correct. Touch information helps coordinate and adjust contact forces.",
+          "Species differ in anatomy and motor capabilities.",
+          "Specialised claws occur in some primates."
+        ],
+        "explanation": "Correct. Touch information helps coordinate and adjust contact forces.",
+        "id": "hb-u4-42-q3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which inference from a single fossil finger is most defensible?",
+        "options": [
+          "It identifies the maker of every tool at the site.",
+          "It establishes the exact duration of childhood.",
+          "It proves that the animal never walked on the ground.",
+          "Its curvature may contribute to an inference about grasping, alongside other evidence."
+        ],
+        "answer": 3,
+        "feedback": [
+          "One finger does not uniquely associate an individual with all artefacts.",
+          "Childhood duration needs other evidence, such as development and teeth.",
+          "A grasping trait does not exclude terrestrial movement.",
+          "Correct. A single feature provides limited functional evidence."
+        ],
+        "explanation": "Correct. A single feature provides limited functional evidence.",
+        "id": "hb-u4-42-q4"
+      },
+      {
+        "type": "written",
+        "prompt": "Compare a power grip with a precision grip, relating contact surfaces to function.",
+        "model": "A power grip uses several fingers and the palm to support an object, often with the thumb reinforcing the hold. It is useful when secure support or substantial force is needed. A precision grip concentrates controlled contact between opposing digits, such as a thumb and fingertip, allowing finer manipulation. Both require sensory and motor coordination, and an animal may use several grips depending on the task.",
+        "criteria": [
+          "Describe palm-and-finger contact in a power grip.",
+          "Describe digit-to-digit contact in a precision grip.",
+          "Relate each arrangement to function without making absolute species claims."
+        ],
+        "id": "hb-u4-42-q5"
+      },
+      {
+        "type": "written",
+        "prompt": "Explain why the human foot should be interpreted as adapted for bipedal walking rather than simply described as a poor grasping hand.",
+        "model": "A modern human foot has an aligned big toe, a substantial heel and arches that help manage loads during walking. These structures support body weight, absorb or store mechanical energy and provide a platform for push-off. They reduce the ability to oppose the big toe across the sole, but that trade-off accompanies a different function. Evolutionary comparisons should relate structures to habitual movement rather than rank them on one universal scale.",
+        "criteria": [
+          "Identify at least two relevant human foot structures.",
+          "Connect those structures to weight support or propulsion.",
+          "Explain the functional trade-off without ranking all extremities."
+        ],
+        "id": "hb-u4-42-q6"
+      }
+    ],
+    "summary": [
+      "Opposition and digit proportions influence the range of grips.",
+      "Power and precision grips differ in contact surfaces and control demands.",
+      "Human foot anatomy supports habitual bipedal movement.",
+      "Fossil extremity function is inferred from multiple observations."
+    ],
+    "sourceNotes": [
+      "Original lesson based on the scope of Surfing WACE Human Biology Unit 4, Chapter 42. Textbook wording and questions are not reproduced.",
+      "Corrected source overstatement that precise manipulation is unique to humans in every form; qualified non-human big-toe generalisations."
+    ]
+  },
+  {
+    "id": "hb-u4-43",
+    "chapter": 43,
+    "title": "Primate Head and Skull",
+    "sourcePages": [
+      57
+    ],
+    "objectives": [
+      "Explain binocular and stereoscopic vision.",
+      "Relate cranial and dental features to function.",
+      "Evaluate what skull evidence can and cannot establish."
+    ],
+    "glossary": [
+      {
+        "term": "Binocular vision",
+        "definition": "Vision in which the visual fields of the two eyes overlap."
+      },
+      {
+        "term": "Cranial capacity",
+        "definition": "The internal volume of the braincase, used as an estimate of brain size in fossils."
+      },
+      {
+        "term": "Prognathism",
+        "definition": "Forward projection of part of the face or jaw."
+      }
+    ],
+    "slides": [
+      {
+        "title": "The skull as a functional structure",
+        "html": "<p>The primate skull houses the brain, supports sensory structures and anchors parts of the feeding apparatus. Its shape therefore reflects several interacting functions. Eye sockets, the braincase, the face and teeth should be examined together. A large muzzle may relate to feeding structures such as canine teeth as well as olfaction, so one visible feature rarely has only one explanation.</p>"
+      },
+      {
+        "title": "Overlapping fields of view",
+        "html": "<p>Forward-directed eyes commonly increase overlap between the two visual fields. Binocular vision means the two eyes can view part of the same scene. The images are not exactly identical because the eyes occupy different positions. The nervous system can use these differences, together with other cues, to estimate distances and coordinate a reach or movement.</p>"
+      },
+      {
+        "title": "Stereoscopic depth perception",
+        "html": "<p>Stereoscopic vision is depth perception arising from comparison of the two eye images. This can assist judging gaps between branches and positioning a hand on an object. Increased overlap may come with a smaller total field of view than widely side-facing eyes provide. Head and eye movements can help an animal monitor surrounding space.</p>",
+        "diagram": {
+          "type": "flow",
+          "nodes": [
+            "Overlapping eye views",
+            "Different image positions",
+            "Neural comparison",
+            "Depth judgement"
+          ],
+          "caption": "A simplified pathway links binocular overlap to stereoscopic information. Depth perception also uses other visual cues."
+        }
+      },
+      {
+        "title": "Colour vision varies",
+        "html": "<p>Cone photoreceptors support colour discrimination under suitable light, while rods are important in low light. The number and sensitivity of cone types vary among primates, and some lineages include sex-linked differences in colour vision. Colour can assist food selection and social signalling. It is inaccurate to give every primate the same colour abilities or assume every nocturnal species lacks cones.</p>"
+      },
+      {
+        "title": "Brains and braincases",
+        "html": "<p>Cranial capacity provides an estimate of the space available for a brain, but brain function is not determined by volume alone. Body size, organisation, development and preservation affect comparisons. An endocast can reveal some external impressions of the braincase interior; it cannot directly disclose an extinct individual’s intelligence, vocabulary or complete behaviour.</p>"
+      },
+      {
+        "title": "Face and teeth",
+        "html": "<p>Incisors, canines, premolars and molars perform different feeding roles. Tooth size, cusp form, enamel and wear can contribute to dietary inferences. A projecting face and strong muscle attachments may be relevant to chewing mechanics. These observations describe possible capacities and loading patterns, not a complete list of foods eaten by every individual.</p>",
+        "diagram": {
+          "type": "anatomy",
+          "view": "skull",
+          "labels": [
+            "Braincase",
+            "Eye socket",
+            "Jaw and teeth"
+          ],
+          "caption": "A schematic skull identifies regions used in functional comparisons. It is not a reconstruction of a named fossil or a numerical brain-size comparison."
+        }
+      },
+      {
+        "title": "Several causes of a skull shape",
+        "html": "<p>A skull combines inherited structure, growth and functional demands. For example, a larger braincase and a changed face can alter proportions without every feature changing together. The position of the foramen magnum also contributes to evidence about head balance and posture. Such evidence should be integrated with the spine and limbs when reconstructing locomotion.</p>"
+      },
+      {
+        "title": "Separating observation from inference",
+        "html": "<p>“Large molars” is an anatomical observation; “processed mechanically demanding foods” is a functional inference. The inference becomes stronger when supported by jaw mechanics, microscopic wear and chemical evidence. Likewise, a large braincase does not directly prove complex language. Clearly stating the observation, mechanism and limitation produces a stronger biological explanation than attaching a single behavioural label to a skull.</p>"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq",
+        "prompt": "What distinguishes stereoscopic vision from binocular overlap alone?",
+        "options": [
+          "It requires a tail for balance.",
+          "It uses differences between the two eye images to provide depth information.",
+          "It means both eyes detect identical images from exactly the same position.",
+          "It is the ability to smell a distant object."
+        ],
+        "answer": 1,
+        "feedback": [
+          "A tail does not define stereoscopic processing.",
+          "Correct. The nervous system compares the images for depth information.",
+          "The eyes occupy different positions, producing useful image differences.",
+          "Olfaction is a different sense."
+        ],
+        "explanation": "Correct. The nervous system compares the images for depth information.",
+        "id": "hb-u4-43-q1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which claim about cranial capacity is justified?",
+        "options": [
+          "It directly measures vocabulary size.",
+          "It identifies every learned behaviour of the individual.",
+          "It proves one fossil is the direct ancestor of another.",
+          "It estimates braincase volume but does not alone establish cognitive abilities."
+        ],
+        "answer": 3,
+        "feedback": [
+          "Vocabulary cannot be measured from braincase volume alone.",
+          "Behaviour needs additional evidence and remains partly uncertain.",
+          "Ancestry requires a broader set of chronological and phylogenetic evidence.",
+          "Correct. Volume is informative but not a direct measure of cognition."
+        ],
+        "explanation": "Correct. Volume is informative but not a direct measure of cognition.",
+        "id": "hb-u4-43-q2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "A fossil has very large molars. Which statement correctly separates observation and inference?",
+        "options": [
+          "Large molars are observed; feeding mechanics may be inferred using additional evidence.",
+          "The animal’s entire lifetime diet has been directly measured.",
+          "Large molars prove advanced spoken language.",
+          "The animal must have had the same diet as every living ape."
+        ],
+        "answer": 0,
+        "feedback": [
+          "Correct. Anatomy supports a functional hypothesis, which other evidence can test.",
+          "Tooth size is not a complete lifetime dietary record.",
+          "Molar size does not establish spoken language.",
+          "Different species and individuals can use similar structures differently."
+        ],
+        "explanation": "Correct. Anatomy supports a functional hypothesis, which other evidence can test.",
+        "id": "hb-u4-43-q3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Why should colour vision be described as variable among primates?",
+        "options": [
+          "All primates lack cone photoreceptors.",
+          "Colour vision and binocular vision mean exactly the same thing.",
+          "Cone systems and colour discrimination differ across lineages and sometimes individuals.",
+          "No primate uses colour in feeding or social signals."
+        ],
+        "answer": 2,
+        "feedback": [
+          "Many primates do have cones.",
+          "Colour discrimination and binocular overlap are different visual properties.",
+          "Correct. A single universal description would conceal real variation.",
+          "Colour can be relevant to food and social information."
+        ],
+        "explanation": "Correct. A single universal description would conceal real variation.",
+        "id": "hb-u4-43-q4"
+      },
+      {
+        "type": "written",
+        "prompt": "Explain how forward-directed eyes can assist precise movement, including a limitation or trade-off.",
+        "model": "Forward-directed eyes provide overlapping visual fields, allowing both eyes to view part of the same scene. Differences between those images can be processed to estimate depth, helping coordinate a hand with a support. Greater overlap can reduce the total surrounding field visible without moving the head. Stereoscopic information therefore assists precision, but the animal also uses head movement and other sensory or visual cues.",
+        "criteria": [
+          "Link eye position to visual-field overlap.",
+          "Link image comparison to depth and coordinated movement.",
+          "Describe a field-of-view trade-off or another relevant limitation."
+        ],
+        "id": "hb-u4-43-q5"
+      },
+      {
+        "type": "written",
+        "prompt": "A skull has a large braincase and strongly built chewing structures. Explain why this does not establish either complex language or one exact diet.",
+        "model": "Braincase volume estimates space occupied by the brain rather than language ability itself. Neural organisation and direct behavioural evidence are unavailable from volume alone. Chewing structures indicate mechanical capacities, but different foods may place similar demands on them. A more supported dietary reconstruction would combine tooth wear, jaw mechanics and chemical evidence. Both claims therefore require additional evidence and should be expressed with uncertainty.",
+        "criteria": [
+          "Distinguish braincase size from a direct language measure.",
+          "Distinguish feeding capacity from an exact diet.",
+          "Name additional evidence or explicitly qualify the conclusions."
+        ],
+        "id": "hb-u4-43-q6"
+      }
+    ],
+    "summary": [
+      "Binocular overlap can support stereoscopic depth information.",
+      "Colour systems vary within the primate order.",
+      "Cranial and dental characters support constrained functional inferences.",
+      "Skull anatomy alone cannot directly reveal intelligence, language or an exact diet."
+    ],
+    "sourceNotes": [
+      "Original lesson based on the scope of Surfing WACE Human Biology Unit 4, Chapter 43. Textbook wording and questions are not reproduced.",
+      "Source overgeneralised colour vision and direct dietary inference from enamel; these are qualified. Smithsonian braincase clarification: https://humanorigins.si.edu/human-characteristics/brains"
+    ]
+  },
+  {
+    "id": "hb-u4-44",
+    "chapter": 44,
+    "title": "Primate Skeletons and Locomotion",
+    "sourcePages": [
+      58
+    ],
+    "objectives": [
+      "Distinguish major forms of primate locomotion.",
+      "Relate joints and limb structures to movement.",
+      "Use several skeletal traits to evaluate habitual bipedalism."
+    ],
+    "glossary": [
+      {
+        "term": "Quadrupedalism",
+        "definition": "Movement supported mainly by four limbs."
+      },
+      {
+        "term": "Brachiation",
+        "definition": "Arm-swinging movement between supports."
+      },
+      {
+        "term": "Habitual bipedalism",
+        "definition": "Regular use of two-legged locomotion as a normal mode of movement."
+      }
+    ],
+    "slides": [
+      {
+        "title": "Many ways to move",
+        "html": "<p>Primates can climb, leap, walk on four limbs, suspend their bodies and walk on two legs. A species may use more than one of these movements. Describing its habitual locomotion means identifying a commonly used pattern, not claiming it performs only that movement. Skeletons reveal mechanical possibilities and tendencies, while direct observation supplies additional information for living species.</p>"
+      },
+      {
+        "title": "The mobile upper limb",
+        "html": "<p>The shoulder girdle, shoulder joint and forearm together allow a hand to be positioned in varied directions. The clavicle helps maintain the shoulder’s position; rotation of the forearm also depends on the radius and ulna. It is therefore incorrect to attribute all arm rotation to the collarbone alone. Different joints contribute distinct movements to the overall reach.</p>"
+      },
+      {
+        "title": "Moving on branches",
+        "html": "<p>An arboreal quadruped supports itself on four limbs while moving along branches. Grasping extremities and controlled joint movement can stabilise contact with narrow or variable supports. Visual and tactile feedback help coordinate the next placement. Limb proportions and body mass affect which supports are usable, so the same general movement can occur with different anatomical arrangements.</p>"
+      },
+      {
+        "title": "Leaping and suspension",
+        "html": "<p>Strong hind limbs can generate propulsion for leaping, while mobile shoulders and long forelimbs may assist suspensory movement. Brachiation specifically involves swinging using the arms between supports. These functional associations do not form a single progression from quadruped to leaper to human. They are different solutions to locomotor demands in different lineages.</p>",
+        "diagram": {
+          "type": "comparison",
+          "left": {
+            "title": "Leaping",
+            "points": [
+              "Hind limbs generate propulsion",
+              "Accurate take-off and landing"
+            ]
+          },
+          "right": {
+            "title": "Brachiation",
+            "points": [
+              "Body supported through arms",
+              "Mobile shoulders aid swinging"
+            ]
+          },
+          "caption": "Simplified functional contrasts; a species may use several movement patterns."
+        }
+      },
+      {
+        "title": "Knuckle walking",
+        "html": "<p>Chimpanzees and gorillas can support weight through the dorsal surfaces of flexed fingers during knuckle walking. This differs from walking on an open palm and from suspending the body beneath a branch. Humans did not evolve from living chimpanzees or gorillas. Whether a particular common ancestor used knuckle walking must be assessed from evidence rather than assumed from living species alone.</p>"
+      },
+      {
+        "title": "Bipedal support",
+        "html": "<p>Habitual human bipedalism is associated with a head balanced above the spine, lumbar curvature, a short broad pelvis and a lower limb aligned to bring support beneath the body. The pelvis and associated muscles help stabilise the body during single-leg support. These features work as a system rather than as an isolated diagnostic bone.</p>",
+        "diagram": {
+          "type": "anatomy",
+          "view": "skeleton",
+          "labels": [
+            "Head balanced above spine",
+            "Broad pelvis",
+            "Knee beneath body"
+          ],
+          "caption": "A schematic human skeleton links several regions involved in bipedal support. It is not a species-specific fossil reconstruction."
+        }
+      },
+      {
+        "title": "The foot and lower limb",
+        "html": "<p>An aligned big toe and a foot capable of supporting and transferring load assist modern human walking. The femur’s inward angle helps position the knee beneath the body during movement. These traits interact with joints and soft tissues. An upright standing posture alone does not demonstrate the full suite of adaptations for regular, efficient bipedal locomotion.</p>"
+      },
+      {
+        "title": "Reconstructing locomotion",
+        "html": "<p>A fossil pelvis, femur and foot that consistently support bipedal function provide stronger evidence than a single fragment. Curved fingers or long arms in the same individual may also indicate retained climbing capabilities. This mosaic does not invalidate bipedal evidence. It shows that adaptations associated with different activities can coexist and that evolutionary changes need not occur simultaneously.</p>"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq",
+        "prompt": "Which movement is brachiation?",
+        "options": [
+          "Swinging between supports using the arms",
+          "Moving on four limbs along a branch",
+          "Walking while supported on flexed knuckles",
+          "Propelling the body mainly by jumping from the hind limbs"
+        ],
+        "answer": 0,
+        "feedback": [
+          "Correct. Brachiation is arm-swinging movement.",
+          "This is arboreal quadrupedalism.",
+          "This describes knuckle walking.",
+          "This is leaping, not brachiation."
+        ],
+        "explanation": "Correct. Brachiation is arm-swinging movement.",
+        "id": "hb-u4-44-q1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Why is the statement “the clavicle alone produces forearm rotation” inadequate?",
+        "options": [
+          "The clavicle is absent in every primate.",
+          "Forearm rotation is produced only by the pelvis.",
+          "Movement depends on several structures, including the radius and ulna.",
+          "A mobile shoulder prevents all forearm rotation."
+        ],
+        "answer": 2,
+        "feedback": [
+          "Primates generally retain a clavicle.",
+          "The pelvis does not rotate the forearm.",
+          "Correct. Distinct joints and bones contribute different parts of upper-limb movement.",
+          "Shoulder mobility and forearm rotation are not mutually exclusive."
+        ],
+        "explanation": "Correct. Distinct joints and bones contribute different parts of upper-limb movement.",
+        "id": "hb-u4-44-q2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which evidence best supports habitual bipedalism in a fossil?",
+        "options": [
+          "One large canine tooth",
+          "A consistent combination of pelvic, femoral and foot features",
+          "Any long tail",
+          "Only a relatively large braincase"
+        ],
+        "answer": 1,
+        "feedback": [
+          "Canine size does not establish a locomotor pattern.",
+          "Correct. Several mechanically consistent structures provide stronger evidence.",
+          "Humans lack an external tail and tail length is not sufficient evidence.",
+          "Brain enlargement is not required to establish bipedal locomotion."
+        ],
+        "explanation": "Correct. Several mechanically consistent structures provide stronger evidence.",
+        "id": "hb-u4-44-q3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "A fossil shows bipedal lower-limb traits and curved fingers. What is the best interpretation?",
+        "options": [
+          "The observations must be mutually impossible.",
+          "It was necessarily a modern human.",
+          "It had never used trees.",
+          "It may have combined bipedal movement with climbing capabilities."
+        ],
+        "answer": 3,
+        "feedback": [
+          "Different functional trait sets can coexist.",
+          "A mosaic of traits does not uniquely identify modern humans.",
+          "Curved fingers may be consistent with grasping or climbing.",
+          "Correct. Mosaic anatomy can reflect more than one locomotor activity."
+        ],
+        "explanation": "Correct. Mosaic anatomy can reflect more than one locomotor activity.",
+        "id": "hb-u4-44-q4"
+      },
+      {
+        "type": "written",
+        "prompt": "Explain how the pelvis and femur contribute to support during human bipedal walking.",
+        "model": "A short, broad pelvis provides attachment and orientation for muscles that help stabilise the trunk during the single-support phase of walking. The inward angle of the femur helps place the knee nearer the body’s central support line. These structures interact with the spine, joints and foot. Their combined arrangement helps manage body weight during repeated steps, rather than merely allowing a stationary upright posture.",
+        "criteria": [
+          "Relate pelvic form and muscles to stability.",
+          "Relate femoral angle to positioning support beneath the body.",
+          "Explain the combined functional system."
+        ],
+        "id": "hb-u4-44-q5"
+      },
+      {
+        "type": "written",
+        "prompt": "Explain why living chimpanzees should not be placed as an intermediate stage between a quadrupedal ancestor and modern humans.",
+        "model": "Chimpanzees and humans are separate living lineages descended from shared ancestors. Each has evolved since their divergence, and chimpanzee knuckle walking is not a direct observation of the common ancestor’s behaviour. An ancestral reconstruction requires fossil and comparative evidence. Human bipedalism therefore cannot be explained simply by treating a living chimpanzee as a preserved earlier stage on an inevitable human-directed sequence.",
+        "criteria": [
+          "Use branching common ancestry.",
+          "Explain that living chimpanzee movement is not direct ancestral evidence.",
+          "Identify the need for fossil or comparative evidence."
+        ],
+        "id": "hb-u4-44-q6"
+      }
+    ],
+    "summary": [
+      "Locomotor patterns differ and can coexist within a species.",
+      "Upper-limb movement depends on several interacting structures.",
+      "Bipedal function is best evaluated from a skeletal suite.",
+      "Mosaic anatomy is compatible with evolutionary change across different functions."
+    ],
+    "sourceNotes": [
+      "Original lesson based on the scope of Surfing WACE Human Biology Unit 4, Chapter 44. Textbook wording and questions are not reproduced.",
+      "Source’s collarbone/forearm statement clarified. Bipedal evidence reference: https://humanorigins.si.edu/human-characteristics/walking-upright"
+    ]
+  },
+  {
+    "id": "hb-u4-45",
+    "chapter": 45,
+    "title": "Primate Reproductive Features",
+    "sourcePages": [
+      59
+    ],
+    "objectives": [
+      "Relate extended development and parental investment to learning.",
+      "Compare primate social-group patterns.",
+      "Evaluate limits of inferences about extinct social organisation."
+    ],
+    "glossary": [
+      {
+        "term": "Gestation",
+        "definition": "The period of development within the uterus during pregnancy."
+      },
+      {
+        "term": "Parental investment",
+        "definition": "Time, energy and resources allocated to offspring that can influence their survival and development."
+      },
+      {
+        "term": "Fission–fusion dynamics",
+        "definition": "Changes in the size and membership of social subgroups over time."
+      }
+    ],
+    "slides": [
+      {
+        "title": "A developmental pattern, not a fixed rule",
+        "html": "<p>Many primates show relatively slow development, prolonged dependency and substantial care for young. These features differ among species and are influenced by body size and ecology. A statement such as “every primate has a single young and one permanent adult male” is too absolute. Reproductive biology and social organisation are related but should be described separately.</p>"
+      },
+      {
+        "title": "Gestation and development",
+        "html": "<p>Gestation is the interval during which an embryo and fetus develop in the uterus. Comparing gestation periods requires attention to maternal body size and the stage of development reached at birth. A longer pregnancy cannot alone measure intelligence or the total amount of learning. Postnatal growth, weaning and later maturation also contribute to the overall life-history pattern.</p>"
+      },
+      {
+        "title": "Few offspring and prolonged care",
+        "html": "<p>Investing heavily in an infant can involve feeding, carrying, protection and social support. Producing fewer young can accompany greater investment per offspring, although exceptions occur. Prolonged dependency can improve survival under some circumstances while imposing energetic costs and reducing the rate at which new offspring can be produced. The pattern involves trade-offs, not an unconditional advantage.</p>"
+      },
+      {
+        "title": "Learning during an extended juvenile period",
+        "html": "<p>Young primates can practise movement, acquire foraging skills and learn social relationships during development. Observation and interaction with others can support these processes, alongside individual experience. Learned behaviour does not replace all inherited tendencies. A long juvenile period provides opportunities, but what is learned depends on the species, local environment and available social partners.</p>",
+        "diagram": {
+          "type": "flow",
+          "nodes": [
+            "Dependent juvenile",
+            "Care and social interaction",
+            "Practice and experience",
+            "Developing skills"
+          ],
+          "caption": "A simplified developmental relationship. The sequence is not a fixed timetable and does not imply that all behaviour is learned."
+        }
+      },
+      {
+        "title": "Different social arrangements",
+        "html": "<p>Primate societies include adult pairs, multi-male/multi-female groups, one-male groups and more dispersed arrangements. Some cooperative breeders show care from additional group members. Group composition and mating patterns are not always identical, and named species can vary between populations. A useful comparison states the observed arrangement rather than assigning every member of a broad primate group the same social system.</p>"
+      },
+      {
+        "title": "Fission–fusion dynamics",
+        "html": "<p>In a fission–fusion system, individuals associate in subgroups whose membership changes. Feeding conditions, reproductive state and other activities may affect who travels together. The larger social community can persist despite temporary subgroup changes. This differs from assuming that a new species or a permanent population split is produced whenever a subgroup separates.</p>",
+        "diagram": {
+          "type": "population",
+          "groups": [
+            {
+              "label": "Community",
+              "total": 12,
+              "variant": 4
+            },
+            {
+              "label": "Temporary subgroup A",
+              "total": 5,
+              "variant": 2
+            },
+            {
+              "label": "Temporary subgroup B",
+              "total": 7,
+              "variant": 2
+            }
+          ],
+          "caption": "An illustrative grouping model. Filled markers only track members during subdivision; they do not indicate a selected allele or measured reproductive success."
+        }
+      },
+      {
+        "title": "Ecology and group size",
+        "html": "<p>Food distribution, predation risk, travel costs and competition can influence the costs and benefits of grouping. A concentrated food patch may allow some individuals to associate temporarily; dispersed food can alter competition and travel. These are interacting influences rather than a universal forest-versus-grassland rule. Similar habitats can support different social arrangements in different species.</p>"
+      },
+      {
+        "title": "Caution with fossil inference",
+        "html": "<p>Fossils rarely preserve social behaviour directly. Differences in adult body size or canine size may contribute to hypotheses about competition, but they do not uniquely identify a mating system or parenting arrangement. Reconstructions should combine several lines of evidence and state alternatives. Similar anatomy can occur under different social conditions, making confident accounts of one extinct family structure unwarranted.</p>"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq",
+        "prompt": "What does gestation describe?",
+        "options": [
+          "The time between weaning and sexual maturity",
+          "The period of development within the uterus",
+          "The length of every social-group association",
+          "Only the first day after birth"
+        ],
+        "answer": 1,
+        "feedback": [
+          "This is a postnatal developmental interval.",
+          "Correct. Gestation is prenatal development during pregnancy.",
+          "Social association duration is a different quantity.",
+          "Gestation occurs before birth."
+        ],
+        "explanation": "Correct. Gestation is prenatal development during pregnancy.",
+        "id": "hb-u4-45-q1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement best describes extended parental care?",
+        "options": [
+          "It removes all reproductive costs.",
+          "It guarantees that all behaviour is learned.",
+          "It is identical in every primate species.",
+          "It can support juvenile survival and learning while requiring resources."
+        ],
+        "answer": 3,
+        "feedback": [
+          "Care requires time, energy and other resources.",
+          "Inherited tendencies and individual development also matter.",
+          "Care patterns vary among species and contexts.",
+          "Correct. Prolonged care involves potential benefits and costs."
+        ],
+        "explanation": "Correct. Prolonged care involves potential benefits and costs.",
+        "id": "hb-u4-45-q2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "What characterises fission–fusion social dynamics?",
+        "options": [
+          "Temporary changes in subgroup membership within a broader community",
+          "Instant formation of a new species whenever animals separate",
+          "A permanent single male in every subgroup",
+          "Absence of any social relationships"
+        ],
+        "answer": 0,
+        "feedback": [
+          "Correct. Association patterns can change without eliminating the larger community.",
+          "Temporary subgrouping is not speciation.",
+          "Fission–fusion dynamics do not require one fixed male arrangement.",
+          "Members can retain social relationships despite temporary separation."
+        ],
+        "explanation": "Correct. Association patterns can change without eliminating the larger community.",
+        "id": "hb-u4-45-q3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "What can a large difference in male and female fossil body size establish by itself?",
+        "options": [
+          "Exactly how infants were fed",
+          "The precise number of adults in every group",
+          "It supports questions about social competition but does not uniquely reveal a social system",
+          "The complete mating history of the population"
+        ],
+        "answer": 2,
+        "feedback": [
+          "Body-size difference does not directly record infant feeding.",
+          "Group membership is not preserved by size estimates alone.",
+          "Correct. The observation constrains hypotheses but allows alternatives.",
+          "An anatomical pattern is not a complete behavioural record."
+        ],
+        "explanation": "Correct. The observation constrains hypotheses but allows alternatives.",
+        "id": "hb-u4-45-q4"
+      },
+      {
+        "type": "written",
+        "prompt": "Explain one benefit and one cost of prolonged dependency and care in primates.",
+        "model": "Extended care can provide food and protection while juveniles develop movement, foraging and social skills. More time for experience may improve later survival in a complex environment. However, feeding, carrying and protecting young require energy and time, and may reduce how rapidly further offspring can be produced. The balance varies with ecology and life history, so the pattern should be explained as a trade-off rather than a universal improvement.",
+        "criteria": [
+          "Identify a specific survival or learning benefit.",
+          "Identify a resource or reproductive cost.",
+          "Explain the trade-off and recognise variation."
+        ],
+        "id": "hb-u4-45-q5"
+      },
+      {
+        "type": "written",
+        "prompt": "Explain why fossil sexual dimorphism alone cannot establish that an extinct species lived in one-male groups.",
+        "model": "Estimated differences between male and female body or canine size may be relevant to hypotheses about competition. However, body size can be influenced by several factors, fossil sex assignment can be uncertain, and comparable dimorphism can occur with different social arrangements. A one-male-group reconstruction therefore requires additional evidence and comparison with living species. It should remain a qualified hypothesis rather than a directly observed fossil behaviour.",
+        "criteria": [
+          "Distinguish anatomical observation from social inference.",
+          "Give at least one uncertainty or alternative influence.",
+          "Require additional evidence and qualify the conclusion."
+        ],
+        "id": "hb-u4-45-q6"
+      }
+    ],
+    "summary": [
+      "Gestation is only one component of developmental timing.",
+      "Extended care and learning opportunities involve energetic trade-offs.",
+      "Primate social arrangements vary, including changing subgroup associations.",
+      "Fossil anatomy alone does not identify one exact social system."
+    ],
+    "sourceNotes": [
+      "Original lesson based on the scope of Surfing WACE Human Biology Unit 4, Chapter 45. Textbook wording and questions are not reproduced.",
+      "Qualified source’s universal single-offspring, permanent-male and habitat-based social-group claims."
+    ]
+  },
+  {
+    "id": "hb-u4-46",
+    "chapter": 46,
+    "title": "The Hominidae",
+    "sourcePages": [
+      60
+    ],
+    "objectives": [
+      "Place humans within the great-ape family.",
+      "Distinguish hominid, hominin and hominoid in this course.",
+      "Explain how anatomical and molecular evidence inform classification."
+    ],
+    "glossary": [
+      {
+        "term": "Hominidae",
+        "definition": "The great-ape family, including orangutans, gorillas, chimpanzees, bonobos and humans."
+      },
+      {
+        "term": "Hominin",
+        "definition": "In this course, a member of the human lineage after its divergence from the lineage leading to chimpanzees and bonobos."
+      },
+      {
+        "term": "Clade",
+        "definition": "A group containing a common ancestor and all of its descendants."
+      }
+    ],
+    "slides": [
+      {
+        "title": "A family within Primates",
+        "html": "<p>Hominidae is the family of great apes. It includes modern humans, chimpanzees, bonobos, gorillas and orangutans, together with extinct members of their broader evolutionary group. Humans are therefore not contrasted with great apes as if they were outside the family. Gibbons belong to the ape superfamily but are placed in a different family.</p>"
+      },
+      {
+        "title": "Names at different levels",
+        "html": "<p>A hominoid is an ape, including a gibbon or a great ape. A hominid is a member of Hominidae. In this course, hominin identifies the human branch after divergence from the lineage leading to chimpanzees and bonobos. Older publications sometimes use these words differently, so the definition and historical context of a source should be checked before comparing statements.</p>"
+      },
+      {
+        "title": "Classification represents relationships",
+        "html": "<p>Modern evolutionary classification aims to represent shared ancestry. Similarity is informative when it reflects inherited features, but similar functions can also evolve independently. A classification is consequently a testable interpretation of evidence rather than a permanent list based only on outward resemblance. New fossils or molecular comparisons can support revisions to where boundaries and branches are placed.</p>"
+      },
+      {
+        "title": "Molecular evidence",
+        "html": "<p>Comparing aligned DNA sequences can identify shared variants and estimate genetic differences among lineages. Studies draw on many regions because a single sequence can have an unusual history. Comparisons must also distinguish genuinely corresponding sequences from duplicated genes. Molecular evidence strongly supports the close relationship between humans and other great apes, but a similarity percentage needs a stated comparison method.</p>",
+        "diagram": {
+          "type": "tree",
+          "outgroup": "Gorillas",
+          "sisters": [
+            "Human lineage",
+            "Chimpanzee–bonobo lineage"
+          ],
+          "caption": "A simplified relationship within African great apes. Orangutans, gibbons and finer branching are omitted; living species are not shown as one another’s ancestors."
+        }
+      },
+      {
+        "title": "Chromosomes as evidence",
+        "html": "<p>Chromosome number, banding and sequence arrangement can reveal evolutionary relationships when interpreted with other data. Humans typically have 46 chromosomes in body cells, while the other living great apes typically have 48. Evidence of ancestral chromosome fusion helps explain this difference. Different counts do not erase common ancestry, and an equal count alone does not establish the closest relationship.</p>",
+        "diagram": {
+          "type": "chromosome",
+          "rows": [
+            {
+              "label": "Two ancestral chromosome regions",
+              "segments": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            },
+            {
+              "label": "Corresponding fused arrangement",
+              "segments": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            }
+          ],
+          "caption": "A conceptual segment correspondence, not a complete chromosome-2 map. Molecular and chromosome evidence, rather than this schematic alone, supports the human chromosome-fusion interpretation."
+        }
+      },
+      {
+        "title": "Shared anatomy and variation",
+        "html": "<p>Great apes lack an external tail and share many aspects of the skull, teeth and mobile upper limbs. However, their locomotion and limb proportions differ. Humans have relatively long lower limbs suited to habitual bipedalism; other great apes have different proportions and combinations of climbing and terrestrial movement. No claim that all hominids have human-like limb proportions is appropriate.</p>"
+      },
+      {
+        "title": "Historical changes in terminology",
+        "html": "<p>Some older classifications separated humans from the other great apes into different families. Molecular and anatomical evidence instead support a nested great-ape grouping that includes humans. Historical terminology may therefore make “hominid” appear to mean only human relatives. Understanding why the usage changed is more useful than treating old and new words as interchangeable without checking their meaning.</p>"
+      },
+      {
+        "title": "Reading a family tree correctly",
+        "html": "<p>A branching point represents an inferred common ancestor. Two sister lineages share a more recent common ancestor with each other than either does with the chosen outgroup. The arrangement does not rank intelligence or living worth, and rotating branches around a node does not change the relationship. Fossil placement remains a hypothesis constrained by the characters and chronology available.</p>"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq",
+        "prompt": "Which set consists entirely of members of Hominidae?",
+        "options": [
+          "Humans, gibbons and lemurs",
+          "Gibbons, tarsiers and orangutans",
+          "Humans, gorillas and orangutans",
+          "Humans, baboons and macaques"
+        ],
+        "answer": 2,
+        "feedback": [
+          "Gibbons and lemurs are outside Hominidae.",
+          "Only orangutans in this set belong to Hominidae.",
+          "Correct. Humans, gorillas and orangutans are all great apes.",
+          "Baboons and macaques are Old World monkeys, not great apes."
+        ],
+        "explanation": "Correct. Humans, gorillas and orangutans are all great apes.",
+        "id": "hb-u4-46-q1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "How is “hominin” used in this lesson?",
+        "options": [
+          "For the human lineage following divergence from the chimpanzee–bonobo lineage",
+          "For every mammal with grasping hands",
+          "For all living apes including gibbons",
+          "For any animal with a large brain"
+        ],
+        "answer": 0,
+        "feedback": [
+          "Correct. The stated course convention identifies the human branch and its extinct relatives.",
+          "Grasping hands do not define the human lineage.",
+          "This broader grouping is not the lesson’s hominin definition.",
+          "Brain size alone does not establish lineage membership."
+        ],
+        "explanation": "Correct. The stated course convention identifies the human branch and its extinct relatives.",
+        "id": "hb-u4-46-q2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Why must a DNA-similarity percentage state its comparison method?",
+        "options": [
+          "All DNA is identical across mammals.",
+          "A percentage directly reveals every behaviour.",
+          "Chromosome counts are the only relevant evidence.",
+          "The result depends on which corresponding regions and kinds of differences are compared."
+        ],
+        "answer": 3,
+        "feedback": [
+          "Mammalian sequences contain both similarities and differences.",
+          "A sequence similarity statistic does not disclose every behavioural trait.",
+          "Chromosomal and sequence evidence complement other observations.",
+          "Correct. Scope, alignment and difference definitions affect the percentage."
+        ],
+        "explanation": "Correct. Scope, alignment and difference definitions affect the percentage.",
+        "id": "hb-u4-46-q3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does rotating two branches around the same tree node change?",
+        "options": [
+          "The common ancestor represented by the node",
+          "Only the drawing’s orientation, not the relationship",
+          "The ages of all fossils on the branches",
+          "The genetic sequences of the species"
+        ],
+        "answer": 1,
+        "feedback": [
+          "Rotation preserves the same branch connections.",
+          "Correct. Node connectivity, not left-to-right placement, carries the relationship.",
+          "Rotating a drawing does not change fossil dates.",
+          "Tree graphics do not alter genetic material."
+        ],
+        "explanation": "Correct. Node connectivity, not left-to-right placement, carries the relationship.",
+        "id": "hb-u4-46-q4"
+      },
+      {
+        "type": "written",
+        "prompt": "Explain why humans are included within Hominidae and why “humans evolved from modern chimpanzees” is incorrect.",
+        "model": "Hominidae contains the great-ape lineages, including humans, because their anatomical and molecular evidence supports shared ancestry. Humans and chimpanzees occupy separate descendant branches, so one living species is not the ancestor of the other. Their last common ancestor belonged to an earlier population. Both lineages have changed since divergence, and their relationship is represented by a branching tree rather than a sequence between living species.",
+        "criteria": [
+          "Place humans inside the great-ape family.",
+          "Identify a shared earlier ancestor rather than a living chimpanzee ancestor.",
+          "State that descendant lineages have both evolved."
+        ],
+        "id": "hb-u4-46-q5"
+      },
+      {
+        "type": "written",
+        "prompt": "Explain why chromosome counts alone cannot establish the closest relationship between two primates.",
+        "model": "Chromosome counts can change through events such as fusion or fission without destroying broader sequence correspondence. Unrelated or more distantly related species may also share the same total count. A relationship assessment therefore compares chromosome structure, aligned DNA and anatomical characters as well as counts. Evidence concerning corresponding regions and shared changes is more informative than assuming identical totals automatically mean the most recent common ancestor.",
+        "criteria": [
+          "Explain how counts can change within a lineage.",
+          "Explain why equal totals are not sufficient evidence.",
+          "Include sequence or structural comparisons as additional evidence."
+        ],
+        "id": "hb-u4-46-q6"
+      }
+    ],
+    "summary": [
+      "Hominidae includes humans and other great apes, but not gibbons.",
+      "Terminology should be interpreted using an explicit definition.",
+      "Classification combines anatomical, chromosomal and molecular evidence.",
+      "Tree connectivity represents ancestry rather than rank."
+    ],
+    "sourceNotes": [
+      "Original lesson based on the scope of Surfing WACE Human Biology Unit 4, Chapter 46. Textbook wording and questions are not reproduced.",
+      "Taxonomy clarification: https://australian.museum/learn/science/human-evolution/about-human-evolution/",
+      "Shared ancestry context: https://humanorigins.si.edu/education/frequently-asked-questions",
+      "Chromosome-fusion teaching is schematic; no percentage identity claim is made."
+    ]
+  },
+  {
+    "id": "hb-u4-47",
+    "chapter": 47,
+    "title": "The Hominins",
+    "sourcePages": [
+      61,
+      62
+    ],
+    "objectives": [
+      "Identify the human lineage as a branching evolutionary group.",
+      "Relate several anatomical features to bipedal support.",
+      "Explain mosaic evolution and uncertainty in fossil placement."
+    ],
+    "glossary": [
+      {
+        "term": "Hominin",
+        "definition": "A member of the human evolutionary branch as defined in this lesson."
+      },
+      {
+        "term": "Foramen magnum",
+        "definition": "The opening in the skull base through which the spinal cord passes."
+      },
+      {
+        "term": "Mosaic evolution",
+        "definition": "Evolution in which different features change at different times or rates, producing combinations of ancestral and derived traits."
+      }
+    ],
+    "slides": [
+      {
+        "title": "The human branch",
+        "html": "<p>Hominins include modern humans and extinct relatives on the human branch after divergence from the lineage leading to chimpanzees and bonobos. This is a branching group with extinct side branches, not a row of progressively more human-looking species. A fossil can belong to this broader group without being demonstrated to be a direct ancestor of Homo sapiens.</p>"
+      },
+      {
+        "title": "Early hominins and mosaic traits",
+        "html": "<p>Early candidates for the human lineage often combine relatively small brains with anatomical evidence relevant to upright movement and climbing. The traits associated with modern humans did not all arise together. Some early fossil assignments remain debated because key bones are missing or characters allow more than one interpretation. A qualified classification is scientifically stronger than an unsupported claim of certainty.</p>"
+      },
+      {
+        "title": "Head balance and the skull base",
+        "html": "<p>The position and orientation of the foramen magnum help indicate how the skull balanced relative to the spine. A more inferior opening is consistent with a head supported above a more upright trunk. However, skull fragments can be distorted and posture cannot be reconstructed fully from this feature alone. Pelvic and limb evidence provide valuable independent checks.</p>"
+      },
+      {
+        "title": "Pelvic stabilisation",
+        "html": "<p>Habitual bipedal movement repeatedly shifts support from two feet to one. A short, broad pelvis and the orientation of associated muscles help stabilise the trunk during this phase. Pelvic shape also interacts with other functions, including birth. The useful explanation therefore links form to mechanical demands while recognising that a pelvis is not shaped by locomotion alone.</p>",
+        "diagram": {
+          "type": "anatomy",
+          "view": "pelvis",
+          "labels": [
+            "Short broad pelvic form",
+            "Hip-joint support",
+            "Muscle attachment regions"
+          ],
+          "caption": "A schematic teaching pelvis illustrates regions relevant to bipedal support. It is not a reconstruction of one fossil species."
+        }
+      },
+      {
+        "title": "Spine and femur",
+        "html": "<p>Lumbar curvature contributes to positioning the trunk above the lower limbs. An inwardly angled femur helps bring the knee towards the body’s support line, reducing the side-to-side displacement needed during walking. These features operate together with joints and muscles. They should be evaluated as a functional suite rather than used as a checklist that every early hominin must match perfectly.</p>"
+      },
+      {
+        "title": "Foot support and propulsion",
+        "html": "<p>Modern human feet have an aligned big toe and structures that manage loading during bipedal movement. The heel accepts load and the forefoot contributes to push-off. Fossil feet may differ in arch form, toe position or mobility. This variation can reveal different combinations of terrestrial and climbing functions rather than a simple division into entirely ape-like or entirely modern-human feet.</p>",
+        "diagram": {
+          "type": "anatomy",
+          "view": "foot",
+          "labels": [
+            "Aligned big toe",
+            "Heel loading",
+            "Arch region"
+          ],
+          "caption": "A schematic modern-human reference. Early hominin feet may show different combinations; this drawing is not evidence that every hominin had an identical arch."
+        }
+      },
+      {
+        "title": "Why bipedalism evolved",
+        "html": "<p>Several hypotheses consider carrying, energy use, feeding posture and movement through varied environments. A possible benefit is not direct proof of the original selective cause. The explanation must be tested against anatomy, chronology and environmental evidence. Bipedal traits existed before the major later expansion of brain size, so a very large brain is not a prerequisite for upright walking.</p>"
+      },
+      {
+        "title": "Assessing a fossil claim",
+        "html": "<p>A claim that an early skull belongs near the human branch should state the observed characters, their functional interpretation and the uncertainty. For example, skull-base evidence may be consistent with upright posture, but missing postcranial bones limit the locomotor reconstruction. Fossil placement can be revised when new specimens or analyses alter the balance of evidence.</p>"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq",
+        "prompt": "Which statement best describes hominin evolution?",
+        "options": [
+          "Every named hominin was a direct ancestor of modern humans.",
+          "All human-like features evolved simultaneously.",
+          "Living chimpanzees are an earlier hominin stage.",
+          "The human branch included multiple lineages and combinations of traits."
+        ],
+        "answer": 3,
+        "feedback": [
+          "Some hominins represent extinct side branches.",
+          "Different features changed at different times.",
+          "Chimpanzees are a separate living lineage.",
+          "Correct. A branching, mosaic history fits the fossil evidence."
+        ],
+        "explanation": "Correct. A branching, mosaic history fits the fossil evidence.",
+        "id": "hb-u4-47-q1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which feature concerns the balance of the skull relative to the spine?",
+        "options": [
+          "Premolar crown size",
+          "Position and orientation of the foramen magnum",
+          "Length of the external tail",
+          "Number of fingertip pads"
+        ],
+        "answer": 1,
+        "feedback": [
+          "Premolar size relates mainly to the feeding apparatus.",
+          "Correct. The opening’s position informs skull-base and postural interpretation.",
+          "Humans lack an external tail, and this does not locate the skull on the spine.",
+          "Fingertip pads do not determine the skull-base opening."
+        ],
+        "explanation": "Correct. The opening’s position informs skull-base and postural interpretation.",
+        "id": "hb-u4-47-q2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Why is a very large brain not a necessary indicator of early bipedalism?",
+        "options": [
+          "All primates with small brains are quadrupedal.",
+          "Brain and pelvis are the same anatomical structure.",
+          "Bipedal adaptations appear before the later major increase in brain size.",
+          "Fossil braincases preserve no information of any kind."
+        ],
+        "answer": 2,
+        "feedback": [
+          "Small brain size does not exclude bipedal locomotion.",
+          "The braincase and pelvis are distinct structures.",
+          "Correct. The evolutionary timing separates these developments.",
+          "Braincases are informative, but do not independently establish gait."
+        ],
+        "explanation": "Correct. The evolutionary timing separates these developments.",
+        "id": "hb-u4-47-q3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement appropriately evaluates a proposed advantage of bipedalism?",
+        "options": [
+          "A plausible benefit is a hypothesis to test, not proof of the original cause.",
+          "If a benefit can be imagined, it must have caused the trait.",
+          "Every hominin must have gained exactly the same advantage.",
+          "Environmental evidence cannot contribute to the explanation."
+        ],
+        "answer": 0,
+        "feedback": [
+          "Correct. Functional plausibility requires testing against independent evidence.",
+          "A possible benefit does not establish historical causation.",
+          "Effects and environments can differ between lineages and periods.",
+          "Environmental evidence can help evaluate the selective context."
+        ],
+        "explanation": "Correct. Functional plausibility requires testing against independent evidence.",
+        "id": "hb-u4-47-q4"
+      },
+      {
+        "type": "written",
+        "prompt": "Explain how at least three skeletal regions can jointly support an inference of habitual bipedalism.",
+        "model": "A skull-base opening positioned to support the head above the spine is consistent with an upright trunk. A short, broad pelvis and appropriate muscle attachments help stabilise single-leg support. An inwardly angled femur positions the knee nearer the body’s support line, while foot features can manage loading and push-off. Agreement among several regions strengthens the inference; no isolated feature reveals the complete gait or behaviour.",
+        "criteria": [
+          "Relate three anatomical regions to specific support functions.",
+          "Explain why agreement among regions strengthens inference.",
+          "State a limitation of a single trait or incomplete skeleton."
+        ],
+        "id": "hb-u4-47-q5"
+      },
+      {
+        "type": "written",
+        "prompt": "An early fossil combines curved finger bones, a relatively small braincase and bipedal pelvic traits. Explain why this is not contradictory.",
+        "model": "Different features can evolve at different times, producing a mosaic of traits. Curved fingers may be consistent with retained grasping or climbing functions, while the pelvis supports bipedal movement. A relatively small brain does not prevent those locomotor adaptations. The combination may indicate use of both trees and the ground, but the extent of each activity requires additional evidence rather than a forced all-or-nothing classification.",
+        "criteria": [
+          "Define or apply mosaic evolution.",
+          "Explain compatibility of climbing-related and bipedal features.",
+          "Avoid equating small brain size with absence of bipedalism."
+        ],
+        "id": "hb-u4-47-q6"
+      }
+    ],
+    "summary": [
+      "Hominins form a branching group on the human lineage.",
+      "Bipedal support involves the skull base, spine, pelvis, femur and foot.",
+      "Different functions and traits can coexist in mosaic anatomy.",
+      "Selective explanations and fossil placements require evidence and qualification."
+    ],
+    "sourceNotes": [
+      "Original lesson based on the scope of Surfing WACE Human Biology Unit 4, Chapter 47. Textbook wording and questions are not reproduced.",
+      "Bipedal chronology verified with https://humanorigins.si.edu/education/introduction-human-evolution and https://humanorigins.si.edu/human-characteristics/walking-upright",
+      "Avoided presenting one debated early hominin as a proven direct ancestor."
+    ]
+  },
+  {
+    "id": "hb-u4-48",
+    "chapter": 48,
+    "title": "The Australopithecines",
+    "sourcePages": [
+      63,
+      64,
+      65
+    ],
+    "objectives": [
+      "Compare locomotor and feeding features of australopiths.",
+      "Interpret the significance of Lucy, footprints and robust chewing anatomy.",
+      "Distinguish observation from uncertain ancestry, diet and social inferences."
+    ],
+    "glossary": [
+      {
+        "term": "Australopith",
+        "definition": "A broad informal term for Australopithecus and closely related early hominin forms, depending on usage."
+      },
+      {
+        "term": "Gracile",
+        "definition": "Relatively lightly built; in australopith comparisons, often applied to cranial and chewing anatomy."
+      },
+      {
+        "term": "Paranthropus",
+        "definition": "A genus commonly used for robust australopiths with specialised chewing anatomy."
+      }
+    ],
+    "slides": [
+      {
+        "title": "Early African hominin diversity",
+        "html": "<p>Australopith fossils document early human relatives with combinations of bipedal and retained climbing-related features. Most are known from African sites. The group should not be imagined as one uniform species or a straight line towards Homo. Different species overlapped in time and differed in cranial, dental and postcranial anatomy; their exact relationships continue to be assessed.</p>"
+      },
+      {
+        "title": "The significance of the Taung child",
+        "html": "<p>The Taung juvenile skull helped draw attention to early hominin evidence in southern Africa and was assigned to Australopithecus africanus. Its small braincase combined with features interpreted as relevant to upright posture challenged the idea that a modern-sized brain must have appeared first. A juvenile skull still requires careful comparison because development affects anatomy and adult form cannot be assumed from every feature.</p>"
+      },
+      {
+        "title": "Australopithecus afarensis",
+        "html": "<p>Australopithecus afarensis is well represented by fossils from eastern Africa, including the partial skeleton known as Lucy. Smithsonian summaries place the species approximately between 3.85 and 2.95 million years ago. Its anatomy combines evidence for bipedal locomotion with features consistent with climbing capabilities. It was not simply a miniature modern human, and no single specimen captures all variation within the species.</p>",
+        "diagram": {
+          "type": "timeline",
+          "events": [
+            {
+              "label": "Approximate A. afarensis range begins",
+              "value": 3.85
+            },
+            {
+              "label": "Lucy specimen",
+              "value": 3.2
+            },
+            {
+              "label": "Approximate range ends",
+              "value": 2.95
+            }
+          ],
+          "unit": "Ma",
+          "caption": "Approximate Smithsonian ages provide a chronological reference, not evidence that one specimen is a direct ancestor of another. Ma means millions of years ago."
+        }
+      },
+      {
+        "title": "Reading Lucy’s anatomy",
+        "html": "<p>Pelvic and lower-limb structures provide evidence of bipedal function, while upper-limb proportions and finger anatomy contribute to interpretations of climbing. These observations concern different activities and can coexist. A partial skeleton leaves gaps, and soft tissues are not preserved in the same way as bones. Functional reconstruction therefore combines measurements, comparative anatomy and explicit uncertainty.</p>",
+        "diagram": {
+          "type": "anatomy",
+          "view": "skeleton",
+          "labels": [
+            "Pelvic evidence of bipedal support",
+            "Lower-limb alignment",
+            "Upper-limb climbing-related traits"
+          ],
+          "caption": "A schematic teaching skeleton identifies regions discussed in australopith analysis. It is not a reconstruction of Lucy or a claim that these proportions match a particular fossil."
+        }
+      },
+      {
+        "title": "Footprints as independent evidence",
+        "html": "<p>A trackway preserves aspects of movement rather than just the potential functions of a bone. Foot placement and impressions can support an inference of bipedal walking. However, ground conditions affect the preserved shape and a footprint is not a complete skeleton. Attributing a trail to a particular species combines its age and location with other evidence; footprints alone may not uniquely identify the maker.</p>"
+      },
+      {
+        "title": "Gracile and robust forms",
+        "html": "<p>The traditional distinction between gracile and robust australopiths mainly concerns cranial and chewing structures, not a simple division into small and large bodies. Robust forms commonly placed in Paranthropus have especially large cheek teeth, substantial jaws and expanded muscle-attachment regions. Body-size estimates can overlap, and sex, age and incomplete preservation complicate direct comparisons.</p>"
+      },
+      {
+        "title": "Chewing adaptations and diet",
+        "html": "<p>A sagittal crest can increase attachment area for chewing muscles, while large molars and thick enamel affect food processing. Such features indicate mechanical capacities and possible loading demands. They do not prove that every individual ate only nuts, roots or tough vegetation. Microwear and isotopic evidence can reveal a more complex picture and should be considered alongside skull mechanics.</p>"
+      },
+      {
+        "title": "Species diversity and classification",
+        "html": "<p>Australopithecus africanus, A. afarensis and other named forms differ in observed combinations of characters. Robust species are commonly grouped in Paranthropus, although interpretations of relationships have varied. Classifying a new specimen requires comparison with variation already known, not merely finding one unusual feature. A species label does not automatically establish whether that population was ancestral to later Homo.</p>"
+      },
+      {
+        "title": "Branches rather than a ladder",
+        "html": "<p>Some robust lineages are generally interpreted as specialised side branches rather than direct ancestors of modern humans. Their coexistence with early Homo undermines a simple replacement sequence. Temporal overlap alone does not prove hunting, competition or the cause of extinction. Those explanations require their own supporting evidence, and the loss of a lineage should not be attributed to one imagined event.</p>"
+      },
+      {
+        "title": "Limits of social reconstruction",
+        "html": "<p>Estimated differences in male and female body size can inform hypotheses about competition and social organisation. However, sex assignment, sample size and body-mass estimation introduce uncertainty. Similar dimorphism does not uniquely specify a mating system. A strong comparison distinguishes the measured fossil differences from the additional assumptions needed to reconstruct care, grouping or relationships among individuals.</p>"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq",
+        "prompt": "What makes Lucy important for interpreting human evolution?",
+        "options": [
+          "She directly proves that all australopiths were modern humans.",
+          "Her anatomy contributes evidence of bipedalism alongside a relatively small brain and other retained traits.",
+          "She proves that every hominin feature evolved simultaneously.",
+          "She identifies the maker of every African stone tool."
+        ],
+        "answer": 1,
+        "feedback": [
+          "Australopithecus afarensis is not classified as modern Homo sapiens.",
+          "Correct. The combination illustrates mosaic evolution.",
+          "The trait combination challenges simultaneous-change explanations.",
+          "One skeleton cannot identify all tool makers."
+        ],
+        "explanation": "Correct. The combination illustrates mosaic evolution.",
+        "id": "hb-u4-48-q1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "In australopith comparisons, “robust” chiefly concerns which structures?",
+        "options": [
+          "Only the external tail",
+          "Only finger number",
+          "Only modern human-like height",
+          "The skull, jaws, cheek teeth and chewing-muscle attachment regions"
+        ],
+        "answer": 3,
+        "feedback": [
+          "Australopith comparisons do not rely on an external tail.",
+          "Digit number does not define robust chewing anatomy.",
+          "Body sizes can overlap across the traditional groups.",
+          "Correct. Robustness refers especially to the feeding apparatus."
+        ],
+        "explanation": "Correct. Robustness refers especially to the feeding apparatus.",
+        "id": "hb-u4-48-q2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which conclusion from a fossil trackway is most defensible?",
+        "options": [
+          "Foot placement can support bipedal movement, while exact species attribution needs other evidence.",
+          "Every trackway uniquely identifies a species without context.",
+          "A footprint directly reveals the full adult brain size.",
+          "Ground conditions never alter an impression."
+        ],
+        "answer": 0,
+        "feedback": [
+          "Correct. Tracks record aspects of movement but need contextual interpretation.",
+          "Different species can produce similar impressions.",
+          "A footprint does not directly record braincase volume.",
+          "Substrate affects the form of a preserved footprint."
+        ],
+        "explanation": "Correct. Tracks record aspects of movement but need contextual interpretation.",
+        "id": "hb-u4-48-q3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does overlap in time between Paranthropus and early Homo show by itself?",
+        "options": [
+          "Early Homo certainly hunted Paranthropus to extinction.",
+          "The two genera were identical in anatomy.",
+          "Their histories were not a simple non-overlapping replacement sequence.",
+          "Every Paranthropus fossil is a direct ancestor of Homo sapiens."
+        ],
+        "answer": 2,
+        "feedback": [
+          "Extinction mechanisms require separate evidence.",
+          "Coexistence does not establish anatomical identity.",
+          "Correct. Coexistence supports branching diversity rather than a simple ladder.",
+          "Temporal overlap does not prove direct ancestry."
+        ],
+        "explanation": "Correct. Coexistence supports branching diversity rather than a simple ladder.",
+        "id": "hb-u4-48-q4"
+      },
+      {
+        "type": "written",
+        "prompt": "Explain why robust chewing anatomy does not identify one exact diet for every Paranthropus individual.",
+        "model": "Large molars, substantial jaws and muscle-attachment areas indicate the ability to process particular mechanical loads. Different foods can impose similar demands, and an adaptation may also be useful for fallback foods eaten only occasionally. Diet can vary between individuals, places and seasons. Therefore, dietary reconstruction should combine anatomy with evidence such as tooth microwear and stable isotopes rather than equating a strong jaw with one exclusive food category.",
+        "criteria": [
+          "Link at least two structures to mechanical capacity.",
+          "Recognise alternative foods or variation in feeding.",
+          "Include additional evidence and qualify the dietary inference."
+        ],
+        "id": "hb-u4-48-q5"
+      },
+      {
+        "type": "written",
+        "prompt": "Explain how australopith evidence challenges the view that a large brain was necessary before bipedalism could evolve.",
+        "model": "Australopith fossils combine relatively small braincases with pelvic and lower-limb features supporting bipedal movement. This combination shows that the locomotor changes need not await the later major expansion of brain size in parts of the human lineage. Retained climbing-related traits further illustrate mosaic evolution. Fossils should therefore be interpreted as combinations of traits in branching lineages, rather than assigned to an all-at-once package of modern human characteristics.",
+        "criteria": [
+          "Use small braincase and bipedal anatomical evidence together.",
+          "Explain the chronological or functional independence of these traits.",
+          "Apply mosaic or branching evolution rather than a ladder."
+        ],
+        "id": "hb-u4-48-q6"
+      }
+    ],
+    "summary": [
+      "Australopiths represent diverse, often overlapping early hominin lineages.",
+      "Lucy and trackways provide complementary locomotor evidence.",
+      "Robust cranial anatomy mainly concerns specialised feeding structures.",
+      "Ancestry, diet, social systems and extinction causes require qualified inferences."
+    ],
+    "sourceNotes": [
+      "Original lesson based on the scope of Surfing WACE Human Biology Unit 4, Chapter 48. Textbook wording and questions are not reproduced.",
+      "Approximate A. afarensis and Lucy ages verified: https://humanorigins.si.edu/evidence/human-fossils/species/australopithecus-afarensis",
+      "Avoided the source’s unsupported claims of exclusive diets and hunting-driven extinction; avoided treating robust/gracile as a body-size division."
+    ]
+  },
+  {
+    "id": "hb-u4-49",
+    "chapter": 49,
+    "title": "Genus — Homo",
+    "sourcePages": [
+      66
+    ],
+    "objectives": [
+      "Describe broad patterns and variation within Homo.",
+      "Explain why genus assignment uses combinations of evidence.",
+      "Distinguish species differences from variation within Homo sapiens."
+    ],
+    "glossary": [
+      {
+        "term": "Genus",
+        "definition": "A taxonomic rank grouping closely related species."
+      },
+      {
+        "term": "Extant",
+        "definition": "Living at the present time."
+      },
+      {
+        "term": "Phenotypic variation",
+        "definition": "Differences in observable characteristics influenced by genetic and environmental factors."
+      }
+    ],
+    "slides": [
+      {
+        "title": "A diverse genus",
+        "html": "<p>Homo includes modern humans and several extinct species of close human relatives. Homo sapiens is the only living species of the genus. Fossil evidence indicates a more diverse past in which different Homo populations and species overlapped. A genus name summarises an inferred relationship; it does not mean that every included species is known to be a direct ancestor of modern humans.</p>"
+      },
+      {
+        "title": "Combinations rather than one threshold",
+        "html": "<p>Compared with many australopiths, some Homo fossils show changes in braincase form, facial projection, tooth size and body proportions. The pattern varies between species and specimens. There is no single brain-volume threshold that reliably places every fossil inside or outside Homo. A small-brained member cannot be rejected solely because it fails an oversimplified numerical rule.</p>"
+      },
+      {
+        "title": "Brain, teeth and body",
+        "html": "<p>A larger braincase can influence skull proportions, while changes in the feeding apparatus may reduce facial projection or cheek-tooth size. These features are not guaranteed to move together. Body-size differences also affect comparisons of absolute brain volume. Functional explanations should therefore identify the particular structures being compared, rather than treating “more human-like” as a complete anatomical description.</p>",
+        "diagram": {
+          "type": "anatomy",
+          "view": "skull",
+          "labels": [
+            "Cranial vault",
+            "Facial projection",
+            "Cheek teeth"
+          ],
+          "caption": "A schematic skull labels regions commonly compared across Homo fossils. It is not a reconstruction of a named species or a universal genus template."
+        }
+      },
+      {
+        "title": "Time and geographic evidence",
+        "html": "<p>Fossils assigned to early Homo occur in Africa, and later evidence records dispersals into other regions. Chronological ranges are estimates based on currently known specimens, not exact moments when species began or ended. A younger fossil with a smaller brain than an older specimen does not overturn evolution; branching histories and within-species variation do not predict a constant upward trend.</p>"
+      },
+      {
+        "title": "Homo is not a ladder",
+        "html": "<p>Homo habilis, Homo erectus, Neanderthals and modern humans should not be arranged as a compulsory linear sequence. Some lineages overlapped, and relationships can be uncertain. Evolutionary trees distinguish close relationship from direct ancestry. New discoveries may alter a branch’s placement or the number of species recognised without invalidating the broader evidence for shared descent.</p>",
+        "diagram": {
+          "type": "tree",
+          "outgroup": "Earlier hominin lineage",
+          "sisters": [
+            "Homo lineage A",
+            "Homo lineage B"
+          ],
+          "caption": "A deliberately generic branching model illustrates diversification within a lineage. It does not assert a resolved relationship between particular disputed Homo species."
+        }
+      },
+      {
+        "title": "Variation in living humans",
+        "html": "<p>Homo sapiens varies in stature, pigmentation, facial proportions and many other traits. These differences can reflect multiple genes, development and environment, and their distributions need not divide people into discrete biological types. Variation within a species is not automatically evidence of separate species. Classifying living or fossil populations requires a broader analysis than selecting one conspicuous trait.</p>"
+      },
+      {
+        "title": "Sex, age and preservation",
+        "html": "<p>Sexual dimorphism, juvenile development, pathology and distortion can all influence a fossil’s appearance. A small sample can exaggerate differences or conceal real ones. Researchers therefore compare several specimens and consider alternative explanations before naming a species. A useful account identifies both the observed pattern and the limits imposed by the available sample.</p>"
+      },
+      {
+        "title": "Behaviour is inferred cautiously",
+        "html": "<p>Tools, cut-marked bones and other archaeological traces can inform hypotheses about Homo behaviour. Association at a site does not automatically prove which species made each object, particularly when several hominins inhabited the region. Behaviours such as language or social care also have different evidential requirements. Genus membership should not become a substitute for demonstrating each behavioural claim.</p>"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq",
+        "prompt": "Which statement about genus Homo is correct?",
+        "options": [
+          "Every member is alive today.",
+          "Every included species is a proven direct ancestor of modern humans.",
+          "Only individuals above one fixed brain-volume threshold can belong.",
+          "Homo sapiens is its only extant species."
+        ],
+        "answer": 3,
+        "feedback": [
+          "Most named Homo species are extinct.",
+          "Close relationship is not the same as demonstrated direct ancestry.",
+          "No single simple volume threshold correctly classifies all cases.",
+          "Correct. Modern humans are the sole living Homo species."
+        ],
+        "explanation": "Correct. Modern humans are the sole living Homo species.",
+        "id": "hb-u4-49-q1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Why compare several anatomical features when assigning a fossil to Homo?",
+        "options": [
+          "Genus assignment is determined only by the site’s modern country.",
+          "Trait combinations, variation and preservation are more informative than one universal cut-off.",
+          "Only the youngest fossil can belong to the genus.",
+          "All Homo fossils are identical in shape."
+        ],
+        "answer": 1,
+        "feedback": [
+          "Modern political geography does not define a fossil genus.",
+          "Correct. Several observations help evaluate competing interpretations.",
+          "Fossil age alone does not determine genus membership.",
+          "Homo fossils show substantial anatomical variation."
+        ],
+        "explanation": "Correct. Several observations help evaluate competing interpretations.",
+        "id": "hb-u4-49-q2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "What should be concluded if one younger Homo fossil has a smaller braincase than an older one?",
+        "options": [
+          "Evolution has been disproved.",
+          "Both must be the same individual.",
+          "Branching history and variation do not require brain size to increase at every comparison.",
+          "The older fossil must be a forgery."
+        ],
+        "answer": 2,
+        "feedback": [
+          "Evolution does not predict a monotonic ladder for every trait.",
+          "Separate specimens need not represent the same individual.",
+          "Correct. Relationships and variation need broader analysis.",
+          "A reversed size comparison does not establish forgery."
+        ],
+        "explanation": "Correct. Relationships and variation need broader analysis.",
+        "id": "hb-u4-49-q3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which factor can complicate interpretation of differences between two fossil skulls?",
+        "options": [
+          "Developmental age, sexual variation or post-depositional distortion",
+          "Only the colour of the museum display",
+          "The spelling of the genus name alone",
+          "The assumption that every trait changes at the same rate"
+        ],
+        "answer": 0,
+        "feedback": [
+          "Correct. These factors can affect observed form and should be evaluated.",
+          "Display colour is not a biological explanation of skull shape.",
+          "A name’s spelling does not explain anatomical variation.",
+          "That assumption is misleading rather than a sound corrective factor."
+        ],
+        "explanation": "Correct. These factors can affect observed form and should be evaluated.",
+        "id": "hb-u4-49-q4"
+      },
+      {
+        "type": "written",
+        "prompt": "Explain why genus Homo cannot be defined in a school comparison by “a brain larger than one fixed value”.",
+        "model": "Brain volumes vary within and between species and are influenced by body size, age and preservation. Some Homo fossils do not fit a simple numerical threshold, while other traits also contribute to their classification. Researchers consider combinations of cranial, dental and postcranial features, their variation and their evolutionary context. A fixed cut-off would hide this evidence and incorrectly turn a complex taxonomic judgement into a single measurement.",
+        "criteria": [
+          "Recognise variation and relevant influences on volume.",
+          "Include several anatomical or contextual observations.",
+          "Explain why a single threshold can misclassify fossils."
+        ],
+        "id": "hb-u4-49-q5"
+      },
+      {
+        "type": "written",
+        "prompt": "Distinguish variation within Homo sapiens from evidence needed to recognise a separate fossil species.",
+        "model": "Living humans vary in many traits because of genetic, developmental and environmental influences, so one conspicuous difference does not establish a species boundary. Fossil species recognition compares patterns across specimens and considers anatomy, chronology, geography and known variation. Age, sex and distortion can complicate the sample. Researchers must weigh alternative interpretations; the label of a separate species is a reasoned hypothesis rather than the automatic result of any difference.",
+        "criteria": [
+          "Describe multiple sources of within-species variation.",
+          "Identify broader comparisons relevant to species recognition.",
+          "Recognise sample limitations and alternative interpretations."
+        ],
+        "id": "hb-u4-49-q6"
+      }
+    ],
+    "summary": [
+      "Homo is a diverse genus with only one living species.",
+      "Classification uses combinations of evidence rather than one brain-size threshold.",
+      "Species histories are branching and may overlap.",
+      "Human variation and fossil variation require careful contextual interpretation."
+    ],
+    "sourceNotes": [
+      "Original lesson based on the scope of Surfing WACE Human Biology Unit 4, Chapter 49. Textbook wording and questions are not reproduced.",
+      "Corrected outdated source assertions about an inevitable Homo ladder, genus-wide brain threshold and fixed origin ages.",
+      "Shared-descent and human variation context: https://humanorigins.si.edu/education/introduction-human-evolution"
+    ]
+  },
+  {
+    "id": "hb-u4-50",
+    "chapter": 50,
+    "title": "Homo habilis",
+    "sourcePages": [
+      67
+    ],
+    "objectives": [
+      "Describe the evidence associated with Homo habilis.",
+      "Explain why classification and tool-maker attribution can be uncertain.",
+      "Compare fossil observations with behavioural hypotheses."
+    ],
+    "glossary": [
+      {
+        "term": "Homo habilis",
+        "definition": "An early Homo species commonly associated with African fossils and an important debate about early human diversity."
+      },
+      {
+        "term": "Oldowan",
+        "definition": "An archaeological stone-tool tradition involving cores, flakes and related artefacts."
+      },
+      {
+        "term": "Association",
+        "definition": "Occurrence together in a context; it does not automatically prove a unique causal relationship."
+      }
+    ],
+    "slides": [
+      {
+        "title": "An early Homo species",
+        "html": "<p>Homo habilis is known from African fossils and was named in 1964. Its name, commonly translated as “handy man”, reflects the historical association with stone tools. Smithsonian summaries give an approximate fossil range of 2.4 to 1.4 million years ago. These limits describe known evidence, not precise dates at which every population originated or disappeared.</p>"
+      },
+      {
+        "title": "A mosaic of features",
+        "html": "<p>Fossils attributed to H. habilis include combinations of a relatively expanded braincase, facial and dental differences from some australopiths, and retained earlier anatomical traits. The sample is variable and incomplete. A single idealised reconstruction can conceal that variation. Comparisons should describe particular specimens or general tendencies rather than assume every individual matched one exact height, mass or brain volume.</p>",
+        "diagram": {
+          "type": "anatomy",
+          "view": "skull",
+          "labels": [
+            "Braincase form",
+            "Facial proportions",
+            "Jaw and cheek teeth"
+          ],
+          "caption": "A schematic skull highlights comparison regions. It is not a reconstruction of Homo habilis or a claim that one shape represents every attributed specimen."
+        }
+      },
+      {
+        "title": "Why classification has been debated",
+        "html": "<p>Some early Homo fossils differ in facial breadth, braincase form and tooth proportions. Researchers must assess whether the variation reflects sex, development, geographic differences or more than one species. Some specimens historically discussed with H. habilis are now often assigned to H. rudolfensis. Such reassignment concerns the interpretation of variation, not a simple contest over which fossil looks most modern.</p>"
+      },
+      {
+        "title": "Stone cores and flakes",
+        "html": "<p>An Oldowan assemblage can include a core struck with a hammerstone and the flakes detached from it. Sharp flakes can be useful cutting implements, while the remaining core may also be used. Tool production requires selection and controlled fracture of stone. Archaeologists analyse scars, edges and context to distinguish artefacts from naturally broken stones.</p>",
+        "diagram": {
+          "type": "tools",
+          "stages": [
+            "core",
+            "flake"
+          ],
+          "caption": "Schematic examples illustrate a struck core and a detached flake. These shapes are not copied artefacts and do not identify their maker’s species."
+        }
+      },
+      {
+        "title": "Association does not uniquely identify a maker",
+        "html": "<p>Finding stone tools and H. habilis fossils in the same broad region or layer makes a behavioural association plausible. It does not prove that every tool was made by that species. Several hominin lineages could coexist, and deposits may combine material from different events. The name “handy man” is historical terminology rather than independent evidence of exclusive tool-making ability.</p>"
+      },
+      {
+        "title": "Tool use is not exclusive to this species",
+        "html": "<p>Evidence of early stone technology extends beyond a simple claim that H. habilis invented all tools. Other hominins may have made or used tools, and living non-human primates also use objects in purposeful ways. Distinguishing particular technologies from the broader behaviour of tool use prevents genus or species names from replacing direct archaeological evidence.</p>"
+      },
+      {
+        "title": "Reconstructing feeding and lifestyle",
+        "html": "<p>Cut marks, percussion damage and stone edges can support hypotheses about processing carcasses or other foods. Distinguishing human modification from other damage requires careful analysis. Such evidence does not by itself establish whether animals were hunted or scavenged, nor does one site reveal an entire social system. Claims of shelters, family groups or food sharing should identify their separate evidential basis.</p>"
+      },
+      {
+        "title": "Placing H. habilis in a branching history",
+        "html": "<p>H. habilis belongs in discussions of early Homo diversity, but its exact relationships to later Homo populations are not demonstrated by a name alone. Overlap among fossil ranges and variation within samples complicate a direct ancestor–descendant story. A responsible reconstruction distinguishes well-supported observations from hypotheses about ancestry, behaviour and the boundaries between early Homo species.</p>"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq",
+        "prompt": "Why was the name Homo habilis historically chosen?",
+        "options": [
+          "The fossils were recovered from a town named Habilis.",
+          "The historical tool association suggested a “handy” early human.",
+          "A complete written language was found with the skulls.",
+          "All individuals had a directly measured modern human brain."
+        ],
+        "answer": 1,
+        "feedback": [
+          "The name is not derived from such a locality.",
+          "Correct. The name reflected the early interpretation of a stone-tool association.",
+          "No written language was recovered with these fossils.",
+          "Fossil estimates and anatomical variation do not support this claim."
+        ],
+        "explanation": "Correct. The name reflected the early interpretation of a stone-tool association.",
+        "id": "hb-u4-50-q1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "What is an Oldowan flake?",
+        "options": [
+          "A complete fossil skull",
+          "A chromosome mutation",
+          "A detached piece of stone produced during core reduction",
+          "A guaranteed species-identification marker"
+        ],
+        "answer": 2,
+        "feedback": [
+          "A flake is a stone artefact, not a skull.",
+          "The term belongs to stone technology, not genetics.",
+          "Correct. Controlled strikes can detach sharp flakes from a core.",
+          "A tool form does not uniquely identify the maker’s species."
+        ],
+        "explanation": "Correct. Controlled strikes can detach sharp flakes from a core.",
+        "id": "hb-u4-50-q2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Why can tools near H. habilis fossils not establish exclusive tool making by that species?",
+        "options": [
+          "Association and shared context do not eliminate other makers or depositional explanations.",
+          "No stone can retain evidence of fracture.",
+          "All tools are necessarily natural objects with no modification.",
+          "Species names directly record every behaviour."
+        ],
+        "answer": 0,
+        "feedback": [
+          "Correct. Coexisting lineages and the history of deposition must be considered.",
+          "Fracture scars and edges can be informative.",
+          "Archaeologists distinguish evidence of manufacture from natural breakage.",
+          "A name is not an independent behavioural record."
+        ],
+        "explanation": "Correct. Coexisting lineages and the history of deposition must be considered.",
+        "id": "hb-u4-50-q3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which conclusion is appropriately cautious about H. habilis classification?",
+        "options": [
+          "Every fossil attributed to it must have identical proportions.",
+          "A smaller braincase automatically excludes any specimen from Homo.",
+          "Any younger specimen must have a larger brain than every older specimen.",
+          "Differences among specimens require evaluation of variation and possible species boundaries."
+        ],
+        "answer": 3,
+        "feedback": [
+          "Variation and incomplete preservation affect the sample.",
+          "No single universal volume threshold resolves every classification.",
+          "Evolution does not impose a monotonic increase in every comparison.",
+          "Correct. Several competing explanations of variation need assessment."
+        ],
+        "explanation": "Correct. Several competing explanations of variation need assessment.",
+        "id": "hb-u4-50-q4"
+      },
+      {
+        "type": "written",
+        "prompt": "Explain how a core-and-flake assemblage can support a behavioural inference without uniquely identifying the species that made it.",
+        "model": "Repeated fracture scars and sharp detached flakes can support an inference of deliberate stone reduction and potential cutting activity. Their geological and archaeological context helps determine whether the pieces belong together. However, the artefacts do not carry a species name, and more than one hominin may have occupied the region. Direct association, dating and additional evidence are needed before attributing production to one species, and uncertainty can remain.",
+        "criteria": [
+          "Use physical artefact evidence to infer manufacture or use.",
+          "Identify the importance of context and dating.",
+          "Explain why maker attribution remains separate and potentially uncertain."
+        ],
+        "id": "hb-u4-50-q5"
+      },
+      {
+        "type": "written",
+        "prompt": "Why is a branching account of early Homo more defensible than a diagram showing every H. habilis fossil turning directly into H. erectus?",
+        "model": "A branching account allows populations or species to coexist and recognises variation among early Homo fossils. A fossil’s species label and age do not alone establish direct ancestry. Some specimens may represent related side branches or different species, and the record is incomplete. Researchers therefore use multiple anatomical and chronological observations to evaluate relationships, while distinguishing close relationship from a proven direct ancestor–descendant link.",
+        "criteria": [
+          "Recognise coexistence, variation or incomplete sampling.",
+          "Distinguish close relationship from proven direct ancestry.",
+          "Require combined anatomical and chronological evidence."
+        ],
+        "id": "hb-u4-50-q6"
+      }
+    ],
+    "summary": [
+      "H. habilis is an important, variable early Homo fossil sample.",
+      "Oldowan cores and flakes inform technological interpretation.",
+      "Tool association does not uniquely identify a species or an entire lifestyle.",
+      "Classification and direct ancestry remain hypotheses evaluated with multiple evidence types."
+    ],
+    "sourceNotes": [
+      "Original lesson based on the scope of Surfing WACE Human Biology Unit 4, Chapter 50. Textbook wording and questions are not reproduced.",
+      "Approximate fossil range and attribution uncertainty verified: https://humanorigins.si.edu/evidence/human-fossils/species/homo-habilis",
+      "Tool-maker caution corroborated: https://australian.museum/learn/science/human-evolution/homo-habilis/",
+      "Avoided source claims of proven shelters, fixed grassland lifestyle, exclusive tool invention and a single brain-volume value."
+    ]
+  }
+]
