@@ -50,7 +50,7 @@
  };
  const generic=/^(?:section\b|units? [1-4]|calculator (?:assumed|free)|examination|exam questions|mixed.topic)/i;
  const clean=s=>String(s||'').replace(/[–—]/g,'-').trim();
- function classify(q){if(cache.has(q))return cache.get(q);const original=clean(q.topic),course=clean(q.course||q.subject||q.area);let topic='',subtopic=clean(q.subtopic)||original||'General questions',inferred=false;
+ function classify(q){if(q.studioSourceId)return{topic:q.topic,subtopic:q.subtopic,originalTopic:q.topic,inferred:false};if(cache.has(q))return cache.get(q);const original=clean(q.topic),course=clean(q.course||q.subject||q.area);let topic='',subtopic=clean(q.subtopic)||original||'General questions',inferred=false;
   if(course.toLowerCase()==='science'&&q.strand)topic=clean(q.strand);
   else if(course.toLowerCase()==='mathematics'&&q.strand)topic=clean(q.strand);
   else {const rules=groups[course]||[],g=rules.find(([,r])=>new RegExp(r.source,'i').test(original));if(g&&!generic.test(original))topic=g[0];
@@ -63,9 +63,9 @@
   }
   const result={topic,subtopic,originalTopic:original,inferred};cache.set(q,result);return result;
  }
- function values(records,key){return [...new Set(records.map(q=>classify(q)[key]).filter(Boolean))].sort((a,b)=>a.localeCompare(b,undefined,{numeric:true}));}
+ function values(records,key){return [...new Set(records.flatMap(q=>q.studioSourceId?(key==='topic'?[...(q.topics||[]),...(q.mixed?['Mixed topics']:[])]:q.subtopics||[]):[classify(q)[key]]).filter(Boolean))].sort((a,b)=>a.localeCompare(b,undefined,{numeric:true}));}
  function fill(select,items,label,preserve=false){const previous=select.value;select.replaceChildren(new Option('All '+label,'all'),...items.map(x=>new Option(x,x)));select.value=preserve&&items.includes(previous)?previous:'all';}
- function matches(q,topic='all',subtopic='all'){const c=classify(q);return(topic==='all'||c.topic===topic)&&(subtopic==='all'||c.subtopic===subtopic);}
- function label(q){const c=classify(q);return c.topic+(c.subtopic!==c.topic?' • '+c.subtopic:'');}
+ function matches(q,topic='all',subtopic='all'){if(q.studioSourceId)return(topic==='all'||topic==='Mixed topics'&&q.mixed||(q.topics||[]).includes(topic))&&(subtopic==='all'||(q.subtopics||[]).includes(subtopic));const c=classify(q);return(topic==='all'||c.topic===topic)&&(subtopic==='all'||c.subtopic===subtopic);}
+ function label(q){if(q.studioSourceId)return[...(q.topics||[]),...(q.subtopics||[])].join(' • ');const c=classify(q);return c.topic+(c.subtopic!==c.topic?' • '+c.subtopic:'');}
  window.QuestionBankCategories={classify,values,fill,matches,label};
 })();
