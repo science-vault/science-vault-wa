@@ -4,7 +4,7 @@ const oldRender=render, oldEligible=eligible, oldOpen=openQuestion, oldCheck=che
 
 // Categories belong to the subject. Physics uses the paper's three sections;
 // response formats (such as diagrams or multiple choice) are kept separately.
-const studioSubjectTypes={Physics:['Short answer','Calculations','Comprehension'],'Human Biology':['Multiple choice','Short answer','Extended answer']};
+const studioSubjectTypes={Physics:['Short answer','Calculations','Comprehension'],'Human Biology':['Multiple choice','Short answer','Extended answer'],Chemistry:['Multiple choice','Short answer','Extended answer']};
 function normaliseStudioQuestion(meta){
  if(meta.subject!=='Physics')return meta;
  const section=meta.sourceSection||meta.section||'';
