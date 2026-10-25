@@ -1,2 +1,0 @@
-Increase the range of angles in the data to give a clear non-linear relationship.
-Adjust markings or give more opportunity to show linearisation of data has been considered and implemented.

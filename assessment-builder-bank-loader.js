@@ -1,2 +1,0 @@
-/* Practice Studio is the sole assessment question source. */
-(function(){window.AssessmentQuestionBank=[];window.AssessmentBankLoader={loaded:new Set(),load:async function(subject,year){return []}}})();
