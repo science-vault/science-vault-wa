@@ -1,0 +1,1915 @@
+[
+  {
+    "id": "hb-u4-21",
+    "chapter": 21,
+    "title": "DNA Polymerases",
+    "sourcePages": [
+      26
+    ],
+    "objectives": [
+      "Explain template-directed DNA synthesis and the need for a primer.",
+      "Compare leading- and lagging-strand synthesis.",
+      "Distinguish DNA synthesis, proofreading and ligation."
+    ],
+    "glossary": [
+      {
+        "term": "DNA polymerase",
+        "definition": "An enzyme that extends a DNA strand using a template and a pre-existing 3′ end."
+      },
+      {
+        "term": "Primer",
+        "definition": "A short nucleic-acid strand providing a paired starting point and a free 3′ hydroxyl group."
+      },
+      {
+        "term": "Okazaki fragment",
+        "definition": "A short DNA segment made during discontinuous lagging-strand synthesis."
+      }
+    ],
+    "slides": [
+      {
+        "title": "Template-directed copying",
+        "html": "<p>DNA replication produces DNA copies before cell division. Each parental strand supplies a template for a new complementary strand. DNA polymerase catalyses the joining of incoming nucleotides to a growing strand. Complementary pairing, A with T and C with G, helps preserve the sequence, but copying is not completely error-free.</p>"
+      },
+      {
+        "title": "Growth has a direction",
+        "html": "<p>A nucleotide is added to the free 3′ end of an existing strand. The new strand therefore grows in the 5′ → 3′ direction, while the template is read in the opposite direction. These labels describe chemical orientation, not whether a strand appears on the top or bottom of a drawing.</p>",
+        "diagram": {
+          "type": "dna",
+          "before": "ATGGAACCTTGC",
+          "after": "TACCTTGGAACG",
+          "caption": "Complementary sequences shown in paired order: the upper template is 3′ → 5′ and the lower newly synthesised strand is 5′ → 3′. This is complementary copying, not a mutation."
+        }
+      },
+      {
+        "title": "Why a primer is necessary",
+        "html": "<p>DNA polymerase cannot normally begin a new strand by placing the first nucleotide without an existing starting end. A primer pairs with the template and supplies the free 3′ hydroxyl group needed for extension. Cellular replication uses RNA primers; standard PCR uses deliberately designed DNA primers instead.</p>"
+      },
+      {
+        "title": "Opening a replication fork",
+        "html": "<p>Helicase separates the parental strands at a replication fork. Polymerase does not perform this unzipping task: it extends strands after a template is exposed and primed. Accessory proteins help organise replication and stabilise single-stranded DNA. Different enzymes cooperate, so naming one enzyme does not explain the whole process.</p>",
+        "diagram": {
+          "type": "flow",
+          "nodes": [
+            "DNA strands separated",
+            "Primers supplied",
+            "Polymerase extends DNA",
+            "Primers replaced",
+            "Ligase seals remaining nicks"
+          ],
+          "caption": "A simplified enzyme sequence. The steps are coordinated at a moving fork rather than occurring once for the entire chromosome."
+        }
+      },
+      {
+        "title": "Leading and lagging strands",
+        "html": "<p>The parental strands are antiparallel, but both new strands must grow 5′ → 3′. At a particular fork, the leading strand can be extended continuously towards the opening fork. The lagging strand is extended in short Okazaki fragments away from that opening, requiring repeated starting points.</p>"
+      },
+      {
+        "title": "Joining fragments is a separate task",
+        "html": "<p>After an RNA primer is removed, its region must be replaced with DNA. DNA ligase seals remaining breaks in the sugar–phosphate backbone between neighbouring DNA sections. Polymerase adds nucleotides; ligase joins an existing adjacent end. Both are required for a continuous completed lagging strand.</p>"
+      },
+      {
+        "title": "Accuracy and proofreading",
+        "html": "<p>Many replicative DNA polymerases have proofreading activity that can remove a recently mispaired nucleotide before synthesis continues. Additional repair systems improve accuracy. Proofreading reduces mutation frequency but does not eliminate every error, and not every polymerase has the same proofreading capability or fidelity. Enzyme properties must be stated for the particular application.</p>"
+      },
+      {
+        "title": "Linear chromosome ends",
+        "html": "<p>At a linear chromosome end, removing a terminal primer can leave no suitable upstream 3′ end for ordinary polymerase to extend. This contributes to the end-replication problem. Telomeres and, in appropriate cells, telomerase help manage chromosome ends; it is inaccurate to claim that every cell always loses essential genes at each division.</p>"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq",
+        "prompt": "At which end does a DNA polymerase add the next nucleotide?",
+        "options": [
+          "The growing strand’s 5′ end",
+          "The growing strand’s 3′ end",
+          "Either end equally",
+          "Only the template’s 3′ end"
+        ],
+        "answer": 1,
+        "feedback": [
+          "The new strand grows towards its 3′ end, not by extension of its 5′ end.",
+          "Correct. Addition at the free 3′ end produces 5′ → 3′ growth.",
+          "Polymerase extension has a defined chemical direction.",
+          "The template guides pairing; it is the newly synthesised strand that is extended."
+        ],
+        "explanation": "Correct. Addition at the free 3′ end produces 5′ → 3′ growth.",
+        "id": "hb-u4-21-q1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Why does the lagging strand require repeated primers?",
+        "options": [
+          "Its template has no bases",
+          "Ligase destroys every second base",
+          "The fork exposes its template in a direction requiring separate 5′ → 3′ fragments",
+          "Polymerase switches to 3′ → 5′ synthesis"
+        ],
+        "answer": 2,
+        "feedback": [
+          "The template contains bases that specify the complementary sequence.",
+          "Ligase seals backbone nicks; it does not remove alternate bases.",
+          "Correct. Antiparallel templates and the single synthesis direction require discontinuous fragments at that fork.",
+          "Both leading and lagging DNA are synthesised 5′ → 3′."
+        ],
+        "explanation": "Correct. Antiparallel templates and the single synthesis direction require discontinuous fragments at that fork.",
+        "id": "hb-u4-21-q2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement correctly separates polymerase and ligase functions?",
+        "options": [
+          "Polymerase adds nucleotides; ligase seals adjacent DNA ends",
+          "Polymerase unzips DNA; ligase copies its bases",
+          "Both enzymes initiate new strands without a starting end",
+          "Ligase selects every complementary base"
+        ],
+        "answer": 0,
+        "feedback": [
+          "Correct. Synthesis and sealing are different chemical tasks.",
+          "Helicase separates strands; ligase does not copy a template.",
+          "Polymerase normally needs a pre-existing primed end.",
+          "Complementary extension is the polymerase task, not the ligase task."
+        ],
+        "explanation": "Correct. Synthesis and sealing are different chemical tasks.",
+        "id": "hb-u4-21-q3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "What conclusion follows from the existence of proofreading?",
+        "options": [
+          "All mutations are prevented",
+          "All polymerases proofread equally well",
+          "Primers are no longer needed",
+          "Some copying errors can be corrected before synthesis continues"
+        ],
+        "answer": 3,
+        "feedback": [
+          "Proofreading is imperfect and mutations can still arise.",
+          "Proofreading abilities differ between polymerases.",
+          "A proofreading mechanism does not provide the initial 3′ end.",
+          "Correct. Removing a mispaired nucleotide can improve fidelity without making replication infallible."
+        ],
+        "explanation": "Correct. Removing a mispaired nucleotide can improve fidelity without making replication infallible.",
+        "id": "hb-u4-21-q4"
+      },
+      {
+        "type": "written",
+        "prompt": "Explain why the two new strands at a replication fork are synthesised differently even though both grow 5′ → 3′.",
+        "model": "The parental strands are antiparallel. Polymerase can extend only a free 3′ end, so every new DNA segment grows 5′ → 3′. At one fork, one template permits continuous synthesis towards the opening fork. The other is copied in separate Okazaki fragments as additional template becomes exposed. These fragments require primers and subsequent processing and joining.",
+        "criteria": [
+          "Identify antiparallel templates.",
+          "State extension at the 3′ end and 5′ → 3′ growth.",
+          "Explain continuous versus discontinuous synthesis at one fork."
+        ],
+        "id": "hb-u4-21-q5"
+      },
+      {
+        "type": "written",
+        "prompt": "A student writes: “DNA polymerase separates the helix and ligase then adds all complementary bases.” Correct the explanation.",
+        "model": "Helicase separates the parental strands so their bases can act as templates. A primer supplies an existing paired 3′ end. DNA polymerase adds complementary nucleotides and builds the new DNA strand. After fragment processing, ligase seals remaining backbone nicks between adjacent DNA sections. These cooperating roles should not be exchanged or treated as one enzyme action.",
+        "criteria": [
+          "Assign strand separation to helicase.",
+          "Assign complementary nucleotide addition to polymerase.",
+          "Assign sealing of adjacent DNA sections to ligase."
+        ],
+        "id": "hb-u4-21-q6"
+      }
+    ],
+    "summary": [
+      "DNA polymerase extends a primed strand 5′ → 3′.",
+      "Antiparallel templates produce leading and lagging synthesis at a fork.",
+      "Proofreading improves but does not guarantee accuracy.",
+      "Ligase seals nicks; chromosome ends require additional mechanisms."
+    ],
+    "sourceNotes": [
+      "Scope adapted from Surfing WACE Human Biology Unit 4, Chapter 21; all explanations, examples and questions newly authored.",
+      "Clarified that not all polymerases proofread and telomerase operates in appropriate cell types rather than treating all chromosome shortening as loss of essential genes.",
+      "https://www.ncbi.nlm.nih.gov/probe/docs/techpcr/"
+    ]
+  },
+  {
+    "id": "hb-u4-22",
+    "chapter": 22,
+    "title": "The Polymerase Chain Reaction",
+    "sourcePages": [
+      27
+    ],
+    "objectives": [
+      "Explain the ingredients and three stages of PCR.",
+      "Calculate ideal amplification from a stated starting copy number.",
+      "Evaluate controls and limits of a PCR result."
+    ],
+    "glossary": [
+      {
+        "term": "PCR",
+        "definition": "A laboratory technique that repeatedly copies a selected DNA region."
+      },
+      {
+        "term": "Annealing",
+        "definition": "Complementary pairing of a primer with its DNA target."
+      },
+      {
+        "term": "Thermostable",
+        "definition": "Able to retain useful activity through the high-temperature stages used in the process."
+      }
+    ],
+    "slides": [
+      {
+        "title": "Copying a selected DNA region",
+        "html": "<p>PCR amplifies a chosen region of DNA outside living cells. It can produce enough material for later analysis when the starting sample is small. Amplification is not the same as identifying an organism or a person: that inference depends on which region was targeted, the assay design and the subsequent evidence.</p>"
+      },
+      {
+        "title": "What the reaction contains",
+        "html": "<p>A standard reaction needs template DNA, two appropriate DNA primers, free DNA nucleotides, a suitable thermostable DNA polymerase and a compatible buffer containing necessary ions. The primers define the region to be copied. They bind on opposite strands with their extension ends directed towards the target region between them.</p>"
+      },
+      {
+        "title": "Denaturation separates strands",
+        "html": "<p>At the start of each cycle, heating separates paired DNA strands by disrupting base-pair hydrogen bonding. In standard PCR this is commonly near 95°C, though the exact protocol varies. Heating exposes single-stranded templates. It does not deliberately cut the covalent DNA backbone or supply the starting primers.</p>",
+        "diagram": {
+          "type": "flow",
+          "nodes": [
+            "Denaturation: separate strands",
+            "Annealing: primers bind",
+            "Extension: new DNA made",
+            "Repeat the cycle"
+          ],
+          "caption": "A PCR thermal cycle. Typical temperatures depend on the primers, template and polymerase; the sequence of stages remains the key mechanism."
+        }
+      },
+      {
+        "title": "Annealing selects the target",
+        "html": "<p>Cooling allows each primer to pair with a complementary region on its template. The chosen annealing temperature depends on primer sequence and reaction conditions. Poorly chosen primers or conditions may permit unwanted products. A primer provides a free 3′ end; its sequence also determines where extension begins.</p>"
+      },
+      {
+        "title": "Extension makes new DNA",
+        "html": "<p>At an appropriate temperature, polymerase extends each bound primer in the 5′ → 3′ direction using the template. Taq polymerase is a familiar heat-tolerant example; other enzymes are used where properties such as fidelity matter. Thermostability avoids having to add replacement enzyme after every heating stage.</p>",
+        "diagram": {
+          "type": "dna",
+          "before": "ATGGAACCTTGC",
+          "after": "TACCTTGGAACG",
+          "caption": "Simplified template and complementary product: upper sequence 3′ → 5′; lower product 5′ → 3′. A short excerpt illustrates extension, not the positions of both flanking PCR primers."
+        }
+      },
+      {
+        "title": "Ideal amplification calculations",
+        "html": "<p>In a simplified ideal model, every template copy is successfully copied each cycle. After n cycles, N = N₀ × 2ⁿ. Starting with five relevant copies, four ideal cycles give 5 × 16 = 80 copies. State that this assumes doubling and that “copies” refers to the DNA unit defined in the question.</p>"
+      },
+      {
+        "title": "Real reactions are not perfectly exponential",
+        "html": "<p>Efficiency can be reduced by damaged templates, inhibitors, unsuitable primer binding and limited reaction components. Eventually amplification can plateau. Therefore a textbook doubling calculation is an ideal prediction, not a guarantee of measured yield. PCR can also copy unwanted contaminating DNA if it matches the assay’s target.</p>"
+      },
+      {
+        "title": "Interpreting results with controls",
+        "html": "<p>A positive control checks that the assay can amplify a suitable target. A no-template negative control helps reveal contamination. An appropriate internal control may help identify inhibition or poor sampling. A negative test without functioning controls cannot confidently distinguish absent target from failed amplification or unsuitable starting material.</p>"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq",
+        "prompt": "Which order describes one standard PCR cycle?",
+        "options": [
+          "Annealing → extension → denaturation",
+          "Extension → denaturation → annealing",
+          "Denaturation → annealing → extension",
+          "Denaturation → extension → annealing"
+        ],
+        "answer": 2,
+        "feedback": [
+          "A cycle is conventionally described beginning with strand separation.",
+          "This does not describe the normal starting order of stages.",
+          "Correct. Separate templates, bind primers, then extend them.",
+          "Primers must bind before polymerase can extend them."
+        ],
+        "explanation": "Correct. Separate templates, bind primers, then extend them.",
+        "id": "hb-u4-22-q1"
+      },
+      {
+        "type": "numeric",
+        "prompt": "A simplified PCR model starts with 3 copies of a target. With perfect doubling, how many copies are present after 5 cycles?",
+        "answer": 96,
+        "tolerance": 0,
+        "unit": "copies",
+        "hint": "Use N = N₀ × 2ⁿ, with N₀ = 3 and n = 5.",
+        "explanation": "N = 3 × 2⁵ = 3 × 32 = 96 copies under ideal doubling.",
+        "id": "hb-u4-22-q2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "What do the two PCR primers primarily determine?",
+        "options": [
+          "Which DNA region is amplified",
+          "The entire genome sequence of the sample",
+          "Whether every mutation is harmful",
+          "The charge on all DNA fragments"
+        ],
+        "answer": 0,
+        "feedback": [
+          "Correct. Complementary primer-binding sites delimit the target region.",
+          "Primers target a selected region; they do not reveal the whole genome by themselves.",
+          "Primer selection does not determine the biological effect of mutations.",
+          "DNA’s negative charge comes mainly from its phosphate backbone."
+        ],
+        "explanation": "Correct. Complementary primer-binding sites delimit the target region.",
+        "id": "hb-u4-22-q3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "The target band appears in a no-template control. What is the most defensible response?",
+        "options": [
+          "Report every sample as positive",
+          "Ignore the control because it contains no cells",
+          "Conclude the target evolved during the experiment",
+          "Investigate contamination before interpreting sample bands"
+        ],
+        "answer": 3,
+        "feedback": [
+          "A contaminated control undermines the interpretation of positive samples.",
+          "A no-template control is specifically intended to reveal unwanted amplification.",
+          "The result is not evidence that a new organism or target evolved.",
+          "Correct. Amplification without deliberately supplied template suggests a contamination or assay problem."
+        ],
+        "explanation": "Correct. Amplification without deliberately supplied template suggests a contamination or assay problem.",
+        "id": "hb-u4-22-q4"
+      },
+      {
+        "type": "written",
+        "prompt": "Explain why PCR can analyse a small DNA sample but cannot restore all information lost when DNA is badly degraded.",
+        "model": "PCR can repeatedly copy intact target regions between suitable primer sites, increasing the amount available for analysis. A very small sample may therefore become detectable. However, a fragment must retain enough target and primer-binding sequence for the assay to work. PCR does not reconstruct missing sequence from nothing, and inhibitors or contamination can also limit interpretation.",
+        "criteria": [
+          "Link repeated copying to increased target quantity.",
+          "Explain the need for intact target and primer-binding regions.",
+          "State one limitation such as degradation, inhibitors or contamination."
+        ],
+        "id": "hb-u4-22-q5"
+      },
+      {
+        "type": "written",
+        "prompt": "Explain the roles of heat, primers and polymerase in a PCR cycle, and distinguish denaturation from DNA cutting.",
+        "model": "Heating disrupts base-pair interactions and separates the two strands without deliberately severing their covalent backbones. Cooling allows complementary primers to bind at the target boundaries. Each primer supplies a 3′ end that a thermostable DNA polymerase extends 5′ → 3′ using nucleotides. Repeating these stages increases target copy number; restriction digestion is a different process that cuts DNA.",
+        "criteria": [
+          "Describe strand separation without backbone cutting.",
+          "Explain primer pairing and the starting 3′ end.",
+          "Explain polymerase extension and repetition."
+        ],
+        "id": "hb-u4-22-q6"
+      }
+    ],
+    "summary": [
+      "PCR selects and amplifies a DNA region using primers.",
+      "Denaturation, annealing and extension repeat in a thermal cycle.",
+      "N = N₀ × 2ⁿ is an ideal doubling model.",
+      "Controls are necessary to interpret amplification results."
+    ],
+    "sourceNotes": [
+      "Scope adapted from Surfing WACE Human Biology Unit 4, Chapter 22; all explanations, examples and questions newly authored.",
+      "PCR mechanism and primer roles checked against NHGRI and NCBI educational resources.",
+      "https://www.genome.gov/about-genomics/fact-sheets/Polymerase-Chain-Reaction-Fact-Sheet",
+      "https://www.ncbi.nlm.nih.gov/probe/docs/techpcr/"
+    ]
+  },
+  {
+    "id": "hb-u4-23",
+    "chapter": 23,
+    "title": "Gel Electrophoresis",
+    "sourcePages": [
+      28
+    ],
+    "objectives": [
+      "Explain the direction and size dependence of DNA movement through a gel.",
+      "Interpret lanes using a ladder and controls.",
+      "Distinguish fragment-length evidence from sequence identity."
+    ],
+    "glossary": [
+      {
+        "term": "Electrophoresis",
+        "definition": "Movement of charged particles through a medium under an electric field."
+      },
+      {
+        "term": "DNA ladder",
+        "definition": "A mixture of reference fragments of known lengths."
+      },
+      {
+        "term": "Band",
+        "definition": "A detected group of many fragments migrating to a similar gel position."
+      }
+    ],
+    "slides": [
+      {
+        "title": "Why DNA moves in an electric field",
+        "html": "<p>DNA has an overall negative charge because of its phosphate backbone. When an electric field is applied, DNA moves away from the negative electrode towards the positive electrode. Samples are therefore loaded into wells near the negative end of a typical DNA gel. Charge explains direction; the gel helps separate fragments.</p>"
+      },
+      {
+        "title": "The gel acts as a sieve",
+        "html": "<p>Agarose forms a porous network that impedes movement. Under comparable conditions, shorter linear DNA fragments generally travel farther than longer fragments during the same run. This school-level rule assumes an appropriate size range and comparable DNA form. Uncut plasmid shape and other conditions can complicate a simple length-only interpretation.</p>"
+      },
+      {
+        "title": "From sample to visible pattern",
+        "html": "<p>DNA samples are placed in separate wells or lanes. The field is applied for a controlled time, then a suitable stain or detection system reveals fragment positions. A band represents many molecules with similar migration, not a single visible molecule. Unstained DNA cannot usually be interpreted simply by looking at the gel.</p>"
+      },
+      {
+        "title": "Reading a ladder",
+        "html": "<p>Reference fragments of known lengths form a ladder in one lane. Compare sample migration with this reference to estimate fragment sizes. The farthest band is not the largest: for comparable linear fragments it is shorter. Measurements from different gels or run conditions should not be treated as directly interchangeable.</p>",
+        "diagram": {
+          "type": "gel",
+          "lanes": [
+            {
+              "label": "Reference",
+              "bands": [
+                20,
+                45,
+                75
+              ]
+            },
+            {
+              "label": "Sample A",
+              "bands": [
+                20,
+                75
+              ]
+            },
+            {
+              "label": "Sample B",
+              "bands": [
+                45
+              ]
+            }
+          ],
+          "caption": "Wells are at the top near the negative electrode; DNA migrates down towards the positive end. Numbers are relative migration positions, not base-pair lengths. Lower bands represent shorter comparable linear fragments."
+        }
+      },
+      {
+        "title": "Restriction fragments provide a pattern",
+        "html": "<p>A restriction enzyme cuts at particular recognition sequences, producing fragments whose lengths depend on the locations of those sites. A sequence variant can create or remove a site and change the band pattern. Electrophoresis separates the resulting fragments; it does not make the cuts or amplify their quantity.</p>",
+        "diagram": {
+          "type": "flow",
+          "nodes": [
+            "DNA sample",
+            "Restriction digestion",
+            "Fragments loaded",
+            "Electrical separation",
+            "Band pattern compared"
+          ],
+          "caption": "Restriction-fragment analysis combines different techniques. Each stage contributes a different type of information."
+        }
+      },
+      {
+        "title": "Interpreting two allele patterns",
+        "html": "<p>In a simplified assay, one allele might produce one diagnostic fragment while another produces a different fragment. An individual with both validated patterns may be heterozygous. This inference requires that the fragments, controls and expected allele patterns are known. A diagram of arbitrary bands alone does not establish a clinical genotype.</p>"
+      },
+      {
+        "title": "Same position is not identical sequence",
+        "html": "<p>Two bands at the same gel position have similar migration and may represent fragments of similar length. Different base sequences can nevertheless have the same length. Thus a gel match supports a restricted comparison, not proof that whole genomes or individuals are identical. Sequencing can supply additional information.</p>"
+      },
+      {
+        "title": "Controls and cautious conclusions",
+        "html": "<p>A ladder checks approximate fragment sizes; known samples check expected patterns; appropriate negative controls help expose contamination. Smears, faint bands or unexpected products can reflect degraded material or technical issues. Report only what the observed pattern supports and identify missing information rather than forcing a confident conclusion from an unclear gel.</p>"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq",
+        "prompt": "Where does negatively charged DNA migrate in a standard electrophoresis setup?",
+        "options": [
+          "Towards the negative electrode",
+          "Towards the positive electrode",
+          "Only upwards against the field",
+          "It remains stationary because the gel is solid"
+        ],
+        "answer": 1,
+        "feedback": [
+          "DNA is repelled by the negative end in the usual setup.",
+          "Correct. Its phosphate backbone gives an overall negative charge, so it migrates towards the positive electrode.",
+          "Up or down depends on the drawing; electrical polarity determines direction.",
+          "The gel is porous and DNA can move through it."
+        ],
+        "explanation": "Correct. Its phosphate backbone gives an overall negative charge, so it migrates towards the positive electrode.",
+        "id": "hb-u4-23-q1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Two comparable linear fragments are run together. Fragment A travels farther from the wells than B. Which conclusion is supported?",
+        "options": [
+          "A has more chromosomes",
+          "A must have more adenine",
+          "A is generally shorter than B",
+          "A is a newly formed species"
+        ],
+        "answer": 2,
+        "feedback": [
+          "A fragment’s migration does not reveal chromosome number.",
+          "Base composition cannot be determined from distance alone.",
+          "Correct. Smaller linear fragments generally migrate farther under the same suitable gel conditions.",
+          "Band distance does not identify speciation."
+        ],
+        "explanation": "Correct. Smaller linear fragments generally migrate farther under the same suitable gel conditions.",
+        "id": "hb-u4-23-q2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "What is the main purpose of a DNA ladder?",
+        "options": [
+          "Provide size references for sample bands",
+          "Cut the DNA at recognition sites",
+          "Copy every sample fragment",
+          "Make all DNA fragments the same length"
+        ],
+        "answer": 0,
+        "feedback": [
+          "Correct. Known reference fragment lengths help estimate sample fragment sizes.",
+          "Restriction enzymes cut DNA; the ladder is a reference mixture.",
+          "Amplification is a separate process such as PCR.",
+          "The ladder contains multiple lengths rather than equalising samples."
+        ],
+        "explanation": "Correct. Known reference fragment lengths help estimate sample fragment sizes.",
+        "id": "hb-u4-23-q3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Two samples each have a band at the same migration distance. What can be said from this alone?",
+        "options": [
+          "Their entire genomes are identical",
+          "They must belong to the same person",
+          "Their sequences are complementary at every position",
+          "The detected fragments have similar migration, often indicating similar length"
+        ],
+        "answer": 3,
+        "feedback": [
+          "Whole-genome identity cannot be inferred from one band.",
+          "Many different individuals may share a fragment length.",
+          "Equal migration is not a test of base-by-base complementarity.",
+          "Correct. Similar fragment lengths can still contain different DNA sequences."
+        ],
+        "explanation": "Correct. Similar fragment lengths can still contain different DNA sequences.",
+        "id": "hb-u4-23-q4"
+      },
+      {
+        "type": "written",
+        "prompt": "Explain how a change in a restriction site can alter a gel pattern, naming the separate roles of restriction enzyme and electrophoresis.",
+        "model": "A restriction enzyme cuts DNA at particular recognition sequences. If a sequence change creates or removes such a site, the positions of cuts can change, producing a different combination of fragment lengths. Gel electrophoresis then separates these fragments by migration through a porous medium. The enzyme produces fragments; the gel reveals a pattern that can be compared with validated reference samples.",
+        "criteria": [
+          "Connect sequence change to a changed restriction cut site.",
+          "Explain the resulting fragment-length change.",
+          "Separate cutting from electrical separation."
+        ],
+        "id": "hb-u4-23-q5"
+      },
+      {
+        "type": "written",
+        "prompt": "A student claims that matching one gel band proves two DNA samples are identical. Evaluate this claim.",
+        "model": "The claim is too strong. A matching migration position suggests fragments of similar length under that run’s conditions, but different base sequences can have the same length. One band also samples only a small amount of genetic information. A stronger comparison would use validated additional markers or sequence data, with controls and an account of uncertainty rather than claiming complete identity.",
+        "criteria": [
+          "State what a matching band actually supports.",
+          "Explain why equal length does not imply equal sequence.",
+          "Identify a way to strengthen the evidence."
+        ],
+        "id": "hb-u4-23-q6"
+      }
+    ],
+    "summary": [
+      "DNA moves towards the positive electrode.",
+      "Shorter comparable linear fragments generally migrate farther.",
+      "Ladders and controls support interpretation.",
+      "Matching band position does not prove identical sequence or genomes."
+    ],
+    "sourceNotes": [
+      "Scope adapted from Surfing WACE Human Biology Unit 4, Chapter 23; all explanations, examples and questions newly authored."
+    ]
+  },
+  {
+    "id": "hb-u4-24",
+    "chapter": 24,
+    "title": "Developmental Biology",
+    "sourcePages": [
+      29
+    ],
+    "objectives": [
+      "Distinguish growth, differentiation and morphogenesis.",
+      "Explain how shared developmental mechanisms support common ancestry.",
+      "Evaluate developmental evidence alongside molecular data."
+    ],
+    "glossary": [
+      {
+        "term": "Differentiation",
+        "definition": "The development of specialised cell structures and functions."
+      },
+      {
+        "term": "Morphogenesis",
+        "definition": "Processes that establish body shape and spatial organisation."
+      },
+      {
+        "term": "Comparative embryology",
+        "definition": "Comparison of embryonic development across different organisms."
+      }
+    ],
+    "slides": [
+      {
+        "title": "Development links genes and body organisation",
+        "html": "<p>Developmental biology studies how an organism changes from an early stage into an organised multicellular body. Growth changes cell number or size; differentiation produces specialised cells; morphogenesis establishes shape and arrangement. These processes interact. An embryo does not become a miniature adult merely by enlarging every cell at the same rate.</p>"
+      },
+      {
+        "title": "Different cells use different genes",
+        "html": "<p>Many differentiated cells contain broadly the same genome but express different subsets of genes. Regulatory signals influence which RNA and proteins they produce. These differences can lead cells to develop distinct structures and functions. A cell’s identity is therefore not usually explained by discarding every gene unrelated to its final role.</p>",
+        "diagram": {
+          "type": "flow",
+          "nodes": [
+            "Shared genome",
+            "Different regulatory signals",
+            "Different gene expression",
+            "Different proteins",
+            "Specialised cells"
+          ],
+          "caption": "A simplified differentiation pathway. It represents regulated gene use, not a claim that all cell types have identical chromosomes or never undergo specialised DNA changes."
+        }
+      },
+      {
+        "title": "Cleavage increases cell number",
+        "html": "<p>Following fertilisation, early mitotic divisions partition the developing embryo into smaller cells. In the usual early-cleavage description, cell number increases without a matching increase in total embryo volume. The details and geometry vary between groups. A comparison must identify equivalent developmental stages rather than treating all embryos as identical photographs.</p>"
+      },
+      {
+        "title": "Gastrulation establishes layers",
+        "html": "<p>During gastrulation, coordinated cell movements establish major tissue layers and reorganise the embryo’s body plan. This provides a foundation for later tissues and organs. The term describes developmental rearrangement, not the evolution of a new species within one embryo. Different animal groups achieve their organisation through partly different developmental patterns.</p>"
+      },
+      {
+        "title": "Organ formation follows regulated interactions",
+        "html": "<p>During organogenesis, cells proliferate, move, differentiate and interact to form organs. A structure’s final form depends on when and where developmental genes act as well as their protein sequences. Altering the timing, location or amount of gene expression can change anatomy without requiring every developmental gene to be entirely new.</p>"
+      },
+      {
+        "title": "Development as evolutionary evidence",
+        "html": "<p>Related groups may share early structures or regulatory mechanisms inherited from common ancestors. For example, homologous limb structures can develop using related regulatory pathways despite their different adult functions. Such similarities support shared ancestry when interpreted with their detailed organisation and other evidence, not simply with a vague resemblance.</p>",
+        "diagram": {
+          "type": "anatomy",
+          "view": "hand",
+          "labels": [
+            "Repeated digit arrangement",
+            "Shared underlying limb pattern",
+            "Different adult functions possible"
+          ],
+          "caption": "A generic teaching hand illustrates a shared structural plan. It is not an embryo reconstruction or evidence that every species develops an identical hand."
+        }
+      },
+      {
+        "title": "Comparison requires care",
+        "html": "<p>Embryos of different vertebrates are not identical, and embryonic development does not replay a complete series of adult evolutionary ancestors. Differences can appear early as well as late. Compare homologous structures, developmental timing and molecular regulation explicitly. These features provide testable evidence rather than a simple slogan about embryos looking alike.</p>"
+      },
+      {
+        "title": "Combine independent evidence",
+        "html": "<p>Developmental observations can be compared with DNA sequences, protein data, anatomy and fossils. Agreement between independent lines strengthens a relationship hypothesis. Disagreement may reveal an incorrect comparison, altered developmental timing or a more complex history. Molecular systematics can investigate these possibilities, but one gene’s history need not always match an organism’s whole evolutionary history.</p>"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq",
+        "prompt": "Which process most directly describes cells becoming specialised in structure and function?",
+        "options": [
+          "Gastric digestion",
+          "DNA amplification",
+          "Differentiation",
+          "Random fertilisation"
+        ],
+        "answer": 2,
+        "feedback": [
+          "Digestion breaks down food and is not the developmental process named here.",
+          "Amplification increases the quantity of a DNA target.",
+          "Correct. Differentiation establishes specialised cell structures and activities.",
+          "Random fertilisation combines gametes rather than specialising body cells."
+        ],
+        "explanation": "Correct. Differentiation establishes specialised cell structures and activities.",
+        "id": "hb-u4-24-q1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "How can two cell types with broadly the same genome produce different proteins?",
+        "options": [
+          "They express different subsets of genes",
+          "Each removes every unused chromosome",
+          "Only one type contains DNA",
+          "Their genetic code must be different"
+        ],
+        "answer": 0,
+        "feedback": [
+          "Correct. Regulation changes which genes are transcribed and translated.",
+          "Differentiation usually does not require wholesale removal of unused chromosomes.",
+          "Both ordinary nucleated cell types contain DNA.",
+          "Different gene expression does not require a different genetic code."
+        ],
+        "explanation": "Correct. Regulation changes which genes are transcribed and translated.",
+        "id": "hb-u4-24-q2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "What is a careful use of comparative embryology?",
+        "options": [
+          "Claim all vertebrate embryos are identical",
+          "Treat development as a replay of adult ancestors",
+          "Use one drawing to prove a complete evolutionary tree",
+          "Compare homologous developmental structures and mechanisms across groups"
+        ],
+        "answer": 3,
+        "feedback": [
+          "Embryos differ, including at early stages.",
+          "Embryos do not pass through a sequence of adult ancestral species.",
+          "One drawing is insufficient for such a broad conclusion.",
+          "Correct. Detailed homologous patterns can support ancestry alongside independent evidence."
+        ],
+        "explanation": "Correct. Detailed homologous patterns can support ancestry alongside independent evidence.",
+        "id": "hb-u4-24-q3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Morphogenesis refers primarily to which aspect of development?",
+        "options": [
+          "The decay of a radioactive isotope",
+          "Establishment of body shape and organisation",
+          "The separation of DNA fragments in a gel",
+          "Replacement of every gene by a new allele"
+        ],
+        "answer": 1,
+        "feedback": [
+          "Isotope decay is unrelated to the developmental term.",
+          "Correct. Morphogenesis concerns how tissues and body structures are arranged.",
+          "Gel separation is a laboratory technique.",
+          "Morphogenesis is not wholesale genetic replacement."
+        ],
+        "explanation": "Correct. Morphogenesis concerns how tissues and body structures are arranged.",
+        "id": "hb-u4-24-q4"
+      },
+      {
+        "type": "written",
+        "prompt": "Explain how related organisms can develop limbs with different adult functions while retaining evidence of a shared developmental history.",
+        "model": "Related organisms can inherit homologous developmental genes and an underlying structural plan from a common ancestor. Changes in regulation, growth and timing can modify that plan for different adult functions. The comparison therefore looks for shared positional relationships and regulatory mechanisms as well as differences. Similarities support ancestry when considered with molecular and anatomical evidence, rather than proving that the adult structures are identical.",
+        "criteria": [
+          "Identify inheritance from a common ancestor.",
+          "Explain modification through regulation, growth or timing.",
+          "Distinguish homology from identical adult function."
+        ],
+        "id": "hb-u4-24-q5"
+      },
+      {
+        "type": "written",
+        "prompt": "Evaluate the statement: “Similar embryos prove that development repeats the adult stages of evolution.”",
+        "model": "Similarities in homologous embryonic structures or developmental mechanisms can support common ancestry. They do not show that an embryo becomes a series of adult ancestral organisms. Embryos also differ between species and stages. Reliable comparisons must identify equivalent stages and mechanisms, and should be assessed with other evidence such as DNA, anatomy and fossils rather than using a single resemblance as complete proof.",
+        "criteria": [
+          "Explain what developmental similarity can support.",
+          "Reject literal replay of adult ancestors.",
+          "State a need for careful comparison or independent evidence."
+        ],
+        "id": "hb-u4-24-q6"
+      }
+    ],
+    "summary": [
+      "Growth, differentiation and morphogenesis describe different interacting processes.",
+      "Developmental regulation changes how shared genomes are used.",
+      "Homologous developmental patterns support common ancestry.",
+      "Embryos are neither identical nor literal replays of adult ancestors."
+    ],
+    "sourceNotes": [
+      "Scope adapted from Surfing WACE Human Biology Unit 4, Chapter 24; all explanations, examples and questions newly authored.",
+      "Corrected the source’s overgeneralisation that all animals necessarily pass through identical developmental stages; distinguished homology from literal recapitulation."
+    ]
+  },
+  {
+    "id": "hb-u4-25",
+    "chapter": 25,
+    "title": "Comparative Genomics",
+    "sourcePages": [
+      30
+    ],
+    "objectives": [
+      "Explain what genome comparisons can reveal.",
+      "Describe DNA hybridisation and the role of a labelled probe.",
+      "Evaluate sequence and hybridisation evidence for relatedness."
+    ],
+    "glossary": [
+      {
+        "term": "Comparative genomics",
+        "definition": "Comparison of genome sequences and organisation to investigate function and evolutionary history."
+      },
+      {
+        "term": "Hybrid DNA",
+        "definition": "A double-stranded molecule formed by complementary strands from different sources."
+      },
+      {
+        "term": "Probe",
+        "definition": "A labelled nucleic-acid sequence used to detect a complementary target."
+      }
+    ],
+    "slides": [
+      {
+        "title": "Comparing genomes rather than one visible trait",
+        "html": "<p>A genome includes an organism’s genetic material, including coding and non-coding regions. Comparative genomics examines similarities and differences in sequence, gene content and organisation between genomes. It can help identify conserved functions and investigate shared ancestry. A chromosome count alone is not a complete comparison of genetic information.</p>"
+      },
+      {
+        "title": "Homologous regions must be compared",
+        "html": "<p>A useful sequence comparison identifies corresponding regions and aligns equivalent positions. Comparing unrelated fragments because they happen to be the same length would not answer the same evolutionary question. Analyses also need to distinguish genes separated by speciation from related copies produced by gene duplication; otherwise the inferred relationship may be misleading.</p>"
+      },
+      {
+        "title": "Complementary pairing enables hybridisation",
+        "html": "<p>DNA strands can pair when their bases are sufficiently complementary. If strands from different sources pair, they form a hybrid molecule. Heating can separate strands; cooling under appropriate conditions allows pairing. Hybridisation is a molecular interaction, not the sexual production of a hybrid organism.</p>",
+        "diagram": {
+          "type": "dna",
+          "before": "ATGGAACCTTGC",
+          "after": "TACCTTGGAACG",
+          "caption": "A perfectly complementary model pair, upper 3′ → 5′ and lower 5′ → 3′. Real comparisons may contain mismatches; pairing depends on experimental conditions."
+        }
+      },
+      {
+        "title": "Mismatch affects duplex stability",
+        "html": "<p>Under controlled conditions, a well-matched DNA duplex is generally more stable than a comparable mismatched duplex. Hybridisation or melting behaviour can therefore provide evidence of sequence similarity. Temperature alone is not a pure relatedness measure: fragment length, base composition and solution conditions must also be considered in a fair comparison.</p>"
+      },
+      {
+        "title": "A labelled probe detects a target",
+        "html": "<p>A probe has a sequence chosen to pair with a target and a label that makes binding detectable. It can reveal whether a complementary region is present under the assay conditions. A primer and probe are not interchangeable terms: a primer supplies an extension start, while a probe’s primary purpose is detection.</p>",
+        "diagram": {
+          "type": "flow",
+          "nodes": [
+            "Separate target strands",
+            "Add labelled probe",
+            "Complementary binding",
+            "Wash under controlled conditions",
+            "Detect retained label"
+          ],
+          "caption": "A simplified probe assay. Detection supports target complementarity; controls are needed to assess unwanted binding and failed detection."
+        }
+      },
+      {
+        "title": "Sequencing provides direct comparison",
+        "html": "<p>DNA sequencing supplies the order of bases in sampled regions. Computational alignment then makes particular matches, substitutions and possible insertions or deletions examinable. Whole-genome data provide many regions, but coverage and assembly quality still matter. More data are valuable only when sampling and analysis are appropriate to the biological question.</p>"
+      },
+      {
+        "title": "Shared sequence can suggest function",
+        "html": "<p>A sequence preserved across distantly related organisms may perform an important function maintained by selection. This can guide investigations of an unfamiliar gene. Conservation is evidence for a functional hypothesis, not a complete experimental demonstration of its role. Regulatory sequences and gene expression can be important even where protein sequences are similar.</p>"
+      },
+      {
+        "title": "Relatedness is an inference with limits",
+        "html": "<p>Genome-wide agreement can strengthen an ancestry hypothesis, while differences between regions can reveal duplication, recombination or other histories. Mitochondrial DNA represents one inherited genomic compartment, not the entire nuclear history. Report which regions were compared and avoid presenting one similarity percentage as a universal measurement independent of method.</p>"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq",
+        "prompt": "What makes a labelled probe useful in a DNA assay?",
+        "options": [
+          "It always cuts both DNA strands",
+          "It translates mRNA into protein",
+          "It pairs with a complementary target and provides a detectable signal",
+          "It replaces every nucleotide in the sample"
+        ],
+        "answer": 2,
+        "feedback": [
+          "Restriction enzymes, not probes, perform sequence-specific cutting.",
+          "Translation is a ribosome-mediated cellular process.",
+          "Correct. Complementary binding provides specificity, and the label makes it detectable.",
+          "A probe does not replace all sample DNA."
+        ],
+        "explanation": "Correct. Complementary binding provides specificity, and the label makes it detectable.",
+        "id": "hb-u4-25-q1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Why must conditions be controlled when comparing DNA melting behaviour?",
+        "options": [
+          "Temperature is never measurable",
+          "Fragment length, base composition and solution conditions also affect stability",
+          "Every species has the same DNA sequence",
+          "Melting converts DNA directly into protein"
+        ],
+        "answer": 1,
+        "feedback": [
+          "Temperature can be measured, but interpretation needs controls.",
+          "Correct. These factors can influence duplex stability independently of evolutionary distance.",
+          "Species can differ in sequence even with shared ancestry.",
+          "Melting separates strands; it does not translate them."
+        ],
+        "explanation": "Correct. These factors can influence duplex stability independently of evolutionary distance.",
+        "id": "hb-u4-25-q2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which comparison is most appropriate for investigating a shared gene’s sequence history?",
+        "options": [
+          "Unrelated fragments chosen for equal length",
+          "Any two proteins with similar colours",
+          "Total body mass alone",
+          "Aligned corresponding DNA regions from the organisms"
+        ],
+        "answer": 3,
+        "feedback": [
+          "Equal length does not establish that regions are homologous.",
+          "Colour is not a molecular sequence comparison.",
+          "Body mass does not provide the required base-by-base evidence.",
+          "Correct. Homologous aligned regions allow equivalent positions to be compared."
+        ],
+        "explanation": "Correct. Homologous aligned regions allow equivalent positions to be compared.",
+        "id": "hb-u4-25-q3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "A highly conserved sequence is found in several groups. What is a cautious conclusion?",
+        "options": [
+          "It may have an important inherited function worth investigating",
+          "Its function has been proven without further tests",
+          "The groups must be the same species",
+          "Every part of their genomes must be identical"
+        ],
+        "answer": 0,
+        "feedback": [
+          "Correct. Conservation can support a functional hypothesis and shared history without completing every inference.",
+          "Conservation suggests function but does not alone establish its full role.",
+          "Different species can share conserved sequences.",
+          "One conserved region does not imply identical genomes."
+        ],
+        "explanation": "Correct. Conservation can support a functional hypothesis and shared history without completing every inference.",
+        "id": "hb-u4-25-q4"
+      },
+      {
+        "type": "written",
+        "prompt": "Explain how DNA hybridisation can compare sequences from two sources and give two factors that limit a simple temperature-based conclusion.",
+        "model": "Strands from different sources can form hybrid duplexes where their bases are sufficiently complementary. Under controlled conditions, more extensive matching generally produces a more stable duplex. However, stability also depends on fragment length, base composition and solution conditions. A valid comparison controls these factors and uses references, rather than assuming that a higher melting temperature always means a proportionately closer species relationship.",
+        "criteria": [
+          "Explain complementary pairing between sources.",
+          "Link matching to stability under controlled conditions.",
+          "Identify at least two relevant confounding factors."
+        ],
+        "id": "hb-u4-25-q5"
+      },
+      {
+        "type": "written",
+        "prompt": "A report uses mitochondrial DNA to claim it has recovered the complete evolutionary history of two populations. Evaluate the claim.",
+        "model": "Mitochondrial DNA provides evidence from a particular inherited genomic compartment and can be informative about that lineage. It does not represent every nuclear gene or all inheritance pathways. A complete historical claim therefore exceeds the evidence. Comparisons across additional nuclear regions, with suitable sampling and analysis, can test whether other parts of the genome support the same history or reveal a more complex pattern.",
+        "criteria": [
+          "Identify mitochondrial DNA as one genomic compartment.",
+          "Explain why its history is not the entire nuclear history.",
+          "Propose additional appropriately sampled genetic evidence."
+        ],
+        "id": "hb-u4-25-q6"
+      }
+    ],
+    "summary": [
+      "Genomic comparisons require corresponding regions and appropriate alignment.",
+      "Hybridisation depends on complementary pairing.",
+      "Probes detect targets; primers initiate extension.",
+      "Sequence similarity supports inferences whose scope and limitations must be stated."
+    ],
+    "sourceNotes": [
+      "Scope adapted from Surfing WACE Human Biology Unit 4, Chapter 25; all explanations, examples and questions newly authored.",
+      "Genome scope and comparative-genomics functions checked against NHGRI.",
+      "https://www.genome.gov/about-genomics/fact-sheets/Comparative-Genomics-Fact-Sheet"
+    ]
+  },
+  {
+    "id": "hb-u4-26",
+    "chapter": 26,
+    "title": "Molecular Homology",
+    "sourcePages": [
+      31
+    ],
+    "objectives": [
+      "Explain molecular homology as evidence of common ancestry.",
+      "Compare DNA, protein and historical immunological evidence.",
+      "Identify limits of conserved markers and similarity measures."
+    ],
+    "glossary": [
+      {
+        "term": "Molecular homology",
+        "definition": "Similarity of molecular features attributable to shared ancestry."
+      },
+      {
+        "term": "Sequence alignment",
+        "definition": "Arrangement of sequences so that corresponding positions can be compared."
+      },
+      {
+        "term": "Conserved sequence",
+        "definition": "A sequence that has changed relatively little over the evolutionary comparison being made."
+      }
+    ],
+    "slides": [
+      {
+        "title": "Homology is a historical relationship",
+        "html": "<p>Molecules can retain features inherited from an ancestral gene. Molecular homology refers to this shared ancestry, not simply to two substances looking alike or having the same function. Similarity provides evidence from which homology can be inferred. The claim should be supported by an appropriate comparison and wider biological context.</p>"
+      },
+      {
+        "title": "Compare corresponding positions",
+        "html": "<p>DNA or protein sequences must be aligned before differences are counted. Equivalent positions may require gaps representing candidate insertions or deletions. A simple count is meaningful only when the compared regions correspond. Poor alignment can create apparent differences or similarities that do not reflect the history being investigated.</p>",
+        "diagram": {
+          "type": "dna",
+          "before": "ATGGAACCTTGC",
+          "after": "ATGGTACCTTGC",
+          "caption": "Two hypothetical aligned coding-DNA excerpts, both 5′ → 3′. A difference at one position illustrates sequence comparison; this short example cannot establish a species tree."
+        }
+      },
+      {
+        "title": "DNA and protein retain different information",
+        "html": "<p>A substitution in coding DNA may change an amino acid, leave it unchanged or produce a stop signal. Because multiple codons can specify the same amino acid, two identical protein sequences need not have identical coding DNA sequences. Direct sequence comparisons must state whether nucleotide or amino-acid differences are being counted.</p>"
+      },
+      {
+        "title": "A nearly shared genetic code",
+        "html": "<p>Most organisms use the same basic codon assignments, with some known exceptions such as certain mitochondrial codes. This broad similarity supports shared evolutionary history. It should not be described as literally exception-free universality, nor does use of the same genetic code imply that all organisms possess the same genes or genome size.</p>"
+      },
+      {
+        "title": "Proteins can be useful markers",
+        "html": "<p>Proteins involved in important shared functions, such as cytochrome c or globins, allow comparisons across suitable groups. Functional constraint can preserve some positions. However, a very conserved marker may show too few differences to resolve recent divergences. Identical sampled markers do not by themselves establish that two organisms belong to the same species.</p>"
+      },
+      {
+        "title": "Interpreting a difference table",
+        "html": "<p>In a hypothetical aligned marker, taxa A and B differ at two positions, while each differs from C at many more. This can support A and B sharing a more recent common ancestor, provided the marker and model are appropriate. Counts should be considered together rather than treating visual left-to-right order as relatedness.</p>",
+        "diagram": {
+          "type": "tree",
+          "outgroup": "Taxon C",
+          "sisters": [
+            "Taxon A",
+            "Taxon B"
+          ],
+          "caption": "Illustrative relationship supported by a hypothetical marker comparison. A and B are sister groups; branch lengths do not represent measured dates or a ranking of progress."
+        }
+      },
+      {
+        "title": "Historical immunological comparisons",
+        "html": "<p>Antibodies raised against a protein from one species can react with sufficiently similar protein features from another. Comparative reactions historically supplied indirect molecular evidence. Reaction strength depends on assay design, concentration and antigenic features; it is not a simple universal percentage of genomic similarity or an exact evolutionary clock.</p>"
+      },
+      {
+        "title": "Use multiple independent comparisons",
+        "html": "<p>A strong inference compares suitable markers and tests whether their signals agree with anatomy, development and other molecular regions. Protein conservation, unequal substitution rates and sampling can limit one marker. Conflicting evidence should trigger closer examination rather than an automatic conclusion that every other source of evidence is false.</p>"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq",
+        "prompt": "Two species have identical amino-acid sequences for one protein. What follows?",
+        "options": [
+          "Their entire genomes are identical",
+          "They must be the same species",
+          "Their coding DNA is necessarily identical at every base",
+          "The sampled protein does not distinguish them, but their DNA may still differ"
+        ],
+        "answer": 3,
+        "feedback": [
+          "One protein samples only a small part of genomic information.",
+          "Different species can share an unchanged marker.",
+          "Different codons can specify the same amino acid.",
+          "Correct. Protein identity can hide synonymous DNA differences and other genomic variation."
+        ],
+        "explanation": "Correct. Protein identity can hide synonymous DNA differences and other genomic variation.",
+        "id": "hb-u4-26-q1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Why align sequences before counting differences?",
+        "options": [
+          "To compare corresponding positions",
+          "To ensure all species have identical genomes",
+          "To turn every insertion into a substitution",
+          "To make a protein longer than its gene"
+        ],
+        "answer": 0,
+        "feedback": [
+          "Correct. Alignment attempts to compare homologous positions rather than arbitrarily shifted letters.",
+          "Alignment does not change the genomes being studied.",
+          "Insertions and deletions remain distinct possible events.",
+          "Alignment is an analytical arrangement, not protein synthesis."
+        ],
+        "explanation": "Correct. Alignment attempts to compare homologous positions rather than arbitrarily shifted letters.",
+        "id": "hb-u4-26-q2"
+      },
+      {
+        "type": "numeric",
+        "prompt": "Two hypothetical aligned DNA segments are each 100 bases long and differ at 7 positions. What percentage of aligned positions differs?",
+        "answer": 7,
+        "tolerance": 0.05,
+        "unit": "%",
+        "hint": "Divide the differing positions by total aligned positions, then multiply by 100.",
+        "explanation": "7/100 × 100 = 7%. This is an observed difference percentage for this alignment, not a whole-genome or time estimate.",
+        "id": "hb-u4-26-q3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement about the genetic code is most accurate?",
+        "options": [
+          "Each species has entirely unrelated codon meanings",
+          "The basic code is widely shared, with some known exceptions",
+          "Shared codon meanings require identical body structure",
+          "The code is made of twenty DNA bases"
+        ],
+        "answer": 1,
+        "feedback": [
+          "The broad sharing of codon assignments is a major molecular commonality.",
+          "Correct. The standard code is widespread, but exceptions prevent an absolute claim.",
+          "Different gene sequences and regulation produce different bodies despite shared codon meanings.",
+          "DNA normally uses four base types; codons specify amino acids or stop signals."
+        ],
+        "explanation": "Correct. The standard code is widespread, but exceptions prevent an absolute claim.",
+        "id": "hb-u4-26-q4"
+      },
+      {
+        "type": "written",
+        "prompt": "Explain why a conserved protein can be useful for comparing distant groups but poor at resolving a recent split.",
+        "model": "A conserved protein can retain recognisable homologous positions across distant groups, allowing meaningful alignment and comparison. Yet its slow change means that recently separated groups may have accumulated no detectable differences in that marker. It then offers little resolution for their branching order. Additional, appropriately faster-changing regions and independent evidence can help distinguish recent relationships without rejecting the protein’s value at other scales.",
+        "criteria": [
+          "Link conservation to recognisable homology over long comparisons.",
+          "Explain insufficient variation over short times.",
+          "Propose a suitable additional evidence source."
+        ],
+        "id": "hb-u4-26-q5"
+      },
+      {
+        "type": "written",
+        "prompt": "Evaluate a claim that an antibody reaction of 80% means two species share exactly 80% of their genomes.",
+        "model": "An antibody assay measures an immune reaction to particular antigenic features under specified experimental conditions. It does not directly sequence all DNA. Reaction strength can be influenced by protein concentration, antibody properties and assay conditions. The result may provide indirect comparative evidence, but converting it into an exact genome-wide similarity percentage is not justified without a validated relationship and additional molecular data.",
+        "criteria": [
+          "State what the assay actually measures.",
+          "Explain why it is not a whole-genome sequence comparison.",
+          "Identify an experimental limitation or need for validation."
+        ],
+        "id": "hb-u4-26-q6"
+      }
+    ],
+    "summary": [
+      "Molecular similarity can support shared ancestry when comparisons are appropriate.",
+      "DNA and amino-acid comparisons retain different levels of information.",
+      "The genetic code is widely shared but not absolutely exception-free.",
+      "Marker choice and experimental conditions limit relationship inferences."
+    ],
+    "sourceNotes": [
+      "Scope adapted from Surfing WACE Human Biology Unit 4, Chapter 26; all explanations, examples and questions newly authored.",
+      "Avoided the source’s conflation of amino-acid and nucleotide identity for cytochrome c, and qualified claims of universal genetic-code identity."
+    ]
+  },
+  {
+    "id": "hb-u4-27",
+    "chapter": 27,
+    "title": "Ancestral Gene Homologues",
+    "sourcePages": [
+      32
+    ],
+    "objectives": [
+      "Distinguish homologous, orthologous and paralogous genes.",
+      "Explain how conserved genes and alignments support phylogenetic analysis.",
+      "Evaluate marker choice and long-branch attraction."
+    ],
+    "glossary": [
+      {
+        "term": "Homologous genes",
+        "definition": "Genes related by descent from an ancestral gene."
+      },
+      {
+        "term": "Orthologues",
+        "definition": "Homologous genes whose divergence traces to a speciation event."
+      },
+      {
+        "term": "Paralogues",
+        "definition": "Homologous genes whose divergence traces to a gene-duplication event."
+      },
+      {
+        "term": "Homeobox",
+        "definition": "A conserved DNA sequence found in a family of developmental regulatory genes."
+      }
+    ],
+    "slides": [
+      {
+        "title": "Genes can have shared ancestry",
+        "html": "<p>Homologous genes are related because they descend from an ancestral gene. The term describes an evolutionary relationship, not a numerical similarity percentage. A gene can accumulate substitutions and still remain homologous to its ancestral relatives. Sequence similarity, gene organisation and other evidence are used to infer this relationship.</p>"
+      },
+      {
+        "title": "Speciation and duplication differ",
+        "html": "<p>When lineages separate into species, corresponding ancestral genes can diverge as orthologues. A duplication creates an additional gene copy, allowing paralogues to evolve within a lineage. These histories can overlap over time. Comparing different duplicated copies as though they were direct counterparts can mislead attempts to infer the species relationship.</p>",
+        "diagram": {
+          "type": "tree",
+          "outgroup": "Earlier gene lineage",
+          "sisters": [
+            "Gene copy A",
+            "Gene copy B"
+          ],
+          "caption": "A schematic gene tree illustrating a duplication. The split between A and B represents gene-copy history, not automatically a speciation event."
+        }
+      },
+      {
+        "title": "Developmental genes are examples, not synonyms",
+        "html": "<p>Some homologous genes regulate development. Homeobox-containing genes include important developmental regulators, and Hox genes form a particular subset involved in body-pattern organisation. However, homologous does not mean homeotic or Hox: many homologous genes have other functions. Precise vocabulary prevents one example from becoming an incorrect definition.</p>"
+      },
+      {
+        "title": "Conservation reflects constraints",
+        "html": "<p>A gene whose product performs an essential role may retain many sequence features because some changes reduce function and reproductive success. Conserved regions can remain recognisable across distant lineages. Conservation does not mean every base or amino acid is unchanged, and it does not establish that the gene evolves at one fixed rate everywhere.</p>"
+      },
+      {
+        "title": "Alignment establishes a comparison",
+        "html": "<p>Before sequences are analysed, their corresponding regions are aligned. Gaps can represent hypothesised insertions or deletions. The aim is biologically plausible positional correspondence, not simply maximising visible matches at any cost. An uncertain alignment should be recognised because it can affect the inferred tree and the apparent number of changes.</p>",
+        "diagram": {
+          "type": "dna",
+          "before": "ATGGAACCTTGC",
+          "after": "ATGGAACCATGC",
+          "caption": "Hypothetical corresponding coding-DNA excerpts, both 5′ → 3′. Differences are meaningful only within an appropriate homologous alignment."
+        }
+      },
+      {
+        "title": "Match the marker to the question",
+        "html": "<p>Small-subunit ribosomal RNA genes and genes for conserved proteins can be useful molecular markers across suitable groups. A marker that varies slowly may distinguish deep groups but not close relatives. A rapidly changing region may help with recent splits yet become difficult to align or interpret across very long times.</p>"
+      },
+      {
+        "title": "Long-branch attraction can mislead",
+        "html": "<p>Rapidly evolving lineages may accumulate many changes, including independent similarities and repeated substitutions. Under some unsuitable analytical methods or models, these lineages can be grouped incorrectly. This is long-branch attraction. An apparently long branch therefore needs methodological evaluation rather than automatic interpretation as the oldest or most advanced group.</p>"
+      },
+      {
+        "title": "A gene tree is a hypothesis",
+        "html": "<p>Different genes can sometimes support different histories because of duplication, gene loss, horizontal transfer or other processes. Researchers compare multiple suitable regions and analytical approaches rather than demanding that every gene produce exactly the same tree. Supported conclusions identify the evidence and uncertainties and distinguish gene history from whole-species history.</p>"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq",
+        "prompt": "Which pair is most clearly paralogous?",
+        "options": [
+          "The same inherited gene in two recently separated species",
+          "Two gene copies descended from a duplication within a lineage",
+          "Any two genes that have equal length",
+          "Two unrelated genes with similar colours in a diagram"
+        ],
+        "answer": 1,
+        "feedback": [
+          "That example is more consistent with orthology when divergence follows speciation.",
+          "Correct. Paralogues trace their separation to gene duplication.",
+          "Equal length does not establish shared ancestry or a duplication history.",
+          "Diagram colour is not evidence of gene ancestry."
+        ],
+        "explanation": "Correct. Paralogues trace their separation to gene duplication.",
+        "id": "hb-u4-27-q1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement correctly relates homologous genes and Hox genes?",
+        "options": [
+          "All homologous genes are Hox genes",
+          "No Hox genes can be homologous",
+          "Hox genes are one developmental example within the much broader category of homologous genes",
+          "Homology means a gene has never mutated"
+        ],
+        "answer": 2,
+        "feedback": [
+          "Homology includes many non-developmental genes.",
+          "Hox genes can have shared ancestry across lineages.",
+          "Correct. A particular developmental gene family must not be used as a synonym for all homology.",
+          "Homologous genes can diverge by mutation."
+        ],
+        "explanation": "Correct. A particular developmental gene family must not be used as a synonym for all homology.",
+        "id": "hb-u4-27-q2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "A marker has no differences among three closely related species. What is the best conclusion?",
+        "options": [
+          "It proves there was no speciation",
+          "It establishes their complete branching order",
+          "It shows all other genes are identical",
+          "This marker has insufficient variation to resolve that recent relationship"
+        ],
+        "answer": 3,
+        "feedback": [
+          "Speciation may occur without detectable changes in this sampled marker.",
+          "An unchanged marker does not distinguish alternative branching orders.",
+          "Other genomic regions can vary independently.",
+          "Correct. Additional suitable markers may provide the needed resolution."
+        ],
+        "explanation": "Correct. Additional suitable markers may provide the needed resolution.",
+        "id": "hb-u4-27-q3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "What is long-branch attraction?",
+        "options": [
+          "An analytical error that can incorrectly group rapidly evolving lineages",
+          "A physical pulling together of chromosomes",
+          "The tendency of the largest animals to share one ancestor",
+          "Evidence that every gene has a constant mutation rate"
+        ],
+        "answer": 0,
+        "feedback": [
+          "Correct. Repeated and independent changes can mislead some methods or models.",
+          "The term concerns inferred evolutionary relationships, not physical chromosome motion.",
+          "Body size does not define the phenomenon.",
+          "Unequal rates are part of why analytical problems can arise."
+        ],
+        "explanation": "Correct. Repeated and independent changes can mislead some methods or models.",
+        "id": "hb-u4-27-q4"
+      },
+      {
+        "type": "written",
+        "prompt": "Explain why a gene tree need not exactly match a species tree.",
+        "model": "A gene has its own history. Duplication may create multiple related copies, and later loss can remove different copies in different lineages. Horizontal transfer can also move genes between lineages. Thus a comparison may reflect a gene-copy or transfer history rather than only species splitting. Multiple appropriately chosen genes and other evidence help researchers test the species-level interpretation.",
+        "criteria": [
+          "Identify at least two processes affecting gene history.",
+          "Distinguish gene-copy history from species divergence.",
+          "Explain why multiple evidence sources are useful."
+        ],
+        "id": "hb-u4-27-q5"
+      },
+      {
+        "type": "written",
+        "prompt": "Explain how you would choose a molecular marker for comparing recently separated species rather than very distantly related groups.",
+        "model": "For a recent split, the marker needs enough variation to distinguish the lineages, while still being a reliable homologous comparison. A very conserved marker may be identical and uninformative. For distant groups, excessive change can obscure homology and alignment, so recognisable conserved regions may be more useful. Marker choice should also consider gene copies, sampling quality and agreement with independent evidence.",
+        "criteria": [
+          "Link recent comparisons to sufficient variation.",
+          "Link distant comparisons to recognisable alignment.",
+          "Identify a further issue such as duplicated copies or sampling."
+        ],
+        "id": "hb-u4-27-q6"
+      }
+    ],
+    "summary": [
+      "Homology means common ancestry; orthology and paralogy describe different origins of divergence.",
+      "Hox and homeobox genes are examples, not definitions of all homologous genes.",
+      "Marker rate and alignment must suit the evolutionary question.",
+      "Gene trees require testing against other genes and species-level evidence."
+    ],
+    "sourceNotes": [
+      "Scope adapted from Surfing WACE Human Biology Unit 4, Chapter 27; all explanations, examples and questions newly authored.",
+      "Corrected source conflation of homologous, homeotic and homeobox terminology; avoided treating identical cytochrome-c proteins as proof of identical coding DNA.",
+      "https://www.ncbi.nlm.nih.gov/books/NBK26866/",
+      "https://pubmed.ncbi.nlm.nih.gov/16285863/"
+    ]
+  },
+  {
+    "id": "hb-u4-28",
+    "chapter": 28,
+    "title": "Molecular Clocks",
+    "sourcePages": [
+      33
+    ],
+    "objectives": [
+      "Explain how calibrated molecular change can estimate divergence times.",
+      "Calculate time in a clearly stated simplified rate model.",
+      "Evaluate rate variation, saturation and calibration uncertainty."
+    ],
+    "glossary": [
+      {
+        "term": "Molecular clock",
+        "definition": "A model that relates genetic change to elapsed evolutionary time."
+      },
+      {
+        "term": "Calibration",
+        "definition": "Use of independent evidence to constrain the relationship between change and time."
+      },
+      {
+        "term": "Substitution saturation",
+        "definition": "A condition in which repeated changes obscure some earlier substitutions at observed positions."
+      }
+    ],
+    "slides": [
+      {
+        "title": "A relationship between change and time",
+        "html": "<p>A molecular clock uses the accumulation of molecular differences to estimate the timing of evolutionary events. It is a statistical model, not a literal biological stopwatch. The method requires a suitable sequence comparison and assumptions about change rates. Greater observed difference can suggest greater elapsed time, but it does not supply a date by itself.</p>"
+      },
+      {
+        "title": "Calibration provides the time scale",
+        "html": "<p>Independent evidence such as appropriately interpreted fossils can constrain dates for nodes or lineages. These constraints help estimate a molecular change rate. The relevant fossil must be assigned to the correct group, and a fossil often supplies a minimum age rather than the exact time of the common ancestor. Calibration uncertainty affects the final estimate.</p>",
+        "diagram": {
+          "type": "timeline",
+          "events": [
+            {
+              "label": "Hypothetical calibration node",
+              "value": 10
+            },
+            {
+              "label": "More recent hypothetical split",
+              "value": 4
+            }
+          ],
+          "unit": "Ma",
+          "caption": "Illustrative times only, not dates for real taxa. Independent age constraints anchor the molecular model to a time scale."
+        }
+      },
+      {
+        "title": "Distinguish one lineage from two",
+        "html": "<p>Differences between two modern lineages can include changes accumulated along both branches since their common ancestor. In a simplified equal-rate model, pairwise divergence D = 2rt, where r is the per-lineage rate. If a question instead supplies an already combined pairwise rate, do not multiply it by two again.</p>"
+      },
+      {
+        "title": "Worked example: a pairwise rate",
+        "html": "<p>A hypothetical aligned marker differs by 6% between two lineages. Suppose the calibrated combined pairwise rate is 1.5 percentage points per million years. Then t = 6/1.5 = 4 million years. This calculation assumes the provided linear model applies; the observed percentage is not automatically a raw count of every historical substitution.</p>"
+      },
+      {
+        "title": "Rates are not universally constant",
+        "html": "<p>Different genes, genomic regions and lineages can evolve at different rates. Functional constraints, generation times and other factors can influence patterns. Modern analyses can allow rate variation rather than assuming one strict clock everywhere. Using a calibration from an unsuitable region or lineage can give an unjustified date.</p>"
+      },
+      {
+        "title": "Repeated changes hide history",
+        "html": "<p>A site might change from A to G and later back to A. Comparing only the final sequences would not reveal both events. At deeper divergences, repeated substitutions can therefore make observed differences underestimate historical change. This saturation problem means an uncorrected linear difference count can become misleading.</p>",
+        "diagram": {
+          "type": "dna",
+          "before": "ATGGAACCTTGC",
+          "after": "ATGGAACCTTGC",
+          "caption": "Identical endpoints do not establish no change: a hypothetical site could follow A → G → A between observations. The sequences shown are endpoints, not a complete mutation record."
+        }
+      },
+      {
+        "title": "Recent events can also be difficult",
+        "html": "<p>Very recent lineages may differ at few sites, making estimates sensitive to sampling and stochastic variation. Existing ancestral variation can persist across a split, so the time when gene copies share an ancestor need not exactly equal the population or species divergence time. More sequences do not remove the need for an appropriate model.</p>"
+      },
+      {
+        "title": "Report estimates with uncertainty",
+        "html": "<p>A good clock analysis states the markers, calibration assumptions, rate model and uncertainty interval. Conflicting estimates from different markers should be investigated rather than averaged without thought. Molecular dates are strengthened by agreement with independently interpreted fossils and other evidence, while uncertainty should remain visible in the conclusion.</p>"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq",
+        "prompt": "Why does a molecular clock need calibration?",
+        "options": [
+          "To convert every mutation into a harmful allele",
+          "To supply an independent relationship between molecular change and time",
+          "To make all genes evolve equally",
+          "To ensure no fossils are used"
+        ],
+        "answer": 1,
+        "feedback": [
+          "A clock is a dating model, not a classification of mutation effects.",
+          "Correct. Molecular differences alone do not provide a time unit.",
+          "Calibration does not force all genes to have one rate.",
+          "Fossils can be an important calibration source when appropriately assigned."
+        ],
+        "explanation": "Correct. Molecular differences alone do not provide a time unit.",
+        "id": "hb-u4-28-q1"
+      },
+      {
+        "type": "numeric",
+        "prompt": "A hypothetical marker has 8% pairwise divergence. The supplied combined pairwise rate is 2 percentage points per million years. Estimate divergence time.",
+        "answer": 4,
+        "tolerance": 0.05,
+        "unit": "million years",
+        "hint": "The rate already combines both lineages, so divide 8 by 2 without another factor of two.",
+        "explanation": "t = 8/2 = 4 million years in the stated simplified model.",
+        "id": "hb-u4-28-q2"
+      },
+      {
+        "type": "numeric",
+        "prompt": "In a simplified equal-rate model, each lineage changes at 0.5 percentage points per million years. Pairwise divergence is 6%. Estimate time since their common ancestor.",
+        "answer": 6,
+        "tolerance": 0.05,
+        "unit": "million years",
+        "hint": "Use D = 2rt because both lineages accumulate change: t = 6/(2 × 0.5).",
+        "explanation": "t = 6/(2 × 0.5) = 6 million years, assuming the stated linear equal-rate model.",
+        "id": "hb-u4-28-q3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "How can substitution saturation affect a simple comparison?",
+        "options": [
+          "It guarantees that all observed differences are harmful",
+          "It stops every mutation from occurring",
+          "Repeated changes can hide earlier events, so endpoint differences underestimate historical change",
+          "It makes fossils unnecessary for every dating question"
+        ],
+        "answer": 2,
+        "feedback": [
+          "Mutation effect and substitution saturation are separate issues.",
+          "Saturation concerns observing repeated change, not complete cessation of mutation.",
+          "Correct. Multiple substitutions at a site may leave fewer visible endpoint differences than historical events.",
+          "Calibration and independent evidence remain important."
+        ],
+        "explanation": "Correct. Multiple substitutions at a site may leave fewer visible endpoint differences than historical events.",
+        "id": "hb-u4-28-q4"
+      },
+      {
+        "type": "written",
+        "prompt": "A study reports an exact divergence date from a single short sequence and an assumed universal rate. Evaluate this conclusion.",
+        "model": "The conclusion is overconfident. A short marker may contain few informative changes, rates can differ between regions and lineages, and an assumed universal rate may be inappropriate. Reliable inference requires suitable calibration and consideration of uncertainty, including repeated changes or ancestral variation where relevant. Additional markers and independently interpreted fossil evidence can test the result, but the estimate should not be presented as an exact date.",
+        "criteria": [
+          "Identify limitations of marker length and rate assumptions.",
+          "Explain the need for calibration.",
+          "Require an uncertainty-aware conclusion."
+        ],
+        "id": "hb-u4-28-q5"
+      },
+      {
+        "type": "written",
+        "prompt": "Explain why identical bases at one aligned site do not prove that no substitution occurred since two lineages diverged.",
+        "model": "The present bases are endpoints of a history that is not directly observed. One lineage could change at a site and subsequently change back, or both lineages could independently arrive at the same base. The final match would then hide historical events. This is one reason raw endpoint differences can underestimate substitution history, particularly over long divergences, and why models and independent evidence matter.",
+        "criteria": [
+          "Distinguish observed endpoints from historical events.",
+          "Describe a back change or independent matching change.",
+          "Link hidden substitutions to dating limitations."
+        ],
+        "id": "hb-u4-28-q6"
+      }
+    ],
+    "summary": [
+      "Molecular differences require independent calibration to estimate time.",
+      "Per-lineage and combined pairwise rates must not be confused.",
+      "Rate variation and repeated substitutions limit simple linear clocks.",
+      "Dates should be reported as estimates with stated uncertainty."
+    ],
+    "sourceNotes": [
+      "Scope adapted from Surfing WACE Human Biology Unit 4, Chapter 28; all explanations, examples and questions newly authored.",
+      "Historical dates and immunoglobulin claims in the 2017 source were not repeated as fixed current estimates; calculations use explicitly hypothetical calibrated models."
+    ]
+  },
+  {
+    "id": "hb-u4-29",
+    "chapter": 29,
+    "title": "Evolution of Genes",
+    "sourcePages": [
+      34,
+      35
+    ],
+    "objectives": [
+      "Explain gene duplication and divergence.",
+      "Distinguish gene histories from organismal histories.",
+      "Evaluate conflicting molecular, anatomical and fossil evidence."
+    ],
+    "glossary": [
+      {
+        "term": "Gene duplication",
+        "definition": "Production of an additional copy of a gene or genomic region."
+      },
+      {
+        "term": "Gene family",
+        "definition": "A group of related genes descended from ancestral copies."
+      },
+      {
+        "term": "Horizontal gene transfer",
+        "definition": "Movement of genetic material between lineages other than ordinary parent-to-offspring inheritance."
+      }
+    ],
+    "slides": [
+      {
+        "title": "Genomes record evolutionary processes",
+        "html": "<p>Genes change through mutation, duplication, loss and other processes across generations. Comparing related sequences helps reconstruct these histories. A gene’s current function is part of the evidence but not its entire history: related genes can acquire different functions, while unrelated genes can independently contribute to similar functions.</p>"
+      },
+      {
+        "title": "Duplication creates additional copies",
+        "html": "<p>A duplication can produce two related copies where previously there was one. One copy may retain much of the ancestral function while the other accumulates changes, though several outcomes are possible. Copies may partition functions, acquire a new role or become non-functional. Duplication does not automatically produce an advantageous innovation.</p>",
+        "diagram": {
+          "type": "chromosome",
+          "rows": [
+            {
+              "label": "Before duplication",
+              "segments": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            },
+            {
+              "label": "After duplication",
+              "segments": [
+                "A",
+                "B",
+                "B",
+                "C",
+                "D"
+              ]
+            }
+          ],
+          "caption": "A schematic duplication of a region containing gene B. Segments are not bases, and the diagram does not predict the function or benefit of the extra copy."
+        }
+      },
+      {
+        "title": "Gene families retain shared features",
+        "html": "<p>Related copies that persist and diverge can form a gene family. Globin genes illustrate how related sequences can support different oxygen-related roles or expression patterns. Sequence resemblance and chromosome organisation help investigate their history. A gene family is not evidence that every copy has an identical sequence or is expressed in every tissue.</p>"
+      },
+      {
+        "title": "Developmental gene changes can reshape bodies",
+        "html": "<p>Developmental regulators influence when and where other genes act. Changes in their sequence or regulation can alter body-pattern development. Conserved developmental machinery may be reused in different contexts. Homologous developmental genes do not mean organisms have identical adult anatomy, and not every homologous gene belongs to a developmental regulatory family.</p>"
+      },
+      {
+        "title": "Gene and species trees answer different questions",
+        "html": "<p>A gene tree tracks sampled gene copies; a species tree models lineage relationships among organisms. Duplication and differential loss can make those histories differ. Horizontal transfer can move a gene across lineage boundaries. Before interpreting a gene tree as a species tree, identify which copies were compared and consider plausible alternative histories.</p>",
+        "diagram": {
+          "type": "flow",
+          "nodes": [
+            "Ancestral gene",
+            "Duplication or lineage split",
+            "Sequence divergence",
+            "Possible loss or transfer",
+            "Present-day gene comparison"
+          ],
+          "caption": "Different evolutionary events can shape a sampled gene history. Their order and occurrence require evidence; this is not a universal sequence for every gene."
+        }
+      },
+      {
+        "title": "Organelles have additional histories",
+        "html": "<p>Mitochondrial and chloroplast genes provide evidence consistent with bacterial ancestry of those organelles through endosymbiosis. Nuclear and organelle genomes therefore sample different components of cellular history. Comparisons should not assume every gene in a complex cell must share one simple branching path or the same inheritance pattern.</p>"
+      },
+      {
+        "title": "Sequence change can obscure relationships",
+        "html": "<p>Unequal rates, independent similar changes and reversals can complicate molecular inference. A base that changes and later returns to its earlier state leaves no endpoint difference at that position. Rapidly changing lineages can also be incorrectly grouped by some methods. Analytical models and marker choice must address these possibilities.</p>"
+      },
+      {
+        "title": "Resolve disagreement by testing evidence",
+        "html": "<p>Conflicting molecular, anatomical or fossil interpretations call for checking sampling, alignments, homology, dating and analytical assumptions. More independent characters and better methods can distinguish hypotheses. Neither molecular data nor fossils should be declared automatically correct in every conflict. A defensible conclusion states which history is supported, which alternatives remain and why uncertainty persists.</p>"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq",
+        "prompt": "Which outcome can follow gene duplication?",
+        "options": [
+          "Both copies must remain identical forever",
+          "One copy may diverge while another retains an ancestral role",
+          "A new advantageous species must appear immediately",
+          "All other genes are deleted"
+        ],
+        "answer": 1,
+        "feedback": [
+          "Duplicated copies can accumulate different mutations over time.",
+          "Correct. Divergence is possible, although other outcomes such as loss or shared functions also occur.",
+          "Duplication is not guaranteed to be advantageous or to cause immediate speciation.",
+          "A local duplication does not require deletion of the rest of the genome."
+        ],
+        "explanation": "Correct. Divergence is possible, although other outcomes such as loss or shared functions also occur.",
+        "id": "hb-u4-29-q1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Why might a gene tree differ from a species tree?",
+        "options": [
+          "Gene duplication, loss or horizontal transfer can affect the sampled copies",
+          "Every gene tree is necessarily fraudulent",
+          "Species never share ancestral genes",
+          "Fossils determine every base sequence"
+        ],
+        "answer": 0,
+        "feedback": [
+          "Correct. Gene-copy history need not consist only of species divergence.",
+          "A difference can have a biological or analytical explanation.",
+          "Shared ancestral genes are central to molecular comparison.",
+          "Fossils do not usually provide complete base sequences for every historical lineage."
+        ],
+        "explanation": "Correct. Gene-copy history need not consist only of species divergence.",
+        "id": "hb-u4-29-q2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "What is horizontal gene transfer?",
+        "options": [
+          "Movement of a chromosome during a person’s exercise",
+          "Ordinary inheritance only from parent to offspring",
+          "Transfer of genetic material between lineages outside ordinary parent-to-offspring inheritance",
+          "Any change from an upright to a sloping tree diagram"
+        ],
+        "answer": 2,
+        "feedback": [
+          "Physical body movement is unrelated to the genetic term.",
+          "Ordinary descent is vertical inheritance, not horizontal transfer.",
+          "Correct. Transfer can make a gene’s history differ from a simple species-branching pattern.",
+          "Rotating a diagram does not transfer genetic material."
+        ],
+        "explanation": "Correct. Transfer can make a gene’s history differ from a simple species-branching pattern.",
+        "id": "hb-u4-29-q3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Molecular and fossil interpretations conflict. Which response is most scientific?",
+        "options": [
+          "Discard all molecular evidence automatically",
+          "Discard all fossil evidence automatically",
+          "Choose whichever result looks simpler without further analysis",
+          "Re-examine data, homology, dating and models and test additional evidence"
+        ],
+        "answer": 3,
+        "feedback": [
+          "Molecular evidence should be assessed rather than automatically rejected.",
+          "Fossil evidence also requires assessment rather than automatic rejection.",
+          "Visual simplicity is not a substitute for testing hypotheses.",
+          "Correct. Disagreement identifies assumptions and evidence that need further investigation."
+        ],
+        "explanation": "Correct. Disagreement identifies assumptions and evidence that need further investigation.",
+        "id": "hb-u4-29-q4"
+      },
+      {
+        "type": "written",
+        "prompt": "Explain how a gene duplication could contribute to a gene family without assuming that every duplication is beneficial.",
+        "model": "Duplication creates related copies descended from one ancestral sequence. Subsequent mutations and regulatory changes can make the copies diverge, sometimes allowing different functions or expression patterns. Copies may also retain overlapping roles, become non-functional or be lost. A gene family can therefore record duplication and divergence, but the survival and effects of particular copies depend on their biological context and evolutionary history.",
+        "criteria": [
+          "Explain production of an additional related copy.",
+          "Connect later mutation or regulation to divergence.",
+          "Include a non-beneficial or non-functional possible outcome."
+        ],
+        "id": "hb-u4-29-q5"
+      },
+      {
+        "type": "written",
+        "prompt": "Explain why organelle sequences and nuclear sequences should not automatically be treated as independent samples of exactly the same inheritance history.",
+        "model": "Organelle genomes and nuclear genomes differ in origin and often in inheritance patterns. Mitochondrial and chloroplast sequences carry evidence of endosymbiotic bacterial ancestry, while a nuclear genome has its own recombination and gene-copy histories. Agreement can be informative, but disagreement may reflect biological history or analysis rather than simple error. A sound interpretation states which genomic compartment and inheritance model the evidence represents.",
+        "criteria": [
+          "Distinguish genomic compartments and their histories.",
+          "Mention endosymbiotic origin or inheritance differences.",
+          "Explain a cautious interpretation of agreement or conflict."
+        ],
+        "id": "hb-u4-29-q6"
+      }
+    ],
+    "summary": [
+      "Genes evolve through mutation, duplication, divergence and loss.",
+      "Gene families can retain evidence of related ancestral copies.",
+      "Transfer and organelle origins complicate a single simple history.",
+      "Conflicting evidence should be investigated with explicit models and independent data."
+    ],
+    "sourceNotes": [
+      "Scope adapted from Surfing WACE Human Biology Unit 4, Chapter 29; all explanations, examples and questions newly authored.",
+      "Source chapter continues on printed p35; included both pp34–35. Avoided fixed historical tree diagrams and overgeneralised claims that all lineages have identical rates.",
+      "https://www.ncbi.nlm.nih.gov/books/NBK26866/"
+    ]
+  },
+  {
+    "id": "hb-u4-30",
+    "chapter": 30,
+    "title": "Cladistics",
+    "sourcePages": [
+      36,
+      37
+    ],
+    "objectives": [
+      "Identify clades and sister groups using branching order.",
+      "Distinguish shared derived traits from broadly ancestral traits.",
+      "Explain why branch rotation and branch length must be interpreted carefully."
+    ],
+    "glossary": [
+      {
+        "term": "Clade",
+        "definition": "A common ancestor and all its descendants."
+      },
+      {
+        "term": "Sister groups",
+        "definition": "Two lineages that share an immediate common ancestral node."
+      },
+      {
+        "term": "Shared derived character",
+        "definition": "A character state inherited from a particular common ancestor that helps identify a group."
+      },
+      {
+        "term": "Cladogram",
+        "definition": "A hypothesis of branching relationships; branch length does not imply time unless a scale is specified."
+      }
+    ],
+    "slides": [
+      {
+        "title": "A clade includes every descendant",
+        "html": "<p>Cladistics groups organisms by common ancestry. A clade includes an ancestral lineage and all descendants of that ancestor. It is therefore monophyletic. Choosing a group because its members look alike can exclude some descendants or combine unrelated lineages, so appearance alone does not guarantee that a selected group is a clade.</p>"
+      },
+      {
+        "title": "Nodes represent common ancestry",
+        "html": "<p>At a branching node, descendant lineages trace back to a shared ancestor. Sister groups share an immediate ancestral node with each other. Tip position does not show that one living species gave rise to another living species. Modern organisms on different branches have separate histories since their common ancestry.</p>",
+        "diagram": {
+          "type": "tree",
+          "outgroup": "Taxon C",
+          "sisters": [
+            "Taxon A",
+            "Taxon B"
+          ],
+          "caption": "A and B are sister groups; C branches outside their shared clade in this illustrative rooted tree. No living tip is shown as the direct ancestor of another tip."
+        }
+      },
+      {
+        "title": "Use shared derived characters",
+        "html": "<p>A shared derived character helps identify descendants of a particular ancestor relative to the comparison being made. A broadly ancestral character may occur in several groups and fail to distinguish a smaller clade. For example, a vertebral column does not by itself distinguish one primate group from another because it is shared much more widely.</p>"
+      },
+      {
+        "title": "Character choice affects the hypothesis",
+        "html": "<p>Morphological analyses compare anatomical characters; molecular analyses compare appropriate genetic or protein characters. Homology should be assessed because convergence can produce superficially similar states. A tree should use an informative collection of characters rather than assuming that one feature or one untested resemblance always determines the complete relationship.</p>"
+      },
+      {
+        "title": "Nested groups are compatible",
+        "html": "<p>Clades can sit inside larger clades. A lineage may therefore belong to several nested ancestry-based groups without contradiction. A paraphyletic selection includes an ancestor but omits some descendants. A polyphyletic grouping brings together lineages while excluding their relevant common ancestry, often because a similarity evolved independently.</p>",
+        "diagram": {
+          "type": "comparison",
+          "left": {
+            "title": "A complete clade",
+            "points": [
+              "Common ancestor included",
+              "All descendants included"
+            ]
+          },
+          "right": {
+            "title": "An incomplete selection",
+            "points": [
+              "Some descendants omitted",
+              "Not a complete monophyletic clade"
+            ]
+          },
+          "caption": "Group membership depends on ancestry and descendant inclusion, not on the shape of a drawn outline."
+        }
+      },
+      {
+        "title": "Rotate branches without changing ancestry",
+        "html": "<p>Branches can rotate around a node while preserving their connections. Thus the same relationships can appear in different left-to-right orders. Read the nodes rather than counting how close two tips look on the page. Rotating a branch is not the same as moving a lineage to a different ancestral node.</p>"
+      },
+      {
+        "title": "Branch length needs an explicit scale",
+        "html": "<p>A basic cladogram represents branching order without an automatic time scale. In a time-scaled tree, branch positions or lengths may represent elapsed time; in another molecular tree they may represent estimated sequence change. Check the legend. A visually longer branch does not automatically mean an older, superior or more advanced living species.</p>"
+      },
+      {
+        "title": "Construct and test a hypothesis",
+        "html": "<p>A simple analysis lists taxa, identifies comparable character states and uses an outgroup to help distinguish ancestral from derived states. Candidate branching arrangements are then evaluated against the data. Missing information, homoplasy and conflicting signals can support alternatives. A cladogram is a testable relationship hypothesis, not a permanent ranking of organisms from primitive to advanced.</p>"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mcq",
+        "prompt": "Which set is a clade?",
+        "options": [
+          "A common ancestor and only the descendants that look similar",
+          "All large-bodied species regardless of ancestry",
+          "A common ancestor and all its descendants",
+          "Any two tips drawn next to one another"
+        ],
+        "answer": 2,
+        "feedback": [
+          "Omitting descendants can make a selection paraphyletic.",
+          "Body size alone does not establish a single ancestry-based clade.",
+          "Correct. A clade is a complete monophyletic group.",
+          "Visual proximity is not sufficient; branching connections determine ancestry."
+        ],
+        "explanation": "Correct. A clade is a complete monophyletic group.",
+        "id": "hb-u4-30-q1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "A branch is rotated around its node without changing any connections. What happens?",
+        "options": [
+          "The evolutionary relationships remain the same",
+          "The species instantly becomes more advanced",
+          "The oldest tip must now be the youngest",
+          "The common ancestor disappears"
+        ],
+        "answer": 0,
+        "feedback": [
+          "Correct. Rotation changes the drawing’s order, not its branching topology.",
+          "A drawing change does not alter evolution or establish progress.",
+          "Tip age is not determined by left-to-right placement.",
+          "The node and its ancestry remain part of the same topology."
+        ],
+        "explanation": "Correct. Rotation changes the drawing’s order, not its branching topology.",
+        "id": "hb-u4-30-q2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "In an unscaled cladogram, what does a longer drawn branch necessarily show?",
+        "options": [
+          "More years since divergence",
+          "A higher mutation rate",
+          "Greater evolutionary superiority",
+          "Nothing quantitative about time unless a relevant scale is supplied"
+        ],
+        "answer": 3,
+        "feedback": [
+          "Time requires an explicit interpretation or scale.",
+          "A line drawn longer is not automatically a measured substitution rate.",
+          "Evolutionary trees do not rank living organisms as superior.",
+          "Correct. Basic branching diagrams encode relationships rather than automatic quantitative time."
+        ],
+        "explanation": "Correct. Basic branching diagrams encode relationships rather than automatic quantitative time.",
+        "id": "hb-u4-30-q3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Why might possession of a backbone be unhelpful for distinguishing two closely related primate groups?",
+        "options": [
+          "It is unique to only one primate species",
+          "It is a widely shared ancestral feature in this comparison",
+          "It cannot ever be inherited",
+          "It is a DNA laboratory artefact"
+        ],
+        "answer": 1,
+        "feedback": [
+          "Backbones occur in a much wider vertebrate group.",
+          "Correct. A broadly ancestral state may not identify the smaller branching distinction.",
+          "An anatomical state can be inherited through developmental mechanisms.",
+          "A backbone is an anatomical feature, not a laboratory artefact."
+        ],
+        "explanation": "Correct. A broadly ancestral state may not identify the smaller branching distinction.",
+        "id": "hb-u4-30-q4"
+      },
+      {
+        "type": "written",
+        "prompt": "Explain how you would decide whether two taxa are more closely related on a cladogram without relying on their positions on the page.",
+        "model": "Trace their branches towards the root and identify their most recent common ancestor. Compare that node with the common ancestral nodes they share with other taxa. A more recent shared node indicates a closer relationship in the tree. Left-to-right tip order and visual distance are unreliable because branches can be rotated around nodes without altering the branching connections.",
+        "criteria": [
+          "Identify the most recent common ancestral node.",
+          "Compare the relevant branching connections.",
+          "Reject visual tip order or distance as the criterion."
+        ],
+        "id": "hb-u4-30-q5"
+      },
+      {
+        "type": "written",
+        "prompt": "Distinguish a shared derived character from a shared ancestral character and explain why the distinction depends on the comparison.",
+        "model": "A shared derived state identifies a change inherited from a particular common ancestor relative to the lineages being compared. An ancestral state was already present before that smaller group arose and may be shared much more widely. For example, a vertebral column supports a broad vertebrate grouping but does not separate two primate lineages. The character’s usefulness therefore depends on which taxa and ancestral reference are considered.",
+        "criteria": [
+          "Define derived and ancestral states relative to a comparison.",
+          "Use an appropriate example.",
+          "Explain why a broadly shared trait may not resolve a smaller clade."
+        ],
+        "id": "hb-u4-30-q6"
+      }
+    ],
+    "summary": [
+      "Clades contain an ancestor and all descendants.",
+      "Nodes and shared derived characters support relationship hypotheses.",
+      "Branch rotation preserves relationships when connections remain unchanged.",
+      "Branch lengths imply time or change only when an appropriate scale is stated."
+    ],
+    "sourceNotes": [
+      "Scope adapted from Surfing WACE Human Biology Unit 4, Chapter 30; all explanations, examples and questions newly authored.",
+      "Actual source range for Chapter 30 is printed pp36–37, not p35. Corrected source implications that all ancestral species are necessarily extinct, every split must be binary in observed trees, and all primates share an opposable toe."
+    ]
+  }
+]
