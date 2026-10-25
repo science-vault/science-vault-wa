@@ -27,3 +27,9 @@ html{min-height:100%;scroll-padding-top:24px}body.lv-shell{margin:0;min-height:1
 .lv-shell .feature-tabs button{border-radius:8px}
 .lv-shell .lab-card,.lv-shell .feature-panel,.lv-shell .quest-card{border-color:var(--lv-line);border-radius:12px}
 .lv-shell .hero-note small{color:var(--lv-muted)!important}
+.lv-shell .action{background:var(--lv-accent);color:#fff!important;border-radius:8px}
+.lv-shell .action.secondary{background:var(--lv-tint);color:#6947dc!important}
+.lv-shell .quick a,.lv-shell .cal-tasks a{color:var(--lv-accent)}
+.lv-shell .cal .today,.lv-shell .cal-grid .due{background:var(--lv-tint)}
+.lv-shell .cal .due{box-shadow:inset 0 0 0 2px var(--lv-accent)}
+.lv-shell .dash>.welcome>span{color:var(--lv-accent);font-size:11px;font-weight:750;letter-spacing:1px}
