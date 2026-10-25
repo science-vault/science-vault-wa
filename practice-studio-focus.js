@@ -3,7 +3,7 @@
  'use strict';
  const modal=document.getElementById('modal'),toggle=document.getElementById('studioFocusToggle'),hint=document.getElementById('studioFocusHint');
  if(!modal||!toggle)return;
- let focused=false,ownsFullscreen=false;
+ let focused=false,ownsFullscreen=false,exitedAt=0;
  const previousInert=new Map();
  function sync(){
   document.body.classList.toggle('lv-practice-focus',focused);
@@ -32,10 +32,10 @@
  toggle.addEventListener('click',()=>focused?leave():enter());
  document.addEventListener('fullscreenchange',()=>{
   if(document.fullscreenElement===modal){ownsFullscreen=true;focused=true;sync()}
-  else if(ownsFullscreen){ownsFullscreen=false;focused=false;sync()}
+  else if(ownsFullscreen){ownsFullscreen=false;focused=false;exitedAt=Date.now();sync()}
  });
  document.addEventListener('keydown',event=>{
-  if(event.key==='Escape'&&focused&&!modal.hidden){event.preventDefault();event.stopImmediatePropagation();leave()}
+  if(event.key==='Escape'&&(focused||Date.now()-exitedAt<250)&&!modal.hidden){event.preventDefault();event.stopImmediatePropagation();leave()}
  },true);
  function restoreBackground(){
   for(const [element,value] of previousInert)element.inert=value;
