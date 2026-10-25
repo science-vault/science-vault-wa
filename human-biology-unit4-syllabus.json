@@ -1,0 +1,922 @@
+{
+  "checked": "2026-10-25",
+  "basis": "SCSA Year 12 Human Biology ATAR syllabus for teaching from 2024, applicable in 2026",
+  "source": "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0003/1089561/Human-Biology-ATAR-Year-12-Syllabus-for-teaching-from-January-2024_pdf.PDF",
+  "coursePage": "https://senior-secondary.scsa.wa.edu.au/syllabus-and-support-materials/science/human-biology",
+  "syllabusPages": {
+    "scienceInquiry": 13,
+    "humanEndeavour": 14,
+    "understanding": [
+      14,
+      15
+    ]
+  },
+  "qualification": "This is an independent teaching coverage map, not SCSA endorsement. Lesson explanations and worked examples support inquiry skills; they do not replace a teacher-supervised investigation or school assessment program. The separately published 2027 syllabus should be used when planning that teaching year.",
+  "themes": [
+    {
+      "id": "mutation-causes",
+      "focus": "How copying errors, division errors and mutagens change genetic material",
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "phenotype-environment",
+      "focus": "How inherited differences and the environment affect expressed traits",
+      "chapters": [
+        2,
+        3,
+        4,
+        8,
+        14,
+        16,
+        17
+      ]
+    },
+    {
+      "id": "new-alleles",
+      "focus": "Why mutation supplies new alleles for subsequent evolutionary change",
+      "chapters": [
+        2,
+        4,
+        5,
+        6,
+        9
+      ]
+    },
+    {
+      "id": "allele-comparisons",
+      "focus": "Using allele frequencies to compare populations and generations",
+      "chapters": [
+        9,
+        10,
+        11,
+        12,
+        17,
+        18
+      ]
+    },
+    {
+      "id": "gene-pool-change",
+      "focus": "Distinguishing mutation, selection, drift and migration as causes of change",
+      "chapters": [
+        9,
+        10,
+        11,
+        12,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "id": "genetic-disease",
+      "focus": "Explaining disease-allele patterns, including the sickle-cell example",
+      "chapters": [
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "selection-speciation",
+      "focus": "Linking inheritance, competition, reproductive success and isolation to speciation",
+      "chapters": [
+        10,
+        12,
+        14,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "id": "biotechnology-evidence",
+      "focus": "Explaining how PCR, gels and sequence information enable evolutionary comparisons",
+      "chapters": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        25,
+        26,
+        36
+      ]
+    },
+    {
+      "id": "biochemistry-bioinformatics",
+      "focus": "Comparing molecular evidence and explaining how new analyses revise relationships",
+      "chapters": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        36,
+        57,
+        58
+      ]
+    },
+    {
+      "id": "tree-interpretation",
+      "focus": "Reading shared ancestry and alternative branching hypotheses",
+      "chapters": [
+        30,
+        31,
+        40,
+        46,
+        47,
+        49,
+        57,
+        58
+      ]
+    },
+    {
+      "id": "fossil-bias",
+      "focus": "Explaining missing evidence through formation, preservation and discovery biases",
+      "chapters": [
+        33,
+        36,
+        37,
+        48,
+        56
+      ]
+    },
+    {
+      "id": "dating-combination",
+      "focus": "Combining a relative sequence with numerical age constraints",
+      "chapters": [
+        34,
+        35,
+        37,
+        48,
+        56
+      ]
+    },
+    {
+      "id": "dating-limits",
+      "focus": "Selecting and evaluating layer order, index fossils, carbon-14 and potassium-argon evidence",
+      "chapters": [
+        33,
+        34,
+        35,
+        37,
+        56
+      ]
+    },
+    {
+      "id": "great-ape-features",
+      "focus": "Comparing brain proportions, digits, locomotion, jaws and teeth among great apes",
+      "chapters": [
+        31,
+        32,
+        40,
+        41,
+        42,
+        43,
+        44,
+        46,
+        47
+      ]
+    },
+    {
+      "id": "named-fossil-comparisons",
+      "focus": "Comparing the seven specified fossil taxa using anatomy and other evidence",
+      "chapters": [
+        40,
+        47,
+        48,
+        49,
+        50,
+        52,
+        54,
+        55,
+        57
+      ]
+    },
+    {
+      "id": "tool-cultures",
+      "focus": "Comparing manufacture and materials across the four specified Homo tool cultures",
+      "chapters": [
+        36,
+        49,
+        50,
+        52,
+        54,
+        55,
+        59
+      ]
+    },
+    {
+      "id": "question-hypothesis",
+      "focus": "Explaining testable questions, hypotheses and expected patterns",
+      "chapters": [
+        18
+      ]
+    },
+    {
+      "id": "design-ethics",
+      "focus": "Explaining controls, sampling, safe methods and research ethics",
+      "chapters": [
+        18,
+        22,
+        23,
+        32,
+        37,
+        55,
+        56
+      ]
+    },
+    {
+      "id": "valid-reliable-method",
+      "focus": "Distinguishing valid measurement from repeatable results",
+      "chapters": [
+        18,
+        22,
+        23,
+        32,
+        35,
+        37
+      ]
+    },
+    {
+      "id": "data-quality",
+      "focus": "Working with data patterns, measurement limits and sample size",
+      "chapters": [
+        9,
+        11,
+        17,
+        18,
+        22,
+        23,
+        28,
+        32,
+        34,
+        35,
+        37,
+        56
+      ]
+    },
+    {
+      "id": "evaluate-evidence",
+      "focus": "Separating supported conclusions from assumptions and unsupported claims",
+      "chapters": [
+        18,
+        23,
+        25,
+        26,
+        28,
+        30,
+        33,
+        36,
+        37,
+        38,
+        39,
+        48,
+        51,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ]
+    },
+    {
+      "id": "represent-communicate",
+      "focus": "Using labelled scientific representations and evidence-linked explanations",
+      "chapters": [
+        1,
+        3,
+        7,
+        9,
+        14,
+        18,
+        22,
+        23,
+        30,
+        32,
+        35,
+        37,
+        43,
+        44,
+        48,
+        56,
+        57,
+        59
+      ]
+    }
+  ],
+  "requiredFossils": [
+    "Australopithecus afarensis",
+    "Australopithecus africanus",
+    "Paranthropus robustus",
+    "Homo habilis",
+    "Homo erectus",
+    "Homo neanderthalensis",
+    "Homo sapiens"
+  ],
+  "requiredToolComparisons": [
+    "Homo habilis",
+    "Homo erectus",
+    "Homo neanderthalensis",
+    "Homo sapiens"
+  ],
+  "lessons": [
+    {
+      "chapter": 1,
+      "id": "hb-u4-01",
+      "focus": [
+        "mutation-causes",
+        "represent-communicate"
+      ],
+      "scope": "Foundation: prior genetics and scientific skills used throughout Unit 4."
+    },
+    {
+      "chapter": 2,
+      "id": "hb-u4-02",
+      "focus": [
+        "mutation-causes",
+        "phenotype-environment",
+        "new-alleles"
+      ],
+      "scope": "Core connection: this chapter teaches or applies the mapped Unit 4 concepts. Additional examples explain the concepts rather than expanding the syllabus."
+    },
+    {
+      "chapter": 3,
+      "id": "hb-u4-03",
+      "focus": [
+        "mutation-causes",
+        "phenotype-environment",
+        "represent-communicate"
+      ],
+      "scope": "Core connection: this chapter teaches or applies the mapped Unit 4 concepts. Additional examples explain the concepts rather than expanding the syllabus."
+    },
+    {
+      "chapter": 4,
+      "id": "hb-u4-04",
+      "focus": [
+        "mutation-causes",
+        "phenotype-environment",
+        "new-alleles"
+      ],
+      "scope": "Core connection: this chapter teaches or applies the mapped Unit 4 concepts. Additional examples explain the concepts rather than expanding the syllabus."
+    },
+    {
+      "chapter": 5,
+      "id": "hb-u4-05",
+      "focus": [
+        "mutation-causes",
+        "new-alleles"
+      ],
+      "scope": "Core connection: this chapter teaches or applies the mapped Unit 4 concepts. Additional examples explain the concepts rather than expanding the syllabus."
+    },
+    {
+      "chapter": 6,
+      "id": "hb-u4-06",
+      "focus": [
+        "mutation-causes",
+        "new-alleles"
+      ],
+      "scope": "Supporting molecular detail: transposition illustrates mutation; a detailed transposition pathway is not a separate syllabus requirement."
+    },
+    {
+      "chapter": 7,
+      "id": "hb-u4-07",
+      "focus": [
+        "mutation-causes",
+        "represent-communicate"
+      ],
+      "scope": "Core connection: this chapter teaches or applies the mapped Unit 4 concepts. Additional examples explain the concepts rather than expanding the syllabus."
+    },
+    {
+      "chapter": 8,
+      "id": "hb-u4-08",
+      "focus": [
+        "phenotype-environment"
+      ],
+      "scope": "Core connection: this chapter teaches or applies the mapped Unit 4 concepts. Additional examples explain the concepts rather than expanding the syllabus."
+    },
+    {
+      "chapter": 9,
+      "id": "hb-u4-09",
+      "focus": [
+        "new-alleles",
+        "allele-comparisons",
+        "gene-pool-change",
+        "data-quality",
+        "represent-communicate"
+      ],
+      "scope": "Core connection: this chapter teaches or applies the mapped Unit 4 concepts. Additional examples explain the concepts rather than expanding the syllabus."
+    },
+    {
+      "chapter": 10,
+      "id": "hb-u4-10",
+      "focus": [
+        "allele-comparisons",
+        "gene-pool-change",
+        "selection-speciation"
+      ],
+      "scope": "Core connection: this chapter teaches or applies the mapped Unit 4 concepts. Additional examples explain the concepts rather than expanding the syllabus."
+    },
+    {
+      "chapter": 11,
+      "id": "hb-u4-11",
+      "focus": [
+        "allele-comparisons",
+        "gene-pool-change",
+        "data-quality"
+      ],
+      "scope": "Core connection: this chapter teaches or applies the mapped Unit 4 concepts. Additional examples explain the concepts rather than expanding the syllabus."
+    },
+    {
+      "chapter": 12,
+      "id": "hb-u4-12",
+      "focus": [
+        "allele-comparisons",
+        "gene-pool-change",
+        "selection-speciation"
+      ],
+      "scope": "Core connection: this chapter teaches or applies the mapped Unit 4 concepts. Additional examples explain the concepts rather than expanding the syllabus."
+    },
+    {
+      "chapter": 13,
+      "id": "hb-u4-13",
+      "focus": [
+        "genetic-disease"
+      ],
+      "scope": "Supporting disease case study. Apply gene-pool mechanisms; sickle-cell anaemia is the example explicitly named by SCSA."
+    },
+    {
+      "chapter": 14,
+      "id": "hb-u4-14",
+      "focus": [
+        "phenotype-environment",
+        "genetic-disease",
+        "selection-speciation",
+        "represent-communicate"
+      ],
+      "scope": "Core connection: this chapter teaches or applies the mapped Unit 4 concepts. Additional examples explain the concepts rather than expanding the syllabus."
+    },
+    {
+      "chapter": 15,
+      "id": "hb-u4-15",
+      "focus": [
+        "genetic-disease"
+      ],
+      "scope": "Supporting disease case study. Detailed thalassaemia classifications extend the syllabus example of disease-allele patterns."
+    },
+    {
+      "chapter": 16,
+      "id": "hb-u4-16",
+      "focus": [
+        "phenotype-environment",
+        "gene-pool-change",
+        "selection-speciation"
+      ],
+      "scope": "Core connection: this chapter teaches or applies the mapped Unit 4 concepts. Additional examples explain the concepts rather than expanding the syllabus."
+    },
+    {
+      "chapter": 17,
+      "id": "hb-u4-17",
+      "focus": [
+        "phenotype-environment",
+        "allele-comparisons",
+        "gene-pool-change",
+        "selection-speciation",
+        "data-quality"
+      ],
+      "scope": "Core connection: this chapter teaches or applies the mapped Unit 4 concepts. Additional examples explain the concepts rather than expanding the syllabus."
+    },
+    {
+      "chapter": 18,
+      "id": "hb-u4-18",
+      "focus": [
+        "allele-comparisons",
+        "gene-pool-change",
+        "selection-speciation",
+        "question-hypothesis",
+        "design-ethics",
+        "valid-reliable-method",
+        "data-quality",
+        "evaluate-evidence",
+        "represent-communicate"
+      ],
+      "scope": "Core connection: this chapter teaches or applies the mapped Unit 4 concepts. Additional examples explain the concepts rather than expanding the syllabus."
+    },
+    {
+      "chapter": 19,
+      "id": "hb-u4-19",
+      "focus": [
+        "biotechnology-evidence"
+      ],
+      "scope": "Supporting enzyme detail for understanding biotechnology evidence; focus on what DNA methods reveal about relationships."
+    },
+    {
+      "chapter": 20,
+      "id": "hb-u4-20",
+      "focus": [
+        "biotechnology-evidence"
+      ],
+      "scope": "Supporting enzyme detail for understanding biotechnology evidence; focus on what DNA methods reveal about relationships."
+    },
+    {
+      "chapter": 21,
+      "id": "hb-u4-21",
+      "focus": [
+        "biotechnology-evidence"
+      ],
+      "scope": "Supporting enzyme detail for PCR. A detailed catalogue of polymerase chemistry is not a separate syllabus requirement."
+    },
+    {
+      "chapter": 22,
+      "id": "hb-u4-22",
+      "focus": [
+        "biotechnology-evidence",
+        "design-ethics",
+        "valid-reliable-method",
+        "data-quality",
+        "represent-communicate"
+      ],
+      "scope": "Core connection: this chapter teaches or applies the mapped Unit 4 concepts. Additional examples explain the concepts rather than expanding the syllabus. Use sequence results as evidence; the laboratory process for obtaining a DNA sequence is not required."
+    },
+    {
+      "chapter": 23,
+      "id": "hb-u4-23",
+      "focus": [
+        "biotechnology-evidence",
+        "design-ethics",
+        "valid-reliable-method",
+        "data-quality",
+        "evaluate-evidence",
+        "represent-communicate"
+      ],
+      "scope": "Core connection: this chapter teaches or applies the mapped Unit 4 concepts. Additional examples explain the concepts rather than expanding the syllabus. Use sequence results as evidence; the laboratory process for obtaining a DNA sequence is not required."
+    },
+    {
+      "chapter": 24,
+      "id": "hb-u4-24",
+      "focus": [
+        "biochemistry-bioinformatics"
+      ],
+      "scope": "Supporting comparative-development evidence. Connect it with the specified molecular evidence and use it cautiously."
+    },
+    {
+      "chapter": 25,
+      "id": "hb-u4-25",
+      "focus": [
+        "biotechnology-evidence",
+        "biochemistry-bioinformatics",
+        "evaluate-evidence"
+      ],
+      "scope": "Core connection: this chapter teaches or applies the mapped Unit 4 concepts. Additional examples explain the concepts rather than expanding the syllabus. Use sequence results as evidence; the laboratory process for obtaining a DNA sequence is not required."
+    },
+    {
+      "chapter": 26,
+      "id": "hb-u4-26",
+      "focus": [
+        "biotechnology-evidence",
+        "biochemistry-bioinformatics",
+        "evaluate-evidence"
+      ],
+      "scope": "Core connection: this chapter teaches or applies the mapped Unit 4 concepts. Additional examples explain the concepts rather than expanding the syllabus. Use sequence results as evidence; the laboratory process for obtaining a DNA sequence is not required."
+    },
+    {
+      "chapter": 27,
+      "id": "hb-u4-27",
+      "focus": [
+        "biochemistry-bioinformatics"
+      ],
+      "scope": "Supporting molecular detail. Gene homology helps explain evolutionary evidence; detailed gene-family histories are extension."
+    },
+    {
+      "chapter": 28,
+      "id": "hb-u4-28",
+      "focus": [
+        "biochemistry-bioinformatics",
+        "data-quality",
+        "evaluate-evidence"
+      ],
+      "scope": "Supporting quantitative model. Molecular differences inform relatedness; specific clock-rate calculations here are extension practice."
+    },
+    {
+      "chapter": 29,
+      "id": "hb-u4-29",
+      "focus": [
+        "biochemistry-bioinformatics"
+      ],
+      "scope": "Supporting molecular detail about gene history, duplication and divergence."
+    },
+    {
+      "chapter": 30,
+      "id": "hb-u4-30",
+      "focus": [
+        "biochemistry-bioinformatics",
+        "tree-interpretation",
+        "evaluate-evidence",
+        "represent-communicate"
+      ],
+      "scope": "Core connection: this chapter teaches or applies the mapped Unit 4 concepts. Additional examples explain the concepts rather than expanding the syllabus. Interpret supplied trees and shared ancestry; constructing a phylogenetic tree is not required."
+    },
+    {
+      "chapter": 31,
+      "id": "hb-u4-31",
+      "focus": [
+        "tree-interpretation",
+        "great-ape-features"
+      ],
+      "scope": "Core connection: this chapter teaches or applies the mapped Unit 4 concepts. Additional examples explain the concepts rather than expanding the syllabus."
+    },
+    {
+      "chapter": 32,
+      "id": "hb-u4-32",
+      "focus": [
+        "great-ape-features",
+        "design-ethics",
+        "valid-reliable-method",
+        "data-quality",
+        "represent-communicate"
+      ],
+      "scope": "Worked anatomical comparison and skills practice supporting interpretation of evolutionary evidence."
+    },
+    {
+      "chapter": 33,
+      "id": "hb-u4-33",
+      "focus": [
+        "fossil-bias",
+        "dating-limits",
+        "evaluate-evidence"
+      ],
+      "scope": "Core connection: this chapter teaches or applies the mapped Unit 4 concepts. Additional examples explain the concepts rather than expanding the syllabus."
+    },
+    {
+      "chapter": 34,
+      "id": "hb-u4-34",
+      "focus": [
+        "dating-combination",
+        "dating-limits",
+        "data-quality"
+      ],
+      "scope": "Core connection: this chapter teaches or applies the mapped Unit 4 concepts. Additional examples explain the concepts rather than expanding the syllabus."
+    },
+    {
+      "chapter": 35,
+      "id": "hb-u4-35",
+      "focus": [
+        "dating-combination",
+        "dating-limits",
+        "valid-reliable-method",
+        "data-quality",
+        "represent-communicate"
+      ],
+      "scope": "Core connection: this chapter teaches or applies the mapped Unit 4 concepts. Additional examples explain the concepts rather than expanding the syllabus."
+    },
+    {
+      "chapter": 36,
+      "id": "hb-u4-36",
+      "focus": [
+        "biotechnology-evidence",
+        "biochemistry-bioinformatics",
+        "fossil-bias",
+        "tool-cultures",
+        "evaluate-evidence"
+      ],
+      "scope": "Core connection: this chapter teaches or applies the mapped Unit 4 concepts. Additional examples explain the concepts rather than expanding the syllabus. Use sequence results as evidence; the laboratory process for obtaining a DNA sequence is not required."
+    },
+    {
+      "chapter": 37,
+      "id": "hb-u4-37",
+      "focus": [
+        "fossil-bias",
+        "dating-combination",
+        "dating-limits",
+        "design-ethics",
+        "valid-reliable-method",
+        "data-quality",
+        "evaluate-evidence",
+        "represent-communicate"
+      ],
+      "scope": "Core connection: this chapter teaches or applies the mapped Unit 4 concepts. Additional examples explain the concepts rather than expanding the syllabus."
+    },
+    {
+      "chapter": 38,
+      "id": "hb-u4-38",
+      "focus": [
+        "evaluate-evidence"
+      ],
+      "scope": "Supporting history. The examinable emphasis is explaining and applying the evolutionary mechanisms."
+    },
+    {
+      "chapter": 39,
+      "id": "hb-u4-39",
+      "focus": [
+        "evaluate-evidence"
+      ],
+      "scope": "Supporting pattern of evolutionary tempo. It does not replace mutation, selection, drift or gene flow."
+    },
+    {
+      "chapter": 40,
+      "id": "hb-u4-40",
+      "focus": [
+        "tree-interpretation",
+        "great-ape-features",
+        "named-fossil-comparisons"
+      ],
+      "scope": "Core connection: this chapter teaches or applies the mapped Unit 4 concepts. Additional examples explain the concepts rather than expanding the syllabus."
+    },
+    {
+      "chapter": 41,
+      "id": "hb-u4-41",
+      "focus": [
+        "great-ape-features"
+      ],
+      "scope": "Core connection: this chapter teaches or applies the mapped Unit 4 concepts. Additional examples explain the concepts rather than expanding the syllabus."
+    },
+    {
+      "chapter": 42,
+      "id": "hb-u4-42",
+      "focus": [
+        "great-ape-features"
+      ],
+      "scope": "Core connection: this chapter teaches or applies the mapped Unit 4 concepts. Additional examples explain the concepts rather than expanding the syllabus."
+    },
+    {
+      "chapter": 43,
+      "id": "hb-u4-43",
+      "focus": [
+        "great-ape-features",
+        "represent-communicate"
+      ],
+      "scope": "Core connection: this chapter teaches or applies the mapped Unit 4 concepts. Additional examples explain the concepts rather than expanding the syllabus."
+    },
+    {
+      "chapter": 44,
+      "id": "hb-u4-44",
+      "focus": [
+        "great-ape-features",
+        "represent-communicate"
+      ],
+      "scope": "Core connection: this chapter teaches or applies the mapped Unit 4 concepts. Additional examples explain the concepts rather than expanding the syllabus."
+    },
+    {
+      "chapter": 45,
+      "id": "hb-u4-45",
+      "focus": [
+        "great-ape-features"
+      ],
+      "scope": "Supporting primate context. The specified comparisons emphasise cortex proportions, digits, locomotion, jaws and teeth."
+    },
+    {
+      "chapter": 46,
+      "id": "hb-u4-46",
+      "focus": [
+        "tree-interpretation",
+        "great-ape-features"
+      ],
+      "scope": "Core connection: this chapter teaches or applies the mapped Unit 4 concepts. Additional examples explain the concepts rather than expanding the syllabus."
+    },
+    {
+      "chapter": 47,
+      "id": "hb-u4-47",
+      "focus": [
+        "tree-interpretation",
+        "great-ape-features",
+        "named-fossil-comparisons"
+      ],
+      "scope": "Core connection: this chapter teaches or applies the mapped Unit 4 concepts. Additional examples explain the concepts rather than expanding the syllabus."
+    },
+    {
+      "chapter": 48,
+      "id": "hb-u4-48",
+      "focus": [
+        "fossil-bias",
+        "dating-combination",
+        "named-fossil-comparisons",
+        "evaluate-evidence",
+        "represent-communicate"
+      ],
+      "scope": "Core connection: this chapter teaches or applies the mapped Unit 4 concepts. Additional examples explain the concepts rather than expanding the syllabus."
+    },
+    {
+      "chapter": 49,
+      "id": "hb-u4-49",
+      "focus": [
+        "tree-interpretation",
+        "named-fossil-comparisons",
+        "tool-cultures"
+      ],
+      "scope": "Core connection: this chapter teaches or applies the mapped Unit 4 concepts. Additional examples explain the concepts rather than expanding the syllabus."
+    },
+    {
+      "chapter": 50,
+      "id": "hb-u4-50",
+      "focus": [
+        "named-fossil-comparisons",
+        "tool-cultures"
+      ],
+      "scope": "Core connection: this chapter teaches or applies the mapped Unit 4 concepts. Additional examples explain the concepts rather than expanding the syllabus."
+    },
+    {
+      "chapter": 51,
+      "id": "hb-u4-51",
+      "focus": [
+        "evaluate-evidence"
+      ],
+      "scope": "Supporting fossil comparison. Homo ergaster is not separately named in the current SCSA required fossil list; Homo erectus is."
+    },
+    {
+      "chapter": 52,
+      "id": "hb-u4-52",
+      "focus": [
+        "named-fossil-comparisons",
+        "tool-cultures"
+      ],
+      "scope": "Core connection: this chapter teaches or applies the mapped Unit 4 concepts. Additional examples explain the concepts rather than expanding the syllabus."
+    },
+    {
+      "chapter": 53,
+      "id": "hb-u4-53",
+      "focus": [
+        "evaluate-evidence"
+      ],
+      "scope": "Supporting fossil comparisons. These two species are not separately named in the current required fossil list."
+    },
+    {
+      "chapter": 54,
+      "id": "hb-u4-54",
+      "focus": [
+        "named-fossil-comparisons",
+        "tool-cultures",
+        "evaluate-evidence"
+      ],
+      "scope": "Core connection: this chapter teaches or applies the mapped Unit 4 concepts. Additional examples explain the concepts rather than expanding the syllabus."
+    },
+    {
+      "chapter": 55,
+      "id": "hb-u4-55",
+      "focus": [
+        "named-fossil-comparisons",
+        "tool-cultures",
+        "design-ethics",
+        "evaluate-evidence"
+      ],
+      "scope": "Core connection: this chapter teaches or applies the mapped Unit 4 concepts. Additional examples explain the concepts rather than expanding the syllabus."
+    },
+    {
+      "chapter": 56,
+      "id": "hb-u4-56",
+      "focus": [
+        "fossil-bias",
+        "dating-combination",
+        "dating-limits",
+        "design-ethics",
+        "data-quality",
+        "evaluate-evidence",
+        "represent-communicate"
+      ],
+      "scope": "Core connection: this chapter teaches or applies the mapped Unit 4 concepts. Additional examples explain the concepts rather than expanding the syllabus."
+    },
+    {
+      "chapter": 57,
+      "id": "hb-u4-57",
+      "focus": [
+        "biochemistry-bioinformatics",
+        "tree-interpretation",
+        "named-fossil-comparisons",
+        "evaluate-evidence",
+        "represent-communicate"
+      ],
+      "scope": "Core connection: this chapter teaches or applies the mapped Unit 4 concepts. Additional examples explain the concepts rather than expanding the syllabus."
+    },
+    {
+      "chapter": 58,
+      "id": "hb-u4-58",
+      "focus": [
+        "biochemistry-bioinformatics",
+        "tree-interpretation",
+        "evaluate-evidence"
+      ],
+      "scope": "Supporting origin models. Evaluate evidence and its limits rather than memorising one fixed migration route."
+    },
+    {
+      "chapter": 59,
+      "id": "hb-u4-59",
+      "focus": [
+        "tool-cultures",
+        "evaluate-evidence",
+        "represent-communicate"
+      ],
+      "scope": "Core connection: this chapter teaches or applies the mapped Unit 4 concepts. Additional examples explain the concepts rather than expanding the syllabus."
+    }
+  ]
+}
