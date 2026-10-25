@@ -1,0 +1,87 @@
+{
+  "exams": [
+    {
+      "source": "2020_physics_unit_1_exam.docx",
+      "key": "2020_physics_unit_1_marking_guide (2).docx",
+      "questionsDetected": 19,
+      "imported": 19,
+      "file": "practice-studio-physics-2020-u1.json",
+      "keyFiguresRendered": true
+    },
+    {
+      "source": "2021_physics_unit_1_exam.docx",
+      "key": "2021_physics_unit_1_marking_guide.docx",
+      "questionsDetected": 18,
+      "imported": 18,
+      "file": "practice-studio-physics-2021-u1.json",
+      "keyFiguresRendered": false
+    },
+    {
+      "source": "2021_physics_units_1_2_exam (3).docx",
+      "key": "2021_physics_units_1_2_marking_guide (7).docx",
+      "questionsDetected": 21,
+      "imported": 21,
+      "file": "practice-studio-physics-2021-u12.json",
+      "keyFiguresRendered": true
+    },
+    {
+      "source": "2022_physics_unit_1_exam_.docx",
+      "key": "2022_physics_unit_1_marking_guide_.docx",
+      "questionsDetected": 19,
+      "imported": 19,
+      "file": "practice-studio-physics-2022-u1.json",
+      "keyFiguresRendered": false
+    },
+    {
+      "source": "2022_physics_units_1_2_exam.docx",
+      "key": "2022_physics_units_1_2_marking_guide.docx",
+      "questionsDetected": 21,
+      "imported": 21,
+      "file": "practice-studio-physics-2022-u12.json",
+      "keyFiguresRendered": false
+    },
+    {
+      "source": "2023_physics_unit_1_exam.docx",
+      "key": "2023_physics_unit_1_marking_guide.docx",
+      "questionsDetected": 19,
+      "imported": 19,
+      "file": "practice-studio-physics-2023-u1.json",
+      "keyFiguresRendered": false
+    },
+    {
+      "source": "2023_physics_units_12_exam.docx",
+      "key": "2023_physics_units_12_marking_guide.docx",
+      "questionsDetected": 22,
+      "imported": 22,
+      "file": "practice-studio-physics-2023-u12.json",
+      "keyFiguresRendered": true
+    },
+    {
+      "source": "2024_physics_unit_1_exam.docx",
+      "key": "2024_physics_unit_1_marking_guide.docx",
+      "questionsDetected": 20,
+      "imported": 20,
+      "file": "practice-studio-physics-2024-u1.json",
+      "keyFiguresRendered": true
+    },
+    {
+      "source": "2024_physics_units_12_exam.docx",
+      "key": "2024_physics_units_12_marking_guide (1).docx",
+      "questionsDetected": 20,
+      "imported": 20,
+      "file": "practice-studio-physics-2024-u12.json",
+      "keyFiguresRendered": true
+    }
+  ],
+  "held": [],
+  "duplicates": [],
+  "corrections": [
+    "Source heading Question 1 corrected to Question 18 by position and paired paper.",
+    "Marking correction: the source guide labels part (b) as 5 marks and the question as 6. Its six one-mark criteria for part (b), plus 1 mark for part (a), total 7 marks, matching the exam paper."
+  ],
+  "totalImported": 179,
+  "topicMapping": "Reviewed question-by-question",
+  "questionFigures": 139,
+  "markingMode": "Written answers and grouped questions are self-reviewed against the marking guide.",
+  "sourceDiagramFallback": "Full original Word marking guides are linked for source diagrams and annotations."
+}
