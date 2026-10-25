@@ -1,0 +1,72 @@
+/* Assessment workspace, sharing Practice Studio's palette and spacing. */
+body.assessment-studio{background:#f6f7f9;color:#273044}
+.assessment-studio .page-hero{background:transparent;border:0;padding:36px 0 20px}
+.assessment-studio .page-hero .inner{max-width:none;padding:0 32px}
+.assessment-studio .page-hero h1{font-size:clamp(26px,3vw,38px);line-height:1.2;letter-spacing:-1.2px;margin:10px 0;color:#242a3d}
+.assessment-studio .page-hero p{color:#7b8191;max-width:760px;font-size:14px;line-height:1.7}
+.assessment-studio .eyebrow{color:#7354dc;font-size:10px;letter-spacing:1.7px;font-weight:750}
+.assessment-studio main.section.content{max-width:none;width:100%;padding:8px 32px 40px;margin:0}
+.assessment-studio .builder,.assessment-studio.teacher-limited-builder .builder{display:grid;grid-template-columns:270px minmax(0,1fr);gap:24px;align-items:start}
+.assessment-studio .panel,.assessment-studio .bankpanel,.assessment-studio .paper{background:white;border:1px solid #e6e8ef;border-radius:16px;box-shadow:0 3px 15px #292c4003;padding:22px;min-width:0}
+.assessment-studio .builder>.panel{position:sticky;top:18px;max-height:calc(100dvh - 36px);overflow:auto;scrollbar-width:thin}
+.assessment-studio .panel-title{font-size:16px;letter-spacing:-.3px;margin:0 0 4px}
+.assessment-studio .panel-intro{font-size:12px;color:#89909f;margin:0 0 22px}
+.assessment-studio .field{margin-bottom:15px}
+.assessment-studio .field label{font-size:11px;font-weight:650;color:#70788b;margin-bottom:7px;letter-spacing:.15px}
+.assessment-studio .field input,.assessment-studio .field select,.assessment-studio .bankfilters :is(input,select){min-height:42px;border:1px solid #e6e8ef;border-radius:9px;background:#fbfbfd;color:#343d51;padding:10px 11px;box-shadow:none;font-size:12px;width:100%;max-width:100%}
+.assessment-studio .field :is(input,select):focus{outline:2px solid #b8a6f4;outline-offset:1px;border-color:#a28ae9}
+.assessment-studio .filter-divider{border:0;border-top:1px solid #eff0f5;margin:22px 0}
+.assessment-studio .advanced-filters{border-top:1px solid #eff0f5;margin:20px 0;padding-top:15px}
+.assessment-studio .advanced-filters summary{font-size:12px;color:#7354dc;font-weight:650;cursor:pointer;margin-bottom:14px}
+.assessment-studio .build,.assessment-studio .go,.assessment-studio .allq{background:#7354dc!important;color:white!important;border:0!important;border-radius:10px;padding:12px 16px;font-size:12px;font-weight:650;box-shadow:none}
+.assessment-studio .build{width:100%;min-height:44px}
+.assessment-studio .build:hover:not(:disabled){background:#6241ce!important}
+.assessment-studio .build:disabled{opacity:.4;cursor:not-allowed}
+.assessment-studio .notice,.assessment-studio #studioBuilderStatus{background:#f1edfc;color:#756594;border:1px solid #e9e2fb;font-size:11px;line-height:1.65;border-radius:10px;padding:12px 14px}
+.assessment-studio #studioBuilderStatus{margin:0 0 22px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.assessment-studio .builder-workspace{min-width:0}
+.assessment-studio .workspace-bar{display:flex;align-items:center;justify-content:space-between;gap:14px;margin:0 0 18px;flex-wrap:wrap}
+.assessment-studio .workspace-tabs{display:flex;gap:4px;padding:4px;background:#ebeaf1;border-radius:10px}
+.assessment-studio .workspace-tabs button{border:0;background:transparent;color:#83869a;padding:9px 14px;border-radius:7px;font-size:12px;font-weight:650;min-height:38px}
+.assessment-studio .workspace-tabs button[aria-selected=true]{background:white;color:#7354dc;box-shadow:0 2px 5px #292c4009}
+.assessment-studio .draft-counter{font-size:11px;color:#868b9b}
+.assessment-studio .bankpanel{position:static;max-height:none;overflow:visible}
+.assessment-studio .bankpanel h3{font-size:17px;letter-spacing:-.3px;margin:0 0 14px}
+.assessment-studio #bankList{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-items:start;max-height:none;overflow:visible}
+.assessment-studio .bankitem{margin:0;border:1px solid #e8e9f0;border-radius:12px;padding:18px;overflow-wrap:anywhere;min-width:0;line-height:1.7;font-size:13px;background:white}
+.assessment-studio .bankitem.selected{background:#fcfaff;border-color:#b4a1eb}
+.assessment-studio .bankitem .meta,.assessment-studio .meta,.assessment-studio .bankmeta{color:#9297a7;font-size:10px;line-height:1.7;margin-bottom:12px}
+.assessment-studio .bankitem>div:not(.meta){max-height:300px;overflow:auto;scrollbar-width:thin;padding-right:4px}
+.assessment-studio .bankitem img,.assessment-studio .q img{max-width:100%;height:auto}
+.assessment-studio .bankitem table,.assessment-studio .q table{max-width:100%;display:block;overflow:auto;border-collapse:collapse}
+.assessment-studio .bankitem :is(td,th),.assessment-studio .q :is(td,th){padding:7px;border:1px solid #e6e8ef}
+.assessment-studio .bankitem button,.assessment-studio .actions button,.assessment-studio #showAllCourseQuestions,.assessment-studio .editable-tools button,.assessment-studio .question-edit-btn{border:1px solid #e5dff7!important;color:#7354dc;background:#f7f4ff;border-radius:8px;padding:9px 12px;font-size:11px;font-weight:650;min-height:36px}
+.assessment-studio .bankitem>button{width:100%;margin-top:16px}
+.assessment-studio .bankitem>button[aria-pressed=true]{background:#eee8fc}
+.assessment-studio .paper{padding:30px;min-height:480px}
+.assessment-studio .paper #output.empty{padding:75px 24px;color:#9a9eac}
+.assessment-studio .empty h2{color:#3d4359;font-size:21px;letter-spacing:-.6px}
+.assessment-studio .empty p{font-size:13px;line-height:1.8}
+.assessment-studio .paper h2{font-size:22px;letter-spacing:-.5px}
+.assessment-studio .editable-tools{border:0;background:#faf9fd;border-radius:10px;padding:12px;margin-bottom:22px}
+.assessment-studio .qe-help{font-size:11px;color:#8b8c9d}
+.assessment-studio .q{padding:24px 0;border-color:#eeeef3;font-size:14px;line-height:1.8}
+.assessment-studio .qhead{font-size:14px;color:#41475d;margin-bottom:12px}
+.assessment-studio .editable-badge{background:#f0ecfc;color:#8c72ca;font-size:9px;border:0;border-radius:5px}
+.assessment-studio .builder-choice{gap:24px;margin-top:8px}
+.assessment-studio .builder-card{border:1px solid #e6e8ef;border-radius:16px;box-shadow:none;padding:28px}
+.assessment-studio .builder-card h2{font-size:22px;letter-spacing:-.6px;color:#33394e}
+.assessment-studio .builder-card p{font-size:13px;color:#89909f}
+.assessment-studio .stats h3{font-size:12px;color:#555e73}
+.assessment-studio .statrow strong{font-size:12px;color:#697188}.assessment-studio .statrow span{font-size:11px;color:#9398a7}
+.assessment-studio .total{font-size:12px;color:#7354dc}
+.assessment-studio .note{background:#eeebfc;border:0;color:#7d7198;font-size:12px;border-radius:14px}
+@media screen{.assessment-studio .workspace-inactive{display:none!important}}
+@media(min-width:1700px){.assessment-studio #bankList{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:1180px){.assessment-studio #bankList{grid-template-columns:1fr}.assessment-studio .builder{grid-template-columns:240px minmax(0,1fr)}}
+@media(max-width:760px){.assessment-studio .page-hero .inner{padding:0 20px}.assessment-studio main.section.content{padding:8px 20px 28px}.assessment-studio .builder,.assessment-studio.teacher-limited-builder .builder{grid-template-columns:1fr}.assessment-studio .builder>.panel{position:static;max-height:none}.assessment-studio .panel{display:grid;grid-template-columns:1fr 1fr;gap:0 14px}.assessment-studio .panel>:not(.field){grid-column:1/-1}.assessment-studio .paper{padding:20px}.assessment-studio .builder-workspace{grid-column:1/-1}.assessment-studio .builder-choice{grid-template-columns:1fr}.assessment-studio #studioBuilderStatus{align-items:start}}
+@media(max-width:400px){.assessment-studio .panel{display:block}.assessment-studio .workspace-tabs{width:100%}.assessment-studio .workspace-tabs button{flex:1;padding:9px}.assessment-studio .page-hero .inner{padding:0 14px}.assessment-studio main.section.content{padding:8px 14px 24px}}
+@media print{body.assessment-studio{padding:0!important;background:white!important}.assessment-studio .workspace-bar,.assessment-studio #studioBuilderStatus,.assessment-studio .panel,.assessment-studio .bankpanel,.assessment-studio footer{display:none!important}.assessment-studio .builder,.assessment-studio .builder-workspace{display:block!important}.assessment-studio .paper{display:block!important;min-height:0;border:0;padding:0;box-shadow:none}.assessment-studio main.section.content{padding:0}.assessment-studio .q table{display:table;overflow:visible}}
+
+.assessment-studio #bankList:empty::before{content:'No Practice Studio questions match this selection. Try another subject, year or filter.';grid-column:1/-1;padding:48px 24px;text-align:center;color:#9297a7;font-size:13px;line-height:1.8}
+.assessment-studio.lv-shell .page-hero{background:transparent!important;border:0;padding:30px 0 20px}
