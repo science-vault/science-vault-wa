@@ -32,6 +32,9 @@
   const session=model.session;if(!session)return;
   const entry=session.entries[session.cursor],item=find(entry.question);
   if(!item){running=false;notice='This question is no longer available for your account. End this session and start a new one.';paint();return}
+  if(session.mode==='recheck'&&model.skills[entry.skill]?.evidence.some(e=>e.question===entry.question)&&!Object.hasOwn(session.answers,entry.question)){
+   running=false;notice='This follow-up question has already been practised. End the session and start a fresh follow-up check.';paint();return;
+  }
   opening=true;
   try{await previousOpen(item.index)}finally{opening=false}
   if(model.session!==session||!running||!allowed(item.subject,item.year)){if(!$('modal').hidden)closePlayer();return}
