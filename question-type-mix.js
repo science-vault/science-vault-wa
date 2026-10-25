@@ -4,6 +4,7 @@
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const plain=s=>String(s??'').replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim();
 function classify(q){
+ if(q.studioSourceId)return q.type;
  const type=plain(q.type||q.questionType||'Written response').toLowerCase().replace(/[-_]/g,' ').replace(/\s+/g,' ');
  const section=plain(q.sourceSection||q.section||'').toLowerCase();
  if(/multiple\s*choice|^mcq$/.test(type))return'Multiple choice';
