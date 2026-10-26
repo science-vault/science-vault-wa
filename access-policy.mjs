@@ -1,7 +1,7 @@
 // Permission decisions use Firestore account documents, never a local role choice.
 export function canOpenPage(state,page){
  if(page.id==='index.html')return true;
- if(['file-directory.html','admin-activity.html'].includes(page.id))return !!state?.admin && !state?.error;
+ if(['file-directory.html','admin-activity.html','admin-reports.html'].includes(page.id))return !!state?.admin && !state?.error;
  if(!state?.user||state.error)return false;
  if(state.admin)return true;
  const member=state.member;
@@ -19,3 +19,4 @@ export function accessReason(state){
  if(state.member?.role==='teacher'&&!state.user.emailVerified)return'Verify your email on the account page before using your approved teacher access.';
  return'This page is not included in your account access. Contact the site owner if you need it.';
 }
+
