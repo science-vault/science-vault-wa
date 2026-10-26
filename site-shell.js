@@ -16,7 +16,7 @@
   const link=(href,label)=>`<a href="${href}"${page===href?' aria-current="page" class="active"':''}>${label}</a>`;
   const group=(name,links)=>`<details class="site-nav-menu"><summary>${name}</summary><div class="site-nav-dropdown">${links.map(([href,label])=>link(href,label)).join('')}</div></details>`;
   nav.id='siteNavigation';nav.setAttribute('aria-label','Main navigation');
-  nav.innerHTML=link('index.html','Home')+link('topic-hub.html','Lessons')+link('student-quiz.html','Practice Studio')+link('interactive-lab.html','Interactive Lab')+link('learning-quest.html','Learning Quest')+link('quiz-battle.html','Quiz Battle')+group('Resources',[
+  nav.innerHTML=link('index.html','Home')+link('topic-hub.html','Lessons')+link('student-quiz.html','Practice Studio')+link('interactive-lab.html','Interactive Lab')+group('Progress', [['leaderboard.html','Leaderboard'],['avatar.html','My avatar'],['learning-quest.html','Learning Quest'],['student-results.html','My results']])+link('quiz-battle.html','Quiz Battle')+group('Resources',[
    ['library.html','All resources'],['powerpoints.html','PowerPoints'],['worksheets.html','Worksheets'],['practicals.html','Practicals'],['notes.html','Notes'],['revision.html','Revision'],['videos.html','Videos'],['assessments.html','Assessments'],['exams.html','Exam papers'],['textbooks.html','Textbooks']
   ])+group('Teacher tools',[
    ['teacher-classes.html','Classes and progress'],['assessment-builders.html','Assessment builders'],['assessment-builder.html','Years 7–10 builder'],['upper-school-assessment-builder.html','Years 11–12 builder']
@@ -28,12 +28,13 @@
    const practiceLink=nav.querySelector('a[href="student-quiz.html"]');practiceLink?.after(local);
    document.querySelector('body>aside')?.remove();
   }
-  Promise.all([import('./access-client.mjs?v=2026.10.9-classes'),import('./access-policy.mjs?v=2026.10.9-classes'),import('./page-catalog.mjs?v=2026.10.24-discover')]).then(([client,policy,catalog])=>client.observeAccess(state=>{
+  Promise.all([import('./access-client.mjs?v=2026.10.9-classes'),import('./access-policy.mjs?v=2026.10.26-community1'),import('./page-catalog.mjs?v=2026.10.26-community1')]).then(([client,policy,catalog])=>client.observeAccess(state=>{
    const accountLink=nav.querySelector('[data-account-link]');if(accountLink)accountLink.textContent=state.user?'My account':'Log in / Sign up';
    if(!state.ready)return;
    nav.querySelectorAll('a:not([data-account-link])').forEach(a=>{const file=new URL(a.href,location.href).pathname.split('/').pop();const page=catalog.PAGES.find(p=>p.id===file);a.hidden=!!page&&!policy.canOpenPage(state,page)});
    nav.querySelectorAll('details').forEach(menu=>menu.hidden=![...menu.querySelectorAll('a')].some(a=>!a.hidden));fitNavigation();
    let adminLink=nav.querySelector('[data-admin-link]');if(state.admin&&!adminLink){adminLink=document.createElement('a');adminLink.href='admin-access.html';adminLink.dataset.adminLink='';adminLink.textContent='Admin';nav.insertBefore(adminLink,accountLink)}if(adminLink)adminLink.hidden=!state.admin;let directoryLink=nav.querySelector('[data-directory-link]');if(state.admin&&!directoryLink){directoryLink=document.createElement('a');directoryLink.href='file-directory.html';directoryLink.dataset.directoryLink='';directoryLink.textContent='File Directory';nav.insertBefore(directoryLink,accountLink)}if(directoryLink)directoryLink.hidden=!state.admin;
+   let reportsLink=nav.querySelector('[data-reports-link]');if(state.admin&&!reportsLink){reportsLink=document.createElement('a');reportsLink.href='admin-reports.html';reportsLink.dataset.reportsLink='';reportsLink.textContent='Error reports';nav.insertBefore(reportsLink,accountLink)}if(reportsLink)reportsLink.hidden=!state.admin;
    let activityLink=nav.querySelector('[data-activity-link]');if(state.admin&&!activityLink){activityLink=document.createElement('a');activityLink.href='admin-activity.html';activityLink.dataset.activityLink='';activityLink.textContent='Activity & traffic';nav.insertBefore(activityLink,accountLink)}if(activityLink)activityLink.hidden=!state.admin;
    const teacherTools=catalog.PAGES.some(p=>p.group==='Teacher tools'&&policy.canOpenPage(state,p));document.querySelectorAll('[data-teacher-only]').forEach(el=>el.hidden=!teacherTools);
   })).catch(()=>{});
@@ -47,10 +48,12 @@
   nav.querySelectorAll('details').forEach(el=>el.addEventListener('toggle',()=>{if(el.open)nav.querySelectorAll('details').forEach(other=>{if(other!==el)other.open=false})}));
   document.addEventListener('click',e=>{if(!bar.contains(e.target))close()});document.addEventListener('keydown',e=>{if(e.key==='Escape'){const wasOpen=bar.classList.contains('site-nav-open');close();if(wasOpen)toggle.focus()}});
   nav.querySelectorAll('a,[data-view]').forEach(a=>a.addEventListener('click',close));
+  import('./content-reports.mjs?v=2026.10.26-community1').catch(()=>{});import('./leaderboard-progress.mjs?v=2026.10.26-community1').catch(()=>{});
   const main=document.querySelector('main')||document.querySelector('.section.content');if(main){if(!main.id)main.id='main-content';const skip=document.createElement('a');skip.className='site-skip';skip.href='#'+main.id;skip.textContent='Skip to content';document.body.prepend(skip)}
  }
  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',setup);else setup();
 })();
+
 
 
 
