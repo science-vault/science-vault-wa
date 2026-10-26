@@ -248,9 +248,55 @@ service cloud.firestore {
    allow update, delete: if false;
   }
 
+
+  // Reports are private to their author and the administrator.
+  match /contentReports/{reportId} {
+   allow read: if isAdmin() || (signedIn() && resource.data.uid == request.auth.uid);
+   allow create: if signedIn() && (active() || isAdmin())
+    && request.resource.data.keys().hasOnly(['uid','displayName','role','category','details','status','adminNote','kind','contentId','title','subject','year','unit','section','url','excerpt','createdAt','updatedAt'])
+    && request.resource.data.uid == request.auth.uid
+    && request.resource.data.displayName is string && request.resource.data.displayName.size() <= 60
+    && request.resource.data.displayName == (exists(/databases/$(database)/documents/members/$(request.auth.uid)) ? member().displayName : 'Admin')
+    && request.resource.data.role == (isAdmin() ? 'admin' : member().role)
+    && request.resource.data.category in ['Incorrect question','Incorrect answer or marking guide','Missing information','Image or diagram error','Typing or formatting error','Technical problem','Other']
+    && request.resource.data.details is string && request.resource.data.details.size() >= 10 && request.resource.data.details.size() <= 2000
+    && request.resource.data.status == 'open' && request.resource.data.adminNote == ''
+    && request.resource.data.kind in ['question','lesson','page']
+    && request.resource.data.contentId is string && request.resource.data.contentId.size() <= 180
+    && request.resource.data.title is string && request.resource.data.title.size() <= 180
+    && request.resource.data.subject is string && request.resource.data.subject.size() <= 120
+    && request.resource.data.year in [0,7,8,9,10,11,12]
+    && request.resource.data.unit is string && request.resource.data.unit.size() <= 160
+    && request.resource.data.section is int && request.resource.data.section >= 0 && request.resource.data.section <= 2000
+    && request.resource.data.url is string && request.resource.data.url.size() <= 1500
+    && request.resource.data.excerpt is string && request.resource.data.excerpt.size() <= 1500
+    && request.resource.data.createdAt == request.time && request.resource.data.updatedAt == request.time;
+   allow update: if isAdmin() && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status','adminNote','updatedAt'])
+    && request.resource.data.status in ['open','in_review','resolved','dismissed']
+    && request.resource.data.adminNote is string && request.resource.data.adminNote.size() <= 1000
+    && request.resource.data.updatedAt == request.time;
+   allow delete: if false;
+  }
+  // Subject participation XP stays inside the student's own classes.
+  match /classes/{code}/subjectLeaderboards/{scope}/students/{uid} {
+   allow read: if owner(code) || enrolled(code) || isAdmin();
+   allow create, update: if enrolled(code) && uid == request.auth.uid
+    && scope.matches('^[a-z0-9-]{1,100}$')
+    && request.resource.data.keys().hasOnly(['displayName','xp','level','subject','updatedAt'])
+    && request.resource.data.displayName == member().displayName
+    && request.resource.data.subject is string && request.resource.data.subject.size() <= 120
+    && ((member().yearGroup <= 10 && request.resource.data.subject == 'Science') || request.resource.data.subject in member().subjects)
+    && request.resource.data.xp is int && request.resource.data.xp >= 0 && request.resource.data.xp <= 10000000
+    && request.resource.data.level is int && request.resource.data.level == int(request.resource.data.xp / 250) + 1
+    && request.resource.data.updatedAt == request.time
+    && (!exists(/databases/$(database)/documents/classes/$(code)/subjectLeaderboards/$(scope)/students/$(uid)) || request.resource.data.xp >= resource.data.xp);
+   allow delete: if false;
+  }
+
   match /{document=**} { allow read, write: if false; }
  }
 }
+
 
 
 
