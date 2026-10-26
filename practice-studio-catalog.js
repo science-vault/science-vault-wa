@@ -1,6 +1,6 @@
 /* Shared by Practice Studio and the assessment builder. Add new imported banks here. */
 (function(root){
- const indices=['practice-studio-physics-index.json','practice-studio-physics-year11-index.json','practice-studio-human-biology-index.json','practice-studio-human-biology-year11-index.json','practice-studio-chemistry-year11-index.json','practice-studio-methods-year11-index.json'];
+ const indices=['practice-studio-physics-index.json','practice-studio-physics-year11-index.json','practice-studio-human-biology-index.json','practice-studio-human-biology-year11-index.json','practice-studio-chemistry-year11-index.json','practice-studio-methods-year11-index.json','practice-studio-methods-year12-index.json'];
  const types={Physics:['Short answer','Calculations','Comprehension'],'Human Biology':['Multiple choice','Short answer','Extended answer'],Chemistry:['Multiple choice','Short answer','Extended answer'],'Mathematics Methods':['Calculator-free','Calculator-assumed']};
  function normalise(meta){
   if(meta.subject!=='Physics')return meta;
@@ -10,3 +10,4 @@
  }
  root.PracticeStudioCatalog={indices,types,normalise};
 })(typeof window==='undefined'?globalThis:window);
+
