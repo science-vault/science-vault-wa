@@ -293,6 +293,41 @@ service cloud.firestore {
    allow delete: if false;
   }
 
+  // Shared participation standings contain no email, class membership or activity details.
+  function validWebsitePoints(d) {
+   return d.displayName == member().displayName
+    && d.xp is int && d.xp >= 0 && d.xp <= 10000000
+    && d.level is int && d.level == int(d.xp / 250) + 1
+    && d.updatedAt == request.time;
+  }
+  function websiteSubjectScope(subject) {
+   let scopes = {'Science':'science','Geography ATAR':'geography','Business Management and Enterprise ATAR':'business-management-and-enterprise','Accounting and Finance ATAR':'accounting-and-finance','Physics ATAR':'physics','Chemistry ATAR':'chemistry','Biology ATAR':'biology','Human Biology ATAR':'human-biology','Psychology ATAR':'psychology','Mathematics Methods ATAR':'mathematics-methods','Mathematics Specialist ATAR':'mathematics-specialist','Mathematics Applications ATAR':'mathematics-applications','English ATAR':'english','Physical Education Studies ATAR':'physical-education-studies'};
+   return scopes[subject];
+  }
+  match /websiteLeaderboard/{uid} {
+   allow read: if isAdmin() || active();
+   allow create, update: if active() && request.auth.uid == uid
+    && member().role in ['student','teacher']
+    && request.resource.data.keys().hasOnly(['displayName','xp','level','updatedAt'])
+    && validWebsitePoints(request.resource.data)
+    && (!exists(/databases/$(database)/documents/websiteLeaderboard/$(uid)) || request.resource.data.xp >= resource.data.xp);
+   allow delete: if false;
+  }
+  match /subjectLeaderboards/{scope}/participants/{uid} {
+   allow read: if isAdmin() || active();
+   allow create, update: if active() && request.auth.uid == uid
+    && member().role in ['student','teacher']
+    && request.resource.data.keys().hasOnly(['displayName','xp','level','subject','updatedAt'])
+    && request.resource.data.subject is string
+    && scope == websiteSubjectScope(request.resource.data.subject)
+    && (member().role == 'teacher'
+     || (member().yearGroup <= 10 && request.resource.data.subject == 'Science')
+     || request.resource.data.subject in member().subjects)
+    && validWebsitePoints(request.resource.data)
+    && (!exists(/databases/$(database)/documents/subjectLeaderboards/$(scope)/participants/$(uid)) || request.resource.data.xp >= resource.data.xp);
+   allow delete: if false;
+  }
+
   match /{document=**} { allow read, write: if false; }
  }
 }
