@@ -3,7 +3,7 @@
   "lessons": [
     {
       "id": "hb-u4-ppt-1-dna-alleles-and-genes",
-      "title": "1. DNA Alleles and Genes(1)",
+      "title": "DNA Alleles and Genes",
       "file": "1. DNA Alleles and Genes(1).pptx",
       "pdf": "https://raw.githubusercontent.com/science-vault/science-vault-wa/769f8dd1ce5a5ad9b40240a4c452319cf7eea7e0/1-dna-alleles-and-genes.pdf",
       "slides": [
@@ -112,11 +112,12 @@
           "title": "",
           "text": "Other times human karyotypes are shown as the chromosomes would appear just before cell division, when the chromosomes have replicated:\nLearning Aim:  Review karyotypes"
         }
-      ]
+      ],
+      "order": 1
     },
     {
       "id": "hb-u4-ppt-2-meiosis-and-sources-of-variation",
-      "title": "2. Meiosis and Sources of Variation(1)",
+      "title": "Meiosis and Sources of Variation",
       "file": "2. Meiosis and Sources of Variation(1).pptx",
       "pdf": "https://raw.githubusercontent.com/science-vault/science-vault-wa/769f8dd1ce5a5ad9b40240a4c452319cf7eea7e0/2-meiosis-and-sources-of-variation.pdf",
       "slides": [
@@ -165,11 +166,12 @@
           "title": "New Variations and Survival",
           "text": "New Variations and Survival\nSome variations can be an advantage because:\n\nSome of the population is likely to survive during adversity eg:\n\nPeople who store fat easily more likely to survive famine\nPeople who have extra body hair more likely to survive an ice age\nPeople heterozygous for sickle cell anaemia don’t get malaria as badly.\n"
         }
-      ]
+      ],
+      "order": 2
     },
     {
       "id": "hb-u4-ppt-3-mutations-and-gene-pools",
-      "title": "3. Mutations and Gene Pools(1)",
+      "title": "Mutations and Gene Pools",
       "file": "3. Mutations and Gene Pools(1).pptx",
       "pdf": "https://raw.githubusercontent.com/science-vault/science-vault-wa/769f8dd1ce5a5ad9b40240a4c452319cf7eea7e0/3-mutations-and-gene-pools.pdf",
       "slides": [
@@ -268,11 +270,12 @@
           "title": "Inherited disease from gene mutation – Lethal Recessives Example:  Tay-Sachs Disease",
           "text": "Because people who are affected die before they can reproduce, proportion of lethal recessive alleles in the gene pool will slowly reduce, unless the population is small (with a higher chance of two carriers reproducing).\n\nTay-Sachs mutation exists at a higher frequency in Ashkenazi Jews, a small population who usually marry others from the group \n\nGene frequency of the lethal allele is higher in these populations than the general population.\n1 in 29 Ashkenazi Jews carry the Tay-Sachs allele\n1 in in 250 people in the general population carry the Tay-Sachs allele.\nInherited disease from gene mutation – Lethal Recessives Example:  Tay-Sachs Disease\nLearning Aim: Define the term “lethal recessive” and give an example."
         }
-      ]
+      ],
+      "order": 3
     },
     {
       "id": "hb-u4-ppt-4-chromosomal-mutations",
-      "title": "4. Chromosomal Mutations(1)",
+      "title": "Chromosomal Mutations",
       "file": "4. Chromosomal Mutations(1).pptx",
       "pdf": "https://raw.githubusercontent.com/science-vault/science-vault-wa/769f8dd1ce5a5ad9b40240a4c452319cf7eea7e0/4-chromosomal-mutations.pdf",
       "slides": [
@@ -316,11 +319,12 @@
           "title": " In-utero diagnosis of Chromosomal Abnormalities",
           "text": " In-utero diagnosis of Chromosomal Abnormalities\nBy amniocentesis\nBlood sample analysis\nPlacental sample analysis\nCan provide parents with information to assist with planning for child, or decision to terminate pregnancy,\nLearning Aim: List methods for in utero detection of chromosomal abnormalities. "
         }
-      ]
+      ],
+      "order": 4
     },
     {
       "id": "hb-u4-ppt-5-changes-to-allele-frequencies-in-gene-pools",
-      "title": "5. Changes to Allele Frequencies in Gene Pools(1)",
+      "title": "Changes to Allele Frequencies in Gene Pools",
       "file": "5. Changes to Allele Frequencies in Gene Pools(1).pptx",
       "pdf": "https://raw.githubusercontent.com/science-vault/science-vault-wa/769f8dd1ce5a5ad9b40240a4c452319cf7eea7e0/5-changes-to-allele-frequencies-in-gene-pools.pdf",
       "slides": [
@@ -399,11 +403,12 @@
           "title": "Bottleneck effect example:  Pingelap",
           "text": "Bottleneck effect example:  Pingelap\nPingelap:  island in Micronesia\n1775:  typhoon wiped population down to 20 individuals\nAmong survivors:  one person who carried allele for achromatopsia (total colour blindness)\nAfter multiple generations:\nincidence of achromatopsia on Pingelap is 5%\n30% of population carriers.\nCompare to rest of world: incidence 0.0033%\nLearning Aim: Give an example of the Bottleneck Effect."
         }
-      ]
+      ],
+      "order": 5
     },
     {
       "id": "hb-u4-ppt-6-theory-of-evolution-through-natural-selection",
-      "title": "6. Theory of Evolution through Natural Selection(1)",
+      "title": "Theory of Evolution through Natural Selection",
       "file": "6. Theory of Evolution through Natural Selection(1).pptx",
       "pdf": "https://raw.githubusercontent.com/science-vault/science-vault-wa/769f8dd1ce5a5ad9b40240a4c452319cf7eea7e0/6-theory-of-evolution-through-natural-selection.pdf",
       "slides": [
@@ -517,11 +522,12 @@
           "title": "Galapagos Finches and Speciation",
           "text": "Galapagos Finches and Speciation\nLearning Aim: Discuss how speciation occurred for finches on the Galapagos Islands"
         }
-      ]
+      ],
+      "order": 6
     },
     {
       "id": "hb-u4-ppt-7-heterozygote-advantage",
-      "title": "7. Heterozygote Advantage(1)",
+      "title": "Heterozygote Advantage",
       "file": "7. Heterozygote Advantage(1).pptx",
       "pdf": "https://raw.githubusercontent.com/science-vault/science-vault-wa/769f8dd1ce5a5ad9b40240a4c452319cf7eea7e0/7-heterozygote-advantage.pdf",
       "slides": [
@@ -575,11 +581,12 @@
           "title": "Heterozygote Advantage Example 3:  Tay Sachs Disease",
           "text": "Lethal recessive trait \nFaulty allele for production of enzyme hexosaminidase, involved in lipid metabolism\nInheriting no faulty alleles (homozygous dominant)\nEnzyme is correctly produced, no disease\n\nInheriting one faulty allele (heterozygous)\nNo disease as the working allele produces the hexosaminidase.\nAllele can be passed to offspring\nHeterozygote advantage in areas where tuberculosis is present\n\nInheriting two faulty alleles (homozygous recessive) \nBuildup of lipids called gangliosides in the brain\nProgressive deterioration of CNS activity\nDeath in infancy or early childhood\n\n\n\n\n\n\n\n\n\n\n\nHeterozygote Advantage Example 3:  Tay Sachs Disease\nIn most populations, the most advantageous genotype is to be carrying no alleles for Tay-Sachs.  For this reason, the allele decreases in the population over time. In communities with tuberculosis, people heterozygous for Tay Sachs disease are less likely to get tuberculosis.  In this case, being heterozygous is a survival advantage.  \n\nIn small populations affected by tuberculosis, the allele frequency will rise in the population.\nLearning Aim:  Discuss causes, inheritance and symptoms of Tay-Sachs Disease, and explain why allele frequency may rise in areas where Tuberculosis is present"
         }
-      ]
+      ],
+      "order": 7
     },
     {
       "id": "hb-u4-ppt-1-intro-and-pcr",
-      "title": "1. Intro and PCR",
+      "title": "Intro and PCR",
       "file": "1. Intro and PCR.pptx",
       "pdf": "https://raw.githubusercontent.com/science-vault/science-vault-wa/769f8dd1ce5a5ad9b40240a4c452319cf7eea7e0/1-intro-and-pcr.pdf",
       "slides": [
@@ -643,7 +650,8 @@
           "title": "Applications of PCR",
           "text": "Applications of PCR\nAmplifies DNA samples for:\nForensic identification using gel electrophoresis\nCloning to use in recombinant DNA technology\nSequencing of DNA to identify genetic diseases\nTo test for the presence of bacterial or viral DNA/RNA to diagnose disease (eg COVID!)\n\n\n\n\nLearning Aim:  List applications of PCR"
         }
-      ]
+      ],
+      "order": 8
     },
     {
       "id": "hb-u4-ppt-gel-electro-bio-ppt",
@@ -811,7 +819,8 @@
           "title": "Activities",
           "text": "Activities\nQS 6.5, p194\nApplication 6.2, “Superb fairy wrens – not as faithful as you thought!”, p194"
         }
-      ]
+      ],
+      "order": 9
     },
     {
       "id": "hb-u4-ppt-gel-electrophoresis-ppt",
@@ -934,11 +943,12 @@
           "title": "Interpreting Results- example separation",
           "text": "Interpreting Results- example separation\nLadder at well No. 5\nStarting point at well\n\n\n1      2     3     4     5     6\n\n\nUnknown dye in well  No.6 had the same dye as well No.4\nWells 1 – 4 have known dyes\nMS 062018"
         }
-      ]
+      ],
+      "order": 10
     },
     {
       "id": "hb-u4-ppt-2-dna-sequencing",
-      "title": "2. DNA Sequencing",
+      "title": "DNA Sequencing",
       "file": "2. DNA Sequencing.pptx",
       "pdf": "https://raw.githubusercontent.com/science-vault/science-vault-wa/769f8dd1ce5a5ad9b40240a4c452319cf7eea7e0/2-dna-sequencing.pdf",
       "slides": [
@@ -1012,11 +1022,12 @@
           "title": "Activity:  Modelling Sanger Sequencing",
           "text": "Activity:  Modelling Sanger Sequencing\nGet into groups of 3.  Each group will model one of the four reaction mixtures. \nGather your equipment.  Each person in the group will need:\nThe “template strand for the sequence of interest” on paper.  You will need lots of these.\nA container of “free nucleotides” – counters in different colours.\nA pen.\nA pair of scissors.\nYour teacher will give you a “ddntp terminator base” for the reaction mixture your group is modelling.\n3.        a. \tPlace a template strand in front of you.  Randomly pull a nucleotide from the container, without looking.  If it does \tnot bond with the first base after the primer, put it back.\n           b. \tKeep pulling nucleotides out until you get one that matches, then write it in the box and put the counter back.\n           c.\tRepeat for the nucleotides in sequence until a terminator base is added.  Write it in the box, then use the scissors \tto cut the template strand just after the terminator base.  Put the strand aside for later.\n\nRepeat Step 3 with a new template strand, until you run out of time or template strands. \nYour teacher will collate the strands for the whole class, and  model electrophoresis and reading of the sequence.\n\n"
         }
-      ]
+      ],
+      "order": 11
     },
     {
       "id": "hb-u4-ppt-3-recombinant-dna-technology-review",
-      "title": "3. Recombinant DNA Technology Review",
+      "title": "Recombinant DNA Technology Review",
       "file": "3. Recombinant DNA Technology Review.pptx",
       "pdf": "https://raw.githubusercontent.com/science-vault/science-vault-wa/769f8dd1ce5a5ad9b40240a4c452319cf7eea7e0/3-recombinant-dna-technology-review.pdf",
       "slides": [
@@ -1080,11 +1091,12 @@
           "title": "Examples of use continued",
           "text": "Examples of use continued\nHuman Growth Hormone\nNow produced by genetically engineered E. coli bacteria\nUsed to treat lack of growth hormone in pituitary disorders\nAlso used in dairy cattle to increase milk production\n\nNote:  the process for making synthetic Human Growth Hormone using Recombinant DNA technology is exactly the same as for making synthetic insulin, except the gene for Growth Hormone is isolated and worked with, not the gene for insulin.\nLearning Aim:  Describe in detail the sequence of events involved in producing synthetic insulin"
         }
-      ]
+      ],
+      "order": 12
     },
     {
       "id": "hb-u4-ppt-4-gene-therapy-cell-replacement-therapy-tissue-engineering-review",
-      "title": "4. Gene Therapy Cell Replacement Therapy Tissue Engineering Review",
+      "title": "Gene Therapy Cell Replacement Therapy Tissue Engineering Review",
       "file": "4. Gene Therapy Cell Replacement Therapy Tissue Engineering Review.pptx",
       "pdf": "https://raw.githubusercontent.com/science-vault/science-vault-wa/769f8dd1ce5a5ad9b40240a4c452319cf7eea7e0/4-gene-therapy-cell-replacement-therapy-tissue-engineering-review.pdf",
       "slides": [
@@ -1128,11 +1140,12 @@
           "title": "Tissue Engineering",
           "text": "Tissue Engineering\nAlso uses stem cells to:\nRestore healthy tissues or organs\nEliminate the need for transplants and implants\n\nCells grown over natural or synthetic scaffold to make new organ or tissue\nScaffolds need to have\nHigh pore sizes so cells can grow and nutrients can diffuse\nBe degradable so they break down as the cells grow\nStem cells must be cultured \nSeeded onto scaffold\nCould be used to develop tissues such as bone, skin, cartilage, adipose tissue."
         }
-      ]
+      ],
+      "order": 13
     },
     {
       "id": "hb-u4-ppt-1-dna-evidence-erv-mtdna",
-      "title": "1. DNA Evidence ERV MtDNA",
+      "title": "DNA Evidence ERV MtDNA",
       "file": "1. DNA Evidence ERV MtDNA.pptx",
       "pdf": "https://raw.githubusercontent.com/science-vault/science-vault-wa/769f8dd1ce5a5ad9b40240a4c452319cf7eea7e0/1-dna-evidence-erv-mtdna.pdf",
       "slides": [
@@ -1181,11 +1194,12 @@
           "title": "",
           "text": "mtDNA: important tool in mapping relationships between species\nVerifies other evidence\neg:  examination shows that last common ancestor of modern humans and neanderthals lived around 600 000 years ago.\n(This does not mean that the last neanderthal was then.  Why?)\nLearning Aim: Describe how mtDNA can be used to map relatedness between organisms."
         }
-      ]
+      ],
+      "order": 14
     },
     {
       "id": "hb-u4-ppt-2-dna-evidence-protein-sequencing",
-      "title": "2. DNA Evidence Protein Sequencing",
+      "title": "DNA Evidence Protein Sequencing",
       "file": "2. DNA Evidence Protein Sequencing.pptx",
       "pdf": "https://raw.githubusercontent.com/science-vault/science-vault-wa/769f8dd1ce5a5ad9b40240a4c452319cf7eea7e0/2-dna-evidence-protein-sequencing.pdf",
       "slides": [
@@ -1249,7 +1263,8 @@
           "title": "",
           "text": "Tree of Life Explorer Website:https://www.onezoom.org/\n\nLearning Aim:  Explore some ways that evolutionary relationships between living things can be represented "
         }
-      ]
+      ],
+      "order": 15
     },
     {
       "id": "hb-u4-ppt-comparative-studies-in-biochemistry",
@@ -1287,11 +1302,12 @@
           "title": "Comparative Studies in Biochemistry - DNA",
           "text": "Comparative Studies in Biochemistry - DNA\nPCR can be used to amplify tiny amounts of DNA\nFacilitates sequencing\nAllows small amounts of DNA from fossil record to be analysed\nElectrophoresis \nAlso used to create profile and compare\nBacterial enzymes (restriction enzymes)\nUsed to cut up DNA to sequence it. \n\n\n** Processes are a key part of sequencing DNA for analysis of relatedness between species\n"
         }
-      ]
+      ],
+      "order": 16
     },
     {
       "id": "hb-u4-ppt-3-fossil-evidence-for-evolution-1",
-      "title": "3. Fossil evidence for evolution 1",
+      "title": "Fossil evidence for evolution 1",
       "file": "3. Fossil evidence for evolution 1.pptx",
       "pdf": "https://raw.githubusercontent.com/science-vault/science-vault-wa/769f8dd1ce5a5ad9b40240a4c452319cf7eea7e0/3-fossil-evidence-for-evolution-1.pdf",
       "slides": [
@@ -1370,11 +1386,12 @@
           "title": "Absolute Dating:  Carbon-14 / Radiocarbon dating",
           "text": "Absolute Dating:  Carbon-14 / Radiocarbon dating\nNormal method requires 3 grams of carbon\nNewer technique:  Accelerator Mass Spectrometry (AMS) radiocarbon dating – can work with 100ug.\nCan date using tiny samples \nLimitations of Radiocarbon dating:\nAfter 70000 years, not much of sample left\nCan only use for samples younger than this\nMaterial tested must contain Carbon.\nSome margin of error due to fluctuating Carbon-14 in the atmosphere\nLearning Aim: Describe how Radiocarbon dating works and discuss its limitations"
         }
-      ]
+      ],
+      "order": 17
     },
     {
       "id": "hb-u4-ppt-4-fossil-evidence-for-evolution-2",
-      "title": "4. Fossil Evidence for Evolution 2",
+      "title": "Fossil Evidence for Evolution 2",
       "file": "4. Fossil Evidence for Evolution 2.pptx",
       "pdf": "https://raw.githubusercontent.com/science-vault/science-vault-wa/769f8dd1ce5a5ad9b40240a4c452319cf7eea7e0/4-fossil-evidence-for-evolution-2.pdf",
       "slides": [
@@ -1448,7 +1465,8 @@
           "title": "Stratigraphy – Fossil Pollen Grain Analysis",
           "text": "Stratigraphy – Fossil Pollen Grain Analysis\nPollen is produced by flowering plants and is unique to each species of plant.\nCan be seen under a microscope.\nFossil pollen grains:\nSome useful as Index Fossils (if plant was widespread but only around for a short time period)\nCan be used to get a picture of type and amount of vegetation present at the time the fossils formed.\nCan be used to infer information about climate.\nCan then be used to confirm relative dates\nLearning Aim:  Describe the use of fossil pollen grains in stratigraphy."
         }
-      ]
+      ],
+      "order": 18
     },
     {
       "id": "hb-u4-ppt-fossil-evidence-for-evolution-cont",
@@ -1536,11 +1554,12 @@
           "title": "Problems with the fossil record",
           "text": "Problems with the fossil record\nIncomplete: few fossils formed as specific conditions required:\nQuick burial\nPresence of hard body parts, or imprint\nAbsence of decay organisms\nLong period of stability\nCorrect environmental conditions eg soil pH\nOnly some fossils formed get found\nDating material can be problematic in some cases\nFossils often incomplete\n"
         }
-      ]
+      ],
+      "order": 19
     },
     {
       "id": "hb-u4-ppt-6-comparative-studies-in-anatomy-and-other-evidence",
-      "title": "6. Comparative studies in anatomy and other evidence",
+      "title": "Comparative studies in anatomy and other evidence",
       "file": "6. Comparative studies in anatomy and other evidence.pptx",
       "pdf": "https://raw.githubusercontent.com/science-vault/science-vault-wa/769f8dd1ce5a5ad9b40240a4c452319cf7eea7e0/6-comparative-studies-in-anatomy-and-other-evidence.pdf",
       "slides": [
@@ -1589,7 +1608,8 @@
           "title": "Geographical Distribution: Humans, Primates and evidence",
           "text": "Geographical Distribution: Humans, Primates and evidence\nHumans most resemble chimpanzees and gorillas.\n\nTherefore can infer and hypothesise that the common ancestor  of Great Apes and Humans most likely lived in place where chimps and gorillas are (Africa) rather than where lemurs or New World Monkeys are.\n\nThis has been shown to be true – discovery of ancestral fossils in African Rift Valley.\nLearning Aim: Give examples to show how geographical distribution of similar species can provide evidence of common ancestry."
         }
-      ]
+      ],
+      "order": 20
     },
     {
       "id": "hb-u4-ppt-comparative-studies-in-anatomy-and-other-evidence",
@@ -1662,11 +1682,61 @@
           "title": "Humans, Primates and evidence",
           "text": "Humans, Primates and evidence\nHumans most resemble chimpanzees and gorillas\nTherefore hypothesis that common ancestor most likely lived in place where chimps and gorillas are (Africa) rather than where lemurs or New World Monkeys are.\nThis has been shown to be true – discovery of ancestral fossils in African Rift Valley."
         }
-      ]
+      ],
+      "order": 21
+    },
+    {
+      "id": "hb-u4-ppt-primate-classification-and-characteristics-old-version",
+      "title": "Primate Classification and Characteristics old version",
+      "file": "Primate Classification and Characteristics old version.pptx",
+      "pdf": "https://raw.githubusercontent.com/science-vault/science-vault-wa/769f8dd1ce5a5ad9b40240a4c452319cf7eea7e0/primate-classification-and-characteristics-old-version.pdf",
+      "slides": [
+        {
+          "sourceSlide": 1,
+          "title": "Primate Evolution",
+          "text": "Primate Evolution\nIntro\nWhat are Primates?\nClassifying Primates\nCharacteristics of Primates"
+        },
+        {
+          "sourceSlide": 2,
+          "title": "What are Primates?",
+          "text": "What are Primates?\nThe Order of animals that includes Humans\nAlso includes:\nGreat Apes\nGibbons\nMonkeys\nLemurs\nLorises\nTarsiers\nNon-human primates are our closest living relatives, so can compare to see how human characteristics may have evolved.\nComparative anatomy\nComparative biochemistry\nBehaviour of living primates\nFossils of primates\n"
+        },
+        {
+          "sourceSlide": 3,
+          "title": "",
+          "text": ""
+        },
+        {
+          "sourceSlide": 4,
+          "title": "Classification and hierarchy",
+          "text": "Classification and hierarchy\n"
+        },
+        {
+          "sourceSlide": 5,
+          "title": "",
+          "text": "\n"
+        },
+        {
+          "sourceSlide": 6,
+          "title": "",
+          "text": ""
+        },
+        {
+          "sourceSlide": 7,
+          "title": "Classifying primates",
+          "text": "Classifying primates\nClassification is a dynamic process: as new information comes to light, classification of an organism may change.\nEg:\nEarlier classification divided primates into two groups:\nSimians (humans and human-like primates)\nProsimians (primitive primates)\nTarsiers were included with prosimians, based on physical characteristics\nBased on studies of protein sequences and DNA:\nMost scientists now classify Tarsiers as more closely related to monkeys, apes and humans\nHumans: classified in same family as great apes – we have very similar DNA and many shared characteristics.\n"
+        },
+        {
+          "sourceSlide": 8,
+          "title": "Primate Characteristics",
+          "text": "Primate Characteristics\nMain features:  combination of  grasping fingers and toes, and overlapping binocular vision  - distinctive to primates.\n"
+        }
+      ],
+      "order": 22
     },
     {
       "id": "hb-u4-ppt-7-primate-evolutionary-trends",
-      "title": "7. Primate Evolutionary Trends",
+      "title": "Primate Evolutionary Trends",
       "file": "7. Primate Evolutionary Trends.pptx",
       "pdf": "https://raw.githubusercontent.com/science-vault/science-vault-wa/769f8dd1ce5a5ad9b40240a4c452319cf7eea7e0/7-primate-evolutionary-trends.pdf",
       "slides": [
@@ -1780,55 +1850,8 @@
           "title": "",
           "text": "Learning Aim: Discuss evolutionary trends in primates."
         }
-      ]
-    },
-    {
-      "id": "hb-u4-ppt-primate-classification-and-characteristics-old-version",
-      "title": "Primate Classification and Characteristics old version",
-      "file": "Primate Classification and Characteristics old version.pptx",
-      "pdf": "https://raw.githubusercontent.com/science-vault/science-vault-wa/769f8dd1ce5a5ad9b40240a4c452319cf7eea7e0/primate-classification-and-characteristics-old-version.pdf",
-      "slides": [
-        {
-          "sourceSlide": 1,
-          "title": "Primate Evolution",
-          "text": "Primate Evolution\nIntro\nWhat are Primates?\nClassifying Primates\nCharacteristics of Primates"
-        },
-        {
-          "sourceSlide": 2,
-          "title": "What are Primates?",
-          "text": "What are Primates?\nThe Order of animals that includes Humans\nAlso includes:\nGreat Apes\nGibbons\nMonkeys\nLemurs\nLorises\nTarsiers\nNon-human primates are our closest living relatives, so can compare to see how human characteristics may have evolved.\nComparative anatomy\nComparative biochemistry\nBehaviour of living primates\nFossils of primates\n"
-        },
-        {
-          "sourceSlide": 3,
-          "title": "",
-          "text": ""
-        },
-        {
-          "sourceSlide": 4,
-          "title": "Classification and hierarchy",
-          "text": "Classification and hierarchy\n"
-        },
-        {
-          "sourceSlide": 5,
-          "title": "",
-          "text": "\n"
-        },
-        {
-          "sourceSlide": 6,
-          "title": "",
-          "text": ""
-        },
-        {
-          "sourceSlide": 7,
-          "title": "Classifying primates",
-          "text": "Classifying primates\nClassification is a dynamic process: as new information comes to light, classification of an organism may change.\nEg:\nEarlier classification divided primates into two groups:\nSimians (humans and human-like primates)\nProsimians (primitive primates)\nTarsiers were included with prosimians, based on physical characteristics\nBased on studies of protein sequences and DNA:\nMost scientists now classify Tarsiers as more closely related to monkeys, apes and humans\nHumans: classified in same family as great apes – we have very similar DNA and many shared characteristics.\n"
-        },
-        {
-          "sourceSlide": 8,
-          "title": "Primate Characteristics",
-          "text": "Primate Characteristics\nMain features:  combination of  grasping fingers and toes, and overlapping binocular vision  - distinctive to primates.\n"
-        }
-      ]
+      ],
+      "order": 23
     },
     {
       "id": "hb-u4-ppt-primate-evolutionary-trends-old-version",
@@ -1951,11 +1974,12 @@
           "title": "",
           "text": ""
         }
-      ]
+      ],
+      "order": 24
     },
     {
       "id": "hb-u4-ppt-1-adaptations-for-bipedalism-and-erect-posture",
-      "title": "1. Adaptations for Bipedalism and Erect Posture",
+      "title": "Adaptations for Bipedalism and Erect Posture",
       "file": "1. Adaptations for Bipedalism and Erect Posture.pptx",
       "pdf": "https://raw.githubusercontent.com/science-vault/science-vault-wa/769f8dd1ce5a5ad9b40240a4c452319cf7eea7e0/1-adaptations-for-bipedalism-and-erect-posture.pdf",
       "slides": [
@@ -2054,11 +2078,12 @@
           "title": "Adaptations for Bipedalism – Striding Gait ",
           "text": "Adaptations for Bipedalism – Striding Gait \nWalking upright with hip and knee fully straightened.\nOnly bipedal hominins (humans and extinct recent ancestors) have this form of locomotion.\nOther hominids bend forward at hips, knees bent, swaying gait.\nArches of bipedal foot allow rolling movement, heel to big toe\nHuman big toe no longer prehensile or opposable: allows stability for weight-bearing in striding gait.\nTrunk rotates around pelvis\nArms swing forwards\nShoulders at right angles to direction of movement\nArrangement of femurs allows weight distribution close to central axis\n\n\n\n\nLearning Aim: Describe how gait is adapted for bipedalism and why this is an advantage."
         }
-      ]
+      ],
+      "order": 25
     },
     {
       "id": "hb-u4-ppt-2-cerebral-cortex-size-prognathism-dentition",
-      "title": "2. Cerebral Cortex Size Prognathism Dentition",
+      "title": "Cerebral Cortex Size Prognathism Dentition",
       "file": "2. Cerebral Cortex Size Prognathism Dentition.pptx",
       "pdf": "https://raw.githubusercontent.com/science-vault/science-vault-wa/769f8dd1ce5a5ad9b40240a4c452319cf7eea7e0/2-cerebral-cortex-size-prognathism-dentition.pdf",
       "slides": [
@@ -2097,7 +2122,8 @@
           "title": "",
           "text": ""
         }
-      ]
+      ],
+      "order": 26
     },
     {
       "id": "hb-u4-ppt-intro-environment-australopithecus",
@@ -2180,11 +2206,12 @@
           "title": "",
           "text": ""
         }
-      ]
+      ],
+      "order": 27
     },
     {
       "id": "hb-u4-ppt-3-australopithecus",
-      "title": "3. Australopithecus",
+      "title": "Australopithecus",
       "file": "3. Australopithecus.pptx",
       "pdf": "https://raw.githubusercontent.com/science-vault/science-vault-wa/769f8dd1ce5a5ad9b40240a4c452319cf7eea7e0/3-australopithecus.pdf",
       "slides": [
@@ -2243,12 +2270,13 @@
           "title": "",
           "text": ""
         }
-      ]
+      ],
+      "order": 28
     },
     {
       "id": "hb-u4-ppt-3-5-paranthropus-robustus",
-      "title": "3.5 Paranthropus robustus",
-      "file": "3.5 Paranthropus robustus.pptx",
+      "title": "Paranthropus robustus",
+      "file": "3.Paranthropus robustus.pptx",
       "pdf": "https://raw.githubusercontent.com/science-vault/science-vault-wa/769f8dd1ce5a5ad9b40240a4c452319cf7eea7e0/3-5-paranthropus-robustus.pdf",
       "slides": [
         {
@@ -2296,7 +2324,8 @@
           "title": "",
           "text": ""
         }
-      ]
+      ],
+      "order": 29
     },
     {
       "id": "hb-u4-ppt-early-homo",
@@ -2344,11 +2373,12 @@
           "title": "",
           "text": ""
         }
-      ]
+      ],
+      "order": 30
     },
     {
       "id": "hb-u4-ppt-4-homo-habilis-homo-erectus",
-      "title": "4. Homo habilis Homo erectus",
+      "title": "Homo habilis Homo erectus",
       "file": "4. Homo habilis Homo erectus.pptx",
       "pdf": "https://raw.githubusercontent.com/science-vault/science-vault-wa/769f8dd1ce5a5ad9b40240a4c452319cf7eea7e0/4-homo-habilis-homo-erectus.pdf",
       "slides": [
@@ -2412,11 +2442,12 @@
           "title": "",
           "text": ""
         }
-      ]
+      ],
+      "order": 31
     },
     {
       "id": "hb-u4-ppt-5-transition-to-modern-humans",
-      "title": "5. Transition to modern humans",
+      "title": "Transition to modern humans",
       "file": "5. Transition to modern humans.pptx",
       "pdf": "https://raw.githubusercontent.com/science-vault/science-vault-wa/769f8dd1ce5a5ad9b40240a4c452319cf7eea7e0/5-transition-to-modern-humans.pdf",
       "slides": [
@@ -2480,7 +2511,8 @@
           "title": "",
           "text": "Homo sapiens – Modern Humans"
         }
-      ]
+      ],
+      "order": 32
     },
     {
       "id": "hb-u4-ppt-transition-to-modern-humans-old",
@@ -2518,11 +2550,12 @@
           "title": "",
           "text": "\n"
         }
-      ]
+      ],
+      "order": 33
     },
     {
       "id": "hb-u4-ppt-6-cultural-evolution",
-      "title": "6. Cultural Evolution",
+      "title": "Cultural Evolution",
       "file": "6. Cultural Evolution.pptx",
       "pdf": "https://raw.githubusercontent.com/science-vault/science-vault-wa/769f8dd1ce5a5ad9b40240a4c452319cf7eea7e0/6-cultural-evolution.pdf",
       "slides": [
@@ -2641,7 +2674,8 @@
           "title": "",
           "text": ""
         }
-      ]
+      ],
+      "order": 34
     },
     {
       "id": "hb-u4-ppt-cultural-evolution",
@@ -2779,7 +2813,8 @@
           "title": "Modern Humans",
           "text": "Modern Humans\nWe are able to manipulate our environment to a high level\nTravel\nMedical technology – life expectancy\nComplex society\n\nImportant to understand human origins \nHelps understand modern humans\nLifestyle diseases often because our cultural evolution has outstripped our biological evolution\nStill challenges to survival, some of our own making\nClimate change an immediately pressing issue\nMay be able to evolve culturally so we are able to slow down or reverse the change we are making.\n"
         }
-      ]
+      ],
+      "order": 35
     }
   ]
 }
