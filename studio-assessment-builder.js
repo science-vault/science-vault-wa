@@ -6,7 +6,7 @@
  const text=document.createElement('span');note.append(text,document.createTextNode(' '),retry);document.querySelector('.builder').before(note);
  let ticket=0;
  async function sync(){
-  const request=++ticket,course=courseObj()?.name,year=Number($('year').value),shared=$('area').value==='Science'&&$('pathway').value==='ATAR'&&bank.covered(course);
+  const request=++ticket,course=courseObj()?.name,year=Number($('year').value),shared=['Science','Mathematics'].includes($('area').value)&&$('pathway').value==='ATAR'&&bank.covered(course);
   retry.hidden=true;$('build').disabled=true;
   if(!shared){text.textContent='No Practice Studio questions have been uploaded for this course and pathway yet. Practice Studio is the only assessment question source.';return}
   text.textContent='Loading the Practice Studio question bank for '+course+' Year '+year+'…';$('build').disabled=true;
