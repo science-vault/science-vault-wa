@@ -1,5 +1,5 @@
 import {PAGES} from './page-catalog.mjs?v=2026.10.9-classes';
-import {canOpenPage} from './access-policy.mjs?v=2026.10.9-classes';
+import {canOpenPage} from './access-policy.mjs?v=2026.10.26-community1';
 const $=id=>document.getElementById(id);let api,state,members=[],cursor,more=false,selected=null,permissions={},loading=false,saving=false,dirty=false,epoch=0;
 function status(id,text,kind='info'){const el=$(id);el.textContent=text;el.dataset.kind=kind;el.hidden=!text}
 function controls(){document.querySelectorAll('#permissionForm button,#permissionForm input,#permissionForm select').forEach(el=>el.disabled=saving);$('reloadMembers').disabled=loading||saving;$('loadMore').disabled=loading||saving;$('approveAccess').hidden=selected?.status!=='pending';$('loadMore').hidden=!more}
@@ -31,3 +31,4 @@ for(const [id,predicate] of [['allowAll',()=>true],['denyAll',()=>false],['stude
 $('permissionForm').addEventListener('submit',e=>{e.preventDefault();save($('accountState').value)});$('approveAccess').addEventListener('click',()=>save('active'));$('suspendAccess').addEventListener('click',()=>save('suspended'));
 window.addEventListener('beforeunload',e=>{if(dirty){e.preventDefault();e.returnValue=''}});
 try{api=await import('./access-client.mjs?v=2026.10.9-classes');api.observeAccess(next=>{const wasAdmin=state?.admin;state=next;if(!next.ready)return;$('adminPanel').hidden=!next.admin;$('adminGate').hidden=next.admin;if(!next.admin){epoch++;members=[];selected=null;permissions={};dirty=false;cursor=null;more=false;$('memberList').replaceChildren();$('permissionForm').hidden=true;$('memberName').textContent='';$('memberEmail').textContent='';$('memberState').textContent='';$('pageChoices').replaceChildren();status('adminStatus',next.error?'Admin access could not be checked. Follow the owner setup instructions.':next.user?'This account does not have administrator access.':'Log in with your administrator account.',next.error?'error':'info')}else if(!wasAdmin)load(true)})}catch{status('adminStatus','The account service could not load. Check your connection and try again.','error')}
+
