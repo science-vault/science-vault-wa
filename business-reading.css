@@ -1,0 +1,18 @@
+.bme-native .bme-reading-content{flex:1;min-height:0;overflow:auto;max-width:84ch;color:#38394f;line-height:1.55;scrollbar-width:thin;width:100%}
+.bme-native .bme-reading-content p{margin:0 0 .75em;white-space:normal;overflow-wrap:anywhere}
+.bme-native .hb-native-stage{gap:18px}
+.bme-native .p-side h2{text-transform:none}
+.bme-native .hb-native-table{font-size:inherit;max-width:100%;margin:0 0 20px}
+.bme-native .hb-native-table td,.bme-native .hb-native-table th{white-space:normal;vertical-align:top;overflow-wrap:anywhere}
+.bme-native .bme-reading-dialog{font:20px/1.6 Inter,system-ui,sans-serif}
+.bme-native .bme-reading-dialog .hb-reading-heading{margin:20px 0}
+.bme-native .bme-reading-dialog h1{font:700 36px/1.2 Georgia,serif;color:#181727}
+.bme-native .bme-reading-dialog .bme-reading-content{font-size:20px!important;overflow:visible;max-width:none}
+.bme-native .bme-reading-dialog .hb-native-table{width:100%;border-collapse:collapse}
+.bme-native .bme-reading-dialog .hb-native-table td,.bme-native .bme-reading-dialog .hb-native-table th{border:1px solid #e6ddf3;padding:12px}
+.bme-native .bme-reading-dialog>.p-btn{float:right}
+.bme-native .bme-concept-flow{display:flex;gap:10px;flex-wrap:wrap;padding:14px 0;margin-bottom:16px}
+.bme-native .bme-concept-flow span{flex:1;min-width:100px;border:1px solid #e0d3f5;background:#f6f1ff;border-radius:10px;color:#633db4;font:600 14px/1.4 system-ui;padding:15px;text-align:center}
+@media(max-width:760px){.bme-native .bme-reading-content{line-height:1.45}.bme-native .hb-native-table{font-size:13px}.bme-native .hb-reading-kicker{font-size:8px}}
+.bme-native .bme-reference-links{display:flex;gap:16px;flex-wrap:wrap;margin-top:22px;border-top:1px solid #eee7f7;padding-top:12px;font-size:11px}
+.bme-native .bme-reference-links a{color:#7952b7;text-underline-offset:3px}
