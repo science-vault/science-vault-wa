@@ -1,0 +1,156 @@
+{
+  "sources": [
+    {
+      "file": "12 Methods Units 3 and 4 Calc Free Exam Sem1 2021.docx",
+      "questions": 8,
+      "solution": "Newly authored for altered question values"
+    },
+    {
+      "file": "12 Methods Units 3 and 4 Calc Ass Exam Sem 1 2021.docx",
+      "questions": 13,
+      "solution": "Newly authored for altered question values"
+    },
+    {
+      "file": "12 Methods Units 3 and 4 Calc Free Exam Sem 2 2021.docx",
+      "questions": 8,
+      "solution": "Newly authored for altered question values"
+    },
+    {
+      "file": "12 Methods Units 3 and 4 Calc Ass Exam Sem 2 2021.docx",
+      "questions": 13,
+      "solution": "Newly authored for altered question values"
+    },
+    {
+      "file": "2024 Year 12 Mathematics Methods Semester 1 Exam (CF).docx",
+      "questions": 5,
+      "solution": "2024 Year 12 Mathematics Methods Semester 1 Exam (CF)_Solutions.docx"
+    },
+    {
+      "file": "2024 Year 12 Mathematics Methods Semester 1 Exam (CA).docx",
+      "questions": 9,
+      "solution": "2024 Year 12 Mathematics Methods Semester 1 Exam (CA)_Solutions.docx"
+    },
+    {
+      "file": "2024 Year 12 Methods Semester 2 Exam_CALC FREE.docx",
+      "questions": 8,
+      "solution": "2024 Year 12 Methods Semester 2 Exam_CALC FREE_Solutions.docx"
+    },
+    {
+      "file": "2024 Year 12 Mathematics Methods Semester 2 Exam_CALC ASSUMED.docx",
+      "questions": 11,
+      "solution": "2024 Year 12 Mathematics Methods Semester 2 Exam_CALC ASSUMED_Solutions.docx"
+    },
+    {
+      "file": "WAEP 2020 YR12 METH U34 S1.docx",
+      "questions": 8,
+      "solution": "WAEP 2020 YR12 METH U34 S1 SOLNS.docx"
+    },
+    {
+      "file": "WAEP 2020 YR12 METH U34 S2.docx",
+      "questions": 13,
+      "solution": "WAEP 2020 YR12 METH U34 S2 SOLNS.docx"
+    },
+    {
+      "file": "WSHS 2022 YR12 METH U3 S1.pdf",
+      "questions": 7
+    },
+    {
+      "file": "WSHS 2022 YR12 METH U3 S2.pdf",
+      "questions": 12
+    },
+    {
+      "file": "WAEP 2023 YR12 METH U3 S1.pdf",
+      "questions": 7
+    },
+    {
+      "file": "WSHS 2023 YR12 METH U3 S2.pdf",
+      "questions": 12
+    },
+    {
+      "file": "2021 Methods 12 Sem 1 Exam.pdf",
+      "questions": 18,
+      "duplicatesRemoved": 3,
+      "appendedSolutionPagesExcluded": true
+    }
+  ],
+  "duplicates": [
+    {
+      "file": "2021 Methods 12 Sem 1 Exam.pdf",
+      "number": 5,
+      "kept": "methods12-local21-u3-q6",
+      "reason": "Same question and values already included from Word version."
+    },
+    {
+      "file": "2021 Methods 12 Sem 1 Exam.pdf",
+      "number": 13,
+      "kept": "methods12-local21-u3-q13",
+      "reason": "Same question and values already included from Word version."
+    },
+    {
+      "file": "2021 Methods 12 Sem 1 Exam.pdf",
+      "number": 16,
+      "kept": "methods12-local21-u3-q16",
+      "reason": "Same question and values already included from Word version."
+    }
+  ],
+  "held": [
+    {
+      "file": "WAEP 2020 YR12 METH U3 S1 SOLNS.docx",
+      "reason": "Solution-only upload; matching question paper not supplied."
+    },
+    {
+      "file": "WAEP 2020 YR12 METH U3 S2 SOLNS.docx",
+      "reason": "Solution-only upload; matching question paper not supplied."
+    }
+  ],
+  "newlyAuthored": [
+    "methods12-local21-u3-q1",
+    "methods12-local21-u3-q2",
+    "methods12-local21-u3-q3",
+    "methods12-local21-u3-q4",
+    "methods12-local21-u3-q5",
+    "methods12-local21-u3-q6",
+    "methods12-local21-u3-q7",
+    "methods12-local21-u3-q8",
+    "methods12-local21-u3-q9",
+    "methods12-local21-u3-q10",
+    "methods12-local21-u3-q11",
+    "methods12-local21-u3-q12",
+    "methods12-local21-u3-q13",
+    "methods12-local21-u3-q14",
+    "methods12-local21-u3-q15",
+    "methods12-local21-u3-q16",
+    "methods12-local21-u3-q17",
+    "methods12-local21-u3-q18",
+    "methods12-local21-u3-q19",
+    "methods12-local21-u3-q20",
+    "methods12-local21-u3-q21",
+    "methods12-local21-u34-q1",
+    "methods12-local21-u34-q2",
+    "methods12-local21-u34-q3",
+    "methods12-local21-u34-q4",
+    "methods12-local21-u34-q5",
+    "methods12-local21-u34-q6",
+    "methods12-local21-u34-q7",
+    "methods12-local21-u34-q8",
+    "methods12-local21-u34-q9",
+    "methods12-local21-u34-q10",
+    "methods12-local21-u34-q11",
+    "methods12-local21-u34-q12",
+    "methods12-local21-u34-q13",
+    "methods12-local21-u34-q14",
+    "methods12-local21-u34-q15",
+    "methods12-local21-u34-q16",
+    "methods12-local21-u34-q17",
+    "methods12-local21-u34-q18",
+    "methods12-local21-u34-q19",
+    "methods12-local21-u34-q20",
+    "methods12-local21-u34-q21"
+  ],
+  "totalImported": 152,
+  "calculatorFree": 58,
+  "calculatorAssumed": 94,
+  "typedQuestions": 142,
+  "typedFields": 366,
+  "banks": 19
+}
