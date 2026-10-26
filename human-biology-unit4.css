@@ -265,3 +265,23 @@
 .hb-native-stage .hb-reading-prose p{margin-bottom:.65em}
 .hb-native-stage .hb-reading-figure{border:0;border-radius:0;padding:4px 4px 27px}
 .hb-native-stage .hb-diagram-expand{background:#f4f2f7;color:#665773;font-size:11px}
+
+
+/* Practice Studio themed lesson pages. Each source page stays together. */
+.hb-native-player .p-main{max-width:none;width:100%;box-sizing:border-box}
+.hb-native-player .hb-native-stage{border-radius:14px;background:#fff;box-shadow:0 4px 22px #30203f08}
+.hb-native-stage .hb-reading-body.has-figures{grid-template-columns:minmax(0,1.1fr) minmax(0,1fr)}
+.hb-native-stage .hb-reading-prose{max-width:none;line-height:1.45;scrollbar-width:thin}
+.hb-native-stage .hb-reading-figure{border:0;background:transparent}
+.hb-native-stage .hb-reading-gallery{gap:8px}
+@media(max-width:760px){.hb-native-player .p-side{display:none}.hb-native-player .p-layout{grid-template-columns:1fr}.hb-native-stage .hb-reading-body.has-figures{grid-template-columns:1fr;grid-template-rows:minmax(0,1fr) minmax(0,1fr)}}
+
+.hb-page-expand{align-self:flex-end;flex:none;font-size:12px}
+.hb-page-dialog{width:min(1150px,94vw);max-width:96vw;max-height:94dvh;overflow:auto;border:1px solid #e6deef;border-radius:16px;padding:24px;background:#fff;color:#342e3a}
+.hb-page-dialog::backdrop{background:#23132dcc;backdrop-filter:blur(5px)}
+.hb-page-dialog .hb-native-stage{display:block!important;height:auto!important;overflow:visible!important;margin-top:16px}
+.hb-page-dialog .hb-reading-body{display:block!important;overflow:visible!important}
+.hb-page-dialog .hb-reading-prose{font-size:20px!important;overflow:visible!important;line-height:1.6}
+.hb-page-dialog .hb-reading-gallery{display:block;height:auto}
+.hb-page-dialog .hb-reading-figure{margin:20px 0;height:auto;padding:0}
+.hb-page-dialog canvas{max-width:100%;height:auto!important;max-height:none!important}
