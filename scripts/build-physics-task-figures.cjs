@@ -1,6 +1,0 @@
-/* Generate reusable qualitative SVGs from the actual focused Physics lesson models. */
-const fs=require('fs'),path=require('path'),{JSDOM}=require('jsdom'),root=path.resolve(__dirname,'..');
-const dom=new JSDOM('<html><head></head><body></body></html>',{url:'https://science-vault.github.io/science-vault-wa/topic-hub.html',runScripts:'outside-only'}),w=dom.window;
-for(const m of fs.readFileSync(path.join(root,'topic-hub.html'),'utf8').matchAll(/<script[^>]*src="([^"]+)"/g)){const f=m[1].split('?')[0];if(/^(year(?:11|12)-physics-|physics-atar-completion\.js|physics-focused-)/.test(f))w.eval(fs.readFileSync(path.join(root,f),'utf8'))}
-const figures={};for(const e of w.PhysicsFocused.lessons){let svg;if(e.part){svg=w.PhysicsFocusedFigure(e.parentTopic,e.title,e.part).match(/<svg[\s\S]*?<\/svg>/)[0]}else{svg=w['Year'+e.year+'PhysicsLessons'][e.id].screens.map(s=>s.html.match(/<svg[\s\S]*?<\/svg>/)?.[0]).find(Boolean)}if(!svg)throw Error('Missing task diagram '+e.id);figures[e.id]={svg,caption:'Qualitative '+e.title+' model, not to scale. Use the separate values stated in each task question.'}}
-fs.writeFileSync(path.join(root,'physics-focused-task-figures.json'),JSON.stringify(figures,null,2)+'\n');console.log('Generated',Object.keys(figures).length,'focused task figures.');w.close();
