@@ -217,3 +217,39 @@
 
 /* Original presentation slides retain their original proportions. */
 .hb-u4-player .u4-ppt-stage{padding:12px!important;display:grid;place-items:center;position:relative;overflow:hidden;background:#fff}.hb-u4-player .u4-ppt-stage canvas{display:block;max-width:100%;max-height:100%;object-fit:contain;margin:auto}.hb-u4-player .u4-ppt-stage canvas[hidden]{display:none}.hb-u4-player.u4-ppt-player .p-context{min-width:0}.hb-u4-player.u4-ppt-player .p-side h2{font-size:16px;line-height:1.45;overflow-wrap:anywhere}.hb-u4-player .u4-ppt-text{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}.hb-u4-player .u4-ppt-links{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);pointer-events:none}.hb-u4-player .u4-ppt-links a{position:absolute;pointer-events:auto;background:transparent}.hb-u4-player .u4-ppt-links a:focus-visible{outline:3px solid #7354a5;background:#7354a520}.hb-u4-player .u4-ppt-stage [data-loading]{max-width:45ch;font-size:15px}.hb-u4-player.u4-ppt-player [data-retake]{font-size:12px}
+
+
+/* Reflowed lesson pages: source wording and source diagrams, native reading layout. */
+.hb-u4-player.hb-native-player{font-family:Inter,system-ui,sans-serif;background:#f8f6fb;border:1px solid #e8e0f0;border-radius:18px;box-shadow:0 18px 45px #30203f0c}
+.hb-native-player .p-top{background:#fff;border-bottom:1px solid #e9e2f0}
+.hb-native-player .p-side{background:#f5f1f9;border-right:1px solid #e6deef}
+.hb-native-player .p-side h2{font-size:17px!important;line-height:1.45!important;color:#382447}
+.hb-native-player .p-main{max-width:1120px;padding:18px 24px 10px;gap:10px}
+.hb-native-player .p-context{font-size:11px;text-transform:uppercase;letter-spacing:.09em;color:#816c95}
+.hb-native-player .hb-native-stage{display:flex!important;flex-direction:column;align-items:stretch;justify-content:flex-start;gap:20px;padding:28px 32px!important;background:#fff;border:1px solid #ece5f2;border-radius:14px;overflow:hidden;min-height:0;position:relative}
+.hb-native-stage .hb-reading-heading{border-bottom:1px solid #ece5f2;padding-bottom:16px;flex:none}
+.hb-native-stage .hb-reading-kicker{font-size:10px;letter-spacing:.16em;font-weight:750;color:#9877b6;display:block;margin-bottom:7px}
+.hb-native-stage h1{font-size:clamp(22px,2.1vw,30px);font-weight:700;line-height:1.22;letter-spacing:-.025em;color:#34243f;margin:0;max-width:36ch;overflow-wrap:anywhere}
+.hb-native-stage .hb-reading-body{display:grid;grid-template-columns:minmax(0,1fr);gap:26px;flex:1;min-height:0;overflow:hidden;align-items:stretch}
+.hb-native-stage .hb-reading-body.has-figures{grid-template-columns:minmax(0,1.05fr) minmax(0,1fr)}
+.hb-native-stage .hb-reading-body.figures-only{grid-template-columns:minmax(0,1fr)}
+.hb-native-stage .hb-reading-prose{font-size:21px;line-height:1.58;min-height:0;min-width:0;overflow:hidden;max-width:64ch;color:#473c50;align-self:stretch}
+.hb-native-stage .hb-reading-prose p{margin:0 0 .85em;white-space:normal;overflow-wrap:anywhere}
+.hb-native-stage .hb-reading-prose p:last-child{margin-bottom:0}
+.hb-native-stage .hb-reading-prose .source-emphasis{font-weight:650;color:#412d53}
+.hb-native-stage .hb-reading-prose h2{font-size:1.08em;line-height:1.35;color:#6c418c;margin:0 0 .7em}
+.hb-native-stage .hb-reading-gallery{display:flex;flex-direction:column;justify-content:center;gap:14px;min-width:0;min-height:0;height:100%}
+.hb-native-stage .hb-reading-figure{display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative;flex:1;min-height:0;min-width:0;margin:0;padding:12px 12px 32px;border:1px solid #ede7f4;border-radius:12px;background:#fff}
+.hb-native-stage .hb-reading-figure canvas{display:block;max-width:100%;max-height:100%;object-fit:contain;width:auto;height:auto;margin:0}
+.hb-native-stage .hb-diagram-expand{position:absolute;right:8px;bottom:6px;border:0;background:#f3edf9;color:#765592;font-size:10px;font-weight:650;padding:4px 7px;border-radius:5px;cursor:pointer}
+.hb-native-stage .hb-diagram-expand:focus-visible{outline:2px solid #765592}
+.hb-native-player .hb-reading-dialog{max-width:94vw;width:1100px;height:90dvh;max-height:94dvh;box-sizing:border-box;background:#fff;border:1px solid #ddcfea;border-radius:14px;padding:16px;overflow:hidden}
+.hb-native-player .hb-reading-dialog[open]{display:flex;flex-direction:column;align-items:center;gap:12px}
+.hb-native-player .hb-reading-dialog::backdrop{background:#23132ddd;backdrop-filter:blur(6px)}
+.hb-native-player .hb-reading-dialog .p-btn{align-self:flex-end;flex:none}
+.hb-native-player .hb-reading-dialog canvas{min-height:0;max-height:calc(100% - 50px);max-width:100%;object-fit:contain;flex:1}
+.hb-native-player .hb-reading-links{display:flex;gap:8px;flex-wrap:wrap;font-size:11px;flex:none}
+.hb-native-player .hb-reading-links a{color:#765592;text-underline-offset:3px}
+@media(min-width:1400px){.hb-native-player .hb-native-stage{padding:32px 40px!important}.hb-native-player:is(:fullscreen,.u4-focus) .hb-reading-prose{line-height:1.65}}
+@media(max-width:760px){.hb-native-player .p-main{padding:10px 12px 6px}.hb-native-player .hb-native-stage{padding:16px!important;gap:12px}.hb-native-stage .hb-reading-heading{padding-bottom:10px}.hb-native-stage h1{font-size:21px}.hb-native-stage .hb-reading-body.has-figures{grid-template-columns:1fr;grid-template-rows:minmax(0,1fr) minmax(0,1fr);gap:10px}.hb-native-stage .hb-reading-body.figures-only{grid-template-rows:minmax(0,1fr)}.hb-native-stage .hb-reading-prose{font-size:17px;line-height:1.45}.hb-native-stage .hb-reading-kicker{display:none}}
+@media(max-height:600px){.hb-native-player .hb-native-stage{padding:12px 18px!important;gap:10px}.hb-native-stage h1{font-size:21px}.hb-native-stage .hb-reading-kicker{display:none}.hb-native-stage .hb-reading-heading{padding-bottom:8px}.hb-native-stage .hb-reading-prose{line-height:1.4}.hb-native-stage .hb-reading-figure{padding-top:4px}}
