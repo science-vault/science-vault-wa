@@ -253,3 +253,15 @@
 @media(min-width:1400px){.hb-native-player .hb-native-stage{padding:32px 40px!important}.hb-native-player:is(:fullscreen,.u4-focus) .hb-reading-prose{line-height:1.65}}
 @media(max-width:760px){.hb-native-player .p-main{padding:10px 12px 6px}.hb-native-player .hb-native-stage{padding:16px!important;gap:12px}.hb-native-stage .hb-reading-heading{padding-bottom:10px}.hb-native-stage h1{font-size:21px}.hb-native-stage .hb-reading-body.has-figures{grid-template-columns:1fr;grid-template-rows:minmax(0,1fr) minmax(0,1fr);gap:10px}.hb-native-stage .hb-reading-body.figures-only{grid-template-rows:minmax(0,1fr)}.hb-native-stage .hb-reading-prose{font-size:17px;line-height:1.45}.hb-native-stage .hb-reading-kicker{display:none}}
 @media(max-height:600px){.hb-native-player .hb-native-stage{padding:12px 18px!important;gap:10px}.hb-native-stage h1{font-size:21px}.hb-native-stage .hb-reading-kicker{display:none}.hb-native-stage .hb-reading-heading{padding-bottom:8px}.hb-native-stage .hb-reading-prose{line-height:1.4}.hb-native-stage .hb-reading-figure{padding-top:4px}}
+
+/* Quiet textbook presentation, with complete explanations kept together. */
+.hb-u4-player.hb-native-player{box-shadow:none;border-radius:8px;background:#f8f7fa}
+.hb-native-player .p-side{background:#f4f2f7}
+.hb-native-player .p-context{font-size:12px;letter-spacing:0;text-transform:none;color:#6b6274}
+.hb-native-player .hb-native-stage{border-radius:6px;padding:24px 30px!important;gap:16px}
+.hb-native-stage .hb-reading-heading{padding-bottom:12px}
+.hb-native-stage h1{font-size:clamp(21px,1.9vw,27px);letter-spacing:-.01em;max-width:46ch}
+.hb-native-stage .hb-reading-prose{font-size:19px;line-height:1.48;color:#342e3a}
+.hb-native-stage .hb-reading-prose p{margin-bottom:.65em}
+.hb-native-stage .hb-reading-figure{border:0;border-radius:0;padding:4px 4px 27px}
+.hb-native-stage .hb-diagram-expand{background:#f4f2f7;color:#665773;font-size:11px}
