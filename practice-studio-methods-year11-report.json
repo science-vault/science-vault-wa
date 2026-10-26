@@ -1,0 +1,91 @@
+{
+  "sources": [
+    {
+      "file": "2020 Methods U1_2 Sem2 Exam CF.docx",
+      "key": "2020 Methods U1_2 Sem2 Exam CF Solutions.docx",
+      "questions": 9
+    },
+    {
+      "file": "2020 Methods U1_2 Sem2 Exam CA.docx",
+      "key": "2020 Methods U1_2 Sem2 Exam CA Solutions.docx",
+      "questions": 14
+    },
+    {
+      "file": "WSHS 2021 Sem 1 Methods 11 Section 1.docx",
+      "key": "WSHS 2021 Sem 1 Methods 11 Section 1 SOLNS.docx",
+      "questions": 8
+    },
+    {
+      "file": "WSHS 2021 Sem 1 Methods 11 Section 2.docx",
+      "key": "WSHS 2021 Sem 1 Methods 11 Section 2 SOLNS.docx",
+      "questions": 15
+    },
+    {
+      "file": "WSHS 2021 Methods 11 Sem 2 Section 1.docx",
+      "key": "WSHS 2021 Methods 11 Sem 2 Section 1 SOLNS.docx",
+      "questions": 8
+    },
+    {
+      "file": "WSHS 2021 Methods 11 Sem 2 Section 2.docx",
+      "key": "WSHS 2021 Methods 11 Sem 2 Section 2 SOLNS.docx",
+      "questions": 13
+    },
+    {
+      "file": "Willo 2022 YR11 METH U1 S1.docx",
+      "key": "Willo 2022 YR11 METH U1 S1 SOLNS.docx",
+      "questions": 7
+    },
+    {
+      "file": "Willo 2022 YR11 METH U1 S2.docx",
+      "key": "Willo 2022 YR11 METH U1 S2 SOLNS.docx",
+      "questions": 12
+    },
+    {
+      "file": "Willo 2022 YR11 METH U12 S1.docx",
+      "key": "Newly authored",
+      "questions": 7
+    },
+    {
+      "file": "Willo 2022 YR11 METH U12 S2.docx",
+      "key": "Newly authored",
+      "questions": 12
+    },
+    {
+      "file": "WAEP 2020 Unit 1 Calculator-free",
+      "questions": 8
+    },
+    {
+      "file": "WAEP 2020 Unit 1 Calculator-assumed",
+      "questions": 13
+    }
+  ],
+  "duplicates": [],
+  "held": [],
+  "newlyAuthored": [
+    "willo22-u12-1",
+    "willo22-u12-2",
+    "willo22-u12-3",
+    "willo22-u12-4",
+    "willo22-u12-5",
+    "willo22-u12-6",
+    "willo22-u12-7",
+    "willo22-u12-8",
+    "willo22-u12-9",
+    "willo22-u12-10",
+    "willo22-u12-11",
+    "willo22-u12-12",
+    "willo22-u12-13",
+    "willo22-u12-14",
+    "willo22-u12-15",
+    "willo22-u12-16",
+    "willo22-u12-17",
+    "willo22-u12-18",
+    "willo22-u12-19"
+  ],
+  "totalImported": 126,
+  "typedQuestions": 119,
+  "typedFields": 342,
+  "calculatorFree": 47,
+  "calculatorAssumed": 79,
+  "banks": 9
+}
