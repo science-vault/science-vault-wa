@@ -1,6 +1,6 @@
 import {observeAccess,getAccessState} from './access-client.mjs?v=2026.10.9-classes';
-import {createQuestStore,questKey} from './learning-quest-store.mjs';
-import {journeyAchievement,lessonActivityId} from './learning-quest-core.mjs';
+import {createQuestStore,questKey} from './learning-quest-store.mjs?v=2026.10.26-community1';
+import {journeyAchievement,lessonActivityId} from './learning-quest-core.mjs?v=2026.10.26-community1';
 let active=null,stopStore;const listeners=new Set();let timer;
 const normal=s=>String(s||'').replace(/\s+ATAR$/i,'').trim().toLowerCase();
 const allowed=a=>!!a?.user&&!a.error&&(a.admin||a.member?.status==='active'&&a.member.registrationVersion===2);
@@ -33,3 +33,4 @@ window.addEventListener('vault-studio-answer',e=>{const a=e.detail;if(!a?.questi
 window.addEventListener('vault-learning-activity',e=>{const a=e.detail;if(!a)return;if(a.kind==='lesson'&&a.completed&&window.vaultCurrentTopic?.id)record({kind:'lesson',id:lessonActivityId(a.course,a.yearGroup,document.getElementById('unit')?.value,window.vaultCurrentTopic.id),subject:a.course,complete:true});
  if(a.kind==='quiz')for(const r of a.responses||[]){if(!r.questionId||!Array.isArray(r.answers)||!r.answers.some(x=>String(x).trim()))continue;record({kind:'question',id:r.questionId,subject:a.course,manual:r.manual===true,correct:!r.manual&&Number(r.max)>0&&Number(r.earned)===Number(r.max)});}
 });
+
