@@ -304,7 +304,14 @@ service cloud.firestore {
    let scopes = {'Science':'science','Geography ATAR':'geography','Business Management and Enterprise ATAR':'business-management-and-enterprise','Accounting and Finance ATAR':'accounting-and-finance','Physics ATAR':'physics','Chemistry ATAR':'chemistry','Biology ATAR':'biology','Human Biology ATAR':'human-biology','Psychology ATAR':'psychology','Mathematics Methods ATAR':'mathematics-methods','Mathematics Specialist ATAR':'mathematics-specialist','Mathematics Applications ATAR':'mathematics-applications','English ATAR':'english','Physical Education Studies ATAR':'physical-education-studies'};
    return scopes[subject];
   }
+  function validRosterSeed(uid,d) {
+   let target = get(/databases/$(database)/documents/members/$(uid)).data;
+   return isAdmin() && target.status == 'active' && target.registrationVersion == 2
+    && target.role in ['student','teacher'] && d.displayName == target.displayName
+    && d.xp == 0 && d.level == 1 && d.updatedAt == request.time;
+  }
   match /websiteLeaderboard/{uid} {
+   allow create: if validRosterSeed(uid,request.resource.data) && request.resource.data.keys().hasOnly(['displayName','xp','level','updatedAt']);
    allow read: if isAdmin() || active();
    allow create, update: if active() && request.auth.uid == uid
     && member().role in ['student','teacher']
@@ -314,6 +321,11 @@ service cloud.firestore {
    allow delete: if false;
   }
   match /subjectLeaderboards/{scope}/participants/{uid} {
+   allow create: if validRosterSeed(uid,request.resource.data)
+    && request.resource.data.keys().hasOnly(['displayName','xp','level','subject','updatedAt'])
+    && scope == websiteSubjectScope(request.resource.data.subject)
+    && ((get(/databases/$(database)/documents/members/$(uid)).data.yearGroup <= 10 && request.resource.data.subject == 'Science')
+     || request.resource.data.subject in get(/databases/$(database)/documents/members/$(uid)).data.subjects);
    allow read: if isAdmin() || active();
    allow create, update: if active() && request.auth.uid == uid
     && member().role in ['student','teacher']
