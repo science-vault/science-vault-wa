@@ -1,5 +1,5 @@
 import {subjectTotals} from './community-core.mjs?v=2026.10.26-community1';
-import {publishLeague} from './live-leaderboard.mjs?v=2026.10.26-community1';
+import {publishLeague} from './live-leaderboard.mjs?v=2026.10.26-global2';
 import {getAccessState,waitForAccess,db} from './access-client.mjs?v=2026.10.9-classes';
 import {myClasses} from './class-client.mjs?v=2026.10.14-league1';
 import {collection,query,where,getDocs,limit} from 'https://www.gstatic.com/firebasejs/12.19.0/firebase-firestore.js';
