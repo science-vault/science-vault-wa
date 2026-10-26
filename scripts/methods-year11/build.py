@@ -45,7 +45,7 @@ def record(code,q,year,units,mode,source,srcfile,keyfile,body,answer,origin):
  plain=' '.join(' '.join(html.fragment_fromstring(body,create_parent='div').itertext()).split());ims=re.findall(r'<img[^>]+src="([^"]+)"',body);sig=re.sub(r'\W','',unicodedata.normalize('NFKC',plain).lower())+'|'+'|'.join(hashlib.sha256(s.encode()).hexdigest() for s in ims);digest=hashlib.sha256(sig.encode()).hexdigest()
  if any(r['hash']==digest for r in records):report['duplicates'].append({'source':srcfile,'number':q['number']});return
  category='Calculator-free' if mode=='free' else 'Calculator-assumed';key=code+'-'+str(q['number']);item=dict(id='methods11-'+code+'-q'+str(q['number']),subject='Mathematics Methods',area='Mathematics',year=11,examYear=year,units=units,number=q['number'],source=source+' · '+category,section=category,types=[category],calculatorMode=mode,marks=q['marks'],topics=topics,subtopics=subs,mixed=len(topics)>1,text=plain,hash=digest,html='<div class="source-text-question">'+body+'</div>',answerHtml=answer,sourceFile=srcfile,sourceKeyFile=keyfile,markingMode='manual',solutionOrigin=origin,figures=len(ims))
- if key in S.AUTO:item['typedAnswers']={'version':1,'fields':S.AUTO[key],'scope':'Final results only. Review method, explanation and graph marks against the guide.'}
+ if S.AUTO.get(key):item['typedAnswers']={'version':1,'fields':S.AUTO[key],'scope':'Final results only. Review method, explanation and graph marks against the guide.'}
  records.append(item)
 for f,k,code,year,units,mode,source in DECKS:
  ks={q['number']:q for q in data[k]} if k else {}
