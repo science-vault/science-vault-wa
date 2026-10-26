@@ -48,7 +48,7 @@
   nav.querySelectorAll('details').forEach(el=>el.addEventListener('toggle',()=>{if(el.open)nav.querySelectorAll('details').forEach(other=>{if(other!==el)other.open=false})}));
   document.addEventListener('click',e=>{if(!bar.contains(e.target))close()});document.addEventListener('keydown',e=>{if(e.key==='Escape'){const wasOpen=bar.classList.contains('site-nav-open');close();if(wasOpen)toggle.focus()}});
   nav.querySelectorAll('a,[data-view]').forEach(a=>a.addEventListener('click',close));
-  import('./content-reports.mjs?v=2026.10.26-community1').catch(()=>{});import('./leaderboard-progress.mjs?v=2026.10.26-community1').catch(()=>{});
+  import('./content-reports.mjs?v=2026.10.26-community1').catch(()=>{});import('./leaderboard-progress.mjs?v=2026.10.26-global2').catch(()=>{});
   const main=document.querySelector('main')||document.querySelector('.section.content');if(main){if(!main.id)main.id='main-content';const skip=document.createElement('a');skip.className='site-skip';skip.href='#'+main.id;skip.textContent='Skip to content';document.body.prepend(skip)}
  }
  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',setup);else setup();
