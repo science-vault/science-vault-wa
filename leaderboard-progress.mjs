@@ -1,8 +1,8 @@
 import {getAccessState,observeAccess} from './access-client.mjs?v=2026.10.9-classes';
 import {empty,award,summary,dayKey,normal} from './learning-league-core.mjs?v=2026.10.14-league1';
-import {publishLeague} from './live-leaderboard.mjs?v=2026.10.26-community1';
-import {subjectTotals} from './community-core.mjs?v=2026.10.26-community1';
-const eligible=a=>a?.user&&a.member?.role==='student'&&a.member.status==='active'&&a.member.registrationVersion===2&&!a.error;
+import {publishLeague} from './live-leaderboard.mjs?v=2026.10.26-global2';
+import {subjectTotals} from './community-core.mjs?v=2026.10.26-global2';
+const eligible=a=>a?.user&&['student','teacher'].includes(a.member?.role)&&a.member.status==='active'&&a.member.registrationVersion===2&&!a.error;
 function read(a){try{const x=JSON.parse(localStorage.getItem('vault-learning-league-v1:'+a.user.uid));return x?.version===1&&x.entries?x:empty();}catch{return empty();}}
 function publish(a,state){if(!eligible(a)||getAccessState().user?.uid!==a.user.uid)return;publishLeague({...summary(state),bySubject:subjectTotals(state)});}
 function record(entry){const a=getAccessState();if(!eligible(a))return;const state=read(a),delta=award(state,{...entry,date:dayKey()});if(delta){try{localStorage.setItem('vault-learning-league-v1:'+a.user.uid,JSON.stringify(state));}catch{return;}window.dispatchEvent(new Event('vault-league-store-changed'));window.dispatchEvent(new Event('vault-league-updated'));}publish(a,state);}
