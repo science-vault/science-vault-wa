@@ -104,3 +104,102 @@ sol('willo22-u12-19',r'''
 (b)|1|The next deposit follows the year's interest: $B_1=8000(1.04)+8000=\$16320$.
 (c)|3|The stated $B_0,B_1$ convention gives $B_n=8000[1+1.04+\cdots+1.04^n]$ (1), hence $B_n=8000(1.04^{n+1}-1)/0.04$ (1). $B_{110}=\$15350009.47$ (1), including the time-110 deposit under that convention.
 ''')
+sol('legacy20-u12-1',r'''
+(a)|4|$ar=15,ar^3=135$ gives $r^2=9$ (1). Thus $(a,r)=(5,3)$ or $(-5,-3)$ (1). The possible sums of four terms are 200 and 100 (1 each). Both are possible without a stated positive-ratio restriction.
+(b)|3|Use $S_n=n(a+l)/2$ (1), substitute $100(1+100)/2$ (1), giving 5050 (1).
+''')
+sol('legacy20-u12-2',r'''
+|4|$a+4d=26,a+8d=42$ (1), giving $d=4,a=10$ (1). Use $u_{21}=a+20d$ (1), giving 90 (1).
+''')
+sol('legacy20-u12-3',r'''
+(a)|1|$5-x$: domain and range both $\mathbb R$.
+(b)|1|$-x^2+1$: domain $\mathbb R$, range $(-\infty,1]$.
+(c)|1|$\sqrt{x-1}$: domain $[1,\infty)$, range $[0,\infty)$.
+(d)|1|$1/(x+2)+3$: domain $\mathbb R\setminus\{-2\}$, range $\mathbb R\setminus\{3\}$. Each mark requires both correct domain and range.
+''')
+sol('legacy20-u12-4',r'''
+(a)|3|Reference angles for $3x$ are $\pi/3,2\pi/3$ (1). Account for all cycles and divide by 3 to obtain $x=\pi/9,2\pi/9,7\pi/9,8\pi/9,13\pi/9,14\pi/9$ (2).
+(b)|3|$y=3\cos(x-\pi/2)=3\sin x$. Zeros $0,\pi,2\pi$ (1), maximum $(\pi/2,3)$ and minimum $(3\pi/2,-3)$ (1), smooth sinusoid over the domain (1).
+''')
+sol('legacy20-u12-5',r'''
+(a)|3|$2^x+3$: y-intercept 4 (1), horizontal asymptote $y=3$ (1), smooth increasing exponential (1).
+(b)|3|$0.5(4^x)-1$: intercepts $(0,-0.5),(0.5,0)$ (1), asymptote $y=-1$ (1), smooth increasing exponential (1).
+''')
+sol('legacy20-u12-6',r'''
+|3|Let $u=2^x>0$, giving $u^2-6u-16=0$ (1). Factor $(u-8)(u+2)=0$ (1). Reject $u=-2$ and solve $2^x=8$ to get $x=3$ (1).
+''')
+sol('legacy20-u12-7',r'''
+|6|$f(-1)=-1-1-3+5=0$ (1), so $x+1$ is a factor by the factor theorem (1). Correct polynomial division (2) gives quotient $x^2-2x+5$ (1). Thus $f=(x+1)(x^2-2x+5)$ (1).
+''')
+sol('legacy20-u12-8',r'''
+(a)|2|Correct binomial setup (1) gives $x^5-10x^4+40x^3-80x^2+80x-32$ (1).
+(b)|2|Third term $=\binom42(2x)^2(-3y)^2$ (1) $=216x^2y^2$ (1).
+''')
+sol('legacy20-u12-9',r'''
+(a)|2|Write $4x^{-2}+2x$ (1), then differentiate to get $2-8/x^3$ (1).
+(b)|2|Antiderivative $y=x-x^2+C$ (1); use $(1,2)$ to get $C=2$ and $y=x-x^2+2$ (1).
+''')
+sol('legacy20-u12-10',r'''
+(a)|1|The circle fails the vertical line test: not a function of x.
+(b)|1|The upward parabola passes: a function of x.
+(c)|1|The reciprocal graph passes on its domain: a function of x.
+(d)|1|The sideways parabola fails: not a function of x.
+''')
+sol('legacy20-u12-11',r'''
+(a)|2|$AB=\sqrt{(4-2)^2+(6-5)^2}=\sqrt5$ (1); $BC=\sqrt{(5-4)^2+(4-6)^2}=\sqrt5$, hence equal (1).
+(b)|2|$m_{AC}=-1/3$ (1); perpendicular diagonal through B gives $y-6=3(x-4)$, hence $y=3x-6$ (1).
+(c)|1|At D, $0=3d-6$, so $d=2$.
+(d)|3|Midpoint $(3.5,4.5)$ (2); substitution $3(3.5)-6=4.5$ confirms it lies on BD (1).
+(e)|2|Gradient from B to the midpoint is 3 (1). The resulting line has x-intercept $d=2$ (1).
+''')
+sol('legacy20-u12-12',r'''
+(a)|2|Translate to $(x+3)^2$ (1), then reflect to obtain $y=-(x+3)^2$ (1).
+(b)|2|Translate to $1/x+2$ (1); substitute $-x$ to reflect in the y-axis, giving $y=-1/x+2$ (1).
+''')
+sol('legacy20-u12-13',r'''
+|3|$f(6)=140,f(9)=563$ (1). Secant gradient $=[f(9)-f(6)]/(9-6)$ (1) $=141$ (1).
+''')
+sol('legacy20-u12-14',r'''
+(a)|3|Positions $x(0)=0,x(2)=40$ (1 each). Average velocity $=(40-0)/2=20$ m/s (1).
+(b)|2|$x(4)=96$ (1). Average velocity $=(96-40)/2=28$ m/s (1).
+''')
+sol('legacy20-u12-15',r'''
+(a)|3|Substitute $[V(5+h)-V(5)]/h$ (1), expand and simplify to $-20-2h$ cm³/s (2).
+(b)|1|As $h\to0$, the rate tends to $-20$ cm³/s.
+''')
+sol('legacy20-u12-16',r'''
+|4|Use $\lim_{h\to0}[5(x+h)^3-5x^3]/h$ (1), expand numerator $15x^2h+15xh^2+5h^3$ (1), divide by h (1), and take the limit to obtain $15x^2$ (1).
+''')
+sol('legacy20-u12-17',r'''
+(a)|3|$s(0)=0$ gives $b=0$ (1); substitute $s(3)=27$ (1) to find $a=21$ (1).
+(b)|2|$s(5)=65/3$ (1), or 21.67 m (1).
+(c)|3|$s'=t^2-10t+21$ (1); set to zero (1), giving $t=3,7$ s (1).
+(d)|4|$s''(3)=-4<0,s''(7)=4>0$ establish the stationary maximum/minimum (2). Check values at endpoints and stationary times: $0,27,49/3,56/3$ (1). Maximum displacement is 27 m at 3 s (1).
+''')
+sol('legacy20-u12-18',r'''
+(a)|3|Antidifferentiate to $x^3-3x+C$ (1); use $(2,4)$ to get $C=2$ (1), hence $f=x^3-3x+2$ (1).
+(b)|6|Solve $3x^2-3=0$ (2); obtain $(-1,4),(1,0)$ (2). Second derivatives -6 and 6 establish a maximum and minimum respectively (2).
+''')
+sol('legacy20-u12-19',r'''
+|8|$C'=x/100-8$ (1), set to zero (1), solve $x=800$ (2). $C''=1/100>0$ establishes the minimum inside the domain (2). $C(800)=17200$ (1). Conclude optimal speed 800 km/h and cost $17200 (1).
+''')
+sol('legacy20-u12-20',r'''
+|4|Let $CD=r$. The small and full sector areas are $r^2\theta/2$ and $30^2\theta/2$ (2). Equal-area division gives $r^2=30^2/2$ (1), so $r=15\sqrt2$ cm (1).
+''')
+sol('legacy20-u12-21',r'''
+|4|The bearing gives $\angle BAC=100^\circ$. If $AC=z$, the cosine rule gives $400=225+z^2-30z\cos100^\circ$ (1). Positive solution $z\approx10.878029$ km (1). Area $=15z\sin100^\circ/2\approx80.345751$ km² (1), hence 80 km² to the nearest square kilometre (1).
+''')
+sol('legacy20-u12-22',r'''
+(a)|2|Labelled Venn universe (1) with Methods only 114, both 91, Chemistry only 34, neither 11 (1).
+(b)|2|Neither: $11/250$, numerator (1), denominator (1).
+(c)|2|Given Methods, $P(C\mid M)=91/205$, numerator (1), conditioning denominator (1).
+(d)|2|Given Chemistry, $P(M\mid C)=91/125$, numerator (1), conditioning denominator (1).
+''')
+sol('legacy20-u12-23',r'''
+(a)|1|$P(A\cap B)=0.7-0.4=0.3$, hence $P(A\cap\overline B)=0.1$.
+(b)|1|Neither event has probability $1-(0.4+0.7-0.3)=0.2$.
+(c)|1|$P(C\cap D)=(2/3)(3/5)=2/5$.
+(d)|1|$P(C\cap\overline D)=(1/3)(1/5)=1/15$.
+(e)|1|$P(C)=2/5+1/15=7/15$.
+(f)|1|$P(\overline D\mid C)=(1/15)/(7/15)=1/7$.
+''')
