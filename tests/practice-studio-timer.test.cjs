@@ -1,0 +1,11 @@
+const assert=require('node:assert/strict'),vm=require('node:vm'),fs=require('node:fs');
+class Element{constructor(){this.children=[];this.hidden=false;this.textContent='';this.attrs={};this.classList={toggle(){}};}append(...nodes){this.children.push(...nodes)}after(node){this.afterNode=node}setAttribute(k,v){this.attrs[k]=v}}
+const modal=new Element(),toolbar=new Element(),note=new Element();note.hidden=true;modal.hidden=false;const events={},intervals=[];let time=1000;
+const ctx={document:{createElement:()=>new Element(),querySelector:s=>s==='.studio-question-tools'?toolbar:note,head:new Element()},$:()=>modal,performance:{now:()=>time},questions:[['Physics',11,'','',[],0,'',{id:'a',marks:3}],['Chemistry',11]],current:0,checked:false,window:{addEventListener:(k,f)=>(events[k]??=[]).push(f)},MutationObserver:class{observe(){}},requestAnimationFrame:f=>f(),queueMicrotask:f=>f(),setInterval:f=>intervals.push(f)};
+vm.createContext(ctx);vm.runInContext(fs.readFileSync(require('node:path').join(__dirname,'../practice-studio-timer.js'),'utf8'),ctx);
+const fire=k=>events[k].forEach(f=>f()),tick=ms=>{time+=ms;intervals[0]()},host=toolbar.afterNode,clock=host.children[1],pause=host.children[2],notice=host.children[3];
+fire('vault-studio-question-opened');assert.equal(clock.textContent,'03:00');tick(60000);assert.equal(clock.textContent,'02:00');pause.onclick();tick(10000);assert.equal(clock.textContent,'02:00');pause.onclick();tick(1000);assert.equal(clock.textContent,'01:59');
+fire('vault-studio-before-question');ctx.current=1;fire('vault-studio-question-opened');assert.equal(clock.textContent,'01:00');tick(60000);assert.equal(clock.textContent,'00:00');assert.match(notice.textContent,/keep answering/);
+fire('vault-studio-before-question');ctx.current=0;note.hidden=false;fire('vault-studio-question-opened');tick(20000);assert.equal(clock.textContent,'01:59');assert.match(notice.textContent,/Review/);
+note.hidden=true;fire('vault-studio-question-opened');tick(1000);assert.equal(clock.textContent,'01:58');ctx.checked=true;fire('vault-studio-answer');tick(10000);assert.equal(clock.textContent,'01:58');assert.match(notice.textContent,/stopped/);
+console.log('Timer checks passed: marks, countdown, pause/resume, expiry, review, return and submission.');
