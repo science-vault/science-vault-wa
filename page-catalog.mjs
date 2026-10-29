@@ -1,13 +1,6 @@
 // Learning Vault content-page access catalogue.
 export const PAGES=[{"id": "leaderboard.html", "label": "Class and subject leaderboard", "group": "Progress", "studentDefault": true, "teacherDefault": true}, {"id": "avatar.html", "label": "My avatar and costumes", "group": "Progress", "studentDefault": true, "teacherDefault": false}, {"id": "admin-reports.html", "label": "Error reports (Admin)", "group": "Administration", "studentDefault": false, "teacherDefault": false},
   {
-    "id": "file-directory.html",
-    "label": "File Directory (Admin)",
-    "group": "Administration",
-    "studentDefault": false,
-    "teacherDefault": false
-  },
-  {
     "id": "quiz-battle.html",
     "label": "Quiz Battle",
     "group": "Practice",
