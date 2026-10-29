@@ -1,5 +1,5 @@
 /* Learning Vault shared theme, based on Practice Studio. */
-:root{--lv-bg:#f6f7f9;--lv-surface:#fff;--lv-ink:#1f2938;--lv-muted:#687183;--lv-accent:#7354dc;--lv-tint:#eeebfc;--lv-line:#e6e8ef;--lv-sidebar:240px;--vault-ink:var(--lv-ink);--vault-muted:var(--lv-muted);--vault-teal:var(--lv-accent);--vault-border:var(--lv-line);--vault-shadow:0 4px 18px #292c4005}
+:root{--lv-bg:#f6f7f9;--lv-surface:#fff;--lv-ink:#1f2938;--lv-muted:#4b5565;--lv-accent:#7354dc;--lv-tint:#eeebfc;--lv-line:#e6e8ef;--lv-sidebar:240px;--vault-ink:var(--lv-ink);--vault-muted:var(--lv-muted);--vault-teal:var(--lv-accent);--vault-border:var(--lv-line);--vault-shadow:0 4px 18px #292c4005}
 html{min-height:100%;scroll-padding-top:24px}body.lv-shell{margin:0;min-height:100vh;min-height:100dvh;padding-left:var(--lv-sidebar);background:var(--lv-bg);color:var(--lv-ink);font:14px/1.6 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}body.lv-shell *{box-sizing:border-box}body.lv-shell [hidden]{display:none!important}
 .lv-shell a:focus-visible,.lv-shell button:focus-visible,.lv-shell summary:focus-visible,.lv-shell input:focus-visible,.lv-shell select:focus-visible,.lv-shell textarea:focus-visible{outline:3px solid #a89aff;outline-offset:3px}
 .lv-shell button,.lv-shell input,.lv-shell select,.lv-shell textarea{font:inherit}.lv-shell button:not(:disabled),.lv-shell summary{cursor:pointer}
@@ -33,3 +33,6 @@ html{min-height:100%;scroll-padding-top:24px}body.lv-shell{margin:0;min-height:1
 .lv-shell .cal .today,.lv-shell .cal-grid .due{background:var(--lv-tint)}
 .lv-shell .cal .due{box-shadow:inset 0 0 0 2px var(--lv-accent)}
 .lv-shell .dash>.welcome>span{color:var(--lv-accent);font-size:11px;font-weight:750;letter-spacing:1px}
+
+/* Readable secondary text across Learning Vault pages. */
+.lv-shell :is(.subtle,.breadcrumb,.tiny,.source-line,.tagline,.bank-status,.studio-focus-hint,.lv-nav-label){color:#4b5565}.lv-shell .lv-nav-label{font-size:11px}.lv-shell .subtle{font-size:12px}.lv-shell input::placeholder,.lv-shell textarea::placeholder{color:#576273;opacity:1}
