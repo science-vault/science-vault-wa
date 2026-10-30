@@ -5,7 +5,7 @@
   previousRender();
   if(view==='progress') [...$('content').children].forEach((el,i)=>{
    const subject=subjects[i]?.[0];
-   el.hidden=!!subject&&!['11','12'].some(y=>window.studioCanStudy?.(subject,Number(y)));
+   el.hidden=!!subject&&!['7','8','9','10','11','12'].some(y=>window.studioCanStudy?.(subject,Number(y)));
   });
  };
  const notice=document.createElement('p');notice.setAttribute('role','status');
@@ -19,7 +19,7 @@
   client.observeAccess(access=>{
    const allowed=access.ready&&policy.canOpenPage(access,catalog.PAGES.find(p=>p.id==='student-quiz.html'));
    window.studioCanStudy=(subject,year)=>allowed&&registration.canStudy(access.member,subject,Number(year),access.admin);
-   const available=subjects.filter(s=>[11,12].some(y=>window.studioCanStudy(s[0],y)));
+   const available=subjects.filter(s=>[7,8,9,10,11,12].some(y=>window.studioCanStudy(s[0],y)));
    document.querySelectorAll('[data-filter]').forEach(b=>{
     b.hidden=b.dataset.filter!=='all'&&!available.some(s=>s[0]===b.dataset.filter);
    });
@@ -31,8 +31,8 @@
    if(student)$('year').value=String(access.member.yearGroup);
    else if($('year').selectedOptions[0]?.disabled)$('year').value='all';
    notice.replaceChildren();
-   notice.textContent=!access.ready?'Loading your subjects…':!allowed?'Your approved account is required to practise.':available.length?'Your Practice Studio follows the subjects and year in your approved account.':'No senior Practice Studio subjects are available for your account.';
-   if(available.length===1){
+   notice.textContent=!access.ready?'Loading your subjects…':!allowed?'Your approved account is required to practise.':available.length?'Your Practice Studio follows the subjects and year in your approved account.':'No Practice Studio subjects are available for your account.';
+   if(available.length===1&&available[0][0]!=='Mathematics'){
     const link=document.createElement('a');
     const params=new URLSearchParams({course:available[0][0]+' ATAR'});
     if(student)params.set('year',String(access.member.yearGroup));

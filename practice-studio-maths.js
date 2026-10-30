@@ -1,7 +1,7 @@
 /* One submission flow for typed results and written work, retaining the source key. */
 (function(){'use strict';const previousOpen=openQuestion;let active=null;
 const safe=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-function keyPoints(m){const host=document.createElement('div');host.innerHTML=m.answerHtml||'';const rows=[...host.querySelectorAll('tr')].map(row=>[...row.querySelectorAll('td')].map(c=>c.textContent.trim())).filter(c=>c.length>=2&&/^[\d\s–−\-/]+$/.test(c.at(-1))).map(c=>c.slice(0,-1).join(' '));return rows.length?rows:[...host.querySelectorAll('p,li')].map(n=>n.textContent);}
+function keyPoints(m){if(Array.isArray(m.markingKeyPoints))return m.markingKeyPoints;const host=document.createElement('div');host.innerHTML=m.answerHtml||'';const rows=[...host.querySelectorAll('tr')].map(row=>[...row.querySelectorAll('td')].map(c=>c.textContent.trim())).filter(c=>c.length>=2&&/^[\d\s–−\-/]+$/.test(c.at(-1))).map(c=>c.slice(0,-1).join(' '));return rows.length?rows:[...host.querySelectorAll('p,li')].map(n=>n.textContent);}
 function appendText(host,tag,text,className){const e=document.createElement(tag);e.textContent=text;if(className)e.className=className;host.append(e);return e;}
 openQuestion=async function(id){active=null;await previousOpen(id);if(current!==id||$('modal').hidden)return;const m=questions[id]?.[7];if(!m||m.markingMode==='automatic')return;
  const spec=WrittenAnswerChecker.plan(m),fields=spec.fields;state.typedDrafts=state.typedDrafts||{};state.drafts=state.drafts||{};

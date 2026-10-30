@@ -1,0 +1,43 @@
+{
+  "total": 122,
+  "sources": [
+    {
+      "file": "Basic Algebra Test.docx",
+      "questions": 35,
+      "sha256": "7a67ba453a9ad2474a0a5dee96e0d196888a96a74a372ad668ff52b397a5d0d2"
+    },
+    {
+      "file": "Further Algebra Test.docx",
+      "questions": 32,
+      "sha256": "8030e63fb2e72dc291581e69be3f54da36e82b087b7e2111bceb78905c5657e9"
+    },
+    {
+      "file": "Equations and Formlae  Test.docx",
+      "questions": 25,
+      "sha256": "469e116aa2aa0b8d4fbf30cf6afe421f99181272680cf1cc0293030a554f04c0"
+    },
+    {
+      "file": "Linear Relations Test.docx",
+      "questions": 30,
+      "sha256": "61059032b11f74c5e5149abc30fbfbfe52a526125452c14fb624ba69c5290105"
+    }
+  ],
+  "yearCounts": {
+    "7": 28,
+    "8": 55,
+    "9": 32,
+    "10": 7
+  },
+  "curriculumUrl": "https://k10outline.scsa.wa.edu.au/__data/assets/pdf_file/0004/1229467/Mathematics_Scope-and-sequence_7-10__For-implementation-in-2026.PDF",
+  "checked": "2026-10-30",
+  "notes": [
+    "Source year labels retained as originalYear; year reflects skill placement against the 2026 curriculum.",
+    "Coordinate reading and plotting are included as foundation skills supporting Year 8 linear graphs.",
+    "Marks are practice allocations, since source tests do not allocate marks.",
+    "Original question numbers retained. Shared context is repeated so randomised questions stand alone.",
+    "Basic Algebra Q29 has an undefined l, corrected to the given m with an explicit student note.",
+    "Linear Relations Q15 includes the negative Week 8 model prediction and explicitly explains the real-world limitation.",
+    "All source questions retained; algebraic form, graphs and open-ended inequality examples require teacher review."
+  ],
+  "answerKeySha256": "e534562bc2e7923da17e045f72b94eddbe4ede37d407e9d5415093cf98765d8b"
+}
