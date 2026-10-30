@@ -41,7 +41,7 @@ jobs:
             tests
           sparse-checkout-cone-mode: true
       - name: Check interactive lab models
-        run: node --test tests/interactive-lab-science.test.mjs
+        run: node --test tests/interactive-lab-science.test.mjs tests/circuit-lab.test.mjs
       - name: Build lightweight site artifact
         run: |
           python scripts/build-vault-catalog.py
