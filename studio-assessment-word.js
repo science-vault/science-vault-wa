@@ -31,7 +31,7 @@
   const host=document.createElement('div');host.innerHTML=value||'';let figures='',number=0;
   for(const img of host.querySelectorAll('img')){
    const label=prefix+' figure '+(++number),ref=document.createElement('span');ref.textContent=' ['+label+'] ';
-   const clone=img.cloneNode(true);clone.alt=label;figures+='<figure>'+clone.outerHTML+'</figure>';img.replaceWith(ref);
+   const clone=img.cloneNode(true);clone.alt=label;if(img.hasAttribute('data-studio-crop')&&img.parentElement?.style.overflow==='hidden'){const viewport=img.parentElement.cloneNode(false);viewport.append(clone);figures+='<figure>'+viewport.outerHTML+'</figure>';img.parentElement.replaceWith(ref);}else{figures+='<figure>'+clone.outerHTML+'</figure>';img.replaceWith(ref);}
   }
   return{html:host.innerHTML,figures};
  }

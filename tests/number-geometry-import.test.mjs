@@ -62,3 +62,13 @@ test('automatic checking leaves drawing, proof and open alternatives for teacher
  for(const q of manual){assert.match(q.answerHtml,/Teacher review/);assert.equal(W.plan(q).fields.length,0);}
  assert.equal(W.plan(get('number-systems',18)).fields.length,0);
 });
+test('Word rasterisation crops the selected question instead of embedding the full shared sheet',async()=>{
+ const source=read('assessment-word-export.js');const actual=source.slice(source.indexOf('async function png('),source.indexOf(' const crcTable='));
+ const calls=[],canvas={width:0,height:0,getContext:()=>({drawImage:(...args)=>calls.push(args.slice(1))}),toDataURL:()=> 'data:image/png;base64,AA=='};
+ const ctx=vm.createContext({Image:class{naturalWidth=960;naturalHeight=4000;async decode(){}},document:{createElement:()=>canvas},atob:()=> '\0',Uint8Array});vm.runInContext(actual+';globalThis.raster=png;',ctx);
+ const cropped=await ctx.raster('sheet.jpg','0,1300,960,240');assert.equal(cropped.width,960);assert.equal(cropped.height,240);assert.deepEqual(Array.from(calls.at(-1)),[0,1300,960,240,0,0,960,240]);
+ await assert.rejects(()=>ctx.raster('sheet.jpg','0,3900,960,240'),/Invalid source question image crop/);
+ const full=await ctx.raster('ordinary.png','');assert.equal(full.height,4000);assert.deepEqual(Array.from(calls.at(-1)),[0,0]);
+ assert.match(source,/imageKey=src\+'\|'\+crop/);
+ for(const q of rows)for(const m of q.html.matchAll(/data-studio-crop="([^"]+)"/g))assert.equal(m[1].split(',').length,4);
+});
