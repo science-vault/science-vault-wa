@@ -1,0 +1,140 @@
+{
+  "total": 433,
+  "addedAt": "2026-10-30T13:00:18Z",
+  "sourceQuestionCounts": {
+    "Angles": 20,
+    "Location": 22,
+    "Polygons and Circles": 25,
+    "Shapes": 25,
+    "Transformations and Congruence": 20,
+    "Metric System": 30,
+    "Area": 25,
+    "Pythagoras": 20,
+    "Volume and Surface Area": 20,
+    "Decimals": 35,
+    "Fractions": 32,
+    "Integers": 30,
+    "Number Systems": 30,
+    "Percentages": 32,
+    "Ratio and Rates": 35,
+    "Rational Numbers": 32
+  },
+  "sources": [
+    {
+      "file": "Angles Test.docx",
+      "sha256": "908278eac2f3f3c13685385fc1ebee8ccf51879c38a4bf003955bfe368e3a52f"
+    },
+    {
+      "file": "Location Test.docx",
+      "sha256": "5ddbfc15ba8f7d766148c6c0e285b2613ac0689d8b9272c1b3a82da0c4bfbfc7"
+    },
+    {
+      "file": "Polygons and Circles Test.docx",
+      "sha256": "e73e880b3bfd45b7a82c98cdc9b89920d2d7e6ef98cdea58f0c7c953477095df"
+    },
+    {
+      "file": "Shapes Test.docx",
+      "sha256": "8325b369a7fe9ae5890107934acb372093a4ef85089ff13ed44a05c2d62cc64d"
+    },
+    {
+      "file": "Transformations and Congruence Test.docx",
+      "sha256": "fb29e6dc028cfc15dce822c64344172e56f6ce3b16647e740cd44a752089de22"
+    },
+    {
+      "file": "Metric System Test.docx",
+      "sha256": "cb7c5e865e6ec68ab4d33f8df2d6784e0aeeb99694a74c7120c41210bd2fee4c"
+    },
+    {
+      "file": "Area Test.docx",
+      "sha256": "df37c4addf86213e079f925b8817d298759c6bd6bbfb9728a9203296d7a41c76"
+    },
+    {
+      "file": "Pythagoras Test.docx",
+      "sha256": "df34ce10f4cb5e04e61434ed5679d9eca1ce4c0380bba30f76f470101c43e14a"
+    },
+    {
+      "file": "Volume and Surface Area Test.docx",
+      "sha256": "2a8f0d1f5b0acd42d3d0892a0e27e56d41e9c8c4b05892ab708d7eeaa7680e9f"
+    },
+    {
+      "file": "Decimals Test.docx",
+      "sha256": "4895548b653095124a420ce7d15ca8de7528b63ff9b3f5b53a67f4aefd5d302a"
+    },
+    {
+      "file": "Fractions Test.docx",
+      "sha256": "e99b601a04aab1042e46859a9017891fbfaebb674bb66b1b591b4fb5ec609815"
+    },
+    {
+      "file": "Integers Test.docx",
+      "sha256": "b339da90736ff4bb7a0ffe740a0c4254fbd49271b36c1597ab43a4652a1aa82f"
+    },
+    {
+      "file": "Number Systems Test.docx",
+      "sha256": "b2db022d2cecd5ef17bb4b99412661d48bfc7c8ab13fe688f3845f5b766a8ac6"
+    },
+    {
+      "file": "Percentages Test.docx",
+      "sha256": "fd1ec8e6aa23f1b9127643e14810332dfbb501f4fa9f4197ebe786753ce0828c"
+    },
+    {
+      "file": "Ratio and Rates Test.docx",
+      "sha256": "4a017a1db37f722a14143e2bcdc8cd9ad569249e26c7a553044c22ff0ff360db"
+    },
+    {
+      "file": "Rational Numbers Test.docx",
+      "sha256": "33b7d6b10a1f2e17ae12efafeb514610c819465c829620890f0bead2e4df9101"
+    }
+  ],
+  "yearCounts": {
+    "7": 304,
+    "8": 110,
+    "9": 18,
+    "10": 1
+  },
+  "multipleChoice": 223,
+  "typedResults": 183,
+  "teacherReview": 27,
+  "corrections": [
+    {
+      "source": "Area",
+      "number": 8,
+      "note": "A = \u00bdbh = \u00bd \u00d7 250 \u00d7 120 = 15 000 mm\u00b2. The supplied key drops a zero; 1500 mm\u00b2 is incorrect."
+    },
+    {
+      "source": "Integers",
+      "number": 8,
+      "note": "The instructions say the total must fall below \u2212500 to lose. Starting at \u2212280, any next-hand score below \u2212220 causes a loss (for integer scores, \u2212221 or less). The supplied answer \u2212220 reaches exactly \u2212500 and does not satisfy \u201cbelow\u201d."
+    },
+    {
+      "source": "Metric System",
+      "number": 29,
+      "note": "The radius is 4 cm. C = 2 \u00d7 3.1 \u00d7 4 = 24.8 cm. The supplied key incorrectly prints the unit m; use cm."
+    },
+    {
+      "source": "Percentages",
+      "number": 13,
+      "note": "125/100 = 1.25 = 125%, which is not 12.5%. The other three values are 0.125 = 12.5%. The supplied key incorrectly selects 125/1000; the correct choice is the first option."
+    },
+    {
+      "source": "Pythagoras",
+      "number": 10,
+      "note": "The hypotenuse is 45 m. d = \u221a(45\u00b2 \u2212 20\u00b2) = \u221a1625 = 40.311\u2026 m, hence 40.31 m to the nearest centimetre. The supplied key gives 1625, which is d\u00b2, not d."
+    },
+    {
+      "source": "Ratio and Rates",
+      "number": 12,
+      "note": "The third ratio, 2 : \u2158, equals 5 : 2 rather than 5 : 4. The fourth ratio, 1 : \u2158, does equal 5 : 4. The supplied key selects the wrong option."
+    }
+  ],
+  "curriculumUrl": "https://k10outline.scsa.wa.edu.au/__data/assets/pdf_file/0004/1229467/Mathematics_Scope-and-sequence_7-10__For-implementation-in-2026.PDF",
+  "notes": [
+    "433 questions preserved, with isolated question and solution crops. Shared maps and data are repeated independently for randomised practice.",
+    "MCQ letters added to original choice markers in row-major reading order.",
+    "Original printed year retained; curriculum year records skill placement, with foundation flags for prior learning.",
+    "Roman numerals, formal triangle congruence proofs and some solid classification tasks are retained as supporting or extension practice; inclusion is not a claim that every source item is a mandated curriculum outcome.",
+    "Map scale bar resizes with the map; rectangle-measurement task supplies original dimensions for screen use.",
+    "Calculator allocations are retained where stated; Shapes and Integers are allocated calculator-free practice.",
+    "No source test provides mark allocations. Automatic marking checks configured results, while drawings, constructions, proofs and open answers require teacher review.",
+    "Source data and generated assets use no embedded document metadata."
+  ]
+}
