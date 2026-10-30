@@ -38,7 +38,10 @@ jobs:
             assets/physics
             assets/chemistry
             scripts
+            tests
           sparse-checkout-cone-mode: true
+      - name: Check interactive lab models
+        run: node --test tests/interactive-lab-science.test.mjs
       - name: Build lightweight site artifact
         run: |
           python scripts/build-vault-catalog.py
