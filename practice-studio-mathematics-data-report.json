@@ -1,0 +1,38 @@
+{
+  "total": 82,
+  "addedAt": "2026-10-30T12:10:23Z",
+  "sources": [
+    {
+      "file": "Graphs and Plots Test.docx",
+      "questions": 25,
+      "sha256": "e7e8a1675c29effc2352b7d18059d648fc17758655b03903171c807b1228dd45"
+    },
+    {
+      "file": "Graphs Tables Charts Test.docx",
+      "questions": 32,
+      "sha256": "6802057b88259727e264a9cda910e8dbe23055e4d3b801242a556b2adb4dfa88"
+    },
+    {
+      "file": "Statistical Measures Test.docx",
+      "questions": 25,
+      "sha256": "1b8582afe32ada625070ff92f1cc5e39ba31c85379e1092785d4a22ff116ed74"
+    }
+  ],
+  "yearCounts": {
+    "7": 48,
+    "8": 31,
+    "9": 3,
+    "10": 0
+  },
+  "curriculumUrl": "https://k10outline.scsa.wa.edu.au/__data/assets/pdf_file/0004/1229467/Mathematics_Scope-and-sequence_7-10__For-implementation-in-2026.PDF",
+  "notes": [
+    "All 82 source questions retained with independent context for randomised practice.",
+    "Source labels retained as originalYear; curriculum year reflects 2026 skill placement.",
+    "Original school-enrolment graph and book pictograph recovered from the supplied scanned key because Word rendering loses book symbols and places the Year 9 column slightly below 200. The recovered graph shows the keyed 200.",
+    "Graphs Tables Charts Q15 key incorrectly reverses currency conversion: \u00a345 \u00d7 2.4 = A$108.",
+    "Graphs Tables Charts Q27 explicitly defines the boys subgroup to distinguish its census from the whole-school population.",
+    "Graphs Tables Charts Q28 asks for the clearest geographic bias; statewide phonebook sampling can also have coverage bias.",
+    "Practice marks allocated because source tests do not specify question marks.",
+    "Graph construction and tallies remain available for teacher review; typed numerical results are checked automatically."
+  ]
+}
