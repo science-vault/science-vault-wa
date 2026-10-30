@@ -41,7 +41,7 @@ jobs:
             tests
           sparse-checkout-cone-mode: true
       - name: Check interactive lab models
-        run: node --test tests/interactive-lab-science.test.mjs tests/circuit-lab.test.mjs tests/interactive-lab-more.test.mjs
+        run: node --test tests/interactive-lab-science.test.mjs tests/circuit-lab.test.mjs tests/interactive-lab-more.test.mjs tests/written-answer-checker.test.mjs
       - name: Build lightweight site artifact
         run: |
           python scripts/build-vault-catalog.py
@@ -97,5 +97,6 @@ jobs:
         uses: actions/deploy-pages@v5
         with:
           artifact_name: github-pages-${{ github.run_attempt }}
+
 
 

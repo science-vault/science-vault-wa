@@ -11,7 +11,7 @@
  state.answerReview=state.answerReview&&typeof state.answerReview==='object'?state.answerReview:{};
  function snapshot(){
   if(cursor<0||!visits[cursor]||visits[cursor].id!==current||$('modal').hidden)return null;
-  return {id:current,key:key(current),chosen,checked,written:$('written-answer')?.value??null,typed:[...document.querySelectorAll('.maths-typed-results input')].map(n=>n.value),typedFeedback:document.querySelector('.maths-result-feedback')?.textContent||'',typedHTML:document.querySelector('.maths-result-feedback')?.innerHTML||'',feedback:$('feedback').innerHTML,feedbackNodes:[...$('feedback').childNodes],feedbackVisible:!$('feedback').hidden,checkLabel:$('check').textContent};
+  return {id:current,key:key(current),chosen,checked,written:$('written-answer')?.value??null,typed:[...document.querySelectorAll('.maths-typed-results input')].map(n=>n.value),typedFeedback:document.querySelector('.maths-result-feedback')?.textContent||'',typedHTML:document.querySelector('.maths-result-feedback')?.innerHTML||'',feedback:$('feedback').innerHTML,feedbackNodes:[...$('feedback').childNodes],feedbackVisible:!$('feedback').hidden,writtenFeedback:document.querySelector('.written-check-summary')?.textContent||'',checkLabel:$('check').textContent};
  }
  function remember(){
   if(reviewing||pending)return;
@@ -36,6 +36,7 @@
  function feedbackFromRecord(value){
   const q=questions[current],m=q[7];const fragment=document.createElement('div');
   if(value.chosen!==null&&value.chosen!==undefined){const correct=value.chosen===(m?.correctAnswer??q[5]);const p=document.createElement('p');p.textContent=correct?'Your submitted answer was correct.':'Your submitted answer needs more practice.';fragment.append(p);}
+  if(value.writtenFeedback){const summary=document.createElement('p');summary.className='review-note';summary.textContent=value.writtenFeedback;fragment.append(summary);}
   const answer=document.createElement('div');if(m?.answerHtml)answer.innerHTML=m.answerHtml;else answer.textContent=q[6]||'';fragment.append(answer);return fragment.innerHTML;
  }
  function restore(value,readOnly){
@@ -72,3 +73,4 @@
  const previousClose=closePlayer;closePlayer=function(){remember();ticket++;pending=null;settling=false;const result=previousClose();reviewing=false;return result;};
  paint();if(!$('modal').hidden)window.dispatchEvent(new CustomEvent('vault-studio-question-opened',{detail:{id:current}}));
 })();
+

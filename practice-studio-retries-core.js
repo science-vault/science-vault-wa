@@ -18,9 +18,10 @@
  function weaknesses(questions,attempts,allowed){
   const last=latest(attempts);
   return [...last.values()].filter(a=>{
-   const q=questions[a.id];if(a.correct||!q||!allowed(q[0],q[1]))return false;
+   const q=questions[a.id];if(a.reviewRequired||a.correct===null||a.correct||!q||!allowed(q[0],q[1]))return false;
    return !attempts.some(b=>b.correct&&b.retryOf===key(q,a.id)&&b.time>=a.time);
   }).sort((a,b)=>b.time-a.time);
  }
  root.StudioRetries={recommend,weaknesses,key};
 })(typeof window==='undefined'?globalThis:window);
+

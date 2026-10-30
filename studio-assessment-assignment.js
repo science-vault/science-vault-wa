@@ -19,7 +19,7 @@
  window.addEventListener('vault-studio-answer',event=>{
   const d=event.detail,id='studio:'+d.questionId;if(!ready||submitted||!allowed.has(id))return;
   const meta=questions.find(q=>q[7]?.id===d.questionId)?.[7];if(!meta)return;
-  results.set(id,{questionId:id,correct:!d.manual&&!!d.correct,manual:!!d.manual,marks:Number(meta.marks),response:d.manual?(state.drafts?.[d.questionId]||''):String(chosen)});message();
+  results.set(id,{questionId:id,correct:!d.manual&&!!d.correct,manual:!!d.manual,marks:Number(meta.marks),response:typeof d.response==='string'?d.response:d.manual?(state.drafts?.[d.questionId]||''):String(chosen)});message();
   if(results.size!==allowed.size)return;
   submitted=true;notice.textContent='Submitting assessment…';const responses=[...results.values()],automatic=responses.filter(r=>!r.manual);
   saving=saving.then(()=>client.saveProgress({title:task.title,course:meta.subject,yearGroup:Number(meta.year),kind:'assessment',earned:automatic.reduce((n,r)=>n+(r.correct?r.marks:0),0),max:automatic.reduce((n,r)=>n+r.marks,0),manualCount:responses.filter(r=>r.manual).length,completed:true,selfReported:responses.some(r=>r.manual),responses})).then(ok=>{if(!ok)throw Error('Your class submission was not saved.');message();}).catch(e=>{submitted=false;notice.textContent=e.message+' Review the final question again to retry submission.';});

@@ -10,7 +10,7 @@
  const allowed=(subject,year)=>!!window.studioCanStudy?.(subject,year);
  function updatePanel(){
   const weak=matcher.weaknesses(questions,state.attempts,allowed);
-  summary.textContent=weak.length?weak.length+' question'+(weak.length===1?' needs':'s need')+' another look. Practise the same skill with a different question.':'Mistakes and “I need more practice” reviews will appear here.';
+  summary.textContent=weak.length?weak.length+' question'+(weak.length===1?' needs':'s need')+' another look. Practise the same skill with a different question.':'Automatically marked mistakes will appear here. Responses awaiting teacher review are kept out of this list.';
   launch.hidden=!weak.length;launch.textContent='Practise a weak area →';
   launch.onclick=()=>launchRetry(weak[0].id);
  }
@@ -43,6 +43,7 @@
  function recorded(before,id){
   if(state.attempts.length<=before)return;
   const attempt=state.attempts.at(-1);
+  if(attempt.reviewRequired)return;
   if(origin){attempt.retryOf=origin;persist();}
   updatePanel();
   if(!attempt.correct)offer(id);
