@@ -1,6 +1,9 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {readFileSync} from 'node:fs';
+import {readFileSync,mkdtempSync,writeFileSync,rmSync} from 'node:fs';
+import {tmpdir} from 'node:os';
+import {join} from 'node:path';
+import {execFileSync} from 'node:child_process';
 import vm from 'node:vm';
 import {canStudy} from '../registration-options.mjs';
 const read=p=>readFileSync(new URL(p,import.meta.url),'utf8');
@@ -12,6 +15,25 @@ vm.runInContext(read('../maths-answer-checker.js'),context);
 vm.runInContext(read('../written-answer-checker.js'),context);
 const W=context.WrittenAnswerChecker,M=context.MathsAnswerChecker;
 const get=(s,n)=>rows.find(q=>q.id===`maths-lower-${s}-q${n}`);
+test('build coverage counts lower-school and senior questions and rejects invalid years',()=>{
+ const dir=mkdtempSync(join(tmpdir(),'studio-coverage-'));
+ try{
+  writeFileSync(join(dir,'practice-studio-catalog.js'),"window.PracticeStudioCatalog={indices:['practice-studio-fixture.json'],normalise:q=>q};");
+  const file=join(dir,'practice-studio-fixture.json');
+  writeFileSync(file,JSON.stringify([...index,{...index[0]},{id:'senior-fixture',subject:'Physics',year:12,hash:'senior-fixture'}]));
+  const script=new URL('../scripts/build-assessment-counts.cjs',import.meta.url);
+  execFileSync(process.execPath,[script.pathname,dir]);
+  const counts=JSON.parse(readFileSync(join(dir,'assessment-bank-counts.json'),'utf8'));
+  assert.equal(counts.total,123);assert.equal(counts.byCourse.Mathematics,122);assert.equal(counts.byYear[12],1);
+  for(const y of [7,8,9,10])assert.equal(counts.byYear[y],index.filter(q=>q.year===y).length);
+  writeFileSync(file,JSON.stringify([{id:'invalid',subject:'Mathematics',year:6}]));
+  assert.throws(()=>execFileSync(process.execPath,[script.pathname,dir],{stdio:'pipe'}),/Command failed/);
+ }finally{rmSync(dir,{recursive:true,force:true});}
+});
+test('new catalogue index appends after all existing indexes to preserve saved question positions',()=>{
+ const c=vm.createContext({window:{}});vm.runInContext(read('../practice-studio-catalog.js'),c);
+ assert.deepEqual(Array.from(c.window.PracticeStudioCatalog.indices),['practice-studio-physics-index.json','practice-studio-physics-year11-index.json','practice-studio-human-biology-index.json','practice-studio-human-biology-year11-index.json','practice-studio-chemistry-year11-index.json','practice-studio-methods-year11-index.json','practice-studio-methods-year12-index.json','practice-studio-mathematics-lower-index.json']);
+});
 test('all 122 source questions appear once in both lazy banks and catalogue',()=>{
  assert.equal(rows.length,122);assert.equal(index.length,122);
  assert.equal(new Set(rows.map(q=>q.id)).size,122);

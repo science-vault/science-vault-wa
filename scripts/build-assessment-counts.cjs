@@ -12,7 +12,7 @@ for(const file of catalog.indices){
  if(!Array.isArray(rows))throw Error('Invalid Studio index: '+file);
  for(const raw of rows){
   const q=catalog.normalise(raw);
-  if(!q.id||!q.subject||![11,12].includes(Number(q.year)))throw Error('Incomplete Studio question in '+file);
+  if(!q.id||!q.subject||![7,8,9,10,11,12].includes(Number(q.year)))throw Error('Incomplete Studio question in '+file);
   if(ids.has(q.id)||(q.hash&&hashes.has(q.hash)))continue;
   ids.add(q.id);if(q.hash)hashes.add(q.hash);
   byCourse[q.subject]=(byCourse[q.subject]||0)+1;byYear[q.year]=(byYear[q.year]||0)+1;
