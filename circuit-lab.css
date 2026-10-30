@@ -2,3 +2,5 @@
 @media(max-width:1050px){.circuit-layout,.circuit-bench:fullscreen .circuit-layout,.circuit-bench.lab-focus .circuit-layout{grid-template-columns:1fr}.circuit-side{grid-template-columns:repeat(2,minmax(0,1fr))}.circuit-side>section:last-child{grid-column:1/-1}}
 @media(max-width:600px){.circuit-side{grid-template-columns:1fr}.circuit-main{padding:14px}.circuit-metrics{grid-template-columns:1fr}.circuit-presets button,.circuit-modes button{font-size:11px;padding:8px}.circuit-tools{padding:8px}.circuit-tools button{font-size:12px;padding:9px}.circuit-bench .bench-head{flex-wrap:wrap}.circuit-bench:fullscreen,.circuit-bench.lab-focus{padding:14px}}
 @media(prefers-reduced-motion:reduce){.circuit-flow{animation:none}}
+
+.circuit-board svg{touch-action:none}.circuit-tools button:focus-visible{outline:3px solid #b77c15;outline-offset:3px}.circuit-presets button[data-preset=empty]{background:#7354dc;color:white;border-color:#7354dc}

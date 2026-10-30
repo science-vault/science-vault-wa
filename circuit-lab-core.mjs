@@ -1,13 +1,13 @@
 // DC steady-state solver: ideal wires/switches, one ideal source, ohmic loads.
-export const COMPONENT_TYPES=['battery','resistor','lamp','switch'];
+export const COMPONENT_TYPES=['battery','resistor','lamp','switch','junction'];
 export function terminalId(c,side){return c.id+':'+side;}
-export function terminalPosition(c,side){const a=(c.rotation||0)*Math.PI/180,d=side==='a'?-45:45;return{x:c.x+Math.cos(a)*d,y:c.y+Math.sin(a)*d,dx:Math.cos(a)*(side==='a'?-1:1),dy:Math.sin(a)*(side==='a'?-1:1)};}
+export function terminalPosition(c,side){const a=(c.rotation||0)*Math.PI/180,d=c.type==='junction'?0:side==='a'?-45:45;return{x:c.x+Math.cos(a)*d,y:c.y+Math.sin(a)*d,dx:Math.cos(a)*(side==='a'?-1:1),dy:Math.sin(a)*(side==='a'?-1:1)};}
 function linearSolve(matrix,vector){const a=matrix.map((row,i)=>[...row,vector[i]]),n=a.length;for(let col=0;col<n;col++){let pivot=col;for(let i=col+1;i<n;i++)if(Math.abs(a[i][col])>Math.abs(a[pivot][col]))pivot=i;if(Math.abs(a[pivot][col])<1e-12)throw Error('Unreferenced circuit');[a[col],a[pivot]]=[a[pivot],a[col]];const k=a[col][col];for(let j=col;j<=n;j++)a[col][j]/=k;for(let i=0;i<n;i++)if(i!==col){const m=a[i][col];for(let j=col;j<=n;j++)a[i][j]-=m*a[col][j];}}return a.map(row=>row[n]);}
 export function solveCircuit(circuit){
  const components=circuit.components||[],wires=circuit.wires||[],terminals=new Set(components.flatMap(c=>[terminalId(c,'a'),terminalId(c,'b')]));
  if(components.some(c=>!COMPONENT_TYPES.includes(c.type)))throw Error('Unknown component');
  const parent=new Map([...terminals].map(x=>[x,x]));const find=x=>{if(!parent.has(x))throw Error('Wire endpoint is not a component terminal');if(parent.get(x)!==x)parent.set(x,find(parent.get(x)));return parent.get(x);};const join=(a,b)=>parent.set(find(a),find(b));
- for(const w of wires)join(w.from,w.to);for(const c of components)if(c.type==='switch'&&c.closed)join(terminalId(c,'a'),terminalId(c,'b'));
+ for(const w of wires)join(w.from,w.to);for(const c of components)if(c.type==='junction'||c.type==='switch'&&c.closed)join(terminalId(c,'a'),terminalId(c,'b'));
  const batteries=components.filter(c=>c.type==='battery');if(batteries.length>1)throw Error('Use one battery in this lab');
  const loads=components.filter(c=>c.type==='resistor'||c.type==='lamp');for(const c of loads)if(!Number.isFinite(c.resistance)||c.resistance<=0)throw Error('Resistance must be positive');
  const battery=batteries[0],empty={status:'no-battery',supplyCurrent:0,equivalentResistance:null,power:0,voltageByTerminal:{},readings:{},message:'Add one battery and connect a complete path through a resistor or lamp.'};
@@ -37,10 +37,10 @@ export function cleanCircuit(raw){
  const seen=new Set();let batteries=0;const valid=[];
  for(const c of raw.components){
   if(!c||!COMPONENT_TYPES.includes(c.type)||!/^[A-Za-z0-9_-]{1,32}$/.test(c.id)||seen.has(c.id)||c.type==='battery'&&batteries>0)continue;
-  if(valid.length>=15)break;seen.add(c.id);if(c.type==='battery')batteries++;
+  if(valid.length>=30)break;seen.add(c.id);if(c.type==='battery')batteries++;
   valid.push({id:c.id,type:c.type,x:Number.isFinite(c.x)?Math.max(65,Math.min(835,c.x)):350,y:Number.isFinite(c.y)?Math.max(70,Math.min(465,c.y)):250,rotation:[0,90,180,270].includes(c.rotation)?c.rotation:0,voltage:Number.isFinite(c.voltage)?Math.max(1,Math.min(24,c.voltage)):12,resistance:Number.isFinite(c.resistance)?Math.max(1,Math.min(1000,c.resistance)):100,closed:c.closed===true});
  }
  const terminals=new Set(valid.flatMap(c=>[terminalId(c,'a'),terminalId(c,'b')]));
- const wires=raw.wires.filter(w=>w&&terminals.has(w.from)&&terminals.has(w.to)&&w.from!==w.to).slice(0,40).map((w,i)=>({id:'W'+(i+1),from:w.from,to:w.to,points:Array.isArray(w.points)?w.points.filter(p=>Array.isArray(p)&&p.length===2&&p.every(Number.isFinite)).slice(0,6).map(([x,y])=>[Math.max(10,Math.min(890,x)),Math.max(10,Math.min(530,y))]):undefined}));return{components:valid,wires};
+ const wires=raw.wires.filter(w=>w&&terminals.has(w.from)&&terminals.has(w.to)&&w.from!==w.to).slice(0,80).map((w,i)=>({id:'W'+(i+1),from:w.from,to:w.to,points:Array.isArray(w.points)?w.points.filter(p=>Array.isArray(p)&&p.length===2&&p.every(Number.isFinite)).slice(0,20).map(([x,y])=>[Math.max(10,Math.min(890,x)),Math.max(10,Math.min(530,y))]):undefined}));return{components:valid,wires};
 }
 export const CIRCUIT_LAB={id:'circuit-builder',subject:'Science',strand:'Physics',icon:'ϟ',title:'Circuit Construction Lab',blurb:'Drag batteries, resistors, lamps and switches. Wire your own circuit and measure current and voltage.',minutes:15,controls:[],fields:[]};

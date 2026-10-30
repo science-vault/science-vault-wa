@@ -4,7 +4,7 @@ import {SCIENCE_LABS,pendulum,wave,refraction,gas,equilibrium,osmosis,scienceObs
 import {LABS,initialValues,assessLab} from '../interactive-lab-core.mjs';
 import {scienceVisual} from '../interactive-lab-science-visuals.mjs';
 const near=(a,b,t=1e-9)=>assert.ok(Math.abs(a-b)<t,`${a} should equal ${b}`);
-test('15 unique labs retain all eight existing investigations',()=>{assert.equal(LABS.length,15);assert.equal(new Set(LABS.map(l=>l.id)).size,15);for(const id of ['linear','area','projectile','circuit','paragraph','catchment','business','logic'])assert.ok(LABS.some(l=>l.id===id));});
+test('21 unique labs retain all eight existing investigations',()=>{assert.equal(LABS.length,21);assert.equal(new Set(LABS.map(l=>l.id)).size,21);for(const id of ['linear','area','projectile','circuit','paragraph','catchment','business','logic'])assert.ok(LABS.some(l=>l.id===id));});
 test('pendulum period is mass-independent and scales with square root of length',()=>{const v=initialValues(SCIENCE_LABS[0]);near(pendulum(v).period,2.007089923154493);near(pendulum({...v,mass:2}).period,pendulum(v).period);near(pendulum({...v,length:4}).period,2*pendulum(v).period);});
 test('small-angle pendulum conserves energy at all sampled times',()=>{const v=initialValues(SCIENCE_LABS[0]);for(let t=0;t<12;t+=.13){const p=pendulum(v,t);near(p.potential+p.kinetic,p.total);assert.ok(p.potential>=0&&p.kinetic>=0);}});
 test('wave speed and period have consistent units',()=>{near(wave({frequency:2,wavelength:1.5}).speed,3);near(wave({frequency:2,wavelength:1.5}).period,.5);});
