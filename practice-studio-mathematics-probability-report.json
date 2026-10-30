@@ -1,0 +1,38 @@
+{
+  "total": 70,
+  "addedAt": "2026-10-30T23:46:09Z",
+  "sources": [
+    {
+      "file": "Sample Space and Relative Frequency Test.docx",
+      "questions": 30,
+      "sha256": "855acb5d7f70c32f39ed0a79b574706b20a65c14be7e87dcfa738e60e067f778"
+    },
+    {
+      "file": "Further Probability Test.docx",
+      "questions": 40,
+      "sha256": "d367a53b971cfe9b96d3dd1e01733fc9fc6120c72945c0320b445b20c265d74b"
+    }
+  ],
+  "yearCounts": {
+    "7": 36,
+    "8": 31,
+    "9": 0,
+    "10": 3
+  },
+  "multipleChoice": 34,
+  "typedQuestions": 36,
+  "curriculumUrl": "https://k10outline.scsa.wa.edu.au/__data/assets/pdf_file/0004/1229467/Mathematics_Scope-and-sequence_7-10__For-implementation-in-2026.PDF",
+  "corrections": [
+    "Sample Space Q23: blue is 2/25, not the keyed 2/23.",
+    "Sample Space Q27: WA relative frequency is 13/80 = 0.1625, not 0.26; Tasmania is 11/80 = 0.1375, not 0.22."
+  ],
+  "notes": [
+    "All 70 source questions are retained and numbered in source order. Shared diagrams and tables are repeated independently for randomised practice.",
+    "All questions have checked worked solutions and automatic MCQ or typed result checks.",
+    "Source year is retained separately from 2026 curriculum placement. Conditional probability (Further Q30, Q35 and Q40) is placed in Year 10. Basic sample-space work is Year 7; complements and combined events are Year 8.",
+    "Repeated-colour sample space is entered as sector counts; repeated letter tiles remain separate physical outcomes.",
+    "Birth-day model, raffle winner count and garbage service-day assumptions are explicit.",
+    "Ambiguous \u201cnot red or blue\u201d is clarified as neither, consistent with the source key.",
+    "Marks are practice allocations because the source tests do not print mark allocations."
+  ]
+}

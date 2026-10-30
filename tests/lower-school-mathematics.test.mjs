@@ -32,7 +32,7 @@ test('build coverage counts lower-school and senior questions and rejects invali
 });
 test('new catalogue index appends after all existing indexes to preserve saved question positions',()=>{
  const c=vm.createContext({window:{}});vm.runInContext(read('../practice-studio-catalog.js'),c);
- assert.deepEqual(Array.from(c.window.PracticeStudioCatalog.indices),['practice-studio-physics-index.json','practice-studio-physics-year11-index.json','practice-studio-human-biology-index.json','practice-studio-human-biology-year11-index.json','practice-studio-chemistry-year11-index.json','practice-studio-methods-year11-index.json','practice-studio-methods-year12-index.json','practice-studio-mathematics-lower-index.json','practice-studio-mathematics-data-index.json','practice-studio-mathematics-geometry-index.json','practice-studio-mathematics-measurement-index.json','practice-studio-mathematics-number-index.json']);
+ assert.deepEqual(Array.from(c.window.PracticeStudioCatalog.indices),['practice-studio-physics-index.json','practice-studio-physics-year11-index.json','practice-studio-human-biology-index.json','practice-studio-human-biology-year11-index.json','practice-studio-chemistry-year11-index.json','practice-studio-methods-year11-index.json','practice-studio-methods-year12-index.json','practice-studio-mathematics-lower-index.json','practice-studio-mathematics-data-index.json','practice-studio-mathematics-geometry-index.json','practice-studio-mathematics-measurement-index.json','practice-studio-mathematics-number-index.json','practice-studio-mathematics-probability-index.json']);
 });
 test('all 122 source questions appear once in both lazy banks and catalogue',()=>{
  assert.equal(rows.length,122);assert.equal(index.length,122);
