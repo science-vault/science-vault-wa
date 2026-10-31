@@ -3,6 +3,7 @@
  const indices=['practice-studio-physics-index.json','practice-studio-physics-year11-index.json','practice-studio-human-biology-index.json','practice-studio-human-biology-year11-index.json','practice-studio-chemistry-year11-index.json','practice-studio-methods-year11-index.json','practice-studio-methods-year12-index.json','practice-studio-mathematics-lower-index.json','practice-studio-mathematics-data-index.json','practice-studio-mathematics-geometry-index.json','practice-studio-mathematics-measurement-index.json','practice-studio-mathematics-number-index.json','practice-studio-mathematics-probability-index.json','practice-studio-mathematics-algebra-910-index.json','practice-studio-mathematics-data-910-index.json'];
  const types={Mathematics:['Calculator-free','Calculator-assumed'],Physics:['Short answer','Calculations','Comprehension'],'Human Biology':['Multiple choice','Short answer','Extended answer'],Chemistry:['Multiple choice','Short answer','Extended answer'],'Mathematics Methods':['Calculator-free','Calculator-assumed']};
  function normalise(meta){
+  meta=root.PracticeStudioPresentation?.normalise(meta)||meta;
   if(meta.subject!=='Physics')return meta;
   const section=meta.sourceSection||meta.section||'';
   const category=/comprehension|extended response|section (?:three|3)/i.test(section)?'Comprehension':/problem solving|calculation|section (?:two|2)/i.test(section)?'Calculations':'Short answer';
