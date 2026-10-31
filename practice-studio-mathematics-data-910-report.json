@@ -1,0 +1,57 @@
+{
+  "total": 103,
+  "sourceQuestions": 104,
+  "duplicatesMerged": [
+    {
+      "sourceId": "maths-lower-data-910-data-interpretation-short-q1",
+      "canonicalId": "maths-lower-data-910-basic-statistics-short-q5",
+      "reason": "Identical dot-plot dataset and median request"
+    }
+  ],
+  "sources": [
+    {
+      "file": "Basic Statistics Test.docx",
+      "newQuestions": 20,
+      "sourceQuestions": 20
+    },
+    {
+      "file": "Data Interpretation Test.docx",
+      "newQuestions": 20,
+      "sourceQuestions": 21
+    },
+    {
+      "file": "Data Comparison and Sampling Test.docx",
+      "newQuestions": 21,
+      "sourceQuestions": 21
+    },
+    {
+      "file": "Bivariate Data Test.docx",
+      "newQuestions": 22,
+      "sourceQuestions": 22
+    },
+    {
+      "file": "Data Interpretation and Comparison Test.docx",
+      "newQuestions": 20,
+      "sourceQuestions": 20
+    }
+  ],
+  "yearCounts": {
+    "7": 18,
+    "8": 32,
+    "9": 25,
+    "10": 28
+  },
+  "automaticMultipleChoice": 49,
+  "typedResults": 42,
+  "teacherReview": 14,
+  "notes": [
+    "Original source year, section and page retained. Skill year uses the WA 2026 curriculum.",
+    "All 104 source questions accounted for: 103 unique practice questions and one merged duplicate. Blank answer sheets and the blank continuation page excluded.",
+    "Data Interpretation repeats question 6; both receive independent stable IDs.",
+    "Numerical results checked; construction, explanations and graphs remain teacher reviewed.",
+    "Basic Statistics voting question 7: supplied answer D corrected to C.",
+    "Army mean is 8.17 to 2 dp, not truncated 8.16.",
+    "Standing-time plot questions explicitly count distinct visible points; embedded chart has coincident duplicates.",
+    "Outlier language is clarified where the source uses visually isolated values without a formal rule."
+  ]
+}

@@ -23,9 +23,10 @@ test('every question and solution crop lies inside its JPEG sprite; random quest
  assert.equal(sizes.size,38);for(const [s,sec,ns]of [['simultaneous-equations','short',[1,2,3,6,7]],['simultaneous-equations','choice',[4,5]],['functions-and-graphs','short',[2,3]]])for(const n of ns)assert.equal([...get(s,sec,n).html.matchAll(/<img/g)].length,2);
 });
 test('SCSA skill years are separate from source year and longer questions keep printed marks',()=>{
- assert.deepEqual(Object.fromEntries([7,8,9,10].map(y=>[y,rows.filter(q=>q.year===y).length])),{7:20,8:41,9:65,10:69});for(const q of rows){assert.equal(q.scsa.year,q.year);assert.match(q.scsa.url,/For-implementation-in-2026/);assert.equal(q.topics[0],'Algebra');}
+ assert.deepEqual(Object.fromEntries([7,8,9,10].map(y=>[y,rows.filter(q=>q.year===y).length])),{7:20,8:41,9:65,10:69});for(const q of rows){assert.equal(q.scsa.year,q.year);assert.match(q.scsa.url,/For-implementation-in-2026/);assert.equal(q.topics[0],q.scsa.subStrand);assert.ok(!q.topics.includes('Algebra'));}
  assert.equal(get('coordinate-geometry','short',4).year,9);assert.equal(get('simultaneous-equations','choice',1).year,10);assert.equal(get('simultaneous-equations','choice',1).scsa.optional,true);assert.equal(get('simultaneous-equations','long',2).marks,9);assert.equal(get('functions-and-graphs','long',1).marks,6);
 });
 test('new algebra sorts recently added without changing persistent catalogue positions',()=>{
  const old=JSON.parse(read('practice-studio-mathematics-probability-index.json'));const sorted=c.PracticeStudioDatabaseOrder.sort([...old,...index].map(meta=>({q:[null,null,null,null,null,null,null,meta]})),'recent');assert.equal(sorted[0].q[7].id,index[0].id);assert.ok(Date.parse(index[0].addedAt)>Date.parse(old[0].addedAt));assert.ok(read('practice-studio-catalog.js').indexOf('practice-studio-mathematics-algebra-910-index.json')>read('practice-studio-catalog.js').indexOf('practice-studio-mathematics-probability-index.json'));
 });
+
