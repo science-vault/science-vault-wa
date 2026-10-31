@@ -1,0 +1,81 @@
+{
+  "total": 195,
+  "addedAt": "2026-10-31T00:14:05Z",
+  "sourceFiles": [
+    {
+      "file": "Coordinate GeometryTest.docx",
+      "sha256": "ca1fbbff7eaf08380f336a08a942563780e2e2b702edf3ec7df47065d2d337e0"
+    },
+    {
+      "file": "Simultaneous EquationsTest.docx",
+      "sha256": "fc2e02ca19f2f7a122f8de690037bcae3877cdc1afdcb1dcac983b997b6c51cb"
+    },
+    {
+      "file": "Non Linear Equations Test.docx",
+      "sha256": "07d7dae20dcfb27b03c96d84c737e6f1d58dbad0f7b99b867c340a7d8c2834c5"
+    },
+    {
+      "file": "Linear EquationsTest.docx",
+      "sha256": "dcf49c5afdd2b317ecbbc01f2a4b5dd9e332529c37bc11028ee5ff0c9be5d87b"
+    },
+    {
+      "file": "Functions and Graphs Test.docx",
+      "sha256": "40731286c74224217fdd9f322a96dd8aaf687b91edd26d22d396a31ca3aa3202"
+    },
+    {
+      "file": "Factorisation Test.docx",
+      "sha256": "00ce78eadf9931b76b6e7f8e4b91634b68e5bf7a9d880f0ecf221460b260fc58"
+    },
+    {
+      "file": "Basic Algebra Skills Test.docx",
+      "sha256": "0dbbdc499b6a4d043722e5ac4bbe344f90095fb8f6ca0250b31c4f24b0a240cc"
+    },
+    {
+      "file": "Algebric Expansions Test.docx",
+      "sha256": "b394844b6085bee188cb10183176e3ea5fc93693f3f638136bb2221bc36b35e8"
+    }
+  ],
+  "sections": {
+    "coordinate-geometry|short": 13,
+    "coordinate-geometry|choice": 12,
+    "coordinate-geometry|long": 2,
+    "simultaneous-equations|short": 7,
+    "simultaneous-equations|choice": 5,
+    "simultaneous-equations|long": 2,
+    "non-linear-equations|short": 10,
+    "non-linear-equations|choice": 14,
+    "linear-equations|short": 8,
+    "linear-equations|choice": 10,
+    "functions-and-graphs|short": 6,
+    "functions-and-graphs|choice": 10,
+    "functions-and-graphs|long": 2,
+    "factorisation|short": 15,
+    "factorisation|choice": 15,
+    "basic-algebra-skills|short": 20,
+    "basic-algebra-skills|choice": 20,
+    "algebraic-expansions|short": 12,
+    "algebraic-expansions|choice": 12
+  },
+  "yearCounts": {
+    "7": 20,
+    "8": 41,
+    "9": 65,
+    "10": 69
+  },
+  "multipleChoice": 98,
+  "typedResultQuestions": 80,
+  "completeAutomatic": 140,
+  "teacherReviewOnly": 17,
+  "curriculumUrl": "https://k10outline.scsa.wa.edu.au/__data/assets/pdf_file/0004/1229467/Mathematics_Scope-and-sequence_7-10__For-implementation-in-2026.PDF",
+  "notes": [
+    "All 195 distinct source questions retained with section-qualified IDs. Blank answer sheets and duplicated merged-cell text are excluded.",
+    "The original section and question number are retained; calculator status comes from each section header.",
+    "Original worked solution crops are kept. Wrong or missing key entries are replaced by checked native explanations.",
+    "Coordinate MC10 correct answer C; expansions MC7 correct answer A; factorisation SA1 uses +5, not \u22125; nonlinear SA9 is approximately 6.03, not 6.1.",
+    "Simultaneous MC3 uses the worked box\u2019s starting equations to resolve the source stem conflict.",
+    "Expansions MC12 was absent from the supplied key; its difference-of-squares solution is generated.",
+    "Algebraic equivalence checks do not confirm expanded/factorised form. These answers and graphical tasks retain teacher review.",
+    "Longer-question marks are printed source totals; other marks are practice allocations.",
+    "2026 curriculum year is recorded separately from source year."
+  ]
+}
