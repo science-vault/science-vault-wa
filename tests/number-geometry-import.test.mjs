@@ -85,3 +85,15 @@ test('native statement and radical questions retain their complete meaning',()=>
  }
  for(const q of rows.filter(q=>q.editableText)){assert.equal(q.fontFamily,'Arial');assert.equal(q.fontSizePt,12);assert.equal(q.responseLines,0);}
 });
+test('Pythagoras native questions retain isolated original diagrams and original sizing',()=>{
+ for(const n of [1,2,6,7,9,10,11,13,15,16,17,18,19,20]){
+  const q=get('pythagoras',n);assert.equal(q.editableText,true);assert.equal(q.nativeDiagramSources.length,1);
+  const d=q.nativeDiagramSources[0];assert.match(d.sourceMediaSHA256,/^[0-9a-f]{64}$/);assert.match(q.html,new RegExp(d.assetFile));
+  assert.ok(d.displayWidthPx>100&&d.displayWidthPx<650);assert.match(q.html,/data-word-width-px=/);
+  const svg=read(d.assetFile);assert.match(svg,/<svg/);assert.doesNotMatch(svg,/<script|<foreignObject|onload=/i);assert.ok(svg.includes('viewBox="'+d.assetViewBox.join(' ')+'"'));
+ }
+ assert.deepEqual(get('pythagoras',1).optionsHtml,['<span>Triangle I only</span>','<span>Triangle II only</span>','<span>Both Triangles.</span>','<span>Neither Triangle.</span>']);
+ assert.equal(get('pythagoras',1).correctAnswer,2);assert.match(get('pythagoras',2).optionsHtml[0],/<msup>/);
+ // These two diagrams cross a Word row boundary; retain their scans until mapped explicitly.
+ assert.ok(!get('pythagoras',3).editableText);assert.ok(!get('pythagoras',4).editableText);
+});

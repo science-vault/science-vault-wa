@@ -64,8 +64,27 @@ def fxhtml(s):
    flush();nodes.append('<mfrac><mn>'+numeric[1]+'</mn><mn>'+numeric[2]+'</mn></mfrac>');i+=numeric.end();continue
   buffer+=('÷' if s[i]=='/' else s[i]);i+=1
  flush();return ''.join(nodes)
+diagram_maps=json.loads((root/'diagram-mapping.json').read_text()) if (root/'diagram-mapping.json').exists() else {}
+current_diagrams={}
+# Audited empty answer boxes in this source; never remove diagram rectangles.
+answer_box_ids={'_x0000_s1215','_x0000_s1309','_x0000_s1274','_x0000_s1344','_x0000_s1322','_x0000_s1330','_x0000_s1332','_x0000_s1334','_x0000_s1342','_x0000_s1346'}
+def answer_box(e):
+ if prepared.name!='practice-studio-mathematics-pythagoras.docx' or etree.QName(e).localname!='pict' or len(e)!=1:return False
+ rect=e[0]
+ return etree.QName(rect).localname=='rect' and rect.get('id') in answer_box_ids and len(rect)==0 and set(rect.attrib)<=set(['id','style'])
+def diagram(e):
+ images=e.xpath('.//*[local-name()="imagedata"]')
+ if len(images)!=1:return None
+ shape=images[0].getparent()
+ item=current_diagrams.get(shape.get('id'))
+ if item and images[0].get('{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id')==item['relationshipId']:return item
+ return None
 def markup(e):
  tag=etree.QName(e).localname
+ if tag in ['pict','object','drawing']:
+  if answer_box(e):return ''
+  item=diagram(e)
+  if item:return '<figure><img src="'+item['assetFile']+'" alt="Original Pythagoras diagram" width="'+str(round(item['displayWidthPx'],3))+'" data-word-width-px="'+str(round(item['displayWidthPx'],3))+'" data-word-max-height="7"></figure>'
  if tag=='t':
   native=e.get('{urn:learning-vault:conversion}mathml')
   if native is not None:return native if ''.join(etree.fromstring(native.encode()).itertext()).strip() else ''
@@ -81,7 +100,7 @@ def markup(e):
  if tag=='r':
   if e.xpath('./w:rPr/w:vertAlign[@w:val="superscript"]',namespaces=NS):s='<sup>'+s+'</sup>'
   if e.xpath('./w:rPr/w:vertAlign[@w:val="subscript"]',namespaces=NS):s='<sub>'+s+'</sub>'
- if tag=='p':return '<p>'+s.strip()+'</p>' if s.strip() else ''
+ if tag=='p':return re.sub(r'<p>\s*</p>','', '<p>'+s.strip().replace('<figure>','</p><figure>').replace('</figure>','</figure><p>')+'</p>') if s.strip() else ''
  if tag=='tbl':return '<table>'+s+'</table>'
  if tag=='tr':return '<tr>'+s+'</tr>'
  if tag=='tc':return '<td>'+s+'</td>'
@@ -93,6 +112,7 @@ for path in root.glob('practice-studio-mathematics-*.json'):
  if not isinstance(rows,list):continue
  prepared=root/'prepared'/path.name.replace('.json','.docx')
  if not prepared.exists():continue
+ current_diagrams=diagram_maps.get(prepared.name,{})
  z=ZipFile(prepared);doc=etree.fromstring(z.read('word/document.xml'));mapping={};section='all'
  for table in doc.xpath('//w:tbl[not(ancestor::w:tbl)]',namespaces=NS):
   active=None
@@ -113,7 +133,7 @@ for path in root.glob('practice-studio-mathematics-*.json'):
     if active is None:continue
     bodies=cells
    content=''.join(markup(child) for body in bodies for child in body)
-   graphics=any(body.xpath('.//w:pict|.//w:drawing|.//w:object',namespaces=NS) for body in bodies)
+   graphics=any(diagram(g) is None and not answer_box(g) for body in bodies for g in body.xpath('.//w:pict|.//w:drawing|.//w:object',namespaces=NS))
    previous=mapping[active];mapping[active]=(previous[0]+content,previous[1] or graphics)
  changed=False
  for q in rows:
@@ -158,8 +178,10 @@ for path in root.glob('practice-studio-mathematics-*.json'):
   has_shared=len(LH.fromstring('<div>'+q['html']+'</div>').xpath('.//figure[.//img]'))>1
   needs_figure=bool(re.search(r'\b(?:diagram|figure|thermometer|map|grid)\b|pattern (?:below|above)|(?:table|graph|triangle|rectangle|square|shape|line|circle|solid|prism|cylinder|cone|pyramid) (?:below|above|shown)|\bshown\b|(?:shaded|marked) (?:angle|shape|region)',source_text,re.I))
   if '-batch-angles-' in q['id'] and re.search(r'parallel|perpendicular|value of x|angle marked|size of',source_text,re.I):needs_figure=True
-  if needs_figure and not has_shared and '<table>' not in h:
+  if needs_figure and not has_shared and '<table>' not in h and '<figure>' not in h:
    report['pending'].append({'id':q['id'],'reason':'Referenced source diagram requires separate mapping'});continue
+  used_images=LH.fromstring('<div>'+h+''.join(q.get('optionsHtml',[]))+'</div>').xpath('.//img/@src')
+  if used_images:q['nativeDiagramSources']=[item for item in current_diagrams.values() if item['assetFile'] in used_images]
   original=LH.fromstring('<div>'+q['html']+'</div>');shared=''.join(LH.tostring(f,encoding='unicode') for f in original.xpath('.//figure[.//img]')[:-1]);notes=''.join(LH.tostring(p,encoding='unicode') for p in original.xpath('./p') if p.text_content().strip() and not p.text_content().strip().startswith('Choose the matching letter'));q['html']='<div class="studio-native-question">'+notes+shared+h+'</div>';q['editableText']=True;q['questionFormat']='native-text';q['responseLines']=0;q['fontFamily']='Arial';q['fontSizePt']=12;q['conversionOrigin']='original-docx-text-and-equation-source';q['figures']=q['html'].count('<img');q['text']=re.sub(r'\s+',' ',native_plain(LH.fromstring('<div>'+h+'</div>'))).strip();report['converted'].append(q['id']);changed=True
  if changed or (out/path.name).exists():(out/path.name).write_text(json.dumps(rows,ensure_ascii=False,separators=(',',':')))
 (root/'native-conversion-progress.json').write_text(json.dumps(report,indent=2));print({k:len(v) if isinstance(v,list) else v for k,v in report.items()});print('changed files',len(list(out.glob('*.json'))))

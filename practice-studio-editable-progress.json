@@ -89,7 +89,21 @@
     "maths-lower-batch-location-q19",
     "maths-lower-batch-location-q21",
     "maths-lower-batch-location-q22",
+    "maths-lower-batch-pythagoras-q1",
+    "maths-lower-batch-pythagoras-q2",
+    "maths-lower-batch-pythagoras-q6",
+    "maths-lower-batch-pythagoras-q7",
+    "maths-lower-batch-pythagoras-q9",
+    "maths-lower-batch-pythagoras-q10",
+    "maths-lower-batch-pythagoras-q11",
     "maths-lower-batch-pythagoras-q12",
+    "maths-lower-batch-pythagoras-q13",
+    "maths-lower-batch-pythagoras-q15",
+    "maths-lower-batch-pythagoras-q16",
+    "maths-lower-batch-pythagoras-q17",
+    "maths-lower-batch-pythagoras-q18",
+    "maths-lower-batch-pythagoras-q19",
+    "maths-lower-batch-pythagoras-q20",
     "maths-lower-batch-shapes-q2",
     "maths-lower-batch-shapes-q3",
     "maths-lower-batch-shapes-q4",
@@ -131,6 +145,7 @@
     "maths-lower-batch-fractions-q22",
     "maths-lower-batch-fractions-q23",
     "maths-lower-batch-fractions-q26",
+    "maths-lower-algebra-910-coordinate-geometry-short-q5",
     "maths-lower-algebra-910-coordinate-geometry-short-q6",
     "maths-lower-algebra-910-coordinate-geometry-short-q7",
     "maths-lower-algebra-910-coordinate-geometry-short-q8",
@@ -138,7 +153,11 @@
     "maths-lower-algebra-910-coordinate-geometry-short-q10",
     "maths-lower-algebra-910-coordinate-geometry-short-q11",
     "maths-lower-algebra-910-coordinate-geometry-short-q12",
+    "maths-lower-algebra-910-coordinate-geometry-choice-q5",
+    "maths-lower-algebra-910-coordinate-geometry-choice-q9",
+    "maths-lower-algebra-910-coordinate-geometry-choice-q10",
     "maths-lower-algebra-910-coordinate-geometry-choice-q11",
+    "maths-lower-algebra-910-coordinate-geometry-choice-q12",
     "maths-lower-algebra-910-functions-and-graphs-short-q1",
     "maths-lower-algebra-910-functions-and-graphs-short-q2",
     "maths-lower-algebra-910-functions-and-graphs-short-q3",
@@ -530,14 +549,6 @@
       "reason": "source diagram or embedded object requires separate conversion"
     },
     {
-      "id": "maths-lower-batch-pythagoras-q1",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-pythagoras-q2",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
       "id": "maths-lower-batch-pythagoras-q3",
       "reason": "source diagram or embedded object requires separate conversion"
     },
@@ -550,59 +561,11 @@
       "reason": "source diagram or embedded object requires separate conversion"
     },
     {
-      "id": "maths-lower-batch-pythagoras-q6",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-pythagoras-q7",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
       "id": "maths-lower-batch-pythagoras-q8",
       "reason": "source diagram or embedded object requires separate conversion"
     },
     {
-      "id": "maths-lower-batch-pythagoras-q9",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-pythagoras-q10",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-pythagoras-q11",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-pythagoras-q13",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
       "id": "maths-lower-batch-pythagoras-q14",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-pythagoras-q15",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-pythagoras-q16",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-pythagoras-q17",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-pythagoras-q18",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-pythagoras-q19",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-pythagoras-q20",
       "reason": "source diagram or embedded object requires separate conversion"
     },
     {
@@ -986,10 +949,6 @@
       "reason": "source diagram or embedded object requires separate conversion"
     },
     {
-      "id": "maths-lower-algebra-910-coordinate-geometry-short-q5",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
       "id": "maths-lower-algebra-910-coordinate-geometry-short-q13",
       "reason": "source diagram or embedded object requires separate conversion"
     },
@@ -1010,10 +969,6 @@
       "reason": "source diagram or embedded object requires separate conversion"
     },
     {
-      "id": "maths-lower-algebra-910-coordinate-geometry-choice-q5",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
       "id": "maths-lower-algebra-910-coordinate-geometry-choice-q6",
       "reason": "source diagram or embedded object requires separate conversion"
     },
@@ -1023,18 +978,6 @@
     },
     {
       "id": "maths-lower-algebra-910-coordinate-geometry-choice-q8",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-algebra-910-coordinate-geometry-choice-q9",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-algebra-910-coordinate-geometry-choice-q10",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-algebra-910-coordinate-geometry-choice-q12",
       "reason": "source diagram or embedded object requires separate conversion"
     },
     {
@@ -2016,10 +1959,10 @@
   "subjects": {
     "Mathematics": {
       "total": 1128,
-      "convertedThisBatch": 337,
-      "wholeQuestionImagesRemaining": 291,
-      "existingTextQuestionsToReview": 500,
-      "convertedTotal": 337
+      "convertedThisBatch": 356,
+      "convertedTotal": 356,
+      "wholeQuestionImagesRemaining": 272,
+      "existingTextQuestionsToReview": 500
     },
     "Mathematics Methods": {
       "total": 278,
@@ -2037,19 +1980,5 @@
       "total": 601,
       "status": "queued"
     }
-  },
-  "lastBatch": {
-    "newlyConverted": 139,
-    "restoredForFurtherReview": [
-      "maths-lower-algebra-910-functions-and-graphs-long-q1",
-      "maths-lower-algebra-910-functions-and-graphs-long-q2",
-      "maths-lower-algebra-910-simultaneous-equations-long-q1",
-      "maths-lower-algebra-910-simultaneous-equations-long-q2",
-      "maths-lower-batch-number-systems-q22"
-    ],
-    "correctedMultilineQuestions": [
-      "maths-lower-batch-integers-q25"
-    ],
-    "totalConverted": 337
   }
 }

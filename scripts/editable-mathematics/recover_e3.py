@@ -11,11 +11,15 @@ for source in (root/'sources').glob('*.docx'):
  odt=root/'converted'/source.with_suffix('.odt').name
  if not odt.exists():continue
  oz=ZipFile(source);dr=etree.fromstring(oz.read('word/document.xml'));rels={x.get('Id'):x.get('Target') for x in etree.fromstring(oz.read('word/_rels/document.xml.rels'))};original=dr.xpath('//*[local-name()="OLEObject"]');dz=ZipFile(odt);odr=etree.fromstring(dz.read('content.xml'));objects=odr.xpath('//*[local-name()="object" or local-name()="object-ole"]')
- if len(original)!=len(objects):results.append({'source':source.name,'status':'order-count-mismatch','original':len(original),'converted':len(objects)});continue
+ if len(original)!=len(objects):
+  outside_groups=[e for e in original if not e.xpath('ancestor::*[local-name()="group"]')]
+  if len(outside_groups)==len(objects):original=outside_groups
+  else:results.append({'source':source.name,'status':'order-count-mismatch','original':len(original),'converted':len(objects)});continue
  equations={}
  for a,b in zip(original,objects):
   if etree.QName(b).localname!='object':continue
   href=b.get('{http://www.w3.org/1999/xlink}href').lstrip('./');math=etree.fromstring(dz.read(href+'/content.xml'))
+  if etree.QName(math).localname!='math' or a.get('ProgID')!='Equation.3':continue
   for annotation in math.xpath('//*[local-name()="annotation"]'):annotation.getparent().remove(annotation)
   for e in math.iter():
    for attr in ['mathsize','mathvariant','displaystyle']:e.attrib.pop(attr,None)
