@@ -1,1 +1,2055 @@
-{"subject":"Mathematics","total":1128,"converted":["maths-lower-algebra-910-factorisation-short-q1","maths-lower-algebra-910-factorisation-short-q2","maths-lower-algebra-910-factorisation-short-q3","maths-lower-algebra-910-factorisation-short-q4","maths-lower-algebra-910-factorisation-short-q5","maths-lower-algebra-910-factorisation-short-q6","maths-lower-algebra-910-factorisation-short-q7","maths-lower-algebra-910-factorisation-short-q8","maths-lower-algebra-910-factorisation-short-q9","maths-lower-algebra-910-factorisation-short-q10","maths-lower-algebra-910-factorisation-short-q11","maths-lower-algebra-910-factorisation-short-q12","maths-lower-algebra-910-factorisation-short-q13","maths-lower-algebra-910-factorisation-short-q14","maths-lower-algebra-910-factorisation-short-q15","maths-lower-algebra-910-factorisation-choice-q1","maths-lower-algebra-910-factorisation-choice-q2","maths-lower-algebra-910-factorisation-choice-q3","maths-lower-algebra-910-factorisation-choice-q4","maths-lower-algebra-910-factorisation-choice-q5","maths-lower-algebra-910-factorisation-choice-q6","maths-lower-algebra-910-factorisation-choice-q7","maths-lower-algebra-910-factorisation-choice-q8","maths-lower-algebra-910-factorisation-choice-q9","maths-lower-algebra-910-factorisation-choice-q10","maths-lower-algebra-910-factorisation-choice-q11","maths-lower-algebra-910-factorisation-choice-q12","maths-lower-algebra-910-factorisation-choice-q13","maths-lower-algebra-910-factorisation-choice-q14","maths-lower-algebra-910-factorisation-choice-q15","maths-lower-batch-rational-numbers-q1","maths-lower-batch-rational-numbers-q19","maths-lower-batch-rational-numbers-q27","maths-lower-batch-rational-numbers-q28","maths-lower-batch-number-systems-q2","maths-lower-batch-number-systems-q3","maths-lower-batch-number-systems-q4","maths-lower-batch-number-systems-q22","maths-lower-batch-number-systems-q25","maths-lower-batch-number-systems-q26","maths-lower-batch-shapes-q3","maths-lower-batch-transformations-and-congruence-q12","maths-lower-batch-transformations-and-congruence-q13","maths-lower-batch-integers-q6","maths-lower-batch-integers-q7","maths-lower-batch-integers-q8","maths-lower-batch-integers-q10","maths-lower-batch-integers-q12","maths-lower-batch-integers-q14","maths-lower-batch-integers-q16","maths-lower-batch-integers-q18","maths-lower-batch-integers-q20","maths-lower-batch-integers-q25","maths-lower-batch-integers-q26","maths-lower-batch-integers-q27","maths-lower-batch-fractions-q22","maths-lower-algebra-910-coordinate-geometry-short-q6","maths-lower-algebra-910-coordinate-geometry-short-q7","maths-lower-algebra-910-coordinate-geometry-short-q8","maths-lower-algebra-910-coordinate-geometry-short-q9","maths-lower-algebra-910-coordinate-geometry-short-q10","maths-lower-algebra-910-coordinate-geometry-short-q11","maths-lower-algebra-910-coordinate-geometry-short-q12","maths-lower-algebra-910-coordinate-geometry-choice-q11","maths-lower-algebra-910-functions-and-graphs-short-q1","maths-lower-algebra-910-functions-and-graphs-short-q2","maths-lower-algebra-910-functions-and-graphs-short-q3","maths-lower-algebra-910-functions-and-graphs-short-q5","maths-lower-algebra-910-functions-and-graphs-choice-q3","maths-lower-algebra-910-functions-and-graphs-choice-q8","maths-lower-batch-decimals-q18","maths-lower-batch-decimals-q29","maths-lower-batch-decimals-q30","maths-lower-algebra-910-algebraic-expansions-short-q2","maths-lower-algebra-910-algebraic-expansions-short-q4","maths-lower-algebra-910-algebraic-expansions-short-q5","maths-lower-algebra-910-algebraic-expansions-short-q6","maths-lower-algebra-910-algebraic-expansions-short-q7","maths-lower-algebra-910-algebraic-expansions-short-q8","maths-lower-algebra-910-algebraic-expansions-short-q9","maths-lower-algebra-910-algebraic-expansions-short-q10","maths-lower-algebra-910-algebraic-expansions-short-q11","maths-lower-algebra-910-algebraic-expansions-short-q12","maths-lower-algebra-910-algebraic-expansions-choice-q1","maths-lower-algebra-910-algebraic-expansions-choice-q2","maths-lower-algebra-910-algebraic-expansions-choice-q3","maths-lower-algebra-910-algebraic-expansions-choice-q4","maths-lower-algebra-910-algebraic-expansions-choice-q5","maths-lower-algebra-910-algebraic-expansions-choice-q6","maths-lower-algebra-910-algebraic-expansions-choice-q7","maths-lower-algebra-910-algebraic-expansions-choice-q8","maths-lower-algebra-910-algebraic-expansions-choice-q9","maths-lower-algebra-910-algebraic-expansions-choice-q10","maths-lower-algebra-910-algebraic-expansions-choice-q11","maths-lower-algebra-910-algebraic-expansions-choice-q12","maths-lower-algebra-910-basic-algebra-skills-short-q1","maths-lower-algebra-910-basic-algebra-skills-short-q2","maths-lower-algebra-910-basic-algebra-skills-short-q3","maths-lower-algebra-910-basic-algebra-skills-short-q4","maths-lower-algebra-910-basic-algebra-skills-short-q5","maths-lower-algebra-910-basic-algebra-skills-short-q6","maths-lower-algebra-910-basic-algebra-skills-short-q7","maths-lower-algebra-910-basic-algebra-skills-short-q8","maths-lower-algebra-910-basic-algebra-skills-short-q9","maths-lower-algebra-910-basic-algebra-skills-short-q10","maths-lower-algebra-910-basic-algebra-skills-short-q11","maths-lower-algebra-910-basic-algebra-skills-short-q12","maths-lower-algebra-910-basic-algebra-skills-short-q13","maths-lower-algebra-910-basic-algebra-skills-short-q14","maths-lower-algebra-910-basic-algebra-skills-short-q15","maths-lower-algebra-910-basic-algebra-skills-short-q16","maths-lower-algebra-910-basic-algebra-skills-short-q17","maths-lower-algebra-910-basic-algebra-skills-short-q18","maths-lower-algebra-910-basic-algebra-skills-short-q19","maths-lower-algebra-910-basic-algebra-skills-short-q20","maths-lower-algebra-910-basic-algebra-skills-choice-q1","maths-lower-algebra-910-basic-algebra-skills-choice-q2","maths-lower-algebra-910-basic-algebra-skills-choice-q3","maths-lower-algebra-910-basic-algebra-skills-choice-q4","maths-lower-algebra-910-basic-algebra-skills-choice-q5","maths-lower-algebra-910-basic-algebra-skills-choice-q6","maths-lower-algebra-910-basic-algebra-skills-choice-q8","maths-lower-algebra-910-basic-algebra-skills-choice-q9","maths-lower-algebra-910-basic-algebra-skills-choice-q10","maths-lower-algebra-910-basic-algebra-skills-choice-q11","maths-lower-algebra-910-basic-algebra-skills-choice-q12","maths-lower-algebra-910-basic-algebra-skills-choice-q13","maths-lower-algebra-910-basic-algebra-skills-choice-q15","maths-lower-algebra-910-basic-algebra-skills-choice-q16","maths-lower-algebra-910-basic-algebra-skills-choice-q17","maths-lower-algebra-910-basic-algebra-skills-choice-q18","maths-lower-algebra-910-basic-algebra-skills-choice-q19","maths-lower-algebra-910-basic-algebra-skills-choice-q20","maths-lower-algebra-910-non-linear-equations-short-q1","maths-lower-algebra-910-non-linear-equations-short-q2","maths-lower-algebra-910-non-linear-equations-short-q3","maths-lower-algebra-910-non-linear-equations-short-q4","maths-lower-algebra-910-non-linear-equations-short-q5","maths-lower-algebra-910-non-linear-equations-short-q6","maths-lower-algebra-910-non-linear-equations-short-q7","maths-lower-algebra-910-non-linear-equations-short-q8","maths-lower-algebra-910-non-linear-equations-short-q9","maths-lower-algebra-910-non-linear-equations-choice-q1","maths-lower-algebra-910-non-linear-equations-choice-q2","maths-lower-algebra-910-non-linear-equations-choice-q3","maths-lower-algebra-910-non-linear-equations-choice-q4","maths-lower-algebra-910-non-linear-equations-choice-q5","maths-lower-algebra-910-non-linear-equations-choice-q6","maths-lower-algebra-910-non-linear-equations-choice-q7","maths-lower-algebra-910-non-linear-equations-choice-q8","maths-lower-algebra-910-non-linear-equations-choice-q9","maths-lower-algebra-910-non-linear-equations-choice-q10","maths-lower-algebra-910-non-linear-equations-choice-q11","maths-lower-algebra-910-non-linear-equations-choice-q14","maths-lower-algebra-910-linear-equations-short-q1","maths-lower-algebra-910-linear-equations-short-q2","maths-lower-algebra-910-linear-equations-short-q3","maths-lower-algebra-910-linear-equations-short-q4","maths-lower-algebra-910-linear-equations-short-q5","maths-lower-algebra-910-linear-equations-short-q6","maths-lower-algebra-910-linear-equations-short-q8","maths-lower-algebra-910-linear-equations-choice-q1","maths-lower-algebra-910-linear-equations-choice-q2","maths-lower-algebra-910-linear-equations-choice-q3","maths-lower-algebra-910-linear-equations-choice-q4","maths-lower-algebra-910-linear-equations-choice-q5","maths-lower-algebra-910-linear-equations-choice-q10","maths-lower-algebra-910-simultaneous-equations-short-q1","maths-lower-algebra-910-simultaneous-equations-short-q2","maths-lower-algebra-910-simultaneous-equations-short-q3","maths-lower-algebra-910-simultaneous-equations-short-q4","maths-lower-algebra-910-simultaneous-equations-short-q5","maths-lower-algebra-910-simultaneous-equations-short-q6","maths-lower-algebra-910-simultaneous-equations-short-q7","maths-lower-algebra-910-simultaneous-equations-choice-q4","maths-lower-algebra-910-simultaneous-equations-choice-q5","maths-lower-batch-ratio-and-rates-q18","maths-lower-batch-ratio-and-rates-q19","maths-lower-batch-ratio-and-rates-q20","maths-lower-batch-ratio-and-rates-q24","maths-lower-batch-ratio-and-rates-q25","maths-lower-batch-ratio-and-rates-q27","maths-lower-batch-ratio-and-rates-q30","maths-lower-batch-ratio-and-rates-q31","maths-lower-batch-ratio-and-rates-q33","maths-lower-batch-ratio-and-rates-q35","maths-lower-batch-percentages-q2","maths-lower-batch-percentages-q4","maths-lower-batch-percentages-q8","maths-lower-batch-percentages-q10","maths-lower-batch-percentages-q14","maths-lower-batch-percentages-q16","maths-lower-batch-percentages-q17","maths-lower-batch-percentages-q20","maths-lower-batch-percentages-q21","maths-lower-batch-percentages-q23","maths-lower-batch-percentages-q26","maths-lower-batch-percentages-q29","maths-lower-batch-percentages-q31"],"pending":[{"id":"maths-lower-batch-volume-and-surface-area-q1","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-volume-and-surface-area-q2","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-volume-and-surface-area-q3","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-volume-and-surface-area-q4","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-volume-and-surface-area-q5","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-volume-and-surface-area-q6","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-volume-and-surface-area-q7","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-volume-and-surface-area-q8","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-volume-and-surface-area-q9","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-volume-and-surface-area-q10","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-volume-and-surface-area-q11","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-volume-and-surface-area-q12","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-volume-and-surface-area-q13","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-volume-and-surface-area-q14","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-volume-and-surface-area-q15","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-volume-and-surface-area-q16","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-volume-and-surface-area-q17","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-volume-and-surface-area-q18","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-volume-and-surface-area-q19","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-volume-and-surface-area-q20","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-rational-numbers-q2","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-rational-numbers-q3","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-rational-numbers-q4","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-rational-numbers-q5","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-rational-numbers-q6","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-rational-numbers-q7","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-rational-numbers-q8","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-rational-numbers-q9","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-rational-numbers-q10","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-rational-numbers-q11","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-rational-numbers-q12","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-rational-numbers-q13","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-rational-numbers-q14","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-rational-numbers-q15","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-rational-numbers-q16","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-rational-numbers-q17","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-rational-numbers-q18","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-rational-numbers-q20","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-rational-numbers-q21","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-rational-numbers-q22","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-rational-numbers-q23","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-rational-numbers-q24","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-rational-numbers-q25","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-rational-numbers-q26","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-rational-numbers-q29","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-rational-numbers-q30","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-rational-numbers-q31","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-rational-numbers-q32","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-number-systems-q1","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-number-systems-q5","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-number-systems-q6","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-number-systems-q7","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-number-systems-q8","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-number-systems-q9","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-number-systems-q10","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-number-systems-q11","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-number-systems-q12","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-number-systems-q13","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-number-systems-q14","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-number-systems-q15","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-number-systems-q16","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-number-systems-q17","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-number-systems-q18","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-number-systems-q19","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-number-systems-q20","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-number-systems-q21","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-number-systems-q23","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-number-systems-q24","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-number-systems-q27","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-number-systems-q28","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-number-systems-q29","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-number-systems-q30","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-location-q1","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-location-q2","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-location-q3","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-location-q4","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-location-q5","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-location-q6","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-location-q7","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-location-q8","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-location-q9","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-location-q10","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-location-q11","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-location-q12","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-location-q13","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-location-q14","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-location-q15","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-location-q16","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-location-q17","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-location-q18","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-location-q19","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-location-q20","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-location-q21","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-location-q22","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-pythagoras-q1","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-pythagoras-q2","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-pythagoras-q3","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-pythagoras-q4","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-pythagoras-q5","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-pythagoras-q6","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-pythagoras-q7","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-pythagoras-q8","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-pythagoras-q9","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-pythagoras-q10","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-pythagoras-q11","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-pythagoras-q12","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-pythagoras-q13","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-pythagoras-q14","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-pythagoras-q15","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-pythagoras-q16","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-pythagoras-q17","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-pythagoras-q18","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-pythagoras-q19","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-pythagoras-q20","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-shapes-q1","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-shapes-q2","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-shapes-q4","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-shapes-q5","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-shapes-q6","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-shapes-q7","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-shapes-q8","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-shapes-q9","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-shapes-q10","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-shapes-q11","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-shapes-q12","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-shapes-q13","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-shapes-q14","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-shapes-q15","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-shapes-q16","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-shapes-q17","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-shapes-q18","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-shapes-q19","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-shapes-q20","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-shapes-q21","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-shapes-q22","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-shapes-q23","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-shapes-q24","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-shapes-q25","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-transformations-and-congruence-q1","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-transformations-and-congruence-q2","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-transformations-and-congruence-q3","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-transformations-and-congruence-q4","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-transformations-and-congruence-q5","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-transformations-and-congruence-q6","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-transformations-and-congruence-q7","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-transformations-and-congruence-q8","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-transformations-and-congruence-q9","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-transformations-and-congruence-q10","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-transformations-and-congruence-q11","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-transformations-and-congruence-q14","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-transformations-and-congruence-q15","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-transformations-and-congruence-q16","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-transformations-and-congruence-q17","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-transformations-and-congruence-q18","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-transformations-and-congruence-q19","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-transformations-and-congruence-q20","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-polygons-and-circles-q1","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-polygons-and-circles-q2","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-polygons-and-circles-q3","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-polygons-and-circles-q4","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-polygons-and-circles-q5","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-polygons-and-circles-q6","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-polygons-and-circles-q7","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-polygons-and-circles-q8","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-polygons-and-circles-q9","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-polygons-and-circles-q10","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-polygons-and-circles-q11","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-polygons-and-circles-q12","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-polygons-and-circles-q13","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-polygons-and-circles-q14","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-polygons-and-circles-q15","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-polygons-and-circles-q16","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-polygons-and-circles-q17","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-polygons-and-circles-q18","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-polygons-and-circles-q19","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-polygons-and-circles-q20","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-polygons-and-circles-q21","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-polygons-and-circles-q22","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-polygons-and-circles-q23","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-polygons-and-circles-q24","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-polygons-and-circles-q25","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-integers-q1","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-integers-q2","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-integers-q3","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-integers-q4","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-integers-q5","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-integers-q9","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-integers-q11","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-integers-q13","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-integers-q15","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-integers-q17","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-integers-q19","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-integers-q21","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-integers-q22","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-integers-q23","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-integers-q24","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-integers-q28","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-integers-q29","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-integers-q30","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-fractions-q1","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-fractions-q2","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-fractions-q3","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-fractions-q4","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-fractions-q5","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-fractions-q6","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-fractions-q7","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-fractions-q8","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-fractions-q9","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-fractions-q10","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-fractions-q11","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-fractions-q12","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-fractions-q13","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-fractions-q14","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-fractions-q15","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-fractions-q16","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-fractions-q17","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-fractions-q18","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-fractions-q19","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-fractions-q20","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-fractions-q21","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-fractions-q23","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-fractions-q24","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-fractions-q25","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-fractions-q26","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-fractions-q27","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-fractions-q28","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-fractions-q29","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-fractions-q30","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-fractions-q31","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-fractions-q32","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-algebra-910-coordinate-geometry-short-q1","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-algebra-910-coordinate-geometry-short-q2","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-algebra-910-coordinate-geometry-short-q3","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-algebra-910-coordinate-geometry-short-q4","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-algebra-910-coordinate-geometry-short-q5","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-algebra-910-coordinate-geometry-short-q13","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-algebra-910-coordinate-geometry-choice-q1","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-algebra-910-coordinate-geometry-choice-q2","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-algebra-910-coordinate-geometry-choice-q3","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-algebra-910-coordinate-geometry-choice-q4","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-algebra-910-coordinate-geometry-choice-q5","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-algebra-910-coordinate-geometry-choice-q6","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-algebra-910-coordinate-geometry-choice-q7","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-algebra-910-coordinate-geometry-choice-q8","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-algebra-910-coordinate-geometry-choice-q9","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-algebra-910-coordinate-geometry-choice-q10","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-algebra-910-coordinate-geometry-choice-q12","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-algebra-910-coordinate-geometry-long-q1","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-algebra-910-coordinate-geometry-long-q2","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-algebra-910-functions-and-graphs-short-q4","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-algebra-910-functions-and-graphs-short-q6","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-algebra-910-functions-and-graphs-choice-q1","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-algebra-910-functions-and-graphs-choice-q2","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-algebra-910-functions-and-graphs-choice-q4","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-algebra-910-functions-and-graphs-choice-q5","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-algebra-910-functions-and-graphs-choice-q6","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-algebra-910-functions-and-graphs-choice-q7","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-algebra-910-functions-and-graphs-choice-q9","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-algebra-910-functions-and-graphs-choice-q10","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-decimals-q1","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-decimals-q2","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-decimals-q3","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-decimals-q4","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-decimals-q5","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-decimals-q6","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-decimals-q7","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-decimals-q8","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-decimals-q9","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-decimals-q10","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-decimals-q11","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-decimals-q12","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-decimals-q13","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-decimals-q14","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-decimals-q15","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-decimals-q16","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-decimals-q17","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-decimals-q19","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-decimals-q20","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-decimals-q21","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-decimals-q22","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-decimals-q23","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-decimals-q24","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-decimals-q25","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-decimals-q26","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-decimals-q27","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-decimals-q28","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-decimals-q31","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-decimals-q32","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-decimals-q33","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-decimals-q34","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-decimals-q35","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-algebra-910-algebraic-expansions-short-q1","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-algebra-910-algebraic-expansions-short-q3","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-algebra-910-basic-algebra-skills-choice-q7","reason":"choice layout needs manual mapping"},{"id":"maths-lower-algebra-910-basic-algebra-skills-choice-q14","reason":"choice layout needs manual mapping"},{"id":"maths-lower-batch-metric-system-q1","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-metric-system-q2","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-metric-system-q3","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-metric-system-q4","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-metric-system-q5","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-metric-system-q6","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-metric-system-q7","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-metric-system-q8","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-metric-system-q9","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-metric-system-q10","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-metric-system-q11","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-metric-system-q12","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-metric-system-q13","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-metric-system-q14","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-metric-system-q15","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-metric-system-q16","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-metric-system-q17","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-metric-system-q18","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-metric-system-q19","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-metric-system-q20","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-metric-system-q21","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-metric-system-q22","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-metric-system-q23","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-metric-system-q24","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-metric-system-q25","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-metric-system-q26","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-metric-system-q27","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-metric-system-q28","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-metric-system-q29","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-metric-system-q30","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-algebra-910-non-linear-equations-short-q10","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-algebra-910-non-linear-equations-choice-q12","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-algebra-910-non-linear-equations-choice-q13","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-area-q1","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-area-q2","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-area-q3","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-area-q4","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-area-q5","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-area-q6","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-area-q7","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-area-q8","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-area-q9","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-area-q10","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-area-q11","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-area-q12","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-area-q13","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-area-q14","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-area-q15","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-area-q16","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-area-q17","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-area-q18","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-area-q19","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-area-q20","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-area-q21","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-area-q22","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-area-q23","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-area-q24","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-area-q25","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-algebra-910-linear-equations-short-q7","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-algebra-910-linear-equations-choice-q6","reason":"choice layout needs manual mapping"},{"id":"maths-lower-algebra-910-linear-equations-choice-q7","reason":"choice layout needs manual mapping"},{"id":"maths-lower-algebra-910-linear-equations-choice-q8","reason":"choice layout needs manual mapping"},{"id":"maths-lower-algebra-910-linear-equations-choice-q9","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-algebra-910-simultaneous-equations-choice-q1","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-algebra-910-simultaneous-equations-choice-q2","reason":"choice layout needs manual mapping"},{"id":"maths-lower-algebra-910-simultaneous-equations-choice-q3","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-angles-q1","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-angles-q2","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-angles-q3","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-angles-q4","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-angles-q5","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-angles-q6","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-angles-q7","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-angles-q8","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-angles-q9","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-angles-q10","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-angles-q11","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-angles-q12","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-angles-q13","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-angles-q14","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-angles-q15","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-angles-q16","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-angles-q17","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-angles-q18","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-angles-q19","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-angles-q20","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-ratio-and-rates-q1","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-ratio-and-rates-q2","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-ratio-and-rates-q3","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-ratio-and-rates-q4","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-ratio-and-rates-q5","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-ratio-and-rates-q6","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-ratio-and-rates-q7","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-ratio-and-rates-q8","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-ratio-and-rates-q9","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-ratio-and-rates-q10","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-ratio-and-rates-q11","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-ratio-and-rates-q12","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-ratio-and-rates-q13","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-ratio-and-rates-q14","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-ratio-and-rates-q15","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-ratio-and-rates-q16","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-ratio-and-rates-q17","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-ratio-and-rates-q21","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-ratio-and-rates-q22","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-ratio-and-rates-q23","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-ratio-and-rates-q26","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-ratio-and-rates-q28","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-ratio-and-rates-q29","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-ratio-and-rates-q32","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-ratio-and-rates-q34","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-percentages-q1","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-percentages-q3","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-percentages-q5","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-percentages-q6","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-percentages-q7","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-percentages-q9","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-percentages-q11","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-percentages-q12","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-percentages-q13","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-percentages-q15","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-percentages-q18","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-percentages-q19","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-percentages-q22","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-percentages-q24","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-percentages-q25","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-percentages-q27","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-percentages-q28","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-percentages-q30","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-batch-percentages-q32","reason":"source diagram or embedded object requires separate conversion"},{"id":"maths-lower-algebra-910-functions-and-graphs-long-q1","reason":"Long-response source layout requires manual mapping"},{"id":"maths-lower-algebra-910-functions-and-graphs-long-q2","reason":"Long-response source layout requires manual mapping"},{"id":"maths-lower-algebra-910-simultaneous-equations-long-q1","reason":"Long-response source layout requires manual mapping"},{"id":"maths-lower-algebra-910-simultaneous-equations-long-q2","reason":"Long-response source layout requires manual mapping"}],"nativeExisting":["maths-lower-data-graphs-plots-q1","maths-lower-data-graphs-plots-q2","maths-lower-data-graphs-plots-q3","maths-lower-data-graphs-plots-q4","maths-lower-data-graphs-plots-q5","maths-lower-data-graphs-plots-q6","maths-lower-data-graphs-plots-q7","maths-lower-data-graphs-plots-q8","maths-lower-data-graphs-plots-q9","maths-lower-data-graphs-plots-q10","maths-lower-data-graphs-plots-q11","maths-lower-data-graphs-plots-q12","maths-lower-data-graphs-plots-q13","maths-lower-data-graphs-plots-q14","maths-lower-data-graphs-plots-q15","maths-lower-data-graphs-plots-q16","maths-lower-data-graphs-plots-q17","maths-lower-data-graphs-plots-q18","maths-lower-data-graphs-plots-q19","maths-lower-data-graphs-plots-q20","maths-lower-data-graphs-plots-q21","maths-lower-data-graphs-plots-q22","maths-lower-data-graphs-plots-q23","maths-lower-data-graphs-plots-q24","maths-lower-data-graphs-plots-q25","maths-lower-data-910-data-comparison-short-q1","maths-lower-data-910-data-comparison-short-q2","maths-lower-data-910-data-comparison-short-q3","maths-lower-data-910-data-comparison-short-q4","maths-lower-data-910-data-comparison-short-q5","maths-lower-data-910-data-comparison-short-q6","maths-lower-data-910-data-comparison-short-q7","maths-lower-data-910-data-comparison-short-q8","maths-lower-data-910-data-comparison-short-q9","maths-lower-data-910-data-comparison-short-q10","maths-lower-data-910-data-comparison-short-q11","maths-lower-data-910-data-comparison-choice-q1","maths-lower-data-910-data-comparison-choice-q2","maths-lower-data-910-data-comparison-choice-q3","maths-lower-data-910-data-comparison-choice-q4","maths-lower-data-910-data-comparison-choice-q5","maths-lower-data-910-data-comparison-choice-q6","maths-lower-data-910-data-comparison-choice-q7","maths-lower-data-910-data-comparison-choice-q8","maths-lower-data-910-data-comparison-choice-q9","maths-lower-data-910-data-comparison-choice-q10","maths-lower-data-910-data-interpretation-comparison-short-q1","maths-lower-data-910-data-interpretation-comparison-short-q2","maths-lower-data-910-data-interpretation-comparison-short-q3","maths-lower-data-910-data-interpretation-comparison-short-q4","maths-lower-data-910-data-interpretation-comparison-short-q5","maths-lower-data-910-data-interpretation-comparison-short-q6","maths-lower-data-910-data-interpretation-comparison-short-q7","maths-lower-data-910-data-interpretation-comparison-short-q8","maths-lower-data-910-data-interpretation-comparison-short-q9","maths-lower-data-910-data-interpretation-comparison-short-q10","maths-lower-data-910-data-interpretation-comparison-short-q11","maths-lower-data-910-data-interpretation-comparison-short-q12","maths-lower-data-910-data-interpretation-comparison-choice-q1","maths-lower-data-910-data-interpretation-comparison-choice-q2","maths-lower-data-910-data-interpretation-comparison-choice-q3","maths-lower-data-910-data-interpretation-comparison-choice-q4","maths-lower-data-910-data-interpretation-comparison-choice-q5","maths-lower-data-910-data-interpretation-comparison-choice-q6","maths-lower-data-910-data-interpretation-comparison-choice-q7","maths-lower-data-910-data-interpretation-comparison-choice-q8","maths-lower-data-910-data-interpretation-short-q2","maths-lower-data-910-data-interpretation-short-q3","maths-lower-data-910-data-interpretation-short-q4","maths-lower-data-910-data-interpretation-short-q5","maths-lower-data-910-data-interpretation-short-q6-stem","maths-lower-data-910-data-interpretation-short-q6","maths-lower-data-910-data-interpretation-short-q7","maths-lower-data-910-data-interpretation-short-q8","maths-lower-data-910-data-interpretation-short-q9","maths-lower-data-910-data-interpretation-short-q10","maths-lower-data-910-data-interpretation-choice-q1","maths-lower-data-910-data-interpretation-choice-q2","maths-lower-data-910-data-interpretation-choice-q3","maths-lower-data-910-data-interpretation-choice-q4","maths-lower-data-910-data-interpretation-choice-q5","maths-lower-data-910-data-interpretation-choice-q6","maths-lower-data-910-data-interpretation-choice-q7","maths-lower-data-910-data-interpretation-choice-q8","maths-lower-data-910-data-interpretation-choice-q9","maths-lower-data-910-data-interpretation-choice-q10","maths-lower-data-910-bivariate-data-short-q1","maths-lower-data-910-bivariate-data-short-q2","maths-lower-data-910-bivariate-data-short-q3","maths-lower-data-910-bivariate-data-short-q4","maths-lower-data-910-bivariate-data-short-q5","maths-lower-data-910-bivariate-data-short-q6","maths-lower-data-910-bivariate-data-short-q7","maths-lower-data-910-bivariate-data-short-q8","maths-lower-data-910-bivariate-data-short-q9","maths-lower-data-910-bivariate-data-short-q10","maths-lower-data-910-bivariate-data-short-q11","maths-lower-data-910-bivariate-data-short-q12","maths-lower-data-910-bivariate-data-choice-q1","maths-lower-data-910-bivariate-data-choice-q2","maths-lower-data-910-bivariate-data-choice-q3","maths-lower-data-910-bivariate-data-choice-q4","maths-lower-data-910-bivariate-data-choice-q5","maths-lower-data-910-bivariate-data-choice-q6","maths-lower-data-910-bivariate-data-choice-q7","maths-lower-data-910-bivariate-data-choice-q8","maths-lower-data-910-bivariate-data-choice-q9","maths-lower-data-910-bivariate-data-choice-q10","maths-lower-data-statistical-measures-q1","maths-lower-data-statistical-measures-q2","maths-lower-data-statistical-measures-q3","maths-lower-data-statistical-measures-q4","maths-lower-data-statistical-measures-q5","maths-lower-data-statistical-measures-q6","maths-lower-data-statistical-measures-q7","maths-lower-data-statistical-measures-q8","maths-lower-data-statistical-measures-q9","maths-lower-data-statistical-measures-q10","maths-lower-data-statistical-measures-q11","maths-lower-data-statistical-measures-q12","maths-lower-data-statistical-measures-q13","maths-lower-data-statistical-measures-q14","maths-lower-data-statistical-measures-q15","maths-lower-data-statistical-measures-q16","maths-lower-data-statistical-measures-q17","maths-lower-data-statistical-measures-q18","maths-lower-data-statistical-measures-q19","maths-lower-data-statistical-measures-q20","maths-lower-data-statistical-measures-q21","maths-lower-data-statistical-measures-q22","maths-lower-data-statistical-measures-q23","maths-lower-data-statistical-measures-q24","maths-lower-data-statistical-measures-q25","maths-lower-probability-further-probability-q1","maths-lower-probability-further-probability-q2","maths-lower-probability-further-probability-q3","maths-lower-probability-further-probability-q4","maths-lower-probability-further-probability-q5","maths-lower-probability-further-probability-q6","maths-lower-probability-further-probability-q7","maths-lower-probability-further-probability-q8","maths-lower-probability-further-probability-q9","maths-lower-probability-further-probability-q10","maths-lower-probability-further-probability-q11","maths-lower-probability-further-probability-q12","maths-lower-probability-further-probability-q13","maths-lower-probability-further-probability-q14","maths-lower-probability-further-probability-q15","maths-lower-probability-further-probability-q16","maths-lower-probability-further-probability-q17","maths-lower-probability-further-probability-q18","maths-lower-probability-further-probability-q19","maths-lower-probability-further-probability-q20","maths-lower-probability-further-probability-q21","maths-lower-probability-further-probability-q22","maths-lower-probability-further-probability-q23","maths-lower-probability-further-probability-q24","maths-lower-probability-further-probability-q25","maths-lower-probability-further-probability-q26","maths-lower-probability-further-probability-q27","maths-lower-probability-further-probability-q28","maths-lower-probability-further-probability-q29","maths-lower-probability-further-probability-q30","maths-lower-probability-further-probability-q31","maths-lower-probability-further-probability-q32","maths-lower-probability-further-probability-q33","maths-lower-probability-further-probability-q34","maths-lower-probability-further-probability-q35","maths-lower-probability-further-probability-q36","maths-lower-probability-further-probability-q37","maths-lower-probability-further-probability-q38","maths-lower-probability-further-probability-q39","maths-lower-probability-further-probability-q40","maths-lower-probability-sample-space-relative-frequency-q1","maths-lower-probability-sample-space-relative-frequency-q2","maths-lower-probability-sample-space-relative-frequency-q3","maths-lower-probability-sample-space-relative-frequency-q4","maths-lower-probability-sample-space-relative-frequency-q5","maths-lower-probability-sample-space-relative-frequency-q6","maths-lower-probability-sample-space-relative-frequency-q7","maths-lower-probability-sample-space-relative-frequency-q8","maths-lower-probability-sample-space-relative-frequency-q9","maths-lower-probability-sample-space-relative-frequency-q10","maths-lower-probability-sample-space-relative-frequency-q11","maths-lower-probability-sample-space-relative-frequency-q12","maths-lower-probability-sample-space-relative-frequency-q13","maths-lower-probability-sample-space-relative-frequency-q14","maths-lower-probability-sample-space-relative-frequency-q15","maths-lower-probability-sample-space-relative-frequency-q16","maths-lower-probability-sample-space-relative-frequency-q17","maths-lower-probability-sample-space-relative-frequency-q18","maths-lower-probability-sample-space-relative-frequency-q19","maths-lower-probability-sample-space-relative-frequency-q20","maths-lower-probability-sample-space-relative-frequency-q21","maths-lower-probability-sample-space-relative-frequency-q22","maths-lower-probability-sample-space-relative-frequency-q23","maths-lower-probability-sample-space-relative-frequency-q24","maths-lower-probability-sample-space-relative-frequency-q25","maths-lower-probability-sample-space-relative-frequency-q26","maths-lower-probability-sample-space-relative-frequency-q27","maths-lower-probability-sample-space-relative-frequency-q28","maths-lower-probability-sample-space-relative-frequency-q29","maths-lower-probability-sample-space-relative-frequency-q30","maths-geometry-2016-basic-geometry-short-q1","maths-geometry-2016-basic-geometry-short-q2","maths-geometry-2016-basic-geometry-short-q3","maths-geometry-2016-basic-geometry-short-q4","maths-geometry-2016-basic-geometry-short-q5","maths-geometry-2016-basic-geometry-short-q6","maths-geometry-2016-basic-geometry-short-q7","maths-geometry-2016-basic-geometry-short-q8","maths-geometry-2016-basic-geometry-short-q9","maths-geometry-2016-basic-geometry-short-q10","maths-geometry-2016-basic-geometry-short-q11","maths-geometry-2016-basic-geometry-short-q12","maths-geometry-2016-basic-geometry-short-q13","maths-geometry-2016-basic-geometry-short-q14","maths-geometry-2016-basic-geometry-short-q15","maths-geometry-2016-basic-geometry-short-q16","maths-geometry-2016-basic-geometry-short-q17","maths-geometry-2016-basic-geometry-short-q18","maths-geometry-2016-basic-geometry-short-q19","maths-geometry-2016-basic-geometry-short-q20","maths-geometry-2016-basic-geometry-short-q21","maths-geometry-2016-basic-geometry-short-q22","maths-geometry-2016-basic-geometry-short-q23","maths-geometry-2016-basic-geometry-short-q24","maths-geometry-2016-basic-geometry-short-q25","maths-geometry-2016-basic-geometry-short-q26","maths-geometry-2016-basic-geometry-choice-q1","maths-geometry-2016-basic-geometry-choice-q2","maths-geometry-2016-basic-geometry-choice-q3","maths-geometry-2016-basic-geometry-choice-q4","maths-geometry-2016-basic-geometry-choice-q5","maths-geometry-2016-basic-geometry-choice-q6","maths-geometry-2016-basic-geometry-choice-q7","maths-geometry-2016-basic-geometry-choice-q8","maths-geometry-2016-basic-geometry-choice-q9","maths-geometry-2016-basic-geometry-choice-q10","maths-geometry-2016-basic-geometry-choice-q11","maths-geometry-2016-basic-geometry-choice-q12","maths-geometry-2016-basic-geometry-choice-q13","maths-geometry-2016-basic-geometry-choice-q14","maths-geometry-2016-basic-geometry-choice-q15","maths-geometry-2016-basic-geometry-choice-q16","maths-geometry-2016-basic-geometry-choice-q17","maths-geometry-2016-basic-geometry-choice-q18","maths-geometry-2016-basic-geometry-choice-q19","maths-geometry-2016-basic-geometry-choice-q20","maths-geometry-2016-basic-geometry-long-q1","maths-geometry-2016-basic-geometry-long-q2","maths-geometry-2016-congruence-short-q1","maths-geometry-2016-congruence-short-q2","maths-geometry-2016-congruence-short-q3","maths-geometry-2016-congruence-short-q4","maths-geometry-2016-congruence-short-q5","maths-geometry-2016-congruence-short-q6","maths-geometry-2016-congruence-short-q7","maths-geometry-2016-congruence-short-q8","maths-geometry-2016-congruence-short-q9","maths-geometry-2016-congruence-short-q10","maths-geometry-2016-congruence-short-q11","maths-geometry-2016-congruence-short-q12","maths-geometry-2016-congruence-short-q13","maths-geometry-2016-congruence-short-q14","maths-geometry-2016-congruence-short-q15","maths-geometry-2016-congruence-choice-q1","maths-geometry-2016-congruence-choice-q2","maths-geometry-2016-congruence-choice-q3","maths-geometry-2016-congruence-choice-q4","maths-geometry-2016-congruence-choice-q5","maths-geometry-2016-congruence-choice-q6","maths-geometry-2016-congruence-choice-q7","maths-geometry-2016-congruence-choice-q8","maths-geometry-2016-congruence-choice-q9","maths-geometry-2016-congruence-choice-q10","maths-geometry-2016-congruence-choice-q11","maths-geometry-2016-congruence-choice-q12","maths-geometry-2016-congruence-choice-q13","maths-geometry-2016-congruence-choice-q14","maths-geometry-2016-congruence-choice-q15","maths-geometry-2016-congruence-long-q1","maths-geometry-2016-congruence-long-q2","maths-geometry-2016-congruence-long-q3","maths-geometry-2016-congruence-long-q4","maths-geometry-2016-enlargement-similarity-short-q1","maths-geometry-2016-enlargement-similarity-short-q2","maths-geometry-2016-enlargement-similarity-short-q3","maths-geometry-2016-enlargement-similarity-short-q4","maths-geometry-2016-enlargement-similarity-short-q5","maths-geometry-2016-enlargement-similarity-short-q6","maths-geometry-2016-enlargement-similarity-short-q7","maths-geometry-2016-enlargement-similarity-short-q8","maths-geometry-2016-enlargement-similarity-short-q9","maths-geometry-2016-enlargement-similarity-short-q10","maths-geometry-2016-enlargement-similarity-short-q11","maths-geometry-2016-enlargement-similarity-short-q12","maths-geometry-2016-enlargement-similarity-short-q13","maths-geometry-2016-enlargement-similarity-short-q14","maths-geometry-2016-enlargement-similarity-short-q15","maths-geometry-2016-enlargement-similarity-choice-q1","maths-geometry-2016-enlargement-similarity-choice-q2","maths-geometry-2016-enlargement-similarity-choice-q3","maths-geometry-2016-enlargement-similarity-choice-q4","maths-geometry-2016-enlargement-similarity-choice-q5","maths-geometry-2016-enlargement-similarity-choice-q6","maths-geometry-2016-enlargement-similarity-choice-q7","maths-geometry-2016-enlargement-similarity-choice-q8","maths-geometry-2016-enlargement-similarity-choice-q9","maths-geometry-2016-enlargement-similarity-choice-q10","maths-geometry-2016-enlargement-similarity-choice-q11","maths-geometry-2016-enlargement-similarity-choice-q12","maths-geometry-2016-enlargement-similarity-choice-q13","maths-geometry-2016-enlargement-similarity-choice-q14","maths-geometry-2016-enlargement-similarity-choice-q15","maths-geometry-2016-enlargement-similarity-long-q1","maths-geometry-2016-enlargement-similarity-long-q2","maths-geometry-2016-enlargement-similarity-long-q3","maths-geometry-2016-enlargement-similarity-long-q4","maths-geometry-2016-enlargement-similarity-long-q5","maths-geometry-2016-geometric-reasoning-long-q1","maths-geometry-2016-geometric-reasoning-long-q2","maths-geometry-2016-geometric-reasoning-long-q3","maths-geometry-2016-geometric-reasoning-long-q4","maths-geometry-2016-geometric-reasoning-long-q5","maths-geometry-2016-geometric-reasoning-long-q6","maths-lower-further-algebra-q1","maths-lower-further-algebra-q2","maths-lower-further-algebra-q3","maths-lower-further-algebra-q4","maths-lower-further-algebra-q5","maths-lower-further-algebra-q6","maths-lower-further-algebra-q7","maths-lower-further-algebra-q8","maths-lower-further-algebra-q9","maths-lower-further-algebra-q10","maths-lower-further-algebra-q11","maths-lower-further-algebra-q12","maths-lower-further-algebra-q13","maths-lower-further-algebra-q14","maths-lower-further-algebra-q15","maths-lower-further-algebra-q16","maths-lower-further-algebra-q17","maths-lower-further-algebra-q18","maths-lower-further-algebra-q19","maths-lower-further-algebra-q20","maths-lower-further-algebra-q21","maths-lower-further-algebra-q22","maths-lower-further-algebra-q23","maths-lower-further-algebra-q24","maths-lower-further-algebra-q25","maths-lower-further-algebra-q26","maths-lower-further-algebra-q27","maths-lower-further-algebra-q28","maths-lower-further-algebra-q29","maths-lower-further-algebra-q30","maths-lower-further-algebra-q31","maths-lower-further-algebra-q32","maths-lower-equations-formulae-q1","maths-lower-equations-formulae-q2","maths-lower-equations-formulae-q3","maths-lower-equations-formulae-q4","maths-lower-equations-formulae-q5","maths-lower-equations-formulae-q6","maths-lower-equations-formulae-q7","maths-lower-equations-formulae-q8","maths-lower-equations-formulae-q9","maths-lower-equations-formulae-q10","maths-lower-equations-formulae-q11","maths-lower-equations-formulae-q12","maths-lower-equations-formulae-q13","maths-lower-equations-formulae-q14","maths-lower-equations-formulae-q15","maths-lower-equations-formulae-q16","maths-lower-equations-formulae-q17","maths-lower-equations-formulae-q18","maths-lower-equations-formulae-q19","maths-lower-equations-formulae-q20","maths-lower-equations-formulae-q21","maths-lower-equations-formulae-q22","maths-lower-equations-formulae-q23","maths-lower-equations-formulae-q24","maths-lower-equations-formulae-q25","maths-lower-data-910-basic-statistics-short-q1","maths-lower-data-910-basic-statistics-short-q2","maths-lower-data-910-basic-statistics-short-q3","maths-lower-data-910-basic-statistics-short-q4","maths-lower-data-910-basic-statistics-short-q5","maths-lower-data-910-basic-statistics-short-q6","maths-lower-data-910-basic-statistics-short-q7","maths-lower-data-910-basic-statistics-short-q8","maths-lower-data-910-basic-statistics-short-q9","maths-lower-data-910-basic-statistics-choice-q1","maths-lower-data-910-basic-statistics-choice-q2","maths-lower-data-910-basic-statistics-choice-q3","maths-lower-data-910-basic-statistics-choice-q4","maths-lower-data-910-basic-statistics-choice-q5","maths-lower-data-910-basic-statistics-choice-q6","maths-lower-data-910-basic-statistics-choice-q7","maths-lower-data-910-basic-statistics-choice-q8","maths-lower-data-910-basic-statistics-choice-q9","maths-lower-data-910-basic-statistics-choice-q10","maths-lower-data-910-basic-statistics-choice-q11","maths-lower-data-graphs-tables-charts-q1","maths-lower-data-graphs-tables-charts-q2","maths-lower-data-graphs-tables-charts-q3","maths-lower-data-graphs-tables-charts-q4","maths-lower-data-graphs-tables-charts-q5","maths-lower-data-graphs-tables-charts-q6","maths-lower-data-graphs-tables-charts-q7","maths-lower-data-graphs-tables-charts-q8","maths-lower-data-graphs-tables-charts-q9","maths-lower-data-graphs-tables-charts-q10","maths-lower-data-graphs-tables-charts-q11","maths-lower-data-graphs-tables-charts-q12","maths-lower-data-graphs-tables-charts-q13","maths-lower-data-graphs-tables-charts-q14","maths-lower-data-graphs-tables-charts-q15","maths-lower-data-graphs-tables-charts-q16","maths-lower-data-graphs-tables-charts-q17","maths-lower-data-graphs-tables-charts-q18","maths-lower-data-graphs-tables-charts-q19","maths-lower-data-graphs-tables-charts-q20","maths-lower-data-graphs-tables-charts-q21","maths-lower-data-graphs-tables-charts-q22","maths-lower-data-graphs-tables-charts-q23","maths-lower-data-graphs-tables-charts-q24","maths-lower-data-graphs-tables-charts-q25","maths-lower-data-graphs-tables-charts-q26","maths-lower-data-graphs-tables-charts-q27","maths-lower-data-graphs-tables-charts-q28","maths-lower-data-graphs-tables-charts-q29","maths-lower-data-graphs-tables-charts-q30","maths-lower-data-graphs-tables-charts-q31","maths-lower-data-graphs-tables-charts-q32","maths-lower-linear-relations-q1","maths-lower-linear-relations-q2","maths-lower-linear-relations-q3","maths-lower-linear-relations-q4","maths-lower-linear-relations-q5","maths-lower-linear-relations-q6","maths-lower-linear-relations-q7","maths-lower-linear-relations-q8","maths-lower-linear-relations-q9","maths-lower-linear-relations-q10","maths-lower-linear-relations-q11","maths-lower-linear-relations-q12","maths-lower-linear-relations-q13","maths-lower-linear-relations-q14","maths-lower-linear-relations-q15","maths-lower-linear-relations-q16","maths-lower-linear-relations-q17","maths-lower-linear-relations-q18","maths-lower-linear-relations-q19","maths-lower-linear-relations-q20","maths-lower-linear-relations-q21","maths-lower-linear-relations-q22","maths-lower-linear-relations-q23","maths-lower-linear-relations-q24","maths-lower-linear-relations-q25","maths-lower-linear-relations-q26","maths-lower-linear-relations-q27","maths-lower-linear-relations-q28","maths-lower-linear-relations-q29","maths-lower-linear-relations-q30","maths-lower-basic-algebra-q1","maths-lower-basic-algebra-q2","maths-lower-basic-algebra-q3","maths-lower-basic-algebra-q4","maths-lower-basic-algebra-q5","maths-lower-basic-algebra-q6","maths-lower-basic-algebra-q7","maths-lower-basic-algebra-q8","maths-lower-basic-algebra-q9","maths-lower-basic-algebra-q10","maths-lower-basic-algebra-q11","maths-lower-basic-algebra-q12","maths-lower-basic-algebra-q13","maths-lower-basic-algebra-q14","maths-lower-basic-algebra-q15","maths-lower-basic-algebra-q16","maths-lower-basic-algebra-q17","maths-lower-basic-algebra-q18","maths-lower-basic-algebra-q19","maths-lower-basic-algebra-q20","maths-lower-basic-algebra-q21","maths-lower-basic-algebra-q22","maths-lower-basic-algebra-q23","maths-lower-basic-algebra-q24","maths-lower-basic-algebra-q25","maths-lower-basic-algebra-q26","maths-lower-basic-algebra-q27","maths-lower-basic-algebra-q28","maths-lower-basic-algebra-q29","maths-lower-basic-algebra-q30","maths-lower-basic-algebra-q31","maths-lower-basic-algebra-q32","maths-lower-basic-algebra-q33","maths-lower-basic-algebra-q34","maths-lower-basic-algebra-q35"],"format":{"font":"Arial","fontSizePt":12,"automaticAnswerLines":false},"subjects":{"Mathematics":{"total":1128,"convertedThisBatch":199,"wholeQuestionImagesRemaining":429,"existingTextQuestionsToReview":500},"Mathematics Methods":{"total":278,"status":"queued"},"Physics":{"total":352,"status":"queued"},"Chemistry":{"total":353,"status":"queued"},"Human Biology":{"total":601,"status":"queued"}}}
+{
+  "subject": "Mathematics",
+  "total": 1128,
+  "converted": [
+    "maths-lower-algebra-910-factorisation-short-q1",
+    "maths-lower-algebra-910-factorisation-short-q2",
+    "maths-lower-algebra-910-factorisation-short-q3",
+    "maths-lower-algebra-910-factorisation-short-q4",
+    "maths-lower-algebra-910-factorisation-short-q5",
+    "maths-lower-algebra-910-factorisation-short-q6",
+    "maths-lower-algebra-910-factorisation-short-q7",
+    "maths-lower-algebra-910-factorisation-short-q8",
+    "maths-lower-algebra-910-factorisation-short-q9",
+    "maths-lower-algebra-910-factorisation-short-q10",
+    "maths-lower-algebra-910-factorisation-short-q11",
+    "maths-lower-algebra-910-factorisation-short-q12",
+    "maths-lower-algebra-910-factorisation-short-q13",
+    "maths-lower-algebra-910-factorisation-short-q14",
+    "maths-lower-algebra-910-factorisation-short-q15",
+    "maths-lower-algebra-910-factorisation-choice-q1",
+    "maths-lower-algebra-910-factorisation-choice-q2",
+    "maths-lower-algebra-910-factorisation-choice-q3",
+    "maths-lower-algebra-910-factorisation-choice-q4",
+    "maths-lower-algebra-910-factorisation-choice-q5",
+    "maths-lower-algebra-910-factorisation-choice-q6",
+    "maths-lower-algebra-910-factorisation-choice-q7",
+    "maths-lower-algebra-910-factorisation-choice-q8",
+    "maths-lower-algebra-910-factorisation-choice-q9",
+    "maths-lower-algebra-910-factorisation-choice-q10",
+    "maths-lower-algebra-910-factorisation-choice-q11",
+    "maths-lower-algebra-910-factorisation-choice-q12",
+    "maths-lower-algebra-910-factorisation-choice-q13",
+    "maths-lower-algebra-910-factorisation-choice-q14",
+    "maths-lower-algebra-910-factorisation-choice-q15",
+    "maths-lower-batch-volume-and-surface-area-q7",
+    "maths-lower-batch-volume-and-surface-area-q8",
+    "maths-lower-batch-rational-numbers-q1",
+    "maths-lower-batch-rational-numbers-q2",
+    "maths-lower-batch-rational-numbers-q3",
+    "maths-lower-batch-rational-numbers-q5",
+    "maths-lower-batch-rational-numbers-q9",
+    "maths-lower-batch-rational-numbers-q10",
+    "maths-lower-batch-rational-numbers-q12",
+    "maths-lower-batch-rational-numbers-q13",
+    "maths-lower-batch-rational-numbers-q14",
+    "maths-lower-batch-rational-numbers-q15",
+    "maths-lower-batch-rational-numbers-q16",
+    "maths-lower-batch-rational-numbers-q17",
+    "maths-lower-batch-rational-numbers-q18",
+    "maths-lower-batch-rational-numbers-q19",
+    "maths-lower-batch-rational-numbers-q20",
+    "maths-lower-batch-rational-numbers-q21",
+    "maths-lower-batch-rational-numbers-q22",
+    "maths-lower-batch-rational-numbers-q23",
+    "maths-lower-batch-rational-numbers-q25",
+    "maths-lower-batch-rational-numbers-q26",
+    "maths-lower-batch-rational-numbers-q27",
+    "maths-lower-batch-rational-numbers-q28",
+    "maths-lower-batch-rational-numbers-q29",
+    "maths-lower-batch-rational-numbers-q30",
+    "maths-lower-batch-number-systems-q1",
+    "maths-lower-batch-number-systems-q2",
+    "maths-lower-batch-number-systems-q3",
+    "maths-lower-batch-number-systems-q4",
+    "maths-lower-batch-number-systems-q5",
+    "maths-lower-batch-number-systems-q6",
+    "maths-lower-batch-number-systems-q8",
+    "maths-lower-batch-number-systems-q9",
+    "maths-lower-batch-number-systems-q11",
+    "maths-lower-batch-number-systems-q12",
+    "maths-lower-batch-number-systems-q15",
+    "maths-lower-batch-number-systems-q20",
+    "maths-lower-batch-number-systems-q24",
+    "maths-lower-batch-number-systems-q25",
+    "maths-lower-batch-number-systems-q26",
+    "maths-lower-batch-number-systems-q27",
+    "maths-lower-batch-number-systems-q28",
+    "maths-lower-batch-location-q1",
+    "maths-lower-batch-location-q4",
+    "maths-lower-batch-location-q5",
+    "maths-lower-batch-location-q8",
+    "maths-lower-batch-location-q10",
+    "maths-lower-batch-location-q11",
+    "maths-lower-batch-location-q12",
+    "maths-lower-batch-location-q13",
+    "maths-lower-batch-location-q15",
+    "maths-lower-batch-location-q16",
+    "maths-lower-batch-location-q17",
+    "maths-lower-batch-location-q19",
+    "maths-lower-batch-location-q21",
+    "maths-lower-batch-location-q22",
+    "maths-lower-batch-pythagoras-q12",
+    "maths-lower-batch-shapes-q2",
+    "maths-lower-batch-shapes-q3",
+    "maths-lower-batch-shapes-q4",
+    "maths-lower-batch-shapes-q10",
+    "maths-lower-batch-transformations-and-congruence-q12",
+    "maths-lower-batch-transformations-and-congruence-q13",
+    "maths-lower-batch-polygons-and-circles-q12",
+    "maths-lower-batch-polygons-and-circles-q16",
+    "maths-lower-batch-polygons-and-circles-q21",
+    "maths-lower-batch-integers-q2",
+    "maths-lower-batch-integers-q3",
+    "maths-lower-batch-integers-q4",
+    "maths-lower-batch-integers-q6",
+    "maths-lower-batch-integers-q7",
+    "maths-lower-batch-integers-q8",
+    "maths-lower-batch-integers-q9",
+    "maths-lower-batch-integers-q10",
+    "maths-lower-batch-integers-q11",
+    "maths-lower-batch-integers-q12",
+    "maths-lower-batch-integers-q13",
+    "maths-lower-batch-integers-q14",
+    "maths-lower-batch-integers-q15",
+    "maths-lower-batch-integers-q16",
+    "maths-lower-batch-integers-q17",
+    "maths-lower-batch-integers-q18",
+    "maths-lower-batch-integers-q19",
+    "maths-lower-batch-integers-q20",
+    "maths-lower-batch-integers-q25",
+    "maths-lower-batch-integers-q26",
+    "maths-lower-batch-integers-q27",
+    "maths-lower-batch-integers-q29",
+    "maths-lower-batch-fractions-q6",
+    "maths-lower-batch-fractions-q7",
+    "maths-lower-batch-fractions-q9",
+    "maths-lower-batch-fractions-q10",
+    "maths-lower-batch-fractions-q12",
+    "maths-lower-batch-fractions-q16",
+    "maths-lower-batch-fractions-q21",
+    "maths-lower-batch-fractions-q22",
+    "maths-lower-batch-fractions-q23",
+    "maths-lower-batch-fractions-q26",
+    "maths-lower-algebra-910-coordinate-geometry-short-q6",
+    "maths-lower-algebra-910-coordinate-geometry-short-q7",
+    "maths-lower-algebra-910-coordinate-geometry-short-q8",
+    "maths-lower-algebra-910-coordinate-geometry-short-q9",
+    "maths-lower-algebra-910-coordinate-geometry-short-q10",
+    "maths-lower-algebra-910-coordinate-geometry-short-q11",
+    "maths-lower-algebra-910-coordinate-geometry-short-q12",
+    "maths-lower-algebra-910-coordinate-geometry-choice-q11",
+    "maths-lower-algebra-910-functions-and-graphs-short-q1",
+    "maths-lower-algebra-910-functions-and-graphs-short-q2",
+    "maths-lower-algebra-910-functions-and-graphs-short-q3",
+    "maths-lower-algebra-910-functions-and-graphs-short-q5",
+    "maths-lower-algebra-910-functions-and-graphs-choice-q1",
+    "maths-lower-algebra-910-functions-and-graphs-choice-q3",
+    "maths-lower-algebra-910-functions-and-graphs-choice-q8",
+    "maths-lower-batch-decimals-q5",
+    "maths-lower-batch-decimals-q6",
+    "maths-lower-batch-decimals-q8",
+    "maths-lower-batch-decimals-q11",
+    "maths-lower-batch-decimals-q14",
+    "maths-lower-batch-decimals-q17",
+    "maths-lower-batch-decimals-q18",
+    "maths-lower-batch-decimals-q20",
+    "maths-lower-batch-decimals-q21",
+    "maths-lower-batch-decimals-q23",
+    "maths-lower-batch-decimals-q24",
+    "maths-lower-batch-decimals-q29",
+    "maths-lower-batch-decimals-q30",
+    "maths-lower-algebra-910-algebraic-expansions-short-q2",
+    "maths-lower-algebra-910-algebraic-expansions-short-q4",
+    "maths-lower-algebra-910-algebraic-expansions-short-q5",
+    "maths-lower-algebra-910-algebraic-expansions-short-q6",
+    "maths-lower-algebra-910-algebraic-expansions-short-q7",
+    "maths-lower-algebra-910-algebraic-expansions-short-q8",
+    "maths-lower-algebra-910-algebraic-expansions-short-q9",
+    "maths-lower-algebra-910-algebraic-expansions-short-q10",
+    "maths-lower-algebra-910-algebraic-expansions-short-q11",
+    "maths-lower-algebra-910-algebraic-expansions-short-q12",
+    "maths-lower-algebra-910-algebraic-expansions-choice-q1",
+    "maths-lower-algebra-910-algebraic-expansions-choice-q2",
+    "maths-lower-algebra-910-algebraic-expansions-choice-q3",
+    "maths-lower-algebra-910-algebraic-expansions-choice-q4",
+    "maths-lower-algebra-910-algebraic-expansions-choice-q5",
+    "maths-lower-algebra-910-algebraic-expansions-choice-q6",
+    "maths-lower-algebra-910-algebraic-expansions-choice-q7",
+    "maths-lower-algebra-910-algebraic-expansions-choice-q8",
+    "maths-lower-algebra-910-algebraic-expansions-choice-q9",
+    "maths-lower-algebra-910-algebraic-expansions-choice-q10",
+    "maths-lower-algebra-910-algebraic-expansions-choice-q11",
+    "maths-lower-algebra-910-algebraic-expansions-choice-q12",
+    "maths-lower-algebra-910-basic-algebra-skills-short-q1",
+    "maths-lower-algebra-910-basic-algebra-skills-short-q2",
+    "maths-lower-algebra-910-basic-algebra-skills-short-q3",
+    "maths-lower-algebra-910-basic-algebra-skills-short-q4",
+    "maths-lower-algebra-910-basic-algebra-skills-short-q5",
+    "maths-lower-algebra-910-basic-algebra-skills-short-q6",
+    "maths-lower-algebra-910-basic-algebra-skills-short-q7",
+    "maths-lower-algebra-910-basic-algebra-skills-short-q8",
+    "maths-lower-algebra-910-basic-algebra-skills-short-q9",
+    "maths-lower-algebra-910-basic-algebra-skills-short-q10",
+    "maths-lower-algebra-910-basic-algebra-skills-short-q11",
+    "maths-lower-algebra-910-basic-algebra-skills-short-q12",
+    "maths-lower-algebra-910-basic-algebra-skills-short-q13",
+    "maths-lower-algebra-910-basic-algebra-skills-short-q14",
+    "maths-lower-algebra-910-basic-algebra-skills-short-q15",
+    "maths-lower-algebra-910-basic-algebra-skills-short-q16",
+    "maths-lower-algebra-910-basic-algebra-skills-short-q17",
+    "maths-lower-algebra-910-basic-algebra-skills-short-q18",
+    "maths-lower-algebra-910-basic-algebra-skills-short-q19",
+    "maths-lower-algebra-910-basic-algebra-skills-short-q20",
+    "maths-lower-algebra-910-basic-algebra-skills-choice-q1",
+    "maths-lower-algebra-910-basic-algebra-skills-choice-q2",
+    "maths-lower-algebra-910-basic-algebra-skills-choice-q3",
+    "maths-lower-algebra-910-basic-algebra-skills-choice-q4",
+    "maths-lower-algebra-910-basic-algebra-skills-choice-q5",
+    "maths-lower-algebra-910-basic-algebra-skills-choice-q6",
+    "maths-lower-algebra-910-basic-algebra-skills-choice-q7",
+    "maths-lower-algebra-910-basic-algebra-skills-choice-q8",
+    "maths-lower-algebra-910-basic-algebra-skills-choice-q9",
+    "maths-lower-algebra-910-basic-algebra-skills-choice-q10",
+    "maths-lower-algebra-910-basic-algebra-skills-choice-q11",
+    "maths-lower-algebra-910-basic-algebra-skills-choice-q12",
+    "maths-lower-algebra-910-basic-algebra-skills-choice-q13",
+    "maths-lower-algebra-910-basic-algebra-skills-choice-q14",
+    "maths-lower-algebra-910-basic-algebra-skills-choice-q15",
+    "maths-lower-algebra-910-basic-algebra-skills-choice-q16",
+    "maths-lower-algebra-910-basic-algebra-skills-choice-q17",
+    "maths-lower-algebra-910-basic-algebra-skills-choice-q18",
+    "maths-lower-algebra-910-basic-algebra-skills-choice-q19",
+    "maths-lower-algebra-910-basic-algebra-skills-choice-q20",
+    "maths-lower-batch-metric-system-q1",
+    "maths-lower-batch-metric-system-q2",
+    "maths-lower-batch-metric-system-q3",
+    "maths-lower-batch-metric-system-q5",
+    "maths-lower-batch-metric-system-q6",
+    "maths-lower-batch-metric-system-q7",
+    "maths-lower-batch-metric-system-q10",
+    "maths-lower-batch-metric-system-q13",
+    "maths-lower-batch-metric-system-q18",
+    "maths-lower-batch-metric-system-q19",
+    "maths-lower-batch-metric-system-q22",
+    "maths-lower-algebra-910-non-linear-equations-short-q1",
+    "maths-lower-algebra-910-non-linear-equations-short-q2",
+    "maths-lower-algebra-910-non-linear-equations-short-q3",
+    "maths-lower-algebra-910-non-linear-equations-short-q4",
+    "maths-lower-algebra-910-non-linear-equations-short-q5",
+    "maths-lower-algebra-910-non-linear-equations-short-q6",
+    "maths-lower-algebra-910-non-linear-equations-short-q7",
+    "maths-lower-algebra-910-non-linear-equations-short-q8",
+    "maths-lower-algebra-910-non-linear-equations-short-q9",
+    "maths-lower-algebra-910-non-linear-equations-choice-q1",
+    "maths-lower-algebra-910-non-linear-equations-choice-q2",
+    "maths-lower-algebra-910-non-linear-equations-choice-q3",
+    "maths-lower-algebra-910-non-linear-equations-choice-q4",
+    "maths-lower-algebra-910-non-linear-equations-choice-q5",
+    "maths-lower-algebra-910-non-linear-equations-choice-q6",
+    "maths-lower-algebra-910-non-linear-equations-choice-q7",
+    "maths-lower-algebra-910-non-linear-equations-choice-q8",
+    "maths-lower-algebra-910-non-linear-equations-choice-q9",
+    "maths-lower-algebra-910-non-linear-equations-choice-q10",
+    "maths-lower-algebra-910-non-linear-equations-choice-q11",
+    "maths-lower-algebra-910-non-linear-equations-choice-q14",
+    "maths-lower-batch-area-q1",
+    "maths-lower-batch-area-q2",
+    "maths-lower-batch-area-q3",
+    "maths-lower-batch-area-q11",
+    "maths-lower-batch-area-q14",
+    "maths-lower-batch-area-q17",
+    "maths-lower-algebra-910-linear-equations-short-q1",
+    "maths-lower-algebra-910-linear-equations-short-q2",
+    "maths-lower-algebra-910-linear-equations-short-q3",
+    "maths-lower-algebra-910-linear-equations-short-q4",
+    "maths-lower-algebra-910-linear-equations-short-q5",
+    "maths-lower-algebra-910-linear-equations-short-q6",
+    "maths-lower-algebra-910-linear-equations-short-q8",
+    "maths-lower-algebra-910-linear-equations-choice-q1",
+    "maths-lower-algebra-910-linear-equations-choice-q2",
+    "maths-lower-algebra-910-linear-equations-choice-q3",
+    "maths-lower-algebra-910-linear-equations-choice-q4",
+    "maths-lower-algebra-910-linear-equations-choice-q5",
+    "maths-lower-algebra-910-linear-equations-choice-q6",
+    "maths-lower-algebra-910-linear-equations-choice-q7",
+    "maths-lower-algebra-910-linear-equations-choice-q8",
+    "maths-lower-algebra-910-linear-equations-choice-q10",
+    "maths-lower-algebra-910-simultaneous-equations-short-q1",
+    "maths-lower-algebra-910-simultaneous-equations-short-q2",
+    "maths-lower-algebra-910-simultaneous-equations-short-q3",
+    "maths-lower-algebra-910-simultaneous-equations-short-q4",
+    "maths-lower-algebra-910-simultaneous-equations-short-q5",
+    "maths-lower-algebra-910-simultaneous-equations-short-q6",
+    "maths-lower-algebra-910-simultaneous-equations-short-q7",
+    "maths-lower-algebra-910-simultaneous-equations-choice-q1",
+    "maths-lower-algebra-910-simultaneous-equations-choice-q4",
+    "maths-lower-algebra-910-simultaneous-equations-choice-q5",
+    "maths-lower-batch-angles-q3",
+    "maths-lower-batch-angles-q5",
+    "maths-lower-batch-ratio-and-rates-q2",
+    "maths-lower-batch-ratio-and-rates-q5",
+    "maths-lower-batch-ratio-and-rates-q6",
+    "maths-lower-batch-ratio-and-rates-q9",
+    "maths-lower-batch-ratio-and-rates-q10",
+    "maths-lower-batch-ratio-and-rates-q12",
+    "maths-lower-batch-ratio-and-rates-q14",
+    "maths-lower-batch-ratio-and-rates-q16",
+    "maths-lower-batch-ratio-and-rates-q18",
+    "maths-lower-batch-ratio-and-rates-q19",
+    "maths-lower-batch-ratio-and-rates-q20",
+    "maths-lower-batch-ratio-and-rates-q21",
+    "maths-lower-batch-ratio-and-rates-q23",
+    "maths-lower-batch-ratio-and-rates-q24",
+    "maths-lower-batch-ratio-and-rates-q25",
+    "maths-lower-batch-ratio-and-rates-q27",
+    "maths-lower-batch-ratio-and-rates-q28",
+    "maths-lower-batch-ratio-and-rates-q29",
+    "maths-lower-batch-ratio-and-rates-q30",
+    "maths-lower-batch-ratio-and-rates-q31",
+    "maths-lower-batch-ratio-and-rates-q32",
+    "maths-lower-batch-ratio-and-rates-q33",
+    "maths-lower-batch-ratio-and-rates-q34",
+    "maths-lower-batch-ratio-and-rates-q35",
+    "maths-lower-batch-percentages-q2",
+    "maths-lower-batch-percentages-q3",
+    "maths-lower-batch-percentages-q4",
+    "maths-lower-batch-percentages-q5",
+    "maths-lower-batch-percentages-q7",
+    "maths-lower-batch-percentages-q8",
+    "maths-lower-batch-percentages-q9",
+    "maths-lower-batch-percentages-q10",
+    "maths-lower-batch-percentages-q12",
+    "maths-lower-batch-percentages-q13",
+    "maths-lower-batch-percentages-q14",
+    "maths-lower-batch-percentages-q15",
+    "maths-lower-batch-percentages-q16",
+    "maths-lower-batch-percentages-q17",
+    "maths-lower-batch-percentages-q18",
+    "maths-lower-batch-percentages-q19",
+    "maths-lower-batch-percentages-q20",
+    "maths-lower-batch-percentages-q21",
+    "maths-lower-batch-percentages-q23",
+    "maths-lower-batch-percentages-q24",
+    "maths-lower-batch-percentages-q25",
+    "maths-lower-batch-percentages-q26",
+    "maths-lower-batch-percentages-q27",
+    "maths-lower-batch-percentages-q28",
+    "maths-lower-batch-percentages-q29",
+    "maths-lower-batch-percentages-q30",
+    "maths-lower-batch-percentages-q31",
+    "maths-lower-batch-percentages-q32"
+  ],
+  "pending": [
+    {
+      "id": "maths-lower-batch-volume-and-surface-area-q1",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-volume-and-surface-area-q2",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-volume-and-surface-area-q3",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-volume-and-surface-area-q4",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-volume-and-surface-area-q5",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-volume-and-surface-area-q6",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-volume-and-surface-area-q9",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-volume-and-surface-area-q10",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-volume-and-surface-area-q11",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-volume-and-surface-area-q12",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-volume-and-surface-area-q13",
+      "reason": "Referenced source diagram requires separate mapping"
+    },
+    {
+      "id": "maths-lower-batch-volume-and-surface-area-q14",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-volume-and-surface-area-q15",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-volume-and-surface-area-q16",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-volume-and-surface-area-q17",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-volume-and-surface-area-q18",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-volume-and-surface-area-q19",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-volume-and-surface-area-q20",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-rational-numbers-q4",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-rational-numbers-q6",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-rational-numbers-q7",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-rational-numbers-q8",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-rational-numbers-q11",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-rational-numbers-q24",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-rational-numbers-q31",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-rational-numbers-q32",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-number-systems-q7",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-number-systems-q10",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-number-systems-q13",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-number-systems-q14",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-number-systems-q16",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-number-systems-q17",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-number-systems-q18",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-number-systems-q19",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-number-systems-q21",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-number-systems-q22",
+      "reason": "Referenced source diagram requires separate mapping"
+    },
+    {
+      "id": "maths-lower-batch-number-systems-q23",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-number-systems-q29",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-number-systems-q30",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-location-q2",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-location-q3",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-location-q6",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-location-q7",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-location-q9",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-location-q14",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-location-q18",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-location-q20",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-pythagoras-q1",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-pythagoras-q2",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-pythagoras-q3",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-pythagoras-q4",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-pythagoras-q5",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-pythagoras-q6",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-pythagoras-q7",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-pythagoras-q8",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-pythagoras-q9",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-pythagoras-q10",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-pythagoras-q11",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-pythagoras-q13",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-pythagoras-q14",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-pythagoras-q15",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-pythagoras-q16",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-pythagoras-q17",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-pythagoras-q18",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-pythagoras-q19",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-pythagoras-q20",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-shapes-q1",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-shapes-q5",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-shapes-q6",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-shapes-q7",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-shapes-q8",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-shapes-q9",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-shapes-q11",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-shapes-q12",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-shapes-q13",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-shapes-q14",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-shapes-q15",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-shapes-q16",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-shapes-q17",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-shapes-q18",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-shapes-q19",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-shapes-q20",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-shapes-q21",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-shapes-q22",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-shapes-q23",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-shapes-q24",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-shapes-q25",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-transformations-and-congruence-q1",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-transformations-and-congruence-q2",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-transformations-and-congruence-q3",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-transformations-and-congruence-q4",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-transformations-and-congruence-q5",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-transformations-and-congruence-q6",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-transformations-and-congruence-q7",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-transformations-and-congruence-q8",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-transformations-and-congruence-q9",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-transformations-and-congruence-q10",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-transformations-and-congruence-q11",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-transformations-and-congruence-q14",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-transformations-and-congruence-q15",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-transformations-and-congruence-q16",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-transformations-and-congruence-q17",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-transformations-and-congruence-q18",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-transformations-and-congruence-q19",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-transformations-and-congruence-q20",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-polygons-and-circles-q1",
+      "reason": "Referenced source diagram requires separate mapping"
+    },
+    {
+      "id": "maths-lower-batch-polygons-and-circles-q2",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-polygons-and-circles-q3",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-polygons-and-circles-q4",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-polygons-and-circles-q5",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-polygons-and-circles-q6",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-polygons-and-circles-q7",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-polygons-and-circles-q8",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-polygons-and-circles-q9",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-polygons-and-circles-q10",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-polygons-and-circles-q11",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-polygons-and-circles-q13",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-polygons-and-circles-q14",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-polygons-and-circles-q15",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-polygons-and-circles-q17",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-polygons-and-circles-q18",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-polygons-and-circles-q19",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-polygons-and-circles-q20",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-polygons-and-circles-q22",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-polygons-and-circles-q23",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-polygons-and-circles-q24",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-polygons-and-circles-q25",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-integers-q1",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-integers-q5",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-integers-q21",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-integers-q22",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-integers-q23",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-integers-q24",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-integers-q28",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-integers-q30",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-fractions-q1",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-fractions-q2",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-fractions-q3",
+      "reason": "Referenced source diagram requires separate mapping"
+    },
+    {
+      "id": "maths-lower-batch-fractions-q4",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-fractions-q5",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-fractions-q8",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-fractions-q11",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-fractions-q13",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-fractions-q14",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-fractions-q15",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-fractions-q17",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-fractions-q18",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-fractions-q19",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-fractions-q20",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-fractions-q24",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-fractions-q25",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-fractions-q27",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-fractions-q28",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-fractions-q29",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-fractions-q30",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-fractions-q31",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-fractions-q32",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-algebra-910-coordinate-geometry-short-q1",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-algebra-910-coordinate-geometry-short-q2",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-algebra-910-coordinate-geometry-short-q3",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-algebra-910-coordinate-geometry-short-q4",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-algebra-910-coordinate-geometry-short-q5",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-algebra-910-coordinate-geometry-short-q13",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-algebra-910-coordinate-geometry-choice-q1",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-algebra-910-coordinate-geometry-choice-q2",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-algebra-910-coordinate-geometry-choice-q3",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-algebra-910-coordinate-geometry-choice-q4",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-algebra-910-coordinate-geometry-choice-q5",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-algebra-910-coordinate-geometry-choice-q6",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-algebra-910-coordinate-geometry-choice-q7",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-algebra-910-coordinate-geometry-choice-q8",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-algebra-910-coordinate-geometry-choice-q9",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-algebra-910-coordinate-geometry-choice-q10",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-algebra-910-coordinate-geometry-choice-q12",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-algebra-910-coordinate-geometry-long-q1",
+      "reason": "source structure needs manual mapping"
+    },
+    {
+      "id": "maths-lower-algebra-910-coordinate-geometry-long-q2",
+      "reason": "source structure needs manual mapping"
+    },
+    {
+      "id": "maths-lower-algebra-910-functions-and-graphs-short-q4",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-algebra-910-functions-and-graphs-short-q6",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-algebra-910-functions-and-graphs-choice-q2",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-algebra-910-functions-and-graphs-choice-q4",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-algebra-910-functions-and-graphs-choice-q5",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-algebra-910-functions-and-graphs-choice-q6",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-algebra-910-functions-and-graphs-choice-q7",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-algebra-910-functions-and-graphs-choice-q9",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-algebra-910-functions-and-graphs-choice-q10",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-algebra-910-functions-and-graphs-long-q1",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-algebra-910-functions-and-graphs-long-q2",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-decimals-q1",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-decimals-q2",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-decimals-q3",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-decimals-q4",
+      "reason": "choice layout needs manual mapping"
+    },
+    {
+      "id": "maths-lower-batch-decimals-q7",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-decimals-q9",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-decimals-q10",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-decimals-q12",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-decimals-q13",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-decimals-q15",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-decimals-q16",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-decimals-q19",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-decimals-q22",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-decimals-q25",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-decimals-q26",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-decimals-q27",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-decimals-q28",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-decimals-q31",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-decimals-q32",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-decimals-q33",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-decimals-q34",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-decimals-q35",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-algebra-910-algebraic-expansions-short-q1",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-algebra-910-algebraic-expansions-short-q3",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-metric-system-q4",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-metric-system-q8",
+      "reason": "choice layout needs manual mapping"
+    },
+    {
+      "id": "maths-lower-batch-metric-system-q9",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-metric-system-q11",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-metric-system-q12",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-metric-system-q14",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-metric-system-q15",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-metric-system-q16",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-metric-system-q17",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-metric-system-q20",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-metric-system-q21",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-metric-system-q23",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-metric-system-q24",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-metric-system-q25",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-metric-system-q26",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-metric-system-q27",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-metric-system-q28",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-metric-system-q29",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-metric-system-q30",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-algebra-910-non-linear-equations-short-q10",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-algebra-910-non-linear-equations-choice-q12",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-algebra-910-non-linear-equations-choice-q13",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-area-q4",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-area-q5",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-area-q6",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-area-q7",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-area-q8",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-area-q9",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-area-q10",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-area-q12",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-area-q13",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-area-q15",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-area-q16",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-area-q18",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-area-q19",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-area-q20",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-area-q21",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-area-q22",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-area-q23",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-area-q24",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-area-q25",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-algebra-910-linear-equations-short-q7",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-algebra-910-linear-equations-choice-q9",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-algebra-910-simultaneous-equations-choice-q2",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-algebra-910-simultaneous-equations-choice-q3",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-algebra-910-simultaneous-equations-long-q1",
+      "reason": "source structure needs manual mapping"
+    },
+    {
+      "id": "maths-lower-algebra-910-simultaneous-equations-long-q2",
+      "reason": "source structure needs manual mapping"
+    },
+    {
+      "id": "maths-lower-batch-angles-q1",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-angles-q2",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-angles-q4",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-angles-q6",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-angles-q7",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-angles-q8",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-angles-q9",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-angles-q10",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-angles-q11",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-angles-q12",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-angles-q13",
+      "reason": "Referenced source diagram requires separate mapping"
+    },
+    {
+      "id": "maths-lower-batch-angles-q14",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-angles-q15",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-angles-q16",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-angles-q17",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-angles-q18",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-angles-q19",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-angles-q20",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-ratio-and-rates-q1",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-ratio-and-rates-q3",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-ratio-and-rates-q4",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-ratio-and-rates-q7",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-ratio-and-rates-q8",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-ratio-and-rates-q11",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-ratio-and-rates-q13",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-ratio-and-rates-q15",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-ratio-and-rates-q17",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-ratio-and-rates-q22",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-ratio-and-rates-q26",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-percentages-q1",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-percentages-q6",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-percentages-q11",
+      "reason": "source diagram or embedded object requires separate conversion"
+    },
+    {
+      "id": "maths-lower-batch-percentages-q22",
+      "reason": "source diagram or embedded object requires separate conversion"
+    }
+  ],
+  "nativeExisting": [
+    "maths-lower-data-graphs-plots-q1",
+    "maths-lower-data-graphs-plots-q2",
+    "maths-lower-data-graphs-plots-q3",
+    "maths-lower-data-graphs-plots-q4",
+    "maths-lower-data-graphs-plots-q5",
+    "maths-lower-data-graphs-plots-q6",
+    "maths-lower-data-graphs-plots-q7",
+    "maths-lower-data-graphs-plots-q8",
+    "maths-lower-data-graphs-plots-q9",
+    "maths-lower-data-graphs-plots-q10",
+    "maths-lower-data-graphs-plots-q11",
+    "maths-lower-data-graphs-plots-q12",
+    "maths-lower-data-graphs-plots-q13",
+    "maths-lower-data-graphs-plots-q14",
+    "maths-lower-data-graphs-plots-q15",
+    "maths-lower-data-graphs-plots-q16",
+    "maths-lower-data-graphs-plots-q17",
+    "maths-lower-data-graphs-plots-q18",
+    "maths-lower-data-graphs-plots-q19",
+    "maths-lower-data-graphs-plots-q20",
+    "maths-lower-data-graphs-plots-q21",
+    "maths-lower-data-graphs-plots-q22",
+    "maths-lower-data-graphs-plots-q23",
+    "maths-lower-data-graphs-plots-q24",
+    "maths-lower-data-graphs-plots-q25",
+    "maths-lower-data-910-data-comparison-short-q1",
+    "maths-lower-data-910-data-comparison-short-q2",
+    "maths-lower-data-910-data-comparison-short-q3",
+    "maths-lower-data-910-data-comparison-short-q4",
+    "maths-lower-data-910-data-comparison-short-q5",
+    "maths-lower-data-910-data-comparison-short-q6",
+    "maths-lower-data-910-data-comparison-short-q7",
+    "maths-lower-data-910-data-comparison-short-q8",
+    "maths-lower-data-910-data-comparison-short-q9",
+    "maths-lower-data-910-data-comparison-short-q10",
+    "maths-lower-data-910-data-comparison-short-q11",
+    "maths-lower-data-910-data-comparison-choice-q1",
+    "maths-lower-data-910-data-comparison-choice-q2",
+    "maths-lower-data-910-data-comparison-choice-q3",
+    "maths-lower-data-910-data-comparison-choice-q4",
+    "maths-lower-data-910-data-comparison-choice-q5",
+    "maths-lower-data-910-data-comparison-choice-q6",
+    "maths-lower-data-910-data-comparison-choice-q7",
+    "maths-lower-data-910-data-comparison-choice-q8",
+    "maths-lower-data-910-data-comparison-choice-q9",
+    "maths-lower-data-910-data-comparison-choice-q10",
+    "maths-lower-data-910-data-interpretation-comparison-short-q1",
+    "maths-lower-data-910-data-interpretation-comparison-short-q2",
+    "maths-lower-data-910-data-interpretation-comparison-short-q3",
+    "maths-lower-data-910-data-interpretation-comparison-short-q4",
+    "maths-lower-data-910-data-interpretation-comparison-short-q5",
+    "maths-lower-data-910-data-interpretation-comparison-short-q6",
+    "maths-lower-data-910-data-interpretation-comparison-short-q7",
+    "maths-lower-data-910-data-interpretation-comparison-short-q8",
+    "maths-lower-data-910-data-interpretation-comparison-short-q9",
+    "maths-lower-data-910-data-interpretation-comparison-short-q10",
+    "maths-lower-data-910-data-interpretation-comparison-short-q11",
+    "maths-lower-data-910-data-interpretation-comparison-short-q12",
+    "maths-lower-data-910-data-interpretation-comparison-choice-q1",
+    "maths-lower-data-910-data-interpretation-comparison-choice-q2",
+    "maths-lower-data-910-data-interpretation-comparison-choice-q3",
+    "maths-lower-data-910-data-interpretation-comparison-choice-q4",
+    "maths-lower-data-910-data-interpretation-comparison-choice-q5",
+    "maths-lower-data-910-data-interpretation-comparison-choice-q6",
+    "maths-lower-data-910-data-interpretation-comparison-choice-q7",
+    "maths-lower-data-910-data-interpretation-comparison-choice-q8",
+    "maths-lower-data-910-data-interpretation-short-q2",
+    "maths-lower-data-910-data-interpretation-short-q3",
+    "maths-lower-data-910-data-interpretation-short-q4",
+    "maths-lower-data-910-data-interpretation-short-q5",
+    "maths-lower-data-910-data-interpretation-short-q6-stem",
+    "maths-lower-data-910-data-interpretation-short-q6",
+    "maths-lower-data-910-data-interpretation-short-q7",
+    "maths-lower-data-910-data-interpretation-short-q8",
+    "maths-lower-data-910-data-interpretation-short-q9",
+    "maths-lower-data-910-data-interpretation-short-q10",
+    "maths-lower-data-910-data-interpretation-choice-q1",
+    "maths-lower-data-910-data-interpretation-choice-q2",
+    "maths-lower-data-910-data-interpretation-choice-q3",
+    "maths-lower-data-910-data-interpretation-choice-q4",
+    "maths-lower-data-910-data-interpretation-choice-q5",
+    "maths-lower-data-910-data-interpretation-choice-q6",
+    "maths-lower-data-910-data-interpretation-choice-q7",
+    "maths-lower-data-910-data-interpretation-choice-q8",
+    "maths-lower-data-910-data-interpretation-choice-q9",
+    "maths-lower-data-910-data-interpretation-choice-q10",
+    "maths-lower-data-910-bivariate-data-short-q1",
+    "maths-lower-data-910-bivariate-data-short-q2",
+    "maths-lower-data-910-bivariate-data-short-q3",
+    "maths-lower-data-910-bivariate-data-short-q4",
+    "maths-lower-data-910-bivariate-data-short-q5",
+    "maths-lower-data-910-bivariate-data-short-q6",
+    "maths-lower-data-910-bivariate-data-short-q7",
+    "maths-lower-data-910-bivariate-data-short-q8",
+    "maths-lower-data-910-bivariate-data-short-q9",
+    "maths-lower-data-910-bivariate-data-short-q10",
+    "maths-lower-data-910-bivariate-data-short-q11",
+    "maths-lower-data-910-bivariate-data-short-q12",
+    "maths-lower-data-910-bivariate-data-choice-q1",
+    "maths-lower-data-910-bivariate-data-choice-q2",
+    "maths-lower-data-910-bivariate-data-choice-q3",
+    "maths-lower-data-910-bivariate-data-choice-q4",
+    "maths-lower-data-910-bivariate-data-choice-q5",
+    "maths-lower-data-910-bivariate-data-choice-q6",
+    "maths-lower-data-910-bivariate-data-choice-q7",
+    "maths-lower-data-910-bivariate-data-choice-q8",
+    "maths-lower-data-910-bivariate-data-choice-q9",
+    "maths-lower-data-910-bivariate-data-choice-q10",
+    "maths-lower-data-statistical-measures-q1",
+    "maths-lower-data-statistical-measures-q2",
+    "maths-lower-data-statistical-measures-q3",
+    "maths-lower-data-statistical-measures-q4",
+    "maths-lower-data-statistical-measures-q5",
+    "maths-lower-data-statistical-measures-q6",
+    "maths-lower-data-statistical-measures-q7",
+    "maths-lower-data-statistical-measures-q8",
+    "maths-lower-data-statistical-measures-q9",
+    "maths-lower-data-statistical-measures-q10",
+    "maths-lower-data-statistical-measures-q11",
+    "maths-lower-data-statistical-measures-q12",
+    "maths-lower-data-statistical-measures-q13",
+    "maths-lower-data-statistical-measures-q14",
+    "maths-lower-data-statistical-measures-q15",
+    "maths-lower-data-statistical-measures-q16",
+    "maths-lower-data-statistical-measures-q17",
+    "maths-lower-data-statistical-measures-q18",
+    "maths-lower-data-statistical-measures-q19",
+    "maths-lower-data-statistical-measures-q20",
+    "maths-lower-data-statistical-measures-q21",
+    "maths-lower-data-statistical-measures-q22",
+    "maths-lower-data-statistical-measures-q23",
+    "maths-lower-data-statistical-measures-q24",
+    "maths-lower-data-statistical-measures-q25",
+    "maths-lower-probability-further-probability-q1",
+    "maths-lower-probability-further-probability-q2",
+    "maths-lower-probability-further-probability-q3",
+    "maths-lower-probability-further-probability-q4",
+    "maths-lower-probability-further-probability-q5",
+    "maths-lower-probability-further-probability-q6",
+    "maths-lower-probability-further-probability-q7",
+    "maths-lower-probability-further-probability-q8",
+    "maths-lower-probability-further-probability-q9",
+    "maths-lower-probability-further-probability-q10",
+    "maths-lower-probability-further-probability-q11",
+    "maths-lower-probability-further-probability-q12",
+    "maths-lower-probability-further-probability-q13",
+    "maths-lower-probability-further-probability-q14",
+    "maths-lower-probability-further-probability-q15",
+    "maths-lower-probability-further-probability-q16",
+    "maths-lower-probability-further-probability-q17",
+    "maths-lower-probability-further-probability-q18",
+    "maths-lower-probability-further-probability-q19",
+    "maths-lower-probability-further-probability-q20",
+    "maths-lower-probability-further-probability-q21",
+    "maths-lower-probability-further-probability-q22",
+    "maths-lower-probability-further-probability-q23",
+    "maths-lower-probability-further-probability-q24",
+    "maths-lower-probability-further-probability-q25",
+    "maths-lower-probability-further-probability-q26",
+    "maths-lower-probability-further-probability-q27",
+    "maths-lower-probability-further-probability-q28",
+    "maths-lower-probability-further-probability-q29",
+    "maths-lower-probability-further-probability-q30",
+    "maths-lower-probability-further-probability-q31",
+    "maths-lower-probability-further-probability-q32",
+    "maths-lower-probability-further-probability-q33",
+    "maths-lower-probability-further-probability-q34",
+    "maths-lower-probability-further-probability-q35",
+    "maths-lower-probability-further-probability-q36",
+    "maths-lower-probability-further-probability-q37",
+    "maths-lower-probability-further-probability-q38",
+    "maths-lower-probability-further-probability-q39",
+    "maths-lower-probability-further-probability-q40",
+    "maths-lower-probability-sample-space-relative-frequency-q1",
+    "maths-lower-probability-sample-space-relative-frequency-q2",
+    "maths-lower-probability-sample-space-relative-frequency-q3",
+    "maths-lower-probability-sample-space-relative-frequency-q4",
+    "maths-lower-probability-sample-space-relative-frequency-q5",
+    "maths-lower-probability-sample-space-relative-frequency-q6",
+    "maths-lower-probability-sample-space-relative-frequency-q7",
+    "maths-lower-probability-sample-space-relative-frequency-q8",
+    "maths-lower-probability-sample-space-relative-frequency-q9",
+    "maths-lower-probability-sample-space-relative-frequency-q10",
+    "maths-lower-probability-sample-space-relative-frequency-q11",
+    "maths-lower-probability-sample-space-relative-frequency-q12",
+    "maths-lower-probability-sample-space-relative-frequency-q13",
+    "maths-lower-probability-sample-space-relative-frequency-q14",
+    "maths-lower-probability-sample-space-relative-frequency-q15",
+    "maths-lower-probability-sample-space-relative-frequency-q16",
+    "maths-lower-probability-sample-space-relative-frequency-q17",
+    "maths-lower-probability-sample-space-relative-frequency-q18",
+    "maths-lower-probability-sample-space-relative-frequency-q19",
+    "maths-lower-probability-sample-space-relative-frequency-q20",
+    "maths-lower-probability-sample-space-relative-frequency-q21",
+    "maths-lower-probability-sample-space-relative-frequency-q22",
+    "maths-lower-probability-sample-space-relative-frequency-q23",
+    "maths-lower-probability-sample-space-relative-frequency-q24",
+    "maths-lower-probability-sample-space-relative-frequency-q25",
+    "maths-lower-probability-sample-space-relative-frequency-q26",
+    "maths-lower-probability-sample-space-relative-frequency-q27",
+    "maths-lower-probability-sample-space-relative-frequency-q28",
+    "maths-lower-probability-sample-space-relative-frequency-q29",
+    "maths-lower-probability-sample-space-relative-frequency-q30",
+    "maths-geometry-2016-basic-geometry-short-q1",
+    "maths-geometry-2016-basic-geometry-short-q2",
+    "maths-geometry-2016-basic-geometry-short-q3",
+    "maths-geometry-2016-basic-geometry-short-q4",
+    "maths-geometry-2016-basic-geometry-short-q5",
+    "maths-geometry-2016-basic-geometry-short-q6",
+    "maths-geometry-2016-basic-geometry-short-q7",
+    "maths-geometry-2016-basic-geometry-short-q8",
+    "maths-geometry-2016-basic-geometry-short-q9",
+    "maths-geometry-2016-basic-geometry-short-q10",
+    "maths-geometry-2016-basic-geometry-short-q11",
+    "maths-geometry-2016-basic-geometry-short-q12",
+    "maths-geometry-2016-basic-geometry-short-q13",
+    "maths-geometry-2016-basic-geometry-short-q14",
+    "maths-geometry-2016-basic-geometry-short-q15",
+    "maths-geometry-2016-basic-geometry-short-q16",
+    "maths-geometry-2016-basic-geometry-short-q17",
+    "maths-geometry-2016-basic-geometry-short-q18",
+    "maths-geometry-2016-basic-geometry-short-q19",
+    "maths-geometry-2016-basic-geometry-short-q20",
+    "maths-geometry-2016-basic-geometry-short-q21",
+    "maths-geometry-2016-basic-geometry-short-q22",
+    "maths-geometry-2016-basic-geometry-short-q23",
+    "maths-geometry-2016-basic-geometry-short-q24",
+    "maths-geometry-2016-basic-geometry-short-q25",
+    "maths-geometry-2016-basic-geometry-short-q26",
+    "maths-geometry-2016-basic-geometry-choice-q1",
+    "maths-geometry-2016-basic-geometry-choice-q2",
+    "maths-geometry-2016-basic-geometry-choice-q3",
+    "maths-geometry-2016-basic-geometry-choice-q4",
+    "maths-geometry-2016-basic-geometry-choice-q5",
+    "maths-geometry-2016-basic-geometry-choice-q6",
+    "maths-geometry-2016-basic-geometry-choice-q7",
+    "maths-geometry-2016-basic-geometry-choice-q8",
+    "maths-geometry-2016-basic-geometry-choice-q9",
+    "maths-geometry-2016-basic-geometry-choice-q10",
+    "maths-geometry-2016-basic-geometry-choice-q11",
+    "maths-geometry-2016-basic-geometry-choice-q12",
+    "maths-geometry-2016-basic-geometry-choice-q13",
+    "maths-geometry-2016-basic-geometry-choice-q14",
+    "maths-geometry-2016-basic-geometry-choice-q15",
+    "maths-geometry-2016-basic-geometry-choice-q16",
+    "maths-geometry-2016-basic-geometry-choice-q17",
+    "maths-geometry-2016-basic-geometry-choice-q18",
+    "maths-geometry-2016-basic-geometry-choice-q19",
+    "maths-geometry-2016-basic-geometry-choice-q20",
+    "maths-geometry-2016-basic-geometry-long-q1",
+    "maths-geometry-2016-basic-geometry-long-q2",
+    "maths-geometry-2016-congruence-short-q1",
+    "maths-geometry-2016-congruence-short-q2",
+    "maths-geometry-2016-congruence-short-q3",
+    "maths-geometry-2016-congruence-short-q4",
+    "maths-geometry-2016-congruence-short-q5",
+    "maths-geometry-2016-congruence-short-q6",
+    "maths-geometry-2016-congruence-short-q7",
+    "maths-geometry-2016-congruence-short-q8",
+    "maths-geometry-2016-congruence-short-q9",
+    "maths-geometry-2016-congruence-short-q10",
+    "maths-geometry-2016-congruence-short-q11",
+    "maths-geometry-2016-congruence-short-q12",
+    "maths-geometry-2016-congruence-short-q13",
+    "maths-geometry-2016-congruence-short-q14",
+    "maths-geometry-2016-congruence-short-q15",
+    "maths-geometry-2016-congruence-choice-q1",
+    "maths-geometry-2016-congruence-choice-q2",
+    "maths-geometry-2016-congruence-choice-q3",
+    "maths-geometry-2016-congruence-choice-q4",
+    "maths-geometry-2016-congruence-choice-q5",
+    "maths-geometry-2016-congruence-choice-q6",
+    "maths-geometry-2016-congruence-choice-q7",
+    "maths-geometry-2016-congruence-choice-q8",
+    "maths-geometry-2016-congruence-choice-q9",
+    "maths-geometry-2016-congruence-choice-q10",
+    "maths-geometry-2016-congruence-choice-q11",
+    "maths-geometry-2016-congruence-choice-q12",
+    "maths-geometry-2016-congruence-choice-q13",
+    "maths-geometry-2016-congruence-choice-q14",
+    "maths-geometry-2016-congruence-choice-q15",
+    "maths-geometry-2016-congruence-long-q1",
+    "maths-geometry-2016-congruence-long-q2",
+    "maths-geometry-2016-congruence-long-q3",
+    "maths-geometry-2016-congruence-long-q4",
+    "maths-geometry-2016-enlargement-similarity-short-q1",
+    "maths-geometry-2016-enlargement-similarity-short-q2",
+    "maths-geometry-2016-enlargement-similarity-short-q3",
+    "maths-geometry-2016-enlargement-similarity-short-q4",
+    "maths-geometry-2016-enlargement-similarity-short-q5",
+    "maths-geometry-2016-enlargement-similarity-short-q6",
+    "maths-geometry-2016-enlargement-similarity-short-q7",
+    "maths-geometry-2016-enlargement-similarity-short-q8",
+    "maths-geometry-2016-enlargement-similarity-short-q9",
+    "maths-geometry-2016-enlargement-similarity-short-q10",
+    "maths-geometry-2016-enlargement-similarity-short-q11",
+    "maths-geometry-2016-enlargement-similarity-short-q12",
+    "maths-geometry-2016-enlargement-similarity-short-q13",
+    "maths-geometry-2016-enlargement-similarity-short-q14",
+    "maths-geometry-2016-enlargement-similarity-short-q15",
+    "maths-geometry-2016-enlargement-similarity-choice-q1",
+    "maths-geometry-2016-enlargement-similarity-choice-q2",
+    "maths-geometry-2016-enlargement-similarity-choice-q3",
+    "maths-geometry-2016-enlargement-similarity-choice-q4",
+    "maths-geometry-2016-enlargement-similarity-choice-q5",
+    "maths-geometry-2016-enlargement-similarity-choice-q6",
+    "maths-geometry-2016-enlargement-similarity-choice-q7",
+    "maths-geometry-2016-enlargement-similarity-choice-q8",
+    "maths-geometry-2016-enlargement-similarity-choice-q9",
+    "maths-geometry-2016-enlargement-similarity-choice-q10",
+    "maths-geometry-2016-enlargement-similarity-choice-q11",
+    "maths-geometry-2016-enlargement-similarity-choice-q12",
+    "maths-geometry-2016-enlargement-similarity-choice-q13",
+    "maths-geometry-2016-enlargement-similarity-choice-q14",
+    "maths-geometry-2016-enlargement-similarity-choice-q15",
+    "maths-geometry-2016-enlargement-similarity-long-q1",
+    "maths-geometry-2016-enlargement-similarity-long-q2",
+    "maths-geometry-2016-enlargement-similarity-long-q3",
+    "maths-geometry-2016-enlargement-similarity-long-q4",
+    "maths-geometry-2016-enlargement-similarity-long-q5",
+    "maths-geometry-2016-geometric-reasoning-long-q1",
+    "maths-geometry-2016-geometric-reasoning-long-q2",
+    "maths-geometry-2016-geometric-reasoning-long-q3",
+    "maths-geometry-2016-geometric-reasoning-long-q4",
+    "maths-geometry-2016-geometric-reasoning-long-q5",
+    "maths-geometry-2016-geometric-reasoning-long-q6",
+    "maths-lower-further-algebra-q1",
+    "maths-lower-further-algebra-q2",
+    "maths-lower-further-algebra-q3",
+    "maths-lower-further-algebra-q4",
+    "maths-lower-further-algebra-q5",
+    "maths-lower-further-algebra-q6",
+    "maths-lower-further-algebra-q7",
+    "maths-lower-further-algebra-q8",
+    "maths-lower-further-algebra-q9",
+    "maths-lower-further-algebra-q10",
+    "maths-lower-further-algebra-q11",
+    "maths-lower-further-algebra-q12",
+    "maths-lower-further-algebra-q13",
+    "maths-lower-further-algebra-q14",
+    "maths-lower-further-algebra-q15",
+    "maths-lower-further-algebra-q16",
+    "maths-lower-further-algebra-q17",
+    "maths-lower-further-algebra-q18",
+    "maths-lower-further-algebra-q19",
+    "maths-lower-further-algebra-q20",
+    "maths-lower-further-algebra-q21",
+    "maths-lower-further-algebra-q22",
+    "maths-lower-further-algebra-q23",
+    "maths-lower-further-algebra-q24",
+    "maths-lower-further-algebra-q25",
+    "maths-lower-further-algebra-q26",
+    "maths-lower-further-algebra-q27",
+    "maths-lower-further-algebra-q28",
+    "maths-lower-further-algebra-q29",
+    "maths-lower-further-algebra-q30",
+    "maths-lower-further-algebra-q31",
+    "maths-lower-further-algebra-q32",
+    "maths-lower-equations-formulae-q1",
+    "maths-lower-equations-formulae-q2",
+    "maths-lower-equations-formulae-q3",
+    "maths-lower-equations-formulae-q4",
+    "maths-lower-equations-formulae-q5",
+    "maths-lower-equations-formulae-q6",
+    "maths-lower-equations-formulae-q7",
+    "maths-lower-equations-formulae-q8",
+    "maths-lower-equations-formulae-q9",
+    "maths-lower-equations-formulae-q10",
+    "maths-lower-equations-formulae-q11",
+    "maths-lower-equations-formulae-q12",
+    "maths-lower-equations-formulae-q13",
+    "maths-lower-equations-formulae-q14",
+    "maths-lower-equations-formulae-q15",
+    "maths-lower-equations-formulae-q16",
+    "maths-lower-equations-formulae-q17",
+    "maths-lower-equations-formulae-q18",
+    "maths-lower-equations-formulae-q19",
+    "maths-lower-equations-formulae-q20",
+    "maths-lower-equations-formulae-q21",
+    "maths-lower-equations-formulae-q22",
+    "maths-lower-equations-formulae-q23",
+    "maths-lower-equations-formulae-q24",
+    "maths-lower-equations-formulae-q25",
+    "maths-lower-data-910-basic-statistics-short-q1",
+    "maths-lower-data-910-basic-statistics-short-q2",
+    "maths-lower-data-910-basic-statistics-short-q3",
+    "maths-lower-data-910-basic-statistics-short-q4",
+    "maths-lower-data-910-basic-statistics-short-q5",
+    "maths-lower-data-910-basic-statistics-short-q6",
+    "maths-lower-data-910-basic-statistics-short-q7",
+    "maths-lower-data-910-basic-statistics-short-q8",
+    "maths-lower-data-910-basic-statistics-short-q9",
+    "maths-lower-data-910-basic-statistics-choice-q1",
+    "maths-lower-data-910-basic-statistics-choice-q2",
+    "maths-lower-data-910-basic-statistics-choice-q3",
+    "maths-lower-data-910-basic-statistics-choice-q4",
+    "maths-lower-data-910-basic-statistics-choice-q5",
+    "maths-lower-data-910-basic-statistics-choice-q6",
+    "maths-lower-data-910-basic-statistics-choice-q7",
+    "maths-lower-data-910-basic-statistics-choice-q8",
+    "maths-lower-data-910-basic-statistics-choice-q9",
+    "maths-lower-data-910-basic-statistics-choice-q10",
+    "maths-lower-data-910-basic-statistics-choice-q11",
+    "maths-lower-data-graphs-tables-charts-q1",
+    "maths-lower-data-graphs-tables-charts-q2",
+    "maths-lower-data-graphs-tables-charts-q3",
+    "maths-lower-data-graphs-tables-charts-q4",
+    "maths-lower-data-graphs-tables-charts-q5",
+    "maths-lower-data-graphs-tables-charts-q6",
+    "maths-lower-data-graphs-tables-charts-q7",
+    "maths-lower-data-graphs-tables-charts-q8",
+    "maths-lower-data-graphs-tables-charts-q9",
+    "maths-lower-data-graphs-tables-charts-q10",
+    "maths-lower-data-graphs-tables-charts-q11",
+    "maths-lower-data-graphs-tables-charts-q12",
+    "maths-lower-data-graphs-tables-charts-q13",
+    "maths-lower-data-graphs-tables-charts-q14",
+    "maths-lower-data-graphs-tables-charts-q15",
+    "maths-lower-data-graphs-tables-charts-q16",
+    "maths-lower-data-graphs-tables-charts-q17",
+    "maths-lower-data-graphs-tables-charts-q18",
+    "maths-lower-data-graphs-tables-charts-q19",
+    "maths-lower-data-graphs-tables-charts-q20",
+    "maths-lower-data-graphs-tables-charts-q21",
+    "maths-lower-data-graphs-tables-charts-q22",
+    "maths-lower-data-graphs-tables-charts-q23",
+    "maths-lower-data-graphs-tables-charts-q24",
+    "maths-lower-data-graphs-tables-charts-q25",
+    "maths-lower-data-graphs-tables-charts-q26",
+    "maths-lower-data-graphs-tables-charts-q27",
+    "maths-lower-data-graphs-tables-charts-q28",
+    "maths-lower-data-graphs-tables-charts-q29",
+    "maths-lower-data-graphs-tables-charts-q30",
+    "maths-lower-data-graphs-tables-charts-q31",
+    "maths-lower-data-graphs-tables-charts-q32",
+    "maths-lower-linear-relations-q1",
+    "maths-lower-linear-relations-q2",
+    "maths-lower-linear-relations-q3",
+    "maths-lower-linear-relations-q4",
+    "maths-lower-linear-relations-q5",
+    "maths-lower-linear-relations-q6",
+    "maths-lower-linear-relations-q7",
+    "maths-lower-linear-relations-q8",
+    "maths-lower-linear-relations-q9",
+    "maths-lower-linear-relations-q10",
+    "maths-lower-linear-relations-q11",
+    "maths-lower-linear-relations-q12",
+    "maths-lower-linear-relations-q13",
+    "maths-lower-linear-relations-q14",
+    "maths-lower-linear-relations-q15",
+    "maths-lower-linear-relations-q16",
+    "maths-lower-linear-relations-q17",
+    "maths-lower-linear-relations-q18",
+    "maths-lower-linear-relations-q19",
+    "maths-lower-linear-relations-q20",
+    "maths-lower-linear-relations-q21",
+    "maths-lower-linear-relations-q22",
+    "maths-lower-linear-relations-q23",
+    "maths-lower-linear-relations-q24",
+    "maths-lower-linear-relations-q25",
+    "maths-lower-linear-relations-q26",
+    "maths-lower-linear-relations-q27",
+    "maths-lower-linear-relations-q28",
+    "maths-lower-linear-relations-q29",
+    "maths-lower-linear-relations-q30",
+    "maths-lower-basic-algebra-q1",
+    "maths-lower-basic-algebra-q2",
+    "maths-lower-basic-algebra-q3",
+    "maths-lower-basic-algebra-q4",
+    "maths-lower-basic-algebra-q5",
+    "maths-lower-basic-algebra-q6",
+    "maths-lower-basic-algebra-q7",
+    "maths-lower-basic-algebra-q8",
+    "maths-lower-basic-algebra-q9",
+    "maths-lower-basic-algebra-q10",
+    "maths-lower-basic-algebra-q11",
+    "maths-lower-basic-algebra-q12",
+    "maths-lower-basic-algebra-q13",
+    "maths-lower-basic-algebra-q14",
+    "maths-lower-basic-algebra-q15",
+    "maths-lower-basic-algebra-q16",
+    "maths-lower-basic-algebra-q17",
+    "maths-lower-basic-algebra-q18",
+    "maths-lower-basic-algebra-q19",
+    "maths-lower-basic-algebra-q20",
+    "maths-lower-basic-algebra-q21",
+    "maths-lower-basic-algebra-q22",
+    "maths-lower-basic-algebra-q23",
+    "maths-lower-basic-algebra-q24",
+    "maths-lower-basic-algebra-q25",
+    "maths-lower-basic-algebra-q26",
+    "maths-lower-basic-algebra-q27",
+    "maths-lower-basic-algebra-q28",
+    "maths-lower-basic-algebra-q29",
+    "maths-lower-basic-algebra-q30",
+    "maths-lower-basic-algebra-q31",
+    "maths-lower-basic-algebra-q32",
+    "maths-lower-basic-algebra-q33",
+    "maths-lower-basic-algebra-q34",
+    "maths-lower-basic-algebra-q35"
+  ],
+  "format": {
+    "font": "Arial",
+    "fontSizePt": 12,
+    "automaticAnswerLines": false
+  },
+  "subjects": {
+    "Mathematics": {
+      "total": 1128,
+      "convertedThisBatch": 337,
+      "wholeQuestionImagesRemaining": 291,
+      "existingTextQuestionsToReview": 500,
+      "convertedTotal": 337
+    },
+    "Mathematics Methods": {
+      "total": 278,
+      "status": "queued"
+    },
+    "Physics": {
+      "total": 352,
+      "status": "queued"
+    },
+    "Chemistry": {
+      "total": 353,
+      "status": "queued"
+    },
+    "Human Biology": {
+      "total": 601,
+      "status": "queued"
+    }
+  },
+  "lastBatch": {
+    "newlyConverted": 139,
+    "restoredForFurtherReview": [
+      "maths-lower-algebra-910-functions-and-graphs-long-q1",
+      "maths-lower-algebra-910-functions-and-graphs-long-q2",
+      "maths-lower-algebra-910-simultaneous-equations-long-q1",
+      "maths-lower-algebra-910-simultaneous-equations-long-q2",
+      "maths-lower-batch-number-systems-q22"
+    ],
+    "correctedMultilineQuestions": [
+      "maths-lower-batch-integers-q25"
+    ],
+    "totalConverted": 337
+  }
+}

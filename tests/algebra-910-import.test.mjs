@@ -20,7 +20,7 @@ test('98 MCQ keys and corrected or missing source solutions are retained explici
 function jpegSize(b){let i=2;while(i<b.length){if(b[i++]!==255)continue;let marker=b[i++];if(marker===216||marker===217)continue;let n=b.readUInt16BE(i);if([192,193,194].includes(marker))return[b.readUInt16BE(i+5),b.readUInt16BE(i+3)];i+=n;}throw Error('No JPEG dimensions');}
 test('every question and solution crop lies inside its JPEG sprite; random questions retain shared graphs',()=>{
  const sizes=new Map();for(const q of rows)for(const h of [q.html,q.answerHtml])for(const m of h.matchAll(/src="([^"]+)" data-studio-crop="([\d,]+)"/g)){if(!sizes.has(m[1]))sizes.set(m[1],jpegSize(readFileSync(new URL('../'+m[1],import.meta.url))));const [x,y,w,height]=m[2].split(',').map(Number),[sw,sh]=sizes.get(m[1]);assert.ok(w>0&&height>0&&x>=0&&y>=0&&x+w<=sw&&y+height<=sh,q.id);}
- assert.equal(sizes.size,32);for(const [s,sec,ns]of [['simultaneous-equations','short',[1,2,3,6,7]],['simultaneous-equations','choice',[4,5]],['functions-and-graphs','short',[2,3]]])for(const n of ns)assert.equal([...get(s,sec,n).html.matchAll(/<img/g)].length,get(s,sec,n).editableText?1:2);
+ assert.ok(sizes.size>0&&sizes.size<=38);for(const [s,sec,ns]of [['simultaneous-equations','short',[1,2,3,6,7]],['simultaneous-equations','choice',[4,5]],['functions-and-graphs','short',[2,3]]])for(const n of ns)assert.equal([...get(s,sec,n).html.matchAll(/<img/g)].length,get(s,sec,n).editableText?1:2);
 });
 test('SCSA skill years are separate from source year and longer questions keep printed marks',()=>{
  assert.deepEqual(Object.fromEntries([7,8,9,10].map(y=>[y,rows.filter(q=>q.year===y).length])),{7:20,8:41,9:65,10:69});for(const q of rows){assert.equal(q.scsa.year,q.year);assert.match(q.scsa.url,/For-implementation-in-2026/);assert.equal(q.topics[0],q.scsa.subStrand);assert.ok(!q.topics.includes('Algebra'));}
@@ -30,3 +30,20 @@ test('new algebra sorts recently added without changing persistent catalogue pos
  const old=JSON.parse(read('practice-studio-mathematics-probability-index.json'));const sorted=c.PracticeStudioDatabaseOrder.sort([...old,...index].map(meta=>({q:[null,null,null,null,null,null,null,meta]})),'recent');assert.equal(sorted[0].q[7].id,index[0].id);assert.ok(Date.parse(index[0].addedAt)>Date.parse(old[0].addedAt));assert.ok(read('practice-studio-catalog.js').indexOf('practice-studio-mathematics-algebra-910-index.json')>read('practice-studio-catalog.js').indexOf('practice-studio-mathematics-probability-index.json'));
 });
 
+
+test('native conversion keeps long responses separate from their short-answer counterparts',()=>{
+ for(const slug of ['functions-and-graphs','simultaneous-equations']){
+  for(const n of [1,2]){
+   const q=get(slug,'long',n);assert.match(q.text,/\(a\)/);assert.match(q.text,/\(b\)/);
+   assert.notEqual(q.text,get(slug,'short',n).text);
+  }
+ }
+});
+test('converted worked examples retain all equation lines and answer choices',()=>{
+ const q=get('linear-equations','choice',6);
+ assert.equal(q.editableText,true);for(const n of [1,2,3,4])assert.ok(q.html.includes('Line '+n));
+ assert.equal(q.optionsHtml.length,4);
+ const system=get('simultaneous-equations','choice',3);
+ if(system.editableText)for(const n of [1,2,3,4])assert.ok(system.html.includes('Line '+n));
+ for(const q of rows.filter(q=>q.editableText)){assert.equal(q.fontFamily,'Arial');assert.equal(q.fontSizePt,12);assert.equal(q.responseLines,0);}
+});

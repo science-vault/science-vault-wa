@@ -43,7 +43,7 @@ test('incorrect supplied answers are corrected before automatic grading',()=>{
  assert.equal(W.plan(get('integers',8)).fields.length,0);assert.match(get('integers',8).answerHtml,/below −220/);
 });
 test('shared maps and context survive random practice, and print measurements work on screen',()=>{
- for(let n=1;n<=22;n++)assert.ok((get('location',n).html.match(/<figure>/g)||[]).length>=2);
+ for(let n=1;n<=22;n++)assert.ok((get('location',n).html.match(/<figure>/g)||[]).length>=(get('location',n).editableText?1:2));
  for(let n=1;n<=8;n++)assert.ok((get('integers',n).html.match(/<figure>/g)||[]).length>=(get('integers',n).editableText?1:2));
  assert.match(get('location',20).html,/40 m/);assert.match(get('area',4).html,/8.5 cm by 4 cm/);
  assert.match(get('decimals',20).html,/positive/);
@@ -71,4 +71,17 @@ test('Word rasterisation crops the selected question instead of embedding the fu
  const full=await ctx.raster('ordinary.png','');assert.equal(full.height,4000);assert.deepEqual(Array.from(calls.at(-1)),[0,0]);
  assert.match(source,/imageKey=src\+'\|'\+crop/);
  for(const q of rows)for(const m of q.html.matchAll(/data-studio-crop="([^"]+)"/g))assert.equal(m[1].split(',').length,4);
+});
+
+test('native statement and radical questions retain their complete meaning',()=>{
+ const statements=get('integers',25);assert.equal(statements.editableText,true);
+ assert.match(statements.html,/Statement 1/);assert.match(statements.html,/Statement 2/);assert.match(statements.html,/□/);
+ const decimal=get('decimals',20);assert.match(decimal.html,/assume the original number is positive/);assert.match(decimal.html,/A\. When/);assert.match(decimal.html,/B\. When/);
+ assert.equal(decimal.correctAnswer,2);
+ const roots=get('number-systems',11);assert.equal(roots.correctAnswer,2);
+ const correct=roots.optionsHtml[roots.correctAnswer];assert.match(correct,/<msqrt>.*169/s);assert.match(correct,/<mroot>.*125.*3/s);
+ for(const [slug,number] of [['angles',13],['number-systems',22]]){
+  const q=get(slug,number);assert.match(q.html,/<(?:img|svg)\b/);
+ }
+ for(const q of rows.filter(q=>q.editableText)){assert.equal(q.fontFamily,'Arial');assert.equal(q.fontSizePt,12);assert.equal(q.responseLines,0);}
 });
