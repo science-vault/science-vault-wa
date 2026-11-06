@@ -80,9 +80,8 @@ test('native statement and radical questions retain their complete meaning',()=>
  assert.equal(decimal.correctAnswer,2);
  const roots=get('number-systems',11);assert.equal(roots.correctAnswer,2);
  const correct=roots.optionsHtml[roots.correctAnswer];assert.match(correct,/<msqrt>.*169/s);assert.match(correct,/<mroot>.*125.*3/s);
- for(const [slug,number] of [['angles',13],['number-systems',22]]){
-  const q=get(slug,number);assert.match(q.html,/<(?:img|svg)\b/);
- }
+ assert.match(get('angles',13).html,/<img/);
+ const pattern=get('number-systems',22);assert.match(pattern.html,/Line 7/);assert.match(pattern.html,/<msup>/);
  for(const q of rows.filter(q=>q.editableText)){assert.equal(q.fontFamily,'Arial');assert.equal(q.fontSizePt,12);assert.equal(q.responseLines,0);}
 });
 test('Pythagoras native questions retain isolated original diagrams and original sizing',()=>{
@@ -94,14 +93,15 @@ test('Pythagoras native questions retain isolated original diagrams and original
  }
  assert.deepEqual(get('pythagoras',1).optionsHtml,['<span>Triangle I only</span>','<span>Triangle II only</span>','<span>Both Triangles.</span>','<span>Neither Triangle.</span>']);
  assert.equal(get('pythagoras',1).correctAnswer,2);assert.match(get('pythagoras',2).optionsHtml[0],/<msup>/);
- // These two diagrams cross a Word row boundary; retain their scans until mapped explicitly.
- assert.ok(!get('pythagoras',3).editableText);assert.ok(!get('pythagoras',4).editableText);
+ // The original Word anchor places question 4's triangle in question 3's row.
+ assert.equal(get('pythagoras',3).nativeDiagramSources[0].shapeId,'_x0000_s1092');
+ assert.equal(get('pythagoras',4).nativeDiagramSources[0].shapeId,'_x0000_s1101');
 });
 test('numeric response templates become editable without losing fractions or supplied data',()=>{
  const fraction=get('fractions',17);assert.equal(fraction.editableText,true);assert.match(fraction.html,/<mfrac><mn>3<\/mn><mn>8<\/mn><\/mfrac>/);assert.match(fraction.html,/<mfrac><mn>1<\/mn><mn>4<\/mn><\/mfrac>/);
  const decimal=get('decimals',31);assert.equal(decimal.editableText,true);for(const n of ['7.5','8.2','9.4','8.6','7.3'])assert.ok(decimal.html.includes(n));
  const time=get('metric-system',12);assert.equal(time.editableText,true);assert.match(time.html,/550 seconds/);assert.match(time.html,/minutes and/);
- for(const [slug,n] of [['fractions',1],['decimals',1],['decimals',35],['metric-system',11]])assert.match(get(slug,n).html,/<(?:img|svg)\b/,'Keep genuine diagram '+slug+' '+n);
+ for(const [slug,n] of [['fractions',1],['decimals',1],['decimals',35],['metric-system',11]])assert.match(get(slug,n).html+(get(slug,n).optionsHtml||[]).join(''),/<(?:img|svg)\b/,'Keep genuine diagram '+slug+' '+n);
 });
 test('measurement diagrams preserve source dimensions, pi and complete question context',()=>{
  for(const [slug,n] of [['area',4],['area',25],['metric-system',30],['volume-and-surface-area',16]]){
