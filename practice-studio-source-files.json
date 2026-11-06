@@ -1,0 +1,2826 @@
+{
+  "version": "2026-11-06",
+  "bankSources": {
+    "practice-studio-physics-2020-u3.json": {
+      "sourceFile": "2020_physics_unit_3_exam.docx",
+      "sourceKeyFile": "2020_physics_unit_3_marking_guide.docx",
+      "sourcePath": "exams/ATAR/Physics/12/WACE/2020/2020_physics_unit_3_exam.docx"
+    },
+    "practice-studio-physics-2021-u3.json": {
+      "sourceFile": "2021_unit_3_exam.docx",
+      "sourceKeyFile": "2021_physics_unit_3_exam_marking_key.docx",
+      "sourcePath": "exams/ATAR/Physics/12/WACE/2021/2021_unit_3_exam.docx"
+    },
+    "practice-studio-physics-2021-u34.json": {
+      "sourceFile": "2021_physics_units_3_4_exam.docx",
+      "sourceKeyFile": "2021_physics_units_3_4_marking_guide.docx",
+      "sourcePath": "exams/ATAR/Physics/12/WACE/2021/2021_physics_units_3_4_exam.docx"
+    },
+    "practice-studio-physics-2022-u3.json": {
+      "sourceFile": "2022_physics_unit_3_exam.docx",
+      "sourceKeyFile": "2022_physics_unit_3_marking_guide.docx",
+      "sourcePath": "exams/ATAR/Physics/12/WACE/2022/2022_physics_unit_3_exam.docx"
+    },
+    "practice-studio-physics-2022-u34.json": {
+      "sourceFile": "2022_physics_units_34_exam.docx",
+      "sourceKeyFile": "2022_physics_units_34_marking_guide.docx",
+      "sourcePath": "exams/ATAR/Physics/12/WACE/2022/2022_physics_units_34_exam.docx"
+    },
+    "practice-studio-physics-2023-u3.json": {
+      "sourceFile": "2023_physics_unit_3_exam.docx",
+      "sourceKeyFile": "2023_physics_unit_3_marking_guide.docx",
+      "sourcePath": "exams/ATAR/Physics/12/WACE/2023/2023_physics_unit_3_exam.docx"
+    },
+    "practice-studio-physics-2023-u34.json": {
+      "sourceFile": "2023_physics_units_34_exam (1).docx",
+      "sourceKeyFile": "2023_physics_units_34_marking_guide.docx",
+      "sourcePath": "exams/ATAR/Physics/12/WACE/2023/2023_physics_units_34_exam (1).docx"
+    },
+    "practice-studio-physics-2024-u3.json": {
+      "sourceFile": "2024_physics_units_3_exam(1).docx",
+      "sourceKeyFile": "2024_physics_units_3_marking_guide (1)(1).docx",
+      "sourcePath": "exams/ATAR/Physics/12/WACE/2024/2024_physics_units_3_exam.docx"
+    },
+    "practice-studio-physics-2024-u34.json": {
+      "sourceFile": "2024_physics_units_34_exam (1)(1).docx",
+      "sourceKeyFile": "2024_physics_units_34_marking_guide (4)(1).docx",
+      "sourcePath": "exams/ATAR/Physics/12/WACE/2024/2024_physics_units_34_exam (1).docx"
+    }
+  },
+  "documents": [
+    {
+      "subject": "Chemistry",
+      "file": "2020_chemistry_unit_1_exam.docx",
+      "path": "exams/ATAR/Chemistry/11/2020/2020_chemistry_unit_1_exam.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2020
+      ],
+      "units": [
+        "1"
+      ],
+      "banks": [
+        "practice-studio-chemistry-2020-u1.json"
+      ],
+      "questions": 35,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2020_chemistry_unit_1_marking_guide_final (2).docx",
+          "path": "exams/ATAR/Chemistry/11/2020/2020_chemistry_unit_1_marking_guide_final (2).docx"
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "file": "2020_chemistry_units_1_2.docx",
+      "path": "exams/ATAR/Chemistry/11/2020/2020_chemistry_units_1_2.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2020
+      ],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-chemistry-2020-u12.json"
+      ],
+      "questions": 40,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2020_chemistry_units_1_2_marking_guide.docx",
+          "path": "exams/ATAR/Chemistry/11/2020/2020_chemistry_units_1_2_marking_guide.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "file": "2021_chemistry_unit_1_exam(1).docx",
+      "path": "exams/ATAR/Chemistry/11/2021/2021_chemistry_unit_1_exam.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2021
+      ],
+      "units": [
+        "1"
+      ],
+      "banks": [
+        "practice-studio-chemistry-2021-u1.json"
+      ],
+      "questions": 41,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2021_chemistry_unit_1_marking_guide(1).docx",
+          "path": "exams/ATAR/Chemistry/11/2021/2021_chemistry_unit_1_marking_guide.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "file": "2021_chemistry_units_12_exam(1).docx",
+      "path": "exams/ATAR/Chemistry/11/2021/2021_chemistry_units_12_exam.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2021
+      ],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-chemistry-2021-u12.json"
+      ],
+      "questions": 40,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2021_chemistry_units_12_marking_guide(1).docx",
+          "path": "exams/ATAR/Chemistry/11/2021/2021_chemistry_units_12_marking_guide.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "file": "2022_chemistry_unit_1_exam_.docx",
+      "path": "exams/ATAR/Chemistry/11/2022/2022_chemistry_unit_1_exam_.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2022
+      ],
+      "units": [
+        "1"
+      ],
+      "banks": [
+        "practice-studio-chemistry-2022-u1.json"
+      ],
+      "questions": 40,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2022_chemistry_unit_1_marking_guide.docx",
+          "path": "exams/ATAR/Chemistry/11/2022/2022_chemistry_unit_1_marking_guide.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "file": "2022_chemistry_units_12_exam.docx",
+      "path": "exams/ATAR/Chemistry/11/2022/2022_chemistry_units_12_exam.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2022
+      ],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-chemistry-2022-u12.json"
+      ],
+      "questions": 40,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2022_chemistry_units_12_marking_guide.docx",
+          "path": "exams/ATAR/Chemistry/11/2022/2022_chemistry_units_12_marking_guide.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "file": "2023_chemistry_unit_1_exam(1).docx",
+      "path": "exams/ATAR/Chemistry/11/2023/2023_chemistry_unit_1_exam.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2023
+      ],
+      "units": [
+        "1"
+      ],
+      "banks": [
+        "practice-studio-chemistry-2023-u1.json"
+      ],
+      "questions": 39,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2023_chemistry_unit_1_marking_guide(1).docx",
+          "path": "exams/ATAR/Chemistry/11/2023/2023_chemistry_unit_1_marking_guide.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "file": "2023_chemistry_units_12_exam(1).docx",
+      "path": "exams/ATAR/Chemistry/11/2023/2023_chemistry_units_12_exam.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2023
+      ],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-chemistry-2023-u12.json"
+      ],
+      "questions": 39,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2023_chemistry_units_12_marking_guide(1).docx",
+          "path": "exams/ATAR/Chemistry/11/2023/2023_chemistry_units_12_marking_guide.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "file": "2024_chemistry_unit_1_exam(1).docx",
+      "path": "exams/ATAR/Chemistry/11/2024/2024_chemistry_unit_1_exam.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2024
+      ],
+      "units": [
+        "1"
+      ],
+      "banks": [
+        "practice-studio-chemistry-2024-u1.json"
+      ],
+      "questions": 39,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2024_chemistry_unit_1_marking_guide(1).docx",
+          "path": "exams/ATAR/Chemistry/11/2024/2024_chemistry_unit_1_marking_guide.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Human Biology",
+      "file": "2020_hum_biol__unit_3(1).docx",
+      "path": "exams/ATAR/Human Biology/12/2020/2020_hum_biol__unit_3.docx",
+      "years": [
+        12
+      ],
+      "examYears": [
+        2020
+      ],
+      "units": [
+        "3"
+      ],
+      "banks": [
+        "practice-studio-human-biology-2020-u3.json"
+      ],
+      "questions": 40,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2020_hum_biol__unit_3_2020_marking_guide.docx",
+          "path": "exams/ATAR/Human Biology/12/2020/2020_hum_biol__unit_3_2020_marking_guide.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Human Biology",
+      "file": "2020_hum_biol_unit_1(1).docx",
+      "path": "exams/ATAR/Human Biology/11/2020/2020_hum_biol_unit_1.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2020
+      ],
+      "units": [
+        "1"
+      ],
+      "banks": [
+        "practice-studio-human-biology-2020-u1.json"
+      ],
+      "questions": 30,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2020_hum_biol_unit_1_solutions(1).docx",
+          "path": "exams/ATAR/Human Biology/11/2020/2020_hum_biol_unit_1_solutions.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Human Biology",
+      "file": "2020_hum_biol_unit_3_and_4 (2).docx",
+      "path": "exams/ATAR/Human Biology/12/2020/2020_hum_biol_unit_3_and_4 (2).docx",
+      "years": [
+        12
+      ],
+      "examYears": [
+        2020
+      ],
+      "units": [
+        "3 & 4"
+      ],
+      "banks": [
+        "practice-studio-human-biology-2020-u34.json"
+      ],
+      "questions": 39,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2020_hum_biol_unit_3_and_4_marking_guide (2)(1).docx",
+          "path": "exams/ATAR/Human Biology/12/2020/2020_hum_biol_unit_3_and_4_marking_guide (2).docx"
+        }
+      ]
+    },
+    {
+      "subject": "Human Biology",
+      "file": "2020_hum_biol_units_12(1).docx",
+      "path": "exams/ATAR/Human Biology/11/2020/2020_hum_biol_units_12.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2020
+      ],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-human-biology-2020-u12.json"
+      ],
+      "questions": 42,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2020_hum_biol_units12_marking_key(1).docx",
+          "path": "exams/ATAR/Human Biology/11/2020/2020_hum_biol_units12_marking_key.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Human Biology",
+      "file": "2021_AEHBY_Semester_Two_Exam(1).pdf",
+      "path": "exams/ATAR/Human Biology/11/2021/2021_AEHBY_Semester_Two_Exam.pdf",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2021
+      ],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-human-biology-2021-u12.json"
+      ],
+      "questions": 41,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2021_AEHBY_Semester_Two_Exam_KEY(1).pdf",
+          "path": "exams/ATAR/Human Biology/11/2021/2021_AEHBY_Semester_Two_Exam_KEY.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Human Biology",
+      "file": "2021_human_biology_units_34_exam(1).docx",
+      "path": "exams/ATAR/Human Biology/12/2021/2021_human_biology_units_34_exam.docx",
+      "years": [
+        12
+      ],
+      "examYears": [
+        2021
+      ],
+      "units": [
+        "3 & 4"
+      ],
+      "banks": [
+        "practice-studio-human-biology-2021-u34.json"
+      ],
+      "questions": 40,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2021_human_biology_units_34_marking_guide(1).docx",
+          "path": "exams/ATAR/Human Biology/12/2021/2021_human_biology_units_34_marking_guide.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Human Biology",
+      "file": "2022 Human Biology Unit 3 Exam[63](1).docx",
+      "path": "exams/ATAR/Human Biology/12/2022/2022 Human Biology Unit 3 Exam[63].docx",
+      "years": [
+        12
+      ],
+      "examYears": [
+        2022
+      ],
+      "units": [
+        "3"
+      ],
+      "banks": [
+        "practice-studio-human-biology-2022-u3.json"
+      ],
+      "questions": 41,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2022 Human Biology Unit 3 Marking Guide[63](1).docx",
+          "path": "exams/ATAR/Human Biology/12/2022/2022 Human Biology Unit 3 Marking Guide[63].docx"
+        }
+      ]
+    },
+    {
+      "subject": "Human Biology",
+      "file": "2022_human_biology_units_1_2_exam(1).docx",
+      "path": "exams/ATAR/Human Biology/11/2022/2022_human_biology_units_1_2_exam.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2022
+      ],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-human-biology-2022-u12.json"
+      ],
+      "questions": 41,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2022_human_biology_units_1_2_marking_guide(1).docx",
+          "path": "exams/ATAR/Human Biology/11/2022/2022_human_biology_units_1_2_marking_guide.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Human Biology",
+      "file": "2022_human_biology_units_3_4(1).docx",
+      "path": "exams/ATAR/Human Biology/12/2022/2022_human_biology_units_3_4.docx",
+      "years": [
+        12
+      ],
+      "examYears": [
+        2022
+      ],
+      "units": [
+        "3 & 4"
+      ],
+      "banks": [
+        "practice-studio-human-biology-2022-u34.json"
+      ],
+      "questions": 40,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2022_human_biology_units_3_4_marking_guide(1).docx",
+          "path": "exams/ATAR/Human Biology/12/2022/2022_human_biology_units_3_4_marking_guide.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Human Biology",
+      "file": "2023_hbl_unit_1_exam(1).docx",
+      "path": "exams/ATAR/Human Biology/11/2023/2023_hbl_unit_1_exam.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2023
+      ],
+      "units": [
+        "1"
+      ],
+      "banks": [
+        "practice-studio-human-biology-2023-u1.json"
+      ],
+      "questions": 41,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2023_hbl_unit_1_marking_guide(1).docx",
+          "path": "exams/ATAR/Human Biology/11/2023/2023_hbl_unit_1_marking_guide.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Human Biology",
+      "file": "2023_human_biology_unit_3_exam(1).docx",
+      "path": "exams/ATAR/Human Biology/12/2023/2023_human_biology_unit_3_exam.docx",
+      "years": [
+        12
+      ],
+      "examYears": [
+        2023
+      ],
+      "units": [
+        "3"
+      ],
+      "banks": [
+        "practice-studio-human-biology-2023-u3.json"
+      ],
+      "questions": 40,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2023_human_biology_unit_3_exam_marking_key(1).docx",
+          "path": "exams/ATAR/Human Biology/12/2023/2023_human_biology_unit_3_exam_marking_key.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Human Biology",
+      "file": "2023_human_biology_units_34_exam version 2(1).docx",
+      "path": "exams/ATAR/Human Biology/12/2023/2023_human_biology_units_34_exam version 2.docx",
+      "years": [
+        12
+      ],
+      "examYears": [
+        2023
+      ],
+      "units": [
+        "3 & 4"
+      ],
+      "banks": [
+        "practice-studio-human-biology-2023-u34.json"
+      ],
+      "questions": 41,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2023_human_biology_units_34_marking_guide(1).docx",
+          "path": "exams/ATAR/Human Biology/12/2023/2023_human_biology_units_34_marking_guide.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Human Biology",
+      "file": "2024_human_biology_unit_3_exam (1)(1).docx",
+      "path": "exams/ATAR/Human Biology/12/2024/2024_human_biology_unit_3_exam (1).docx",
+      "years": [
+        12
+      ],
+      "examYears": [
+        2024
+      ],
+      "units": [
+        "3"
+      ],
+      "banks": [
+        "practice-studio-human-biology-2024-u3.json"
+      ],
+      "questions": 41,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2024_human_biology_unit_3_marking_key (1)(1).docx",
+          "path": "exams/ATAR/Human Biology/12/2024/2024_human_biology_unit_3_marking_key (1).docx"
+        }
+      ]
+    },
+    {
+      "subject": "Human Biology",
+      "file": "2024_human_biology_units_3_4_exam (1)(1).docx",
+      "path": "exams/ATAR/Human Biology/12/2024/2024_human_biology_units_3_4_exam (1).docx",
+      "years": [
+        12
+      ],
+      "examYears": [
+        2024
+      ],
+      "units": [
+        "3 & 4"
+      ],
+      "banks": [
+        "practice-studio-human-biology-2024-u34.json"
+      ],
+      "questions": 41,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2024_human_biology_units_3_4_marking_guide(1).docx",
+          "path": "exams/ATAR/Human Biology/12/2024/2024_human_biology_units_3_4_marking_guide.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Human Biology",
+      "file": "Exam Sem1 Corrected 2021_hum_biol__unit_3 NSHS.docx",
+      "path": "exams/ATAR/Human Biology/12/2021/Exam Sem1 Corrected 2021_hum_biol__unit_3 NSHS.docx",
+      "years": [
+        12
+      ],
+      "examYears": [
+        2021
+      ],
+      "units": [
+        "3"
+      ],
+      "banks": [
+        "practice-studio-human-biology-2021-u3.json"
+      ],
+      "questions": 43,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "Corrected 2021_hum_biol__unit_3_mark_key.docx",
+          "path": "exams/ATAR/Human Biology/12/2021/Corrected 2021_hum_biol__unit_3_mark_key.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "file": "Algebric Expansions Test.docx",
+      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years  9 - 10/Algebra/Algebric Expansions Test.docx",
+      "years": [
+        8,
+        9
+      ],
+      "examYears": [],
+      "units": [
+        "Lower school"
+      ],
+      "banks": [
+        "practice-studio-mathematics-algebraic-expansions-910.json"
+      ],
+      "questions": 24,
+      "addedAt": [
+        "2026-10-31T00:14:05Z"
+      ],
+      "keys": [
+        {
+          "file": "Answers 9 10 Algebra.pdf",
+          "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years  9 - 10/Algebra/Answers 9 10 Algebra.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "file": "Angles Test.docx",
+      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Geometry/Angles Test.docx",
+      "years": [
+        7
+      ],
+      "examYears": [],
+      "units": [
+        "Lower school"
+      ],
+      "banks": [
+        "practice-studio-mathematics-angles.json"
+      ],
+      "questions": 20,
+      "addedAt": [
+        "2026-10-30T13:00:18Z"
+      ],
+      "keys": [
+        {
+          "file": "Answers all 7 8 Geometry.pdf",
+          "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Geometry/Answers all 7 8 Geometry.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "file": "Area Test.docx",
+      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Measurement/Area Test.docx",
+      "years": [
+        7,
+        8,
+        9
+      ],
+      "examYears": [],
+      "units": [
+        "Lower school"
+      ],
+      "banks": [
+        "practice-studio-mathematics-area.json"
+      ],
+      "questions": 25,
+      "addedAt": [
+        "2026-10-30T13:00:18Z"
+      ],
+      "keys": [
+        {
+          "file": "Answers all 7 8 Measurement.pdf",
+          "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Measurement/Answers all 7 8 Measurement.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "file": "Basic Algebra Skills Test.docx",
+      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years  9 - 10/Algebra/Basic Algebra Skills Test.docx",
+      "years": [
+        7,
+        8,
+        9
+      ],
+      "examYears": [],
+      "units": [
+        "Lower school"
+      ],
+      "banks": [
+        "practice-studio-mathematics-basic-algebra-skills-910.json"
+      ],
+      "questions": 40,
+      "addedAt": [
+        "2026-10-31T00:14:05Z"
+      ],
+      "keys": [
+        {
+          "file": "Answers 9 10 Algebra.pdf",
+          "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years  9 - 10/Algebra/Answers 9 10 Algebra.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "file": "Basic Algebra Test.docx",
+      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Algebra/Basic Algebra Test.docx",
+      "years": [
+        7,
+        8,
+        9
+      ],
+      "examYears": [],
+      "units": [
+        "Lower school"
+      ],
+      "banks": [
+        "practice-studio-mathematics-basic-algebra.json"
+      ],
+      "questions": 35,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "Answers all 7 8 Algebra.pdf",
+          "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Algebra/Answers all 7 8 Algebra.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "file": "Basic Geometry Test 2016.docx",
+      "path": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Geometry 2016/Basic Geometry Test 2016.docx",
+      "years": [
+        7,
+        8
+      ],
+      "examYears": [
+        2016
+      ],
+      "units": [
+        "Lower school"
+      ],
+      "banks": [
+        "practice-studio-mathematics-geometry-2016.json"
+      ],
+      "questions": 48,
+      "addedAt": [
+        "2026-11-05T09:00:00Z"
+      ],
+      "keys": [
+        {
+          "file": "Basic Geometry Test 2016.docx",
+          "path": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Geometry 2016/Basic Geometry Test 2016.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "file": "Basic Statistics Test.docx",
+      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years  9 - 10/Data/Basic Statistics Test.docx",
+      "years": [
+        7,
+        8
+      ],
+      "examYears": [],
+      "units": [
+        "Lower school"
+      ],
+      "banks": [
+        "practice-studio-mathematics-basic-statistics-data910.json"
+      ],
+      "questions": 20,
+      "addedAt": [
+        "2026-10-31T01:10:22Z"
+      ],
+      "keys": [
+        {
+          "file": "Answers 9 10 Data.pdf",
+          "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years  9 - 10/Data/Answers 9 10 Data.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "file": "Bivariate Data Test.docx",
+      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years  9 - 10/Data/Bivariate Data Test.docx",
+      "years": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "examYears": [],
+      "units": [
+        "Lower school"
+      ],
+      "banks": [
+        "practice-studio-mathematics-bivariate-data-data910.json"
+      ],
+      "questions": 22,
+      "addedAt": [
+        "2026-10-31T01:10:22Z"
+      ],
+      "keys": [
+        {
+          "file": "Answers 9 10 Data.pdf",
+          "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years  9 - 10/Data/Answers 9 10 Data.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "file": "Congruence Test 2016.docx",
+      "path": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Geometry 2016/Congruence Test 2016.docx",
+      "years": [
+        8,
+        9
+      ],
+      "examYears": [
+        2016
+      ],
+      "units": [
+        "Lower school"
+      ],
+      "banks": [
+        "practice-studio-mathematics-geometry-2016.json"
+      ],
+      "questions": 34,
+      "addedAt": [
+        "2026-11-05T09:00:00Z"
+      ],
+      "keys": [
+        {
+          "file": "Congruence Test 2016.docx",
+          "path": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Geometry 2016/Congruence Test 2016.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "file": "Coordinate GeometryTest.docx",
+      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years  9 - 10/Algebra/Coordinate GeometryTest.docx",
+      "years": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "examYears": [],
+      "units": [
+        "Lower school"
+      ],
+      "banks": [
+        "practice-studio-mathematics-coordinate-geometry-910.json"
+      ],
+      "questions": 27,
+      "addedAt": [
+        "2026-10-31T00:14:05Z"
+      ],
+      "keys": [
+        {
+          "file": "Answers 9 10 Algebra.pdf",
+          "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years  9 - 10/Algebra/Answers 9 10 Algebra.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "file": "Data Comparison and Sampling Test.docx",
+      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years  9 - 10/Data/Data Comparison and Sampling Test.docx",
+      "years": [
+        8,
+        9,
+        10
+      ],
+      "examYears": [],
+      "units": [
+        "Lower school"
+      ],
+      "banks": [
+        "practice-studio-mathematics-data-comparison-data910.json"
+      ],
+      "questions": 21,
+      "addedAt": [
+        "2026-10-31T01:10:22Z"
+      ],
+      "keys": [
+        {
+          "file": "Answers 9 10 Data.pdf",
+          "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years  9 - 10/Data/Answers 9 10 Data.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "file": "Data Interpretation and Comparison Test.docx",
+      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years  9 - 10/Data/Data Interpretation and Comparison Test.docx",
+      "years": [
+        7,
+        8,
+        10
+      ],
+      "examYears": [],
+      "units": [
+        "Lower school"
+      ],
+      "banks": [
+        "practice-studio-mathematics-data-interpretation-comparison-data910.json"
+      ],
+      "questions": 20,
+      "addedAt": [
+        "2026-10-31T01:10:22Z"
+      ],
+      "keys": [
+        {
+          "file": "Answers 9 10 Data.pdf",
+          "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years  9 - 10/Data/Answers 9 10 Data.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "file": "Data Interpretation Test.docx",
+      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years  9 - 10/Data/Data Interpretation Test.docx",
+      "years": [
+        7,
+        8,
+        9
+      ],
+      "examYears": [],
+      "units": [
+        "Lower school"
+      ],
+      "banks": [
+        "practice-studio-mathematics-data-interpretation-data910.json"
+      ],
+      "questions": 20,
+      "addedAt": [
+        "2026-10-31T01:10:22Z"
+      ],
+      "keys": [
+        {
+          "file": "Answers 9 10 Data.pdf",
+          "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years  9 - 10/Data/Answers 9 10 Data.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "file": "Decimals Test.docx",
+      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Number/Decimals Test.docx",
+      "years": [
+        7
+      ],
+      "examYears": [],
+      "units": [
+        "Lower school"
+      ],
+      "banks": [
+        "practice-studio-mathematics-decimals.json"
+      ],
+      "questions": 35,
+      "addedAt": [
+        "2026-10-30T13:00:18Z"
+      ],
+      "keys": [
+        {
+          "file": "Answers all 7 8 Number.pdf",
+          "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Number/Answers all 7 8 Number.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "file": "Enlargement & Similarity Test 2016.docx",
+      "path": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Geometry 2016/Enlargement & Similarity Test 2016.docx",
+      "years": [
+        9,
+        10
+      ],
+      "examYears": [
+        2016
+      ],
+      "units": [
+        "Lower school"
+      ],
+      "banks": [
+        "practice-studio-mathematics-geometry-2016.json"
+      ],
+      "questions": 35,
+      "addedAt": [
+        "2026-11-05T09:00:00Z"
+      ],
+      "keys": [
+        {
+          "file": "Enlargement & Similarity Test 2016.docx",
+          "path": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Geometry 2016/Enlargement & Similarity Test 2016.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "file": "Equations and Formlae  Test.docx",
+      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Algebra/Equations and Formlae  Test.docx",
+      "years": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "examYears": [],
+      "units": [
+        "Lower school"
+      ],
+      "banks": [
+        "practice-studio-mathematics-equations-formulae.json"
+      ],
+      "questions": 25,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "Answers all 7 8 Algebra.pdf",
+          "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Algebra/Answers all 7 8 Algebra.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "file": "Factorisation Test.docx",
+      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years  9 - 10/Algebra/Factorisation Test.docx",
+      "years": [
+        8,
+        9,
+        10
+      ],
+      "examYears": [],
+      "units": [
+        "Lower school"
+      ],
+      "banks": [
+        "practice-studio-mathematics-factorisation-910.json"
+      ],
+      "questions": 30,
+      "addedAt": [
+        "2026-10-31T00:14:05Z"
+      ],
+      "keys": [
+        {
+          "file": "Answers 9 10 Algebra.pdf",
+          "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years  9 - 10/Algebra/Answers 9 10 Algebra.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "file": "Fractions Test.docx",
+      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Number/Fractions Test.docx",
+      "years": [
+        7
+      ],
+      "examYears": [],
+      "units": [
+        "Lower school"
+      ],
+      "banks": [
+        "practice-studio-mathematics-fractions.json"
+      ],
+      "questions": 32,
+      "addedAt": [
+        "2026-10-30T13:00:18Z"
+      ],
+      "keys": [
+        {
+          "file": "Answers all 7 8 Number.pdf",
+          "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Number/Answers all 7 8 Number.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "file": "Functions and Graphs Test.docx",
+      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years  9 - 10/Algebra/Functions and Graphs Test.docx",
+      "years": [
+        7,
+        10
+      ],
+      "examYears": [],
+      "units": [
+        "Lower school"
+      ],
+      "banks": [
+        "practice-studio-mathematics-functions-and-graphs-910.json"
+      ],
+      "questions": 18,
+      "addedAt": [
+        "2026-10-31T00:14:05Z"
+      ],
+      "keys": [
+        {
+          "file": "Answers 9 10 Algebra.pdf",
+          "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years  9 - 10/Algebra/Answers 9 10 Algebra.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "file": "Further Algebra Test.docx",
+      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Algebra/Further Algebra Test.docx",
+      "years": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "examYears": [],
+      "units": [
+        "Lower school"
+      ],
+      "banks": [
+        "practice-studio-mathematics-further-algebra.json"
+      ],
+      "questions": 32,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "Answers all 7 8 Algebra.pdf",
+          "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Algebra/Answers all 7 8 Algebra.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "file": "Further Probability Test.docx",
+      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Probability/Further Probability Test.docx",
+      "years": [
+        7,
+        8,
+        10
+      ],
+      "examYears": [],
+      "units": [
+        "Lower school"
+      ],
+      "banks": [
+        "practice-studio-mathematics-further-probability.json"
+      ],
+      "questions": 40,
+      "addedAt": [
+        "2026-10-30T23:46:09Z"
+      ],
+      "keys": [
+        {
+          "file": "Answers all 7 8 Probability.pdf",
+          "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Probability/Answers all 7 8 Probability.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "file": "Geometric Reasoning Test 2016.docx",
+      "path": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Geometry 2016/Geometric Reasoning Test 2016.docx",
+      "years": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "examYears": [
+        2016
+      ],
+      "units": [
+        "Lower school"
+      ],
+      "banks": [
+        "practice-studio-mathematics-geometry-2016.json"
+      ],
+      "questions": 6,
+      "addedAt": [
+        "2026-11-05T09:00:00Z"
+      ],
+      "keys": [
+        {
+          "file": "Geometric Reasoning Test 2016.docx",
+          "path": "resources/Assessments/WME Assessment Bank/Year 9 10 Topic Tests 2016/9 10 Geometry 2016/Geometric Reasoning Test 2016.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "file": "Graphs and Plots Test.docx",
+      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Data/Graphs and Plots Test.docx",
+      "years": [
+        7
+      ],
+      "examYears": [],
+      "units": [
+        "Lower school"
+      ],
+      "banks": [
+        "practice-studio-mathematics-graphs-plots.json"
+      ],
+      "questions": 25,
+      "addedAt": [
+        "2026-10-30T12:10:23Z"
+      ],
+      "keys": [
+        {
+          "file": "Answers all 7 8 Data.pdf",
+          "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Data/Answers all 7 8 Data.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "file": "Graphs Tables Charts Test.docx",
+      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Data/Graphs Tables Charts Test.docx",
+      "years": [
+        7,
+        8,
+        9
+      ],
+      "examYears": [],
+      "units": [
+        "Lower school"
+      ],
+      "banks": [
+        "practice-studio-mathematics-graphs-tables-charts.json"
+      ],
+      "questions": 32,
+      "addedAt": [
+        "2026-10-30T12:10:23Z"
+      ],
+      "keys": [
+        {
+          "file": "Answers all 7 8 Data.pdf",
+          "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Data/Answers all 7 8 Data.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "file": "Integers Test.docx",
+      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Number/Integers Test.docx",
+      "years": [
+        7,
+        8
+      ],
+      "examYears": [],
+      "units": [
+        "Lower school"
+      ],
+      "banks": [
+        "practice-studio-mathematics-integers.json"
+      ],
+      "questions": 30,
+      "addedAt": [
+        "2026-10-30T13:00:18Z"
+      ],
+      "keys": [
+        {
+          "file": "Answers all 7 8 Number.pdf",
+          "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Number/Answers all 7 8 Number.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "file": "Linear EquationsTest.docx",
+      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years  9 - 10/Algebra/Linear EquationsTest.docx",
+      "years": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "examYears": [],
+      "units": [
+        "Lower school"
+      ],
+      "banks": [
+        "practice-studio-mathematics-linear-equations-910.json"
+      ],
+      "questions": 18,
+      "addedAt": [
+        "2026-10-31T00:14:05Z"
+      ],
+      "keys": [
+        {
+          "file": "Answers 9 10 Algebra.pdf",
+          "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years  9 - 10/Algebra/Answers 9 10 Algebra.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "file": "Linear Relations Test.docx",
+      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Algebra/Linear Relations Test.docx",
+      "years": [
+        8,
+        10
+      ],
+      "examYears": [],
+      "units": [
+        "Lower school"
+      ],
+      "banks": [
+        "practice-studio-mathematics-linear-relations.json"
+      ],
+      "questions": 30,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "Answers all 7 8 Algebra.pdf",
+          "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Algebra/Answers all 7 8 Algebra.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "file": "Location Test.docx",
+      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Geometry/Location Test.docx",
+      "years": [
+        7
+      ],
+      "examYears": [],
+      "units": [
+        "Lower school"
+      ],
+      "banks": [
+        "practice-studio-mathematics-location.json"
+      ],
+      "questions": 22,
+      "addedAt": [
+        "2026-10-30T13:00:18Z"
+      ],
+      "keys": [
+        {
+          "file": "Answers all 7 8 Geometry.pdf",
+          "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Geometry/Answers all 7 8 Geometry.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "file": "Metric System Test.docx",
+      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Measurement/Metric System Test.docx",
+      "years": [
+        7,
+        8
+      ],
+      "examYears": [],
+      "units": [
+        "Lower school"
+      ],
+      "banks": [
+        "practice-studio-mathematics-metric-system.json"
+      ],
+      "questions": 30,
+      "addedAt": [
+        "2026-10-30T13:00:18Z"
+      ],
+      "keys": [
+        {
+          "file": "Answers all 7 8 Measurement.pdf",
+          "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Measurement/Answers all 7 8 Measurement.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "file": "Non Linear Equations Test.docx",
+      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years  9 - 10/Algebra/Non Linear Equations Test.docx",
+      "years": [
+        8,
+        9,
+        10
+      ],
+      "examYears": [],
+      "units": [
+        "Lower school"
+      ],
+      "banks": [
+        "practice-studio-mathematics-non-linear-equations-910.json"
+      ],
+      "questions": 24,
+      "addedAt": [
+        "2026-10-31T00:14:05Z"
+      ],
+      "keys": [
+        {
+          "file": "Answers 9 10 Algebra.pdf",
+          "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years  9 - 10/Algebra/Answers 9 10 Algebra.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "file": "Number Systems Test.docx",
+      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Number/Number Systems Test.docx",
+      "years": [
+        7
+      ],
+      "examYears": [],
+      "units": [
+        "Lower school"
+      ],
+      "banks": [
+        "practice-studio-mathematics-number-systems.json"
+      ],
+      "questions": 30,
+      "addedAt": [
+        "2026-10-30T13:00:18Z"
+      ],
+      "keys": [
+        {
+          "file": "Answers all 7 8 Number.pdf",
+          "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Number/Answers all 7 8 Number.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "file": "Percentages Test.docx",
+      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Number/Percentages Test.docx",
+      "years": [
+        7,
+        8
+      ],
+      "examYears": [],
+      "units": [
+        "Lower school"
+      ],
+      "banks": [
+        "practice-studio-mathematics-percentages.json"
+      ],
+      "questions": 32,
+      "addedAt": [
+        "2026-10-30T13:00:18Z"
+      ],
+      "keys": [
+        {
+          "file": "Answers all 7 8 Number.pdf",
+          "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Number/Answers all 7 8 Number.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "file": "Polygons and Circles Test.docx",
+      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Geometry/Polygons and Circles Test.docx",
+      "years": [
+        7,
+        8
+      ],
+      "examYears": [],
+      "units": [
+        "Lower school"
+      ],
+      "banks": [
+        "practice-studio-mathematics-polygons-and-circles.json"
+      ],
+      "questions": 25,
+      "addedAt": [
+        "2026-10-30T13:00:18Z"
+      ],
+      "keys": [
+        {
+          "file": "Answers all 7 8 Geometry.pdf",
+          "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Geometry/Answers all 7 8 Geometry.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "file": "Pythagoras Test.docx",
+      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Measurement/Pythagoras Test.docx",
+      "years": [
+        8,
+        9
+      ],
+      "examYears": [],
+      "units": [
+        "Lower school"
+      ],
+      "banks": [
+        "practice-studio-mathematics-pythagoras.json"
+      ],
+      "questions": 20,
+      "addedAt": [
+        "2026-10-30T13:00:18Z"
+      ],
+      "keys": [
+        {
+          "file": "Answers all 7 8 Measurement.pdf",
+          "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Measurement/Answers all 7 8 Measurement.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "file": "Ratio and Rates Test.docx",
+      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Number/Ratio and Rates Test.docx",
+      "years": [
+        7,
+        8
+      ],
+      "examYears": [],
+      "units": [
+        "Lower school"
+      ],
+      "banks": [
+        "practice-studio-mathematics-ratio-and-rates.json"
+      ],
+      "questions": 35,
+      "addedAt": [
+        "2026-10-30T13:00:18Z"
+      ],
+      "keys": [
+        {
+          "file": "Answers all 7 8 Number.pdf",
+          "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Number/Answers all 7 8 Number.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "file": "Rational Numbers Test.docx",
+      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Number/Rational Numbers Test.docx",
+      "years": [
+        7,
+        8
+      ],
+      "examYears": [],
+      "units": [
+        "Lower school"
+      ],
+      "banks": [
+        "practice-studio-mathematics-rational-numbers.json"
+      ],
+      "questions": 32,
+      "addedAt": [
+        "2026-10-30T13:00:18Z"
+      ],
+      "keys": [
+        {
+          "file": "Answers all 7 8 Number.pdf",
+          "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Number/Answers all 7 8 Number.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "file": "Sample Space and Relative Frequency Test.docx",
+      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Probability/Sample Space and Relative Frequency Test.docx",
+      "years": [
+        7,
+        8
+      ],
+      "examYears": [],
+      "units": [
+        "Lower school"
+      ],
+      "banks": [
+        "practice-studio-mathematics-sample-space-relative-frequency.json"
+      ],
+      "questions": 30,
+      "addedAt": [
+        "2026-10-30T23:46:09Z"
+      ],
+      "keys": [
+        {
+          "file": "Answers all 7 8 Probability.pdf",
+          "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Probability/Answers all 7 8 Probability.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "file": "Shapes Test.docx",
+      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Geometry/Shapes Test.docx",
+      "years": [
+        7
+      ],
+      "examYears": [],
+      "units": [
+        "Lower school"
+      ],
+      "banks": [
+        "practice-studio-mathematics-shapes.json"
+      ],
+      "questions": 25,
+      "addedAt": [
+        "2026-10-30T13:00:18Z"
+      ],
+      "keys": [
+        {
+          "file": "Answers all 7 8 Geometry.pdf",
+          "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Geometry/Answers all 7 8 Geometry.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "file": "Simultaneous EquationsTest.docx",
+      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years  9 - 10/Algebra/Simultaneous EquationsTest.docx",
+      "years": [
+        7,
+        8,
+        10
+      ],
+      "examYears": [],
+      "units": [
+        "Lower school"
+      ],
+      "banks": [
+        "practice-studio-mathematics-simultaneous-equations-910.json"
+      ],
+      "questions": 14,
+      "addedAt": [
+        "2026-10-31T00:14:05Z"
+      ],
+      "keys": [
+        {
+          "file": "Answers 9 10 Algebra.pdf",
+          "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years  9 - 10/Algebra/Answers 9 10 Algebra.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "file": "Statistical Measures Test.docx",
+      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Data/Statistical Measures Test.docx",
+      "years": [
+        7,
+        8
+      ],
+      "examYears": [],
+      "units": [
+        "Lower school"
+      ],
+      "banks": [
+        "practice-studio-mathematics-statistical-measures.json"
+      ],
+      "questions": 25,
+      "addedAt": [
+        "2026-10-30T12:10:23Z"
+      ],
+      "keys": [
+        {
+          "file": "Answers all 7 8 Data.pdf",
+          "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Data/Answers all 7 8 Data.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "file": "Transformations and Congruence Test.docx",
+      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Geometry/Transformations and Congruence Test.docx",
+      "years": [
+        7,
+        8
+      ],
+      "examYears": [],
+      "units": [
+        "Lower school"
+      ],
+      "banks": [
+        "practice-studio-mathematics-transformations-and-congruence.json"
+      ],
+      "questions": 20,
+      "addedAt": [
+        "2026-10-30T13:00:18Z"
+      ],
+      "keys": [
+        {
+          "file": "Answers all 7 8 Geometry.pdf",
+          "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Geometry/Answers all 7 8 Geometry.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "file": "Volume and Surface Area Test.docx",
+      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Measurement/Volume and Surface Area Test.docx",
+      "years": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "examYears": [],
+      "units": [
+        "Lower school"
+      ],
+      "banks": [
+        "practice-studio-mathematics-volume-and-surface-area.json"
+      ],
+      "questions": 20,
+      "addedAt": [
+        "2026-10-30T13:00:18Z"
+      ],
+      "keys": [
+        {
+          "file": "Answers all 7 8 Measurement.pdf",
+          "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Measurement/Answers all 7 8 Measurement.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics Methods",
+      "file": "12 Methods Units 3 and 4 Calc Ass Exam Sem 1 2021.docx",
+      "path": "exams/ATAR/Mathematics Methods/12/WACE/2021/12 Methods Units 3 and 4 Calc Ass Exam Sem 1 2021.docx",
+      "years": [
+        12
+      ],
+      "examYears": [
+        2021
+      ],
+      "units": [
+        "3"
+      ],
+      "banks": [
+        "practice-studio-methods-year12-1.json"
+      ],
+      "questions": 13,
+      "addedAt": [],
+      "keys": []
+    },
+    {
+      "subject": "Mathematics Methods",
+      "file": "12 Methods Units 3 and 4 Calc Ass Exam Sem 2 2021.docx",
+      "path": "exams/ATAR/Mathematics Methods/12/WACE/2021/12 Methods Units 3 and 4 Calc Ass Exam Sem 2 2021.docx",
+      "years": [
+        12
+      ],
+      "examYears": [
+        2021
+      ],
+      "units": [
+        "3 & 4"
+      ],
+      "banks": [
+        "practice-studio-methods-year12-1.json"
+      ],
+      "questions": 13,
+      "addedAt": [],
+      "keys": []
+    },
+    {
+      "subject": "Mathematics Methods",
+      "file": "12 Methods Units 3 and 4 Calc Free Exam Sem 2 2021.docx",
+      "path": "exams/ATAR/Mathematics Methods/12/WACE/2021/12 Methods Units 3 and 4 Calc Free Exam Sem 2 2021.docx",
+      "years": [
+        12
+      ],
+      "examYears": [
+        2021
+      ],
+      "units": [
+        "3 & 4"
+      ],
+      "banks": [
+        "practice-studio-methods-year12-1.json"
+      ],
+      "questions": 8,
+      "addedAt": [],
+      "keys": []
+    },
+    {
+      "subject": "Mathematics Methods",
+      "file": "12 Methods Units 3 and 4 Calc Free Exam Sem1 2021.docx",
+      "path": "exams/ATAR/Mathematics Methods/12/WACE/2021/12 Methods Units 3 and 4 Calc Free Exam Sem1 2021.docx",
+      "years": [
+        12
+      ],
+      "examYears": [
+        2021
+      ],
+      "units": [
+        "3"
+      ],
+      "banks": [
+        "practice-studio-methods-year12-1.json"
+      ],
+      "questions": 8,
+      "addedAt": [],
+      "keys": []
+    },
+    {
+      "subject": "Mathematics Methods",
+      "file": "2020 Methods U1_2 Sem2 Exam CA.docx",
+      "path": "exams/ATAR/Mathematics Methods/11/2020/Semester 2/2020 Methods U1_2 Sem2 Exam CA.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2020
+      ],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-methods-year11-1.json"
+      ],
+      "questions": 14,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2020 Methods U1_2 Sem2 Exam CA Solutions.docx",
+          "path": "exams/ATAR/Mathematics Methods/11/2020/Semester 2/2020 Methods U1_2 Sem2 Exam CA Solutions.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics Methods",
+      "file": "2020 Methods U1_2 Sem2 Exam CF.docx",
+      "path": "exams/ATAR/Mathematics Methods/11/2020/Semester 2/2020 Methods U1_2 Sem2 Exam CF.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2020
+      ],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-methods-year11-1.json"
+      ],
+      "questions": 9,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2020 Methods U1_2 Sem2 Exam CF Solutions.docx",
+          "path": "exams/ATAR/Mathematics Methods/11/2020/Semester 2/2020 Methods U1_2 Sem2 Exam CF Solutions.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics Methods",
+      "file": "2021 Methods 12 Sem 1 Exam.pdf",
+      "path": "exams/ATAR/Mathematics Methods/12/WACE/2021/2021 Methods 12 Sem 1 Exam.pdf",
+      "years": [
+        12
+      ],
+      "examYears": [
+        2021
+      ],
+      "units": [
+        "3"
+      ],
+      "banks": [
+        "practice-studio-methods-year12-14.json",
+        "practice-studio-methods-year12-15.json",
+        "practice-studio-methods-year12-16.json",
+        "practice-studio-methods-year12-17.json",
+        "practice-studio-methods-year12-18.json",
+        "practice-studio-methods-year12-19.json"
+      ],
+      "questions": 18,
+      "addedAt": [],
+      "keys": []
+    },
+    {
+      "subject": "Mathematics Methods",
+      "file": "2024 Year 12 Mathematics Methods Semester 1 Exam (CA).docx",
+      "path": "exams/ATAR/Mathematics Methods/12/WACE/2024/2024 Year 12 Mathematics Methods Semester 1 Exam (CA).docx",
+      "years": [
+        12
+      ],
+      "examYears": [
+        2024
+      ],
+      "units": [
+        "3"
+      ],
+      "banks": [
+        "practice-studio-methods-year12-2.json",
+        "practice-studio-methods-year12-3.json"
+      ],
+      "questions": 9,
+      "addedAt": [],
+      "keys": []
+    },
+    {
+      "subject": "Mathematics Methods",
+      "file": "2024 Year 12 Mathematics Methods Semester 1 Exam (CF).docx",
+      "path": "exams/ATAR/Mathematics Methods/12/WACE/2024/2024 Year 12 Mathematics Methods Semester 1 Exam (CF).docx",
+      "years": [
+        12
+      ],
+      "examYears": [
+        2024
+      ],
+      "units": [
+        "3"
+      ],
+      "banks": [
+        "practice-studio-methods-year12-1.json",
+        "practice-studio-methods-year12-2.json"
+      ],
+      "questions": 5,
+      "addedAt": [],
+      "keys": []
+    },
+    {
+      "subject": "Mathematics Methods",
+      "file": "2024 Year 12 Mathematics Methods Semester 2 Exam_CALC ASSUMED.docx",
+      "path": "exams/ATAR/Mathematics Methods/12/WACE/2024/2024 Year 12 Mathematics Methods Semester 2 Exam_CALC ASSUMED.docx",
+      "years": [
+        12
+      ],
+      "examYears": [
+        2024
+      ],
+      "units": [
+        "3 & 4"
+      ],
+      "banks": [
+        "practice-studio-methods-year12-3.json",
+        "practice-studio-methods-year12-4.json"
+      ],
+      "questions": 11,
+      "addedAt": [],
+      "keys": []
+    },
+    {
+      "subject": "Mathematics Methods",
+      "file": "2024 Year 12 Methods Semester 2 Exam_CALC FREE.docx",
+      "path": "exams/ATAR/Mathematics Methods/12/WACE/2024/2024 Year 12 Methods Semester 2 Exam_CALC FREE.docx",
+      "years": [
+        12
+      ],
+      "examYears": [
+        2024
+      ],
+      "units": [
+        "3 & 4"
+      ],
+      "banks": [
+        "practice-studio-methods-year12-3.json"
+      ],
+      "questions": 8,
+      "addedAt": [],
+      "keys": []
+    },
+    {
+      "subject": "Mathematics Methods",
+      "file": "WAEP 2020 YR12 METH U34 S1.docx",
+      "path": "exams/ATAR/Mathematics Methods/12/WACE/2020/WAEP 2020 YR12 METH U34 S1.docx",
+      "years": [
+        12
+      ],
+      "examYears": [
+        2020
+      ],
+      "units": [
+        "3 & 4"
+      ],
+      "banks": [
+        "practice-studio-methods-year12-4.json",
+        "practice-studio-methods-year12-5.json"
+      ],
+      "questions": 8,
+      "addedAt": [],
+      "keys": []
+    },
+    {
+      "subject": "Mathematics Methods",
+      "file": "WAEP 2020 YR12 METH U34 S2.docx",
+      "path": "exams/ATAR/Mathematics Methods/12/WACE/2020/WAEP 2020 YR12 METH U34 S2.docx",
+      "years": [
+        12
+      ],
+      "examYears": [
+        2020
+      ],
+      "units": [
+        "3 & 4"
+      ],
+      "banks": [
+        "practice-studio-methods-year12-5.json"
+      ],
+      "questions": 13,
+      "addedAt": [],
+      "keys": []
+    },
+    {
+      "subject": "Mathematics Methods",
+      "file": "WAEP 2023 YR12 METH U3 S1.pdf",
+      "path": "exams/ATAR/Mathematics Methods/12/WACE/2023/WAEP 2023 YR12 METH U3 S1.pdf",
+      "years": [
+        12
+      ],
+      "examYears": [
+        2023
+      ],
+      "units": [
+        "3"
+      ],
+      "banks": [
+        "practice-studio-methods-year12-5.json",
+        "practice-studio-methods-year12-6.json"
+      ],
+      "questions": 7,
+      "addedAt": [],
+      "keys": []
+    },
+    {
+      "subject": "Mathematics Methods",
+      "file": "WAEP_2020_YR11_METH_U1_S1.pdf (1).pdf",
+      "path": "exams/ATAR/Mathematics Methods/11/2020/Semester 1/WAEP_2020_YR11_METH_U1_S1.pdf (1).pdf",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2020
+      ],
+      "units": [
+        "1"
+      ],
+      "banks": [
+        "practice-studio-methods-year11-9.json"
+      ],
+      "questions": 8,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "WAEP_2020_YR11_METH_U1_S1_SOLNS.pdf (1).pdf",
+          "path": "exams/ATAR/Mathematics Methods/11/2020/Semester 1/WAEP_2020_YR11_METH_U1_S1_SOLNS.pdf (1).pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics Methods",
+      "file": "WAEP_2020_YR11_METH_U1_S2.pdf (1).pdf",
+      "path": "exams/ATAR/Mathematics Methods/11/2020/Semester 1/WAEP_2020_YR11_METH_U1_S2.pdf (1).pdf",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2020
+      ],
+      "units": [
+        "1"
+      ],
+      "banks": [
+        "practice-studio-methods-year11-9.json"
+      ],
+      "questions": 13,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "WAEP_2020_YR11_METH_U1_S2_SOLNS.pdf (1).pdf.openai-download-a93e2d4b26c54d8fa06f72446d94734c",
+          "path": "exams/ATAR/Mathematics Methods/11/2020/Semester 1/WAEP_2020_YR11_METH_U1_S2_SOLNS.pdf (1).pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics Methods",
+      "file": "Willo 2022 YR11 METH U1 S1.docx",
+      "path": "exams/ATAR/Mathematics Methods/11/2022/Willo 2022 YR11 METH U1 S1.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2022
+      ],
+      "units": [
+        "1"
+      ],
+      "banks": [
+        "practice-studio-methods-year11-6.json",
+        "practice-studio-methods-year11-7.json"
+      ],
+      "questions": 7,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "Willo 2022 YR11 METH U1 S1 SOLNS.docx",
+          "path": "exams/ATAR/Mathematics Methods/11/2022/Willo 2022 YR11 METH U1 S1 SOLNS.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics Methods",
+      "file": "Willo 2022 YR11 METH U1 S2.docx",
+      "path": "exams/ATAR/Mathematics Methods/11/2022/Willo 2022 YR11 METH U1 S2.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2022
+      ],
+      "units": [
+        "1"
+      ],
+      "banks": [
+        "practice-studio-methods-year11-7.json",
+        "practice-studio-methods-year11-8.json"
+      ],
+      "questions": 12,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "Willo 2022 YR11 METH U1 S2 SOLNS.docx",
+          "path": "exams/ATAR/Mathematics Methods/11/2022/Willo 2022 YR11 METH U1 S2 SOLNS.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics Methods",
+      "file": "Willo 2022 YR11 METH U12 S1.docx",
+      "path": "exams/ATAR/Mathematics Methods/11/2022/Willo 2022 YR11 METH U12 S1.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2022
+      ],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-methods-year11-8.json"
+      ],
+      "questions": 7,
+      "addedAt": [],
+      "keys": []
+    },
+    {
+      "subject": "Mathematics Methods",
+      "file": "Willo 2022 YR11 METH U12 S2.docx",
+      "path": "exams/ATAR/Mathematics Methods/11/2022/Willo 2022 YR11 METH U12 S2.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2022
+      ],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-methods-year11-8.json",
+        "practice-studio-methods-year11-9.json"
+      ],
+      "questions": 12,
+      "addedAt": [],
+      "keys": []
+    },
+    {
+      "subject": "Mathematics Methods",
+      "file": "WSHS 2021 Methods 11 Sem 2 Section 1.docx",
+      "path": "exams/ATAR/Mathematics Methods/11/2021/WSHS 2021 Methods 11 Sem 2 Section 1.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2021
+      ],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-methods-year11-5.json"
+      ],
+      "questions": 8,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "WSHS 2021 Methods 11 Sem 2 Section 1 SOLNS.docx",
+          "path": "exams/ATAR/Mathematics Methods/11/2021/WSHS 2021 Methods 11 Sem 2 Section 1 SOLNS.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics Methods",
+      "file": "WSHS 2021 Methods 11 Sem 2 Section 2.docx",
+      "path": "exams/ATAR/Mathematics Methods/11/2021/WSHS 2021 Methods 11 Sem 2 Section 2.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2021
+      ],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-methods-year11-5.json",
+        "practice-studio-methods-year11-6.json"
+      ],
+      "questions": 13,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "WSHS 2021 Methods 11 Sem 2 Section 2 SOLNS.docx",
+          "path": "exams/ATAR/Mathematics Methods/11/2021/WSHS 2021 Methods 11 Sem 2 Section 2 SOLNS.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics Methods",
+      "file": "WSHS 2021 Sem 1 Methods 11 Section 1.docx",
+      "path": "exams/ATAR/Mathematics Methods/11/2021/WSHS 2021 Sem 1 Methods 11 Section 1.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2021
+      ],
+      "units": [
+        "1"
+      ],
+      "banks": [
+        "practice-studio-methods-year11-1.json",
+        "practice-studio-methods-year11-2.json"
+      ],
+      "questions": 8,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "WSHS 2021 Sem 1 Methods 11 Section 1 SOLNS.docx",
+          "path": "exams/ATAR/Mathematics Methods/11/2021/WSHS 2021 Sem 1 Methods 11 Section 1 SOLNS.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics Methods",
+      "file": "WSHS 2021 Sem 1 Methods 11 Section 2.docx",
+      "path": "exams/ATAR/Mathematics Methods/11/2021/WSHS 2021 Sem 1 Methods 11 Section 2.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2021
+      ],
+      "units": [
+        "1"
+      ],
+      "banks": [
+        "practice-studio-methods-year11-3.json",
+        "practice-studio-methods-year11-4.json",
+        "practice-studio-methods-year11-5.json"
+      ],
+      "questions": 15,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "WSHS 2021 Sem 1 Methods 11 Section 2 SOLNS.docx",
+          "path": "exams/ATAR/Mathematics Methods/11/2021/WSHS 2021 Sem 1 Methods 11 Section 2 SOLNS.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics Methods",
+      "file": "WSHS 2022 YR12 METH U3 S1.pdf",
+      "path": "exams/ATAR/Mathematics Methods/12/WACE/2022/WSHS 2022 YR12 METH U3 S1.pdf",
+      "years": [
+        12
+      ],
+      "examYears": [
+        2022
+      ],
+      "units": [
+        "3"
+      ],
+      "banks": [
+        "practice-studio-methods-year12-10.json",
+        "practice-studio-methods-year12-8.json",
+        "practice-studio-methods-year12-9.json"
+      ],
+      "questions": 7,
+      "addedAt": [],
+      "keys": []
+    },
+    {
+      "subject": "Mathematics Methods",
+      "file": "WSHS 2022 YR12 METH U3 S2.pdf",
+      "path": "exams/ATAR/Mathematics Methods/12/WACE/2022/WSHS 2022 YR12 METH U3 S2.pdf",
+      "years": [
+        12
+      ],
+      "examYears": [
+        2022
+      ],
+      "units": [
+        "3"
+      ],
+      "banks": [
+        "practice-studio-methods-year12-10.json",
+        "practice-studio-methods-year12-11.json",
+        "practice-studio-methods-year12-12.json",
+        "practice-studio-methods-year12-13.json"
+      ],
+      "questions": 12,
+      "addedAt": [],
+      "keys": []
+    },
+    {
+      "subject": "Mathematics Methods",
+      "file": "WSHS 2023 YR12 METH U3 S2.pdf",
+      "path": "exams/ATAR/Mathematics Methods/12/WACE/2023/WSHS 2023 YR12 METH U3 S2.pdf",
+      "years": [
+        12
+      ],
+      "examYears": [
+        2023
+      ],
+      "units": [
+        "3"
+      ],
+      "banks": [
+        "practice-studio-methods-year12-6.json",
+        "practice-studio-methods-year12-7.json",
+        "practice-studio-methods-year12-8.json"
+      ],
+      "questions": 12,
+      "addedAt": [],
+      "keys": []
+    },
+    {
+      "subject": "Physics",
+      "file": "2020_physics_unit_1_exam.docx",
+      "path": "exams/ATAR/Physics/11/2020/2020_physics_unit_1_exam.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2020
+      ],
+      "units": [
+        "1"
+      ],
+      "banks": [
+        "practice-studio-physics-2020-u1.json"
+      ],
+      "questions": 19,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2020_physics_unit_1_marking_guide (2).docx",
+          "path": "exams/ATAR/Physics/11/2020/2020_physics_unit_1_marking_guide (2).docx"
+        }
+      ]
+    },
+    {
+      "subject": "Physics",
+      "file": "2020_physics_unit_3_exam.docx",
+      "path": "exams/ATAR/Physics/12/WACE/2020/2020_physics_unit_3_exam.docx",
+      "years": [
+        12
+      ],
+      "examYears": [
+        2020
+      ],
+      "units": [
+        "3"
+      ],
+      "banks": [
+        "practice-studio-physics-2020-u3.json"
+      ],
+      "questions": 18,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2020_physics_unit_3_marking_guide.docx",
+          "path": "exams/ATAR/Physics/12/WACE/2020/2020_physics_unit_3_marking_guide.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Physics",
+      "file": "2021_physics_unit_1_exam.docx",
+      "path": "exams/ATAR/Physics/11/2021/2021_physics_unit_1_exam.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2021
+      ],
+      "units": [
+        "1"
+      ],
+      "banks": [
+        "practice-studio-physics-2021-u1.json"
+      ],
+      "questions": 18,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2021_physics_unit_1_marking_guide.docx",
+          "path": "exams/ATAR/Physics/11/2021/2021_physics_unit_1_marking_guide.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Physics",
+      "file": "2021_physics_units_1_2_exam (3).docx",
+      "path": "exams/ATAR/Physics/11/2021/2021_physics_units_1_2_exam (3).docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2021
+      ],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-physics-2021-u12.json"
+      ],
+      "questions": 21,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2021_physics_units_1_2_marking_guide (7).docx",
+          "path": "exams/ATAR/Physics/11/2021/2021_physics_units_1_2_marking_guide (7).docx"
+        }
+      ]
+    },
+    {
+      "subject": "Physics",
+      "file": "2021_physics_units_3_4_exam.docx",
+      "path": "exams/ATAR/Physics/12/WACE/2021/2021_physics_units_3_4_exam.docx",
+      "years": [
+        12
+      ],
+      "examYears": [
+        2021
+      ],
+      "units": [
+        "3 & 4"
+      ],
+      "banks": [
+        "practice-studio-physics-2021-u34.json"
+      ],
+      "questions": 19,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2021_physics_units_3_4_marking_guide.docx",
+          "path": "exams/ATAR/Physics/12/WACE/2021/2021_physics_units_3_4_marking_guide.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Physics",
+      "file": "2021_unit_3_exam.docx",
+      "path": "exams/ATAR/Physics/12/WACE/2021/2021_unit_3_exam.docx",
+      "years": [
+        12
+      ],
+      "examYears": [
+        2021
+      ],
+      "units": [
+        "3"
+      ],
+      "banks": [
+        "practice-studio-physics-2021-u3.json"
+      ],
+      "questions": 20,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2021_physics_unit_3_exam_marking_key.docx",
+          "path": "exams/ATAR/Physics/12/WACE/2021/2021_physics_unit_3_exam_marking_key.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Physics",
+      "file": "2022_physics_unit_1_exam_.docx",
+      "path": "exams/ATAR/Physics/11/2022/2022_physics_unit_1_exam_.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2022
+      ],
+      "units": [
+        "1"
+      ],
+      "banks": [
+        "practice-studio-physics-2022-u1.json"
+      ],
+      "questions": 19,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2022_physics_unit_1_marking_guide_.docx",
+          "path": "exams/ATAR/Physics/11/2022/2022_physics_unit_1_marking_guide_.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Physics",
+      "file": "2022_physics_unit_3_exam.docx",
+      "path": "exams/ATAR/Physics/12/WACE/2022/2022_physics_unit_3_exam.docx",
+      "years": [
+        12
+      ],
+      "examYears": [
+        2022
+      ],
+      "units": [
+        "3"
+      ],
+      "banks": [
+        "practice-studio-physics-2022-u3.json"
+      ],
+      "questions": 20,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2022_physics_unit_3_marking_guide.docx",
+          "path": "exams/ATAR/Physics/12/WACE/2022/2022_physics_unit_3_marking_guide.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Physics",
+      "file": "2022_physics_units_1_2_exam.docx",
+      "path": "exams/ATAR/Physics/11/2022/2022_physics_units_1_2_exam.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2022
+      ],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-physics-2022-u12.json"
+      ],
+      "questions": 21,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2022_physics_units_1_2_marking_guide.docx",
+          "path": "exams/ATAR/Physics/11/2022/2022_physics_units_1_2_marking_guide.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Physics",
+      "file": "2022_physics_units_34_exam.docx",
+      "path": "exams/ATAR/Physics/12/WACE/2022/2022_physics_units_34_exam.docx",
+      "years": [
+        12
+      ],
+      "examYears": [
+        2022
+      ],
+      "units": [
+        "3 & 4"
+      ],
+      "banks": [
+        "practice-studio-physics-2022-u34.json"
+      ],
+      "questions": 18,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2022_physics_units_34_marking_guide.docx",
+          "path": "exams/ATAR/Physics/12/WACE/2022/2022_physics_units_34_marking_guide.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Physics",
+      "file": "2023_physics_unit_1_exam.docx",
+      "path": "exams/ATAR/Physics/11/2023/2023_physics_unit_1_exam.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2023
+      ],
+      "units": [
+        "1"
+      ],
+      "banks": [
+        "practice-studio-physics-2023-u1.json"
+      ],
+      "questions": 19,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2023_physics_unit_1_marking_guide.docx",
+          "path": "exams/ATAR/Physics/11/2023/2023_physics_unit_1_marking_guide.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Physics",
+      "file": "2023_physics_unit_3_exam.docx",
+      "path": "exams/ATAR/Physics/12/WACE/2023/2023_physics_unit_3_exam.docx",
+      "years": [
+        12
+      ],
+      "examYears": [
+        2023
+      ],
+      "units": [
+        "3"
+      ],
+      "banks": [
+        "practice-studio-physics-2023-u3.json"
+      ],
+      "questions": 20,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2023_physics_unit_3_marking_guide.docx",
+          "path": "exams/ATAR/Physics/12/WACE/2023/2023_physics_unit_3_marking_guide.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Physics",
+      "file": "2023_physics_units_12_exam.docx",
+      "path": "exams/ATAR/Physics/11/2023/2023_physics_units_12_exam.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2023
+      ],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-physics-2023-u12.json"
+      ],
+      "questions": 22,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2023_physics_units_12_marking_guide.docx",
+          "path": "exams/ATAR/Physics/11/2023/2023_physics_units_12_marking_guide.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Physics",
+      "file": "2023_physics_units_34_exam (1).docx",
+      "path": "exams/ATAR/Physics/12/WACE/2023/2023_physics_units_34_exam (1).docx",
+      "years": [
+        12
+      ],
+      "examYears": [
+        2023
+      ],
+      "units": [
+        "3 & 4"
+      ],
+      "banks": [
+        "practice-studio-physics-2023-u34.json"
+      ],
+      "questions": 19,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2023_physics_units_34_marking_guide.docx",
+          "path": "exams/ATAR/Physics/12/WACE/2023/2023_physics_units_34_marking_guide.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Physics",
+      "file": "2024_physics_unit_1_exam.docx",
+      "path": "exams/ATAR/Physics/11/2024/2024_physics_unit_1_exam.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2024
+      ],
+      "units": [
+        "1"
+      ],
+      "banks": [
+        "practice-studio-physics-2024-u1.json"
+      ],
+      "questions": 20,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2024_physics_unit_1_marking_guide.docx",
+          "path": "exams/ATAR/Physics/11/2024/2024_physics_unit_1_marking_guide.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Physics",
+      "file": "2024_physics_units_12_exam.docx",
+      "path": "exams/ATAR/Physics/11/2024/2024_physics_units_12_exam.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2024
+      ],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-physics-2024-u12.json"
+      ],
+      "questions": 20,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2024_physics_units_12_marking_guide (1).docx",
+          "path": "exams/ATAR/Physics/11/2024/2024_physics_units_12_marking_guide (1).docx"
+        }
+      ]
+    },
+    {
+      "subject": "Physics",
+      "file": "2024_physics_units_34_exam (1)(1).docx",
+      "path": "exams/ATAR/Physics/12/WACE/2024/2024_physics_units_34_exam (1).docx",
+      "years": [
+        12
+      ],
+      "examYears": [
+        2024
+      ],
+      "units": [
+        "3 & 4"
+      ],
+      "banks": [
+        "practice-studio-physics-2024-u34.json"
+      ],
+      "questions": 18,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2024_physics_units_34_marking_guide (4)(1).docx",
+          "path": "exams/ATAR/Physics/12/WACE/2024/2024_physics_units_34_marking_guide (4).docx"
+        }
+      ]
+    },
+    {
+      "subject": "Physics",
+      "file": "2024_physics_units_3_exam(1).docx",
+      "path": "exams/ATAR/Physics/12/WACE/2024/2024_physics_units_3_exam.docx",
+      "years": [
+        12
+      ],
+      "examYears": [
+        2024
+      ],
+      "units": [
+        "3"
+      ],
+      "banks": [
+        "practice-studio-physics-2024-u3.json"
+      ],
+      "questions": 21,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2024_physics_units_3_marking_guide (1)(1).docx",
+          "path": "exams/ATAR/Physics/12/WACE/2024/2024_physics_units_3_marking_guide (1).docx"
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 // Learning Vault content-page access catalogue.
-export const PAGES=[{"id": "leaderboard.html", "label": "Class and subject leaderboard", "group": "Progress", "studentDefault": true, "teacherDefault": true}, {"id": "avatar.html", "label": "My avatar and costumes", "group": "Progress", "studentDefault": true, "teacherDefault": false}, {"id": "admin-reports.html", "label": "Error reports (Admin)", "group": "Administration", "studentDefault": false, "teacherDefault": false},
+export const PAGES=[{"id":"practice-studio-sources.html","label":"Practice Studio upload register","group":"Teacher tools","studentDefault":false,"teacherDefault":true},{"id": "leaderboard.html", "label": "Class and subject leaderboard", "group": "Progress", "studentDefault": true, "teacherDefault": true}, {"id": "avatar.html", "label": "My avatar and costumes", "group": "Progress", "studentDefault": true, "teacherDefault": false}, {"id": "admin-reports.html", "label": "Error reports (Admin)", "group": "Administration", "studentDefault": false, "teacherDefault": false},
   {
     "id": "quiz-battle.html",
     "label": "Quiz Battle",
@@ -387,4 +387,5 @@ export const PAGES=[{"id": "leaderboard.html", "label": "Class and subject leade
     "teacherDefault": true
   }
 ];
+
 
