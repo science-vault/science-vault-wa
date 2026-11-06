@@ -12,8 +12,8 @@
   if(t==='msqrt'||t==='mroot')return'<m:rad><m:radPr>'+(t==='msqrt'?'<m:degHide m:val="1"/>':'')+'</m:radPr><m:deg>'+(c[1]&&t==='mroot'?omml(c[1]):'')+'</m:deg><m:e>'+(t==='msqrt'?r():omml(c[0]))+'</m:e></m:rad>';
   if(t==='mtable')return'<m:m>'+c.map(row=>'<m:mr>'+children(row).map(cell=>'<m:e>'+omml(cell)+'</m:e>').join('')+'</m:mr>').join('')+'</m:m>';
   if(t==='mfenced')return'<m:d><m:dPr><m:begChr m:val="'+esc(n.getAttribute('open')||'(')+'"/><m:endChr m:val="'+esc(n.getAttribute('close')||')')+'"/></m:dPr><m:e>'+r()+'</m:e></m:d>';
-  if(['mi','mn','mo','mtext','ms'].includes(t))return'<m:r><m:t xml:space="preserve">'+esc(n.textContent)+'</m:t></m:r>';
-  return c.length?r():'<m:r><m:t>'+esc(n.textContent||'')+'</m:t></m:r>';
+  if(['mi','mn','mo','mtext','ms'].includes(t))return'<m:r><m:rPr><m:nor/></m:rPr><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial"/><w:sz w:val="24"/></w:rPr><m:t xml:space="preserve">'+esc(n.textContent)+'</m:t></m:r>';
+  return c.length?r():'<m:r><m:rPr><m:nor/></m:rPr><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial"/><w:sz w:val="24"/></w:rPr><m:t>'+esc(n.textContent||'')+'</m:t></m:r>';
  }
  function asHTML(n){
   const t=tag(n),c=children(n),r=()=>c.map(asHTML).join('');
@@ -37,7 +37,7 @@
  }
  function template(q){
   const body=split(q.question,'Question'),key=split(q.answer,'Marking-key');
-  return{question:'',parts:[{label:'',text:body.html,marks:q.marks,lines:q.type==='Multiple choice'?0:q.responseLines||4,space:'lines',diagram:body.figures}],diagram:'',answer:key.html,marks:q.marks,responseLines:0,nativeWordCopy:true,wordKeyDiagram:key.figures};
+  return{question:'',parts:[{label:'',text:body.html,marks:q.marks,lines:0,space:'lines',diagram:body.figures}],diagram:'',answer:key.html,marks:q.marks,responseLines:0,nativeWordCopy:true,wordKeyDiagram:key.figures};
  }
  root.StudioAssessmentWord={template,asHTML,math:n=>'<m:oMath>'+omml(n)+'</m:oMath>'};
 })(typeof window==='undefined'?globalThis:window);

@@ -1,0 +1,6 @@
+/* Question typography shared by Practice Studio, teacher editing and printed assessments. */
+:is(#qtext,#feedback .exam-content,#feedback .written-marking-key,#answers .choice-content,.bankitem,.paper #questions,.teacher-edit-body){font-family:Arial,sans-serif!important;font-size:12pt!important;line-height:1.5}
+:is(#qtext,#feedback .exam-content,#feedback .written-marking-key,#answers .choice-content,.bankitem,.paper #questions,.teacher-edit-body) :is(p,span,div,li,td,th,h1,h2,h3,h4,strong,b,em,i,a,label,math,mtext,mn,mi,mo){font-family:Arial,sans-serif!important;font-size:12pt!important}
+:is(#qtext,.paper #questions,.teacher-edit-body) :is(sup,sub){font-family:Arial,sans-serif!important;font-size:75%!important}
+.studio-native-question{font-family:Arial,sans-serif;font-size:12pt}.studio-native-question math{display:inline-block;vertical-align:middle;margin:0 .12em}.studio-native-question p{margin:.65em 0}.studio-native-question table{border-collapse:collapse}
+@media print{#questions,#questions :is(p,span,div,td,th,li,strong,b,math,mtext,mn,mi,mo){font-family:Arial,sans-serif!important;font-size:12pt!important}}

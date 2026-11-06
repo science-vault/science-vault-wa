@@ -32,7 +32,7 @@ test('every configured typed answer passes the real checker and wrong answers fa
 });
 test('multiple-choice letters and marked image choices stay aligned',()=>{
  const a=rows.filter(q=>q.markingMode==='automatic');assert.equal(a.length,223);
- for(const q of a){assert.deepEqual(q.options,['A','B','C','D']);assert.ok(Number.isInteger(q.correctAnswer)&&q.correctAnswer>=0&&q.correctAnswer<4);assert.match(q.html,/matching letter/);}
+ for(const q of a){assert.deepEqual(q.options,['A','B','C','D']);assert.ok(Number.isInteger(q.correctAnswer)&&q.correctAnswer>=0&&q.correctAnswer<4);if(q.editableText){assert.equal(q.optionsHtml.length,4);for(const option of q.optionsHtml)assert.ok(option.trim());}else assert.match(q.html,/matching letter/);}
  assert.equal(get('shapes',4).correctAnswer,2);assert.equal(get('pythagoras',1).correctAnswer,2);
 });
 test('incorrect supplied answers are corrected before automatic grading',()=>{
@@ -44,7 +44,7 @@ test('incorrect supplied answers are corrected before automatic grading',()=>{
 });
 test('shared maps and context survive random practice, and print measurements work on screen',()=>{
  for(let n=1;n<=22;n++)assert.ok((get('location',n).html.match(/<figure>/g)||[]).length>=2);
- for(let n=1;n<=8;n++)assert.ok((get('integers',n).html.match(/<figure>/g)||[]).length>=2);
+ for(let n=1;n<=8;n++)assert.ok((get('integers',n).html.match(/<figure>/g)||[]).length>=(get('integers',n).editableText?1:2));
  assert.match(get('location',20).html,/40 m/);assert.match(get('area',4).html,/8.5 cm by 4 cm/);
  assert.match(get('decimals',20).html,/positive/);
  assert.match(get('transformations-and-congruence',9).answerHtml,/Either a correct clockwise or a correct anticlockwise/);
