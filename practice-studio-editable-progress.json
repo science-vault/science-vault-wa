@@ -107,43 +107,106 @@
     "maths-lower-batch-number-systems-q28",
     "maths-lower-batch-number-systems-q29",
     "maths-lower-batch-location-q1",
+    "maths-lower-batch-location-q2",
+    "maths-lower-batch-location-q3",
     "maths-lower-batch-location-q4",
     "maths-lower-batch-location-q5",
+    "maths-lower-batch-location-q6",
+    "maths-lower-batch-location-q7",
     "maths-lower-batch-location-q8",
+    "maths-lower-batch-location-q9",
     "maths-lower-batch-location-q10",
     "maths-lower-batch-location-q11",
     "maths-lower-batch-location-q12",
     "maths-lower-batch-location-q13",
+    "maths-lower-batch-location-q14",
     "maths-lower-batch-location-q15",
     "maths-lower-batch-location-q16",
     "maths-lower-batch-location-q17",
     "maths-lower-batch-location-q19",
+    "maths-lower-batch-location-q20",
     "maths-lower-batch-location-q21",
     "maths-lower-batch-location-q22",
     "maths-lower-batch-pythagoras-q1",
     "maths-lower-batch-pythagoras-q2",
+    "maths-lower-batch-pythagoras-q5",
     "maths-lower-batch-pythagoras-q6",
     "maths-lower-batch-pythagoras-q7",
+    "maths-lower-batch-pythagoras-q8",
     "maths-lower-batch-pythagoras-q9",
     "maths-lower-batch-pythagoras-q10",
     "maths-lower-batch-pythagoras-q11",
     "maths-lower-batch-pythagoras-q12",
     "maths-lower-batch-pythagoras-q13",
+    "maths-lower-batch-pythagoras-q14",
     "maths-lower-batch-pythagoras-q15",
     "maths-lower-batch-pythagoras-q16",
     "maths-lower-batch-pythagoras-q17",
     "maths-lower-batch-pythagoras-q18",
     "maths-lower-batch-pythagoras-q19",
     "maths-lower-batch-pythagoras-q20",
+    "maths-lower-batch-shapes-q1",
     "maths-lower-batch-shapes-q2",
     "maths-lower-batch-shapes-q3",
     "maths-lower-batch-shapes-q4",
+    "maths-lower-batch-shapes-q5",
+    "maths-lower-batch-shapes-q6",
+    "maths-lower-batch-shapes-q7",
+    "maths-lower-batch-shapes-q9",
     "maths-lower-batch-shapes-q10",
+    "maths-lower-batch-shapes-q15",
+    "maths-lower-batch-shapes-q16",
+    "maths-lower-batch-shapes-q17",
+    "maths-lower-batch-shapes-q18",
+    "maths-lower-batch-shapes-q19",
+    "maths-lower-batch-shapes-q20",
+    "maths-lower-batch-shapes-q21",
+    "maths-lower-batch-shapes-q22",
+    "maths-lower-batch-shapes-q23",
+    "maths-lower-batch-shapes-q24",
+    "maths-lower-batch-transformations-and-congruence-q1",
+    "maths-lower-batch-transformations-and-congruence-q2",
+    "maths-lower-batch-transformations-and-congruence-q3",
+    "maths-lower-batch-transformations-and-congruence-q4",
+    "maths-lower-batch-transformations-and-congruence-q5",
+    "maths-lower-batch-transformations-and-congruence-q6",
+    "maths-lower-batch-transformations-and-congruence-q7",
+    "maths-lower-batch-transformations-and-congruence-q8",
+    "maths-lower-batch-transformations-and-congruence-q9",
+    "maths-lower-batch-transformations-and-congruence-q10",
+    "maths-lower-batch-transformations-and-congruence-q11",
     "maths-lower-batch-transformations-and-congruence-q12",
     "maths-lower-batch-transformations-and-congruence-q13",
+    "maths-lower-batch-transformations-and-congruence-q14",
+    "maths-lower-batch-transformations-and-congruence-q15",
+    "maths-lower-batch-transformations-and-congruence-q16",
+    "maths-lower-batch-transformations-and-congruence-q17",
+    "maths-lower-batch-transformations-and-congruence-q18",
+    "maths-lower-batch-transformations-and-congruence-q19",
+    "maths-lower-batch-transformations-and-congruence-q20",
+    "maths-lower-batch-polygons-and-circles-q2",
+    "maths-lower-batch-polygons-and-circles-q4",
+    "maths-lower-batch-polygons-and-circles-q5",
+    "maths-lower-batch-polygons-and-circles-q6",
+    "maths-lower-batch-polygons-and-circles-q7",
+    "maths-lower-batch-polygons-and-circles-q8",
+    "maths-lower-batch-polygons-and-circles-q9",
+    "maths-lower-batch-polygons-and-circles-q10",
+    "maths-lower-batch-polygons-and-circles-q11",
     "maths-lower-batch-polygons-and-circles-q12",
+    "maths-lower-batch-polygons-and-circles-q13",
+    "maths-lower-batch-polygons-and-circles-q14",
+    "maths-lower-batch-polygons-and-circles-q15",
     "maths-lower-batch-polygons-and-circles-q16",
+    "maths-lower-batch-polygons-and-circles-q17",
+    "maths-lower-batch-polygons-and-circles-q18",
+    "maths-lower-batch-polygons-and-circles-q19",
+    "maths-lower-batch-polygons-and-circles-q20",
     "maths-lower-batch-polygons-and-circles-q21",
+    "maths-lower-batch-polygons-and-circles-q22",
+    "maths-lower-batch-polygons-and-circles-q23",
+    "maths-lower-batch-polygons-and-circles-q24",
+    "maths-lower-batch-polygons-and-circles-q25",
     "maths-lower-batch-integers-q2",
     "maths-lower-batch-integers-q3",
     "maths-lower-batch-integers-q4",
@@ -163,11 +226,18 @@
     "maths-lower-batch-integers-q18",
     "maths-lower-batch-integers-q19",
     "maths-lower-batch-integers-q20",
+    "maths-lower-batch-integers-q21",
+    "maths-lower-batch-integers-q22",
+    "maths-lower-batch-integers-q23",
     "maths-lower-batch-integers-q24",
     "maths-lower-batch-integers-q25",
     "maths-lower-batch-integers-q26",
     "maths-lower-batch-integers-q27",
+    "maths-lower-batch-integers-q28",
     "maths-lower-batch-integers-q29",
+    "maths-lower-batch-integers-q30",
+    "maths-lower-batch-fractions-q2",
+    "maths-lower-batch-fractions-q5",
     "maths-lower-batch-fractions-q6",
     "maths-lower-batch-fractions-q7",
     "maths-lower-batch-fractions-q8",
@@ -175,6 +245,7 @@
     "maths-lower-batch-fractions-q10",
     "maths-lower-batch-fractions-q11",
     "maths-lower-batch-fractions-q12",
+    "maths-lower-batch-fractions-q13",
     "maths-lower-batch-fractions-q15",
     "maths-lower-batch-fractions-q16",
     "maths-lower-batch-fractions-q17",
@@ -193,6 +264,10 @@
     "maths-lower-batch-fractions-q30",
     "maths-lower-batch-fractions-q31",
     "maths-lower-batch-fractions-q32",
+    "maths-lower-algebra-910-coordinate-geometry-short-q1",
+    "maths-lower-algebra-910-coordinate-geometry-short-q2",
+    "maths-lower-algebra-910-coordinate-geometry-short-q3",
+    "maths-lower-algebra-910-coordinate-geometry-short-q4",
     "maths-lower-algebra-910-coordinate-geometry-short-q5",
     "maths-lower-algebra-910-coordinate-geometry-short-q6",
     "maths-lower-algebra-910-coordinate-geometry-short-q7",
@@ -201,18 +276,36 @@
     "maths-lower-algebra-910-coordinate-geometry-short-q10",
     "maths-lower-algebra-910-coordinate-geometry-short-q11",
     "maths-lower-algebra-910-coordinate-geometry-short-q12",
+    "maths-lower-algebra-910-coordinate-geometry-short-q13",
+    "maths-lower-algebra-910-coordinate-geometry-choice-q2",
+    "maths-lower-algebra-910-coordinate-geometry-choice-q3",
+    "maths-lower-algebra-910-coordinate-geometry-choice-q4",
     "maths-lower-algebra-910-coordinate-geometry-choice-q5",
+    "maths-lower-algebra-910-coordinate-geometry-choice-q7",
+    "maths-lower-algebra-910-coordinate-geometry-choice-q8",
     "maths-lower-algebra-910-coordinate-geometry-choice-q9",
     "maths-lower-algebra-910-coordinate-geometry-choice-q10",
     "maths-lower-algebra-910-coordinate-geometry-choice-q11",
     "maths-lower-algebra-910-coordinate-geometry-choice-q12",
+    "maths-lower-algebra-910-coordinate-geometry-long-q2",
     "maths-lower-algebra-910-functions-and-graphs-short-q1",
     "maths-lower-algebra-910-functions-and-graphs-short-q2",
     "maths-lower-algebra-910-functions-and-graphs-short-q3",
+    "maths-lower-algebra-910-functions-and-graphs-short-q4",
     "maths-lower-algebra-910-functions-and-graphs-short-q5",
+    "maths-lower-algebra-910-functions-and-graphs-short-q6",
     "maths-lower-algebra-910-functions-and-graphs-choice-q1",
+    "maths-lower-algebra-910-functions-and-graphs-choice-q2",
     "maths-lower-algebra-910-functions-and-graphs-choice-q3",
+    "maths-lower-algebra-910-functions-and-graphs-choice-q4",
+    "maths-lower-algebra-910-functions-and-graphs-choice-q5",
+    "maths-lower-algebra-910-functions-and-graphs-choice-q6",
+    "maths-lower-algebra-910-functions-and-graphs-choice-q7",
     "maths-lower-algebra-910-functions-and-graphs-choice-q8",
+    "maths-lower-algebra-910-functions-and-graphs-choice-q9",
+    "maths-lower-algebra-910-functions-and-graphs-choice-q10",
+    "maths-lower-algebra-910-functions-and-graphs-long-q1",
+    "maths-lower-algebra-910-functions-and-graphs-long-q2",
     "maths-lower-batch-decimals-q3",
     "maths-lower-batch-decimals-q5",
     "maths-lower-batch-decimals-q6",
@@ -337,6 +430,7 @@
     "maths-lower-algebra-910-non-linear-equations-short-q7",
     "maths-lower-algebra-910-non-linear-equations-short-q8",
     "maths-lower-algebra-910-non-linear-equations-short-q9",
+    "maths-lower-algebra-910-non-linear-equations-short-q10",
     "maths-lower-algebra-910-non-linear-equations-choice-q1",
     "maths-lower-algebra-910-non-linear-equations-choice-q2",
     "maths-lower-algebra-910-non-linear-equations-choice-q3",
@@ -348,11 +442,14 @@
     "maths-lower-algebra-910-non-linear-equations-choice-q9",
     "maths-lower-algebra-910-non-linear-equations-choice-q10",
     "maths-lower-algebra-910-non-linear-equations-choice-q11",
+    "maths-lower-algebra-910-non-linear-equations-choice-q12",
+    "maths-lower-algebra-910-non-linear-equations-choice-q13",
     "maths-lower-algebra-910-non-linear-equations-choice-q14",
     "maths-lower-batch-area-q1",
     "maths-lower-batch-area-q2",
     "maths-lower-batch-area-q3",
     "maths-lower-batch-area-q4",
+    "maths-lower-batch-area-q5",
     "maths-lower-batch-area-q7",
     "maths-lower-batch-area-q8",
     "maths-lower-batch-area-q9",
@@ -368,6 +465,7 @@
     "maths-lower-batch-area-q19",
     "maths-lower-batch-area-q20",
     "maths-lower-batch-area-q21",
+    "maths-lower-batch-area-q23",
     "maths-lower-batch-area-q25",
     "maths-lower-algebra-910-linear-equations-short-q1",
     "maths-lower-algebra-910-linear-equations-short-q2",
@@ -375,6 +473,7 @@
     "maths-lower-algebra-910-linear-equations-short-q4",
     "maths-lower-algebra-910-linear-equations-short-q5",
     "maths-lower-algebra-910-linear-equations-short-q6",
+    "maths-lower-algebra-910-linear-equations-short-q7",
     "maths-lower-algebra-910-linear-equations-short-q8",
     "maths-lower-algebra-910-linear-equations-choice-q1",
     "maths-lower-algebra-910-linear-equations-choice-q2",
@@ -393,11 +492,33 @@
     "maths-lower-algebra-910-simultaneous-equations-short-q6",
     "maths-lower-algebra-910-simultaneous-equations-short-q7",
     "maths-lower-algebra-910-simultaneous-equations-choice-q1",
+    "maths-lower-algebra-910-simultaneous-equations-choice-q2",
     "maths-lower-algebra-910-simultaneous-equations-choice-q4",
     "maths-lower-algebra-910-simultaneous-equations-choice-q5",
+    "maths-lower-algebra-910-simultaneous-equations-long-q1",
+    "maths-lower-algebra-910-simultaneous-equations-long-q2",
+    "maths-lower-batch-angles-q1",
+    "maths-lower-batch-angles-q2",
     "maths-lower-batch-angles-q3",
+    "maths-lower-batch-angles-q4",
     "maths-lower-batch-angles-q5",
+    "maths-lower-batch-angles-q7",
+    "maths-lower-batch-angles-q8",
+    "maths-lower-batch-angles-q9",
+    "maths-lower-batch-angles-q10",
+    "maths-lower-batch-angles-q11",
+    "maths-lower-batch-angles-q12",
+    "maths-lower-batch-angles-q14",
+    "maths-lower-batch-angles-q15",
+    "maths-lower-batch-angles-q16",
+    "maths-lower-batch-angles-q17",
+    "maths-lower-batch-angles-q18",
+    "maths-lower-batch-angles-q19",
+    "maths-lower-batch-angles-q20",
+    "maths-lower-batch-ratio-and-rates-q1",
     "maths-lower-batch-ratio-and-rates-q2",
+    "maths-lower-batch-ratio-and-rates-q3",
+    "maths-lower-batch-ratio-and-rates-q4",
     "maths-lower-batch-ratio-and-rates-q5",
     "maths-lower-batch-ratio-and-rates-q6",
     "maths-lower-batch-ratio-and-rates-q9",
@@ -425,6 +546,7 @@
     "maths-lower-batch-ratio-and-rates-q33",
     "maths-lower-batch-ratio-and-rates-q34",
     "maths-lower-batch-ratio-and-rates-q35",
+    "maths-lower-batch-percentages-q1",
     "maths-lower-batch-percentages-q2",
     "maths-lower-batch-percentages-q3",
     "maths-lower-batch-percentages-q4",
@@ -454,710 +576,62 @@
     "maths-lower-batch-percentages-q29",
     "maths-lower-batch-percentages-q30",
     "maths-lower-batch-percentages-q31",
-    "maths-lower-batch-percentages-q32"
+    "maths-lower-batch-percentages-q32",
+    "maths-lower-batch-rational-numbers-q7",
+    "maths-lower-batch-rational-numbers-q31",
+    "maths-lower-batch-number-systems-q10",
+    "maths-lower-batch-number-systems-q14",
+    "maths-lower-batch-number-systems-q19",
+    "maths-lower-batch-number-systems-q22",
+    "maths-lower-batch-number-systems-q23",
+    "maths-lower-batch-number-systems-q30",
+    "maths-lower-batch-location-q18",
+    "maths-lower-batch-pythagoras-q3",
+    "maths-lower-batch-pythagoras-q4",
+    "maths-lower-batch-shapes-q8",
+    "maths-lower-batch-shapes-q11",
+    "maths-lower-batch-shapes-q12",
+    "maths-lower-batch-shapes-q13",
+    "maths-lower-batch-shapes-q14",
+    "maths-lower-batch-shapes-q25",
+    "maths-lower-batch-polygons-and-circles-q1",
+    "maths-lower-batch-polygons-and-circles-q3",
+    "maths-lower-batch-integers-q1",
+    "maths-lower-batch-fractions-q1",
+    "maths-lower-batch-fractions-q3",
+    "maths-lower-batch-fractions-q4",
+    "maths-lower-batch-fractions-q14",
+    "maths-lower-algebra-910-coordinate-geometry-choice-q1",
+    "maths-lower-algebra-910-coordinate-geometry-choice-q6",
+    "maths-lower-algebra-910-coordinate-geometry-long-q1",
+    "maths-lower-batch-decimals-q1",
+    "maths-lower-batch-decimals-q2",
+    "maths-lower-batch-decimals-q4",
+    "maths-lower-batch-decimals-q15",
+    "maths-lower-batch-decimals-q19",
+    "maths-lower-batch-decimals-q35",
+    "maths-lower-algebra-910-algebraic-expansions-short-q1",
+    "maths-lower-algebra-910-algebraic-expansions-short-q3",
+    "maths-lower-batch-metric-system-q8",
+    "maths-lower-batch-metric-system-q17",
+    "maths-lower-batch-metric-system-q20",
+    "maths-lower-batch-metric-system-q21",
+    "maths-lower-batch-metric-system-q23",
+    "maths-lower-batch-metric-system-q24",
+    "maths-lower-batch-area-q6",
+    "maths-lower-batch-area-q22",
+    "maths-lower-batch-area-q24",
+    "maths-lower-algebra-910-linear-equations-choice-q9",
+    "maths-lower-algebra-910-simultaneous-equations-choice-q3",
+    "maths-lower-batch-angles-q6",
+    "maths-lower-batch-angles-q13",
+    "maths-lower-batch-ratio-and-rates-q7",
+    "maths-lower-batch-ratio-and-rates-q8",
+    "maths-lower-batch-ratio-and-rates-q22",
+    "maths-lower-batch-ratio-and-rates-q26",
+    "maths-lower-batch-percentages-q22"
   ],
-  "pending": [
-    {
-      "id": "maths-lower-batch-rational-numbers-q7",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-rational-numbers-q31",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-number-systems-q10",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-number-systems-q14",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-number-systems-q19",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-number-systems-q22",
-      "reason": "Referenced source diagram requires separate mapping"
-    },
-    {
-      "id": "maths-lower-batch-number-systems-q23",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-number-systems-q30",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-location-q2",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-location-q3",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-location-q6",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-location-q7",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-location-q9",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-location-q14",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-location-q18",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-location-q20",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-pythagoras-q3",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-pythagoras-q4",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-pythagoras-q5",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-pythagoras-q8",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-pythagoras-q14",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-shapes-q1",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-shapes-q5",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-shapes-q6",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-shapes-q7",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-shapes-q8",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-shapes-q9",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-shapes-q11",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-shapes-q12",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-shapes-q13",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-shapes-q14",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-shapes-q15",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-shapes-q16",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-shapes-q17",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-shapes-q18",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-shapes-q19",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-shapes-q20",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-shapes-q21",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-shapes-q22",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-shapes-q23",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-shapes-q24",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-shapes-q25",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-transformations-and-congruence-q1",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-transformations-and-congruence-q2",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-transformations-and-congruence-q3",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-transformations-and-congruence-q4",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-transformations-and-congruence-q5",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-transformations-and-congruence-q6",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-transformations-and-congruence-q7",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-transformations-and-congruence-q8",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-transformations-and-congruence-q9",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-transformations-and-congruence-q10",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-transformations-and-congruence-q11",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-transformations-and-congruence-q14",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-transformations-and-congruence-q15",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-transformations-and-congruence-q16",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-transformations-and-congruence-q17",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-transformations-and-congruence-q18",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-transformations-and-congruence-q19",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-transformations-and-congruence-q20",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-polygons-and-circles-q1",
-      "reason": "Referenced source diagram requires separate mapping"
-    },
-    {
-      "id": "maths-lower-batch-polygons-and-circles-q2",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-polygons-and-circles-q3",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-polygons-and-circles-q4",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-polygons-and-circles-q5",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-polygons-and-circles-q6",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-polygons-and-circles-q7",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-polygons-and-circles-q8",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-polygons-and-circles-q9",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-polygons-and-circles-q10",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-polygons-and-circles-q11",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-polygons-and-circles-q13",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-polygons-and-circles-q14",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-polygons-and-circles-q15",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-polygons-and-circles-q17",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-polygons-and-circles-q18",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-polygons-and-circles-q19",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-polygons-and-circles-q20",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-polygons-and-circles-q22",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-polygons-and-circles-q23",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-polygons-and-circles-q24",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-polygons-and-circles-q25",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-integers-q1",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-integers-q21",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-integers-q22",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-integers-q23",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-integers-q28",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-integers-q30",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-fractions-q1",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-fractions-q2",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-fractions-q3",
-      "reason": "Referenced source diagram requires separate mapping"
-    },
-    {
-      "id": "maths-lower-batch-fractions-q4",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-fractions-q5",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-fractions-q13",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-fractions-q14",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-algebra-910-coordinate-geometry-short-q1",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-algebra-910-coordinate-geometry-short-q2",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-algebra-910-coordinate-geometry-short-q3",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-algebra-910-coordinate-geometry-short-q4",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-algebra-910-coordinate-geometry-short-q13",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-algebra-910-coordinate-geometry-choice-q1",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-algebra-910-coordinate-geometry-choice-q2",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-algebra-910-coordinate-geometry-choice-q3",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-algebra-910-coordinate-geometry-choice-q4",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-algebra-910-coordinate-geometry-choice-q6",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-algebra-910-coordinate-geometry-choice-q7",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-algebra-910-coordinate-geometry-choice-q8",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-algebra-910-coordinate-geometry-long-q1",
-      "reason": "source structure needs manual mapping"
-    },
-    {
-      "id": "maths-lower-algebra-910-coordinate-geometry-long-q2",
-      "reason": "source structure needs manual mapping"
-    },
-    {
-      "id": "maths-lower-algebra-910-functions-and-graphs-short-q4",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-algebra-910-functions-and-graphs-short-q6",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-algebra-910-functions-and-graphs-choice-q2",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-algebra-910-functions-and-graphs-choice-q4",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-algebra-910-functions-and-graphs-choice-q5",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-algebra-910-functions-and-graphs-choice-q6",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-algebra-910-functions-and-graphs-choice-q7",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-algebra-910-functions-and-graphs-choice-q9",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-algebra-910-functions-and-graphs-choice-q10",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-algebra-910-functions-and-graphs-long-q1",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-algebra-910-functions-and-graphs-long-q2",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-decimals-q1",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-decimals-q2",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-decimals-q4",
-      "reason": "choice layout needs manual mapping"
-    },
-    {
-      "id": "maths-lower-batch-decimals-q15",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-decimals-q19",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-decimals-q35",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-algebra-910-algebraic-expansions-short-q1",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-algebra-910-algebraic-expansions-short-q3",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-metric-system-q8",
-      "reason": "choice layout needs manual mapping"
-    },
-    {
-      "id": "maths-lower-batch-metric-system-q17",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-metric-system-q20",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-metric-system-q21",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-metric-system-q23",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-metric-system-q24",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-algebra-910-non-linear-equations-short-q10",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-algebra-910-non-linear-equations-choice-q12",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-algebra-910-non-linear-equations-choice-q13",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-area-q5",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-area-q6",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-area-q22",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-area-q23",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-area-q24",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-algebra-910-linear-equations-short-q7",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-algebra-910-linear-equations-choice-q9",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-algebra-910-simultaneous-equations-choice-q2",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-algebra-910-simultaneous-equations-choice-q3",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-algebra-910-simultaneous-equations-long-q1",
-      "reason": "source structure needs manual mapping"
-    },
-    {
-      "id": "maths-lower-algebra-910-simultaneous-equations-long-q2",
-      "reason": "source structure needs manual mapping"
-    },
-    {
-      "id": "maths-lower-batch-angles-q1",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-angles-q2",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-angles-q4",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-angles-q6",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-angles-q7",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-angles-q8",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-angles-q9",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-angles-q10",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-angles-q11",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-angles-q12",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-angles-q13",
-      "reason": "Referenced source diagram requires separate mapping"
-    },
-    {
-      "id": "maths-lower-batch-angles-q14",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-angles-q15",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-angles-q16",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-angles-q17",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-angles-q18",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-angles-q19",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-angles-q20",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-ratio-and-rates-q1",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-ratio-and-rates-q3",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-ratio-and-rates-q4",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-ratio-and-rates-q7",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-ratio-and-rates-q8",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-ratio-and-rates-q22",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-ratio-and-rates-q26",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-percentages-q1",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-percentages-q22",
-      "reason": "source diagram or embedded object requires separate conversion"
-    }
-  ],
+  "pending": [],
   "nativeExisting": [
     "maths-lower-data-graphs-plots-q1",
     "maths-lower-data-graphs-plots-q2",
@@ -1668,26 +1142,193 @@
   "subjects": {
     "Mathematics": {
       "total": 1128,
-      "convertedThisBatch": 453,
-      "convertedTotal": 453,
-      "wholeQuestionImagesRemaining": 175,
-      "existingTextQuestionsToReview": 500
+      "convertedThisBatch": 628,
+      "convertedTotal": 628,
+      "wholeQuestionImagesRemaining": 0,
+      "existingTextQuestionsToReview": 0,
+      "reviewed": 1128,
+      "questionFormattingChanges": 190,
+      "status": "complete",
+      "existingTextQuestionsReviewed": 500
     },
     "Mathematics Methods": {
       "total": 278,
-      "status": "queued"
+      "status": "complete",
+      "reviewed": 278,
+      "questionFormattingChanges": 22
     },
     "Physics": {
       "total": 352,
-      "status": "queued"
+      "status": "complete",
+      "reviewed": 352,
+      "questionFormattingChanges": 253
     },
     "Chemistry": {
       "total": 353,
-      "status": "queued"
+      "status": "complete",
+      "reviewed": 353,
+      "questionFormattingChanges": 21
     },
     "Human Biology": {
       "total": 601,
-      "status": "queued"
+      "status": "complete",
+      "reviewed": 601,
+      "questionFormattingChanges": 71
     }
+  },
+  "formatReview": {
+    "total": 2712,
+    "subjects": {
+      "Chemistry": {
+        "total": 353,
+        "reviewed": 353,
+        "questionFormattingChanges": 21
+      },
+      "Human Biology": {
+        "total": 601,
+        "reviewed": 601,
+        "questionFormattingChanges": 71
+      },
+      "Mathematics": {
+        "total": 1128,
+        "reviewed": 1128,
+        "questionFormattingChanges": 190
+      },
+      "Mathematics Methods": {
+        "total": 278,
+        "reviewed": 278,
+        "questionFormattingChanges": 22
+      },
+      "Physics": {
+        "total": 352,
+        "reviewed": 352,
+        "questionFormattingChanges": 253
+      }
+    },
+    "font": "Arial",
+    "fontSizePt": 12,
+    "automaticAnswerLines": false,
+    "sourceHashes": {
+      "practice-studio-chemistry-2020-u1.json": "04ed7a89be325f29b5c5a6c913c1d0d968c72d96ef56d460d5d97ef1ea4f963d",
+      "practice-studio-chemistry-2020-u12.json": "4865d34924f25f21389cda91368c3ff43d30ab8d44b082aa40f92d52b9f281ae",
+      "practice-studio-chemistry-2021-u1.json": "1ad4fa502b36829feefa82f5cc6252dfcd63d813079f03fa0d08a275562c849b",
+      "practice-studio-chemistry-2021-u12.json": "8ff0ffeac0aea48e7227efb5eddf7be6ba2419621bd2d1ccfac23d61583b5124",
+      "practice-studio-chemistry-2022-u1.json": "d43977c43d430ef1e6cdb935bbb305683cccd7c3df48abb0ebd3ae242c7ff6f9",
+      "practice-studio-chemistry-2022-u12.json": "2af508ffbdc42659e3f0c4d862d2e6d75c326c10e1f74a5cb18be9982426d992",
+      "practice-studio-chemistry-2023-u1.json": "6fec1a267c791135f1db698de2d434e618a9bbd6ca03aa829397bd2ec9d823fc",
+      "practice-studio-chemistry-2023-u12.json": "c5ba1bec0cb57c1aff7757885531430a10787bc508c2513f03415e2fb5083197",
+      "practice-studio-chemistry-2024-u1.json": "4c58e6a401eae43c29014772b92194940d22d25ba3a124e1e14be2413c22872e",
+      "practice-studio-human-biology-2020-u1.json": "c97663425d93d24fc2e4b99b3d3026f4f79f3362384313a9ffb620149fe98be4",
+      "practice-studio-human-biology-2020-u12.json": "c57bed800c68a724c47ca6319c7042c7ea3eb07bc3313be2d9b699876322c047",
+      "practice-studio-human-biology-2020-u3.json": "dae90ea7aafe6e1098101cd8dabb50646734cd03f97fa645f224a93de9b4517f",
+      "practice-studio-human-biology-2020-u34.json": "cec9daeaaa56db47b37bd60bd135fa254ccd760c936767a6d29a8c3c7d2b9e38",
+      "practice-studio-human-biology-2021-u12.json": "df492b528fdb2291d5e90a7f09944ec98753412d0d498819f94e908d2d47d4f2",
+      "practice-studio-human-biology-2021-u3.json": "54bc9c9b227f8508ece3f51b80484adf73298e42df64a374f1ac3ecd4a05a911",
+      "practice-studio-human-biology-2021-u34.json": "8be0db2daf147e4dfc29ebedbdf53b702305353a3fac20b088ff3aca2804580b",
+      "practice-studio-human-biology-2022-u12.json": "39d613c5264f5f866e56977b3e2f3185ce8dcb509dbdb0bd53407b80d0b09259",
+      "practice-studio-human-biology-2022-u3.json": "13c04f045a7c3563b37095c00ac6b764351dfbff891ab195b06461d5db1bed2b",
+      "practice-studio-human-biology-2022-u34.json": "eba29b4f5d1616f93135996efcf2a94ee8f10abb2f378de2c6118470d28ba44b",
+      "practice-studio-human-biology-2023-u1.json": "0d16683e453cb28ccc98b0e4a4773f286d0ff0c1956203c7e82fee879738d472",
+      "practice-studio-human-biology-2023-u3.json": "b434767df359bbb59785128c28523cdfa1e9998b65c3e60654adb401a996d158",
+      "practice-studio-human-biology-2023-u34.json": "591951fbb0a7ea3725c8b3c532cb9dfc9278798850582574aa46845a4c3a3bce",
+      "practice-studio-human-biology-2024-u3.json": "8b5fcc196489e6d4018d045bea3c67449072c8173d7d8330eb0f18102bccebc9",
+      "practice-studio-human-biology-2024-u34.json": "ab9a3100183687e23a974c28589805d4e1022b22e999f80befabb4a80f171838",
+      "practice-studio-mathematics-algebraic-expansions-910.json": "afe29c78eee8efc6b51f4a275faef1c6dff664d02d711f193362985d11a9f5b3",
+      "practice-studio-mathematics-angles.json": "8adedb1a908445f2e8fab60f9dbff7fb5761d9265dfdf5b8ed5c48c05d438163",
+      "practice-studio-mathematics-area.json": "98701ab2de2659faf9b14990549ef07418b651d9229736cf6fa66415251edf2c",
+      "practice-studio-mathematics-basic-algebra-skills-910.json": "459a1dcbdf15f0e9e632aa247056a64cd2f5bdcf967647dbc84d98e6acdecd1b",
+      "practice-studio-mathematics-basic-algebra.json": "cce7e928070b3f895fe289f197f4e4801df133673d6ce8cafdccb5a39b50981b",
+      "practice-studio-mathematics-basic-statistics-data910.json": "0adda0acad0ae1b4aa3681e6a1a673db2794046f869da356260df6647fae2c5b",
+      "practice-studio-mathematics-bivariate-data-data910.json": "9f4fa7b9dc44d5a8dfcdce097e2c73dc668668db63ca8cf376e3d42db16c987d",
+      "practice-studio-mathematics-coordinate-geometry-910.json": "6f5f52554aa1e8b73751aa9f01cfc69ab7eb06ee0c966704c7be1e7bfb992162",
+      "practice-studio-mathematics-data-comparison-data910.json": "7ea5f222f9bce9f2a090f92339c9a192f923820387ffd9f6d25eea56084d0305",
+      "practice-studio-mathematics-data-interpretation-comparison-data910.json": "417b1fc49b1f5cb2affbd22e1326f36a34295f3fed029e009597ca3706e643a6",
+      "practice-studio-mathematics-data-interpretation-data910.json": "013be9ee00dc4759e17dddce26c9ae4f6f368c6ef5b12a1271b5f903b25c71c0",
+      "practice-studio-mathematics-decimals.json": "9c3342cf67ea11d9a080ad78cfe251fb1401c5d336e1326961383a0eae889916",
+      "practice-studio-mathematics-equations-formulae.json": "53ed1e58df1a1f1a0fe7a5fa81c531e362ca06154ac9b40faaa50954b4071e38",
+      "practice-studio-mathematics-factorisation-910.json": "e36f7f4688bda96900d9496ffaa17ab7da6807c648dd79d7102b3737f10a41a8",
+      "practice-studio-mathematics-fractions.json": "e0dbc8cea6a54daa9a639bdc236b1f67bb3b79571ad7f4a8e34f5c3eb89e657c",
+      "practice-studio-mathematics-functions-and-graphs-910.json": "aff9ca880a130e929286cdc789eb6d279519a9b1d367abdf723407c1bec0a1b1",
+      "practice-studio-mathematics-further-algebra.json": "bd2935e55ae6fcc4bee2be5f4290986176ea3bc21740414817d2c698d779b5f6",
+      "practice-studio-mathematics-further-probability.json": "eb68287c47dbbc2563f5472bfdf452a39c2d2a45f62a5111b0de9c039f5c1bfb",
+      "practice-studio-mathematics-geometry-2016.json": "953c3f3d0b6ca591b1334bd79e2ca1c8e977f4f66d708f053bf00b47a9311d39",
+      "practice-studio-mathematics-graphs-plots.json": "b3968e7f7882a7e7674014d7a897556df25c91fb181bbf6ce439911684f6892a",
+      "practice-studio-mathematics-graphs-tables-charts.json": "24cebeff68ad2a8a79a1d42fdeb084d89b6c46b04f109c8280e3ab25df463c2f",
+      "practice-studio-mathematics-integers.json": "eabafa689a0b2b87dd78c6c7dff4b972ac492491ddee5c212398b194b5ba04c7",
+      "practice-studio-mathematics-linear-equations-910.json": "81cea59978d0d72c1423cc2a96007b56631b4ece67967fb5cf51e56238c12ad6",
+      "practice-studio-mathematics-linear-relations.json": "06c87f9aabe3333aec97fe0d6ddaf3590fb380a29e37754be3f97ba6029e3219",
+      "practice-studio-mathematics-location.json": "c0ecdafebaa0cf16c80d9f0a1108d9ce10c8d5775bb41b96b1cdb1e170918b7c",
+      "practice-studio-mathematics-metric-system.json": "299f95a63e4b148d2ddda7a64c85b0b381967cb888aa00e72c06672a392fcc5f",
+      "practice-studio-mathematics-non-linear-equations-910.json": "4640807cc22b8b4a13e052c7cdb0385bb0c32779600e4209fc6db140f7a67d2a",
+      "practice-studio-mathematics-number-systems.json": "83076dee03ceb588697176b1475e63656e837e4de2d0ecdabc3a874315bb5a28",
+      "practice-studio-mathematics-percentages.json": "e3eaa0c5003f3be7e03c9dada1c0858aa533f3de38f0e657f5e7d03f2d3e0ebc",
+      "practice-studio-mathematics-polygons-and-circles.json": "5046b0168a4b076ca4d46843c5920233fe9cea75bcd55ad1af79bd8f7e92cc6b",
+      "practice-studio-mathematics-pythagoras.json": "ccad681d5580b5d3eb4c4960ee062a883b27807eb828f484040ee7e9352b64c1",
+      "practice-studio-mathematics-ratio-and-rates.json": "37f1d75ca9cc2fac3789da6f3f3b0657daa8a58c17e36374bc6a5f9431408fc5",
+      "practice-studio-mathematics-rational-numbers.json": "7173538e85a32a3c880fefea40370c6efa324b2a36a712b096805223272a15e6",
+      "practice-studio-mathematics-sample-space-relative-frequency.json": "609e8e950513bc3e192944598570ed9dace7e7797d60e88188a6865d3d29165a",
+      "practice-studio-mathematics-shapes.json": "d22e5176713b0a1f58433a1def08a00f565aed5df0619387783c365a2cd7e0e9",
+      "practice-studio-mathematics-simultaneous-equations-910.json": "395c47b5c8889f6785a6230d33fabc7ba3449302d01f54c8c533ace9abb5a7d5",
+      "practice-studio-mathematics-statistical-measures.json": "d93038c31488cccf99d4fadb3345c563cb5137e51c1d3029d06ab0c3f20f243b",
+      "practice-studio-mathematics-transformations-and-congruence.json": "480d3b13d0bf7b428433c4802ff662becddb5748666e018efe53b2fa1549761f",
+      "practice-studio-mathematics-volume-and-surface-area.json": "dc7b73299effb1d4d59804867a8c5b504cfbb19fc838e4ba0026b4c92815e660",
+      "practice-studio-methods-year11-1.json": "b5b0734937e938c7ad582b8225d6167e48062f5f70e63105e5c627317c23569f",
+      "practice-studio-methods-year11-2.json": "42a706faf421270b0b2b1d7e2fa0674b412289c18c63e77bcc637e8724c59f88",
+      "practice-studio-methods-year11-3.json": "d555b49e4781bbabc9c6ccbd390fd9123174dc6a09b0f5003aa42f083c96bd32",
+      "practice-studio-methods-year11-4.json": "6e13404c6e87e2da53c3d7bcf343045b19980fa61d219bbb8a7b2b3e98a9918e",
+      "practice-studio-methods-year11-5.json": "8008c3a99d9c4839043767757684e9d42fc721f125747750661e106f909a36ca",
+      "practice-studio-methods-year11-6.json": "76f11150cbba5b6a467b77418a3a3ab2cfd4f83b47ef899a15154fae90a14f5d",
+      "practice-studio-methods-year11-7.json": "3a4d17c1e5536138b86e58a928407820821689e9fcbf630173e20db9bc3515ef",
+      "practice-studio-methods-year11-8.json": "8c1224369e186d86608bc074c8dd3463653e626ebdb7eb629b19a6fc0cfb8757",
+      "practice-studio-methods-year11-9.json": "16a2f53ff0a023fc88a0b0d378267897c45e5b2a2114224f0e8960eaaf002703",
+      "practice-studio-methods-year12-1.json": "941f9665948f4a0e51bb266b59c2eb98652cc93cfe168cd8100ac70a0263acb9",
+      "practice-studio-methods-year12-10.json": "f7f585693b17d33ee0dc94ef4115ee7ab936d4c7e7daa68fc780b4eff708a90f",
+      "practice-studio-methods-year12-11.json": "9faf5d67f7f3700b7eda670b450245d974ac2d498c934f169c4c04ee4f8d7e60",
+      "practice-studio-methods-year12-12.json": "bb877cbb3b6059ef20668863ac34912f30e8b491752246e7d4ce3ce35daab259",
+      "practice-studio-methods-year12-13.json": "bbba24b59371990c65b840ea0c49664546718e0529de126baf6f484647971b4a",
+      "practice-studio-methods-year12-14.json": "5d08cb10a6b19cc228b3d08db9ba16c935f366163c5802a43e56d4020a5b27fb",
+      "practice-studio-methods-year12-15.json": "cb252097a9ebbe32ad2651c8f9034220bbb24708f55d7cd92ef734278d42c9fa",
+      "practice-studio-methods-year12-16.json": "14d794c167cabbfa5830868047b14ff5d7ab396d5e65e725c247474dfd6e8e77",
+      "practice-studio-methods-year12-17.json": "f3b49e705985abdffd34a6cbfcc23675ed095aa77871d47210a23a659fcb756d",
+      "practice-studio-methods-year12-18.json": "fa149b51e94cafc4d7112802eada90bcbe6f200e529b086453ca706218ca1911",
+      "practice-studio-methods-year12-19.json": "a01bc5fadb3a90d2a4e4634d7d8845594b42bd764438612f10295193ef8a1039",
+      "practice-studio-methods-year12-2.json": "48883dca2ae5b68ffba0cf3e6fbb8c9686acc6102dd73fa49ec067244b2b16ac",
+      "practice-studio-methods-year12-3.json": "8e4dac1bfcc8b90ff7e88049872f0300934a42bf31a08c0b7826d70f61345f2f",
+      "practice-studio-methods-year12-4.json": "52c238d93f083f583fcd9af91b2306a96ab7390e7176c7057ecd0896a3063b2a",
+      "practice-studio-methods-year12-5.json": "dcecfb14c5d24c3afed9c83cc6fd142a802f547394f42bf08d01bce2abcf0956",
+      "practice-studio-methods-year12-6.json": "7ab4b6fdc533660db1f15a14db3e8bc1b046e58e1f1451c425a8abcd6acadcf9",
+      "practice-studio-methods-year12-7.json": "9387cca4c807877ecf837522848e551c0401c4abfb0187a4be06a46b3e37d0f3",
+      "practice-studio-methods-year12-8.json": "e3ce98b991db808e44a89050b44b5d10b6cef136a0d2859e9f9d3eb372aaa5f3",
+      "practice-studio-methods-year12-9.json": "23fa3e824672a3b46c2efbd06c111c9cc4b59ae9d8fd446a500268fc6f83a7dc",
+      "practice-studio-physics-2020-u1.json": "bfcac911d61e3130a3fc83183f341ea9cf9a8cabbde83ec6f6b6a3ba15d81ece",
+      "practice-studio-physics-2020-u3.json": "73c352fa350f7583c64f34279ac62e9aec27e2da89deb7b5b0cd62f93c63ae88",
+      "practice-studio-physics-2021-u1.json": "33f1f06a937b53b6a6b7e08aeba9b7ec10332a6d7f14cb5d614755f0fe43ff27",
+      "practice-studio-physics-2021-u12.json": "20c31f2104619e6f7394bc97bb3b20f0d9e836fb078efe1264221d0b7285a5bb",
+      "practice-studio-physics-2021-u3.json": "29b752e4556d6947e8bd2ea9ebaf8cf381a4cfe6064ca12a94c0be1aedc7e2b5",
+      "practice-studio-physics-2021-u34.json": "37bceb535971bab2c4dfe9128485cc8f7435310fe1a4e3a6ca28e2ca85ca14a8",
+      "practice-studio-physics-2022-u1.json": "dbbff4c0e9819f8e9f851f817ab198acdf51b09963c06e4d15e9c6c9019a1836",
+      "practice-studio-physics-2022-u12.json": "98a97020148bd4b5fd3f30e5b30293f2b7e96e47dd6a3ef801eec1453663dacd",
+      "practice-studio-physics-2022-u3.json": "2646fc88c501449cc071b3171fe0239ff326639bc1622de895fbd3f3da3d0fe3",
+      "practice-studio-physics-2022-u34.json": "07b0516297e3fa75a63533ca1ca43c2750dc079d8e91f79c247ff0670d1ed545",
+      "practice-studio-physics-2023-u1.json": "ed9a51d53d79d34f6b64c7ea457b2beb2de8ca3931d83a9b6998d95b3b2e7ecf",
+      "practice-studio-physics-2023-u12.json": "89ced8727228b3aa4b0513f49a83f7aba71aea07b3ada928a7d3be0bf5fc553d",
+      "practice-studio-physics-2023-u3.json": "5846f1392f4e676e449e7d515429a90309365d58077996ae571f3915cc4df884",
+      "practice-studio-physics-2023-u34.json": "7d4d87a671cf452395cca2fabf8e31abf866460c37384f12f002b8363e470800",
+      "practice-studio-physics-2024-u1.json": "b415bd509edc67633ee2cb69496d8710166c3847f0cd0cd4423daf092bb05f6b",
+      "practice-studio-physics-2024-u12.json": "37426b935fb40cbd3e5910a5049895b96d669f1bcabd9b543f13221f9a587c34",
+      "practice-studio-physics-2024-u3.json": "1552da7715161fea0cc83582474cc45e52d8b76381e28b9d2bfe49d7c20508fa",
+      "practice-studio-physics-2024-u34.json": "d47944219b44cd558c20eaee623669c440b34e461dbab674aebf3fe6491f8fcc"
+    },
+    "formatterSHA256": "10dd51498cfa1a6d084e3ca6e3dc0bf7493d6ad30f631a7871aed30017780d3d"
+  },
+  "reviewedTotal": 2712,
+  "complete": true,
+  "sourceImageTextReview": {
+    "reviewedReplacements": 75,
+    "methodsSourceTailRestored": true
+  },
+  "diagramFidelity": {
+    "verifiedIsolatedSourceGraphics": 162,
+    "sourcePixelHashesMatch": true
   }
 }

@@ -1,0 +1,359 @@
+{
+  "maths-lower-batch-rational-numbers-q7": {
+    "html": "<p>Complete the following.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn></mrow><mrow><mn>3</mn></mrow></mfrac><mtext> − </mtext><mfrac><mrow><mn>1</mn></mrow><mrow><mn>4</mn></mrow></mfrac><mtext> = </mtext><mfrac><mrow><mtext>□</mtext></mrow><mrow><mn>12</mn></mrow></mfrac><mtext> − </mtext><mfrac><mrow><mtext>□</mtext></mrow><mrow><mn>12</mn></mrow></mfrac><mtext> = </mtext><mfrac><mrow><mtext>□</mtext></mrow><mrow><mn>12</mn></mrow></mfrac></math></p>"
+  },
+  "maths-lower-batch-rational-numbers-q31": {
+    "html": "<p>Which is not a correct statement about the time of <strong>45 minutes</strong>?</p>",
+    "optionsHtml": [
+      "<p>It is three quarters of an hour</p>",
+      "<p>It is 0.75 of an hour</p>",
+      "<p>It is 75% of an hour</p>",
+      "<p>It is two thirds of an hour</p>"
+    ]
+  },
+  "maths-lower-batch-number-systems-q10": {
+    "html": "<p>Complete the boxes to write the product below in index notation.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>2 × 2 × 2 × 2 × 3 × 3 × 3 = </mtext><msup><mrow><mn>2</mn></mrow><mrow><mtext>□</mtext></mrow></msup><mtext> × </mtext><msup><mrow><mn>3</mn></mrow><mrow><mtext>□</mtext></mrow></msup></math></p>"
+  },
+  "maths-lower-batch-number-systems-q14": {
+    "html": "<p>Complete the boxes to write the number below in expanded notation using indices.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>20 304 = 2 × </mtext><msup><mrow><mn>10</mn></mrow><mrow><mtext>□</mtext></mrow></msup><mtext> + 3 × </mtext><msup><mrow><mn>10</mn></mrow><mrow><mtext>□</mtext></mrow></msup><mtext> + 4 × </mtext><msup><mrow><mn>10</mn></mrow><mrow><mtext>□</mtext></mrow></msup></math></p>"
+  },
+  "maths-lower-batch-number-systems-q19": {
+    "html": "<p>Using the factor tree below, complete the prime factorisation of 360.</p><table aria-label=\"Original factor tree\" style=\"width:100%;text-align:center\"><tr><td colspan=\"6\">360</td></tr><tr><td colspan=\"3\">20</td><td colspan=\"3\">18</td></tr><tr><td>5</td><td colspan=\"2\">4</td><td colspan=\"2\">9</td><td>2</td></tr><tr><td>5</td><td>2</td><td>2</td><td>3</td><td>3</td><td>2</td></tr></table><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>360 = </mtext><msup><mrow><mn>2</mn></mrow><mrow><mtext>□</mtext></mrow></msup><mtext> × </mtext><msup><mrow><mn>3</mn></mrow><mrow><mtext>□</mtext></mrow></msup><mtext> × </mtext><msup><mrow><mn>5</mn></mrow><mrow><mtext>□</mtext></mrow></msup></math></p>"
+  },
+  "maths-lower-batch-number-systems-q22": {
+    "html": "<p>Complete line 7 of the pattern below.</p><table><tr><td>Line 1</td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></msup><mtext> = 1</mtext></math></td></tr><tr><td>Line 2</td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mn>2</mn></mrow><mrow><mn>2</mn></mrow></msup><mtext> = 1 + 3</mtext></math></td></tr><tr><td>Line 3</td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mn>3</mn></mrow><mrow><mn>2</mn></mrow></msup><mtext> = 1 + 3 + 5</mtext></math></td></tr><tr><td>Line 4</td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mn>4</mn></mrow><mrow><mn>2</mn></mrow></msup><mtext> = 1 + 3 + 5 + 7</mtext></math></td></tr><tr><td>…</td><td>…</td></tr><tr><td>Line 7</td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mn>7</mn></mrow><mrow><mn>2</mn></mrow></msup><mtext> = 1 + 3 + 5 + 7 + □</mtext></math></td></tr></table>"
+  },
+  "maths-lower-batch-number-systems-q23": {
+    "html": "<p>Complete the missing numbers in Pascal’s Triangle below.</p><table aria-label=\"Pascal triangle\" style=\"width:100%;text-align:center\"><tr><td></td><td></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td>1</td><td></td><td>1</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>1</td><td></td><td>2</td><td></td><td>1</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td>1</td><td></td><td>3</td><td></td><td>3</td><td></td><td>1</td><td></td><td></td></tr><tr><td></td><td>1</td><td></td><td>4</td><td></td><td>6</td><td></td><td>4</td><td></td><td>1</td><td></td></tr><tr><td>1</td><td></td><td>□</td><td></td><td>□</td><td></td><td>□</td><td></td><td>□</td><td></td><td>1</td></tr></table>"
+  },
+  "maths-lower-batch-number-systems-q30": {
+    "html": "<p>Use lines to join the pairs of expressions which are equal in value.</p><table><tr><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mtext>3 + 11</mtext></mrow><mrow><mn>7</mn></mrow></mfrac></math></td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>2 + 6 × 3</mtext></math></td></tr><tr><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>18 − </mtext><msup><mrow><mn>4</mn></mrow><mrow><mn>2</mn></mrow></msup></math></td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>9 × 3 − 14 ÷ 2</mtext></math></td></tr></table>"
+  },
+  "maths-lower-batch-location-q18": {
+    "html": "<p>Della lives at D and Elizabeth lives at E. Elizabeth travels from her home to Anna’s home, passing Della’s home on the way. Complete the directions below.</p><p>She walks <strong>east</strong> along Tobin Rd, then □ along Kane Cl, then □ along Burton St and finally □ along Moore Rd till she reaches Anna’s home.</p>"
+  },
+  "maths-lower-batch-pythagoras-q3": {
+    "html": "<p>Complete the statement of Pythagoras’ Theorem for the triangle shown.</p><figure><img src=\"assets/practice-mathematics/native-pythagoras-79c8644b2481fbf7.svg\" width=\"241.324\" data-word-width-px=\"241.324\" data-word-max-height=\"7\" alt=\"Original question diagram\"></figure><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mtext>□</mtext></mrow><mrow><mn>2</mn></mrow></msup><mtext> + </mtext><msup><mrow><mtext>□</mtext></mrow><mrow><mn>2</mn></mrow></msup><mtext> = </mtext><msup><mrow><mtext>□</mtext></mrow><mrow><mn>2</mn></mrow></msup></math></p>"
+  },
+  "maths-lower-batch-pythagoras-q4": {
+    "html": "<p>Find the length of the hypotenuse PQ in the triangle PQR.</p><figure><img src=\"assets/practice-mathematics/native-pythagoras-ac42032c9a5774f1.svg\" width=\"270.041\" data-word-width-px=\"270.041\" data-word-max-height=\"7\" alt=\"Original question diagram\"></figure><p>PQ = □ cm.</p>"
+  },
+  "maths-lower-batch-shapes-q8": {
+    "html": "<p>Which shape below is a non-convex polygon?</p>",
+    "optionsHtml": [
+      "<p><figure><img src=\"assets/practice-mathematics/native-shapes-isolated-v2-c626d121637dfa012059.svg\" width=\"105.267\" data-word-width-px=\"105.267\" data-word-max-height=\"7\" alt=\"Original question diagram\"></figure></p>",
+      "<p><figure><img src=\"assets/practice-mathematics/native-shapes-isolated-v2-5f7bafa0ef60601b105a.svg\" width=\"74.467\" data-word-width-px=\"74.467\" data-word-max-height=\"7\" alt=\"Original question diagram\"></figure></p>",
+      "<p><figure><img src=\"assets/practice-mathematics/native-shapes-isolated-v2-0442deb7dff5a08fe225.svg\" width=\"91.2\" data-word-width-px=\"91.2\" data-word-max-height=\"7\" alt=\"Original question diagram\"></figure></p>",
+      "<p><figure><img src=\"assets/practice-mathematics/native-shapes-isolated-v2-002f80b8a6428e9fce23.svg\" width=\"82.4\" data-word-width-px=\"82.4\" data-word-max-height=\"7\" alt=\"Original question diagram\"></figure></p>"
+    ]
+  },
+  "maths-lower-batch-shapes-q11": {
+    "html": "<p>Which solid below is not a polyhedron?</p>",
+    "optionsHtml": [
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:300/130;width:195.0px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-shapes-questions.jpg\" data-studio-crop=\"150,2518,300,130\" data-word-width-px=\"195.0\" width=\"960\" height=\"7936\" alt=\"Original question diagram\" style=\"position:absolute;left:-50.0%;top:-1936.9230769230767%;width:320.0%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>",
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:240/130;width:156.0px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-shapes-questions.jpg\" data-studio-crop=\"590,2518,240,130\" data-word-width-px=\"156.0\" width=\"960\" height=\"7936\" alt=\"Original question diagram\" style=\"position:absolute;left:-245.83333333333334%;top:-1936.9230769230767%;width:400.0%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>",
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:265/125;width:172.25px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-shapes-questions.jpg\" data-studio-crop=\"170,2660,265,125\" data-word-width-px=\"172.25\" width=\"960\" height=\"7936\" alt=\"Original question diagram\" style=\"position:absolute;left:-64.15094339622641%;top:-2128.0%;width:362.26415094339626%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>",
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:240/130;width:156.0px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-shapes-questions.jpg\" data-studio-crop=\"590,2657,240,130\" data-word-width-px=\"156.0\" width=\"960\" height=\"7936\" alt=\"Original question diagram\" style=\"position:absolute;left:-245.83333333333334%;top:-2043.8461538461538%;width:400.0%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>"
+    ]
+  },
+  "maths-lower-batch-shapes-q12": {
+    "html": "<p>Which solid below is a prism?</p>",
+    "optionsHtml": [
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:260/115;width:169.0px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-shapes-questions.jpg\" data-studio-crop=\"250,2873,260,115\" data-word-width-px=\"169.0\" width=\"960\" height=\"7936\" alt=\"Original question diagram\" style=\"position:absolute;left:-96.15384615384616%;top:-2498.2608695652175%;width:369.2307692307692%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>",
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:240/130;width:156.0px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-shapes-questions.jpg\" data-studio-crop=\"555,2858,240,130\" data-word-width-px=\"156.0\" width=\"960\" height=\"7936\" alt=\"Original question diagram\" style=\"position:absolute;left:-231.25%;top:-2198.4615384615386%;width:400.0%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>",
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:200/155;width:130.0px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-shapes-questions.jpg\" data-studio-crop=\"240,2988,200,155\" data-word-width-px=\"130.0\" width=\"960\" height=\"7936\" alt=\"Original question diagram\" style=\"position:absolute;left:-120.0%;top:-1927.741935483871%;width:480.0%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>",
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:190/160;width:123.5px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-shapes-questions.jpg\" data-studio-crop=\"595,2988,190,160\" data-word-width-px=\"123.5\" width=\"960\" height=\"7936\" alt=\"Original question diagram\" style=\"position:absolute;left:-313.15789473684214%;top:-1867.5%;width:505.2631578947368%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>"
+    ]
+  },
+  "maths-lower-batch-shapes-q13": {
+    "html": "<p>Which solid below is convex?</p>",
+    "optionsHtml": [
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:205/144;width:133.25px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-shapes-questions.jpg\" data-studio-crop=\"203,3219,205,144\" data-word-width-px=\"133.25\" width=\"960\" height=\"7936\" alt=\"Original question diagram\" style=\"position:absolute;left:-99.02439024390245%;top:-2235.416666666667%;width:468.29268292682923%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>",
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:290/101;width:188.5px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-shapes-questions.jpg\" data-studio-crop=\"522,3239,290,101\" data-word-width-px=\"188.5\" width=\"960\" height=\"7936\" alt=\"Original question diagram\" style=\"position:absolute;left:-180.0%;top:-3206.9306930693065%;width:331.0344827586207%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>",
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:226/130;width:146.9px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-shapes-questions.jpg\" data-studio-crop=\"182,3394,226,130\" data-word-width-px=\"146.9\" width=\"960\" height=\"7936\" alt=\"Original question diagram\" style=\"position:absolute;left:-80.53097345132744%;top:-2610.769230769231%;width:424.77876106194697%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>",
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:318/135;width:206.7px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-shapes-questions.jpg\" data-studio-crop=\"515,3386,318,135\" data-word-width-px=\"206.7\" width=\"960\" height=\"7936\" alt=\"Original question diagram\" style=\"position:absolute;left:-161.9496855345912%;top:-2508.1481481481483%;width:301.8867924528302%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>"
+    ]
+  },
+  "maths-lower-batch-shapes-q14": {
+    "html": "<p>Which shape below is an oblique pyramid?</p>",
+    "optionsHtml": [
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:206/125;width:133.9px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-shapes-questions.jpg\" data-studio-crop=\"215,3586,206,125\" data-word-width-px=\"133.9\" width=\"960\" height=\"7936\" alt=\"Original question diagram\" style=\"position:absolute;left:-104.36893203883496%;top:-2868.7999999999997%;width:466.0194174757281%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>",
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:146/119;width:94.9px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-shapes-questions.jpg\" data-studio-crop=\"590,3589,146,119\" data-word-width-px=\"94.9\" width=\"960\" height=\"7936\" alt=\"Original question diagram\" style=\"position:absolute;left:-404.1095890410959%;top:-3015.9663865546217%;width:657.5342465753424%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>",
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:224/150;width:145.6px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-shapes-questions.jpg\" data-studio-crop=\"215,3723,224,150\" data-word-width-px=\"145.6\" width=\"960\" height=\"7936\" alt=\"Original question diagram\" style=\"position:absolute;left:-95.98214285714286%;top:-2482.0%;width:428.57142857142856%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>",
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:186/138;width:120.9px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-shapes-questions.jpg\" data-studio-crop=\"560,3735,186,138\" data-word-width-px=\"120.9\" width=\"960\" height=\"7936\" alt=\"Original question diagram\" style=\"position:absolute;left:-301.0752688172043%;top:-2706.521739130435%;width:516.1290322580645%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>"
+    ]
+  },
+  "maths-lower-batch-shapes-q25": {
+    "html": "<p>Which of the following nets could not be folded to produce a cube?</p>",
+    "optionsHtml": [
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:150/210;width:97.5px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-shapes-questions.jpg\" data-studio-crop=\"80,7607,150,210\" data-word-width-px=\"97.5\" width=\"960\" height=\"7936\" alt=\"Original question diagram\" style=\"position:absolute;left:-53.333333333333336%;top:-3622.3809523809523%;width:640.0%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>",
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:150/210;width:97.5px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-shapes-questions.jpg\" data-studio-crop=\"310,7607,150,210\" data-word-width-px=\"97.5\" width=\"960\" height=\"7936\" alt=\"Original question diagram\" style=\"position:absolute;left:-206.66666666666669%;top:-3622.3809523809523%;width:640.0%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>",
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:160/210;width:104.0px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-shapes-questions.jpg\" data-studio-crop=\"530,7607,160,210\" data-word-width-px=\"104.0\" width=\"960\" height=\"7936\" alt=\"Original question diagram\" style=\"position:absolute;left:-331.25%;top:-3622.3809523809523%;width:600.0%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>",
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:85/190;width:55.25px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-shapes-questions.jpg\" data-studio-crop=\"799,7613,85,190\" data-word-width-px=\"55.25\" width=\"960\" height=\"7936\" alt=\"Original question diagram\" style=\"position:absolute;left:-940.0%;top:-4006.842105263158%;width:1129.4117647058824%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>"
+    ]
+  },
+  "maths-lower-batch-polygons-and-circles-q1": {
+    "html": "<p>In the pattern below, which types of triangle are used?</p><figure><img src=\"assets/practice-mathematics/native-polygons-and-circles-3dc52b547e2ffdb0.svg\" width=\"233.477\" data-word-width-px=\"233.477\" data-word-max-height=\"7\" alt=\"Original question diagram\"></figure>",
+    "optionsHtml": [
+      "<p>Scalene and isosceles</p>",
+      "<p>Scalene and equilateral</p>",
+      "<p>Equilateral and isosceles</p>",
+      "<p>Right and isosceles</p>"
+    ]
+  },
+  "maths-lower-batch-polygons-and-circles-q3": {
+    "html": "<p>Which triangle below is an obtuse scalene triangle?</p>",
+    "optionsHtml": [
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:240/205;width:156.0px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-polygons-and-circles-questions.jpg\" data-studio-crop=\"75,741,240,205\" data-word-width-px=\"156.0\" width=\"960\" height=\"8250\" alt=\"Original question diagram\" style=\"position:absolute;left:-31.25%;top:-361.4634146341464%;width:400.0%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>",
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:220/220;width:143.0px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-polygons-and-circles-questions.jpg\" data-studio-crop=\"335,746,220,220\" data-word-width-px=\"143.0\" width=\"960\" height=\"8250\" alt=\"Original question diagram\" style=\"position:absolute;left:-152.27272727272728%;top:-339.0909090909091%;width:436.3636363636363%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>",
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:170/260;width:110.5px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-polygons-and-circles-questions.jpg\" data-studio-crop=\"570,706,170,260\" data-word-width-px=\"110.5\" width=\"960\" height=\"8250\" alt=\"Original question diagram\" style=\"position:absolute;left:-335.29411764705884%;top:-271.53846153846155%;width:564.7058823529412%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>",
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:145/310;width:94.25px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-polygons-and-circles-questions.jpg\" data-studio-crop=\"765,676,145,310\" data-word-width-px=\"94.25\" width=\"960\" height=\"8250\" alt=\"Original question diagram\" style=\"position:absolute;left:-527.5862068965517%;top:-218.06451612903226%;width:662.0689655172414%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>"
+    ]
+  },
+  "maths-lower-batch-integers-q1": {
+    "html": "<p>What is the 6 am temperature shown on the thermometer?</p><p>Temperature: □ °C.</p>"
+  },
+  "maths-lower-batch-fractions-q1": {
+    "html": "<p>Which figure below has <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn></mrow><mrow><mn>10</mn></mrow></mfrac></math> shaded?</p>",
+    "optionsHtml": [
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:165/85;width:107.25px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-fractions-questions.jpg\" data-studio-crop=\"85,92,165,85\" data-word-width-px=\"107.25\" width=\"960\" height=\"7690\" alt=\"Original question diagram\" style=\"position:absolute;left:-51.515151515151516%;top:-108.23529411764706%;width:581.8181818181819%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>",
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:165/85;width:107.25px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-fractions-questions.jpg\" data-studio-crop=\"275,92,165,85\" data-word-width-px=\"107.25\" width=\"960\" height=\"7690\" alt=\"Original question diagram\" style=\"position:absolute;left:-166.66666666666669%;top:-108.23529411764706%;width:581.8181818181819%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>",
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:225/85;width:146.25px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-fractions-questions.jpg\" data-studio-crop=\"475,92,225,85\" data-word-width-px=\"146.25\" width=\"960\" height=\"7690\" alt=\"Original question diagram\" style=\"position:absolute;left:-211.11111111111111%;top:-108.23529411764706%;width:426.6666666666667%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>",
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:220/85;width:143.0px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-fractions-questions.jpg\" data-studio-crop=\"700,92,220,85\" data-word-width-px=\"143.0\" width=\"960\" height=\"7690\" alt=\"Original question diagram\" style=\"position:absolute;left:-318.1818181818182%;top:-108.23529411764706%;width:436.3636363636363%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>"
+    ]
+  },
+  "maths-lower-batch-fractions-q3": {
+    "html": "<p>The fraction of the diagram which is shaded is:</p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:240/155;width:156.0px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-fractions-questions.jpg\" data-studio-crop=\"580,484,240,155\" data-word-width-px=\"156.0\" width=\"960\" height=\"7690\" alt=\"Original question diagram\" style=\"position:absolute;left:-241.66666666666666%;top:-312.258064516129%;width:400.0%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure>",
+    "optionsHtml": [
+      "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>5</mn></mrow></mfrac></math></p>",
+      "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>4</mn></mrow><mrow><mn>5</mn></mrow></mfrac></math></p>",
+      "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>6</mn></mrow></mfrac></math></p>",
+      "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>5</mn></mrow><mrow><mn>6</mn></mrow></mfrac></math></p>"
+    ]
+  },
+  "maths-lower-batch-fractions-q4": {
+    "html": "<p>Which diagram does <strong>not</strong> show <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn></mrow><mrow><mn>4</mn></mrow></mfrac></math> of the figure shaded?</p>",
+    "optionsHtml": [
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:182/180;width:118.3px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-fractions-questions.jpg\" data-studio-crop=\"86,854,182,180\" data-word-width-px=\"118.3\" width=\"960\" height=\"7690\" alt=\"Original question diagram\" style=\"position:absolute;left:-47.25274725274725%;top:-474.44444444444446%;width:527.4725274725274%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>",
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:246/147;width:159.9px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-fractions-questions.jpg\" data-studio-crop=\"272,882,246,147\" data-word-width-px=\"159.9\" width=\"960\" height=\"7690\" alt=\"Original question diagram\" style=\"position:absolute;left:-110.56910569105692%;top:-600.0%;width:390.2439024390244%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>",
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:179/138;width:116.35px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-fractions-questions.jpg\" data-studio-crop=\"532,882,179,138\" data-word-width-px=\"116.35\" width=\"960\" height=\"7690\" alt=\"Original question diagram\" style=\"position:absolute;left:-297.2067039106145%;top:-639.1304347826087%;width:536.3128491620112%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>",
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:166/165;width:107.9px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-fractions-questions.jpg\" data-studio-crop=\"753,869,166,165\" data-word-width-px=\"107.9\" width=\"960\" height=\"7690\" alt=\"Original question diagram\" style=\"position:absolute;left:-453.61445783132524%;top:-526.6666666666666%;width:578.3132530120482%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>"
+    ]
+  },
+  "maths-lower-batch-fractions-q14": {
+    "html": "<p>Complete the statement:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mtext>□</mtext></mrow><mrow><mn>30</mn></mrow></mfrac><mtext> = </mtext><mfrac><mrow><mn>5</mn></mrow><mrow><mn>6</mn></mrow></mfrac></math></p>"
+  },
+  "maths-lower-algebra-910-coordinate-geometry-choice-q1": {
+    "html": "<p>Which point below has coordinates (−3, −2)?</p><figure><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 344 344\" width=\"344\" height=\"344\" role=\"img\" aria-label=\"Coordinate diagram\" data-word-width-px=\"344\"><path d=\"M 28 28 V 316\" stroke=\"#ddd\" fill=\"none\"/><path d=\"M 60 28 V 316\" stroke=\"#ddd\" fill=\"none\"/><path d=\"M 92 28 V 316\" stroke=\"#ddd\" fill=\"none\"/><path d=\"M 124 28 V 316\" stroke=\"#ddd\" fill=\"none\"/><path d=\"M 156 28 V 316\" stroke=\"#ddd\" fill=\"none\"/><path d=\"M 188 28 V 316\" stroke=\"#ddd\" fill=\"none\"/><path d=\"M 220 28 V 316\" stroke=\"#ddd\" fill=\"none\"/><path d=\"M 252 28 V 316\" stroke=\"#ddd\" fill=\"none\"/><path d=\"M 284 28 V 316\" stroke=\"#ddd\" fill=\"none\"/><path d=\"M 316 28 V 316\" stroke=\"#ddd\" fill=\"none\"/><path d=\"M 28 316 H 316\" stroke=\"#ddd\" fill=\"none\"/><path d=\"M 28 284 H 316\" stroke=\"#ddd\" fill=\"none\"/><path d=\"M 28 252 H 316\" stroke=\"#ddd\" fill=\"none\"/><path d=\"M 28 220 H 316\" stroke=\"#ddd\" fill=\"none\"/><path d=\"M 28 188 H 316\" stroke=\"#ddd\" fill=\"none\"/><path d=\"M 28 156 H 316\" stroke=\"#ddd\" fill=\"none\"/><path d=\"M 28 124 H 316\" stroke=\"#ddd\" fill=\"none\"/><path d=\"M 28 92 H 316\" stroke=\"#ddd\" fill=\"none\"/><path d=\"M 28 60 H 316\" stroke=\"#ddd\" fill=\"none\"/><path d=\"M 28 28 H 316\" stroke=\"#ddd\" fill=\"none\"/><path d=\"M 28 188 H 316 M 156 316 V 28\" stroke=\"black\" fill=\"none\"/><text x=\"320\" y=\"188\" font-family=\"Arial\" font-size=\"16\">x</text><text x=\"160\" y=\"20\" font-family=\"Arial\" font-size=\"16\">y</text><text x=\"23\" y=\"208\" font-family=\"Arial\" font-size=\"16\">-4</text><text x=\"55\" y=\"208\" font-family=\"Arial\" font-size=\"16\">-3</text><text x=\"87\" y=\"208\" font-family=\"Arial\" font-size=\"16\">-2</text><text x=\"119\" y=\"208\" font-family=\"Arial\" font-size=\"16\">-1</text><text x=\"183\" y=\"208\" font-family=\"Arial\" font-size=\"16\">1</text><text x=\"215\" y=\"208\" font-family=\"Arial\" font-size=\"16\">2</text><text x=\"247\" y=\"208\" font-family=\"Arial\" font-size=\"16\">3</text><text x=\"279\" y=\"208\" font-family=\"Arial\" font-size=\"16\">4</text><text x=\"311\" y=\"208\" font-family=\"Arial\" font-size=\"16\">5</text><text x=\"133\" y=\"321\" font-family=\"Arial\" font-size=\"16\">-4</text><text x=\"133\" y=\"289\" font-family=\"Arial\" font-size=\"16\">-3</text><text x=\"133\" y=\"257\" font-family=\"Arial\" font-size=\"16\">-2</text><text x=\"133\" y=\"225\" font-family=\"Arial\" font-size=\"16\">-1</text><text x=\"133\" y=\"161\" font-family=\"Arial\" font-size=\"16\">1</text><text x=\"133\" y=\"129\" font-family=\"Arial\" font-size=\"16\">2</text><text x=\"133\" y=\"97\" font-family=\"Arial\" font-size=\"16\">3</text><text x=\"133\" y=\"65\" font-family=\"Arial\" font-size=\"16\">4</text><text x=\"133\" y=\"33\" font-family=\"Arial\" font-size=\"16\">5</text><circle cx=\"252\" cy=\"124\" r=\"2.5\"/><text x=\"257\" y=\"119\" font-family=\"Arial\" font-size=\"16\">A</text><circle cx=\"60\" cy=\"124\" r=\"2.5\"/><text x=\"65\" y=\"119\" font-family=\"Arial\" font-size=\"16\">B</text><circle cx=\"60\" cy=\"252\" r=\"2.5\"/><text x=\"65\" y=\"247\" font-family=\"Arial\" font-size=\"16\">C</text><circle cx=\"252\" cy=\"252\" r=\"2.5\"/><text x=\"257\" y=\"247\" font-family=\"Arial\" font-size=\"16\">D</text></svg></figure>",
+    "optionsHtml": [
+      "<p>A</p>",
+      "<p>B</p>",
+      "<p>C</p>",
+      "<p>D</p>"
+    ]
+  },
+  "maths-lower-algebra-910-coordinate-geometry-choice-q6": {
+    "html": "<p>The equation <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>y = −</mtext><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mtext>x + 2</mtext></math> is best represented by which graph?</p>",
+    "optionsHtml": [
+      "<p><figure><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 344 344\" width=\"344\" height=\"344\" role=\"img\" aria-label=\"Coordinate diagram\" data-word-width-px=\"344\"><path d=\"M 28 188 H 316 M 156 316 V 28\" stroke=\"black\" fill=\"none\"/><text x=\"320\" y=\"188\" font-family=\"Arial\" font-size=\"16\">x</text><text x=\"160\" y=\"20\" font-family=\"Arial\" font-size=\"16\">y</text><path data-equation=\"y=2x+-2\" d=\"M 124.0 316 L 268.0 28\" stroke=\"black\" fill=\"none\"/><text x=\"161\" y=\"256\" font-family=\"Arial\" font-size=\"16\">-2</text><text x=\"183.0\" y=\"208\" font-family=\"Arial\" font-size=\"16\">1.0</text></svg></figure></p>",
+      "<p><figure><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 344 344\" width=\"344\" height=\"344\" role=\"img\" aria-label=\"Coordinate diagram\" data-word-width-px=\"344\"><path d=\"M 28 188 H 316 M 156 316 V 28\" stroke=\"black\" fill=\"none\"/><text x=\"320\" y=\"188\" font-family=\"Arial\" font-size=\"16\">x</text><text x=\"160\" y=\"20\" font-family=\"Arial\" font-size=\"16\">y</text><path data-equation=\"y=-2x+4\" d=\"M 284.0 316 L 140.0 28\" stroke=\"black\" fill=\"none\"/><text x=\"161\" y=\"64\" font-family=\"Arial\" font-size=\"16\">4</text><text x=\"215.0\" y=\"208\" font-family=\"Arial\" font-size=\"16\">2.0</text></svg></figure></p>",
+      "<p><figure><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 344 344\" width=\"344\" height=\"344\" role=\"img\" aria-label=\"Coordinate diagram\" data-word-width-px=\"344\"><path d=\"M 28 188 H 316 M 156 316 V 28\" stroke=\"black\" fill=\"none\"/><text x=\"320\" y=\"188\" font-family=\"Arial\" font-size=\"16\">x</text><text x=\"160\" y=\"20\" font-family=\"Arial\" font-size=\"16\">y</text><path data-equation=\"y=2x+4\" d=\"M 28 316 L 172.0 28\" stroke=\"black\" fill=\"none\"/><text x=\"161\" y=\"64\" font-family=\"Arial\" font-size=\"16\">4</text><text x=\"87.0\" y=\"208\" font-family=\"Arial\" font-size=\"16\">-2.0</text></svg></figure></p>",
+      "<p><figure><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 344 344\" width=\"344\" height=\"344\" role=\"img\" aria-label=\"Coordinate diagram\" data-word-width-px=\"344\"><path d=\"M 28 188 H 316 M 156 316 V 28\" stroke=\"black\" fill=\"none\"/><text x=\"320\" y=\"188\" font-family=\"Arial\" font-size=\"16\">x</text><text x=\"160\" y=\"20\" font-family=\"Arial\" font-size=\"16\">y</text><path data-equation=\"y=-0.5x+2\" d=\"M 28 60.0 L 316 204.0\" stroke=\"black\" fill=\"none\"/><text x=\"161\" y=\"128\" font-family=\"Arial\" font-size=\"16\">2</text><text x=\"279.0\" y=\"208\" font-family=\"Arial\" font-size=\"16\">4.0</text></svg></figure></p>"
+    ]
+  },
+  "maths-lower-algebra-910-coordinate-geometry-long-q1": {
+    "html": "<p>(a)  (2 marks)  Complete the table below for the lines whose equations are <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><semantics><mrow><mstyle><mrow><mrow><mi>y</mi><mo stretchy=\"false\">=</mo><mn>2</mn></mrow><mrow><mi>x</mi><mo stretchy=\"false\">−</mo><mn>1</mn></mrow></mrow></mstyle><mrow/></mrow></semantics></math>   and    <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><semantics><mrow><mstyle><mrow><mi>y</mi><mo stretchy=\"false\">=</mo><mrow><mn>2</mn><mo stretchy=\"false\">−</mo><mi>x</mi></mrow></mrow></mstyle><mrow/></mrow></semantics></math></p><table><tr><td><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>x</mtext></mrow></math></p></td><td><p>-1</p></td><td><p>1</p></td><td><p>2</p></td></tr><tr><td><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><semantics><mrow><mstyle><mrow><mrow><mi>y</mi><mo stretchy=\"false\">=</mo><mn>2</mn></mrow><mrow><mi>x</mi><mo stretchy=\"false\">−</mo><mn>1</mn></mrow></mrow></mstyle><mrow/></mrow></semantics></math></p></td><td></td><td></td><td></td></tr><tr><td><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><semantics><mrow><mstyle><mrow><mi>y</mi><mo stretchy=\"false\">=</mo><mrow><mn>2</mn><mo stretchy=\"false\">−</mo><mi>x</mi></mrow></mrow></mstyle><mrow/></mrow></semantics></math></p></td><td></td><td></td><td></td></tr></table><p>(b) (2 marks)   Draw the graph of the two lines.</p><p>(c) (1 mark)    Write the co-ordinates of the point of intersection of the lines.</p><figure><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 344 344\" width=\"344\" height=\"344\" role=\"img\" aria-label=\"Coordinate diagram\" data-word-width-px=\"344\"><path d=\"M 28 28 V 316\" stroke=\"#ddd\" fill=\"none\"/><path d=\"M 60 28 V 316\" stroke=\"#ddd\" fill=\"none\"/><path d=\"M 92 28 V 316\" stroke=\"#ddd\" fill=\"none\"/><path d=\"M 124 28 V 316\" stroke=\"#ddd\" fill=\"none\"/><path d=\"M 156 28 V 316\" stroke=\"#ddd\" fill=\"none\"/><path d=\"M 188 28 V 316\" stroke=\"#ddd\" fill=\"none\"/><path d=\"M 220 28 V 316\" stroke=\"#ddd\" fill=\"none\"/><path d=\"M 252 28 V 316\" stroke=\"#ddd\" fill=\"none\"/><path d=\"M 284 28 V 316\" stroke=\"#ddd\" fill=\"none\"/><path d=\"M 316 28 V 316\" stroke=\"#ddd\" fill=\"none\"/><path d=\"M 28 316 H 316\" stroke=\"#ddd\" fill=\"none\"/><path d=\"M 28 284 H 316\" stroke=\"#ddd\" fill=\"none\"/><path d=\"M 28 252 H 316\" stroke=\"#ddd\" fill=\"none\"/><path d=\"M 28 220 H 316\" stroke=\"#ddd\" fill=\"none\"/><path d=\"M 28 188 H 316\" stroke=\"#ddd\" fill=\"none\"/><path d=\"M 28 156 H 316\" stroke=\"#ddd\" fill=\"none\"/><path d=\"M 28 124 H 316\" stroke=\"#ddd\" fill=\"none\"/><path d=\"M 28 92 H 316\" stroke=\"#ddd\" fill=\"none\"/><path d=\"M 28 60 H 316\" stroke=\"#ddd\" fill=\"none\"/><path d=\"M 28 28 H 316\" stroke=\"#ddd\" fill=\"none\"/><path d=\"M 28 188 H 316 M 156 316 V 28\" stroke=\"black\" fill=\"none\"/><text x=\"320\" y=\"188\" font-family=\"Arial\" font-size=\"16\">x</text><text x=\"160\" y=\"20\" font-family=\"Arial\" font-size=\"16\">y</text><text x=\"23\" y=\"208\" font-family=\"Arial\" font-size=\"16\">-4</text><text x=\"55\" y=\"208\" font-family=\"Arial\" font-size=\"16\">-3</text><text x=\"87\" y=\"208\" font-family=\"Arial\" font-size=\"16\">-2</text><text x=\"119\" y=\"208\" font-family=\"Arial\" font-size=\"16\">-1</text><text x=\"183\" y=\"208\" font-family=\"Arial\" font-size=\"16\">1</text><text x=\"215\" y=\"208\" font-family=\"Arial\" font-size=\"16\">2</text><text x=\"247\" y=\"208\" font-family=\"Arial\" font-size=\"16\">3</text><text x=\"279\" y=\"208\" font-family=\"Arial\" font-size=\"16\">4</text><text x=\"311\" y=\"208\" font-family=\"Arial\" font-size=\"16\">5</text><text x=\"133\" y=\"321\" font-family=\"Arial\" font-size=\"16\">-4</text><text x=\"133\" y=\"289\" font-family=\"Arial\" font-size=\"16\">-3</text><text x=\"133\" y=\"257\" font-family=\"Arial\" font-size=\"16\">-2</text><text x=\"133\" y=\"225\" font-family=\"Arial\" font-size=\"16\">-1</text><text x=\"133\" y=\"161\" font-family=\"Arial\" font-size=\"16\">1</text><text x=\"133\" y=\"129\" font-family=\"Arial\" font-size=\"16\">2</text><text x=\"133\" y=\"97\" font-family=\"Arial\" font-size=\"16\">3</text><text x=\"133\" y=\"65\" font-family=\"Arial\" font-size=\"16\">4</text><text x=\"133\" y=\"33\" font-family=\"Arial\" font-size=\"16\">5</text></svg></figure>"
+  },
+  "maths-lower-batch-decimals-q1": {
+    "html": "<p>What decimal indicates the fraction of the rectangle below which is shaded?</p><figure><img src=\"assets/practice-mathematics/native-decimals-isolated-v2-0eee8d3a7ea2698be04d.svg\" alt=\"Original question diagram\" width=\"204.733\" data-word-width-px=\"204.733\" data-word-max-height=\"7\"></figure><p>□ is shaded.</p>"
+  },
+  "maths-lower-batch-decimals-q2": {
+    "html": "<p>Which diagram shows 0.4 of the rectangle shaded?</p>",
+    "optionsHtml": [
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:130/70;width:84.5px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-decimals-questions.jpg\" data-studio-crop=\"305,291,130,70\" data-word-width-px=\"84.5\" width=\"960\" height=\"8096\" alt=\"Original question diagram\" style=\"position:absolute;left:-234.6153846153846%;top:-415.7142857142857%;width:738.4615384615385%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>",
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:155/70;width:100.75px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-decimals-questions.jpg\" data-studio-crop=\"555,291,155,70\" data-word-width-px=\"100.75\" width=\"960\" height=\"8096\" alt=\"Original question diagram\" style=\"position:absolute;left:-358.06451612903226%;top:-415.7142857142857%;width:619.3548387096774%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>",
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:160/75;width:104.0px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-decimals-questions.jpg\" data-studio-crop=\"295,381,160,75\" data-word-width-px=\"104.0\" width=\"960\" height=\"8096\" alt=\"Original question diagram\" style=\"position:absolute;left:-184.375%;top:-508.0%;width:600.0%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>",
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:155/75;width:100.75px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-decimals-questions.jpg\" data-studio-crop=\"555,381,155,75\" data-word-width-px=\"100.75\" width=\"960\" height=\"8096\" alt=\"Original question diagram\" style=\"position:absolute;left:-358.06451612903226%;top:-508.0%;width:619.3548387096774%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>"
+    ]
+  },
+  "maths-lower-batch-decimals-q4": {
+    "html": "<p>Which fraction below is <strong>not</strong> the same as the decimal 0.28?</p>",
+    "optionsHtml": [
+      "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>28</mn></mrow><mrow><mn>100</mn></mrow></mfrac></math></p>",
+      "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>14</mn></mrow><mrow><mn>50</mn></mrow></mfrac></math></p>",
+      "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn></mrow><mrow><mn>8</mn></mrow></mfrac></math></p>",
+      "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>7</mn></mrow><mrow><mn>25</mn></mrow></mfrac></math></p>"
+    ]
+  },
+  "maths-lower-batch-decimals-q15": {
+    "html": "<p>Complete the multiplication below:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>0.35 × 7 = □</mtext></math></p>"
+  },
+  "maths-lower-batch-decimals-q19": {
+    "html": "<p>A set of stairs has eight steps, of equal height. The stairs have a total height of 1.92 metres. How high is each step (in metres)?</p><figure><img src=\"assets/practice-mathematics/native-decimals-isolated-v2-cfc9a6cdb08c784f3745.svg\" alt=\"Original question diagram\" width=\"268.667\" data-word-width-px=\"268.667\" data-word-max-height=\"7\"></figure><p>Height of each step: □ metres.</p>"
+  },
+  "maths-lower-batch-decimals-q35": {
+    "html": "<p>What is the decimal number represented by the arrow on the number line below?</p><figure><img src=\"assets/practice-mathematics/native-decimals-isolated-v2-d8163f679874877689c0.svg\" alt=\"Original question diagram\" width=\"384.267\" data-word-width-px=\"384.267\" data-word-max-height=\"7\"></figure>"
+  },
+  "maths-lower-algebra-910-algebraic-expansions-short-q1": {
+    "html": "<p>Simplify <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>4x + 2 + 3x + 9</mtext></math>.</p>"
+  },
+  "maths-lower-algebra-910-algebraic-expansions-short-q3": {
+    "html": "<p>Expand <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>2(x + 3)</mtext></math>.</p>"
+  },
+  "maths-lower-batch-metric-system-q8": {
+    "html": "<p>Tony is writing a summary of some metric conversions. He has made one mistake. Which is incorrect?</p>",
+    "optionsHtml": [
+      "<p>100 centimetres (cm) = 1 metre (m)</p>",
+      "<p>1000 millilitres (mL) = 1 litre (L)</p>",
+      "<p>10 000 kilograms (kg) = 1 tonne (t)</p>",
+      "<p>10 millimetres (mm) = 1 centimetre (cm)</p>"
+    ]
+  },
+  "maths-lower-batch-metric-system-q17": {
+    "html": "<p>A movie is listed as having a playing time of 2 hours and 35 minutes. Jacquie starts watching the movie at 15:22, by the clock in the lounge room. What time will the movie end, if she pauses it for 20 minutes in the middle to take a phone call?</p><p>Time: □ : □</p>"
+  },
+  "maths-lower-batch-metric-system-q20": {
+    "html": "<p>The information shown is about a water storage reservoir in South Australia. How many litres does the reservoir hold?</p><table><tr><th colspan=\"2\">Barossa Reservoir</th></tr><tr><td>Capacity</td><td>4 515 megalitres</td></tr><tr><td>Length of wall</td><td>144 m</td></tr><tr><td>Height of wall</td><td>28.6 m</td></tr><tr><td>Area of water spread</td><td>62 hectares</td></tr></table>",
+    "optionsHtml": [
+      "<p>4.5 million litres</p>",
+      "<p>4.5 billion litres</p>",
+      "<p>45 million litres</p>",
+      "<p>45 billion litres</p>"
+    ]
+  },
+  "maths-lower-batch-metric-system-q21": {
+    "html": "<p>How long does the 1:33 train from Penrith take to get to Central?</p><p>Travel time: □ minutes.</p>"
+  },
+  "maths-lower-batch-metric-system-q23": {
+    "html": "<p>Mark measures the mass of 4 pieces of fruit. Which list shows the objects in order of increasing mass?</p><table><tr><th>Fruit</th><th>Mass</th></tr><tr><td>Banana</td><td>210 g</td></tr><tr><td>Mandarin</td><td>0.15 kg</td></tr><tr><td>Apple</td><td>180 g</td></tr><tr><td>Orange</td><td>0.2 kg</td></tr></table>",
+    "optionsHtml": [
+      "<p>Mandarin, Orange, Apple, Banana</p>",
+      "<p>Mandarin, Apple, Orange, Banana</p>",
+      "<p>Banana, Orange, Apple, Mandarin</p>",
+      "<p>Orange, Apple, Banana, Mandarin</p>"
+    ]
+  },
+  "maths-lower-batch-metric-system-q24": {
+    "html": "<p>The time in Perth is three hours earlier than that in Sydney. If it is 6:45 pm in Sydney, what is the time in Perth?</p><p>Time: □ : □ pm.</p>"
+  },
+  "maths-lower-batch-area-q6": {
+    "html": "<p>Which shape below has the greatest area? Drawings not to scale.</p>",
+    "optionsHtml": [
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:290/140;width:188.5px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-area-questions.jpg\" data-studio-crop=\"55,1277,290,140\" data-word-width-px=\"188.5\" width=\"960\" height=\"9199\" alt=\"Original question diagram\" style=\"position:absolute;left:-18.96551724137931%;top:-912.1428571428572%;width:331.0344827586207%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>",
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:165/190;width:107.25px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-area-questions.jpg\" data-studio-crop=\"380,1272,165,190\" data-word-width-px=\"107.25\" width=\"960\" height=\"9199\" alt=\"Original question diagram\" style=\"position:absolute;left:-230.3030303030303%;top:-669.4736842105264%;width:581.8181818181819%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>",
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:160/250;width:104.0px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-area-questions.jpg\" data-studio-crop=\"545,1242,160,250\" data-word-width-px=\"104.0\" width=\"960\" height=\"9199\" alt=\"Original question diagram\" style=\"position:absolute;left:-340.625%;top:-496.8%;width:600.0%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>",
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:225/245;width:146.25px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-area-questions.jpg\" data-studio-crop=\"720,1242,225,245\" data-word-width-px=\"146.25\" width=\"960\" height=\"9199\" alt=\"Original question diagram\" style=\"position:absolute;left:-320.0%;top:-506.9387755102041%;width:426.6666666666667%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>"
+    ]
+  },
+  "maths-lower-batch-area-q22": {
+    "html": "<p>An arch in Orange Botanic Gardens is made of metal sheeting and consists of linked triangles. One of the triangles is shown, with its measurements. How many square metres of metal sheeting are needed for this triangle?</p><figure><img src=\"assets/practice-mathematics/native-area-c1f892c92a8bf4df.svg\" alt=\"Original question diagram\" width=\"208.542\" data-word-width-px=\"208.542\" data-word-max-height=\"7\"></figure>",
+    "optionsHtml": [
+      "<p>0.84 m²</p>",
+      "<p>0.42 m²</p>",
+      "<p>4.2 m²</p>",
+      "<p>8.4 m²</p>"
+    ]
+  },
+  "maths-lower-batch-area-q24": {
+    "html": "<p>The pylon on the Sydney Harbour Bridge has an arch, a sketch of which is shown below along with its dimensions. What is the area of the inside of the arch (to the nearest m²)?</p><figure><img src=\"assets/practice-mathematics/native-area-isolated-v2-637106e793b97d7a3a5e.svg\" alt=\"Original question diagram\" width=\"154.533\" data-word-width-px=\"154.533\" data-word-max-height=\"7\"></figure><p>Area: □ m².</p>"
+  },
+  "maths-lower-algebra-910-linear-equations-choice-q9": {
+    "html": "<p>Which number line graph represents <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>x ≤ 4</mtext></math>?</p>",
+    "optionsHtml": [
+      "<p><figure><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"95\" viewBox=\"0 0 360 95\" role=\"img\" aria-label=\"Number line with open endpoint at 4, extending left\" data-word-width-px=\"360\"><path d=\"M 30 45 H 340\" stroke=\"#bbb\"/><path d=\"M 75 45 H 220\" stroke=\"black\"/><polyline points=\"85,40 75,45 85,50\" fill=\"none\" stroke=\"black\"/><circle cx=\"220\" cy=\"45\" r=\"6\" fill=\"white\" stroke=\"black\"/><text x=\"215\" y=\"76\" font-family=\"Arial\" font-size=\"16\">4</text><text x=\"95\" y=\"76\" font-family=\"Arial\" font-size=\"16\">1</text></svg></figure></p>",
+      "<p><figure><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"95\" viewBox=\"0 0 360 95\" role=\"img\" aria-label=\"Number line with closed endpoint at 4, extending left\" data-word-width-px=\"360\"><path d=\"M 30 45 H 340\" stroke=\"#bbb\"/><path d=\"M 75 45 H 220\" stroke=\"black\"/><polyline points=\"85,40 75,45 85,50\" fill=\"none\" stroke=\"black\"/><circle cx=\"220\" cy=\"45\" r=\"6\" fill=\"black\" stroke=\"black\"/><text x=\"215\" y=\"76\" font-family=\"Arial\" font-size=\"16\">4</text><text x=\"95\" y=\"76\" font-family=\"Arial\" font-size=\"16\">1</text></svg></figure></p>",
+      "<p><figure><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"95\" viewBox=\"0 0 360 95\" role=\"img\" aria-label=\"Number line with open endpoint at 4, extending right\" data-word-width-px=\"360\"><path d=\"M 30 45 H 340\" stroke=\"#bbb\"/><path d=\"M 220 45 H 325\" stroke=\"black\"/><polyline points=\"315,40 325,45 315,50\" fill=\"none\" stroke=\"black\"/><circle cx=\"220\" cy=\"45\" r=\"6\" fill=\"white\" stroke=\"black\"/><text x=\"215\" y=\"76\" font-family=\"Arial\" font-size=\"16\">4</text><text x=\"300\" y=\"76\" font-family=\"Arial\" font-size=\"16\">7</text></svg></figure></p>",
+      "<p><figure><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"95\" viewBox=\"0 0 360 95\" role=\"img\" aria-label=\"Number line with closed endpoint at 4, extending right\" data-word-width-px=\"360\"><path d=\"M 30 45 H 340\" stroke=\"#bbb\"/><path d=\"M 220 45 H 325\" stroke=\"black\"/><polyline points=\"315,40 325,45 315,50\" fill=\"none\" stroke=\"black\"/><circle cx=\"220\" cy=\"45\" r=\"6\" fill=\"black\" stroke=\"black\"/><text x=\"215\" y=\"76\" font-family=\"Arial\" font-size=\"16\">4</text><text x=\"300\" y=\"76\" font-family=\"Arial\" font-size=\"16\">7</text></svg></figure></p>"
+    ]
+  },
+  "maths-lower-algebra-910-simultaneous-equations-choice-q3": {
+    "html": "<p>Mareike is trying to solve the equations printed at the top of the working below, but has made a mistake. Which numbered line does the mistake occur in?</p><table><tr><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>y = 3x − 4</mtext></math></td><td></td></tr><tr><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>y = 2 − 3x</mtext></math></td><td></td></tr><tr><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>3x − 4 = 2 − 3x</mtext></math></td><td>Line 1</td></tr><tr><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>6x − 4 = 2</mtext></math></td><td>Line 2</td></tr><tr><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>6x = −6</mtext></math></td><td>Line 3</td></tr><tr><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>x = −1</mtext></math></td><td>Line 4</td></tr></table>",
+    "optionsHtml": [
+      "<p>Line 1</p>",
+      "<p>Line 2</p>",
+      "<p>Line 3</p>",
+      "<p>Line 4</p>"
+    ]
+  },
+  "maths-lower-batch-angles-q6": {
+    "html": "<p>Which diagram shows a pair of vertically opposite angles?</p>",
+    "optionsHtml": [
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:167/80;width:108.55px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-angles-questions.jpg\" data-studio-crop=\"168,1218,167,80\" data-word-width-px=\"108.55\" width=\"960\" height=\"5873\" alt=\"Original question diagram\" style=\"position:absolute;left:-100.59880239520957%;top:-1522.5%;width:574.8502994011976%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>",
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:152/80;width:98.8px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-angles-questions.jpg\" data-studio-crop=\"468,1218,152,80\" data-word-width-px=\"98.8\" width=\"960\" height=\"5873\" alt=\"Original question diagram\" style=\"position:absolute;left:-307.89473684210526%;top:-1522.5%;width:631.578947368421%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>",
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:95/78;width:61.75px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-angles-questions.jpg\" data-studio-crop=\"188,1311,95,78\" data-word-width-px=\"61.75\" width=\"960\" height=\"5873\" alt=\"Original question diagram\" style=\"position:absolute;left:-197.89473684210526%;top:-1680.7692307692307%;width:1010.5263157894736%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>",
+      "<p><figure><div style=\"position:relative;overflow:hidden;aspect-ratio:95/100;width:61.75px;max-width:100%\"><img src=\"assets/practice-mathematics/batch-angles-questions.jpg\" data-studio-crop=\"506,1310,95,100\" data-word-width-px=\"61.75\" width=\"960\" height=\"5873\" alt=\"Original question diagram\" style=\"position:absolute;left:-532.6315789473684%;top:-1310.0%;width:1010.5263157894736%;max-width:none;height:auto;max-height:none;margin:0\"></div></figure></p>"
+    ]
+  },
+  "maths-lower-batch-angles-q13": {
+    "html": "<p>EF is parallel to GH. What is the value of x?</p><figure><img src=\"assets/practice-mathematics/native-angles-isolated-v2-7ee1c73705f24bec4751.svg\" width=\"215.733\" data-word-width-px=\"215.733\" data-word-max-height=\"7\" alt=\"Original question diagram\"></figure>",
+    "optionsHtml": [
+      "<p>34°</p>",
+      "<p>124°</p>",
+      "<p>56°</p>",
+      "<p>146°</p>"
+    ]
+  },
+  "maths-lower-batch-ratio-and-rates-q7": {
+    "html": "<p>Complete the ratio below of the toners for Khaki Green.</p><p>Cyan : Magenta : Yellow = □ : □ : □</p>"
+  },
+  "maths-lower-batch-ratio-and-rates-q8": {
+    "html": "<p>To mix 4 litres of Khaki Green, how many mL of Yellow toner is needed?</p><p>Yellow toner: □ mL.</p>"
+  },
+  "maths-lower-batch-ratio-and-rates-q22": {
+    "html": "<p>Divide $450 between Jason and Ken in the ratio 5 : 4.</p><p>Jason: $□; Ken: $□.</p>"
+  },
+  "maths-lower-batch-ratio-and-rates-q26": {
+    "html": "<p>A water taxi travels 288 km during an eight hour shift. Its average speed over that shift is:</p>",
+    "optionsHtml": [
+      "<p>12 km/h</p>",
+      "<p>24 km/h</p>",
+      "<p>36 km/h</p>",
+      "<p>48 km/h</p>"
+    ]
+  },
+  "maths-lower-batch-percentages-q22": {
+    "html": "<p>Janie scores 72 bullseyes out of 90 shots at a target in archery. What percentage of the shots were bullseyes?</p>",
+    "optionsHtml": [
+      "<p>80%</p>",
+      "<p>8%</p>",
+      "<p>64%</p>",
+      "<p>72%</p>"
+    ]
+  },
+  "maths-lower-algebra-910-coordinate-geometry-choice-q4": {
+    "html": "<p>Which is the graph of the line <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><semantics><mrow><mstyle><mrow><mi>y</mi><mo stretchy=\"false\">=</mo><mrow><mrow><mo stretchy=\"false\">−</mo><mi>x</mi></mrow><mo stretchy=\"false\">+</mo><mn>4</mn></mrow></mrow></mstyle><mrow></mrow></mrow></semantics></math>?</p>",
+    "optionsHtml": [
+      "<p><figure><img src=\"assets/practice-mathematics/native-coordinate-geometry-910-isolated-v2-8897ccbd046e6634d606.svg\" width=\"189.6\" data-word-width-px=\"189.6\" data-word-max-height=\"7\" alt=\"Original question diagram\"></figure></p>",
+      "<p><figure><img src=\"assets/practice-mathematics/native-coordinate-geometry-910-isolated-v2-eed96cb61f04d6f8b392.svg\" width=\"189.867\" data-word-width-px=\"189.867\" data-word-max-height=\"7\" alt=\"Original question diagram\"></figure></p>",
+      "<p><figure><img src=\"assets/practice-mathematics/native-coordinate-geometry-910-isolated-v2-eeca2d3ea2aa46437308.svg\" width=\"189.867\" data-word-width-px=\"189.867\" data-word-max-height=\"7\" alt=\"Original question diagram\"></figure></p>",
+      "<p><figure><img src=\"assets/practice-mathematics/native-coordinate-geometry-910-isolated-v2-30db7b3d0682a6c9b943.svg\" width=\"189.867\" data-word-width-px=\"189.867\" data-word-max-height=\"7\" alt=\"Original question diagram\"></figure></p>"
+    ]
+  },
+  "maths-lower-algebra-910-functions-and-graphs-choice-q2": {
+    "html": "<p>Which graph below could have an equation of  <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><semantics><mrow><mstyle><mrow><mrow><mi>y</mi><mo stretchy=\"false\">=</mo><mn>2</mn></mrow><mrow><msup><mi>x</mi><mstyle><mn>2</mn></mstyle></msup><mo stretchy=\"false\">+</mo><mn>4</mn></mrow></mrow></mstyle><mrow></mrow></mrow></semantics></math> ?</p>",
+    "optionsHtml": [
+      "<p><figure><img src=\"assets/practice-mathematics/native-functions-and-graphs-910-isolated-v2-a6f2538a564c9d5e51d5.svg\" width=\"182.491\" data-word-width-px=\"182.491\" data-word-max-height=\"7\" alt=\"Original question diagram\"></figure></p>",
+      "<p><figure><img src=\"assets/practice-mathematics/native-functions-and-graphs-910-isolated-v2-c5e4992e318916eb4e15.svg\" width=\"186.403\" data-word-width-px=\"186.403\" data-word-max-height=\"7\" alt=\"Original question diagram\"></figure></p>",
+      "<p><figure><img src=\"assets/practice-mathematics/native-functions-and-graphs-910-isolated-v2-033931f597a830b4f46e.svg\" width=\"205.469\" data-word-width-px=\"205.469\" data-word-max-height=\"7\" alt=\"Original question diagram\"></figure></p>",
+      "<p><figure><img src=\"assets/practice-mathematics/native-functions-and-graphs-910-isolated-v2-048327e9bd4a425ede96.svg\" width=\"222.073\" data-word-width-px=\"222.073\" data-word-max-height=\"7\" alt=\"Original question diagram\"></figure></p>"
+    ]
+  },
+  "maths-lower-algebra-910-functions-and-graphs-choice-q7": {
+    "html": "<p>Which graph would represent the circle with equation <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mtext>+</mtext><msup><mi>y</mi><mn>2</mn></msup><mtext>=9</mtext></mrow></math>.</p>",
+    "optionsHtml": [
+      "<p><figure><img src=\"assets/practice-mathematics/native-functions-and-graphs-910-isolated-v2-9449af32d63859ba76da.svg\" width=\"207.067\" data-word-width-px=\"207.067\" data-word-max-height=\"7\" alt=\"Original question diagram\"></figure></p>",
+      "<p><figure><img src=\"assets/practice-mathematics/native-functions-and-graphs-910-isolated-v2-773b08dc3ff0f82b1acd.svg\" width=\"207.067\" data-word-width-px=\"207.067\" data-word-max-height=\"7\" alt=\"Original question diagram\"></figure></p>",
+      "<p><figure><img src=\"assets/practice-mathematics/native-functions-and-graphs-910-isolated-v2-f52454f11b998d19f7f7.svg\" width=\"207.067\" data-word-width-px=\"207.067\" data-word-max-height=\"7\" alt=\"Original question diagram\"></figure></p>",
+      "<p><figure><img src=\"assets/practice-mathematics/native-functions-and-graphs-910-isolated-v2-0f9ec211a44f411a3743.svg\" width=\"207.067\" data-word-width-px=\"207.067\" data-word-max-height=\"7\" alt=\"Original question diagram\"></figure></p>"
+    ]
+  },
+  "maths-lower-algebra-910-functions-and-graphs-choice-q10": {
+    "html": "<p>Which graph would represent the parabola with equation <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>y=(x-3)(x+1)</mtext></mrow></math>.</p>",
+    "optionsHtml": [
+      "<p><figure><img src=\"assets/practice-mathematics/native-functions-and-graphs-910-isolated-v2-d1fcd42da3f954cce414.svg\" width=\"207.067\" data-word-width-px=\"207.067\" data-word-max-height=\"7\" alt=\"Original question diagram\"></figure></p>",
+      "<p><figure><img src=\"assets/practice-mathematics/native-functions-and-graphs-910-isolated-v2-e636eba2be4a723e77c2.svg\" width=\"207.067\" data-word-width-px=\"207.067\" data-word-max-height=\"7\" alt=\"Original question diagram\"></figure></p>",
+      "<p><figure><img src=\"assets/practice-mathematics/native-functions-and-graphs-910-isolated-v2-780fbed0a32782968ded.svg\" width=\"207.067\" data-word-width-px=\"207.067\" data-word-max-height=\"7\" alt=\"Original question diagram\"></figure></p>",
+      "<p><figure><img src=\"assets/practice-mathematics/native-functions-and-graphs-910-isolated-v2-34259d979e333fd1a514.svg\" width=\"207.067\" data-word-width-px=\"207.067\" data-word-max-height=\"7\" alt=\"Original question diagram\"></figure></p>"
+    ]
+  }
+}

@@ -6,6 +6,7 @@ const oldRender=render, oldEligible=eligible, oldOpen=openQuestion, oldCheck=che
 // response formats (such as diagrams or multiple choice) are kept separately.
 const studioSubjectTypes=window.PracticeStudioCatalog?.types||{Physics:['Short answer','Calculations','Comprehension'],'Human Biology':['Multiple choice','Short answer','Extended answer'],Chemistry:['Multiple choice','Short answer','Extended answer']};
 function normaliseStudioQuestion(meta){
+ if(window.StudioQuestionFormat&&typeof meta.html==='string')meta=StudioQuestionFormat.question(meta);
  if(window.PracticeStudioCatalog)return PracticeStudioCatalog.normalise(meta);
  if(meta.subject!=='Physics')return meta;
  const section=meta.sourceSection||meta.section||'';
@@ -95,3 +96,4 @@ const topicStyle=document.createElement('style');topicStyle.textContent='.studio
 
 // Resolve the current wrapped render when changing search or year filters.
 $('search').oninput=()=>render();$('year').onchange=()=>render();
+
