@@ -5,6 +5,15 @@
  if(!output||!bank)return;
  const upper=location.pathname.includes('upper-school'),workspace=document.querySelector('.builder-workspace');
  document.body.classList.add('teacher-composer');
+ const menu=document.createElement('button');menu.type='button';menu.className='composer-menu-reveal';menu.textContent='☰';menu.setAttribute('aria-label','Show site menu');menu.setAttribute('aria-controls','siteNavigation');menu.setAttribute('aria-expanded','false');document.body.append(menu);
+ const header=document.querySelector('body > .topbar');
+ function openMenu(open){document.body.classList.toggle('composer-menu-open',open);menu.setAttribute('aria-expanded',String(open));menu.setAttribute('aria-label',open?'Hide site menu':'Show site menu');}
+ menu.addEventListener('pointerenter',()=>openMenu(true));menu.addEventListener('pointerleave',e=>{if(!header?.contains(e.relatedTarget))openMenu(false);});menu.onclick=()=>openMenu(!document.body.classList.contains('composer-menu-open'));
+ header?.addEventListener('pointerenter',()=>openMenu(true));header?.addEventListener('pointerleave',()=>{if(!header.contains(document.activeElement))openMenu(false);});
+ header?.addEventListener('focusin',()=>openMenu(true));header?.addEventListener('focusout',e=>{if(!header.contains(e.relatedTarget)&&e.relatedTarget!==menu)openMenu(false);});
+ document.addEventListener('pointerdown',e=>{if(!header?.contains(e.target)&&e.target!==menu)openMenu(false);});
+ document.addEventListener('keydown',e=>{if(e.key==='Escape'){openMenu(false);if(header?.contains(document.activeElement))menu.focus();}});
+ const expand=document.createElement('button');expand.type='button';expand.className='composer-expand';expand.textContent='Expand assessment preview';expand.setAttribute('aria-pressed','false');expand.onclick=()=>{const active=document.body.classList.toggle('composer-preview-expanded');expand.textContent=active?'Show setup and question bank':'Expand assessment preview';expand.setAttribute('aria-pressed',String(active));};workspace?.prepend(expand);
  const help=document.createElement('p');help.className='composer-help';help.textContent='Drag questions from the bank into your assessment. Use the arrow buttons to reorder, edit text and marking guidance, or add extra answer space.';
  workspace?.prepend(help);
  const live=document.createElement('p');live.className='composer-message';live.setAttribute('role','status');help.after(live);
