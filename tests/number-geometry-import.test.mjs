@@ -97,3 +97,9 @@ test('Pythagoras native questions retain isolated original diagrams and original
  // These two diagrams cross a Word row boundary; retain their scans until mapped explicitly.
  assert.ok(!get('pythagoras',3).editableText);assert.ok(!get('pythagoras',4).editableText);
 });
+test('numeric response templates become editable without losing fractions or supplied data',()=>{
+ const fraction=get('fractions',17);assert.equal(fraction.editableText,true);assert.match(fraction.html,/<mfrac><mn>3<\/mn><mn>8<\/mn><\/mfrac>/);assert.match(fraction.html,/<mfrac><mn>1<\/mn><mn>4<\/mn><\/mfrac>/);
+ const decimal=get('decimals',31);assert.equal(decimal.editableText,true);for(const n of ['7.5','8.2','9.4','8.6','7.3'])assert.ok(decimal.html.includes(n));
+ const time=get('metric-system',12);assert.equal(time.editableText,true);assert.match(time.html,/550 seconds/);assert.match(time.html,/minutes and/);
+ for(const [slug,n] of [['fractions',1],['decimals',1],['decimals',35],['metric-system',11]])assert.ok(!get(slug,n).editableText,'Keep genuine diagram '+slug+' '+n);
+});
