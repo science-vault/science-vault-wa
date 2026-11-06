@@ -8,7 +8,7 @@ test('104 source items map to 103 unique questions with the repeated median merg
  assert.equal(get('data-interpretation','short',1),undefined);const refs=get('basic-statistics','short',5).sourceReferences;assert.equal(refs.length,2);assert.equal(new Set(refs.map(r=>r.sourceFile)).size,2);
  for(const q of rows)assert.deepEqual(idx.find(i=>i.id===q.id),Object.fromEntries(Object.entries(q).filter(([k])=>!['html','answerHtml','optionsHtml'].includes(k))));
  const sources={'basic-statistics':20,'data-interpretation':20,'data-comparison':21,'bivariate-data':22,'data-interpretation-comparison':20};for(const [s,n] of Object.entries(sources))assert.equal(rows.filter(q=>q.bankFile===`practice-studio-mathematics-${s}-data910.json`).length,n);
- const old=c.PracticeStudioCatalog.indices.filter(f=>f.includes('mathematics-')&&!f.includes('data-910')).flatMap(f=>JSON.parse(read(f)));assert.equal(old.length,902);assert.equal(new Set([...old,...idx].map(q=>q.id)).size,1005);assert.equal(new Set([...old,...idx].map(q=>q.hash)).size,1005);
+ const old=c.PracticeStudioCatalog.indices.filter(f=>f.includes('mathematics-')&&!f.includes('data-910')&&!f.includes('geometry-2016')).flatMap(f=>JSON.parse(read(f)));assert.equal(old.length,902);assert.equal(new Set([...old,...idx].map(q=>q.id)).size,1005);assert.equal(new Set([...old,...idx].map(q=>q.hash)).size,1005);
  const oldFiles=new Set(old.map(q=>q.sourceFile));for(const q of rows)assert.ok(!oldFiles.has(q.sourceFile));
  assert.ok(get('data-interpretation','short','6-stem'));assert.ok(get('data-interpretation','short',6));
 });
