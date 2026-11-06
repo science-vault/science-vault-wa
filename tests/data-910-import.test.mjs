@@ -55,6 +55,7 @@ test('question diagrams are PNG files with visible content, no answers leak into
 test('algebra now uses its three specific curriculum topics and keeps existing IDs and catalogue order',()=>{
  const algebra=JSON.parse(read('practice-studio-mathematics-algebra-910-index.json')),counts={};for(const q of algebra){assert.equal(q.topics[0],q.scsa.subStrand);counts[q.topics[0]]=(counts[q.topics[0]]||0)+1;}
  assert.deepEqual(counts,{'Linear and non-linear patterns and relationships':45,'Linear and non-linear equations and inequalities':56,'Algebraic techniques':94});
- assert.equal(c.PracticeStudioCatalog.indices.at(-1),'practice-studio-mathematics-data-910-index.json');
+ assert.equal(c.PracticeStudioCatalog.indices[14],'practice-studio-mathematics-data-910-index.json');
+ assert.equal(c.PracticeStudioCatalog.indices[15],'practice-studio-mathematics-geometry-2016-index.json');
  const old=JSON.parse(read('practice-studio-mathematics-algebra-910-index.json')),sorted=c.PracticeStudioDatabaseOrder.sort([...old,...idx].map(m=>({q:[null,null,null,null,null,null,null,m]})),'recent');assert.equal(sorted[0].q[7].id,idx[0].id);
 });
