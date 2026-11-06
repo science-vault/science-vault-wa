@@ -1,0 +1,80 @@
+{
+  "exams": [
+    {
+      "source": "2015chemistry_unit_1_paper.docx",
+      "key": "2015_chemistry_unit_1_marking_guide.docx",
+      "questionsDetected": 46,
+      "imported": 46,
+      "file": "practice-studio-chemistry-2015-u1.json",
+      "marks": 200,
+      "mcqKeysVerified": 25,
+      "automatic": 25
+    },
+    {
+      "source": "2017 11 Properties and Structure of atoms Test.doc",
+      "key": "2017 11 Properties and Structure of atoms Answers.doc",
+      "questionsDetected": 17,
+      "imported": 17,
+      "file": "practice-studio-chemistry-2017-atoms.json",
+      "marks": 56,
+      "mcqKeysVerified": 10,
+      "automatic": 9
+    },
+    {
+      "source": "Covalent molecules and Gases Test.docx",
+      "key": "Covalent Molecules and Gases Test solutions.pdf",
+      "questionsDetected": 23,
+      "imported": 23,
+      "file": "practice-studio-chemistry-2017-covalent-gases.json",
+      "marks": 68,
+      "mcqKeysVerified": 15,
+      "automatic": 15
+    }
+  ],
+  "totalImported": 86,
+  "reviewNotes": [
+    {
+      "id": "chemistry-upload-exam2015-q35",
+      "notes": [
+        "Guide heading lists 2,2,6 marks; the paper separates the 4-mark question 35 and 6-mark isomer question 36."
+      ]
+    },
+    {
+      "id": "chemistry-upload-atoms2017-q10",
+      "notes": [
+        "Supplied key B says sodium atom although the stem asks for a positively charged particle."
+      ]
+    },
+    {
+      "id": "chemistry-upload-atoms2017-q16",
+      "notes": [
+        "Paper allocates 3 marks to part (a), but the supplied guide allocates 2; total paper marks 7 retained."
+      ]
+    },
+    {
+      "id": "chemistry-upload-covalent2017-q19",
+      "notes": [
+        "Printed total is 8 marks; printed subparts total 10 marks."
+      ]
+    },
+    {
+      "id": "chemistry-upload-covalent2017-q22",
+      "notes": [
+        "Alternative question has no supplied answer; review draft key.",
+        "Printed total is 9 marks; printed subparts total 7 marks."
+      ]
+    },
+    {
+      "id": "chemistry-upload-covalent2017-q23",
+      "notes": [
+        "Alternative question has no supplied answer; review draft key."
+      ]
+    }
+  ],
+  "format": {
+    "font": "Arial",
+    "fontSizePt": 12,
+    "automaticAnswerLines": false
+  },
+  "sourceFilesMatchedBySHA": true
+}

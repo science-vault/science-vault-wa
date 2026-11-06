@@ -50,6 +50,60 @@
   "documents": [
     {
       "subject": "Chemistry",
+      "file": "2015chemistry_unit_1_paper.docx",
+      "path": "resources/ATAR/Chemistry/Assessments/11/Applecross/2015/2015chemistry_unit_1_paper.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2015
+      ],
+      "units": [
+        "1"
+      ],
+      "banks": [
+        "practice-studio-chemistry-2015-u1.json"
+      ],
+      "questions": 46,
+      "addedAt": [
+        "2026-11-06T16:21:12.138318Z"
+      ],
+      "keys": [
+        {
+          "file": "2015_chemistry_unit_1_marking_guide.docx",
+          "path": "resources/ATAR/Chemistry/Assessments/11/Applecross/2015/2015_chemistry_unit_1_marking_guide.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "file": "2017 11 Properties and Structure of atoms Test.doc",
+      "path": "resources/ATAR/Chemistry/Assessments/11/Applecross/2017/Properties and Structures of Atoms Test/2017 11 Properties and Structure of atoms Test.doc",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2017
+      ],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-chemistry-2017-atoms.json"
+      ],
+      "questions": 17,
+      "addedAt": [
+        "2026-11-06T16:21:12.138318Z"
+      ],
+      "keys": [
+        {
+          "file": "2017 11 Properties and Structure of atoms Answers.doc",
+          "path": "resources/ATAR/Chemistry/Assessments/11/Applecross/2017/Properties and Structures of Atoms Test/2017 11 Properties and Structure of atoms Answers.doc"
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
       "file": "2020_chemistry_unit_1_exam.docx",
       "path": "exams/ATAR/Chemistry/11/2020/2020_chemistry_unit_1_exam.docx",
       "years": [
@@ -270,6 +324,33 @@
         {
           "file": "2024_chemistry_unit_1_marking_guide(1).docx",
           "path": "exams/ATAR/Chemistry/11/2024/2024_chemistry_unit_1_marking_guide.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "file": "Covalent molecules and Gases Test.docx",
+      "path": "resources/ATAR/Chemistry/Assessments/11/Applecross/2017/Covalent Molecules and Gases Test/Covalent molecules and Gases Test.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2017
+      ],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-chemistry-2017-covalent-gases.json"
+      ],
+      "questions": 23,
+      "addedAt": [
+        "2026-11-06T16:21:12.138318Z"
+      ],
+      "keys": [
+        {
+          "file": "Covalent Molecules and Gases Test solutions.pdf",
+          "path": "resources/ATAR/Chemistry/Assessments/11/Applecross/2017/Covalent Molecules and Gases Test/Covalent Molecules and Gases Test solutions.pdf"
         }
       ]
     },
@@ -2774,31 +2855,6 @@
     },
     {
       "subject": "Physics",
-      "file": "2024_physics_units_34_exam (1)(1).docx",
-      "path": "exams/ATAR/Physics/12/WACE/2024/2024_physics_units_34_exam (1).docx",
-      "years": [
-        12
-      ],
-      "examYears": [
-        2024
-      ],
-      "units": [
-        "3 & 4"
-      ],
-      "banks": [
-        "practice-studio-physics-2024-u34.json"
-      ],
-      "questions": 18,
-      "addedAt": [],
-      "keys": [
-        {
-          "file": "2024_physics_units_34_marking_guide (4)(1).docx",
-          "path": "exams/ATAR/Physics/12/WACE/2024/2024_physics_units_34_marking_guide (4).docx"
-        }
-      ]
-    },
-    {
-      "subject": "Physics",
       "file": "2024_physics_units_3_exam(1).docx",
       "path": "exams/ATAR/Physics/12/WACE/2024/2024_physics_units_3_exam.docx",
       "years": [
@@ -2819,6 +2875,31 @@
         {
           "file": "2024_physics_units_3_marking_guide (1)(1).docx",
           "path": "exams/ATAR/Physics/12/WACE/2024/2024_physics_units_3_marking_guide (1).docx"
+        }
+      ]
+    },
+    {
+      "subject": "Physics",
+      "file": "2024_physics_units_34_exam (1)(1).docx",
+      "path": "exams/ATAR/Physics/12/WACE/2024/2024_physics_units_34_exam (1).docx",
+      "years": [
+        12
+      ],
+      "examYears": [
+        2024
+      ],
+      "units": [
+        "3 & 4"
+      ],
+      "banks": [
+        "practice-studio-physics-2024-u34.json"
+      ],
+      "questions": 18,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2024_physics_units_34_marking_guide (4)(1).docx",
+          "path": "exams/ATAR/Physics/12/WACE/2024/2024_physics_units_34_marking_guide (4).docx"
         }
       ]
     }
