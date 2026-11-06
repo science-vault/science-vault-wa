@@ -47,3 +47,9 @@ test('converted worked examples retain all equation lines and answer choices',()
  if(system.editableText)for(const n of [1,2,3,4])assert.ok(system.html.includes('Line '+n));
  for(const q of rows.filter(q=>q.editableText)){assert.equal(q.fontFamily,'Arial');assert.equal(q.fontSizePt,12);assert.equal(q.responseLines,0);}
 });
+test('Word Symbol-font inequality choices retain their relation signs',()=>{
+ const q=get('linear-equations','choice',4);assert.equal(q.editableText,true);assert.equal(q.correctAnswer,0);
+ assert.match(q.html,/x\+5≤3x\+9/);
+ assert.deepEqual(q.optionsHtml.map(h=>h.includes('≥')?'≥':h.includes('≤')?'≤':''),['≥','≤','≥','≤']);
+ for(const [i,value] of [-2,-2,2,2].entries())assert.ok(q.optionsHtml[i].includes(String(value)));
+});

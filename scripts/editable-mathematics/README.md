@@ -2,7 +2,7 @@
 
 These scripts reproduce the conservative text-conversion pass from the original bank snapshot at `4efbe76e50bbf4b49886f97074328563412a3ef5`. They require Python with lxml and olefile, and LibreOffice with Math support. Use a temporary staging directory; generated files are review candidates rather than an automatic publication.
 
-Every script accepts that staging directory as its sole argument. Run `audit.py`, `source_convert.py`, then `prepare_sources.py`. The first two download the original metadata, banks and Word sources. Preparation recovers all non-empty FX Equation cells, including multiline statements and worked steps.
+Every script accepts that staging directory as its first argument. `extract_source_diagrams.py` also accepts a source slug (for example `area`, `metric-system` or `volume-and-surface-area`); run these sequentially because they merge a shared diagram map. Run `audit.py`, `source_convert.py`, then `prepare_sources.py`. The first two download the original metadata, banks and Word sources. Preparation recovers all non-empty FX Equation cells, including multiline statements and worked steps.
 
 For Equation 3 objects, convert the original Word files into the staging `converted/` directory as ODT files, with LibreOffice's `/org.openoffice.Office.Common/Filter/Microsoft/Import/MathTypeToMath` setting enabled. Then run `recover_e3.py`. Recovery requires matching object counts. Where Word groups contain objects omitted by LibreOffice, it may pair the stand-alone objects only when that filtered count matches exactly; it also checks each recovered object is Equation 3 and the result is MathML.
 
@@ -12,4 +12,8 @@ The converter keeps section identity, continuation rows, automatic choice labels
 
 Compare every candidate against its original question and check the generated Word document before publication. The repository tests include regressions for long-response mapping, multiline equations, radicals, source assumptions, context maps, and unchanged marking behaviour. Keep `practice-studio-editable-progress.json` accurate when publishing a batch.
 
-The response-control pass is limited to explicitly audited numeric-response questions in Decimals, Fractions and Metric System. It removes only blank response graphics with no image payload, meaningful text or arrow heads, and records shape IDs and source hashes. It does not remove shaded diagrams, number lines or diagrams in other rows.
+The response-control pass is limited to explicitly audited numeric-response questions listed explicitly in the script. It removes only blank response graphics with no image payload, meaningful text or arrow heads, and records shape IDs and source hashes. It does not remove shaded diagrams, number lines or diagrams in other rows.
+
+The general diagram extractor uses the same dimension and active-content checks as the Pythagoras pass. Run it before `native_batch.py`, inspect every newly referenced vector asset against the source question, and publish only referenced assets. Word Symbol-font π, ≥ and ≤ characters are decoded explicitly; unsupported symbol characters block conversion.
+
+Before removing response controls, run `repair_diagram_anchors.py`. This checks the exact tank/tent source questions and moves the original tent preview (shape `_x0000_s1140`, relationship `rId28`) out of the tank row into its own question. It is idempotent and does not change either diagram or marking key.

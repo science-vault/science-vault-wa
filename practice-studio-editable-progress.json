@@ -32,14 +32,36 @@
     "maths-lower-algebra-910-factorisation-choice-q13",
     "maths-lower-algebra-910-factorisation-choice-q14",
     "maths-lower-algebra-910-factorisation-choice-q15",
+    "maths-lower-batch-volume-and-surface-area-q1",
+    "maths-lower-batch-volume-and-surface-area-q2",
+    "maths-lower-batch-volume-and-surface-area-q3",
+    "maths-lower-batch-volume-and-surface-area-q4",
+    "maths-lower-batch-volume-and-surface-area-q5",
+    "maths-lower-batch-volume-and-surface-area-q6",
     "maths-lower-batch-volume-and-surface-area-q7",
     "maths-lower-batch-volume-and-surface-area-q8",
+    "maths-lower-batch-volume-and-surface-area-q9",
+    "maths-lower-batch-volume-and-surface-area-q10",
+    "maths-lower-batch-volume-and-surface-area-q11",
+    "maths-lower-batch-volume-and-surface-area-q12",
+    "maths-lower-batch-volume-and-surface-area-q13",
+    "maths-lower-batch-volume-and-surface-area-q14",
+    "maths-lower-batch-volume-and-surface-area-q15",
+    "maths-lower-batch-volume-and-surface-area-q16",
+    "maths-lower-batch-volume-and-surface-area-q17",
+    "maths-lower-batch-volume-and-surface-area-q18",
+    "maths-lower-batch-volume-and-surface-area-q19",
+    "maths-lower-batch-volume-and-surface-area-q20",
     "maths-lower-batch-rational-numbers-q1",
     "maths-lower-batch-rational-numbers-q2",
     "maths-lower-batch-rational-numbers-q3",
+    "maths-lower-batch-rational-numbers-q4",
     "maths-lower-batch-rational-numbers-q5",
+    "maths-lower-batch-rational-numbers-q6",
+    "maths-lower-batch-rational-numbers-q8",
     "maths-lower-batch-rational-numbers-q9",
     "maths-lower-batch-rational-numbers-q10",
+    "maths-lower-batch-rational-numbers-q11",
     "maths-lower-batch-rational-numbers-q12",
     "maths-lower-batch-rational-numbers-q13",
     "maths-lower-batch-rational-numbers-q14",
@@ -52,29 +74,38 @@
     "maths-lower-batch-rational-numbers-q21",
     "maths-lower-batch-rational-numbers-q22",
     "maths-lower-batch-rational-numbers-q23",
+    "maths-lower-batch-rational-numbers-q24",
     "maths-lower-batch-rational-numbers-q25",
     "maths-lower-batch-rational-numbers-q26",
     "maths-lower-batch-rational-numbers-q27",
     "maths-lower-batch-rational-numbers-q28",
     "maths-lower-batch-rational-numbers-q29",
     "maths-lower-batch-rational-numbers-q30",
+    "maths-lower-batch-rational-numbers-q32",
     "maths-lower-batch-number-systems-q1",
     "maths-lower-batch-number-systems-q2",
     "maths-lower-batch-number-systems-q3",
     "maths-lower-batch-number-systems-q4",
     "maths-lower-batch-number-systems-q5",
     "maths-lower-batch-number-systems-q6",
+    "maths-lower-batch-number-systems-q7",
     "maths-lower-batch-number-systems-q8",
     "maths-lower-batch-number-systems-q9",
     "maths-lower-batch-number-systems-q11",
     "maths-lower-batch-number-systems-q12",
+    "maths-lower-batch-number-systems-q13",
     "maths-lower-batch-number-systems-q15",
+    "maths-lower-batch-number-systems-q16",
+    "maths-lower-batch-number-systems-q17",
+    "maths-lower-batch-number-systems-q18",
     "maths-lower-batch-number-systems-q20",
+    "maths-lower-batch-number-systems-q21",
     "maths-lower-batch-number-systems-q24",
     "maths-lower-batch-number-systems-q25",
     "maths-lower-batch-number-systems-q26",
     "maths-lower-batch-number-systems-q27",
     "maths-lower-batch-number-systems-q28",
+    "maths-lower-batch-number-systems-q29",
     "maths-lower-batch-location-q1",
     "maths-lower-batch-location-q4",
     "maths-lower-batch-location-q5",
@@ -116,6 +147,7 @@
     "maths-lower-batch-integers-q2",
     "maths-lower-batch-integers-q3",
     "maths-lower-batch-integers-q4",
+    "maths-lower-batch-integers-q5",
     "maths-lower-batch-integers-q6",
     "maths-lower-batch-integers-q7",
     "maths-lower-batch-integers-q8",
@@ -131,6 +163,7 @@
     "maths-lower-batch-integers-q18",
     "maths-lower-batch-integers-q19",
     "maths-lower-batch-integers-q20",
+    "maths-lower-batch-integers-q24",
     "maths-lower-batch-integers-q25",
     "maths-lower-batch-integers-q26",
     "maths-lower-batch-integers-q27",
@@ -280,12 +313,21 @@
     "maths-lower-batch-metric-system-q7",
     "maths-lower-batch-metric-system-q9",
     "maths-lower-batch-metric-system-q10",
+    "maths-lower-batch-metric-system-q11",
     "maths-lower-batch-metric-system-q12",
     "maths-lower-batch-metric-system-q13",
     "maths-lower-batch-metric-system-q14",
+    "maths-lower-batch-metric-system-q15",
+    "maths-lower-batch-metric-system-q16",
     "maths-lower-batch-metric-system-q18",
     "maths-lower-batch-metric-system-q19",
     "maths-lower-batch-metric-system-q22",
+    "maths-lower-batch-metric-system-q25",
+    "maths-lower-batch-metric-system-q26",
+    "maths-lower-batch-metric-system-q27",
+    "maths-lower-batch-metric-system-q28",
+    "maths-lower-batch-metric-system-q29",
+    "maths-lower-batch-metric-system-q30",
     "maths-lower-algebra-910-non-linear-equations-short-q1",
     "maths-lower-algebra-910-non-linear-equations-short-q2",
     "maths-lower-algebra-910-non-linear-equations-short-q3",
@@ -310,9 +352,23 @@
     "maths-lower-batch-area-q1",
     "maths-lower-batch-area-q2",
     "maths-lower-batch-area-q3",
+    "maths-lower-batch-area-q4",
+    "maths-lower-batch-area-q7",
+    "maths-lower-batch-area-q8",
+    "maths-lower-batch-area-q9",
+    "maths-lower-batch-area-q10",
     "maths-lower-batch-area-q11",
+    "maths-lower-batch-area-q12",
+    "maths-lower-batch-area-q13",
     "maths-lower-batch-area-q14",
+    "maths-lower-batch-area-q15",
+    "maths-lower-batch-area-q16",
     "maths-lower-batch-area-q17",
+    "maths-lower-batch-area-q18",
+    "maths-lower-batch-area-q19",
+    "maths-lower-batch-area-q20",
+    "maths-lower-batch-area-q21",
+    "maths-lower-batch-area-q25",
     "maths-lower-algebra-910-linear-equations-short-q1",
     "maths-lower-algebra-910-linear-equations-short-q2",
     "maths-lower-algebra-910-linear-equations-short-q3",
@@ -346,9 +402,13 @@
     "maths-lower-batch-ratio-and-rates-q6",
     "maths-lower-batch-ratio-and-rates-q9",
     "maths-lower-batch-ratio-and-rates-q10",
+    "maths-lower-batch-ratio-and-rates-q11",
     "maths-lower-batch-ratio-and-rates-q12",
+    "maths-lower-batch-ratio-and-rates-q13",
     "maths-lower-batch-ratio-and-rates-q14",
+    "maths-lower-batch-ratio-and-rates-q15",
     "maths-lower-batch-ratio-and-rates-q16",
+    "maths-lower-batch-ratio-and-rates-q17",
     "maths-lower-batch-ratio-and-rates-q18",
     "maths-lower-batch-ratio-and-rates-q19",
     "maths-lower-batch-ratio-and-rates-q20",
@@ -369,10 +429,12 @@
     "maths-lower-batch-percentages-q3",
     "maths-lower-batch-percentages-q4",
     "maths-lower-batch-percentages-q5",
+    "maths-lower-batch-percentages-q6",
     "maths-lower-batch-percentages-q7",
     "maths-lower-batch-percentages-q8",
     "maths-lower-batch-percentages-q9",
     "maths-lower-batch-percentages-q10",
+    "maths-lower-batch-percentages-q11",
     "maths-lower-batch-percentages-q12",
     "maths-lower-batch-percentages-q13",
     "maths-lower-batch-percentages-q14",
@@ -396,99 +458,7 @@
   ],
   "pending": [
     {
-      "id": "maths-lower-batch-volume-and-surface-area-q1",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-volume-and-surface-area-q2",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-volume-and-surface-area-q3",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-volume-and-surface-area-q4",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-volume-and-surface-area-q5",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-volume-and-surface-area-q6",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-volume-and-surface-area-q9",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-volume-and-surface-area-q10",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-volume-and-surface-area-q11",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-volume-and-surface-area-q12",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-volume-and-surface-area-q13",
-      "reason": "Referenced source diagram requires separate mapping"
-    },
-    {
-      "id": "maths-lower-batch-volume-and-surface-area-q14",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-volume-and-surface-area-q15",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-volume-and-surface-area-q16",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-volume-and-surface-area-q17",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-volume-and-surface-area-q18",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-volume-and-surface-area-q19",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-volume-and-surface-area-q20",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-rational-numbers-q4",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-rational-numbers-q6",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
       "id": "maths-lower-batch-rational-numbers-q7",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-rational-numbers-q8",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-rational-numbers-q11",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-rational-numbers-q24",
       "reason": "source diagram or embedded object requires separate conversion"
     },
     {
@@ -496,19 +466,7 @@
       "reason": "source diagram or embedded object requires separate conversion"
     },
     {
-      "id": "maths-lower-batch-rational-numbers-q32",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-number-systems-q7",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
       "id": "maths-lower-batch-number-systems-q10",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-number-systems-q13",
       "reason": "source diagram or embedded object requires separate conversion"
     },
     {
@@ -516,23 +474,7 @@
       "reason": "source diagram or embedded object requires separate conversion"
     },
     {
-      "id": "maths-lower-batch-number-systems-q16",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-number-systems-q17",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-number-systems-q18",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
       "id": "maths-lower-batch-number-systems-q19",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-number-systems-q21",
       "reason": "source diagram or embedded object requires separate conversion"
     },
     {
@@ -541,10 +483,6 @@
     },
     {
       "id": "maths-lower-batch-number-systems-q23",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-number-systems-q29",
       "reason": "source diagram or embedded object requires separate conversion"
     },
     {
@@ -852,10 +790,6 @@
       "reason": "source diagram or embedded object requires separate conversion"
     },
     {
-      "id": "maths-lower-batch-integers-q5",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
       "id": "maths-lower-batch-integers-q21",
       "reason": "source diagram or embedded object requires separate conversion"
     },
@@ -865,10 +799,6 @@
     },
     {
       "id": "maths-lower-batch-integers-q23",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-integers-q24",
       "reason": "source diagram or embedded object requires separate conversion"
     },
     {
@@ -1044,18 +974,6 @@
       "reason": "choice layout needs manual mapping"
     },
     {
-      "id": "maths-lower-batch-metric-system-q11",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-metric-system-q15",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-metric-system-q16",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
       "id": "maths-lower-batch-metric-system-q17",
       "reason": "source diagram or embedded object requires separate conversion"
     },
@@ -1076,30 +994,6 @@
       "reason": "source diagram or embedded object requires separate conversion"
     },
     {
-      "id": "maths-lower-batch-metric-system-q25",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-metric-system-q26",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-metric-system-q27",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-metric-system-q28",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-metric-system-q29",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-metric-system-q30",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
       "id": "maths-lower-algebra-910-non-linear-equations-short-q10",
       "reason": "source diagram or embedded object requires separate conversion"
     },
@@ -1112,63 +1006,11 @@
       "reason": "source diagram or embedded object requires separate conversion"
     },
     {
-      "id": "maths-lower-batch-area-q4",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
       "id": "maths-lower-batch-area-q5",
       "reason": "source diagram or embedded object requires separate conversion"
     },
     {
       "id": "maths-lower-batch-area-q6",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-area-q7",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-area-q8",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-area-q9",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-area-q10",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-area-q12",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-area-q13",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-area-q15",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-area-q16",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-area-q18",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-area-q19",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-area-q20",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-area-q21",
       "reason": "source diagram or embedded object requires separate conversion"
     },
     {
@@ -1181,10 +1023,6 @@
     },
     {
       "id": "maths-lower-batch-area-q24",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-area-q25",
       "reason": "source diagram or embedded object requires separate conversion"
     },
     {
@@ -1304,22 +1142,6 @@
       "reason": "source diagram or embedded object requires separate conversion"
     },
     {
-      "id": "maths-lower-batch-ratio-and-rates-q11",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-ratio-and-rates-q13",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-ratio-and-rates-q15",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-ratio-and-rates-q17",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
       "id": "maths-lower-batch-ratio-and-rates-q22",
       "reason": "source diagram or embedded object requires separate conversion"
     },
@@ -1329,14 +1151,6 @@
     },
     {
       "id": "maths-lower-batch-percentages-q1",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-percentages-q6",
-      "reason": "source diagram or embedded object requires separate conversion"
-    },
-    {
-      "id": "maths-lower-batch-percentages-q11",
       "reason": "source diagram or embedded object requires separate conversion"
     },
     {
@@ -1854,9 +1668,9 @@
   "subjects": {
     "Mathematics": {
       "total": 1128,
-      "convertedThisBatch": 391,
-      "convertedTotal": 391,
-      "wholeQuestionImagesRemaining": 237,
+      "convertedThisBatch": 453,
+      "convertedTotal": 453,
+      "wholeQuestionImagesRemaining": 175,
       "existingTextQuestionsToReview": 500
     },
     "Mathematics Methods": {

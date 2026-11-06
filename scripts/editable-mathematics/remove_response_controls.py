@@ -11,9 +11,16 @@ ns={'w':'http://schemas.openxmlformats.org/wordprocessingml/2006/main'}
 # Audited numeric-response questions: the only VML graphics here are empty
 # answer rectangles or blank numerator/denominator templates, never diagrams.
 approved={
+ 'area':{4,5,7,8,9,12,15,16,18,24,25},
+ 'volume-and-surface-area':{3,5,9,12,15,16,18,19},
+ 'integers':{5,24},
+ 'number-systems':{7,13,16,17,18,21,29},
+ 'ratio-and-rates':{11,13,15,17},
+ 'rational-numbers':{4,6,8,11,24,32},
+ 'percentages':{6,11},
  'decimals':{3,7,9,10,12,13,16,22,25,26,27,28,31,32,33,34},
  'fractions':{8,11,15,17,18,19,20,24,25,27,28,29,30,31,32},
- 'metric-system':{4,9,12,14,17,24},
+ 'metric-system':{4,9,12,14,17,24,28,29},
 }
 audit=[]
 for slug,numbers in approved.items():

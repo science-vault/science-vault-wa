@@ -79,12 +79,13 @@ def diagram(e):
  item=current_diagrams.get(shape.get('id'))
  if item and images[0].get('{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id')==item['relationshipId']:return item
  return None
+symbols={('Symbol','F070'):'π',('Symbol','F0B3'):'≥',('Symbol','F0A3'):'≤',('Wingdings','F0FC'):'✓'}
 def markup(e):
  tag=etree.QName(e).localname
  if tag in ['pict','object','drawing']:
   if answer_box(e):return ''
   item=diagram(e)
-  if item:return '<figure><img src="'+item['assetFile']+'" alt="Original Pythagoras diagram" width="'+str(round(item['displayWidthPx'],3))+'" data-word-width-px="'+str(round(item['displayWidthPx'],3))+'" data-word-max-height="7"></figure>'
+  if item:return '<figure><img src="'+item['assetFile']+'" alt="'+item.get('altText','Original Pythagoras diagram')+'" width="'+str(round(item['displayWidthPx'],3))+'" data-word-width-px="'+str(round(item['displayWidthPx'],3))+'" data-word-max-height="7"></figure>'
  if tag=='t':
   native=e.get('{urn:learning-vault:conversion}mathml')
   if native is not None:return native if ''.join(etree.fromstring(native.encode()).itertext()).strip() else ''
@@ -93,6 +94,7 @@ def markup(e):
    inner='<mtable>'+''.join('<mtr><mtd><mrow>'+fxhtml(line)+'</mrow></mtd></mtr>' for line in fx.split('\n'))+'</mtable>' if '\n' in fx else '<mrow>'+fxhtml(fx)+'</mrow>'
    return '<math xmlns="http://www.w3.org/1998/Math/MathML">'+inner+'</math>'
   return html.escape(clean(e.text or ''))
+ if tag=='sym':return html.escape(symbols.get((e.get(W+'font'),e.get(W+'char')),''))
  if tag=='tab':return '\t'
  if tag=='br':return '<br>'
  if tag in ['pPr','rPr','tblPr','trPr','tcPr','proofErr','bookmarkStart','bookmarkEnd']:return ''
@@ -134,6 +136,7 @@ for path in root.glob('practice-studio-mathematics-*.json'):
     bodies=cells
    content=''.join(markup(child) for body in bodies for child in body)
    graphics=any(diagram(g) is None and not answer_box(g) for body in bodies for g in body.xpath('.//w:pict|.//w:drawing|.//w:object',namespaces=NS))
+   graphics=graphics or any((g.get(W+'font'),g.get(W+'char')) not in symbols for body in bodies for g in body.xpath('.//w:sym',namespaces=NS))
    previous=mapping[active];mapping[active]=(previous[0]+content,previous[1] or graphics)
  changed=False
  for q in rows:

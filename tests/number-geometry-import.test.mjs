@@ -101,5 +101,19 @@ test('numeric response templates become editable without losing fractions or sup
  const fraction=get('fractions',17);assert.equal(fraction.editableText,true);assert.match(fraction.html,/<mfrac><mn>3<\/mn><mn>8<\/mn><\/mfrac>/);assert.match(fraction.html,/<mfrac><mn>1<\/mn><mn>4<\/mn><\/mfrac>/);
  const decimal=get('decimals',31);assert.equal(decimal.editableText,true);for(const n of ['7.5','8.2','9.4','8.6','7.3'])assert.ok(decimal.html.includes(n));
  const time=get('metric-system',12);assert.equal(time.editableText,true);assert.match(time.html,/550 seconds/);assert.match(time.html,/minutes and/);
- for(const [slug,n] of [['fractions',1],['decimals',1],['decimals',35],['metric-system',11]])assert.ok(!get(slug,n).editableText,'Keep genuine diagram '+slug+' '+n);
+ for(const [slug,n] of [['fractions',1],['decimals',1],['decimals',35],['metric-system',11]])assert.match(get(slug,n).html,/<(?:img|svg)\b/,'Keep genuine diagram '+slug+' '+n);
+});
+test('measurement diagrams preserve source dimensions, pi and complete question context',()=>{
+ for(const [slug,n] of [['area',4],['area',25],['metric-system',30],['volume-and-surface-area',16]]){
+  const q=get(slug,n);assert.equal(q.editableText,true);assert.ok(q.nativeDiagramSources.length);
+  for(const d of q.nativeDiagramSources){const svg=read(d.assetFile);assert.match(svg,/<svg/);assert.doesNotMatch(svg,/<script|<foreignObject|onload=/i);assert.match(d.sourceMediaSHA256,/^[0-9a-f]{64}$/);}
+ }
+ assert.match(get('metric-system',30).html,/Use π = 3\.14/);assert.match(get('metric-system',29).html,/Use π = 3\.1/);
+ assert.match(get('area',4).html,/8\.5 cm by 4 cm/);assert.match(get('area',25).html,/diameter 6 m/);
+ // Recover the original tent diagram from the preceding tank row in Word.
+ const tank=get('volume-and-surface-area',12),tent=get('volume-and-surface-area',13);
+ assert.equal(tank.editableText,true);assert.equal(tent.editableText,true);
+ assert.deepEqual(tank.nativeDiagramSources.map(d=>d.shapeId),['_x0000_s1138']);
+ assert.deepEqual(tent.nativeDiagramSources.map(d=>d.shapeId),['_x0000_s1140']);
+ assert.match(tank.html,/depth of 1\.2 m/);assert.equal(tent.optionsHtml.length,4);
 });
