@@ -6,7 +6,7 @@
  const covered=course=>Object.hasOwn(catalog.types,course);
  function json(file){
   if(!/^practice-studio-[a-z0-9-]+\.json$/.test(file))return Promise.reject(Error('Invalid Studio bank file'));
-  if(!files.has(file))files.set(file,fetch(file).then(r=>{if(!r.ok)throw Error('Could not load '+file);return r.json()}).catch(e=>{files.delete(file);throw e}));
+  if(!files.has(file))files.set(file,fetch(file,{cache:'no-cache'}).then(r=>{if(!r.ok)throw Error('Could not load '+file);return r.json()}).catch(e=>{files.delete(file);throw e}));
   return files.get(file);
  }
  function index(){
