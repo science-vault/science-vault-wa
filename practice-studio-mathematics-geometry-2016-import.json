@@ -1,0 +1,36 @@
+{
+  "questions": 123,
+  "byPaper": {
+    "Basic Geometry Test 2016.docx": 48,
+    "Congruence Test 2016.docx": 34,
+    "Enlargement & Similarity Test 2016.docx": 35,
+    "Geometric Reasoning Test 2016.docx": 6
+  },
+  "byYear": {
+    "7": 24,
+    "8": 44,
+    "9": 44,
+    "10": 11
+  },
+  "byMode": {
+    "manual": 73,
+    "automatic": 50
+  },
+  "originalAssets": 398,
+  "atlases": 14,
+  "sourceIssues": [
+    {
+      "id": "maths-geometry-2016-enlargement-similarity-long-q3",
+      "issues": [
+        "Part (a) prints 3 marks, but the key describes 2 marks. The question bank retains the printed question allocation."
+      ]
+    },
+    {
+      "id": "maths-geometry-2016-geometric-reasoning-long-q2",
+      "issues": [
+        "Question 2(c) prints 3 marks, but the supplied key describes a 2-mark rubric. The question bank retains the printed question allocation."
+      ]
+    }
+  ],
+  "verifiedTypedAnswerQuestions": 36
+}
