@@ -19,7 +19,7 @@
   nav.innerHTML=link('index.html','Home')+link('topic-hub.html','Lessons')+link('student-quiz.html','Practice Studio')+link('interactive-lab.html','Interactive Lab')+group('Progress', [['leaderboard.html','Leaderboard'],['avatar.html','Champion Hall'],['learning-quest.html','Learning Quest'],['student-results.html','My results']])+link('quiz-battle.html','Quiz Battle')+group('Resources',[
    ['library.html','All resources'],['powerpoints.html','PowerPoints'],['worksheets.html','Worksheets'],['practicals.html','Practicals'],['notes.html','Notes'],['revision.html','Revision'],['videos.html','Videos'],['assessments.html','Assessments'],['exams.html','Exam papers'],['textbooks.html','Textbooks']
   ])+group('Teacher tools',[
-   ['teacher-classes.html','Classes and progress'],['assessment-builders.html','Assessment builders'],['assessment-builder.html','Years 7–10 builder'],['upper-school-assessment-builder.html','Years 11–12 builder']
+   ['update-history.html','Update history'],['teacher-classes.html','Classes and progress'],['assessment-builders.html','Assessment builders'],['assessment-builder.html','Years 7–10 builder'],['upper-school-assessment-builder.html','Years 11–12 builder']
   ])+link(role==='teacher'?'teacher-area.html':'student-area.html',role==='teacher'?'Teacher area':'Student area')+link('student-classes.html','My tasks')+'<a href="account.html" data-account-link>Log in / Sign up</a>';
   if(studio){
    const local=document.createElement('div');local.className='studio-views';local.setAttribute('role','group');local.setAttribute('aria-label','Practice Studio views');
@@ -67,6 +67,7 @@
  }
  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',setup);else setup();
 })();
+
 
 
 
