@@ -1,5 +1,5 @@
 import {getAccessState,observeAccess} from './access-client.mjs?v=2026.10.9-classes';
-import {empty,award,summary,dayKey,normal} from './learning-league-core.mjs?v=2026.10.14-league1';
+import {empty,award,summary,dayKey,normal} from './learning-league-core.mjs?v=2026.11.07-crates1';
 import {publishLeague} from './live-leaderboard.mjs?v=2026.10.26-global2';
 import {subjectTotals} from './community-core.mjs?v=2026.10.26-global2';
 const eligible=a=>a?.user&&['student','teacher'].includes(a.member?.role)&&a.member.status==='active'&&a.member.registrationVersion===2&&!a.error;

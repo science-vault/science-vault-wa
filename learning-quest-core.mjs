@@ -1,9 +1,10 @@
+import {levelProgress} from './learning-progression.mjs?v=2026.11.07-crates1';
 // Device-local learning achievements. Pure functions: no school marks or server claims.
-export const freshQuest=()=>({version:1,entries:{},goals:{},chapters:[],avatar:'explorer',costume:'classic'});
+export const freshQuest=()=>({version:1,entries:{},goals:{},chapters:[],avatar:'explorer',costume:'classic',rewards:freshRewards()});
 export function cleanQuest(raw){
  const s=freshQuest();if(raw?.version!==1)return s;
  for(const [id,e] of Object.entries(raw.entries||{}))if(typeof id==='string'&&id.length<500&&e&&['lesson','question','lab'].includes(e.kind))s.entries[id]={kind:e.kind,subject:String(e.subject||'').slice(0,80),correct:e.correct===true,manual:e.manual===true,complete:e.complete===true};
- s.goals=Object.fromEntries(Object.entries(raw.goals||{}).filter(([k,v])=>/^\d-\d$/.test(k)&&v===true));s.chapters=[...new Set((raw.chapters||[]).filter(n=>Number.isInteger(n)&&n>=0&&n<6))].sort();s.avatar=String(raw.avatar||'explorer');const outfit=COSTUMES.find(c=>c.id===raw.costume);s.costume=outfit&&questStats(s).level>=outfit.level?outfit.id:'classic';return s;
+ s.goals=Object.fromEntries(Object.entries(raw.goals||{}).filter(([k,v])=>/^\d-\d$/.test(k)&&v===true));s.chapters=[...new Set((raw.chapters||[]).filter(n=>Number.isInteger(n)&&n>=0&&n<6))].sort();s.avatar=String(raw.avatar||'explorer');s.rewards=cleanRewards(raw.rewards,s);const outfit=COSTUMES.find(c=>c.id===raw.costume);s.costume=outfit&&costumeUnlocked(s,outfit.id)?outfit.id:'classic';if(!avatarUnlocked(s,s.avatar))s.avatar='explorer';return s;
 }
 export const subjectName=s=>String(s||'').replace(/\s+ATAR$/i,'').trim();
 export const lessonActivityId=(subject,year,unit,topic)=>JSON.stringify([subjectName(subject).toLowerCase(),Number(year),String(unit||''),String(topic||'')]);
@@ -21,7 +22,7 @@ export function recordActivity(state,event){
  state.entries[id]={kind:event.kind,subject:subjectName(event.subject),complete:event.complete===true||old?.complete===true,correct:correct||old?.correct===true,manual:manual&&!old?.correct};
  return questStats(state).xp-before;
 }
-export function questStats(s){const es=Object.values(s.entries||{}),questions=es.filter(e=>e.kind==='question'),lessons=es.filter(e=>e.kind==='lesson'&&e.complete),labs=es.filter(e=>e.kind==='lab'&&e.complete),correct=questions.filter(e=>e.correct&&!e.manual).length,xp=questions.length*4+correct*10+lessons.length*50+labs.length*40+Object.keys(s.goals||{}).length*25+(s.chapters||[]).length*100;return{questions:questions.length,correct,lessons:lessons.length,labs:labs.length,subjects:new Set(es.map(e=>e.subject.toLowerCase()).filter(Boolean)).size,xp,level:1+Math.floor(xp/150),next:150-xp%150,progress:Math.round(xp%150/150*100),chapters:(s.chapters||[]).length};}
+export function questStats(s){const es=Object.values(s.entries||{}),questions=es.filter(e=>e.kind==='question'),lessons=es.filter(e=>e.kind==='lesson'&&e.complete),labs=es.filter(e=>e.kind==='lab'&&e.complete),correct=questions.filter(e=>e.correct&&!e.manual).length,xp=questions.length*4+correct*10+lessons.length*50+labs.length*40+Object.keys(s.goals||{}).length*25+(s.chapters||[]).length*100;return{questions:questions.length,correct,lessons:lessons.length,labs:labs.length,subjects:new Set(es.map(e=>e.subject.toLowerCase()).filter(Boolean)).size,xp,...levelProgress(xp),chapters:(s.chapters||[]).length};}
 const goal=(title,needs,href,action)=>({title,needs,href,action});
 export const CHAPTERS=[
  {id:'harbour',name:'First Light Harbour',subtitle:'Bring the lighthouse back to life.',icon:'☀',color:'#e4ac4c',story:'The atlas has lost its light. Run your first investigation and gather enough knowledge to restore the harbour beacon.',goals:[goal('Test an idea',[['labs',1]],'interactive-lab.html','Enter the lab'),goal('Find your footing',[['questions',3],['correct',1]],'student-quiz.html','Answer questions'),goal('Connect two subjects',[['subjects',2]],'interactive-lab.html','Explore another subject')],reward:'Beacon Keeper'},
@@ -77,7 +78,11 @@ export const AVATARS=[
  {id:'scholar',name:'Inkspire Scholar',color:'#b39ce3',hat:'wizard',rule:x=>x.chapters>=3,label:'Restore Inkspire Library'},
  {id:'guardian',name:'River Guardian',color:'#78bedc',hat:'hood',rule:x=>x.chapters>=4,label:'Restore the Riverlands'},
  {id:'navigator',name:'Sky Navigator',color:'#e5a68a',hat:'cap',rule:x=>x.chapters>=5,label:'Restore Skyward Exchange'},
- {id:'champion',name:'Atlas Champion',color:'#e7cb77',hat:'crown',rule:x=>x.chapters>=6,label:'Complete the full story'}
+ {id:'champion',name:'Atlas Champion',color:'#e7cb77',hat:'crown',rule:x=>x.chapters>=6,label:'Complete the full story'},
+ {id:'astral',name:'Astral Warden',color:'#7685ea',hat:'hood',rule:()=>false,label:'Find in a level-up crate or craft with shards'},
+ {id:'crystal',name:'Crystal Sage',color:'#79cdd3',hat:'wizard',rule:()=>false,label:'Find in a level-up crate or craft with shards'},
+ {id:'ember',name:'Ember Scout',color:'#e69a65',hat:'cap',rule:()=>false,label:'Find in a level-up crate or craft with shards'},
+ {id:'archivist',name:'Void Archivist',color:'#ab7ac8',hat:'crown',rule:()=>false,label:'Find in a level-up crate or craft with shards'}
 ];
 export const RIBBONS=[
  {id:'first-lab',name:'First Discovery',icon:'⌁',rule:x=>x.labs>=1,desc:'Complete your first lab challenge'},
@@ -89,8 +94,88 @@ export const RIBBONS=[
  {id:'question-hundred',name:'Century Explorer',icon:'100',rule:x=>x.questions>=100,desc:'Answer one hundred different questions'},
  {id:'atlas',name:'Keeper of the Atlas',icon:'✦',rule:x=>x.chapters>=6,desc:'Restore all six realms'}
 ];
-export function equipAvatar(s,id){const avatar=AVATARS.find(a=>a.id===id);if(!avatar?.rule(questStats(s)))return false;s.avatar=id;return true;}
+export function equipAvatar(s,id){const avatar=AVATARS.find(a=>a.id===id);if(!avatar||!avatarUnlocked(s,id))return false;s.avatar=id;return true;}
 export const COSTUMES=[{id:'classic',name:'Classic outfit',level:1,color:null},{id:'hoodie',name:'Campus hoodie',level:3,color:'#7e68b2'},{id:'explorer-vest',name:'Explorer vest',level:5,color:'#568a70'},{id:'lab-coat',name:'Lab coat',level:8,color:'#f4f3ef'},{id:'scholar-robe',name:'Scholar robe',level:12,color:'#3d4c73'},{id:'champion-jacket',name:'Champion jacket',level:20,color:'#b48a43'}];
-export function equipCostume(s,id){const outfit=COSTUMES.find(c=>c.id===id);if(!outfit||questStats(s).level<outfit.level)return false;s.costume=id;return true;}
+export function equipCostume(s,id){const outfit=COSTUMES.find(c=>c.id===id);if(!outfit||!costumeUnlocked(s,id))return false;s.costume=id;return true;}
 export function avatarSVG(id,size=120,costume='classic'){const a=AVATARS.find(a=>a.id===id)||AVATARS[0],outfit=COSTUMES.find(c=>c.id===costume)||COSTUMES[0],bodyColor=outfit.color||a.color;const detail=outfit.id==='lab-coat'?'<path d="M44 88L60 105L77 88M60 105V119" fill="none" stroke="#a3aab5" stroke-width="2"/><rect x="79" y="98" width="10" height="10" rx="2" fill="#9cb7c0"/>':outfit.id==='hoodie'?'<path d="M42 88Q60 112 80 88M54 98V113M67 98V113" fill="none" stroke="#ddd2ef" stroke-width="3"/>':outfit.id==='explorer-vest'?'<path d="M48 88L48 119M74 88V119" stroke="#dfca9e" stroke-width="4"/><rect x="31" y="104" width="12" height="10" fill="#d6c292"/>':outfit.id==='scholar-robe'?'<path d="M43 88L60 113L78 88" fill="none" stroke="#ba9fd8" stroke-width="6"/>':outfit.id==='champion-jacket'?'<path d="M43 88L60 108L77 88M60 108V119" fill="none" stroke="#ffe6a4" stroke-width="4"/><circle cx="80" cy="103" r="5" fill="#ffe6a4"/>':'';const hat=a.hat==='crown'?'<path d="M32 43L27 22L44 32L60 15L76 32L93 22L87 43Z" fill="#ffe09b" stroke="#b88939" stroke-width="3"/>':a.hat==='wizard'?'<path d="M26 43L59 8L84 43Z" fill="'+a.color+'"/><path d="M23 43H93" stroke="#e9d5a6" stroke-width="9"/>':a.hat==='beret'?'<ellipse cx="61" cy="32" rx="35" ry="17" fill="'+a.color+'"/><path d="M62 14l3-9" stroke="#213747" stroke-width="4"/>':a.hat==='hood'?'<path d="M26 72V47Q27 12 60 12Q94 12 94 47V72" fill="'+a.color+'"/>':a.hat==='cap'?'<path d="M27 42Q30 10 65 15Q86 16 88 42Z" fill="'+a.color+'"/><path d="M28 42H96" stroke="#233e4d" stroke-width="8"/>':'';return '<svg width="'+size+'" height="'+size+'" viewBox="0 0 120 120" role="img" aria-label="'+a.name+' wearing '+outfit.name+'"><circle cx="60" cy="60" r="58" fill="'+a.color+'" opacity=".18"/><path d="M20 116Q23 83 60 83Q98 83 101 116" fill="'+bodyColor+'"/>'+detail+'<path d="M49 83V97L60 106L72 97V83" fill="#e5bb96"/>'+hat+'<ellipse cx="60" cy="59" rx="28" ry="32" fill="#f4d4b5"/><path d="M33 52Q28 24 59 25Q88 24 88 52Q79 46 76 36Q53 48 33 46" fill="#35404a"/>'+(a.hat==='goggles'?'<path d="M28 46H93" stroke="'+a.color+'" stroke-width="9"/><circle cx="45" cy="45" r="10" fill="#d9f4ee" stroke="#314b56" stroke-width="4"/><circle cx="76" cy="45" r="10" fill="#d9f4ee" stroke="#314b56" stroke-width="4"/>':'')+'<circle cx="49" cy="61" r="2.5" fill="#273c48"/><circle cx="72" cy="61" r="2.5" fill="#273c48"/><path d="M51 77Q60 83 69 77" fill="none" stroke="#9a624d" stroke-width="3" stroke-linecap="round"/><path d="M60 64l-2 8h5" fill="none" stroke="#cd9c79" stroke-width="2"/></svg>';}
 
+
+export const RARITIES=['common','rare','epic','legendary'];
+export const SHARD_COST={common:80,rare:140,epic:240,legendary:400};
+export const BANNERS=[
+ {id:'academy',name:'Academy',rarity:'common',background:'linear-gradient(120deg,#e8e2f7,#f7f5fc)'},
+ {id:'harbour',name:'First Light',rarity:'common',background:'linear-gradient(120deg,#f7deb0,#faeed9)'},
+ {id:'grove',name:'Clockwork Forest',rarity:'common',background:'linear-gradient(120deg,#c2e6d8,#eaf5e8)'},
+ {id:'tides',name:'Moonlit Tides',rarity:'rare',background:'linear-gradient(120deg,#b3d5ec,#d5e8ef)'},
+ {id:'ember',name:'Ember Horizon',rarity:'rare',background:'linear-gradient(120deg,#efb48f,#f7dfba)'},
+ {id:'aurora',name:'Aurora Veil',rarity:'epic',background:'linear-gradient(120deg,#8ed8ce,#c8b4ed,#eed6f6)'},
+ {id:'cosmos',name:'Cosmic Atlas',rarity:'epic',background:'linear-gradient(120deg,#a5b4e6,#d0b5e6,#c7e0f4)'},
+ {id:'sovereign',name:'Sovereign Gold',rarity:'legendary',background:'linear-gradient(120deg,#ceab59,#fff0b0,#d8be7f)'}
+];
+export const CRATE_RIBBONS=[
+ {id:'spark',name:'Spark of Curiosity',icon:'✧',rarity:'common'},
+ {id:'trail',name:'Trail Seeker',icon:'⌁',rarity:'common'},
+ {id:'compass',name:'True North',icon:'✥',rarity:'rare'},
+ {id:'sentinel',name:'Knowledge Sentinel',icon:'◇',rarity:'rare'},
+ {id:'nova',name:'Nova Mind',icon:'✷',rarity:'epic'},
+ {id:'prism',name:'Prism of Insight',icon:'❖',rarity:'epic'},
+ {id:'sovereign',name:'Atlas Sovereign',icon:'♜',rarity:'legendary'},
+ {id:'infinite',name:'Infinite Discovery',icon:'∞',rarity:'legendary'}
+];
+const characterRarities={scribe:'common',keeper:'rare',engineer:'rare',scholar:'epic',guardian:'rare',navigator:'epic',champion:'legendary',astral:'epic',crystal:'rare',ember:'common',archivist:'legendary'};
+export const REWARD_ITEMS=[
+ ...AVATARS.filter(a=>!['explorer','maker'].includes(a.id)).map(a=>({id:'character:'+a.id,kind:'character',ref:a.id,name:a.name,rarity:characterRarities[a.id]})),
+ ...COSTUMES.filter(c=>c.id!=='classic').map((c,i)=>({id:'costume:'+c.id,kind:'costume',ref:c.id,name:c.name,rarity:['common','common','rare','epic','legendary'][i]})),
+ ...BANNERS.filter(b=>b.id!=='academy').map(b=>({...b,id:'banner:'+b.id,kind:'banner',ref:b.id})),
+ ...CRATE_RIBBONS.map(r=>({...r,id:'ribbon:'+r.id,kind:'ribbon',ref:r.id}))
+];
+export function freshRewards(){return{version:2,seed:1,owned:[],opened:[],shards:0,banner:'academy',ribbon:null};}
+export function rewardSeed(uid){let n=2166136261;for(const c of String(uid))n=Math.imul(n^c.charCodeAt(0),16777619);return n>>>0;}
+export function cleanRewards(raw,s){
+ const out=freshRewards(),valid=new Set(REWARD_ITEMS.map(i=>i.id));
+ if(raw?.version===2){
+  out.seed=Number.isSafeInteger(raw.seed)?raw.seed>>>0:1;
+  out.owned=[...new Set((Array.isArray(raw.owned)?raw.owned:[]).filter(id=>valid.has(id)))];
+  out.shards=Math.max(0,Math.min(10000000,Math.floor(Number(raw.shards)||0)));
+  const seen=new Set(),earned=questStats(s).level;
+  out.opened=(Array.isArray(raw.opened)?raw.opened:[]).filter(c=>Number.isInteger(c?.level)&&c.level>=2&&c.level<=earned&&!seen.has(c.level)&&(seen.add(c.level),true)).map(c=>({level:c.level,item:valid.has(c.item)?c.item:null,shards:Math.max(0,Math.min(200,Math.floor(Number(c.shards)||0)))}));
+  out.banner=BANNERS.some(b=>b.id===raw.banner&&(b.id==='academy'||out.owned.includes('banner:'+b.id)))?raw.banner:'academy';
+  out.ribbon=(RIBBONS.some(r=>r.id===raw.ribbon&&r.rule(questStats(s)))||out.owned.includes('ribbon:'+raw.ribbon))?raw.ribbon:null;
+ }else{
+  // Keep costumes that were already unlocked under the previous 150-XP curve.
+  const oldLevel=1+Math.floor(questStats(s).xp/150);
+  out.owned=COSTUMES.filter(c=>c.id!=='classic'&&oldLevel>=c.level).map(c=>'costume:'+c.id);
+ }
+ return out;
+}
+export function avatarUnlocked(s,id){const a=AVATARS.find(a=>a.id===id);return !!a&&(a.rule(questStats(s))||s.rewards?.owned?.includes('character:'+id));}
+export function costumeUnlocked(s,id){return id==='classic'||!!s.rewards?.owned?.includes('costume:'+id);}
+export function rewardOwned(s,item){return item.kind==='character'?avatarUnlocked(s,item.ref):item.kind==='costume'?costumeUnlocked(s,item.ref):!!s.rewards?.owned?.includes(item.id);}
+export function ribbonUnlocked(s,id){return !!RIBBONS.find(r=>r.id===id)?.rule(questStats(s))||!!s.rewards?.owned?.includes('ribbon:'+id);}
+export function pendingCrates(s){const opened=new Set((s.rewards?.opened||[]).map(c=>c.level)),out=[];for(let n=2;n<=questStats(s).level;n++)if(!opened.has(n))out.push(n);return out;}
+export function crateTier(level){return level%25===0?'legendary':level%10===0?'epic':level%5===0?'rare':'common';}
+export function openLevelCrate(s,level){
+ if(!Number.isInteger(level)||!pendingCrates(s).includes(level))return null;
+ const r=s.rewards||(s.rewards=freshRewards());let seed=rewardSeed(r.seed+':'+level),roll=()=>{seed=(Math.imul(seed,1664525)+1013904223)>>>0;return seed/4294967296;};
+ const minimum=RARITIES.indexOf(crateTier(level)),remaining=REWARD_ITEMS.filter(i=>!rewardOwned(s,i));
+ const candidates=remaining.filter(i=>RARITIES.indexOf(i.rarity)>=minimum);
+ let item=null,shards=20;
+ if(candidates.length){
+  const weights=[60,28,10,2],rarities=RARITIES.filter(t=>candidates.some(i=>i.rarity===t)),sum=rarities.reduce((n,t)=>n+weights[RARITIES.indexOf(t)],0);let pick=roll()*sum,rarity=rarities.at(-1);
+  for(const t of rarities){pick-=weights[RARITIES.indexOf(t)];if(pick<0){rarity=t;break;}}
+  const pool=candidates.filter(i=>i.rarity===rarity);item=pool[Math.floor(roll()*pool.length)];r.owned.push(item.id);
+ }else{shards=minimum>=2?100:minimum===1?70:50;if(remaining.length){item=remaining[Math.floor(roll()*remaining.length)];r.owned.push(item.id);}}
+ r.shards+=shards;const result={level,item:item?.id||null,shards};r.opened.push(result);return{...result,reward:item};
+}
+export function craftReward(s,id){const item=REWARD_ITEMS.find(i=>i.id===id);if(!item||rewardOwned(s,item)||Number(s.rewards?.shards||0)<SHARD_COST[item.rarity])return false;s.rewards.shards-=SHARD_COST[item.rarity];s.rewards.owned.push(id);return true;}
+export function equipReward(s,id){
+ const item=REWARD_ITEMS.find(i=>i.id===id);
+ if(id==='banner:academy'){s.rewards.banner='academy';return true;}
+ if(!item||!rewardOwned(s,item))return false;
+ if(item.kind==='character')return equipAvatar(s,item.ref);
+ if(item.kind==='costume')return equipCostume(s,item.ref);
+ s.rewards[item.kind]=item.ref;return true;
+}
+export function equipRibbon(s,id){if(id===null){s.rewards.ribbon=null;return true;}if(!ribbonUnlocked(s,id))return false;s.rewards.ribbon=id;return true;}
+export function profileStyle(s){return BANNERS.find(b=>b.id===s.rewards?.banner)?.background||BANNERS[0].background;}
+export function profileRibbon(s){return [...RIBBONS,...CRATE_RIBBONS].find(r=>r.id===s.rewards?.ribbon&&ribbonUnlocked(s,r.id))||null;}
