@@ -38,16 +38,30 @@
    let activityLink=nav.querySelector('[data-activity-link]');if(state.admin&&!activityLink){activityLink=document.createElement('a');activityLink.href='admin-activity.html';activityLink.dataset.activityLink='';activityLink.textContent='Activity & traffic';nav.insertBefore(activityLink,accountLink)}if(activityLink)activityLink.hidden=!state.admin;
    const teacherTools=catalog.PAGES.some(p=>p.group==='Teacher tools'&&policy.canOpenPage(state,p));document.querySelectorAll('[data-teacher-only]').forEach(el=>el.hidden=!teacherTools);
   })).catch(()=>{});
-  function fitNavigation(){
-   if(window.innerWidth>1000){bar.classList.remove('site-nav-open');const button=bar.querySelector('.site-nav-toggle');button?.setAttribute('aria-expanded','false')}
+  const reveal=document.createElement('button');reveal.type='button';reveal.className='site-menu-reveal';reveal.textContent='☰';reveal.setAttribute('aria-controls',nav.id);document.body.append(reveal);
+  const toggle=document.createElement('button');toggle.type='button';toggle.className='site-nav-toggle';toggle.textContent='Browse pages';toggle.setAttribute('aria-controls',nav.id);bar.insertBefore(toggle,nav);
+  let pinned=false;
+  function setMenu(open){
+   const desktop=window.innerWidth>1000;
+   document.body.classList.toggle('lv-menu-open',desktop&&open);bar.classList.toggle('site-nav-open',!desktop&&open);
+   bar.inert=desktop&&!open;
+   reveal.setAttribute('aria-expanded',String(desktop&&open));reveal.setAttribute('aria-label',open?'Hide site menu':'Show site menu');
+   toggle.setAttribute('aria-expanded',String(!desktop&&open));
   }
-  window.addEventListener('resize',fitNavigation,{passive:true});
-  const toggle=document.createElement('button');toggle.type='button';toggle.className='site-nav-toggle';toggle.textContent='Browse pages';toggle.setAttribute('aria-controls',nav.id);toggle.setAttribute('aria-expanded','false');bar.insertBefore(toggle,nav);fitNavigation();
-  const close=()=>{bar.classList.remove('site-nav-open');toggle.setAttribute('aria-expanded','false');nav.querySelectorAll('details').forEach(el=>el.open=false)};
-  toggle.addEventListener('click',()=>{const open=bar.classList.toggle('site-nav-open');toggle.setAttribute('aria-expanded',String(open))});
+  function close(){pinned=false;setMenu(false);nav.querySelectorAll('details').forEach(el=>el.open=false)}
+  function fitNavigation(){if(!document.body.classList.contains('lv-menu-open')&&!bar.classList.contains('site-nav-open'))setMenu(false)}
+  window.addEventListener('resize',close,{passive:true});
+  reveal.addEventListener('click',()=>{pinned=!pinned;setMenu(pinned)});
+  reveal.addEventListener('pointerenter',e=>{if(e.pointerType==='mouse')setMenu(true)});
+  reveal.addEventListener('pointerleave',e=>{if(!pinned&&!bar.contains(e.relatedTarget)&&!bar.contains(document.activeElement))setMenu(false)});
+  bar.addEventListener('pointerleave',e=>{if(window.innerWidth>1000&&!pinned&&e.relatedTarget!==reveal&&!bar.contains(document.activeElement))setMenu(false)});
+  bar.addEventListener('focusout',e=>{if(window.innerWidth>1000&&!pinned&&!bar.contains(e.relatedTarget)&&e.relatedTarget!==reveal)setMenu(false)});
+  toggle.addEventListener('click',()=>setMenu(!bar.classList.contains('site-nav-open')));
   nav.querySelectorAll('details').forEach(el=>el.addEventListener('toggle',()=>{if(el.open)nav.querySelectorAll('details').forEach(other=>{if(other!==el)other.open=false})}));
-  document.addEventListener('click',e=>{if(!bar.contains(e.target))close()});document.addEventListener('keydown',e=>{if(e.key==='Escape'){const wasOpen=bar.classList.contains('site-nav-open');close();if(wasOpen)toggle.focus()}});
+  document.addEventListener('click',e=>{if(!bar.contains(e.target)&&e.target!==reveal)close()});
+  document.addEventListener('keydown',e=>{if(e.key==='Escape'){const wasOpen=document.body.classList.contains('lv-menu-open')||bar.classList.contains('site-nav-open');close();if(wasOpen)(window.innerWidth>1000?reveal:toggle).focus()}});
   nav.querySelectorAll('a,[data-view]').forEach(a=>a.addEventListener('click',close));
+  setMenu(false);
   import('./content-reports.mjs?v=2026.10.26-community1').catch(()=>{});import('./leaderboard-progress.mjs?v=2026.10.26-global2').catch(()=>{});
   const main=document.querySelector('main')||document.querySelector('.section.content');if(main){if(!main.id)main.id='main-content';const skip=document.createElement('a');skip.className='site-skip';skip.href='#'+main.id;skip.textContent='Skip to content';document.body.prepend(skip)}
  }
