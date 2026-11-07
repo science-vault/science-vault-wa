@@ -32,6 +32,7 @@
    const accountLink=nav.querySelector('[data-account-link]');if(accountLink)accountLink.textContent=state.user?'My account':'Log in / Sign up';
    if(!state.ready)return;
    // Include every permitted destination from the generated catalogue, including new pages.
+   nav.querySelectorAll('[data-catalog-link]').forEach(a=>a.remove());
    nav.querySelectorAll('[data-catalog-menu]').forEach(menu=>menu.remove());
    const existing=new Set([...nav.querySelectorAll('a')].map(a=>new URL(a.href,location.href).pathname.split('/').pop()));
    const hiddenDestinations=new Set(['pdf-preview.html','assessment-year.html','physics-atar-layout-preview.html','student-tracking.html','teacher-tracking.html','OPEN-RESOURCE-MANAGER.html']);
@@ -39,11 +40,13 @@
    for(const destination of catalog.PAGES){
     if(existing.has(destination.id)||hiddenDestinations.has(destination.id)||/preview|redirect/i.test(destination.id)||!policy.canOpenPage(state,destination))continue;
     existing.add(destination.id);
-    const title=destination.group==='Resources and course pages'?'Courses and resources':destination.group==='Teacher tools'?'More teacher tools':destination.group==='Administration'?'Administration':'More learning';
+    const title=destination.group==='Resources and course pages'?'Courses':destination.group==='Teacher tools'?'Teacher tools':destination.group==='Administration'?'Administration':'More learning';
     if(!buckets.has(title))buckets.set(title,[]);
     buckets.get(title).push(destination);
    }
    for(const [title,pages] of buckets){
+    const existingMenu=[...nav.querySelectorAll('details:not([data-catalog-menu])')].find(m=>m.querySelector('summary')?.textContent===title);
+    if(existingMenu){const list=existingMenu.querySelector('.site-nav-dropdown');for(const destination of pages){const a=document.createElement('a');a.href=destination.id;a.textContent=destination.label;a.dataset.catalogLink='';list.append(a)}continue;}
     const menu=document.createElement('details');menu.className='site-nav-menu';menu.dataset.catalogMenu='';
     const summary=document.createElement('summary');summary.textContent=title;menu.append(summary);
     const list=document.createElement('div');list.className='site-nav-dropdown';
@@ -58,34 +61,35 @@
    const teacherTools=catalog.PAGES.some(p=>p.group==='Teacher tools'&&policy.canOpenPage(state,p));document.querySelectorAll('[data-teacher-only]').forEach(el=>el.hidden=!teacherTools);
   })).catch(()=>{});
   const reveal=document.createElement('button');reveal.type='button';reveal.className='site-menu-reveal';reveal.textContent='☰';reveal.setAttribute('aria-controls',nav.id);document.body.append(reveal);
-  const toggle=document.createElement('button');toggle.type='button';toggle.className='site-nav-toggle';toggle.textContent='Browse pages';toggle.setAttribute('aria-controls',nav.id);bar.insertBefore(toggle,nav);
-  let pinned=false;
+  const toggle=document.createElement('button');toggle.type='button';toggle.className='site-nav-toggle';toggle.textContent='Menu';toggle.setAttribute('aria-controls',nav.id);bar.insertBefore(toggle,nav);
+  let pinned=window.innerWidth>1000;
   function setMenu(open){
    const desktop=window.innerWidth>1000;
    document.body.classList.toggle('lv-menu-open',desktop&&open);bar.classList.toggle('site-nav-open',!desktop&&open);
-   bar.inert=desktop&&!open;
+   bar.inert=desktop&&!open;document.body.classList.toggle('lv-nav-collapsed',desktop&&!open);
    reveal.setAttribute('aria-expanded',String(desktop&&open));reveal.setAttribute('aria-label',open?'Hide site menu':'Show site menu');
    toggle.setAttribute('aria-expanded',String(!desktop&&open));
   }
   function close(){pinned=false;setMenu(false);nav.querySelectorAll('details').forEach(el=>el.open=false)}
   function fitNavigation(){if(!document.body.classList.contains('lv-menu-open')&&!bar.classList.contains('site-nav-open'))setMenu(false)}
-  window.addEventListener('resize',close,{passive:true});
+  window.addEventListener('resize',()=>{pinned=window.innerWidth>1000;setMenu(pinned)},{passive:true});
   reveal.addEventListener('click',()=>{pinned=!pinned;setMenu(pinned)});
-  reveal.addEventListener('pointerenter',e=>{if(e.pointerType==='mouse')setMenu(true)});
+
   reveal.addEventListener('pointerleave',e=>{if(!pinned&&!bar.contains(e.relatedTarget)&&!bar.contains(document.activeElement))setMenu(false)});
   bar.addEventListener('pointerleave',e=>{if(window.innerWidth>1000&&!pinned&&e.relatedTarget!==reveal&&!bar.contains(document.activeElement))setMenu(false)});
   bar.addEventListener('focusout',e=>{if(window.innerWidth>1000&&!pinned&&!bar.contains(e.relatedTarget)&&e.relatedTarget!==reveal)setMenu(false)});
   toggle.addEventListener('click',()=>setMenu(!bar.classList.contains('site-nav-open')));
   nav.addEventListener('toggle',e=>{if(e.target.matches('details')&&e.target.open)nav.querySelectorAll('details').forEach(other=>{if(other!==e.target)other.open=false})},true);
-  document.addEventListener('click',e=>{if(!bar.contains(e.target)&&e.target!==reveal)close()});
+  document.addEventListener('click',e=>{if(window.innerWidth<=1000&&!bar.contains(e.target)&&e.target!==reveal)close()});
   document.addEventListener('keydown',e=>{if(e.key==='Escape'){const wasOpen=document.body.classList.contains('lv-menu-open')||bar.classList.contains('site-nav-open');close();if(wasOpen)(window.innerWidth>1000?reveal:toggle).focus()}});
-  nav.addEventListener('click',e=>{if(e.target.closest('a,[data-view]'))close()});
-  setMenu(false);
+  nav.addEventListener('click',e=>{if(window.innerWidth<=1000&&e.target.closest('a,[data-view]'))close()});
+  setMenu(pinned);
   import('./content-reports.mjs?v=2026.10.26-community1').catch(()=>{});import('./leaderboard-progress.mjs?v=2026.10.26-global2').catch(()=>{});
   const main=document.querySelector('main')||document.querySelector('.section.content');if(main){if(!main.id)main.id='main-content';const skip=document.createElement('a');skip.className='site-skip';skip.href='#'+main.id;skip.textContent='Skip to content';document.body.prepend(skip)}
  }
  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',setup);else setup();
 })();
+
 
 
 
