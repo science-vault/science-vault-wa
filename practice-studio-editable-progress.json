@@ -1158,9 +1158,9 @@
       "questionFormattingChanges": 22
     },
     "Physics": {
-      "total": 376,
+      "total": 401,
       "status": "complete",
-      "reviewed": 376,
+      "reviewed": 401,
       "questionFormattingChanges": 253
     },
     "Chemistry": {
@@ -1177,7 +1177,7 @@
     }
   },
   "formatReview": {
-    "total": 3395,
+    "total": 3420,
     "subjects": {
       "Chemistry": {
         "total": 1012,
@@ -1200,8 +1200,8 @@
         "questionFormattingChanges": 22
       },
       "Physics": {
-        "total": 376,
-        "reviewed": 376,
+        "total": 401,
+        "reviewed": 401,
         "questionFormattingChanges": 253
       }
     },
@@ -1318,11 +1318,12 @@
       "practice-studio-physics-2024-u12.json": "37426b935fb40cbd3e5910a5049895b96d669f1bcabd9b543f13221f9a587c34",
       "practice-studio-physics-2024-u3.json": "1552da7715161fea0cc83582474cc45e52d8b76381e28b9d2bfe49d7c20508fa",
       "practice-studio-physics-2024-u34.json": "d47944219b44cd558c20eaee623669c440b34e461dbab674aebf3fe6491f8fcc",
-      "practice-studio-physics-projectile-problem-set.json": "6db4b429a9952524172e0164a01f36f1f3f8e4bc1f65780b37531b87fbbd1e3e"
+      "practice-studio-physics-projectile-problem-set.json": "6db4b429a9952524172e0164a01f36f1f3f8e4bc1f65780b37531b87fbbd1e3e",
+      "practice-studio-physics-relativity-problem-set.json": "5080cf97e2def7b46dc659aea7bf405d8c0031f1f3531e7d7089e1abb2ffc053"
     },
     "formatterSHA256": "10dd51498cfa1a6d084e3ca6e3dc0bf7493d6ad30f631a7871aed30017780d3d"
   },
-  "reviewedTotal": 3395,
+  "reviewedTotal": 3420,
   "complete": true,
   "sourceImageTextReview": {
     "reviewedReplacements": 75,
@@ -1340,18 +1341,11 @@
     "sourceReviewItems": 29
   },
   "latestPhysicsImport": {
-    "questions": 24,
+    "questions": 25,
     "documents": 1,
     "year": 12,
-    "addedAt": "2026-11-07T10:25:17.279915Z",
-    "marksOrigin": "supplied",
-    "sourceReviewItems": [
-      1,
-      2,
-      6,
-      8,
-      14,
-      19
-    ]
+    "unit": 4,
+    "addedAt": "2026-11-07T11:13:41.482492Z",
+    "marksOrigin": "supplied"
   }
 }

@@ -1,0 +1,15 @@
+{
+  "source": "WACE-Physics-Unit-4-Special-Relativity-Multi-Step-Problem-Booklet.docx",
+  "sourceSHA256": "9db2fd3d7d4ae4c933220198db66a9659f00752d9e0ae512f61d05d5b91aa564",
+  "questionCount": 25,
+  "diagramCount": 25,
+  "totalMarks": 159,
+  "sourceHadMarks": true,
+  "format": {
+    "font": "Arial",
+    "fontSizePt": 12,
+    "automaticAnswerLines": false
+  },
+  "equations": "MathML in browser and native editable OMML in Word export",
+  "addedAt": "2026-11-07T11:13:41.482492Z"
+}

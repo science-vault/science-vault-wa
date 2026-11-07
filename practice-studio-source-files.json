@@ -51,6 +51,12 @@
       "sourcePath": "assets/physics/projectile-motion/Year-12-Physics-Projectile-Motion-Problem-Set (1).docx",
       "sourceKeyFile": "Year-12-Physics-Projectile-Motion-Problem-Set (1).docx",
       "sourceKeyPath": "assets/physics/projectile-motion/Year-12-Physics-Projectile-Motion-Problem-Set (1).docx"
+    },
+    "practice-studio-physics-relativity-problem-set.json": {
+      "sourceFile": "WACE-Physics-Unit-4-Special-Relativity-Multi-Step-Problem-Booklet.docx",
+      "sourcePath": "assets/physics/special-relativity/WACE-Physics-Unit-4-Special-Relativity-Multi-Step-Problem-Booklet.docx",
+      "sourceKeyFile": "WACE-Physics-Unit-4-Special-Relativity-Multi-Step-Problem-Booklet.docx",
+      "sourceKeyPath": "assets/physics/special-relativity/WACE-Physics-Unit-4-Special-Relativity-Multi-Step-Problem-Booklet.docx"
     }
   },
   "documents": [
@@ -3768,6 +3774,34 @@
           "file": "2024_physics_units_3_marking_guide (1)(1).docx",
           "path": "exams/ATAR/Physics/12/WACE/2024/2024_physics_units_3_marking_guide (1).docx"
         }
+      ]
+    },
+    {
+      "subject": "Physics",
+      "file": "WACE-Physics-Unit-4-Special-Relativity-Multi-Step-Problem-Booklet.docx",
+      "path": "assets/physics/special-relativity/WACE-Physics-Unit-4-Special-Relativity-Multi-Step-Problem-Booklet.docx",
+      "years": [
+        12
+      ],
+      "examYears": [],
+      "units": [
+        "4"
+      ],
+      "banks": [
+        "practice-studio-physics-relativity-problem-set.json"
+      ],
+      "questions": 25,
+      "addedAt": [
+        "2026-11-07T11:13:41.482492Z"
+      ],
+      "keys": [
+        {
+          "file": "WACE-Physics-Unit-4-Special-Relativity-Multi-Step-Problem-Booklet.docx",
+          "path": "assets/physics/special-relativity/WACE-Physics-Unit-4-Special-Relativity-Multi-Step-Problem-Booklet.docx"
+        }
+      ],
+      "notes": [
+        "Supplied part allocations and worked solutions are embedded in the same document."
       ]
     },
     {
