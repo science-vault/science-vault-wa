@@ -21,8 +21,8 @@
  function convert(raw){
   const m=catalog.normalise(root.StudioQuestionFormat?root.StudioQuestionFormat.question(raw):raw);if(!m.id||!m.html||!m.answerHtml||!Number.isFinite(Number(m.marks))||Number(m.marks)<=0)throw Error('Incomplete Studio question '+(m.id||''));
   let choices='';
-  if(m.markingMode==='automatic'){
-   if(!Array.isArray(m.options)||m.options.length<2||m.options.length>8||!Number.isInteger(m.correctAnswer)||m.correctAnswer<0||m.correctAnswer>=m.options.length)throw Error('Incomplete answer choices for '+m.id);
+  if(m.markingMode==='automatic'||(Array.isArray(m.options)&&m.options.length>0)){
+   if(!Array.isArray(m.options)||m.options.length<2||m.options.length>8||(m.markingMode==='automatic'&&(!Number.isInteger(m.correctAnswer)||m.correctAnswer<0||m.correctAnswer>=m.options.length)))throw Error('Incomplete answer choices for '+m.id);
    choices='<div class="studio-assessment-choices">'+m.options.map((o,i)=>'<div class="studio-assessment-option"><strong>'+String.fromCharCode(65+i)+'. </strong>'+(m.optionsHtml?.[i]||esc(o))+'</div>').join('')+'</div>';
   }
   return{id:'studio:'+m.id,studioSourceId:m.id,studioHash:m.hash,area:m.area||(/^Mathematics\b/.test(m.subject)?'Mathematics':'Science'),course:m.subject,pathway:'ATAR',year:Number(m.year),unit:(String(m.units).includes('&')?'Units ':'Unit ')+m.units,topic:m.topics?.[0]||'General',subtopic:m.subtopics?.[0]||m.topics?.[0]||'General',topics:m.topics||[],subtopics:m.subtopics||[],mixed:!!m.mixed,type:m.types[0],marks:Number(m.marks),question:m.html+choices,answer:m.answerHtml,parts:[],responseLines:0,examYear:m.examYear,sourceYear:m.examYear,sourceQuestionNumber:m.number,sourceSection:m.sourceSection||m.section,sourceAssessment:m.source,sourceFile:m.sourceFile,syllabusVersion:'source-'+m.examYear,importBatch:'practice-studio-shared',calculatorMode:m.calculatorMode,calculatorSection:m.section,typedAnswers:m.typedAnswers,solutionOrigin:m.solutionOrigin,markingMode:m.markingMode,correctAnswer:m.correctAnswer,options:m.options,optionsHtml:m.optionsHtml,searchText:m.text};
@@ -46,4 +46,5 @@
  async function ensureIds(ids){const wanted=new Set(ids.map(id=>String(id).replace(/^studio:/,''))),meta=(await index()).filter(q=>wanted.has(q.id));await Promise.all([...new Map(meta.map(q=>[q.subject+'|'+q.year,q])).values()].map(q=>load(q.subject,q.year)));}
  root.StudioAssessmentBank={index,load,covered,convert,bankFile,ensureIds};
 })(typeof window==='undefined'?globalThis:window);
+
 

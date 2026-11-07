@@ -50,6 +50,81 @@
   "documents": [
     {
       "subject": "Chemistry",
+      "file": "12. TopTest  Organic Chem & Intermolecular forces.docx",
+      "path": "resources/ATAR/Chemistry/Assessments/11/North Lake/12. TopTest  Organic Chem & Intermolecular forces.docx",
+      "years": [
+        11
+      ],
+      "examYears": [],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-chemistry-third-organic-imf.json"
+      ],
+      "questions": 16,
+      "addedAt": [
+        "2026-11-07T01:16:16.582368Z"
+      ],
+      "keys": [
+        {
+          "file": "12. TopTest Organic Chem& Intermolecular forces_Solns.docx",
+          "path": "resources/ATAR/Chemistry/Assessments/11/North Lake/12. TopTest Organic Chem& Intermolecular forces_Solns.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "file": "14. Gases, Wate and Solutions Test.docx",
+      "path": "resources/ATAR/Chemistry/Assessments/11/North Lake/14. Gases, Wate and Solutions Test.docx",
+      "years": [
+        11
+      ],
+      "examYears": [],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-chemistry-third-gases-water-solutions.json"
+      ],
+      "questions": 16,
+      "addedAt": [
+        "2026-11-07T01:16:16.582368Z"
+      ],
+      "keys": [
+        {
+          "file": "14. Gases, Wate and Solutions Test - Marking Key.docx",
+          "path": "resources/ATAR/Chemistry/Assessments/11/North Lake/14. Gases, Wate and Solutions Test - Marking Key.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "file": "18. Reaction Rates.docx",
+      "path": "resources/ATAR/Chemistry/Assessments/11/North Lake/18. Reaction Rates.docx",
+      "years": [
+        11
+      ],
+      "examYears": [],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-chemistry-third-reaction-rates.json"
+      ],
+      "questions": 8,
+      "addedAt": [
+        "2026-11-07T01:16:16.582368Z"
+      ],
+      "keys": [
+        {
+          "file": "18.Reaction RatesSoln.docx",
+          "path": "resources/ATAR/Chemistry/Assessments/11/North Lake/18.Reaction RatesSoln.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
       "file": "2015 Test 1 Atomic structure.docx",
       "path": "resources/ATAR/Chemistry/Assessments/11/John XXIII/2015/test 1/2015 Test 1 Atomic structure.docx",
       "years": [
@@ -468,6 +543,58 @@
     },
     {
       "subject": "Chemistry",
+      "file": "3. Test Electronic structuretrends periodic table.docx",
+      "path": "resources/ATAR/Chemistry/Assessments/11/North Lake/3. Test Electronic structuretrends periodic table.docx",
+      "years": [
+        11
+      ],
+      "examYears": [],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-chemistry-third-electronic-periodic.json"
+      ],
+      "questions": 9,
+      "addedAt": [
+        "2026-11-07T01:16:16.582368Z"
+      ],
+      "keys": [
+        {
+          "file": "3 TestElectronicstructureperiodic_solns.docx",
+          "path": "resources/ATAR/Chemistry/Assessments/11/North Lake/3 TestElectronicstructureperiodic_solns.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "file": "7. Topic Test_Bonding and Separating2019.docx",
+      "path": "resources/ATAR/Chemistry/Assessments/11/North Lake/7. Topic Test_Bonding and Separating2019.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2019
+      ],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-chemistry-third-bonding-separating2019.json"
+      ],
+      "questions": 22,
+      "addedAt": [
+        "2026-11-07T01:16:16.582368Z"
+      ],
+      "keys": [
+        {
+          "file": "7. Topic Test_Bonding and Separating_Solutions2019.docx",
+          "path": "resources/ATAR/Chemistry/Assessments/11/North Lake/7. Topic Test_Bonding and Separating_Solutions2019.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
       "file": "AECHE Task 5 - Reactions and Stoichiometry Test.docx",
       "path": "resources/ATAR/Chemistry/Assessments/11/Ellenbrook/AECHE Task 5 - Reactions and Stoichiometry Test.docx",
       "years": [
@@ -520,6 +647,33 @@
     },
     {
       "subject": "Chemistry",
+      "file": "IMF Solutions Test.docx",
+      "path": "resources/ATAR/Chemistry/Assessments/11/Safety Bay/2019/Test #4/IMF Solutions Test.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2019
+      ],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-chemistry-third-imf-solutions.json"
+      ],
+      "questions": 19,
+      "addedAt": [
+        "2026-11-07T01:16:16.582368Z"
+      ],
+      "keys": [
+        {
+          "file": "IMF Solutions Test (Answers).docx",
+          "path": "resources/ATAR/Chemistry/Assessments/11/Safety Bay/2019/Test #4/IMF Solutions Test (Answers).docx"
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
       "file": "TASK 15 Test 5 Reactions in Aqueous Solutions and Gases.docx",
       "path": "resources/ATAR/Chemistry/Assessments/11/Cecil Andrews/2018/TASK 15 and 16 Aqueous solutions and Gases/TASK 15 Test 5 Reactions in Aqueous Solutions and Gases.docx",
       "years": [
@@ -542,6 +696,33 @@
         {
           "file": "TASK 15 Test 5 Reaction in Aqueous Solutions and Gases Answers.docx",
           "path": "resources/ATAR/Chemistry/Assessments/11/Cecil Andrews/2018/TASK 15 and 16 Aqueous solutions and Gases/TASK 15 Test 5 Reaction in Aqueous Solutions and Gases Answers.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "file": "Test 1 - Atomic Structure - Questions (1).docx",
+      "path": "resources/ATAR/Chemistry/Assessments/11/Safety Bay/2019/Test 1/Test 1 - Atomic Structure - Questions (1).docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2019
+      ],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-chemistry-third-atomic-test1.json"
+      ],
+      "questions": 18,
+      "addedAt": [
+        "2026-11-07T01:16:16.582368Z"
+      ],
+      "keys": [
+        {
+          "file": "Test 1 - Atomic Structure - Answers.docx",
+          "path": "resources/ATAR/Chemistry/Assessments/11/Safety Bay/2019/Test 1/Test 1 - Atomic Structure - Answers.docx"
         }
       ]
     },
@@ -574,6 +755,60 @@
     },
     {
       "subject": "Chemistry",
+      "file": "Test 2 - Mixtures, Bonding - Questions2017.docx",
+      "path": "resources/ATAR/Chemistry/Assessments/11/Safety Bay/2019/Test 2/Test 2 - Mixtures, Bonding - Questions2017.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2017
+      ],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-chemistry-third-mixtures-bonding2017.json"
+      ],
+      "questions": 19,
+      "addedAt": [
+        "2026-11-07T01:16:16.582368Z"
+      ],
+      "keys": [
+        {
+          "file": "Test 2 - Mixtures, Bonding - Answers2017.docx",
+          "path": "resources/ATAR/Chemistry/Assessments/11/Safety Bay/2019/Test 2/Test 2 - Mixtures, Bonding - Answers2017.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "file": "Test 3 - Calculations, hydrocarbons - Questions.docx",
+      "path": "resources/ATAR/Chemistry/Assessments/11/Safety Bay/2019/Test#3/Test 3 - Calculations, hydrocarbons - Questions.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2019
+      ],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-chemistry-third-calculations-hydrocarbons.json"
+      ],
+      "questions": 16,
+      "addedAt": [
+        "2026-11-07T01:16:16.582368Z"
+      ],
+      "keys": [
+        {
+          "file": "Test 3 - Calculations, hydrocarbons - Answers v2.docx",
+          "path": "resources/ATAR/Chemistry/Assessments/11/Safety Bay/2019/Test#3/Test 3 - Calculations, hydrocarbons - Answers v2.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
       "file": "Test 3 2015.docx",
       "path": "resources/ATAR/Chemistry/Assessments/11/John XXIII/2015/Test 3 2015.docx",
       "years": [
@@ -596,6 +831,33 @@
         {
           "file": "test 3 Mole answers.pdf",
           "path": "resources/ATAR/Chemistry/Assessments/11/John XXIII/2015/test 3 Mole answers.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "file": "Test 5 - Acid Base Precipitation Gases.docx",
+      "path": "resources/ATAR/Chemistry/Assessments/11/Safety Bay/2019/Test 5/Test 5 - Acid Base Precipitation Gases.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2019
+      ],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-chemistry-third-acid-base-precip-gases.json"
+      ],
+      "questions": 17,
+      "addedAt": [
+        "2026-11-07T01:16:16.582368Z"
+      ],
+      "keys": [
+        {
+          "file": "Test 5 - Acid Base Precipitation Gases answers.docx",
+          "path": "resources/ATAR/Chemistry/Assessments/11/Safety Bay/2019/Test 5/Test 5 - Acid Base Precipitation Gases answers.docx"
         }
       ]
     },

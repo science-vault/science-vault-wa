@@ -1,0 +1,180 @@
+{
+  "exams": [
+    {
+      "source": "3. Test Electronic structuretrends periodic table.docx",
+      "key": "3 TestElectronicstructureperiodic_solns.docx",
+      "questionsDetected": 9,
+      "imported": 9,
+      "file": "practice-studio-chemistry-third-electronic-periodic.json",
+      "marks": 37,
+      "automatic": 5
+    },
+    {
+      "source": "7. Topic Test_Bonding and Separating2019.docx",
+      "key": "7. Topic Test_Bonding and Separating_Solutions2019.docx",
+      "questionsDetected": 22,
+      "imported": 22,
+      "file": "practice-studio-chemistry-third-bonding-separating2019.json",
+      "marks": 50,
+      "automatic": 13
+    },
+    {
+      "source": "12. TopTest  Organic Chem & Intermolecular forces.docx",
+      "key": "12. TopTest Organic Chem& Intermolecular forces_Solns.docx",
+      "questionsDetected": 16,
+      "imported": 16,
+      "file": "practice-studio-chemistry-third-organic-imf.json",
+      "marks": 39,
+      "automatic": 12
+    },
+    {
+      "source": "14. Gases, Wate and Solutions Test.docx",
+      "key": "14. Gases, Wate and Solutions Test - Marking Key.docx",
+      "questionsDetected": 16,
+      "imported": 16,
+      "file": "practice-studio-chemistry-third-gases-water-solutions.json",
+      "marks": 60,
+      "automatic": 6
+    },
+    {
+      "source": "18. Reaction Rates.docx",
+      "key": "18.Reaction RatesSoln.docx",
+      "questionsDetected": 8,
+      "imported": 8,
+      "file": "practice-studio-chemistry-third-reaction-rates.json",
+      "marks": 34,
+      "automatic": 5
+    },
+    {
+      "source": "Test 1 - Atomic Structure - Questions (1).docx",
+      "key": "Test 1 - Atomic Structure - Answers.docx",
+      "questionsDetected": 18,
+      "imported": 18,
+      "file": "practice-studio-chemistry-third-atomic-test1.json",
+      "marks": 50,
+      "automatic": 11
+    },
+    {
+      "source": "Test 2 - Mixtures, Bonding - Questions2017.docx",
+      "key": "Test 2 - Mixtures, Bonding - Answers2017.docx",
+      "questionsDetected": 19,
+      "imported": 19,
+      "file": "practice-studio-chemistry-third-mixtures-bonding2017.json",
+      "marks": 50.0,
+      "automatic": 10
+    },
+    {
+      "source": "Test 3 - Calculations, hydrocarbons - Questions.docx",
+      "key": "Test 3 - Calculations, hydrocarbons - Answers v2.docx",
+      "questionsDetected": 16,
+      "imported": 16,
+      "file": "practice-studio-chemistry-third-calculations-hydrocarbons.json",
+      "marks": 50,
+      "automatic": 6
+    },
+    {
+      "source": "IMF Solutions Test.docx",
+      "key": "IMF Solutions Test (Answers).docx",
+      "questionsDetected": 19,
+      "imported": 19,
+      "file": "practice-studio-chemistry-third-imf-solutions.json",
+      "marks": 55,
+      "automatic": 10
+    },
+    {
+      "source": "Test 5 - Acid Base Precipitation Gases.docx",
+      "key": "Test 5 - Acid Base Precipitation Gases answers.docx",
+      "questionsDetected": 17,
+      "imported": 17,
+      "file": "practice-studio-chemistry-third-acid-base-precip-gases.json",
+      "marks": 50,
+      "automatic": 12
+    }
+  ],
+  "totalImported": 160,
+  "reviewNotes": [
+    {
+      "id": "chemistry-third-electronic-periodic-written-9",
+      "notes": [
+        "The given +1 ion configuration has 26 electrons, whereas the supplied rubidium answer requires 36 electrons (2,8,18,8). Review the printed configuration."
+      ]
+    },
+    {
+      "id": "chemistry-third-bonding-separating2019-mc-1",
+      "notes": [
+        "Supplied key D conflicts with the liquid-mercury wording: liquid malleability (A) is also problematic. Review the stem and intended answer."
+      ]
+    },
+    {
+      "id": "chemistry-third-bonding-separating2019-mc-4",
+      "notes": [
+        "Supplied key selects A (3), which counts lone pairs on one chlorine atom. Cl₂ has 6 lone pairs in total, giving B. Automatic marking is disabled."
+      ]
+    },
+    {
+      "id": "chemistry-third-gases-water-solutions-mc-2",
+      "notes": [
+        "The list includes volume as a factor changing volume, apparently in place of temperature. Supplied key D is preserved; review the wording."
+      ]
+    },
+    {
+      "id": "chemistry-third-gases-water-solutions-mc-7",
+      "notes": [
+        "Supplied key C does not reflect ionisation of HCl in water. Option D describes covalent bonds broken and covalent/ion–dipole interactions formed. Teacher review is required."
+      ]
+    },
+    {
+      "id": "chemistry-third-reaction-rates-written-7",
+      "notes": [
+        "Paper and guide use different energy-profile levels; read the values from the paper graph before marking."
+      ]
+    },
+    {
+      "id": "chemistry-third-reaction-rates-written-8",
+      "notes": [
+        "Matching marking guide labels this question 9; paper labels it 8."
+      ]
+    },
+    {
+      "id": "chemistry-third-calculations-hydrocarbons-written-11",
+      "notes": [
+        "Paper header allocates 5 marks, but the calculation subpart prints 6 marks. Header allocation retained."
+      ]
+    },
+    {
+      "id": "chemistry-third-calculations-hydrocarbons-written-16",
+      "notes": [
+        "The guide’s methylbenzene side-chain chlorination requires UV light, which is not specified in the paper. Review reaction conditions."
+      ]
+    },
+    {
+      "id": "chemistry-third-imf-solutions-written-19",
+      "notes": [
+        "The supplied 90 ppm answer conflicts with the plotted calibration line: peak area 12,000 corresponds to approximately 125–130 ppm. Review before marking."
+      ]
+    },
+    {
+      "id": "chemistry-third-acid-base-precip-gases-written-1",
+      "notes": [
+        "Citric acid is triprotic; the paper describes it as monoprotic. Review this model simplification before use."
+      ]
+    },
+    {
+      "id": "chemistry-third-acid-base-precip-gases-written-4",
+      "notes": [
+        "The stated −210°C is near nitrogen’s freezing point; ordinary liquid-nitrogen bath temperature is approximately −196°C. Review the supplied temperature."
+      ]
+    }
+  ],
+  "sourceNotes": [
+    "Reaction Rates paper contains 3 written questions despite its cover listing 4; guide question 9 matches paper question 8.",
+    "Gases Water and Solutions individual allocations total 60 marks; cover says 61.",
+    "IMF Solutions written questions total 45 marks; written-section heading says 50, while the cover correctly totals 55."
+  ],
+  "format": {
+    "font": "Arial",
+    "fontSizePt": 12,
+    "automaticAnswerLines": false
+  },
+  "sourceFilesMatchedBySHA": true
+}
