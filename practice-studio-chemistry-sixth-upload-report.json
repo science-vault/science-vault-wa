@@ -1,0 +1,247 @@
+{
+  "exams": [
+    {
+      "source": "2016 Test 1 Chem Fundamentals.doc",
+      "key": "2016 Test 1 Chem Fundamentals Answers.doc",
+      "questionsDetected": 19,
+      "imported": 19,
+      "file": "practice-studio-chemistry-sixth-fundamentals2016.json",
+      "marks": 43,
+      "automatic": 9
+    },
+    {
+      "source": "2016 Test 2 Equilibrium.docx",
+      "key": "2016 Test 2 Equilibrium Answers.docx",
+      "questionsDetected": 20,
+      "imported": 20,
+      "file": "practice-studio-chemistry-sixth-equilibrium2016.json",
+      "marks": 60,
+      "automatic": 12
+    },
+    {
+      "source": "2016 Test 3 Acids and Bases.docx",
+      "key": "2016 Test 3 Acids and Bases Answers.docx",
+      "questionsDetected": 20,
+      "imported": 20,
+      "file": "practice-studio-chemistry-sixth-acids-bases2016.json",
+      "marks": 50,
+      "automatic": 10
+    },
+    {
+      "source": "2016 Test 4 Redox.doc",
+      "key": "2016 Test 4 Redox Answers.doc",
+      "questionsDetected": 10,
+      "imported": 10,
+      "file": "practice-studio-chemistry-sixth-redox2016.json",
+      "marks": 63,
+      "automatic": 0
+    },
+    {
+      "source": "2016 Test 6 Organic Chemistry 1.docx",
+      "key": "2016 Test 6 Organic Chemistry 1 Answers.pdf",
+      "questionsDetected": 16,
+      "imported": 16,
+      "file": "practice-studio-chemistry-sixth-organic2016.json",
+      "marks": 50,
+      "automatic": 9
+    },
+    {
+      "source": "2016 Test 7 Organic Synthesis 2.docx",
+      "key": "2016 Test 7 Organic Synthesis 2 Answers.pdf",
+      "questionsDetected": 28,
+      "imported": 28,
+      "file": "practice-studio-chemistry-sixth-synthesis2016.json",
+      "marks": 57,
+      "automatic": 14
+    }
+  ],
+  "totalImported": 113,
+  "reviewNotes": [
+    {
+      "id": "chemistry-sixth-fundamentals2016-mc-5",
+      "notes": [
+        "Supplied key B says chlorine is colourless in organic solvent. The expected greenish-yellow colour is option C; review before marking."
+      ]
+    },
+    {
+      "id": "chemistry-sixth-fundamentals2016-written-11",
+      "notes": [
+        "The source asks for relative molecular masses but the guide uses molar-mass units. Relative mass is dimensionless; values coincide numerically."
+      ]
+    },
+    {
+      "id": "chemistry-sixth-fundamentals2016-written-16",
+      "notes": [
+        "The guide assumes final solution volume equals the stated 570 mL of water. Review this approximation."
+      ]
+    },
+    {
+      "id": "chemistry-sixth-fundamentals2016-written-17",
+      "notes": [
+        "The question paper omits the requested concentration unit; the matching guide explicitly asks for ppm (9.9 ppm by mass)."
+      ]
+    },
+    {
+      "id": "chemistry-sixth-equilibrium2016-written-4",
+      "notes": [
+        "Supplied K expression omits [Cl⁻]⁴ from the denominator. Correct: K = [CoCl₄²⁻] / ([Co(H₂O)₆²⁺][Cl⁻]⁴)."
+      ]
+    },
+    {
+      "id": "chemistry-sixth-equilibrium2016-written-8",
+      "notes": [
+        "Paper gives 975–1225 kPa, while the guide prints Pa. Use the paper’s kPa values when explaining increased collision frequency."
+      ]
+    },
+    {
+      "id": "chemistry-sixth-acids-bases2016-written-3",
+      "notes": [
+        "The listed bicarbonate Kb appears incorrect (4.2×10⁻⁷ is approximately carbonic acid Ka₁). Use the provided data for this question or replace it after review."
+      ]
+    },
+    {
+      "id": "chemistry-sixth-acids-bases2016-written-7",
+      "notes": [
+        "The supplied guide classifies KHSO₃ as basic. HSO₃⁻ is amphiprotic and its acidic behaviour normally dominates; Mg(NO₃)₂ can be weakly acidic through hydrated Mg²⁺. Review the intended syllabus model."
+      ]
+    },
+    {
+      "id": "chemistry-sixth-redox2016-written-1",
+      "notes": [
+        "Supplied key is a duplicate blank paper. Newly authored draft answer and suggested allocation require teacher review."
+      ]
+    },
+    {
+      "id": "chemistry-sixth-redox2016-written-2",
+      "notes": [
+        "Supplied key is a duplicate blank paper. Newly authored draft answer and suggested allocation require teacher review."
+      ]
+    },
+    {
+      "id": "chemistry-sixth-redox2016-written-3",
+      "notes": [
+        "Supplied key is a duplicate blank paper. Newly authored draft answer and suggested allocation require teacher review."
+      ]
+    },
+    {
+      "id": "chemistry-sixth-redox2016-written-4",
+      "notes": [
+        "Supplied key is a duplicate blank paper. Newly authored draft answer and suggested allocation require teacher review."
+      ]
+    },
+    {
+      "id": "chemistry-sixth-redox2016-written-5",
+      "notes": [
+        "Supplied key is a duplicate blank paper. Newly authored draft answer and suggested allocation require teacher review."
+      ]
+    },
+    {
+      "id": "chemistry-sixth-redox2016-written-6",
+      "notes": [
+        "Supplied key is a duplicate blank paper. Newly authored draft answer and suggested allocation require teacher review."
+      ]
+    },
+    {
+      "id": "chemistry-sixth-redox2016-written-7",
+      "notes": [
+        "Supplied key is a duplicate blank paper. Newly authored draft answer and suggested allocation require teacher review."
+      ]
+    },
+    {
+      "id": "chemistry-sixth-redox2016-written-8",
+      "notes": [
+        "Supplied key is a duplicate blank paper. Newly authored draft answer and suggested allocation require teacher review."
+      ]
+    },
+    {
+      "id": "chemistry-sixth-redox2016-written-9",
+      "notes": [
+        "Supplied key is a duplicate blank paper. Newly authored draft answer and suggested allocation require teacher review."
+      ]
+    },
+    {
+      "id": "chemistry-sixth-redox2016-written-10",
+      "notes": [
+        "Supplied key is a duplicate blank paper. Newly authored draft answer and suggested allocation require teacher review."
+      ]
+    },
+    {
+      "id": "chemistry-sixth-organic2016-mc-2",
+      "notes": [
+        "The scanned guide circles both C and D and changes the wording of D. In this paper only C (1,2-dibromoethane) matches the diagram. Automatic marking disabled."
+      ]
+    },
+    {
+      "id": "chemistry-sixth-organic2016-written-1",
+      "notes": [
+        "The first handwritten name is unclear/inconsistent with the longest chain. Editable names are checked against the paper diagrams; structure (a) has a seven-carbon parent chain."
+      ]
+    },
+    {
+      "id": "chemistry-sixth-organic2016-written-2",
+      "notes": [
+        "The source name octanamine lacks an amine locant; the supplied drawing/condensed reference assumes octan-1-amine."
+      ]
+    },
+    {
+      "id": "chemistry-sixth-synthesis2016-mc-3",
+      "notes": [
+        "The source overgeneralises biodegradability of condensation polymers. This depends on polymer structure and conditions; review the intended answer B."
+      ]
+    },
+    {
+      "id": "chemistry-sixth-synthesis2016-mc-5",
+      "notes": [
+        "The supplied answer A describes homopolymers only; addition copolymers can use multiple monomers. Review before marking."
+      ]
+    },
+    {
+      "id": "chemistry-sixth-synthesis2016-mc-7",
+      "notes": [
+        "The source key B is the intended school-level choice; A also describes many condensation polymers, although some release HCl or other small molecules. Review this single-answer item."
+      ]
+    },
+    {
+      "id": "chemistry-sixth-synthesis2016-mc-8",
+      "notes": [
+        "The scanned key question 8 asks about examples of proteins, whereas this paper asks about R-group-dependent structure. Tertiary structure (C) is appropriate here; its explanation has been adapted."
+      ]
+    },
+    {
+      "id": "chemistry-sixth-synthesis2016-mc-12",
+      "notes": [
+        "The wording of option D reverses/obscures the atom-economy ratio. Correct definition: molar mass of desired product divided by total stoichiometric molar mass of reactants ×100%. Review before marking."
+      ]
+    },
+    {
+      "id": "chemistry-sixth-synthesis2016-mc-18",
+      "notes": [
+        "Scanned key selects B, but hydration of ethene can have 100% atom economy. D (combustion, treating one product as desired) is the intended alternative; the desired product should be stated. Automatic marking disabled."
+      ]
+    },
+    {
+      "id": "chemistry-sixth-synthesis2016-written-6",
+      "notes": [
+        "Paper asks for the pH 10 species; scanned guide instead asks for the zwitterion. The adapted answer addresses pH 10."
+      ]
+    },
+    {
+      "id": "chemistry-sixth-synthesis2016-written-7",
+      "notes": [
+        "The handwritten guide assigns an –OH group to lysine. The adapted answer uses the correct lysine amino side chain and serine hydroxyl side chain."
+      ]
+    }
+  ],
+  "sourceNotes": [
+    "Chemical Fundamentals cover says 50 marks, but printed allocations total 43 (10 MC +33 written).",
+    "Acids and Bases written numbering skips 9; all ten printed written questions, including 10 and 11, are retained.",
+    "The Redox Answers DOC is byte-for-byte identical to the blank question paper. Its ten keys are newly authored drafts for teacher review, not supplied solutions.",
+    "Organic Synthesis scanned key question 8 and written question 6 differ from the paper. Those answers are adapted and flagged."
+  ],
+  "format": {
+    "font": "Arial",
+    "fontSizePt": 12,
+    "automaticAnswerLines": false
+  },
+  "sourceFilesMatchedBySHA": true
+}

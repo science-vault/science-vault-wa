@@ -291,6 +291,171 @@
     },
     {
       "subject": "Chemistry",
+      "file": "2016 Test 1 Chem Fundamentals.doc",
+      "path": "resources/ATAR/Chemistry/Assessments/12/All Saints/2016/2016 Test 1 Chem Fundamentals.doc",
+      "years": [
+        12
+      ],
+      "examYears": [
+        2016
+      ],
+      "units": [
+        "3 & 4"
+      ],
+      "banks": [
+        "practice-studio-chemistry-sixth-fundamentals2016.json"
+      ],
+      "questions": 19,
+      "addedAt": [
+        "2026-11-07T05:47:40.476409Z"
+      ],
+      "keys": [
+        {
+          "file": "2016 Test 1 Chem Fundamentals Answers.doc",
+          "path": "resources/ATAR/Chemistry/Assessments/12/All Saints/2016/2016 Test 1 Chem Fundamentals Answers.doc"
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "file": "2016 Test 2 Equilibrium.docx",
+      "path": "resources/ATAR/Chemistry/Assessments/12/All Saints/2016/2016 Test 2 Equilibrium.docx",
+      "years": [
+        12
+      ],
+      "examYears": [
+        2016
+      ],
+      "units": [
+        "3 & 4"
+      ],
+      "banks": [
+        "practice-studio-chemistry-sixth-equilibrium2016.json"
+      ],
+      "questions": 20,
+      "addedAt": [
+        "2026-11-07T05:47:40.476409Z"
+      ],
+      "keys": [
+        {
+          "file": "2016 Test 2 Equilibrium Answers.docx",
+          "path": "resources/ATAR/Chemistry/Assessments/12/All Saints/2016/2016 Test 2 Equilibrium Answers.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "file": "2016 Test 3 Acids and Bases.docx",
+      "path": "resources/ATAR/Chemistry/Assessments/12/All Saints/2016/2016 Test 3 Acids and Bases.docx",
+      "years": [
+        12
+      ],
+      "examYears": [
+        2016
+      ],
+      "units": [
+        "3 & 4"
+      ],
+      "banks": [
+        "practice-studio-chemistry-sixth-acids-bases2016.json"
+      ],
+      "questions": 20,
+      "addedAt": [
+        "2026-11-07T05:47:40.476409Z"
+      ],
+      "keys": [
+        {
+          "file": "2016 Test 3 Acids and Bases Answers.docx",
+          "path": "resources/ATAR/Chemistry/Assessments/12/All Saints/2016/2016 Test 3 Acids and Bases Answers.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "file": "2016 Test 4 Redox.doc",
+      "path": "resources/ATAR/Chemistry/Assessments/12/All Saints/2016/2016 Test 4 Redox.doc",
+      "years": [
+        12
+      ],
+      "examYears": [
+        2016
+      ],
+      "units": [
+        "3 & 4"
+      ],
+      "banks": [
+        "practice-studio-chemistry-sixth-redox2016.json"
+      ],
+      "questions": 10,
+      "addedAt": [
+        "2026-11-07T05:47:40.476409Z"
+      ],
+      "keys": [
+        {
+          "file": "2016 Test 4 Redox Answers.doc",
+          "path": "resources/ATAR/Chemistry/Assessments/12/All Saints/2016/2016 Test 4 Redox Answers.doc"
+        }
+      ],
+      "notes": [
+        "Supplied key is a duplicate blank paper; newly authored draft answers require teacher review."
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "file": "2016 Test 6 Organic Chemistry 1.docx",
+      "path": "resources/ATAR/Chemistry/Assessments/12/All Saints/2016/2016 Test 6 Organic Chemistry 1.docx",
+      "years": [
+        12
+      ],
+      "examYears": [
+        2016
+      ],
+      "units": [
+        "3 & 4"
+      ],
+      "banks": [
+        "practice-studio-chemistry-sixth-organic2016.json"
+      ],
+      "questions": 16,
+      "addedAt": [
+        "2026-11-07T05:47:40.476409Z"
+      ],
+      "keys": [
+        {
+          "file": "2016 Test 6 Organic Chemistry 1 Answers.pdf",
+          "path": "resources/ATAR/Chemistry/Assessments/12/All Saints/2016/2016 Test 6 Organic Chemistry 1 Answers.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "file": "2016 Test 7 Organic Synthesis 2.docx",
+      "path": "resources/ATAR/Chemistry/Assessments/12/All Saints/2016/2016 Test 7 Organic Synthesis 2.docx",
+      "years": [
+        12
+      ],
+      "examYears": [
+        2016
+      ],
+      "units": [
+        "3 & 4"
+      ],
+      "banks": [
+        "practice-studio-chemistry-sixth-synthesis2016.json"
+      ],
+      "questions": 28,
+      "addedAt": [
+        "2026-11-07T05:47:40.476409Z"
+      ],
+      "keys": [
+        {
+          "file": "2016 Test 7 Organic Synthesis 2 Answers.pdf",
+          "path": "resources/ATAR/Chemistry/Assessments/12/All Saints/2016/2016 Test 7 Organic Synthesis 2 Answers.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
       "file": "2017 11 Properties and Structure of atoms Test.doc",
       "path": "resources/ATAR/Chemistry/Assessments/11/Applecross/2017/Properties and Structures of Atoms Test/2017 11 Properties and Structure of atoms Test.doc",
       "years": [

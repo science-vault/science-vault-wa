@@ -1164,9 +1164,9 @@
       "questionFormattingChanges": 253
     },
     "Chemistry": {
-      "total": 899,
+      "total": 1012,
       "status": "complete",
-      "reviewed": 899,
+      "reviewed": 1012,
       "questionFormattingChanges": 21
     },
     "Human Biology": {
@@ -1177,11 +1177,11 @@
     }
   },
   "formatReview": {
-    "total": 3258,
+    "total": 3371,
     "subjects": {
       "Chemistry": {
-        "total": 899,
-        "reviewed": 899,
+        "total": 1012,
+        "reviewed": 1012,
         "questionFormattingChanges": 21
       },
       "Human Biology": {
@@ -1321,7 +1321,7 @@
     },
     "formatterSHA256": "10dd51498cfa1a6d084e3ca6e3dc0bf7493d6ad30f631a7871aed30017780d3d"
   },
-  "reviewedTotal": 3258,
+  "reviewedTotal": 3371,
   "complete": true,
   "sourceImageTextReview": {
     "reviewedReplacements": 75,
@@ -1332,9 +1332,10 @@
     "sourcePixelHashesMatch": true
   },
   "latestChemistryImport": {
-    "questions": 68,
-    "documents": 4,
-    "addedAt": "2026-11-07T01:53:58.111164Z",
-    "sourceReviewItems": 5
+    "questions": 113,
+    "documents": 6,
+    "year": 12,
+    "addedAt": "2026-11-07T05:47:40.476409Z",
+    "sourceReviewItems": 29
   }
 }
