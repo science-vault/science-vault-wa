@@ -1,0 +1,74 @@
+{
+  "exams": [
+    {
+      "source": "3-Atomic Structure Test -Final 2.doc",
+      "key": "3- Atomic Structure Answers 2021.pdf",
+      "questionsDetected": 36,
+      "imported": 36,
+      "file": "practice-studio-chemistry-fourth-atomic2022.json",
+      "marks": 64,
+      "automatic": 24
+    },
+    {
+      "source": "4-Yr 11 Organic Chemistry test.docx",
+      "key": "4-Yr 11 Organic Chemistry test-solutions.pdf",
+      "questionsDetected": 16,
+      "imported": 16,
+      "file": "practice-studio-chemistry-fourth-organic2022.json",
+      "marks": 50,
+      "automatic": 9
+    },
+    {
+      "source": "10-Acids Bases Topic Test.docx",
+      "key": "10- Acid and Base Test Solutions.pdf",
+      "questionsDetected": 21,
+      "imported": 21,
+      "file": "practice-studio-chemistry-fourth-acids2022.json",
+      "marks": 50,
+      "automatic": 12
+    }
+  ],
+  "totalImported": 73,
+  "reviewNotes": [
+    {
+      "id": "chemistry-fourth-atomic2022-written-8",
+      "notes": [
+        "Guide annotates half a mark per correct entry, which does not match the printed 3-mark total. Review the allocation; paper total retained."
+      ]
+    },
+    {
+      "id": "chemistry-fourth-organic2022-mc-2",
+      "notes": [
+        "Supplied key selects B (CₙH₂ₙ), but the general formula of an acyclic alkane is CₙH₂ₙ₊₂, option D. Automatic marking is disabled."
+      ]
+    },
+    {
+      "id": "chemistry-fourth-organic2022-written-1",
+      "notes": [
+        "Review the second handwritten alternative: the required isomer formula is C₄H₆Br₂."
+      ]
+    },
+    {
+      "id": "chemistry-fourth-organic2022-written-3",
+      "notes": [
+        "Guide’s printed structure (c) differs from the paper; the handwritten correction matches the paper’s alkene. Use the paper’s structure."
+      ]
+    },
+    {
+      "id": "chemistry-fourth-organic2022-extended-6",
+      "notes": [
+        "Matching butane calculation is numbered 8 in the supplied key and 6 in the paper."
+      ]
+    }
+  ],
+  "sourceNotes": [
+    "Atomic paper cover states 65 marks; individual questions total 64. Guide cover says 66 and its MC heading says 22 despite containing 24 keyed items. Corrected handwritten MC answers 12=B and 24=C are retained.",
+    "Atomic and Organic papers explicitly state 2019 and show the Baldivis logo, although filed under the Safety Bay 2022 resource folder. Atomic key filename states 2021; its prompts and numerical givens match the paper."
+  ],
+  "format": {
+    "font": "Arial",
+    "fontSizePt": 12,
+    "automaticAnswerLines": false
+  },
+  "sourceFilesMatchedBySHA": true
+}

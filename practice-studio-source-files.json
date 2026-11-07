@@ -50,6 +50,33 @@
   "documents": [
     {
       "subject": "Chemistry",
+      "file": "10-Acids Bases Topic Test.docx",
+      "path": "resources/ATAR/Chemistry/Assessments/11/Safety Bay/2022/10-Acids Bases Topic Test.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2022
+      ],
+      "units": [
+        "2"
+      ],
+      "banks": [
+        "practice-studio-chemistry-fourth-acids2022.json"
+      ],
+      "questions": 21,
+      "addedAt": [
+        "2026-11-07T01:39:45.422888Z"
+      ],
+      "keys": [
+        {
+          "file": "10- Acid and Base Test Solutions.pdf",
+          "path": "resources/ATAR/Chemistry/Assessments/11/Safety Bay/2022/10- Acid and Base Test Solutions.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
       "file": "12. TopTest  Organic Chem & Intermolecular forces.docx",
       "path": "resources/ATAR/Chemistry/Assessments/11/North Lake/12. TopTest  Organic Chem & Intermolecular forces.docx",
       "years": [
@@ -543,6 +570,33 @@
     },
     {
       "subject": "Chemistry",
+      "file": "3-Atomic Structure Test -Final 2.doc",
+      "path": "resources/ATAR/Chemistry/Assessments/11/Safety Bay/2022/3-Atomic Structure Test -Final 2.doc",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2019
+      ],
+      "units": [
+        "1"
+      ],
+      "banks": [
+        "practice-studio-chemistry-fourth-atomic2022.json"
+      ],
+      "questions": 36,
+      "addedAt": [
+        "2026-11-07T01:39:45.422888Z"
+      ],
+      "keys": [
+        {
+          "file": "3- Atomic Structure Answers 2021.pdf",
+          "path": "resources/ATAR/Chemistry/Assessments/11/Safety Bay/2022/3- Atomic Structure Answers 2021.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
       "file": "3. Test Electronic structuretrends periodic table.docx",
       "path": "resources/ATAR/Chemistry/Assessments/11/North Lake/3. Test Electronic structuretrends periodic table.docx",
       "years": [
@@ -563,6 +617,33 @@
         {
           "file": "3 TestElectronicstructureperiodic_solns.docx",
           "path": "resources/ATAR/Chemistry/Assessments/11/North Lake/3 TestElectronicstructureperiodic_solns.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "file": "4-Yr 11 Organic Chemistry test.docx",
+      "path": "resources/ATAR/Chemistry/Assessments/11/Safety Bay/2022/4-Yr 11 Organic Chemistry test.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2019
+      ],
+      "units": [
+        "1"
+      ],
+      "banks": [
+        "practice-studio-chemistry-fourth-organic2022.json"
+      ],
+      "questions": 16,
+      "addedAt": [
+        "2026-11-07T01:39:45.422888Z"
+      ],
+      "keys": [
+        {
+          "file": "4-Yr 11 Organic Chemistry test-solutions.pdf",
+          "path": "resources/ATAR/Chemistry/Assessments/11/Safety Bay/2022/4-Yr 11 Organic Chemistry test-solutions.pdf"
         }
       ]
     },
