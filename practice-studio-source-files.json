@@ -45,6 +45,12 @@
       "sourceFile": "2024_physics_units_34_exam (1)(1).docx",
       "sourceKeyFile": "2024_physics_units_34_marking_guide (4)(1).docx",
       "sourcePath": "exams/ATAR/Physics/12/WACE/2024/2024_physics_units_34_exam (1).docx"
+    },
+    "practice-studio-physics-projectile-problem-set.json": {
+      "sourceFile": "Year-12-Physics-Projectile-Motion-Problem-Set (1).docx",
+      "sourcePath": "assets/physics/projectile-motion/Year-12-Physics-Projectile-Motion-Problem-Set (1).docx",
+      "sourceKeyFile": "Year-12-Physics-Projectile-Motion-Problem-Set (1).docx",
+      "sourceKeyPath": "assets/physics/projectile-motion/Year-12-Physics-Projectile-Motion-Problem-Set (1).docx"
     }
   },
   "documents": [
@@ -1887,19 +1893,19 @@
     },
     {
       "subject": "Mathematics",
-      "file": "Data Interpretation and Comparison Test.docx",
-      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years  9 - 10/Data/Data Interpretation and Comparison Test.docx",
+      "file": "Data Interpretation Test.docx",
+      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years  9 - 10/Data/Data Interpretation Test.docx",
       "years": [
         7,
         8,
-        10
+        9
       ],
       "examYears": [],
       "units": [
         "Lower school"
       ],
       "banks": [
-        "practice-studio-mathematics-data-interpretation-comparison-data910.json"
+        "practice-studio-mathematics-data-interpretation-data910.json"
       ],
       "questions": 20,
       "addedAt": [
@@ -1914,19 +1920,19 @@
     },
     {
       "subject": "Mathematics",
-      "file": "Data Interpretation Test.docx",
-      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years  9 - 10/Data/Data Interpretation Test.docx",
+      "file": "Data Interpretation and Comparison Test.docx",
+      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years  9 - 10/Data/Data Interpretation and Comparison Test.docx",
       "years": [
         7,
         8,
-        9
+        10
       ],
       "examYears": [],
       "units": [
         "Lower school"
       ],
       "banks": [
-        "practice-studio-mathematics-data-interpretation-data910.json"
+        "practice-studio-mathematics-data-interpretation-comparison-data910.json"
       ],
       "questions": 20,
       "addedAt": [
@@ -2181,31 +2187,6 @@
     },
     {
       "subject": "Mathematics",
-      "file": "Graphs and Plots Test.docx",
-      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Data/Graphs and Plots Test.docx",
-      "years": [
-        7
-      ],
-      "examYears": [],
-      "units": [
-        "Lower school"
-      ],
-      "banks": [
-        "practice-studio-mathematics-graphs-plots.json"
-      ],
-      "questions": 25,
-      "addedAt": [
-        "2026-10-30T12:10:23Z"
-      ],
-      "keys": [
-        {
-          "file": "Answers all 7 8 Data.pdf",
-          "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Data/Answers all 7 8 Data.pdf"
-        }
-      ]
-    },
-    {
-      "subject": "Mathematics",
       "file": "Graphs Tables Charts Test.docx",
       "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Data/Graphs Tables Charts Test.docx",
       "years": [
@@ -2221,6 +2202,31 @@
         "practice-studio-mathematics-graphs-tables-charts.json"
       ],
       "questions": 32,
+      "addedAt": [
+        "2026-10-30T12:10:23Z"
+      ],
+      "keys": [
+        {
+          "file": "Answers all 7 8 Data.pdf",
+          "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Data/Answers all 7 8 Data.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "file": "Graphs and Plots Test.docx",
+      "path": "resources/Assessments/WME Assessment Bank/2011 Assessment Bank Topic Tests/MAB Practice Tests Years 7 - 8/Data/Graphs and Plots Test.docx",
+      "years": [
+        7
+      ],
+      "examYears": [],
+      "units": [
+        "Lower school"
+      ],
+      "banks": [
+        "practice-studio-mathematics-graphs-plots.json"
+      ],
+      "questions": 25,
       "addedAt": [
         "2026-10-30T12:10:23Z"
       ],
@@ -3052,99 +3058,6 @@
     },
     {
       "subject": "Mathematics Methods",
-      "file": "Willo 2022 YR11 METH U1 S1.docx",
-      "path": "exams/ATAR/Mathematics Methods/11/2022/Willo 2022 YR11 METH U1 S1.docx",
-      "years": [
-        11
-      ],
-      "examYears": [
-        2022
-      ],
-      "units": [
-        "1"
-      ],
-      "banks": [
-        "practice-studio-methods-year11-6.json",
-        "practice-studio-methods-year11-7.json"
-      ],
-      "questions": 7,
-      "addedAt": [],
-      "keys": [
-        {
-          "file": "Willo 2022 YR11 METH U1 S1 SOLNS.docx",
-          "path": "exams/ATAR/Mathematics Methods/11/2022/Willo 2022 YR11 METH U1 S1 SOLNS.docx"
-        }
-      ]
-    },
-    {
-      "subject": "Mathematics Methods",
-      "file": "Willo 2022 YR11 METH U1 S2.docx",
-      "path": "exams/ATAR/Mathematics Methods/11/2022/Willo 2022 YR11 METH U1 S2.docx",
-      "years": [
-        11
-      ],
-      "examYears": [
-        2022
-      ],
-      "units": [
-        "1"
-      ],
-      "banks": [
-        "practice-studio-methods-year11-7.json",
-        "practice-studio-methods-year11-8.json"
-      ],
-      "questions": 12,
-      "addedAt": [],
-      "keys": [
-        {
-          "file": "Willo 2022 YR11 METH U1 S2 SOLNS.docx",
-          "path": "exams/ATAR/Mathematics Methods/11/2022/Willo 2022 YR11 METH U1 S2 SOLNS.docx"
-        }
-      ]
-    },
-    {
-      "subject": "Mathematics Methods",
-      "file": "Willo 2022 YR11 METH U12 S1.docx",
-      "path": "exams/ATAR/Mathematics Methods/11/2022/Willo 2022 YR11 METH U12 S1.docx",
-      "years": [
-        11
-      ],
-      "examYears": [
-        2022
-      ],
-      "units": [
-        "1 & 2"
-      ],
-      "banks": [
-        "practice-studio-methods-year11-8.json"
-      ],
-      "questions": 7,
-      "addedAt": [],
-      "keys": []
-    },
-    {
-      "subject": "Mathematics Methods",
-      "file": "Willo 2022 YR11 METH U12 S2.docx",
-      "path": "exams/ATAR/Mathematics Methods/11/2022/Willo 2022 YR11 METH U12 S2.docx",
-      "years": [
-        11
-      ],
-      "examYears": [
-        2022
-      ],
-      "units": [
-        "1 & 2"
-      ],
-      "banks": [
-        "practice-studio-methods-year11-8.json",
-        "practice-studio-methods-year11-9.json"
-      ],
-      "questions": 12,
-      "addedAt": [],
-      "keys": []
-    },
-    {
-      "subject": "Mathematics Methods",
       "file": "WSHS 2021 Methods 11 Sem 2 Section 1.docx",
       "path": "exams/ATAR/Mathematics Methods/11/2021/WSHS 2021 Methods 11 Sem 2 Section 1.docx",
       "years": [
@@ -3309,6 +3222,99 @@
         "practice-studio-methods-year12-6.json",
         "practice-studio-methods-year12-7.json",
         "practice-studio-methods-year12-8.json"
+      ],
+      "questions": 12,
+      "addedAt": [],
+      "keys": []
+    },
+    {
+      "subject": "Mathematics Methods",
+      "file": "Willo 2022 YR11 METH U1 S1.docx",
+      "path": "exams/ATAR/Mathematics Methods/11/2022/Willo 2022 YR11 METH U1 S1.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2022
+      ],
+      "units": [
+        "1"
+      ],
+      "banks": [
+        "practice-studio-methods-year11-6.json",
+        "practice-studio-methods-year11-7.json"
+      ],
+      "questions": 7,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "Willo 2022 YR11 METH U1 S1 SOLNS.docx",
+          "path": "exams/ATAR/Mathematics Methods/11/2022/Willo 2022 YR11 METH U1 S1 SOLNS.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics Methods",
+      "file": "Willo 2022 YR11 METH U1 S2.docx",
+      "path": "exams/ATAR/Mathematics Methods/11/2022/Willo 2022 YR11 METH U1 S2.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2022
+      ],
+      "units": [
+        "1"
+      ],
+      "banks": [
+        "practice-studio-methods-year11-7.json",
+        "practice-studio-methods-year11-8.json"
+      ],
+      "questions": 12,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "Willo 2022 YR11 METH U1 S2 SOLNS.docx",
+          "path": "exams/ATAR/Mathematics Methods/11/2022/Willo 2022 YR11 METH U1 S2 SOLNS.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics Methods",
+      "file": "Willo 2022 YR11 METH U12 S1.docx",
+      "path": "exams/ATAR/Mathematics Methods/11/2022/Willo 2022 YR11 METH U12 S1.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2022
+      ],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-methods-year11-8.json"
+      ],
+      "questions": 7,
+      "addedAt": [],
+      "keys": []
+    },
+    {
+      "subject": "Mathematics Methods",
+      "file": "Willo 2022 YR11 METH U12 S2.docx",
+      "path": "exams/ATAR/Mathematics Methods/11/2022/Willo 2022 YR11 METH U12 S2.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2022
+      ],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-methods-year11-8.json",
+        "practice-studio-methods-year11-9.json"
       ],
       "questions": 12,
       "addedAt": [],
@@ -3716,6 +3722,31 @@
     },
     {
       "subject": "Physics",
+      "file": "2024_physics_units_34_exam (1)(1).docx",
+      "path": "exams/ATAR/Physics/12/WACE/2024/2024_physics_units_34_exam (1).docx",
+      "years": [
+        12
+      ],
+      "examYears": [
+        2024
+      ],
+      "units": [
+        "3 & 4"
+      ],
+      "banks": [
+        "practice-studio-physics-2024-u34.json"
+      ],
+      "questions": 18,
+      "addedAt": [],
+      "keys": [
+        {
+          "file": "2024_physics_units_34_marking_guide (4)(1).docx",
+          "path": "exams/ATAR/Physics/12/WACE/2024/2024_physics_units_34_marking_guide (4).docx"
+        }
+      ]
+    },
+    {
+      "subject": "Physics",
       "file": "2024_physics_units_3_exam(1).docx",
       "path": "exams/ATAR/Physics/12/WACE/2024/2024_physics_units_3_exam.docx",
       "years": [
@@ -3741,27 +3772,30 @@
     },
     {
       "subject": "Physics",
-      "file": "2024_physics_units_34_exam (1)(1).docx",
-      "path": "exams/ATAR/Physics/12/WACE/2024/2024_physics_units_34_exam (1).docx",
+      "file": "Year-12-Physics-Projectile-Motion-Problem-Set (1).docx",
+      "path": "assets/physics/projectile-motion/Year-12-Physics-Projectile-Motion-Problem-Set (1).docx",
       "years": [
         12
       ],
-      "examYears": [
-        2024
-      ],
+      "examYears": [],
       "units": [
-        "3 & 4"
+        "3"
       ],
       "banks": [
-        "practice-studio-physics-2024-u34.json"
+        "practice-studio-physics-projectile-problem-set.json"
       ],
-      "questions": 18,
-      "addedAt": [],
+      "questions": 24,
+      "addedAt": [
+        "2026-11-07T10:25:17.279915Z"
+      ],
       "keys": [
         {
-          "file": "2024_physics_units_34_marking_guide (4)(1).docx",
-          "path": "exams/ATAR/Physics/12/WACE/2024/2024_physics_units_34_marking_guide (4).docx"
+          "file": "Year-12-Physics-Projectile-Motion-Problem-Set (1).docx",
+          "path": "assets/physics/projectile-motion/Year-12-Physics-Projectile-Motion-Problem-Set (1).docx"
         }
+      ],
+      "notes": [
+        "Worked solutions are embedded in the same document. Mark allocations are supplied in the updated document. Source rounding guidance is recorded in individual marking keys."
       ]
     }
   ]

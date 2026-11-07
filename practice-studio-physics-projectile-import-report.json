@@ -1,0 +1,29 @@
+{
+  "source": "Year-12-Physics-Projectile-Motion-Problem-Set (1).docx",
+  "sourceSHA256": "2392905e1dd833e7676d960fe21e3c35026e026b0ff4d040972d4a2dcadeeef3",
+  "questionCount": 24,
+  "diagramCount": 24,
+  "totalMarks": 195,
+  "sourceHadMarks": true,
+  "marksLabel": "Supplied allocations",
+  "sourceReviewNotes": {
+    "1": "Full-precision rounding check: the horizontal range is 84.9453 m, or 84.9 m to three significant figures. The supplied key rounds intermediate values and reports 85.0 m. Accept a consistent calculation near 85.0 m.",
+    "2": "Full-precision rounding check: the clearance is 4.47882 m, or 4.48 m to three significant figures. The supplied key rounds intermediate values and reports 4.47 m.",
+    "6": "Full-precision rounding check: the maximum height is 9.43987 m, or 9.44 m to three significant figures. The supplied key reports 9.43 m after intermediate rounding.",
+    "8": "Full-precision rounding check: using 53.1° gives the first crossing at x = 8.76169 m (8.76 m to three significant figures). The supplied key approximates the velocity components and reports 8.77 m. The later crossing is approximately 52.5 m.",
+    "14": "Correction to the supplied rounded upper angle: solving the stated quadratic without intermediate rounding gives 63.3323°, or 63.3° to three significant figures. The supplied key reports 63.4°. The lower angle is 36.1300° and the travel times are 1.85717 s and 3.34213 s.",
+    "19": "Full-precision rounding check: the flight time is 1.79514 s, or 1.80 s to three significant figures. The supplied key reports 1.79 s. The range remains 25.3 m and impact speed 26.7 m s⁻¹."
+  },
+  "year12PhysicsTotal": 197,
+  "allPhysicsTotal": 376,
+  "sharedCatalogueTotal": 3395,
+  "registeredPapers": 147,
+  "sourceHasWorkedSolutions": true,
+  "equations": "MathML in browser and native editable OMML in Word export",
+  "format": {
+    "font": "Arial",
+    "fontSizePt": 12,
+    "automaticAnswerLines": false
+  },
+  "addedAt": "2026-11-07T10:25:17.279915Z"
+}
