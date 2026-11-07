@@ -1,0 +1,214 @@
+{
+  "exams": [
+    {
+      "source": "2015 Test 1 Atomic structure.docx",
+      "key": "2015 Test 1 Atomic structure MS.docx",
+      "supplementalKeys": [],
+      "questionsDetected": 24,
+      "imported": 24,
+      "withheld": 0,
+      "file": "practice-studio-chemistry-john-atomic2015.json",
+      "marks": 63,
+      "automatic": 13
+    },
+    {
+      "source": "Test 3 2015.docx",
+      "key": "test 3 Mole answers.pdf",
+      "supplementalKeys": [],
+      "questionsDetected": 17,
+      "imported": 17,
+      "withheld": 0,
+      "file": "practice-studio-chemistry-john-mole2015.json",
+      "marks": 52,
+      "automatic": 9
+    },
+    {
+      "source": "2015 Test 4 Solutions solubility.docx",
+      "key": "2015 Test 4 Solutions MS.docx",
+      "supplementalKeys": [],
+      "questionsDetected": 15,
+      "imported": 15,
+      "withheld": 0,
+      "file": "practice-studio-chemistry-john-solutions2015.json",
+      "marks": 50,
+      "automatic": 10
+    },
+    {
+      "source": "2015 Test 5_ Bonding chromatography acids and bases..docx",
+      "key": "2015_Test5_Yr 11_ATAR MSdocx.docx",
+      "supplementalKeys": [
+        "Test 5 answers.docx"
+      ],
+      "questionsDetected": 15,
+      "imported": 15,
+      "withheld": 0,
+      "file": "practice-studio-chemistry-john-bonding2015.json",
+      "marks": 50,
+      "automatic": 7
+    },
+    {
+      "source": "2015_Test 6 organic chemistry.docx",
+      "key": "ATAR 11_ Test 6 2015_MS.docx",
+      "supplementalKeys": [],
+      "questionsDetected": 13,
+      "imported": 13,
+      "withheld": 0,
+      "file": "practice-studio-chemistry-john-organic2015.json",
+      "marks": 48,
+      "automatic": 8
+    },
+    {
+      "source": "Test 1 2017 Answer sheet.docx",
+      "key": "Test 1 2017 Answers.docx",
+      "supplementalKeys": [],
+      "questionsDetected": 22,
+      "imported": 16,
+      "withheld": 6,
+      "file": "practice-studio-chemistry-cecil-atomic2017.json",
+      "marks": 25,
+      "automatic": 15
+    },
+    {
+      "source": "2017 Test 3.docx",
+      "key": "2017 Test 3 ANSWERS.docx",
+      "supplementalKeys": [],
+      "questionsDetected": 22,
+      "imported": 22,
+      "withheld": 0,
+      "file": "practice-studio-chemistry-cecil-organic2017.json",
+      "marks": 45,
+      "automatic": 14
+    },
+    {
+      "source": "TASK 15 Test 5 Reactions in Aqueous Solutions and Gases.docx",
+      "key": "TASK 15 Test 5 Reaction in Aqueous Solutions and Gases Answers.docx",
+      "supplementalKeys": [],
+      "questionsDetected": 18,
+      "imported": 18,
+      "withheld": 0,
+      "file": "practice-studio-chemistry-cecil-aqueous2018.json",
+      "marks": 35,
+      "automatic": 13
+    },
+    {
+      "source": "AECHE Task 5 - Reactions and Stoichiometry Test.docx",
+      "key": "AECHE Task 5 - Reactions and Stoichiometry Test - Marking Key.docx",
+      "supplementalKeys": [],
+      "questionsDetected": 19,
+      "imported": 19,
+      "withheld": 0,
+      "file": "practice-studio-chemistry-ellen-stoich.json",
+      "marks": 52,
+      "automatic": 10
+    }
+  ],
+  "totalImported": 159,
+  "reviewNotes": [
+    {
+      "id": "chemistry-additional-john-atomic2015-mc-6",
+      "notes": [
+        "No option is explicitly marked in the supplied key. Teacher must confirm the answer."
+      ]
+    },
+    {
+      "id": "chemistry-additional-john-atomic2015-mc-14",
+      "notes": [
+        "Supplied key selects D. Gallium-71 has 33 protons and 38 neutrons; Ga³⁺ has 30 electrons, giving B. Automatic marking is disabled."
+      ]
+    },
+    {
+      "id": "chemistry-additional-john-atomic2015-written-3",
+      "notes": [
+        "Paper requests 4 significant figures; guide stem says 3 but its mark allocation says 4. The guide incorrectly prints a percent sign after relative atomic mass."
+      ]
+    },
+    {
+      "id": "chemistry-additional-john-mole2015-mc-3",
+      "notes": [
+        "Supplied key selects D; the eight hydrogen atoms in (NH₄)₂SO₄ give option B. Automatic marking is disabled pending teacher review."
+      ]
+    },
+    {
+      "id": "chemistry-additional-john-mole2015-written-6",
+      "notes": [
+        "Source wording/equation requires review: the printed copper(I) oxide equation omits water."
+      ]
+    },
+    {
+      "id": "chemistry-additional-john-mole2015-written-7",
+      "notes": [
+        "Source wording/equation requires review: the prompt alternates between iron(III) oxide and iron(II) oxide."
+      ]
+    },
+    {
+      "id": "chemistry-additional-john-bonding2015-mc-7",
+      "notes": [
+        "Supplied key selects B. With a non-polar stationary phase, the least polar compound A is expected to have the longest retention. Teacher review is required."
+      ]
+    },
+    {
+      "id": "chemistry-additional-john-organic2015-written-1",
+      "notes": [
+        "Guide names a dichloro product although the source reaction uses bromine. Product should be 2,3-dibromobutane; supplied product boxes are blank."
+      ]
+    },
+    {
+      "id": "chemistry-additional-john-organic2015-written-3",
+      "notes": [
+        "Paper has 2 marks; guide includes extra naming rows. Only the matching structure and 2,3-dimethyloct-4-ene apply."
+      ]
+    },
+    {
+      "id": "chemistry-additional-john-organic2015-written-5",
+      "notes": [
+        "Paper labels the energy diagram 2 marks; guide says 3. Preserve the paper’s 12-mark total and review allocations."
+      ]
+    },
+    {
+      "id": "chemistry-additional-cecil-atomic2017-research-1",
+      "notes": [
+        "The supplied Rutherford illustration includes Bohr-style electron shells; review or replace that illustration before use.",
+        "Instruction restates the self-contained table headings. Six other written questions are withheld because their prompts and givens are missing."
+      ]
+    },
+    {
+      "id": "chemistry-additional-cecil-organic2017-mc-12",
+      "notes": [
+        "Supplied key selects D, but butane and 1-methylpropane denote the same structure. Option B (butanal and butanone) gives structural isomers. Teacher review is required."
+      ]
+    },
+    {
+      "id": "chemistry-additional-cecil-aqueous2018-mc-6",
+      "notes": [
+        "Supplied key selects D. Equal volumes of the stated sulfuric acid and sodium hydroxide leave an acidic solution; confirm the indicator colours before marking."
+      ]
+    },
+    {
+      "id": "chemistry-additional-cecil-aqueous2018-mc-15",
+      "notes": [
+        "Supplied key selects C. Option A describes the limitation of the Arrhenius definition to water. Teacher review is required."
+      ]
+    }
+  ],
+  "withheldQuestions": [
+    {
+      "source": "Test 1 2017 Answer sheet.docx",
+      "section": "Short answer",
+      "questions": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "reason": "Question booklet missing; response worksheet and marking guide do not provide the required prompts/givens."
+    }
+  ],
+  "format": {
+    "font": "Arial",
+    "fontSizePt": 12,
+    "automaticAnswerLines": false
+  },
+  "sourceFilesMatchedBySHA": true
+}

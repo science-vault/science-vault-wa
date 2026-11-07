@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-06",
+  "version": "2026-11-07",
   "bankSources": {
     "practice-studio-physics-2020-u3.json": {
       "sourceFile": "2020_physics_unit_3_exam.docx",
@@ -48,6 +48,118 @@
     }
   },
   "documents": [
+    {
+      "subject": "Chemistry",
+      "file": "2015 Test 1 Atomic structure.docx",
+      "path": "resources/ATAR/Chemistry/Assessments/11/John XXIII/2015/test 1/2015 Test 1 Atomic structure.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2015
+      ],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-chemistry-john-atomic2015.json"
+      ],
+      "questions": 24,
+      "addedAt": [
+        "2026-11-07T00:21:00.500397Z"
+      ],
+      "keys": [
+        {
+          "file": "2015 Test 1 Atomic structure MS.docx",
+          "path": "resources/ATAR/Chemistry/Assessments/11/John XXIII/2015/test 1/2015 Test 1 Atomic structure MS.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "file": "2015 Test 4 Solutions solubility.docx",
+      "path": "resources/ATAR/Chemistry/Assessments/11/John XXIII/2015/test 4/2015 Test 4 Solutions solubility.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2015
+      ],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-chemistry-john-solutions2015.json"
+      ],
+      "questions": 15,
+      "addedAt": [
+        "2026-11-07T00:21:00.500397Z"
+      ],
+      "keys": [
+        {
+          "file": "2015 Test 4 Solutions MS.docx",
+          "path": "resources/ATAR/Chemistry/Assessments/11/John XXIII/2015/test 4/2015 Test 4 Solutions MS.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "file": "2015 Test 5_ Bonding chromatography acids and bases..docx",
+      "path": "resources/ATAR/Chemistry/Assessments/11/John XXIII/2015/test 5/2015 Test 5_ Bonding chromatography acids and bases..docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2015
+      ],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-chemistry-john-bonding2015.json"
+      ],
+      "questions": 15,
+      "addedAt": [
+        "2026-11-07T00:21:00.500397Z"
+      ],
+      "keys": [
+        {
+          "file": "2015_Test5_Yr 11_ATAR MSdocx.docx",
+          "path": "resources/ATAR/Chemistry/Assessments/11/John XXIII/2015/test 5/2015_Test5_Yr 11_ATAR MSdocx.docx"
+        },
+        {
+          "file": "Test 5 answers.docx",
+          "path": "resources/ATAR/Chemistry/Assessments/11/John XXIII/2015/test 5/Test 5 answers.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "file": "2015_Test 6 organic chemistry.docx",
+      "path": "resources/ATAR/Chemistry/Assessments/11/John XXIII/2015/test 6/2015_Test 6 organic chemistry.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2015
+      ],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-chemistry-john-organic2015.json"
+      ],
+      "questions": 13,
+      "addedAt": [
+        "2026-11-07T00:21:00.500397Z"
+      ],
+      "keys": [
+        {
+          "file": "ATAR 11_ Test 6 2015_MS.docx",
+          "path": "resources/ATAR/Chemistry/Assessments/11/John XXIII/2015/test 6/ATAR 11_ Test 6 2015_MS.docx"
+        }
+      ]
+    },
     {
       "subject": "Chemistry",
       "file": "2015chemistry_unit_1_paper.docx",
@@ -99,6 +211,33 @@
         {
           "file": "2017 11 Properties and Structure of atoms Answers.doc",
           "path": "resources/ATAR/Chemistry/Assessments/11/Applecross/2017/Properties and Structures of Atoms Test/2017 11 Properties and Structure of atoms Answers.doc"
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "file": "2017 Test 3.docx",
+      "path": "resources/ATAR/Chemistry/Assessments/11/Cecil Andrews/2018/TASK 6 and 7 test 3 organic and balancing/2017 Test 3.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2017
+      ],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-chemistry-cecil-organic2017.json"
+      ],
+      "questions": 22,
+      "addedAt": [
+        "2026-11-07T00:21:00.500397Z"
+      ],
+      "keys": [
+        {
+          "file": "2017 Test 3 ANSWERS.docx",
+          "path": "resources/ATAR/Chemistry/Assessments/11/Cecil Andrews/2018/TASK 6 and 7 test 3 organic and balancing/2017 Test 3 ANSWERS.docx"
         }
       ]
     },
@@ -329,6 +468,31 @@
     },
     {
       "subject": "Chemistry",
+      "file": "AECHE Task 5 - Reactions and Stoichiometry Test.docx",
+      "path": "resources/ATAR/Chemistry/Assessments/11/Ellenbrook/AECHE Task 5 - Reactions and Stoichiometry Test.docx",
+      "years": [
+        11
+      ],
+      "examYears": [],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-chemistry-ellen-stoich.json"
+      ],
+      "questions": 19,
+      "addedAt": [
+        "2026-11-07T00:21:00.500397Z"
+      ],
+      "keys": [
+        {
+          "file": "AECHE Task 5 - Reactions and Stoichiometry Test - Marking Key.docx",
+          "path": "resources/ATAR/Chemistry/Assessments/11/Ellenbrook/AECHE Task 5 - Reactions and Stoichiometry Test - Marking Key.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
       "file": "Covalent molecules and Gases Test.docx",
       "path": "resources/ATAR/Chemistry/Assessments/11/Applecross/2017/Covalent Molecules and Gases Test/Covalent molecules and Gases Test.docx",
       "years": [
@@ -351,6 +515,87 @@
         {
           "file": "Covalent Molecules and Gases Test solutions.pdf",
           "path": "resources/ATAR/Chemistry/Assessments/11/Applecross/2017/Covalent Molecules and Gases Test/Covalent Molecules and Gases Test solutions.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "file": "TASK 15 Test 5 Reactions in Aqueous Solutions and Gases.docx",
+      "path": "resources/ATAR/Chemistry/Assessments/11/Cecil Andrews/2018/TASK 15 and 16 Aqueous solutions and Gases/TASK 15 Test 5 Reactions in Aqueous Solutions and Gases.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2018
+      ],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-chemistry-cecil-aqueous2018.json"
+      ],
+      "questions": 18,
+      "addedAt": [
+        "2026-11-07T00:21:00.500397Z"
+      ],
+      "keys": [
+        {
+          "file": "TASK 15 Test 5 Reaction in Aqueous Solutions and Gases Answers.docx",
+          "path": "resources/ATAR/Chemistry/Assessments/11/Cecil Andrews/2018/TASK 15 and 16 Aqueous solutions and Gases/TASK 15 Test 5 Reaction in Aqueous Solutions and Gases Answers.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "file": "Test 1 2017 Answer sheet.docx",
+      "path": "resources/ATAR/Chemistry/Assessments/11/Cecil Andrews/2018/TASK 3 AND 4 - Test 2 - Atomic Structure and bonding/Test 1 2017 Answer sheet.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2017
+      ],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-chemistry-cecil-atomic2017.json"
+      ],
+      "questions": 16,
+      "addedAt": [
+        "2026-11-07T00:21:00.500397Z"
+      ],
+      "keys": [
+        {
+          "file": "Test 1 2017 Answers.docx",
+          "path": "resources/ATAR/Chemistry/Assessments/11/Cecil Andrews/2018/TASK 3 AND 4 - Test 2 - Atomic Structure and bonding/Test 1 2017 Answers.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "file": "Test 3 2015.docx",
+      "path": "resources/ATAR/Chemistry/Assessments/11/John XXIII/2015/Test 3 2015.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2015
+      ],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-chemistry-john-mole2015.json"
+      ],
+      "questions": 17,
+      "addedAt": [
+        "2026-11-07T00:21:00.500397Z"
+      ],
+      "keys": [
+        {
+          "file": "test 3 Mole answers.pdf",
+          "path": "resources/ATAR/Chemistry/Assessments/11/John XXIII/2015/test 3 Mole answers.pdf"
         }
       ]
     },
