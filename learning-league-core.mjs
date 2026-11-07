@@ -1,4 +1,4 @@
-import {levelProgress} from './learning-progression.mjs?v=2026.11.07-crates1';
+import {levelProgress} from './learning-progression.mjs?v=2026.11.07-champions1';
 export const TIERS=[['Iron',0,'#a8a2a0'],['Bronze',1000,'#d39b6b'],['Silver',3000,'#cad9e6'],['Gold',6000,'#ffd36d'],['Platinum',11000,'#67ddd7'],['Emerald',18000,'#65e5a5'],['Diamond',27000,'#8fc5ff'],['Master',39000,'#d8a5ff'],['Grandmaster',54000,'#ff9baf'],['Challenger',72500,'#ffe29b']];
 export const normal=s=>String(s||'').replace(/\s+ATAR$/i,'').trim().toLowerCase();
 export const dayKey=(date=new Date())=>new Date(date).toLocaleDateString('en-CA',{timeZone:'Australia/Perth'});

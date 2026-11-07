@@ -1,4 +1,6 @@
-import {levelProgress} from './learning-progression.mjs?v=2026.11.07-crates1';
+import {CHAMPIONS,CHAMPION_MAP,SPECIAL_SKINS,LEGACY_CHAMPIONS,championUnlocked as hasChampion,currentChampion,currentSkin,championPortrait} from './champion-catalog.mjs?v=2026.11.07-champions1';
+export {CHAMPIONS,SPECIAL_SKINS,currentChampion,currentSkin,championPortrait};
+import {levelProgress} from './learning-progression.mjs?v=2026.11.07-champions1';
 // Device-local learning achievements. Pure functions: no school marks or server claims.
 export const freshQuest=()=>({version:1,entries:{},goals:{},chapters:[],avatar:'explorer',costume:'classic',rewards:freshRewards()});
 export function cleanQuest(raw){
@@ -124,30 +126,45 @@ export const CRATE_RIBBONS=[
 ];
 const characterRarities={scribe:'common',keeper:'rare',engineer:'rare',scholar:'epic',guardian:'rare',navigator:'epic',champion:'legendary',astral:'epic',crystal:'rare',ember:'common',archivist:'legendary'};
 export const REWARD_ITEMS=[
- ...AVATARS.filter(a=>!['explorer','maker'].includes(a.id)).map(a=>({id:'character:'+a.id,kind:'character',ref:a.id,name:a.name,rarity:characterRarities[a.id]})),
- ...COSTUMES.filter(c=>c.id!=='classic').map((c,i)=>({id:'costume:'+c.id,kind:'costume',ref:c.id,name:c.name,rarity:['common','common','rare','epic','legendary'][i]})),
+ ...SPECIAL_SKINS,
  ...BANNERS.filter(b=>b.id!=='academy').map(b=>({...b,id:'banner:'+b.id,kind:'banner',ref:b.id})),
  ...CRATE_RIBBONS.map(r=>({...r,id:'ribbon:'+r.id,kind:'ribbon',ref:r.id}))
 ];
-export function freshRewards(){return{version:2,seed:1,owned:[],opened:[],shards:0,banner:'academy',ribbon:null};}
+const legacyRewardIds=new Set([...AVATARS.map(a=>'character:'+a.id),...COSTUMES.map(c=>'costume:'+c.id)]);
+export function freshRewards(){return{version:3,seed:1,owned:[],opened:[],shards:0,banner:'academy',ribbon:null,champion:'astra',skin:'base',legacyChampions:[]};}
 export function rewardSeed(uid){let n=2166136261;for(const c of String(uid))n=Math.imul(n^c.charCodeAt(0),16777619);return n>>>0;}
 export function cleanRewards(raw,s){
- const out=freshRewards(),valid=new Set(REWARD_ITEMS.map(i=>i.id));
- if(raw?.version===2){
+ const out=freshRewards(),valid=new Set(REWARD_ITEMS.map(i=>i.id)),allValid=new Set([...valid,...legacyRewardIds]);
+ if([2,3].includes(raw?.version)){
   out.seed=Number.isSafeInteger(raw.seed)?raw.seed>>>0:1;
-  out.owned=[...new Set((Array.isArray(raw.owned)?raw.owned:[]).filter(id=>valid.has(id)))];
+  out.owned=[...new Set((Array.isArray(raw.owned)?raw.owned:[]).filter(id=>allValid.has(id)))];
   out.shards=Math.max(0,Math.min(10000000,Math.floor(Number(raw.shards)||0)));
   const seen=new Set(),earned=questStats(s).level;
-  out.opened=(Array.isArray(raw.opened)?raw.opened:[]).filter(c=>Number.isInteger(c?.level)&&c.level>=2&&c.level<=earned&&!seen.has(c.level)&&(seen.add(c.level),true)).map(c=>({level:c.level,item:valid.has(c.item)?c.item:null,shards:Math.max(0,Math.min(200,Math.floor(Number(c.shards)||0)))}));
+  out.opened=(Array.isArray(raw.opened)?raw.opened:[]).filter(c=>Number.isInteger(c?.level)&&c.level>=2&&c.level<=earned&&!seen.has(c.level)&&(seen.add(c.level),true)).map(c=>({level:c.level,item:allValid.has(c.item)?c.item:null,shards:Math.max(0,Math.min(1000,Math.floor(Number(c.shards)||0)))}));
   out.banner=BANNERS.some(b=>b.id===raw.banner&&(b.id==='academy'||out.owned.includes('banner:'+b.id)))?raw.banner:'academy';
   out.ribbon=(RIBBONS.some(r=>r.id===raw.ribbon&&r.rule(questStats(s)))||out.owned.includes('ribbon:'+raw.ribbon))?raw.ribbon:null;
+  if(raw.version===3){out.legacyChampions=[...new Set((Array.isArray(raw.legacyChampions)?raw.legacyChampions:[]).filter(id=>CHAMPION_MAP[id]))];}
+  else{
+   // Keep old companion unlocks as bonus champions, without awarding inflated old levels.
+   out.legacyChampions=AVATARS.filter(a=>a.rule(questStats(s))||out.owned.includes('character:'+a.id)).map(a=>LEGACY_CHAMPIONS[a.id]).filter(Boolean);
+   COSTUMES.filter(c=>out.owned.includes('costume:'+c.id)).forEach((c,i)=>out.owned.push('skin:'+CHAMPIONS[i].id+'-celestial'));
+  }
+  const chosen=raw.version===3?raw.champion:LEGACY_CHAMPIONS[s.avatar];
+  out.champion=CHAMPION_MAP[chosen]&&(CHAMPION_MAP[chosen].level<=earned||out.legacyChampions.includes(chosen))?chosen:'astra';
+  out.skin=SPECIAL_SKINS.some(k=>k.ref===raw.skin&&k.champion===out.champion&&out.owned.includes(k.id))?raw.skin:'base';
  }else{
-  // Keep costumes that were already unlocked under the previous 150-XP curve.
   const oldLevel=1+Math.floor(questStats(s).xp/150);
-  out.owned=COSTUMES.filter(c=>c.id!=='classic'&&oldLevel>=c.level).map(c=>'costume:'+c.id);
+  const outfits=COSTUMES.filter(c=>c.id!=='classic'&&oldLevel>=c.level);
+  out.owned=outfits.map(c=>'costume:'+c.id);
+  outfits.forEach((c,i)=>out.owned.push('skin:'+CHAMPIONS[i].id+'-celestial'));
+  out.legacyChampions=AVATARS.filter(a=>a.rule(questStats(s))).map(a=>LEGACY_CHAMPIONS[a.id]).filter(Boolean);
+  out.champion=LEGACY_CHAMPIONS[s.avatar]||'astra';
  }
- return out;
+ out.owned=[...new Set(out.owned)];return out;
 }
+export const championUnlocked=(s,id)=>hasChampion(s,id,questStats(s).level);
+export function equipChampion(s,id){if(!championUnlocked(s,id))return false;s.rewards.champion=id;s.rewards.skin='base';return true;}
+export function equipSkin(s,id){if(id==='base'){s.rewards.skin='base';return true;}const k=SPECIAL_SKINS.find(k=>k.ref===id);if(!k||!s.rewards.owned.includes(k.id)||!championUnlocked(s,k.champion))return false;s.rewards.champion=k.champion;s.rewards.skin=k.ref;return true;}
 export function avatarUnlocked(s,id){const a=AVATARS.find(a=>a.id===id);return !!a&&(a.rule(questStats(s))||s.rewards?.owned?.includes('character:'+id));}
 export function costumeUnlocked(s,id){return id==='classic'||!!s.rewards?.owned?.includes('costume:'+id);}
 export function rewardOwned(s,item){return item.kind==='character'?avatarUnlocked(s,item.ref):item.kind==='costume'?costumeUnlocked(s,item.ref):!!s.rewards?.owned?.includes(item.id);}
@@ -158,20 +175,22 @@ export function openLevelCrate(s,level){
  if(!Number.isInteger(level)||!pendingCrates(s).includes(level))return null;
  const r=s.rewards||(s.rewards=freshRewards());let seed=rewardSeed(r.seed+':'+level),roll=()=>{seed=(Math.imul(seed,1664525)+1013904223)>>>0;return seed/4294967296;};
  const minimum=RARITIES.indexOf(crateTier(level)),remaining=REWARD_ITEMS.filter(i=>!rewardOwned(s,i));
- const candidates=remaining.filter(i=>RARITIES.indexOf(i.rarity)>=minimum);
+ const currentLevel=questStats(s).level,eligible=remaining.filter(i=>i.kind!=='skin'||hasChampion(s,i.champion,currentLevel));
+ const candidates=eligible.filter(i=>RARITIES.indexOf(i.rarity)>=minimum);
  let item=null,shards=20;
  if(candidates.length){
   const weights=[60,28,10,2],rarities=RARITIES.filter(t=>candidates.some(i=>i.rarity===t)),sum=rarities.reduce((n,t)=>n+weights[RARITIES.indexOf(t)],0);let pick=roll()*sum,rarity=rarities.at(-1);
   for(const t of rarities){pick-=weights[RARITIES.indexOf(t)];if(pick<0){rarity=t;break;}}
   const pool=candidates.filter(i=>i.rarity===rarity);item=pool[Math.floor(roll()*pool.length)];r.owned.push(item.id);
- }else{shards=minimum>=2?100:minimum===1?70:50;if(remaining.length){item=remaining[Math.floor(roll()*remaining.length)];r.owned.push(item.id);}}
+ }else{shards=minimum>=2?100:minimum===1?70:50;if(eligible.length){item=eligible[Math.floor(roll()*eligible.length)];r.owned.push(item.id);}}
  r.shards+=shards;const result={level,item:item?.id||null,shards};r.opened.push(result);return{...result,reward:item};
 }
-export function craftReward(s,id){const item=REWARD_ITEMS.find(i=>i.id===id);if(!item||rewardOwned(s,item)||Number(s.rewards?.shards||0)<SHARD_COST[item.rarity])return false;s.rewards.shards-=SHARD_COST[item.rarity];s.rewards.owned.push(id);return true;}
+export function craftReward(s,id){const item=REWARD_ITEMS.find(i=>i.id===id);if(!item||rewardOwned(s,item)||(item.kind==='skin'&&!championUnlocked(s,item.champion))||Number(s.rewards?.shards||0)<SHARD_COST[item.rarity])return false;s.rewards.shards-=SHARD_COST[item.rarity];s.rewards.owned.push(id);return true;}
 export function equipReward(s,id){
  const item=REWARD_ITEMS.find(i=>i.id===id);
  if(id==='banner:academy'){s.rewards.banner='academy';return true;}
  if(!item||!rewardOwned(s,item))return false;
+ if(item.kind==='skin')return equipSkin(s,item.ref);
  if(item.kind==='character')return equipAvatar(s,item.ref);
  if(item.kind==='costume')return equipCostume(s,item.ref);
  s.rewards[item.kind]=item.ref;return true;

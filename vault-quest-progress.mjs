@@ -1,6 +1,6 @@
 import {observeAccess,getAccessState} from './access-client.mjs?v=2026.10.9-classes';
-import {createQuestStore,questKey} from './learning-quest-store.mjs?v=2026.11.07-crates1';
-import {journeyAchievement,lessonActivityId} from './learning-quest-core.mjs?v=2026.11.07-crates1';
+import {createQuestStore,questKey} from './learning-quest-store.mjs?v=2026.11.07-champions1';
+import {journeyAchievement,lessonActivityId} from './learning-quest-core.mjs?v=2026.11.07-champions1';
 let active=null,stopStore;const listeners=new Set();let timer;
 const normal=s=>String(s||'').replace(/\s+ATAR$/i,'').trim().toLowerCase();
 const allowed=a=>!!a?.user&&!a.error&&(a.admin||a.member?.status==='active'&&a.member.registrationVersion===2);
