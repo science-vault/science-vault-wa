@@ -809,6 +809,33 @@
     },
     {
       "subject": "Chemistry",
+      "file": "Test 1 - Atomic Structure and Bonding Test.docx",
+      "path": "resources/ATAR/Chemistry/Assessments/11/Southern River/2024 Assessments/Tests/Test 1 - Atomic Structure and Bonding Test.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2024
+      ],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-chemistry-fifth-atomic2024.json"
+      ],
+      "questions": 20,
+      "addedAt": [
+        "2026-11-07T01:53:58.111164Z"
+      ],
+      "keys": [
+        {
+          "file": "Test 1 - Atomic Structure and Bonding Test Answers.docx",
+          "path": "resources/ATAR/Chemistry/Assessments/11/Southern River/2024 Assessments/Tests/Test 1 - Atomic Structure and Bonding Test Answers.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
       "file": "Test 1 2017 Answer sheet.docx",
       "path": "resources/ATAR/Chemistry/Assessments/11/Cecil Andrews/2018/TASK 3 AND 4 - Test 2 - Atomic Structure and bonding/Test 1 2017 Answer sheet.docx",
       "years": [
@@ -863,6 +890,33 @@
     },
     {
       "subject": "Chemistry",
+      "file": "Test 2 The Mole Energy and Rates Test 2024.docx",
+      "path": "resources/ATAR/Chemistry/Assessments/11/Southern River/2024 Assessments/Tests/Test 2 The Mole Energy and Rates Test 2024.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2024
+      ],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-chemistry-fifth-mole-rates2024.json"
+      ],
+      "questions": 16,
+      "addedAt": [
+        "2026-11-07T01:53:58.111164Z"
+      ],
+      "keys": [
+        {
+          "file": "Test 2 The Mole Energy and Rates Test Answers 2024.docx",
+          "path": "resources/ATAR/Chemistry/Assessments/11/Southern River/2024 Assessments/Tests/Test 2 The Mole Energy and Rates Test Answers 2024.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
       "file": "Test 3 - Calculations, hydrocarbons - Questions.docx",
       "path": "resources/ATAR/Chemistry/Assessments/11/Safety Bay/2019/Test#3/Test 3 - Calculations, hydrocarbons - Questions.docx",
       "years": [
@@ -912,6 +966,60 @@
         {
           "file": "test 3 Mole answers.pdf",
           "path": "resources/ATAR/Chemistry/Assessments/11/John XXIII/2015/test 3 Mole answers.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "file": "Test 3 Organic and Intermolecular Forces Test 2024.docx",
+      "path": "resources/ATAR/Chemistry/Assessments/11/Southern River/2024 Assessments/Tests/Test 3 Organic and Intermolecular Forces Test 2024.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2024
+      ],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-chemistry-fifth-organic-imf2024.json"
+      ],
+      "questions": 15,
+      "addedAt": [
+        "2026-11-07T01:53:58.111164Z"
+      ],
+      "keys": [
+        {
+          "file": "Test 3 Organic and Intermolecular Forces Test 2024 Answers.docx",
+          "path": "resources/ATAR/Chemistry/Assessments/11/Southern River/2024 Assessments/Tests/Test 3 Organic and Intermolecular Forces Test 2024 Answers.docx"
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "file": "Test 4 Gases & Solutions Test 2024.docx",
+      "path": "resources/ATAR/Chemistry/Assessments/11/Southern River/2024 Assessments/Tests/Test 4 Gases & Solutions Test 2024.docx",
+      "years": [
+        11
+      ],
+      "examYears": [
+        2024
+      ],
+      "units": [
+        "1 & 2"
+      ],
+      "banks": [
+        "practice-studio-chemistry-fifth-gases-solutions2024.json"
+      ],
+      "questions": 17,
+      "addedAt": [
+        "2026-11-07T01:53:58.111164Z"
+      ],
+      "keys": [
+        {
+          "file": "Test 4 Gases & Solutions Test 2024 Answers.docx",
+          "path": "resources/ATAR/Chemistry/Assessments/11/Southern River/2024 Assessments/Tests/Test 4 Gases & Solutions Test 2024 Answers.docx"
         }
       ]
     },

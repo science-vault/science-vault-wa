@@ -319,6 +319,42 @@
       "file": "practice-studio-chemistry-fourth-acids2022.json",
       "marks": 50,
       "automatic": 12
+    },
+    {
+      "source": "Test 1 - Atomic Structure and Bonding Test.docx",
+      "key": "Test 1 - Atomic Structure and Bonding Test Answers.docx",
+      "questionsDetected": 20,
+      "imported": 20,
+      "file": "practice-studio-chemistry-fifth-atomic2024.json",
+      "marks": 55,
+      "automatic": 15
+    },
+    {
+      "source": "Test 2 The Mole Energy and Rates Test 2024.docx",
+      "key": "Test 2 The Mole Energy and Rates Test Answers 2024.docx",
+      "questionsDetected": 16,
+      "imported": 16,
+      "file": "practice-studio-chemistry-fifth-mole-rates2024.json",
+      "marks": 47,
+      "automatic": 10
+    },
+    {
+      "source": "Test 3 Organic and Intermolecular Forces Test 2024.docx",
+      "key": "Test 3 Organic and Intermolecular Forces Test 2024 Answers.docx",
+      "questionsDetected": 15,
+      "imported": 15,
+      "file": "practice-studio-chemistry-fifth-organic-imf2024.json",
+      "marks": 56,
+      "automatic": 10
+    },
+    {
+      "source": "Test 4 Gases & Solutions Test 2024.docx",
+      "key": "Test 4 Gases & Solutions Test 2024 Answers.docx",
+      "questionsDetected": 17,
+      "imported": 17,
+      "file": "practice-studio-chemistry-fifth-gases-solutions2024.json",
+      "marks": 52,
+      "automatic": 9
     }
   ],
   "held": [
@@ -370,10 +406,10 @@
       "reason": "Matched question by text; source marking guide uses different numbering"
     }
   ],
-  "totalImported": 831,
+  "totalImported": 899,
   "types": {
-    "Multiple choice": 521,
-    "Short answer": 245,
+    "Multiple choice": 566,
+    "Short answer": 268,
     "Extended answer": 65
   },
   "marking": "Multiple choice is checked against the supplied answer tables. Written questions use self-review with the original marking guide.",
@@ -602,6 +638,36 @@
       "id": "chemistry-fourth-organic2022-extended-6",
       "notes": [
         "Matching butane calculation is numbered 8 in the supplied key and 6 in the paper."
+      ]
+    },
+    {
+      "id": "chemistry-fifth-atomic2024-written-17",
+      "notes": [
+        "The source says isomers of copper; these are isotopes."
+      ]
+    },
+    {
+      "id": "chemistry-fifth-mole-rates2024-written-12",
+      "notes": [
+        "Supplied phosphine equation uses the incorrect product PO5. A balanced equation using empirical phosphorus pentoxide is 2PH₃ + 4O₂ → P₂O₅ + 3H₂O; using P₄O₁₀: 4PH₃ + 8O₂ → P₄O₁₀ + 6H₂O. Review before marking."
+      ]
+    },
+    {
+      "id": "chemistry-fifth-gases-solutions2024-mc-7",
+      "notes": [
+        "None of the listed sets contains only strong electrolytes: set I contains insoluble salts, II contains non-electrolytes and a weak acid, III contains weak ethanoic acid, and IV contains weak ammonia. Supplied key D retained for review; automatic marking disabled."
+      ]
+    },
+    {
+      "id": "chemistry-fifth-gases-solutions2024-written-13",
+      "notes": [
+        "The premise of a dramatic conductivity decrease is questionable: hydroxide remains and sodium replaces precipitated barium in solution. Review the explanation rather than assuming all charge carriers are removed."
+      ]
+    },
+    {
+      "id": "chemistry-fifth-gases-solutions2024-written-14",
+      "notes": [
+        "Part (a) gives volume of water rather than final solution volume. The supplied 1.516 mol L⁻¹ assumes final solution volume is 250 mL."
       ]
     }
   ]
