@@ -4,7 +4,7 @@
  function setup(){
   const studio=location.pathname.endsWith('/student-quiz.html');
   let bar=document.querySelector('.topbar');
-  if(!bar&&studio){bar=document.createElement('header');bar.className='topbar';document.body.prepend(bar)}
+  if(!bar){bar=document.createElement('header');bar.className='topbar';document.body.prepend(bar)}
   if(!bar)return;
   document.body.classList.add('lv-shell');if(studio)document.body.classList.add('lv-studio');
   let brand=bar.querySelector('.brand');if(!brand){brand=document.createElement('a');brand.className='brand';bar.prepend(brand)}
@@ -19,7 +19,7 @@
   nav.innerHTML=link('index.html','Home')+link('topic-hub.html','Lessons')+link('student-quiz.html','Practice Studio')+link('interactive-lab.html','Interactive Lab')+group('Progress', [['leaderboard.html','Leaderboard'],['avatar.html','Champion Hall'],['learning-quest.html','Learning Quest'],['student-results.html','My results']])+link('quiz-battle.html','Quiz Battle')+group('Resources',[
    ['library.html','All resources'],['powerpoints.html','PowerPoints'],['worksheets.html','Worksheets'],['practicals.html','Practicals'],['notes.html','Notes'],['revision.html','Revision'],['videos.html','Videos'],['assessments.html','Assessments'],['exams.html','Exam papers'],['textbooks.html','Textbooks']
   ])+group('Teacher tools',[
-   ['update-history.html','Update history'],['teacher-classes.html','Classes and progress'],['assessment-builders.html','Assessment builders'],['assessment-builder.html','Years 7–10 builder'],['upper-school-assessment-builder.html','Years 11–12 builder']
+   ['update-history.html','Update history'],['practice-studio-sources.html','Upload register'],['teacher-classes.html','Classes and progress'],['assessment-builders.html','Assessment builders'],['assessment-builder.html','Years 7–10 builder'],['upper-school-assessment-builder.html','Years 11–12 builder']
   ])+link(role==='teacher'?'teacher-area.html':'student-area.html',role==='teacher'?'Teacher area':'Student area')+link('student-classes.html','My tasks')+'<a href="account.html" data-account-link>Log in / Sign up</a>';
   if(studio){
    const local=document.createElement('div');local.className='studio-views';local.setAttribute('role','group');local.setAttribute('aria-label','Practice Studio views');
@@ -28,9 +28,28 @@
    const practiceLink=nav.querySelector('a[href="student-quiz.html"]');practiceLink?.after(local);
    document.querySelector('body>aside')?.remove();
   }
-  Promise.all([import('./access-client.mjs?v=2026.10.9-classes'),import('./access-policy.mjs?v=2026.10.26-community1'),import('./page-catalog.mjs?v=2026.10.26-community1')]).then(([client,policy,catalog])=>client.observeAccess(state=>{
+  Promise.all([import('./access-client.mjs?v=2026.10.9-classes'),import('./access-policy.mjs?v=2026.10.26-community1'),import('./page-catalog.mjs?v=2026.11.07-nav-complete1')]).then(([client,policy,catalog])=>client.observeAccess(state=>{
    const accountLink=nav.querySelector('[data-account-link]');if(accountLink)accountLink.textContent=state.user?'My account':'Log in / Sign up';
    if(!state.ready)return;
+   // Include every permitted destination from the generated catalogue, including new pages.
+   nav.querySelectorAll('[data-catalog-menu]').forEach(menu=>menu.remove());
+   const existing=new Set([...nav.querySelectorAll('a')].map(a=>new URL(a.href,location.href).pathname.split('/').pop()));
+   const hiddenDestinations=new Set(['pdf-preview.html','assessment-year.html','physics-atar-layout-preview.html','student-tracking.html','teacher-tracking.html','OPEN-RESOURCE-MANAGER.html']);
+   const buckets=new Map();
+   for(const destination of catalog.PAGES){
+    if(existing.has(destination.id)||hiddenDestinations.has(destination.id)||/preview|redirect/i.test(destination.id)||!policy.canOpenPage(state,destination))continue;
+    existing.add(destination.id);
+    const title=destination.group==='Resources and course pages'?'Courses and resources':destination.group==='Teacher tools'?'More teacher tools':destination.group==='Administration'?'Administration':'More learning';
+    if(!buckets.has(title))buckets.set(title,[]);
+    buckets.get(title).push(destination);
+   }
+   for(const [title,pages] of buckets){
+    const menu=document.createElement('details');menu.className='site-nav-menu';menu.dataset.catalogMenu='';
+    const summary=document.createElement('summary');summary.textContent=title;menu.append(summary);
+    const list=document.createElement('div');list.className='site-nav-dropdown';
+    for(const destination of pages){const a=document.createElement('a');a.href=destination.id;a.textContent=destination.label;if(page===destination.id){a.className='active';a.setAttribute('aria-current','page')}list.append(a)}
+    menu.append(list);nav.insertBefore(menu,accountLink);
+   }
    nav.querySelectorAll('a:not([data-account-link])').forEach(a=>{const file=new URL(a.href,location.href).pathname.split('/').pop();const page=catalog.PAGES.find(p=>p.id===file);a.hidden=!!page&&!policy.canOpenPage(state,page)});
    nav.querySelectorAll('details').forEach(menu=>menu.hidden=![...menu.querySelectorAll('a')].some(a=>!a.hidden));fitNavigation();
    let adminLink=nav.querySelector('[data-admin-link]');if(state.admin&&!adminLink){adminLink=document.createElement('a');adminLink.href='admin-access.html';adminLink.dataset.adminLink='';adminLink.textContent='Admin';nav.insertBefore(adminLink,accountLink)}if(adminLink)adminLink.hidden=!state.admin;nav.querySelector('[data-directory-link]')?.remove();
@@ -57,16 +76,17 @@
   bar.addEventListener('pointerleave',e=>{if(window.innerWidth>1000&&!pinned&&e.relatedTarget!==reveal&&!bar.contains(document.activeElement))setMenu(false)});
   bar.addEventListener('focusout',e=>{if(window.innerWidth>1000&&!pinned&&!bar.contains(e.relatedTarget)&&e.relatedTarget!==reveal)setMenu(false)});
   toggle.addEventListener('click',()=>setMenu(!bar.classList.contains('site-nav-open')));
-  nav.querySelectorAll('details').forEach(el=>el.addEventListener('toggle',()=>{if(el.open)nav.querySelectorAll('details').forEach(other=>{if(other!==el)other.open=false})}));
+  nav.addEventListener('toggle',e=>{if(e.target.matches('details')&&e.target.open)nav.querySelectorAll('details').forEach(other=>{if(other!==e.target)other.open=false})},true);
   document.addEventListener('click',e=>{if(!bar.contains(e.target)&&e.target!==reveal)close()});
   document.addEventListener('keydown',e=>{if(e.key==='Escape'){const wasOpen=document.body.classList.contains('lv-menu-open')||bar.classList.contains('site-nav-open');close();if(wasOpen)(window.innerWidth>1000?reveal:toggle).focus()}});
-  nav.querySelectorAll('a,[data-view]').forEach(a=>a.addEventListener('click',close));
+  nav.addEventListener('click',e=>{if(e.target.closest('a,[data-view]'))close()});
   setMenu(false);
   import('./content-reports.mjs?v=2026.10.26-community1').catch(()=>{});import('./leaderboard-progress.mjs?v=2026.10.26-global2').catch(()=>{});
   const main=document.querySelector('main')||document.querySelector('.section.content');if(main){if(!main.id)main.id='main-content';const skip=document.createElement('a');skip.className='site-skip';skip.href='#'+main.id;skip.textContent='Skip to content';document.body.prepend(skip)}
  }
  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',setup);else setup();
 })();
+
 
 
 
