@@ -41,7 +41,8 @@ function adapt(id,year){const old=window.Year12HumanBioLessons[id],x=meta[id];if
 }
 const legacy=Object.keys(meta).map(id=>adapt(id,'12'));
 const inquiry=['inquiry-types','inquiry-planning','inquiry-data'].map(id=>adapt(id,'11'));
-window.HumanBiologyATAR=[...authored,...inquiry,...legacy];
+window.HumanBiologyATAR=[...authored,...inquiry,...legacy].filter(lesson=>String(lesson.year)!=="12");
 window.HumanBiologyAudit={date:'2026-10-08',year11Syllabus:'Effective from 2026',year12Syllabus:'Current SCSA syllabus for teaching from January 2024',originalModules:38,newAuthoredModules:authored.length,legacyPreserved:true,independentAudit:true};
 })();
+
 
