@@ -16,7 +16,7 @@
   const link=(href,label)=>`<a href="${href}"${page===href?' aria-current="page" class="active"':''}>${label}</a>`;
   const group=(name,links)=>`<details class="site-nav-menu"><summary>${name}</summary><div class="site-nav-dropdown">${links.map(([href,label])=>link(href,label)).join('')}</div></details>`;
   nav.id='siteNavigation';nav.setAttribute('aria-label','Main navigation');
-  nav.innerHTML=link('index.html','Home')+link('topic-hub.html','Lessons')+link('student-quiz.html','Practice Studio')+link('interactive-lab.html','Interactive Lab')+group('Progress', [['leaderboard.html','Leaderboard'],['avatar.html','Champion Hall'],['learning-quest.html','Learning Quest'],['student-results.html','My results']])+link('quiz-battle.html','Quiz Battle')+group('Teacher tools',[
+  nav.innerHTML=link('index.html','Home')+link('topic-hub.html','Lessons')+link('student-quiz.html','Practice Studio')+link('labelling.html','Labelling Studio')+link('interactive-lab.html','Interactive Lab')+group('Progress', [['leaderboard.html','Leaderboard'],['avatar.html','Champion Hall'],['learning-quest.html','Learning Quest'],['student-results.html','My results']])+link('quiz-battle.html','Quiz Battle')+group('Teacher tools',[
    ['update-history.html','Update history'],['practice-studio-sources.html','Upload register'],['teacher-classes.html','Classes and progress'],['assessment-builders.html','Assessment builders'],['assessment-builder.html','Years 7–10 builder'],['upper-school-assessment-builder.html','Years 11–12 builder']
   ])+link(role==='teacher'?'teacher-area.html':'student-area.html',role==='teacher'?'Teacher area':'Student area')+link('student-classes.html','My tasks')+'<a href="account.html" data-account-link>Log in / Sign up</a>';
   if(studio){
@@ -87,6 +87,7 @@
  }
  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',setup);else setup();
 })();
+
 
 
 
