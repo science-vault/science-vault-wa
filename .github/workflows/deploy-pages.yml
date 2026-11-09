@@ -39,6 +39,7 @@ jobs:
             assets/chemistry
             assets/practice-mathematics
             assets/champions
+            assets/labelling
             scripts
             tests
           sparse-checkout-cone-mode: true
@@ -66,6 +67,7 @@ jobs:
             cp -R assets/chemistry _site/assets/
             cp -R assets/practice-mathematics _site/assets/
             cp -R assets/champions _site/assets/
+            cp -R assets/labelling _site/assets/
           fi
 
           # Vault pages load these catalogues directly in the browser.

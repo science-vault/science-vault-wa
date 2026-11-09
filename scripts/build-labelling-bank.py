@@ -178,7 +178,37 @@ flow('fitness','Components of fitness',placement('Health and Physical Education'
 flow('energy-systems','Exercise energy systems',placement('Physical Education Studies ATAR',[11,12],'Exercise physiology'),[('ATP–PC system','Very short maximal effort','The ATP–PC system supplies ATP rapidly for brief efforts.'),('Anaerobic glycolysis','Rapid breakdown without oxygen','Anaerobic glycolysis produces ATP without requiring oxygen directly.'),('Aerobic system','Oxidative ATP production','Aerobic pathways support sustained exercise.')])
 body=line(240,110,390,230,color='#547190',width=30)+line(390,230,520,150,color='#547190',width=30)+ellipse(390,230,25,25,'#ebd1b6')+path('M270 125 Q350 100 415 180','none')+line(400,220,420,175,color='#b55a68',width=7)
 add('lever','Third-class lever: elbow flexion',placement('Health and Physical Education',[9,10],'Movement')+placement('Physical Education Studies ATAR',[11,12],'Biomechanics'),body,[('Fulcrum',390,230,'The elbow joint is the pivot in this simplified model.',['pivot']),('Effort',420,175,'The biceps applies effort between the fulcrum and the load.'),('Load',520,150,'The load acts at the hand or along the forearm.',['resistance']),('Lever arm',460,190,'The forearm acts as a rigid lever.')])
+# Detailed diagrams sourced online replace the initial schematic structure sketches.
+credits_path=OUT/'labelling-image-sources.json'
+image_credits=json.loads(credits_path.read_text()) if credits_path.exists() else []
+overrides_path=OUT/'labelling-image-overrides.json'
+if overrides_path.exists():
+ overrides=json.loads(overrides_path.read_text())
+ images={m['id']:m for m in image_credits}
+ for a in BANK:
+  if a['id'] not in images:continue
+  m=images[a['id']];bounds_w,bounds_h=470,390
+  ratio=m['width']/m['height'];w=min(bounds_w,bounds_h*ratio);h=w/ratio
+  x=115+(bounds_w-w)/2;y=25+(bounds_h-h)/2
+  a['svg']=f'<image href="{m["asset"]}" x="{x:.3f}" y="{y:.3f}" width="{w:.3f}" height="{h:.3f}" preserveAspectRatio="xMidYMid meet"/>'
+  a['imageSourceId']=a['id'];a['imagePath']=m['asset'];a['authorship']='Original Learning Vault questions; sourced educational diagram'
+  change=overrides.get('changes',{}).get(a['id'],{})
+  if change.get('title'):a['title']=change['title']
+  if a['id']=='flowering-plant':
+   for placement in a['placements']:
+    if placement['subject']=='Biology ATAR':placement['topic']='Plant reproduction'
+  for p,(fx,fy) in zip(a['points'],overrides['coords'][a['id']]):
+   p['tx']=round(x+fx*w,2);p['ty']=round(y+fy*h,2)
+   p.update(change.get('points',{}).get(p['id'],{}))
+  for side in ('left','right'):
+   group=sorted([p for p in a['points'] if ('left' if p['tx']<350 else 'right')==side],key=lambda p:p['ty'])
+   for index,p in enumerate(group):
+    p['x']=45 if side=='left' else 655
+    p['y']=220 if len(group)==1 else round(80+275*index/(len(group)-1))
+  a['note']='Identify each numbered structure in the educational illustration.'
+  if a['id']=='heart':a['note']='Front-view cutaway: the person’s right side is on the viewer’s left.'
+
 # Save reproducible, original content with explicit curriculum-topic placement.
-data={'version':'2026.11.09-labelling1','scope':'Years 7–12 topic practice. Year tags are teaching placements; diagrams do not cover every syllabus outcome.','sources':[{'title':'WA Science scope and sequence (2026)','url':'https://k10outline.scsa.wa.edu.au/home/wa-curriculum/learning-areas/science/p-10-science-curriculum'},{'title':'SCSA senior syllabuses','url':'https://senior-secondary.scsa.wa.edu.au/syllabus-and-support-materials'}],'activities':BANK}
+data={'version':'2026.11.09-labelling1','scope':'Years 7–12 topic practice. Year tags are teaching placements; diagrams do not cover every syllabus outcome.','sources':[{'title':'WA Science scope and sequence (2026)','url':'https://k10outline.scsa.wa.edu.au/home/wa-curriculum/learning-areas/science/p-10-science-curriculum'},{'title':'SCSA senior syllabuses','url':'https://senior-secondary.scsa.wa.edu.au/syllabus-and-support-materials'}],'activities':BANK,'imageCredits':image_credits}
 (OUT/'labelling-bank.json').write_text(json.dumps(data,ensure_ascii=False,separators=(',',':'))+'\n')
 print(f'{len(BANK)} diagrams; {sum(len(a["points"]) for a in BANK)} labels; {len({p["subject"] for a in BANK for p in a["placements"]})} subjects; {sum(len(a["placements"]) for a in BANK)} subject/year/topic placements')

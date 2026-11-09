@@ -1,0 +1,356 @@
+{
+  "coords": {
+    "animal-cell": [
+      [
+        0.96,
+        0.43
+      ],
+      [
+        0.74,
+        0.16
+      ],
+      [
+        0.28,
+        0.74
+      ],
+      [
+        0.21,
+        0.23
+      ],
+      [
+        0.59,
+        0.44
+      ]
+    ],
+    "plant-cell": [
+      [
+        0.84,
+        0.53
+      ],
+      [
+        0.686,
+        0.44
+      ],
+      [
+        0.59,
+        0.55
+      ],
+      [
+        0.49,
+        0.47
+      ],
+      [
+        0.395,
+        0.41
+      ]
+    ],
+    "bacterium": [
+      [
+        0.66,
+        0.3
+      ],
+      [
+        0.61,
+        0.35
+      ],
+      [
+        0.46,
+        0.55
+      ],
+      [
+        0.375,
+        0.736
+      ],
+      [
+        0.7,
+        0.76
+      ],
+      [
+        0.33,
+        0.56
+      ]
+    ],
+    "microscope": [
+      [
+        0.665,
+        0.09
+      ],
+      [
+        0.682,
+        0.53
+      ],
+      [
+        0.682,
+        0.607
+      ],
+      [
+        0.653,
+        0.827
+      ],
+      [
+        0.341,
+        0.711
+      ],
+      [
+        0.5,
+        0.918
+      ]
+    ],
+    "gas-exchange": [
+      [
+        0.369,
+        0.492
+      ],
+      [
+        0.443,
+        0.568
+      ],
+      [
+        0.25,
+        0.65
+      ],
+      [
+        0.44,
+        0.8
+      ],
+      [
+        0.8,
+        0.215
+      ]
+    ],
+    "digestion": [
+      [
+        0.4,
+        0.177
+      ],
+      [
+        0.5,
+        0.4
+      ],
+      [
+        0.63,
+        0.6
+      ],
+      [
+        0.41,
+        0.56
+      ],
+      [
+        0.56,
+        0.78
+      ],
+      [
+        0.78,
+        0.75
+      ]
+    ],
+    "heart": [
+      [
+        0.28,
+        0.53
+      ],
+      [
+        0.61,
+        0.42
+      ],
+      [
+        0.47,
+        0.78
+      ],
+      [
+        0.78,
+        0.72
+      ],
+      [
+        0.6,
+        0.76
+      ]
+    ],
+    "neuron": [
+      [
+        0.13,
+        0.18
+      ],
+      [
+        0.42,
+        0.68
+      ],
+      [
+        0.285,
+        0.55
+      ],
+      [
+        0.717,
+        0.469
+      ],
+      [
+        0.66,
+        0.46
+      ],
+      [
+        0.9,
+        0.2
+      ]
+    ],
+    "earth-layers": [
+      [
+        0.55,
+        0.13
+      ],
+      [
+        0.5,
+        0.38
+      ],
+      [
+        0.55,
+        0.71
+      ],
+      [
+        0.53,
+        0.89
+      ]
+    ],
+    "subduction": [
+      [
+        0.27,
+        0.49
+      ],
+      [
+        0.79,
+        0.42
+      ],
+      [
+        0.63,
+        0.69
+      ],
+      [
+        0.88,
+        0.16
+      ],
+      [
+        0.61,
+        0.47
+      ]
+    ],
+    "dna": [
+      [
+        0.1,
+        0.42
+      ],
+      [
+        0.5,
+        0.25
+      ],
+      [
+        0.5,
+        0.302
+      ],
+      [
+        0.18,
+        0.31
+      ]
+    ],
+    "flowering-plant": [
+      [
+        0.65,
+        0.5
+      ],
+      [
+        0.566,
+        0.412
+      ],
+      [
+        0.519,
+        0.35
+      ],
+      [
+        0.488,
+        0.59
+      ]
+    ],
+    "filtration": [
+      [
+        0.42,
+        0.5
+      ],
+      [
+        0.23,
+        0.44
+      ],
+      [
+        0.7,
+        0.3
+      ],
+      [
+        0.32,
+        0.94
+      ],
+      [
+        0.72,
+        0.18
+      ]
+    ]
+  },
+  "changes": {
+    "microscope": {
+      "points": {
+        "4": {
+          "answer": "Mirror",
+          "aliases": [
+            "illuminating mirror"
+          ],
+          "explanation": "The mirror reflects light up through the specimen in this microscope."
+        }
+      }
+    },
+    "dna": {
+      "title": "DNA molecular structure",
+      "points": {
+        "4": {
+          "answer": "Deoxyribose sugar",
+          "aliases": [
+            "deoxyribose",
+            "sugar"
+          ],
+          "explanation": "Deoxyribose is the five-carbon sugar in the DNA backbone."
+        }
+      }
+    },
+    "flowering-plant": {
+      "title": "Flower structures",
+      "points": {
+        "1": {
+          "answer": "Petal",
+          "aliases": [],
+          "explanation": "Petals can help attract animal pollinators."
+        },
+        "2": {
+          "answer": "Anther",
+          "aliases": [],
+          "explanation": "The anther produces pollen grains."
+        },
+        "3": {
+          "answer": "Stigma",
+          "aliases": [],
+          "explanation": "The stigma receives pollen."
+        },
+        "4": {
+          "answer": "Ovary",
+          "aliases": [],
+          "explanation": "The ovary encloses ovules and develops into a fruit after fertilisation."
+        }
+      }
+    },
+    "filtration": {
+      "points": {
+        "3": {
+          "answer": "Mixture",
+          "aliases": [
+            "unfiltered mixture"
+          ],
+          "explanation": "The mixture is poured into the filter paper to separate insoluble solid from liquid."
+        }
+      }
+    }
+  }
+}
