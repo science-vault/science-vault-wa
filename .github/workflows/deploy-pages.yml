@@ -40,6 +40,7 @@ jobs:
             assets/practice-mathematics
             assets/champions
             assets/labelling
+            assets/lessons
             scripts
             tests
           sparse-checkout-cone-mode: true
@@ -68,6 +69,7 @@ jobs:
             cp -R assets/practice-mathematics _site/assets/
             cp -R assets/champions _site/assets/
             cp -R assets/labelling _site/assets/
+            cp -R assets/lessons _site/assets/
           fi
 
           # Vault pages load these catalogues directly in the browser.
@@ -107,6 +109,7 @@ jobs:
         uses: actions/deploy-pages@v5
         with:
           artifact_name: github-pages-${{ github.run_attempt }}
+
 
 
 
