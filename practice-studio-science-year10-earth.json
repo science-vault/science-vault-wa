@@ -1,0 +1,1853 @@
+[
+  {
+    "id": "science-y10-applecross-earth-A1",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2015,
+    "units": "Lower school",
+    "number": 1,
+    "sourceQuestionLabel": "1",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Earth and Space topic test 2015",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Earth and space sciences"
+    ],
+    "subtopics": [
+      "Solar System and exoplanets"
+    ],
+    "strand": "Earth and space sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "The Oort cloud in our solar system is believed to contain",
+    "hash": "c22dcc80b69f2cbeec427dfad65d6985c7f073fac1a2c6bb483db85e5367ce94",
+    "sourceFile": "Earth topic test 2015.docx",
+    "sourceKeyFile": "Earth test solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-earth.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>The Oort cloud in our solar system is believed to contain</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>The Oort cloud is a distant reservoir of icy bodies that can be disturbed into long-period comet orbits.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "asteroids",
+      "planets and dwarf planets",
+      "comets",
+      "meteors"
+    ],
+    "optionsHtml": [
+      "<p>asteroids</p>",
+      "<p>planets and dwarf planets</p>",
+      "<p>comets</p>",
+      "<p>meteors</p>"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "science-y10-applecross-earth-A2",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2015,
+    "units": "Lower school",
+    "number": 2,
+    "sourceQuestionLabel": "2",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Earth and Space topic test 2015",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Earth and space sciences"
+    ],
+    "subtopics": [
+      "Stars and stellar evolution"
+    ],
+    "strand": "Earth and space sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "One of the following is a possible correct sequence for a star. Circle it.",
+    "hash": "6458bd9cd392f95c9d57deedd806ba05b98270bc7bba6534441584da7f0ffdea",
+    "sourceFile": "Earth topic test 2015.docx",
+    "sourceKeyFile": "Earth test solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-earth.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>One of the following is a possible correct sequence for a star. Circle it.</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>A Sun-like star evolves from protostar to main sequence to red giant, then sheds its outer layers and leaves a white dwarf. A brown dwarf does not sustain normal hydrogen fusion.</p><h3>Marking guidance</h3><p>Award 1 mark for B. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "protostar -> main sequence star -> brown dwarf",
+      "protostar -> main sequence star -> red giant -> white dwarf",
+      "protostar -> small main sequence star -> red super giant -> neutron",
+      "protostar -> large main sequence star -> supernova -> red supergiant -> black hole"
+    ],
+    "optionsHtml": [
+      "<p>protostar -&gt; main sequence star -&gt; brown dwarf</p>",
+      "<p>protostar -&gt; main sequence star -&gt; red giant -&gt; white dwarf</p>",
+      "<p>protostar -&gt; small main sequence star -&gt; red super giant -&gt; neutron</p>",
+      "<p>protostar -&gt; large main sequence star -&gt; supernova -&gt; red supergiant -&gt; black hole</p>"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "science-y10-applecross-earth-A3",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2015,
+    "units": "Lower school",
+    "number": 3,
+    "sourceQuestionLabel": "3",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Earth and Space topic test 2015",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Earth and space sciences"
+    ],
+    "subtopics": [
+      "Earth and space sciences"
+    ],
+    "strand": "Earth and space sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Which of the following lists the objects in order from least dense to most dense",
+    "hash": "b054c790f440540b223cf570ff03cd78e7fbd9afc550bf59f8ea140a929871e1",
+    "sourceFile": "Earth topic test 2015.docx",
+    "sourceKeyFile": "Earth test solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-earth.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Which of the following lists the objects in order from least dense to most dense</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>The intended school ordering is red giant, main-sequence star, neutron star, black hole. Red giants have low average density; neutron stars are highly compact. A black hole’s assigned average density depends on its mass and definition, so this is a simplified comparison.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "black hole, neutron star, red giant, main sequence star",
+      "main sequence star, red giant, neutron star, black hole",
+      "red giant, main sequence star, neutron star, black hole",
+      "neutron star, main sequence star, red giant, black hole"
+    ],
+    "optionsHtml": [
+      "<p>black hole, neutron star, red giant, main sequence star</p>",
+      "<p>main sequence star, red giant, neutron star, black hole</p>",
+      "<p>red giant, main sequence star, neutron star, black hole</p>",
+      "<p>neutron star, main sequence star, red giant, black hole</p>"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "science-y10-applecross-earth-A4",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2015,
+    "units": "Lower school",
+    "number": 4,
+    "sourceQuestionLabel": "4",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Earth and Space topic test 2015",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Earth and space sciences"
+    ],
+    "subtopics": [
+      "Solar System and exoplanets"
+    ],
+    "strand": "Earth and space sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "The asteroid belt is located",
+    "hash": "2e0c05553a4a0accbf3825fd3b06bec5dd1b68401bf2028a82ad39ed12b93dbd",
+    "sourceFile": "Earth topic test 2015.docx",
+    "sourceKeyFile": "Earth test solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-earth.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>The asteroid belt is located</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>The main asteroid belt lies between the orbits of Mars and Jupiter.</p><h3>Marking guidance</h3><p>Award 1 mark for B. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "between Earth and Mars",
+      "between Mars and Jupiter",
+      "between Jupiter and Saturn",
+      "between Uranus and Neptune",
+      "outside Neptune’s orbit"
+    ],
+    "optionsHtml": [
+      "<p>between Earth and Mars</p>",
+      "<p>between Mars and Jupiter</p>",
+      "<p>between Jupiter and Saturn</p>",
+      "<p>between Uranus and Neptune</p>",
+      "<p>outside Neptune’s orbit</p>"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "science-y10-applecross-earth-A5",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2015,
+    "units": "Lower school",
+    "number": 5,
+    "sourceQuestionLabel": "5",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Earth and Space topic test 2015",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Earth and space sciences"
+    ],
+    "subtopics": [
+      "Universe and galaxies"
+    ],
+    "strand": "Earth and space sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Classify the four galaxies shown, from left to right.",
+    "hash": "c80335a605262090b9982ef9399efe569176133a7a30d26819224ee8b6ec7ce2",
+    "sourceFile": "Earth topic test 2015.docx",
+    "sourceKeyFile": "Earth test solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 1,
+    "bankFile": "practice-studio-science-year10-earth.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Classify the four galaxies shown, from left to right.</p><figure><img src=\"assets/practice-science-year10/earth-galaxies.png\" alt=\"earth galaxies\" loading=\"lazy\"></figure>",
+    "answerHtml": "<h3>Worked solution</h3><p>The first image shows a central bar, the second a smooth elliptical shape, the third spiral arms and the fourth an irregular shape: barred spiral, elliptical, spiral, irregular.</p><h3>Marking guidance</h3><p>Award 1 mark for D. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "spiral, elliptical, barred spiral, irregular",
+      "irregular, elliptical, spiral, barred spiral",
+      "spiral, irregular, barred spiral, elliptical",
+      "barred spiral, elliptical, spiral, irregular"
+    ],
+    "optionsHtml": [
+      "<p>spiral, elliptical, barred spiral, irregular</p>",
+      "<p>irregular, elliptical, spiral, barred spiral</p>",
+      "<p>spiral, irregular, barred spiral, elliptical</p>",
+      "<p>barred spiral, elliptical, spiral, irregular</p>"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "science-y10-applecross-earth-A6",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2015,
+    "units": "Lower school",
+    "number": 6,
+    "sourceQuestionLabel": "6",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Earth and Space topic test 2015",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Earth and space sciences"
+    ],
+    "subtopics": [
+      "Stars and stellar evolution"
+    ],
+    "strand": "Earth and space sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Where is the energy of the Sun actually produced in fusion reactions?",
+    "hash": "36823000f9340a622f1668e6c367ad43acddefb730dbdb1a5918b251a59606eb",
+    "sourceFile": "Earth topic test 2015.docx",
+    "sourceKeyFile": "Earth test solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-earth.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Where is the energy of the Sun actually produced in fusion reactions?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>The Sun’s core has the high temperature and pressure needed for hydrogen fusion. Energy then travels outward through the radiative and convective zones.</p><h3>Marking guidance</h3><p>Award 1 mark for A. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "the core",
+      "the radiation zone",
+      "the surface",
+      "the corona"
+    ],
+    "optionsHtml": [
+      "<p>the core</p>",
+      "<p>the radiation zone</p>",
+      "<p>the surface</p>",
+      "<p>the corona</p>"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "science-y10-applecross-earth-A7",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2015,
+    "units": "Lower school",
+    "number": 7,
+    "sourceQuestionLabel": "7",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Earth and Space topic test 2015",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Earth and space sciences"
+    ],
+    "subtopics": [
+      "Universe and galaxies"
+    ],
+    "strand": "Earth and space sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "According to the estimate used in this 2015 assessment, approximately how many galaxies were thought to be in the observable universe?",
+    "hash": "d8974b7f33d8b426f3d6da1144bbb760aee7d8767aa8611b972a7f8299b60b5f",
+    "sourceFile": "Earth topic test 2015.docx",
+    "sourceKeyFile": "Earth test solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-earth.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>According to the estimate used in this 2015 assessment, approximately how many galaxies were thought to be in the observable universe?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>100 billion is the intended order-of-magnitude estimate in this historical assessment. It is not a fixed modern census; estimates depend on observational sensitivity and what is counted.</p><h3>Marking guidance</h3><p>Award 1 mark for D. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "1 million",
+      "100 million",
+      "1 billion",
+      "100 billion"
+    ],
+    "optionsHtml": [
+      "<p>1 million</p>",
+      "<p>100 million</p>",
+      "<p>1 billion</p>",
+      "<p>100 billion</p>"
+    ],
+    "correctAnswer": 3,
+    "editorialNote": "Historical galaxy estimate explicitly dated."
+  },
+  {
+    "id": "science-y10-applecross-earth-A8",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2015,
+    "units": "Lower school",
+    "number": 8,
+    "sourceQuestionLabel": "8",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Earth and Space topic test 2015",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Earth and space sciences"
+    ],
+    "subtopics": [
+      "Universe and galaxies"
+    ],
+    "strand": "Earth and space sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Which key observation led to the Big Bang theory of the creation of the universe?",
+    "hash": "ad67b995154b8c98222b3ea04dd177ce7aff2e5dc716cb7a593ba6ddbb3c3877",
+    "sourceFile": "Earth topic test 2015.docx",
+    "sourceKeyFile": "Earth test solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-earth.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Which key observation led to the Big Bang theory of the creation of the universe?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Systematic recession of distant galaxies, inferred from their redshifts, supports expanding space and a hotter, denser earlier universe.</p><h3>Marking guidance</h3><p>Award 1 mark for A. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "most galaxies are moving away from our galaxy",
+      "some galaxies are moving towards our galaxy",
+      "the mass in the universe is mainly made up of hydrogen and helium",
+      "there are many different types of stars"
+    ],
+    "optionsHtml": [
+      "<p>most galaxies are moving away from our galaxy</p>",
+      "<p>some galaxies are moving towards our galaxy</p>",
+      "<p>the mass in the universe is mainly made up of hydrogen and helium</p>",
+      "<p>there are many different types of stars</p>"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "science-y10-applecross-earth-A9",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2015,
+    "units": "Lower school",
+    "number": 9,
+    "sourceQuestionLabel": "9",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Earth and Space topic test 2015",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Earth and space sciences"
+    ],
+    "subtopics": [
+      "Universe and galaxies"
+    ],
+    "strand": "Earth and space sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Which is true according to the Big Bang theory?",
+    "hash": "d7fe01c44859b7c18b5a973cf323c9ac526c88ef624c23c43d66c1808e188c3e",
+    "sourceFile": "Earth topic test 2015.docx",
+    "sourceKeyFile": "Earth test solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-earth.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Which is true according to the Big Bang theory?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>The early universe produced mostly hydrogen and helium. Heavier elements formed later through stellar nucleosynthesis and energetic stellar events.</p><h3>Marking guidance</h3><p>Award 1 mark for B. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "All elements in the universe were created in the Big Bang",
+      "Light elements, like helium and hydrogen, were created by the Big Bang and heavier elements were created later by fusion in stars",
+      "Heavy elements were created in the Big Bang and light elements, like helium and hydrogen, were created by fusion in stars",
+      "None of the above."
+    ],
+    "optionsHtml": [
+      "<p>All elements in the universe were created in the Big Bang</p>",
+      "<p>Light elements, like helium and hydrogen, were created by the Big Bang and heavier elements were created later by fusion in stars</p>",
+      "<p>Heavy elements were created in the Big Bang and light elements, like helium and hydrogen, were created by fusion in stars</p>",
+      "<p>None of the above.</p>"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "science-y10-applecross-earth-A10",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2015,
+    "units": "Lower school",
+    "number": 10,
+    "sourceQuestionLabel": "10",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Earth and Space topic test 2015",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Earth and space sciences"
+    ],
+    "subtopics": [
+      "Stars and stellar evolution"
+    ],
+    "strand": "Earth and space sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "The best definition of a sun spot is",
+    "hash": "60cbd6ed1a4e2cb49c6ecce4cafe4b6f5bfa410a2d7b22f479a057dd8ac80bf0",
+    "sourceFile": "Earth topic test 2015.docx",
+    "sourceKeyFile": "Earth test solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-earth.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>The best definition of a sun spot is</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>A sunspot is cooler than the surrounding photosphere and looks dark by contrast. It still emits light.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "A site of a solar storm on the Sun",
+      "An area of the Sun which is black",
+      "An area on the Sun which is cooler than other areas.",
+      "The site of a meteor or asteroid impact."
+    ],
+    "optionsHtml": [
+      "<p>A site of a solar storm on the Sun</p>",
+      "<p>An area of the Sun which is black</p>",
+      "<p>An area on the Sun which is cooler than other areas.</p>",
+      "<p>The site of a meteor or asteroid impact.</p>"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "science-y10-applecross-earth-A11",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2015,
+    "units": "Lower school",
+    "number": 11,
+    "sourceQuestionLabel": "11",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Earth and Space topic test 2015",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Earth and space sciences"
+    ],
+    "subtopics": [
+      "Stars and stellar evolution"
+    ],
+    "strand": "Earth and space sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Fusion in our Sun is best described as:",
+    "hash": "3f4ac968c3fd5d56190bb06d1156688dec8374695787f7c587faff25a6663522",
+    "sourceFile": "Earth topic test 2015.docx",
+    "sourceKeyFile": "Earth test solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-earth.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Fusion in our Sun is best described as:</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Fusion turns hydrogen into helium with a small decrease in rest mass. The mass difference is released as energy: E = Δmc². This is not chemical burning.</p><h3>Marking guidance</h3><p>Award 1 mark for D. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "Burning hydrogen to produce energy",
+      "Converting helium into hydrogen plus energy",
+      "Producing energy from high pressures and temperatures as the core of the Sun",
+      "Converting mass into energy"
+    ],
+    "optionsHtml": [
+      "<p>Burning hydrogen to produce energy</p>",
+      "<p>Converting helium into hydrogen plus energy</p>",
+      "<p>Producing energy from high pressures and temperatures as the core of the Sun</p>",
+      "<p>Converting mass into energy</p>"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "science-y10-applecross-earth-A12",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2015,
+    "units": "Lower school",
+    "number": 12,
+    "sourceQuestionLabel": "12",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Earth and Space topic test 2015",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Earth and space sciences"
+    ],
+    "subtopics": [
+      "Stars and stellar evolution"
+    ],
+    "strand": "Earth and space sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "The correct order for layers of the Sun is:",
+    "hash": "0028593c41dd1b19d76827cf5ec13426b94a20ffc0785981b28c3b28c785ddd9",
+    "sourceFile": "Earth topic test 2015.docx",
+    "sourceKeyFile": "Earth test solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-earth.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>The correct order for layers of the Sun is:</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>The listed sequence is core → radiative zone → convective zone → photosphere (surface) → corona. The chromosphere is omitted from the choices.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "Core, convective zone, radiative zone, surface, corona",
+      "Core, convective zone, radiative zone, corona, surface",
+      "Core, radiative zone, convective zone, surface, corona",
+      "Core, radiative zone, convective zone, corona, surface"
+    ],
+    "optionsHtml": [
+      "<p>Core, convective zone, radiative zone, surface, corona</p>",
+      "<p>Core, convective zone, radiative zone, corona, surface</p>",
+      "<p>Core, radiative zone, convective zone, surface, corona</p>",
+      "<p>Core, radiative zone, convective zone, corona, surface</p>"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "science-y10-applecross-earth-A13",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2015,
+    "units": "Lower school",
+    "number": 13,
+    "sourceQuestionLabel": "13",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Earth and Space topic test 2015",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Earth and space sciences"
+    ],
+    "subtopics": [
+      "Stars and stellar evolution"
+    ],
+    "strand": "Earth and space sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "In the future, our Sun is likely to become a..",
+    "hash": "3ead7b66ff376adfe1ee8694db4d23a28080efe5c6193a5dc7232bc8f4558f53",
+    "sourceFile": "Earth topic test 2015.docx",
+    "sourceKeyFile": "Earth test solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-earth.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>In the future, our Sun is likely to become a..</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>The Sun will lose its outer layers after its red-giant phase and leave a white dwarf. It is not massive enough for a core-collapse supernova.</p><h3>Marking guidance</h3><p>Award 1 mark for B. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "red dwarf",
+      "white dwarf",
+      "supernova",
+      "neutron star"
+    ],
+    "optionsHtml": [
+      "<p>red dwarf</p>",
+      "<p>white dwarf</p>",
+      "<p>supernova</p>",
+      "<p>neutron star</p>"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "science-y10-applecross-earth-A14",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2015,
+    "units": "Lower school",
+    "number": 14,
+    "sourceQuestionLabel": "14",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Earth and Space topic test 2015",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Earth and space sciences"
+    ],
+    "subtopics": [
+      "Solar System and exoplanets"
+    ],
+    "strand": "Earth and space sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "A comet is best described as",
+    "hash": "af1cd746ef4956c2178866fdf2b331e446387e50567bce65cc301b47e85a8695",
+    "sourceFile": "Earth topic test 2015.docx",
+    "sourceKeyFile": "Earth test solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-earth.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>A comet is best described as</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>A comet contains ice, dust and rock, traditionally described as a dirty snowball. Solar heating releases gas and dust; it is not burning like a fire.</p><h3>Marking guidance</h3><p>Award 1 mark for A. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "A dirty snowball",
+      "A large metallic rock",
+      "A fiery, burning object orbiting the Sun",
+      "A dwarf planet in an eccentric orbit"
+    ],
+    "optionsHtml": [
+      "<p>A dirty snowball</p>",
+      "<p>A large metallic rock</p>",
+      "<p>A fiery, burning object orbiting the Sun</p>",
+      "<p>A dwarf planet in an eccentric orbit</p>"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "science-y10-applecross-earth-A15",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2015,
+    "units": "Lower school",
+    "number": 15,
+    "sourceQuestionLabel": "15",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Earth and Space topic test 2015",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Earth and space sciences"
+    ],
+    "subtopics": [
+      "Earth and space sciences"
+    ],
+    "strand": "Earth and space sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "A black hole at some stage in its life was in the form of",
+    "hash": "b7335148ac4277ebccb9468c9086f7bb5d563a03cd62adac6f071e8b9f19fd32",
+    "sourceFile": "Earth topic test 2015.docx",
+    "sourceKeyFile": "Earth test solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-earth.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>A black hole at some stage in its life was in the form of</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>In the intended massive-star pathway, a red supergiant can undergo core collapse and leave a black hole if the remnant is sufficiently massive.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "A white dwarf",
+      "A star similar to our sun",
+      "A red super giant",
+      "A neutron star"
+    ],
+    "optionsHtml": [
+      "<p>A white dwarf</p>",
+      "<p>A star similar to our sun</p>",
+      "<p>A red super giant</p>",
+      "<p>A neutron star</p>"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "science-y10-applecross-earth-B16",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2015,
+    "units": "Lower school",
+    "number": 16,
+    "sourceQuestionLabel": "16",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Earth and Space topic test 2015",
+    "section": "Short answer",
+    "types": [
+      "Short answer"
+    ],
+    "responseTypes": [
+      "Short answer"
+    ],
+    "marks": 3,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Earth and space sciences"
+    ],
+    "subtopics": [
+      "Solar System and exoplanets"
+    ],
+    "strand": "Earth and space sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "Describe three key features of the nebula theory of the creation of the Solar system. (3 marks)",
+    "hash": "7056772d87c1bcaf9b61bf094f447c944df8c7a857bbb1316c1cfa0c3173c665",
+    "sourceFile": "Earth topic test 2015.docx",
+    "sourceKeyFile": "Earth test solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-earth.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Describe three key features of the nebula theory of the creation of the Solar system. (3 marks)</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>A gas-and-dust nebula collapsed under gravity. [1] It rotated faster and flattened into a disc with a hot central region forming the Sun. [1] Collisions and accretion in the disc built planetesimals and then planets. [1]</p><h3>Marking guidance</h3><p>Maximum 3 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-earth-B17",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2015,
+    "units": "Lower school",
+    "number": 17,
+    "sourceQuestionLabel": "17",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Earth and Space topic test 2015",
+    "section": "Labelling",
+    "types": [
+      "Labelling"
+    ],
+    "responseTypes": [
+      "Labelling"
+    ],
+    "marks": 3,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Earth and space sciences"
+    ],
+    "subtopics": [
+      "Solar System and exoplanets"
+    ],
+    "strand": "Earth and space sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "Exoplanets are planets found orbiting stars other than our Sun. They are usually too small to see directly, even with the most powerful telescopes. Explain one method which astronomers can use to identify the existence of an exoplanet. Use a diagram to support your answer. (3 marks)",
+    "hash": "41c62fc893e0fe3842b2d12f043c75965c71c4d5d5b4822615ac1e34f87c9082",
+    "sourceFile": "Earth topic test 2015.docx",
+    "sourceKeyFile": "Earth test solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-earth.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Exoplanets are planets found orbiting stars other than our Sun. They are usually too small to see directly, even with the most powerful telescopes. Explain one method which astronomers can use to identify the existence of an exoplanet. Use a diagram to support your answer. (3 marks)</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Transit method: a planet between the star and observer blocks a small fraction of starlight. [1] Regular repeated brightness dips indicate an orbiting planet. [1] Draw and label star, planet and observer, or repeated dips on a brightness–time graph. [1] A correctly explained periodic Doppler wobble method is also acceptable.</p><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 210\" role=\"img\" aria-label=\"Worked diagram\" style=\"max-width:100%;font:16px Arial\"><circle cx=\"95\" cy=\"75\" r=\"45\" fill=\"#ffe3a2\" stroke=\"#235\"/><circle cx=\"210\" cy=\"75\" r=\"11\" fill=\"#235\"/><path d=\"M230 75H390\" stroke=\"#235\"/><text x=\"65\" y=\"155\">Star</text><text x=\"170\" y=\"155\">Planet</text><text x=\"395\" y=\"80\">Observer</text><text x=\"80\" y=\"195\">Transit blocks a small fraction of the starlight</text></svg><h3>Marking guidance</h3><p>Maximum 3 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-earth-B18",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2015,
+    "units": "Lower school",
+    "number": 18,
+    "sourceQuestionLabel": "18",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Earth and Space topic test 2015",
+    "section": "Short answer",
+    "types": [
+      "Short answer"
+    ],
+    "responseTypes": [
+      "Short answer"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Earth and space sciences"
+    ],
+    "subtopics": [
+      "Earth and space sciences"
+    ],
+    "strand": "Earth and space sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "State one way we can observe the effect of large solar flares on Earth. (1 mark)",
+    "hash": "2c81d34b6147abd353e4865d379ed83d6e12c8f80b8dc486603a8ceb68e4a772",
+    "sourceFile": "Earth topic test 2015.docx",
+    "sourceKeyFile": "Earth test solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-earth.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>State one way we can observe the effect of large solar flares on Earth. (1 mark)</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>One effect is enhanced auroral activity associated with solar activity. Accept disruption of radio communication or satellites, or power-network disturbances. Solar flares and associated coronal mass ejections are related but distinct phenomena.</p><h3>Marking guidance</h3><p>Maximum 1 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-earth-B19",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2015,
+    "units": "Lower school",
+    "number": 19,
+    "sourceQuestionLabel": "19",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Earth and Space topic test 2015",
+    "section": "Data / source analysis",
+    "types": [
+      "Data / source analysis"
+    ],
+    "responseTypes": [
+      "Data / source analysis"
+    ],
+    "marks": 3,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Earth and space sciences"
+    ],
+    "subtopics": [
+      "Solar System and exoplanets"
+    ],
+    "strand": "Earth and space sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "State three ways the pictured Solar System is not an accurate representation of the real Solar System. [3]",
+    "hash": "7fec7c3d31359c1efe23627488e811f952ea59be8b3d5e1c461573e57a0d46b2",
+    "sourceFile": "Earth topic test 2015.docx",
+    "sourceKeyFile": "Earth test solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 1,
+    "bankFile": "practice-studio-science-year10-earth.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>State three ways the pictured Solar System is not an accurate representation of the real Solar System. [3]</p><figure><img src=\"assets/practice-science-year10/earth-solar.png\" alt=\"earth solar\" loading=\"lazy\"></figure>",
+    "answerHtml": "<h3>Worked solution</h3><p>Any three distinct inaccuracies: planet and Sun diameters are not to scale; orbital distances are not to the same scale as sizes; planets are shown lined up rather than at their actual positions; Pluto is shown among planets although classified as a dwarf planet. [1 each]</p><h3>Marking guidance</h3><p>Maximum 3 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-earth-ExtA1",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2015,
+    "units": "Lower school",
+    "number": 1,
+    "sourceQuestionLabel": "Extension 1",
+    "sourceSection": "ExtA",
+    "source": "Applecross Year 10 Earth and Space topic test 2015",
+    "section": "Extension Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Earth and space sciences"
+    ],
+    "subtopics": [
+      "Stars and stellar evolution"
+    ],
+    "strand": "Earth and space sciences",
+    "difficulty": "Hard",
+    "mixed": false,
+    "text": "Choose the correct statement about stars",
+    "hash": "7e31492570c14553e062563bb711e1e42210ea245e2f3593e0779d7c97d5921f",
+    "sourceFile": "Earth topic test 2015.docx",
+    "sourceKeyFile": "Earth test solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-earth.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Choose the correct statement about stars</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>L = 4πR²σT⁴. A cool surface radiates less per unit area, so a cool but highly luminous star needs a very large surface area and radius.</p><h3>Marking guidance</h3><p>Award 1 mark for A. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "A star that is very luminous and cold must be large",
+      "A star that is very luminous and cold must be small",
+      "A star that is very luminous must be large",
+      "A star that is very cold must be small"
+    ],
+    "optionsHtml": [
+      "<p>A star that is very luminous and cold must be large</p>",
+      "<p>A star that is very luminous and cold must be small</p>",
+      "<p>A star that is very luminous must be large</p>",
+      "<p>A star that is very cold must be small</p>"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "science-y10-applecross-earth-ExtA2",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2015,
+    "units": "Lower school",
+    "number": 2,
+    "sourceQuestionLabel": "Extension 2",
+    "sourceSection": "ExtA",
+    "source": "Applecross Year 10 Earth and Space topic test 2015",
+    "section": "Extension Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Earth and space sciences"
+    ],
+    "subtopics": [
+      "Stars and stellar evolution"
+    ],
+    "strand": "Earth and space sciences",
+    "difficulty": "Hard",
+    "mixed": false,
+    "text": "Two stars A and B have the same luminosity but A is much bigger than B. Which of the following must be true?",
+    "hash": "34e74c6e831566fe3e0afaa3b5dd7716a66a21133e1ea4550498fdce51fa4f96",
+    "sourceFile": "Earth topic test 2015.docx",
+    "sourceKeyFile": "Earth test solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-earth.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Two stars A and B have the same luminosity but A is much bigger than B. Which of the following must be true?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>At equal luminosity, R²T⁴ is constant. The larger star must have a lower surface temperature and therefore a redder colour.</p><h3>Marking guidance</h3><p>Award 1 mark for D. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "Star A must be bluer than B",
+      "Star A must be hotter than B",
+      "Star A must be a supernova",
+      "Star A must be redder than B"
+    ],
+    "optionsHtml": [
+      "<p>Star A must be bluer than B</p>",
+      "<p>Star A must be hotter than B</p>",
+      "<p>Star A must be a supernova</p>",
+      "<p>Star A must be redder than B</p>"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "science-y10-applecross-earth-ExtA3",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2015,
+    "units": "Lower school",
+    "number": 3,
+    "sourceQuestionLabel": "Extension 3",
+    "sourceSection": "ExtA",
+    "source": "Applecross Year 10 Earth and Space topic test 2015",
+    "section": "Extension Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Earth and space sciences"
+    ],
+    "subtopics": [
+      "Stars and stellar evolution"
+    ],
+    "strand": "Earth and space sciences",
+    "difficulty": "Hard",
+    "mixed": false,
+    "text": "The effective temperature of a star is related closely to its",
+    "hash": "40a58c2703097f6ee748a9b0d256e70827b16b25d18fb5d073216155b4ed5746",
+    "sourceFile": "Earth topic test 2015.docx",
+    "sourceKeyFile": "Earth test solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-earth.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>The effective temperature of a star is related closely to its</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Surface temperature determines the broad thermal colour: hotter stars are bluer and cooler stars redder.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "age",
+      "mass",
+      "colour",
+      "size"
+    ],
+    "optionsHtml": [
+      "<p>age</p>",
+      "<p>mass</p>",
+      "<p>colour</p>",
+      "<p>size</p>"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "science-y10-applecross-earth-ExtA4",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2015,
+    "units": "Lower school",
+    "number": 4,
+    "sourceQuestionLabel": "Extension 4",
+    "sourceSection": "ExtA",
+    "source": "Applecross Year 10 Earth and Space topic test 2015",
+    "section": "Extension Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Earth and space sciences"
+    ],
+    "subtopics": [
+      "Stars and stellar evolution"
+    ],
+    "strand": "Earth and space sciences",
+    "difficulty": "Hard",
+    "mixed": false,
+    "text": "Stars like the Sun are mainly made up of plasma. The best definition of plasma is a hot, gas- like substance made up of",
+    "hash": "e6b8653337b68a999d72b4e972dfde187f4d32f3fdefaf35c439789b207c6b96",
+    "sourceFile": "Earth topic test 2015.docx",
+    "sourceKeyFile": "Earth test solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-earth.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Stars like the Sun are mainly made up of plasma. The best definition of plasma is a hot, gas- like substance made up of</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Plasma contains free electrons and positive ions, including atomic nuclei, rather than only neutral atoms.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "mostly neutrons",
+      "atoms",
+      "electrons and atomic nuclei",
+      "solar wind"
+    ],
+    "optionsHtml": [
+      "<p>mostly neutrons</p>",
+      "<p>atoms</p>",
+      "<p>electrons and atomic nuclei</p>",
+      "<p>solar wind</p>"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "science-y10-applecross-earth-ExtA5",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2015,
+    "units": "Lower school",
+    "number": 5,
+    "sourceQuestionLabel": "Extension 5",
+    "sourceSection": "ExtA",
+    "source": "Applecross Year 10 Earth and Space topic test 2015",
+    "section": "Extension Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Earth and space sciences"
+    ],
+    "subtopics": [
+      "Stars and stellar evolution"
+    ],
+    "strand": "Earth and space sciences",
+    "difficulty": "Hard",
+    "mixed": false,
+    "text": "Region B of the H–R diagram contains which type of star?",
+    "hash": "1d4a757ff5c851e8cf2193a3ecde38d3cf1cad114e85696dfc4ce4cbbfb224d3",
+    "sourceFile": "Earth topic test 2015.docx",
+    "sourceKeyFile": "Earth test solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 1,
+    "bankFile": "practice-studio-science-year10-earth.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Region B of the H–R diagram contains which type of star?</p><figure><img src=\"assets/practice-science-year10/earth-hr.png\" alt=\"earth hr\" loading=\"lazy\"></figure>",
+    "answerHtml": "<h3>Worked solution</h3><p>B is at high luminosity and low temperature on the upper right of the H–R diagram, where red giants and supergiants lie.</p><h3>Marking guidance</h3><p>Award 1 mark for A. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "Red giants/supergiants",
+      "Blue giants",
+      "Main sequence stars",
+      "White dwarfs and black holes"
+    ],
+    "optionsHtml": [
+      "<p>Red giants/supergiants</p>",
+      "<p>Blue giants</p>",
+      "<p>Main sequence stars</p>",
+      "<p>White dwarfs and black holes</p>"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "science-y10-applecross-earth-ExtA6",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2015,
+    "units": "Lower school",
+    "number": 6,
+    "sourceQuestionLabel": "Extension 6",
+    "sourceSection": "ExtA",
+    "source": "Applecross Year 10 Earth and Space topic test 2015",
+    "section": "Extension Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Earth and space sciences"
+    ],
+    "subtopics": [
+      "Stars and stellar evolution"
+    ],
+    "strand": "Earth and space sciences",
+    "difficulty": "Hard",
+    "mixed": false,
+    "text": "In this H–R diagram, in which labelled region would a white dwarf lie?",
+    "hash": "92d52ee5da02ca0a46843f92e107b1b556194b144c26b2dd80dbfbf79b61f07c",
+    "sourceFile": "Earth topic test 2015.docx",
+    "sourceKeyFile": "Earth test solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 1,
+    "bankFile": "practice-studio-science-year10-earth.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>In this H–R diagram, in which labelled region would a white dwarf lie?</p><figure><img src=\"assets/practice-science-year10/earth-hr.png\" alt=\"earth hr\" loading=\"lazy\"></figure>",
+    "answerHtml": "<h3>Worked solution</h3><p>White dwarfs are hot but faint because they have small radii. They lie at the lower left, region D in this diagram.</p><h3>Marking guidance</h3><p>Award 1 mark for D. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "optionsHtml": [
+      "<p>A</p>",
+      "<p>B</p>",
+      "<p>C</p>",
+      "<p>D</p>",
+      "<p>E</p>"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "science-y10-applecross-earth-ExtA7",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2015,
+    "units": "Lower school",
+    "number": 7,
+    "sourceQuestionLabel": "Extension 7",
+    "sourceSection": "ExtA",
+    "source": "Applecross Year 10 Earth and Space topic test 2015",
+    "section": "Extension Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Earth and space sciences"
+    ],
+    "subtopics": [
+      "Earth and space sciences"
+    ],
+    "strand": "Earth and space sciences",
+    "difficulty": "Hard",
+    "mixed": false,
+    "text": "An ambulance’s siren sounds different (has a different pitch) when it is coming towards you to when it is moving away from you or if it is stationary. This difference is due to the Doppler effect. The best explanation for the Doppler effect when the siren is moving towards you is:",
+    "hash": "3f178c03959ed89483eeaf3fea198c00fd6fd6bee1ea41cdf97d09f4d4440599",
+    "sourceFile": "Earth topic test 2015.docx",
+    "sourceKeyFile": "Earth test solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-earth.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>An ambulance’s siren sounds different (has a different pitch) when it is coming towards you to when it is moving away from you or if it is stationary. This difference is due to the Doppler effect. The best explanation for the Doppler effect when the siren is moving towards you is:</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>An approaching source produces closer-spaced wavefronts, shorter wavelength and higher observed frequency, so the pitch rises.</p><h3>Marking guidance</h3><p>Award 1 mark for A. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "The sound waves are compressed and the pitch of the sound is higher",
+      "The sound waves are compressed and the pitch of the sound is lower",
+      "The sound waves are stretched and the pitch of the sound is higher",
+      "The sound waves are stretched and the pitch of the sound is lower"
+    ],
+    "optionsHtml": [
+      "<p>The sound waves are compressed and the pitch of the sound is higher</p>",
+      "<p>The sound waves are compressed and the pitch of the sound is lower</p>",
+      "<p>The sound waves are stretched and the pitch of the sound is higher</p>",
+      "<p>The sound waves are stretched and the pitch of the sound is lower</p>"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "science-y10-applecross-earth-ExtA8",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2015,
+    "units": "Lower school",
+    "number": 8,
+    "sourceQuestionLabel": "Extension 8",
+    "sourceSection": "ExtA",
+    "source": "Applecross Year 10 Earth and Space topic test 2015",
+    "section": "Extension Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Earth and space sciences"
+    ],
+    "subtopics": [
+      "Solar System and exoplanets"
+    ],
+    "strand": "Earth and space sciences",
+    "difficulty": "Hard",
+    "mixed": false,
+    "text": "The diagram below shows the relative position of a comet and its tail at different times as it passes near the Sun. The tail of the comet streams away from the Sun because:",
+    "hash": "de3dfa8ac1ef8c5c036314eef019926c43a32cbc3f9dd69ca9641cc813f3abe8",
+    "sourceFile": "Earth topic test 2015.docx",
+    "sourceKeyFile": "Earth test solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 1,
+    "bankFile": "practice-studio-science-year10-earth.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>The diagram below shows the relative position of a comet and its tail at different times as it passes near the Sun. The tail of the comet streams away from the Sun because:</p><figure><img src=\"assets/practice-science-year10/earth-comet.png\" alt=\"earth comet\" loading=\"lazy\"></figure>",
+    "answerHtml": "<h3>Worked solution</h3><p>Solar wind pushes ionised gas away from the Sun; radiation pressure also pushes dust. A comet’s tail does not merely trail its direction of motion.</p><h3>Marking guidance</h3><p>Award 1 mark for A. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "the solar wind carries the particles in the tail away from the Sun",
+      "radiant energy from the Sun melts the ice crystals of the comet which then reforms in the shadow of the comet",
+      "the motion of the comet leaves the tail streaming behind",
+      "the force of the comet moving around the Sun causes the tail to swing outwards like a water skier behind a boat"
+    ],
+    "optionsHtml": [
+      "<p>the solar wind carries the particles in the tail away from the Sun</p>",
+      "<p>radiant energy from the Sun melts the ice crystals of the comet which then reforms in the shadow of the comet</p>",
+      "<p>the motion of the comet leaves the tail streaming behind</p>",
+      "<p>the force of the comet moving around the Sun causes the tail to swing outwards like a water skier behind a boat</p>"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "science-y10-applecross-earth-ExtA9",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2015,
+    "units": "Lower school",
+    "number": 9,
+    "sourceQuestionLabel": "Extension 9",
+    "sourceSection": "ExtA",
+    "source": "Applecross Year 10 Earth and Space topic test 2015",
+    "section": "Extension Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Earth and space sciences"
+    ],
+    "subtopics": [
+      "Earth and space sciences"
+    ],
+    "strand": "Earth and space sciences",
+    "difficulty": "Hard",
+    "mixed": false,
+    "text": "Cosmic materials which are burned up as they pass through the Earth’s atmosphere are called:",
+    "hash": "3248cfcbf16ff00064e34f0339467d9119e12c803bc69c32544057a16959adc7",
+    "sourceFile": "Earth topic test 2015.docx",
+    "sourceKeyFile": "Earth test solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-earth.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Cosmic materials which are burned up as they pass through the Earth’s atmosphere are called:</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>The luminous passage through the atmosphere is a meteor. The object in space is a meteoroid; a surviving fragment on the ground is a meteorite.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "asteroids",
+      "meteorites",
+      "meteors",
+      "meteoroids"
+    ],
+    "optionsHtml": [
+      "<p>asteroids</p>",
+      "<p>meteorites</p>",
+      "<p>meteors</p>",
+      "<p>meteoroids</p>"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "science-y10-applecross-earth-ExtA10",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2015,
+    "units": "Lower school",
+    "number": 10,
+    "sourceQuestionLabel": "Extension 10",
+    "sourceSection": "ExtA",
+    "source": "Applecross Year 10 Earth and Space topic test 2015",
+    "section": "Extension Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Earth and space sciences"
+    ],
+    "subtopics": [
+      "Earth and space sciences"
+    ],
+    "strand": "Earth and space sciences",
+    "difficulty": "Hard",
+    "mixed": false,
+    "text": "The equation E = mc2 can be used to explain why",
+    "hash": "a640d7bb8dcae17ac9220e8c0c494c3e325d7a0f359a5b38a03b5a68e18126ce",
+    "sourceFile": "Earth topic test 2015.docx",
+    "sourceKeyFile": "Earth test solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-earth.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>The equation E = mc2 can be used to explain why</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Fusion releases energy from a small rest-mass difference, E = Δmc², so the Sun loses mass as it radiates energy.</p><h3>Marking guidance</h3><p>Award 1 mark for A. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "the sun’s mass is slowly reducing",
+      "light travels through the vacuum of space",
+      "large masses like stars are required to produce energy",
+      "energy is required to fuse atoms"
+    ],
+    "optionsHtml": [
+      "<p>the sun’s mass is slowly reducing</p>",
+      "<p>light travels through the vacuum of space</p>",
+      "<p>large masses like stars are required to produce energy</p>",
+      "<p>energy is required to fuse atoms</p>"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "science-y10-applecross-earth-ExtB11",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2015,
+    "units": "Lower school",
+    "number": 11,
+    "sourceQuestionLabel": "Extension 11",
+    "sourceSection": "ExtB",
+    "source": "Applecross Year 10 Earth and Space topic test 2015",
+    "section": "Extension Data / source analysis",
+    "types": [
+      "Data / source analysis"
+    ],
+    "responseTypes": [
+      "Data / source analysis"
+    ],
+    "marks": 3,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Earth and space sciences"
+    ],
+    "subtopics": [
+      "Universe and galaxies"
+    ],
+    "strand": "Earth and space sciences",
+    "difficulty": "Hard",
+    "mixed": false,
+    "text": "Andromeda is a nearby large galaxy approaching the Milky Way at about 110 km/s along our line of sight. (a) Explain how astronomers determine this motion using a spectrum. [2] (b) Why is its direction different from the general distant-galaxy trend? [1]",
+    "hash": "caa093020fed6681e28853c730353847619f38de2f925ffc9427ddc6ad06d772",
+    "sourceFile": "Earth topic test 2015.docx",
+    "sourceKeyFile": "Earth test solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-earth.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Andromeda is a nearby large galaxy approaching the Milky Way at about 110 km/s along our line of sight. (a) Explain how astronomers determine this motion using a spectrum. [2] (b) Why is its direction different from the general distant-galaxy trend? [1]</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>(a) Compare stellar absorption lines in Andromeda with laboratory wavelengths. [1] Their shift to shorter wavelengths is blueshift, indicating approach; the fractional shift yields the line-of-sight velocity. [1]</p><p>(b) Most distant galaxies recede with cosmic expansion, whereas Andromeda’s local gravitational motion is toward the Milky Way. [1]</p><h3>Marking guidance</h3><p>Maximum 3 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": [],
+    "editorialNote": "Corrected key redshift to blueshift, and nearest neighbouring galaxy to nearby large galaxy."
+  },
+  {
+    "id": "science-y10-applecross-earth-ExtB12",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2015,
+    "units": "Lower school",
+    "number": 12,
+    "sourceQuestionLabel": "Extension 12",
+    "sourceSection": "ExtB",
+    "source": "Applecross Year 10 Earth and Space topic test 2015",
+    "section": "Extension Labelling",
+    "types": [
+      "Labelling"
+    ],
+    "responseTypes": [
+      "Labelling"
+    ],
+    "marks": 2,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Earth and space sciences"
+    ],
+    "subtopics": [
+      "Stars and stellar evolution"
+    ],
+    "strand": "Earth and space sciences",
+    "difficulty": "Hard",
+    "mixed": false,
+    "text": "The curve shows the spectrum of a yellow main-sequence star similar to the Sun. Draw another curve for a hotter star with higher light intensity. [2]",
+    "hash": "8a1bdb8647d1af7fff5d8a566befe0222bb1b1f785c6f42393cc5f37e8ccc80a",
+    "sourceFile": "Earth topic test 2015.docx",
+    "sourceKeyFile": "Earth test solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 1,
+    "bankFile": "practice-studio-science-year10-earth.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>The curve shows the spectrum of a yellow main-sequence star similar to the Sun. Draw another curve for a hotter star with higher light intensity. [2]</p><figure><img src=\"assets/practice-science-year10/earth-spectrum.png\" alt=\"earth spectrum\" loading=\"lazy\"></figure>",
+    "answerHtml": "<h3>Worked solution</h3><p>Draw a curve with a higher intensity [1] and a peak further left, at shorter wavelengths/bluer light. [1] A hotter thermal emitter has a shorter peak wavelength and greater emission per unit area.</p><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 210\" role=\"img\" aria-label=\"Worked diagram\" style=\"max-width:100%;font:16px Arial\"><path d=\"M55 20V175H570\" fill=\"none\" stroke=\"#235\" stroke-width=\"2\"/><path d=\"M55 175C105 175 115 24 155 32S240 160 560 172\" fill=\"none\" stroke=\"#3275ae\" stroke-width=\"3\"/><path d=\"M55 175C140 175 160 95 205 110S330 170 560 174\" fill=\"none\" stroke=\"#bb8821\" stroke-width=\"3\"/><text x=\"300\" y=\"50\" fill=\"#3275ae\">Hotter: higher and peak further left</text><text x=\"285\" y=\"200\">Wavelength →</text></svg><h3>Marking guidance</h3><p>Maximum 2 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": [],
+    "editorialNote": "Clarified higher intensity for the requested higher thermal-emission curve."
+  },
+  {
+    "id": "science-y10-applecross-earth-ExtB13",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2015,
+    "units": "Lower school",
+    "number": 13,
+    "sourceQuestionLabel": "Extension 13",
+    "sourceSection": "ExtB",
+    "source": "Applecross Year 10 Earth and Space topic test 2015",
+    "section": "Extension Short answer",
+    "types": [
+      "Short answer"
+    ],
+    "responseTypes": [
+      "Short answer"
+    ],
+    "marks": 2,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Earth and space sciences"
+    ],
+    "subtopics": [
+      "Stars and stellar evolution"
+    ],
+    "strand": "Earth and space sciences",
+    "difficulty": "Hard",
+    "mixed": false,
+    "text": "Explain one possible future for a star whose initial mass is 15–20 times the mass of the Sun. [2]",
+    "hash": "df756aae0bf7a2251e913cf3a178068d7ba1961241f99d210416d219af296ccb",
+    "sourceFile": "Earth topic test 2015.docx",
+    "sourceKeyFile": "Earth test solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-earth.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Explain one possible future for a star whose initial mass is 15–20 times the mass of the Sun. [2]</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>A star initially 15–20 times the Sun’s mass can become a red supergiant and undergo core-collapse supernova. [1] The remnant can be a neutron star or, if sufficiently massive, a black hole. [1] Outcome depends on remaining core mass and mass loss.</p><h3>Marking guidance</h3><p>Maximum 2 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": [],
+    "editorialNote": "Clarified larger as initial mass, not radius."
+  },
+  {
+    "id": "science-y10-applecross-earth-ExtB14",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2015,
+    "units": "Lower school",
+    "number": 14,
+    "sourceQuestionLabel": "Extension 14",
+    "sourceSection": "ExtB",
+    "source": "Applecross Year 10 Earth and Space topic test 2015",
+    "section": "Extension Short answer",
+    "types": [
+      "Short answer"
+    ],
+    "responseTypes": [
+      "Short answer"
+    ],
+    "marks": 3,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Earth and space sciences"
+    ],
+    "subtopics": [
+      "Stars and stellar evolution"
+    ],
+    "strand": "Earth and space sciences",
+    "difficulty": "Hard",
+    "mixed": false,
+    "text": "Explain how a light spectrum can be used to identify the composition (elements) of a star (3 marks)",
+    "hash": "ebbb014969efdbb42c4b3e0993e2494552233bfeb40613063f117611ad1d4a66",
+    "sourceFile": "Earth topic test 2015.docx",
+    "sourceKeyFile": "Earth test solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-earth.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Explain how a light spectrum can be used to identify the composition (elements) of a star</p><p>(3 marks)</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Each element produces a characteristic pattern of spectral lines. [1] Compare observed line patterns with laboratory reference spectra, allowing for a shared Doppler shift. [1] Matching patterns identify elements in the star’s atmosphere. [1]</p><h3>Marking guidance</h3><p>Maximum 3 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  }
+]

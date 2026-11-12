@@ -1,0 +1,1605 @@
+[
+  {
+    "id": "science-y10-applecross-chem-A1",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 1,
+    "sourceQuestionLabel": "1",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Chemistry end-of-topic test 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Rates of reaction"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "The rate of reaction can be increased by:",
+    "hash": "2dc454634413607899ffe76b7b8a5586fe05d844f3fd6a62385d1ea060bbca09",
+    "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+    "sourceKeyFile": "Y10ChemEndTopicTestSolns2017.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-chem.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>The rate of reaction can be increased by:</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Heating increases particles’ average kinetic energy, so collisions are more frequent and a larger fraction exceed the activation energy. More successful collisions per second increase the rate.</p><h3>Marking guidance</h3><p>Award 1 mark for A. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "Heating the reactants and products",
+      "Lowering the pressure on the reactants",
+      "Lowering the temperature on the products",
+      "Reducing the amount of reactants"
+    ],
+    "optionsHtml": [
+      "<p>Heating the reactants and products</p>",
+      "<p>Lowering the pressure on the reactants</p>",
+      "<p>Lowering the temperature on the products</p>",
+      "<p>Reducing the amount of reactants</p>"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "science-y10-applecross-chem-A2",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 2,
+    "sourceQuestionLabel": "2",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Chemistry end-of-topic test 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Rates of reaction"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "An antacid tablet is dropped into each of two glasses containing equal amounts of water. The temperature of the water s 50°C in glass 1 and 10°C in glass 2. In each glass, bubbles of gas are released as the tablet dissolves. It takes 30 seconds for the tablet to react completely in glass 1 and 100 seconds for the tablet to react in glass 2. From these results alone we can conclude that:",
+    "hash": "6adde54202a67fc49af5e6ad90f9be7ca0027937ed1f0bc72c9e81c2a5956378",
+    "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+    "sourceKeyFile": "Y10ChemEndTopicTestSolns2017.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-chem.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>An antacid tablet is dropped into each of two glasses containing equal amounts of water. The temperature of the water s 50°C in glass 1 and 10°C in glass 2. In each glass, bubbles of gas are released as the tablet dissolves. It takes 30 seconds for the tablet to react completely in glass 1 and 100 seconds for the tablet to react in glass 2. From these results alone we can conclude that:</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>The same tablet reacts in 30 s in hot water rather than 100 s in cold water. Its average rate is therefore about 100/30 = 3.33 times greater. These results alone do not establish a doubling per 10°C.</p><h3>Marking guidance</h3><p>Award 1 mark for D. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "Temperature has no effect on the rate of chemical reactions.",
+      "Increasing the volume of water increase the rate at which the antacid tablet reacts with water.",
+      "The rate of chemical reactions doubles for every 10°C increase in temperature.",
+      "The rate at which the antacid tablet reacts with water is faster in hot water than in cold water."
+    ],
+    "optionsHtml": [
+      "<p>Temperature has no effect on the rate of chemical reactions.</p>",
+      "<p>Increasing the volume of water increase the rate at which the antacid tablet reacts with water.</p>",
+      "<p>The rate of chemical reactions doubles for every 10°C increase in temperature.</p>",
+      "<p>The rate at which the antacid tablet reacts with water is faster in hot water than in cold water.</p>"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "science-y10-applecross-chem-A3",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 3,
+    "sourceQuestionLabel": "3",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Chemistry end-of-topic test 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Rates of reaction"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Magnesium reacts very rapidly with oxygen once it is ignited, and the reaction gives out a great deal of light energy. Magnesium, in a powdered form, was once used in photography to provide light at the instant that a photo was taken. The reason for using magnesium in a powdered form was most likely:",
+    "hash": "ffe30a31625948e3f7b00600fe4d5ea12cc3da4f3370b39fa9c3ba5496af1f4b",
+    "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+    "sourceKeyFile": "Y10ChemEndTopicTestSolns2017.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-chem.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Magnesium reacts very rapidly with oxygen once it is ignited, and the reaction gives out a great deal of light energy. Magnesium, in a powdered form, was once used in photography to provide light at the instant that a photo was taken. The reason for using magnesium in a powdered form was most likely:</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Powder exposes a greater surface area for the same mass, allowing more magnesium particles to contact oxygen and react at once.</p><h3>Marking guidance</h3><p>Award 1 mark for B. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "Because that is how magnesium is found in nature",
+      "To allow maximum contact with the air and so produce a rapid reaction when ignited",
+      "For safety reasons",
+      "That it doesn’t react at all when it is in the form of a single piece of metal"
+    ],
+    "optionsHtml": [
+      "<p>Because that is how magnesium is found in nature</p>",
+      "<p>To allow maximum contact with the air and so produce a rapid reaction when ignited</p>",
+      "<p>For safety reasons</p>",
+      "<p>That it doesn’t react at all when it is in the form of a single piece of metal</p>"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "science-y10-applecross-chem-A4",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 4,
+    "sourceQuestionLabel": "4",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Chemistry end-of-topic test 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Chemical sciences"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "The formulae for four different substances are given below. Which one of these substances contains all three of the elements copper, carbon and oxygen?",
+    "hash": "b35adb4471a03dfb3ec398a27e099a1171fb318b3f4f110c5a3ca2764590fcb2",
+    "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+    "sourceKeyFile": "Y10ChemEndTopicTestSolns2017.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-chem.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>The formulae for four different substances are given below. Which one of these substances contains all three of the elements copper, carbon and oxygen?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>CuCO₃ contains Cu (copper), C (carbon) and O (oxygen). The other formulas lack at least one of these elements.</p><h3>Marking guidance</h3><p>Award 1 mark for D. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "CuSO4",
+      "FeSO4",
+      "ZnCl2",
+      "CuCO3"
+    ],
+    "optionsHtml": [
+      "<p>CuSO4</p>",
+      "<p>FeSO4</p>",
+      "<p>ZnCl2</p>",
+      "<p>CuCO3</p>"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "science-y10-applecross-chem-A5",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 5,
+    "sourceQuestionLabel": "5",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Chemistry end-of-topic test 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Chemical sciences"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Which property of zinc is explained by the presence of mobile delocalised electrons?",
+    "hash": "d7342b5d570efa42ac30c9143ea7b89c222e7ea53ce372254962db2dd27c33c0",
+    "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+    "sourceKeyFile": "Y10ChemEndTopicTestSolns2017.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-chem.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Which property of zinc is explained by the presence of mobile delocalised electrons?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Zinc conducts electricity because its delocalised electrons are mobile and carry charge through the solid metal.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "Insulator",
+      "Brittle",
+      "Conducts electricity",
+      "Not ductile"
+    ],
+    "optionsHtml": [
+      "<p>Insulator</p>",
+      "<p>Brittle</p>",
+      "<p>Conducts electricity</p>",
+      "<p>Not ductile</p>"
+    ],
+    "correctAnswer": 2,
+    "editorialNote": "Clarified conductivity question because zinc can also be brittle at room temperature, making the original broad property wording ambiguous."
+  },
+  {
+    "id": "science-y10-applecross-chem-A6",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 6,
+    "sourceQuestionLabel": "6",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Chemistry end-of-topic test 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Chemical equations"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Zinc reacts with dilute hydrochloric acid: Zn(s) + HCl(aq) → ZnCl₂(aq) + H₂(g). Which listed coefficients balance this equation, left to right?",
+    "hash": "594b4f01c4752904f1b53d42575a7a8e678c71726eb6e0969feb543f7beca233",
+    "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+    "sourceKeyFile": "Y10ChemEndTopicTestSolns2017.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-chem.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Zinc reacts with dilute hydrochloric acid: Zn(s) + HCl(aq) → ZnCl₂(aq) + H₂(g). Which listed coefficients balance this equation, left to right?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Zn + 2HCl → ZnCl₂ + H₂ balances Zn, H and Cl. Doubling all coefficients also balances the equation, so both B and C work, although B is the simplest ratio.</p><h3>Marking guidance</h3><p>Award 1 mark for D. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "1, 1, 2, 2",
+      "1, 2, 1, 1",
+      "2, 4, 2, 2",
+      "Both B and C"
+    ],
+    "optionsHtml": [
+      "<p>1, 1, 2, 2</p>",
+      "<p>1, 2, 1, 1</p>",
+      "<p>2, 4, 2, 2</p>",
+      "<p>Both B and C</p>"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "science-y10-applecross-chem-A7",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 7,
+    "sourceQuestionLabel": "7",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Chemistry end-of-topic test 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Chemical sciences"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "A compound that contains the elements magnesium and chlorine is most likely to have the formula:",
+    "hash": "b5cf9cd2977630c6846692e9b84f104b238c0311c51836bce99d94c36e6daf76",
+    "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+    "sourceKeyFile": "Y10ChemEndTopicTestSolns2017.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-chem.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>A compound that contains the elements magnesium and chlorine is most likely to have the formula:</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Mg²⁺ requires two Cl⁻ ions to give zero net charge, so the formula is MgCl₂.</p><h3>Marking guidance</h3><p>Award 1 mark for D. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "Mg2Cl",
+      "MgCl",
+      "Mg2Cl3",
+      "MgCl2"
+    ],
+    "optionsHtml": [
+      "<p>Mg2Cl</p>",
+      "<p>MgCl</p>",
+      "<p>Mg2Cl3</p>",
+      "<p>MgCl2</p>"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "science-y10-applecross-chem-A8",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 8,
+    "sourceQuestionLabel": "8",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Chemistry end-of-topic test 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Rates of reaction"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Three equal 10 g samples of sugar are shown. A dissolves more slowly than B, which dissolves more slowly than C. Why does A dissolve most slowly?",
+    "hash": "10cee077203ffed0e623eb9a149e35d9353f443310f071918d03dc9c911ac9dd",
+    "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+    "sourceKeyFile": "Y10ChemEndTopicTestSolns2017.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 1,
+    "bankFile": "practice-studio-science-year10-chem.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Three equal 10 g samples of sugar are shown. A dissolves more slowly than B, which dissolves more slowly than C. Why does A dissolve most slowly?</p><figure><img src=\"assets/practice-science-year10/chem-sugar.png\" alt=\"chem sugar\" loading=\"lazy\"></figure>",
+    "answerHtml": "<h3>Worked solution</h3><p>Sample A has the least exposed surface area for the same mass, so fewer sugar particles contact water at once. Dissolving sugar is a physical change.</p><h3>Marking guidance</h3><p>Award 1 mark for B. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "It has the most volume",
+      "It has the smallest surface area",
+      "It has the largest number of sugar molecules",
+      "It has the largest surface area"
+    ],
+    "optionsHtml": [
+      "<p>It has the most volume</p>",
+      "<p>It has the smallest surface area</p>",
+      "<p>It has the largest number of sugar molecules</p>",
+      "<p>It has the largest surface area</p>"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "science-y10-applecross-chem-A9",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 9,
+    "sourceQuestionLabel": "9",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Chemistry end-of-topic test 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Atomic structure and the periodic table"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Which one of the following lists of subatomic particles represents an ion?",
+    "hash": "0e87d9576171cf5aed10c6a16db23da3f703a8f209a1bc796dcf6e7be99b9aef",
+    "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+    "sourceKeyFile": "Y10ChemEndTopicTestSolns2017.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-chem.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Which one of the following lists of subatomic particles represents an ion?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Charge = protons − electrons = 17 − 18 = −1. The other examples have equal proton and electron numbers and are neutral.</p><h3>Marking guidance</h3><p>Award 1 mark for A. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "17 protons, 18 neutrons, 18 electrons.",
+      "8 protons, 8 neutrons, 8 electrons.",
+      "1 protons, 0 neutrons, 1 electrons.",
+      "92 protons, 146 neutrons, 92 electrons."
+    ],
+    "optionsHtml": [
+      "<p>17 protons, 18 neutrons, 18 electrons.</p>",
+      "<p>8 protons, 8 neutrons, 8 electrons.</p>",
+      "<p>1 protons, 0 neutrons, 1 electrons.</p>",
+      "<p>92 protons, 146 neutrons, 92 electrons.</p>"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "science-y10-applecross-chem-A10",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 10,
+    "sourceQuestionLabel": "10",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Chemistry end-of-topic test 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Chemical sciences"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "The table records properties of five substances. Which substances are most likely metals?",
+    "hash": "391449476bc7acc63ee2107f014cae254ce23c8b028320e16a2f895d8c9be185",
+    "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+    "sourceKeyFile": "Y10ChemEndTopicTestSolns2017.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 1,
+    "bankFile": "practice-studio-science-year10-chem.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>The table records properties of five substances. Which substances are most likely metals?</p><figure><img src=\"assets/practice-science-year10/chem-table.png\" alt=\"chem table\" loading=\"lazy\"></figure>",
+    "answerHtml": "<h3>Worked solution</h3><p>Substances 1 and 4 conduct electricity and are malleable. Both properties together support their classification as metals; colour alone is insufficient.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "1 and 2",
+      "4 only",
+      "1 and 4",
+      "2 and 4"
+    ],
+    "optionsHtml": [
+      "<p>1 and 2</p>",
+      "<p>4 only</p>",
+      "<p>1 and 4</p>",
+      "<p>2 and 4</p>"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "science-y10-applecross-chem-A11",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 11,
+    "sourceQuestionLabel": "11",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Chemistry end-of-topic test 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Chemical sciences"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Given Mg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g) + heat, which listed substance is a reactant?",
+    "hash": "2af313e47a2a938393cef18fc3f5aa328f2e101030b26f0c392ce55ce394f07c",
+    "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+    "sourceKeyFile": "Y10ChemEndTopicTestSolns2017.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-chem.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Given Mg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g) + heat, which listed substance is a reactant?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Reactants are left of the arrow: Mg and HCl. Among the options, HCl is a reactant; MgCl₂ and H₂ are products.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "MgCl2(aq)",
+      "H2(g)",
+      "HCl(aq)",
+      "Heat"
+    ],
+    "optionsHtml": [
+      "<p>MgCl2(aq)</p>",
+      "<p>H2(g)</p>",
+      "<p>HCl(aq)</p>",
+      "<p>Heat</p>"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "science-y10-applecross-chem-A12",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 12,
+    "sourceQuestionLabel": "12",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Chemistry end-of-topic test 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Chemical bonding"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Which of the following describes a metallic bond?",
+    "hash": "c56bf2e0764b9478b075b2986d106ce25b448899a112581ffdf4c8256c1beb91",
+    "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+    "sourceKeyFile": "Y10ChemEndTopicTestSolns2017.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-chem.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Which of the following describes a metallic bond?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Metallic bonding is electrostatic attraction between positive metal ions in a lattice and mobile delocalised electrons.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "A lattice of positive and negative ions",
+      "A fixed lattice of negative ions in a sea of positive ions",
+      "A fixed lattice of positive ions in a sea of electrons",
+      "A fixed lattice of positive ions in a sea of negative ions"
+    ],
+    "optionsHtml": [
+      "<p>A lattice of positive and negative ions</p>",
+      "<p>A fixed lattice of negative ions in a sea of positive ions</p>",
+      "<p>A fixed lattice of positive ions in a sea of electrons</p>",
+      "<p>A fixed lattice of positive ions in a sea of negative ions</p>"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "science-y10-applecross-chem-A13",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 13,
+    "sourceQuestionLabel": "13",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Chemistry end-of-topic test 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Rates of reaction"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "The formula for magnesium nitrate is Mg(NO3)2. This means that one formula unit of this compound contains:",
+    "hash": "ddc6fe4adba5150331b12f36732776b41c83a561428777816f40ab0f78a05553",
+    "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+    "sourceKeyFile": "Y10ChemEndTopicTestSolns2017.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-chem.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>The formula for magnesium nitrate is Mg(NO3)2. This means that one formula unit of this compound contains:</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>The 2 outside (NO₃) multiplies both N and O: Mg = 1, N = 2 and O = 6.</p><h3>Marking guidance</h3><p>Award 1 mark for D. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "1 Mg atom, 1 N atom, 3 O atoms",
+      "1 Mg atom, 2 N atoms, 3 O atoms",
+      "1 mg atom, 1 N atom, 6 Oatoms",
+      "1Mg atom, 2N atoms, 6 O atoms"
+    ],
+    "optionsHtml": [
+      "<p>1 Mg atom, 1 N atom, 3 O atoms</p>",
+      "<p>1 Mg atom, 2 N atoms, 3 O atoms</p>",
+      "<p>1 mg atom, 1 N atom, 6 Oatoms</p>",
+      "<p>1Mg atom, 2N atoms, 6 O atoms</p>"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "science-y10-applecross-chem-A14",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 14,
+    "sourceQuestionLabel": "14",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Chemistry end-of-topic test 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Chemical equations"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Balance uAl + vH₂SO₄ → wAl₂(SO₄)₃ + xH₂. What are u, v, w and x?",
+    "hash": "00e83ec5e1dd42b06c6d4accd4070e2e0904f275189a5b83e829336d466dc8f6",
+    "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+    "sourceKeyFile": "Y10ChemEndTopicTestSolns2017.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-chem.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Balance uAl + vH₂SO₄ → wAl₂(SO₄)₃ + xH₂. What are u, v, w and x?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Balance Al first, then sulfate and hydrogen: 2Al + 3H₂SO₄ → Al₂(SO₄)₃ + 3H₂. Both sides contain 2 Al, 3 S, 12 O and 6 H.</p><h3>Marking guidance</h3><p>Award 1 mark for A. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "2, 3, 1, 3",
+      "2, 1, 3, 3",
+      "1,3, 1, 3",
+      "3, 1, 3, 2"
+    ],
+    "optionsHtml": [
+      "<p>2, 3, 1, 3</p>",
+      "<p>2, 1, 3, 3</p>",
+      "<p>1,3, 1, 3</p>",
+      "<p>3, 1, 3, 2</p>"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "science-y10-applecross-chem-A15",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 15,
+    "sourceQuestionLabel": "15",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Chemistry end-of-topic test 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Atomic structure and the periodic table"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "The modern periodic table arranges elements in order of increasing:",
+    "hash": "a0ee972bb44d61f2f29f3ba6c1a5eda9d213f5d7fb602b7bef33e10440a703bf",
+    "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+    "sourceKeyFile": "Y10ChemEndTopicTestSolns2017.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-chem.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>The modern periodic table arranges elements in order of increasing:</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Atomic number is proton number. Increasing proton number defines the sequence of elements in the modern periodic table.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "Atomic mass",
+      "Densities of the elements",
+      "Atomic number, which is the number of protons in the nucleus",
+      "Atomic number, which is the number of protons and neutrons in the nucleus"
+    ],
+    "optionsHtml": [
+      "<p>Atomic mass</p>",
+      "<p>Densities of the elements</p>",
+      "<p>Atomic number, which is the number of protons in the nucleus</p>",
+      "<p>Atomic number, which is the number of protons and neutrons in the nucleus</p>"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "science-y10-applecross-chem-A16",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 16,
+    "sourceQuestionLabel": "16",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Chemistry end-of-topic test 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Solubility and precipitation"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Which of the following compounds is soluble in water?",
+    "hash": "f79c765b74f7c3518cf90d78cfe3dc07339ece9b8dc7e7f5641fd954ae0d0e4c",
+    "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+    "sourceKeyFile": "Y10ChemEndTopicTestSolns2017.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-chem.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Which of the following compounds is soluble in water?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>All nitrates and all sodium salts are soluble under standard school solubility rules. NaNO₃ is therefore soluble; the other listed salts are treated as insoluble.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "Cu(OH)2",
+      "BaSO4",
+      "NaNO3",
+      "CaCO3"
+    ],
+    "optionsHtml": [
+      "<p>Cu(OH)2</p>",
+      "<p>BaSO4</p>",
+      "<p>NaNO3</p>",
+      "<p>CaCO3</p>"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "science-y10-applecross-chem-A17",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 17,
+    "sourceQuestionLabel": "17",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Chemistry end-of-topic test 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Moles and chemical calculations"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "One mole always contains approximately:",
+    "hash": "4e54a7d04c0417ea63e4e4bd8a1b1b67fea6c760f715d8402ca6780aa155b25a",
+    "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+    "sourceKeyFile": "Y10ChemEndTopicTestSolns2017.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-chem.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>One mole always contains approximately:</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>One mole contains approximately 6.02 × 10²³ specified entities. The entities may be atoms, molecules, ions or other particles, depending on what is being counted.</p><h3>Marking guidance</h3><p>Award 1 mark for D. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "6.02 × 10²³ atoms",
+      "6.02 × 10²³ molecules",
+      "6.02 × 10²³ ions",
+      "6.02 × 10²³ specified particles"
+    ],
+    "optionsHtml": [
+      "<p>6.02 × 10²³ atoms</p>",
+      "<p>6.02 × 10²³ molecules</p>",
+      "<p>6.02 × 10²³ ions</p>",
+      "<p>6.02 × 10²³ specified particles</p>"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "science-y10-applecross-chem-A18",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 18,
+    "sourceQuestionLabel": "18",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Chemistry end-of-topic test 2017",
+    "section": "Labelling",
+    "types": [
+      "Labelling"
+    ],
+    "responseTypes": [
+      "Labelling"
+    ],
+    "marks": 5,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Chemical bonding"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "Using words and labelled pictures describe the following: a) How do magnesium and oxygen atoms bond to form magnesium oxide [2] b) How do carbon and oxygen combine to form carbon dioxide [3]",
+    "hash": "918400f936a54983d6ba7effeee9db486e557f260780bae3afa871e76120bdde",
+    "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+    "sourceKeyFile": "Y10ChemEndTopicTestSolns2017.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-chem.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Using words and labelled pictures describe the following:</p><p>a) How do magnesium and oxygen atoms bond to form magnesium oxide</p><p>[2]</p><p>b) How do carbon and oxygen combine to form carbon dioxide</p><p>[3]</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>(a) Magnesium transfers two valence electrons to oxygen: Mg → Mg²⁺ + 2e⁻ and O + 2e⁻ → O²⁻. The opposite charges attract in an ionic lattice, MgO. Show two transferred electrons and label the ion charges. [2]</p><p>(b) Carbon shares two electron pairs with each oxygen, giving O=C=O with two double bonds. Each oxygen has two lone pairs and each atom has a complete octet. Draw and label shared pairs and lone pairs. [3]</p><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 210\" role=\"img\" aria-label=\"Worked diagram\" style=\"max-width:100%;font:16px Arial\"><text x=\"30\" y=\"50\">Mg → Mg²⁺ + 2e⁻</text><text x=\"300\" y=\"50\">O + 2e⁻ → O²⁻</text><text x=\"110\" y=\"135\" font-size=\"32\">Mg²⁺    [ O ]²⁻</text><text x=\"350\" y=\"135\" font-size=\"32\">O = C = O</text><text x=\"80\" y=\"185\">Ionic attraction</text><text x=\"330\" y=\"185\">Two covalent double bonds</text></svg><h3>Marking guidance</h3><p>Maximum 5 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-chem-B1",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 1,
+    "sourceQuestionLabel": "1",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Chemistry end-of-topic test 2017",
+    "section": "Short answer",
+    "types": [
+      "Short answer"
+    ],
+    "responseTypes": [
+      "Short answer"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Moles and chemical calculations"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Write the equation for converting mass into moles, using words or symbols. [1]",
+    "hash": "87c37775c85eac28474fbff25a81948658f082ef0cbbbeef21f8fbcc89df64c0",
+    "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+    "sourceKeyFile": "Y10ChemEndTopicTestSolns2017.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-chem.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Write the equation for converting mass into moles, using words or symbols.</p><p>[1]</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>n = m/M. Here n is amount (mol), m mass (g), and M molar mass (g mol⁻¹). The mass divided by molar mass gives the number of moles.</p><h3>Marking guidance</h3><p>Maximum 1 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-chem-B2",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 2,
+    "sourceQuestionLabel": "2",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Chemistry end-of-topic test 2017",
+    "section": "Short answer",
+    "types": [
+      "Short answer"
+    ],
+    "responseTypes": [
+      "Short answer"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Moles and chemical calculations"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "What is the mass of one mole of carbon? [1]",
+    "hash": "dd7f72172165c9156fd6afac6663ee749a49d5fb9310a4925c80f1068f74b3f4",
+    "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+    "sourceKeyFile": "Y10ChemEndTopicTestSolns2017.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-chem.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>What is the mass of one mole of carbon?</p><p>[1]</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>M(C) = 12.01 g mol⁻¹, so one mole of carbon has mass 12.01 g. Accept 12 g when rounded atomic masses are used.</p><h3>Marking guidance</h3><p>Maximum 1 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-chem-B3",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 3,
+    "sourceQuestionLabel": "3",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Chemistry end-of-topic test 2017",
+    "section": "Calculations",
+    "types": [
+      "Calculations"
+    ],
+    "responseTypes": [
+      "Calculations"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Moles and chemical calculations"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "How many moles are there in 36.03 grams of carbon? [1]",
+    "hash": "0a68d4bd734d116b2478c3e37e1bd3da9e7530343a475494d6eab975edf245ff",
+    "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+    "sourceKeyFile": "Y10ChemEndTopicTestSolns2017.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-chem.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>How many moles are there in 36.03 grams of carbon?</p><p>[1]</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>n = m/M = 36.03/12.01 = 3.000 mol of carbon.</p><h3>Marking guidance</h3><p>Maximum 1 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-chem-B4",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 4,
+    "sourceQuestionLabel": "4",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Chemistry end-of-topic test 2017",
+    "section": "Calculations",
+    "types": [
+      "Calculations"
+    ],
+    "responseTypes": [
+      "Calculations"
+    ],
+    "marks": 2,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Moles and chemical calculations"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "Calculate the mass of 6 moles of oxygen gas, O₂. Show working. [2]",
+    "hash": "cf976efece7a8939d4ef0f16c1df9fcc8fd3aa0a5cae2d5202e607645d166357",
+    "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+    "sourceKeyFile": "Y10ChemEndTopicTestSolns2017.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-chem.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Calculate the mass of 6 moles of oxygen gas, O₂. Show working. [2]</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Oxygen gas is O₂, so M = 2 × 16.00 = 32.00 g mol⁻¹. [1] m = nM = 6 × 32.00 = 192 g. [1] Six moles of oxygen atoms would instead have mass 96 g; gas is specified to resolve the original ambiguity.</p><h3>Marking guidance</h3><p>Maximum 2 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": [],
+    "editorialNote": "Specified O₂ gas; the original oxygen wording also permits an atomic interpretation."
+  },
+  {
+    "id": "science-y10-applecross-chem-B5",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 5,
+    "sourceQuestionLabel": "5",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Chemistry end-of-topic test 2017",
+    "section": "Calculations",
+    "types": [
+      "Calculations"
+    ],
+    "responseTypes": [
+      "Calculations"
+    ],
+    "marks": 2,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Moles and chemical calculations"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "The formula for calcium carbonate is CaCO3, calculate the formula mass for this compound. [2]",
+    "hash": "da9146bda7d4b18549c8fce4d13309955dea5267bf71d43bf018fc444275d0a7",
+    "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+    "sourceKeyFile": "Y10ChemEndTopicTestSolns2017.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-chem.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>The formula for calcium carbonate is CaCO3, calculate the formula mass for this compound.</p><p>[2]</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Mᵣ(CaCO₃) = 40.08 + 12.01 + 3(16.00) = 100.09. [1 for sum; 1 for result] Relative formula mass has no units; the corresponding molar mass is 100.09 g mol⁻¹.</p><h3>Marking guidance</h3><p>Maximum 2 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-chem-B6",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 6,
+    "sourceQuestionLabel": "6",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Chemistry end-of-topic test 2017",
+    "section": "Short answer",
+    "types": [
+      "Short answer"
+    ],
+    "responseTypes": [
+      "Short answer"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Chemical bonding"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "How many bonds can one carbon atom form? [1]",
+    "hash": "d88e4c4bb0f1935dab605ad4c405864c2d95615231be6e159c3777c47bb21d1d",
+    "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+    "sourceKeyFile": "Y10ChemEndTopicTestSolns2017.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-chem.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>How many bonds can one carbon atom form?</p><p>[1]</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Carbon usually forms four covalent bonds, sharing electrons to complete its valence shell. A double bond counts as two bonds.</p><h3>Marking guidance</h3><p>Maximum 1 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-chem-B7",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 7,
+    "sourceQuestionLabel": "7",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Chemistry end-of-topic test 2017",
+    "section": "Labelling",
+    "types": [
+      "Labelling"
+    ],
+    "responseTypes": [
+      "Labelling"
+    ],
+    "marks": 3,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Hydrocarbons"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "Write the formula and draw the structure for pentane. [3]",
+    "hash": "123c74369a2ff57a6dc49b98566a963e9b30c6e3614260cf6fd318b392026103",
+    "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+    "sourceKeyFile": "Y10ChemEndTopicTestSolns2017.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-chem.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Write the formula and draw the structure for pentane.</p><p>[3]</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>For an alkane, CₙH₂ₙ₊₂ with n = 5 gives C₅H₁₂. [1] The straight-chain condensed structure is CH₃–CH₂–CH₂–CH₂–CH₃. [1] In a displayed structure, each terminal carbon has three H atoms, each internal carbon two, and every C has four bonds. [1]</p><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 210\" role=\"img\" aria-label=\"Worked diagram\" style=\"max-width:100%;font:16px Arial\"><text x=\"35\" y=\"100\" font-size=\"25\">CH₃ — CH₂ — CH₂ — CH₂ — CH₃</text><text x=\"35\" y=\"150\">Five carbons, twelve hydrogens; only single bonds</text></svg><h3>Marking guidance</h3><p>Maximum 3 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-chem-B8",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 8,
+    "sourceQuestionLabel": "8",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Chemistry end-of-topic test 2017",
+    "section": "Extended response",
+    "types": [
+      "Extended response"
+    ],
+    "responseTypes": [
+      "Extended response"
+    ],
+    "marks": 3,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Hydrocarbons"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "Explain why propane has 8 hydrogen atoms, but propene has 6. Use a diagram to help your explanation. [3]",
+    "hash": "72b08807bb457fa9476e27858975df4e48d1985789ff9a0bd8a10f25583cb0c0",
+    "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+    "sourceKeyFile": "Y10ChemEndTopicTestSolns2017.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-chem.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Explain why propane has 8 hydrogen atoms, but propene has 6. Use a diagram to help your explanation.</p><p>[3]</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Propane is CH₃–CH₂–CH₃, C₃H₈, with only single C–C bonds. [1] Propene is CH₂=CH–CH₃, C₃H₆. [1] The double C–C bond uses an extra bonding position on each of two carbons, leaving two fewer positions for H while each C retains four bonds. [1]</p><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 210\" role=\"img\" aria-label=\"Worked diagram\" style=\"max-width:100%;font:16px Arial\"><text x=\"30\" y=\"65\" font-size=\"25\">CH₃ — CH₂ — CH₃</text><text x=\"30\" y=\"105\">Propane: C₃H₈</text><text x=\"30\" y=\"155\" font-size=\"25\">CH₂ = CH — CH₃</text><text x=\"30\" y=\"195\">Propene: C₃H₆; two fewer H atoms</text></svg><h3>Marking guidance</h3><p>Maximum 3 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-chem-B9",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 9,
+    "sourceQuestionLabel": "9",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Chemistry end-of-topic test 2017",
+    "section": "Multi-step",
+    "types": [
+      "Multi-step"
+    ],
+    "responseTypes": [
+      "Multi-step"
+    ],
+    "marks": 3,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Hydrocarbons"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "Alkanes burn in oxygen to form carbon dioxide and water. Write a word and balanced chemical equation for the combustion of butane. [3]",
+    "hash": "69dc388ea5d574ec473bdd42f5a9b13cafddc797b22818809036e1c9f8705a32",
+    "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+    "sourceKeyFile": "Y10ChemEndTopicTestSolns2017.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-chem.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Alkanes burn in oxygen to form carbon dioxide and water. Write a word and balanced chemical equation for the combustion of butane.</p><p>[3]</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>butane + oxygen → carbon dioxide + water. [1] Balance C and H first: C₄H₁₀ + 6.5O₂ → 4CO₂ + 5H₂O. [1] Multiply by two for whole-number coefficients: 2C₄H₁₀ + 13O₂ → 8CO₂ + 10H₂O. [1] Check: 8 C, 20 H and 26 O on each side.</p><h3>Marking guidance</h3><p>Maximum 3 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-chem-B10",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 10,
+    "sourceQuestionLabel": "10",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Chemistry end-of-topic test 2017",
+    "section": "Multi-step",
+    "types": [
+      "Multi-step"
+    ],
+    "responseTypes": [
+      "Multi-step"
+    ],
+    "marks": 7,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Moles and chemical calculations"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Hard",
+    "mixed": false,
+    "text": "Lead nitrate reacts with sodium iodide to form a yellow lead iodide precipitate: Pb(NO₃)₂( ) + 2NaI( ) → PbI₂( ) + 2NaNO₃( ). (a) Add state symbols. [2] (b) Why use coefficients to balance the equation? [2] (c) If 2 mol lead nitrate reacts completely, how much lead iodide forms in moles? [1] (d) Calculate its mass. [2]",
+    "hash": "2f8fa797f9548d386a221e7f80fbb4705eadf2a2112ac9d0dfc638fd7e549240",
+    "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+    "sourceKeyFile": "Y10ChemEndTopicTestSolns2017.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-chem.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Lead nitrate reacts with sodium iodide to form a yellow lead iodide precipitate: Pb(NO₃)₂( ) + 2NaI( ) → PbI₂( ) + 2NaNO₃( ). (a) Add state symbols. [2] (b) Why use coefficients to balance the equation? [2] (c) If 2 mol lead nitrate reacts completely, how much lead iodide forms in moles? [1] (d) Calculate its mass. [2]</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>(a) Pb(NO₃)₂(aq) + 2NaI(aq) → PbI₂(s) + 2NaNO₃(aq). [2; ½ per state] PbI₂ is the insoluble precipitate.</p><p>(b) Atoms are conserved. Coefficients match the number of each atom without changing the identity of a substance; changing subscripts changes the substance. [2]</p><p>(c) The mole ratio is 1:1, so 2 mol Pb(NO₃)₂ produces 2 mol PbI₂. [1]</p><p>(d) M(PbI₂) = 207.2 + 2(126.9) = 461.0 g mol⁻¹. m = nM = 2 × 461.0 = 922 g. [2]</p><h3>Marking guidance</h3><p>Maximum 7 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-chem-B11",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 11,
+    "sourceQuestionLabel": "11",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Chemistry end-of-topic test 2017",
+    "section": "Extended response",
+    "types": [
+      "Extended response"
+    ],
+    "responseTypes": [
+      "Extended response"
+    ],
+    "marks": 6,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Moles and chemical calculations"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Hard",
+    "mixed": false,
+    "text": "For each substance C₂H₆ and CaCl₂, state the bonding type, draw its structure and explain why one forms discrete molecules while the other forms a lattice. [6]",
+    "hash": "22c7547264268431e7ea386d33b3c2d86e9660465b16f415c4e7961c63c65c7e",
+    "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+    "sourceKeyFile": "Y10ChemEndTopicTestSolns2017.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-chem.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>For each substance C₂H₆ and CaCl₂, state the bonding type, draw its structure and explain why one forms discrete molecules while the other forms a lattice. [6]</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>C₂H₆: covalent bonding; draw H₃C–CH₃ with six C–H bonds and one C–C bond. Shared pairs hold atoms in discrete ethane molecules. [3: bonding, structure, explanation]</p><p>CaCl₂: ionic bonding; draw a repeating array of Ca²⁺ and Cl⁻ ions with twice as many chloride ions as calcium ions. Electrostatic attraction extends throughout the lattice; CaCl₂ states an ion ratio, not a separate molecule. [3]</p><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 210\" role=\"img\" aria-label=\"Worked diagram\" style=\"max-width:100%;font:16px Arial\"><text x=\"20\" y=\"45\">Ethane: H₃C—CH₃ (discrete molecules)</text><text x=\"20\" y=\"100\">CaCl₂: repeating lattice with Ca²⁺:Cl⁻ ratio 1:2</text><text x=\"40\" y=\"145\" font-size=\"25\">Cl⁻    Ca²⁺    Cl⁻    Cl⁻    Ca²⁺    Cl⁻</text><text x=\"40\" y=\"190\">Electrostatic attraction extends through the lattice</text></svg><h3>Marking guidance</h3><p>Maximum 6 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-chem-B12",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 12,
+    "sourceQuestionLabel": "12",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Chemistry end-of-topic test 2017",
+    "section": "Labelling",
+    "types": [
+      "Labelling"
+    ],
+    "responseTypes": [
+      "Labelling"
+    ],
+    "marks": 3,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Chemical bonding"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "Use a labelled diagram to help to describe how metal bonding allows solid metals to conduct electricity in the solid state. [3]",
+    "hash": "6f1897bb85fb031c3e6bfe0724335f8383424a6228f8de97dee2516e9164ff9b",
+    "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+    "sourceKeyFile": "Y10ChemEndTopicTestSolns2017.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-chem.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Use a labelled diagram to help to describe how metal bonding allows solid metals to conduct electricity in the solid state.</p><p>[3]</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Draw an array of positive metal ions surrounded by delocalised electrons and label both. [1] The ions remain at lattice positions in the solid. [1] Under a potential difference, mobile electrons drift through the metal carrying charge, so it conducts. [1]</p><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 210\" role=\"img\" aria-label=\"Worked diagram\" style=\"max-width:100%;font:16px Arial\"><circle cx=\"55\" cy=\"45\" r=\"17\" fill=\"#e3edf9\" stroke=\"#235\"/><text x=\"45\" y=\"50\">M⁺</text><circle cx=\"135\" cy=\"45\" r=\"17\" fill=\"#e3edf9\" stroke=\"#235\"/><text x=\"125\" y=\"50\">M⁺</text><circle cx=\"215\" cy=\"45\" r=\"17\" fill=\"#e3edf9\" stroke=\"#235\"/><text x=\"205\" y=\"50\">M⁺</text><circle cx=\"295\" cy=\"45\" r=\"17\" fill=\"#e3edf9\" stroke=\"#235\"/><text x=\"285\" y=\"50\">M⁺</text><circle cx=\"55\" cy=\"105\" r=\"17\" fill=\"#e3edf9\" stroke=\"#235\"/><text x=\"45\" y=\"110\">M⁺</text><circle cx=\"135\" cy=\"105\" r=\"17\" fill=\"#e3edf9\" stroke=\"#235\"/><text x=\"125\" y=\"110\">M⁺</text><circle cx=\"215\" cy=\"105\" r=\"17\" fill=\"#e3edf9\" stroke=\"#235\"/><text x=\"205\" y=\"110\">M⁺</text><circle cx=\"295\" cy=\"105\" r=\"17\" fill=\"#e3edf9\" stroke=\"#235\"/><text x=\"285\" y=\"110\">M⁺</text><text x=\"85\" y=\"80\" fill=\"#a23\">e⁻ →</text><text x=\"170\" y=\"80\" fill=\"#a23\">e⁻ →</text><text x=\"250\" y=\"145\" fill=\"#a23\">e⁻ →</text><text x=\"340\" y=\"80\" fill=\"#a23\">e⁻ →</text><text x=\"30\" y=\"185\">Fixed positive ions; mobile delocalised electrons</text></svg><h3>Marking guidance</h3><p>Maximum 3 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  }
+]

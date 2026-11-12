@@ -1,0 +1,1598 @@
+[
+  {
+    "id": "science-y10-applecross-bio-A1",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 1,
+    "sourceQuestionLabel": "1",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Biological Science topic test 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Biological sciences"
+    ],
+    "subtopics": [
+      "Cell division"
+    ],
+    "strand": "Biological sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Which diagram shows the outcome of mitosis followed by cell division for the parent cell shown?",
+    "hash": "37cc85f46516a8af5c557749a0030a9a24eee694922acbd166c3adee1d8ad4c4",
+    "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+    "sourceKeyFile": "Yr 10 Topic test 2017 marking key.docx",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 1,
+    "bankFile": "practice-studio-science-year10-bio.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Which diagram shows the outcome of mitosis followed by cell division for the parent cell shown?</p><figure><img src=\"assets/practice-science-year10/bio-mitosis.png\" alt=\"bio mitosis\" loading=\"lazy\"></figure>",
+    "answerHtml": "<h3>Worked solution</h3><p>Mitosis produces two daughter cells with the same chromosome complement as the parent, apart from mutation. A shows two cells with the original chromosome number.</p><h3>Marking guidance</h3><p>Award 1 mark for A. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "Diagram A",
+      "Diagram B",
+      "Diagram C",
+      "Diagram D"
+    ],
+    "optionsHtml": [
+      "<p>Diagram A</p>",
+      "<p>Diagram B</p>",
+      "<p>Diagram C</p>",
+      "<p>Diagram D</p>"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "science-y10-applecross-bio-A2",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 2,
+    "sourceQuestionLabel": "2",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Biological Science topic test 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Biological sciences"
+    ],
+    "subtopics": [
+      "Cell division"
+    ],
+    "strand": "Biological sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "The process of meiosis ensures that organism will have:",
+    "hash": "2f5dc1d1533d6a53fac9f2e267d7fb50e45937747813171e0a7f086875c153fa",
+    "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+    "sourceKeyFile": "Yr 10 Topic test 2017 marking key.docx",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-bio.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>The process of meiosis ensures that organism will have:</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Meiosis makes haploid gametes. Fertilisation combines two haploid sets, restoring the diploid number and maintaining that number across generations.</p><h3>Marking guidance</h3><p>Award 1 mark for B. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "different numbers of chromosomes than its parents have.",
+      "the same diploid number as its parents have.",
+      "the ability to reproduce by budding.",
+      "a different haploid number than its parents have."
+    ],
+    "optionsHtml": [
+      "<p>different numbers of chromosomes than its parents have.</p>",
+      "<p>the same diploid number as its parents have.</p>",
+      "<p>the ability to reproduce by budding.</p>",
+      "<p>a different haploid number than its parents have.</p>"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "science-y10-applecross-bio-A3",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 3,
+    "sourceQuestionLabel": "3",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Biological Science topic test 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Biological sciences"
+    ],
+    "subtopics": [
+      "Biological sciences"
+    ],
+    "strand": "Biological sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "The fertilised egg of a fruit fly contains 8 chromosomes. Which of the following is therefore correct?",
+    "hash": "3e5ce1da6b427ba6dce978c89f1c0e6b97866004642495b375b1884a51938287",
+    "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+    "sourceKeyFile": "Yr 10 Topic test 2017 marking key.docx",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-bio.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>The fertilised egg of a fruit fly contains 8 chromosomes. Which of the following is therefore correct?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>A fertilised egg is diploid: 2n = 8. Each gamete is haploid: n = 8/2 = 4.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "The gametes must contain 16 chromosomes",
+      "The gametes must contain 8 chromosomes",
+      "The gametes must contain 4 chromosomes",
+      "The normal body cells contain 16 chromosomes"
+    ],
+    "optionsHtml": [
+      "<p>The gametes must contain 16 chromosomes</p>",
+      "<p>The gametes must contain 8 chromosomes</p>",
+      "<p>The gametes must contain 4 chromosomes</p>",
+      "<p>The normal body cells contain 16 chromosomes</p>"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "science-y10-applecross-bio-A4",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 4,
+    "sourceQuestionLabel": "4",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Biological Science topic test 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Biological sciences"
+    ],
+    "subtopics": [
+      "Biological sciences"
+    ],
+    "strand": "Biological sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Which of the following characteristics are you most likely to inherit from a parent?",
+    "hash": "bb5c6dc7da675d60c7365ee92ecbd4b888222cc7048345ae71144726a3c98cae",
+    "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+    "sourceKeyFile": "Yr 10 Topic test 2017 marking key.docx",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-bio.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Which of the following characteristics are you most likely to inherit from a parent?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Eye colour is strongly influenced by inherited alleles. Occupation is learned; weight and food preference have strong environmental influences.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "Weight",
+      "Occupation",
+      "Eye colour",
+      "Food preference"
+    ],
+    "optionsHtml": [
+      "<p>Weight</p>",
+      "<p>Occupation</p>",
+      "<p>Eye colour</p>",
+      "<p>Food preference</p>"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "science-y10-applecross-bio-A5",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 5,
+    "sourceQuestionLabel": "5",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Biological Science topic test 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Biological sciences"
+    ],
+    "subtopics": [
+      "Evolution and natural selection"
+    ],
+    "strand": "Biological sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "When comparing the evolutionary relationships between four species of birds, which of the following would be most useful?",
+    "hash": "f879cd29c0767622345bfd0decd8e5185dd5314519f1dd2afcf3da7e2b6b0935",
+    "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+    "sourceKeyFile": "Yr 10 Topic test 2017 marking key.docx",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-bio.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>When comparing the evolutionary relationships between four species of birds, which of the following would be most useful?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Comparing homologous DNA sequences provides direct evidence of genetic similarity. Greater similarity generally supports a more recent common ancestor.</p><h3>Marking guidance</h3><p>Award 1 mark for B. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "Colour of feathers",
+      "Gene sequences",
+      "Nesting behaviours",
+      "Patterns of migration"
+    ],
+    "optionsHtml": [
+      "<p>Colour of feathers</p>",
+      "<p>Gene sequences</p>",
+      "<p>Nesting behaviours</p>",
+      "<p>Patterns of migration</p>"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "science-y10-applecross-bio-A6",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 6,
+    "sourceQuestionLabel": "6",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Biological Science topic test 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Biological sciences"
+    ],
+    "subtopics": [
+      "Biological sciences"
+    ],
+    "strand": "Biological sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Three different cells contain one of each of the following genes; AA, Aa and aa. Which set of genes represents homozygous strains?",
+    "hash": "9b9ee52f756f2b5f0efadf7fbcbf8c70cce5046c3af9c6115b22acdbd208958e",
+    "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+    "sourceKeyFile": "Yr 10 Topic test 2017 marking key.docx",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-bio.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Three different cells contain one of each of the following genes; AA, Aa and aa. Which set of genes represents homozygous strains?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Homozygous means identical alleles: AA or aa. Aa contains different alleles and is heterozygous.</p><h3>Marking guidance</h3><p>Award 1 mark for D. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "AA",
+      "Aa",
+      "aa",
+      "AA and aa"
+    ],
+    "optionsHtml": [
+      "<p>AA</p>",
+      "<p>Aa</p>",
+      "<p>aa</p>",
+      "<p>AA and aa</p>"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "science-y10-applecross-bio-A7",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 7,
+    "sourceQuestionLabel": "7",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Biological Science topic test 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Biological sciences"
+    ],
+    "subtopics": [
+      "Biological sciences"
+    ],
+    "strand": "Biological sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Fish and birds share similarities in their embryos but have different adult features. Which statement best explains the difference in their adult stages?",
+    "hash": "ea8efe194b5bf31fb088a97a78fea7ed5f99b1b6bcb345cfd97c38a2d727ada9",
+    "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+    "sourceKeyFile": "Yr 10 Topic test 2017 marking key.docx",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 1,
+    "bankFile": "practice-studio-science-year10-bio.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Fish and birds share similarities in their embryos but have different adult features. Which statement best explains the difference in their adult stages?</p><figure><img src=\"assets/practice-science-year10/bio-embryos.png\" alt=\"bio embryos\" loading=\"lazy\"></figure>",
+    "answerHtml": "<h3>Worked solution</h3><p>Shared developmental features support common ancestry. Different inherited adaptations were favoured in different environments over generations, including fins and wings. DNA does not simply transform from fish-like to bird-like as an embryo develops.</p><h3>Marking guidance</h3><p>Award 1 mark for D. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "The DNA sequences in adult fish and adult birds are really similar.",
+      "The DNA sequences in fish and birds were similar at first but changed as they became adults.",
+      "Fish and birds developed the same adaptations in order to survive in their different environments.",
+      "Fish developed fins and birds developed wings that helped them survive in their different environments."
+    ],
+    "optionsHtml": [
+      "<p>The DNA sequences in adult fish and adult birds are really similar.</p>",
+      "<p>The DNA sequences in fish and birds were similar at first but changed as they became adults.</p>",
+      "<p>Fish and birds developed the same adaptations in order to survive in their different environments.</p>",
+      "<p>Fish developed fins and birds developed wings that helped them survive in their different environments.</p>"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "science-y10-applecross-bio-A8",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 8,
+    "sourceQuestionLabel": "8",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Biological Science topic test 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Biological sciences"
+    ],
+    "subtopics": [
+      "Biological sciences"
+    ],
+    "strand": "Biological sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Which diagram shows a cross between a homozygous parent and a heterozygous parent?",
+    "hash": "722dc2b9db9af7762bded2ef86c9814038808e35f10584602b6318f68bf0b865",
+    "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+    "sourceKeyFile": "Yr 10 Topic test 2017 marking key.docx",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 1,
+    "bankFile": "practice-studio-science-year10-bio.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Which diagram shows a cross between a homozygous parent and a heterozygous parent?</p><figure><img src=\"assets/practice-science-year10/bio-crosses.png\" alt=\"bio crosses\" loading=\"lazy\"></figure>",
+    "answerHtml": "<h3>Worked solution</h3><p>B crosses homozygous QQ with heterozygous Qq. A homozygote has two identical alleles; a heterozygote has two different alleles.</p><h3>Marking guidance</h3><p>Award 1 mark for B. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "Cross A",
+      "Cross B",
+      "Cross C",
+      "Cross D"
+    ],
+    "optionsHtml": [
+      "<p>Cross A</p>",
+      "<p>Cross B</p>",
+      "<p>Cross C</p>",
+      "<p>Cross D</p>"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "science-y10-applecross-bio-A9",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 9,
+    "sourceQuestionLabel": "9",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Biological Science topic test 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Biological sciences"
+    ],
+    "subtopics": [
+      "Evolution and natural selection"
+    ],
+    "strand": "Biological sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Which of the following phrases best matches the word mutation?",
+    "hash": "102a17f2b6e964196a42e692ebda9b706ce04b3b9a69a01e8ad47aecb9099350",
+    "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+    "sourceKeyFile": "Yr 10 Topic test 2017 marking key.docx",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-bio.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Which of the following phrases best matches the word mutation?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Mutation is a change in genetic material, such as the DNA base sequence. Recombination rearranges existing alleles rather than necessarily creating new ones.</p><h3>Marking guidance</h3><p>Award 1 mark for B. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "The differences that naturally occur in an organism population due to different gene combinations",
+      "A change in the genetic information before the next generation is produced",
+      "To form the next generation in an organism population",
+      "An evolved characteristic of an organism that helps it in its habitat."
+    ],
+    "optionsHtml": [
+      "<p>The differences that naturally occur in an organism population due to different gene combinations</p>",
+      "<p>A change in the genetic information before the next generation is produced</p>",
+      "<p>To form the next generation in an organism population</p>",
+      "<p>An evolved characteristic of an organism that helps it in its habitat.</p>"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "science-y10-applecross-bio-A10",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 10,
+    "sourceQuestionLabel": "10",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Biological Science topic test 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Biological sciences"
+    ],
+    "subtopics": [
+      "Biological sciences"
+    ],
+    "strand": "Biological sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "A soybean farmer has developed a soybean that is healthier, taller, greener and more productive than other soy beans. Which process caused these traits to occur originally?",
+    "hash": "5700f4d906835c1fffc4404971311563342aacdfb5b20e304a820fa3eccf3e98",
+    "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+    "sourceKeyFile": "Yr 10 Topic test 2017 marking key.docx",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-bio.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>A soybean farmer has developed a soybean that is healthier, taller, greener and more productive than other soy beans. Which process caused these traits to occur originally?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Mutation is the original source of new alleles. Crossbreeding combines existing alleles; selection changes their frequencies.</p><h3>Marking guidance</h3><p>Award 1 mark for A. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "Mutation",
+      "Crossbreeding",
+      "Genetic isolation",
+      "Natural selection"
+    ],
+    "optionsHtml": [
+      "<p>Mutation</p>",
+      "<p>Crossbreeding</p>",
+      "<p>Genetic isolation</p>",
+      "<p>Natural selection</p>"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "science-y10-applecross-bio-A11",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 11,
+    "sourceQuestionLabel": "11",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Biological Science topic test 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Biological sciences"
+    ],
+    "subtopics": [
+      "Evolution and natural selection"
+    ],
+    "strand": "Biological sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Head lice are treated with insecticide shampoo. The diagram shows original population P, offspring Q, survivors after treatment R and their later population S. When did the mutation producing the new strain occur?",
+    "hash": "664ce7a29c307b81bf8bf3761e8dfd2ebdbb0849957c3831b3c93df879a07747",
+    "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+    "sourceKeyFile": "Yr 10 Topic test 2017 marking key.docx",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 1,
+    "bankFile": "practice-studio-science-year10-bio.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Head lice are treated with insecticide shampoo. The diagram shows original population P, offspring Q, survivors after treatment R and their later population S. When did the mutation producing the new strain occur?</p><figure><img src=\"assets/practice-science-year10/bio-lice.png\" alt=\"bio lice\" loading=\"lazy\"></figure>",
+    "answerHtml": "<h3>Worked solution</h3><p>Only the original strain appears at P, but the new strain is present at Q. Therefore the mutation occurred between P and Q, before insecticide selected survivors at R.</p><h3>Marking guidance</h3><p>Award 1 mark for B. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "During Stage R",
+      "Between Stage P and Stage Q",
+      "Between Stage Q and Stage R",
+      "Between Stage R and Stage S"
+    ],
+    "optionsHtml": [
+      "<p>During Stage R</p>",
+      "<p>Between Stage P and Stage Q</p>",
+      "<p>Between Stage Q and Stage R</p>",
+      "<p>Between Stage R and Stage S</p>"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "science-y10-applecross-bio-A12",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 12,
+    "sourceQuestionLabel": "12",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Biological Science topic test 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Biological sciences"
+    ],
+    "subtopics": [
+      "Evolution and natural selection"
+    ],
+    "strand": "Biological sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "The diagram shows head lice before and after insecticide shampoo treatment. Which statement about the survivors at Stage R is supported?",
+    "hash": "2a78f2481ae78cebfcf20386cd226a1a07853b8ffac26e387f0e731fa2162b02",
+    "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+    "sourceKeyFile": "Yr 10 Topic test 2017 marking key.docx",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 1,
+    "bankFile": "practice-studio-science-year10-bio.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>The diagram shows head lice before and after insecticide shampoo treatment. Which statement about the survivors at Stage R is supported?</p><figure><img src=\"assets/practice-science-year10/bio-lice.png\" alt=\"bio lice\" loading=\"lazy\"></figure>",
+    "answerHtml": "<h3>Worked solution</h3><p>Lice surviving the insecticide at R are resistant to that treatment. This does not make them impossible to kill by all methods.</p><h3>Marking guidance</h3><p>Award 1 mark for D. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "Must be impossible to kill",
+      "Must be unable to reproduce",
+      "Have identical genes to those in Stage P",
+      "Must be resistant to the insecticide in the shampoo"
+    ],
+    "optionsHtml": [
+      "<p>Must be impossible to kill</p>",
+      "<p>Must be unable to reproduce</p>",
+      "<p>Have identical genes to those in Stage P</p>",
+      "<p>Must be resistant to the insecticide in the shampoo</p>"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "science-y10-applecross-bio-A13",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 13,
+    "sourceQuestionLabel": "13",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Biological Science topic test 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Biological sciences"
+    ],
+    "subtopics": [
+      "Evolution and natural selection"
+    ],
+    "strand": "Biological sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "The diagram shows changes in a head-lice population after insecticide treatment. Which process explains the population composition at Stage R?",
+    "hash": "60a8dfef7e9c13316cb127eb99be4071800b4794f052cd07e623418aa171588d",
+    "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+    "sourceKeyFile": "Yr 10 Topic test 2017 marking key.docx",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 1,
+    "bankFile": "practice-studio-science-year10-bio.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>The diagram shows changes in a head-lice population after insecticide treatment. Which process explains the population composition at Stage R?</p><figure><img src=\"assets/practice-science-year10/bio-lice.png\" alt=\"bio lice\" loading=\"lazy\"></figure>",
+    "answerHtml": "<h3>Worked solution</h3><p>Susceptible lice die more readily; resistant lice survive and reproduce. Differential survival and reproduction of heritable variants is natural selection.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "Competition",
+      "Camouflage",
+      "Natural selection",
+      "Genetic engineering"
+    ],
+    "optionsHtml": [
+      "<p>Competition</p>",
+      "<p>Camouflage</p>",
+      "<p>Natural selection</p>",
+      "<p>Genetic engineering</p>"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "science-y10-applecross-bio-A14",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 14,
+    "sourceQuestionLabel": "14",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Biological Science topic test 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Biological sciences"
+    ],
+    "subtopics": [
+      "Biological sciences"
+    ],
+    "strand": "Biological sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Which option does not directly generate new genetic combinations or reproductive isolation?",
+    "hash": "7c94b9e43ddb99aafb508dc4a5d4422c67edab45be230e24e92f6ebe55d3846b",
+    "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+    "sourceKeyFile": "Yr 10 Topic test 2017 marking key.docx",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-bio.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Which option does not directly generate new genetic combinations or reproductive isolation?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>In the intended simplified comparison, more food alone does not create new alleles or reproductive isolation. Mutations, sexual recombination and isolation can contribute directly to evolutionary change. Food availability can nevertheless change selection pressures.</p><h3>Marking guidance</h3><p>Award 1 mark for B. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "Mutations",
+      "A large increase in food supply",
+      "Genetic variation through sexual reproduction",
+      "Isolation of a population, thus keeping it from reproducing with others of its species"
+    ],
+    "optionsHtml": [
+      "<p>Mutations</p>",
+      "<p>A large increase in food supply</p>",
+      "<p>Genetic variation through sexual reproduction</p>",
+      "<p>Isolation of a population, thus keeping it from reproducing with others of its species</p>"
+    ],
+    "correctAnswer": 1,
+    "editorialNote": "Clarified ambiguous source wording: food availability can influence selection, so it cannot simply be said never to contribute to evolution."
+  },
+  {
+    "id": "science-y10-applecross-bio-A15",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 15,
+    "sourceQuestionLabel": "15",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Biological Science topic test 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Biological sciences"
+    ],
+    "subtopics": [
+      "Biological sciences"
+    ],
+    "strand": "Biological sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "One reason that insects evolve quickly is that:",
+    "hash": "5fedc52b0641f2f30f635e69bbe30b99a5dbb8eac938629aa976f4da2d2d5b5c",
+    "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+    "sourceKeyFile": "Yr 10 Topic test 2017 marking key.docx",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-bio.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>One reason that insects evolve quickly is that:</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Short generations allow many reproductive cycles in a short time, so selection can change allele frequencies quickly across generations.</p><h3>Marking guidance</h3><p>Award 1 mark for A. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "They have short generation times",
+      "They have long generation times",
+      "Their DNA mutates more easily",
+      "They have circular DNA"
+    ],
+    "optionsHtml": [
+      "<p>They have short generation times</p>",
+      "<p>They have long generation times</p>",
+      "<p>Their DNA mutates more easily</p>",
+      "<p>They have circular DNA</p>"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "science-y10-applecross-bio-A16",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 16,
+    "sourceQuestionLabel": "16",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Biological Science topic test 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Biological sciences"
+    ],
+    "subtopics": [
+      "Evolution and natural selection"
+    ],
+    "strand": "Biological sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Which situation would most likely result in the highest rate of natural selection?",
+    "hash": "d7cf754785f02d234b9d62e546d3a69e158d6f57c7ada2af691b22ce165573a3",
+    "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+    "sourceKeyFile": "Yr 10 Topic test 2017 marking key.docx",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-bio.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Which situation would most likely result in the highest rate of natural selection?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Heritable variation supplied by mutation and recombination, combined with changing selection pressures, permits strong differential survival and reproduction.</p><h3>Marking guidance</h3><p>Award 1 mark for D. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "Reproduction of organisms by an asexual method in an unchanging environment",
+      "Reproduction of a species having a very low mutation rate in a changing environment",
+      "Reproduction of organisms in an unchanging environment with little competition and few predators",
+      "Reproduction of organisms exhibiting genetic differences due to the mutations and genetic recombinations in a changing environment"
+    ],
+    "optionsHtml": [
+      "<p>Reproduction of organisms by an asexual method in an unchanging environment</p>",
+      "<p>Reproduction of a species having a very low mutation rate in a changing environment</p>",
+      "<p>Reproduction of organisms in an unchanging environment with little competition and few predators</p>",
+      "<p>Reproduction of organisms exhibiting genetic differences due to the mutations and genetic recombinations in a changing environment</p>"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "science-y10-applecross-bio-A17",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 17,
+    "sourceQuestionLabel": "17",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Biological Science topic test 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Biological sciences"
+    ],
+    "subtopics": [
+      "Evolution and natural selection"
+    ],
+    "strand": "Biological sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Two Galápagos finch species share a South American ancestor. How most likely did the ancestral species give rise to two distinct species?",
+    "hash": "d99863771f4a42256e86424f429c6f9169bb8a1de770413d73834fbc4131bd87",
+    "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+    "sourceKeyFile": "Yr 10 Topic test 2017 marking key.docx",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 1,
+    "bankFile": "practice-studio-science-year10-bio.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Two Galápagos finch species share a South American ancestor. How most likely did the ancestral species give rise to two distinct species?</p><figure><img src=\"assets/practice-science-year10/bio-finches.png\" alt=\"bio finches\" loading=\"lazy\"></figure>",
+    "answerHtml": "<h3>Worked solution</h3><p>Isolation reduces gene flow. Different environments favour different inherited traits; accumulated differences can lead to reproductive isolation and separate species.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "The ancestral species mated with other species and the offspring resulted in two new species.",
+      "The ancestral species was genetically engineered to become two new species",
+      "Groups of the ancestral species became isolated and adapted to different environments",
+      "Two individual birds acquired many spontaneous mutations"
+    ],
+    "optionsHtml": [
+      "<p>The ancestral species mated with other species and the offspring resulted in two new species.</p>",
+      "<p>The ancestral species was genetically engineered to become two new species</p>",
+      "<p>Groups of the ancestral species became isolated and adapted to different environments</p>",
+      "<p>Two individual birds acquired many spontaneous mutations</p>"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "science-y10-applecross-bio-A18",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 18,
+    "sourceQuestionLabel": "18",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Biological Science topic test 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Biological sciences"
+    ],
+    "subtopics": [
+      "Evolution and natural selection"
+    ],
+    "strand": "Biological sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "The photograph shows a fossil formed about 3 billion years ago. Why could the species that formed it have become extinct?",
+    "hash": "7b35418c90bfcd5f75986b85c06921c628c6d0fb30208d8d17446ce445f34d27",
+    "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+    "sourceKeyFile": "Yr 10 Topic test 2017 marking key.docx",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 1,
+    "bankFile": "practice-studio-science-year10-bio.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>The photograph shows a fossil formed about 3 billion years ago. Why could the species that formed it have become extinct?</p><figure><img src=\"assets/practice-science-year10/bio-fossil.png\" alt=\"bio fossil\" loading=\"lazy\"></figure>",
+    "answerHtml": "<h3>Worked solution</h3><p>Environmental change can remove suitable habitat or resources or impose conditions that the population cannot survive, causing extinction.</p><h3>Marking guidance</h3><p>Award 1 mark for D. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "It has no method of reproduction",
+      "It was crushed by rocks",
+      "Its ancestors had not become fossils",
+      "Its environment changed"
+    ],
+    "optionsHtml": [
+      "<p>It has no method of reproduction</p>",
+      "<p>It was crushed by rocks</p>",
+      "<p>Its ancestors had not become fossils</p>",
+      "<p>Its environment changed</p>"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "science-y10-applecross-bio-A19",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 19,
+    "sourceQuestionLabel": "19",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Biological Science topic test 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Biological sciences"
+    ],
+    "subtopics": [
+      "Evolution and natural selection"
+    ],
+    "strand": "Biological sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Which one is NOT evidence of evolution?",
+    "hash": "f8bcdf3ea2fe4623f49529e646fc13cf4be3113852107e292ab69fccbb820b68",
+    "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+    "sourceKeyFile": "Yr 10 Topic test 2017 marking key.docx",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-bio.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Which one is NOT evidence of evolution?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Natural selection is a mechanism of evolution. Fossils and comparative anatomy and embryology are observations used as evidence of evolutionary relationships.</p><h3>Marking guidance</h3><p>Award 1 mark for D. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "Comparative embryology",
+      "Comparative anatomy",
+      "Fossils",
+      "Natural selection"
+    ],
+    "optionsHtml": [
+      "<p>Comparative embryology</p>",
+      "<p>Comparative anatomy</p>",
+      "<p>Fossils</p>",
+      "<p>Natural selection</p>"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "science-y10-applecross-bio-A20",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 20,
+    "sourceQuestionLabel": "20",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Biological Science topic test 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Biological sciences"
+    ],
+    "subtopics": [
+      "Evolution and natural selection"
+    ],
+    "strand": "Biological sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Evolution is best described as:",
+    "hash": "be8693c928bf6e902152b61398892e1da266018b826505dd9c284ac306157a0d",
+    "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+    "sourceKeyFile": "Yr 10 Topic test 2017 marking key.docx",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-bio.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Evolution is best described as:</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Evolution is change in a population’s inherited characteristics or allele frequencies over generations, rather than change within one organism’s lifetime.</p><h3>Marking guidance</h3><p>Award 1 mark for B. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "The study of how living things fit into their environment and change",
+      "The change in a population over time",
+      "The change in plants and animals over time",
+      "The change of an organism within its own lifetime"
+    ],
+    "optionsHtml": [
+      "<p>The study of how living things fit into their environment and change</p>",
+      "<p>The change in a population over time</p>",
+      "<p>The change in plants and animals over time</p>",
+      "<p>The change of an organism within its own lifetime</p>"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "science-y10-applecross-bio-B21",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 21,
+    "sourceQuestionLabel": "21",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Biological Science topic test 2017",
+    "section": "Labelling",
+    "types": [
+      "Labelling"
+    ],
+    "responseTypes": [
+      "Labelling"
+    ],
+    "marks": 2,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Biological sciences"
+    ],
+    "subtopics": [
+      "Biological sciences"
+    ],
+    "strand": "Biological sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "The diagrams A–E show cell stages out of order. Write the correct sequence of events leading to two daughter cells. [2]",
+    "hash": "003d404288f8438203ff3d3987bc5c5a68e7c77e653f780efb08a9240f48b8f7",
+    "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+    "sourceKeyFile": "Yr 10 Topic test 2017 marking key.docx",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 1,
+    "bankFile": "practice-studio-science-year10-bio.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>The diagrams A–E show cell stages out of order. Write the correct sequence of events leading to two daughter cells. [2]</p><figure><img src=\"assets/practice-science-year10/bio-stages.png\" alt=\"bio stages\" loading=\"lazy\"></figure>",
+    "answerHtml": "<h3>Worked solution</h3><p>E → B → D → A → C. E shows the cell before mitosis; B chromosome condensation; D equatorial alignment; A chromatid separation; C daughter cells. [2 for correct sequence; partial credit for a substantially correct order] The supplied key repeats E in third place; D is the correct diagram.</p><h3>Marking guidance</h3><p>Maximum 2 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": [],
+    "editorialNote": "Corrected key sequence E–B–E–A–C to E–B–D–A–C after diagram inspection."
+  },
+  {
+    "id": "science-y10-applecross-bio-B22",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 22,
+    "sourceQuestionLabel": "22",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Biological Science topic test 2017",
+    "section": "Multi-step",
+    "types": [
+      "Multi-step"
+    ],
+    "responseTypes": [
+      "Multi-step"
+    ],
+    "marks": 7,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Biological sciences"
+    ],
+    "subtopics": [
+      "Inheritance"
+    ],
+    "strand": "Biological sciences",
+    "difficulty": "Hard",
+    "mixed": false,
+    "text": "The pedigree shows inheritance of the fictional Cruchkeld’s disease. Shaded individuals are affected; circles are female and squares male. (a) What is the sex of the first affected individual? [1] (b) Is the disorder likely dominant or recessive? Explain using A, B and D. [3] (c) If A and B have another child, calculate the probability it is affected. Show a Punnett square. [3]",
+    "hash": "a22f24ff9209941f3342c41bacab7b074dd1d3d8529c24534c7bb3611b2cc264",
+    "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+    "sourceKeyFile": "Yr 10 Topic test 2017 marking key.docx",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 1,
+    "bankFile": "practice-studio-science-year10-bio.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>The pedigree shows inheritance of the fictional Cruchkeld’s disease. Shaded individuals are affected; circles are female and squares male. (a) What is the sex of the first affected individual? [1] (b) Is the disorder likely dominant or recessive? Explain using A, B and D. [3] (c) If A and B have another child, calculate the probability it is affected. Show a Punnett square. [3]</p><figure><img src=\"assets/practice-science-year10/bio-pedigree.png\" alt=\"bio pedigree\" loading=\"lazy\"></figure>",
+    "answerHtml": "<h3>Worked solution</h3><p>(a) Female: the first shaded person is a circle. [1]</p><p>(b) Recessive. [1] Unaffected parents A and B have affected child D. [1] Both must carry the recessive allele, Bb, to produce affected bb; a fully penetrant dominant trait would normally require an affected parent. [1]</p><p>(c) Bb × Bb gives BB, Bb, Bb and bb. [2 for genotypes and square] One of four possibilities is affected: 25% for each pregnancy. [1]</p><table><thead><tr><th>Gametes</th><th>B</th><th>b</th></tr></thead><tbody><tr><td>B</td><td>BB</td><td>Bb</td></tr><tr><td>b</td><td>bB</td><td>bb</td></tr></tbody></table><h3>Marking guidance</h3><p>Maximum 7 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-bio-B23",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 23,
+    "sourceQuestionLabel": "23",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Biological Science topic test 2017",
+    "section": "Multi-step",
+    "types": [
+      "Multi-step"
+    ],
+    "responseTypes": [
+      "Multi-step"
+    ],
+    "marks": 6,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Biological sciences"
+    ],
+    "subtopics": [
+      "Inheritance"
+    ],
+    "strand": "Biological sciences",
+    "difficulty": "Hard",
+    "mixed": false,
+    "text": "A black male mouse is crossed with a white female, as shown. (a) If this female can produce only white offspring with this male, state her genotype and explain its meaning. [2] (b) Justify your answer using Punnett squares and the possible outcomes of alternative genotypes. [4]",
+    "hash": "eaa345923b5937a25bebcc86ff2d8f35ab6084b368836930cfd3592da3ba2216",
+    "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+    "sourceKeyFile": "Yr 10 Topic test 2017 marking key.docx",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 1,
+    "bankFile": "practice-studio-science-year10-bio.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>A black male mouse is crossed with a white female, as shown. (a) If this female can produce only white offspring with this male, state her genotype and explain its meaning. [2] (b) Justify your answer using Punnett squares and the possible outcomes of alternative genotypes. [4]</p><figure><img src=\"assets/practice-science-year10/bio-mice.png\" alt=\"bio mice\" loading=\"lazy\"></figure>",
+    "answerHtml": "<h3>Worked solution</h3><p>(a) WW, homozygous dominant for white fur in this question’s model; both alleles are W. [2]</p><p>(b) The diagram defines white W as dominant and black w as recessive. The black male is ww. [1] A Ww female crossed with ww would give 50% Ww white and 50% ww black. [1] WW × ww instead gives Ww in every cell of the Punnett square. [1] Thus all offspring are white, matching the stated result. [1]</p><table><thead><tr><th>Gametes</th><th>W</th><th>W</th></tr></thead><tbody><tr><td>w</td><td>wW</td><td>wW</td></tr><tr><td>w</td><td>wW</td><td>wW</td></tr></tbody></table><h3>Marking guidance</h3><p>Maximum 6 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-bio-B24",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 24,
+    "sourceQuestionLabel": "24",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Biological Science topic test 2017",
+    "section": "Short answer",
+    "types": [
+      "Short answer"
+    ],
+    "responseTypes": [
+      "Short answer"
+    ],
+    "marks": 2,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Biological sciences"
+    ],
+    "subtopics": [
+      "Cell division"
+    ],
+    "strand": "Biological sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "Explain why it is essential for chromosomes to replicate before cell division occurs. (2 marks)",
+    "hash": "cbeabfbdc8fa7a1237c0ed71fbb6a611a4cf10022eba255dfeffacc1648a52de",
+    "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+    "sourceKeyFile": "Yr 10 Topic test 2017 marking key.docx",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-bio.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Explain why it is essential for chromosomes to replicate before cell division occurs.</p><p>(2 marks)</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Replication copies each chromosome before division. [1] Separation of the sister chromatids can then give each daughter cell a complete copy of the genetic information. [1]</p><h3>Marking guidance</h3><p>Maximum 2 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-bio-B25",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 25,
+    "sourceQuestionLabel": "25",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Biological Science topic test 2017",
+    "section": "Labelling",
+    "types": [
+      "Labelling"
+    ],
+    "responseTypes": [
+      "Labelling"
+    ],
+    "marks": 3,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Biological sciences"
+    ],
+    "subtopics": [
+      "DNA structure"
+    ],
+    "strand": "Biological sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "Draw and label a nucleotide in the space below: (3 marks)",
+    "hash": "13aaddc546b09aaa3c21121c4f327805b2d0719ab50887ab446c74c097ddb5d3",
+    "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+    "sourceKeyFile": "Yr 10 Topic test 2017 marking key.docx",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-bio.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Draw and label a nucleotide in the space below:</p><p>(3 marks)</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Label a phosphate group, deoxyribose sugar and nitrogenous base. [1 each] The phosphate and base each attach to the sugar: phosphate–sugar–base. One nucleotide has one base, A, T, C or G; it is not an entire base pair.</p><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 210\" role=\"img\" aria-label=\"Worked diagram\" style=\"max-width:100%;font:16px Arial\"><circle cx=\"80\" cy=\"95\" r=\"32\" fill=\"#dcecf6\" stroke=\"#235\"/><path d=\"M112 95H185M265 95H345\" stroke=\"#235\" stroke-width=\"3\"/><path d=\"M185 75L225 45L265 75L250 125H200Z\" fill=\"#fff1c9\" stroke=\"#235\"/><rect x=\"345\" y=\"65\" width=\"140\" height=\"60\" fill=\"#e4f1df\" stroke=\"#235\"/><text x=\"45\" y=\"165\">Phosphate</text><text x=\"170\" y=\"165\">Deoxyribose sugar</text><text x=\"350\" y=\"100\">Base (A, T, C, G)</text></svg><h3>Marking guidance</h3><p>Maximum 3 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-bio-B26",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 26,
+    "sourceQuestionLabel": "26",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Biological Science topic test 2017",
+    "section": "Comprehension",
+    "types": [
+      "Comprehension"
+    ],
+    "responseTypes": [
+      "Comprehension"
+    ],
+    "marks": 8,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Biological sciences"
+    ],
+    "subtopics": [
+      "Evolution and natural selection"
+    ],
+    "strand": "Biological sciences",
+    "difficulty": "Hard",
+    "mixed": false,
+    "text": "Read the article below and answer the questions following. Researchers welcome evolution of cane toad's predator Researchers at the University of Sydney say they have found two species of snakes in Queensland have changed their body shape to avoid being killed by the cane toad. Professor of Evolutionary Biology Richard Shine says studies on the black snake and the golden tree snake have found over the 70 years the toads have been in Queensland, the snake's heads have become smaller and their bodies larger. Professor Shine says this means the snakes are eating smaller toads and are less likely to be killed by the toad's poison. \"A big snake with a small head turns out to be the best possible size and shape if you want to survive eating a toad,\" Professor Shine said. \"It means that the biggest toad you can eat is actually quite small compared to your own body size so it's pretty unlikely that you can get enough poison in from the toad to kill you.\" \"We can't pretend that the native predators have recovered entirely.” \"Some of these snakes are still very scarce over a lot of the range of the toads but the signs are encouraging. \"It looks like good old evolution is working and that we can hope in 100 years time there'll be some pretty dramatic recoveries.\" Professor Shine says they will be studying snakes in the Northern Territory to see if a similar evolutionary process may occur. http://www.abc.net.au/news/newsitems/200412/s1270907.htm a) What are the changes in body shape of the two species of snake and explain the advantages of these changes? (4 marks) b) Explain using the Theory of evolution, how the changes in the snakes have come about. (4 marks)",
+    "hash": "4bb88c2c958145c0fa6285be4f018da345d8eec37d4ee11a21c2acae1838c70f",
+    "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+    "sourceKeyFile": "Yr 10 Topic test 2017 marking key.docx",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-bio.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Read the article below and answer the questions following. Researchers welcome evolution of cane toad&#x27;s predator Researchers at the University of Sydney say they have found two species of snakes in Queensland have changed their body shape to avoid being killed by the cane toad. Professor of Evolutionary Biology Richard Shine says studies on the black snake and the golden tree snake have found over the 70 years the toads have been in Queensland, the snake&#x27;s heads have become smaller and their bodies larger. Professor Shine says this means the snakes are eating smaller toads and are less likely to be killed by the toad&#x27;s poison. &quot;A big snake with a small head turns out to be the best possible size and shape if you want to survive eating a toad,&quot; Professor Shine said. &quot;It means that the biggest toad you can eat is actually quite small compared to your own body size so it&#x27;s pretty unlikely that you can get enough poison in from the toad to kill you.&quot; &quot;We can&#x27;t pretend that the native predators have recovered entirely.” &quot;Some of these snakes are still very scarce over a lot of the range of the toads but the signs are encouraging. &quot;It looks like good old evolution is working and that we can hope in 100 years time there&#x27;ll be some pretty dramatic recoveries.&quot; Professor Shine says they will be studying snakes in the Northern Territory to see if a similar evolutionary process may occur. http://www.abc.net.au/news/newsitems/200412/s1270907.htm</p><p>a) What are the changes in body shape of the two species of snake and explain the advantages of</p><p>these changes?</p><p>(4 marks)</p><p>b) Explain using the Theory of evolution, how the changes in the snakes have come about.</p><p>(4 marks)</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>(a) Smaller heads limit swallowed toad size and thus toxin intake. [2] Larger bodies reduce toxin dose per unit body mass and increase survival. [2]</p><p>(b) Heritable variation in head/body size already existed. [1] Toxic cane toads imposed a selection pressure. [1] Small-headed, large-bodied snakes were more likely to survive and reproduce. [1] Their relevant alleles became more common over generations. Individuals did not deliberately alter inherited anatomy through need. [1]</p><h3>Marking guidance</h3><p>Maximum 8 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-bio-B27",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 27,
+    "sourceQuestionLabel": "27",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Biological Science topic test 2017",
+    "section": "Extended response",
+    "types": [
+      "Extended response"
+    ],
+    "responseTypes": [
+      "Extended response"
+    ],
+    "marks": 4,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Biological sciences"
+    ],
+    "subtopics": [
+      "Evolution and natural selection"
+    ],
+    "strand": "Biological sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "Your little sister has been given antibiotics for a chest infection. She hates taking the tablets and throws a tantrum sometimes and refuses to take them. Your mum says “Well at least she is getting some of them!” After 3 days she says she feels much better and your Mum gladly gives up on the tablets altogether. Explain the consequences to them of not taking the full dose or the complete course of the antibiotic prescription. (4 marks)",
+    "hash": "71a695c807569162c7f8f6643f521199ea5cfb3f0cad56cb9afb32a85e1dc89a",
+    "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+    "sourceKeyFile": "Yr 10 Topic test 2017 marking key.docx",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-bio.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Your little sister has been given antibiotics for a chest infection. She hates taking the tablets and throws a tantrum sometimes and refuses to take them. Your mum says “Well at least she is getting some of them!” After 3 days she says she feels much better and your Mum gladly gives up on the tablets altogether. Explain the consequences to them of not taking the full dose or the complete course of the antibiotic prescription.</p><p>(4 marks)</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Incorrectly spaced or incomplete prescribed treatment can allow bacteria to survive. [1] Less-susceptible variants may have a survival advantage during antibiotic exposure. [1] Survivors reproduce and pass on resistance determinants, increasing their frequency. [1] Infection may persist or recur, so medication should be taken as prescribed and any change discussed with the prescriber. [1] This is selection, not proof that every missed dose creates resistance.</p><h3>Marking guidance</h3><p>Maximum 4 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-bio-B28",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 28,
+    "sourceQuestionLabel": "28",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Biological Science topic test 2017",
+    "section": "Short answer",
+    "types": [
+      "Short answer"
+    ],
+    "responseTypes": [
+      "Short answer"
+    ],
+    "marks": 3,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Biological sciences"
+    ],
+    "subtopics": [
+      "Evolution and natural selection"
+    ],
+    "strand": "Biological sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "Scientists believe that humans are more closely related to chimpanzees than they are to gorillas. This means we have a more recent common ancestor with chimps than we do with gorillas. Suggest how they have been able to determine this. (3 marks)",
+    "hash": "0bff147ebde0508687285afb9efbcb96dd68e95c51f38dc64356495369ac4012",
+    "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+    "sourceKeyFile": "Yr 10 Topic test 2017 marking key.docx",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-bio.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Scientists believe that humans are more closely related to chimpanzees than they are to gorillas. This means we have a more recent common ancestor with chimps than we do with gorillas. Suggest how they have been able to determine this.</p><p>(3 marks)</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Compare homologous DNA base sequences or corresponding protein amino-acid sequences. [1] Align equivalent regions and count similarities/differences. [1] Greater similarity between humans and chimpanzees supports a more recent common ancestor than with gorillas. [1]</p><h3>Marking guidance</h3><p>Maximum 3 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-bio-B29",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 29,
+    "sourceQuestionLabel": "29",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Biological Science topic test 2017",
+    "section": "Short answer",
+    "types": [
+      "Short answer"
+    ],
+    "responseTypes": [
+      "Short answer"
+    ],
+    "marks": 3,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Biological sciences"
+    ],
+    "subtopics": [
+      "Evolution and natural selection"
+    ],
+    "strand": "Biological sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "Explain, using an example that you have studied in class, why humans practice artificial selection on some organisms. (3 marks)",
+    "hash": "7e4db5e96a3594c296b136d6a0c56886139d940b889f10b1a52b1839be272158",
+    "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+    "sourceKeyFile": "Yr 10 Topic test 2017 marking key.docx",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-bio.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Explain, using an example that you have studied in class, why humans practice artificial selection on some organisms.</p><p>(3 marks)</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Humans choose parents with desirable heritable characteristics and breed them repeatedly over generations. [1] For example, dairy cattle can be selected for high milk yield. [1] This increases useful traits for human purposes; humans select breeders, distinguishing artificial from natural selection. [1]</p><h3>Marking guidance</h3><p>Maximum 3 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  }
+]

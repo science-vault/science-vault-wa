@@ -1,0 +1,1377 @@
+[
+  {
+    "id": "science-y10-applecross-sem1-A1",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 1,
+    "sourceQuestionLabel": "1",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 1 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Atomic structure and the periodic table"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "The atomic number of an element is:",
+    "hash": "45701d5ee7f768084081e4bc9d3a319ebf0ca941f18b539bb50d8ce2501a4e22",
+    "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+    "sourceKeyFile": "Y10ExamSem1,2017_Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem1.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>The atomic number of an element is:</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Atomic number counts protons in the nucleus and identifies the element; it does not change when electrons are gained or lost.</p><h3>Marking guidance</h3><p>Award 1 mark for A. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "The number of protons in the element",
+      "The number of neutrons in the element",
+      "The number of electrons in the element",
+      "The number of protons plus neutrons in the element"
+    ],
+    "optionsHtml": [
+      "<p>The number of protons in the element</p>",
+      "<p>The number of neutrons in the element</p>",
+      "<p>The number of electrons in the element</p>",
+      "<p>The number of protons plus neutrons in the element</p>"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "science-y10-applecross-sem1-A2",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 2,
+    "sourceQuestionLabel": "2",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 1 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Atomic structure and the periodic table"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "An atom of the element potassium has an atomic number of 19 and an atomic mass of 39. The electron configuration of the element is:",
+    "hash": "a439fe79f5e493aabf2bf91ae15134f91ddf9b9c3490ee90a02235dd318b6089",
+    "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+    "sourceKeyFile": "Y10ExamSem1,2017_Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem1.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>An atom of the element potassium has an atomic number of 19 and an atomic mass of 39. The electron configuration of the element is:</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>A neutral potassium atom has 19 electrons, arranged 2,8,8,1 in the school shell model.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "2, 10, 7",
+      "1, 8, 8, 2",
+      "2, 8, 8, 1",
+      "2, 7, 10"
+    ],
+    "optionsHtml": [
+      "<p>2, 10, 7</p>",
+      "<p>1, 8, 8, 2</p>",
+      "<p>2, 8, 8, 1</p>",
+      "<p>2, 7, 10</p>"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "science-y10-applecross-sem1-A3",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 3,
+    "sourceQuestionLabel": "3",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 1 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Atomic structure and the periodic table"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Which of the following elements is from group 2, period 3 of the periodic table?",
+    "hash": "420cf15c5a4d08796d0ca907f70c251c214c87d205151a5fb1cdcc8bccc61334",
+    "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+    "sourceKeyFile": "Y10ExamSem1,2017_Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem1.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Which of the following elements is from group 2, period 3 of the periodic table?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Magnesium has configuration 2,8,2: three occupied shells put it in period 3 and two valence electrons put it in group 2.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "Calcium",
+      "Boron",
+      "Magnesium",
+      "Gallium"
+    ],
+    "optionsHtml": [
+      "<p>Calcium</p>",
+      "<p>Boron</p>",
+      "<p>Magnesium</p>",
+      "<p>Gallium</p>"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "science-y10-applecross-sem1-A4",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 4,
+    "sourceQuestionLabel": "4",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 1 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Chemical sciences"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "An atom of an unknown element is given the symbol X and is found to have two electrons in its outer (valence) shell. X would most likely form an ion by:",
+    "hash": "bbc60891fce60101461f108ff479272d2d5f815a2a0880b685828d88dea29d15",
+    "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+    "sourceKeyFile": "Y10ExamSem1,2017_Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem1.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>An atom of an unknown element is given the symbol X and is found to have two electrons in its outer (valence) shell. X would most likely form an ion by:</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Losing two negatively charged electrons leaves two more protons than electrons, producing X²⁺ without changing the nucleus.</p><h3>Marking guidance</h3><p>Award 1 mark for B. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "Gaining 2 electrons to form the ion X-2",
+      "Losing two electrons to form the ion X+2",
+      "Gaining two electrons to form the ion X+2",
+      "Losing two electrons to form the ion X-2"
+    ],
+    "optionsHtml": [
+      "<p>Gaining 2 electrons to form the ion X-2</p>",
+      "<p>Losing two electrons to form the ion X+2</p>",
+      "<p>Gaining two electrons to form the ion X+2</p>",
+      "<p>Losing two electrons to form the ion X-2</p>"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "science-y10-applecross-sem1-A5",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 5,
+    "sourceQuestionLabel": "5",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 1 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Atomic structure and the periodic table"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "For sodium written ²³₁₁Na, which statement is correct?",
+    "hash": "c5498544b9b5c9f2a40a3ee1ee1b8631ce2dad8414c7fed4664cc7cc4c69ef00",
+    "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+    "sourceKeyFile": "Y10ExamSem1,2017_Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem1.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>For sodium written ²³₁₁Na, which statement is correct?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>For ²³₁₁Na, A = 23 and Z = 11. Neutrons = 23 − 11 = 12.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "Its mass number is 23 and it has 11 neutrons",
+      "Its mass number is 11 and it has 11 neutrons",
+      "Its mass number is 23 and it has 12 neutrons",
+      "Its mass number is 11 and it has 12 neutrons"
+    ],
+    "optionsHtml": [
+      "<p>Its mass number is 23 and it has 11 neutrons</p>",
+      "<p>Its mass number is 11 and it has 11 neutrons</p>",
+      "<p>Its mass number is 23 and it has 12 neutrons</p>",
+      "<p>Its mass number is 11 and it has 12 neutrons</p>"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "science-y10-applecross-sem1-A6",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 6,
+    "sourceQuestionLabel": "6",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 1 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Chemical bonding"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Ionic bonds are formed between:",
+    "hash": "94665a553a57dd3b54a6bef834b4558204a171a2001b1016ab876cbbaa85c42b",
+    "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+    "sourceKeyFile": "Y10ExamSem1,2017_Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem1.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Ionic bonds are formed between:</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>In the standard school model, a metal transfers electrons to a non-metal, producing oppositely charged ions whose attraction is ionic bonding.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "Two metals",
+      "Two non-metals",
+      "A metal and a non-metal",
+      "All of the above"
+    ],
+    "optionsHtml": [
+      "<p>Two metals</p>",
+      "<p>Two non-metals</p>",
+      "<p>A metal and a non-metal</p>",
+      "<p>All of the above</p>"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "science-y10-applecross-sem1-A7",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 7,
+    "sourceQuestionLabel": "7",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 1 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Chemical equations"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Which chemical equation is correctly balanced?",
+    "hash": "0fb0907714e5abafe0e31b344cbf17efadda72463c00158c2fb519345fc0a8d8",
+    "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+    "sourceKeyFile": "Y10ExamSem1,2017_Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem1.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Which chemical equation is correctly balanced?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>P₄O₁₀ + 10C → P₄ + 10CO conserves 4 P, 10 O and 10 C atoms. The other equations are unbalanced as printed.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "CuO + 2C → Cu + 4CO₂",
+      "SO₂ + O₂ → SO₃",
+      "P₄O₁₀ + 10C → P₄ + 10CO",
+      "H₂S + O₂ → H₂O + SO₂"
+    ],
+    "optionsHtml": [
+      "<p>CuO + 2C → Cu + 4CO₂</p>",
+      "<p>SO₂ + O₂ → SO₃</p>",
+      "<p>P₄O₁₀ + 10C → P₄ + 10CO</p>",
+      "<p>H₂S + O₂ → H₂O + SO₂</p>"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "science-y10-applecross-sem1-A8",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 8,
+    "sourceQuestionLabel": "8",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 1 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Chemical sciences"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "The formula for aluminium sulphate is Al2(SO4)3. This tells us that there are:",
+    "hash": "c8115a55802c1aeedc3043c13d1b946d125ca42da3b56513dd7bc22cd77b3ef0",
+    "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+    "sourceKeyFile": "Y10ExamSem1,2017_Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem1.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>The formula for aluminium sulphate is Al2(SO4)3. This tells us that there are:</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Al₂(SO₄)₃ contains 2 Al + 3 S + 12 O = 17 atoms per formula unit. The sulfate subscript multiplies both S and O.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "2 aluminium atoms, 3 sulphur atoms and 4 oxygen atoms",
+      "1 aluminium atom, 2 sulphur atoms and 4 oxygen atoms",
+      "A total of 17 atoms in this ionic compound",
+      "A total of 3 atoms in this compound"
+    ],
+    "optionsHtml": [
+      "<p>2 aluminium atoms, 3 sulphur atoms and 4 oxygen atoms</p>",
+      "<p>1 aluminium atom, 2 sulphur atoms and 4 oxygen atoms</p>",
+      "<p>A total of 17 atoms in this ionic compound</p>",
+      "<p>A total of 3 atoms in this compound</p>"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "science-y10-applecross-sem1-A9",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 9,
+    "sourceQuestionLabel": "9",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 1 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Atomic structure and the periodic table"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "The modern periodic table places the elements in order of :",
+    "hash": "ae2696bc57eba6346fbbf6330f2aed5cf19f6009856b779ea1038176a3eb090f",
+    "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+    "sourceKeyFile": "Y10ExamSem1,2017_Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem1.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>The modern periodic table places the elements in order of :</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>The modern periodic table orders elements by increasing atomic number, not by atomic mass or density.</p><h3>Marking guidance</h3><p>Award 1 mark for B. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "Atomic mass",
+      "Atomic number",
+      "Number of neutrons",
+      "Number of electrons"
+    ],
+    "optionsHtml": [
+      "<p>Atomic mass</p>",
+      "<p>Atomic number</p>",
+      "<p>Number of neutrons</p>",
+      "<p>Number of electrons</p>"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "science-y10-applecross-sem1-A10",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 10,
+    "sourceQuestionLabel": "10",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 1 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Atomic structure and the periodic table"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Group 18 elements (noble gases) are unreactive because :",
+    "hash": "e6fd3a29526dfdb89b410748521231b2a6e2cf884fb23d808a615593cee83960",
+    "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+    "sourceKeyFile": "Y10ExamSem1,2017_Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem1.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Group 18 elements (noble gases) are unreactive because :</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>A full valence shell makes noble gases relatively stable and generally unreactive; merely being gaseous does not explain this.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "They are all gases",
+      "They form negative ions",
+      "They have a full outer (valence) shell",
+      "They are non-metals"
+    ],
+    "optionsHtml": [
+      "<p>They are all gases</p>",
+      "<p>They form negative ions</p>",
+      "<p>They have a full outer (valence) shell</p>",
+      "<p>They are non-metals</p>"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "science-y10-applecross-sem1-B1",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 1,
+    "sourceQuestionLabel": "1",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Science Semester 1 exam 2017",
+    "section": "Labelling",
+    "types": [
+      "Labelling"
+    ],
+    "responseTypes": [
+      "Labelling"
+    ],
+    "marks": 3,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Atomic structure and the periodic table"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "Draw a clearly labelled neutral oxygen-16 atom showing the location and number of protons, neutrons and electrons. [3]",
+    "hash": "0416063eee59ea08654ff3a77fed8f2bd03a2525e9a2fecf48da9c68938a8801",
+    "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+    "sourceKeyFile": "Y10ExamSem1,2017_Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem1.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Draw a clearly labelled neutral oxygen-16 atom showing the location and number of protons, neutrons and electrons. [3]</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>For oxygen-16, label a nucleus with 8 protons and 8 neutrons. [2] Draw 8 electrons outside it: 2 in the first shell and 6 in the second. [1] Proton number identifies oxygen; neutron number depends on isotope, so oxygen-16 is specified.</p><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 255\" role=\"img\" aria-label=\"Worked diagram\" style=\"max-width:100%;font:16px Arial\"><circle cx=\"170\" cy=\"130\" r=\"30\" fill=\"#fff0c9\" stroke=\"#235\"/><circle cx=\"170\" cy=\"130\" r=\"55\" fill=\"none\" stroke=\"#789\"/><circle cx=\"170\" cy=\"130\" r=\"95\" fill=\"none\" stroke=\"#789\"/><text x=\"145\" y=\"125\">8 p⁺</text><text x=\"145\" y=\"147\">8 n</text><circle cx=\"225.0\" cy=\"130.0\" r=\"5\" fill=\"#246\"/><circle cx=\"115.0\" cy=\"130.0\" r=\"5\" fill=\"#246\"/><circle cx=\"265.0\" cy=\"130.0\" r=\"5\" fill=\"#246\"/><circle cx=\"217.5\" cy=\"212.3\" r=\"5\" fill=\"#246\"/><circle cx=\"122.5\" cy=\"212.3\" r=\"5\" fill=\"#246\"/><circle cx=\"75.0\" cy=\"130.0\" r=\"5\" fill=\"#246\"/><circle cx=\"122.5\" cy=\"47.7\" r=\"5\" fill=\"#246\"/><circle cx=\"217.5\" cy=\"47.7\" r=\"5\" fill=\"#246\"/><text x=\"300\" y=\"90\">Oxygen-16</text><text x=\"300\" y=\"125\">Nucleus: 8 protons + 8 neutrons</text><text x=\"300\" y=\"160\">Electrons: 2 in shell 1; 6 in shell 2</text></svg><h3>Marking guidance</h3><p>Maximum 3 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": [],
+    "editorialNote": "Specified oxygen-16 because neutron number depends on isotope."
+  },
+  {
+    "id": "science-y10-applecross-sem1-B2",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 2,
+    "sourceQuestionLabel": "2",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Science Semester 1 exam 2017",
+    "section": "Short answer",
+    "types": [
+      "Short answer"
+    ],
+    "responseTypes": [
+      "Short answer"
+    ],
+    "marks": 4,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Atomic structure and the periodic table"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "Write electron configurations for (a) Na, (b) S²⁻, (c) Li⁺ and (d) Ar. [4]",
+    "hash": "90521c9d42e87a888707f282b3acf8166fa387a1236ab89bdd991808bb2948b6",
+    "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+    "sourceKeyFile": "Y10ExamSem1,2017_Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem1.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Write electron configurations for (a) Na, (b) S²⁻, (c) Li⁺ and (d) Ar. [4]</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>(a) Na: 11 electrons → 2,8,1. [1]</p><p>(b) S²⁻: 16 + 2 = 18 electrons → 2,8,8. [1]</p><p>(c) Li⁺: 3 − 1 = 2 electrons → 2. [1]</p><p>(d) Ar: 18 electrons → 2,8,8. [1]</p><h3>Marking guidance</h3><p>Maximum 4 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-sem1-B3",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 3,
+    "sourceQuestionLabel": "3",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Science Semester 1 exam 2017",
+    "section": "Multi-step",
+    "types": [
+      "Multi-step"
+    ],
+    "responseTypes": [
+      "Multi-step"
+    ],
+    "marks": 3,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Chemical equations"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "Balance: (a) Na + H₂O → NaOH + H₂; (b) CuS + O₂ → CuO + SO₂; (c) KClO₃ → KCl + O₂. [3]",
+    "hash": "48bc0718d9a11b396db39edc0ed17ccb86ab67140f2b9f2abf3745ffe6800ea4",
+    "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+    "sourceKeyFile": "Y10ExamSem1,2017_Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem1.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Balance: (a) Na + H₂O → NaOH + H₂; (b) CuS + O₂ → CuO + SO₂; (c) KClO₃ → KCl + O₂. [3]</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>(a) 2Na + 2H₂O → 2NaOH + H₂. [1]</p><p>(b) 2CuS + 3O₂ → 2CuO + 2SO₂. [1]</p><p>(c) 2KClO₃ → 2KCl + 3O₂. [1] Change coefficients, not formulas. Check each element separately: (b) has 2 Cu, 2 S and 6 O on each side; (c) has 2 K, 2 Cl and 6 O.</p><h3>Marking guidance</h3><p>Maximum 3 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-sem1-B4",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 4,
+    "sourceQuestionLabel": "4",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Science Semester 1 exam 2017",
+    "section": "Multi-step",
+    "types": [
+      "Multi-step"
+    ],
+    "responseTypes": [
+      "Multi-step"
+    ],
+    "marks": 4,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Chemical equations"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "When methane (CH4) is heated in the air it takes part in a combustion (burning) reaction with the oxygen (O2) from the air. The products of the reaction are carbon dioxide (CO2) and water vapour (H2O). a) Write a word equation for the reaction above. [1] b) Write a chemical equation to represent the reaction described above. [1] c) Balance the chemical equation you have written above. [1] d) Why do chemical equations have to be balanced? □ [1]",
+    "hash": "0bf4aa63d9164f94383edba308237b0009c74495fdb615f947a76bd00d107090",
+    "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+    "sourceKeyFile": "Y10ExamSem1,2017_Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem1.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>When methane (CH4) is heated in the air it takes part in a combustion (burning) reaction with the oxygen (O2) from the air. The products of the reaction are carbon dioxide (CO2) and water vapour (H2O).</p><p>a) Write a word equation for the reaction above.</p><p>[1]</p><p>b) Write a chemical equation to represent the reaction described above.</p><p>[1]</p><p>c) Balance the chemical equation you have written above. [1]</p><p>d) Why do chemical equations have to be balanced?</p><p>□ [1]</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>(a) methane + oxygen → carbon dioxide + water. [1]</p><p>(b) Skeleton: CH₄ + O₂ → CO₂ + H₂O. [1]</p><p>(c) Balance H then O: CH₄ + 2O₂ → CO₂ + 2H₂O. [1]</p><p>(d) Atoms are rearranged, not created or destroyed, so each element’s atom count must match and mass is conserved. [1]</p><h3>Marking guidance</h3><p>Maximum 4 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-sem1-B5",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 5,
+    "sourceQuestionLabel": "5",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Science Semester 1 exam 2017",
+    "section": "Short answer",
+    "types": [
+      "Short answer"
+    ],
+    "responseTypes": [
+      "Short answer"
+    ],
+    "marks": 4,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Chemical bonding"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "Sodium chloride is an ionic compound and cannot conduct electricity when solid; however, it can conduct when molten or dissolved in water. a) With reference to the structure of sodium chloride explain why solid sodium chloride does not conduct electricity. (You may use a diagram to help your explanation.) [2] b) With reference to the structure; explain why sodium chloride shatters if a force is applied. [2]",
+    "hash": "cfe7081415b308a4573207205606ea905f9f34be7b0b147ff5f81894702d9b06",
+    "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+    "sourceKeyFile": "Y10ExamSem1,2017_Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem1.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Sodium chloride is an ionic compound and cannot conduct electricity when solid; however, it can conduct when molten or dissolved in water.</p><p>a) With reference to the structure of sodium chloride explain why solid sodium chloride does not</p><p>conduct electricity. (You may use a diagram to help your explanation.)</p><p>[2]</p><p>b) With reference to the structure; explain why sodium chloride shatters if a force is applied.</p><p>[2]</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>(a) Solid NaCl is an ordered lattice of Na⁺ and Cl⁻. [1] The ions cannot move freely, so there are no mobile charge carriers; molten or dissolved ions can move. [1]</p><p>(b) A force can shift lattice layers. [1] Like charges then line up, repel strongly and split the crystal, making it brittle. [1]</p><h3>Marking guidance</h3><p>Maximum 4 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-sem1-B6",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 6,
+    "sourceQuestionLabel": "6",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Science Semester 1 exam 2017",
+    "section": "Short answer",
+    "types": [
+      "Short answer"
+    ],
+    "responseTypes": [
+      "Short answer"
+    ],
+    "marks": 4,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Chemical sciences"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "Using your data sheet to help you write the formula of each of the following compounds: a) Sodium bromide □ b) Calcium chloride □ c) Iron (II) bromide □ d) Potassium sulphide □ [4]",
+    "hash": "b43f08fbaccea86c395e5594814cb6f5e07456ece084c5de02366cf538c49739",
+    "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+    "sourceKeyFile": "Y10ExamSem1,2017_Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem1.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Using your data sheet to help you write the formula of each of the following compounds:</p><p>a) Sodium bromide □</p><p>b) Calcium chloride □</p><p>c) Iron (II) bromide □</p><p>d) Potassium sulphide □</p><p>[4]</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>(a) NaBr: Na⁺ balances Br⁻. [1]</p><p>(b) CaCl₂: Ca²⁺ needs two Cl⁻. [1]</p><p>(c) FeBr₂: Fe²⁺ (iron II) needs two Br⁻. [1]</p><p>(d) K₂S: two K⁺ balance S²⁻. [1]</p><h3>Marking guidance</h3><p>Maximum 4 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-sem1-B7",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 7,
+    "sourceQuestionLabel": "7",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Science Semester 1 exam 2017",
+    "section": "Calculations",
+    "types": [
+      "Calculations"
+    ],
+    "responseTypes": [
+      "Calculations"
+    ],
+    "marks": 2,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Chemical sciences"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "Calculate the average speed of a car travelling 100 km in two hours. Show working in m/s. [2]",
+    "hash": "47a5366c49f53136d656c99097babd0ec49f737dac6a602b5bd778716c2c42b1",
+    "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+    "sourceKeyFile": "Y10ExamSem1,2017_Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem1.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Calculate the average speed of a car travelling 100 km in two hours. Show working in m/s. [2]</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Convert 100 km = 100,000 m and 2 h = 7200 s. [1] Average speed = 100,000/7200 = 13.9 m/s. [1] The source only gives distance and no direction, so the practice wording uses speed rather than velocity.</p><h3>Marking guidance</h3><p>Maximum 2 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": [],
+    "editorialNote": "Changed velocity to speed because only distance and time are supplied."
+  },
+  {
+    "id": "science-y10-applecross-sem1-B8",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 8,
+    "sourceQuestionLabel": "8",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Science Semester 1 exam 2017",
+    "section": "Calculations",
+    "types": [
+      "Calculations"
+    ],
+    "responseTypes": [
+      "Calculations"
+    ],
+    "marks": 4,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Chemical sciences"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "Calculate the magnitude and direction of the net force in each of the four diagrams A–D. [1 each]",
+    "hash": "b5f4e9f35f83b237236c4a025a70396bec972c64825029792c06d1f60a6b6548",
+    "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+    "sourceKeyFile": "Y10ExamSem1,2017_Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 1,
+    "bankFile": "practice-studio-science-year10-sem1.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Calculate the magnitude and direction of the net force in each of the four diagrams A–D. [1 each]</p><figure><img src=\"assets/practice-science-year10/sem1-forces.png\" alt=\"sem1 forces\" loading=\"lazy\"></figure>",
+    "answerHtml": "<h3>Worked solution</h3><p>A: 20 N right − 15 N left = 5 N right. [1] B: equal 5 N up and down cancel: 0 N. [1] C: 5 N and 10 N both right: 15 N right. [1] D: 18 N up − 4 N down − 5 N down = 9 N up. [1]</p><h3>Marking guidance</h3><p>Maximum 4 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-sem1-B9",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 9,
+    "sourceQuestionLabel": "9",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Science Semester 1 exam 2017",
+    "section": "Calculations",
+    "types": [
+      "Calculations"
+    ],
+    "responseTypes": [
+      "Calculations"
+    ],
+    "marks": 6,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Chemical sciences"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Hard",
+    "mixed": false,
+    "text": "A car travels 40 km south down a bush track in half an hour. It comes to the main road and turns east. If it travels 30 km down the main road then stops 20 minutes later at a shop: a) Calculate the distance traveled. [2] b) Would the displacement be more, less or the same as the distance? □ Why? □ □ [2] c) Calculate the car’s average speed (in ms-1). [2] Show working.",
+    "hash": "d969ba614b4e9cc1bea6547fdd487ee0b20ec3a276e3cd6710d1cd57be56cacf",
+    "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+    "sourceKeyFile": "Y10ExamSem1,2017_Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem1.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>A car travels 40 km south down a bush track in half an hour. It comes to the main road and turns east. If it travels 30 km down the main road then stops 20 minutes later at a shop:</p><p>a) Calculate the distance traveled. [2]</p><p>b) Would the displacement be more, less or the same as the distance? □</p><p>Why? □ □ [2]</p><p>c) Calculate the car’s average speed (in ms-1). [2]</p><p>Show working.</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>(a) Distance = 40 + 30 = 70 km. [2]</p><p>(b) Displacement is shorter: √(40² + 30²) = 50 km compared with the 70 km two-leg route. [2]</p><p>(c) Time = 30 + 20 = 50 min = 3000 s. Average speed = 70,000/3000 = 23.3 m/s. [2]</p><h3>Marking guidance</h3><p>Maximum 6 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-sem1-B10",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 10,
+    "sourceQuestionLabel": "10",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Science Semester 1 exam 2017",
+    "section": "Calculations",
+    "types": [
+      "Calculations"
+    ],
+    "responseTypes": [
+      "Calculations"
+    ],
+    "marks": 4,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Chemical sciences"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "A bike travels 80 m North, then 60 m East. (a) Draw a vector diagram to show the resultant displacement. [1] (b) Calculate or measure the resultant displacement and include the direction. [3]",
+    "hash": "369984e8c1213309e1273a0a798030c3437defe00c6e8f02fc714e10a814f723",
+    "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+    "sourceKeyFile": "Y10ExamSem1,2017_Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem1.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>A bike travels 80 m North, then 60 m East.</p><p>(a) Draw a vector diagram to show the resultant displacement. [1]</p><p>(b) Calculate or measure the resultant displacement and include the direction. [3]</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>(a) Draw 80 m north then 60 m east head-to-tail, with resultant start to finish. [1]</p><p>(b) Magnitude = √(80² + 60²) = 100 m. [2] Direction = tan⁻¹(60/80) = 36.9° east of north, or 53.1° north of east. [1]</p><h3>Marking guidance</h3><p>Maximum 4 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-sem1-B11",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 11,
+    "sourceQuestionLabel": "11",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Science Semester 1 exam 2017",
+    "section": "Calculations",
+    "types": [
+      "Calculations"
+    ],
+    "responseTypes": [
+      "Calculations"
+    ],
+    "marks": 2,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Chemical sciences"
+    ],
+    "subtopics": [
+      "Chemical sciences"
+    ],
+    "strand": "Chemical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "A woman moves a couch 4 m across the room as she is rearranging the furniture. If the force required is 120 Newtons, how much work has she done? [2] Show working.",
+    "hash": "871ce2ac07806335178c1394028319f545725b80a502776ddb7e756a5d1f59e7",
+    "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+    "sourceKeyFile": "Y10ExamSem1,2017_Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem1.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>A woman moves a couch 4 m across the room as she is rearranging the furniture. If the force required is 120 Newtons, how much work has she done? [2] Show working.</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>W = Fs for parallel force and displacement. W = 120 × 4 = 480 J. [1 for substitution; 1 for correct answer with unit]</p><h3>Marking guidance</h3><p>Maximum 2 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-sem1-C1",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 1,
+    "sourceQuestionLabel": "1",
+    "sourceSection": "C",
+    "source": "Applecross Year 10 Science Semester 1 exam 2017",
+    "section": "Calculations",
+    "types": [
+      "Calculations"
+    ],
+    "responseTypes": [
+      "Calculations"
+    ],
+    "marks": 5,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Motion and measurement"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "A light year is actually a measure of distance. It is defined as the distance travelled by light in one year. If light travels at 300,000 km in each second and one year consists of 365 days, calculate Show working. a) the number of seconds in an hour. [1] b) the number of seconds in a day. [1] c) the number of seconds in a year. [1] d) the distance travelled by light in one year. [2]",
+    "hash": "68272efb0fededc81c95e821506eb4ab639ef9f6f6c8adf6e30c2d0f861ff3f7",
+    "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+    "sourceKeyFile": "Y10ExamSem1,2017_Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem1.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>A light year is actually a measure of distance. It is defined as the distance travelled by light in one year. If light travels at 300,000 km in each second and one year consists of 365 days, calculate Show working.</p><p>a) the number of seconds in an hour. [1]</p><p>b) the number of seconds in a day. [1]</p><p>c) the number of seconds in a year. [1]</p><p>d) the distance travelled by light in one year. [2]</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>(a) 60 × 60 = 3600 s per hour. [1]</p><p>(b) 24 × 3600 = 86,400 s per day. [1]</p><p>(c) 365 × 86,400 = 31,536,000 s per year. [1]</p><p>(d) d = vt = 300,000 × 31,536,000 = 9.4608 × 10¹² km = 9.4608 × 10¹⁵ m. [2] A light-year is a distance, not a time.</p><h3>Marking guidance</h3><p>Maximum 5 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-sem1-C2",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 2,
+    "sourceQuestionLabel": "2",
+    "sourceSection": "C",
+    "source": "Applecross Year 10 Science Semester 1 exam 2017",
+    "section": "Calculations",
+    "types": [
+      "Calculations"
+    ],
+    "responseTypes": [
+      "Calculations"
+    ],
+    "marks": 6,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Motion and measurement"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Hard",
+    "mixed": false,
+    "text": "(a) A javelin has a mass of 0.8 kg. In one throw, the javelin left the athlete’s hand at a velocity of 25 m/s. Calculate the kinetic energy of the javelin as it left the athlete’s hand. Show working. [3] (b) State the amount of work done by the athlete on the javelin to get it to a velocity of 25 m/s. [1] (c) The javelin travels in a parabolic path going up and then down as it moves horizontally. As it goes up, it gains □ energy. As it goes down, it gains □ energy. [2]",
+    "hash": "dfe9b3d8e2a87a061522b4fc52fc46abd1da2eb8f47c0e11276d264ff0cbb2dd",
+    "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+    "sourceKeyFile": "Y10ExamSem1,2017_Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem1.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>(a) A javelin has a mass of 0.8 kg.</p><p>In one throw, the javelin left the athlete’s hand at a velocity of 25 m/s. Calculate the kinetic energy of the javelin as it left the athlete’s hand. Show working. [3]</p><p>(b) State the amount of work done by the athlete on the javelin to get it to a velocity of 25 m/s.</p><p>[1]</p><p>(c) The javelin travels in a parabolic path going up and then down as it moves horizontally.</p><p>As it goes up, it gains □ energy. As it goes down, it gains □ energy. [2]</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>(a) Eₖ = ½mv² = 0.5 × 0.8 × 25² = 250 J. [3: formula, substitution, result]</p><p>(b) Net work from rest equals the kinetic-energy increase: 250 J. [1]</p><p>(c) Going up increases gravitational potential energy; going down increases kinetic energy. [2]</p><h3>Marking guidance</h3><p>Maximum 6 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-sem1-C3",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 3,
+    "sourceQuestionLabel": "3",
+    "sourceSection": "C",
+    "source": "Applecross Year 10 Science Semester 1 exam 2017",
+    "section": "Multi-step",
+    "types": [
+      "Multi-step"
+    ],
+    "responseTypes": [
+      "Multi-step"
+    ],
+    "marks": 4,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Forces and Newton’s laws"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "A 60 kg student weighing 600 N jumps from rest. The bungee cord becomes taut after a 50 m fall. (a) When does he first stop: before stretching, at greatest stretch, or when elastic potential energy is zero? [1] (b)(i) Calculate the gravitational potential energy change after 50 m. [1] (ii) State the force condition at maximum kinetic energy during the fall. [1] (iii) Why is kinetic energy immediately before the cord stretches likely to be less than the gravitational potential energy lost over the first 50 m? [1]",
+    "hash": "f6f9c762bee0c70454f29f47bff4835f3bfba045c32259a5f1613ae17d95c585",
+    "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+    "sourceKeyFile": "Y10ExamSem1,2017_Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem1.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>A 60 kg student weighing 600 N jumps from rest. The bungee cord becomes taut after a 50 m fall. (a) When does he first stop: before stretching, at greatest stretch, or when elastic potential energy is zero? [1] (b)(i) Calculate the gravitational potential energy change after 50 m. [1] (ii) State the force condition at maximum kinetic energy during the fall. [1] (iii) Why is kinetic energy immediately before the cord stretches likely to be less than the gravitational potential energy lost over the first 50 m? [1]</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>(a) At maximum cord stretch, the jumper is momentarily stationary. [1]</p><p>(b)(i) ΔEₚ = mgΔh = 60 × 10 × (−50) = −30,000 J, a loss of 30,000 J. [1]</p><p>(ii) Maximum speed and kinetic energy occur when net downward force becomes zero and then upward: approximately where cord tension balances weight, allowing for drag. This is generally after stretching starts. [1]</p><p>(iii) Air resistance transfers some energy to the surroundings during the first 50 m, so kinetic energy immediately before the cord stretches can be less than 30,000 J. [1]</p><h3>Marking guidance</h3><p>Maximum 4 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": [],
+    "editorialNote": "Corrected key maximum-speed statement; reworded final comparison to the first 50 m because the original maximum-energy comparison is not generally valid."
+  },
+  {
+    "id": "science-y10-applecross-sem1-C4",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 4,
+    "sourceQuestionLabel": "4",
+    "sourceSection": "C",
+    "source": "Applecross Year 10 Science Semester 1 exam 2017",
+    "section": "Multi-step",
+    "types": [
+      "Multi-step"
+    ],
+    "responseTypes": [
+      "Multi-step"
+    ],
+    "marks": 8,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Forces and Newton’s laws"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Hard",
+    "mixed": false,
+    "text": "A car travels on a level road. (a)(i) At constant velocity, how does friction compare with driving force? [1] (ii) For acceleration 12 m/s² over 4.0 s, find the velocity increase. [2] (c) A 1400 kg family car reaches 30 m/s from rest in 10 s; a 600 kg sports car does so in 5 s. Use calculations to explain how the sports car has greater acceleration but smaller net force. [3] (d) An unrestrained shopping bag rests on a passenger seat while the driver wears a seat belt. Explain what happens to both when the car brakes suddenly. [2]",
+    "hash": "d1b2f0bba70ae64782cbfd5b99788914e376298cf77a7f0e2c438127a56719e4",
+    "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+    "sourceKeyFile": "Y10ExamSem1,2017_Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem1.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>A car travels on a level road. (a)(i) At constant velocity, how does friction compare with driving force? [1] (ii) For acceleration 12 m/s² over 4.0 s, find the velocity increase. [2] (c) A 1400 kg family car reaches 30 m/s from rest in 10 s; a 600 kg sports car does so in 5 s. Use calculations to explain how the sports car has greater acceleration but smaller net force. [3] (d) An unrestrained shopping bag rests on a passenger seat while the driver wears a seat belt. Explain what happens to both when the car brakes suddenly. [2]</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>(a)(i) Friction equals driving force at constant velocity: net force is zero. [1]</p><p>(ii) Δv = at = 12 × 4.0 = 48 m/s. [2]</p><p>(c) Family car: a = 30/10 = 3 m/s² and F = 1400 × 3 = 4200 N. Sports car: a = 30/5 = 6 m/s² and F = 600 × 6 = 3600 N. [2] The sports car has greater acceleration but smaller net force because of its lower mass. [1]</p><p>(d) Inertia carries driver and bag forwards. The belt applies a restraining force to the driver; the unsecured bag may slide or fly forward. [2]</p><h3>Marking guidance</h3><p>Maximum 8 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-sem1-C5",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 5,
+    "sourceQuestionLabel": "5",
+    "sourceSection": "C",
+    "source": "Applecross Year 10 Science Semester 1 exam 2017",
+    "section": "Multi-step",
+    "types": [
+      "Multi-step"
+    ],
+    "responseTypes": [
+      "Multi-step"
+    ],
+    "marks": 12,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Forces and Newton’s laws"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Hard",
+    "mixed": false,
+    "text": "Sam cycles past stationary Joe at a constant 10 m/s. Joe waits 4 s before following. Use the velocity–time graph. (a)(i) Find Sam’s distance in 15 s. [2] (ii) When is the net force on Joe greater than on Sam? [1] (iii) How long does Joe accelerate? [1] (iv) Calculate Joe’s acceleration. [3] (b) Joe and his bike experience 100 N forwards and 30 N backwards. (i) Find the net horizontal force. [1] (ii) Find the weight for total mass 55 kg, using g = 10 N/kg. [2] (iii) Explain why removing a heavy bag makes acceleration easier. [2]",
+    "hash": "e61a7c1917b19f2a3e2c6763399ac9fdd20da39f554944fd36d7a62b8f34e516",
+    "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+    "sourceKeyFile": "Y10ExamSem1,2017_Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 2,
+    "bankFile": "practice-studio-science-year10-sem1.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Sam cycles past stationary Joe at a constant 10 m/s. Joe waits 4 s before following. Use the velocity–time graph. (a)(i) Find Sam’s distance in 15 s. [2] (ii) When is the net force on Joe greater than on Sam? [1] (iii) How long does Joe accelerate? [1] (iv) Calculate Joe’s acceleration. [3] (b) Joe and his bike experience 100 N forwards and 30 N backwards. (i) Find the net horizontal force. [1] (ii) Find the weight for total mass 55 kg, using g = 10 N/kg. [2] (iii) Explain why removing a heavy bag makes acceleration easier. [2]</p><figure><img src=\"assets/practice-science-year10/sem1-velocity.png\" alt=\"sem1 velocity\" loading=\"lazy\"></figure><figure><img src=\"assets/practice-science-year10/sem1-bike.png\" alt=\"sem1 bike\" loading=\"lazy\"></figure>",
+    "answerHtml": "<h3>Worked solution</h3><p>(a)(i) Sam: d = vt = 10 × 15 = 150 m. [2]</p><p>(ii) From 4 to 10 s Joe accelerates while Sam has zero acceleration, so Joe has greater net force. [1]</p><p>(iii) 10 − 4 = 6 s. [1]</p><p>(iv) a = (15 − 0)/6 = 2.5 m/s². [3]</p><p>(b)(i) F = 100 − 30 = 70 N forwards. [1]</p><p>(ii) Weight = mg = 55 × 10 = 550 N downwards. [2]</p><p>(iii) Removing the bag lowers mass; for the same resultant force, a = F/m increases. [2]</p><h3>Marking guidance</h3><p>Maximum 12 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-sem1-D1",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 1,
+    "sourceQuestionLabel": "1",
+    "sourceSection": "D",
+    "source": "Applecross Year 10 Science Semester 1 exam 2017",
+    "section": "Comprehension",
+    "types": [
+      "Comprehension"
+    ],
+    "responseTypes": [
+      "Comprehension"
+    ],
+    "marks": 15,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Forces and Newton’s laws"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Hard",
+    "mixed": false,
+    "text": "Read the passage and answer the following questions. The history of car safety The suggestion that today's cars are somehow inferior to their predecessors - the \"they don't make 'em like they used to\" argument - is one of the great fallacies of motoring. It's a particularly absurd view when it comes to safety. Next time you spot an older car, say one from the 1960s, have a look at the interior You'll see hard, unforgiving surfaces everywhere, sharp edges on the dash, a thin-rimmed wheel with, perhaps, a nice decorative metal bar for the horn. The driver's seat will be flat and unsupportive, with no head restraint. The roof pillars will be thin and unpadded on the inside. The windscreen will probably be unlaminated. Now picture yourself having a crash in the thing. Bear in mind that, if you were actually beamed back to that decade of full employment, Vietnam and flower power, you would probably not be wearing a seatbelt. The fact is that crashes from which, today, you would stand a better than even chance of walking away - low speed impacts, say less than 40km/h - often killed people in \"the good old days.\" Safety technology has accelerated, particularly during the past decade, driven by legislation, the engineering skills of the car makers themselves and, most importantly, by consumers demanding safer cars. Safety did not become a selling point for new cars until the late 1980s, but it certainly is now. Increased public awareness of the relative effectiveness of safety features in different models has been raised by the introduction of independent crash tests, particularly the New Car Assessment Program - NCAP - a worldwide crash test regime in which the NRMA and other groups are participants. While significant legislation such as the introduction of blood alcohol limits for driving has played a major role in reducing road crash injuries and deaths, the seat belt remains the invention which has saved more lives than any other. The seat belt Volvo can take the credit for being the first car maker to introduce the three point (lap/sash) seat belt as a standard fitting. It debuted on the Amazon and PV544 sedans of 1959. Victoria became the first state in the world to make seat belts (in the front seats) compulsory in 1970. NSW followed the year after. After seat belts became mandatory, a 50 per cent overall reduction was reported in the number of drivers per 100 vehicles being admitted to hospital. The basic seat belt design has now been made much more effective. The inertia reel initially minimised the problem of poor adjustment. It now incorporates in most cars a pre-tensioning mechanism, which during an impact tightens the belt to take slack out of the system and prevent excessive forward movement of the occupant. A load limiter, now also common, releases the belt in a controlled way when it senses that your body is being pressed so tight against it that injury may result. Car structures Our 1960s sedan was engineered with very little knowledge of how the destructive energy of a crash can be absorbed and dissipated to minimise harm to its occupants. Modern cars are specifically designed to do this, thanks to sophisticated computer simulation techniques which allow automotive engineers to create and crash \"virtual\" cars on their desktop. They can experiment with different body structures, and measure how effectively they absorb and reduce crash impact energy, in an accurate, timely, cost effective way that is not possible with real prototypes. Ultimately, however, they must check their computer models with an actual crash test. Today's car essentially consists of a strong, rigid passenger \"cell\" - the structure around the cabin - plus front and rear \"crumple zones,\" which, in an impact, deform in a controlled manner to absorb, spread and reduce the amount of energy generated by the crash itself, before it reaches the passenger compartment. The front end of a modern vehicle may well suffer more visible damage in a prang than its 1960s ancestor, but that's what it is supposed to do - \"the vehicle is sacrificed instead of the occupants\". Engines are, in some cases, now mounted so that in a frontal impact they slide underneath the floor, rather than being pushed into the cabin. At present, plenty of work is going into making vehicle structures more efficient at absorbing side impacts. This is a difficult area, because the point of impact is much closer to where the occupants are sitting and there is less structure to absorb energy. Airbags The airbag has made a significant contribution to reducing injury and death in crashes. It was originally developed in the late 1960s by General Motors in the USA. In Australia, Holden was the first local maker to introduce a driver's airbag on the 1993 VR Commodore. While front airbags are now standard on nearly every new vehicle, side airbags are also becoming very common. They provide extra protection to the upper body in a side-on impact, and in some models, including small cars, are also now supplemented with full length window bags, which drop from the roof and shield occupants' heads from direct contact with an intruding object or vehicle. The latest airbag technology also includes variable deployment, which measures the severity of an impact and can deploy the airbag at a commensurate speed and force. Some airbag systems can also \"read\" the size and weight of an occupant and take this into account. Passage extract copied from the NRMA website http://www.mynrma.com.au/motoring-services/safety-advice/safer-driving/history.htm (a) When did safety first become a selling point for new cars? [1] (b) (i) When was the first lap/sash seat belt put into a production car? [1] (ii) Where and when did seat belts first become compulsory? [2] (iii) What difference did compulsory seat belts make to hospital admissions? [1] (c) Use one of Newton’s laws and your physics knowledge to explain how a seat belt can help in a car accident. [3] (d) The structure of modern cars is a very important safety feature. (i) Explain the role of the rigid passenger cell. [2] (ii) Explain the role of crumple zones. [2] (e) Use another one of Newton’s laws and your knowledge of physics to explain how an air bag helps to protect passengers in a car accident. [3] End of Exam",
+    "hash": "7d4cd746a2fc77f421df5eece3abf98c2b3d0ae80208097961bcb603b844223e",
+    "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+    "sourceKeyFile": "Y10ExamSem1,2017_Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem1.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Read the passage and answer the following questions. The history of car safety The suggestion that today&#x27;s cars are somehow inferior to their predecessors - the &quot;they don&#x27;t make &#x27;em like they used to&quot; argument - is one of the great fallacies of motoring. It&#x27;s a particularly absurd view when it comes to safety. Next time you spot an older car, say one from the 1960s, have a look at the interior You&#x27;ll see hard, unforgiving surfaces everywhere, sharp edges on the dash, a thin-rimmed wheel with, perhaps, a nice decorative metal bar for the horn. The driver&#x27;s seat will be flat and unsupportive, with no head restraint. The roof pillars will be thin and unpadded on the inside. The windscreen will probably be unlaminated. Now picture yourself having a crash in the thing. Bear in mind that, if you were actually beamed back to that decade of full employment, Vietnam and flower power, you would probably not be wearing a seatbelt. The fact is that crashes from which, today, you would stand a better than even chance of walking away - low speed impacts, say less than 40km/h - often killed people in &quot;the good old days.&quot; Safety technology has accelerated, particularly during the past decade, driven by legislation, the engineering skills of the car makers themselves and, most importantly, by consumers demanding safer cars. Safety did not become a selling point for new cars until the late 1980s, but it certainly is now. Increased public awareness of the relative effectiveness of safety features in different models has been raised by the introduction of independent crash tests, particularly the New Car Assessment Program - NCAP - a worldwide crash test regime in which the NRMA and other groups are participants. While significant legislation such as the introduction of blood alcohol limits for driving has played a major role in reducing road crash injuries and deaths, the seat belt remains the invention which has saved more lives than any other. The seat belt Volvo can take the credit for being the first car maker to introduce the three point (lap/sash) seat belt as a standard fitting. It debuted on the Amazon and PV544 sedans of 1959. Victoria became the first state in the world to make seat belts (in the front seats) compulsory in 1970. NSW followed the year after. After seat belts became mandatory, a 50 per cent overall reduction was reported in the number of drivers per 100 vehicles being admitted to hospital. The basic seat belt design has now been made much more effective. The inertia reel initially minimised the problem of poor adjustment. It now incorporates in most cars a pre-tensioning mechanism, which during an impact tightens the belt to take slack out of the system and prevent excessive forward movement of the occupant. A load limiter, now also common, releases the belt in a controlled way when it senses that your body is being pressed so tight against it that injury may result. Car structures Our 1960s sedan was engineered with very little knowledge of how the destructive energy of a crash can be absorbed and dissipated to minimise harm to its occupants. Modern cars are specifically designed to do this, thanks to sophisticated computer simulation techniques which allow automotive engineers to create and crash &quot;virtual&quot; cars on their desktop. They can experiment with different body structures, and measure how effectively they absorb and reduce crash impact energy, in an accurate, timely, cost effective way that is not possible with real prototypes. Ultimately, however, they must check their computer models with an actual crash test. Today&#x27;s car essentially consists of a strong, rigid passenger &quot;cell&quot; - the structure around the cabin - plus front and rear &quot;crumple zones,&quot; which, in an impact, deform in a controlled manner to absorb, spread and reduce the amount of energy generated by the crash itself, before it reaches the passenger compartment. The front end of a modern vehicle may well suffer more visible damage in a prang than its 1960s ancestor, but that&#x27;s what it is supposed to do - &quot;the vehicle is sacrificed instead of the occupants&quot;. Engines are, in some cases, now mounted so that in a frontal impact they slide underneath the floor, rather than being pushed into the cabin. At present, plenty of work is going into making vehicle structures more efficient at absorbing side impacts. This is a difficult area, because the point of impact is much closer to where the occupants are sitting and there is less structure to absorb energy. Airbags The airbag has made a significant contribution to reducing injury and death in crashes. It was originally developed in the late 1960s by General Motors in the USA. In Australia, Holden was the first local maker to introduce a driver&#x27;s airbag on the 1993 VR Commodore. While front airbags are now standard on nearly every new vehicle, side airbags are also becoming very common. They provide extra protection to the upper body in a side-on impact, and in some models, including small cars, are also now supplemented with full length window bags, which drop from the roof and shield occupants&#x27; heads from direct contact with an intruding object or vehicle. The latest airbag technology also includes variable deployment, which measures the severity of an impact and can deploy the airbag at a commensurate speed and force. Some airbag systems can also &quot;read&quot; the size and weight of an occupant and take this into account. Passage extract copied from the NRMA website http://www.mynrma.com.au/motoring-services/safety-advice/safer-driving/history.htm</p><p>(a) When did safety first become a selling point for new cars? [1]</p><p>(b) (i) When was the first lap/sash seat belt put into a production car? [1]</p><p>(ii) Where and when did seat belts first become compulsory? [2]</p><p>(iii) What difference did compulsory seat belts make to hospital admissions? [1]</p><p>(c) Use one of Newton’s laws and your physics knowledge to explain how a seat belt can help in a car</p><p>accident. [3]</p><p>(d) The structure of modern cars is a very important safety feature.</p><p>(i) Explain the role of the rigid passenger cell. [2]</p><p>(ii) Explain the role of crumple zones. [2]</p><p>(e) Use another one of Newton’s laws and your knowledge of physics to explain how an air bag helps to</p><p>protect passengers in a car accident. [3] End of Exam</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>(a) Late 1980s. [1]</p><p>(b)(i) 1959. [1] (ii) Victoria, 1970. [2] (iii) The passage reports a 50% reduction in driver hospital admissions per 100 vehicles. [1]</p><p>(c) Newton’s first law: the occupant tends to keep moving forward as the car stops. [1] The belt provides the external force to slow the occupant [1], reducing collision with the interior or ejection. [1]</p><p>(d)(i) The rigid cell maintains survival space and resists crushing/intrusion. [2]</p><p>(ii) Crumple zones deform controllably, transferring kinetic energy into deformation and increasing stopping distance/time. [2]</p><p>(e) F = ma (Newton’s second law). [1] The airbag increases head/body stopping time, reducing deceleration for the same velocity change [1], so average force is lower; it also spreads contact force over a wider area. [1]</p><h3>Marking guidance</h3><p>Maximum 15 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  }
+]

@@ -1,0 +1,462 @@
+[
+  {
+    "id": "science-y10-applecross-phys-A1",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 1,
+    "sourceQuestionLabel": "1",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Physical Sciences topic test 2017",
+    "section": "Fill in the blanks",
+    "types": [
+      "Fill in the blanks"
+    ],
+    "responseTypes": [
+      "Fill in the blanks"
+    ],
+    "marks": 6,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Work energy and power"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Hard",
+    "mixed": false,
+    "text": "Complete the sentences below using the words in the box. (6 marks) created, destroyed, energy, kinetic, mass, motion, position, potential, power, transformed, work, work, Energy as the ability to do □ or make a change in the energy of another object. □ is done whenever one form of energy is □ into another. Gravitational Potential Energy is the energy of an object due to its □ and its Kinetic Energy is the energy of an object has due to its □ . □ is the rate at which work is done. A roller coaster loses □ energy and gains □ energy as it goes down a steep slope. The Law of Conservation of Energy states that energy cannot be □ , nor □ . It can only be transformed into other forms of □ .",
+    "hash": "022e876e177b58dd1f40f72064ceeaef42cfd706b8fa5ffe39a50d81583cbfa1",
+    "sourceFile": "Y10 PhysicsTest2017.docx",
+    "sourceKeyFile": "Y10PhysUnitTestSolns2017.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-phys.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Complete the sentences below using the words in the box. (6 marks) created, destroyed, energy, kinetic, mass, motion, position, potential, power, transformed, work, work, Energy as the ability to do □ or make a change in the energy of another object. □ is done whenever one form of energy is □ into another. Gravitational Potential Energy is the energy of an object due to its □ and its Kinetic Energy is the energy of an object has due to its □ . □ is the rate at which work is done. A roller coaster loses □ energy and gains □ energy as it goes down a steep slope. The Law of Conservation of Energy states that energy cannot be □ , nor □ . It can only be transformed into other forms of □ .</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Blanks in order: work; work; transformed; mass; position; motion; power; potential; kinetic; created; destroyed; energy. [½ each]</p><p>Eₚ = mgh depends on mass and position; Eₖ = ½mv² depends on motion. P = W/t measures work per time. Descending changes gravitational potential into kinetic and other forms while total energy is conserved.</p><h3>Marking guidance</h3><p>Maximum 6 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-phys-A2",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 2,
+    "sourceQuestionLabel": "2",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Physical Sciences topic test 2017",
+    "section": "Data / source analysis",
+    "types": [
+      "Data / source analysis"
+    ],
+    "responseTypes": [
+      "Data / source analysis"
+    ],
+    "marks": 4,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Work energy and power"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "Jane moves on a swing between the high turning points A and E, passing through B, C and D. Identify the point(s) with: (a) maximum potential energy; (b) minimum potential energy; (c) maximum kinetic energy; (d) zero kinetic energy. [4]",
+    "hash": "719c2771169512fe289d9a7d6813cfc21b71b6fe4145ee55ee777409243f97e2",
+    "sourceFile": "Y10 PhysicsTest2017.docx",
+    "sourceKeyFile": "Y10PhysUnitTestSolns2017.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 1,
+    "bankFile": "practice-studio-science-year10-phys.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Jane moves on a swing between the high turning points A and E, passing through B, C and D. Identify the point(s) with: (a) maximum potential energy; (b) minimum potential energy; (c) maximum kinetic energy; (d) zero kinetic energy. [4]</p><figure><img src=\"assets/practice-science-year10/phys-swing.png\" alt=\"phys swing\" loading=\"lazy\"></figure>",
+    "answerHtml": "<h3>Worked solution</h3><p>(a) A and E: greatest height and therefore maximum gravitational potential energy. [1]</p><p>(b) C: minimum height. [1]</p><p>(c) C: maximum speed and kinetic energy. [1]</p><p>(d) A and E: turning points with instantaneous zero speed and kinetic energy. [1] Ignore air resistance and friction.</p><h3>Marking guidance</h3><p>Maximum 4 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-phys-A3",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 3,
+    "sourceQuestionLabel": "3",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Physical Sciences topic test 2017",
+    "section": "Calculations",
+    "types": [
+      "Calculations"
+    ],
+    "responseTypes": [
+      "Calculations"
+    ],
+    "marks": 9,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Motion and measurement"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Hard",
+    "mixed": false,
+    "text": "Use the boy’s displacement–time graph. (a) Calculate velocity over the first 10 s. [2] (b) State velocity from 10 to 15 s. [1] (c) Find total distance in 75 s. [1] (d) Calculate average speed over 75 s. [2] (e) State displacement at 75 s. [1] (f) Calculate average velocity over 75 s. [2]",
+    "hash": "126de12fb8f0baaa10d7d1e784f1eb482ae764496e3a34dcecccf724f21cc8e1",
+    "sourceFile": "Y10 PhysicsTest2017.docx",
+    "sourceKeyFile": "Y10PhysUnitTestSolns2017.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 1,
+    "bankFile": "practice-studio-science-year10-phys.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Use the boy’s displacement–time graph. (a) Calculate velocity over the first 10 s. [2] (b) State velocity from 10 to 15 s. [1] (c) Find total distance in 75 s. [1] (d) Calculate average speed over 75 s. [2] (e) State displacement at 75 s. [1] (f) Calculate average velocity over 75 s. [2]</p><figure><img src=\"assets/practice-science-year10/phys-displacement.png\" alt=\"phys displacement\" loading=\"lazy\"></figure>",
+    "answerHtml": "<h3>Worked solution</h3><p>(a) Velocity = graph gradient = (20 − 0)/(10 − 0) = +2.0 m/s. [2]</p><p>(b) The horizontal segment from 10 to 15 s gives 0 m/s. [1]</p><p>(c) Total distance = 20 + 60 + 50 = 130 m, counting return travel positively. [1]</p><p>(d) Average speed = 130/75 = 1.73 m/s. [2]</p><p>(e) Final displacement = +30 m. [1]</p><p>(f) Average velocity = 30/75 = +0.40 m/s. [2]</p><h3>Marking guidance</h3><p>Maximum 9 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-phys-A4",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 4,
+    "sourceQuestionLabel": "4",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Physical Sciences topic test 2017",
+    "section": "Calculations",
+    "types": [
+      "Calculations"
+    ],
+    "responseTypes": [
+      "Calculations"
+    ],
+    "marks": 6,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Forces and Newton’s laws"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Hard",
+    "mixed": false,
+    "text": "A weightlifter lifts a barbell of mass 120 kg to a height of 2.0 m in 3 seconds. (a) Calculate the force needed to lift this mass. (use g = 10 m/s2) Show working. (2 marks) (b) How much work does the weightlifter do on the way up? Show working. (2 marks) (c) Calculate the power of the lift. Show working. (2 marks)",
+    "hash": "7988f77fef1b2a0793279885d22d72cd2d393187649063d05dcd5f7e9364c260",
+    "sourceFile": "Y10 PhysicsTest2017.docx",
+    "sourceKeyFile": "Y10PhysUnitTestSolns2017.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-phys.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>A weightlifter lifts a barbell of mass 120 kg to a height of 2.0 m in 3 seconds.</p><p>(a) Calculate the force needed to lift this mass. (use g = 10 m/s2) Show working.</p><p>(2 marks)</p><p>(b) How much work does the weightlifter do on the way up? Show working. (2 marks)</p><p>(c) Calculate the power of the lift. Show working. (2 marks)</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Assume a steady lift, with g = 10 m/s².</p><p>(a) F = mg = 120 × 10 = 1200 N upward. [2]</p><p>(b) W = Fh = 1200 × 2.0 = 2400 J. [2]</p><p>(c) P = W/t = 2400/3 = 800 W. [2] Each part earns credit for the equation/substitution and correct result with unit.</p><h3>Marking guidance</h3><p>Maximum 6 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-phys-A5",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 5,
+    "sourceQuestionLabel": "5",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Physical Sciences topic test 2017",
+    "section": "Calculations",
+    "types": [
+      "Calculations"
+    ],
+    "responseTypes": [
+      "Calculations"
+    ],
+    "marks": 8,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Motion and measurement"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Hard",
+    "mixed": false,
+    "text": "Use the car’s speed–time graph. (a) State speed at 30 s. [1] (b) Convert that speed to km/h. [1] (c) Calculate acceleration over the first 20 s. [2] (d) Calculate distance in 60 s. [2] (e) Calculate average speed over 60 s. [2]",
+    "hash": "92aa0f3ba9738a2fa7a5e5fdf1106a2f101e9e28dd83dc1de01452bdb243b5ca",
+    "sourceFile": "Y10 PhysicsTest2017.docx",
+    "sourceKeyFile": "Y10PhysUnitTestSolns2017.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 1,
+    "bankFile": "practice-studio-science-year10-phys.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Use the car’s speed–time graph. (a) State speed at 30 s. [1] (b) Convert that speed to km/h. [1] (c) Calculate acceleration over the first 20 s. [2] (d) Calculate distance in 60 s. [2] (e) Calculate average speed over 60 s. [2]</p><figure><img src=\"assets/practice-science-year10/phys-speed.png\" alt=\"phys speed\" loading=\"lazy\"></figure>",
+    "answerHtml": "<h3>Worked solution</h3><p>(a) Read 25 m/s at 30 s. [1]</p><p>(b) 25 × 3.6 = 90 km/h. [1]</p><p>(c) a = Δv/Δt = 25/20 = 1.25 m/s². [2]</p><p>(d) Distance is area under the graph: ½(20)(25) + (30)(25) + ½(10)(25) = 250 + 750 + 125 = 1125 m. [2]</p><p>(e) Average speed = 1125/60 = 18.75 m/s. [2]</p><h3>Marking guidance</h3><p>Maximum 8 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-phys-A6",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 6,
+    "sourceQuestionLabel": "6",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Physical Sciences topic test 2017",
+    "section": "Short answer",
+    "types": [
+      "Short answer"
+    ],
+    "responseTypes": [
+      "Short answer"
+    ],
+    "marks": 2,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Work energy and power"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "A 3.8 litre Holden Commodore is more powerful than a 1.8 litre Toyota Corolla. Explain what we mean by the ‘power’ of these cars. (2 marks)",
+    "hash": "f13912803e3d7cbb50716a1d3cc9bb8afa62c445f13f8d7604c813f1f0dc52ff",
+    "sourceFile": "Y10 PhysicsTest2017.docx",
+    "sourceKeyFile": "Y10PhysUnitTestSolns2017.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-phys.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>A 3.8 litre Holden Commodore is more powerful than a 1.8 litre Toyota Corolla. Explain what we mean by the ‘power’ of these cars. (2 marks)</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Power is the rate of doing work or transferring energy, P = W/t, measured in watts (J/s). [1] A more powerful engine transfers more useful energy each second or does the same work in less time. [1] Engine capacity alone does not establish every model’s power output.</p><h3>Marking guidance</h3><p>Maximum 2 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-phys-A7",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 7,
+    "sourceQuestionLabel": "7",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Physical Sciences topic test 2017",
+    "section": "Calculations",
+    "types": [
+      "Calculations"
+    ],
+    "responseTypes": [
+      "Calculations"
+    ],
+    "marks": 7,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Forces and Newton’s laws"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Hard",
+    "mixed": false,
+    "text": "A block with added brass weights is pulled 0.5 m along a bench at steady speed. Masses and pulling forces are: 100 g, 1.5 N; 150 g, 2.7 N; 180 g, 3.5 N. (a) Calculate the work done in each trial, using W = Fd. [3] (b) How much energy is transferred in the 150 g trial? [1] (c) Name the opposing contact force, where it acts and its direction. [3]",
+    "hash": "e2e5c91eaf6328b940c79011df6a638b4ea4a9b759e9aecea54c76d34b62ff26",
+    "sourceFile": "Y10 PhysicsTest2017.docx",
+    "sourceKeyFile": "Y10PhysUnitTestSolns2017.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-phys.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>A block with added brass weights is pulled 0.5 m along a bench at steady speed. Masses and pulling forces are: 100 g, 1.5 N; 150 g, 2.7 N; 180 g, 3.5 N. (a) Calculate the work done in each trial, using W = Fd. [3] (b) How much energy is transferred in the 150 g trial? [1] (c) Name the opposing contact force, where it acts and its direction. [3]</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>(a) W = Fd with d = 0.5 m. For 100 g: 1.5 × 0.5 = 0.75 J. For 150 g: 2.7 × 0.5 = 1.35 J. For 180 g: 3.5 × 0.5 = 1.75 J. [3]</p><p>(b) Energy transferred for 150 g is 1.35 J. [1]</p><p>(c) Friction [1] acts at the block–bench contact [1], opposite the motion [1]. At steady speed, pulling force balances friction.</p><h3>Marking guidance</h3><p>Maximum 7 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-phys-A8",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 8,
+    "sourceQuestionLabel": "8",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Physical Sciences topic test 2017",
+    "section": "Calculations",
+    "types": [
+      "Calculations"
+    ],
+    "responseTypes": [
+      "Calculations"
+    ],
+    "marks": 8,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Motion and measurement"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Hard",
+    "mixed": false,
+    "text": "A tennis ball has a mass of 60 grams (0.06 kg) and is thrown upwards to a height of 3.1 m as it is being served. The ball is then hit so it reaches a velocity of 210 km/h (58.33 m/s). g = 10 m/s2 (a) Calculate the ball’s gravitational potential energy at its highest point just before it is hit. Show working. (2 marks) (b) Calculate its kinetic energy after being hit. Show working. (2 marks) (c) The tennis player exerts 1600 Joules of energy to put the kinetic energy on the ball. Calculate the percentage efficiency of the player. (2 marks) (d) Use the Law of Conservation of Energy to explain why the ball has less energy than the player seems to have exerted on it. (2 marks)",
+    "hash": "8ba3df0347402acf3b9576d6677a0183968aed84e77c510e94ea74c1bf4c6d6c",
+    "sourceFile": "Y10 PhysicsTest2017.docx",
+    "sourceKeyFile": "Y10PhysUnitTestSolns2017.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-phys.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>A tennis ball has a mass of 60 grams (0.06 kg) and is thrown upwards to a height of 3.1 m as it is being served. The ball is then hit so it reaches a velocity of 210 km/h (58.33 m/s). g = 10 m/s2</p><p>(a) Calculate the ball’s gravitational potential energy at its highest point just</p><p>before it is hit. Show working. (2 marks)</p><p>(b) Calculate its kinetic energy after being hit. Show working. (2 marks)</p><p>(c) The tennis player exerts 1600 Joules of energy to put the kinetic energy on the ball.</p><p>Calculate the percentage efficiency of the player. (2 marks)</p><p>(d) Use the Law of Conservation of Energy to explain why the ball has less energy than the player seems</p><p>to have exerted on it. (2 marks)</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Use g = 10 m/s².</p><p>(a) Eₚ = mgh = 0.06 × 10 × 3.1 = 1.86 J. [2]</p><p>(b) Eₖ = ½mv² = 0.5 × 0.06 × 58.33² = 102.07 J ≈ 102 J. [2]</p><p>(c) Efficiency = output/input × 100 = 102.07/1600 × 100 = 6.38%. [2]</p><p>(d) Total energy is conserved. The remaining input is transferred to the player/racket’s motion, thermal energy, sound and other forms, so not all becomes the ball’s translational kinetic energy. [2]</p><h3>Marking guidance</h3><p>Maximum 8 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-phys-A9",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 9,
+    "sourceQuestionLabel": "9",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Physical Sciences topic test 2017",
+    "section": "Calculations",
+    "types": [
+      "Calculations"
+    ],
+    "responseTypes": [
+      "Calculations"
+    ],
+    "marks": 3,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Motion and measurement"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "A boy and toboggan have combined mass 120 kg and start from rest at A, 15 m high. C is 5.0 m above the same reference. Ignore friction and air resistance and take g = 10 m/s². Calculate the speed at C. [3]",
+    "hash": "b15f2e59da7f621d48b8ba6b271b425345f169298e236bf367c8237e88d8a9cd",
+    "sourceFile": "Y10 PhysicsTest2017.docx",
+    "sourceKeyFile": "Y10PhysUnitTestSolns2017.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 1,
+    "bankFile": "practice-studio-science-year10-phys.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>A boy and toboggan have combined mass 120 kg and start from rest at A, 15 m high. C is 5.0 m above the same reference. Ignore friction and air resistance and take g = 10 m/s². Calculate the speed at C. [3]</p><figure><img src=\"assets/practice-science-year10/phys-toboggan.png\" alt=\"phys toboggan\" loading=\"lazy\"></figure>",
+    "answerHtml": "<h3>Worked solution</h3><p>A is 15 m and C is 5 m above the same reference, so height lost = 10 m. [1] Ignoring resistive forces, mgΔh = ½mv². [1] v = √(2gΔh) = √(2 × 10 × 10) = 14.14 m/s ≈ 14 m/s. [1] Mass cancels; use height lost, not the original full height.</p><h3>Marking guidance</h3><p>Maximum 3 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-phys-A10",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 10,
+    "sourceQuestionLabel": "10",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Physical Sciences topic test 2017",
+    "section": "Comprehension",
+    "types": [
+      "Comprehension"
+    ],
+    "responseTypes": [
+      "Comprehension"
+    ],
+    "marks": 7,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Forces and Newton’s laws"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Hard",
+    "mixed": false,
+    "text": "Comprehension : Read the following passage and answer the questions that follow. CROSS-SECTION OF A CAR CRASH Because we use vehicles every day, it can be easy to forget that they are dangerous machines when handled incorrectly. In 2013, nearly 1200 people died on Australian roads. The danger vehicles pose comes down to physics. Cars are heavy objects travelling at speed; they have large amounts of kinetic energy that can have catastrophic results when unleashed during a crash. This energy cannot be destroyed – it can only be converted into other forms of energy. So when a car crashes and stops, the car and anything it collides with absorbs the energy. This transformation of energy crushes and deforms the car. Injuries can happen as the car is crushed, for example if the foot well collapses backwards into passengers’ legs. Passengers can also be injured when they are thrown forward against the inside of the car or outside of the car. This is a result of Newton’s First Law, the Law of Inertia, which states: An object at rest stays at rest and an object in motion stays in motion with the same speed and in the same direction unless acted upon by an unbalanced force. Question 10. Comprehension continued……… This means that as the car stops, the passengers in the car keep moving forward at speed. Deceleration (decrease in velocity) in itself can also be dangerous. Newton’s Second Law of Motion states that force (F) is equal to mass (m) times acceleration (a): F = ma. When cars experience a force when they accelerate or decelerate, the more quickly the speed changes, the larger the force will be. Normally a car takes several seconds to stop, and the deceleration forces are small. During a collision a car can stop within tens of milliseconds, making the forces very large. In bad accidents, these forces can be big enough to cause serious injury. Stopping distances and reaction times Accidents become more likely as speed increases because it takes longer – and consequently further – to stop. After spotting a hazard on the road, a driver typically takes 1.5 seconds to react and hit the brakes. It then takes time for the brakes to stop the car. For example, a car travelling at 60 km/h will travel approximately 56 metres before stopping. In some cases this isn’t quick enough to avoid crashing with another car or pedestrian. The kinetic energy that must be absorbed in a crash to avoid harm increases with velocity. Mathematically, kinetic energy (Ke) equals half the mass of the car (m) times the square of its velocity (v2), so the severity of any accident steadily increases according to how fast the car is travelling. Extract of article published by the NRMA. Speed increase Increase in Increased risk Speed (km/h) above 60 km/h kinetic of hospitalisation speed limit energy or death 65 + 8% + 17% X2 70 + 17% + 36% X4 75 + 25% + 56% X8 How dangerous is speeding? *from Kloeden CN, Ponte G & McLean AJ, Department of Transport and Regional Services Australian Transport Safety Bureau, 2001. (a) According to the article how many people died on Australian roads in 2013? (1 mark) (b) What happens to the kinetic energy when a car crashes and how can this be dangerous? (2 marks) (c) Why is the force greater when a car has to stop suddenly? (2 marks) (d) Why do accidents become more likely as speed increases? (2 marks)",
+    "hash": "5e35f5b3ac0894af69b4d6297bc242fe84b10d0ff2b3607a96b5775efbe3ff5f",
+    "sourceFile": "Y10 PhysicsTest2017.docx",
+    "sourceKeyFile": "Y10PhysUnitTestSolns2017.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-phys.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Comprehension : Read the following passage and answer the questions that follow. CROSS-SECTION OF A CAR CRASH Because we use vehicles every day, it can be easy to forget that they are dangerous machines when handled incorrectly. In 2013, nearly 1200 people died on Australian roads. The danger vehicles pose comes down to physics. Cars are heavy objects travelling at speed; they have large amounts of kinetic energy that can have catastrophic results when unleashed during a crash. This energy cannot be destroyed – it can only be converted into other forms of energy. So when a car crashes and stops, the car and anything it collides with absorbs the energy. This transformation of energy crushes and deforms the car. Injuries can happen as the car is crushed, for example if the foot well collapses backwards into passengers’ legs. Passengers can also be injured when they are thrown forward against the inside of the car or outside of the car. This is a result of Newton’s First Law, the Law of Inertia, which states: An object at rest stays at rest and an object in motion stays in motion with the same speed and in the same direction unless acted upon by an unbalanced force. Question 10. Comprehension continued……… This means that as the car stops, the passengers in the car keep moving forward at speed. Deceleration (decrease in velocity) in itself can also be dangerous. Newton’s Second Law of Motion states that force (F) is equal to mass (m) times acceleration (a): F = ma. When cars experience a force when they accelerate or decelerate, the more quickly the speed changes, the larger the force will be. Normally a car takes several seconds to stop, and the deceleration forces are small. During a collision a car can stop within tens of milliseconds, making the forces very large. In bad accidents, these forces can be big enough to cause serious injury. Stopping distances and reaction times Accidents become more likely as speed increases because it takes longer – and consequently further – to stop. After spotting a hazard on the road, a driver typically takes 1.5 seconds to react and hit the brakes. It then takes time for the brakes to stop the car. For example, a car travelling at 60 km/h will travel approximately 56 metres before stopping. In some cases this isn’t quick enough to avoid crashing with another car or pedestrian. The kinetic energy that must be absorbed in a crash to avoid harm increases with velocity. Mathematically, kinetic energy (Ke) equals half the mass of the car (m) times the square of its velocity (v2), so the severity of any accident steadily increases according to how fast the car is travelling. Extract of article published by the NRMA. Speed increase Increase in Increased risk Speed (km/h) above 60 km/h kinetic of hospitalisation speed limit energy or death 65 + 8% + 17% X2 70 + 17% + 36% X4 75 + 25% + 56% X8 How dangerous is speeding? *from Kloeden CN, Ponte G &amp; McLean AJ, Department of Transport and Regional Services Australian Transport Safety Bureau, 2001.</p><p>(a) According to the article how many people died on Australian roads in 2013? (1 mark)</p><p>(b) What happens to the kinetic energy when a car crashes and how can this be dangerous? (2 marks)</p><p>(c) Why is the force greater when a car has to stop suddenly? (2 marks)</p><p>(d) Why do accidents become more likely as speed increases? (2 marks)</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>(a) Nearly 1200 deaths, as reported for 2013 in the passage. [1]</p><p>(b) Kinetic energy transfers to deformation, heat, sound and other motion. [1] Deformation and forces can crush occupants or throw them against the interior. [1]</p><p>(c) Shorter stopping time gives greater deceleration, |a| = |Δv|/Δt. [1] F = ma then gives a greater net force for the same mass. [1]</p><p>(d) Higher speed increases distance travelled during reaction time [1] and generally increases braking distance, making hazards harder to avoid. [1]</p><h3>Marking guidance</h3><p>Maximum 7 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  }
+]

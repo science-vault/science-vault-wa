@@ -1,0 +1,3644 @@
+[
+  {
+    "id": "science-y10-applecross-sem2-A1",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 1,
+    "sourceQuestionLabel": "1",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Motion and measurement"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "What is the difference between an object’s speed and velocity?",
+    "hash": "e801c82b4657d1904671e1fee9301ef3d5e0305c1074064f992e2f72672e3663",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>What is the difference between an object’s speed and velocity?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Velocity includes direction and uses displacement per time; speed is distance per time and has no direction.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "Speed includes direction as well as the rate of travel",
+      "Velocity includes time during which travel occurred",
+      "Velocity includes direction of travel whereas speed does not",
+      "There is no difference"
+    ],
+    "optionsHtml": [
+      "<p>Speed includes direction as well as the rate of travel</p>",
+      "<p>Velocity includes time during which travel occurred</p>",
+      "<p>Velocity includes direction of travel whereas speed does not</p>",
+      "<p>There is no difference</p>"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "science-y10-applecross-sem2-A2",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 2,
+    "sourceQuestionLabel": "2",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Motion and measurement"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "A train moves at a constant velocity of 50 km/h. How far will it move in 30 minutes?",
+    "hash": "18e3654b20ee945e491734bdbfc53a1a4a3a3028f0403f97c78db2b2b8ab48ea",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>A train moves at a constant velocity of 50 km/h. How far will it move in 30 minutes?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>30 min = 0.5 h. Distance = vt = 50 × 0.5 = 25 km.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "10 km",
+      "20 km",
+      "25 km",
+      "50 km"
+    ],
+    "optionsHtml": [
+      "<p>10 km</p>",
+      "<p>20 km</p>",
+      "<p>25 km</p>",
+      "<p>50 km</p>"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "science-y10-applecross-sem2-A3",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 3,
+    "sourceQuestionLabel": "3",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Motion and measurement"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Use the position–time graph. What is the average speed from 0 s to 4 s?",
+    "hash": "7e1635dae6f133c5773d1e718c9e05ed8f82de57614c1cdd8d507b7d32b4bd1c",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 1,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Use the position–time graph. What is the average speed from 0 s to 4 s?</p><figure><img src=\"assets/practice-science-year10/sem2-position.png\" alt=\"sem2 position\" loading=\"lazy\"></figure>",
+    "answerHtml": "<h3>Worked solution</h3><p>From 0 to 4 s, position increases from 0 to 8 m. Speed = 8/4 = 2 m/s.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "0.5 m/s",
+      "1 m/s",
+      "2 m/s",
+      "4 m/s"
+    ],
+    "optionsHtml": [
+      "<p>0.5 m/s</p>",
+      "<p>1 m/s</p>",
+      "<p>2 m/s</p>",
+      "<p>4 m/s</p>"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "science-y10-applecross-sem2-A4",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 4,
+    "sourceQuestionLabel": "4",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Motion and measurement"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Use the position–time graph. What is the average speed from 4 s to 8 s?",
+    "hash": "70359ba8f8998b8a637d950333da57f660daee36b9b057376295b3908fcf2c0c",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 1,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Use the position–time graph. What is the average speed from 4 s to 8 s?</p><figure><img src=\"assets/practice-science-year10/sem2-position.png\" alt=\"sem2 position\" loading=\"lazy\"></figure>",
+    "answerHtml": "<h3>Worked solution</h3><p>From 4 to 8 s, position increases from 8 to 10 m. Speed = (10 − 8)/(8 − 4) = 0.5 m/s.</p><h3>Marking guidance</h3><p>Award 1 mark for B. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "0.2 m/s",
+      "0.5 m/s",
+      "2 m/s",
+      "9 m/s"
+    ],
+    "optionsHtml": [
+      "<p>0.2 m/s</p>",
+      "<p>0.5 m/s</p>",
+      "<p>2 m/s</p>",
+      "<p>9 m/s</p>"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "science-y10-applecross-sem2-A5",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 5,
+    "sourceQuestionLabel": "5",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Motion and measurement"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Use the position–time graph. What is the position at 6 s?",
+    "hash": "d3455f02d918d6fa90d72dc831564300445eaccf5f8ccea1db00e4c37ca5f733",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 1,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Use the position–time graph. What is the position at 6 s?</p><figure><img src=\"assets/practice-science-year10/sem2-position.png\" alt=\"sem2 position\" loading=\"lazy\"></figure>",
+    "answerHtml": "<h3>Worked solution</h3><p>At 6 s the position is halfway between 8 m at 4 s and 10 m at 8 s, giving 9 m.</p><h3>Marking guidance</h3><p>Award 1 mark for D. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "2 m",
+      "3 m",
+      "8 m",
+      "9 m"
+    ],
+    "optionsHtml": [
+      "<p>2 m</p>",
+      "<p>3 m</p>",
+      "<p>8 m</p>",
+      "<p>9 m</p>"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "science-y10-applecross-sem2-A6",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 6,
+    "sourceQuestionLabel": "6",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Forces and Newton’s laws"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "A driver who was not wearing a seat belt accidently crashes his car into the back of another car that had stopped at a set of traffic lights. The driver was flung forward into the windscreen. Which of Newton’s Laws of Motion would best describes what happened to the driver?",
+    "hash": "4448ac2ea4c46bddd2196d53eafb81ee2deb5bf03598752ed0e3af7eb7c4a50f",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>A driver who was not wearing a seat belt accidently crashes his car into the back of another car that had stopped at a set of traffic lights. The driver was flung forward into the windscreen. Which of Newton’s Laws of Motion would best describes what happened to the driver?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Newton’s first law explains the driver continuing forward as the car stops; the windscreen then supplies the stopping force if no belt restrains the driver.</p><h3>Marking guidance</h3><p>Award 1 mark for A. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "First Law",
+      "Second Law",
+      "Third Law",
+      "Fourth Law"
+    ],
+    "optionsHtml": [
+      "<p>First Law</p>",
+      "<p>Second Law</p>",
+      "<p>Third Law</p>",
+      "<p>Fourth Law</p>"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "science-y10-applecross-sem2-A7",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 7,
+    "sourceQuestionLabel": "7",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Motion and measurement"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "A motorcyclist takes off from rest at a set of traffic lights and reaches a speed of 72 km/h in 4 seconds. The average acceleration is:",
+    "hash": "d985c497e6aeb3373066f44a7cb00dd571226f0f5014354d2acf20967ed912a7",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>A motorcyclist takes off from rest at a set of traffic lights and reaches a speed of 72 km/h in 4 seconds. The average acceleration is:</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>72 km/h ÷ 3.6 = 20 m/s. Acceleration = (20 − 0)/4 = 5 m/s².</p><h3>Marking guidance</h3><p>Award 1 mark for B. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "5 km/h/s",
+      "5 m/s²",
+      "18 km/s²",
+      "−5 m/s²"
+    ],
+    "optionsHtml": [
+      "<p>5 km/h/s</p>",
+      "<p>5 m/s²</p>",
+      "<p>18 km/s²</p>",
+      "<p>−5 m/s²</p>"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "science-y10-applecross-sem2-A8",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 8,
+    "sourceQuestionLabel": "8",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "If an astronaut, freely floating in space, tries to throw away an empty fuel container that has the same mass as the astronaut, what will happen to the astronaut?",
+    "hash": "2415ad542e2211d67b21451141b972690f72c888fa181df7319f6aace6679b03",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>If an astronaut, freely floating in space, tries to throw away an empty fuel container that has the same mass as the astronaut, what will happen to the astronaut?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>The astronaut and container exert equal opposite forces. With equal masses and initially zero total momentum, they move at equal speeds in opposite directions.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "Nothing. The astronaut will stay still and the container will fly away at the speed given to it by the astronaut’s throw.",
+      "The astronaut will recoil slightly but quickly stop while the container continues moving away at a constant speed.",
+      "The astronaut moves away in an opposite direction just as fast as the container moves.",
+      "Nothing happens to the astronaut or container. The astronaut cannot throw the container with no firm ground to stand on."
+    ],
+    "optionsHtml": [
+      "<p>Nothing. The astronaut will stay still and the container will fly away at the speed given to it by the astronaut’s throw.</p>",
+      "<p>The astronaut will recoil slightly but quickly stop while the container continues moving away at a constant speed.</p>",
+      "<p>The astronaut moves away in an opposite direction just as fast as the container moves.</p>",
+      "<p>Nothing happens to the astronaut or container. The astronaut cannot throw the container with no firm ground to stand on.</p>"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "science-y10-applecross-sem2-A9",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 9,
+    "sourceQuestionLabel": "9",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "The atomic number of an element is;",
+    "hash": "44108d5d0544126da6bab1a29761ae9a4d0ab74e4e4a5812a9b03985237e41fb",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>The atomic number of an element is;</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Atomic number is proton number. Electron loss changes charge, not element identity.</p><h3>Marking guidance</h3><p>Award 1 mark for A. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "the number of protons in the element",
+      "the number of neutrons in the element",
+      "the number of electrons in the element",
+      "any one of the above"
+    ],
+    "optionsHtml": [
+      "<p>the number of protons in the element</p>",
+      "<p>the number of neutrons in the element</p>",
+      "<p>the number of electrons in the element</p>",
+      "<p>any one of the above</p>"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "science-y10-applecross-sem2-A10",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 10,
+    "sourceQuestionLabel": "10",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "When magnesium reacts with hydrochloric acid, the following reaction occurs. Mg + xHCl → MgCl2 + H2 The value of x in the balanced equation is:",
+    "hash": "cf4acdaf545aad1e1443d9fbf55315419e2cb0e2597cf3e9b246c156a032c0e6",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>When magnesium reacts with hydrochloric acid, the following reaction occurs. Mg + xHCl → MgCl2 + H2 The value of x in the balanced equation is:</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Mg + 2HCl → MgCl₂ + H₂ conserves each atom, giving x = 2.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "0.5",
+      "1",
+      "2",
+      "3"
+    ],
+    "optionsHtml": [
+      "<p>0.5</p>",
+      "<p>1</p>",
+      "<p>2</p>",
+      "<p>3</p>"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "science-y10-applecross-sem2-A11",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 11,
+    "sourceQuestionLabel": "11",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "When an atom loses an electron:",
+    "hash": "a1e5bcfbeac9492c5f4f17c97b57b06422a022a1b9cd725f92fc7787979514ac",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>When an atom loses an electron:</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Electron loss removes negative charge, leaving a positive ion. Proton number remains unchanged.</p><h3>Marking guidance</h3><p>Award 1 mark for A. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "a positive ion is formed",
+      "a negative ion is formed",
+      "the atomic number decreases by one",
+      "an isotope is formed"
+    ],
+    "optionsHtml": [
+      "<p>a positive ion is formed</p>",
+      "<p>a negative ion is formed</p>",
+      "<p>the atomic number decreases by one</p>",
+      "<p>an isotope is formed</p>"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "science-y10-applecross-sem2-A12",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 12,
+    "sourceQuestionLabel": "12",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Which of the following is a correctly balanced molecular equation?",
+    "hash": "808de4a3ba750f5a2395577941ec1d45f24d5b360a1afea14ac8e0ff2cf720fb",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Which of the following is a correctly balanced molecular equation?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>P₄O₁₀ + 10C → P₄ + 10CO has 4 P, 10 O and 10 C on each side.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "CuO + 2C → Cu + 4CO₂",
+      "SO₂ + O₂ → SO₃",
+      "P₄O₁₀ + 10C → P₄ + 10CO",
+      "H₂S + O₂ → H₂O + SO₂"
+    ],
+    "optionsHtml": [
+      "<p>CuO + 2C → Cu + 4CO₂</p>",
+      "<p>SO₂ + O₂ → SO₃</p>",
+      "<p>P₄O₁₀ + 10C → P₄ + 10CO</p>",
+      "<p>H₂S + O₂ → H₂O + SO₂</p>"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "science-y10-applecross-sem2-A13",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 13,
+    "sourceQuestionLabel": "13",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Which statement correctly describes molecules?",
+    "hash": "5a7a63f35fbd33ab3af56b1fdce24ba715bed3f4a0ecbc5c6a77d01e1a4cd14c",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Which statement correctly describes molecules?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>A molecule is a discrete group of two or more chemically bonded atoms, which may be the same or different elements.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "are always groups of atoms of the same element",
+      "are always groups of atoms of different elements",
+      "are made up of two or more atoms chemically bonded together",
+      "are made up of atoms of different charges"
+    ],
+    "optionsHtml": [
+      "<p>are always groups of atoms of the same element</p>",
+      "<p>are always groups of atoms of different elements</p>",
+      "<p>are made up of two or more atoms chemically bonded together</p>",
+      "<p>are made up of atoms of different charges</p>"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "science-y10-applecross-sem2-A14",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 14,
+    "sourceQuestionLabel": "14",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Isotopes are atoms which have",
+    "hash": "64d8cfb1d544e131a7d597287240a83df24688686af4c70ca5a54697b792ad04",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Isotopes are atoms which have</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Isotopes have the same proton number but different neutron numbers, giving different mass numbers.</p><h3>Marking guidance</h3><p>Award 1 mark for D. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "the same number of electrons but different numbers of protons",
+      "the same number of neutrons but different numbers of protons",
+      "the same number of protons but different numbers of electrons",
+      "the same number of protons but different numbers of neutrons."
+    ],
+    "optionsHtml": [
+      "<p>the same number of electrons but different numbers of protons</p>",
+      "<p>the same number of neutrons but different numbers of protons</p>",
+      "<p>the same number of protons but different numbers of electrons</p>",
+      "<p>the same number of protons but different numbers of neutrons.</p>"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "science-y10-applecross-sem2-A15",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 15,
+    "sourceQuestionLabel": "15",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "An atom of the element whose chemical symbol is X has 2 electrons in its outer shell. In the formation of a chemical compound with another element, each atom of X would be most likely to form an ion by",
+    "hash": "daf7b878c27605ffbea0028a830788b7363b56fcfabd5453da847a0fbc0611d8",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>An atom of the element whose chemical symbol is X has 2 electrons in its outer shell. In the formation of a chemical compound with another element, each atom of X would be most likely to form an ion by</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Loss of two valence electrons gives X²⁺. Chemical bonding does not normally remove protons from the nucleus.</p><h3>Marking guidance</h3><p>Award 1 mark for B. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "gaining 2 electrons to form the ion X-2",
+      "losing 2 electrons to form the ion X+2",
+      "gaining 2 protons to form the ion X+2",
+      "losing 2 protons to form the ion X-2"
+    ],
+    "optionsHtml": [
+      "<p>gaining 2 electrons to form the ion X-2</p>",
+      "<p>losing 2 electrons to form the ion X+2</p>",
+      "<p>gaining 2 protons to form the ion X+2</p>",
+      "<p>losing 2 protons to form the ion X-2</p>"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "science-y10-applecross-sem2-A16",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 16,
+    "sourceQuestionLabel": "16",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Which of the following is a noble gas?",
+    "hash": "5ea6028b8c3cf00ec67358c3783b4f62afee1d9c192df117116f5ad356e13f99",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Which of the following is a noble gas?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Neon is in group 18 and has a complete valence shell; nitrogen, chlorine and oxygen are not noble gases.</p><h3>Marking guidance</h3><p>Award 1 mark for A. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "Neon",
+      "Nitrogen",
+      "Chlorine",
+      "Oxygen"
+    ],
+    "optionsHtml": [
+      "<p>Neon</p>",
+      "<p>Nitrogen</p>",
+      "<p>Chlorine</p>",
+      "<p>Oxygen</p>"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "science-y10-applecross-sem2-A17",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 17,
+    "sourceQuestionLabel": "17",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Which one of the elements below is in Period 4 of the Periodic Table?",
+    "hash": "fe9f0c17b93e81200f791c215240056ac13feb117a5dce05f115a7a049bd9153",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Which one of the elements below is in Period 4 of the Periodic Table?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Cobalt (Co) is in period 4. Mg is in period 3; C and O are in period 2.</p><h3>Marking guidance</h3><p>Award 1 mark for B. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "Mg",
+      "Co",
+      "C",
+      "O"
+    ],
+    "optionsHtml": [
+      "<p>Mg</p>",
+      "<p>Co</p>",
+      "<p>C</p>",
+      "<p>O</p>"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "science-y10-applecross-sem2-A18",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 18,
+    "sourceQuestionLabel": "18",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "For sodium written ²³₁₁Na, which statement is correct?",
+    "hash": "478e59b0a58ea82dbca043b657c8db68cad1ff8fb14b2a0df050d69fb426c17e",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>For sodium written ²³₁₁Na, which statement is correct?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>²³₁₁Na has mass number 23 and 23 − 11 = 12 neutrons.</p><h3>Marking guidance</h3><p>Award 1 mark for D. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "a mass number of 23 and 11 neutrons.",
+      "a mass number of 11 and 11 neutrons.",
+      "a mass number of 11 and 12 neutrons.",
+      "a mass number of 23 and 12 neutrons."
+    ],
+    "optionsHtml": [
+      "<p>a mass number of 23 and 11 neutrons.</p>",
+      "<p>a mass number of 11 and 11 neutrons.</p>",
+      "<p>a mass number of 11 and 12 neutrons.</p>",
+      "<p>a mass number of 23 and 12 neutrons.</p>"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "science-y10-applecross-sem2-A19",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 19,
+    "sourceQuestionLabel": "19",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "An element “X” can form two ions, X+ and X2+. This suggests that “X” could form the following compounds: i) XCl ii) X3Cl iii) XCl3 iv) XCl5 v) XCl2",
+    "hash": "323a321aae5c650a3e047a35816450e372841f06351c4325a144879349b29dc0",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>An element “X” can form two ions, X+ and X2+. This suggests that “X” could form the following compounds:</p><p>i) XCl ii) X3Cl iii) XCl3 iv) XCl5 v) XCl2</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>X⁺ combines with Cl⁻ as XCl; X²⁺ combines with two Cl⁻ as XCl₂. Therefore i and v are charge-balanced.</p><h3>Marking guidance</h3><p>Award 1 mark for A. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "i and v",
+      "ii and iii",
+      "ii and iv",
+      "iii and v"
+    ],
+    "optionsHtml": [
+      "<p>i and v</p>",
+      "<p>ii and iii</p>",
+      "<p>ii and iv</p>",
+      "<p>iii and v</p>"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "science-y10-applecross-sem2-A20",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 20,
+    "sourceQuestionLabel": "20",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "A positive ion of the atom of an element has",
+    "hash": "236e8a8d286d22cea56c2cd1111fe418b19c4acdd5662bed507145b691d12756",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>A positive ion of the atom of an element has</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>A positive ion has fewer electrons than the corresponding neutral atom; its proton number is unchanged.</p><h3>Marking guidance</h3><p>Award 1 mark for B. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "the same number of electrons as the normal atom of that element.",
+      "less electrons than the normal atom of that element.",
+      "more electrons than the normal atom of that element.",
+      "more protons than the normal atom of that element."
+    ],
+    "optionsHtml": [
+      "<p>the same number of electrons as the normal atom of that element.</p>",
+      "<p>less electrons than the normal atom of that element.</p>",
+      "<p>more electrons than the normal atom of that element.</p>",
+      "<p>more protons than the normal atom of that element.</p>"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "science-y10-applecross-sem2-A21",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 21,
+    "sourceQuestionLabel": "21",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "An ionic bond is formed between",
+    "hash": "617c2cdac8dfb1a574754dae64ea2ae0ebab805a8c9590e954d72e894e14b991",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>An ionic bond is formed between</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Metal–non-metal bonding is treated as ionic in the school model: electron transfer forms attracting positive and negative ions.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "metallic atoms.",
+      "non-metallic atoms.",
+      "a metallic and non-metallic atom.",
+      "identical atoms of the same element."
+    ],
+    "optionsHtml": [
+      "<p>metallic atoms.</p>",
+      "<p>non-metallic atoms.</p>",
+      "<p>a metallic and non-metallic atom.</p>",
+      "<p>identical atoms of the same element.</p>"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "science-y10-applecross-sem2-A22",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 22,
+    "sourceQuestionLabel": "22",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "A covalent bond can be formed between i) a silver atom and a chlorine atom ii) two silver atoms iii) two chlorine atoms iv) a chlorine atom and a hydrogen atom v) a hydrogen atom and a silver atom.",
+    "hash": "944a59a26347562f07e8c7a8ad72d52810415e4b349aa2db83f2718f54818d69",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>A covalent bond can be formed between</p><p>i) a silver atom and a chlorine atom</p><p>ii) two silver atoms iii) two chlorine atoms iv) a chlorine atom and a hydrogen atom v) a hydrogen atom and a silver atom.</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Cl–Cl and H–Cl involve electron sharing between non-metal atoms and are covalent; these are iii and iv.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "i and ii",
+      "ii and iv",
+      "iii and iv",
+      "iv and v"
+    ],
+    "optionsHtml": [
+      "<p>i and ii</p>",
+      "<p>ii and iv</p>",
+      "<p>iii and iv</p>",
+      "<p>iv and v</p>"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "science-y10-applecross-sem2-A23",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 23,
+    "sourceQuestionLabel": "23",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "In humans, a nerve cell has 46 single chromosomes. How many single chromosomes are found in a gamete?",
+    "hash": "6000d5fe8bba989678a01b9458946061750f1ead14680547f5de73f50c7cf93a",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>In humans, a nerve cell has 46 single chromosomes. How many single chromosomes are found in a gamete?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>A normal human body cell has 46 chromosomes; meiosis makes haploid gametes with 23.</p><h3>Marking guidance</h3><p>Award 1 mark for B. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "46",
+      "23",
+      "92",
+      "12 + 1"
+    ],
+    "optionsHtml": [
+      "<p>46</p>",
+      "<p>23</p>",
+      "<p>92</p>",
+      "<p>12 + 1</p>"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "science-y10-applecross-sem2-A24",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 24,
+    "sourceQuestionLabel": "24",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Long radishes crossed with round radishes result in all oval radishes. This type of inheritance is",
+    "hash": "121d93e649f1ef057f701fd4f50e89ae1da97c3d9f3763b8d65a410336a6d163",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Long radishes crossed with round radishes result in all oval radishes. This type of inheritance is</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>The heterozygote is intermediate between long and round: oval. This is incomplete dominance.</p><h3>Marking guidance</h3><p>Award 1 mark for D. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "multiple alleles",
+      "compromise",
+      "complete dominance",
+      "incomplete dominance"
+    ],
+    "optionsHtml": [
+      "<p>multiple alleles</p>",
+      "<p>compromise</p>",
+      "<p>complete dominance</p>",
+      "<p>incomplete dominance</p>"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "science-y10-applecross-sem2-A25",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 25,
+    "sourceQuestionLabel": "25",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "If two white sheep produce a black offspring, the parents’ genotype for colour can be",
+    "hash": "335a7a46eb0fde28283b78ac1c1c66580aab818b1615e410beef07c02a47bfd0",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>If two white sheep produce a black offspring, the parents’ genotype for colour can be</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>White parents producing a black recessive offspring must both carry the recessive allele: Ww × Ww can produce ww.</p><h3>Marking guidance</h3><p>Award 1 mark for A. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "heterozygous white",
+      "homozygous black",
+      "homozygous white",
+      "determined only with more information."
+    ],
+    "optionsHtml": [
+      "<p>heterozygous white</p>",
+      "<p>homozygous black</p>",
+      "<p>homozygous white</p>",
+      "<p>determined only with more information.</p>"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "science-y10-applecross-sem2-A26",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 26,
+    "sourceQuestionLabel": "26",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Tongue rolling is due to the dominant gene ‘R’ and the inability to roll your tongue is due to the gene ‘r’. Which of the following pairs of parents could produce a NON- tongue roller?",
+    "hash": "59d234c675c4fa250f9433f57ea891d61f8260f9d9ad21c071e4a471462986cf",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Tongue rolling is due to the dominant gene ‘R’ and the inability to roll your tongue is due to the gene ‘r’. Which of the following pairs of parents could produce a NON- tongue roller?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>A non-roller is rr and needs r from each parent. Only Rr × Rr among these choices can produce rr.</p><h3>Marking guidance</h3><p>Award 1 mark for D. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "RR & RR",
+      "RR & rr",
+      "RR & Rr",
+      "Rr & Rr"
+    ],
+    "optionsHtml": [
+      "<p>RR &amp; RR</p>",
+      "<p>RR &amp; rr</p>",
+      "<p>RR &amp; Rr</p>",
+      "<p>Rr &amp; Rr</p>"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "science-y10-applecross-sem2-A27",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 27,
+    "sourceQuestionLabel": "27",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Male and female humans vary in their sex chromosomes. Which of the following is most CORRECT?",
+    "hash": "9e2e4044bf28138d17d84b7943f129be65eb6503fdf95c7e3ec2ce541c7a27ac",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Male and female humans vary in their sex chromosomes. Which of the following is most CORRECT?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>In the simplified XX/XY model, an egg contributes X and sperm contribute X or Y. This model does not encompass every variation in human sex development.</p><h3>Marking guidance</h3><p>Award 1 mark for B. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "XY is female",
+      "XY is male",
+      "XX is male",
+      "YY is female"
+    ],
+    "optionsHtml": [
+      "<p>XY is female</p>",
+      "<p>XY is male</p>",
+      "<p>XX is male</p>",
+      "<p>YY is female</p>"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "science-y10-applecross-sem2-A28",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 28,
+    "sourceQuestionLabel": "28",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Rabbits may have long ears or short ears. A long-eared, homozygous(pure bred) rabbit is mated with a long-eared, but heterozygous(hybrid) rabbit. If 'D' represents the dominant gene and 'd' represents the recessive gene, which of the alternatives below best illustrates the GENOTYPE of the offspring?",
+    "hash": "740e94d021894724979c245d05c09cd474aaee9235f98078793d47368f09709a",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Rabbits may have long ears or short ears. A long-eared, homozygous(pure bred) rabbit is mated with a long-eared, but heterozygous(hybrid) rabbit. If &#x27;D&#x27; represents the dominant gene and &#x27;d&#x27; represents the recessive gene, which of the alternatives below best illustrates the GENOTYPE of the offspring?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Cross DD × Dd. The DD parent produces only D gametes; the Dd parent produces D or d. Offspring are 50% DD and 50% Dd, all long-eared. The question asks genotype, so C is correct rather than the phenotype-only answer A.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "all long-eared",
+      "DD and dd",
+      "DD and Dd",
+      "long-eared and short-eared"
+    ],
+    "optionsHtml": [
+      "<p>all long-eared</p>",
+      "<p>DD and dd</p>",
+      "<p>DD and Dd</p>",
+      "<p>long-eared and short-eared</p>"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "science-y10-applecross-sem2-A29",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 29,
+    "sourceQuestionLabel": "29",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "If brown fur is dominant to white fur in mice, which offspring of two hybrid brown parents would definitely be homozygous (pure breeding) ?",
+    "hash": "7f4a162adea0fef24bc1712d771c57073aa91af00ca9ed700c9e99f3631cc13d",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>If brown fur is dominant to white fur in mice, which offspring of two hybrid brown parents would definitely be homozygous (pure breeding) ?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Brown offspring may be BB or Bb and need a cross with bb to distinguish them. White offspring are already known to be bb, so all brown offspring need testing.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "all the offspring",
+      "all the brown offspring",
+      "all the white offspring",
+      "half the brown offspring and all the white offspring"
+    ],
+    "optionsHtml": [
+      "<p>all the offspring</p>",
+      "<p>all the brown offspring</p>",
+      "<p>all the white offspring</p>",
+      "<p>half the brown offspring and all the white offspring</p>"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "science-y10-applecross-sem2-A30",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 30,
+    "sourceQuestionLabel": "30",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Black fur B is dominant to white b. Black mice are shaded. From the pedigree, which mice are certainly heterozygous black?",
+    "hash": "c881e3b7ebec1878fc17fa880c108015c884093c485ea78227360698d3c25385",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 1,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Black fur B is dominant to white b. Black mice are shaded. From the pedigree, which mice are certainly heterozygous black?</p><figure><img src=\"assets/practice-science-year10/sem2-mice.png\" alt=\"sem2 mice\" loading=\"lazy\"></figure>",
+    "answerHtml": "<h3>Worked solution</h3><p>White mouse 2 is bb, so black mouse 1 must carry b to produce white offspring. Black mice 6 and 7 also produce a white offspring and must be Bb. Mouse 3 could be BB or Bb.</p><h3>Marking guidance</h3><p>Award 1 mark for A. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "1, 6 and 7",
+      "6 and 7",
+      "1, 3, 6 and 7",
+      "1 and 3"
+    ],
+    "optionsHtml": [
+      "<p>1, 6 and 7</p>",
+      "<p>6 and 7</p>",
+      "<p>1, 3, 6 and 7</p>",
+      "<p>1 and 3</p>"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "science-y10-applecross-sem2-A31",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 31,
+    "sourceQuestionLabel": "31",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "In the pedigree, black B is dominant to white b. What are the genotypes of mice 2, 4 and 5?",
+    "hash": "fb814e7d8dcd69818bf4da96712fac6620c31801ee77b91c6e7ce85a4faf275c",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 1,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>In the pedigree, black B is dominant to white b. What are the genotypes of mice 2, 4 and 5?</p><figure><img src=\"assets/practice-science-year10/sem2-mice.png\" alt=\"sem2 mice\" loading=\"lazy\"></figure>",
+    "answerHtml": "<h3>Worked solution</h3><p>White fur is recessive, so unshaded mice 2, 4 and 5 all have genotype bb.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "BB, Bb and bb respectively",
+      "bb, Bb and BB respectively",
+      "All three are bb",
+      "All three are BB"
+    ],
+    "optionsHtml": [
+      "<p>BB, Bb and bb respectively</p>",
+      "<p>bb, Bb and BB respectively</p>",
+      "<p>All three are bb</p>",
+      "<p>All three are BB</p>"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "science-y10-applecross-sem2-A32",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 32,
+    "sourceQuestionLabel": "32",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Black fur B is dominant to white b. From the pedigree, what must be the genotype of mouse 8?",
+    "hash": "3bb4c8adecfcee13ef00c8150a13990de321600ef59b0365adb05aeda7938b0e",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 1,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Black fur B is dominant to white b. From the pedigree, what must be the genotype of mouse 8?</p><figure><img src=\"assets/practice-science-year10/sem2-mice.png\" alt=\"sem2 mice\" loading=\"lazy\"></figure>",
+    "answerHtml": "<h3>Worked solution</h3><p>Black mouse 8 has Bb × Bb parents and may be BB or Bb. Phenotype alone cannot distinguish the two.</p><h3>Marking guidance</h3><p>Award 1 mark for A. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "BB or Bb",
+      "Bb",
+      "BB",
+      "bb"
+    ],
+    "optionsHtml": [
+      "<p>BB or Bb</p>",
+      "<p>Bb</p>",
+      "<p>BB</p>",
+      "<p>bb</p>"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "science-y10-applecross-sem2-A33",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 33,
+    "sourceQuestionLabel": "33",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Assuming that the only colours for human eyes are brown and blue, and the gene for brown eyes is dominant over that for blue eyes, then:",
+    "hash": "5edf6f4c96a83cb9371f01a0062ce6e2a26fec92cc2e6ef2a6ecba5dd4fdc9cd",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Assuming that the only colours for human eyes are brown and blue, and the gene for brown eyes is dominant over that for blue eyes, then:</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>In the stated simplified model, blue-eyed bb × bb parents produce only bb offspring. Actual human eye colour is polygenic.</p><h3>Marking guidance</h3><p>Award 1 mark for D. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "blue-eyed children must have blue-eyed parents",
+      "if one parent has brown eyes and the other blue eyes, all their children must have brown eyes",
+      "if both parents have brown eyes, all their children will have brown eyes.",
+      "if both parents have blue eyes, all their children will have blue eyes"
+    ],
+    "optionsHtml": [
+      "<p>blue-eyed children must have blue-eyed parents</p>",
+      "<p>if one parent has brown eyes and the other blue eyes, all their children must have brown eyes</p>",
+      "<p>if both parents have brown eyes, all their children will have brown eyes.</p>",
+      "<p>if both parents have blue eyes, all their children will have blue eyes</p>"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "science-y10-applecross-sem2-A34",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 34,
+    "sourceQuestionLabel": "34",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "According to Darwin’s Theory of Evolution",
+    "hash": "4a3b7b5eb7ef3ba992114cca76db70552b143ce5ea4935b8a376e0f3096a0b23",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>According to Darwin’s Theory of Evolution</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Populations change over generations as inherited variants differ in survival and reproduction under environmental pressures. Individuals do not evolve inherited traits by need.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "An organism can evolve during its lifetime.",
+      "All organisms have an equal chance of producing offspring.",
+      "A population can change over time in response to environmental pressures.",
+      "All organisms have an equal chance of surviving."
+    ],
+    "optionsHtml": [
+      "<p>An organism can evolve during its lifetime.</p>",
+      "<p>All organisms have an equal chance of producing offspring.</p>",
+      "<p>A population can change over time in response to environmental pressures.</p>",
+      "<p>All organisms have an equal chance of surviving.</p>"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "science-y10-applecross-sem2-A35",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 35,
+    "sourceQuestionLabel": "35",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "The selection pressure acting on the light peppered moth in an industrial environment is:",
+    "hash": "60c61808d132675c22bbfc824338b01aa5abf6a8f533ea782c88b374d05cb072",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>The selection pressure acting on the light peppered moth in an industrial environment is:</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Bird predation directly selects against conspicuous light moths on dark backgrounds. Pollution changes the background but birds are the direct selective agent.</p><h3>Marking guidance</h3><p>Award 1 mark for A. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "Predation",
+      "Food supply",
+      "Finding a mate",
+      "Pollution"
+    ],
+    "optionsHtml": [
+      "<p>Predation</p>",
+      "<p>Food supply</p>",
+      "<p>Finding a mate</p>",
+      "<p>Pollution</p>"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "science-y10-applecross-sem2-A36",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 36,
+    "sourceQuestionLabel": "36",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Many bacteria are resistant to antibiotics. Which of the following statements is TRUE?",
+    "hash": "bb3796510c1bc54c6b9a3bdf6d0726b639781d57d7ffc47d97d7350bcab0d5ce",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Many bacteria are resistant to antibiotics. Which of the following statements is TRUE?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Antibiotics favour survival and reproduction of resistant variants, increasing their frequency through natural selection.</p><h3>Marking guidance</h3><p>Award 1 mark for B. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "Reduced use of antibiotics will mean that more bacteria will develop resistance.",
+      "Resistance to antibiotics in bacteria is an example of natural selection in action.",
+      "The non-resistant bacteria have a selective advantage when antibiotics are used.",
+      "The resistance gene is slow to spread through the population because of the short generation time of the bacteria."
+    ],
+    "optionsHtml": [
+      "<p>Reduced use of antibiotics will mean that more bacteria will develop resistance.</p>",
+      "<p>Resistance to antibiotics in bacteria is an example of natural selection in action.</p>",
+      "<p>The non-resistant bacteria have a selective advantage when antibiotics are used.</p>",
+      "<p>The resistance gene is slow to spread through the population because of the short generation time of the bacteria.</p>"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "science-y10-applecross-sem2-A37",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 37,
+    "sourceQuestionLabel": "37",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Darwin referred to the process of promoting certain traits by breeding members with those traits as;",
+    "hash": "9f539f9e5847d52d2dc07ab85a3da8032336bead12ab03068497e0005776699a",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Darwin referred to the process of promoting certain traits by breeding members with those traits as;</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Human choice of breeders with desirable inherited traits is artificial selection.</p><h3>Marking guidance</h3><p>Award 1 mark for B. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "Natural selection",
+      "Artificial selection",
+      "Evolution",
+      "Ancestral breeding"
+    ],
+    "optionsHtml": [
+      "<p>Natural selection</p>",
+      "<p>Artificial selection</p>",
+      "<p>Evolution</p>",
+      "<p>Ancestral breeding</p>"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "science-y10-applecross-sem2-A38",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 38,
+    "sourceQuestionLabel": "38",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "The pictured vertebrate forelimbs are examples of which type of structure?",
+    "hash": "2a1c6eba54b83a9571a4090bf2a1bdb7b14a5c1c11f877e6a4b292ed80b84eea",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 1,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>The pictured vertebrate forelimbs are examples of which type of structure?</p><figure><img src=\"assets/practice-science-year10/sem2-limbs.png\" alt=\"sem2 limbs\" loading=\"lazy\"></figure>",
+    "answerHtml": "<h3>Worked solution</h3><p>The same underlying forelimb bone arrangement with different functions is a homologous structure, supporting common ancestry.</p><h3>Marking guidance</h3><p>Award 1 mark for A. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "Homologous structures",
+      "Heterozygous structures",
+      "Vestigial structures",
+      "Analogous structures"
+    ],
+    "optionsHtml": [
+      "<p>Homologous structures</p>",
+      "<p>Heterozygous structures</p>",
+      "<p>Vestigial structures</p>",
+      "<p>Analogous structures</p>"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "science-y10-applecross-sem2-A39",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 39,
+    "sourceQuestionLabel": "39",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Clouds of dust and gas in outer space are called:",
+    "hash": "a5287615ec65fc0552b15042f8edd7177c6d55b5538bc5523332525560b7eaa2",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Clouds of dust and gas in outer space are called:</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>A nebula is a cloud of gas and dust in space; nebulas or nebulae is its plural.</p><h3>Marking guidance</h3><p>Award 1 mark for D. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "solar systems",
+      "galaxies",
+      "quasars",
+      "nebulas"
+    ],
+    "optionsHtml": [
+      "<p>solar systems</p>",
+      "<p>galaxies</p>",
+      "<p>quasars</p>",
+      "<p>nebulas</p>"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "science-y10-applecross-sem2-A40",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 40,
+    "sourceQuestionLabel": "40",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Astronomers can measure the distances to galaxies by:",
+    "hash": "5a3669724c94ab4d451209772967ea5ebf5b5ccde71017122a4155fd7ebe4439",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Astronomers can measure the distances to galaxies by:</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Compare known intrinsic brightness with apparent brightness, for example for standard candles in a galaxy. Fainter apparent brightness for the same intrinsic brightness indicates greater distance.</p><h3>Marking guidance</h3><p>Award 1 mark for A. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "comparing the relative magnitude to absolute magnitude",
+      "measuring how fast the galaxies are moving",
+      "counting the numbers of stars in the galaxies",
+      "using a laser device attached to telescopes"
+    ],
+    "optionsHtml": [
+      "<p>comparing the relative magnitude to absolute magnitude</p>",
+      "<p>measuring how fast the galaxies are moving</p>",
+      "<p>counting the numbers of stars in the galaxies</p>",
+      "<p>using a laser device attached to telescopes</p>"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "science-y10-applecross-sem2-A41",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 41,
+    "sourceQuestionLabel": "41",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Black holes can be observed by:",
+    "hash": "2dcf9a34e176cb4685f1562ccef2bca7aa7f779cbbeff1736967cf55a7c61a81",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Black holes can be observed by:</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Hot material in an accretion disc outside a black hole emits X-rays. This is not light escaping from inside the event horizon.</p><h3>Marking guidance</h3><p>Award 1 mark for B. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "the light that shines from them",
+      "the X-rays emitted by matter falling into them",
+      "looking for really dark objects in the sky",
+      "looking at nearby galaxies"
+    ],
+    "optionsHtml": [
+      "<p>the light that shines from them</p>",
+      "<p>the X-rays emitted by matter falling into them</p>",
+      "<p>looking for really dark objects in the sky</p>",
+      "<p>looking at nearby galaxies</p>"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "science-y10-applecross-sem2-A42",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 42,
+    "sourceQuestionLabel": "42",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Which of the following statements about the Sun is true?",
+    "hash": "6bd233c8f32db4ce8b7a0e9b60d1b9998afccc59d58044b0239767b9e4208209",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Which of the following statements about the Sun is true?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>The Sun consists mostly of hydrogen and helium and is not massive enough for a core-collapse supernova.</p><h3>Marking guidance</h3><p>Award 1 mark for A. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "The Sun is made mostly of hydrogen and helium.",
+      "The Sun began its life as a red dwarf.",
+      "The Sun will one day turn into a supernova and destroy the Earth.",
+      "The Sun is a variable star that is bright during the day and becomes very dim at night."
+    ],
+    "optionsHtml": [
+      "<p>The Sun is made mostly of hydrogen and helium.</p>",
+      "<p>The Sun began its life as a red dwarf.</p>",
+      "<p>The Sun will one day turn into a supernova and destroy the Earth.</p>",
+      "<p>The Sun is a variable star that is bright during the day and becomes very dim at night.</p>"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "science-y10-applecross-sem2-A43",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 43,
+    "sourceQuestionLabel": "43",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Which sequence correctly describes the main stages in the Sun’s evolution?",
+    "hash": "9b4923099dd4f2b871158229fd4e76534852034690a5340c49df8973a0500d27",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Which sequence correctly describes the main stages in the Sun’s evolution?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>The corrected pathway is nebula → Sun-like main-sequence star → red giant → planetary nebula → white dwarf. The original option incorrectly ended in red dwarf.</p><h3>Marking guidance</h3><p>Award 1 mark for D. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "red giant → yellow dwarf → red dwarf → white dwarf → nebula",
+      "white dwarf → red giant → nebula → red dwarf → yellow dwarf",
+      "red dwarf → white dwarf → yellow dwarf → nebula → red giant",
+      "nebula → Sun-like main sequence → red giant → planetary nebula → white dwarf"
+    ],
+    "optionsHtml": [
+      "<p>red giant → yellow dwarf → red dwarf → white dwarf → nebula</p>",
+      "<p>white dwarf → red giant → nebula → red dwarf → yellow dwarf</p>",
+      "<p>red dwarf → white dwarf → yellow dwarf → nebula → red giant</p>",
+      "<p>nebula → Sun-like main sequence → red giant → planetary nebula → white dwarf</p>"
+    ],
+    "correctAnswer": 3,
+    "editorialNote": "Corrected original option D, which incorrectly ended with a red dwarf."
+  },
+  {
+    "id": "science-y10-applecross-sem2-A44",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 44,
+    "sourceQuestionLabel": "44",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Motion and measurement"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "The distance unit used by most astronomers is the parsec. One parsec corresponds to a bit more than 3 light years. If a galaxy is 2.5 million parsecs from us, about how long does light from that galaxy take to reach us?",
+    "hash": "ac2fe7e9ac98b66560fc7ebc0b6449846e83347e2d3e906b64045978405629ce",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>The distance unit used by most astronomers is the parsec. One parsec corresponds to a bit more than 3 light years. If a galaxy is 2.5 million parsecs from us, about how long does light from that galaxy take to reach us?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>2.5 million parsecs × 3.26 light-years/parsec = 8.15 million light-years, so the travel time is about 8 million years.</p><h3>Marking guidance</h3><p>Award 1 mark for A. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "8 million years",
+      "5 million years",
+      "3 million years",
+      "there is not enough information to work that out."
+    ],
+    "optionsHtml": [
+      "<p>8 million years</p>",
+      "<p>5 million years</p>",
+      "<p>3 million years</p>",
+      "<p>there is not enough information to work that out.</p>"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "science-y10-applecross-sem2-A45",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 45,
+    "sourceQuestionLabel": "45",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "‘Red shift’ happens to the light from a star or galaxy that:",
+    "hash": "596f801627d8c07b8a1cd11e87661fe4898f2492ccd97f4dbd37c1b527956dde",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>‘Red shift’ happens to the light from a star or galaxy that:</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Recession shifts spectral features toward longer, redder wavelengths; approach produces blueshift.</p><h3>Marking guidance</h3><p>Award 1 mark for B. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "is moving rapidly toward us",
+      "is moving rapidly away from us",
+      "is near the beginning of its life cycle",
+      "is near the end of its life cycle"
+    ],
+    "optionsHtml": [
+      "<p>is moving rapidly toward us</p>",
+      "<p>is moving rapidly away from us</p>",
+      "<p>is near the beginning of its life cycle</p>",
+      "<p>is near the end of its life cycle</p>"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "science-y10-applecross-sem2-A46",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 46,
+    "sourceQuestionLabel": "46",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Most galaxies are moving away from our own galaxy. This is evidence that:",
+    "hash": "fc56da26c0c49135a526aad9701a8eb64730fb5815b0cd40176d66446c50352c",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Most galaxies are moving away from our own galaxy. This is evidence that:</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Systematic recession of distant galaxies supports expansion and does not imply that the Milky Way is a unique centre.</p><h3>Marking guidance</h3><p>Award 1 mark for A. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "the Universe is expanding",
+      "our galaxy is the centre of the Universe",
+      "our galaxy exerts a repulsion force on other galaxies",
+      "new galaxies are forming near ours"
+    ],
+    "optionsHtml": [
+      "<p>the Universe is expanding</p>",
+      "<p>our galaxy is the centre of the Universe</p>",
+      "<p>our galaxy exerts a repulsion force on other galaxies</p>",
+      "<p>new galaxies are forming near ours</p>"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "science-y10-applecross-sem2-A47",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 47,
+    "sourceQuestionLabel": "47",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "The colour of a star is a good guide to its:",
+    "hash": "355eed32651dde2ca1e79c90f5c060a64ce8eb6750007ed59faab676c79d367a",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>The colour of a star is a good guide to its:</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Thermal colour depends on surface temperature: hotter stars are bluer and cooler stars redder.</p><h3>Marking guidance</h3><p>Award 1 mark for D. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "size",
+      "mass",
+      "distance",
+      "temperature"
+    ],
+    "optionsHtml": [
+      "<p>size</p>",
+      "<p>mass</p>",
+      "<p>distance</p>",
+      "<p>temperature</p>"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "science-y10-applecross-sem2-A48",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 48,
+    "sourceQuestionLabel": "48",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Which of the following is the closest to the probable age of the Universe?",
+    "hash": "0a9df1b5659ce5cca63585a65ac16bfab0c3bbed0f312a2c9bace2bfccc094f0",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Which of the following is the closest to the probable age of the Universe?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>The intended approximate age is 14 billion years, close to the commonly stated 13.8 billion years.</p><h3>Marking guidance</h3><p>Award 1 mark for D. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "5 million years",
+      "14 million years",
+      "5 billion years",
+      "14 billion years"
+    ],
+    "optionsHtml": [
+      "<p>5 million years</p>",
+      "<p>14 million years</p>",
+      "<p>5 billion years</p>",
+      "<p>14 billion years</p>"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "science-y10-applecross-sem2-A49",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 49,
+    "sourceQuestionLabel": "49",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Elements such as aluminium and iron occur on Earth. These elements probably formed:",
+    "hash": "05e7e6b15dd611cc3e9f07b993e926a6a2d0dd1767ffb4ec969a5ef3e2d8e1cb",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Elements such as aluminium and iron occur on Earth. These elements probably formed:</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Earlier generations of stars formed heavy elements and stellar events dispersed enriched material before the Solar System formed. The Sun did not make Earth’s iron before Earth formed.</p><h3>Marking guidance</h3><p>Award 1 mark for B. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "during the Big Bang",
+      "in stars that went through supernova events before the Solar System formed",
+      "in the Sun, by a process called nuclear fusion",
+      "in a nebula that collapsed to form the Sun and the rest of the Solar System"
+    ],
+    "optionsHtml": [
+      "<p>during the Big Bang</p>",
+      "<p>in stars that went through supernova events before the Solar System formed</p>",
+      "<p>in the Sun, by a process called nuclear fusion</p>",
+      "<p>in a nebula that collapsed to form the Sun and the rest of the Solar System</p>"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "science-y10-applecross-sem2-A50",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 50,
+    "sourceQuestionLabel": "50",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multiple choice",
+    "types": [
+      "Multiple choice"
+    ],
+    "responseTypes": [
+      "Multiple choice"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Which of the following is the most likely final fate of the Earth?",
+    "hash": "a43b9659de5850eeca963dce375189f6680c39b25994ba30ebab3b6ee110b944",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "automatic",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Which of the following is the most likely final fate of the Earth?</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>The intended red-giant model can engulf Earth. The exact outcome depends on mass loss and orbital changes, so this is the best supplied option rather than a guaranteed detailed prediction.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
+    "markingKeyPoints": [],
+    "options": [
+      "The Earth will keep on going, as it is now, forever.",
+      "The Earth will become a cold, lifeless ball of rock and ice.",
+      "The Sun will expand and engulf the Earth.",
+      "The Sun will explode and blow the Earth to pieces. Section B Short Answer Section 50 marks (50% of exam) Answer questions in the spaces provided."
+    ],
+    "optionsHtml": [
+      "<p>The Earth will keep on going, as it is now, forever.</p>",
+      "<p>The Earth will become a cold, lifeless ball of rock and ice.</p>",
+      "<p>The Sun will expand and engulf the Earth.</p>",
+      "<p>The Sun will explode and blow the Earth to pieces. Section B Short Answer Section 50 marks (50% of exam) Answer questions in the spaces provided.</p>"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "science-y10-applecross-sem2-B1",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 1,
+    "sourceQuestionLabel": "1",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Calculations",
+    "types": [
+      "Calculations"
+    ],
+    "responseTypes": [
+      "Calculations"
+    ],
+    "marks": 3,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Motion and measurement"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "A girl on a scooter travels at a constant velocity of 2.0 m s–1. Calculate the final velocity of the scooter if she accelerates at 0.5 m s–2 for 6 s. Show working. (3 marks)",
+    "hash": "6151070616b9162586e92aa9cf294069db5e9786d935ab22b836e89a9b27e9c7",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>A girl on a scooter travels at a constant velocity of 2.0 m s–1. Calculate the final velocity of the scooter if she accelerates at 0.5 m s–2 for 6 s. Show working. (3 marks)</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Given u = 2.0 m/s, a = 0.5 m/s² and t = 6 s. [1] v = u + at = 2.0 + 0.5(6). [1] v = 5.0 m/s in the original direction. [1]</p><h3>Marking guidance</h3><p>Maximum 3 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-sem2-B2",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 2,
+    "sourceQuestionLabel": "2",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Calculations",
+    "types": [
+      "Calculations"
+    ],
+    "responseTypes": [
+      "Calculations"
+    ],
+    "marks": 3,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Work energy and power"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "A car of mass 1100 kg is travelling at 60 km/h. Calculate its kinetic energy. Show working. (3 marks)",
+    "hash": "1168dd813dda8638ef296e32a9660b7a693e97f59e52a155df52943786426fac",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>A car of mass 1100 kg is travelling at 60 km/h. Calculate its kinetic energy. Show working.</p><p>(3 marks)</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Convert v = 60/3.6 = 16.6667 m/s. [1] Eₖ = ½mv² = 0.5 × 1100 × 16.6667². [1] Eₖ = 152,778 J ≈ 1.53 × 10⁵ J. [1]</p><h3>Marking guidance</h3><p>Maximum 3 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-sem2-B3",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 3,
+    "sourceQuestionLabel": "3",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Short answer",
+    "types": [
+      "Short answer"
+    ],
+    "responseTypes": [
+      "Short answer"
+    ],
+    "marks": 4,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "For potassium-39, written ³⁹₁₉K, state (a) mass number, (b) proton number, (c) atomic number and (d) neutron number. [4]",
+    "hash": "78a50ff847a5e2d8225a966046621b280800a4e44cc079c2855d9282b76fb0f0",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>For potassium-39, written ³⁹₁₉K, state (a) mass number, (b) proton number, (c) atomic number and (d) neutron number. [4]</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>For ³⁹₁₉K: (a) mass number 39; (b) protons 19; (c) atomic number 19; (d) neutrons = 39 − 19 = 20. [1 each] The upper number is protons plus neutrons, the lower proton number.</p><h3>Marking guidance</h3><p>Maximum 4 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-sem2-B4",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 4,
+    "sourceQuestionLabel": "4",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Short answer",
+    "types": [
+      "Short answer"
+    ],
+    "responseTypes": [
+      "Short answer"
+    ],
+    "marks": 3,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "The electron configuration of nitrogen is 2,5. Write the electron configuration for; (a) Sodium □ (b) Neon □ (c) the oxide ion □ (3 marks)",
+    "hash": "4e0b96097af17f9b9e6601b67b89380300fa593ae254e01118a8539e875fb2fd",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>The electron configuration of nitrogen is 2,5. Write the electron configuration for;</p><p>(a) Sodium □</p><p>(b) Neon □</p><p>(c) the oxide ion □</p><p>(3 marks)</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>(a) Na has 11 electrons: 2,8,1. [1]</p><p>(b) Ne has 10: 2,8. [1]</p><p>(c) O²⁻ has 8 + 2 = 10: 2,8. [1]</p><h3>Marking guidance</h3><p>Maximum 3 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-sem2-B5",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 5,
+    "sourceQuestionLabel": "5",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Short answer",
+    "types": [
+      "Short answer"
+    ],
+    "responseTypes": [
+      "Short answer"
+    ],
+    "marks": 2,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "The periodic table is organised into groups and periods. (a) In what period is Ag found? □ (b) In what group is Ar found? □ (2 marks)",
+    "hash": "a24cf76664dc2f80d72b20795311e0e0c636e9d5af96538fa8504031d3e175d6",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>The periodic table is organised into groups and periods.</p><p>(a) In what period is Ag found? □</p><p>(b) In what group is Ar found? □</p><p>(2 marks)</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>(a) Ag is in period 5. [1]</p><p>(b) Ar is in group 18. [1] Periods are rows and groups columns.</p><h3>Marking guidance</h3><p>Maximum 2 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-sem2-B6",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 6,
+    "sourceQuestionLabel": "6",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Short answer",
+    "types": [
+      "Short answer"
+    ],
+    "responseTypes": [
+      "Short answer"
+    ],
+    "marks": 4,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "Write the formula for: (a) Magnesium nitrate □ (b) Iron(II) hydroxide □ (c) Sodium carbonate □ (d) Calcium phosphate □ (4 marks)",
+    "hash": "f30fa5fd6ab2da044b25793cfa3e6a5963664e266e9b75b905ba1956c272494d",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Write the formula for:</p><p>(a) Magnesium nitrate □</p><p>(b) Iron(II) hydroxide □</p><p>(c) Sodium carbonate □</p><p>(d) Calcium phosphate □</p><p>(4 marks)</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>(a) Mg(NO₃)₂: Mg²⁺ balances two NO₃⁻. [1]</p><p>(b) Fe(OH)₂: Fe²⁺ balances two OH⁻. [1]</p><p>(c) Na₂CO₃: two Na⁺ balance CO₃²⁻. [1]</p><p>(d) Ca₃(PO₄)₂: +6 from three Ca²⁺ balances −6 from two PO₄³⁻. [1]</p><h3>Marking guidance</h3><p>Maximum 4 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-sem2-B7",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 7,
+    "sourceQuestionLabel": "7",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multi-step",
+    "types": [
+      "Multi-step"
+    ],
+    "responseTypes": [
+      "Multi-step"
+    ],
+    "marks": 3,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "Balance: (a) Al + F₂ → AlF₃; (b) NaOH + H₂SO₄ → Na₂SO₄ + H₂O; (c) SO₂ + O₂ → SO₃. [3]",
+    "hash": "33b8a7824a9533608b55e847e09bc862f35dfae0ffba3fb426dd104e6eae0e47",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Balance: (a) Al + F₂ → AlF₃; (b) NaOH + H₂SO₄ → Na₂SO₄ + H₂O; (c) SO₂ + O₂ → SO₃. [3]</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>(a) 2Al + 3F₂ → 2AlF₃. [1]</p><p>(b) 2NaOH + H₂SO₄ → Na₂SO₄ + 2H₂O. [1]</p><p>(c) 2SO₂ + O₂ → 2SO₃. [1] Check each element on both sides; coefficients multiply entire formulas.</p><h3>Marking guidance</h3><p>Maximum 3 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-sem2-B8",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 8,
+    "sourceQuestionLabel": "8",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Short answer",
+    "types": [
+      "Short answer"
+    ],
+    "responseTypes": [
+      "Short answer"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "The structure of DNA was first described in 1953. Which scientist(s) made this discovery? (1 mark)",
+    "hash": "f54f8949bc6496237dfda6fc39ba23ce4374a1516e4bc94b8ea0a091478f7682",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>The structure of DNA was first described in 1953. Which scientist(s) made this discovery?</p><p>(1 mark)</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>James Watson and Francis Crick proposed the double-helix model in 1953. [1] It relied on important evidence from Rosalind Franklin, Raymond Gosling, Maurice Wilkins and others. This is distinct from discovering DNA itself.</p><h3>Marking guidance</h3><p>Maximum 1 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-sem2-B9",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 9,
+    "sourceQuestionLabel": "9",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Short answer",
+    "types": [
+      "Short answer"
+    ],
+    "responseTypes": [
+      "Short answer"
+    ],
+    "marks": 2,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "The type of wings a fly has can be represented by NN, Nn, or nn. N is the allele for normal wings and n is the allele for dumpy wings. (a) Why do we use capital letters for some alleles and lower case for others? (1 mark) (b) Why are there two letters for each genotype? (1mark)",
+    "hash": "32d3a6663b72743e07e01c415d9fc2a1d115bdf0c8d323ab54fd0d4f8cbece9c",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>The type of wings a fly has can be represented by NN, Nn, or nn. N is the allele for normal wings and n is the allele for dumpy wings.</p><p>(a) Why do we use capital letters for some alleles and lower case for others?</p><p>(1 mark)</p><p>(b) Why are there two letters for each genotype?</p><p>(1mark)</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>(a) Capital N represents the dominant allele and lower-case n the recessive allele; Nn shows normal wings in this model. [1]</p><p>(b) A diploid fly has two alleles at the locus, one inherited from each parent. [1]</p><h3>Marking guidance</h3><p>Maximum 2 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-sem2-B10",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 10,
+    "sourceQuestionLabel": "10",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multi-step",
+    "types": [
+      "Multi-step"
+    ],
+    "responseTypes": [
+      "Multi-step"
+    ],
+    "marks": 3,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "Double-jointedness is dominant to normal condition of joints in humans. A man who is heterozygous (hybrid) for this trait marries a woman who is homozygous (pure bred) recessive for the trait. Use a punnet square to show the possible percentages of each genotype and phenotype for the offspring. Genotype Percentages Phenotype Percentages □ (3 marks)",
+    "hash": "e521fcf876a36876558fc37c9f34e1f1e3085283dd62869ea4f21e82822c6b11",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Double-jointedness is dominant to normal condition of joints in humans. A man who is heterozygous (hybrid) for this trait marries a woman who is homozygous (pure bred) recessive for the trait. Use a punnet square to show the possible percentages of each genotype and phenotype for the offspring. Genotype Percentages Phenotype Percentages □</p><p>(3 marks)</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Let D be double-jointed and d normal. Parents are Dd × dd. [1] Gametes are D/d and d/d; the square gives Dd, dd, Dd, dd. [1] Genotypes: 50% Dd, 50% dd. Phenotypes: 50% double-jointed and 50% normal, per pregnancy. [1]</p><table><thead><tr><th>Gametes</th><th>D</th><th>d</th></tr></thead><tbody><tr><td>d</td><td>dD</td><td>dd</td></tr><tr><td>d</td><td>dD</td><td>dd</td></tr></tbody></table><h3>Marking guidance</h3><p>Maximum 3 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-sem2-B11",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 11,
+    "sourceQuestionLabel": "11",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Multi-step",
+    "types": [
+      "Multi-step"
+    ],
+    "responseTypes": [
+      "Multi-step"
+    ],
+    "marks": 3,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "Cross a normal-vision male XᴮY with a carrier female XᴮXᵇ. B represents normal vision and b colour-blindness in this X-linked recessive model. Complete a Punnett square and give genotype and phenotype probabilities. [3]",
+    "hash": "4e0320af0965bf4d2b6fd5322737846beefbaf82ba7b2acee41d70061b586cfc",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Cross a normal-vision male XᴮY with a carrier female XᴮXᵇ. B represents normal vision and b colour-blindness in this X-linked recessive model. Complete a Punnett square and give genotype and phenotype probabilities. [3]</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Cross XᴮY × XᴮXᵇ. Gametes are Xᴮ/Y and Xᴮ/Xᵇ. [1] Offspring genotypes, each 25%: XᴮXᴮ, XᴮXᵇ, XᴮY, XᵇY. [1] Daughters have normal vision (half carriers); sons are half normal, half colour-blind. Thus 25% of all children, or 50% of sons, are colour-blind. [1]</p><table><thead><tr><th>Gametes</th><th>Xᴮ</th><th>Y</th></tr></thead><tbody><tr><td>Xᴮ</td><td>XᴮXᴮ</td><td>XᴮY</td></tr><tr><td>Xᵇ</td><td>XᴮXᵇ</td><td>XᵇY</td></tr></tbody></table><h3>Marking guidance</h3><p>Maximum 3 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-sem2-B12",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 12,
+    "sourceQuestionLabel": "12",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Data / source analysis",
+    "types": [
+      "Data / source analysis"
+    ],
+    "responseTypes": [
+      "Data / source analysis"
+    ],
+    "marks": 4,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "The pedigree shows dimples as a recessive trait, allele n. Shaded people have dimples; N means no dimples. (a) Give the possible genotypes of parents 1 and 2. [2] (b) Give the genotype of person 6 and justify it. [2]",
+    "hash": "e46c9c9a567b7c514c1e7bb942fca0e87e674ea5646a8719080649053d19c2a7",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 1,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>The pedigree shows dimples as a recessive trait, allele n. Shaded people have dimples; N means no dimples. (a) Give the possible genotypes of parents 1 and 2. [2] (b) Give the genotype of person 6 and justify it. [2]</p><figure><img src=\"assets/practice-science-year10/sem2-dimples.png\" alt=\"sem2 dimples\" loading=\"lazy\"></figure>",
+    "answerHtml": "<h3>Worked solution</h3><p>(a) Parent 2 is shaded: nn. [1] Parent 1 is unshaded: NN or Nn; the shown offspring do not distinguish these. [1]</p><p>(b) Person 6 is Nn. [1] Person 6 lacks the recessive trait but has affected nn children, so this person must carry and transmit n. [1]</p><h3>Marking guidance</h3><p>Maximum 4 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-sem2-B13",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 13,
+    "sourceQuestionLabel": "13",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Comprehension",
+    "types": [
+      "Comprehension"
+    ],
+    "responseTypes": [
+      "Comprehension"
+    ],
+    "marks": 7,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Hard",
+    "mixed": false,
+    "text": "Errors during DNA replication can cause mutations, and different germline cell lineages undergo different numbers of divisions. (a) Which cell division produces sperm and eggs? [1] (b) Describe three differences between mitosis and meiosis. [3] (c) Define mutation. [1] (d) Explain how increased heritable mutation could increase the variation available for evolutionary change. [2]",
+    "hash": "803ec2b0f8ca3fc076dacd306f9c0c7f0f6741266bc80c53acd489d561ba938f",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Errors during DNA replication can cause mutations, and different germline cell lineages undergo different numbers of divisions. (a) Which cell division produces sperm and eggs? [1] (b) Describe three differences between mitosis and meiosis. [3] (c) Define mutation. [1] (d) Explain how increased heritable mutation could increase the variation available for evolutionary change. [2]</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>(a) Meiosis. [1]</p><p>(b) Mitosis has one nuclear division, meiosis two; mitosis usually gives two genetically similar diploid cells, meiosis four varied haploid products; homologous pairing/crossing over occur in meiosis but not normal mitosis. [3, one per paired difference]</p><p>(c) A mutation is a change in genetic material, such as the DNA sequence. [1]</p><p>(d) More heritable mutations can supply more new alleles and variation. [1] Selection can change variant frequencies over generations if reproductive success differs. [1] Mutation does not guarantee faster adaptation: many changes are neutral or harmful.</p><h3>Marking guidance</h3><p>Maximum 7 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": [],
+    "editorialNote": "Replaced unsupported source claims about the Y chromosome lacking vital genes and X being resistant to mutation with accurate replication-error context. Preserved the assessed cell-division and evolution skills."
+  },
+  {
+    "id": "science-y10-applecross-sem2-B14",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 14,
+    "sourceQuestionLabel": "14",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Short answer",
+    "types": [
+      "Short answer"
+    ],
+    "responseTypes": [
+      "Short answer"
+    ],
+    "marks": 4,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Physical sciences"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "In 2005 a space telescope detected a star that exploded 13 billion years ago. The light from the star shows the biggest red-shift ever measured. 1. What is red-shift? (1 mark) 2. What does the measurement of its red-shift tell scientists about this star? (1 mark) (c) Red-shift provides evidence for the ‘big bang’ theory. Describe the ‘big bang’ theory. (2 marks)",
+    "hash": "af599a28885d6e9f58b928aa3415430c17c20b029f6402f0da277656a1a25f9f",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>In 2005 a space telescope detected a star that exploded 13 billion years ago. The light from the star shows the biggest red-shift ever measured. 1. What is red-shift? (1 mark) 2. What does the measurement of its red-shift tell scientists about this star? (1 mark)</p><p>(c) Red-shift provides evidence for the ‘big bang’ theory.</p><p>Describe the ‘big bang’ theory. (2 marks)</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>(a) Redshift is a shift of spectral features to longer wavelengths than their laboratory values. [1]</p><p>(b) A very large cosmological redshift indicates light emitted in a much earlier, less-expanded universe, supporting great distance and substantial cosmic expansion along its path. [1]</p><p>(c) The Big Bang model describes expansion from a hot, dense early state. [1] Expansion cooled the universe, allowing atoms and later stars and galaxies to form. [1] It is not an ordinary explosion into pre-existing empty space.</p><h3>Marking guidance</h3><p>Maximum 4 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-sem2-B15",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 15,
+    "sourceQuestionLabel": "15",
+    "sourceSection": "B",
+    "source": "Applecross Year 10 Science Semester 2 exam 2017",
+    "section": "Fill in the blanks",
+    "types": [
+      "Fill in the blanks"
+    ],
+    "responseTypes": [
+      "Fill in the blanks"
+    ],
+    "marks": 4,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Motion and measurement"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "Write the terms in the box below next to their meanings below the box; (4 marks) black hole, fusion reaction, galaxy, light year, parallax method, solar system, star, Universe (a) All space and everything in space □ (b) The sun and all the planets revolving around it. □ (c) A huge mass of extremely hot gas. □ (d) Billions of stars clustered into a large group. □ (e) Large stars that have collapsed until they are so dense that their gravity will not let light escape from them. □ (f) The process inside stars releasing large amounts of energy. □ (g) Distance traveled by light in one year. □ (h) Used to measure the distance to some of the nearer stars. □",
+    "hash": "74c062326015352cb21ce9c3ffe70f0a72ddfe02b0107b886d42d211942258b5",
+    "sourceFile": "Y10P1Exam2017Sem2.doc",
+    "sourceKeyFile": "Y10Exam2017,Sem2,Solns.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-sem2.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Write the terms in the box below next to their meanings below the box;</p><p>(4 marks)</p><p>black hole, fusion reaction, galaxy, light year, parallax method, solar system, star, Universe</p><p>(a) All space and everything in space □</p><p>(b) The sun and all the planets revolving around it. □</p><p>(c) A huge mass of extremely hot gas. □</p><p>(d) Billions of stars clustered into a large group. □</p><p>(e) Large stars that have collapsed until they are so dense that</p><p>their gravity will not let light escape from them. □</p><p>(f) The process inside stars releasing large amounts of energy. □</p><p>(g) Distance traveled by light in one year. □</p><p>(h) Used to measure the distance to some of the nearer stars. □</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>In order: Universe; solar system; star; galaxy; black hole; nuclear fusion; light-year; stellar parallax method. [½ each]</p><p>A light-year is distance. Stellar parallax is the apparent shift of a nearby star relative to distant stars as Earth orbits the Sun. A black hole has an event horizon beyond which light cannot escape.</p><h3>Marking guidance</h3><p>Maximum 4 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  }
+]

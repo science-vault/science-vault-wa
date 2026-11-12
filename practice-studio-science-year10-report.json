@@ -1,0 +1,1804 @@
+{
+  "importDate": "2026-11-12",
+  "assessmentDocuments": 7,
+  "markingKeyDocuments": 7,
+  "questionEntries": 207,
+  "questionsByPaper": {
+    "practice-studio-science-year10-chem.json": 30,
+    "practice-studio-science-year10-bio.json": 29,
+    "practice-studio-science-year10-earth.json": 33,
+    "practice-studio-science-year10-phys.json": 10,
+    "practice-studio-science-year10-mid.json": 13,
+    "practice-studio-science-year10-sem1.json": 27,
+    "practice-studio-science-year10-sem2.json": 65
+  },
+  "totalMarksByPaper": {
+    "practice-studio-science-year10-chem.json": 55,
+    "practice-studio-science-year10-bio.json": 58,
+    "practice-studio-science-year10-earth.json": 45,
+    "practice-studio-science-year10-phys.json": 60,
+    "practice-studio-science-year10-mid.json": 50,
+    "practice-studio-science-year10-sem1.json": 100,
+    "practice-studio-science-year10-sem2.json": 100
+  },
+  "corrections": [
+    {
+      "id": "science-y10-applecross-chem-A5",
+      "sourceLabel": "chem-A5",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+      "correction": "Clarified conductivity question because zinc can also be brittle at room temperature, making the original broad property wording ambiguous."
+    },
+    {
+      "id": "science-y10-applecross-chem-B4",
+      "sourceLabel": "chem-B4",
+      "marks": 2,
+      "type": "Calculations",
+      "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+      "correction": "Specified O₂ gas; the original oxygen wording also permits an atomic interpretation."
+    },
+    {
+      "id": "science-y10-applecross-bio-A14",
+      "sourceLabel": "bio-A14",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+      "correction": "Clarified ambiguous source wording: food availability can influence selection, so it cannot simply be said never to contribute to evolution."
+    },
+    {
+      "id": "science-y10-applecross-bio-B21",
+      "sourceLabel": "bio-B21",
+      "marks": 2,
+      "type": "Labelling",
+      "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+      "correction": "Corrected key sequence E–B–E–A–C to E–B–D–A–C after diagram inspection."
+    },
+    {
+      "id": "science-y10-applecross-earth-A7",
+      "sourceLabel": "earth-A7",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Earth topic test 2015.docx",
+      "correction": "Historical galaxy estimate explicitly dated."
+    },
+    {
+      "id": "science-y10-applecross-earth-ExtB11",
+      "sourceLabel": "earth-ExtB11",
+      "marks": 3,
+      "type": "Data / source analysis",
+      "sourceFile": "Earth topic test 2015.docx",
+      "correction": "Corrected key redshift to blueshift, and nearest neighbouring galaxy to nearby large galaxy."
+    },
+    {
+      "id": "science-y10-applecross-earth-ExtB12",
+      "sourceLabel": "earth-ExtB12",
+      "marks": 2,
+      "type": "Labelling",
+      "sourceFile": "Earth topic test 2015.docx",
+      "correction": "Clarified higher intensity for the requested higher thermal-emission curve."
+    },
+    {
+      "id": "science-y10-applecross-earth-ExtB13",
+      "sourceLabel": "earth-ExtB13",
+      "marks": 2,
+      "type": "Short answer",
+      "sourceFile": "Earth topic test 2015.docx",
+      "correction": "Clarified larger as initial mass, not radius."
+    },
+    {
+      "id": "science-y10-applecross-mid-A4x",
+      "sourceLabel": "mid-A4x",
+      "marks": 7,
+      "type": "Calculations",
+      "sourceFile": "Year 10 Physical Sciences Mid Topic Test 2017.doc",
+      "correction": "Source has two questions numbered 4. Preserved map question separately; key changes distance between parts, so worked solution uses consistent measured distance."
+    },
+    {
+      "id": "science-y10-applecross-mid-A8",
+      "sourceLabel": "mid-A8",
+      "marks": 5,
+      "type": "Calculations",
+      "sourceFile": "Year 10 Physical Sciences Mid Topic Test 2017.doc",
+      "correction": "Corrected mass unit 1000 N to 1000 kg, as the supplied key directs."
+    },
+    {
+      "id": "science-y10-applecross-sem1-B1",
+      "sourceLabel": "sem1-B1",
+      "marks": 3,
+      "type": "Labelling",
+      "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+      "correction": "Specified oxygen-16 because neutron number depends on isotope."
+    },
+    {
+      "id": "science-y10-applecross-sem1-B7",
+      "sourceLabel": "sem1-B7",
+      "marks": 2,
+      "type": "Calculations",
+      "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+      "correction": "Changed velocity to speed because only distance and time are supplied."
+    },
+    {
+      "id": "science-y10-applecross-sem1-C3",
+      "sourceLabel": "sem1-C3",
+      "marks": 4,
+      "type": "Multi-step",
+      "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+      "correction": "Corrected key maximum-speed statement; reworded final comparison to the first 50 m because the original maximum-energy comparison is not generally valid."
+    },
+    {
+      "id": "science-y10-applecross-sem2-A43",
+      "sourceLabel": "sem2-A43",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": "Corrected original option D, which incorrectly ended with a red dwarf."
+    },
+    {
+      "id": "science-y10-applecross-sem2-B13",
+      "sourceLabel": "sem2-B13",
+      "marks": 7,
+      "type": "Comprehension",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": "Replaced unsupported source claims about the Y chromosome lacking vital genes and X being resistant to mutation with accurate replication-error context. Preserved the assessed cell-division and evolution skills."
+    }
+  ],
+  "questions": [
+    {
+      "id": "science-y10-applecross-chem-A1",
+      "sourceLabel": "chem-A1",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-chem-A2",
+      "sourceLabel": "chem-A2",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-chem-A3",
+      "sourceLabel": "chem-A3",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-chem-A4",
+      "sourceLabel": "chem-A4",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-chem-A5",
+      "sourceLabel": "chem-A5",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+      "correction": "Clarified conductivity question because zinc can also be brittle at room temperature, making the original broad property wording ambiguous."
+    },
+    {
+      "id": "science-y10-applecross-chem-A6",
+      "sourceLabel": "chem-A6",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-chem-A7",
+      "sourceLabel": "chem-A7",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-chem-A8",
+      "sourceLabel": "chem-A8",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-chem-A9",
+      "sourceLabel": "chem-A9",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-chem-A10",
+      "sourceLabel": "chem-A10",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-chem-A11",
+      "sourceLabel": "chem-A11",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-chem-A12",
+      "sourceLabel": "chem-A12",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-chem-A13",
+      "sourceLabel": "chem-A13",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-chem-A14",
+      "sourceLabel": "chem-A14",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-chem-A15",
+      "sourceLabel": "chem-A15",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-chem-A16",
+      "sourceLabel": "chem-A16",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-chem-A17",
+      "sourceLabel": "chem-A17",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-chem-A18",
+      "sourceLabel": "chem-A18",
+      "marks": 5,
+      "type": "Labelling",
+      "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-chem-B1",
+      "sourceLabel": "chem-B1",
+      "marks": 1,
+      "type": "Short answer",
+      "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-chem-B2",
+      "sourceLabel": "chem-B2",
+      "marks": 1,
+      "type": "Short answer",
+      "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-chem-B3",
+      "sourceLabel": "chem-B3",
+      "marks": 1,
+      "type": "Calculations",
+      "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-chem-B4",
+      "sourceLabel": "chem-B4",
+      "marks": 2,
+      "type": "Calculations",
+      "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+      "correction": "Specified O₂ gas; the original oxygen wording also permits an atomic interpretation."
+    },
+    {
+      "id": "science-y10-applecross-chem-B5",
+      "sourceLabel": "chem-B5",
+      "marks": 2,
+      "type": "Calculations",
+      "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-chem-B6",
+      "sourceLabel": "chem-B6",
+      "marks": 1,
+      "type": "Short answer",
+      "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-chem-B7",
+      "sourceLabel": "chem-B7",
+      "marks": 3,
+      "type": "Labelling",
+      "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-chem-B8",
+      "sourceLabel": "chem-B8",
+      "marks": 3,
+      "type": "Extended response",
+      "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-chem-B9",
+      "sourceLabel": "chem-B9",
+      "marks": 3,
+      "type": "Multi-step",
+      "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-chem-B10",
+      "sourceLabel": "chem-B10",
+      "marks": 7,
+      "type": "Multi-step",
+      "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-chem-B11",
+      "sourceLabel": "chem-B11",
+      "marks": 6,
+      "type": "Extended response",
+      "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-chem-B12",
+      "sourceLabel": "chem-B12",
+      "marks": 3,
+      "type": "Labelling",
+      "sourceFile": "Year 10 Chemistry End of Topic Test (Draft 2).docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-bio-A1",
+      "sourceLabel": "bio-A1",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-bio-A2",
+      "sourceLabel": "bio-A2",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-bio-A3",
+      "sourceLabel": "bio-A3",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-bio-A4",
+      "sourceLabel": "bio-A4",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-bio-A5",
+      "sourceLabel": "bio-A5",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-bio-A6",
+      "sourceLabel": "bio-A6",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-bio-A7",
+      "sourceLabel": "bio-A7",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-bio-A8",
+      "sourceLabel": "bio-A8",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-bio-A9",
+      "sourceLabel": "bio-A9",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-bio-A10",
+      "sourceLabel": "bio-A10",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-bio-A11",
+      "sourceLabel": "bio-A11",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-bio-A12",
+      "sourceLabel": "bio-A12",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-bio-A13",
+      "sourceLabel": "bio-A13",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-bio-A14",
+      "sourceLabel": "bio-A14",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+      "correction": "Clarified ambiguous source wording: food availability can influence selection, so it cannot simply be said never to contribute to evolution."
+    },
+    {
+      "id": "science-y10-applecross-bio-A15",
+      "sourceLabel": "bio-A15",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-bio-A16",
+      "sourceLabel": "bio-A16",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-bio-A17",
+      "sourceLabel": "bio-A17",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-bio-A18",
+      "sourceLabel": "bio-A18",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-bio-A19",
+      "sourceLabel": "bio-A19",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-bio-A20",
+      "sourceLabel": "bio-A20",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-bio-B21",
+      "sourceLabel": "bio-B21",
+      "marks": 2,
+      "type": "Labelling",
+      "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+      "correction": "Corrected key sequence E–B–E–A–C to E–B–D–A–C after diagram inspection."
+    },
+    {
+      "id": "science-y10-applecross-bio-B22",
+      "sourceLabel": "bio-B22",
+      "marks": 7,
+      "type": "Multi-step",
+      "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-bio-B23",
+      "sourceLabel": "bio-B23",
+      "marks": 6,
+      "type": "Multi-step",
+      "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-bio-B24",
+      "sourceLabel": "bio-B24",
+      "marks": 2,
+      "type": "Short answer",
+      "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-bio-B25",
+      "sourceLabel": "bio-B25",
+      "marks": 3,
+      "type": "Labelling",
+      "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-bio-B26",
+      "sourceLabel": "bio-B26",
+      "marks": 8,
+      "type": "Comprehension",
+      "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-bio-B27",
+      "sourceLabel": "bio-B27",
+      "marks": 4,
+      "type": "Extended response",
+      "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-bio-B28",
+      "sourceLabel": "bio-B28",
+      "marks": 3,
+      "type": "Short answer",
+      "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-bio-B29",
+      "sourceLabel": "bio-B29",
+      "marks": 3,
+      "type": "Short answer",
+      "sourceFile": "Yr 10 Topic test 2017 Questions sheet.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-earth-A1",
+      "sourceLabel": "earth-A1",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Earth topic test 2015.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-earth-A2",
+      "sourceLabel": "earth-A2",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Earth topic test 2015.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-earth-A3",
+      "sourceLabel": "earth-A3",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Earth topic test 2015.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-earth-A4",
+      "sourceLabel": "earth-A4",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Earth topic test 2015.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-earth-A5",
+      "sourceLabel": "earth-A5",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Earth topic test 2015.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-earth-A6",
+      "sourceLabel": "earth-A6",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Earth topic test 2015.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-earth-A7",
+      "sourceLabel": "earth-A7",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Earth topic test 2015.docx",
+      "correction": "Historical galaxy estimate explicitly dated."
+    },
+    {
+      "id": "science-y10-applecross-earth-A8",
+      "sourceLabel": "earth-A8",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Earth topic test 2015.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-earth-A9",
+      "sourceLabel": "earth-A9",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Earth topic test 2015.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-earth-A10",
+      "sourceLabel": "earth-A10",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Earth topic test 2015.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-earth-A11",
+      "sourceLabel": "earth-A11",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Earth topic test 2015.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-earth-A12",
+      "sourceLabel": "earth-A12",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Earth topic test 2015.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-earth-A13",
+      "sourceLabel": "earth-A13",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Earth topic test 2015.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-earth-A14",
+      "sourceLabel": "earth-A14",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Earth topic test 2015.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-earth-A15",
+      "sourceLabel": "earth-A15",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Earth topic test 2015.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-earth-B16",
+      "sourceLabel": "earth-B16",
+      "marks": 3,
+      "type": "Short answer",
+      "sourceFile": "Earth topic test 2015.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-earth-B17",
+      "sourceLabel": "earth-B17",
+      "marks": 3,
+      "type": "Labelling",
+      "sourceFile": "Earth topic test 2015.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-earth-B18",
+      "sourceLabel": "earth-B18",
+      "marks": 1,
+      "type": "Short answer",
+      "sourceFile": "Earth topic test 2015.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-earth-B19",
+      "sourceLabel": "earth-B19",
+      "marks": 3,
+      "type": "Data / source analysis",
+      "sourceFile": "Earth topic test 2015.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-earth-ExtA1",
+      "sourceLabel": "earth-ExtA1",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Earth topic test 2015.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-earth-ExtA2",
+      "sourceLabel": "earth-ExtA2",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Earth topic test 2015.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-earth-ExtA3",
+      "sourceLabel": "earth-ExtA3",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Earth topic test 2015.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-earth-ExtA4",
+      "sourceLabel": "earth-ExtA4",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Earth topic test 2015.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-earth-ExtA5",
+      "sourceLabel": "earth-ExtA5",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Earth topic test 2015.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-earth-ExtA6",
+      "sourceLabel": "earth-ExtA6",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Earth topic test 2015.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-earth-ExtA7",
+      "sourceLabel": "earth-ExtA7",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Earth topic test 2015.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-earth-ExtA8",
+      "sourceLabel": "earth-ExtA8",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Earth topic test 2015.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-earth-ExtA9",
+      "sourceLabel": "earth-ExtA9",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Earth topic test 2015.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-earth-ExtA10",
+      "sourceLabel": "earth-ExtA10",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Earth topic test 2015.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-earth-ExtB11",
+      "sourceLabel": "earth-ExtB11",
+      "marks": 3,
+      "type": "Data / source analysis",
+      "sourceFile": "Earth topic test 2015.docx",
+      "correction": "Corrected key redshift to blueshift, and nearest neighbouring galaxy to nearby large galaxy."
+    },
+    {
+      "id": "science-y10-applecross-earth-ExtB12",
+      "sourceLabel": "earth-ExtB12",
+      "marks": 2,
+      "type": "Labelling",
+      "sourceFile": "Earth topic test 2015.docx",
+      "correction": "Clarified higher intensity for the requested higher thermal-emission curve."
+    },
+    {
+      "id": "science-y10-applecross-earth-ExtB13",
+      "sourceLabel": "earth-ExtB13",
+      "marks": 2,
+      "type": "Short answer",
+      "sourceFile": "Earth topic test 2015.docx",
+      "correction": "Clarified larger as initial mass, not radius."
+    },
+    {
+      "id": "science-y10-applecross-earth-ExtB14",
+      "sourceLabel": "earth-ExtB14",
+      "marks": 3,
+      "type": "Short answer",
+      "sourceFile": "Earth topic test 2015.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-phys-A1",
+      "sourceLabel": "phys-A1",
+      "marks": 6,
+      "type": "Fill in the blanks",
+      "sourceFile": "Y10 PhysicsTest2017.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-phys-A2",
+      "sourceLabel": "phys-A2",
+      "marks": 4,
+      "type": "Data / source analysis",
+      "sourceFile": "Y10 PhysicsTest2017.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-phys-A3",
+      "sourceLabel": "phys-A3",
+      "marks": 9,
+      "type": "Calculations",
+      "sourceFile": "Y10 PhysicsTest2017.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-phys-A4",
+      "sourceLabel": "phys-A4",
+      "marks": 6,
+      "type": "Calculations",
+      "sourceFile": "Y10 PhysicsTest2017.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-phys-A5",
+      "sourceLabel": "phys-A5",
+      "marks": 8,
+      "type": "Calculations",
+      "sourceFile": "Y10 PhysicsTest2017.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-phys-A6",
+      "sourceLabel": "phys-A6",
+      "marks": 2,
+      "type": "Short answer",
+      "sourceFile": "Y10 PhysicsTest2017.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-phys-A7",
+      "sourceLabel": "phys-A7",
+      "marks": 7,
+      "type": "Calculations",
+      "sourceFile": "Y10 PhysicsTest2017.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-phys-A8",
+      "sourceLabel": "phys-A8",
+      "marks": 8,
+      "type": "Calculations",
+      "sourceFile": "Y10 PhysicsTest2017.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-phys-A9",
+      "sourceLabel": "phys-A9",
+      "marks": 3,
+      "type": "Calculations",
+      "sourceFile": "Y10 PhysicsTest2017.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-phys-A10",
+      "sourceLabel": "phys-A10",
+      "marks": 7,
+      "type": "Comprehension",
+      "sourceFile": "Y10 PhysicsTest2017.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-mid-A1",
+      "sourceLabel": "mid-A1",
+      "marks": 6,
+      "type": "Fill in the blanks",
+      "sourceFile": "Year 10 Physical Sciences Mid Topic Test 2017.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-mid-A2",
+      "sourceLabel": "mid-A2",
+      "marks": 3,
+      "type": "Calculations",
+      "sourceFile": "Year 10 Physical Sciences Mid Topic Test 2017.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-mid-A3",
+      "sourceLabel": "mid-A3",
+      "marks": 4,
+      "type": "Calculations",
+      "sourceFile": "Year 10 Physical Sciences Mid Topic Test 2017.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-mid-A4",
+      "sourceLabel": "mid-A4",
+      "marks": 3,
+      "type": "Labelling",
+      "sourceFile": "Year 10 Physical Sciences Mid Topic Test 2017.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-mid-A4x",
+      "sourceLabel": "mid-A4x",
+      "marks": 7,
+      "type": "Calculations",
+      "sourceFile": "Year 10 Physical Sciences Mid Topic Test 2017.doc",
+      "correction": "Source has two questions numbered 4. Preserved map question separately; key changes distance between parts, so worked solution uses consistent measured distance."
+    },
+    {
+      "id": "science-y10-applecross-mid-A5",
+      "sourceLabel": "mid-A5",
+      "marks": 3,
+      "type": "Calculations",
+      "sourceFile": "Year 10 Physical Sciences Mid Topic Test 2017.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-mid-A6",
+      "sourceLabel": "mid-A6",
+      "marks": 7,
+      "type": "Calculations",
+      "sourceFile": "Year 10 Physical Sciences Mid Topic Test 2017.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-mid-A7",
+      "sourceLabel": "mid-A7",
+      "marks": 4,
+      "type": "Calculations",
+      "sourceFile": "Year 10 Physical Sciences Mid Topic Test 2017.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-mid-A8",
+      "sourceLabel": "mid-A8",
+      "marks": 5,
+      "type": "Calculations",
+      "sourceFile": "Year 10 Physical Sciences Mid Topic Test 2017.doc",
+      "correction": "Corrected mass unit 1000 N to 1000 kg, as the supplied key directs."
+    },
+    {
+      "id": "science-y10-applecross-mid-A9",
+      "sourceLabel": "mid-A9",
+      "marks": 2,
+      "type": "Short answer",
+      "sourceFile": "Year 10 Physical Sciences Mid Topic Test 2017.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-mid-A10",
+      "sourceLabel": "mid-A10",
+      "marks": 1,
+      "type": "Short answer",
+      "sourceFile": "Year 10 Physical Sciences Mid Topic Test 2017.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-mid-A11",
+      "sourceLabel": "mid-A11",
+      "marks": 2,
+      "type": "Calculations",
+      "sourceFile": "Year 10 Physical Sciences Mid Topic Test 2017.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-mid-A12",
+      "sourceLabel": "mid-A12",
+      "marks": 3,
+      "type": "Short answer",
+      "sourceFile": "Year 10 Physical Sciences Mid Topic Test 2017.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem1-A1",
+      "sourceLabel": "sem1-A1",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem1-A2",
+      "sourceLabel": "sem1-A2",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem1-A3",
+      "sourceLabel": "sem1-A3",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem1-A4",
+      "sourceLabel": "sem1-A4",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem1-A5",
+      "sourceLabel": "sem1-A5",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem1-A6",
+      "sourceLabel": "sem1-A6",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem1-A7",
+      "sourceLabel": "sem1-A7",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem1-A8",
+      "sourceLabel": "sem1-A8",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem1-A9",
+      "sourceLabel": "sem1-A9",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem1-A10",
+      "sourceLabel": "sem1-A10",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem1-B1",
+      "sourceLabel": "sem1-B1",
+      "marks": 3,
+      "type": "Labelling",
+      "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+      "correction": "Specified oxygen-16 because neutron number depends on isotope."
+    },
+    {
+      "id": "science-y10-applecross-sem1-B2",
+      "sourceLabel": "sem1-B2",
+      "marks": 4,
+      "type": "Short answer",
+      "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem1-B3",
+      "sourceLabel": "sem1-B3",
+      "marks": 3,
+      "type": "Multi-step",
+      "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem1-B4",
+      "sourceLabel": "sem1-B4",
+      "marks": 4,
+      "type": "Multi-step",
+      "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem1-B5",
+      "sourceLabel": "sem1-B5",
+      "marks": 4,
+      "type": "Short answer",
+      "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem1-B6",
+      "sourceLabel": "sem1-B6",
+      "marks": 4,
+      "type": "Short answer",
+      "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem1-B7",
+      "sourceLabel": "sem1-B7",
+      "marks": 2,
+      "type": "Calculations",
+      "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+      "correction": "Changed velocity to speed because only distance and time are supplied."
+    },
+    {
+      "id": "science-y10-applecross-sem1-B8",
+      "sourceLabel": "sem1-B8",
+      "marks": 4,
+      "type": "Calculations",
+      "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem1-B9",
+      "sourceLabel": "sem1-B9",
+      "marks": 6,
+      "type": "Calculations",
+      "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem1-B10",
+      "sourceLabel": "sem1-B10",
+      "marks": 4,
+      "type": "Calculations",
+      "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem1-B11",
+      "sourceLabel": "sem1-B11",
+      "marks": 2,
+      "type": "Calculations",
+      "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem1-C1",
+      "sourceLabel": "sem1-C1",
+      "marks": 5,
+      "type": "Calculations",
+      "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem1-C2",
+      "sourceLabel": "sem1-C2",
+      "marks": 6,
+      "type": "Calculations",
+      "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem1-C3",
+      "sourceLabel": "sem1-C3",
+      "marks": 4,
+      "type": "Multi-step",
+      "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+      "correction": "Corrected key maximum-speed statement; reworded final comparison to the first 50 m because the original maximum-energy comparison is not generally valid."
+    },
+    {
+      "id": "science-y10-applecross-sem1-C4",
+      "sourceLabel": "sem1-C4",
+      "marks": 8,
+      "type": "Multi-step",
+      "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem1-C5",
+      "sourceLabel": "sem1-C5",
+      "marks": 12,
+      "type": "Multi-step",
+      "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem1-D1",
+      "sourceLabel": "sem1-D1",
+      "marks": 15,
+      "type": "Comprehension",
+      "sourceFile": "Yr 10 Exam, Sem 1, 2017.docx",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A1",
+      "sourceLabel": "sem2-A1",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A2",
+      "sourceLabel": "sem2-A2",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A3",
+      "sourceLabel": "sem2-A3",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A4",
+      "sourceLabel": "sem2-A4",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A5",
+      "sourceLabel": "sem2-A5",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A6",
+      "sourceLabel": "sem2-A6",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A7",
+      "sourceLabel": "sem2-A7",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A8",
+      "sourceLabel": "sem2-A8",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A9",
+      "sourceLabel": "sem2-A9",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A10",
+      "sourceLabel": "sem2-A10",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A11",
+      "sourceLabel": "sem2-A11",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A12",
+      "sourceLabel": "sem2-A12",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A13",
+      "sourceLabel": "sem2-A13",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A14",
+      "sourceLabel": "sem2-A14",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A15",
+      "sourceLabel": "sem2-A15",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A16",
+      "sourceLabel": "sem2-A16",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A17",
+      "sourceLabel": "sem2-A17",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A18",
+      "sourceLabel": "sem2-A18",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A19",
+      "sourceLabel": "sem2-A19",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A20",
+      "sourceLabel": "sem2-A20",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A21",
+      "sourceLabel": "sem2-A21",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A22",
+      "sourceLabel": "sem2-A22",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A23",
+      "sourceLabel": "sem2-A23",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A24",
+      "sourceLabel": "sem2-A24",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A25",
+      "sourceLabel": "sem2-A25",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A26",
+      "sourceLabel": "sem2-A26",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A27",
+      "sourceLabel": "sem2-A27",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A28",
+      "sourceLabel": "sem2-A28",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A29",
+      "sourceLabel": "sem2-A29",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A30",
+      "sourceLabel": "sem2-A30",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A31",
+      "sourceLabel": "sem2-A31",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A32",
+      "sourceLabel": "sem2-A32",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A33",
+      "sourceLabel": "sem2-A33",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A34",
+      "sourceLabel": "sem2-A34",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A35",
+      "sourceLabel": "sem2-A35",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A36",
+      "sourceLabel": "sem2-A36",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A37",
+      "sourceLabel": "sem2-A37",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A38",
+      "sourceLabel": "sem2-A38",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A39",
+      "sourceLabel": "sem2-A39",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A40",
+      "sourceLabel": "sem2-A40",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A41",
+      "sourceLabel": "sem2-A41",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A42",
+      "sourceLabel": "sem2-A42",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A43",
+      "sourceLabel": "sem2-A43",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": "Corrected original option D, which incorrectly ended with a red dwarf."
+    },
+    {
+      "id": "science-y10-applecross-sem2-A44",
+      "sourceLabel": "sem2-A44",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A45",
+      "sourceLabel": "sem2-A45",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A46",
+      "sourceLabel": "sem2-A46",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A47",
+      "sourceLabel": "sem2-A47",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A48",
+      "sourceLabel": "sem2-A48",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A49",
+      "sourceLabel": "sem2-A49",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-A50",
+      "sourceLabel": "sem2-A50",
+      "marks": 1,
+      "type": "Multiple choice",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-B1",
+      "sourceLabel": "sem2-B1",
+      "marks": 3,
+      "type": "Calculations",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-B2",
+      "sourceLabel": "sem2-B2",
+      "marks": 3,
+      "type": "Calculations",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-B3",
+      "sourceLabel": "sem2-B3",
+      "marks": 4,
+      "type": "Short answer",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-B4",
+      "sourceLabel": "sem2-B4",
+      "marks": 3,
+      "type": "Short answer",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-B5",
+      "sourceLabel": "sem2-B5",
+      "marks": 2,
+      "type": "Short answer",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-B6",
+      "sourceLabel": "sem2-B6",
+      "marks": 4,
+      "type": "Short answer",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-B7",
+      "sourceLabel": "sem2-B7",
+      "marks": 3,
+      "type": "Multi-step",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-B8",
+      "sourceLabel": "sem2-B8",
+      "marks": 1,
+      "type": "Short answer",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-B9",
+      "sourceLabel": "sem2-B9",
+      "marks": 2,
+      "type": "Short answer",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-B10",
+      "sourceLabel": "sem2-B10",
+      "marks": 3,
+      "type": "Multi-step",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-B11",
+      "sourceLabel": "sem2-B11",
+      "marks": 3,
+      "type": "Multi-step",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-B12",
+      "sourceLabel": "sem2-B12",
+      "marks": 4,
+      "type": "Data / source analysis",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-B13",
+      "sourceLabel": "sem2-B13",
+      "marks": 7,
+      "type": "Comprehension",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": "Replaced unsupported source claims about the Y chromosome lacking vital genes and X being resistant to mutation with accurate replication-error context. Preserved the assessed cell-division and evolution skills."
+    },
+    {
+      "id": "science-y10-applecross-sem2-B14",
+      "sourceLabel": "sem2-B14",
+      "marks": 4,
+      "type": "Short answer",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    },
+    {
+      "id": "science-y10-applecross-sem2-B15",
+      "sourceLabel": "sem2-B15",
+      "marks": 4,
+      "type": "Fill in the blanks",
+      "sourceFile": "Y10P1Exam2017Sem2.doc",
+      "correction": ""
+    }
+  ]
+}

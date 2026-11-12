@@ -1,0 +1,602 @@
+[
+  {
+    "id": "science-y10-applecross-mid-A1",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 1,
+    "sourceQuestionLabel": "1",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Physical Sciences mid-topic test 2017",
+    "section": "Fill in the blanks",
+    "types": [
+      "Fill in the blanks"
+    ],
+    "responseTypes": [
+      "Fill in the blanks"
+    ],
+    "marks": 6,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Forces and Newton’s laws"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Hard",
+    "mixed": false,
+    "text": "Write the correct term from the box next to its meaning below; (6 marks) acceleration, force, Joules, kg, m/s, m/s2, Newtons, Newton’s first law, Newton’s second law, Newton’s third law, speed, velocity, (a) Units of mass □ (b) Units of velocity □ (c) Units of force □ (d) Units of energy □ (e) Units of acceleration □ (f) A push or a pull □ (g) Displacement divided by time □ (h) Distance divided by time □ (i) How quickly an object changes its velocity □ (j) For every action force there is an equal and opposite reaction force. □ (k) An object will stay still or continue at constant velocity unless acted on by a force □ (l) Acceleration will increase with a greater force applied, but decrease for objects with greater mass. □",
+    "hash": "ed65f225a81222157ad235640cc8d7d4dbf368a279359bfc88405610ab2ca8f9",
+    "sourceFile": "Year 10 Physical Sciences Mid Topic Test 2017.doc",
+    "sourceKeyFile": "Y10MidTopicTest2017Soln.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-mid.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Write the correct term from the box next to its meaning below; (6 marks) acceleration, force, Joules, kg, m/s, m/s2, Newtons, Newton’s first law, Newton’s second law, Newton’s third law, speed, velocity,</p><p>(a) Units of mass □ (b) Units of velocity □</p><p>(c) Units of force □ (d) Units of energy □</p><p>(e) Units of acceleration □ (f) A push or a pull □</p><p>(g) Displacement divided by time □ (h) Distance divided by time □</p><p>(i) How quickly an object changes its velocity □</p><p>(j) For every action force there is an equal and opposite reaction force. □</p><p>(k) An object will stay still or continue at constant velocity</p><p>unless acted on by a force □</p><p>(l) Acceleration will increase with a greater force applied,</p><p>but decrease for objects with greater mass. □</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>In order: kg; m/s; newton (N); joule (J); m/s²; force; velocity; speed; acceleration; Newton’s third law; Newton’s first law; Newton’s second law. [½ each] Speed uses distance, velocity uses displacement and direction. The first law requires zero resultant external force, rather than no individual forces.</p><h3>Marking guidance</h3><p>Maximum 6 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-mid-A2",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 2,
+    "sourceQuestionLabel": "2",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Physical Sciences mid-topic test 2017",
+    "section": "Calculations",
+    "types": [
+      "Calculations"
+    ],
+    "responseTypes": [
+      "Calculations"
+    ],
+    "marks": 3,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Motion and measurement"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "Cathy Freeman won the Gold Medal in the woman’s 400 m race at the 2000 Sydney Olympic Games with a time of 49.11 seconds. The race is one full lap around a 400 m track where the finish line is also the starting line. (a) Calculate Cathy’s average speed for the race. Show working. (2 mark) (b) Calculate Cathy’s average velocity. (1 mark)",
+    "hash": "39a426942ccf239a5782f819c96e693158d8e492fba512da8dbdae65db835b68",
+    "sourceFile": "Year 10 Physical Sciences Mid Topic Test 2017.doc",
+    "sourceKeyFile": "Y10MidTopicTest2017Soln.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-mid.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Cathy Freeman won the Gold Medal in the woman’s 400 m race at the 2000 Sydney Olympic Games with a time of 49.11 seconds. The race is one full lap around a 400 m track where the finish line is also the starting line.</p><p>(a) Calculate Cathy’s average speed for the race. Show working. (2 mark)</p><p>(b) Calculate Cathy’s average velocity. (1 mark)</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>(a) Average speed = 400/49.11 = 8.145 m/s ≈ 8.15 m/s. [2]</p><p>(b) The start and finish coincide, so displacement = 0 and average velocity = 0/49.11 = 0 m/s. [1]</p><h3>Marking guidance</h3><p>Maximum 3 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-mid-A3",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 3,
+    "sourceQuestionLabel": "3",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Physical Sciences mid-topic test 2017",
+    "section": "Calculations",
+    "types": [
+      "Calculations"
+    ],
+    "responseTypes": [
+      "Calculations"
+    ],
+    "marks": 4,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Motion and measurement"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "A former Applecross student, Belinda Smith is playing AFLW for the Dockers. She runs 35 m North then 25 m East to make position to receive a pass from a team mate. (a) Draw a vector diagram showing the distance covered and the displacement. (1 mark) N (b) Calculate the distance covered. (1 mark) (c) Calculate or measure the displacement (1 mark) (d) Use trigonometry or a protractor to find the direction of the displacement (1 mark)",
+    "hash": "03fbb9bc17239748a94b36bee94e102f86fde22b68f415273c742abb6e19b308",
+    "sourceFile": "Year 10 Physical Sciences Mid Topic Test 2017.doc",
+    "sourceKeyFile": "Y10MidTopicTest2017Soln.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-mid.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>A former Applecross student, Belinda Smith is playing AFLW for the Dockers. She runs 35 m North then 25 m East to make position to receive a pass from a team mate.</p><p>(a) Draw a vector diagram showing the distance covered and the displacement. (1 mark)</p><p>N</p><p>(b) Calculate the distance covered. (1 mark)</p><p>(c) Calculate or measure the displacement (1 mark)</p><p>(d) Use trigonometry or a protractor to find the</p><p>direction of the displacement (1 mark)</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>(a) Draw 35 m north, then 25 m east head-to-tail; resultant runs from start to final point. [1]</p><p>(b) Distance = 35 + 25 = 60 m. [1]</p><p>(c) Displacement = √(35² + 25²) = 43.0 m. [1]</p><p>(d) Direction = tan⁻¹(25/35) = 35.5° east of north, or 54.5° north of east. [1]</p><h3>Marking guidance</h3><p>Maximum 4 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-mid-A4",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 4,
+    "sourceQuestionLabel": "4",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Physical Sciences mid-topic test 2017",
+    "section": "Labelling",
+    "types": [
+      "Labelling"
+    ],
+    "responseTypes": [
+      "Labelling"
+    ],
+    "marks": 3,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Motion and measurement"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "Three vectors are shown: A = 40 N east; B = 30 N southeast; C = 25 N south. Draw head-to-tail scale diagrams and show the resultant for (a) A + B; (b) B + C; (c) A + C. [1 each]",
+    "hash": "29d941ed86168b30f9bde3f092e22d8b09f92c3f5c56121e706b79facb4c2785",
+    "sourceFile": "Year 10 Physical Sciences Mid Topic Test 2017.doc",
+    "sourceKeyFile": "Y10MidTopicTest2017Soln.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-mid.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Three vectors are shown: A = 40 N east; B = 30 N southeast; C = 25 N south. Draw head-to-tail scale diagrams and show the resultant for (a) A + B; (b) B + C; (c) A + C. [1 each]</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Draw each pair head-to-tail to scale; resultant runs from the first tail to the final head. [1 per correct diagram]</p><p>(a) A + B: 40 N east then 30 N southeast. Taking southeast as 45°, resultant components are 61.2 N east and 21.2 N south: magnitude ≈64.8 N, 19.1° south of east.</p><p>(b) B + C: 21.2 N east and 46.2 N south: ≈50.9 N, 65.3° south of east.</p><p>(c) A + C: 40 N east and 25 N south: ≈47.2 N, 32.0° south of east. Numerical values support the required drawings.</p><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 210\" role=\"img\" aria-label=\"Worked diagram\" style=\"max-width:100%;font:16px Arial\"><defs><marker id=\"forcearrow\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto\"><path d=\"M0 0L10 5L0 10Z\" fill=\"#246\"/></marker></defs><g fill=\"none\" stroke=\"#246\" stroke-width=\"2\" marker-end=\"url(#forcearrow)\"><path d=\"M20 65H105L150 110\"/><path d=\"M215 45L260 90V145\"/><path d=\"M415 65H500V120\"/></g><g fill=\"none\" stroke=\"#a43\" stroke-width=\"2\"><path d=\"M20 65L150 110M215 45L260 145M415 65L500 120\"/></g><text x=\"20\" y=\"25\">A + B</text><text x=\"215\" y=\"25\">B + C</text><text x=\"415\" y=\"25\">A + C</text><text x=\"30\" y=\"185\">Blue: head-to-tail vectors. Red: resultant start → finish.</text></svg><h3>Marking guidance</h3><p>Maximum 3 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-mid-A4x",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 4,
+    "sourceQuestionLabel": "4 (map)",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Physical Sciences mid-topic test 2017",
+    "section": "Calculations",
+    "types": [
+      "Calculations"
+    ],
+    "responseTypes": [
+      "Calculations"
+    ],
+    "marks": 7,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Motion and measurement"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Hard",
+    "mixed": false,
+    "text": "Adele follows the route shown from Elizabeth Quay station to Perth Arena. (a) Use the 200 m map scale to estimate route distance. [2] (b) For a journey time of 20 min, calculate average speed in m/s. [3] (c) Is the magnitude of average velocity greater than, equal to or less than average speed? Explain without calculation. [2]",
+    "hash": "2a0d373b0930ffc1c42f59a8f1a085c80fbd9defb958c5a283da1fcb37bb11ab",
+    "sourceFile": "Year 10 Physical Sciences Mid Topic Test 2017.doc",
+    "sourceKeyFile": "Y10MidTopicTest2017Soln.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 1,
+    "bankFile": "practice-studio-science-year10-mid.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Adele follows the route shown from Elizabeth Quay station to Perth Arena. (a) Use the 200 m map scale to estimate route distance. [2] (b) For a journey time of 20 min, calculate average speed in m/s. [3] (c) Is the magnitude of average velocity greater than, equal to or less than average speed? Explain without calculation. [2]</p><figure><img src=\"assets/practice-science-year10/mid-map.png\" alt=\"mid map\" loading=\"lazy\"></figure>",
+    "answerHtml": "<h3>Worked solution</h3><p>(a) Use the 200 m scale bar to measure route segments. The key’s approximate segment estimates are 650 + 530 + 100 = 1280 m. [2; allow reasonable measurement tolerance]</p><p>(b) t = 20 × 60 = 1200 s. Average speed = 1280/1200 = 1.07 m/s. [3: time conversion, substitution, result]</p><p>(c) Average-velocity magnitude is less than average speed because straight-line displacement is shorter than route distance, with the same time. [2] Carry the student’s measured distance forward consistently; the handwritten key changes its distance between parts.</p><h3>Marking guidance</h3><p>Maximum 7 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": [],
+    "editorialNote": "Source has two questions numbered 4. Preserved map question separately; key changes distance between parts, so worked solution uses consistent measured distance."
+  },
+  {
+    "id": "science-y10-applecross-mid-A5",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 5,
+    "sourceQuestionLabel": "5",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Physical Sciences mid-topic test 2017",
+    "section": "Calculations",
+    "types": [
+      "Calculations"
+    ],
+    "responseTypes": [
+      "Calculations"
+    ],
+    "marks": 3,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Motion and measurement"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "Emma Moffatt was the first Australian woman to finish (in 6th position) the triathlon event at the 2016 Olympic Games. She completed the 1.5 km swim, the 40 km cycle, then the 10 km run in a total time of 1 hour, 57 mins and 55 sec. Calculate Emma’s average speed in m/s for the event. (3 marks) Show working.",
+    "hash": "3646744c967ae7bfd17fbe8a34914a386b4498e3e027ef51dc603d5c3d54544b",
+    "sourceFile": "Year 10 Physical Sciences Mid Topic Test 2017.doc",
+    "sourceKeyFile": "Y10MidTopicTest2017Soln.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-mid.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Emma Moffatt was the first Australian woman to finish (in 6th position) the triathlon event at the 2016 Olympic Games. She completed the 1.5 km swim, the 40 km cycle, then the 10 km run in a total time of 1 hour, 57 mins and 55 sec. Calculate Emma’s average speed in m/s for the event. (3 marks) Show working.</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Distance = 1.5 + 40 + 10 = 51.5 km = 51,500 m. [1] Time = 3600 + 57(60) + 55 = 7075 s. [1] Average speed = 51,500/7075 = 7.28 m/s. [1]</p><h3>Marking guidance</h3><p>Maximum 3 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-mid-A6",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 6,
+    "sourceQuestionLabel": "6",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Physical Sciences mid-topic test 2017",
+    "section": "Calculations",
+    "types": [
+      "Calculations"
+    ],
+    "responseTypes": [
+      "Calculations"
+    ],
+    "marks": 7,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Motion and measurement"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Hard",
+    "mixed": false,
+    "text": "A ticker timer makes dots every 0.02 s. (a) Use the ruled scale and first tape to calculate speed in m/s; count the intervals carefully. [3] (b) Identify its motion and explain from the dot spacing. [2] (c) The left side of the second tape passed through first. Identify the motion and explain. [2]",
+    "hash": "a6b3b39d03f3236d7d096b6e9e68a822321b79eb286f656b91fefe9ff418c9c8",
+    "sourceFile": "Year 10 Physical Sciences Mid Topic Test 2017.doc",
+    "sourceKeyFile": "Y10MidTopicTest2017Soln.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 2,
+    "bankFile": "practice-studio-science-year10-mid.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>A ticker timer makes dots every 0.02 s. (a) Use the ruled scale and first tape to calculate speed in m/s; count the intervals carefully. [3] (b) Identify its motion and explain from the dot spacing. [2] (c) The left side of the second tape passed through first. Identify the motion and explain. [2]</p><figure><img src=\"assets/practice-science-year10/mid-tape.png\" alt=\"mid tape\" loading=\"lazy\"></figure><figure><img src=\"assets/practice-science-year10/mid-tape2.png\" alt=\"mid tape2\" loading=\"lazy\"></figure>",
+    "answerHtml": "<h3>Worked solution</h3><p>(a) Distance ≈8.0 cm = 0.080 m. [1] There are 13 intervals, so t = 13 × 0.02 = 0.26 s. [1] v = 0.080/0.26 = 0.308 m/s ≈0.31 m/s. [1] Count intervals, not dots.</p><p>(b) Constant speed: equally spaced dots are made in equal times. [2]</p><p>(c) Speed increases from left to right because the gaps increase over equal times; the tape represents accelerated motion. [2]</p><h3>Marking guidance</h3><p>Maximum 7 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-mid-A7",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 7,
+    "sourceQuestionLabel": "7",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Physical Sciences mid-topic test 2017",
+    "section": "Calculations",
+    "types": [
+      "Calculations"
+    ],
+    "responseTypes": [
+      "Calculations"
+    ],
+    "marks": 4,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Forces and Newton’s laws"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "(a) Calculate the force required to accelerate a top fuel dragster of mass 1100 kg at 36 m/s2. Show working. (2 marks) (b) This dragster requires a parachute to decelerate it. If the parachute provides a force of 60 000 N, calculate the deceleration of the dragster. Show working. (2 marks)",
+    "hash": "57f35c949c44a0c2ff9e489f4cc106bba6c1af652baf4c75e62a350ee83a6d44",
+    "sourceFile": "Year 10 Physical Sciences Mid Topic Test 2017.doc",
+    "sourceKeyFile": "Y10MidTopicTest2017Soln.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-mid.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>(a) Calculate the force required to accelerate a top fuel dragster of mass</p><p>1100 kg at 36 m/s2. Show working. (2 marks)</p><p>(b) This dragster requires a parachute to decelerate it. If the parachute provides a force of 60 000 N,</p><p>calculate the deceleration of the dragster. Show working. (2 marks)</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>(a) F = ma = 1100 × 36 = 39,600 N. [2]</p><p>(b) a = F/m = 60,000/1100 = 54.5 m/s² opposite the motion. [2] With forwards positive, acceleration is −54.5 m/s²; deceleration magnitude is positive.</p><h3>Marking guidance</h3><p>Maximum 4 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-mid-A8",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 8,
+    "sourceQuestionLabel": "8",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Physical Sciences mid-topic test 2017",
+    "section": "Calculations",
+    "types": [
+      "Calculations"
+    ],
+    "responseTypes": [
+      "Calculations"
+    ],
+    "marks": 5,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Forces and Newton’s laws"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "A 1000 kg car accelerates from 60 km/h to 100 km/h in 6 s. (a) Convert both speeds to m/s. [1] (b) Calculate acceleration. [2] (c) Calculate the required net force. [2]",
+    "hash": "fa1ab96a6923f2d54b488235eaab58ed1fbca5943dd60e292b1c905878b20042",
+    "sourceFile": "Year 10 Physical Sciences Mid Topic Test 2017.doc",
+    "sourceKeyFile": "Y10MidTopicTest2017Soln.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-mid.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>A 1000 kg car accelerates from 60 km/h to 100 km/h in 6 s. (a) Convert both speeds to m/s. [1] (b) Calculate acceleration. [2] (c) Calculate the required net force. [2]</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Use corrected mass 1000 kg.</p><p>(a) u = 60/3.6 = 16.6667 m/s; v = 100/3.6 = 27.7778 m/s. [1]</p><p>(b) a = (v − u)/t = (27.7778 − 16.6667)/6 = 1.85 m/s². [2]</p><p>(c) F = ma = 1000 × 1.85185 = 1.85 × 10³ N forward. [2]</p><h3>Marking guidance</h3><p>Maximum 5 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": [],
+    "editorialNote": "Corrected mass unit 1000 N to 1000 kg, as the supplied key directs."
+  },
+  {
+    "id": "science-y10-applecross-mid-A9",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 9,
+    "sourceQuestionLabel": "9",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Physical Sciences mid-topic test 2017",
+    "section": "Short answer",
+    "types": [
+      "Short answer"
+    ],
+    "responseTypes": [
+      "Short answer"
+    ],
+    "marks": 2,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Forces and Newton’s laws"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "Use Newton’s First Law of Motion to explain why you must wear a seat belt while you are a passenger in a car. (2 marks)",
+    "hash": "af2954402804057c1b833903f9a216a7de902b8395d8d612d4a0182637581168",
+    "sourceFile": "Year 10 Physical Sciences Mid Topic Test 2017.doc",
+    "sourceKeyFile": "Y10MidTopicTest2017Soln.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-mid.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Use Newton’s First Law of Motion to explain why you must wear a seat belt while you are a passenger in a car. (2 marks)</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Newton’s first law states that velocity remains constant unless a resultant external force acts. [1] When a car stops, the passenger tends to continue forwards; a seat belt supplies a restraining force and helps prevent collision with the interior. [1]</p><h3>Marking guidance</h3><p>Maximum 2 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-mid-A10",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 10,
+    "sourceQuestionLabel": "10",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Physical Sciences mid-topic test 2017",
+    "section": "Short answer",
+    "types": [
+      "Short answer"
+    ],
+    "responseTypes": [
+      "Short answer"
+    ],
+    "marks": 1,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Forces and Newton’s laws"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Easy",
+    "mixed": false,
+    "text": "Use Newton’s third law to explain how the swimmer pushing off the pool wall moves forwards. [1]",
+    "hash": "4963181caef9acb5d15fa821a87867571f58a5e31fd8e745df47010e729f7769",
+    "sourceFile": "Year 10 Physical Sciences Mid Topic Test 2017.doc",
+    "sourceKeyFile": "Y10MidTopicTest2017Soln.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 1,
+    "bankFile": "practice-studio-science-year10-mid.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Use Newton’s third law to explain how the swimmer pushing off the pool wall moves forwards. [1]</p><figure><img src=\"assets/practice-science-year10/mid-swimmer.png\" alt=\"mid swimmer\" loading=\"lazy\"></figure>",
+    "answerHtml": "<h3>Worked solution</h3><p>The swimmer pushes backwards against the wall; the wall exerts an equal opposite forward force on the swimmer. The forces act on different objects and therefore do not cancel on the swimmer. [1]</p><h3>Marking guidance</h3><p>Maximum 1 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-mid-A11",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 11,
+    "sourceQuestionLabel": "11",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Physical Sciences mid-topic test 2017",
+    "section": "Calculations",
+    "types": [
+      "Calculations"
+    ],
+    "responseTypes": [
+      "Calculations"
+    ],
+    "marks": 2,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Motion and measurement"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "Felix Baumgartner jumped from a balloon at a height of nearly 39 km so that there was very little air to slow his acceleration. Therefore acceleration = 10 m/s2 Calculate his downward speed after falling for 25 seconds. Show working. (2 marks)",
+    "hash": "39534e6e7416186ee66e8d8178b720b9922f0c6a5eec62d54ec8ce0086c9bed7",
+    "sourceFile": "Year 10 Physical Sciences Mid Topic Test 2017.doc",
+    "sourceKeyFile": "Y10MidTopicTest2017Soln.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-mid.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>Felix Baumgartner jumped from a balloon at a height of nearly 39 km so that there was very little air to slow his acceleration. Therefore acceleration = 10 m/s2 Calculate his downward speed after falling for 25 seconds. Show working. (2 marks)</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>Assume rest initially and constant a = 10 m/s². v = u + at = 0 + 10(25) = 250 m/s downward. [1 formula/substitution; 1 result and direction]</p><h3>Marking guidance</h3><p>Maximum 2 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  },
+  {
+    "id": "science-y10-applecross-mid-A12",
+    "subject": "Science",
+    "area": "Science",
+    "year": 10,
+    "originalYear": 10,
+    "examYear": 2017,
+    "units": "Lower school",
+    "number": 12,
+    "sourceQuestionLabel": "12",
+    "sourceSection": "A",
+    "source": "Applecross Year 10 Physical Sciences mid-topic test 2017",
+    "section": "Short answer",
+    "types": [
+      "Short answer"
+    ],
+    "responseTypes": [
+      "Short answer"
+    ],
+    "marks": 3,
+    "marksOrigin": "Question part allocations in supplied assessment",
+    "topics": [
+      "Physical sciences"
+    ],
+    "subtopics": [
+      "Forces and Newton’s laws"
+    ],
+    "strand": "Physical sciences",
+    "difficulty": "Medium",
+    "mixed": false,
+    "text": "The following statements each relate to one or more of Newton’s Laws. Write down which of Newton’s laws applies to each statement (first, second or third?). Statement Which Law? A rocket pushes hot gasses backwards to go forwards A motorbike has greater acceleration than a car because it has less mass A bike rider tumbles over the handlebars after hitting a big rock Truck engines can provide more force than car engines AFL players have sprigs in the soles of their boots to increase friction. An object on the seat of a car falls onto the floor when the brakes are applied suddenly. (3 marks)",
+    "hash": "92f75ac0fc3864c7518b545029f10275b8655c4d40890e227f571bd6febe1fee",
+    "sourceFile": "Year 10 Physical Sciences Mid Topic Test 2017.doc",
+    "sourceKeyFile": "Y10MidTopicTest2017Soln.pdf",
+    "solutionOrigin": "supplied-key-checked-and-expanded-with-independent-working",
+    "figures": 0,
+    "bankFile": "practice-studio-science-year10-mid.json",
+    "addedAt": "2026-11-12T00:00:00Z",
+    "markingMode": "manual",
+    "fontFamily": "Arial",
+    "fontSizePt": 12,
+    "responseLines": 0,
+    "html": "<p>The following statements each relate to one or more of Newton’s Laws. Write down which of Newton’s laws applies to each statement (first, second or third?). Statement Which Law? A rocket pushes hot gasses backwards to go forwards A motorbike has greater acceleration than a car because it has less mass A bike rider tumbles over the handlebars after hitting a big rock Truck engines can provide more force than car engines AFL players have sprigs in the soles of their boots to increase friction. An object on the seat of a car falls onto the floor when the brakes are applied suddenly.</p><p>(3 marks)</p>",
+    "answerHtml": "<h3>Worked solution</h3><p>In row order: third; second; first; second; third; first. [½ each]</p><p>Rocket thrust is an action–reaction pair. Lower mass gives greater acceleration for equal net force (second law). Rider and loose object continue moving by inertia (first law). Engine forces relate to acceleration and mass (second). Sprigs improve frictional contact: player pushes ground backwards and ground pushes player forwards (third).</p><h3>Marking guidance</h3><p>Maximum 3 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
+    "markingKeyPoints": []
+  }
+]
