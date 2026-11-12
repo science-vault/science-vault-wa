@@ -26,6 +26,7 @@ window.AssessmentBuilderConfig={version:'2026.7',bankRoot:'assessment-builder/qu
     var year=document.getElementById('year');
     var build=document.getElementById('build');
     if(!subject||!year) return false;
+    if(subject.options.length && year.options.length) return true;
     subject.innerHTML=window.AssessmentBuilderSubjects.map(function(s){return '<option value="'+s.id+'">'+s.label+'</option>';}).join('');
     if(!subject.value) subject.value='science';
     var selected=window.AssessmentBuilderSubjects.find(function(s){return s.id===subject.value;})||window.AssessmentBuilderSubjects[0];
