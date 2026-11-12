@@ -1,0 +1,351 @@
+{
+  "date": "2026-11-12",
+  "year": 12,
+  "lessons": 79,
+  "diagramPages": 183,
+  "uniqueDiagramsUsed": 54,
+  "references": "Final page of every lesson",
+  "coverage": {
+    "hb-u3-ppt-1-types-of-investigation": [
+      "method"
+    ],
+    "hb-u3-ppt-1-types-of-investigationa": [
+      "method"
+    ],
+    "hb-u3-ppt-sci-method-and-planning-valid-investigations": [
+      "method"
+    ],
+    "hb-u3-ppt-data-and-results": [
+      "method"
+    ],
+    "hb-u3-ppt-analysing-results": [
+      "method"
+    ],
+    "hb-u3-ppt-1-intro-to-endocrine-system-and-hormones": [
+      "endocrine",
+      "peptide",
+      "steroid"
+    ],
+    "hb-u3-ppt-2-hormone-effects-on-cells": [
+      "peptide",
+      "steroid"
+    ],
+    "hb-u3-ppt-3-the-hypothalamus-and-pituitary": [
+      "pituitary",
+      "growth",
+      "thyroid"
+    ],
+    "hb-u3-ppt-4-growth-hormone": [
+      "growth",
+      "pituitary"
+    ],
+    "hb-u3-ppt-5-thyroid": [
+      "thyroid",
+      "endocrine"
+    ],
+    "hb-u3-ppt-6-parathyroid": [
+      "calcium",
+      "endocrine"
+    ],
+    "hb-u3-ppt-7-adrenal-hormones": [
+      "adrenal",
+      "cortisol"
+    ],
+    "hb-u3-ppt-8-pancreas-insulin-glucagon": [
+      "glucose",
+      "endocrine"
+    ],
+    "hb-u3-ppt-5-pancreas-insulin-glucagon-and-other-endocrine-glands": [
+      "glucose",
+      "endocrine"
+    ],
+    "hb-u3-ppt-6-hormones-and-recombinant-dna-technology": [
+      "recombinant",
+      "protein",
+      "glucose"
+    ],
+    "hb-u3-ppt-recap-hormones-and-recombinant-dna-technology": [
+      "recombinant",
+      "protein",
+      "glucose"
+    ],
+    "hb-u3-ppt-2-nervous-system-overview": [
+      "neuron",
+      "synapse",
+      "action"
+    ],
+    "hb-u3-ppt-3-nerve-impulses-action-potentials": [
+      "neuron",
+      "action",
+      "myelin"
+    ],
+    "hb-u3-ppt-4-synapses-and-neurotransmitters": [
+      "synapse",
+      "action"
+    ],
+    "hb-u3-ppt-5b-divisions-of-the-nervous-system-peripheral-overview-and-sensory": [
+      "nervous",
+      "neuron",
+      "reflex"
+    ],
+    "hb-u3-ppt-6-divisions-of-the-ns-peripheral-motor-and-reflexes": [
+      "reflex",
+      "nervous"
+    ],
+    "hb-u3-ppt-7-cns-the-brain": [
+      "cortex",
+      "brain",
+      "nervous"
+    ],
+    "hb-u3-ppt-central-nervous-system-brain-other-structures": [
+      "brain",
+      "brainstem",
+      "cortex"
+    ],
+    "hb-u3-ppt-cns-protection": [
+      "cortex",
+      "brain",
+      "nervous"
+    ],
+    "hb-u3-ppt-8-cns-protection-and-nervous-endocrine-comparison": [
+      "endocrine",
+      "peptide",
+      "steroid"
+    ],
+    "hb-u3-ppt-9-diseases-of-the-nervous-system": [
+      "neuron",
+      "synapse",
+      "action"
+    ],
+    "hb-u3-ppt-14-nervous-system-recap-for-sem-i-exam": [
+      "neuron",
+      "synapse",
+      "action"
+    ],
+    "hb-u3-ppt-2-homeostasis-intro-and-body-temp": [
+      "temperature",
+      "feedback"
+    ],
+    "hb-u3-ppt-feedback-loop-templates": [
+      "feedback",
+      "glucose"
+    ],
+    "hb-u3-ppt-3-body-temperature-homeostasis-continued": [
+      "temperature",
+      "feedback"
+    ],
+    "hb-u3-ppt-body-temperature-homeostasis": [
+      "temperature",
+      "feedback"
+    ],
+    "hb-u3-ppt-4-regulation-of-body-fluid-composition": [
+      "nephron",
+      "adh",
+      "aquaporin"
+    ],
+    "hb-u3-ppt-5-blood-sugar-homeostasis": [
+      "glucose",
+      "endocrine"
+    ],
+    "hb-u3-ppt-6-regulation-of-blood-gas-concentrations": [
+      "respiration",
+      "heart"
+    ],
+    "hb-u3-ppt-heart-rate-and-blood-pressure-regulation": [
+      "heart",
+      "feedback"
+    ],
+    "hb-u3-ppt-7-disruptions-to-homeostasis": [
+      "feedback",
+      "temperature",
+      "glucose"
+    ],
+    "hb-u3-ppt-1-protection-against-invaders-external-defences-and-reflexes": [
+      "reflex",
+      "nervous"
+    ],
+    "hb-u3-ppt-2-internal-non-specific-defences": [
+      "innate",
+      "inflammation"
+    ],
+    "hb-u3-ppt-3-specific-resistance-to-infection": [
+      "antibody",
+      "bcell",
+      "antigen"
+    ],
+    "hb-u3-ppt-specific-immunity-ppt": [
+      "antibody",
+      "bcell",
+      "antigen"
+    ],
+    "hb-u3-ppt-4-vaccines": [
+      "memory",
+      "bcell",
+      "antibody"
+    ],
+    "hb-u3-ppt-5-types-of-specific-immunity": [
+      "memory",
+      "bcell",
+      "antibody"
+    ],
+    "hb-u3-ppt-types-of-immunity": [
+      "memory",
+      "bcell",
+      "antibody"
+    ],
+    "hb-u3-ppt-6-antibiotics-and-antivirals": [
+      "innate",
+      "antibody"
+    ],
+    "hb-u4-ppt-1-dna-alleles-and-genes": [
+      "dna",
+      "replication"
+    ],
+    "hb-u4-ppt-2-meiosis-and-sources-of-variation": [
+      "meiosis",
+      "crossing"
+    ],
+    "hb-u4-ppt-3-mutations-and-gene-pools": [
+      "dna",
+      "chromosome",
+      "alleles"
+    ],
+    "hb-u4-ppt-4-chromosomal-mutations": [
+      "chromosome",
+      "meiosis"
+    ],
+    "hb-u4-ppt-5-changes-to-allele-frequencies-in-gene-pools": [
+      "alleles",
+      "selection"
+    ],
+    "hb-u4-ppt-6-theory-of-evolution-through-natural-selection": [
+      "selection",
+      "alleles"
+    ],
+    "hb-u4-ppt-7-heterozygote-advantage": [
+      "alleles",
+      "selection"
+    ],
+    "hb-u4-ppt-1-intro-and-pcr": [
+      "pcr",
+      "gel"
+    ],
+    "hb-u4-ppt-gel-electro-bio-ppt": [
+      "gel",
+      "pcr"
+    ],
+    "hb-u4-ppt-gel-electrophoresis-ppt": [
+      "gel",
+      "pcr"
+    ],
+    "hb-u4-ppt-2-dna-sequencing": [
+      "sequencing",
+      "gene-map"
+    ],
+    "hb-u4-ppt-3-recombinant-dna-technology-review": [
+      "recombinant",
+      "protein",
+      "glucose"
+    ],
+    "hb-u4-ppt-4-gene-therapy-cell-replacement-therapy-tissue-engineering-review": [
+      "gene-therapy",
+      "recombinant",
+      "mitosis"
+    ],
+    "hb-u4-ppt-1-dna-evidence-erv-mtdna": [
+      "dna",
+      "primates"
+    ],
+    "hb-u4-ppt-2-dna-evidence-protein-sequencing": [
+      "protein",
+      "homology"
+    ],
+    "hb-u4-ppt-comparative-studies-in-biochemistry": [
+      "protein",
+      "homology"
+    ],
+    "hb-u4-ppt-3-fossil-evidence-for-evolution-1": [
+      "fossils",
+      "skull"
+    ],
+    "hb-u4-ppt-4-fossil-evidence-for-evolution-2": [
+      "fossils",
+      "skull"
+    ],
+    "hb-u4-ppt-fossil-evidence-for-evolution-cont": [
+      "fossils",
+      "skull"
+    ],
+    "hb-u4-ppt-6-comparative-studies-in-anatomy-and-other-evidence": [
+      "homology",
+      "skeleton"
+    ],
+    "hb-u4-ppt-comparative-studies-in-anatomy-and-other-evidence": [
+      "homology",
+      "skeleton"
+    ],
+    "hb-u4-ppt-primate-classification-and-characteristics-old-version": [
+      "primates",
+      "skeleton"
+    ],
+    "hb-u4-ppt-7-primate-evolutionary-trends": [
+      "primates",
+      "skeleton"
+    ],
+    "hb-u4-ppt-primate-evolutionary-trends-old-version": [
+      "primates",
+      "skeleton"
+    ],
+    "hb-u4-ppt-1-adaptations-for-bipedalism-and-erect-posture": [
+      "skeleton",
+      "skull"
+    ],
+    "hb-u4-ppt-2-cerebral-cortex-size-prognathism-dentition": [
+      "skull",
+      "skeleton"
+    ],
+    "hb-u4-ppt-intro-environment-australopithecus": [
+      "skull",
+      "skeleton",
+      "primates"
+    ],
+    "hb-u4-ppt-3-australopithecus": [
+      "skull",
+      "skeleton",
+      "primates"
+    ],
+    "hb-u4-ppt-3-5-paranthropus-robustus": [
+      "skull",
+      "skeleton",
+      "primates"
+    ],
+    "hb-u4-ppt-early-homo": [
+      "skull",
+      "skeleton",
+      "primates"
+    ],
+    "hb-u4-ppt-4-homo-habilis-homo-erectus": [
+      "skull",
+      "skeleton",
+      "primates"
+    ],
+    "hb-u4-ppt-5-transition-to-modern-humans": [
+      "skull",
+      "skeleton",
+      "primates"
+    ],
+    "hb-u4-ppt-transition-to-modern-humans-old": [
+      "skull",
+      "skeleton",
+      "primates"
+    ],
+    "hb-u4-ppt-6-cultural-evolution": [
+      "hominin",
+      "skull"
+    ],
+    "hb-u4-ppt-cultural-evolution": [
+      "hominin",
+      "skull"
+    ]
+  }
+}
