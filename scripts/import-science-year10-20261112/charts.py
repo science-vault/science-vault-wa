@@ -2,7 +2,7 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from pathlib import Path
-out=Path('output/assets/practice-science-year10')
+out=Path('output/assets/chemistry/practice-science-year10')
 plt.rcParams.update({'font.size':12,'font.family':'DejaVu Sans'})
 def chart(name,series,xlabel,ylabel,xlim,ylim,xticks,yticks):
  fig,ax=plt.subplots(figsize=(7,4.2),layout='constrained')

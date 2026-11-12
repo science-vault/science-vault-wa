@@ -37,7 +37,7 @@ CROPS={
 'sem2-limbs':('sem2',6,.35,.435,.97,.65),
 'sem2-dimples':('sem2',10,.13,.455,.69,.645),
 }
-out=Path('output/assets/practice-science-year10');out.mkdir(parents=True,exist_ok=True)
+out=Path('output/assets/chemistry/practice-science-year10');out.mkdir(parents=True,exist_ok=True)
 thumbs=[]
 for name,(slug,num,x0,y0,x1,y1) in CROPS.items():
  page=fitz.open('work/pdf/'+SOURCES[slug]+'.pdf')[num-1];w,h=page.rect.width,page.rect.height

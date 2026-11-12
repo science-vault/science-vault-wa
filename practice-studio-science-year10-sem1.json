@@ -955,7 +955,7 @@
     "fontFamily": "Arial",
     "fontSizePt": 12,
     "responseLines": 0,
-    "html": "<p>Calculate the magnitude and direction of the net force in each of the four diagrams A–D. [1 each]</p><figure><img src=\"assets/practice-science-year10/sem1-forces.png\" alt=\"sem1 forces\" loading=\"lazy\"></figure>",
+    "html": "<p>Calculate the magnitude and direction of the net force in each of the four diagrams A–D. [1 each]</p><figure><img src=\"assets/chemistry/practice-science-year10/sem1-forces.png\" alt=\"sem1 forces\" loading=\"lazy\"></figure>",
     "answerHtml": "<h3>Worked solution</h3><p>A: 20 N right − 15 N left = 5 N right. [1] B: equal 5 N up and down cancel: 0 N. [1] C: 5 N and 10 N both right: 15 N right. [1] D: 18 N up − 4 N down − 5 N down = 9 N up. [1]</p><h3>Marking guidance</h3><p>Maximum 4 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
     "markingKeyPoints": []
   },
@@ -1324,7 +1324,7 @@
     "fontFamily": "Arial",
     "fontSizePt": 12,
     "responseLines": 0,
-    "html": "<p>Sam cycles past stationary Joe at a constant 10 m/s. Joe waits 4 s before following. Use the velocity–time graph. (a)(i) Find Sam’s distance in 15 s. [2] (ii) When is the net force on Joe greater than on Sam? [1] (iii) How long does Joe accelerate? [1] (iv) Calculate Joe’s acceleration. [3] (b) Joe and his bike experience 100 N forwards and 30 N backwards. (i) Find the net horizontal force. [1] (ii) Find the weight for total mass 55 kg, using g = 10 N/kg. [2] (iii) Explain why removing a heavy bag makes acceleration easier. [2]</p><figure><img src=\"assets/practice-science-year10/sem1-velocity.png\" alt=\"sem1 velocity\" loading=\"lazy\"></figure><figure><img src=\"assets/practice-science-year10/sem1-bike.png\" alt=\"sem1 bike\" loading=\"lazy\"></figure>",
+    "html": "<p>Sam cycles past stationary Joe at a constant 10 m/s. Joe waits 4 s before following. Use the velocity–time graph. (a)(i) Find Sam’s distance in 15 s. [2] (ii) When is the net force on Joe greater than on Sam? [1] (iii) How long does Joe accelerate? [1] (iv) Calculate Joe’s acceleration. [3] (b) Joe and his bike experience 100 N forwards and 30 N backwards. (i) Find the net horizontal force. [1] (ii) Find the weight for total mass 55 kg, using g = 10 N/kg. [2] (iii) Explain why removing a heavy bag makes acceleration easier. [2]</p><figure><img src=\"assets/chemistry/practice-science-year10/sem1-velocity.png\" alt=\"sem1 velocity\" loading=\"lazy\"></figure><figure><img src=\"assets/chemistry/practice-science-year10/sem1-bike.png\" alt=\"sem1 bike\" loading=\"lazy\"></figure>",
     "answerHtml": "<h3>Worked solution</h3><p>(a)(i) Sam: d = vt = 10 × 15 = 150 m. [2]</p><p>(ii) From 4 to 10 s Joe accelerates while Sam has zero acceleration, so Joe has greater net force. [1]</p><p>(iii) 10 − 4 = 6 s. [1]</p><p>(iv) a = (15 − 0)/6 = 2.5 m/s². [3]</p><p>(b)(i) F = 100 − 30 = 70 N forwards. [1]</p><p>(ii) Weight = mg = 55 × 10 = 550 N downwards. [2]</p><p>(iii) Removing the bag lowers mass; for the same resultant force, a = F/m increases. [2]</p><h3>Marking guidance</h3><p>Maximum 12 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
     "markingKeyPoints": []
   },

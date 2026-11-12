@@ -455,7 +455,7 @@
     "fontFamily": "Arial",
     "fontSizePt": 12,
     "responseLines": 0,
-    "html": "<p>Three equal 10 g samples of sugar are shown. A dissolves more slowly than B, which dissolves more slowly than C. Why does A dissolve most slowly?</p><figure><img src=\"assets/practice-science-year10/chem-sugar.png\" alt=\"chem sugar\" loading=\"lazy\"></figure>",
+    "html": "<p>Three equal 10 g samples of sugar are shown. A dissolves more slowly than B, which dissolves more slowly than C. Why does A dissolve most slowly?</p><figure><img src=\"assets/chemistry/practice-science-year10/chem-sugar.png\" alt=\"chem sugar\" loading=\"lazy\"></figure>",
     "answerHtml": "<h3>Worked solution</h3><p>Sample A has the least exposed surface area for the same mass, so fewer sugar particles contact water at once. Dissolving sugar is a physical change.</p><h3>Marking guidance</h3><p>Award 1 mark for B. Use the explanation above to check the reasoning.</p>",
     "markingKeyPoints": [],
     "options": [
@@ -573,7 +573,7 @@
     "fontFamily": "Arial",
     "fontSizePt": 12,
     "responseLines": 0,
-    "html": "<p>The table records properties of five substances. Which substances are most likely metals?</p><figure><img src=\"assets/practice-science-year10/chem-table.png\" alt=\"chem table\" loading=\"lazy\"></figure>",
+    "html": "<p>The table records properties of five substances. Which substances are most likely metals?</p><figure><img src=\"assets/chemistry/practice-science-year10/chem-table.png\" alt=\"chem table\" loading=\"lazy\"></figure>",
     "answerHtml": "<h3>Worked solution</h3><p>Substances 1 and 4 conduct electricity and are malleable. Both properties together support their classification as metals; colour alone is insufficient.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
     "markingKeyPoints": [],
     "options": [

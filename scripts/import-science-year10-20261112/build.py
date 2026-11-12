@@ -3,7 +3,7 @@ from html import escape
 import re,json,hashlib,sys
 from solutions import MC,SOL,OV,NOTES
 import overrides
-OUT=Path('output');ASSET='assets/practice-science-year10/'
+OUT=Path('output');ASSET='assets/chemistry/practice-science-year10/'
 FIG={
 'bio-A1':['bio-mitosis'],'bio-A7':['bio-embryos'],'bio-A8':['bio-crosses'],**{f'bio-A{i}':['bio-lice'] for i in (11,12,13)},'bio-A17':['bio-finches'],'bio-A18':['bio-fossil'],'bio-B21':['bio-stages'],'bio-B22':['bio-pedigree'],'bio-B23':['bio-mice'],
 'earth-A5':['earth-galaxies'],'earth-B19':['earth-solar'],**{f'earth-ExtA{i}':['earth-hr'] for i in (5,6)},'earth-ExtA8':['earth-comet'],'earth-ExtB12':['earth-spectrum'],

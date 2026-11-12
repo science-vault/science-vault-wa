@@ -279,7 +279,7 @@
     "fontFamily": "Arial",
     "fontSizePt": 12,
     "responseLines": 0,
-    "html": "<p>Classify the four galaxies shown, from left to right.</p><figure><img src=\"assets/practice-science-year10/earth-galaxies.png\" alt=\"earth galaxies\" loading=\"lazy\"></figure>",
+    "html": "<p>Classify the four galaxies shown, from left to right.</p><figure><img src=\"assets/chemistry/practice-science-year10/earth-galaxies.png\" alt=\"earth galaxies\" loading=\"lazy\"></figure>",
     "answerHtml": "<h3>Worked solution</h3><p>The first image shows a central bar, the second a smooth elliptical shape, the third spiral arms and the fourth an irregular shape: barred spiral, elliptical, spiral, irregular.</p><h3>Marking guidance</h3><p>Award 1 mark for D. Use the explanation above to check the reasoning.</p>",
     "markingKeyPoints": [],
     "options": [
@@ -1067,7 +1067,7 @@
     "fontFamily": "Arial",
     "fontSizePt": 12,
     "responseLines": 0,
-    "html": "<p>State three ways the pictured Solar System is not an accurate representation of the real Solar System. [3]</p><figure><img src=\"assets/practice-science-year10/earth-solar.png\" alt=\"earth solar\" loading=\"lazy\"></figure>",
+    "html": "<p>State three ways the pictured Solar System is not an accurate representation of the real Solar System. [3]</p><figure><img src=\"assets/chemistry/practice-science-year10/earth-solar.png\" alt=\"earth solar\" loading=\"lazy\"></figure>",
     "answerHtml": "<h3>Worked solution</h3><p>Any three distinct inaccuracies: planet and Sun diameters are not to scale; orbital distances are not to the same scale as sizes; planets are shown lined up rather than at their actual positions; Pluto is shown among planets although classified as a dwarf planet. [1 each]</p><h3>Marking guidance</h3><p>Maximum 3 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
     "markingKeyPoints": []
   },
@@ -1349,7 +1349,7 @@
     "fontFamily": "Arial",
     "fontSizePt": 12,
     "responseLines": 0,
-    "html": "<p>Region B of the H–R diagram contains which type of star?</p><figure><img src=\"assets/practice-science-year10/earth-hr.png\" alt=\"earth hr\" loading=\"lazy\"></figure>",
+    "html": "<p>Region B of the H–R diagram contains which type of star?</p><figure><img src=\"assets/chemistry/practice-science-year10/earth-hr.png\" alt=\"earth hr\" loading=\"lazy\"></figure>",
     "answerHtml": "<h3>Worked solution</h3><p>B is at high luminosity and low temperature on the upper right of the H–R diagram, where red giants and supergiants lie.</p><h3>Marking guidance</h3><p>Award 1 mark for A. Use the explanation above to check the reasoning.</p>",
     "markingKeyPoints": [],
     "options": [
@@ -1408,7 +1408,7 @@
     "fontFamily": "Arial",
     "fontSizePt": 12,
     "responseLines": 0,
-    "html": "<p>In this H–R diagram, in which labelled region would a white dwarf lie?</p><figure><img src=\"assets/practice-science-year10/earth-hr.png\" alt=\"earth hr\" loading=\"lazy\"></figure>",
+    "html": "<p>In this H–R diagram, in which labelled region would a white dwarf lie?</p><figure><img src=\"assets/chemistry/practice-science-year10/earth-hr.png\" alt=\"earth hr\" loading=\"lazy\"></figure>",
     "answerHtml": "<h3>Worked solution</h3><p>White dwarfs are hot but faint because they have small radii. They lie at the lower left, region D in this diagram.</p><h3>Marking guidance</h3><p>Award 1 mark for D. Use the explanation above to check the reasoning.</p>",
     "markingKeyPoints": [],
     "options": [
@@ -1528,7 +1528,7 @@
     "fontFamily": "Arial",
     "fontSizePt": 12,
     "responseLines": 0,
-    "html": "<p>The diagram below shows the relative position of a comet and its tail at different times as it passes near the Sun. The tail of the comet streams away from the Sun because:</p><figure><img src=\"assets/practice-science-year10/earth-comet.png\" alt=\"earth comet\" loading=\"lazy\"></figure>",
+    "html": "<p>The diagram below shows the relative position of a comet and its tail at different times as it passes near the Sun. The tail of the comet streams away from the Sun because:</p><figure><img src=\"assets/chemistry/practice-science-year10/earth-comet.png\" alt=\"earth comet\" loading=\"lazy\"></figure>",
     "answerHtml": "<h3>Worked solution</h3><p>Solar wind pushes ionised gas away from the Sun; radiation pressure also pushes dust. A comet’s tail does not merely trail its direction of motion.</p><h3>Marking guidance</h3><p>Award 1 mark for A. Use the explanation above to check the reasoning.</p>",
     "markingKeyPoints": [],
     "options": [
@@ -1752,7 +1752,7 @@
     "fontFamily": "Arial",
     "fontSizePt": 12,
     "responseLines": 0,
-    "html": "<p>The curve shows the spectrum of a yellow main-sequence star similar to the Sun. Draw another curve for a hotter star with higher light intensity. [2]</p><figure><img src=\"assets/practice-science-year10/earth-spectrum.png\" alt=\"earth spectrum\" loading=\"lazy\"></figure>",
+    "html": "<p>The curve shows the spectrum of a yellow main-sequence star similar to the Sun. Draw another curve for a hotter star with higher light intensity. [2]</p><figure><img src=\"assets/chemistry/practice-science-year10/earth-spectrum.png\" alt=\"earth spectrum\" loading=\"lazy\"></figure>",
     "answerHtml": "<h3>Worked solution</h3><p>Draw a curve with a higher intensity [1] and a peak further left, at shorter wavelengths/bluer light. [1] A hotter thermal emitter has a shorter peak wavelength and greater emission per unit area.</p><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 210\" role=\"img\" aria-label=\"Worked diagram\" style=\"max-width:100%;font:16px Arial\"><path d=\"M55 20V175H570\" fill=\"none\" stroke=\"#235\" stroke-width=\"2\"/><path d=\"M55 175C105 175 115 24 155 32S240 160 560 172\" fill=\"none\" stroke=\"#3275ae\" stroke-width=\"3\"/><path d=\"M55 175C140 175 160 95 205 110S330 170 560 174\" fill=\"none\" stroke=\"#bb8821\" stroke-width=\"3\"/><text x=\"300\" y=\"50\" fill=\"#3275ae\">Hotter: higher and peak further left</text><text x=\"285\" y=\"200\">Wavelength →</text></svg><h3>Marking guidance</h3><p>Maximum 2 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
     "markingKeyPoints": [],
     "editorialNote": "Clarified higher intensity for the requested higher thermal-emission curve."

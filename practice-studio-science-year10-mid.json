@@ -225,7 +225,7 @@
     "fontFamily": "Arial",
     "fontSizePt": 12,
     "responseLines": 0,
-    "html": "<p>Adele follows the route shown from Elizabeth Quay station to Perth Arena. (a) Use the 200 m map scale to estimate route distance. [2] (b) For a journey time of 20 min, calculate average speed in m/s. [3] (c) Is the magnitude of average velocity greater than, equal to or less than average speed? Explain without calculation. [2]</p><figure><img src=\"assets/practice-science-year10/mid-map.png\" alt=\"mid map\" loading=\"lazy\"></figure>",
+    "html": "<p>Adele follows the route shown from Elizabeth Quay station to Perth Arena. (a) Use the 200 m map scale to estimate route distance. [2] (b) For a journey time of 20 min, calculate average speed in m/s. [3] (c) Is the magnitude of average velocity greater than, equal to or less than average speed? Explain without calculation. [2]</p><figure><img src=\"assets/chemistry/practice-science-year10/mid-map.png\" alt=\"mid map\" loading=\"lazy\"></figure>",
     "answerHtml": "<h3>Worked solution</h3><p>(a) Use the 200 m scale bar to measure route segments. The key’s approximate segment estimates are 650 + 530 + 100 = 1280 m. [2; allow reasonable measurement tolerance]</p><p>(b) t = 20 × 60 = 1200 s. Average speed = 1280/1200 = 1.07 m/s. [3: time conversion, substitution, result]</p><p>(c) Average-velocity magnitude is less than average speed because straight-line displacement is shorter than route distance, with the same time. [2] Carry the student’s measured distance forward consistently; the handwritten key changes its distance between parts.</p><h3>Marking guidance</h3><p>Maximum 7 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
     "markingKeyPoints": [],
     "editorialNote": "Source has two questions numbered 4. Preserved map question separately; key changes distance between parts, so worked solution uses consistent measured distance."
@@ -318,7 +318,7 @@
     "fontFamily": "Arial",
     "fontSizePt": 12,
     "responseLines": 0,
-    "html": "<p>A ticker timer makes dots every 0.02 s. (a) Use the ruled scale and first tape to calculate speed in m/s; count the intervals carefully. [3] (b) Identify its motion and explain from the dot spacing. [2] (c) The left side of the second tape passed through first. Identify the motion and explain. [2]</p><figure><img src=\"assets/practice-science-year10/mid-tape.png\" alt=\"mid tape\" loading=\"lazy\"></figure><figure><img src=\"assets/practice-science-year10/mid-tape2.png\" alt=\"mid tape2\" loading=\"lazy\"></figure>",
+    "html": "<p>A ticker timer makes dots every 0.02 s. (a) Use the ruled scale and first tape to calculate speed in m/s; count the intervals carefully. [3] (b) Identify its motion and explain from the dot spacing. [2] (c) The left side of the second tape passed through first. Identify the motion and explain. [2]</p><figure><img src=\"assets/chemistry/practice-science-year10/mid-tape.png\" alt=\"mid tape\" loading=\"lazy\"></figure><figure><img src=\"assets/chemistry/practice-science-year10/mid-tape2.png\" alt=\"mid tape2\" loading=\"lazy\"></figure>",
     "answerHtml": "<h3>Worked solution</h3><p>(a) Distance ≈8.0 cm = 0.080 m. [1] There are 13 intervals, so t = 13 × 0.02 = 0.26 s. [1] v = 0.080/0.26 = 0.308 m/s ≈0.31 m/s. [1] Count intervals, not dots.</p><p>(b) Constant speed: equally spaced dots are made in equal times. [2]</p><p>(c) Speed increases from left to right because the gaps increase over equal times; the tape represents accelerated motion. [2]</p><h3>Marking guidance</h3><p>Maximum 7 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
     "markingKeyPoints": []
   },
@@ -503,7 +503,7 @@
     "fontFamily": "Arial",
     "fontSizePt": 12,
     "responseLines": 0,
-    "html": "<p>Use Newton’s third law to explain how the swimmer pushing off the pool wall moves forwards. [1]</p><figure><img src=\"assets/practice-science-year10/mid-swimmer.png\" alt=\"mid swimmer\" loading=\"lazy\"></figure>",
+    "html": "<p>Use Newton’s third law to explain how the swimmer pushing off the pool wall moves forwards. [1]</p><figure><img src=\"assets/chemistry/practice-science-year10/mid-swimmer.png\" alt=\"mid swimmer\" loading=\"lazy\"></figure>",
     "answerHtml": "<h3>Worked solution</h3><p>The swimmer pushes backwards against the wall; the wall exerts an equal opposite forward force on the swimmer. The forces act on different objects and therefore do not cancel on the swimmer. [1]</p><h3>Marking guidance</h3><p>Maximum 1 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
     "markingKeyPoints": []
   },

@@ -41,7 +41,7 @@
     "fontFamily": "Arial",
     "fontSizePt": 12,
     "responseLines": 0,
-    "html": "<p>Which diagram shows the outcome of mitosis followed by cell division for the parent cell shown?</p><figure><img src=\"assets/practice-science-year10/bio-mitosis.png\" alt=\"bio mitosis\" loading=\"lazy\"></figure>",
+    "html": "<p>Which diagram shows the outcome of mitosis followed by cell division for the parent cell shown?</p><figure><img src=\"assets/chemistry/practice-science-year10/bio-mitosis.png\" alt=\"bio mitosis\" loading=\"lazy\"></figure>",
     "answerHtml": "<h3>Worked solution</h3><p>Mitosis produces two daughter cells with the same chromosome complement as the parent, apart from mutation. A shows two cells with the original chromosome number.</p><h3>Marking guidance</h3><p>Award 1 mark for A. Use the explanation above to check the reasoning.</p>",
     "markingKeyPoints": [],
     "options": [
@@ -395,7 +395,7 @@
     "fontFamily": "Arial",
     "fontSizePt": 12,
     "responseLines": 0,
-    "html": "<p>Fish and birds share similarities in their embryos but have different adult features. Which statement best explains the difference in their adult stages?</p><figure><img src=\"assets/practice-science-year10/bio-embryos.png\" alt=\"bio embryos\" loading=\"lazy\"></figure>",
+    "html": "<p>Fish and birds share similarities in their embryos but have different adult features. Which statement best explains the difference in their adult stages?</p><figure><img src=\"assets/chemistry/practice-science-year10/bio-embryos.png\" alt=\"bio embryos\" loading=\"lazy\"></figure>",
     "answerHtml": "<h3>Worked solution</h3><p>Shared developmental features support common ancestry. Different inherited adaptations were favoured in different environments over generations, including fins and wings. DNA does not simply transform from fish-like to bird-like as an embryo develops.</p><h3>Marking guidance</h3><p>Award 1 mark for D. Use the explanation above to check the reasoning.</p>",
     "markingKeyPoints": [],
     "options": [
@@ -454,7 +454,7 @@
     "fontFamily": "Arial",
     "fontSizePt": 12,
     "responseLines": 0,
-    "html": "<p>Which diagram shows a cross between a homozygous parent and a heterozygous parent?</p><figure><img src=\"assets/practice-science-year10/bio-crosses.png\" alt=\"bio crosses\" loading=\"lazy\"></figure>",
+    "html": "<p>Which diagram shows a cross between a homozygous parent and a heterozygous parent?</p><figure><img src=\"assets/chemistry/practice-science-year10/bio-crosses.png\" alt=\"bio crosses\" loading=\"lazy\"></figure>",
     "answerHtml": "<h3>Worked solution</h3><p>B crosses homozygous QQ with heterozygous Qq. A homozygote has two identical alleles; a heterozygote has two different alleles.</p><h3>Marking guidance</h3><p>Award 1 mark for B. Use the explanation above to check the reasoning.</p>",
     "markingKeyPoints": [],
     "options": [
@@ -631,7 +631,7 @@
     "fontFamily": "Arial",
     "fontSizePt": 12,
     "responseLines": 0,
-    "html": "<p>Head lice are treated with insecticide shampoo. The diagram shows original population P, offspring Q, survivors after treatment R and their later population S. When did the mutation producing the new strain occur?</p><figure><img src=\"assets/practice-science-year10/bio-lice.png\" alt=\"bio lice\" loading=\"lazy\"></figure>",
+    "html": "<p>Head lice are treated with insecticide shampoo. The diagram shows original population P, offspring Q, survivors after treatment R and their later population S. When did the mutation producing the new strain occur?</p><figure><img src=\"assets/chemistry/practice-science-year10/bio-lice.png\" alt=\"bio lice\" loading=\"lazy\"></figure>",
     "answerHtml": "<h3>Worked solution</h3><p>Only the original strain appears at P, but the new strain is present at Q. Therefore the mutation occurred between P and Q, before insecticide selected survivors at R.</p><h3>Marking guidance</h3><p>Award 1 mark for B. Use the explanation above to check the reasoning.</p>",
     "markingKeyPoints": [],
     "options": [
@@ -690,7 +690,7 @@
     "fontFamily": "Arial",
     "fontSizePt": 12,
     "responseLines": 0,
-    "html": "<p>The diagram shows head lice before and after insecticide shampoo treatment. Which statement about the survivors at Stage R is supported?</p><figure><img src=\"assets/practice-science-year10/bio-lice.png\" alt=\"bio lice\" loading=\"lazy\"></figure>",
+    "html": "<p>The diagram shows head lice before and after insecticide shampoo treatment. Which statement about the survivors at Stage R is supported?</p><figure><img src=\"assets/chemistry/practice-science-year10/bio-lice.png\" alt=\"bio lice\" loading=\"lazy\"></figure>",
     "answerHtml": "<h3>Worked solution</h3><p>Lice surviving the insecticide at R are resistant to that treatment. This does not make them impossible to kill by all methods.</p><h3>Marking guidance</h3><p>Award 1 mark for D. Use the explanation above to check the reasoning.</p>",
     "markingKeyPoints": [],
     "options": [
@@ -749,7 +749,7 @@
     "fontFamily": "Arial",
     "fontSizePt": 12,
     "responseLines": 0,
-    "html": "<p>The diagram shows changes in a head-lice population after insecticide treatment. Which process explains the population composition at Stage R?</p><figure><img src=\"assets/practice-science-year10/bio-lice.png\" alt=\"bio lice\" loading=\"lazy\"></figure>",
+    "html": "<p>The diagram shows changes in a head-lice population after insecticide treatment. Which process explains the population composition at Stage R?</p><figure><img src=\"assets/chemistry/practice-science-year10/bio-lice.png\" alt=\"bio lice\" loading=\"lazy\"></figure>",
     "answerHtml": "<h3>Worked solution</h3><p>Susceptible lice die more readily; resistant lice survive and reproduce. Differential survival and reproduction of heritable variants is natural selection.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
     "markingKeyPoints": [],
     "options": [
@@ -986,7 +986,7 @@
     "fontFamily": "Arial",
     "fontSizePt": 12,
     "responseLines": 0,
-    "html": "<p>Two Galápagos finch species share a South American ancestor. How most likely did the ancestral species give rise to two distinct species?</p><figure><img src=\"assets/practice-science-year10/bio-finches.png\" alt=\"bio finches\" loading=\"lazy\"></figure>",
+    "html": "<p>Two Galápagos finch species share a South American ancestor. How most likely did the ancestral species give rise to two distinct species?</p><figure><img src=\"assets/chemistry/practice-science-year10/bio-finches.png\" alt=\"bio finches\" loading=\"lazy\"></figure>",
     "answerHtml": "<h3>Worked solution</h3><p>Isolation reduces gene flow. Different environments favour different inherited traits; accumulated differences can lead to reproductive isolation and separate species.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
     "markingKeyPoints": [],
     "options": [
@@ -1045,7 +1045,7 @@
     "fontFamily": "Arial",
     "fontSizePt": 12,
     "responseLines": 0,
-    "html": "<p>The photograph shows a fossil formed about 3 billion years ago. Why could the species that formed it have become extinct?</p><figure><img src=\"assets/practice-science-year10/bio-fossil.png\" alt=\"bio fossil\" loading=\"lazy\"></figure>",
+    "html": "<p>The photograph shows a fossil formed about 3 billion years ago. Why could the species that formed it have become extinct?</p><figure><img src=\"assets/chemistry/practice-science-year10/bio-fossil.png\" alt=\"bio fossil\" loading=\"lazy\"></figure>",
     "answerHtml": "<h3>Worked solution</h3><p>Environmental change can remove suitable habitat or resources or impose conditions that the population cannot survive, causing extinction.</p><h3>Marking guidance</h3><p>Award 1 mark for D. Use the explanation above to check the reasoning.</p>",
     "markingKeyPoints": [],
     "options": [
@@ -1222,7 +1222,7 @@
     "fontFamily": "Arial",
     "fontSizePt": 12,
     "responseLines": 0,
-    "html": "<p>The diagrams A–E show cell stages out of order. Write the correct sequence of events leading to two daughter cells. [2]</p><figure><img src=\"assets/practice-science-year10/bio-stages.png\" alt=\"bio stages\" loading=\"lazy\"></figure>",
+    "html": "<p>The diagrams A–E show cell stages out of order. Write the correct sequence of events leading to two daughter cells. [2]</p><figure><img src=\"assets/chemistry/practice-science-year10/bio-stages.png\" alt=\"bio stages\" loading=\"lazy\"></figure>",
     "answerHtml": "<h3>Worked solution</h3><p>E → B → D → A → C. E shows the cell before mitosis; B chromosome condensation; D equatorial alignment; A chromatid separation; C daughter cells. [2 for correct sequence; partial credit for a substantially correct order] The supplied key repeats E in third place; D is the correct diagram.</p><h3>Marking guidance</h3><p>Maximum 2 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
     "markingKeyPoints": [],
     "editorialNote": "Corrected key sequence E–B–E–A–C to E–B–D–A–C after diagram inspection."
@@ -1269,7 +1269,7 @@
     "fontFamily": "Arial",
     "fontSizePt": 12,
     "responseLines": 0,
-    "html": "<p>The pedigree shows inheritance of the fictional Cruchkeld’s disease. Shaded individuals are affected; circles are female and squares male. (a) What is the sex of the first affected individual? [1] (b) Is the disorder likely dominant or recessive? Explain using A, B and D. [3] (c) If A and B have another child, calculate the probability it is affected. Show a Punnett square. [3]</p><figure><img src=\"assets/practice-science-year10/bio-pedigree.png\" alt=\"bio pedigree\" loading=\"lazy\"></figure>",
+    "html": "<p>The pedigree shows inheritance of the fictional Cruchkeld’s disease. Shaded individuals are affected; circles are female and squares male. (a) What is the sex of the first affected individual? [1] (b) Is the disorder likely dominant or recessive? Explain using A, B and D. [3] (c) If A and B have another child, calculate the probability it is affected. Show a Punnett square. [3]</p><figure><img src=\"assets/chemistry/practice-science-year10/bio-pedigree.png\" alt=\"bio pedigree\" loading=\"lazy\"></figure>",
     "answerHtml": "<h3>Worked solution</h3><p>(a) Female: the first shaded person is a circle. [1]</p><p>(b) Recessive. [1] Unaffected parents A and B have affected child D. [1] Both must carry the recessive allele, Bb, to produce affected bb; a fully penetrant dominant trait would normally require an affected parent. [1]</p><p>(c) Bb × Bb gives BB, Bb, Bb and bb. [2 for genotypes and square] One of four possibilities is affected: 25% for each pregnancy. [1]</p><table><thead><tr><th>Gametes</th><th>B</th><th>b</th></tr></thead><tbody><tr><td>B</td><td>BB</td><td>Bb</td></tr><tr><td>b</td><td>bB</td><td>bb</td></tr></tbody></table><h3>Marking guidance</h3><p>Maximum 7 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
     "markingKeyPoints": []
   },
@@ -1315,7 +1315,7 @@
     "fontFamily": "Arial",
     "fontSizePt": 12,
     "responseLines": 0,
-    "html": "<p>A black male mouse is crossed with a white female, as shown. (a) If this female can produce only white offspring with this male, state her genotype and explain its meaning. [2] (b) Justify your answer using Punnett squares and the possible outcomes of alternative genotypes. [4]</p><figure><img src=\"assets/practice-science-year10/bio-mice.png\" alt=\"bio mice\" loading=\"lazy\"></figure>",
+    "html": "<p>A black male mouse is crossed with a white female, as shown. (a) If this female can produce only white offspring with this male, state her genotype and explain its meaning. [2] (b) Justify your answer using Punnett squares and the possible outcomes of alternative genotypes. [4]</p><figure><img src=\"assets/chemistry/practice-science-year10/bio-mice.png\" alt=\"bio mice\" loading=\"lazy\"></figure>",
     "answerHtml": "<h3>Worked solution</h3><p>(a) WW, homozygous dominant for white fur in this question’s model; both alleles are W. [2]</p><p>(b) The diagram defines white W as dominant and black w as recessive. The black male is ww. [1] A Ww female crossed with ww would give 50% Ww white and 50% ww black. [1] WW × ww instead gives Ww in every cell of the Punnett square. [1] Thus all offspring are white, matching the stated result. [1]</p><table><thead><tr><th>Gametes</th><th>W</th><th>W</th></tr></thead><tbody><tr><td>w</td><td>wW</td><td>wW</td></tr><tr><td>w</td><td>wW</td><td>wW</td></tr></tbody></table><h3>Marking guidance</h3><p>Maximum 6 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
     "markingKeyPoints": []
   },

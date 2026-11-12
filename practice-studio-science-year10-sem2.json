@@ -159,7 +159,7 @@
     "fontFamily": "Arial",
     "fontSizePt": 12,
     "responseLines": 0,
-    "html": "<p>Use the position–time graph. What is the average speed from 0 s to 4 s?</p><figure><img src=\"assets/practice-science-year10/sem2-position.png\" alt=\"sem2 position\" loading=\"lazy\"></figure>",
+    "html": "<p>Use the position–time graph. What is the average speed from 0 s to 4 s?</p><figure><img src=\"assets/chemistry/practice-science-year10/sem2-position.png\" alt=\"sem2 position\" loading=\"lazy\"></figure>",
     "answerHtml": "<h3>Worked solution</h3><p>From 0 to 4 s, position increases from 0 to 8 m. Speed = 8/4 = 2 m/s.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
     "markingKeyPoints": [],
     "options": [
@@ -218,7 +218,7 @@
     "fontFamily": "Arial",
     "fontSizePt": 12,
     "responseLines": 0,
-    "html": "<p>Use the position–time graph. What is the average speed from 4 s to 8 s?</p><figure><img src=\"assets/practice-science-year10/sem2-position.png\" alt=\"sem2 position\" loading=\"lazy\"></figure>",
+    "html": "<p>Use the position–time graph. What is the average speed from 4 s to 8 s?</p><figure><img src=\"assets/chemistry/practice-science-year10/sem2-position.png\" alt=\"sem2 position\" loading=\"lazy\"></figure>",
     "answerHtml": "<h3>Worked solution</h3><p>From 4 to 8 s, position increases from 8 to 10 m. Speed = (10 − 8)/(8 − 4) = 0.5 m/s.</p><h3>Marking guidance</h3><p>Award 1 mark for B. Use the explanation above to check the reasoning.</p>",
     "markingKeyPoints": [],
     "options": [
@@ -277,7 +277,7 @@
     "fontFamily": "Arial",
     "fontSizePt": 12,
     "responseLines": 0,
-    "html": "<p>Use the position–time graph. What is the position at 6 s?</p><figure><img src=\"assets/practice-science-year10/sem2-position.png\" alt=\"sem2 position\" loading=\"lazy\"></figure>",
+    "html": "<p>Use the position–time graph. What is the position at 6 s?</p><figure><img src=\"assets/chemistry/practice-science-year10/sem2-position.png\" alt=\"sem2 position\" loading=\"lazy\"></figure>",
     "answerHtml": "<h3>Worked solution</h3><p>At 6 s the position is halfway between 8 m at 4 s and 10 m at 8 s, giving 9 m.</p><h3>Marking guidance</h3><p>Award 1 mark for D. Use the explanation above to check the reasoning.</p>",
     "markingKeyPoints": [],
     "options": [
@@ -1752,7 +1752,7 @@
     "fontFamily": "Arial",
     "fontSizePt": 12,
     "responseLines": 0,
-    "html": "<p>Black fur B is dominant to white b. Black mice are shaded. From the pedigree, which mice are certainly heterozygous black?</p><figure><img src=\"assets/practice-science-year10/sem2-mice.png\" alt=\"sem2 mice\" loading=\"lazy\"></figure>",
+    "html": "<p>Black fur B is dominant to white b. Black mice are shaded. From the pedigree, which mice are certainly heterozygous black?</p><figure><img src=\"assets/chemistry/practice-science-year10/sem2-mice.png\" alt=\"sem2 mice\" loading=\"lazy\"></figure>",
     "answerHtml": "<h3>Worked solution</h3><p>White mouse 2 is bb, so black mouse 1 must carry b to produce white offspring. Black mice 6 and 7 also produce a white offspring and must be Bb. Mouse 3 could be BB or Bb.</p><h3>Marking guidance</h3><p>Award 1 mark for A. Use the explanation above to check the reasoning.</p>",
     "markingKeyPoints": [],
     "options": [
@@ -1811,7 +1811,7 @@
     "fontFamily": "Arial",
     "fontSizePt": 12,
     "responseLines": 0,
-    "html": "<p>In the pedigree, black B is dominant to white b. What are the genotypes of mice 2, 4 and 5?</p><figure><img src=\"assets/practice-science-year10/sem2-mice.png\" alt=\"sem2 mice\" loading=\"lazy\"></figure>",
+    "html": "<p>In the pedigree, black B is dominant to white b. What are the genotypes of mice 2, 4 and 5?</p><figure><img src=\"assets/chemistry/practice-science-year10/sem2-mice.png\" alt=\"sem2 mice\" loading=\"lazy\"></figure>",
     "answerHtml": "<h3>Worked solution</h3><p>White fur is recessive, so unshaded mice 2, 4 and 5 all have genotype bb.</p><h3>Marking guidance</h3><p>Award 1 mark for C. Use the explanation above to check the reasoning.</p>",
     "markingKeyPoints": [],
     "options": [
@@ -1870,7 +1870,7 @@
     "fontFamily": "Arial",
     "fontSizePt": 12,
     "responseLines": 0,
-    "html": "<p>Black fur B is dominant to white b. From the pedigree, what must be the genotype of mouse 8?</p><figure><img src=\"assets/practice-science-year10/sem2-mice.png\" alt=\"sem2 mice\" loading=\"lazy\"></figure>",
+    "html": "<p>Black fur B is dominant to white b. From the pedigree, what must be the genotype of mouse 8?</p><figure><img src=\"assets/chemistry/practice-science-year10/sem2-mice.png\" alt=\"sem2 mice\" loading=\"lazy\"></figure>",
     "answerHtml": "<h3>Worked solution</h3><p>Black mouse 8 has Bb × Bb parents and may be BB or Bb. Phenotype alone cannot distinguish the two.</p><h3>Marking guidance</h3><p>Award 1 mark for A. Use the explanation above to check the reasoning.</p>",
     "markingKeyPoints": [],
     "options": [
@@ -2224,7 +2224,7 @@
     "fontFamily": "Arial",
     "fontSizePt": 12,
     "responseLines": 0,
-    "html": "<p>The pictured vertebrate forelimbs are examples of which type of structure?</p><figure><img src=\"assets/practice-science-year10/sem2-limbs.png\" alt=\"sem2 limbs\" loading=\"lazy\"></figure>",
+    "html": "<p>The pictured vertebrate forelimbs are examples of which type of structure?</p><figure><img src=\"assets/chemistry/practice-science-year10/sem2-limbs.png\" alt=\"sem2 limbs\" loading=\"lazy\"></figure>",
     "answerHtml": "<h3>Worked solution</h3><p>The same underlying forelimb bone arrangement with different functions is a homologous structure, supporting common ancestry.</p><h3>Marking guidance</h3><p>Award 1 mark for A. Use the explanation above to check the reasoning.</p>",
     "markingKeyPoints": [],
     "options": [
@@ -3498,7 +3498,7 @@
     "fontFamily": "Arial",
     "fontSizePt": 12,
     "responseLines": 0,
-    "html": "<p>The pedigree shows dimples as a recessive trait, allele n. Shaded people have dimples; N means no dimples. (a) Give the possible genotypes of parents 1 and 2. [2] (b) Give the genotype of person 6 and justify it. [2]</p><figure><img src=\"assets/practice-science-year10/sem2-dimples.png\" alt=\"sem2 dimples\" loading=\"lazy\"></figure>",
+    "html": "<p>The pedigree shows dimples as a recessive trait, allele n. Shaded people have dimples; N means no dimples. (a) Give the possible genotypes of parents 1 and 2. [2] (b) Give the genotype of person 6 and justify it. [2]</p><figure><img src=\"assets/chemistry/practice-science-year10/sem2-dimples.png\" alt=\"sem2 dimples\" loading=\"lazy\"></figure>",
     "answerHtml": "<h3>Worked solution</h3><p>(a) Parent 2 is shaded: nn. [1] Parent 1 is unshaded: NN or Nn; the shown offspring do not distinguish these. [1]</p><p>(b) Person 6 is Nn. [1] Person 6 lacks the recessive trait but has affected nn children, so this person must carry and transmit n. [1]</p><h3>Marking guidance</h3><p>Maximum 4 marks. The part allocations are shown with the worked steps above. Accept scientifically equivalent explanations and valid alternative methods; retain units and appropriate directions in calculations.</p>",
     "markingKeyPoints": []
   },
