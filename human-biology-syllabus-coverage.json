@@ -1,0 +1,419 @@
+{
+  "updated": "2026-11-12",
+  "basis": "Authored Year 12 course, expanded against the SCSA 2026-applicable and published 2027 syllabus content. This maps teaching content; practical investigation delivery and teacher assessment remain part of the school program.",
+  "rows": [
+    {
+      "area": "Inquiry skills · Units 3 and 4",
+      "requirement": "Research questions, hypotheses and predictions",
+      "lessons": [
+        "hb12-inquiry-types",
+        "hb12-inquiry-planning"
+      ]
+    },
+    {
+      "area": "Inquiry skills · Units 3 and 4",
+      "requirement": "Investigation design, data requirements, risk and research ethics",
+      "lessons": [
+        "hb12-inquiry-planning"
+      ]
+    },
+    {
+      "area": "Inquiry skills · Units 3 and 4",
+      "requirement": "Safe collection of valid, reliable primary and secondary data",
+      "lessons": [
+        "hb12-inquiry-planning",
+        "hb12-inquiry-data"
+      ]
+    },
+    {
+      "area": "Inquiry skills · Units 3 and 4",
+      "requirement": "Summary statistics, probability, trends, uncertainty and justified conclusions",
+      "lessons": [
+        "hb12-inquiry-data"
+      ]
+    },
+    {
+      "area": "Inquiry skills · Units 3 and 4",
+      "requirement": "Evaluate evidence, scientific claims, models and media reporting",
+      "lessons": [
+        "hb12-inquiry-types",
+        "hb12-inquiry-data"
+      ]
+    },
+    {
+      "area": "Inquiry skills · Units 3 and 4",
+      "requirement": "Use diagrams, models and flowcharts to explain and predict",
+      "lessons": [
+        "hb12-inquiry-types",
+        "hb12-inquiry-data"
+      ]
+    },
+    {
+      "area": "Inquiry skills · Units 3 and 4",
+      "requirement": "Scientific reporting for purpose and audience, terminology and conventions",
+      "lessons": [
+        "hb12-inquiry-data"
+      ]
+    },
+    {
+      "area": "Inquiry skills · Units 3 and 4",
+      "requirement": "Ratios, percentages, units, graphs, gradients and statistical summaries",
+      "lessons": [
+        "hb12-inquiry-data",
+        "hb12-gene-pools",
+        "hb12-dating"
+      ]
+    },
+    {
+      "area": "Unit 3 · Science as a Human Endeavour",
+      "requirement": "Hormone treatments for diabetes and thyroid dysfunction",
+      "lessons": [
+        "hb12-homeostasis-disruptions",
+        "hb12-thyroid",
+        "hb12-recombinant-hormones"
+      ]
+    },
+    {
+      "area": "Unit 3 · Science as a Human Endeavour",
+      "requirement": "Gene therapy potential and limitations, including diabetes",
+      "lessons": [
+        "hb12-recombinant-hormones",
+        "hb12-homeostasis-disruptions"
+      ]
+    },
+    {
+      "area": "Unit 3 · Science as a Human Endeavour",
+      "requirement": "Recombinant hormones and vaccines",
+      "lessons": [
+        "hb12-recombinant-hormones",
+        "hb12-immune-vaccines"
+      ]
+    },
+    {
+      "area": "Unit 3 · Science as a Human Endeavour",
+      "requirement": "Social, economic and cultural influences on immunisation",
+      "lessons": [
+        "hb12-immune-vaccines"
+      ]
+    },
+    {
+      "area": "Unit 3 · Science as a Human Endeavour",
+      "requirement": "Cell replacement potential for Alzheimer’s and Parkinson’s disease",
+      "lessons": [
+        "hb12-nervous-disease"
+      ]
+    },
+    {
+      "area": "Unit 3 · Science Understanding",
+      "requirement": "Locations of the named endocrine glands",
+      "lessons": [
+        "hb12-endocrine-intro",
+        "hb12-other-endocrine",
+        "hb12-adrenal"
+      ]
+    },
+    {
+      "area": "Unit 3 · Science Understanding",
+      "requirement": "Homeostatic hormones, source glands, targets and effects",
+      "lessons": [
+        "hb12-hypothalamus-pituitary",
+        "hb12-thyroid",
+        "hb12-calcium-regulation",
+        "hb12-pancreas",
+        "hb12-adrenal"
+      ]
+    },
+    {
+      "area": "Unit 3 · Science Understanding",
+      "requirement": "Neural and vascular links between hypothalamus and pituitary",
+      "lessons": [
+        "hb12-hypothalamus-pituitary"
+      ]
+    },
+    {
+      "area": "Unit 3 · Science Understanding",
+      "requirement": "Lipid-soluble and water-soluble hormone action, receptors and second messengers",
+      "lessons": [
+        "hb12-hormone-cell-action"
+      ]
+    },
+    {
+      "area": "Unit 3 · Science Understanding",
+      "requirement": "Central and peripheral divisions; sensory and motor; somatic and autonomic pathways",
+      "lessons": [
+        "hb12-nervous-overview",
+        "hb12-pns-sensory",
+        "hb12-pns-motor"
+      ]
+    },
+    {
+      "area": "Unit 3 · Science Understanding",
+      "requirement": "CNS structures, functions, skull, meninges and cerebrospinal fluid",
+      "lessons": [
+        "hb12-cns-brain",
+        "hb12-cns-other",
+        "hb12-cns-protection"
+      ]
+    },
+    {
+      "area": "Unit 3 · Science Understanding",
+      "requirement": "Thermo-, osmo-, chemo-, touch and pain receptors",
+      "lessons": [
+        "hb12-pns-sensory"
+      ]
+    },
+    {
+      "area": "Unit 3 · Science Understanding",
+      "requirement": "Reflex arc from receptor through neurones to effector",
+      "lessons": [
+        "hb12-reflexes"
+      ]
+    },
+    {
+      "area": "Unit 3 · Science Understanding",
+      "requirement": "Electrochemical impulses and transmission across synapses",
+      "lessons": [
+        "hb12-action-potentials",
+        "hb12-synapses-neurotransmitters"
+      ]
+    },
+    {
+      "area": "Unit 3 · Science Understanding",
+      "requirement": "Comparison of nervous and endocrine control",
+      "lessons": [
+        "hb12-nervous-endocrine-compare"
+      ]
+    },
+    {
+      "area": "Unit 3 · Science Understanding",
+      "requirement": "Tolerance limits, negative feedback, physiological and behavioural responses",
+      "lessons": [
+        "hb12-homeostasis-foundations"
+      ]
+    },
+    {
+      "area": "Unit 3 · Science Understanding",
+      "requirement": "Heat exchange, metabolism and thermoregulatory responses",
+      "lessons": [
+        "hb12-thermoregulation-cold",
+        "hb12-thermoregulation-hot"
+      ]
+    },
+    {
+      "area": "Unit 3 · Science Understanding",
+      "requirement": "Blood glucose uptake, storage, release and use; pancreatic and adrenal hormones",
+      "lessons": [
+        "hb12-glucose-homeostasis",
+        "hb12-pancreas",
+        "hb12-adrenal"
+      ]
+    },
+    {
+      "area": "Unit 3 · Science Understanding",
+      "requirement": "Water and salt balance, kidney, skin, digestion, ADH, aldosterone and thirst",
+      "lessons": [
+        "hb12-fluid-homeostasis"
+      ]
+    },
+    {
+      "area": "Unit 3 · Science Understanding",
+      "requirement": "Blood oxygen and carbon dioxide control, lungs, medulla and autonomic pathways",
+      "lessons": [
+        "hb12-blood-gas-homeostasis"
+      ]
+    },
+    {
+      "area": "Unit 3 · Science Understanding",
+      "requirement": "Bacterial and viral disease and host transmission",
+      "lessons": [
+        "hb12-immune-external",
+        "hb12-immune-antimicrobials"
+      ]
+    },
+    {
+      "area": "Unit 3 · Science Understanding",
+      "requirement": "Direct and indirect contact, body fluids, vectors, food and water transmission",
+      "lessons": [
+        "hb12-immune-external"
+      ]
+    },
+    {
+      "area": "Unit 3 · Science Understanding",
+      "requirement": "Physical and chemical barriers of skin, gut, urogenital and respiratory tracts, ears and eyes",
+      "lessons": [
+        "hb12-immune-external"
+      ]
+    },
+    {
+      "area": "Unit 3 · Science Understanding",
+      "requirement": "Inflammation and fever in non-specific defence",
+      "lessons": [
+        "hb12-immune-nonspecific"
+      ]
+    },
+    {
+      "area": "Unit 3 · Science Understanding",
+      "requirement": "Specificity of antibiotics and antiviral drugs",
+      "lessons": [
+        "hb12-immune-antimicrobials"
+      ]
+    },
+    {
+      "area": "Unit 3 · Science Understanding",
+      "requirement": "Active and passive immunity, infection, vaccines, placenta and serum",
+      "lessons": [
+        "hb12-immune-types",
+        "hb12-immune-vaccines"
+      ]
+    },
+    {
+      "area": "Unit 3 · Science Understanding",
+      "requirement": "B cells, antibodies, T cells and immunological memory",
+      "lessons": [
+        "hb12-immune-specific",
+        "hb12-immune-vaccines"
+      ]
+    },
+    {
+      "area": "Unit 4 · Science as a Human Endeavour",
+      "requirement": "PCR, gel electrophoresis and sequencing information in evolutionary investigations",
+      "lessons": [
+        "hb12-pcr",
+        "hb12-gels",
+        "hb12-molecular-evidence"
+      ]
+    },
+    {
+      "area": "Unit 4 · Science as a Human Endeavour",
+      "requirement": "DNA and protein comparisons, bioinformatics and refinement of evolutionary models",
+      "lessons": [
+        "hb12-molecular-evidence",
+        "hb12-phylogeny"
+      ]
+    },
+    {
+      "area": "Unit 4 · Science Understanding",
+      "requirement": "Gene and chromosome mutations, replication, division and mutagens",
+      "lessons": [
+        "hb12-mutations",
+        "hb12-chromosome-mutations"
+      ]
+    },
+    {
+      "area": "Unit 4 · Science Understanding",
+      "requirement": "Genotype, phenotype, environment and differential survival",
+      "lessons": [
+        "hb12-mutations",
+        "hb12-selection"
+      ]
+    },
+    {
+      "area": "Unit 4 · Science Understanding",
+      "requirement": "Mutations as the ultimate source of new alleles; context-dependent effects",
+      "lessons": [
+        "hb12-mutations",
+        "hb12-gene-pools"
+      ]
+    },
+    {
+      "area": "Unit 4 · Science Understanding",
+      "requirement": "Allele frequencies compared over time and between populations",
+      "lessons": [
+        "hb12-gene-pools"
+      ]
+    },
+    {
+      "area": "Unit 4 · Science Understanding",
+      "requirement": "Mutation, natural selection, drift, founder effects and gene flow",
+      "lessons": [
+        "hb12-gene-pools",
+        "hb12-selection",
+        "hb12-drift",
+        "hb12-gene-flow"
+      ]
+    },
+    {
+      "area": "Unit 4 · Science Understanding",
+      "requirement": "Disease allele frequencies, including sickle-cell disease",
+      "lessons": [
+        "hb12-gene-pools",
+        "hb12-selection"
+      ]
+    },
+    {
+      "area": "Unit 4 · Science Understanding",
+      "requirement": "Differential survival and reproductive success in natural selection",
+      "lessons": [
+        "hb12-selection"
+      ]
+    },
+    {
+      "area": "Unit 4 · Science Understanding",
+      "requirement": "Inherited variation, competition, isolation and speciation",
+      "lessons": [
+        "hb12-selection",
+        "hb12-gene-flow"
+      ]
+    },
+    {
+      "area": "Unit 4 · Science Understanding",
+      "requirement": "Interpret phylogenetic trees and relatedness",
+      "lessons": [
+        "hb12-phylogeny"
+      ]
+    },
+    {
+      "area": "Unit 4 · Science Understanding",
+      "requirement": "Fossil formation, preservation, access and incompleteness",
+      "lessons": [
+        "hb12-fossils"
+      ]
+    },
+    {
+      "area": "Unit 4 · Science Understanding",
+      "requirement": "Relative and absolute dating and geological sequence",
+      "lessons": [
+        "hb12-dating"
+      ]
+    },
+    {
+      "area": "Unit 4 · Science Understanding",
+      "requirement": "Stratigraphy, index fossils, carbon-14 and potassium–argon dating, applications and limits",
+      "lessons": [
+        "hb12-dating"
+      ]
+    },
+    {
+      "area": "Unit 4 · Science Understanding",
+      "requirement": "Humans and great apes: DNA, cortex, digits, locomotion, prognathism and teeth",
+      "lessons": [
+        "hb12-primates",
+        "hb12-bipedalism"
+      ]
+    },
+    {
+      "area": "Unit 4 · Science Understanding",
+      "requirement": "Seven required taxa and evidence for branching hominin evolution",
+      "lessons": [
+        "hb12-afarensis",
+        "hb12-africanus",
+        "hb12-robustus",
+        "hb12-habilis",
+        "hb12-erectus",
+        "hb12-neanderthals",
+        "hb12-sapiens"
+      ]
+    },
+    {
+      "area": "Unit 4 · Science Understanding",
+      "requirement": "Tool manufacture and materials, culture and lifestyle in four Homo taxa",
+      "lessons": [
+        "hb12-habilis",
+        "hb12-erectus",
+        "hb12-neanderthals",
+        "hb12-sapiens",
+        "hb12-culture"
+      ]
+    }
+  ]
+}
