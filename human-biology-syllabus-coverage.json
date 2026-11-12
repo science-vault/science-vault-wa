@@ -1,12 +1,11 @@
 {
   "updated": "2026-11-12",
-  "basis": "Authored Year 12 course, expanded against the SCSA 2026-applicable and published 2027 syllabus content. This maps teaching content; practical investigation delivery and teacher assessment remain part of the school program.",
+  "basis": "Newly written Year 12 lesson text and practice, with independently selected textbook and museum images. Content mapped to the SCSA syllabus; practical investigation delivery and formal assessment remain part of the school program.",
   "rows": [
     {
       "area": "Inquiry skills · Units 3 and 4",
       "requirement": "Research questions, hypotheses and predictions",
       "lessons": [
-        "hb12-inquiry-types",
         "hb12-inquiry-planning"
       ]
     },
@@ -36,7 +35,7 @@
       "area": "Inquiry skills · Units 3 and 4",
       "requirement": "Evaluate evidence, scientific claims, models and media reporting",
       "lessons": [
-        "hb12-inquiry-types",
+        "hb12-inquiry-evidence",
         "hb12-inquiry-data"
       ]
     },
@@ -44,7 +43,7 @@
       "area": "Inquiry skills · Units 3 and 4",
       "requirement": "Use diagrams, models and flowcharts to explain and predict",
       "lessons": [
-        "hb12-inquiry-types",
+        "hb12-inquiry-planning",
         "hb12-inquiry-data"
       ]
     },
@@ -52,7 +51,7 @@
       "area": "Inquiry skills · Units 3 and 4",
       "requirement": "Scientific reporting for purpose and audience, terminology and conventions",
       "lessons": [
-        "hb12-inquiry-data"
+        "hb12-inquiry-evidence"
       ]
     },
     {
@@ -68,7 +67,7 @@
       "area": "Unit 3 · Science as a Human Endeavour",
       "requirement": "Hormone treatments for diabetes and thyroid dysfunction",
       "lessons": [
-        "hb12-homeostasis-disruptions",
+        "hb12-glucose-homeostasis",
         "hb12-thyroid",
         "hb12-recombinant-hormones"
       ]
@@ -77,8 +76,7 @@
       "area": "Unit 3 · Science as a Human Endeavour",
       "requirement": "Gene therapy potential and limitations, including diabetes",
       "lessons": [
-        "hb12-recombinant-hormones",
-        "hb12-homeostasis-disruptions"
+        "hb12-gene-therapy"
       ]
     },
     {
@@ -108,7 +106,6 @@
       "requirement": "Locations of the named endocrine glands",
       "lessons": [
         "hb12-endocrine-intro",
-        "hb12-other-endocrine",
         "hb12-adrenal"
       ]
     },
@@ -119,7 +116,7 @@
         "hb12-hypothalamus-pituitary",
         "hb12-thyroid",
         "hb12-calcium-regulation",
-        "hb12-pancreas",
+        "hb12-glucose-homeostasis",
         "hb12-adrenal"
       ]
     },
@@ -142,24 +139,22 @@
       "requirement": "Central and peripheral divisions; sensory and motor; somatic and autonomic pathways",
       "lessons": [
         "hb12-nervous-overview",
-        "hb12-pns-sensory",
-        "hb12-pns-motor"
+        "hb12-reflexes",
+        "hb12-nervous-endocrine-compare"
       ]
     },
     {
       "area": "Unit 3 · Science Understanding",
       "requirement": "CNS structures, functions, skull, meninges and cerebrospinal fluid",
       "lessons": [
-        "hb12-cns-brain",
-        "hb12-cns-other",
-        "hb12-cns-protection"
+        "hb12-cns-brain"
       ]
     },
     {
       "area": "Unit 3 · Science Understanding",
       "requirement": "Thermo-, osmo-, chemo-, touch and pain receptors",
       "lessons": [
-        "hb12-pns-sensory"
+        "hb12-reflexes"
       ]
     },
     {
@@ -188,15 +183,14 @@
       "area": "Unit 3 · Science Understanding",
       "requirement": "Tolerance limits, negative feedback, physiological and behavioural responses",
       "lessons": [
-        "hb12-homeostasis-foundations"
+        "hb12-endocrine-intro"
       ]
     },
     {
       "area": "Unit 3 · Science Understanding",
       "requirement": "Heat exchange, metabolism and thermoregulatory responses",
       "lessons": [
-        "hb12-thermoregulation-cold",
-        "hb12-thermoregulation-hot"
+        "hb12-thermoregulation"
       ]
     },
     {
@@ -204,7 +198,6 @@
       "requirement": "Blood glucose uptake, storage, release and use; pancreatic and adrenal hormones",
       "lessons": [
         "hb12-glucose-homeostasis",
-        "hb12-pancreas",
         "hb12-adrenal"
       ]
     },
@@ -262,7 +255,6 @@
       "area": "Unit 3 · Science Understanding",
       "requirement": "Active and passive immunity, infection, vaccines, placenta and serum",
       "lessons": [
-        "hb12-immune-types",
         "hb12-immune-vaccines"
       ]
     },
@@ -395,24 +387,17 @@
       "area": "Unit 4 · Science Understanding",
       "requirement": "Seven required taxa and evidence for branching hominin evolution",
       "lessons": [
-        "hb12-afarensis",
-        "hb12-africanus",
-        "hb12-robustus",
-        "hb12-habilis",
-        "hb12-erectus",
-        "hb12-neanderthals",
-        "hb12-sapiens"
+        "hb12-early-hominins",
+        "hb12-early-homo",
+        "hb12-later-homo"
       ]
     },
     {
       "area": "Unit 4 · Science Understanding",
       "requirement": "Tool manufacture and materials, culture and lifestyle in four Homo taxa",
       "lessons": [
-        "hb12-habilis",
-        "hb12-erectus",
-        "hb12-neanderthals",
-        "hb12-sapiens",
-        "hb12-culture"
+        "hb12-early-homo",
+        "hb12-later-homo"
       ]
     }
   ]

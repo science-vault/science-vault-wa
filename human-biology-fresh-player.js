@@ -1,0 +1,61 @@
+/* Student-facing player for the newly written Year 12 course. */
+(function(root){'use strict';
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const old=root.HumanBiologyATARPlayer.build;let active;
+function pages(m){
+ const a=[{type:'goal',title:'Start with the big idea',text:m.goal,extra:m.prior}];
+ m.sections.forEach(([title,text],i)=>{a.push({type:'learn',title,text});if(i===1)for(const key of m.images)a.push({type:'image',title:root.HBFreshImages[key].title,key,text:root.HBFreshImageGuides[key]||root.HBFreshImages[key].alt});});
+ a.push({type:'misconception',title:'Avoid this common mistake',text:m.mis});
+ a.push({type:'worked',title:'Worked example · I do',text:m.worked[0],answer:m.worked[1]});
+ m.practice.forEach(([text,answer],i)=>a.push({type:'practice',title:'Apply it · '+(i===0?'We do':'You do'),text,answer,index:i}));
+ a.push({type:'quiz',title:'Check your understanding',text:m.quiz[0]});
+ a.push({type:'review',title:'Explain it without looking',text:m.goal});
+ a.push({type:'sources',title:'References and image credits'});return a;
+}
+function key(m){return root.LessonJourneyAccountUid?'hb-fresh:v1:'+root.LessonJourneyAccountUid+':'+m.id:null;}
+function read(m){try{return key(m)?JSON.parse(localStorage.getItem(key(m)))||{}:{}}catch{return {}}}
+function persist(){if(!active)return;const {m,state}=active;try{if(key(m))localStorage.setItem(key(m),JSON.stringify(state));}catch{}if(active.cloudSave)active.cloudSave();}
+async function cloud(a){try{const store=await import('./lesson-journey-store.mjs');const auth=await store.access;if(active!==a||!auth.user)return;root.LessonJourneyAccountUid=auth.user.uid;
+ const meta={topic:a.m.id,title:a.m.title,course:'Human Biology ATAR',year:'12',unit:a.m.unit};
+ const record=await store.load(auth.user.uid,meta,a.deck.length);if(active!==a)return;
+ const local=read(a.m);const state=record.state;if(state?.drafts?.freshCourseV1&&!Object.keys(local).length){Object.assign(a.state,state.drafts.freshCourseV1);a.index=Math.min(a.deck.length-1,a.state.index||0);paint();}
+ a.cloudSave=()=>{if(!state)return;state.index=a.index;state.total=a.deck.length;state.started=true;state.completed=[...new Set(a.state.seen||[])];state.drafts=state.drafts||{};state.drafts.freshCourseV1=a.state;state.masterPassed=!!a.state.passed;state.completedOnce=!!a.state.passed;store.saveLocal(auth.user.uid,meta,state);clearTimeout(a.cloudTimer);a.cloudTimer=setTimeout(()=>store.saveCloud(auth.user.uid,meta,state).catch(()=>{}),700);};
+ }catch(e){/* Reading remains available when account sync is unavailable. */}}
+root.HumanBiologyATARPlayer.build=function(topic,host,...args){if(!topic.freshAuthored)return old.call(this,topic,host,...args);
+ if(active){clearTimeout(active.cloudTimer);active.observer?.disconnect();}const m=root.HumanBiologyATAR.find(x=>x.id===topic.id),state=read(m),deck=pages(m);active={m,host,state,deck,index:Math.min(deck.length-1,state.index||0)};
+ host.innerHTML='<section class="hb-new" aria-label="Human Biology lesson"><aside class="hb-new-side"><button type="button" class="hb-new-exit">← All lessons</button><p class="hb-new-brand">HUMAN BIOLOGY / YEAR 12</p><h2>'+esc(m.title.replace(/^\d+ · /,''))+'</h2><p class="hb-new-scope">'+esc(m.unit)+'</p><label for="hbNewJump">Lesson pages</label><select id="hbNewJump"></select><div class="hb-new-outline"></div><p class="hb-new-help">Read → study the images → practise → check.<br>Write first, then compare with the suggested answers.</p></aside><main class="hb-new-main"><header><div><span class="hb-new-kind"></span><h1 class="hb-new-title"></h1></div><span class="hb-new-count"></span></header><div class="hb-new-progress"><i></i></div><article class="hb-new-stage" tabindex="-1"></article><footer><button type="button" id="hbNewPrev">← Previous</button><span class="hb-new-position"></span><button type="button" id="hbNewNext">Next →</button></footer></main></section>';
+ const frame=host.querySelector('.hb-new');active.frame=frame;frame.querySelector('.hb-new-exit').onclick=()=>{document.getElementById('backTopics')?.click();};
+ const jump=frame.querySelector('#hbNewJump');jump.innerHTML=deck.map((p,i)=>'<option value="'+i+'">'+(i+1)+'. '+esc(p.title)+'</option>').join('');jump.onchange=()=>go(Number(jump.value));
+ frame.querySelector('.hb-new-outline').innerHTML=deck.map((p,i)=>'<button type="button" data-page="'+i+'"><span>'+String(i+1).padStart(2,'0')+'</span>'+esc(p.title)+'</button>').join('');
+ frame.querySelectorAll('[data-page]').forEach(b=>b.onclick=()=>go(Number(b.dataset.page)));
+ frame.querySelector('#hbNewPrev').onclick=()=>go(active.index-1);frame.querySelector('#hbNewNext').onclick=()=>go(active.index+1);
+ frame.onkeydown=e=>{if(e.target.matches('input,textarea,select,button,a'))return;if(e.key==='ArrowRight'){e.preventDefault();go(active.index+1);}if(e.key==='ArrowLeft'){e.preventDefault();go(active.index-1);}};
+ root.HumanBiologyATARPlayer.current={m,practice:()=>go(deck.findIndex(p=>p.type==='practice')),mastery:()=>go(deck.findIndex(p=>p.type==='quiz'))};
+ paint();cloud(active);
+};
+function go(i){if(!active||i<0||i>=active.deck.length)return;active.index=i;paint();}
+function paint(){const a=active,{m,frame,state,deck,index}=a,p=deck[index],stage=frame.querySelector('.hb-new-stage');state.index=index;state.seen=[...new Set([...(state.seen||[]),index])];persist();
+ frame.querySelector('.hb-new-title').textContent=p.title;frame.querySelector('.hb-new-kind').textContent=({goal:'LEARNING GOALS',learn:'BUILD YOUR UNDERSTANDING',image:'LOOK CLOSELY',misconception:'CLEAR UP A MISCONCEPTION',worked:'EXPLICIT TEACHING',practice:'WRITTEN PRACTICE',quiz:'RETRIEVAL CHECK',review:'RETRIEVE AND CONNECT',sources:'FINAL REFERENCE PAGE'})[p.type];
+ frame.querySelector('.hb-new-count').textContent=(index+1)+' / '+deck.length;frame.querySelector('.hb-new-position').textContent='Page '+(index+1)+' of '+deck.length;frame.querySelector('.hb-new-progress i').style.width=((index+1)/deck.length*100)+'%';
+ frame.querySelector('#hbNewJump').value=String(index);frame.querySelectorAll('[data-page]').forEach(b=>{b.classList.toggle('current',Number(b.dataset.page)===index);b.setAttribute('aria-current',Number(b.dataset.page)===index?'step':'false');});
+ frame.querySelector('#hbNewPrev').disabled=index===0;frame.querySelector('#hbNewNext').disabled=index===deck.length-1;
+ let html='';
+ if(p.type==='goal')html='<div class="hb-new-intention"><span>By the end, you should be able to…</span><p>'+esc(p.text)+'</p></div><div class="hb-new-recall"><h3>Bring this knowledge with you</h3><p>'+esc(p.extra)+'</p></div><div class="hb-new-route"><span>01 / Understand</span><span>02 / Study images</span><span>03 / Apply</span><span>04 / Retrieve</span></div>';
+ if(p.type==='learn')html='<div class="hb-new-prose">'+p.text.split(/(?<=[.!?])\s+(?=[A-Z])/).reduce((out,s,i,arr)=>{if(i%2===0)out.push(arr.slice(i,i+2).join(' '));return out;},[]).map(s=>'<p>'+esc(s)+'</p>').join('')+'</div><aside class="hb-new-think"><strong>Pause and explain</strong><p>Explain “'+esc(p.title.toLowerCase())+'” in your own words. Include the mechanism or evidence, not just the term.</p></aside>';
+ if(p.type==='image'){const im=root.HBFreshImages[p.key];html='<div class="hb-new-image"><figure><img src="'+esc(im.src)+'" alt="'+esc(im.alt||im.title)+'" loading="eager"><figcaption>'+esc(im.title)+'</figcaption></figure><aside><span>READ THE IMAGE</span><p>'+esc(p.text)+'</p><button type="button" id="hbNewZoom">Enlarge image</button><small>Image credits are on the final page.</small></aside></div>';}
+ if(p.type==='misconception')html='<div class="hb-new-mistake"><span>Check the distinction</span><p>'+esc(p.text)+'</p></div><div class="hb-new-recall"><h3>Make the correction stick</h3><p>Write one accurate sentence using the key terms. Then give an example from this lesson that supports it.</p></div>';
+ if(p.type==='worked')html='<div class="hb-new-question"><span>QUESTION</span><p>'+esc(p.text)+'</p></div><div class="hb-new-answer"><h3>Model explanation</h3><p>'+esc(p.answer)+'</p></div><p class="hb-new-tip">Notice how the answer connects the cause, biological mechanism and outcome.</p>';
+ if(p.type==='practice'){const draft=state.answers?.[p.index]||'';html='<div class="hb-new-question"><span>YOUR TURN</span><p>'+esc(p.text)+'</p></div><label class="hb-new-label" for="hbNewDraft">Write your explanation</label><textarea id="hbNewDraft" placeholder="Use precise terms and connect your ideas…">'+esc(draft)+'</textarea><button type="button" id="hbNewReveal">Compare with a suggested answer</button><div id="hbNewModel" class="hb-new-answer" hidden><h3>Suggested answer</h3><p>'+esc(p.answer)+'</p><small>Check the scientific ideas, not whether your wording is identical.</small></div>';}
+ if(p.type==='quiz')html='<div class="hb-new-question"><span>RETRIEVE WITHOUT YOUR NOTES</span><p>'+esc(m.quiz[0])+'</p></div><div class="hb-new-options">'+m.quiz[1].map((s,i)=>'<button type="button" data-option="'+i+'"><b>'+String.fromCharCode(65+i)+'</b>'+esc(s)+'</button>').join('')+'</div><div class="hb-new-feedback" role="status"></div>';
+ if(p.type==='review')html='<div class="hb-new-intention"><span>Return to the learning goal</span><p>'+esc(m.goal)+'</p></div><ol class="hb-new-retrieval"><li>Explain the key mechanism or evidence without looking back.</li><li>Describe what the most useful image shows and one limit of that image.</li><li>Answer the practice questions again, then compare your reasoning.</li><li>Connect this lesson to one earlier topic.</li></ol><p class="hb-new-tip">Use the page menu to revisit a section. Reading a page and being able to explain it are different achievements.</p>';
+ if(p.type==='sources')html='<div class="hb-new-credits">'+m.images.map(key=>{const im=root.HBFreshImages[key];return '<section><strong>'+esc(im.title)+'</strong><p>'+esc(im.author)+' · <a href="'+esc(im.source)+'" target="_blank" rel="noopener">Source page</a> · <a href="'+esc(im.licenseUrl)+'" target="_blank" rel="noopener">'+esc(im.license)+'</a></p><small>'+esc(im.changes||'Displayed without altering the image content.')+'</small></section>';}).join('')+'<p class="hb-new-curriculum">Lesson text and practice were newly written for this course. Curriculum: <a href="https://senior-secondary.scsa.wa.edu.au/syllabus-and-support-materials/science/human-biology" target="_blank" rel="noopener">SCSA Human Biology ATAR</a>. Further reading: <a href="https://openstax.org/subjects/science" target="_blank" rel="noopener">OpenStax</a>; <a href="https://humanorigins.si.edu/evidence" target="_blank" rel="noopener">Smithsonian Human Origins</a>.</p></div>';
+ stage.innerHTML=html;stage.dataset.kind=p.type;
+ stage.querySelector('#hbNewDraft')?.addEventListener('input',e=>{state.answers=state.answers||{};state.answers[p.index]=e.target.value;persist();});
+ stage.querySelector('#hbNewReveal')?.addEventListener('click',e=>{stage.querySelector('#hbNewModel').hidden=false;e.target.hidden=true;fit();});
+ stage.querySelectorAll('[data-option]').forEach(b=>b.onclick=()=>{const correct=Number(b.dataset.option)===m.quiz[2];stage.querySelector('.hb-new-feedback').textContent=(correct?'Correct. ':'Try again. ')+m.quiz[3];b.classList.add(correct?'correct':'incorrect');if(correct){state.passed=true;persist();}fit();});
+ stage.querySelector('#hbNewZoom')?.addEventListener('click',()=>{const dialog=document.createElement('dialog');dialog.className='hb-new-zoom';dialog.innerHTML='<button type="button">Close image ×</button><img alt="'+esc(root.HBFreshImages[p.key].title)+'" src="'+esc(root.HBFreshImages[p.key].src)+'">';frame.append(dialog);dialog.querySelector('button').onclick=()=>dialog.close();dialog.addEventListener('close',()=>dialog.remove());dialog.showModal();});
+ requestAnimationFrame(fit);window.dispatchEvent(new CustomEvent('hb-fresh-page',{detail:{topic:m.id,index,total:deck.length}}));
+}
+function fit(){if(!active)return;const s=active.frame.querySelector('.hb-new-stage');s.style.setProperty('--hb-fit','1');const ratio=Math.min(1,(s.clientHeight-10)/Math.max(s.scrollHeight,1));if(ratio<1)s.style.setProperty('--hb-fit',String(Math.max(.72,ratio)));}
+root.addEventListener('resize',()=>{if(active?.frame.isConnected)fit();});
+})(window);
