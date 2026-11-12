@@ -1,6 +1,6 @@
 {
   "date": "2026-11-12",
-  "status": "published-source",
+  "status": "inactive",
   "lessons": 12,
   "slides": 361,
   "imageInstances": 298,
@@ -272,5 +272,11 @@
       },
       "sourceSha256": "a274b12c15d4def9471eef52362349033bb060023f21111788d14a2479538932"
     }
-  ]
+  ],
+  "active": false,
+  "activeLessonSet": "Earlier Human Biology lessons restored",
+  "activeLessons": {
+    "unit3": 44,
+    "unit4": 35
+  }
 }
