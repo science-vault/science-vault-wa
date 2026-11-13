@@ -1,511 +1,444 @@
 {
-  "updated": "2026-11-12",
-  "course": "Newly written Year 12 Human Biology sequence",
-  "textProvenance": "New explanations, examples, questions and feedback written during this rebuild; no presentation text imported. External visuals credited separately.",
-  "totals": {
-    "lessons": 44,
-    "unit3": 24,
-    "unit4": 17,
-    "inquiry": 3,
-    "imageStudyPages": 95,
-    "distinctImages": 69,
-    "newImages": 22,
-    "workedExamples": 44,
-    "writtenPracticeQuestions": 88,
-    "retrievalChecks": 44,
-    "syllabusMappings": 52
+  "edition": "Textbook expansion, 13 November 2026",
+  "statistics": {
+    "lessons": 58,
+    "units": {
+      "3": 27,
+      "4": 27,
+      "I": 4
+    },
+    "sections": 442,
+    "words": 52830,
+    "practice": 276,
+    "images": 73,
+    "imagePlacements": 134,
+    "tables": 17
   },
+  "imageMatching": "Every lesson image key resolves to source metadata and an image-specific reading guide. Separate taxon profiles use taxon-specific fossil images. Four added numerical charts are explicitly synthetic teaching data.",
   "lessons": [
     {
-      "id": "hb12-inquiry-planning",
-      "title": "01 · Plan a valid, safe and ethical investigation",
-      "unit": "I",
-      "teachingSections": 4,
-      "images": [
-        "method"
-      ],
-      "words": 426
-    },
-    {
-      "id": "hb12-inquiry-data",
-      "title": "02 · Analyse data, graphs and uncertainty",
-      "unit": "I",
-      "teachingSections": 4,
-      "images": [
-        "method"
-      ],
-      "words": 443
-    },
-    {
-      "id": "hb12-inquiry-evidence",
-      "title": "03 · Evaluate claims and communicate a scientific argument",
-      "unit": "I",
-      "teachingSections": 4,
-      "images": [
-        "method"
-      ],
-      "words": 420
-    },
-    {
-      "id": "hb12-endocrine-intro",
-      "title": "01 · Homeostasis and the endocrine map",
-      "unit": "3",
-      "teachingSections": 4,
+      "id": "endocrine-intro",
       "images": [
         "endocrine",
         "feedback"
-      ],
-      "words": 436
+      ]
     },
     {
-      "id": "hb12-hormone-cell-action",
-      "title": "02 · How hormones change target cells",
-      "unit": "3",
-      "teachingSections": 4,
+      "id": "hormone-cell-action",
       "images": [
         "peptide",
         "steroid"
-      ],
-      "words": 406
+      ]
     },
     {
-      "id": "hb12-hypothalamus-pituitary",
-      "title": "03 · Hypothalamus and pituitary control",
-      "unit": "3",
-      "teachingSections": 4,
+      "id": "hypothalamus-pituitary",
       "images": [
         "pituitary",
         "cortisol"
-      ],
-      "words": 376
+      ]
     },
     {
-      "id": "hb12-thyroid",
-      "title": "04 · Thyroid hormones and metabolic regulation",
-      "unit": "3",
-      "teachingSections": 4,
+      "id": "thyroid",
       "images": [
         "thyroid",
         "endocrine"
-      ],
-      "words": 392
+      ]
     },
     {
-      "id": "hb12-calcium-regulation",
-      "title": "05 · Parathyroid hormone and calcium balance",
-      "unit": "3",
-      "teachingSections": 4,
+      "id": "calcium-regulation",
       "images": [
         "calcium"
-      ],
-      "words": 408
+      ]
     },
     {
-      "id": "hb12-adrenal",
-      "title": "06 · Adrenal glands and other endocrine organs",
-      "unit": "3",
-      "teachingSections": 4,
+      "id": "adrenal",
       "images": [
         "adrenal",
         "endocrine"
-      ],
-      "words": 374
+      ]
     },
     {
-      "id": "hb12-glucose-homeostasis",
-      "title": "07 · Blood glucose: insulin, glucagon and adrenaline",
-      "unit": "3",
-      "teachingSections": 4,
+      "id": "glucose-homeostasis",
       "images": [
         "glucose"
-      ],
-      "words": 409
+      ]
     },
     {
-      "id": "hb12-fluid-homeostasis",
-      "title": "08 · Water, salt and kidney control",
-      "unit": "3",
-      "teachingSections": 4,
+      "id": "fluid-homeostasis",
       "images": [
         "nephron",
         "adh",
         "aquaporin"
-      ],
-      "words": 391
+      ]
     },
     {
-      "id": "hb12-thermoregulation",
-      "title": "09 · Thermoregulation: heat gain and heat loss",
-      "unit": "3",
-      "teachingSections": 4,
+      "id": "thermoregulation",
       "images": [
         "temperature",
         "feedback"
-      ],
-      "words": 385
+      ]
     },
     {
-      "id": "hb12-nervous-overview",
-      "title": "10 · Nervous-system divisions and neuron structure",
-      "unit": "3",
-      "teachingSections": 4,
+      "id": "nervous-overview",
       "images": [
         "nervous",
         "neuron",
         "myelin"
-      ],
-      "words": 393
+      ]
     },
     {
-      "id": "hb12-action-potentials",
-      "title": "11 · Action potentials, ion channels and propagation",
-      "unit": "3",
-      "teachingSections": 4,
+      "id": "action-potentials",
       "images": [
         "action",
         "myelin",
         "neuron"
-      ],
-      "words": 409
+      ]
     },
     {
-      "id": "hb12-synapses-neurotransmitters",
-      "title": "12 · Chemical synapses and signal integration",
-      "unit": "3",
-      "teachingSections": 4,
+      "id": "synapses-neurotransmitters",
       "images": [
         "synapse"
-      ],
-      "words": 380
+      ]
     },
     {
-      "id": "hb12-reflexes",
-      "title": "13 · Sensory receptors and reflex arcs",
-      "unit": "3",
-      "teachingSections": 4,
+      "id": "reflexes",
       "images": [
         "reflex",
         "neuron"
-      ],
-      "words": 402
+      ]
     },
     {
-      "id": "hb12-cns-brain",
-      "title": "14 · Brain, spinal cord and CNS protection",
-      "unit": "3",
-      "teachingSections": 4,
+      "id": "cns-brain",
       "images": [
         "cortex",
         "brain",
         "brainstem",
         "meninges"
-      ],
-      "words": 395
+      ]
     },
     {
-      "id": "hb12-nervous-endocrine-compare",
-      "title": "15 · Somatic, autonomic and endocrine coordination",
-      "unit": "3",
-      "teachingSections": 4,
+      "id": "nervous-endocrine-compare",
       "images": [
         "nervous",
         "endocrine"
-      ],
-      "words": 391
+      ]
     },
     {
-      "id": "hb12-blood-gas-homeostasis",
-      "title": "16 · Blood gases, breathing and the medulla",
-      "unit": "3",
-      "teachingSections": 4,
+      "id": "blood-gas-homeostasis",
       "images": [
         "respiration"
-      ],
-      "words": 384
+      ]
     },
     {
-      "id": "hb12-immune-external",
-      "title": "17 · Pathogens, transmission and external barriers",
-      "unit": "3",
-      "teachingSections": 4,
+      "id": "immune-external",
       "images": [
         "innate",
         "bacteria",
         "virus"
-      ],
-      "words": 408
+      ]
     },
     {
-      "id": "hb12-immune-nonspecific",
-      "title": "18 · Inflammation, phagocytosis and fever",
-      "unit": "3",
-      "teachingSections": 4,
+      "id": "immune-nonspecific",
       "images": [
         "inflammation",
         "innate"
-      ],
-      "words": 393
+      ]
     },
     {
-      "id": "hb12-immune-specific",
-      "title": "19 · Adaptive immunity: B cells, T cells and memory",
-      "unit": "3",
-      "teachingSections": 4,
+      "id": "immune-specific",
       "images": [
         "antigen",
         "bcell",
         "antibody"
-      ],
-      "words": 397
+      ]
     },
     {
-      "id": "hb12-immune-vaccines",
-      "title": "20 · Vaccination and active or passive immunity",
-      "unit": "3",
-      "teachingSections": 4,
+      "id": "immune-vaccines",
       "images": [
         "memory",
         "bcell"
-      ],
-      "words": 394
+      ]
     },
     {
-      "id": "hb12-immune-antimicrobials",
-      "title": "21 · Antibiotics, antivirals and resistance",
-      "unit": "3",
-      "teachingSections": 4,
+      "id": "immune-antimicrobials",
       "images": [
         "bacteria",
         "virus",
         "selection"
-      ],
-      "words": 415
+      ]
     },
     {
-      "id": "hb12-recombinant-hormones",
-      "title": "22 · Recombinant hormones and vaccine manufacture",
-      "unit": "3",
-      "teachingSections": 4,
+      "id": "recombinant-hormones",
       "images": [
         "recombinant",
         "protein"
-      ],
-      "words": 407
+      ]
     },
     {
-      "id": "hb12-gene-therapy",
-      "title": "23 · Gene therapy: mechanisms, diabetes and limitations",
-      "unit": "3",
-      "teachingSections": 4,
+      "id": "gene-therapy",
       "images": [
         "gene-therapy",
         "dna"
-      ],
-      "words": 424
+      ]
     },
     {
-      "id": "hb12-nervous-disease",
-      "title": "24 · Cell replacement and nervous-system disease",
-      "unit": "3",
-      "teachingSections": 4,
+      "id": "nervous-disease",
       "images": [
         "neuron",
         "brainstem"
-      ],
-      "words": 406
+      ]
     },
     {
-      "id": "hb12-mutations",
-      "title": "01 · Gene mutations: sequence to phenotype",
-      "unit": "4",
-      "teachingSections": 4,
+      "id": "humoral-immunity",
+      "images": [
+        "bcell",
+        "antibody",
+        "memory"
+      ]
+    },
+    {
+      "id": "cell-mediated-immunity",
+      "images": [
+        "antigen",
+        "innate"
+      ]
+    },
+    {
+      "id": "unit3-synthesis",
+      "images": [
+        "teaching-glucose",
+        "feedback",
+        "memory"
+      ]
+    },
+    {
+      "id": "mutations",
       "images": [
         "dna",
         "replication",
         "mutation"
-      ],
-      "words": 426
+      ]
     },
     {
-      "id": "hb12-chromosome-mutations",
-      "title": "02 · Chromosomal changes and nondisjunction",
-      "unit": "4",
-      "teachingSections": 4,
+      "id": "chromosome-mutations",
       "images": [
         "chromosome",
         "meiosis"
-      ],
-      "words": 378
+      ]
     },
     {
-      "id": "hb12-gene-pools",
-      "title": "03 · Gene pools and allele-frequency calculations",
-      "unit": "4",
-      "teachingSections": 4,
+      "id": "gene-pools",
       "images": [
         "alleles"
-      ],
-      "words": 409
+      ]
     },
     {
-      "id": "hb12-selection",
-      "title": "04 · Natural selection and sickle-cell variation",
-      "unit": "4",
-      "teachingSections": 4,
+      "id": "selection",
       "images": [
         "selection",
         "alleles"
-      ],
-      "words": 399
+      ]
     },
     {
-      "id": "hb12-drift",
-      "title": "05 · Genetic drift, bottlenecks and founder effects",
-      "unit": "4",
-      "teachingSections": 4,
+      "id": "drift",
       "images": [
         "drift",
         "bottleneck"
-      ],
-      "words": 431
+      ]
     },
     {
-      "id": "hb12-gene-flow",
-      "title": "06 · Gene flow, isolation and speciation",
-      "unit": "4",
-      "teachingSections": 4,
+      "id": "gene-flow",
       "images": [
         "gene-flow",
         "speciation"
-      ],
-      "words": 400
+      ]
     },
     {
-      "id": "hb12-pcr",
-      "title": "07 · PCR: copying a selected DNA region",
-      "unit": "4",
-      "teachingSections": 4,
+      "id": "pcr",
       "images": [
         "pcr"
-      ],
-      "words": 411
+      ]
     },
     {
-      "id": "hb12-gels",
-      "title": "08 · Gel electrophoresis: read DNA bands carefully",
-      "unit": "4",
-      "teachingSections": 4,
+      "id": "gels",
       "images": [
         "gel",
         "pcr"
-      ],
-      "words": 397
+      ]
     },
     {
-      "id": "hb12-molecular-evidence",
-      "title": "09 · DNA, proteins and bioinformatics evidence",
-      "unit": "4",
-      "teachingSections": 4,
+      "id": "molecular-evidence",
       "images": [
         "sequencing",
         "protein",
         "dna"
-      ],
-      "words": 392
+      ]
     },
     {
-      "id": "hb12-phylogeny",
-      "title": "10 · Read phylogenetic trees and anatomical evidence",
-      "unit": "4",
-      "teachingSections": 4,
+      "id": "phylogeny",
       "images": [
         "primates",
         "homology"
-      ],
-      "words": 396
+      ]
     },
     {
-      "id": "hb12-fossils",
-      "title": "11 · Fossils and an incomplete evolutionary record",
-      "unit": "4",
-      "teachingSections": 4,
+      "id": "fossils",
       "images": [
         "fossils",
         "afarensis"
-      ],
-      "words": 388
+      ]
     },
     {
-      "id": "hb12-dating",
-      "title": "12 · Relative dating, carbon-14 and potassium–argon",
-      "unit": "4",
-      "teachingSections": 4,
+      "id": "dating",
       "images": [
         "stratigraphy",
         "radiometric"
-      ],
-      "words": 401
+      ]
     },
     {
-      "id": "hb12-primates",
-      "title": "13 · Humans, primates and the great apes",
-      "unit": "4",
-      "teachingSections": 4,
+      "id": "primates",
       "images": [
         "primates",
         "skeleton",
         "homology"
-      ],
-      "words": 392
+      ]
     },
     {
-      "id": "hb12-bipedalism",
-      "title": "14 · Bipedalism: skull, spine, pelvis, legs and feet",
-      "unit": "4",
-      "teachingSections": 4,
+      "id": "bipedalism",
       "images": [
         "bipedal",
         "skeleton"
-      ],
-      "words": 409
+      ]
     },
     {
-      "id": "hb12-early-hominins",
-      "title": "15 · Australopithecus and Paranthropus: compare evidence",
-      "unit": "4",
-      "teachingSections": 4,
+      "id": "early-hominins",
       "images": [
         "afarensis",
         "africanus",
         "robustus"
-      ],
-      "words": 422
+      ]
     },
     {
-      "id": "hb12-early-homo",
-      "title": "16 · Homo habilis, Homo erectus and early technology",
-      "unit": "4",
-      "teachingSections": 4,
+      "id": "early-homo",
       "images": [
         "habilis",
         "erectus",
         "oldowan",
         "acheulean"
-      ],
-      "words": 449
+      ]
     },
     {
-      "id": "hb12-later-homo",
-      "title": "17 · Neanderthals, modern humans and cultural evolution",
-      "unit": "4",
-      "teachingSections": 4,
+      "id": "later-homo",
       "images": [
         "neanderthal",
         "sapiens",
         "mousterian",
         "blade"
-      ],
-      "words": 432
+      ]
+    },
+    {
+      "id": "afarensis",
+      "images": [
+        "afarensis",
+        "skeleton"
+      ]
+    },
+    {
+      "id": "africanus",
+      "images": [
+        "africanus",
+        "afarensis",
+        "robustus"
+      ]
+    },
+    {
+      "id": "robustus",
+      "images": [
+        "robustus",
+        "africanus"
+      ]
+    },
+    {
+      "id": "habilis",
+      "images": [
+        "habilis",
+        "oldowan",
+        "africanus"
+      ]
+    },
+    {
+      "id": "erectus",
+      "images": [
+        "erectus",
+        "acheulean",
+        "skeleton"
+      ]
+    },
+    {
+      "id": "neanderthals",
+      "images": [
+        "neanderthal",
+        "mousterian",
+        "sapiens"
+      ]
+    },
+    {
+      "id": "sapiens",
+      "images": [
+        "sapiens",
+        "blade",
+        "neanderthal"
+      ]
+    },
+    {
+      "id": "tool-cultures",
+      "images": [
+        "oldowan",
+        "acheulean",
+        "mousterian",
+        "blade"
+      ]
+    },
+    {
+      "id": "dating-evidence",
+      "images": [
+        "stratigraphy",
+        "radiometric"
+      ]
+    },
+    {
+      "id": "unit4-synthesis",
+      "images": [
+        "teaching-alleles",
+        "primates",
+        "stratigraphy"
+      ]
+    },
+    {
+      "id": "inquiry-planning",
+      "images": [
+        "method"
+      ]
+    },
+    {
+      "id": "inquiry-data",
+      "images": [
+        "method",
+        "teaching-pulse"
+      ]
+    },
+    {
+      "id": "inquiry-evidence",
+      "images": [
+        "method"
+      ]
+    },
+    {
+      "id": "investigation-workshop",
+      "images": [
+        "method",
+        "teaching-osmosis"
+      ]
     }
   ]
 }
