@@ -1,6 +1,8 @@
 /* Site page gate. Public GitHub files still require private storage for secrecy. */
 (function(){
  const source=document.currentScript.src,root=new URL('.',source);
+ const pagePath=decodeURIComponent(location.pathname).slice(root.pathname.length);
+ if(['assessment-builder.html','upper-school-assessment-builder.html'].includes(pagePath))return;
  document.documentElement.dataset.accessState='checking';
  const css=document.createElement('style');css.textContent='html[data-access-state="checking"] body>*,html[data-access-state="denied"] body>*{visibility:hidden!important}html[data-access-state] body>#accessGate{visibility:visible!important;display:block!important}#accessGate{position:fixed;inset:0;z-index:2147483646;background:#f2f7f9;color:#183347;overflow:auto;padding:12vh 24px;font:16px/1.6 Arial,sans-serif}#accessGate .gate-card{max-width:560px;margin:auto;background:white;padding:32px;border:1px solid #d9e5e9;border-radius:22px;box-shadow:0 16px 50px #1833470c}#accessGate h1{font-size:30px;line-height:1.2;margin:12px 0}#accessGate a,#accessGate button{display:inline-block;padding:12px 18px;border:0;border-radius:9px;background:#087b6b;color:white;font:700 15px Arial;text-decoration:none;margin:8px 8px 0 0}#accessGate .gate-secondary{background:#edf3f5;color:#365366}';document.head.appendChild(css);
  let gate,title,detail,account,retry;
